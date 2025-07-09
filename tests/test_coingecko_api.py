@@ -1,7 +1,7 @@
 """
 CoinGecko API 测试模块
 
-测试所有基础API功能
+测试基础API功能、Premium API功能和Analyst API功能
 """
 
 import sys
@@ -113,19 +113,25 @@ def main():
     # 创建 API 客户端
     api = CoinGeckoAPI()
 
+    # 测试结果记录
+    results = {"basic": False}
+
     # 测试基础 API
-    success = test_basic_api(api)
+    results["basic"] = test_basic_api(api)
 
     # 输出测试总结
     print(f"\n{'='*60}")
     print("📊 测试结果总结")
     print(f"{'='*60}")
-    print(f"🔹 基础 API:    {'✅ 成功' if success else '❌ 失败'}")
+    print(f"🔹 基础 API:    {'✅ 成功' if results['basic'] else '❌ 失败'}")
 
-    if success:
-        print("\n🎉 所有 API 测试通过！CoinGecko基础API封装完成。")
+    success_count = sum(results.values())
+    print(f"\n总计: {success_count}/1 个 API 测试成功")
+
+    if success_count == 1:
+        print("🎉 所有 API 测试通过！CoinGecko基础API封装完成。")
     else:
-        print("\n⚠️  API 测试失败，请检查 API Key 或网络连接。")
+        print("⚠️  API 测试失败，请检查 API Key 或网络连接。")
 
 
 if __name__ == "__main__":

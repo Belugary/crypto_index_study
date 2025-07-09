@@ -47,7 +47,9 @@ def run_tests():
 
     try:
         result = subprocess.run(
-            [sys.executable, "test_api.py"], capture_output=True, text=True
+            [sys.executable, "tests/test_coingecko_api.py"],
+            capture_output=True,
+            text=True,
         )
         print(result.stdout)
         if result.stderr:
