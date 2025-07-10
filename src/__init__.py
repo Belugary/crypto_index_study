@@ -16,8 +16,8 @@ from .api.coingecko import CoinGeckoAPI, create_api_client
 from .data.batch_downloader import BatchDownloader, create_batch_downloader
 
 __all__ = [
-    "CoinGeckoAPI", 
+    "CoinGeckoAPI",
     "create_api_client",
     "BatchDownloader",
-    "create_batch_downloader"
+    "create_batch_downloader",
 ]
