@@ -59,3 +59,32 @@ examples/download_top300_max_history.py
 # Personal application scripts
 examples/download_top*_max_history.py
 download_top*_max_history.py
+
+# 临时文件和调试文件
+debug_*.py
+retry_*.py
+test_*.py
+temp_*.py
+tmp_*.py
+*_debug.py
+*_temp.py
+*_tmp.py
+
+# 临时数据和文档文件
+DATA_README.md
+TEMP_*.md
+*_TEMP.md
+*_DEBUG.md
+
+# 下载脚本 (除了正式的批量下载器)
+download_*.py
+fetch_*.py
+get_*.py
+
+# 实验和原型文件
+experiment_*.py
+prototype_*.py
+poc_*.py
+*_experiment.py
+*_prototype.py
+*_poc.py
