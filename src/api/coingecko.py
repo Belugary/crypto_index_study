@@ -76,6 +76,12 @@ class CoinGeckoAPI:
                 - name (str): 硬币全名（如 'Bitcoin', 'Ethereum'）
                 - platforms (Dict[str, str], optional): 平台地址信息（仅当 include_platform=True 时）
 
+        Note:
+            - 此端点不需要分页
+            - 缓存/更新频率：Pro API（Analyst、Lite、Pro、Enterprise）每 5 分钟一次
+            - 可以使用此端点查询包含 coin ID 的硬币列表，供其他包含 `id` 或 `ids` 参数的端点使用
+            - 默认返回当前在 CoinGecko.com 上列出的活跃硬币的完整列表
+
         Raises:
             requests.exceptions.RequestException: 当 API 请求失败时抛出异常
         """
@@ -108,7 +114,7 @@ class CoinGeckoAPI:
             per_page (int, optional): 每页返回的硬币数量，范围 1-250，默认为 100。
             page (int, optional): 页码，从 1 开始，默认为 1。
             order (str, optional): 排序方式，默认为 'market_cap_desc'。
-                可选值：'market_cap_desc', 'gecko_desc', 'gecko_asc', 'market_cap_asc', 
+                可选值：'market_cap_desc', 'gecko_desc', 'gecko_asc', 'market_cap_asc',
                 'market_cap_desc', 'volume_asc', 'volume_desc', 'id_asc', 'id_desc'。
             sparkline (bool, optional): 是否包含价格走势图数据，默认为 False。
             price_change_percentage (str, optional): 价格变化百分比的时间范围。
@@ -145,6 +151,14 @@ class CoinGeckoAPI:
                 - last_updated (str): 最后更新时间
                 - sparkline_in_7d (Dict, optional): 7天价格走势数据（仅当 sparkline=True 时）
                 - price_change_percentage_*h (float, optional): 指定时间范围的价格变化百分比
+
+        Note:
+            - 当提供多个查找参数时，优先级顺序为：`category`（最高）> `ids` > `names` > `symbols`（最低）
+            - 按 `name` 搜索时，需要对空格进行 URL 编码（如 "Binance Coin" 变为 "Binance%20Coin"）
+            - `include_tokens=all` 参数仅适用于 `symbols` 查找，每次请求最多限制 50 个符号
+            - 查找参数（`ids`、`names`、`symbols`）不支持通配符搜索
+            - 缓存/更新频率：Pro API（Analyst、Lite、Pro、Enterprise）每 45 秒一次
+            - 可以使用 `per_page` 和 `page` 参数管理结果数量并浏览数据
 
         Raises:
             requests.exceptions.RequestException: 当 API 请求失败时抛出异常
@@ -227,6 +241,13 @@ class CoinGeckoAPI:
                 - last_updated (str): 最后更新时间
                 - tickers (List[Dict], optional): 交易行情列表（仅当 tickers=True 时）
 
+        Note:
+            - 可通过多种方式获取硬币 ID（API ID）：
+              • 访问相应硬币页面并查找 'API ID'
+              • 使用 /coins/list 端点
+              • 参考 Google Sheets：https://docs.google.com/spreadsheets/d/1wTTuxXt8n9q7C4NDXqQpI3wpKu1_5bGVmP9Xz0XGSyU/edit
+            - 返回的是硬币的完整详细信息，包括描述、链接、社区数据等
+
         Raises:
             requests.exceptions.RequestException: 当 API 请求失败时抛出异常
         """
@@ -292,6 +313,14 @@ class CoinGeckoAPI:
                     - coin_id (str): 硬币ID
                     - target_coin_id (str): 目标硬币ID
 
+        Note:
+            - 可通过多种方式获取硬币 ID（API ID）：
+              • 访问相应硬币页面并查找 'API ID'
+              • 使用 /coins/list 端点
+              • 参考 Google Sheets：https://docs.google.com/spreadsheets/d/1wTTuxXt8n9q7C4NDXqQpI3wpKu1_5bGVmP9Xz0XGSyU/edit
+            - 返回指定硬币在各个交易所的实时交易行情数据
+            - 可以通过 exchange_ids 过滤特定交易所的数据
+
         Raises:
             requests.exceptions.RequestException: 当 API 请求失败时抛出异常
         """
@@ -352,6 +381,15 @@ class CoinGeckoAPI:
                     - alexa_rank (int): Alexa排名
                     - bing_matches (int): Bing搜索匹配数
 
+        Note:
+            - 返回的数据时间为 00:00:00 UTC
+            - 最后一个完整的 UTC 日（00:00）在下一个 UTC 日的午夜后 35 分钟（00:35）可用
+            - 可通过多种方式获取硬币 ID（API ID）：
+              • 访问相应硬币页面并查找 'API ID'
+              • 使用 /coins/list 端点
+              • 参考 Google Sheets：https://docs.google.com/spreadsheets/d/1wTTuxXt8n9q7C4NDXqQpI3wpKu1_5bGVmP9Xz0XGSyU/edit
+            - ⚠️ 注意：`twitter_followers` 数据字段将从 2025年5月15日起不再受我们的 API 支持
+
         Raises:
             requests.exceptions.RequestException: 当 API 请求失败时抛出异常
         """
@@ -394,6 +432,14 @@ class CoinGeckoAPI:
             - 所有时间戳都是 Unix 时间戳（毫秒）
             - 数据点的数量取决于查询的天数和时间间隔
             - 对于较长的时间范围，数据会被聚合以减少数据点数量
+            - 数据间隔会根据天数自动选择：
+              • days=1 时：5分钟间隔
+              • days=1-90 时：1小时间隔  
+              • days>90 时：1天间隔
+            - 可通过多种方式获取硬币 ID（API ID）：
+              • 访问相应硬币页面并查找 'API ID'
+              • 使用 /coins/list 端点
+              • 参考 Google Sheets：https://docs.google.com/spreadsheets/d/1wTTuxXt8n9q7C4NDXqQpI3wpKu1_5bGVmP9Xz0XGSyU/edit
 
         Raises:
             requests.exceptions.RequestException: 当 API 请求失败时抛出异常
@@ -439,6 +485,10 @@ class CoinGeckoAPI:
             - 时间戳参数使用秒级 Unix 时间戳，但返回数据中的时间戳是毫秒级
             - 数据间隔会根据查询的时间范围自动调整
             - 最大查询范围取决于硬币的历史数据可用性
+            - 可通过多种方式获取硬币 ID（API ID）：
+              • 访问相应硬币页面并查找 'API ID'
+              • 使用 /coins/list 端点
+              • 参考 Google Sheets：https://docs.google.com/spreadsheets/d/1wTTuxXt8n9q7C4NDXqQpI3wpKu1_5bGVmP9Xz0XGSyU/edit
 
         Raises:
             requests.exceptions.RequestException: 当 API 请求失败时抛出异常
@@ -487,6 +537,21 @@ class CoinGeckoAPI:
             - 数据间隔会根据查询的天数自动调整
             - 每个时间段（如1天、1小时等）对应一个OHLC数据点
             - 适用于创建K线图（蜡烛图）
+            - 响应负载中显示的时间戳表示 OHLC 数据的结束（或收盘）时间
+            - 数据粒度（蜡烛主体）是自动的：
+              • 1-2天：30分钟
+              • 3-30天：4小时
+              • 31天及以上：4天
+            - 缓存/更新频率：所有 API 计划每 15 分钟一次
+            - 最后一个完整的 UTC 日（00:00）在下一个 UTC 日的午夜后 35 分钟（00:35）可用
+            - 付费计划订阅者可使用专属的每日和每小时蜡烛间隔参数：
+              • 'daily' 间隔仅适用于 1/7/14/30/90/180 天
+              • 'hourly' 间隔仅适用于 1/7/14/30/90 天
+            - 可通过多种方式获取硬币 ID（API ID）：
+              • 访问相应硬币页面并查找 'API ID'
+              • 使用 /coins/list 端点
+              • 参考 Google Sheets：https://docs.google.com/spreadsheets/d/1wTTuxXt8n9q7C4NDXqQpI3wpKu1_5bGVmP9Xz0XGSyU/edit
+            - 如需更好粒度的历史图表数据，可考虑使用 /coins/{id}/market_chart 端点
 
         Raises:
             requests.exceptions.RequestException: 当 API 请求失败时抛出异常
@@ -516,10 +581,10 @@ def create_api_client(api_key: Optional[str] = None) -> CoinGeckoAPI:
     Example:
         >>> # 使用环境变量中的API密钥
         >>> api = create_api_client()
-        >>> 
+        >>>
         >>> # 或者直接提供API密钥
         >>> api = create_api_client("your-api-key-here")
-        >>> 
+        >>>
         >>> # 获取Bitcoin市场数据
         >>> btc_data = api.get_coins_markets(ids="bitcoin")
     """
