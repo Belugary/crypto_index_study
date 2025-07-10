@@ -4,15 +4,15 @@ CoinGecko API 使用示例
 演示如何使用 CoinGeckoAPI 类进行各种数据查询
 """
 
-import sys
 import os
+import sys
 import time
 
 # 添加项目根目录到Python路径
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.api.coingecko import CoinGeckoAPI
-from src.utils import print_json, format_currency, calculate_percentage_change
+from src.utils import calculate_percentage_change, format_currency, print_json
 
 
 def example_basic_usage():

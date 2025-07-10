@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""
+""":
 CoinGecko API 项目主入口文件
 
 使用方式:
@@ -8,8 +8,9 @@ CoinGecko API 项目主入口文件
     python main.py --examples   # 运行所有示例
 """
 
-import sys
 import argparse
+import sys
+
 from src.api.coingecko import CoinGeckoAPI
 
 
