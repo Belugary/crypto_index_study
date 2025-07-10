@@ -50,5 +50,5 @@ data/logs/
 # Local Test Files
 tests/test_coingecko_api_local.py
 
-# GitHub Copilot Instructions (contains sensitive info)
-.github/copilot-instructions.md
+# GitHub configuration and workflows (may contain sensitive info)
+.github/
