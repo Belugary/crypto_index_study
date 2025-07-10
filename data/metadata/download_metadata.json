@@ -1,17 +1,17 @@
 {
   "tether": {
-    "last_update": "2025-07-10T05:58:16.065456+00:00",
-    "days": "max",
+    "last_update": "2025-07-10T08:48:21.888798+00:00",
+    "days": "30",
     "version": "1.0"
   },
   "bitcoin": {
-    "last_update": "2025-07-10T05:58:18.475856+00:00",
-    "days": "max",
+    "last_update": "2025-07-10T08:48:23.006308+00:00",
+    "days": "30",
     "version": "1.0"
   },
   "ethereum": {
-    "last_update": "2025-07-10T05:58:20.905150+00:00",
-    "days": "max",
+    "last_update": "2025-07-10T08:48:24.108624+00:00",
+    "days": "30",
     "version": "1.0"
   },
   "usd-coin": {
@@ -25,18 +25,18 @@
     "version": "1.0"
   },
   "solana": {
-    "last_update": "2025-07-10T05:58:08.942316+00:00",
-    "days": "30",
+    "last_update": "2025-07-10T08:33:05.831513+00:00",
+    "days": "max",
     "version": "1.0"
   },
   "binance-bridged-usdt-bnb-smart-chain": {
-    "last_update": "2025-07-10T05:58:10.309602+00:00",
-    "days": "30",
+    "last_update": "2025-07-10T08:33:10.632739+00:00",
+    "days": "max",
     "version": "1.0"
   },
   "ripple": {
-    "last_update": "2025-07-10T05:58:11.664761+00:00",
-    "days": "30",
+    "last_update": "2025-07-10T08:33:08.256549+00:00",
+    "days": "max",
     "version": "1.0"
   },
   "dogecoin": {
@@ -45,8 +45,448 @@
     "version": "1.0"
   },
   "bnb48-club-token": {
-    "last_update": "2025-07-10T05:58:14.525349+00:00",
-    "days": "30",
+    "last_update": "2025-07-10T08:33:17.902136+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "pepe": {
+    "last_update": "2025-07-10T08:33:15.503368+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "sui": {
+    "last_update": "2025-07-10T08:33:21.022319+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "cardano": {
+    "last_update": "2025-07-10T08:33:23.417032+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "bonk": {
+    "last_update": "2025-07-10T08:33:25.748067+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "binancecoin": {
+    "last_update": "2025-07-10T08:33:28.162737+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "stellar": {
+    "last_update": "2025-07-10T08:33:30.628070+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "wrapped-solana": {
+    "last_update": "2025-07-10T08:33:33.068541+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "uniswap": {
+    "last_update": "2025-07-10T08:33:35.528854+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "l2-standard-bridged-weth-base": {
+    "last_update": "2025-07-10T08:33:38.199375+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "aave": {
+    "last_update": "2025-07-10T08:33:40.567746+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "quq": {
+    "last_update": "2025-07-10T08:33:42.959868+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "tron": {
+    "last_update": "2025-07-10T08:33:45.366333+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "pudgy-penguins": {
+    "last_update": "2025-07-10T08:33:48.231964+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "weth": {
+    "last_update": "2025-07-10T08:33:50.629837+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "chainlink": {
+    "last_update": "2025-07-10T08:33:53.047244+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "dogwifcoin": {
+    "last_update": "2025-07-10T08:33:55.379639+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "official-trump": {
+    "last_update": "2025-07-10T08:34:00.640470+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "arbitrum-bridged-weth-arbitrum-one": {
+    "last_update": "2025-07-10T08:34:02.986372+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "avalanche-2": {
+    "last_update": "2025-07-10T08:34:05.387676+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "usd1-wlfi": {
+    "last_update": "2025-07-10T08:34:07.856213+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "usdt0": {
+    "last_update": "2025-07-10T08:34:10.177870+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "hedera-hashgraph": {
+    "last_update": "2025-07-10T08:34:12.572884+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "coinbase-wrapped-btc": {
+    "last_update": "2025-07-10T08:34:14.902991+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "hyperliquid": {
+    "last_update": "2025-07-10T08:34:17.236194+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "arbitrum": {
+    "last_update": "2025-07-10T08:34:19.579905+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "hyperlane": {
+    "last_update": "2025-07-10T08:34:22.030267+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "sahara-ai": {
+    "last_update": "2025-07-10T08:34:24.363900+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "bitcoin-cash": {
+    "last_update": "2025-07-10T08:34:26.788524+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "fartcoin": {
+    "last_update": "2025-07-10T08:34:29.099900+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "wrapped-bitcoin": {
+    "last_update": "2025-07-10T08:34:32.446790+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "magic": {
+    "last_update": "2025-07-10T08:34:34.799954+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "ethena": {
+    "last_update": "2025-07-10T08:34:37.119089+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "binance-bridged-usdc-bnb-smart-chain": {
+    "last_update": "2025-07-10T08:34:39.433509+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "polkadot": {
+    "last_update": "2025-07-10T08:34:41.848502+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "virtual-protocol": {
+    "last_update": "2025-07-10T08:34:44.199551+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "optimism": {
+    "last_update": "2025-07-10T08:34:46.601565+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "mantle": {
+    "last_update": "2025-07-10T08:34:48.942312+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "bedrock-token": {
+    "last_update": "2025-07-10T08:34:51.273901+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "shiba-inu": {
+    "last_update": "2025-07-10T08:34:53.658217+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "aptos": {
+    "last_update": "2025-07-10T08:34:56.018612+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "peanut-the-squirrel": {
+    "last_update": "2025-07-10T08:34:58.348971+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "ether-fi": {
+    "last_update": "2025-07-10T08:35:01.524014+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "filecoin": {
+    "last_update": "2025-07-10T08:35:03.885595+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "banana-for-scale-2": {
+    "last_update": "2025-07-10T08:35:06.222634+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "wbnb": {
+    "last_update": "2025-07-10T08:35:08.599875+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "lagrange": {
+    "last_update": "2025-07-10T08:35:10.925161+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "floki": {
+    "last_update": "2025-07-10T08:35:13.281761+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "celestia": {
+    "last_update": "2025-07-10T08:35:15.649535+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "near": {
+    "last_update": "2025-07-10T08:35:18.062793+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "worldcoin-wld": {
+    "last_update": "2025-07-10T08:35:20.402327+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "the-open-network": {
+    "last_update": "2025-07-10T08:35:22.790125+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "gmx": {
+    "last_update": "2025-07-10T08:35:25.143206+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "sei-network": {
+    "last_update": "2025-07-10T08:35:27.465594+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "curve-dao-token": {
+    "last_update": "2025-07-10T08:35:29.851881+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "arbitrum-bridged-wbtc-arbitrum-one": {
+    "last_update": "2025-07-10T08:35:32.177177+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "gemini-dollar": {
+    "last_update": "2025-07-10T08:35:34.565299+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "compound-governance-token": {
+    "last_update": "2025-07-10T08:35:36.985341+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "raydium": {
+    "last_update": "2025-07-10T08:35:39.367092+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "ethena-usde": {
+    "last_update": "2025-07-10T08:35:41.737289+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "bittensor": {
+    "last_update": "2025-07-10T08:35:44.079886+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "ondo-finance": {
+    "last_update": "2025-07-10T08:35:46.425160+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "injective-protocol": {
+    "last_update": "2025-07-10T08:35:48.853416+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "neiro-3": {
+    "last_update": "2025-07-10T08:35:51.190277+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "bitget-token": {
+    "last_update": "2025-07-10T08:35:53.566515+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "aixbt": {
+    "last_update": "2025-07-10T08:35:55.872855+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "fetch-ai": {
+    "last_update": "2025-07-10T08:35:58.595283+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "seraph": {
+    "last_update": "2025-07-10T08:36:00.916058+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "the-sandbox": {
+    "last_update": "2025-07-10T08:36:03.310822+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "lido-dao": {
+    "last_update": "2025-07-10T08:36:09.592374+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "space-nation-oikos": {
+    "last_update": "2025-07-10T08:36:12.411005+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "moo-deng": {
+    "last_update": "2025-07-10T08:36:14.739084+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "agora-dollar": {
+    "last_update": "2025-07-10T08:36:17.087904+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "wrapped-avax": {
+    "last_update": "2025-07-10T08:36:19.463929+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "polygon-ecosystem-token": {
+    "last_update": "2025-07-10T08:36:22.062015+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "dai": {
+    "last_update": "2025-07-10T08:36:25.014006+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "cosmos": {
+    "last_update": "2025-07-10T08:36:27.471250+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "humanity": {
+    "last_update": "2025-07-10T08:36:29.791428+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "sonic-3": {
+    "last_update": "2025-07-10T08:36:32.102622+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "impossible-cloud-network-token": {
+    "last_update": "2025-07-10T08:36:34.429474+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "gala": {
+    "last_update": "2025-07-10T08:36:36.810615+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "render-token": {
+    "last_update": "2025-07-10T08:36:39.206556+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "thorchain": {
+    "last_update": "2025-07-10T08:36:41.634640+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "sophon": {
+    "last_update": "2025-07-10T08:36:44.014850+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "spx6900": {
+    "last_update": "2025-07-10T08:36:46.354389+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "unichain-bridged-wbtc-unichain": {
+    "last_update": "2025-07-10T08:36:48.751390+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "babylon": {
+    "last_update": "2025-07-10T08:36:51.066471+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "newton-project": {
+    "last_update": "2025-07-10T08:36:53.454317+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "ai16z": {
+    "last_update": "2025-07-10T08:36:55.769336+00:00",
+    "days": "max",
     "version": "1.0"
   }
 }
