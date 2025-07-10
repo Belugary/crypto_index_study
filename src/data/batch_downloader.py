@@ -145,15 +145,15 @@ class BatchDownloader:
 
     def _get_top_coins(self, top_n: int, buffer_size: int) -> List[str]:
         """
-        获取按交易量排名的前 N 名币种
+        获取按市值排名的前 N 名币种
 
         "实用胜于纯粹" - 使用更大的缓冲区来应对排名波动
         """
         try:
-            # 获取市场数据，按24小时交易量排序
+            # 获取市场数据，按市值排序
             market_data = self.api.get_coins_markets(
                 vs_currency="usd",
-                order="volume_desc",
+                order="market_cap_desc",
                 per_page=min(buffer_size, 250),  # API限制每页最多250个
                 page=1,
                 sparkline=False,
@@ -162,7 +162,7 @@ class BatchDownloader:
             # 提取币种ID列表
             coin_ids = [coin["id"] for coin in market_data[:top_n]]
 
-            self.logger.info(f"从 {len(market_data)} 个币种中选择前 {len(coin_ids)} 个")
+            self.logger.info(f"按市值排序，从 {len(market_data)} 个币种中选择前 {len(coin_ids)} 个")
             return coin_ids
 
         except Exception as e:
