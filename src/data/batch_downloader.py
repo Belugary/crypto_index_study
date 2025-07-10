@@ -162,7 +162,9 @@ class BatchDownloader:
             # 提取币种ID列表
             coin_ids = [coin["id"] for coin in market_data[:top_n]]
 
-            self.logger.info(f"按市值排序，从 {len(market_data)} 个币种中选择前 {len(coin_ids)} 个")
+            self.logger.info(
+                f"按市值排序，从 {len(market_data)} 个币种中选择前 {len(coin_ids)} 个"
+            )
             return coin_ids
 
         except Exception as e:
@@ -271,11 +273,11 @@ class BatchDownloader:
                 volume = None
                 if i < len(total_volumes) and total_volumes[i][1] is not None:
                     volume = float(total_volumes[i][1])
-                
+
                 market_cap = None
                 if i < len(market_caps) and market_caps[i][1] is not None:
                     market_cap = float(market_caps[i][1])
-                
+
                 row = {
                     "timestamp": int(timestamp),
                     "price": float(price) if price is not None else None,
