@@ -120,23 +120,24 @@ class DailyDataAggregator:
 
     def _get_daily_file_path(self, date_str: str) -> Path:
         """获取每日数据文件的分层路径
-        
+
         Args:
             date_str: 日期字符串 "YYYY-MM-DD"
-            
+
         Returns:
             分层路径: daily_files/YYYY/MM/YYYY-MM-DD.csv
         """
         try:
             from datetime import datetime
-            date_obj = datetime.strptime(date_str, '%Y-%m-%d')
-            year = date_obj.strftime('%Y')
-            month = date_obj.strftime('%m')
-            
+
+            date_obj = datetime.strptime(date_str, "%Y-%m-%d")
+            year = date_obj.strftime("%Y")
+            month = date_obj.strftime("%m")
+
             # 创建年/月子目录
             year_month_dir = self.daily_files_dir / year / month
             year_month_dir.mkdir(parents=True, exist_ok=True)
-            
+
             return year_month_dir / f"{date_str}.csv"
         except ValueError:
             logger.error(f"无效日期格式: {date_str}")
@@ -329,17 +330,17 @@ class DailyDataAggregator:
         logger.info("从已保存的文件中加载每日数据...")
 
         csv_files = []
-        
+
         # 扫描分层结构
         for year_dir in self.daily_files_dir.iterdir():
             if year_dir.is_dir() and year_dir.name.isdigit():
                 for month_dir in year_dir.iterdir():
                     if month_dir.is_dir() and month_dir.name.isdigit():
                         csv_files.extend(list(month_dir.glob("*.csv")))
-        
+
         # 同时支持平铺结构
         csv_files.extend(list(self.daily_files_dir.glob("*.csv")))
-        
+
         logger.info(f"发现 {len(csv_files)} 个每日数据文件")
 
         for csv_file in csv_files:
@@ -357,7 +358,7 @@ class DailyDataAggregator:
     def get_available_daily_dates(self) -> List[str]:
         """获取所有可用的每日数据日期"""
         dates = []
-        
+
         # 扫描分层结构: YYYY/MM/*.csv
         for year_dir in self.daily_files_dir.iterdir():
             if year_dir.is_dir() and year_dir.name.isdigit():
@@ -365,11 +366,11 @@ class DailyDataAggregator:
                     if month_dir.is_dir() and month_dir.name.isdigit():
                         csv_files = list(month_dir.glob("*.csv"))
                         dates.extend([f.stem for f in csv_files])
-        
+
         # 同时支持平铺结构的文件
         csv_files = list(self.daily_files_dir.glob("*.csv"))
         dates.extend([f.stem for f in csv_files])
-        
+
         # 去重并排序
         dates = list(set(dates))
         dates.sort()
