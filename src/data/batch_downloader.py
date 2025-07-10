@@ -55,6 +55,7 @@ class BatchDownloader:
         days: str,
         vs_currency: str = "usd",
         force_update: bool = False,
+        force_overwrite: bool = False,
         buffer_size: int = 500,
         max_retries: int = 3,
         retry_delay: int = 5,
@@ -70,6 +71,7 @@ class BatchDownloader:
             days: 历史数据天数，可以是数字字符串或 "max"
             vs_currency: 对比货币，默认为 "usd"
             force_update: 是否强制更新（忽略缓存）
+            force_overwrite: 是否强制覆盖（忽略新鲜度检查），默认 False
             buffer_size: 获取币种列表的缓冲区大小
             max_retries: 最大重试次数
             retry_delay: 重试延迟（秒）
@@ -84,6 +86,7 @@ class BatchDownloader:
         self.logger.info(f"开始批量下载任务：前{top_n}名币种，{days}天数据")
 
         results = {}
+        failed_coins = []  # 记录失败的币种
 
         try:
             # 获取前 N 名币种列表
@@ -95,8 +98,12 @@ class BatchDownloader:
                 for coin_id in pbar:
                     pbar.set_postfix({"当前": coin_id})
 
-                    # 检查是否需要更新
-                    if not force_update and self._check_data_freshness(coin_id, days):
+                    # 检查是否需要更新 (force_overwrite 会跳过新鲜度检查)
+                    if (
+                        not force_update
+                        and not force_overwrite
+                        and self._check_data_freshness(coin_id, days)
+                    ):
                         results[coin_id] = "skipped"
                         self.logger.debug(f"{coin_id}: 数据已是最新，跳过")
                         continue
@@ -106,7 +113,11 @@ class BatchDownloader:
                         coin_id, days, vs_currency, max_retries, retry_delay
                     )
 
-                    results[coin_id] = "success" if success else "failed"
+                    if success:
+                        results[coin_id] = "success"
+                    else:
+                        results[coin_id] = "failed"
+                        failed_coins.append(coin_id)  # 记录失败的币种
 
                     # API 请求间隔
                     if request_interval > 0:
@@ -120,6 +131,11 @@ class BatchDownloader:
             self.logger.info(
                 f"批量下载完成 - 成功: {success_count}, 跳过: {skipped_count}, 失败: {failed_count}"
             )
+
+            # 记录失败的币种详情
+            if failed_coins:
+                self.logger.warning(f"下载失败的币种: {', '.join(failed_coins)}")
+                self._save_failed_coins_log(failed_coins, days)
 
         except Exception as e:
             self.logger.error(f"批量下载过程中发生错误: {e}")
@@ -386,6 +402,139 @@ class BatchDownloader:
             return [f.stem for f in csv_files]
         except Exception as e:
             self.logger.error(f"列出已下载币种失败: {e}")
+            return []
+
+    def _save_failed_coins_log(self, failed_coins: List[str], days: str) -> None:
+        """
+        保存失败币种记录到日志文件
+
+        "显式胜于隐式" - 明确记录失败信息供后续处理
+        """
+        try:
+            log_file = self.logs_dir / "failed_downloads.log"
+            timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+
+            with open(log_file, "a", encoding="utf-8") as f:
+                f.write(f"\n=== 下载失败记录 ({timestamp}) ===\n")
+                f.write(f"参数: days={days}\n")
+                f.write(f"失败币种数量: {len(failed_coins)}\n")
+                f.write("失败币种列表:\n")
+                for coin in failed_coins:
+                    f.write(f"  - {coin}\n")
+                f.write("\n")
+
+            self.logger.info(f"失败记录已保存到: {log_file}")
+
+        except Exception as e:
+            self.logger.error(f"保存失败记录时出错: {e}")
+
+    def retry_failed_downloads(
+        self,
+        failed_coins: List[str],
+        days: str,
+        vs_currency: str = "usd",
+        max_retries: int = 3,
+        retry_delay: int = 5,
+        request_interval: int = 2,
+    ) -> Dict[str, str]:
+        """
+        重新下载失败的币种
+
+        "面对错误，永远不要默默忽视" - 提供重试机制修复失败
+
+        Args:
+            failed_coins: 失败的币种列表
+            days: 历史数据天数
+            vs_currency: 对比货币
+            max_retries: 最大重试次数
+            retry_delay: 重试延迟
+            request_interval: 请求间隔
+
+        Returns:
+            Dict[str, str]: 重试结果
+        """
+        self.logger.info(f"开始重试下载 {len(failed_coins)} 个失败的币种")
+
+        results = {}
+
+        try:
+            with tqdm(failed_coins, desc="重试下载", unit="币种") as pbar:
+                for coin_id in pbar:
+                    pbar.set_postfix({"当前": coin_id})
+
+                    success = self._download_single_coin(
+                        coin_id, days, vs_currency, max_retries, retry_delay
+                    )
+
+                    results[coin_id] = "success" if success else "failed"
+
+                    if request_interval > 0:
+                        time.sleep(request_interval)
+
+            # 统计重试结果
+            retry_success = sum(1 for status in results.values() if status == "success")
+            retry_failed = sum(1 for status in results.values() if status == "failed")
+
+            self.logger.info(
+                f"重试完成 - 成功: {retry_success}, 仍失败: {retry_failed}"
+            )
+
+            # 如果还有失败的，再次记录
+            still_failed = [
+                coin for coin, status in results.items() if status == "failed"
+            ]
+            if still_failed:
+                self._save_failed_coins_log(still_failed, days)
+
+        except Exception as e:
+            self.logger.error(f"重试下载过程中发生错误: {e}")
+
+        return results
+
+    def get_failed_coins_from_log(self) -> List[str]:
+        """
+        从日志文件中获取最近失败的币种列表
+
+        Returns:
+            List[str]: 最近失败的币种列表
+        """
+        try:
+            log_file = self.logs_dir / "failed_downloads.log"
+            if not log_file.exists():
+                return []
+
+            with open(log_file, "r", encoding="utf-8") as f:
+                content = f.read()
+
+            # 找到最后一次失败记录
+            records = content.split("=== 下载失败记录")
+            if len(records) < 2:
+                return []
+
+            # 获取最后一个记录
+            last_record = records[-1]
+
+            failed_coins = []
+            lines = last_record.split("\n")
+
+            # 寻找币种列表
+            in_coins_section = False
+            for line in lines:
+                line = line.strip()
+                if line == "失败币种列表:":
+                    in_coins_section = True
+                    continue
+                elif in_coins_section and line.startswith("- "):
+                    coin_name = line[2:]  # 去掉 "- " 前缀
+                    failed_coins.append(coin_name)
+                elif in_coins_section and line == "" and failed_coins:
+                    # 遇到空行且已经找到币种，结束币种列表
+                    break
+
+            return failed_coins
+
+        except Exception as e:
+            self.logger.error(f"读取失败记录时出错: {e}")
             return []
 
 

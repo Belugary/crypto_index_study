@@ -7,14 +7,13 @@
 import os
 import sys
 import tempfile
-import shutil
-from unittest.mock import Mock, patch
+from unittest.mock import Mock
 
 # 添加项目根目录到Python路径
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from src.data.batch_downloader import BatchDownloader, create_batch_downloader
 from src.api.coingecko import CoinGeckoAPI
+from src.data.batch_downloader import BatchDownloader, create_batch_downloader
 
 
 def test_batch_downloader_init():
