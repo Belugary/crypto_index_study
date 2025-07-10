@@ -152,19 +152,23 @@ class BatchDownloader:
         try:
             market_data = []
             needed_coins = max(top_n, buffer_size)  # 确保获取足够的币种
-            
+
             # 计算需要多少页
             per_page = 250  # API每页最大250个
             total_pages = (needed_coins + per_page - 1) // per_page  # 向上取整
-            
-            self.logger.info(f"需要获取前 {needed_coins} 个币种，将分 {total_pages} 页获取")
-            
+
+            self.logger.info(
+                f"需要获取前 {needed_coins} 个币种，将分 {total_pages} 页获取"
+            )
+
             # 分页获取市场数据
             for page in range(1, total_pages + 1):
                 page_size = min(per_page, needed_coins - len(market_data))
-                
-                self.logger.info(f"正在获取第 {page}/{total_pages} 页数据 (每页 {page_size} 个)")
-                
+
+                self.logger.info(
+                    f"正在获取第 {page}/{total_pages} 页数据 (每页 {page_size} 个)"
+                )
+
                 page_data = self.api.get_coins_markets(
                     vs_currency="usd",
                     order="market_cap_desc",
@@ -172,13 +176,13 @@ class BatchDownloader:
                     page=page,
                     sparkline=False,
                 )
-                
+
                 market_data.extend(page_data)
-                
+
                 # 如果获取的数据已经够了，就停止
                 if len(market_data) >= needed_coins:
                     break
-                
+
                 # 避免API限制，稍微延迟一下
                 if page < total_pages:
                     time.sleep(0.5)
