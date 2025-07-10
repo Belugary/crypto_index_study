@@ -45,6 +45,7 @@ Thumbs.db
 
 # Logs
 *.log
+data/logs/
 
 # Local Test Files
 tests/test_coingecko_api_local.py
