@@ -354,7 +354,7 @@ class DailyDataAggregator:
         # 确保输入是 date 对象
         if isinstance(target_date, datetime):
             target_date = target_date.date()
-            
+
         date_str = target_date.strftime("%Y-%m-%d")
         year = target_date.strftime("%Y")
         month = target_date.strftime("%m")
