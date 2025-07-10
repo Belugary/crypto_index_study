@@ -512,7 +512,7 @@ class CoinGeckoAPI:
         self,
         coin_id: str,
         vs_currency: str = "usd",
-        days: int = 1,
+        days: str = "1",
         interval: Optional[str] = None,
         precision: Optional[str] = None,
     ) -> Dict[str, Any]:
@@ -525,12 +525,18 @@ class CoinGeckoAPI:
             coin_id (str): 硬币的唯一标识符，如 'bitcoin', 'ethereum'。
             vs_currency (str, optional): 对比货币代码，默认为 'usd'。
                 支持的货币包括：usd, eur, jpy, btc, eth, ltc, bch, bnb, eos, xrp, xlm 等。
-            days (int, optional): 查询的天数，默认为 1。
-                可选值：1, 7, 14, 30, 90, 180, 365, 'max'。
-                当 days=1 时，数据间隔为 5 分钟；days=1-90 时为 1 小时；days>90 时为 1 天。
-            interval (str, optional): 数据间隔，默认根据天数自动选择。
-                可选值：'5m'（5分钟）, '1h'（1小时）, '1d'（1天）。
-            precision (str, optional): 价格精度，范围 0-18 位小数，或 'full' 显示完整精度。
+                参考 /simple/supported_vs_currencies 端点获取完整列表。
+            days (str, optional): 查询的天数，默认为 "1"。
+                可选值：任何整数字符串（如 "1", "7", "30"）或 "max"。
+            interval (str, optional): 数据间隔，留空则使用自动粒度。
+                - 自动粒度规则：
+                  • 1天内：5分钟间隔
+                  • 2-90天：1小时间隔  
+                  • 90天以上：1天间隔（00:00 UTC）
+                - Enterprise 计划专属间隔：
+                  • "5m"：5分钟间隔（过去10天数据）
+                  • "hourly"：1小时间隔（过去100天数据）
+            precision (str, optional): 货币价格值的小数位数，范围 0-18 位或 'full'。
 
         Returns:
             Dict[str, Any]: 历史图表数据，包含三个主要数据数组：
@@ -557,25 +563,27 @@ class CoinGeckoAPI:
                 - days=1: 每5分钟一个数据点
                 - days=1-90: 每1小时一个数据点
                 - days>90: 每1天一个数据点
+                - days='max': 每1天一个数据点（所有历史数据）
 
         Note:
             - 所有时间戳都是 Unix 时间戳（毫秒）
-            - 数据点的数量取决于查询的天数和时间间隔
-            - 对于较长的时间范围，数据会被聚合以减少数据点数量
-            - 数据间隔会根据天数自动选择：
-                • days=1 时：5分钟间隔
-                • days=1-90 时：1小时间隔
-                • days>90 时：1天间隔
+            - interval 参数留空时使用自动粒度，建议非企业用户采用此方式
+            - Enterprise 计划专属的 interval 参数可绕过自动粒度：
+                • interval=5m：5分钟历史数据（过去10天）
+                • interval=hourly：1小时历史数据（过去100天）
+            - 缓存/更新频率：所有 API 计划每 30 秒一次（针对最新数据点）
+            - 最后一个完整的 UTC 日（00:00）数据在下一个 UTC 日的午夜后 10 分钟（00:10）可用
             - 可通过多种方式获取硬币 ID（API ID）：
                 • 访问相应硬币页面并查找 'API ID'
                 • 使用 /coins/list 端点
                 • 参考 Google Sheets：https://docs.google.com/spreadsheets/d/1wTTuxXt8n9q7C4NDXqQpI3wpKu1_5bGVmP9Xz0XGSyU/edit
+            - 可使用 epoch 转换工具将人类可读日期转换为 UNIX 时间戳
 
         Raises:
             requests.exceptions.RequestException: 当 API 请求失败时抛出异常
         """
         endpoint = f"coins/{coin_id}/market_chart"
-        params = {"vs_currency": vs_currency, "days": str(days)}
+        params = {"vs_currency": vs_currency, "days": days}
 
         if interval:
             params["interval"] = interval
