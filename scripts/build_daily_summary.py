@@ -11,9 +11,9 @@
 - avg_volume: 当日平均交易量
 """
 
-import os
-import pandas as pd
 from pathlib import Path
+
+import pandas as pd
 from tqdm import tqdm
 
 
