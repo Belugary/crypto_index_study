@@ -1,0 +1,52 @@
+{
+  "tether": {
+    "last_update": "2025-07-10T05:58:16.065456+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "bitcoin": {
+    "last_update": "2025-07-10T05:58:18.475856+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "ethereum": {
+    "last_update": "2025-07-10T05:58:20.905150+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "usd-coin": {
+    "last_update": "2025-07-10T05:58:23.282449+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "first-digital-usd": {
+    "last_update": "2025-07-10T05:58:25.753355+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "solana": {
+    "last_update": "2025-07-10T05:58:08.942316+00:00",
+    "days": "30",
+    "version": "1.0"
+  },
+  "binance-bridged-usdt-bnb-smart-chain": {
+    "last_update": "2025-07-10T05:58:10.309602+00:00",
+    "days": "30",
+    "version": "1.0"
+  },
+  "ripple": {
+    "last_update": "2025-07-10T05:58:11.664761+00:00",
+    "days": "30",
+    "version": "1.0"
+  },
+  "dogecoin": {
+    "last_update": "2025-07-10T05:58:13.018742+00:00",
+    "days": "30",
+    "version": "1.0"
+  },
+  "bnb48-club-token": {
+    "last_update": "2025-07-10T05:58:14.525349+00:00",
+    "days": "30",
+    "version": "1.0"
+  }
+}
