@@ -65,6 +65,8 @@ class CoinGeckoAPI:
         """
         获取所有支持的硬币列表（ID 映射）
 
+        官方文档: https://docs.coingecko.com/reference/coins-list
+
         Args:
             include_platform (bool, optional): 是否包含平台信息，默认为 False。
                 如果为 True，将包含每个币种在不同区块链平台上的地址信息。
@@ -105,6 +107,8 @@ class CoinGeckoAPI:
     ) -> List[Dict[str, Any]]:
         """
         获取带市场数据的硬币列表
+
+        官方文档: https://docs.coingecko.com/reference/coins-markets
 
         Args:
             vs_currency (str, optional): 对比货币代码，默认为 'usd'。
@@ -196,6 +200,8 @@ class CoinGeckoAPI:
         """
         根据ID获取硬币详细数据
 
+        官方文档: https://docs.coingecko.com/reference/coins-id
+
         Args:
             coin_id (str): 硬币的唯一标识符，如 'bitcoin', 'ethereum', 'cardano'。
             localization (bool, optional): 是否包含本地化名称和描述，默认为 True。
@@ -276,6 +282,8 @@ class CoinGeckoAPI:
         """
         根据ID获取硬币的交易行情数据
 
+        官方文档: https://docs.coingecko.com/reference/coins-id-tickers
+
         Args:
             coin_id (str): 硬币的唯一标识符，如 'bitcoin', 'ethereum'。
             exchange_ids (str, optional): 指定交易所ID列表，用逗号分隔。
@@ -344,6 +352,8 @@ class CoinGeckoAPI:
         """
         获取硬币在特定日期的历史数据
 
+        官方文档: https://docs.coingecko.com/reference/coins-id-history
+
         Args:
             coin_id (str): 硬币的唯一标识符，如 'bitcoin', 'ethereum'。
             date (str): 查询日期，格式为 'dd-mm-yyyy'，如 '30-12-2017'。
@@ -410,6 +420,8 @@ class CoinGeckoAPI:
         """
         获取硬币的历史图表数据
 
+        官方文档: https://docs.coingecko.com/reference/coins-id-market-chart
+
         Args:
             coin_id (str): 硬币的唯一标识符，如 'bitcoin', 'ethereum'。
             vs_currency (str, optional): 对比货币代码，默认为 'usd'。
@@ -466,6 +478,8 @@ class CoinGeckoAPI:
         """
         获取硬币在指定时间范围内的历史图表数据
 
+        官方文档: https://docs.coingecko.com/reference/coins-id-market-chart-range
+
         Args:
             coin_id (str): 硬币的唯一标识符，如 'bitcoin', 'ethereum'。
             from_timestamp (int): 开始时间的 Unix 时间戳（秒）。
@@ -515,6 +529,8 @@ class CoinGeckoAPI:
     ) -> List[List[float]]:
         """
         获取硬币的OHLC（开盘价、最高价、最低价、收盘价）图表数据
+
+        官方文档: https://docs.coingecko.com/reference/coins-id-ohlc
 
         Args:
             coin_id (str): 硬币的唯一标识符，如 'bitcoin', 'ethereum'。
