@@ -72,11 +72,33 @@ class CoinGeckoAPI:
                 如果为 True，将包含每个币种在不同区块链平台上的地址信息。
 
         Returns:
-            List[Dict[str, Any]]: 硬币列表，每个元素包含：
-                - id (str): 硬币的唯一标识符
+            List[Dict[str, Any]]: 硬币列表，每个硬币包含以下字段：
+
+            **基础字段（总是包含）：**
+                - id (str): 硬币的唯一标识符（如 'bitcoin', 'ethereum'）
                 - symbol (str): 硬币符号（如 'btc', 'eth'）
                 - name (str): 硬币全名（如 'Bitcoin', 'Ethereum'）
-                - platforms (Dict[str, str], optional): 平台地址信息（仅当 include_platform=True 时）
+
+            **平台信息（仅当 include_platform=True 时）：**
+                - platforms (Dict[str, str]): 各区块链平台上的地址信息
+                    - ethereum (str): 在以太坊网络上的合约地址
+                    - binance-smart-chain (str): 在BSC网络上的合约地址
+                    - polygon-pos (str): 在Polygon网络上的合约地址
+                    - （其他支持的平台名称和对应地址）
+
+            **示例数据：**
+                [
+                    {
+                        "id": "bitcoin",
+                        "symbol": "btc",
+                        "name": "Bitcoin"
+                    },
+                    {
+                        "id": "ethereum",
+                        "symbol": "eth",
+                        "name": "Ethereum"
+                    }
+                ]
 
         Note:
             - 此端点不需要分页
@@ -127,34 +149,47 @@ class CoinGeckoAPI:
             precision (str, optional): 价格精度，可选值：'full' 或具体的小数位数。
 
         Returns:
-            List[Dict[str, Any]]: 硬币市场数据列表，每个元素包含：
+            List[Dict[str, Any]]: 硬币市场数据列表，每个硬币包含以下字段：
+
+            **基础信息：**
                 - id (str): 硬币ID
-                - symbol (str): 硬币符号
-                - name (str): 硬币名称
+                - symbol (str): 硬币符号（如 'btc', 'eth'）
+                - name (str): 硬币名称（如 'Bitcoin', 'Ethereum'）
                 - image (str): 硬币图标URL
+
+            **价格相关：**
                 - current_price (float): 当前价格
-                - market_cap (int): 市值
-                - market_cap_rank (int): 市值排名
-                - fully_diluted_valuation (int): 完全稀释估值
-                - total_volume (int): 24小时交易量
                 - high_24h (float): 24小时最高价
                 - low_24h (float): 24小时最低价
-                - price_change_24h (float): 24小时价格变化
+                - price_change_24h (float): 24小时价格变化（绝对值）
                 - price_change_percentage_24h (float): 24小时价格变化百分比
-                - market_cap_change_24h (int): 24小时市值变化
+                - price_change_percentage_*h (float, optional): 指定时间范围的价格变化百分比
+
+            **市值和排名：**
+                - market_cap (int): 市值
+                - market_cap_rank (int): 市值排名
+                - market_cap_change_24h (int): 24小时市值变化（绝对值）
                 - market_cap_change_percentage_24h (float): 24小时市值变化百分比
+                - fully_diluted_valuation (int): 完全稀释估值
+
+            **交易量和供应量：**
+                - total_volume (int): 24小时交易量
                 - circulating_supply (float): 流通供应量
                 - total_supply (float): 总供应量
                 - max_supply (float): 最大供应量
+
+            **历史价格记录：**
                 - ath (float): 历史最高价
                 - ath_change_percentage (float): 距离历史最高价的变化百分比
-                - ath_date (str): 历史最高价日期
+                - ath_date (str): 历史最高价日期（ISO 8601格式）
                 - atl (float): 历史最低价
                 - atl_change_percentage (float): 距离历史最低价的变化百分比
-                - atl_date (str): 历史最低价日期
-                - last_updated (str): 最后更新时间
+                - atl_date (str): 历史最低价日期（ISO 8601格式）
+
+            **其他字段：**
+                - last_updated (str): 最后更新时间（ISO 8601格式）
                 - sparkline_in_7d (Dict, optional): 7天价格走势数据（仅当 sparkline=True 时）
-                - price_change_percentage_*h (float, optional): 指定时间范围的价格变化百分比
+                    - price (List[float]): 价格数据点列表
 
         Note:
             - 当提供多个查找参数时，优先级顺序为：`category`（最高）> `ids` > `names` > `symbols`（最低）
@@ -212,26 +247,49 @@ class CoinGeckoAPI:
             sparkline (bool, optional): 是否包含7天价格走势图数据，默认为 False。
 
         Returns:
-            Dict[str, Any]: 硬币详细数据，包含：
+            Dict[str, Any]: 硬币详细数据，包含以下字段：
+
+            **基础信息：**
                 - id (str): 硬币ID
                 - symbol (str): 硬币符号
                 - name (str): 硬币名称
                 - asset_platform_id (str): 资产平台ID
-                - platforms (Dict): 平台地址信息
-                - detail_platforms (Dict): 详细平台信息
                 - block_time_in_minutes (int): 区块时间（分钟）
                 - hashing_algorithm (str): 哈希算法
                 - categories (List[str]): 分类标签
-                - public_notice (str): 公告信息
-                - additional_notices (List): 额外通知
-                - description (Dict[str, str]): 多语言描述（仅当 localization=True 时）
-                - links (Dict): 相关链接（官网、区块浏览器、论坛等）
-                - image (Dict[str, str]): 不同尺寸的图标URL
                 - country_origin (str): 原产国
                 - genesis_date (str): 创世日期
-                - sentiment_votes_up_percentage (float): 正面情绪投票百分比
-                - sentiment_votes_down_percentage (float): 负面情绪投票百分比
-                - watchlist_portfolio_users (int): 关注用户数
+
+            **平台和地址信息：**
+                - platforms (Dict[str, str]): 平台地址信息
+                - detail_platforms (Dict): 详细平台信息
+
+            **描述和链接：**
+                - description (Dict[str, str], optional): 多语言描述（仅当 localization=True 时）
+                - links (Dict): 相关链接
+                    - homepage (List[str]): 官方网站
+                    - blockchain_site (List[str]): 区块浏览器
+                    - official_forum_url (List[str]): 官方论坛
+                    - chat_url (List[str]): 聊天群组
+                    - announcement_url (List[str]): 公告页面
+                    - twitter_screen_name (str): Twitter用户名
+                    - facebook_username (str): Facebook用户名
+                    - bitcointalk_thread_identifier (int): BitcoinTalk论坛ID
+                    - telegram_channel_identifier (str): Telegram频道
+                    - subreddit_url (str): Reddit社区
+                    - repos_url (Dict): 代码仓库链接
+
+                - image (Dict[str, str]): 不同尺寸的图标URL
+                    - thumb (str): 缩略图
+                    - small (str): 小图标
+                    - large (str): 大图标
+
+            **公告和通知：**
+                - public_notice (str): 公告信息
+                - additional_notices (List): 额外通知
+                - status_updates (List): 状态更新
+
+            **评分和排名：**
                 - market_cap_rank (int): 市值排名
                 - coingecko_rank (int): CoinGecko排名
                 - coingecko_score (float): CoinGecko评分
@@ -239,19 +297,27 @@ class CoinGeckoAPI:
                 - community_score (float): 社区评分
                 - liquidity_score (float): 流动性评分
                 - public_interest_score (float): 公众兴趣评分
+
+            **用户互动数据：**
+                - sentiment_votes_up_percentage (float): 正面情绪投票百分比
+                - sentiment_votes_down_percentage (float): 负面情绪投票百分比
+                - watchlist_portfolio_users (int): 关注用户数
+                - public_interest_stats (Dict): 公众兴趣统计
+
+            **可选数据（根据参数决定）：**
                 - market_data (Dict, optional): 详细市场数据（仅当 market_data=True 时）
                 - community_data (Dict, optional): 社区数据（仅当 community_data=True 时）
                 - developer_data (Dict, optional): 开发者数据（仅当 developer_data=True 时）
-                - public_interest_stats (Dict): 公众兴趣统计
-                - status_updates (List): 状态更新
-                - last_updated (str): 最后更新时间
                 - tickers (List[Dict], optional): 交易行情列表（仅当 tickers=True 时）
+
+            **时间戳：**
+                - last_updated (str): 最后更新时间（ISO 8601格式）
 
         Note:
             - 可通过多种方式获取硬币 ID（API ID）：
-              • 访问相应硬币页面并查找 'API ID'
-              • 使用 /coins/list 端点
-              • 参考 Google Sheets：https://docs.google.com/spreadsheets/d/1wTTuxXt8n9q7C4NDXqQpI3wpKu1_5bGVmP9Xz0XGSyU/edit
+                • 访问相应硬币页面并查找 'API ID'
+                • 使用 /coins/list 端点
+                • 参考 Google Sheets：https://docs.google.com/spreadsheets/d/1wTTuxXt8n9q7C4NDXqQpI3wpKu1_5bGVmP9Xz0XGSyU/edit
             - 返回的是硬币的完整详细信息，包括描述、链接、社区数据等
 
         Raises:
@@ -295,37 +361,50 @@ class CoinGeckoAPI:
             depth (bool, optional): 是否包含2%深度的买卖盘数据，默认为 False。
 
         Returns:
-            Dict[str, Any]: 交易行情数据，包含：
+            Dict[str, Any]: 交易行情数据，包含以下字段：
+
+            **主要字段：**
                 - name (str): 硬币名称
-                - tickers (List[Dict]): 交易行情列表，每个元素包含：
-                    - base (str): 基础货币
-                    - target (str): 目标货币
-                    - market (Dict): 交易所信息
-                        - name (str): 交易所名称
-                        - identifier (str): 交易所标识符
-                        - has_trading_incentive (bool): 是否有交易激励
-                        - logo (str, optional): 交易所logo URL（仅当 include_exchange_logo=True 时）
-                    - last (float): 最新价格
-                    - volume (float): 24小时交易量
-                    - converted_last (Dict): 转换后的最新价格（多种货币）
-                    - converted_volume (Dict): 转换后的交易量（多种货币）
-                    - trust_score (str): 信任评分 ('green', 'yellow', 'red')
-                    - bid_ask_spread_percentage (float): 买卖价差百分比
-                    - timestamp (str): 时间戳
-                    - last_traded_at (str): 最后交易时间
-                    - last_fetch_at (str): 最后获取时间
-                    - is_anomaly (bool): 是否为异常数据
-                    - is_stale (bool): 是否为过期数据
-                    - trade_url (str): 交易URL
-                    - token_info_url (str): 代币信息URL
-                    - coin_id (str): 硬币ID
-                    - target_coin_id (str): 目标硬币ID
+                - tickers (List[Dict]): 交易行情列表
+
+            **tickers 中每个元素的结构：**
+                - base (str): 基础货币符号
+                - target (str): 目标货币符号
+                - last (float): 最新价格
+                - volume (float): 24小时交易量
+                - trust_score (str): 信任评分 ('green', 'yellow', 'red')
+                - bid_ask_spread_percentage (float): 买卖价差百分比
+                - timestamp (str): 时间戳
+                - last_traded_at (str): 最后交易时间
+                - last_fetch_at (str): 最后获取时间
+                - is_anomaly (bool): 是否为异常数据
+                - is_stale (bool): 是否为过期数据
+                - trade_url (str): 交易页面URL
+                - token_info_url (str): 代币信息URL
+                - coin_id (str): 硬币ID
+                - target_coin_id (str): 目标硬币ID
+
+                **market（交易所信息）：**
+                    - name (str): 交易所名称
+                    - identifier (str): 交易所标识符
+                    - has_trading_incentive (bool): 是否有交易激励
+                    - logo (str, optional): 交易所logo URL（仅当 include_exchange_logo=True 时）
+
+                **converted_last（转换后的最新价格）：**
+                    - btc (float): BTC计价的价格
+                    - eth (float): ETH计价的价格
+                    - usd (float): USD计价的价格
+
+                **converted_volume（转换后的交易量）：**
+                    - btc (float): BTC计价的交易量
+                    - eth (float): ETH计价的交易量
+                    - usd (float): USD计价的交易量
 
         Note:
             - 可通过多种方式获取硬币 ID（API ID）：
-              • 访问相应硬币页面并查找 'API ID'
-              • 使用 /coins/list 端点
-              • 参考 Google Sheets：https://docs.google.com/spreadsheets/d/1wTTuxXt8n9q7C4NDXqQpI3wpKu1_5bGVmP9Xz0XGSyU/edit
+                • 访问相应硬币页面并查找 'API ID'
+                • 使用 /coins/list 端点
+                • 参考 Google Sheets：https://docs.google.com/spreadsheets/d/1wTTuxXt8n9q7C4NDXqQpI3wpKu1_5bGVmP9Xz0XGSyU/edit
             - 返回指定硬币在各个交易所的实时交易行情数据
             - 可以通过 exchange_ids 过滤特定交易所的数据
 
@@ -360,24 +439,40 @@ class CoinGeckoAPI:
             localization (bool, optional): 是否包含本地化名称和描述，默认为 True。
 
         Returns:
-            Dict[str, Any]: 指定日期的历史数据，包含：
+            Dict[str, Any]: 指定日期的历史数据，包含以下字段：
+
+            **基础信息：**
                 - id (str): 硬币ID
                 - symbol (str): 硬币符号
                 - name (str): 硬币名称
                 - localization (Dict[str, str], optional): 多语言名称（仅当 localization=True 时）
                 - image (Dict[str, str]): 不同尺寸的图标URL
-                - market_data (Dict): 市场数据
+                    - thumb (str): 缩略图
+                    - small (str): 小图标
+                    - large (str): 大图标
+
+            **市场数据：**
+                - market_data (Dict): 历史市场数据
                     - current_price (Dict[str, float]): 多种货币的当时价格
+                        - usd (float): 美元价格
+                        - eur (float): 欧元价格
+                        - btc (float): 比特币价格
+                        - eth (float): 以太坊价格
+                        - （其他支持的货币）
                     - market_cap (Dict[str, float]): 多种货币的市值
                     - total_volume (Dict[str, float]): 多种货币的交易量
-                - community_data (Dict): 社区数据
+
+            **社区数据：**
+                - community_data (Dict): 社区统计数据
                     - facebook_likes (int): Facebook点赞数
                     - twitter_followers (int): Twitter关注者数
                     - reddit_average_posts_48h (float): Reddit 48小时平均帖子数
                     - reddit_average_comments_48h (float): Reddit 48小时平均评论数
                     - reddit_subscribers (int): Reddit订阅者数
                     - reddit_accounts_active_48h (str): Reddit 48小时活跃账户数
-                - developer_data (Dict): 开发者数据
+
+            **开发者数据：**
+                - developer_data (Dict): GitHub开发统计数据
                     - forks (int): GitHub分叉数
                     - stars (int): GitHub星标数
                     - subscribers (int): GitHub订阅者数
@@ -386,8 +481,12 @@ class CoinGeckoAPI:
                     - pull_requests_merged (int): 已合并的拉取请求数
                     - pull_request_contributors (int): 拉取请求贡献者数
                     - code_additions_deletions_4_weeks (Dict): 4周内代码增删统计
+                        - additions (int): 新增代码行数
+                        - deletions (int): 删除代码行数
                     - commit_count_4_weeks (int): 4周内提交次数
-                - public_interest_stats (Dict): 公众兴趣统计
+
+            **公众兴趣统计：**
+                - public_interest_stats (Dict): 网络关注度数据
                     - alexa_rank (int): Alexa排名
                     - bing_matches (int): Bing搜索匹配数
 
@@ -395,9 +494,9 @@ class CoinGeckoAPI:
             - 返回的数据时间为 00:00:00 UTC
             - 最后一个完整的 UTC 日（00:00）在下一个 UTC 日的午夜后 35 分钟（00:35）可用
             - 可通过多种方式获取硬币 ID（API ID）：
-              • 访问相应硬币页面并查找 'API ID'
-              • 使用 /coins/list 端点
-              • 参考 Google Sheets：https://docs.google.com/spreadsheets/d/1wTTuxXt8n9q7C4NDXqQpI3wpKu1_5bGVmP9Xz0XGSyU/edit
+                • 访问相应硬币页面并查找 'API ID'
+                • 使用 /coins/list 端点
+                • 参考 Google Sheets：https://docs.google.com/spreadsheets/d/1wTTuxXt8n9q7C4NDXqQpI3wpKu1_5bGVmP9Xz0XGSyU/edit
             - ⚠️ 注意：`twitter_followers` 数据字段将从 2025年5月15日起不再受我们的 API 支持
 
         Raises:
@@ -434,24 +533,43 @@ class CoinGeckoAPI:
             precision (str, optional): 价格精度，范围 0-18 位小数，或 'full' 显示完整精度。
 
         Returns:
-            Dict[str, Any]: 历史图表数据，包含：
-                - prices (List[List[float]]): 价格数据，格式 [[timestamp, price], ...]
-                    timestamp 为 Unix 时间戳（毫秒），price 为对应时间的价格
-                - market_caps (List[List[float]]): 市值数据，格式 [[timestamp, market_cap], ...]
-                - total_volumes (List[List[float]]): 交易量数据，格式 [[timestamp, volume], ...]
+            Dict[str, Any]: 历史图表数据，包含三个主要数据数组：
+
+            **价格数据：**
+                - prices (List[List[float]]): 价格历史数据
+                    格式：[[timestamp, price], [timestamp, price], ...]
+                    - timestamp (float): Unix时间戳（毫秒）
+                    - price (float): 对应时间点的价格
+
+            **市值数据：**
+                - market_caps (List[List[float]]): 市值历史数据
+                    格式：[[timestamp, market_cap], [timestamp, market_cap], ...]
+                    - timestamp (float): Unix时间戳（毫秒）
+                    - market_cap (float): 对应时间点的市值
+
+            **交易量数据：**
+                - total_volumes (List[List[float]]): 交易量历史数据
+                    格式：[[timestamp, volume], [timestamp, volume], ...]
+                    - timestamp (float): Unix时间戳（毫秒）
+                    - volume (float): 对应时间点的24小时交易量
+
+            **数据间隔说明：**
+                - days=1: 每5分钟一个数据点
+                - days=1-90: 每1小时一个数据点
+                - days>90: 每1天一个数据点
 
         Note:
             - 所有时间戳都是 Unix 时间戳（毫秒）
             - 数据点的数量取决于查询的天数和时间间隔
             - 对于较长的时间范围，数据会被聚合以减少数据点数量
             - 数据间隔会根据天数自动选择：
-              • days=1 时：5分钟间隔
-              • days=1-90 时：1小时间隔  
-              • days>90 时：1天间隔
+                • days=1 时：5分钟间隔
+                • days=1-90 时：1小时间隔
+                • days>90 时：1天间隔
             - 可通过多种方式获取硬币 ID（API ID）：
-              • 访问相应硬币页面并查找 'API ID'
-              • 使用 /coins/list 端点
-              • 参考 Google Sheets：https://docs.google.com/spreadsheets/d/1wTTuxXt8n9q7C4NDXqQpI3wpKu1_5bGVmP9Xz0XGSyU/edit
+                • 访问相应硬币页面并查找 'API ID'
+                • 使用 /coins/list 端点
+                • 参考 Google Sheets：https://docs.google.com/spreadsheets/d/1wTTuxXt8n9q7C4NDXqQpI3wpKu1_5bGVmP9Xz0XGSyU/edit
 
         Raises:
             requests.exceptions.RequestException: 当 API 请求失败时抛出异常
@@ -489,20 +607,38 @@ class CoinGeckoAPI:
             precision (str, optional): 价格精度，范围 0-18 位小数，或 'full' 显示完整精度。
 
         Returns:
-            Dict[str, Any]: 指定时间范围的历史图表数据，包含：
-                - prices (List[List[float]]): 价格数据，格式 [[timestamp, price], ...]
-                    timestamp 为 Unix 时间戳（毫秒），price 为对应时间的价格
-                - market_caps (List[List[float]]): 市值数据，格式 [[timestamp, market_cap], ...]
-                - total_volumes (List[List[float]]): 交易量数据，格式 [[timestamp, volume], ...]
+            Dict[str, Any]: 指定时间范围的历史图表数据，包含三个主要数据数组：
+
+            **价格数据：**
+                - prices (List[List[float]]): 价格历史数据
+                    格式：[[timestamp, price], [timestamp, price], ...]
+                    - timestamp (float): Unix时间戳（毫秒）
+                    - price (float): 对应时间点的价格
+
+            **市值数据：**
+                - market_caps (List[List[float]]): 市值历史数据
+                    格式：[[timestamp, market_cap], [timestamp, market_cap], ...]
+                    - timestamp (float): Unix时间戳（毫秒）
+                    - market_cap (float): 对应时间点的市值
+
+            **交易量数据：**
+                - total_volumes (List[List[float]]): 交易量历史数据
+                    格式：[[timestamp, volume], [timestamp, volume], ...]
+                    - timestamp (float): Unix时间戳（毫秒）
+                    - volume (float): 对应时间点的24小时交易量
+
+            **注意事项：**
+                - 输入时间戳使用秒级，但返回数据中的时间戳是毫秒级
+                - 数据间隔根据查询的时间范围自动调整
 
         Note:
             - 时间戳参数使用秒级 Unix 时间戳，但返回数据中的时间戳是毫秒级
             - 数据间隔会根据查询的时间范围自动调整
             - 最大查询范围取决于硬币的历史数据可用性
             - 可通过多种方式获取硬币 ID（API ID）：
-              • 访问相应硬币页面并查找 'API ID'
-              • 使用 /coins/list 端点
-              • 参考 Google Sheets：https://docs.google.com/spreadsheets/d/1wTTuxXt8n9q7C4NDXqQpI3wpKu1_5bGVmP9Xz0XGSyU/edit
+                • 访问相应硬币页面并查找 'API ID'
+                • 使用 /coins/list 端点
+                • 参考 Google Sheets：https://docs.google.com/spreadsheets/d/1wTTuxXt8n9q7C4NDXqQpI3wpKu1_5bGVmP9Xz0XGSyU/edit
 
         Raises:
             requests.exceptions.RequestException: 当 API 请求失败时抛出异常
@@ -541,13 +677,28 @@ class CoinGeckoAPI:
             precision (str, optional): 价格精度，范围 0-18 位小数，或 'full' 显示完整精度。
 
         Returns:
-            List[List[float]]: OHLC数据列表，每个元素格式为：
+            List[List[float]]: OHLC（开高低收）数据列表，每个元素格式为：
+
+            **数据结构：**
                 [timestamp, open, high, low, close]
-                - timestamp (float): Unix 时间戳（毫秒）
-                - open (float): 开盘价
-                - high (float): 最高价
-                - low (float): 最低价
-                - close (float): 收盘价
+
+                - timestamp (float): Unix时间戳（毫秒）- 表示该时间段的结束时间
+                - open (float): 开盘价 - 该时间段的第一个价格
+                - high (float): 最高价 - 该时间段内的最高价格
+                - low (float): 最低价 - 该时间段内的最低价格
+                - close (float): 收盘价 - 该时间段的最后一个价格
+
+            **时间间隔（自动调整）：**
+                - 1-2天: 30分钟K线
+                - 3-30天: 4小时K线
+                - 31天及以上: 4天K线
+
+            **示例数据：**
+                [
+                    [1640995200000, 47686.0, 48200.5, 47500.0, 48000.0],
+                    [1641081600000, 48000.0, 48500.0, 47800.0, 48300.0],
+                    ...
+                ]
 
         Note:
             - 数据间隔会根据查询的天数自动调整
@@ -555,18 +706,18 @@ class CoinGeckoAPI:
             - 适用于创建K线图（蜡烛图）
             - 响应负载中显示的时间戳表示 OHLC 数据的结束（或收盘）时间
             - 数据粒度（蜡烛主体）是自动的：
-              • 1-2天：30分钟
-              • 3-30天：4小时
-              • 31天及以上：4天
+                • 1-2天：30分钟
+                • 3-30天：4小时
+                • 31天及以上：4天
             - 缓存/更新频率：所有 API 计划每 15 分钟一次
             - 最后一个完整的 UTC 日（00:00）在下一个 UTC 日的午夜后 35 分钟（00:35）可用
             - 付费计划订阅者可使用专属的每日和每小时蜡烛间隔参数：
-              • 'daily' 间隔仅适用于 1/7/14/30/90/180 天
-              • 'hourly' 间隔仅适用于 1/7/14/30/90 天
+                • 'daily' 间隔仅适用于 1/7/14/30/90/180 天
+                • 'hourly' 间隔仅适用于 1/7/14/30/90 天
             - 可通过多种方式获取硬币 ID（API ID）：
-              • 访问相应硬币页面并查找 'API ID'
-              • 使用 /coins/list 端点
-              • 参考 Google Sheets：https://docs.google.com/spreadsheets/d/1wTTuxXt8n9q7C4NDXqQpI3wpKu1_5bGVmP9Xz0XGSyU/edit
+                • 访问相应硬币页面并查找 'API ID'
+                • 使用 /coins/list 端点
+                • 参考 Google Sheets：https://docs.google.com/spreadsheets/d/1wTTuxXt8n9q7C4NDXqQpI3wpKu1_5bGVmP9Xz0XGSyU/edit
             - 如需更好粒度的历史图表数据，可考虑使用 /coins/{id}/market_chart 端点
 
         Raises:
