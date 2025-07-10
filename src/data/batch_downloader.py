@@ -267,15 +267,20 @@ class BatchDownloader:
             # 创建 DataFrame
             df_data = []
             for i, (timestamp, price) in enumerate(prices):
+                # 安全处理 None 值
+                volume = None
+                if i < len(total_volumes) and total_volumes[i][1] is not None:
+                    volume = float(total_volumes[i][1])
+                
+                market_cap = None
+                if i < len(market_caps) and market_caps[i][1] is not None:
+                    market_cap = float(market_caps[i][1])
+                
                 row = {
                     "timestamp": int(timestamp),
-                    "price": float(price),
-                    "volume": (
-                        float(total_volumes[i][1]) if i < len(total_volumes) else None
-                    ),
-                    "market_cap": (
-                        float(market_caps[i][1]) if i < len(market_caps) else None
-                    ),
+                    "price": float(price) if price is not None else None,
+                    "volume": volume,
+                    "market_cap": market_cap,
                 }
                 df_data.append(row)
 
