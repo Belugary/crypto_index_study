@@ -5,9 +5,9 @@
 """
 
 import json
-from typing import Any, Dict, List, Optional
-from datetime import datetime
 import time
+from datetime import datetime
+from typing import Any, Dict, List, Optional
 
 
 def print_json(data: Any, title: str = "", max_items: Optional[int] = None) -> None:

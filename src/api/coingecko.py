@@ -4,9 +4,10 @@ CoinGecko API 封装模块
 提供对 CoinGecko Pro API 的完整封装，支持数字货币的各种数据查询功能。
 """
 
-import requests
 import os
-from typing import Dict, List, Optional, Any
+from typing import Any, Dict, List, Optional
+
+import requests
 from dotenv import load_dotenv
 
 # 加载环境变量

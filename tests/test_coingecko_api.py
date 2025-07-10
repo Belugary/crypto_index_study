@@ -4,8 +4,8 @@ CoinGecko API 测试模块
 测试基础API功能、Premium API功能和Analyst API功能
 """
 
-import sys
 import os
+import sys
 
 # 添加项目根目录到Python路径
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
