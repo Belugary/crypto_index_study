@@ -16,27 +16,6 @@
 - **模块化设计**: 便于扩展和定制化研究
 - **中文文档**: 详细的使用说明和代码注释
 
-## 项目结构
-
-```
-crypto_index_study/
-├── main.py                   # 主入口文件
-├── src/                      # 源代码目录
-│   ├── api/                 # API模块
-│   │   └── coingecko.py    # CoinGecko API封装
-│   ├── data/               # 数据管理模块
-│   │   └── batch_downloader.py # 批量下载器
-│   └── utils.py            # 工具函数
-├── tests/                   # 测试文件
-├── examples/                # 使用示例
-├── data/                    # 数据存储目录
-│   ├── coins/              # CSV数据文件
-│   ├── metadata/           # 元数据文件
-│   └── logs/              # 日志文件
-├── requirements.txt        # 项目依赖
-└── README.md              # 项目说明
-```
-
 ## 快速开始
 
 ### 1. 环境设置
