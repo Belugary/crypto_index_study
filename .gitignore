@@ -1,6 +1,6 @@
 # 环境变量文件
 .env
-.env.local
+.env.local,
 .env.*.local
 
 # Python
@@ -52,9 +52,6 @@ tests/test_coingecko_api_local.py
 
 # GitHub configuration and workflows (may contain sensitive info)
 .github/
-
-# Personal application scripts
-examples/download_top300_max_history.py
 
 # Personal application scripts
 examples/download_top*_max_history.py
