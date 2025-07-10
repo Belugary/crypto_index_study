@@ -46,7 +46,7 @@ def example_historical_analysis():
 
     # 获取Bitcoin的7天价格数据
     print("获取Bitcoin过去7天的价格走势...")
-    chart_data = api.get_coin_market_chart("bitcoin", "usd", 7)
+    chart_data = api.get_coin_market_chart("bitcoin", "usd", "7")
 
     prices = chart_data.get("prices", [])
     if len(prices) >= 2:

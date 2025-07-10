@@ -76,7 +76,7 @@ def test_basic_api(api: CoinGeckoAPI) -> bool:
 
         # 6. 获取图表数据
         print("\n6. 获取Bitcoin价格图表数据 (7天)")
-        chart_data = api.get_coin_market_chart("bitcoin", "usd", 7)
+        chart_data = api.get_coin_market_chart("bitcoin", "usd", "7")
         chart_summary = {
             "price_points": len(chart_data.get("prices", [])),
             "market_cap_points": len(chart_data.get("market_caps", [])),
