@@ -1,2 +1,2 @@
-date,coin_id,price,volume,market_cap,timestamp,rank
-2015-01-28,ripple,0.014986,1301450.0,464237434.9472,1422403200000,1
+timestamp,price,volume,market_cap,date,coin_id,rank
+1422403200000,0.014986,1301450.0,464237434.9472,2015-01-28,ripple,1

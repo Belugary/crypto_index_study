@@ -1,3 +1,3 @@
-date,coin_id,price,volume,market_cap,timestamp,rank
-2013-05-16,bitcoin,115.5,0.0,1289277412.0,1368662400000,1
-2013-05-16,litecoin,2.86922,0.0,50797474.0,1368662400000,2
+timestamp,price,volume,market_cap,date,coin_id,rank
+1368662400000,115.5,0.0,1289277412.0,2013-05-16,bitcoin,1
+1368662400000,2.86922,0.0,50797474.0,2013-05-16,litecoin,2

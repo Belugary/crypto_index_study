@@ -7,9 +7,9 @@
 """
 
 import logging
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, date
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Union
 
 import pandas as pd
 
@@ -43,16 +43,17 @@ class DailyDataAggregator:
         self.daily_files_dir = self.output_dir / "daily_files"
         self.daily_files_dir.mkdir(parents=True, exist_ok=True)
 
-        # 存储所有币种的数据
+        # 缓存
+        self.daily_cache: Dict[str, pd.DataFrame] = {}
         self.coin_data: Dict[str, pd.DataFrame] = {}
         self.loaded_coins: List[str] = []
+        logger.info(
+            f"每日数据聚合器初始化, 数据源: '{data_dir}', 输出到: '{output_dir}'"
+        )
 
         # 日期范围信息
         self.min_date: Optional[datetime] = None
         self.max_date: Optional[datetime] = None
-
-        # 每日数据缓存
-        self.daily_cache: Dict[str, pd.DataFrame] = {}
 
         logger.info(f"初始化每日数据聚合器")
         logger.info(f"数据目录: {self.data_dir}")
@@ -60,43 +61,35 @@ class DailyDataAggregator:
         logger.info(f"每日文件目录: {self.daily_files_dir}")
 
     def load_coin_data(self) -> None:
-        """加载所有币种的历史数据"""
-        logger.info("开始加载币种数据...")
-
+        """加载所有币种的CSV数据到内存"""
+        logger.info("开始从CSV文件加载所有币种数据到内存...")
         csv_files = list(self.data_dir.glob("*.csv"))
-        logger.info(f"发现 {len(csv_files)} 个数据文件")
+        if not csv_files:
+            logger.warning(f"数据目录 '{self.data_dir}' 中没有找到CSV文件。")
+            return
 
-        for csv_file in csv_files:
-            coin_id = csv_file.stem  # 文件名去掉.csv扩展名
-
+        for file_path in csv_files:
+            coin_id = file_path.stem
             try:
-                # 读取CSV数据
-                df = pd.read_csv(csv_file)
-
-                # 验证数据格式
-                required_columns = ["timestamp", "price", "volume", "market_cap"]
-                if not all(col in df.columns for col in required_columns):
-                    logger.warning(f"跳过 {coin_id}: 缺少必要列")
+                df = pd.read_csv(file_path)
+                if df.empty:
+                    logger.warning(f"跳过空文件: {file_path}")
                     continue
 
-                # 转换时间戳为日期
-                df["date"] = pd.to_datetime(df["timestamp"], unit="ms").dt.date
-
-                # 添加币种ID列
+                # 转换时间戳并创建 'date' 列
+                df["timestamp"] = pd.to_numeric(df["timestamp"], errors="coerce")
+                df.dropna(subset=["timestamp"], inplace=True)
+                df["date"] = pd.to_datetime(df["timestamp"], unit="ms").dt.strftime(
+                    "%Y-%m-%d"
+                )
                 df["coin_id"] = coin_id
-
-                # 存储数据
                 self.coin_data[coin_id] = df
                 self.loaded_coins.append(coin_id)
-
-                logger.info(f"加载 {coin_id}: {len(df)} 条记录")
-
+                logger.debug(f"成功加载 {coin_id} ({len(df)}条记录)")
             except Exception as e:
-                logger.error(f"加载 {coin_id} 失败: {e}")
-                continue
+                logger.error(f"加载文件 {file_path} 失败: {e}")
 
-        logger.info(f"成功加载 {len(self.loaded_coins)} 个币种的数据")
-        self._calculate_date_range()
+        logger.info(f"成功加载 {len(self.loaded_coins)} 个币种的数据。")
 
     def _calculate_date_range(self) -> None:
         """计算所有数据的日期范围"""
@@ -118,166 +111,119 @@ class DailyDataAggregator:
                 total_days = (self.max_date - self.min_date).days + 1
                 logger.info(f"总共 {total_days} 天的数据")
 
-    def _get_daily_file_path(self, date_str: str) -> Path:
-        """获取每日数据文件的分层路径
-
-        Args:
-            date_str: 日期字符串 "YYYY-MM-DD"
-
-        Returns:
-            分层路径: daily_files/YYYY/MM/YYYY-MM-DD.csv
+    def get_daily_data(
+        self, target_date: Union[str, datetime, date], force_refresh: bool = False
+    ) -> pd.DataFrame:
         """
-        try:
-            from datetime import datetime
+        获取指定日期的聚合市场数据
 
-            date_obj = datetime.strptime(date_str, "%Y-%m-%d")
-            year = date_obj.strftime("%Y")
-            month = date_obj.strftime("%m")
-
-            # 创建年/月子目录
-            year_month_dir = self.daily_files_dir / year / month
-            year_month_dir.mkdir(parents=True, exist_ok=True)
-
-            return year_month_dir / f"{date_str}.csv"
-        except ValueError:
-            logger.error(f"无效日期格式: {date_str}")
-            # 回退到平铺结构
-            return self.daily_files_dir / f"{date_str}.csv"
-
-    def get_daily_data(self, target_date) -> pd.DataFrame:
-        """获取指定日期的所有币种数据
-
-        Args:
-            target_date: 目标日期 (datetime.date 或 str 'YYYY-MM-DD')
-
-        Returns:
-            包含当日所有有数据币种的DataFrame
+        支持从缓存、文件或重新计算获取。
         """
-        # 处理日期格式
         if isinstance(target_date, str):
-            target_date = datetime.strptime(target_date, "%Y-%m-%d").date()
-
-        date_str = str(target_date)
-
-        # 首先尝试从缓存中获取
-        if date_str in self.daily_cache:
-            return self.daily_cache[date_str]
-
-        # 尝试从已保存的文件中加载
-        daily_file = self._get_daily_file_path(date_str)
-        if daily_file.exists():
             try:
-                daily_df = pd.read_csv(daily_file)
-                # 转换date列的数据类型
-                daily_df["date"] = pd.to_datetime(daily_df["date"]).dt.date
-                self.daily_cache[date_str] = daily_df
-                return daily_df
-            except Exception as e:
-                logger.warning(f"加载已保存的每日数据失败 {date_str}: {e}")
-
-        # 如果没有保存的文件，从原始数据计算
-        daily_records = []
-
-        for coin_id, df in self.coin_data.items():
-            # 查找该日期的数据
-            date_data = df[df["date"] == target_date]
-
-            if not date_data.empty:
-                # 取第一条记录（应该只有一条）
-                record = date_data.iloc[0]
-                daily_records.append(
-                    {
-                        "date": target_date,
-                        "coin_id": coin_id,
-                        "price": record["price"],
-                        "volume": record["volume"],
-                        "market_cap": record["market_cap"],
-                        "timestamp": record["timestamp"],
-                    }
-                )
-
-        # 创建DataFrame并按市值排序
-        if daily_records:
-            daily_df = pd.DataFrame(daily_records)
-            daily_df = daily_df.sort_values("market_cap", ascending=False)
-            daily_df = daily_df.reset_index(drop=True)
-            daily_df["rank"] = daily_df.index + 1
-
-            # 缓存数据
-            self.daily_cache[date_str] = daily_df
-            return daily_df
+                target_date_dt = datetime.strptime(target_date, "%Y-%m-%d")
+            except ValueError:
+                logger.error(f"无效的日期格式: {target_date}，应为 YYYY-MM-DD")
+                return pd.DataFrame()
+        elif isinstance(target_date, datetime):
+            target_date_dt = target_date
+        elif isinstance(target_date, date):
+            # 将 date 对象转换为 datetime 对象，时间设为午夜
+            target_date_dt = datetime.combine(target_date, datetime.min.time())
         else:
+            logger.error(f"不支持的日期类型: {type(target_date)}")
             return pd.DataFrame()
 
-    def build_daily_tables(
-        self, start_date: Optional[str] = None, end_date: Optional[str] = None
-    ) -> None:
+        target_date_str = target_date_dt.strftime("%Y-%m-%d")
+
+        # 检查内存缓存
+        if not force_refresh and target_date_str in self.daily_cache:
+            logger.info(f"从内存缓存加载 {target_date_str} 的数据")
+            return self.daily_cache[target_date_str]
+
+        # 检查是否有缓存文件
+        daily_file_path = self._get_daily_file_path(target_date_dt.date())
+
+        if not force_refresh and daily_file_path.exists():
+            logger.info(f"从缓存文件加载 {target_date_str} 的数据: {daily_file_path}")
+            try:
+                df = pd.read_csv(daily_file_path)
+                # 确保 'date' 列是 datetime 对象以便进行比较
+                if "date" in df.columns:
+                    df["date"] = pd.to_datetime(df["date"]).dt.date
+                self.daily_cache[target_date_str] = df  # 更新缓存
+                return df
+            except Exception as e:
+                logger.warning(f"读取缓存文件 {daily_file_path} 失败，将重新计算: {e}")
+
+        # 如果需要，加载币种数据
+        if not self.coin_data:
+            logger.info("内存中无币种数据，开始加载...")
+            self.load_coin_data()
+
+        logger.info(
+            f"开始为 {target_date_str} 计算每日数据 (强制刷新: {force_refresh})"
+        )
+        daily_df = self._compute_daily_data(target_date_dt.date())
+
+        # 保存到文件和缓存
+        if not daily_df.empty:
+            daily_df.to_csv(daily_file_path, index=False)
+            logger.info(f"已将 {target_date_str} 的数据保存到 {daily_file_path}")
+            self.daily_cache[target_date_str] = daily_df
+
+        return daily_df
+
+    def build_daily_tables(self, force_recalculate: bool = False) -> None:
         """构建每日数据表集合
 
         Args:
-            start_date: 开始日期 (默认为数据最早日期)
-            end_date: 结束日期 (默认为数据最晚日期)
+            force_recalculate: 是否强制重新计算所有数据，忽略缓存文件
         """
         if not self.coin_data:
             logger.error("请先调用 load_coin_data() 加载数据")
             return
 
         # 确定日期范围
-        start = self.min_date
-        end = self.max_date
-
-        if start_date:
-            start = datetime.strptime(start_date, "%Y-%m-%d").date()
-        if end_date:
-            end = datetime.strptime(end_date, "%Y-%m-%d").date()
+        start_date = self.min_date
+        end_date = self.max_date
 
         # 检查日期有效性
-        if not start or not end:
+        if not start_date or not end_date:
             logger.error("无法确定有效的日期范围")
             return
 
-        logger.info(f"构建每日数据表: {start} 到 {end}")
+        logger.info(f"构建每日数据表: {start_date} 到 {end_date}")
 
         # 创建每日数据
-        current_date = start
-        daily_summary = []
+        current_date = start_date
+        all_daily_data = []
 
-        while current_date <= end:
-            daily_data = self.get_daily_data(current_date)
-
+        while current_date <= end_date:
+            logger.info(f"正在处理 {current_date.strftime('%Y-%m-%d')}...")
+            daily_data = self.get_daily_data(
+                current_date, force_refresh=force_recalculate
+            )
             if not daily_data.empty:
-                # 强制按市值排序并重新分配rank
-                daily_data_sorted = daily_data.sort_values(
-                    "market_cap", ascending=False
-                ).reset_index(drop=True)
-                daily_data_sorted["rank"] = daily_data_sorted.index + 1
-
-                # 保存每日数据文件到分层目录
-                daily_file = self._get_daily_file_path(str(current_date))
-                daily_data_sorted.to_csv(daily_file, index=False)
-
-                # 记录统计信息
-                summary = {
-                    "date": str(current_date),
-                    "coin_count": len(daily_data_sorted),
-                    "total_market_cap": daily_data_sorted["market_cap"].sum(),
-                    "avg_price": daily_data_sorted["price"].mean(),
-                    "total_volume": daily_data_sorted["volume"].sum(),
-                }
-                daily_summary.append(summary)
-
-                if len(daily_summary) % 100 == 0:
-                    logger.info(f"已处理 {len(daily_summary)} 天数据...")
-
+                all_daily_data.append(daily_data)
             current_date += timedelta(days=1)
 
-        # 保存总结报告
-        summary_df = pd.DataFrame(daily_summary)
-        summary_file = self.output_dir / "daily_summary.csv"
-        summary_df.to_csv(summary_file, index=False)
+        logger.info(f"成功处理 {len(all_daily_data)} 天的数据")
 
-        logger.info(f"完成! 生成了 {len(daily_summary)} 天的数据表")
-        logger.info(f"数据保存在: {self.output_dir}")
+        # 合并所有每日数据到一个DataFrame
+        if all_daily_data:
+            merged_daily_data = pd.concat(all_daily_data, ignore_index=True)
+
+            # 强制按市值排序并重新分配rank
+            merged_daily_data = merged_daily_data.sort_values(
+                "market_cap", ascending=False
+            ).reset_index(drop=True)
+            merged_daily_data["rank"] = merged_daily_data.index + 1
+
+            # 保存合并后的数据到文件
+            merged_daily_file = self.output_dir / "merged_daily_data.csv"
+            merged_daily_data.to_csv(merged_daily_file, index=False)
+            logger.info(f"已保存合并后的每日数据到文件: {merged_daily_file}")
 
     def get_data_coverage_analysis(self) -> Dict:
         """分析数据覆盖情况"""
@@ -356,51 +302,19 @@ class DailyDataAggregator:
         logger.info(f"成功加载 {len(self.daily_cache)} 天的每日数据")
 
     def get_available_daily_dates(self) -> List[str]:
-        """获取所有可用的每日数据日期"""
+        """获取所有已生成每日数据文件的日期"""
         dates = []
+        if not self.daily_files_dir.exists():
+            return dates
 
-        # 扫描分层结构: YYYY/MM/*.csv
         for year_dir in self.daily_files_dir.iterdir():
-            if year_dir.is_dir() and year_dir.name.isdigit():
+            if year_dir.is_dir():
                 for month_dir in year_dir.iterdir():
-                    if month_dir.is_dir() and month_dir.name.isdigit():
-                        csv_files = list(month_dir.glob("*.csv"))
-                        dates.extend([f.stem for f in csv_files])
+                    if month_dir.is_dir():
+                        for file in month_dir.glob("*.csv"):
+                            dates.append(file.stem)
 
-        # 同时支持平铺结构的文件
-        csv_files = list(self.daily_files_dir.glob("*.csv"))
-        dates.extend([f.stem for f in csv_files])
-
-        # 去重并排序
-        dates = list(set(dates))
-        dates.sort()
-        return dates
-
-    def save_daily_data(self, target_date, daily_data: pd.DataFrame) -> None:
-        """保存单日数据到文件
-
-        Args:
-            target_date: 目标日期
-            daily_data: 当日数据DataFrame
-        """
-        if isinstance(target_date, str):
-            date_str = target_date
-        else:
-            date_str = str(target_date)
-
-        if not daily_data.empty:
-            # 强制按市值排序并重新分配rank
-            daily_data_sorted = daily_data.sort_values(
-                "market_cap", ascending=False
-            ).reset_index(drop=True)
-            daily_data_sorted["rank"] = daily_data_sorted.index + 1
-
-            daily_file = self._get_daily_file_path(date_str)
-            daily_data_sorted.to_csv(daily_file, index=False)
-            self.daily_cache[date_str] = daily_data_sorted
-            logger.info(
-                f"保存每日数据: {date_str} ({len(daily_data_sorted)} 个币种，已按市值排序)"
-            )
+        return sorted(dates)
 
     def get_date_range_summary(self) -> Dict:
         """获取数据日期范围的摘要信息"""
@@ -435,6 +349,61 @@ class DailyDataAggregator:
             "coverage": coverage,
         }
 
+    def _get_daily_file_path(self, target_date: date) -> Path:
+        """根据日期获取每日数据文件的路径"""
+        # 确保输入是 date 对象
+        if isinstance(target_date, datetime):
+            target_date = target_date.date()
+            
+        date_str = target_date.strftime("%Y-%m-%d")
+        year = target_date.strftime("%Y")
+        month = target_date.strftime("%m")
+
+        # 创建年月目录
+        year_month_dir = self.daily_files_dir / year / month
+        year_month_dir.mkdir(parents=True, exist_ok=True)
+
+        return year_month_dir / f"{date_str}.csv"
+
+    def _compute_daily_data(self, target_date: date) -> pd.DataFrame:
+        """在内存中计算指定日期的聚合数据"""
+        daily_records = []
+        target_date_str = target_date.strftime("%Y-%m-%d")
+        logger.debug(
+            f"开始计算 {target_date_str} 的数据，遍历 {len(self.coin_data)} 个已加载的币种..."
+        )
+
+        for coin_id, df in self.coin_data.items():
+            if df.empty:
+                continue
+
+            # 筛选特定日期的数据
+            day_data = df[df["date"] == target_date_str]
+
+            if not day_data.empty:
+                # 通常每天只有一个记录，但为防万一，取第一个
+                record = day_data.iloc[0].to_dict()
+                daily_records.append(record)
+                logger.debug(f"找到 {coin_id} 在 {target_date_str} 的数据。")
+            else:
+                logger.debug(f"未找到 {coin_id} 在 {target_date_str} 的数据。")
+
+        if not daily_records:
+            logger.warning(f"在 {target_date_str} 未找到任何币种的数据。")
+            return pd.DataFrame()
+
+        # 转换为DataFrame并排序
+        final_df = pd.DataFrame(daily_records)
+        logger.info(f"为 {target_date_str} 聚合了 {len(final_df)} 个币种的数据。")
+
+        # 添加排名
+        if "market_cap" in final_df.columns:
+            final_df = final_df.sort_values("market_cap", ascending=False)
+            final_df = final_df.reset_index(drop=True)
+            final_df["rank"] = final_df.index + 1
+
+        return final_df
+
 
 def create_daily_aggregator(
     data_dir: str = "data/coins", output_dir: str = "data/daily"
@@ -468,12 +437,12 @@ if __name__ == "__main__":
     print(f"- 总天数: {coverage['date_range']['total_days']}")
 
     # 找到Bitcoin开始日期
-    btc_start = aggregator.find_bitcoin_start_date()
-    print(f"- Bitcoin最早日期: {btc_start}")
+    btc_start_str = aggregator.find_bitcoin_start_date()
+    print(f"- Bitcoin最早日期: {btc_start_str}")
 
     # 测试获取某一天的数据
-    if btc_start:
-        test_data = aggregator.get_daily_data(btc_start)
-        print(f"- {btc_start} 当天有 {len(test_data)} 个币种有数据")
+    if btc_start_str:
+        test_data = aggregator.get_daily_data(btc_start_str)
+        print(f"- {btc_start_str} 当天有 {len(test_data)} 个币种有数据")
         if not test_data.empty:
             print(f"- 前3名币种: {test_data.head(3)['coin_id'].tolist()}")

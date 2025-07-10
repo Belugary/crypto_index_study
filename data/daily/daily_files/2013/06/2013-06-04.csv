@@ -1,2 +1,2 @@
-date,coin_id,price,volume,market_cap,timestamp,rank
-2013-06-04,litecoin,2.7273,0.0,49707917.0,1370304000000,1
+timestamp,price,volume,market_cap,date,coin_id,rank
+1370304000000,2.7273,0.0,49707917.0,2013-06-04,litecoin,1

@@ -5,6 +5,7 @@
 """
 
 import json
+import os
 import time
 from datetime import datetime
 from typing import Any, Dict, List, Optional
@@ -105,3 +106,22 @@ def safe_get(data: Dict, *keys: str, default: Any = None) -> Any:
         else:
             return default
     return data
+
+
+def get_project_root() -> str:
+    """
+    获取项目的根目录路径。
+
+    通过查找 .git 目录来确定项目根目录。
+
+    Returns:
+        str: 项目的绝对根目录路径。
+    """
+    current_path = os.path.abspath(os.path.dirname(__file__))
+    while True:
+        if ".git" in os.listdir(current_path):
+            return current_path
+        parent_path = os.path.dirname(current_path)
+        if parent_path == current_path:
+            raise FileNotFoundError("无法找到项目根目录 (未找到 .git 文件夹)")
+        current_path = parent_path

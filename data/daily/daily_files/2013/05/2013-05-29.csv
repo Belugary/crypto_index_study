@@ -1,2 +1,2 @@
-date,coin_id,price,volume,market_cap,timestamp,rank
-2013-05-29,bitcoin,132.13,0.0,1481781795.0,1369785600000,1
+timestamp,price,volume,market_cap,date,coin_id,rank
+1369785600000,132.13,0.0,1481781795.0,2013-05-29,bitcoin,1
