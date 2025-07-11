@@ -46,6 +46,11 @@ Thumbs.db
 # Logs
 *.log
 data/logs/
+logs/
+
+# 但保留重要的报告文件（如果需要的话）
+# !logs/reports/
+# !logs/*_report.txt
 
 # Local Test Files
 tests/test_coingecko_api_local.py

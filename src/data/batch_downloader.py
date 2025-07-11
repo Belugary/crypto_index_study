@@ -37,9 +37,12 @@ class BatchDownloader:
         """
         self.api = api
         self.data_dir = Path(data_dir)
+        # 项目根目录，用于存放日志文件
+        self.base_dir = self.data_dir.parent if self.data_dir.name == "data" else Path(".")
         self.coins_dir = self.data_dir / "coins"
         self.metadata_dir = self.data_dir / "metadata"
-        self.logs_dir = self.data_dir / "logs"
+        # 日志文件统一放在项目根目录的 logs/ 下
+        self.logs_dir = self.base_dir / "logs"
 
         # 创建必要的目录结构
         self._ensure_directories()
