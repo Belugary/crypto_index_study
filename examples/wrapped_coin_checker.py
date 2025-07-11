@@ -53,28 +53,24 @@ class WrappedCoinChecker:
             # 包装类代币 - 明确的包装代币
             "Wrapped-Tokens",
             "Wrapped Tokens",
-            
             # 桥接代币 - 跨链包装代币
-            "Bridged-Tokens", 
+            "Bridged-Tokens",
             "Bridged Tokens",
             "Bridged WBTC",
-            "Bridged WETH", 
+            "Bridged WETH",
             "Bridged USDC",
             "Bridged USDT",
             "Bridged DAI",
             "Bridged Stablecoin",
-            
             # 流动性质押代币 - 代表质押资产的代币
             "Liquid Staking Tokens",
             "Liquid Staked ETH",
-            "Liquid Staked SOL", 
+            "Liquid Staked SOL",
             "Liquid Staked BTC",
-            
             # 重新质押代币 - 代表重新质押资产的代币
             "Liquid Restaking Tokens",
             "Liquid Restaked ETH",
             "Liquid Restaked SOL",
-            
             # 代币化资产 - 代表真实资产的代币
             "Tokenized BTC",
             "Tokenized ETH",
@@ -84,27 +80,25 @@ class WrappedCoinChecker:
             "Tokenized Commodities",
             "Tokenized Treasury Bills (T-Bills)",
             "Tokenized Treasury Bonds (T-Bonds)",
-            
             # 收益代币 - 代表生息资产的代币
             "Yield-Bearing Stablecoin",
             "Yield-Bearing Tokens",
-            
             # 其他明确的包装类别
             "Interest Bearing",
             "Receipt Tokens",
             "Vault Tokens",
         ]
-        
+
         # 排除的分类 - 这些虽然相关但通常是原生代币
         excluded_categories = [
             # 治理代币通常是原生的
             "Liquid Staking Governance Tokens",
-            "Liquid Restaking Governance Tokens", 
+            "Liquid Restaking Governance Tokens",
             "Restaking",  # 单独的 Restaking 通常指协议代币
             "Derivatives",  # 单独的 Derivatives 通常指平台代币
             "Synthetic Issuer",  # 发行方代币，不是合成资产本身
         ]
-        
+
         # 特殊排除规则 - 即使有包装相关分类，也不应视为包装币
         # 检查是否是meme币 - meme币即使有Bridged-Tokens分类也不是真正的包装币
         if "Meme" in categories:
@@ -123,9 +117,11 @@ class WrappedCoinChecker:
         # 检查分类中是否包含包装币关键词，但排除治理代币
         for category in categories:
             # 首先检查是否在排除列表中
-            if any(excluded.lower() == category.lower() for excluded in excluded_categories):
+            if any(
+                excluded.lower() == category.lower() for excluded in excluded_categories
+            ):
                 continue
-                
+
             # 然后检查是否匹配包装币关键词
             for keyword in wrapped_category_keywords:
                 if keyword.lower() == category.lower():
@@ -234,9 +230,19 @@ def main():
 
     # 1. 检查几个特定币种
     test_coins = [
-        "bitcoin", "ethereum", "wrapped-bitcoin", "weth",
-        "staked-ether", "binance-wrapped-btc", "avalanche-bridged-usdc-avalanche",
-        "tether", "solana", "bnb", "cardano", "arbitrum", "avalanche-2"
+        "bitcoin",
+        "ethereum",
+        "wrapped-bitcoin",
+        "weth",
+        "staked-ether",
+        "binance-wrapped-btc",
+        "avalanche-bridged-usdc-avalanche",
+        "tether",
+        "solana",
+        "bnb",
+        "cardano",
+        "arbitrum",
+        "avalanche-2",
     ]
 
     print("📊 检查特定币种:")
@@ -260,7 +266,7 @@ def main():
             print(f"  ✅ {coin['name']} ({coin['symbol'].upper()})")
             if coin["wrapped_categories"]:
                 print(f"     分类: {', '.join(coin['wrapped_categories'])}")
-        
+
         if len(wrapped_coins) > 20:
             print(f"  ... 还有 {len(wrapped_coins) - 20} 个包装币")
     else:

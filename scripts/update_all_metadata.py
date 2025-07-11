@@ -197,7 +197,7 @@ def generate_complete_stablecoin_list() -> None:
 def generate_complete_native_coin_list() -> None:
     """
     生成完整的原生币列表（排除稳定币和包装币）
-    
+
     该函数会：
     1. 获取所有币种列表
     2. 使用稳定币检查器识别稳定币
@@ -205,72 +205,74 @@ def generate_complete_native_coin_list() -> None:
     4. 生成原生币列表并导出到CSV
     """
     print(f"\n🔍 生成完整的原生币列表...")
-    
+
     # 获取所有币种ID
     coin_ids = get_all_coin_ids_from_data()
-    
+
     if not coin_ids:
         print("❌ 没有找到任何币种数据")
         return
-    
+
     # 创建检查器
     stablecoin_checker = StablecoinChecker()
     wrapped_checker = WrappedCoinChecker()
-    
+
     # 获取稳定币列表
     stablecoin_results = []
     for coin_id in coin_ids:
         result = stablecoin_checker.is_stablecoin(coin_id)
         if result["is_stablecoin"]:
             stablecoin_results.append(coin_id)
-    
+
     # 获取包装币列表
     wrapped_results = []
     for coin_id in coin_ids:
         result = wrapped_checker.is_wrapped_coin(coin_id)
         if result["is_wrapped_coin"]:
             wrapped_results.append(coin_id)
-    
+
     # 生成原生币列表（排除稳定币和包装币）
     excluded_coins = set(stablecoin_results + wrapped_results)
     native_coins = [coin_id for coin_id in coin_ids if coin_id not in excluded_coins]
-    
+
     print(f"📊 原生币统计:")
     print(f"   总币种数: {len(coin_ids)}")
     print(f"   稳定币数: {len(stablecoin_results)}")
     print(f"   包装币数: {len(wrapped_results)}")
     print(f"   原生币数: {len(native_coins)}")
-    
+
     # 导出到CSV
     try:
         import pandas as pd
         from src.data.batch_downloader import create_batch_downloader
-        
+
         downloader = create_batch_downloader()
-        
+
         # 准备数据
         csv_data = []
         for coin_id in native_coins:
             metadata = downloader._load_coin_metadata(coin_id)
             if metadata:
-                csv_data.append({
-                    "coin_id": coin_id,
-                    "name": metadata.get("name", ""),
-                    "symbol": metadata.get("symbol", ""),
-                    "categories": ";".join(metadata.get("categories", [])),
-                    "last_updated": metadata.get("last_updated", "")
-                })
-        
+                csv_data.append(
+                    {
+                        "coin_id": coin_id,
+                        "name": metadata.get("name", ""),
+                        "symbol": metadata.get("symbol", ""),
+                        "categories": ";".join(metadata.get("categories", [])),
+                        "last_updated": metadata.get("last_updated", ""),
+                    }
+                )
+
         # 创建DataFrame并保存
         df = pd.DataFrame(csv_data)
         df = df.sort_values("coin_id")
-        
+
         output_path = "data/metadata/native_coins.csv"
         df.to_csv(output_path, index=False, encoding="utf-8-sig")
-        
+
         print(f"\n💾 原生币列表已导出到: {output_path}")
         print(f"   共导出 {len(csv_data)} 个原生币")
-        
+
     except Exception as e:
         print(f"❌ 导出原生币列表失败: {e}")
 
@@ -325,7 +327,9 @@ def generate_complete_wrapped_coin_list() -> None:
         confidence_counts[conf] = confidence_counts.get(conf, 0) + 1
 
     print("   置信度分布:")
-    for conf, count in sorted(confidence_counts.items(), key=lambda x: x[1], reverse=True):
+    for conf, count in sorted(
+        confidence_counts.items(), key=lambda x: x[1], reverse=True
+    ):
         print(f"     - {conf}: {count} 个")
 
     # 按分类统计

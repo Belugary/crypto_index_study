@@ -50,7 +50,11 @@ class TestPriceDataUpdaterLogic(unittest.TestCase):
     @patch("scripts.update_price_data.StablecoinChecker")
     @patch("scripts.update_price_data.WrappedCoinChecker")
     def setUp(
-        self, MockWrappedCoinChecker, MockStablecoinChecker, mock_create_batch_downloader, MockCoinGeckoAPI
+        self,
+        MockWrappedCoinChecker,
+        MockStablecoinChecker,
+        mock_create_batch_downloader,
+        MockCoinGeckoAPI,
     ):
         """初始化测试环境和 mock 对象"""
         self.mock_api = MockCoinGeckoAPI.return_value
@@ -98,7 +102,9 @@ class TestPriceDataUpdaterLogic(unittest.TestCase):
         self.mock_checker.is_stablecoin.side_effect = lambda symbol: symbol == "usdt"
 
         # 模拟包装币检查器
-        self.mock_wrapped_checker.is_wrapped_coin.side_effect = lambda coin_id: {"is_wrapped_coin": coin_id == "wrapped-bitcoin"}
+        self.mock_wrapped_checker.is_wrapped_coin.side_effect = lambda coin_id: {
+            "is_wrapped_coin": coin_id == "wrapped-bitcoin"
+        }
 
         # 模拟 get_coin_last_date
         # bitcoin 最新, ethereum 过时, tether 是稳定币应跳过
