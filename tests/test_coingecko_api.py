@@ -1,138 +1,126 @@
 """
 CoinGecko API 测试模块
 
-测试基础API功能、Premium API功能和Analyst API功能
+使用 unittest 框架测试 API 功能
 """
 
+import json
 import os
 import sys
+import unittest
 
 # 添加项目根目录到Python路径
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.api.coingecko import CoinGeckoAPI
-from src.utils import print_json
 
 
-def test_basic_api(api: CoinGeckoAPI) -> bool:
-    """测试基础 API 功能"""
-    print("\n🔹 测试基础 API 功能")
+class TestCoinGeckoAPI(unittest.TestCase):
+    """测试 CoinGeckoAPI 类的功能"""
 
-    try:
-        # 1. 获取硬币列表
-        print("\n1. 获取硬币列表 (前10个)")
-        coins_list = api.get_coins_list()
-        print_json(coins_list, "硬币列表", 10)
+    @classmethod
+    def setUpClass(cls):
+        """在所有测试开始前运行一次，初始化API客户端"""
+        print("🚀 开始测试 CoinGecko API")
+        cls.api = CoinGeckoAPI()
+        if not cls.api.api_key:
+            raise unittest.SkipTest("API Key 未配置，跳过所有测试")
 
-        # 2. 获取市场数据
-        print("\n2. 获取前20个硬币的市场数据")
-        markets = api.get_coins_markets(vs_currency="usd", per_page=20, page=1)
-        print_json(markets, "市场数据", 5)
+    def test_ping(self):
+        """测试与 CoinGecko API 的连接"""
+        print("\n--- 测试 API 连接 (ping) ---")
+        data = self.api.ping()
+        self.assertIsNotNone(data, "Ping 失败，返回 None")
+        # 检查返回的是否是字典类型，并且包含 'gecko_says' 键
+        self.assertIsInstance(data, dict, "Ping 返回的不是一个字典")
+        self.assertIn("gecko_says", data, "Ping 响应中缺少 'gecko_says' 键")
+        print(f"✅ Ping 成功: {data['gecko_says']}")
 
-        # 3. 获取Bitcoin详细数据
-        print("\n3. 获取Bitcoin详细数据")
-        bitcoin = api.get_coin_by_id("bitcoin")
-        # 简化显示，只显示核心信息
-        bitcoin_summary = {
-            "id": bitcoin.get("id"),
-            "name": bitcoin.get("name"),
-            "symbol": bitcoin.get("symbol"),
-            "market_cap_rank": bitcoin.get("market_cap_rank"),
-            "market_data": {
-                "current_price": bitcoin.get("market_data", {})
-                .get("current_price", {})
-                .get("usd"),
-                "market_cap": bitcoin.get("market_data", {})
-                .get("market_cap", {})
-                .get("usd"),
-                "total_volume": bitcoin.get("market_data", {})
-                .get("total_volume", {})
-                .get("usd"),
-            },
-        }
-        print_json(bitcoin_summary, "Bitcoin详细数据")
+    def test_get_coins_list(self):
+        """测试获取所有币种列表"""
+        print("\n--- 测试获取所有币种列表 ---")
+        data = self.api.get_coins_list()
+        self.assertIsNotNone(data, "未能获取币种列表")
+        self.assertIsInstance(data, list)
+        self.assertGreater(len(data), 0)
+        print(f"成功获取币种列表，总数: {len(data)}")
 
-        # 4. 获取Bitcoin交易行情
-        print("\n4. 获取Bitcoin交易行情")
-        tickers = api.get_coin_tickers("bitcoin")
-        # 简化显示，只显示前3个ticker
-        tickers_summary = {
-            "name": tickers.get("name"),
-            "ticker_count": len(tickers.get("tickers", [])),
-            "top_3_tickers": tickers.get("tickers", [])[:3],
-        }
-        print_json(tickers_summary, "Bitcoin交易行情")
+    def test_get_coins_markets(self):
+        """测试获取市场数据"""
+        print("\n--- 测试获取市场数据 ---")
+        data = self.api.get_coins_markets(vs_currency="usd", per_page=5)
+        self.assertIsNotNone(data, "未能获取市场数据")
+        self.assertIsInstance(data, list)
+        self.assertEqual(len(data), 5)
+        print(f"成功获取前5个币种的市场数据: {json.dumps(data, indent=2)}")
 
-        # 5. 获取历史数据
-        print("\n5. 获取Bitcoin历史数据 (2024-01-01)")
-        history = api.get_coin_history("bitcoin", "01-01-2024")
-        # 简化显示
-        history_summary = {
-            "id": history.get("id"),
-            "date": "01-01-2024",
-            "market_data": history.get("market_data", {}),
-        }
-        print_json(history_summary, "Bitcoin历史数据")
+    def test_get_coin_categories_list(self):
+        """测试获取所有币种分类列表"""
+        print("\n--- 测试获取所有币种分类列表 ---")
+        data = self.api.get_coin_categories_list()
+        self.assertIsNotNone(data, "未能获取币种分类列表")
+        assert data is not None  # 帮助类型检查器确认 data 不为 None
+        self.assertIsInstance(data, list, "返回的数据类型不是列表")
+        self.assertGreater(len(data), 0, "返回的分类列表为空")
 
-        # 6. 获取图表数据
-        print("\n6. 获取Bitcoin价格图表数据 (7天)")
-        chart_data = api.get_coin_market_chart("bitcoin", "usd", "7")
-        chart_summary = {
-            "price_points": len(chart_data.get("prices", [])),
-            "market_cap_points": len(chart_data.get("market_caps", [])),
-            "volume_points": len(chart_data.get("total_volumes", [])),
-            "first_price": chart_data.get("prices", [None])[0],
-            "last_price": chart_data.get("prices", [None])[-1],
-        }
-        print_json(chart_summary, "Bitcoin图表数据摘要")
+        # 验证列表中的元素结构
+        for category in data[:5]:  # 只检查前5个样本
+            self.assertIn("category_id", category)
+            self.assertIn("name", category)
+            self.assertIsInstance(category["category_id"], str)
+            self.assertIsInstance(category["name"], str)
 
-        # 7. 获取OHLC数据
-        print("\n7. 获取Bitcoin OHLC数据 (7天)")
-        ohlc_data = api.get_coin_ohlc("bitcoin", "usd", 7)
-        ohlc_summary = {
-            "data_type": type(ohlc_data).__name__,
-            "data_length": len(ohlc_data) if isinstance(ohlc_data, list) else "N/A",
-            "sample": (
-                str(ohlc_data)[:200] + "..." if len(str(ohlc_data)) > 200 else ohlc_data
-            ),
-        }
-        print_json(ohlc_summary, "Bitcoin OHLC数据")
+        print(f"成功获取币种分类列表，总数: {len(data)}")
+        print(f"分类列表样本: {json.dumps(data[:5], indent=2)}")
 
-        return True
+    def test_get_coin_by_id(self):
+        """测试通过 ID 获取单个币种信息"""
+        print("\n--- 测试通过 ID 获取单个币种信息 ---")
+        data = self.api.get_coin_by_id("bitcoin")
+        self.assertIsNotNone(data)
+        self.assertEqual(data["id"], "bitcoin")
+        print("成功获取 Bitcoin 的详细数据")
 
-    except Exception as e:
-        print(f"❌ 基础 API 测试失败: {e}")
-        return False
+    def test_get_coin_tickers(self):
+        """测试获取币种的交易行情"""
+        print("\n--- 测试获取币种的交易行情 ---")
+        data = self.api.get_coin_tickers("bitcoin")
+        self.assertIsNotNone(data)
+        self.assertEqual(data["name"], "Bitcoin")
+        self.assertGreater(len(data["tickers"]), 0)
+        print("成功获取 Bitcoin 的交易行情数据")
 
+    def test_get_coin_history(self):
+        """测试获取币种的历史数据"""
+        print("\n--- 测试获取币种的历史数据 ---")
+        data = self.api.get_coin_history("bitcoin", "01-01-2024")
+        self.assertIsNotNone(data)
+        self.assertEqual(data["id"], "bitcoin")
+        self.assertIn("market_data", data)
+        print("成功获取 Bitcoin 在 2024-01-01 的历史数据")
 
-def main():
-    """主测试函数"""
-    print("🚀 开始测试 CoinGecko API")
-    print("API Key:", "已配置" if CoinGeckoAPI().api_key else "未配置")
+    def test_get_coin_market_chart(self):
+        """测试获取市场图表数据"""
+        print("\n--- 测试获取市场图表数据 ---")
+        data = self.api.get_coin_market_chart("bitcoin", "usd", "7")
+        self.assertIsNotNone(data)
+        self.assertIn("prices", data)
+        self.assertIn("market_caps", data)
+        self.assertIn("total_volumes", data)
+        self.assertGreater(len(data["prices"]), 0)
+        print("成功获取 Bitcoin 7天内的市场图表数据")
 
-    # 创建 API 客户端
-    api = CoinGeckoAPI()
-
-    # 测试结果记录
-    results = {"basic": False}
-
-    # 测试基础 API
-    results["basic"] = test_basic_api(api)
-
-    # 输出测试总结
-    print(f"\n{'='*60}")
-    print("📊 测试结果总结")
-    print(f"{'='*60}")
-    print(f"🔹 基础 API:    {'✅ 成功' if results['basic'] else '❌ 失败'}")
-
-    success_count = sum(results.values())
-    print(f"\n总计: {success_count}/1 个 API 测试成功")
-
-    if success_count == 1:
-        print("🎉 所有 API 测试通过！CoinGecko基础API封装完成。")
-    else:
-        print("⚠️  API 测试失败，请检查 API Key 或网络连接。")
+    def test_get_coin_ohlc(self):
+        """测试获取OHLC数据"""
+        print("\n--- 测试获取OHLC数据 ---")
+        data = self.api.get_coin_ohlc("bitcoin", "usd", 7)
+        self.assertIsNotNone(data)
+        self.assertIsInstance(data, list)
+        self.assertGreater(len(data), 0)
+        # 验证OHLC数据格式 [time, open, high, low, close]
+        self.assertEqual(len(data[0]), 5)
+        print("成功获取 Bitcoin 7天内的OHLC数据")
 
 
 if __name__ == "__main__":
-    main()
+    unittest.main()
