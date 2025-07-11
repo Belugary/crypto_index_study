@@ -1,0 +1,55 @@
+{
+  "id": "metadium",
+  "symbol": "meta",
+  "name": "Metadium",
+  "categories": [
+    "Ethereum Ecosystem",
+    "Decentralized Identifier (DID)"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xde2f7766c8bf14ca67193128535e5c7454f8387c"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "KY",
+  "description": {
+    "en": "Metadium is a next-generation blockchain protocol designed to create a decentralized identity ecosystem. Vitalizing the concept of self-sovereign identity enables individuals to exercise total control of their own identity - managing, securing, and utilizing personal data only under the owner’s consent. Metadium aims to present a future in which one can freely and conveniently use one’s own identity data."
+  },
+  "links": {
+    "homepage": [
+      "https://metadium.com"
+    ],
+    "whitepaper": "https://drive.google.com/file/d/1MgZF5lk0_x6lDHrlrjVsVmpy3QfmLujI/view",
+    "blockchain_site": [
+      "https://explorer.metadium.com/",
+      "https://platform.arkhamintelligence.com/explorer/token/metadium",
+      "https://etherscan.io/token/0xde2f7766c8bf14ca67193128535e5c7454f8387c",
+      "https://ethplorer.io/address/0xde2f7766c8bf14ca67193128535e5c7454f8387c"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/metadium"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "MetadiumK",
+    "facebook_username": "Metadium",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "MetadiumOfficial",
+    "subreddit_url": "https://www.reddit.com/r/metadiumprotocol/",
+    "repos_url": {
+      "github": [
+        "https://github.com/METADIUM/go-metadium"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/5247/thumb/metadium_symbol_black.png?1729148922",
+    "small": "https://coin-images.coingecko.com/coins/images/5247/small/metadium_symbol_black.png?1729148922",
+    "large": "https://coin-images.coingecko.com/coins/images/5247/large/metadium_symbol_black.png?1729148922"
+  },
+  "last_updated": "2025-07-11T09:53:37.785280+00:00"
+}

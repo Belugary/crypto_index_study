@@ -1,0 +1,53 @@
+{
+  "id": "myro",
+  "symbol": "$myro",
+  "name": "Myro",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Dog-Themed",
+    "Solana Meme",
+    "GMCI Meme Index",
+    "GMCI Index"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "HhJpBhRRn4g56VsyLuT8DL5Bv31HkXqsrahTTUCZeZg4"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Myro the dog: Named after Solana Co-Founder Raj Gokal’s dog Myro. "
+  },
+  "links": {
+    "homepage": [
+      "http://myrothedog.com"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/HhJpBhRRn4g56VsyLuT8DL5Bv31HkXqsrahTTUCZeZg4",
+      "https://platform.arkhamintelligence.com/explorer/token/myro"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "myrosol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "myroSOL",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/32878/thumb/MYRO_200x200.png?1699709942",
+    "small": "https://coin-images.coingecko.com/coins/images/32878/small/MYRO_200x200.png?1699709942",
+    "large": "https://coin-images.coingecko.com/coins/images/32878/large/MYRO_200x200.png?1699709942"
+  },
+  "last_updated": "2025-07-11T09:56:33.833782+00:00"
+}

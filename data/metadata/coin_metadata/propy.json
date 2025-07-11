@@ -1,0 +1,58 @@
+{
+  "id": "propy",
+  "symbol": "pro",
+  "name": "Propy",
+  "categories": [
+    "Tokenized Real Estate",
+    "Tokenized Assets",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "Base Ecosystem",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x226bb599a12c826476e3a771454697ea52e9e220",
+    "base": "0x18dd5b087bca9920562aff7a0199b96b9230438b"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2017-07-18",
+  "country_origin": "US",
+  "description": {
+    "en": "Propy is a decentralized real-estate market place backed by superior blockchain infrastructure to facilitate real-time unified transaction in order to reduce fraud and redundancy. Propy is the world’s first international real-estate marketplace."
+  },
+  "links": {
+    "homepage": [
+      "https://propy.com"
+    ],
+    "whitepaper": "http://tokensale.propy.com/WhitepaperSummary.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x226bb599a12c826476e3a771454697ea52e9e220",
+      "https://platform.arkhamintelligence.com/explorer/token/propy",
+      "https://ethplorer.io/address/0x226bb599a12c826476e3a771454697ea52e9e220",
+      "https://basescan.org/token/0x18dd5b087bca9920562aff7a0199b96b9230438b"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "PropyInc",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": 1982115,
+    "telegram_channel_identifier": "propy",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Propy/ethereum"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/869/thumb/propy-pro-logo.png?1737476645",
+    "small": "https://coin-images.coingecko.com/coins/images/869/small/propy-pro-logo.png?1737476645",
+    "large": "https://coin-images.coingecko.com/coins/images/869/large/propy-pro-logo.png?1737476645"
+  },
+  "last_updated": "2025-07-11T09:52:09.279879+00:00"
+}

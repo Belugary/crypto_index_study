@@ -1,0 +1,57 @@
+{
+  "id": "veraone",
+  "symbol": "vro",
+  "name": "VeraOne",
+  "categories": [
+    "Tokenized Assets",
+    "Tokenized Gold",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "Tokenized Commodities"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x10bc518c32fbae5e38ecb50a612160571bd81e44"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "SHA-3",
+  "genesis_date": null,
+  "country_origin": "FR",
+  "description": {
+    "en": "VeraOne is a gold-backed stablecoin, made by the French leader in sales and safekeeping of physical gold and silver assets."
+  },
+  "links": {
+    "homepage": [
+      "https://veraone.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x10bc518c32fbae5e38ecb50a612160571bd81e44",
+      "https://platform.arkhamintelligence.com/explorer/token/veraone",
+      "https://ethplorer.io/address/0x10bc518c32fbae5e38ecb50a612160571bd81e44"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.linkedin.com/company/veraone-io/"
+    ],
+    "announcement_url": [
+      "https://medium.com/@jffaure/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "VROstablecoin",
+    "facebook_username": "VROstablecoin",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "VROstablecoin",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/11112/thumb/wsBaVF.png?1696511051",
+    "small": "https://coin-images.coingecko.com/coins/images/11112/small/wsBaVF.png?1696511051",
+    "large": "https://coin-images.coingecko.com/coins/images/11112/large/wsBaVF.png?1696511051"
+  },
+  "last_updated": "2025-07-11T09:54:34.955183+00:00"
+}

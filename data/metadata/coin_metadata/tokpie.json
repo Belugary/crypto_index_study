@@ -1,0 +1,58 @@
+{
+  "id": "tokpie",
+  "symbol": "tkp",
+  "name": "TOKPIE",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xd31695a1d35e489252ce57b129fd4b1b05e6acac",
+    "binance-smart-chain": "0x7849ed1447250d0b896f89b58f3075b127ca29b3"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Keccak",
+  "genesis_date": null,
+  "country_origin": "HK",
+  "description": {
+    "en": "TOKPIE is the First Cryptocurrency Exchange Platform with BOUNTY STAKES TRADING service.\r\nHolders of the TOKPIE (TKP) token can get up to 500% discount on fees, regular airdrops from newly listed projects, up to 70% referral bonus, access to the bounty stakes depositing and trading, P2P loans with TKP pledged as collateral under 90% LTV, and income from TKP lending (staking). Also, TKP is accepted on Tokpie IEO Launchpad.  "
+  },
+  "links": {
+    "homepage": [
+      "https://tokpie.io"
+    ],
+    "whitepaper": null,
+    "blockchain_site": [
+      "https://etherscan.io/token/0xd31695a1d35e489252ce57b129fd4b1b05e6acac",
+      "https://platform.arkhamintelligence.com/explorer/token/tokpie",
+      "https://ethplorer.io/address/0xd31695a1d35e489252ce57b129fd4b1b05e6acac",
+      "https://bscscan.com/token/0x7849ed1447250d0b896f89b58f3075b127ca29b3",
+      "https://binplorer.com/address/0x7849ed1447250d0b896f89b58f3075b127ca29b3"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://redwaif.com/Tokpie",
+      "https://www.altcoinstalks.com/index.php?board=413.0"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "tokpie.io",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "tokpie",
+    "subreddit_url": "https://www.reddit.com/r/Tokpie",
+    "repos_url": {
+      "github": [
+        "https://github.com/Tokpie/tokpie-contract"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/3731/thumb/tokpie-200x200.png?1696504401",
+    "small": "https://coin-images.coingecko.com/coins/images/3731/small/tokpie-200x200.png?1696504401",
+    "large": "https://coin-images.coingecko.com/coins/images/3731/large/tokpie-200x200.png?1696504401"
+  },
+  "last_updated": "2025-07-11T09:52:17.385111+00:00"
+}

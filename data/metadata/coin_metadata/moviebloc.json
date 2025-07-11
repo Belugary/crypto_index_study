@@ -1,0 +1,57 @@
+{
+  "id": "moviebloc",
+  "symbol": "mbl",
+  "name": "MovieBloc",
+  "categories": [
+    "DWF Labs Portfolio"
+  ],
+  "asset_platform_id": "ontology",
+  "platforms": {
+    "ontology": "e5a49d7fd57e7178e189d3965d1ee64368a1036d"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "MovieBloc's mission is to solve problems caused by the domination of the theatre and home entertainment industry by conglomerates with its blockchain technology. The creators will get a transparent revenue share, audience data, and equal screening opportunity; the viewers will access diverse films and content, and get rewarded for providing curation, subtitles, and marketing materials to the community. In the long run, MovieBloc aims to create the largest film ecosystem centered on participants."
+  },
+  "links": {
+    "homepage": [
+      "https://www.moviebloc.com/",
+      "http://moviebloc.io/"
+    ],
+    "whitepaper": "https://www.moviebloc.com/whitepaper/MovieBloc_White_Paper_Ver.1.14_en.pdf",
+    "blockchain_site": [
+      "https://explorer.ont.io/token/e5a49d7fd57e7178e189d3965d1ee64368a1036d?contracttype=oep4&tokenname=moviebloc&pagesize=10&pagenumber=1"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/moviebloc.official/",
+      "https://www.youtube.com/channel/UCfp9MwbR3SgSg409LFF7OiA"
+    ],
+    "chat_url": [
+      "https://open.kakao.com/o/gZcn2uhb"
+    ],
+    "announcement_url": [
+      "https://medium.com/moviebloc"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "moviebloc",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "moviebloc",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/MovieBloc/Moviebloc-Web"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/8460/thumb/MBL_Logo.png?1696508646",
+    "small": "https://coin-images.coingecko.com/coins/images/8460/small/MBL_Logo.png?1696508646",
+    "large": "https://coin-images.coingecko.com/coins/images/8460/large/MBL_Logo.png?1696508646"
+  },
+  "last_updated": "2025-07-11T09:53:00.105158+00:00"
+}

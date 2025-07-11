@@ -1,0 +1,60 @@
+{
+  "id": "deso",
+  "symbol": "deso",
+  "name": "Decentralized Social",
+  "categories": [
+    "SocialFi",
+    "Coinbase Ventures Portfolio",
+    "Pantera Capital Portfolio",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "Sequoia Capital Portfolio"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.deso.com/",
+      "https://wallet.deso.com/",
+      "https://signup.deso.com/explore"
+    ],
+    "whitepaper": "https://docs.deso.org/about-deso-chain/readme",
+    "blockchain_site": [
+      "https://explorer.deso.com/",
+      "https://wallet.deso.com/"
+    ],
+    "official_forum_url": [
+      "https://www.tiktok.com/@desoblockchain"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/xy3J4Cd3Ww"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "desoprotocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "desoblockchain",
+    "subreddit_url": "https://www.reddit.com/r/DESO",
+    "repos_url": {
+      "github": [
+        "https://github.com/deso-protocol/explorer"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/16310/thumb/deso-logo-refresh-white.png?1696515911",
+    "small": "https://coin-images.coingecko.com/coins/images/16310/small/deso-logo-refresh-white.png?1696515911",
+    "large": "https://coin-images.coingecko.com/coins/images/16310/large/deso-logo-refresh-white.png?1696515911"
+  },
+  "last_updated": "2025-07-11T09:53:12.990553+00:00"
+}

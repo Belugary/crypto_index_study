@@ -1,0 +1,55 @@
+{
+  "id": "tether-rainbow-bridge",
+  "symbol": "usdt.e",
+  "name": "Bridged Tether (Rainbow Bridge)",
+  "categories": [
+    "Near Protocol Ecosystem",
+    "Bridged USDT",
+    "Bridged-Tokens"
+  ],
+  "asset_platform_id": "near-protocol",
+  "platforms": {
+    "near-protocol": "dac17f958d2ee523a2206206994597c13d831ec7.factory.bridge.near"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://rainbowbridge.app/",
+      "https://aurora.dev/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://nearblocks.io/token/dac17f958d2ee523a2206206994597c13d831ec7.factory.bridge.near"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/dEFJBz8HQV",
+      "https://auroraisnear.medium.com/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "auroraisnear",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/aurora-is-near"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/29428/thumb/tether-441954.png?1696528377",
+    "small": "https://coin-images.coingecko.com/coins/images/29428/small/tether-441954.png?1696528377",
+    "large": "https://coin-images.coingecko.com/coins/images/29428/large/tether-441954.png?1696528377"
+  },
+  "last_updated": "2025-07-11T09:54:47.450422+00:00"
+}

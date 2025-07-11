@@ -1,0 +1,58 @@
+{
+  "id": "straitsx-xusd",
+  "symbol": "xusd",
+  "name": "StraitsX XUSD",
+  "categories": [
+    "Stablecoins",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xc08e7e23c235073c6807c2efe7021304cb7c2815",
+    "binance-smart-chain": "0xf81ac2e1a0373dde1bce01e2fe694a9b7e3bfcb9"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The smart contract for XUSD on Ethereum was first deployed in February 2024 by StraitsX. Designed to facilitate swift, global, and 24/7 payments, XUSD serves to bridge ASEAN’s financial ecosystem with the stability of the world’s primary reserve currency. Each XUSD is pegged to one United States Dollar, and has been acknowledged by the Monetary Authority of Singapore (MAS) to be compliant with Singapore's upcoming stablecoin regulatory framework.\r\n\r\n\r\n\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.straitsx.com/xusd"
+    ],
+    "whitepaper": "https://cdn.prod.website-files.com/6119d1f2b05f8e85e873971a/65c0a737a6f5c158beaf62d7_StraitsX%20XUSD%20Whitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xc08e7e23c235073c6807c2efe7021304cb7c2815",
+      "https://platform.arkhamintelligence.com/explorer/token/straitsx-xusd",
+      "https://ethplorer.io/address/0xc08e7e23c235073c6807c2efe7021304cb7c2815",
+      "https://bscscan.com/token/0xf81ac2e1a0373dde1bce01e2fe694a9b7e3bfcb9",
+      "https://binplorer.com/address/0xf81ac2e1a0373dde1bce01e2fe694a9b7e3bfcb9"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/straitsx/",
+      "https://www.instagram.com/straitsx/?hl=en"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Xfers/StraitsX-tokens/tree/master/Ethereum"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39180/thumb/XUSD_Logo_200px.png?1720850024",
+    "small": "https://coin-images.coingecko.com/coins/images/39180/small/XUSD_Logo_200px.png?1720850024",
+    "large": "https://coin-images.coingecko.com/coins/images/39180/large/XUSD_Logo_200px.png?1720850024"
+  },
+  "last_updated": "2025-07-11T09:52:04.648730+00:00"
+}

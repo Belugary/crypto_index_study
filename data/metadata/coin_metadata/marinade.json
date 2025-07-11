@@ -1,0 +1,56 @@
+{
+  "id": "marinade",
+  "symbol": "mnde",
+  "name": "Marinade",
+  "categories": [
+    "Solana Ecosystem",
+    "Liquid Staking Governance Tokens",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "MNDEFzGvMt87ueuHvVU9VcTqsAP5b3fTGPsHuuPA5ey"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "MNDE is the governance token for Marinade. Marinade helps you to stake Solana without locking in liquidity by turning SOL into mSOL - tokenized version of staked SOL. This way you can both secure the network by staking SOL, and use your mSOL as the ultimate unit in Solana DeFi ecosystem. To provide liquidity, deposit in lending protocols and even buy NFTs."
+  },
+  "links": {
+    "homepage": [
+      "https://marinade.finance/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/MNDEFzGvMt87ueuHvVU9VcTqsAP5b3fTGPsHuuPA5ey",
+      "https://platform.arkhamintelligence.com/explorer/token/marinade"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/6EtUf4Euu6"
+    ],
+    "announcement_url": [
+      "https://medium.com/marinade-finance"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "marinadeFinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/marinade-finance/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/18867/thumb/c1.png?1750668234",
+    "small": "https://coin-images.coingecko.com/coins/images/18867/small/c1.png?1750668234",
+    "large": "https://coin-images.coingecko.com/coins/images/18867/large/c1.png?1750668234"
+  },
+  "last_updated": "2025-07-11T09:52:19.942552+00:00"
+}

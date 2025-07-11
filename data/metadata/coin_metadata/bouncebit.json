@@ -1,0 +1,66 @@
+{
+  "id": "bouncebit",
+  "symbol": "bb",
+  "name": "BounceBit",
+  "categories": [
+    "Smart Contract Platform",
+    "Solana Ecosystem",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "Restaking",
+    "Proof of Stake (PoS)",
+    "DeFiance Capital Portfolio",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Binance Megadrop",
+    "Blockchain Capital Portfolio",
+    "OKX Ventures Portfolio"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": "",
+    "solana": "76SYfdi8jT84GqxuTqu7FuyA4GQbrto1pLDGQKsy8K12",
+    "ethereum": "0xd459eceddafcc1d876a3be7290a2e16e801073a3"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "BounceBit is the first-ever native BTC Restaking chain. The BounceBit network is secured by staking both Bitcoin and BounceBit tokens. BounceBit's PoS mechanism introduces a unique dual-token staking system by leveraging native BTC security with full EVM compatibility.\r\n\r\nIn a groundbreaking move, BounceBit introduces the mixed DeFi and CeFi yield mechanism, allowing BTC holders to earn yields through native validator staking, DeFi ecosystem, and a CeFi mirroring mechanism powered by Ceffu and Mainnet Digital.\r\n\r\nThe $BB token has several uses on the BounceBit platform:\r\n\r\nStaking: Stake $BB to actively participate in the PoS dual-token staking mechanism.\r\n\r\nProtocol Incentive: The token is paid out as staking reward to validators who secure the network.\r\n\r\nGas: $BB is the denomination of the gas fees that are required to conduct transactions and execute smart contracts.\r\n\r\nGovernance: Use $BB to participate in on-chain governance, e.g. voting on protocol upgrades.\r\n\r\nCurrency: $BB can be used as currency on the BounceBit platform. It can be used in various applications and infrastructure, as medium of exchange or store of value.\r\n\r\n\r\nBounceBit’s Layer 1 consists of the following components:\r\n\r\nDual-token PoS: A hybrid consensus mechanism where each validator can accept both $BBTC and $BB tokens;\r\n\r\nNative LSD module: A module allowing the delegation of staking to validators and receiving a LST voucher in return.\r\n\r\nBounceBit has a foundational CeFi layer which consists of below components:\r\n\r\nRegulated Custody: All user funds are stored in secure custody solutions utilizing MPC wallets.\r\n\r\nOff-Exchange Settlement (OES): OES enables safe access to CEX liquidity, while transactions are settled off-exchange."
+  },
+  "links": {
+    "homepage": [
+      "https://bouncebit.io/"
+    ],
+    "whitepaper": "https://docs.bouncebit.io/",
+    "blockchain_site": [
+      "https://bbscan.io/",
+      "https://etherscan.io/token/0xd459ECeddafcc1d876a3be7290A2E16e801073a3",
+      "https://ethplorer.io/address/0xd459ECeddafcc1d876a3be7290A2E16e801073a3",
+      "https://solscan.io/token/76SYfdi8jT84GqxuTqu7FuyA4GQbrto1pLDGQKsy8K12"
+    ],
+    "official_forum_url": [
+      "https://medium.com/@bouncebit"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/bouncebit"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "bounce_bit",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "bouncebit_io",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/37144/thumb/bb.jpeg?1713439092",
+    "small": "https://coin-images.coingecko.com/coins/images/37144/small/bb.jpeg?1713439092",
+    "large": "https://coin-images.coingecko.com/coins/images/37144/large/bb.jpeg?1713439092"
+  },
+  "last_updated": "2025-07-11T09:52:55.736049+00:00"
+}

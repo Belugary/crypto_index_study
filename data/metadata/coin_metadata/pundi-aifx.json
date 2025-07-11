@@ -1,0 +1,61 @@
+{
+  "id": "pundi-aifx",
+  "symbol": "pundiai",
+  "name": "Pundi AI",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "Proof of Stake (PoS)"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x075f23b9cdfce2cc0ca466f4ee6cb4bd29d83bef",
+    "binance-smart-chain": "0x67aa700ab0110cc52bf7f308fe25068e87a0f581"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Proof of Stake",
+  "genesis_date": null,
+  "country_origin": "SG",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://pundi.ai/"
+    ],
+    "whitepaper": "https://pundi.gitbook.io/pundi",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x075F23b9CdfCE2cC0cA466F4eE6cb4bD29d83bef",
+      "https://ethplorer.io/address/0x075F23b9CdfCE2cC0cA466F4eE6cb4bD29d83bef",
+      "https://pundiscan.io/",
+      "https://bscscan.com/token/0x67aa700ab0110cc52bf7f308fe25068e87a0f581",
+      "https://binplorer.com/address/0x67aa700ab0110cc52bf7f308fe25068e87a0f581"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://medium.com/@pundiai"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "PundiAI",
+    "facebook_username": "functionx.io",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "PundiAI",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/functionx"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54579/thumb/pundiai.jpg?1740538459",
+    "small": "https://coin-images.coingecko.com/coins/images/54579/small/pundiai.jpg?1740538459",
+    "large": "https://coin-images.coingecko.com/coins/images/54579/large/pundiai.jpg?1740538459"
+  },
+  "last_updated": "2025-07-11T09:51:55.646147+00:00"
+}

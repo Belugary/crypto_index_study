@@ -1,0 +1,63 @@
+{
+  "id": "limewire-token",
+  "symbol": "lmwr",
+  "name": "LimeWire",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Music",
+    "SocialFi",
+    "NFT",
+    "BNB Chain Ecosystem",
+    "DePIN",
+    "Base Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x628a3b2e302c7e896acc432d2d0dd22b6cb9bc88",
+    "base": "0xe997017e0cb0ceb503565f181e9ea922cd979c35",
+    "binance-smart-chain": "0x307bc76e3d59ed73886a9cf9360a9286f6281ba7"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "LimeWire is reshaping the creator economy, one step at a time.\r\n\r\nThe beloved platform that helped millions of users in the early 2000’s to discover their favorite music, is back - to once again reinvent how fans and artists share content and interact with each other.\r\n\r\nLimeWire is a platform for content creators, artists and brands to create membership-based communities. Creators can build recurring revenue streams by offering fans exclusive access to their community and journey as an artist. Through blockchain technology, LimeWire makes exclusive content and assets ownable and tradeable, allowing fans to not only consume content but also to directly participate in the success of the creators they support.\r\n\r\nThe LimeWire token is an ERC-20 utility token deeply embedded into the LimeWire ecosystem, designed to provide a series of perks and benefits to holders as well as to enhance the user experience across the LimeWire platform, such as monthly token rewards, access to in person events and voting rights. \r\n\r\nIn mid-2022, LimeWire successfully closed a $10.4M strategic & private pre-sale of the LimeWire Token with a long list of strong backers including Kraken Ventures, Crypto.com Capital, GSR and Arrington Capital."
+  },
+  "links": {
+    "homepage": [
+      "https://limewire.com/u/home",
+      "https://www.lmwr.com"
+    ],
+    "whitepaper": "https://lmwr.com/downloads/LimeWire%20Whitepaper%201.0.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x628a3b2e302c7e896acc432d2d0dd22b6cb9bc88",
+      "https://platform.arkhamintelligence.com/explorer/token/limewire-token",
+      "https://ethplorer.io/address/0x628a3b2e302c7e896acc432d2d0dd22b6cb9bc88",
+      "https://bscscan.com/token/0x307bc76e3d59ed73886a9cf9360a9286f6281ba7",
+      "https://binplorer.com/address/0x307bc76e3d59ed73886a9cf9360a9286f6281ba7",
+      "https://basescan.org/token/0xe997017e0cb0ceb503565f181e9ea922cd979c35"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://lmwr.co/discord"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "limewire",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "limewire",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/30356/thumb/LimeWire_Logo_Icon_200x200_%281%29.png?1696529256",
+    "small": "https://coin-images.coingecko.com/coins/images/30356/small/LimeWire_Logo_Icon_200x200_%281%29.png?1696529256",
+    "large": "https://coin-images.coingecko.com/coins/images/30356/large/LimeWire_Logo_Icon_200x200_%281%29.png?1696529256"
+  },
+  "last_updated": "2025-07-11T09:55:03.064256+00:00"
+}

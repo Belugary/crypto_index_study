@@ -6,6 +6,10 @@ CoinGecko API 项目主入口文件
     python main.py              # 运行基础示例
     python main.py --test       # 运行API测试
     python main.py --examples   # 运行所有示例
+
+数据更新:
+    python scripts/update_price_data.py                 # 更新510个原生币（默认）
+    python scripts/update_price_data.py --native-coins 700  # 更新700个原生币
 """
 
 import argparse

@@ -1,0 +1,51 @@
+{
+  "id": "bridged-tether-opbnb",
+  "symbol": "usdt",
+  "name": "Bridged Tether (opBNB)",
+  "categories": [
+    "Bridged USDT",
+    "opBNB Ecosystem",
+    "Bridged-Tokens"
+  ],
+  "asset_platform_id": "opbnb",
+  "platforms": {
+    "opbnb": "0x9e5aac1ba1a2e6aed6b32689dfcf62a509ca96f3"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.bnbchain.org/en",
+      "https://opbnb.bnbchain.org/en",
+      "https://opbnb-bridge.bnbchain.org/deposit"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://mainnet.opbnbscan.com/token/0x9e5aac1ba1a2e6aed6b32689dfcf62a509ca96f3"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "BNBChain",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/32613/thumb/usdt_opbnb_bridged.png?1698734789",
+    "small": "https://coin-images.coingecko.com/coins/images/32613/small/usdt_opbnb_bridged.png?1698734789",
+    "large": "https://coin-images.coingecko.com/coins/images/32613/large/usdt_opbnb_bridged.png?1698734789"
+  },
+  "last_updated": "2025-07-11T09:52:01.902571+00:00"
+}

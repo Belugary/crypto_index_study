@@ -1,0 +1,55 @@
+{
+  "id": "electroneum",
+  "symbol": "etn",
+  "name": "Electroneum",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Cryptonight",
+  "genesis_date": "2017-10-30",
+  "country_origin": "GB",
+  "description": {
+    "en": "Electroneum is a Layer 1 EVM-compatible blockchain, catering to 4+ million users worldwide. The network boasts transaction speeds of just 5 seconds with instant finality and potentially the lowest smart contract fees available. Powered by the IBFT consensus mechanism and supported by known validators (targeting universities and Web3 infrastructure companies), the network is incredibly fast, secure and energy efficient. ETN provides the backbone for AnyTask.com a successful freelance platform in the crypto space."
+  },
+  "links": {
+    "homepage": [
+      "http://electroneum.com/"
+    ],
+    "whitepaper": "http://electroneum.com/overview-white-paper.pdf",
+    "blockchain_site": [
+      "https://blockexplorer.electroneum.com/"
+    ],
+    "official_forum_url": [
+      "http://electroneum.com/blog/"
+    ],
+    "chat_url": [
+      "https://electroneum.slack.com/join/shared_invite/MjIyMjE0MDU1NDg4LTE1MDIwNDgxNTktZTg5NWY4YWRjYQ",
+      "https://www.facebook.com/electroneum"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "electroneum",
+    "facebook_username": "electroneum",
+    "bitcointalk_thread_identifier": 2065043,
+    "telegram_channel_identifier": "officialelectroneum",
+    "subreddit_url": "https://www.reddit.com/r/Electroneum",
+    "repos_url": {
+      "github": [
+        "https://github.com/electroneum/electroneum"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/1109/thumb/Electroneum2_profile_picture_transparent.png?1747736633",
+    "small": "https://coin-images.coingecko.com/coins/images/1109/small/Electroneum2_profile_picture_transparent.png?1747736633",
+    "large": "https://coin-images.coingecko.com/coins/images/1109/large/Electroneum2_profile_picture_transparent.png?1747736633"
+  },
+  "last_updated": "2025-07-11T09:55:23.427123+00:00"
+}

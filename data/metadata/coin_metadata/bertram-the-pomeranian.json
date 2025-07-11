@@ -1,0 +1,54 @@
+{
+  "id": "bertram-the-pomeranian",
+  "symbol": "bert",
+  "name": "Bertram The Pomeranian",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Dog-Themed",
+    "Solana Meme",
+    "Pump.fun Ecosystem"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "HgBRWfYxEfvPhtqkaeymCQtHCrKE46qQ43pKe8HCpump"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": " In a market dominated by hype and lack of substance, $BERT was born with one simple yet powerful mission: to transform a meme into a real force for good - helping dogs globally\r\n\r\nInspired by a real dog, Bertram the Pomeranian, with millions of fans globally, $BERT bridges the gap between Web2 and Web3 through AI, smart dog tags and real world impact\r\n\r\n$BERT is no longer a meme, it is a global movement.     "
+  },
+  "links": {
+    "homepage": [
+      "https://www.bert.global/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/HgBRWfYxEfvPhtqkaeymCQtHCrKE46qQ43pKe8HCpump",
+      "https://platform.arkhamintelligence.com/explorer/token/bertram-the-pomeranian"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/bertiebertthepom/"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "bertcoincto",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "bertsolanaportal",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/51480/thumb/photo_2025-04-22_23.04.39.png?1745405423",
+    "small": "https://coin-images.coingecko.com/coins/images/51480/small/photo_2025-04-22_23.04.39.png?1745405423",
+    "large": "https://coin-images.coingecko.com/coins/images/51480/large/photo_2025-04-22_23.04.39.png?1745405423"
+  },
+  "last_updated": "2025-07-11T09:54:40.915332+00:00"
+}

@@ -47,11 +47,12 @@ class StablecoinChecker:
         categories = metadata.get("categories", [])
         stablecoin_categories = []
 
-        # 检查分类中是否包含稳定币关键词
-        stablecoin_keywords = ["stablecoin", "stable", "usd-stablecoin", "fiat-backed"]
+        # 严格按照 CoinGecko 的官方分类判断
+        # 只有明确包含 "Stablecoins" 分类的才算稳定币
+        stablecoin_keywords = ["Stablecoins"]
 
         for category in categories:
-            if any(keyword in category.lower() for keyword in stablecoin_keywords):
+            if category in stablecoin_keywords:
                 stablecoin_categories.append(category)
 
         is_stablecoin = len(stablecoin_categories) > 0

@@ -1,0 +1,49 @@
+{
+  "id": "ronin-bridged-weth-ronin",
+  "symbol": "weth",
+  "name": "Ronin Bridged WETH (Ronin)",
+  "categories": [
+    "Ronin Ecosystem",
+    "Bridged WETH",
+    "Bridged-Tokens"
+  ],
+  "asset_platform_id": "ronin",
+  "platforms": {
+    "ronin": "0xc99a6a985ed2cac1ef41640596c5a5f9f4e19ef5"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://app.roninchain.com/bridge"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://app.roninchain.com/token/0xc99a6a985ed2cac1ef41640596c5a5f9f4e19ef5"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39716/thumb/WETH.PNG?1723731945",
+    "small": "https://coin-images.coingecko.com/coins/images/39716/small/WETH.PNG?1723731945",
+    "large": "https://coin-images.coingecko.com/coins/images/39716/large/WETH.PNG?1723731945"
+  },
+  "last_updated": "2025-07-11T09:50:42.275107+00:00"
+}

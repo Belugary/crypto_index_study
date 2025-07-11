@@ -1,0 +1,48 @@
+{
+  "id": "moonwell-flagship-eth-morpho-vault",
+  "symbol": "mweth",
+  "name": "Moonwell Flagship ETH (Morpho Vault)",
+  "categories": [
+    "Base Ecosystem",
+    "Morpho Ecosystem"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0xa0e430870c4604ccfc7b38ca7845b1ff653d0ff1"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Moonwell Flagship ETH Morpho Vault is a one-token deposit vault curated by B.Protocol and Block Analitica. It is intended to optimize risk-adjusted interest earned from blue-chip collateral markets on Morpho Blue protocol on Base network.\r\n\r\nMorpho Vaults are curated lending vaults allocating deposits to listed markets. Each vault is customizable and has a different risk profile.\r\n\r\nCurators are independent, third-party risk experts who use their expertise to offer various Morpho Vaults."
+  },
+  "links": {
+    "homepage": [
+      "https://morpho.blockanalitica.com/base/vaults/vaults/0xa0e430870c4604ccfc7b38ca7845b1ff653d0ff1"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://basescan.org/token/0xa0e430870c4604ccfc7b38ca7845b1ff653d0ff1"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "MoonwellDeFi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/52387/thumb/ethereum-eth-logo.png?1733265577",
+    "small": "https://coin-images.coingecko.com/coins/images/52387/small/ethereum-eth-logo.png?1733265577",
+    "large": "https://coin-images.coingecko.com/coins/images/52387/large/ethereum-eth-logo.png?1733265577"
+  },
+  "last_updated": "2025-07-11T09:50:17.071485+00:00"
+}

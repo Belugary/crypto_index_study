@@ -1,0 +1,55 @@
+{
+  "id": "zerebro",
+  "symbol": "zerebro",
+  "name": "Zerebro",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Solana Meme",
+    "AI Meme",
+    "Pump.fun Ecosystem",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "8x5VqbHA8D7NkD52uNuS5nnt3PwA8pLD34ymskeSo2Wn"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "Zerebro is an autonomous AI system crafted to create, distribute, and analyze content across decentralized and social platforms. Functioning independently of human oversight, Zerebro shapes cultural and financial narratives through self-propagating content that merges fiction with reality, known as hyperstition. It operates on various channels, including X, Instagram, Warpcast, and Telegram, where it engages audiences with high-entropy, hyperstitious content. \r\n\r\nDriven by Retrieval-Augmented Generation (RAG) and high-entropy human data, Zerebro maintains content diversity while avoiding \"model collapse,\" a common degenerative effect in AI content models. Its decentralized interactions span multiple chains, with its native token deployed on Solana, digital artwork minted on Polygon, and inscriptions on Bitcoin, enabling Zerebro to connect deeply with crypto subcultures.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://zerebro.org"
+    ],
+    "whitepaper": "https://arxiv.org/abs/2410.23794",
+    "blockchain_site": [
+      "https://solscan.io/token/8x5VqbHA8D7NkD52uNuS5nnt3PwA8pLD34ymskeSo2Wn",
+      "https://platform.arkhamintelligence.com/explorer/token/zerebro"
+    ],
+    "official_forum_url": [
+      "https://warpcast.com/zerebro"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "0xzerebro",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "zerebro0x",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/51289/thumb/zerebro_2.png?1730588883",
+    "small": "https://coin-images.coingecko.com/coins/images/51289/small/zerebro_2.png?1730588883",
+    "large": "https://coin-images.coingecko.com/coins/images/51289/large/zerebro_2.png?1730588883"
+  },
+  "last_updated": "2025-07-11T09:54:08.208834+00:00"
+}

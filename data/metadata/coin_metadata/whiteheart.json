@@ -1,0 +1,51 @@
+{
+  "id": "whiteheart",
+  "symbol": "white",
+  "name": "Whiteheart",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Derivatives",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x5f0e628b693018f639d10e4a4f59bd4d8b2b6b44"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.whiteheart.finance/"
+    ],
+    "whitepaper": null,
+    "blockchain_site": [
+      "https://etherscan.io/token/0x5f0e628b693018f639d10e4a4f59bd4d8b2b6b44",
+      "https://platform.arkhamintelligence.com/explorer/token/whiteheart",
+      "https://ethplorer.io/address/0x5f0e628b693018f639d10e4a4f59bd4d8b2b6b44"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "WhiteheartDeFi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/13484/thumb/whiteheart.png?1696513245",
+    "small": "https://coin-images.coingecko.com/coins/images/13484/small/whiteheart.png?1696513245",
+    "large": "https://coin-images.coingecko.com/coins/images/13484/large/whiteheart.png?1696513245"
+  },
+  "last_updated": "2025-07-11T09:53:10.527296+00:00"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "electronic-usd",
+  "symbol": "eusd",
+  "name": "Electronic USD",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Base Ecosystem",
+    "Crypto-backed Stablecoin",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xa0d69e286b938e21cbf7e51d71f6a4c8918f482f",
+    "arbitrum-one": "0x12275dcb9048680c4be40942ea4d92c74c63b844",
+    "base": "0xcfa3ef56d303ae4faaba0592388f19d7c3399fb4"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://register.app/",
+      "https://reserve.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xa0d69e286b938e21cbf7e51d71f6a4c8918f482f",
+      "https://platform.arkhamintelligence.com/explorer/token/electronic-usd",
+      "https://ethplorer.io/address/0xa0d69e286b938e21cbf7e51d71f6a4c8918f482f",
+      "https://register.app/#/overview?token=0xa0d69e286b938e21cbf7e51d71f6a4c8918f482f",
+      "https://basescan.org/token/0xcfa3ef56d303ae4faaba0592388f19d7c3399fb4",
+      "https://arbiscan.io/token/0x12275dcb9048680c4be40942ea4d92c74c63b844"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/mobilecoincompany",
+      "https://www.facebook.com/MobileCoinOfficial",
+      "https://www.linkedin.com/company/mobilecoin"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/ns5BRpjGUt"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "reserveprotocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/28445/thumb/0xa0d69e286b938e21cbf7e51d71f6a4c8918f482f.png?1696527441",
+    "small": "https://coin-images.coingecko.com/coins/images/28445/small/0xa0d69e286b938e21cbf7e51d71f6a4c8918f482f.png?1696527441",
+    "large": "https://coin-images.coingecko.com/coins/images/28445/large/0xa0d69e286b938e21cbf7e51d71f6a4c8918f482f.png?1696527441"
+  },
+  "last_updated": "2025-07-11T09:55:47.400349+00:00"
+}

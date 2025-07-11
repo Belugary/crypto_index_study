@@ -1,0 +1,51 @@
+{
+  "id": "fuzzybear",
+  "symbol": "fuzzy",
+  "name": "Fuzzybear",
+  "categories": [
+    "Meme",
+    "XRP Ledger Ecosystem"
+  ],
+  "asset_platform_id": "xrp",
+  "platforms": {
+    "xrp": "46555A5A59000000000000000000000000000000.rhCAT4hRdi2Y9puNdkpMzxrdKa5wkppR62"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Fuzzybear ($FUZZY) is a memecoin on the XRP Ledger (XRPL), created to honor the legacy of the well-known XRPL address ‘Fuzzybear,’ which famously placed a DEX order in 2014: 1 XRP for 1 BTC. The token embodies the spirit of decentralization and community-driven growth, focusing on fun, engagement, and organic expansion. With its unique narrative and strong community, Fuzzybear grows naturally as more supporters join the movement."
+  },
+  "links": {
+    "homepage": [
+      "https://fuzzyxrp.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://xrpscan.com/token/46555A5A59000000000000000000000000000000.rhCAT4hRdi2Y9puNdkpMzxrdKa5wkppR62",
+      "https://livenet.xrpl.org/token/46555A5A59000000000000000000000000000000.rhCAT4hRdi2Y9puNdkpMzxrdKa5wkppR62"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "fuzzy_xrp",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "fuzzyxrp",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/fuzzyxrp"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54273/thumb/Fuzzybear_%28FUZZY%29_Logo.png?1738996305",
+    "small": "https://coin-images.coingecko.com/coins/images/54273/small/Fuzzybear_%28FUZZY%29_Logo.png?1738996305",
+    "large": "https://coin-images.coingecko.com/coins/images/54273/large/Fuzzybear_%28FUZZY%29_Logo.png?1738996305"
+  },
+  "last_updated": "2025-07-11T09:54:41.900750+00:00"
+}

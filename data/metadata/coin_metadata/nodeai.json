@@ -1,0 +1,57 @@
+{
+  "id": "nodeai",
+  "symbol": "gpu",
+  "name": "NodeAI",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Ethereum Ecosystem",
+    "DePIN",
+    "Base Ecosystem",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x1258d60b224c0c5cd888d37bbf31aa5fcfb7e870",
+    "base": "0x16a3832e690278d4979fd072fa4913bd1e8cbfd8"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What is Node AI?\r\nNode AI is a groundbreaking decentralized platform designed to facilitate access to GPU and AI resources, enabling users to participate, contribute, and benefit from the evolving landscape of artificial intelligence. By leveraging blockchain technology, Node AI ensures a transparent and secure ecosystem where participants can engage in various capacities.\r\n\r\nKey Features and Offerings:\r\n\r\n- Revenue Sharing\r\n- AI Nodes Rental\r\n- GPU Power Lending\r\n- On Demand Nodes\r\n- AI API Endpoints\r\n- Staking for ETH Rewards"
+  },
+  "links": {
+    "homepage": [
+      "https://nodes.ai",
+      "https://nodeai.app/nodes",
+      "https://nodeai.app/stake"
+    ],
+    "whitepaper": "https://docs.nodes.ai/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x1258d60b224c0c5cd888d37bbf31aa5fcfb7e870",
+      "https://platform.arkhamintelligence.com/explorer/token/nodeai",
+      "https://ethplorer.io/address/0x1258d60b224c0c5cd888d37bbf31aa5fcfb7e870",
+      "https://basescan.org/token/0x16a3832e690278d4979fd072fa4913bd1e8cbfd8"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "NodeAIETH",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "nodeaieth",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/35432/thumb/NodeAI.png?1722373937",
+    "small": "https://coin-images.coingecko.com/coins/images/35432/small/NodeAI.png?1722373937",
+    "large": "https://coin-images.coingecko.com/coins/images/35432/large/NodeAI.png?1722373937"
+  },
+  "last_updated": "2025-07-11T09:53:28.373082+00:00"
+}

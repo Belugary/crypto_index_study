@@ -1,0 +1,66 @@
+{
+  "id": "bedrock-btc",
+  "symbol": "brbtc",
+  "name": "Bedrock BTC",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem",
+    "Berachain Ecosystem",
+    "Liquid Restaking Tokens",
+    "Sei Network Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x2ec37d45fcae65d9787ecf71dc85a444968f6646",
+    "berachain": "0x93919784c523f39cacaa98ee0a9d96c3f32b593e",
+    "sei-v2": "0x93919784c523f39cacaa98ee0a9d96c3f32b593e",
+    "binance-smart-chain": "0x733a6c29eda4a58931ae81b8d91e29f2eaf01df3"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "brBTC is Bedrock's innovative BTC yield product, designed to maximize returns by leveraging multiple restaking protocols. Launching natively on both Ethereum and BNB, brBTC is a Liquid Restaking Token (LRT) that combines the power of diverse BTC derivative assets with Bedrock's advanced restaking strategies.\r\n\r\nWith brBTC, users can deposit a variety of BTC derivatives to generate yield from a curated selection of restaking protocols. This product provides a seamless, efficient, and secure way to earn rewards from BTC assets across two major blockchain ecosystems."
+  },
+  "links": {
+    "homepage": [
+      "https://www.bedrock.technology/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x2ec37d45fcae65d9787ecf71dc85a444968f6646",
+      "https://ethplorer.io/address/0x2eC37d45FCAE65D9787ECf71dc85a444968f6646",
+      "https://bscscan.com/token/0x733a6c29eda4a58931ae81b8d91e29f2eaf01df3",
+      "https://binplorer.com/address/0x733a6c29eda4a58931ae81b8d91e29f2eaf01df3",
+      "https://berascan.com/token/0x93919784c523f39cacaa98ee0a9d96c3f32b593e",
+      "https://seitrace.com/token/0x93919784C523f39CACaa98Ee0a9d96c3F32b593e"
+    ],
+    "official_forum_url": [
+      "https://mirror.xyz/0xF3c0C25090ae1458FC152947Aab57253cB8E0F0F"
+    ],
+    "chat_url": [
+      "https://discord.gg/ctXrm6wfeg"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Bedrock_DeFi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Bedrock_Official",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Bedrock-Technology"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53039/thumb/brBTC_200.png?1735074374",
+    "small": "https://coin-images.coingecko.com/coins/images/53039/small/brBTC_200.png?1735074374",
+    "large": "https://coin-images.coingecko.com/coins/images/53039/large/brBTC_200.png?1735074374"
+  },
+  "last_updated": "2025-07-11T09:53:27.337963+00:00"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "elysia",
+  "symbol": "el",
+  "name": "ELYSIA",
+  "categories": [
+    "Tokenized Real Estate",
+    "Tokenized Assets",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x2781246fe707bb15cee3e5ea354e2154a2877b16"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "KR",
+  "description": {
+    "en": "Constructed for a development of real estate’s convenience, ELYSIA(EL) is a P2P digital joint investment platform for real estate which connects between seller and buyer.  ELYSIA ecosystem increases real estate investors and buyers’ accessibility as well as its’ clarity and stability by utilizing blockchain technology. In addition, it’s possibility and utilization is highly rated by providing users with self wallet service on their platform. "
+  },
+  "links": {
+    "homepage": [
+      "https://elysia.land"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x2781246fe707bb15cee3e5ea354e2154a2877b16",
+      "https://platform.arkhamintelligence.com/explorer/token/elysia",
+      "https://ethplorer.io/address/0x2781246fe707bb15cee3e5ea354e2154a2877b16"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://open.kakao.com/o/gUpSOwkb"
+    ],
+    "announcement_url": [
+      "https://medium.com/@ELYSIA_HQ"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "ElysiaHQ",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "elysia_official",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/elysia-dev"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/10887/thumb/elysia_logo_200.png?1718149410",
+    "small": "https://coin-images.coingecko.com/coins/images/10887/small/elysia_logo_200.png?1718149410",
+    "large": "https://coin-images.coingecko.com/coins/images/10887/large/elysia_logo_200.png?1718149410"
+  },
+  "last_updated": "2025-07-11T09:54:31.478493+00:00"
+}

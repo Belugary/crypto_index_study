@@ -1,0 +1,61 @@
+{
+  "id": "simon-s-cat",
+  "symbol": "cat",
+  "name": "Simon's Cat",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Solana Ecosystem",
+    "Meme",
+    "Cat-Themed",
+    "TokenFi Launchpad",
+    "Binance HODLer Airdrops"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x6894cde390a3f51155ea41ed24a33a4827d3063d",
+    "solana": "3joMReCCSESngJEpFLoKR2dNcChjSRCDtybQet5uSpse"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Simon’s Cat Token is the officially endorsed memecoin, backed by full IP rights from the iconic Simon’s Cat brand.\r\n\r\nOriginating from the beloved British animated series created by Simon Tofield, Simon’s Cat has garnered over 1.6 billion views on its official YouTube channel and even more across various social networks. \r\n\r\nThe project aims to establish the brand’s presence in Web3 while also contributing to initiatives aimed at feeding and rescuing cats globally."
+  },
+  "links": {
+    "homepage": [
+      "https://www.simons.cat"
+    ],
+    "whitepaper": "https://docs.simons.cat",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x6894cde390a3f51155ea41ed24a33a4827d3063d",
+      "https://platform.arkhamintelligence.com/explorer/token/simon-s-cat",
+      "https://binplorer.com/address/0x6894cde390a3f51155ea41ed24a33a4827d3063d",
+      "https://solscan.io/token/3joMReCCSESngJEpFLoKR2dNcChjSRCDtybQet5uSpse"
+    ],
+    "official_forum_url": [
+      "https://x.com/SimonsCat",
+      "https://www.tiktok.com/@simonscat"
+    ],
+    "chat_url": [
+      "https://www.youtube.com/user/simonscat"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SimonsCatMeme",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "SimonsCatWorld",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39765/thumb/Simon's_Cat_Logo.png?1724017505",
+    "small": "https://coin-images.coingecko.com/coins/images/39765/small/Simon's_Cat_Logo.png?1724017505",
+    "large": "https://coin-images.coingecko.com/coins/images/39765/large/Simon's_Cat_Logo.png?1724017505"
+  },
+  "last_updated": "2025-07-11T09:52:02.412446+00:00"
+}

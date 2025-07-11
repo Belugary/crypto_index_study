@@ -1,0 +1,58 @@
+{
+  "id": "firmachain",
+  "symbol": "fct",
+  "name": "Firmachain",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "Osmosis Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xe1bad922f84b198a08292fb600319300ae32471b",
+    "osmosis": "ibc/E43ABCC7E80E99E4E6E1226AE5695DDE0F83CB5C257CD04D47C36B8B90C1C839"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Unlocking new limits of electronic contracts with blockchain technology, FirmaChain seeks to resolve all the social and legal issues (contracts, notarial, etc.) with written contracts through the use of electronic contracts based on FirmaChain’s data blockchain."
+  },
+  "links": {
+    "homepage": [
+      "https://firmachain.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xe1bad922f84b198a08292fb600319300ae32471b",
+      "https://platform.arkhamintelligence.com/explorer/token/firmachain",
+      "https://ethplorer.io/address/0xe1bad922f84b198a08292fb600319300ae32471b",
+      "https://www.mintscan.io/osmosis/assets/ibc/aWJjL0U0M0FCQ0M3RTgwRTk5RTRFNkUxMjI2QUU1Njk1RERFMEY4M0NCNUMyNTdDRDA0RDQ3QzM2QjhCOTBDMUM4Mzk="
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/firmachain"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "firmachain",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "firmachain_announcement",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/FirmaChain/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/9892/thumb/6mHcLurm_400x400.jpg?1696509941",
+    "small": "https://coin-images.coingecko.com/coins/images/9892/small/6mHcLurm_400x400.jpg?1696509941",
+    "large": "https://coin-images.coingecko.com/coins/images/9892/large/6mHcLurm_400x400.jpg?1696509941"
+  },
+  "last_updated": "2025-07-11T09:54:45.882055+00:00"
+}

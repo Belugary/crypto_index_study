@@ -1,0 +1,73 @@
+{
+  "id": "oraichain-token",
+  "symbol": "orai",
+  "name": "Oraichain",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Big Data",
+    "Business Services",
+    "Smart Contract Platform",
+    "Decentralized Finance (DeFi)",
+    "Oracle",
+    "BNB Chain Ecosystem",
+    "Solana Ecosystem",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "DWF Labs Portfolio",
+    "Osmosis Ecosystem",
+    "AI Agents"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x4c11249814f11b9346808179cf06e71ac328c1b5",
+    "osmosis": "ibc/161D7D62BAB3B9C39003334F1671208F43C06B643CC9EDBBE82B64793C857F1D",
+    "binance-smart-chain": "0xa325ad6d9c92b55a3fc5ad7e412b1518f96441c0",
+    "solana": "oraiyuR7hz6h7ApC56mb52CJjPZBB34USTjzaELoaPk"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "SG",
+  "description": {
+    "en": "About Oraichain\r\n\r\nOraichain is a data oracle platform that aggregates and connects Artificial Intelligence APIs to smart contracts, serving as a foundational base for the creation of new Dapps leveraging AI technologies. Oraichain is the world’s first AI-powered oracle aiming to revolutionize the AI, DeFi, and Blockchain industries.\r\n\r\nUnlike regular oracles that use raw data, Oraichain’s AI oracle uniquely uses AI APIs to consume or create data on-the-fly via virtual machines on smart contracts. Data quality, reliability and security are enhanced by using test cases, which help to avoid intermediaries, increase trust and open up unprecedented application functionalities. AI-powered oracles are the new generation of smart contracts.\r\n\r\nBeyond data oracles, Oraichain interconnects Artificial Intelligence and Blockchain technologies. With AI as the cornerstone, Oraichain ecosystem contains an AI API marketplace, a Data & Request Hub, Publisher Service, Training Service, and Dapp Hosting.\r\n\r\nOraichain network provides the infrastructure and consensus mechanisms for Blockchain and AI training. These interconnected ecosystems accelerate the development of Web3, DeFi, enterprise and academia applications. yAI.finance is the first use case of Oraichain, a DeFi platform using unique AI-based features and strategies. Oraichain AI Marketplace offers AI products and APIs with the goal of becoming the one-stop-shop for Artificial Intelligence services.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://orai.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x4c11249814f11b9346808179cf06e71ac328c1b5",
+      "https://platform.arkhamintelligence.com/explorer/token/oraichain-token",
+      "https://ethplorer.io/address/0x4c11249814f11b9346808179cf06e71ac328c1b5",
+      "https://bscscan.com/token/0xa325ad6d9c92b55a3fc5ad7e412b1518f96441c0",
+      "https://scan.orai.io/",
+      "https://binplorer.com/address/0xa325ad6d9c92b55a3fc5ad7e412b1518f96441c0",
+      "https://solscan.io/token/oraiyuR7hz6h7ApC56mb52CJjPZBB34USTjzaELoaPk",
+      "https://www.mintscan.io/osmosis/assets/ibc/aWJjLzE2MUQ3RDYyQkFCM0I5QzM5MDAzMzM0RjE2NzEyMDhGNDNDMDZCNjQzQ0M5RURCQkU4MkI2NDc5M0M4NTdGMUQ="
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/oraichain"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "oraichain",
+    "facebook_username": "oraichain",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "oraichain",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/oraichain"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/12931/thumb/orai.png?1696512718",
+    "small": "https://coin-images.coingecko.com/coins/images/12931/small/orai.png?1696512718",
+    "large": "https://coin-images.coingecko.com/coins/images/12931/large/orai.png?1696512718"
+  },
+  "last_updated": "2025-07-11T09:51:52.249090+00:00"
+}

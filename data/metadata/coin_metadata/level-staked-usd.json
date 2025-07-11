@@ -1,0 +1,54 @@
+{
+  "id": "level-staked-usd",
+  "symbol": "slvlusd",
+  "name": "Staked Level USD",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Liquid Staking Tokens",
+    "Ethereum Ecosystem",
+    "Yield-Bearing Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x4737d9b4592b40d51e110b94c9c043c6654067ae"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Level USD (lvlUSD) is a liquid restaked dollar: a yield-bearing, cross-chain dollar token that's fully collateralized by restaked stablecoins. Staked Level USD (slvlUSD) is a yield-accruing receipt token that users receive when they staked their lvlUSD.\r\n\r\nBefore, stablecoin users couldn't earn restaking yields. lvlUSD offers a solution for those who want to earn restaking yields without being exposed to the price of ETH or BTC.\r\n\r\nIn addition to earning multiple yields from decentralized networks at the same time, lvlUSD can be used across DeFi for trading, lending, collateral, and speculation."
+  },
+  "links": {
+    "homepage": [
+      "https://level.money/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/address/0x4737D9b4592B40d51e110b94c9C043c6654067Ae",
+      "https://etherscan.io/token/0x4737D9b4592B40d51e110b94c9C043c6654067Ae",
+      "https://ethplorer.io/address/0x4737D9b4592B40d51e110b94c9C043c6654067Ae"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "levelusd",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Level-Money"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54094/thumb/slvlusd.png?1738222536",
+    "small": "https://coin-images.coingecko.com/coins/images/54094/small/slvlusd.png?1738222536",
+    "large": "https://coin-images.coingecko.com/coins/images/54094/large/slvlusd.png?1738222536"
+  },
+  "last_updated": "2025-07-11T09:52:03.632654+00:00"
+}

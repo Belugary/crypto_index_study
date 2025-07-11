@@ -1,0 +1,47 @@
+{
+  "id": "zeus-netwok-zbtc",
+  "symbol": "zbtc",
+  "name": "Zeus Network zBTC",
+  "categories": [
+    "Solana Ecosystem"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "zBTCug3er3tLyffELcvDNrKkCymbPWysGcWihESYfLg"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "zBTC is an on-chain, 1:1 pegged representation of Bitcoin on Solana, validated by the decentralized infrastructure of Zeus Network and minted through its first dApp, APOLLO. Unlike traditional wrapped BTC solutions that rely on custodians, zBTC is fully permissionless and decentralized. All activity is transparently verifiable via ZeusScan, which also serves as Zeus Network’s official interaction explorer and Bitcoin proof of reserve system. This enables users to interact with zBTC trustlessly while retaining control of their assets."
+  },
+  "links": {
+    "homepage": [
+      "https://btc.apollodex.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/zBTCug3er3tLyffELcvDNrKkCymbPWysGcWihESYfLg"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ApolloByZeus",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55011/thumb/zBTC.png?1743161954",
+    "small": "https://coin-images.coingecko.com/coins/images/55011/small/zBTC.png?1743161954",
+    "large": "https://coin-images.coingecko.com/coins/images/55011/large/zBTC.png?1743161954"
+  },
+  "last_updated": "2025-07-11T09:54:23.279156+00:00"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "gradients",
+  "symbol": "sn56",
+  "name": "Gradients",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Bittensor Ecosystem",
+    "Bittensor Subnets"
+  ],
+  "asset_platform_id": "bittensor",
+  "platforms": {
+    "bittensor": "56"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://gradients.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://taostats.io/subnets/56/chart"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/rayonlabs/G.O.D"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/66311/thumb/56.jpg?1749183958",
+    "small": "https://coin-images.coingecko.com/coins/images/66311/small/56.jpg?1749183958",
+    "large": "https://coin-images.coingecko.com/coins/images/66311/large/56.jpg?1749183958"
+  },
+  "last_updated": "2025-07-11T09:53:54.200564+00:00"
+}

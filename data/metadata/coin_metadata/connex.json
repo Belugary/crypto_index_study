@@ -1,0 +1,53 @@
+{
+  "id": "connex",
+  "symbol": "conx",
+  "name": "Connex",
+  "categories": [
+    "BNB Chain Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x1b2128abc4119474d16bb0a04200b63b0e68a971"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What is the project about?\r\nWeb3 provides young individuals – regardless of job position – the ability to become an expert in this growing field without having to climb the decades-long latter to reach a level where you can contribute meaningfully to a company or specific field of work. The smartest people in the world are moving into Web3 – exiting FANG companies – and joining crypto companies or DAOs.\r\n\r\nWhat makes your project unique?\r\nConnex aims to build a permissionless, open, and collaborative Web3 professional network. The CONX token is an essential component to such infrastructures as it functions as the governance token, incentivizes user participation, and serves as the primary payment token of the Connex ecosystem. \r\nConnex is designed to reward high integrity and proof of fraud. CONX tokens are used to reward the platform users. CONX can be used for rewarding people who upload their CVs with high quality, or reward people who get most viewed and liked. The amount of CONX tokens rewarded will be determined through the voting and governance feature of the platform. People who create circles on Connex and share their valuable views about the circle topics are also welcomed by the platform.\r\n\r\nWhat can your token be used for?\r\nPay for Subscription\r\nCONX is paid in exchange for subscribing a company or subscribe a SME in the field for talent recruitment and hiring purposes. This would allow them to view and like the CVs uploaded by users of Connex.\r\nPay for Credential\r\nCONX is paid in exchange for viewing personal on-chain and off-chain credentials of the users. Companies and SMEs may identify their candidates more easily and accurately with the platform’s on-chain and off-chain labels.\r\nPay for Circle\r\nCONX is used for entering a professional circle, where they may share their valuable views on Circle topics. Users who share their views on Circle will be rewarded with CONX tokens. The amount of CONX tokens rewarded will be determined by tokenholders through the voting and governance feature of the Platform.\r\nPay for Exposure\r\nCONX is used for a better exposure of a company or people. Companies or SMEs may use their subscription of the Platform for marketing and branding purposes, such as to increase their exposure to users and to build their brands by providing users with details of their respective companies, including their products and services, vision and mission statements, job vacancy descriptions, reasons for joining their respective companies etc.\r\nGovernance\r\nCONX is used for voting & governance in Connex DAO, including voting on the fees to be paid by users, companies and SMEs to use the platform, the subscription fee to create and enter the Circle, the use of the tokens in the Community Treasure and the accuracy of a job or CV.\r\nIntegrity Assessment\r\nCONX can be staked against any job or credential on the platform to ensure and vouch for the credibility of the job or CVs for an exposure period. If the credibility of the job or CV is not challenged, then the tokenholder who staked the CONX tokens will be rewarded with more CONX tokens. However, if the credibility of the job or CV is challenged and the information therein is proved to be inaccurate, then the staked token will be burnt. The determination of the accuracy of the job or CV is conducted on-chain through the voting and governance feature of the Platform. While there may be plans to reward successful challengers of such job or CVs, and earn CONX tokens for such participation, this is in the process of being established and is currently not a feature of the platform. For the avoidance of doubt, the CONX tokens do not confer upon tokenholders any right to rewards by virtue of their holding of the CONX tokens only, but is a right to vouch for the credibility of a specific job or credentials on the platform on staking of the CONX tokens which, in turn, grants right to rewards on determination of the credibility of such job or credentials based on the exercise of voting rights and participation in platform governance by the tokenholders after their staking of the CONX tokens.\r\nCommunity Treasure\r\n20% of the total supply of the token will be distributed to the Community Treasure, which is intended to be used to reward users who boost the platform’s growth and usage. For example, users will be rewarded when they recommend their friends, who have the capability and who are willing to work in the Web3 industry, to use the platform. Users who suggest new platform features to boost platform usage and smoothen the integration between the platform and other major talent hiring sites will also be rewarded. The amount of CONX tokens rewarded or decision on whether to adopt the new platform features will be determined by tokenholders through the voting and governance feature of the platform.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://connex.social/"
+    ],
+    "whitepaper": "https://connex.gitbook.io/connex/",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x1b2128abc4119474d16bb0a04200b63b0e68a971",
+      "https://platform.arkhamintelligence.com/explorer/token/connex",
+      "https://binplorer.com/address/0x1b2128abc4119474d16bb0a04200b63b0e68a971"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://medium.com/@ConnexSocial"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ConnexSocial",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "ConnexSocial",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Connex-social/Connex"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/31779/thumb/conx-cg.png?1696530597",
+    "small": "https://coin-images.coingecko.com/coins/images/31779/small/conx-cg.png?1696530597",
+    "large": "https://coin-images.coingecko.com/coins/images/31779/large/conx-cg.png?1696530597"
+  },
+  "last_updated": "2025-07-11T09:51:11.417838+00:00"
+}

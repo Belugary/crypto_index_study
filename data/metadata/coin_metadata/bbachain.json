@@ -1,0 +1,56 @@
+{
+  "id": "bbachain",
+  "symbol": "bba",
+  "name": "BBAChain",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "BBAChain is a Layer 1 blockchain platform launched on October 21st, 2023 by BTI Group OÜ a company based in Estonia, designed to optimize the functionality, scalability, and affordability of decentralized applications. It utilizes a hybrid consensus mechanism that combines Proof of Stake (PoS), Proof of History (PoH), Derive of Half, and the Algorithm of Dichotomy. This innovative approach allows BBAChain to process transactions at a rate of 100,000 per second for just a few cents.\r\n\r\nBBA is the native utility token used within the BBAChain ecosystem for: \r\n\r\n• Fees for processing transactions and maintaining data. \r\n• Staking by validators to participate in the network consensus and earn rewards. \r\n• Engaging in network governance decisions.\r\n\r\nBBAChain is building a native ecosystem that includes key features such as: \r\n\r\n• A decentralized exchange (DEX) for seamless peer-to-peer asset trading. \r\n• A euro-pegged stablecoin, facilitating stable digital transactions. \r\n• An NFT marketplace that supports the minting, trading, and auctioning of digital collectibles. \r\n• A comprehensive DeFi ecosystem that offers various financial services. \r\n• A decentralized network that will facilitate government and institutions to run national elections, voting and polls through the blockchain."
+  },
+  "links": {
+    "homepage": [
+      "https://bbachain.com"
+    ],
+    "whitepaper": "https://bbachain.com/docs/bba-whitepaper.pdf",
+    "blockchain_site": [
+      "https://bbascan.com"
+    ],
+    "official_forum_url": [
+      "https://t.me/bbachain_Global",
+      "https://github.com/bbachain"
+    ],
+    "chat_url": [
+      "https://medium.com/@bbachain",
+      "https://www.youtube.com/@bbachain"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "bbachain_com",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "bbachain",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/bbachain"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/52950/thumb/logo-01_%281%29.png?1734794968",
+    "small": "https://coin-images.coingecko.com/coins/images/52950/small/logo-01_%281%29.png?1734794968",
+    "large": "https://coin-images.coingecko.com/coins/images/52950/large/logo-01_%281%29.png?1734794968"
+  },
+  "last_updated": "2025-07-11T09:55:26.936793+00:00"
+}

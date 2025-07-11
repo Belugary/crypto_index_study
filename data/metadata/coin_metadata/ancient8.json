@@ -1,0 +1,66 @@
+{
+  "id": "ancient8",
+  "symbol": "a8",
+  "name": "Ancient8",
+  "categories": [
+    "Smart Contract Platform",
+    "Gaming (GameFi)",
+    "Play To Earn",
+    "Guild and Scholarship",
+    "Ethereum Ecosystem",
+    "Layer 2 (L2)",
+    "Gaming Blockchains",
+    "Pantera Capital Portfolio",
+    "Ancient8 Ecosystem",
+    "Optimism Superchain Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x3e5a19c91266ad8ce2477b91585d1856b84062df",
+    "ancient8": "0xd812d616a7c54ee1c8e9c9cd20d72090bdf0d424"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Ancient8 is the gaming L2 on Ethereum backed by Dragonfly, Pantera, Hashed, Coinbase Ventures and Makers Fund. Ancient8 offers a suite of Web3 gaming infrastructure tools that serve as the distribution and marketing channel for games globally."
+  },
+  "links": {
+    "homepage": [
+      "https://ancient8.gg/"
+    ],
+    "whitepaper": "https://docs.ancient8.gg/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x3e5a19c91266ad8ce2477b91585d1856b84062df",
+      "https://platform.arkhamintelligence.com/explorer/token/ancient8",
+      "https://ethplorer.io/address/0x3e5a19c91266ad8ce2477b91585d1856b84062df",
+      "https://scan.ancient8.gg/token/0x3e5a19c91266ad8ce2477b91585d1856b84062df",
+      "https://scan.ancient8.gg/token/0xd812d616a7c54ee1c8e9c9cd20d72090bdf0d424"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/ancient8",
+      "https://www.youtube.com/@Ancient8_gg"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/ancient8-gg"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39170/thumb/A8_Token-04_200x200.png?1720798300",
+    "small": "https://coin-images.coingecko.com/coins/images/39170/small/A8_Token-04_200x200.png?1720798300",
+    "large": "https://coin-images.coingecko.com/coins/images/39170/large/A8_Token-04_200x200.png?1720798300"
+  },
+  "last_updated": "2025-07-11T09:54:16.020329+00:00"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "dia-data",
+  "symbol": "dia",
+  "name": "DIA",
+  "categories": [
+    "Infrastructure",
+    "Decentralized Finance (DeFi)",
+    "Oracle",
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "Sora Ecosystem",
+    "Outlier Ventures Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x84ca8bc7997272c7cfb4d0cd3d55cd942b3c9419",
+    "sora": "0x001f7a13792061236adfc93fa3aa8bad1dc8a8e8f889432b3d8d416b986f2c43",
+    "binance-smart-chain": "0x99956d38059cf7beda96ec91aa7bb2477e0901dd"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://diadata.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x84ca8bc7997272c7cfb4d0cd3d55cd942b3c9419",
+      "https://platform.arkhamintelligence.com/explorer/token/dia-data",
+      "https://ethplorer.io/address/0x84ca8bc7997272c7cfb4d0cd3d55cd942b3c9419",
+      "https://bscscan.com/token/0x99956d38059cf7beda96ec91aa7bb2477e0901dd",
+      "https://binplorer.com/address/0x99956d38059cf7beda96ec91aa7bb2477e0901dd"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/zFmXtPFgQj?utm_source=CG"
+    ],
+    "announcement_url": [
+      "https://medium.com/dia-insights",
+      "https://t.me/DIAannouncements"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "DIAdata_org",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "DIAdata_org",
+    "subreddit_url": "https://www.reddit.comr/DIAdata",
+    "repos_url": {
+      "github": [
+        "https://github.com/diadata-org/diadata",
+        "https://github.com/diadata-org"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/11955/thumb/Token_Logo.png?1696511815",
+    "small": "https://coin-images.coingecko.com/coins/images/11955/small/Token_Logo.png?1696511815",
+    "large": "https://coin-images.coingecko.com/coins/images/11955/large/Token_Logo.png?1696511815"
+  },
+  "last_updated": "2025-07-11T09:52:15.779816+00:00"
+}

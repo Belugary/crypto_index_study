@@ -1,0 +1,71 @@
+{
+  "id": "nusd",
+  "symbol": "susd",
+  "name": "sUSD",
+  "categories": [
+    "Crypto-Backed Tokens",
+    "Stablecoins",
+    "Decentralized Finance (DeFi)",
+    "USD Stablecoin",
+    "Synthetic Asset",
+    "Derivatives",
+    "Fantom Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Crypto-backed Stablecoin",
+    "Fiat-backed Stablecoin",
+    "Synthetic"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x57ab1ec28d129707052df4df418d58a2d46d5f51",
+    "arbitrum-one": "0xa970af1a584579b618be4d69ad6f73459d112f95",
+    "fantom": "0x0e1694483ebb3b74d3054e383840c6cf011e518e"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "sUSD, or synthetic USD, is a synthetic asset launched by Synthetix Exchange. sUSD mirrors and tracks the price of USD provided by an oracle - Chainlink."
+  },
+  "links": {
+    "homepage": [
+      "https://synthetix.io"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x57ab1ec28d129707052df4df418d58a2d46d5f51",
+      "https://platform.arkhamintelligence.com/explorer/token/nusd",
+      "https://ethplorer.io/address/0x57ab1ec28d129707052df4df418d58a2d46d5f51",
+      "https://arbiscan.io/token/0xa970af1a584579b618be4d69ad6f73459d112f95",
+      "https://ftmscan.com/token/0x0e1694483ebb3b74d3054e383840c6cf011e518e",
+      "https://scan.meter.io/address/0x0e1694483ebb3b74d3054e383840c6cf011e518e",
+      "https://ftmscan.com/address/0x0e1694483ebb3b74d3054e383840c6cf011e518e",
+      "https://optimistic.etherscan.io/token/0x8c6f28f2f1a3c87f0f938b96d27520d9751ec8d9"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/AEdUHzt"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "synthetix_io",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/synthetix_io",
+    "repos_url": {
+      "github": [
+        "https://github.com/Synthetixio/synthetix"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/5013/thumb/sUSD.png?1696505546",
+    "small": "https://coin-images.coingecko.com/coins/images/5013/small/sUSD.png?1696505546",
+    "large": "https://coin-images.coingecko.com/coins/images/5013/large/sUSD.png?1696505546"
+  },
+  "last_updated": "2025-07-11T09:53:48.621389+00:00"
+}

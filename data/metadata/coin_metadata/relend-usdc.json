@@ -1,0 +1,51 @@
+{
+  "id": "relend-usdc",
+  "symbol": "reusdc",
+  "name": "Relend USDC",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x0f359fd18bda75e9c49bc027e7da59a4b01bf32a"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Solving liquidity fragmentation of L2s with fractional reserve banking. \r\n\r\nRelend Network allows for lending and borrowing akin to fractional reserve banking. \r\n\r\nLenders are able to supply assets which act as reserves for a 10x increase in the lending supply. \r\n\r\nBorrowers benefit from earning a return on their collateral provided as well as accruing yield on their borrowed funds.\r\n\r\nWe implement the money multiplier effect to grow economic activity across different L2 ecosystems. \r\n\r\nThe Relend USDC vault serves as a pre-deposit vault for Relend Network. Users who supply USDC will collect RELEND units and have the option to access Relend Network once live. Collateral markets are selected for competitive yield and long term partner alignment.\r\n\r\nMorpho Vaults are curated lending vaults that can allocate deposits to any number of Morpho Markets. Each vault is customizable and has a different risk profile. Curators are independent, third-party risk experts who use their expertise to offer various Morpho Vaults."
+  },
+  "links": {
+    "homepage": [
+      "https://relend.network/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x0f359fd18bda75e9c49bc027e7da59a4b01bf32a",
+      "https://ethplorer.io/address/0x0f359fd18bda75e9c49bc027e7da59a4b01bf32a"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://medium.com/relend-network"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "relend_network",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "relend_network",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/52077/thumb/Relend_Network_Primary_Logo.png?1732525950",
+    "small": "https://coin-images.coingecko.com/coins/images/52077/small/Relend_Network_Primary_Logo.png?1732525950",
+    "large": "https://coin-images.coingecko.com/coins/images/52077/large/Relend_Network_Primary_Logo.png?1732525950"
+  },
+  "last_updated": "2025-07-11T09:50:42.923223+00:00"
+}

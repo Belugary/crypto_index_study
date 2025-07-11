@@ -1,0 +1,59 @@
+{
+  "id": "polyswarm",
+  "symbol": "nct",
+  "name": "PolySwarm",
+  "categories": [
+    "Business Services",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem",
+    "Cybersecurity",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x9e46a38f5daabe8683e10793b06749eef7d733d1",
+    "polygon-pos": "0x4985e0b13554fb521840e893574d3848c10fcc6f"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "US",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://polyswarm.io/"
+    ],
+    "whitepaper": "https://polyswarm.io/polyswarm-whitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x9e46a38f5daabe8683e10793b06749eef7d733d1",
+      "https://platform.arkhamintelligence.com/explorer/token/polyswarm",
+      "https://ethplorer.io/address/0x9e46a38f5daabe8683e10793b06749eef7d733d1",
+      "https://polygonscan.com/token/0x4985e0b13554fb521840e893574d3848c10fcc6f"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "polyswarm",
+    "facebook_username": "PolySwarm",
+    "bitcointalk_thread_identifier": 2680309,
+    "telegram_channel_identifier": "polyswarm",
+    "subreddit_url": "https://www.reddit.com/r/PolySwarm",
+    "repos_url": {
+      "github": [
+        "https://github.com/polyswarm/polyswarm-client",
+        "https://github.com/polyswarm/polyswarm-api",
+        "https://github.com/polyswarm/polyswarm-cli"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/2843/thumb/ImcYCVfX_400x400.jpg?1696503602",
+    "small": "https://coin-images.coingecko.com/coins/images/2843/small/ImcYCVfX_400x400.jpg?1696503602",
+    "large": "https://coin-images.coingecko.com/coins/images/2843/large/ImcYCVfX_400x400.jpg?1696503602"
+  },
+  "last_updated": "2025-07-11T09:53:47.580088+00:00"
+}

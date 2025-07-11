@@ -1,0 +1,53 @@
+{
+  "id": "doodles",
+  "symbol": "dood",
+  "name": "Doodles",
+  "categories": [
+    "Entertainment",
+    "NFT",
+    "Solana Ecosystem",
+    "Doodles LLC",
+    "Airdropped Tokens by NFT Projects",
+    "Binance Alpha Spotlight",
+    "Made in USA"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Doodles is a next-generation entertainment company focused on immersive storytelling through the creation and distribution of live and digital experiences, original content, and lifestyle products.\r\n\r\nDoodles mission is to define the standard for immersive storytelling and color the world with joy."
+  },
+  "links": {
+    "homepage": [
+      "https://www.doodles.app/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "doodles",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54399/thumb/doods.png?1739506481",
+    "small": "https://coin-images.coingecko.com/coins/images/54399/small/doods.png?1739506481",
+    "large": "https://coin-images.coingecko.com/coins/images/54399/large/doods.png?1739506481"
+  },
+  "last_updated": "2025-07-11T09:55:54.080862+00:00"
+}

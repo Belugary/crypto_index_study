@@ -1,0 +1,55 @@
+{
+  "id": "fractal-bitcoin",
+  "symbol": "fb",
+  "name": "Fractal Bitcoin",
+  "categories": [
+    "Infrastructure",
+    "Smart Contract Platform",
+    "Proof of Work (PoW)",
+    "Bitcoin Sidechains",
+    "SideChain"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": null
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "Fractal Bitcoin is the only Bitcoin scaling solution that uses the Bitcoin Core code itself to recursively scale unlimited layers on top of the world’s most-secure and -held blockchain. Fractal is the first instance of a virtualization methodology applied to Bitcoin in the world. Fractal gradually extends the Bitcoin blockchain into a scalable computing system without breaking consistency with the Bitcoin main chain."
+  },
+  "links": {
+    "homepage": [
+      "https://fractalbitcoin.io"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.fractalbitcoin.io/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "http://discord.gg/fractalbitcoin"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "fractal_bitcoin",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "fractal_bitcoin_official",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/fractal-bitcoin"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/40049/thumb/Fractal_LogoMark_Round.png?1725445811",
+    "small": "https://coin-images.coingecko.com/coins/images/40049/small/Fractal_LogoMark_Round.png?1725445811",
+    "large": "https://coin-images.coingecko.com/coins/images/40049/large/Fractal_LogoMark_Round.png?1725445811"
+  },
+  "last_updated": "2025-07-11T09:54:41.414704+00:00"
+}

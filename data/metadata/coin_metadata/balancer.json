@@ -1,0 +1,98 @@
+{
+  "id": "balancer",
+  "symbol": "bal",
+  "name": "Balancer",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Exchange-based Tokens",
+    "Decentralized Finance (DeFi)",
+    "Yield Farming",
+    "Automated Market Maker (AMM)",
+    "Avalanche Ecosystem",
+    "Polygon Ecosystem",
+    "Near Protocol Ecosystem",
+    "Gnosis Chain Ecosystem",
+    "Harmony Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Base Ecosystem",
+    "Index Coop Defi Index",
+    "Alameda Research Portfolio",
+    "DeFiance Capital Portfolio",
+    "Pantera Capital Portfolio",
+    "Energi Ecosystem",
+    "Polygon zkEVM Ecosystem",
+    "Huobi ECO Chain Ecosystem",
+    "Blockchain Capital Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xba100000625a3754423978a60c9317c58a424e3d",
+    "xdai": "0x7ef541e2a22058048904fe5744f9c7e4c57af717",
+    "polygon-zkevm": "0x120ef59b80774f02211563834d8e3b72cb1649d6",
+    "near-protocol": "ba100000625a3754423978a60c9317c58a424e3d.factory.bridge.near",
+    "harmony-shard-0": "0xdc5f76104d0b8d2bf2c2bbe06cdfe17004e9010f",
+    "optimistic-ethereum": "0xfe8b128ba8c78aabc59d4c64cee7ff28e9379921",
+    "arbitrum-one": "0x040d1edc9569d4bab2d15287dc5a4f10f56a56b8",
+    "huobi-token": "0x045de15ca76e76426e8fc7cba8392a3138078d0f",
+    "base": "0x4158734d47fc9692176b5085e0f52ee0da5d47f1",
+    "energi": "0x9b817c6e9a38e604606aea3ad6ed271ce8eaa9d6",
+    "avalanche": "0xe15bcb9e0ea69e6ab9fa080c4c4a5632896298c3",
+    "polygon-pos": "0x9a71012b13ca4d3d0cdc72a177df3ef03b0e76a3"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Balancer is a DeFi protocol that provides permissionless technology to streamline AMM development for developers and empower liquidity providers with an ever-expanding DEX product suite.\r\n\r\nThis is made possible by unique ‘Vault’ architecture that formally defines the requirements of a custom pool and shifts core design patterns out of the pool into a separate ‘singleton contract’. With both internally developed pool types such as Weighted Pools, Boosted Pools, and LVR mitigating stableswaps, and also externally developed pools such as Elliptical Concentrated Liquidity, CoW AMMs, and FxPools, Balancer has arisen to be a focal source of fungible, yield-bearing, and MEV-mitigated liquidity.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://balancer.finance/"
+    ],
+    "whitepaper": "https://balancer.finance/whitepaper/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xba100000625a3754423978a60c9317c58a424e3d",
+      "https://platform.arkhamintelligence.com/explorer/token/balancer",
+      "https://ethplorer.io/address/0xba100000625a3754423978a60c9317c58a424e3d",
+      "https://arbiscan.io/token/0x040d1edc9569d4bab2d15287dc5a4f10f56a56b8",
+      "https://polygonscan.com/token/0x9a71012b13ca4d3d0cdc72a177df3ef03b0e76a3",
+      "https://explorer.energi.network/token/0x9b817c6e9a38e604606aea3ad6ed271ce8eaa9d6",
+      "https://optimistic.etherscan.io/token/0xfe8b128ba8c78aabc59d4c64cee7ff28e9379921",
+      "https://nearblocks.io/token/ba100000625a3754423978a60c9317c58a424e3d.factory.bridge.near",
+      "https://blockscout.com/xdai/mainnet/token/0x7ef541e2a22058048904fe5744f9c7e4c57af717/token-transfers",
+      "https://zkevm.polygonscan.com/token/0x120ef59b80774f02211563834d8e3b72cb1649d6"
+    ],
+    "official_forum_url": [
+      "https://forum.balancer.finance/"
+    ],
+    "chat_url": [],
+    "announcement_url": [
+      "https://balancer.finance/blog-feed/",
+      "https://medium.com/balancer-protocol"
+    ],
+    "snapshot_url": "https://snapshot.org/#/balancer.eth",
+    "twitter_screen_name": "Balancer",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/balancer-labs/balancer-core",
+        "https://github.com/balancer-labs/balancer-exchange",
+        "https://github.com/balancer-labs/pool-management",
+        "https://github.com/balancer-labs/balancer-sor"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/11683/thumb/Balancer.png?1696511572",
+    "small": "https://coin-images.coingecko.com/coins/images/11683/small/Balancer.png?1696511572",
+    "large": "https://coin-images.coingecko.com/coins/images/11683/large/Balancer.png?1696511572"
+  },
+  "last_updated": "2025-07-11T09:51:08.858578+00:00"
+}

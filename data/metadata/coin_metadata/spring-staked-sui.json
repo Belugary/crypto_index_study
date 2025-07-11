@@ -1,0 +1,56 @@
+{
+  "id": "spring-staked-sui",
+  "symbol": "ssui",
+  "name": "Spring Staked SUI",
+  "categories": [
+    "Liquid Staking Tokens",
+    "Sui Ecosystem",
+    "Liquid Staking",
+    "Liquid Staked SUI"
+  ],
+  "asset_platform_id": "sui",
+  "platforms": {
+    "sui": "0x83556891f4a0f233ce7b05cfe7f957d4020492a34f5405b2cb9377d060bef4bf::spring_sui::SPRING_SUI"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "SpringSui is a Liquid Staking Token (LST) developed by Suilend, a defi super app on Sui. \r\n\r\nIt offers significant improvements over existing LSTs, most notably instant unstaking. Instant unstaking allows for infinite liquidity when unstaking, enhancing safety by reducing the risk of depegging. In the future, other teams will be able to deploy their own LSTs on the platform permissionlessly and at no cost using the SpringSui Standard."
+  },
+  "links": {
+    "homepage": [
+      "https://springsui.com/",
+      "https://ssui.fi"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://suiscan.xyz/mainnet/coin/0x83556891f4a0f233ce7b05cfe7f957d4020492a34f5405b2cb9377d060bef4bf::spring_sui::SPRING_SUI/txs",
+      "https://suivision.xyz/coin/0x83556891f4a0f233ce7b05cfe7f957d4020492a34f5405b2cb9377d060bef4bf::spring_sui::SPRING_SUI"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/suilend"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "springsui_",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/sui-foundation/sips/pull/33"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/51233/thumb/Token_%281%29.png?1730446421",
+    "small": "https://coin-images.coingecko.com/coins/images/51233/small/Token_%281%29.png?1730446421",
+    "large": "https://coin-images.coingecko.com/coins/images/51233/large/Token_%281%29.png?1730446421"
+  },
+  "last_updated": "2025-07-11T09:54:52.047711+00:00"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "zksync-bridged-usdc-zksync",
+  "symbol": "usdc",
+  "name": "zkSync Bridged USDC (zkSync)",
+  "categories": [
+    "ZkSync Ecosystem",
+    "Bridged USDC",
+    "Bridged-Tokens",
+    "Bridged Stablecoin"
+  ],
+  "asset_platform_id": "zksync",
+  "platforms": {
+    "zksync": "0x3355df6d4c9c3035724fd0e3914de96a5a83aaf4"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://zksync.io/"
+    ],
+    "whitepaper": "https://docs.zksync.io/build/quick-start/useful-address.html#mainnet-token-bridge-contract-addresses",
+    "blockchain_site": [
+      "https://era.zksync.network/token/0x3355df6d4c9c3035724fd0e3914de96a5a83aaf4",
+      "https://explorer.zksync.io/address/0x3355df6d4c9c3035724fd0e3914de96a5a83aaf4",
+      "https://zksync-era.l2scan.co/token/0x3355df6d4c9c3035724fd0e3914de96a5a83aaf4"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/fkfMjuQ"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "zksync",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/35262/thumb/USDC_Icon.png?1708008941",
+    "small": "https://coin-images.coingecko.com/coins/images/35262/small/USDC_Icon.png?1708008941",
+    "large": "https://coin-images.coingecko.com/coins/images/35262/large/USDC_Icon.png?1708008941"
+  },
+  "last_updated": "2025-07-11T09:54:37.933629+00:00"
+}

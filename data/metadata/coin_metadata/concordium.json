@@ -1,0 +1,61 @@
+{
+  "id": "concordium",
+  "symbol": "ccd",
+  "name": "Concordium",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Decentralized Identifier (DID)",
+    "Zero Knowledge (ZK)"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Concordium is a public, permissionless Layer 1 blockchain designed for businesses that require regulatory compliance without sacrificing privacy. Concordium was among the first to mandate identity verification at the blockchain consensus level while integrating zero-knowledge proofs (ZKPs) for selective disclosure. Launched in 2018, it embeds encrypted identity into every transaction at the protocol level, enabling accountability while preserving user confidentiality.\r\n\r\nThe project is backed by industry leaders from Volvo, IKEA, and Credit Suisse, among others, and aims to make blockchain adoption seamless for enterprises. Concordium has secured €52M in funding and partnered with Geely, a global automaker and co-owner of Volvo Cars, Volvo AB, and Daimler.\r\n\r\nThe newly appointed CEO and Executive Management team have revealed a focused strategic direction to double down on enabling stablecoin issuers, financial institutions, and payment providers to accelerate real-world adoption. With stablecoin settlement volumes projected to reach $300 billion per day by 2025, Concordium delivers a blockchain infrastructure uniquely suited for secure, programmable money solutions."
+  },
+  "links": {
+    "homepage": [
+      "https://www.concordium.com/"
+    ],
+    "whitepaper": "https://docs.concordium.com/governance/whitepaper/Concordium%20White%20Paper.pdf",
+    "blockchain_site": [
+      "https://ccdscan.io/"
+    ],
+    "official_forum_url": [
+      "https://www.facebook.com/ConcordiumNet",
+      "https://www.linkedin.com/company/concordium/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/xWmQ5tp",
+      "https://medium.com/@concordium",
+      "https://www.youtube.com/@ConcordiumNet"
+    ],
+    "announcement_url": [
+      "https://medium.com/concordium"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "concordiumnet",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "ConcordiumNews",
+    "subreddit_url": "https://www.reddit.com/r/Concordium_Official/",
+    "repos_url": {
+      "github": [
+        "https://github.com/Concordium"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/23547/thumb/Sf_cldmL_400x400.jpg?1696522754",
+    "small": "https://coin-images.coingecko.com/coins/images/23547/small/Sf_cldmL_400x400.jpg?1696522754",
+    "large": "https://coin-images.coingecko.com/coins/images/23547/large/Sf_cldmL_400x400.jpg?1696522754"
+  },
+  "last_updated": "2025-07-11T09:52:21.196491+00:00"
+}

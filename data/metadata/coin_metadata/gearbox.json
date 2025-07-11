@@ -1,0 +1,62 @@
+{
+  "id": "gearbox",
+  "symbol": "gear",
+  "name": "Gearbox",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Yield Farming",
+    "Lending/Borrowing Protocols",
+    "Ethereum Ecosystem",
+    "Curve Ecosystem",
+    "eGirl Capital Portfolio",
+    "Galaxy Digital Portfolio",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xba3335588d9403515223f109edc4eb7269a9ab5d"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Gearbox is a generalized leverage protocol: it allows you to take leverage in one place and then use it across various DeFi protocols and platforms in a composable way. The protocol has two sides to it: passive liquidity providers who earn higher APY by providing liquidity; active traders, farmers, or even other protocols who can borrow those assets to trade or farm with x4+ leverage.\r\n\r\nThe core vision is to become a backend composable leverage protocol that all kinds of users have but don’t even need to interact directly with any interface. You can envision building your own DeFi protocol and just making a “take leverage with Gearbox” as a button. "
+  },
+  "links": {
+    "homepage": [
+      "https://gearbox.fi"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xba3335588d9403515223f109edc4eb7269a9ab5d",
+      "https://platform.arkhamintelligence.com/explorer/token/gearbox",
+      "https://ethplorer.io/address/0xba3335588d9403515223f109edc4eb7269a9ab5d"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/gearbox"
+    ],
+    "announcement_url": [
+      "https://medium.com/gearbox-protocol"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "GearboxProtocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Gearbox-protocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/21630/thumb/gear.png?1696520990",
+    "small": "https://coin-images.coingecko.com/coins/images/21630/small/gear.png?1696520990",
+    "large": "https://coin-images.coingecko.com/coins/images/21630/large/gear.png?1696520990"
+  },
+  "last_updated": "2025-07-11T09:54:22.774280+00:00"
+}

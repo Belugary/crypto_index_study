@@ -1,0 +1,59 @@
+{
+  "id": "power-ledger",
+  "symbol": "powr",
+  "name": "Powerledger",
+  "categories": [
+    "Energy",
+    "Ethereum Ecosystem",
+    "Alleged SEC Securities",
+    "Energi Ecosystem",
+    "GMCI DePIN Index",
+    "Blockchain Capital Portfolio",
+    "GMCI Index"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x595832f8fc6bf59c85c527fec3740a1b7a361269",
+    "energi": "0xd1bbc2a68b97a8ae4b423bbf534e767ef6275a30"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2017-06-03",
+  "country_origin": "",
+  "description": {
+    "en": "Powerledger (POWR) is a technology company that builds software for distributed and decentralised energy markets for a sustainable future. It has developed a blockchain-based platform that enables the tracking and trading of energy, flexibility services and environmental commodities. Its goal is to provide the platform for a fully modernised, market-driven grid that offers consumers a choice in their energy while driving the democratisation of power.\r\nHeadquartered in Zug, Switzerland, Powerledger operates in more than 10 countries. Powerledger operates on two blockchain layers; the POWR token is issued on Ethereum as an ERC-20 token, and the Powerledger blockchain - a native Solana based blockchain to process energy transactions on a more scalable network. \r\n\r\n\r\nThe POWR token is an ERC-20 token that acts as a licence required for businesses such as; utilities, renewable energy operators, microgrids, companies committed to 100% renewable energy and property developers to access Powerledger’s platform, and will be able to be used to pay for transactions on the Powerledger blockchain in future. In 2015, 30 countries had reached grid parity, meaning that the price of solar-generated energy was equal to or less than the cost of local retail electricity. Powerledger combines renewable energy and blockchain technology to offer energy solutions that are cheaper and more sustainable than traditional energy alternatives.\r\n\r\n\r\nPowerledger was founded in 2016 to solve a pressing problem: Energy that comes from solar and wind is intermittent and lacks the steady quality that fossil fuels provide, and this causes problems for the grid.\r\nPowerledger’s approach was to create a highly agile market that could help regulate this intermittency and start to create a transition to a more responsive, distributed network with better storage. Powerledger’s software is used by utilities and large corporations to track, trace, and trade every kilowatt of energy to improve grid stability. "
+  },
+  "links": {
+    "homepage": [
+      "https://powerledger.io/"
+    ],
+    "whitepaper": "https://www.powerledger.io/company/power-ledger-whitepaper",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x595832f8fc6bf59c85c527fec3740a1b7a361269",
+      "https://platform.arkhamintelligence.com/explorer/token/power-ledger",
+      "https://ethplorer.io/address/0x595832f8fc6bf59c85c527fec3740a1b7a361269",
+      "https://explorer.energi.network/token/0xd1bbc2a68b97a8ae4b423bbf534e767ef6275a30"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/power-ledger"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "PowerLedger_io",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": 2003922,
+    "telegram_channel_identifier": "powerledger",
+    "subreddit_url": "https://www.reddit.com/r/PowerLedger/",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/1104/thumb/Powerledger_Token_logo_%281%29.png?1741750417",
+    "small": "https://coin-images.coingecko.com/coins/images/1104/small/Powerledger_Token_logo_%281%29.png?1741750417",
+    "large": "https://coin-images.coingecko.com/coins/images/1104/large/Powerledger_Token_logo_%281%29.png?1741750417"
+  },
+  "last_updated": "2025-07-11T09:50:14.885912+00:00"
+}

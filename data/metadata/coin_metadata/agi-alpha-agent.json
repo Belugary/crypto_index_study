@@ -1,0 +1,48 @@
+{
+  "id": "agi-alpha-agent",
+  "symbol": "agialpha",
+  "name": "AGI ALPHA AGENT",
+  "categories": [
+    "Solana Ecosystem",
+    "Pump.fun Ecosystem"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "tWKHzXd5PRmxTF5cMfJkm2Ua3TcjwNNoSRUqx6Apump"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "The AGI ALPHA AGENT Is Being Built On THE RIGHT APPROACH to AGI in Web3 — S = ∫L dt: DIDs X ENS For Access & Identity, $AGIALPHA For Access & Incentives and NFTs For Outputs Of The AGI ALPHA AGENT, Exclusively (NFTs For AGI Models? Irrelevant.) Once summoned, the AGI ALPHA AGENT seamlessly integrates with cutting-edge AI models—Llama, Anthropic, OpenAI, etc.—with (maybe) Inference-Time Search, tapping into AGI Nodes for on-demand computational power."
+  },
+  "links": {
+    "homepage": [
+      "https://www.quebecartificialintelligence.com/agialpha"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/tWKHzXd5PRmxTF5cMfJkm2Ua3TcjwNNoSRUqx6Apump"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Montreal_AI",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "agialpha",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54109/thumb/IMG_4899.jpeg?1738307411",
+    "small": "https://coin-images.coingecko.com/coins/images/54109/small/IMG_4899.jpeg?1738307411",
+    "large": "https://coin-images.coingecko.com/coins/images/54109/large/IMG_4899.jpeg?1738307411"
+  },
+  "last_updated": "2025-07-11T09:54:30.967353+00:00"
+}

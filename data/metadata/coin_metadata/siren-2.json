@@ -1,0 +1,51 @@
+{
+  "id": "siren-2",
+  "symbol": "siren",
+  "name": "Siren",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Meme",
+    "Four.meme Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x997a58129890bbda032231a52ed1ddc845fc18e1"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://sirenai.me/",
+      "https://four.meme/token/0x997a58129890bbda032231a52ed1ddc845fc18e1"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x997a58129890bbda032231a52ed1ddc845fc18e1",
+      "https://binplorer.com/address/0x997a58129890bbda032231a52ed1ddc845fc18e1"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "genius_sirenBSC",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "sirenbsc",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54479/thumb/siren.png?1739960056",
+    "small": "https://coin-images.coingecko.com/coins/images/54479/small/siren.png?1739960056",
+    "large": "https://coin-images.coingecko.com/coins/images/54479/large/siren.png?1739960056"
+  },
+  "last_updated": "2025-07-11T09:53:38.745656+00:00"
+}

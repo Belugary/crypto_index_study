@@ -1,0 +1,53 @@
+{
+  "id": "avant-staked-usd",
+  "symbol": "savusd",
+  "name": "Avant Staked USD",
+  "categories": [
+    "Yield Farming",
+    "Avalanche Ecosystem"
+  ],
+  "asset_platform_id": "avalanche",
+  "platforms": {
+    "avalanche": "0x06d47f3fb376649c3a9dafe069b3d6e35572219e"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "Avant is a DeFi platform established in June 2024 with the mission to create a more inclusive financial system through a DeFi-powered stable-value token. The platform introduces avUSD, a stable-value token, and savUSD, its staked, yield-bearing counterpart. \r\n\r\nProblems Solved\r\nAvant addresses several key problems in the current financial landscape:\r\n\r\nLack of DeFi-Powered Stable-Value Tokens: Provides a stable-value token that is decentralized, accessible, and offers equal financial opportunities.\r\n\r\nEnhanced Yield Potential: Offers users access to high-performing, delta-neutral strategies typically reserved for professional traders, without compromising on security.\r\n\r\nComplexity of Manual Strategies: Simplifies access to advanced financial strategies that require extensive expertise and resources.\r\n\r\nBetter Financial Tools for Users: Delivers improved options for stable-denominated savings and financial management, maximizing capital efficiency for lending and borrowing."
+  },
+  "links": {
+    "homepage": [
+      "https://www.avantprotocol.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://snowtrace.io/token/0x06d47F3fb376649c3A9Dafe069B3D6E35572219E?chainid=43114",
+      "https://avascan.info/blockchain/c/address/0x06d47F3fb376649c3A9Dafe069B3D6E35572219E/token"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/3D2cKVDfPd"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "avantprotocol",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/Avant-Protocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53558/thumb/token-savusd.png?1736674786",
+    "small": "https://coin-images.coingecko.com/coins/images/53558/small/token-savusd.png?1736674786",
+    "large": "https://coin-images.coingecko.com/coins/images/53558/large/token-savusd.png?1736674786"
+  },
+  "last_updated": "2025-07-11T09:50:29.198539+00:00"
+}

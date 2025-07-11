@@ -1,0 +1,69 @@
+{
+  "id": "boba-network",
+  "symbol": "boba",
+  "name": "Boba Network",
+  "categories": [
+    "Smart Contract Platform",
+    "Ethereum Ecosystem",
+    "Layer 2 (L2)",
+    "Rollup",
+    "Boba Network Ecosystem",
+    "GMCI Layer 2 Index",
+    "GMCI Index",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x42bbfa2e77757c645eeaad1655e0911a7553efbc",
+    "boba": "0xa18bf3994c0cc6e3b63ac420308e5383f53120d7"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Boba Network is a blockchain Layer-2 scaling solution and Hybrid Compute platform offering lightning fast transactions and fees up to 100x less than Layer-1. Our Hybrid Compute technology brings the power of Web2 on-chain for the first time, allowing smart contracts to call any external Web2 API to execute complex algorithms such as machine learning classifiers, pull in real-world or enterprise data in a single atomic transaction, or sync with the latest state of a gaming engine. Leveraging off-chain compute and real-world data, developers and creators can offer an enriched experience unlike anything else on the market today."
+  },
+  "links": {
+    "homepage": [
+      "https://boba.network/",
+      "https://gateway.boba.network/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bobascan.com/",
+      "https://platform.arkhamintelligence.com/explorer/token/boba-network",
+      "https://etherscan.io/token/0x42bbfa2e77757c645eeaad1655e0911a7553efbc",
+      "https://ethplorer.io/address/0x42bbfa2e77757c645eeaad1655e0911a7553efbc",
+      "https://blockexplorer.boba.network/tokens/0xa18bf3994c0cc6e3b63ac420308e5383f53120d7/token-transfers",
+      "https://blockexplorer.boba.network/tokens/<>",
+      "https://blockexplorer.boba.network/tokens/0xa18bf3994c0cc6e3b63ac420308e5383f53120d7",
+      "https://bobascan.com/token/0xa18bf3994c0cc6e3b63ac420308e5383f53120d7"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/YFweUKCb8a"
+    ],
+    "announcement_url": [
+      "https://docs.boba.network/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "bobanetwork",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "bobanetwork",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/bobanetwork"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/20285/thumb/Boba-200x200---white.png?1696519690",
+    "small": "https://coin-images.coingecko.com/coins/images/20285/small/Boba-200x200---white.png?1696519690",
+    "large": "https://coin-images.coingecko.com/coins/images/20285/large/Boba-200x200---white.png?1696519690"
+  },
+  "last_updated": "2025-07-11T09:53:01.690803+00:00"
+}

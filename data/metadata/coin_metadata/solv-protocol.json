@@ -1,0 +1,58 @@
+{
+  "id": "solv-protocol",
+  "symbol": "solv",
+  "name": "Solv Protocol",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Binance Megadrop",
+    "BTCfi Protocol"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xabe8e5cabe24cb36df9540088fd7ce1175b9bc52"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Solv Protocol is the leading Bitcoin staking platform, powered by its innovative Staking Abstraction Layer (SAL). Through SolvBTC, a Bitcoin Reserve for everyone, we unlock the full potential of over $1 trillion in Bitcoin assets. With SolvBTC.LSTs (Liquid Staking Tokens), Bitcoin holders gain access to diverse yield opportunities without sacrificing liquidity, allowing them to seamlessly participate in DeFi ecosystems. Solv acts as a comprehensive gateway to BTCFi, paving the way for institutional and traditional funds to confidently enter the crypto space.\r\nBacked by prominent investors such as Binance Labs, Blockchain Capital, Laser Digital, and others, Solv Protocol stands as a beacon of security and trust. Solv Protocol has undergone extensive security audits by leading firms, including Quantstamp, Certik, SlowMist, Salus, and Secbit, ensuring the highest standards of safety."
+  },
+  "links": {
+    "homepage": [
+      "https://Solv.finance/",
+      "https://app.solv.finance/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0xabE8E5CabE24Cb36df9540088fD7cE1175b9bc52",
+      "https://binplorer.com/address/0xabE8E5CabE24Cb36df9540088fD7cE1175b9bc52"
+    ],
+    "official_forum_url": [
+      "https://galxe.com/SolvProtocol"
+    ],
+    "chat_url": [
+      "https://discord.gg/sRJVSUhFXd",
+      "https://solvprotocol.medium.com/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SolvProtocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Solv_Protocol",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/solv-finance"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/27987/thumb/solv.jpg?1736852670",
+    "small": "https://coin-images.coingecko.com/coins/images/27987/small/solv.jpg?1736852670",
+    "large": "https://coin-images.coingecko.com/coins/images/27987/large/solv.jpg?1736852670"
+  },
+  "last_updated": "2025-07-11T09:51:26.458886+00:00"
+}

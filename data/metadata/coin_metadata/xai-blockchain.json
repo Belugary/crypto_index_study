@@ -1,0 +1,58 @@
+{
+  "id": "xai-blockchain",
+  "symbol": "xai",
+  "name": "Xai",
+  "categories": [
+    "Smart Contract Platform",
+    "Gaming (GameFi)",
+    "NFT",
+    "Binance Launchpool",
+    "Arbitrum Ecosystem",
+    "Layer 3 (L3)",
+    "XAI Ecosystem",
+    "Gaming Blockchains",
+    "Outlier Ventures Portfolio"
+  ],
+  "asset_platform_id": "arbitrum-one",
+  "platforms": {
+    "arbitrum-one": "0x4cb9a7ae498cedcbb5eae9f25736ae7d428c9d66"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Xai was developed to enable real economies and open trade in the next generation of video games. With Xai, potentially billions of traditional gamers can own and trade valuable in-game items in their favorite games for the first time, without the need to use crypto-wallets. Anyone can support the Xai network by operating a node which allows them to receive network rewards and participate in governance. Xai is developed by Offchain Labs leveraging Arbitrum technology."
+  },
+  "links": {
+    "homepage": [
+      "https://xai.games/"
+    ],
+    "whitepaper": "https://xai-foundation.gitbook.io/xai-network/xai-blockchain/welcome-to-xai",
+    "blockchain_site": [
+      "https://arbiscan.io/token/0x4cb9a7ae498cedcbb5eae9f25736ae7d428c9d66",
+      "https://platform.arkhamintelligence.com/explorer/token/xai-blockchain"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/xaigames"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "XAI_GAMES",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "XaiSentryNodes",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/34258/thumb/round_icon_2048_px.png?1719523838",
+    "small": "https://coin-images.coingecko.com/coins/images/34258/small/round_icon_2048_px.png?1719523838",
+    "large": "https://coin-images.coingecko.com/coins/images/34258/large/round_icon_2048_px.png?1719523838"
+  },
+  "last_updated": "2025-07-11T09:50:33.551563+00:00"
+}

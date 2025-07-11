@@ -1,0 +1,59 @@
+{
+  "id": "saga-2",
+  "symbol": "saga",
+  "name": "Saga",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Infrastructure",
+    "Smart Contract Platform",
+    "Binance Launchpool",
+    "Layer 1 (L1)",
+    "Modular Blockchain",
+    "Appchains",
+    "Saga Ecosystem"
+  ],
+  "asset_platform_id": "saga",
+  "platforms": {
+    "saga": "usaga"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.saga.xyz/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://sagaevm.sagaexplorer.io/token/usaga"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/sagaxyz"
+    ],
+    "announcement_url": [
+      "https://medium.com/sagaxyz",
+      "https://mirror.xyz/0x2313968Fc8599aC1aBb56d1D7486221E93243c2A"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "Sagaxyz__",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "sagaofficialchannel",
+    "subreddit_url": "https://www.reddit.com/r/saga_xyz/",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/25691/thumb/zcPXETKs_400x400.jpg?1696524818",
+    "small": "https://coin-images.coingecko.com/coins/images/25691/small/zcPXETKs_400x400.jpg?1696524818",
+    "large": "https://coin-images.coingecko.com/coins/images/25691/large/zcPXETKs_400x400.jpg?1696524818"
+  },
+  "last_updated": "2025-07-11T09:50:19.175984+00:00"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "mansory-token",
+  "symbol": "mnsry",
+  "name": "Mansory Token",
+  "categories": [
+    "Retail",
+    "BNB Chain Ecosystem",
+    "Solana Ecosystem",
+    "Real World Assets (RWA)",
+    "Pump.fun Ecosystem"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "1xdtu7y3LkkrVCAbm5KGKfYzq1qgKhxxk5AaJBqpump",
+    "binance-smart-chain": "0x0fcfe33b46e5b21e5e96b722d4c85510198f9255"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "The official token of the Mansory car manufacturer.\r\nMansory is a renowned luxury car modification company based in Brand, Germany, founded in 1989 by Kourosh Mansory. They specialize in creating high-end, customized vehicles that are often limited edition and one-of-a-kind. Mansory's services range from interior and exterior design to performance upgrades, resulting in truly unique driving experiences."
+  },
+  "links": {
+    "homepage": [
+      "https://www.mansory.com/",
+      "https://mansorytoken.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/1xdtu7y3LkkrVCAbm5KGKfYzq1qgKhxxk5AaJBqpump",
+      "https://bscscan.com/token/0x0fcfe33b46e5b21e5e96b722d4c85510198f9255",
+      "https://binplorer.com/address/0x0fcfe33b46e5b21e5e96b722d4c85510198f9255"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/mansory/"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "MANSORYofficial",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "MansoryToken",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54875/thumb/token.png?1742245333",
+    "small": "https://coin-images.coingecko.com/coins/images/54875/small/token.png?1742245333",
+    "large": "https://coin-images.coingecko.com/coins/images/54875/large/token.png?1742245333"
+  },
+  "last_updated": "2025-07-11T09:53:21.169980+00:00"
+}

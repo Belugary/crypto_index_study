@@ -1,0 +1,54 @@
+{
+  "id": "cdai",
+  "symbol": "cdai",
+  "name": "cDAI",
+  "categories": [
+    "Crypto-Backed Tokens",
+    "Decentralized Finance (DeFi)",
+    "Compound Tokens",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x5d3a536e4d6dbd6114cc1ead35777bab948e3643"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "US",
+  "description": {
+    "en": "Compound protocol balance token"
+  },
+  "links": {
+    "homepage": [
+      "https://compound.finance/"
+    ],
+    "whitepaper": null,
+    "blockchain_site": [
+      "https://etherscan.io/token/0x5d3a536e4d6dbd6114cc1ead35777bab948e3643",
+      "https://platform.arkhamintelligence.com/explorer/token/cdai",
+      "https://ethplorer.io/address/0x5d3a536e4d6dbd6114cc1ead35777bab948e3643"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/874ntdw"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "compoundfinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/compound",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/9281/thumb/cDAI.png?1696509390",
+    "small": "https://coin-images.coingecko.com/coins/images/9281/small/cDAI.png?1696509390",
+    "large": "https://coin-images.coingecko.com/coins/images/9281/large/cDAI.png?1696509390"
+  },
+  "last_updated": "2025-07-11T09:56:15.663237+00:00"
+}

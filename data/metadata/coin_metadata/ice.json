@@ -1,0 +1,60 @@
+{
+  "id": "ice",
+  "symbol": "ice",
+  "name": "Ice Open Network",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "Mobile Mining"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xc335df7c25b72eec661d5aa32a7c2b7b2a1d1874",
+    "ethereum": "0x79f05c263055ba20ee0e814acd117c20caa10e0c"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Ice is the newest digital currency that you can mine for free using your phone\r\nThe Ice project has been imagined to bring back trust in digital assets and deliver a true sense of community for users who don’t have the financial resources to mine Bitcoin or are simply too late to enter the game."
+  },
+  "links": {
+    "homepage": [
+      "https://ice.io/"
+    ],
+    "whitepaper": "https://ice.io/whitepaper",
+    "blockchain_site": [
+      "https://bscscan.com/token/0xc335df7c25b72eec661d5aa32a7c2b7b2a1d1874",
+      "https://platform.arkhamintelligence.com/explorer/token/ice",
+      "https://etherscan.io/token/0x79f05c263055ba20ee0e814acd117c20caa10e0c",
+      "https://binplorer.com/address/0xc335df7c25b72eec661d5aa32a7c2b7b2a1d1874",
+      "https://ethplorer.io/address/0x79f05c263055ba20ee0e814acd117c20caa10e0c"
+    ],
+    "official_forum_url": [
+      "https://www.tiktok.com/@ice.blockchain",
+      "https://www.instagram.com/ice.blockchain/"
+    ],
+    "chat_url": [
+      "https://www.youtube.com/@ice.blockchain"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ice_blockchain",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "iceblockchain",
+    "subreddit_url": "https://www.reddit.com/r/iceblockchain",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/34674/thumb/ion-coingecko-200w.png?1714009819",
+    "small": "https://coin-images.coingecko.com/coins/images/34674/small/ion-coingecko-200w.png?1714009819",
+    "large": "https://coin-images.coingecko.com/coins/images/34674/large/ion-coingecko-200w.png?1714009819"
+  },
+  "last_updated": "2025-07-11T09:54:02.798518+00:00"
+}

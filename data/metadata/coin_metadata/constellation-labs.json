@@ -1,0 +1,61 @@
+{
+  "id": "constellation-labs",
+  "symbol": "dag",
+  "name": "Constellation",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Base Ecosystem",
+    "Layer 0 (L0)",
+    "Made in USA",
+    "Directed Acyclic Graph (DAG)"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": "",
+    "base": "0x74299a718b2c44483a27325d7725f0b2646de3b1"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "US",
+  "description": {
+    "en": "What is DAG?\r\nIn more traditional blockchains, the host provides the food/drinks (i.e resources) for this party. And when the guests arrive, the amount of resources can only accommodate so many people, the portions are small and then everything eventually runs out and the party ends. Think Constellation DAG like a potluck (a party where everyone brings food/drinks). With every added guest (node to the network), the more resources the party has to keep going. This is the nature of Constellation, a distributed system that scales horizontally.\r\n\r\nIs Constellation a Blockchain?\r\nNot exactly. Although inspired by the principles of decentralization, many standard blockchains such as Bitcoin and Ethereum face scalability issues. This is why the next, generation of decentralized networks such as Hashgraph, IOTA, and Constellation have turned to DAG.\r\n\r\nWhat is a Microservice?\r\n“Microservices” is an approach to application development in which a large application is built as a suite of modular services. Each module supports a specific business goal and uses a simple, well-defined interface to communicate with other sets of services. Uber, for example, is not a singular app purse. It is a unified app which means it is a single interface that brings together their driver app, their rider app, and their corporate team app."
+  },
+  "links": {
+    "homepage": [
+      "https://constellationnetwork.io/"
+    ],
+    "whitepaper": "https://github.com/Constellation-Labs/Whitepaper/blob/master/constellation_whitepaper_v0.1.pdf",
+    "blockchain_site": [
+      "https://www.dagexplorer.io/",
+      "https://basescan.org/token/0x74299a718b2c44483a27325d7725f0b2646de3b1"
+    ],
+    "official_forum_url": [
+      "https://www.quora.com/profile/Constellation-Labs-1"
+    ],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/constellationlabs",
+      "https://medium.com/constellationlabs/dag-distribution-addressing-market-event-pt-1-775c8c17f602"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "conste11ation",
+    "facebook_username": "Conste11ation",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "constellationcommunity",
+    "subreddit_url": "https://www.reddit.com/r/constellation/",
+    "repos_url": {
+      "github": [
+        "https://github.com/Constellation-Labs/constellation"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/4645/thumb/Constellation_Network_Logo.png?1696505213",
+    "small": "https://coin-images.coingecko.com/coins/images/4645/small/Constellation_Network_Logo.png?1696505213",
+    "large": "https://coin-images.coingecko.com/coins/images/4645/large/Constellation_Network_Logo.png?1696505213"
+  },
+  "last_updated": "2025-07-11T09:50:08.717067+00:00"
+}

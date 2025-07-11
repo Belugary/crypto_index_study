@@ -1,0 +1,55 @@
+{
+  "id": "liqwid-finance",
+  "symbol": "lq",
+  "name": "Liqwid Finance",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Lending/Borrowing Protocols",
+    "Cardano Ecosystem"
+  ],
+  "asset_platform_id": "cardano",
+  "platforms": {
+    "cardano": "8e420ce194ca84040ba6971e6ab816e3d76ee9ee"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Liqwid is an algorithmic and non-custodial liquidity protocol for earning interest on supplied assets and borrowing Cardano native assets. Users of the protocol can interact with money markets implemented as a set of pooled liquidity smart contracts. Users supply assets (a lender) when they call the market contract's mint function and borrow against their supplied assets as collateral (a borrower) when they call the borrow contract. The Liqwid DAO Token LQ unlocks voting power for protocol users to participate in the protocol's decentralized governance and when staked is used as a reserve asset generating two layers of yield for LQ stakers (liquidation profit and percent of total revenue)."
+  },
+  "links": {
+    "homepage": [
+      "https://www.liqwid.finance/"
+    ],
+    "whitepaper": "https://drive.google.com/file/d/1-UDRdjcN8sWtsir0gwcb7KMTvQOFbtII/view",
+    "blockchain_site": [
+      "https://cardanoscan.io/token/8e420ce194ca84040ba6971e6ab816e3d76ee9ee"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/PZ3GUWamY8"
+    ],
+    "announcement_url": [
+      "https://liqwidfinance.substack.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "liqwidfinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Liqwid-Labs"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/23610/thumb/liqwid_finance_logo-200-200.png?1739392823",
+    "small": "https://coin-images.coingecko.com/coins/images/23610/small/liqwid_finance_logo-200-200.png?1739392823",
+    "large": "https://coin-images.coingecko.com/coins/images/23610/large/liqwid_finance_logo-200-200.png?1739392823"
+  },
+  "last_updated": "2025-07-11T09:52:24.629154+00:00"
+}

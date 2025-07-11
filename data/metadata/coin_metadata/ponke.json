@@ -1,0 +1,55 @@
+{
+  "id": "ponke",
+  "symbol": "ponke",
+  "name": "PONKE",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Base Ecosystem",
+    "Solana Meme",
+    "Base Meme",
+    "Made in USA"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "5z3EqYQo9HiCEs3R84RCDMu2n7anpDMxRhdK8PSWmrRC",
+    "base": "0x4a0c64af541439898448659aedcec8e8e819fc53"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "PONKE is a character-based token on the Solana blockchain, described as a degenerate gambler with a unique personality. The project's website humorously portrays PONKE with a narrative of keeping all tokens to itself, highlighting a total supply of 555,555,555 tokens. PONKE is available for trading on several major exchanges, and the platform also offers a feature for users to join the \"PONKE army\" by using a digital \"helmet\" tool."
+  },
+  "links": {
+    "homepage": [
+      "https://www.ponke.xyz/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/5z3EqYQo9HiCEs3R84RCDMu2n7anpDMxRhdK8PSWmrRC",
+      "https://platform.arkhamintelligence.com/explorer/token/ponke",
+      "https://basescan.org/token/0x4A0c64af541439898448659AEdcEC8E8e819FC53"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33929/thumb/ponke-logo.png?1747200908",
+    "small": "https://coin-images.coingecko.com/coins/images/33929/small/ponke-logo.png?1747200908",
+    "large": "https://coin-images.coingecko.com/coins/images/33929/large/ponke-logo.png?1747200908"
+  },
+  "last_updated": "2025-07-11T09:50:30.554197+00:00"
+}

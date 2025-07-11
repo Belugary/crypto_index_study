@@ -1,0 +1,55 @@
+{
+  "id": "zeus-network",
+  "symbol": "zeus",
+  "name": "Zeus Network",
+  "categories": [
+    "Infrastructure",
+    "Solana Ecosystem",
+    "Animoca Brands Portfolio",
+    "Cross-chain Communication",
+    "OKX Ventures Portfolio"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "ZEUS1aR7aX8DFFJf5QjWj2ftDDdNTroMNGo8YoQm3Gq"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Zeus Network aims to onboard the next billion users to Web3. In the rapidly emerging Web3 ecosystem, new blockchains are deployed and operated everyday. One of the key challenges is the interoperability of blockchains. Zeus Network seeks to build a cross-chain infrastructure by utilizing the world's fastest, most affordable, and highest-performing blockchain, Solana. This is achieved by developing Zeus Layer, a pluggable and programmable network of nodes on the Solana Virtual Machine (SVM). Zeus Network envisions a future where developers can build decentralized applications (dApps) permissionlessly on top of bridgeless cross-chain infrastructure. The first mission of Zeus Network is to introduce Bitcoin liquidity to Solana, through our first dApp APOLLO."
+  },
+  "links": {
+    "homepage": [
+      "https://zeusnetwork.xyz/"
+    ],
+    "whitepaper": "https://docs.zeusnetwork.xyz/",
+    "blockchain_site": [
+      "https://solscan.io/token/ZEUS1aR7aX8DFFJf5QjWj2ftDDdNTroMNGo8YoQm3Gq",
+      "https://platform.arkhamintelligence.com/explorer/token/zeus-network"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/zeusnetwork",
+      "https://medium.com/@zeus-network"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ZeusNetworkHQ",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/36692/thumb/logo-v1.png?1712427948",
+    "small": "https://coin-images.coingecko.com/coins/images/36692/small/logo-v1.png?1712427948",
+    "large": "https://coin-images.coingecko.com/coins/images/36692/large/logo-v1.png?1712427948"
+  },
+  "last_updated": "2025-07-11T09:51:02.919350+00:00"
+}

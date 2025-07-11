@@ -1,0 +1,63 @@
+{
+  "id": "stader-maticx",
+  "symbol": "maticx",
+  "name": "Stader MaticX",
+  "categories": [
+    "Polygon Ecosystem",
+    "Liquid Staking Tokens",
+    "Ethereum Ecosystem",
+    "Manta Network Ecosystem",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xf03a7eb46d01d9ecaa104558c732cf82f6b6b645",
+    "manta-pacific": "0x01d27580c464d5b3b26f78bee12e684901dbc02a",
+    "polygon-pos": "0xfa68fb4628dff1028cfec22b4162fccd0d45efb6"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://staderlabs.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xf03a7eb46d01d9ecaa104558c732cf82f6b6b645",
+      "https://platform.arkhamintelligence.com/explorer/token/stader-maticx",
+      "https://ethplorer.io/address/0xf03a7eb46d01d9ecaa104558c732cf82f6b6b645",
+      "https://polygonscan.com/token/0xfa68fb4628dff1028cfec22b4162fccd0d45efb6",
+      "https://polygon.dex.guru/token/0xfa68fb4628dff1028cfec22b4162fccd0d45efb6",
+      "https://pacific-explorer.manta.network/address/0x01d27580c464d5b3b26f78bee12e684901dbc02a"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/qW9e76du",
+      "https://blog.staderlabs.com/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "stader_polygon",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/stader-labs/maticX"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/25383/thumb/maticx.png?1696524516",
+    "small": "https://coin-images.coingecko.com/coins/images/25383/small/maticx.png?1696524516",
+    "large": "https://coin-images.coingecko.com/coins/images/25383/large/maticx.png?1696524516"
+  },
+  "last_updated": "2025-07-11T09:53:53.229640+00:00"
+}

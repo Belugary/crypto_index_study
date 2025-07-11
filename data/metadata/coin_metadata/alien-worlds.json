@@ -1,0 +1,70 @@
+{
+  "id": "alien-worlds",
+  "symbol": "tlm",
+  "name": "Alien Worlds",
+  "categories": [
+    "Gaming (GameFi)",
+    "NFT",
+    "BNB Chain Ecosystem",
+    "Binance Launchpool",
+    "Play To Earn",
+    "Ethereum Ecosystem",
+    "Animoca Brands Portfolio",
+    "Card Games",
+    "Gaming Governance Token",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Wax Ecosystem",
+    "MMO"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x888888848b652b3e3a0f34c96e00eec0f3a23f72",
+    "wax": "TLM-wax-alien.worlds",
+    "binance-smart-chain": "0x2222227e22102fe3322098e4cbfe18cfebd57c95"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Alien Worlds is a DeFi NFT metaverse where you can collect and play with unique digital items.\r\n\r\nIt is the 19th project on Binance Launchpad, for more information, please refer to Binance Announcement Post."
+  },
+  "links": {
+    "homepage": [
+      "https://alienworlds.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x888888848b652b3e3a0f34c96e00eec0f3a23f72",
+      "https://platform.arkhamintelligence.com/explorer/token/alien-worlds",
+      "https://ethplorer.io/address/0x888888848b652b3e3a0f34c96e00eec0f3a23f72",
+      "https://bscscan.com/token/0x2222227e22102fe3322098e4cbfe18cfebd57c95",
+      "https://binplorer.com/address/0x2222227e22102fe3322098e4cbfe18cfebd57c95",
+      "https://wax.bloks.io/tokens/tlm-wax-alien.worlds",
+      "https://wax.bloks.io/account/TLM-wax-alien.worlds"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/QHPJxuq"
+    ],
+    "announcement_url": [
+      "https://medium.com/@alienworlds"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "alienworlds",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "AlienWorldsOffical",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/14676/thumb/kY-C4o7RThfWrDQsLCAG4q4clZhBDDfJQVhWUEKxXAzyQYMj4Jmq1zmFwpRqxhAJFPOa0AsW_PTSshoPuMnXNwq3rU7Imp15QimXTjlXMx0nC088mt1rIwRs75GnLLugWjSllxgzvQ9YrP4tBgclK4_rb17hjnusGj_c0u2fx0AvVokjSNB-v2poTj0xT9BZRCbzRE3-lF1.jpg?1696514350",
+    "small": "https://coin-images.coingecko.com/coins/images/14676/small/kY-C4o7RThfWrDQsLCAG4q4clZhBDDfJQVhWUEKxXAzyQYMj4Jmq1zmFwpRqxhAJFPOa0AsW_PTSshoPuMnXNwq3rU7Imp15QimXTjlXMx0nC088mt1rIwRs75GnLLugWjSllxgzvQ9YrP4tBgclK4_rb17hjnusGj_c0u2fx0AvVokjSNB-v2poTj0xT9BZRCbzRE3-lF1.jpg?1696514350",
+    "large": "https://coin-images.coingecko.com/coins/images/14676/large/kY-C4o7RThfWrDQsLCAG4q4clZhBDDfJQVhWUEKxXAzyQYMj4Jmq1zmFwpRqxhAJFPOa0AsW_PTSshoPuMnXNwq3rU7Imp15QimXTjlXMx0nC088mt1rIwRs75GnLLugWjSllxgzvQ9YrP4tBgclK4_rb17hjnusGj_c0u2fx0AvVokjSNB-v2poTj0xT9BZRCbzRE3-lF1.jpg?1696514350"
+  },
+  "last_updated": "2025-07-11T09:54:43.430042+00:00"
+}

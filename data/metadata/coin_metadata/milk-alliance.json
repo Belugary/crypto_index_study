@@ -1,0 +1,56 @@
+{
+  "id": "milk-alliance",
+  "symbol": "mlk",
+  "name": "MiL.k",
+  "categories": [
+    "Retail",
+    "BNB Chain Ecosystem",
+    "Arbitrum Ecosystem"
+  ],
+  "asset_platform_id": "arbitrum-one",
+  "platforms": {
+    "arbitrum-one": "0x374c5fb7979d5fdbaad2d95409e235e5cbdfd43c",
+    "binance-smart-chain": "0x374c5fb7979d5fdbaad2d95409e235e5cbdfd43c"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://milkalliance.io/"
+    ],
+    "whitepaper": "https://milkalliance.io/docs/whitepaper/white_paper_MLK_0.9.8_ENG.pdf",
+    "blockchain_site": [
+      "https://arbiscan.io/token/0x374c5fb7979d5fdbaad2d95409e235e5cbdfd43c",
+      "https://bscscan.com/token/0x374c5fb7979d5fdbaad2d95409e235e5cbdfd43c",
+      "https://binplorer.com/address/0x374c5fb7979d5fdbaad2d95409e235e5cbdfd43c"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://medium.com/milk-official-blog"
+    ],
+    "announcement_url": [
+      "https://medium.com/milk-official-blog"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "milk_alliance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "milkplay",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/11978/thumb/2.png?1696511836",
+    "small": "https://coin-images.coingecko.com/coins/images/11978/small/2.png?1696511836",
+    "large": "https://coin-images.coingecko.com/coins/images/11978/large/2.png?1696511836"
+  },
+  "last_updated": "2025-07-11T09:50:49.216092+00:00"
+}

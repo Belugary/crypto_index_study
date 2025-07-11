@@ -1,0 +1,54 @@
+{
+  "id": "pythia",
+  "symbol": "pythia",
+  "name": "PYTHIA",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "AI Meme",
+    "Pump.fun Ecosystem",
+    "Desci Meme",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "CreiuhfwdWCN5mJbMJtA9bBpYQrQF2tCBuZwSPWfpump"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Pythia is the world's first rat connected to AI. It represents a symbiosis of biology and technology, resulting from merging a live brain with a neural interface and AI. To integrate the live brain with AI, scientists at the Neiry biotech lab (www.neiry.ai) implanted electrodes into the somatosensory zones of its brain.\r\n\r\nNB: All experiments are conducted in full compliance with applicable laws and ethical standards.\r\n\r\nThis experiment caused a significant stir in the scientific community, attracting the attention of many science enthusiasts and creating a dedicated fanbase for Pythia. The name \"Pythia\" became a sensation, inspiring the creation of numerous meme tokens under the same name (PYTHIA).\r\n\r\nA portion of one such token was donated to the Neiry scientific laboratory, after which Pythia officially endorsed it, garnering massive support from the community.\r\n\r\nNeiry later deposited its PYTHIA supply, along with its own SOL funds, into a liquidity pool. The fees from which are now used to fund further experiments in neuroscience and technology."
+  },
+  "links": {
+    "homepage": [
+      "https://ratpythia.ai"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/CreiuhfwdWCN5mJbMJtA9bBpYQrQF2tCBuZwSPWfpump"
+    ],
+    "official_forum_url": [
+      "https://t.me/pythiaportal"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "neirylab",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "ratpythia",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53301/thumb/PYTHIA-Coingecko.png?1736062694",
+    "small": "https://coin-images.coingecko.com/coins/images/53301/small/PYTHIA-Coingecko.png?1736062694",
+    "large": "https://coin-images.coingecko.com/coins/images/53301/large/PYTHIA-Coingecko.png?1736062694"
+  },
+  "last_updated": "2025-07-11T09:52:43.946397+00:00"
+}

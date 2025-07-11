@@ -1,0 +1,68 @@
+{
+  "id": "dao-maker",
+  "symbol": "dao",
+  "name": "DAO Maker",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Solana Ecosystem",
+    "Launchpad",
+    "DaoMaker Launchpad",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Step Network Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x0f51bb10119727a7e5ea3538074fb341f56b09ad",
+    "arbitrum-one": "0xcaa38bcc8fb3077975bbe217acfaa449e6596a84",
+    "step-network": "0xd67de0e0a0fd7b15dc8348bb9be742f3c5850454",
+    "binance-smart-chain": "0x4d2d32d8652058bf98c772953e1df5c5c85d9f45",
+    "solana": "85aM5XJhdDeUw4MbGKM56zmWnsRyh76zUVut97uPjiCg"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "EE",
+  "description": {
+    "en": "DAO Maker Token is the governance token of the DAO Maker Ecosystem built on Ethereum, allowing holders to govern the ecosystem. DAO Maker held a series of Dynamic Coin Offerings since late 2020, raising over 8 million USD. The DAO Maker Token aims to create a decentralized ecosystem, enabling a go-to platform for retail venture investing in equity and tokens."
+  },
+  "links": {
+    "homepage": [
+      "https://daomaker.com"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x0f51bb10119727a7e5ea3538074fb341f56b09ad",
+      "https://platform.arkhamintelligence.com/explorer/token/dao-maker",
+      "https://ethplorer.io/address/0x0f51bb10119727a7e5ea3538074fb341f56b09ad",
+      "https://stepscan.io/token/0xd67de0e0a0fd7b15dc8348bb9be742f3c5850454",
+      "https://bscscan.com/token/0x4d2d32d8652058bf98c772953e1df5c5c85d9f45",
+      "https://binplorer.com/address/0x4d2d32d8652058bf98c772953e1df5c5c85d9f45",
+      "https://arbiscan.io/token/0xcaa38bcc8fb3077975bbe217acfaa449e6596a84",
+      "https://solscan.io/token/85aM5XJhdDeUw4MbGKM56zmWnsRyh76zUVut97uPjiCg"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/daomaker"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "DaoMaker",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "daomaker",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/daomaker"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/13915/thumb/4.jpg?1727532864",
+    "small": "https://coin-images.coingecko.com/coins/images/13915/small/4.jpg?1727532864",
+    "large": "https://coin-images.coingecko.com/coins/images/13915/large/4.jpg?1727532864"
+  },
+  "last_updated": "2025-07-11T09:54:30.466865+00:00"
+}

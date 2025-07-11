@@ -1,0 +1,54 @@
+{
+  "id": "green",
+  "symbol": "green",
+  "name": "Green",
+  "categories": [
+    "Energy",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xb2089a7069861c8d90c8da3aacab8e9188c0c531"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "Green is using blockchain to set power free by providing a method which users can offset their power bill through Power Pay and pay for their power bill with Green Rewards.   Green is a self-governed community led blockchain through the DGF (Distributed Governance Framework), which is made up of node owners who can submit and vote on proposals to guide the project according to the mission of setting power free."
+  },
+  "links": {
+    "homepage": [
+      "https://setpowerfree.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://green.elevatescan.com/",
+      "https://etherscan.io/token/0xb2089a7069861c8d90c8da3aacab8e9188c0c531",
+      "https://ethplorer.io/address/0xb2089a7069861c8d90c8da3aacab8e9188c0c531"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/setpowerfree/"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "setpowerfree",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/Green-Blockchain"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/67136/thumb/GREEN_logo_200_x_200.png?1751868854",
+    "small": "https://coin-images.coingecko.com/coins/images/67136/small/GREEN_logo_200_x_200.png?1751868854",
+    "large": "https://coin-images.coingecko.com/coins/images/67136/large/GREEN_logo_200_x_200.png?1751868854"
+  },
+  "last_updated": "2025-07-11T09:54:44.880337+00:00"
+}

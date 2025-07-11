@@ -1,0 +1,62 @@
+{
+  "id": "nest-treasury-vault",
+  "symbol": "ntbill",
+  "name": "Nest Treasury Vault",
+  "categories": [
+    "Tokenized Assets",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "Plume Network Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xe72fe64840f4ef80e3ec73a1c749491b5c938cb9",
+    "plume-network": "0xe72fe64840f4ef80e3ec73a1c749491b5c938cb9",
+    "arbitrum-one": "0xe72fe64840f4ef80e3ec73a1c749491b5c938cb9"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Nest's mission is to build a global, permissionless, onchain economy where anyone can earn from real world yields. Nest is the flagship staking protocol of the Plume RWAfi ecosystem, with a permissionless product that enables anyone to earn institutional-grade APYs from real world assets.\r\n\r\nThrough Nest, fund managers and asset issuers can create new financial instruments by curating vaults. Each vault contains various streams of yield derived from onchain and offchain real world assets. Users can enter and exit each vault, managing and trading their ERC-20 vault tokens permissionlessly, and independently of the underlying streams of yield.\r\n\r\nThe Nest Treasury Vault is tailored for professional firms pursuing long-term growth and high liquidity, with a selection of AAA-rated treasuries from strategic partnerships with Anemoy, M^0 and Mountain Protocol. nTBILL caters to institutional-grade needs while maintaining accessibility for users with a focus on stable and reliable returns."
+  },
+  "links": {
+    "homepage": [
+      "https://app.nest.credit/nest-treasury-vault",
+      "https://nest.credit/",
+      "https://docs.nest.credit/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.plume.org/token/0xE72Fe64840F4EF80E3Ec73a1c749491b5c938CB9",
+      "https://etherscan.io/token/0xE72Fe64840F4EF80E3Ec73a1c749491b5c938CB9",
+      "https://arbiscan.io/token/0xE72Fe64840F4EF80E3Ec73a1c749491b5c938CB9",
+      "https://phoenix-explorer.plumenetwork.xyz/token/0xE72Fe64840F4EF80E3Ec73a1c749491b5c938CB9",
+      "https://ethplorer.io/address/0xe72fe64840f4ef80e3ec73a1c749491b5c938cb9",
+      "https://explorer.plume.org/token/0xe72fe64840f4ef80e3ec73a1c749491b5c938cb9"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/nest"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "NestCredit",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "NestCredit",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55513/thumb/nTBILL-token.png?1746437745",
+    "small": "https://coin-images.coingecko.com/coins/images/55513/small/nTBILL-token.png?1746437745",
+    "large": "https://coin-images.coingecko.com/coins/images/55513/large/nTBILL-token.png?1746437745"
+  },
+  "last_updated": "2025-07-11T09:55:55.130141+00:00"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "bucket-protocol-buck-stablecoin",
+  "symbol": "buck",
+  "name": "Bucket Protocol BUCK Stablecoin",
+  "categories": [
+    "Stablecoins",
+    "Sui Ecosystem"
+  ],
+  "asset_platform_id": "sui",
+  "platforms": {
+    "sui": "0xce7ff77a83ea0cb6fd39bd8748e2ec89a3f41e8efdc3f4eb123e0ca37b184db2::buck::BUCK"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Bucket Protocol is a Collateralized Debt Position (CDP) protocol in the Sui network, supporting multiple assets as collateral, including $SUI, $BTC, $ETH and LST, and $BUCK is an over-collateralized stablecoin that is minted when users stake collateral on Bucket Protocol."
+  },
+  "links": {
+    "homepage": [
+      "https://bucketprotocol.io/"
+    ],
+    "whitepaper": "https://github.com/Bucket-Protocol/whitepaper/blob/main/BucketProtocolWhitepaper.pdf",
+    "blockchain_site": [
+      "https://suiscan.xyz/mainnet/coin/0xce7ff77a83ea0cb6fd39bd8748e2ec89a3f41e8efdc3f4eb123e0ca37b184db2::buck::buck/txs",
+      "https://suivision.xyz/coin/0xce7ff77a83ea0cb6fd39bd8748e2ec89a3f41e8efdc3f4eb123e0ca37b184db2::buck::buck"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/nYCnNJE6Tr",
+      "https://medium.com/@bucketprotocol"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "bucket_protocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "bucketprotocol",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/orgs/Bucket-Protocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33846/thumb/buck-icon.png?1703121631",
+    "small": "https://coin-images.coingecko.com/coins/images/33846/small/buck-icon.png?1703121631",
+    "large": "https://coin-images.coingecko.com/coins/images/33846/large/buck-icon.png?1703121631"
+  },
+  "last_updated": "2025-07-11T09:51:17.434522+00:00"
+}

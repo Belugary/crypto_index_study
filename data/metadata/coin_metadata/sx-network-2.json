@@ -1,0 +1,65 @@
+{
+  "id": "sx-network-2",
+  "symbol": "sx",
+  "name": "SX Network",
+  "categories": [
+    "Gambling (GambleFi)",
+    "Prediction Markets",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "SX Rollup Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xbe9f61555f50dd6167f2772e9cf7519790d96624",
+    "sx-rollup": "0x3e96b0a25d51e3cc89c557f152797c33b839968f",
+    "arbitrum-one": "0x8cf7e3aa6faf6ae180e5ec3f0fb95081c2086ebe"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://sx.bet/",
+      "https://docs.sx.technology/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xbe9f61555f50dd6167f2772e9cf7519790d96624",
+      "https://platform.arkhamintelligence.com/explorer/token/sx-network-2",
+      "https://ethplorer.io/address/0xbe9f61555f50dd6167f2772e9cf7519790d96624",
+      "https://explorer.sx.technology/token/0x3E96B0a25d51e3Cc89C557f152797c33B839968f",
+      "https://arbiscan.io/token/0x8cf7e3aa6faf6ae180e5ec3f0fb95081c2086ebe",
+      "https://explorerl2.sx.technology/address/0x3e96b0a25d51e3cc89c557f152797c33b839968f"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/zms7WnKpac"
+    ],
+    "announcement_url": [
+      "https://medium.com/sportx-bet"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/SXNetwork/",
+    "repos_url": {
+      "github": [
+        "https://github.com/sportx-bet/smart-contracts"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/34934/thumb/sx-ntework.jpeg?1706699134",
+    "small": "https://coin-images.coingecko.com/coins/images/34934/small/sx-ntework.jpeg?1706699134",
+    "large": "https://coin-images.coingecko.com/coins/images/34934/large/sx-ntework.jpeg?1706699134"
+  },
+  "last_updated": "2025-07-11T09:53:32.931737+00:00"
+}

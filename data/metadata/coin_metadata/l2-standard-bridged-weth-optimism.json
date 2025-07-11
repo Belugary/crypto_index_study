@@ -1,0 +1,50 @@
+{
+  "id": "l2-standard-bridged-weth-optimism",
+  "symbol": "weth",
+  "name": "L2 Standard Bridged WETH (Optimism)",
+  "categories": [
+    "Optimism Ecosystem",
+    "Bridged WETH",
+    "Bridged-Tokens"
+  ],
+  "asset_platform_id": "optimistic-ethereum",
+  "platforms": {
+    "optimistic-ethereum": "0x4200000000000000000000000000000000000006"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.optimism.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://optimistic.etherscan.io/token/0x4200000000000000000000000000000000000006",
+      "https://platform.arkhamintelligence.com/explorer/token/l2-standard-bridged-weth-optimism"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39715/thumb/WETH.PNG?1723731805",
+    "small": "https://coin-images.coingecko.com/coins/images/39715/small/WETH.PNG?1723731805",
+    "large": "https://coin-images.coingecko.com/coins/images/39715/large/WETH.PNG?1723731805"
+  },
+  "last_updated": "2025-07-11T09:50:11.360607+00:00"
+}

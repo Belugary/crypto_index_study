@@ -1,0 +1,48 @@
+{
+  "id": "mindwavedao",
+  "symbol": "nila",
+  "name": "MindWaveDAO",
+  "categories": [
+    "BNB Chain Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x00f8da33734feb9b946fec2228c25072d2e2e41f"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "MindWaveDAO is a pioneering initiative designed to harness decentralized\r\ntechnology, economic resilience, and cognitive empowerment within the Web3 landscape.\r\nStructured on a Bitcoin-based yield infrastructure and fortified by a reinsured Layer 2\r\nblockchain architecture, MindWaveDAO strategically integrates four critical verticals:\r\nAdTech, InsurTech, AI Governance, and ClimateTech. Each vertical functions not as isolated\r\ncomponents but as interoperable modules contributing collectively toward scalable value\r\nexchange, decentralized innovation, and enhanced strategic clarity."
+  },
+  "links": {
+    "homepage": [
+      "https://www.mindwavedao.com/"
+    ],
+    "whitepaper": "https://www.mindwavedao.com/wp-content/uploads/mindwave-whitepaper.pdf",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x00f8Da33734FeB9b946fEC2228C25072D2e2E41f",
+      "https://binplorer.com/address/0x00f8Da33734FeB9b946fEC2228C25072D2e2E41f"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "nilatoken",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "nilatokenss",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55467/thumb/NILA.png?1746206480",
+    "small": "https://coin-images.coingecko.com/coins/images/55467/small/NILA.png?1746206480",
+    "large": "https://coin-images.coingecko.com/coins/images/55467/large/NILA.png?1746206480"
+  },
+  "last_updated": "2025-07-11T09:51:15.366390+00:00"
+}

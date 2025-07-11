@@ -1,0 +1,64 @@
+{
+  "id": "polyhedra-network",
+  "symbol": "zkj",
+  "name": "Polyhedra Network",
+  "categories": [
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem",
+    "Zero Knowledge (ZK)",
+    "Animoca Brands Portfolio",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "OKX Ventures Portfolio",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xc71b5f631354be6853efe9c3ab6b9590f8302e81",
+    "binance-smart-chain": "0xc71b5f631354be6853efe9c3ab6b9590f8302e81"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://polyhedra.network/",
+      "https://zkbridge.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xc71b5f631354be6853efe9c3ab6b9590f8302e81",
+      "https://platform.arkhamintelligence.com/explorer/token/polyhedra-network",
+      "https://ethplorer.io/address/0xc71b5f631354be6853efe9c3ab6b9590f8302e81",
+      "https://bscscan.com/token/0xc71b5f631354be6853efe9c3ab6b9590f8302e81",
+      "https://binplorer.com/address/0xc71b5f631354be6853efe9c3ab6b9590f8302e81"
+    ],
+    "official_forum_url": [
+      "https://polyhedra.medium.com/"
+    ],
+    "chat_url": [
+      "https://discord.gg/WkjUe5tfZP"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "PolyhedraZK",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/36198/thumb/Polyhedra_Symbol_Black_on_White.png?1747150504",
+    "small": "https://coin-images.coingecko.com/coins/images/36198/small/Polyhedra_Symbol_Black_on_White.png?1747150504",
+    "large": "https://coin-images.coingecko.com/coins/images/36198/large/Polyhedra_Symbol_Black_on_White.png?1747150504"
+  },
+  "last_updated": "2025-07-11T09:51:46.758004+00:00"
+}

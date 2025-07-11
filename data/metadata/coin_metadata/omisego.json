@@ -1,0 +1,66 @@
+{
+  "id": "omisego",
+  "symbol": "omg",
+  "name": "OMG Network",
+  "categories": [
+    "Smart Contract Platform",
+    "Ethereum Ecosystem",
+    "Alleged SEC Securities",
+    "Pantera Capital Portfolio",
+    "Boba Network Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xd26114cd6ee289accf82350c8d8487fedb8a0c07",
+    "boba": "0xe1e2ec9a85c607092668789581251115bcbd20de"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2017-07-06",
+  "country_origin": "",
+  "description": {
+    "en": "The OMG Network is the value transfer network for ETH and ERC20 tokens."
+  },
+  "links": {
+    "homepage": [
+      "https://omg.network/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://blockexplorer.mainnet.v1.omg.network/",
+      "https://platform.arkhamintelligence.com/explorer/token/omisego",
+      "https://etherscan.io/token/0xd26114cd6ee289accf82350c8d8487fedb8a0c07",
+      "https://blockchair.com/ethereum/erc-20/token/0xd26114cd6ee289accf82350c8d8487fedb8a0c07",
+      "https://ethplorer.io/address/0xd26114cd6ee289accf82350c8d8487fedb8a0c07",
+      "https://blockexplorer.boba.network/",
+      "https://explorer.energi.network/token/0x81888a2b486670f70c2c5f8e394519939da01524",
+      "https://blockexplorer.boba.network/tokens/<>",
+      "https://blockexplorer.boba.network/tokens/0xe1e2ec9a85c607092668789581251115bcbd20de",
+      "https://bobascan.com/token/0xe1e2ec9a85c607092668789581251115bcbd20de"
+    ],
+    "official_forum_url": [
+      "https://omg.network/blog"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "omgnetworkhq",
+    "facebook_username": "omgnetworkhq",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/OMGnetwork/",
+    "repos_url": {
+      "github": [
+        "https://github.com/omgnetwork/plasma-contracts",
+        "https://github.com/omgnetwork/elixir-omg"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/776/thumb/OMG_Network.jpg?1696501928",
+    "small": "https://coin-images.coingecko.com/coins/images/776/small/OMG_Network.jpg?1696501928",
+    "large": "https://coin-images.coingecko.com/coins/images/776/large/OMG_Network.jpg?1696501928"
+  },
+  "last_updated": "2025-07-11T09:55:31.229453+00:00"
+}

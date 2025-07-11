@@ -1,0 +1,54 @@
+{
+  "id": "revox",
+  "symbol": "rex",
+  "name": "REVOX",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "BNB Chain Ecosystem",
+    "AI Agents",
+    "AI Applications"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x90869b3a42e399951bd5f5ff278b8cc5ee1dc0fe"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "REVOX.AI is revolutionizing Web3 by building a shared AI interface through its permissionless machine learning infrastructure, enabling the creation and innovation of decentralized AI applications with modular agents. Its flagship super-apps, including Web3 GPT Lense, Smart Wallet, and ReadON DAO APP, have attracted a global user base of over 21 million. REVOX leads the dApp market with over 2 million daily active users (DAU) and a peak of 13 million monthly active users (MAU). The mobile app also secured the #1 spot in Google Play’s news category with 3.5 million downloads. REVOX’s achievements include selection for Binance’s MVB Season 8, winning the Community Choice Award in the Solana Riptide Hackathon, the 1st Prize in the Web3 Infra Hackathon sponsored by Arweave, and the 3rd Prize for Best Social-Fi dApp on the BNB Chain. As the largest AI project in the BNB ecosystem, REVOX was the top dApp on opBNB in June 2024, driving opBNB to its all-time high and contributing 40% of its transactions. During its collaboration with Binance Web3 Wallet, it achieved record participation with over 700,000 KYC-verified users. Additionally, REVOX is the first strategic partner of LINE NEXT. The project anticipates $700,000 in revenue over three months and $8 million in AI-powered DeFi transaction volume, solidifying its position as a key player in the Web3 and AI landscape."
+  },
+  "links": {
+    "homepage": [
+      "https://revox.ai/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/address/0x90869b3a42E399951bd5F5fF278B8CC5ee1Dc0fE",
+      "https://bscscan.com/token/0x90869b3a42E399951bd5F5fF278B8CC5ee1Dc0fE",
+      "https://binplorer.com/address/0x90869b3a42E399951bd5F5fF278B8CC5ee1Dc0fE"
+    ],
+    "official_forum_url": [
+      "https://discord.com/invite/readon/"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "revoxdotai",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/52909/thumb/RREVOX_LOG.png?1734647416",
+    "small": "https://coin-images.coingecko.com/coins/images/52909/small/RREVOX_LOG.png?1734647416",
+    "large": "https://coin-images.coingecko.com/coins/images/52909/large/RREVOX_LOG.png?1734647416"
+  },
+  "last_updated": "2025-07-11T09:53:46.485287+00:00"
+}

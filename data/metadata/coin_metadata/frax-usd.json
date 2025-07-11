@@ -1,0 +1,61 @@
+{
+  "id": "frax-usd",
+  "symbol": "frxusd",
+  "name": "Frax USD",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "Ethereum Ecosystem",
+    "Sonic Ecosystem",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xcacd6fd266af91b8aed52accc382b4e165586e29",
+    "sonic": "0x80eede496655fb9047dd39d9f418d5483ed600df"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Frax USD (frxUSD) is a fiat-redeemable, fully-collateralized stablecoin issued by the Frax Finance Protocol. It operates using a hybrid model where governance-approved enshrined custodians mint and redeem frxUSD backed by cash-equivalent reserves, while advanced onchain mechanisms developed by the Frax Finance Protocol ensure stability, security, and seamless usability across DeFi and traditional financial systems."
+  },
+  "links": {
+    "homepage": [
+      "https://frax.com",
+      "https://app.frax.finance/",
+      "https://docs.frax.com/protocol/assets/frxusd/frxusd"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xcacd6fd266af91b8aed52accc382b4e165586e29",
+      "https://ethplorer.io/address/0xcacd6fd266af91b8aed52accc382b4e165586e29",
+      "https://sonicscan.org/token/0x80eede496655fb9047dd39d9f418d5483ed600df"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/fraxfinance",
+      "https://fraxfinancecommunity.medium.com/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "fraxfinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "fraxfinance",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/FraxFinance"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53963/thumb/frxUSD.png?1737792154",
+    "small": "https://coin-images.coingecko.com/coins/images/53963/small/frxUSD.png?1737792154",
+    "large": "https://coin-images.coingecko.com/coins/images/53963/large/frxUSD.png?1737792154"
+  },
+  "last_updated": "2025-07-11T09:53:07.389734+00:00"
+}

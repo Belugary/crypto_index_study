@@ -1,0 +1,56 @@
+{
+  "id": "stargate-bridged-usdc-plume",
+  "symbol": "usdc.e",
+  "name": "Stargate Bridged USDC (Plume)",
+  "categories": [
+    "Bridged USDC",
+    "Bridged-Tokens",
+    "Bridged Stablecoin",
+    "Plume Network Ecosystem"
+  ],
+  "asset_platform_id": "plume-network",
+  "platforms": {
+    "plume-network": "0x78add880a697070c1e765ac44d65323a0dcce913"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "USDC.e is a bridged version of USD Coin (USDC) deployed on the Plume blockchain via the Stargate protocol. It acts as a wrapped representation of native USDC, maintaining a 1:1 peg to the US dollar. USDC.e enables users to access stable, dollar-denominated liquidity on Plume by bridging USDC from other chains such as Ethereum, facilitating seamless cross-chain value transfer and supporting on-chain transactions and DeFi activities."
+  },
+  "links": {
+    "homepage": [
+      "https://www.circle.com/bridged-usdc",
+      "https://plume.org/",
+      "https://stargate.finance/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.plume.org/token/0x78adD880A697070c1e765Ac44D65323a0DcCE913"
+    ],
+    "official_forum_url": [
+      "https://discord.com/invite/plume-network"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "plumenetwork",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "plumenetwork_community",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/plumenetwork"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/66243/thumb/USDC_Token.png?1748919033",
+    "small": "https://coin-images.coingecko.com/coins/images/66243/small/USDC_Token.png?1748919033",
+    "large": "https://coin-images.coingecko.com/coins/images/66243/large/USDC_Token.png?1748919033"
+  },
+  "last_updated": "2025-07-11T09:53:08.458175+00:00"
+}

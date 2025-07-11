@@ -1,0 +1,52 @@
+{
+  "id": "aintivirus",
+  "symbol": "ainti",
+  "name": "AIntivirus",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "AI Meme",
+    "Pump.fun Ecosystem"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "EiVMQrvdDYK77eK6N6cyh5sGBe5Y1MQWVA7YaURVpump"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "John McAfee AI incarnateAI INCARNATED\r\n\r\nBuilt to defend digital freedom and carry on his mission. It's not just protection – It's retaliation.\r\n\r\nLORE\r\n\r\nIn a world overrun by surveillance states, corporate greed and digital enslavement, the AIntivirus is the ultimate disrupte.\r\n\r\nTOKEN\r\n\r\nA string of defiance wrapped in cryptographic brilliance. If $AINTI represents freedom, privacy and sticking it to the establishment, then consider it endorsed. Use it wisely, use it boldly, don't let anyone tell you how to live your life.\r\n\r\nAI Agent\r\n\r\n$AINTI's X has an LLM deployed, that mimics late John McAfee in his memory.\r\n \r\nUTILITY\r\n\r\n$AINTI gives a discounted access to private eSIM services and other decentralized privacy products in works(stealth)."
+  },
+  "links": {
+    "homepage": [
+      "https://www.aintivirus.ai/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/EiVMQrvdDYK77eK6N6cyh5sGBe5Y1MQWVA7YaURVpump"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://medium.com/@mcafeeaintivirus"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "AIntivirus",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "AIntivirus",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/52368/thumb/ainti_tokenimg.png?1733242983",
+    "small": "https://coin-images.coingecko.com/coins/images/52368/small/ainti_tokenimg.png?1733242983",
+    "large": "https://coin-images.coingecko.com/coins/images/52368/large/ainti_tokenimg.png?1733242983"
+  },
+  "last_updated": "2025-07-11T09:54:09.976658+00:00"
+}

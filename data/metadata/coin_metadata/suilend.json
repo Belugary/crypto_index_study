@@ -1,0 +1,52 @@
+{
+  "id": "suilend",
+  "symbol": "send",
+  "name": "Suilend",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Lending/Borrowing Protocols",
+    "Sui Ecosystem"
+  ],
+  "asset_platform_id": "sui",
+  "platforms": {
+    "sui": "0xb45fcfcc2cc07ce0702cc2d229621e046c906ef14d9b25e8e4d25f6e8763fef7::send::SEND"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://suilend.fi/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://suiscan.xyz/mainnet/coin/0xb45fcfcc2cc07ce0702cc2d229621e046c906ef14d9b25e8e4d25f6e8763fef7::send::SEND/txs",
+      "https://suivision.xyz/coin/0xb45fcfcc2cc07ce0702cc2d229621e046c906ef14d9b25e8e4d25f6e8763fef7::send::SEND"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/suilend"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "suilendprotocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/50989/thumb/SEND.png?1729667407",
+    "small": "https://coin-images.coingecko.com/coins/images/50989/small/SEND.png?1729667407",
+    "large": "https://coin-images.coingecko.com/coins/images/50989/large/SEND.png?1729667407"
+  },
+  "last_updated": "2025-07-11T09:53:49.699952+00:00"
+}

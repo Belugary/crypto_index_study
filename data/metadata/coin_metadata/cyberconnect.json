@@ -1,0 +1,74 @@
+{
+  "id": "cyberconnect",
+  "symbol": "cyber",
+  "name": "CYBER",
+  "categories": [
+    "Smart Contract Platform",
+    "SocialFi",
+    "NFT",
+    "BNB Chain Ecosystem",
+    "Binance Launchpool",
+    "Ethereum Ecosystem",
+    "Decentralized Identifier (DID)",
+    "Optimism Ecosystem",
+    "Layer 2 (L2)",
+    "Animoca Brands Portfolio",
+    "Multicoin Capital Portfolio",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Delphi Ventures Portfolio",
+    "Cyber Ecosystem",
+    "Optimism Superchain Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x14778860e937f509e651192a90589de711fb88a9",
+    "cyber": "0x14778860e937f509e651192a90589de711fb88a9",
+    "optimistic-ethereum": "0x14778860e937f509e651192a90589de711fb88a9",
+    "binance-smart-chain": "0x14778860e937f509e651192a90589de711fb88a9"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Cyber, the L2 for social, enables developers to create apps that transform how people connect, create, monetize, and share the value they generate. By simplifying workflows and accelerating time to market, Cyber streamlines development through an all-in-one platform that integrates high-performance infrastructure—with ultra-low fees and high TPS—and purpose-built tools for social applications, such as the CyberConnect protocol and CyberDB. To meet the demand for a seamless UX in social applications, Cyber offers a familiar, web2-like experience enriched with web3 benefits, through features like native Account Abstraction and seedless wallets. With 3 years of experience in building decentralized social networks, Cyber leverages its resources and knowledge to nurture a synergistic ecosystem with strong support systems atop its L2."
+  },
+  "links": {
+    "homepage": [
+      "https://cyber.co/",
+      "https://docs.cyber.co/build-on-cyber/contract-deployment"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x14778860e937f509e651192a90589de711fb88a9",
+      "https://platform.arkhamintelligence.com/explorer/token/cyberconnect",
+      "https://ethplorer.io/address/0x14778860e937f509e651192a90589de711fb88a9",
+      "https://bscscan.com/token/0x14778860e937f509e651192a90589de711fb88a9",
+      "https://binplorer.com/address/0x14778860e937f509e651192a90589de711fb88a9",
+      "https://optimistic.etherscan.io/token/0x14778860e937f509e651192a90589de711fb88a9",
+      "https://cyberscan.co/token/0x14778860e937f509e651192a90589de711fb88a9"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/buildoncyber",
+      "https://buildoncyber.medium.com/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "BuildOnCyber",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "buildoncyber",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/31274/thumb/token.png?1715826754",
+    "small": "https://coin-images.coingecko.com/coins/images/31274/small/token.png?1715826754",
+    "large": "https://coin-images.coingecko.com/coins/images/31274/large/token.png?1715826754"
+  },
+  "last_updated": "2025-07-11T09:51:05.802294+00:00"
+}

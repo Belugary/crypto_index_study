@@ -1,0 +1,55 @@
+{
+  "id": "solv-protocol-solvbtc-core",
+  "symbol": "solvbtc.core",
+  "name": "Solv Protocol SolvBTC.CORE",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Liquid Staking Tokens",
+    "Core Ecosystem",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "core",
+  "platforms": {
+    "core": "0x9410e8052bc661041e5cb27fdf7d9e9e842af2aa"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "SolvBTC.CORE is a liquid staking token (LST) that allows Bitcoin holders to stake their Bitcoin on the Core Network and earn returns. Yields are generated through staking and are distributed as CORE tokens, offering stable annual returns from network security. As a liquid staking token, SolvBTC.CORE allows you to retain control over your assets. You can use SolvBTC.CORE in DeFi applications on the Core Network while earning staking rewards. This ensures you maintain liquidity while earning yields, with potential DeFi returns of up to 10% on your Bitcoin."
+  },
+  "links": {
+    "homepage": [
+      "https://app.solv.finance/core"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://scan.coredao.org/token/0x9410e8052bc661041e5cb27fdf7d9e9e842af2aa"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/solvprotocol",
+      "https://solvprotocol.medium.com/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SolvProtocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "SolvProtocol",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/solv-finance"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/50781/thumb/20241016-213746.jpeg?1729143995",
+    "small": "https://coin-images.coingecko.com/coins/images/50781/small/20241016-213746.jpeg?1729143995",
+    "large": "https://coin-images.coingecko.com/coins/images/50781/large/20241016-213746.jpeg?1729143995"
+  },
+  "last_updated": "2025-07-11T09:50:37.174694+00:00"
+}

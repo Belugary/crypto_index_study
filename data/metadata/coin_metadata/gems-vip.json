@@ -1,0 +1,56 @@
+{
+  "id": "gems-vip",
+  "symbol": "gems",
+  "name": "Gems VIP",
+  "categories": [
+    "Launchpad",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x3010ccb5419f1ef26d40a7cd3f0d707a0fa127dc"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Gems is an innovative blockchain launchpad revolutionizing how projects raise funds and build communities."
+  },
+  "links": {
+    "homepage": [
+      "https://gems.vip"
+    ],
+    "whitepaper": "https://gems.vip/whitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/address/0x3010ccb5419f1ef26d40a7cd3f0d707a0fa127dc",
+      "https://platform.arkhamintelligence.com/explorer/token/gems-vip",
+      "https://etherscan.io/token/0x3010ccb5419f1ef26d40a7cd3f0d707a0fa127dc",
+      "https://ethplorer.io/address/0x3010ccb5419f1ef26d40a7cd3f0d707a0fa127dc"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/gemsvip",
+      "https://t.me/GemsOfficialCommunity"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "GemsVIPOfficial",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Gems-Labs"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/38725/thumb/200x200.png?1718478016",
+    "small": "https://coin-images.coingecko.com/coins/images/38725/small/200x200.png?1718478016",
+    "large": "https://coin-images.coingecko.com/coins/images/38725/large/200x200.png?1718478016"
+  },
+  "last_updated": "2025-07-11T09:54:15.025706+00:00"
+}

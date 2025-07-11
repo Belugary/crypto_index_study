@@ -1,0 +1,50 @@
+{
+  "id": "everybody",
+  "symbol": "hold",
+  "name": "Everybody",
+  "categories": [
+    "Meme",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x68b36248477277865c64dfc78884ef80577078f3"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Hold is a community driven meme coin, destined to bring back the idea of holding projects for bigger rewards. \r\nSparked by the negative behavior produced in the bear market, HOLD eliminated supply control from snipers, whales, and parties that are not destined to be along for the ride. HOLD is the first memecoin that uses a contract that limits supply control for those that bought in on launch."
+  },
+  "links": {
+    "homepage": [
+      "https://everybodyhold.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x68b36248477277865c64dfc78884ef80577078f3",
+      "https://platform.arkhamintelligence.com/explorer/token/everybody",
+      "https://ethplorer.io/address/0x68b36248477277865c64dfc78884ef80577078f3"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "everybodyholdx",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "HoldOfficialEntryPortal",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/32272/thumb/New_Logo.png?1730878917",
+    "small": "https://coin-images.coingecko.com/coins/images/32272/small/New_Logo.png?1730878917",
+    "large": "https://coin-images.coingecko.com/coins/images/32272/large/New_Logo.png?1730878917"
+  },
+  "last_updated": "2025-07-11T09:54:00.605522+00:00"
+}

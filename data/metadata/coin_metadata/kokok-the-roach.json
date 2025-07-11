@@ -1,0 +1,48 @@
+{
+  "id": "kokok-the-roach",
+  "symbol": "kokok",
+  "name": "KoKoK The Roach",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "5HkhVG2bSb5PGjhX5QHm9urUquD7tx5eAau5Fonq78zc"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "About KoKoK\r\n\r\nIn the wild world of crypto, KoKoK refuses to flee from risk. Once a struggling investor, it found its conviction and never looked back. Through crashes, liquidations, and endless FUD, KoKoK firmly held on the ground never backing down, never giving up. Losses came and went, but belief never faded.\r\n \r\n\r\nBecause in crypto, only the “unkillable” make it and KoKoK ain't going anywhere\r\n\r\nTough, unkillable, never backing down. Hit me with whatever, I’m still standing. \r\nNow it’s my turn to take over!"
+  },
+  "links": {
+    "homepage": [
+      "https://www.kokoktheroach.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/5HkhVG2bSb5PGjhX5QHm9urUquD7tx5eAau5Fonq78zc"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Kokoktheroach",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "kokok_theroach",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55286/thumb/1000004600.jpg?1748542481",
+    "small": "https://coin-images.coingecko.com/coins/images/55286/small/1000004600.jpg?1748542481",
+    "large": "https://coin-images.coingecko.com/coins/images/55286/large/1000004600.jpg?1748542481"
+  },
+  "last_updated": "2025-07-11T09:54:09.409693+00:00"
+}

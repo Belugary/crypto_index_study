@@ -1,0 +1,52 @@
+{
+  "id": "tutorial",
+  "symbol": "tut",
+  "name": "Tutorial",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Meme",
+    "AI Meme",
+    "AI Agents",
+    "Four.meme Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xcaae2a2f939f51d97cdfa9a86e79e3f085b799f3"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Tutorial is a token from a dev who made a tutorial on how to launch token on BNB chain 10 month ago, the OG Tutorial token was on testnet, so he decided to launch it on mainnet as a meme. \r\n\r\nThe purpose of the project is to promote building on bsc and making useful education content. \r\nThe project was originally created on four.meme and liquidity was transferred to pancakeswap as bonding curve criteria was met.\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://tutorialtoken.com"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0xcaae2a2f939f51d97cdfa9a86e79e3f085b799f3",
+      "https://binplorer.com/address/0xcaae2a2f939f51d97cdfa9a86e79e3f085b799f3"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "tutorialtoken",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54299/thumb/image_2025-02-08_18-56-13.png?1739165439",
+    "small": "https://coin-images.coingecko.com/coins/images/54299/small/image_2025-02-08_18-56-13.png?1739165439",
+    "large": "https://coin-images.coingecko.com/coins/images/54299/large/image_2025-02-08_18-56-13.png?1739165439"
+  },
+  "last_updated": "2025-07-11T09:52:15.233752+00:00"
+}

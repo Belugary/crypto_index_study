@@ -1,0 +1,63 @@
+{
+  "id": "orbiter-finance",
+  "symbol": "obt",
+  "name": "Orbiter Finance",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Bridge Governance Tokens",
+    "Base Ecosystem",
+    "Cross-chain Communication",
+    "OKX Ventures Portfolio"
+  ],
+  "asset_platform_id": "arbitrum-one",
+  "platforms": {
+    "arbitrum-one": "0x1cd9a56c8c2ea913c70319a44da75e99255aa46f",
+    "ethereum": "0x4af322ff4a6f2858f6b51e546b9ec499654493c5",
+    "binance-smart-chain": "0xcef5b397051fc92026249670e918c0ad7b8585e4",
+    "base": "0x514d8e8099286a13486ef6c525c120f51c239b52"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.orbiter.finance/en"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://arbiscan.io/token/0x1CD9a56c8C2eA913c70319A44Da75e99255aa46f",
+      "https://basescan.org/token/0x514D8E8099286a13486Ef6C525C120f51C239B52",
+      "https://etherscan.io/token/0x4af322Ff4A6f2858F6B51E546B9EC499654493C5",
+      "https://ethplorer.io/address/0x4af322Ff4A6f2858F6B51E546B9EC499654493C5",
+      "https://bscscan.com/token/0xcef5b397051fc92026249670e918c0ad7b8585e4",
+      "https://binplorer.com/address/0xcef5b397051fc92026249670e918c0ad7b8585e4"
+    ],
+    "official_forum_url": [
+      "https://orbiter-finance.medium.com/"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Orbiter_Finance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53783/thumb/orbiter.jpg?1737352795",
+    "small": "https://coin-images.coingecko.com/coins/images/53783/small/orbiter.jpg?1737352795",
+    "large": "https://coin-images.coingecko.com/coins/images/53783/large/orbiter.jpg?1737352795"
+  },
+  "last_updated": "2025-07-11T09:54:44.401324+00:00"
+}

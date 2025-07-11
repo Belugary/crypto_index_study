@@ -1,0 +1,51 @@
+{
+  "id": "infrafred-bgt",
+  "symbol": "ibgt",
+  "name": "Infrared BGT",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Liquid Staking Tokens",
+    "Berachain Ecosystem",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "berachain",
+  "platforms": {
+    "berachain": "0xac03caba51e17c86c921e1f6cbfbdc91f8bb2e6b"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://infrared.finance/",
+      "https://infrared.finance/ibgt"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://berascan.com/token/0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "InfraredFinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54614/thumb/ibgt.jpg?1740718302",
+    "small": "https://coin-images.coingecko.com/coins/images/54614/small/ibgt.jpg?1740718302",
+    "large": "https://coin-images.coingecko.com/coins/images/54614/large/ibgt.jpg?1740718302"
+  },
+  "last_updated": "2025-07-11T09:54:55.606491+00:00"
+}

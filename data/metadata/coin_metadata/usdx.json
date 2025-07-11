@@ -1,0 +1,52 @@
+{
+  "id": "usdx",
+  "symbol": "usdx",
+  "name": "USDX",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "Osmosis Ecosystem",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "osmosis",
+  "platforms": {
+    "osmosis": "ibc/C78F65E1648A3DFE0BAEB6C4CDA69CC2A75437F1793C0E6386DFDA26393790AE"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "USDX is the crypto-backed native stablecoin of the Kava DeFi hub."
+  },
+  "links": {
+    "homepage": [
+      "https://www.kava.io/overview"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://www.mintscan.io/kava",
+      "https://explorer.kava.io/token/",
+      "https://www.mintscan.io/osmosis/assets/ibc/aWJjL0M3OEY2NUUxNjQ4QTNERkUwQkFFQjZDNENEQTY5Q0MyQTc1NDM3RjE3OTNDMEU2Mzg2REZEQTI2MzkzNzkwQUU="
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/13056/thumb/USDX_coin.png?1696512841",
+    "small": "https://coin-images.coingecko.com/coins/images/13056/small/USDX_coin.png?1696512841",
+    "large": "https://coin-images.coingecko.com/coins/images/13056/large/USDX_coin.png?1696512841"
+  },
+  "last_updated": "2025-07-11T09:50:36.056505+00:00"
+}

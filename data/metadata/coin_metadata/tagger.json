@@ -1,0 +1,50 @@
+{
+  "id": "tagger",
+  "symbol": "tag",
+  "name": "TAGGER",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "BNB Chain Ecosystem",
+    "AI Applications"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x208bf3e7da9639f1eaefa2de78c23396b0682025"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "A Decentralized Full-Stack AI Data Solution powered by a Comprehensive Data Authentication and Authorization System\r\nTagger is a full-stack AI data solutions platform, establishing a cross-border data authentication protocol, creating a permissionless hub for data collection, labeling, management, and trading. The logic starts from utilizing Web 3's crowdsourcing advantages for data labeling and collection. Subsequently, we leverage the core essence of blockchain technology to form a permissionless data authentication and trading system, solving the prevalent problems of data silos, data authentication chaos, and lack of professional annotators in the current data landscape."
+  },
+  "links": {
+    "homepage": [
+      "https://tagger.pro/"
+    ],
+    "whitepaper": "https://tagger.gitbook.io/tagger-documentation",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x208bF3E7dA9639f1Eaefa2DE78c23396B0682025",
+      "https://binplorer.com/address/0x208bF3E7dA9639f1Eaefa2DE78c23396B0682025"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "taggerai",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Tagger_DATA",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53206/thumb/IMG_3196.png?1735664645",
+    "small": "https://coin-images.coingecko.com/coins/images/53206/small/IMG_3196.png?1735664645",
+    "large": "https://coin-images.coingecko.com/coins/images/53206/large/IMG_3196.png?1735664645"
+  },
+  "last_updated": "2025-07-11T09:51:44.162801+00:00"
+}

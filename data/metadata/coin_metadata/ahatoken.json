@@ -1,0 +1,50 @@
+{
+  "id": "ahatoken",
+  "symbol": "aht",
+  "name": "AhaToken",
+  "categories": [
+    "Meme"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Aha is a knowledge Q&A platform where users can get their questions answered by experts in various fields. Users can acquire digital assets by posting questions, answers, and other content curation activities, which can generate additional profits. Aha also solves abusive activities such as unwanted advertising and P.R. content. Aha creates knowledge content that guarantees reliability and expertise"
+  },
+  "links": {
+    "homepage": [
+      "https://www.a-ha.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://console.luniverse.io/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/aha-official",
+      "https://blog.naver.com/aha-aha"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "_aha_official",
+    "facebook_username": "Aha.Knowledge",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/12158/thumb/2022_ahatoken.jpg?1696511997",
+    "small": "https://coin-images.coingecko.com/coins/images/12158/small/2022_ahatoken.jpg?1696511997",
+    "large": "https://coin-images.coingecko.com/coins/images/12158/large/2022_ahatoken.jpg?1696511997"
+  },
+  "last_updated": "2025-07-11T09:55:40.095055+00:00"
+}

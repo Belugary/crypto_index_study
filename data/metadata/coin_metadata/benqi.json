@@ -1,0 +1,60 @@
+{
+  "id": "benqi",
+  "symbol": "qi",
+  "name": "BENQI",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Yield Farming",
+    "Binance Launchpool",
+    "Lending/Borrowing Protocols",
+    "Avalanche Ecosystem",
+    "Liquid Staking Governance Tokens",
+    "DragonFly Capital Portfolio",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "avalanche",
+  "platforms": {
+    "avalanche": "0x8729438eb15e2c8b576fcc6aecda6a148776c0f5"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "BENQI is a decentralized non-custodial liquidity market protocol, built on Avalanche. The protocol enables users to effortlessly lend, borrow, and earn interest with their digital assets. Depositors providing liquidity to the protocol may earn passive income, while borrowers are able to borrow in an over-collateralized manner."
+  },
+  "links": {
+    "homepage": [
+      "https://app.benqi.fi/",
+      "https://benqi.fi/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://snowtrace.io/token/0x8729438eb15e2c8b576fcc6aecda6a148776c0f5",
+      "https://platform.arkhamintelligence.com/explorer/token/benqi",
+      "https://avascan.info/blockchain/c/address/0x8729438eb15e2c8b576fcc6aecda6a148776c0f5/token"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://benqifinance.medium.com/",
+      "https://docs.benqi.fi/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "BenqiFinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "BenqiFinance",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/16362/thumb/GergDDN3_400x400.jpg?1696515961",
+    "small": "https://coin-images.coingecko.com/coins/images/16362/small/GergDDN3_400x400.jpg?1696515961",
+    "large": "https://coin-images.coingecko.com/coins/images/16362/large/GergDDN3_400x400.jpg?1696515961"
+  },
+  "last_updated": "2025-07-11T09:52:42.849929+00:00"
+}

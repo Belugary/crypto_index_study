@@ -1,0 +1,70 @@
+{
+  "id": "avail",
+  "symbol": "avail",
+  "name": "Avail",
+  "categories": [
+    "Infrastructure",
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem",
+    "Data Availability",
+    "Modular Blockchain",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xeeb4d8400aeefafc1b2953e0094134a887c76bd8",
+    "binance-smart-chain": "0x39702843a6733932ec7ce0dde404e5a6dbd8c989",
+    "base": "0xd89d90d26b48940fa8f58385fe84625d468e057a"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Avail is a Web3 infrastructure layer that allows modular execution layers to scale and interoperate in a trust minimized way."
+  },
+  "links": {
+    "homepage": [
+      "https://www.availproject.org/",
+      "https://docs.availproject.org/"
+    ],
+    "whitepaper": "https://github.com/availproject/data-availability/blob/master/reference%20document/Data%20Availability%20-%20Reference%20Document.pdf",
+    "blockchain_site": [
+      "https://explorer.avail.so/#/explorer",
+      "https://platform.arkhamintelligence.com/explorer/token/avail",
+      "https://avail.subscan.io",
+      "https://etherscan.io/token/0xeeb4d8400aeefafc1b2953e0094134a887c76bd8",
+      "https://ethplorer.io/address/0xeeb4d8400aeefafc1b2953e0094134a887c76bd8",
+      "https://basescan.org/token/0xd89d90d26b48940fa8f58385fe84625d468e057a",
+      "https://bscscan.com/token/0x39702843a6733932ec7ce0dde404e5a6dbd8c989",
+      "https://binplorer.com/address/0x39702843a6733932ec7ce0dde404e5a6dbd8c989"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/availproject/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/y6fHnxZQX8",
+      "https://www.youtube.com/@Availproject"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "AvailProject",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "AvailCommunity",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/availproject"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/37372/thumb/avail-logo.png?1714145201",
+    "small": "https://coin-images.coingecko.com/coins/images/37372/small/avail-logo.png?1714145201",
+    "large": "https://coin-images.coingecko.com/coins/images/37372/large/avail-logo.png?1714145201"
+  },
+  "last_updated": "2025-07-11T09:52:24.150973+00:00"
+}

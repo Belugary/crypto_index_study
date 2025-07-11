@@ -1,0 +1,57 @@
+{
+  "id": "neutron-3",
+  "symbol": "ntrn",
+  "name": "Neutron",
+  "categories": [
+    "Binance Launchpool",
+    "Osmosis Ecosystem",
+    "Delphi Ventures Portfolio"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": "",
+    "osmosis": "ibc/126DA09104B71B164883842B769C0E9EC1486C0887D27A9999E395C2C8FB5682"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What is the project about?\r\nNeutron is the most secure cross-chain smart-contracting platform. It combines the security of a top 10 blockchain by staked capitalization with bleeding-edge cross-chain infrastructure to enable DeFi applications to securely scale across a growing network of 51+ interconnected blockchains.\r\n\r\nWhat makes your project unique?\r\nNeutron is a permissionless smart-contract platform built with Tendermint and the Cosmos SDK. It makes development of secure cross-chain applications easier and more profitable. Through Interchain Security, Neutron provides developers with the full Proof-of-Stake security of the Cosmos Hub, one of the ten most secure blockchains in existence, at a fraction of the cost of running an appchain. Smart-contracts on Neutron can be written in Rust and run on CosmWasm, which protects them from the main attack vectors used against Solidity/EVM dApps. Neutron provides convenient interfaces that smart-contracts can use to execute and track transactions on remote blockchains, trigger callbacks and retrieve data trustlessly over IBC.\r\n\r\nHistory of your project.\r\n\r\n\r\nWhat’s next for your project?\r\n\r\n\r\nWhat can your token be used for?\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://neutron.org/"
+    ],
+    "whitepaper": "https://docs.neutron.org/",
+    "blockchain_site": [
+      "https://www.mintscan.io/neutron",
+      "https://neutron.celat.one/mainnet",
+      "https://ping.pub/neutron"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/zRT2ZkQsxA",
+      "https://medium.com/@Neutron.org"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Neutron_org",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "neutron_community",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/neutron-org"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/30813/thumb/ntrn.png?1696529669",
+    "small": "https://coin-images.coingecko.com/coins/images/30813/small/ntrn.png?1696529669",
+    "large": "https://coin-images.coingecko.com/coins/images/30813/large/ntrn.png?1696529669"
+  },
+  "last_updated": "2025-07-11T09:51:31.005126+00:00"
+}

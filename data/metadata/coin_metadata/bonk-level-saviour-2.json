@@ -1,0 +1,50 @@
+{
+  "id": "bonk-level-saviour-2",
+  "symbol": "saviour",
+  "name": "Bonk Level Saviour",
+  "categories": [
+    "Meme",
+    "Dog-Themed",
+    "Solana Meme",
+    "LetsBONK.fun Ecosystem"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "5Htub56zFC6gyp4UKKjEb21JTSrWheHbNwbxmXedbonk"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/5Htub56zFC6gyp4UKKjEb21JTSrWheHbNwbxmXedbonk"
+    ],
+    "official_forum_url": [
+      "https://x.com/i/communities/1941943764102062536"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/67145/thumb/utx7t9du1ja2y23wzp06cwt6pbbk.?1751889648",
+    "small": "https://coin-images.coingecko.com/coins/images/67145/small/utx7t9du1ja2y23wzp06cwt6pbbk.?1751889648",
+    "large": "https://coin-images.coingecko.com/coins/images/67145/large/utx7t9du1ja2y23wzp06cwt6pbbk.?1751889648"
+  },
+  "last_updated": "2025-07-11T09:54:36.473889+00:00"
+}

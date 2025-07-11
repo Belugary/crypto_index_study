@@ -1,0 +1,63 @@
+{
+  "id": "rss3",
+  "symbol": "rss3",
+  "name": "RSS3",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Infrastructure",
+    "Storage",
+    "Ethereum Ecosystem",
+    "Coinbase Ventures Portfolio",
+    "DragonFly Capital Portfolio",
+    "RSS3 VSL Ecosystem",
+    "AI Framework",
+    "DeFAI"
+  ],
+  "asset_platform_id": "rss3-vsl",
+  "platforms": {
+    "rss3-vsl": "0x4200000000000000000000000000000000000042",
+    "ethereum": "0xc98d64da73a6616c42117b582e832812e7b8d57f"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "RSS3 is a next-generation feed protocol that powers decentralized social, content, and e-commerce applications."
+  },
+  "links": {
+    "homepage": [
+      "https://rss3.io"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://scan.rss3.io/address/0x4200000000000000000000000000000000000042",
+      "https://platform.arkhamintelligence.com/explorer/token/rss3",
+      "https://etherscan.io/token/0xc98d64da73a6616c42117b582e832812e7b8d57f",
+      "https://ethplorer.io/address/0xc98d64da73a6616c42117b582e832812e7b8d57f"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/aGuwzF2hW4"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "rss3_",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "rss3_en",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/NaturalSelectionLabs/RSS3-Protocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/23575/thumb/rss3.jpeg?1718351333",
+    "small": "https://coin-images.coingecko.com/coins/images/23575/small/rss3.jpeg?1718351333",
+    "large": "https://coin-images.coingecko.com/coins/images/23575/large/rss3.jpeg?1718351333"
+  },
+  "last_updated": "2025-07-11T09:54:01.089249+00:00"
+}

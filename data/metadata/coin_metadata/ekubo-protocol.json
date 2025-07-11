@@ -1,0 +1,61 @@
+{
+  "id": "ekubo-protocol",
+  "symbol": "ekubo",
+  "name": "Ekubo Protocol",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Decentralized Finance (DeFi)",
+    "Automated Market Maker (AMM)",
+    "Ethereum Ecosystem",
+    "Starknet Ecosystem"
+  ],
+  "asset_platform_id": "starknet",
+  "platforms": {
+    "starknet": "0x75afe6402ad5a5c20dd25e10ec3b3986acaa647b77e4ae24b0cbc9a54a27a87",
+    "ethereum": "0x04c46e830bb56ce22735d5d8fc9cb90309317d0f"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Governs the most advanced and #1 AMM by TVL on Starknet, Ekubo"
+  },
+  "links": {
+    "homepage": [
+      "https://app.ekubo.org/",
+      "https://ekubo.org"
+    ],
+    "whitepaper": "https://docs.ekubo.org/integration-guides/till-pattern",
+    "blockchain_site": [
+      "https://starkscan.co/token/0x075afe6402ad5a5c20dd25e10ec3b3986acaa647b77e4ae24b0cbc9a54a27a87",
+      "https://platform.arkhamintelligence.com/explorer/token/ekubo-protocol",
+      "https://voyager.online/token/0x075afe6402ad5a5c20dd25e10ec3b3986acaa647b77e4ae24b0cbc9a54a27a87",
+      "https://etherscan.io/token/0x04c46e830bb56ce22735d5d8fc9cb90309317d0f",
+      "https://ethplorer.io/address/0x04c46e830bb56ce22735d5d8fc9cb90309317d0f",
+      "https://starkscan.co/token/0x75afe6402ad5a5c20dd25e10ec3b3986acaa647b77e4ae24b0cbc9a54a27a87",
+      "https://voyager.online/token/0x75afe6402ad5a5c20dd25e10ec3b3986acaa647b77e4ae24b0cbc9a54a27a87"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "EkuboProtocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Ekubo_Protocol",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/EkuboProtocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/37715/thumb/135474885.png?1715330450",
+    "small": "https://coin-images.coingecko.com/coins/images/37715/small/135474885.png?1715330450",
+    "large": "https://coin-images.coingecko.com/coins/images/37715/large/135474885.png?1715330450"
+  },
+  "last_updated": "2025-07-11T09:51:32.498843+00:00"
+}

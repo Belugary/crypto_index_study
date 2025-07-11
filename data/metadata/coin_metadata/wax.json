@@ -1,0 +1,68 @@
+{
+  "id": "wax",
+  "symbol": "waxp",
+  "name": "WAX",
+  "categories": [
+    "Smart Contract Platform",
+    "Gaming (GameFi)",
+    "NFT",
+    "Layer 1 (L1)",
+    "Play To Earn",
+    "Ethereum Ecosystem",
+    "Animoca Brands Portfolio",
+    "Gaming Blockchains",
+    "Pantera Capital Portfolio",
+    "OKX Ventures Portfolio",
+    "Wax Ecosystem"
+  ],
+  "asset_platform_id": "wax",
+  "platforms": {
+    "wax": "eosio.token",
+    "ethereum": "0x2a79324c19ef2b89ea98b23bc669b7e7c9f8a517"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Delegated Proof-of-Stake",
+  "genesis_date": "2017-12-19",
+  "country_origin": "",
+  "description": {
+    "en": "WAX is a purpose-built blockchain and protocol token designed to make e-commerce transactions faster, easier, and safer for all participants. The WAX Blockchain uses Delegated Proof of Stake (DPoS) as its consensus mechanism and is fully backward compatible with EOS. The custom features and incentive mechanisms developed by WAX are designed to optimize the blockchain's usability in e-commerce, and encourage voting on guilds and proposals.\r\n\r\nWAX has created a suite of blockchain-based tools upon which dApps, marketplaces, and native non-fungible tokens (NFTs) are built. These tools include services to support e-commerce operations such as the WAX Cloud Wallet, SSO and OAUTH, a native RNG service, and a developer portal. The resulting technology reportedly represents a blockchain architecture with 500 millisecond block times, is fee-less for customers, and leverages voting rewards to incentivize participation in the selection of block producers and proposals"
+  },
+  "links": {
+    "homepage": [
+      "https://wax.io/"
+    ],
+    "whitepaper": "https://github.com/worldwide-asset-exchange/whitepaper",
+    "blockchain_site": [
+      "http://wax.bloks.io",
+      "https://platform.arkhamintelligence.com/explorer/token/wax",
+      "https://eosauthority.com/?network=wax",
+      "https://etherscan.io/token/0x2a79324c19ef2b89ea98b23bc669b7e7c9f8a517",
+      "https://ethplorer.io/address/0x2a79324c19ef2b89ea98b23bc669b7e7c9f8a517",
+      "https://wax.bloks.io/account/eosio.token"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://medium.com/wax-io"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "WAX_io",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "wax_io",
+    "subreddit_url": "https://www.reddit.com/r/WAX_io",
+    "repos_url": {
+      "github": [
+        "https://github.com/worldwide-asset-exchange/wax-blockchain-legacy",
+        "https://github.com/worldwide-asset-exchange"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/1372/thumb/WAX_Coin_Tickers_P_512px.png?1696502430",
+    "small": "https://coin-images.coingecko.com/coins/images/1372/small/WAX_Coin_Tickers_P_512px.png?1696502430",
+    "large": "https://coin-images.coingecko.com/coins/images/1372/large/WAX_Coin_Tickers_P_512px.png?1696502430"
+  },
+  "last_updated": "2025-07-11T09:50:51.820996+00:00"
+}

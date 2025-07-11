@@ -1,0 +1,54 @@
+{
+  "id": "vaderai-by-virtuals",
+  "symbol": "vader",
+  "name": "VaderAI by Virtuals",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Meme",
+    "Base Ecosystem",
+    "AI Meme",
+    "AI Agents",
+    "Virtuals Protocol Ecosystem",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0x731814e491571a2e9ee3c5b1f7f3b962ee8f4870"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://app.virtuals.io/virtuals/896",
+      "https://vaderai.ai/"
+    ],
+    "whitepaper": "https://vaderai.gitbook.io/litepaper",
+    "blockchain_site": [
+      "https://basescan.org/token/0x731814e491571A2e9eE3c5b1F7f3b962eE8f4870"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Vader_AI_",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "+RvRL6fEpCQY3YTQ0",
+    "subreddit_url": "https://www.reddit.com/r/VaderAI",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/51910/thumb/kare_pepe.png?1733345833",
+    "small": "https://coin-images.coingecko.com/coins/images/51910/small/kare_pepe.png?1733345833",
+    "large": "https://coin-images.coingecko.com/coins/images/51910/large/kare_pepe.png?1733345833"
+  },
+  "last_updated": "2025-07-11T09:53:34.746730+00:00"
+}

@@ -1390,7 +1390,7 @@
     "version": "1.0"
   },
   "pumpbtc": {
-    "last_update": "2025-07-11T06:21:24.507605+00:00",
+    "last_update": "2025-07-11T13:49:41.174244+00:00",
     "days": "3",
     "version": "1.0"
   },
@@ -2280,7 +2280,7 @@
     "version": "1.0"
   },
   "entangle": {
-    "last_update": "2025-07-11T06:21:27.220849+00:00",
+    "last_update": "2025-07-11T13:49:42.426508+00:00",
     "days": "65",
     "version": "1.0"
   },
@@ -2606,6 +2606,1131 @@
   },
   "yield-guild-games": {
     "last_update": "2025-07-11T06:21:33.769915+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "promptale-ai": {
+    "last_update": "2025-07-11T10:20:14.406514+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "redstone-oracles": {
+    "last_update": "2025-07-11T10:20:14.903722+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "constellation-labs": {
+    "last_update": "2025-07-11T10:20:16.641634+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "cetus-protocol": {
+    "last_update": "2025-07-11T10:20:17.952016+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "osaka-protocol": {
+    "last_update": "2025-07-11T10:20:19.960005+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "beets-staked-sonic": {
+    "last_update": "2025-07-11T10:39:46.979812+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "l2-standard-bridged-weth-optimism": {
+    "last_update": "2025-07-11T10:45:24.485546+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "renzo-restaked-lst": {
+    "last_update": "2025-07-11T10:45:25.024720+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "power-ledger": {
+    "last_update": "2025-07-11T10:45:26.645196+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "oec-token": {
+    "last_update": "2025-07-11T10:45:29.735594+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "hivemapper": {
+    "last_update": "2025-07-11T10:45:30.370492+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "tokenlon": {
+    "last_update": "2025-07-11T10:45:31.940991+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "pha": {
+    "last_update": "2025-07-11T10:45:33.456922+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "moonwell-flagship-eth-morpho-vault": {
+    "last_update": "2025-07-11T10:45:34.625155+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "mythos": {
+    "last_update": "2025-07-11T10:45:35.225043+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "across-protocol": {
+    "last_update": "2025-07-11T10:45:36.165854+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "api3": {
+    "last_update": "2025-07-11T10:45:38.686396+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "pepeontron": {
+    "last_update": "2025-07-11T10:45:39.472648+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "vaultbridge-bridged-eth-katana": {
+    "last_update": "2025-07-11T10:45:40.081224+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "sign-global": {
+    "last_update": "2025-07-11T10:45:41.791095+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "cronos-bridged-usdt-cronos": {
+    "last_update": "2025-07-11T10:45:43.417795+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "bonfida": {
+    "last_update": "2025-07-11T10:45:44.610443+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "energy-web-token": {
+    "last_update": "2025-07-11T10:45:45.339052+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "ribbita-by-virtuals": {
+    "last_update": "2025-07-11T10:45:45.853650+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "quantixai": {
+    "last_update": "2025-07-11T10:45:47.151352+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "0x0-ai-ai-smart-contract": {
+    "last_update": "2025-07-11T10:45:48.420410+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "saga-2": {
+    "last_update": "2025-07-11T10:45:49.001028+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "mass-vehicle-ledger": {
+    "last_update": "2025-07-11T10:45:52.562554+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "peaq-2": {
+    "last_update": "2025-07-11T10:45:53.164943+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "everipedia": {
+    "last_update": "2025-07-11T10:45:55.082341+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "elixir-staked-deusd": {
+    "last_update": "2025-07-11T10:45:55.685051+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "avant-staked-usd": {
+    "last_update": "2025-07-11T10:45:56.759153+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "bridged-wrapped-ether-starkgate": {
+    "last_update": "2025-07-11T10:45:58.554889+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "audius": {
+    "last_update": "2025-07-11T10:46:00.179865+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "lisk": {
+    "last_update": "2025-07-11T10:46:02.138366+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "ponke": {
+    "last_update": "2025-07-11T10:46:02.996748+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "pocket-network": {
+    "last_update": "2025-07-11T10:46:03.827528+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "spell-token": {
+    "last_update": "2025-07-11T10:46:05.362744+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "pundi-x-2": {
+    "last_update": "2025-07-11T10:46:06.928874+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "xai-blockchain": {
+    "last_update": "2025-07-11T10:46:08.350010+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "initia": {
+    "last_update": "2025-07-11T10:46:11.622704+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "merlin-chain": {
+    "last_update": "2025-07-11T10:46:12.792563+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "vaultbridge-bridged-usdc-katana": {
+    "last_update": "2025-07-11T10:46:13.893692+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "sonic-svm": {
+    "last_update": "2025-07-11T10:46:14.986929+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "usd-coin-ethereum-bridged": {
+    "last_update": "2025-07-11T10:46:16.369712+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "solv-protocol-solvbtc-core": {
+    "last_update": "2025-07-11T10:46:17.544695+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "dkargo": {
+    "last_update": "2025-07-11T10:46:20.213719+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "coreum": {
+    "last_update": "2025-07-11T10:46:21.623274+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "ergo": {
+    "last_update": "2025-07-11T10:46:24.221391+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "b3": {
+    "last_update": "2025-07-11T10:46:25.302909+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "dogs-2": {
+    "last_update": "2025-07-11T10:46:26.519251+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "radix": {
+    "last_update": "2025-07-11T10:46:28.112725+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "relend-usdc": {
+    "last_update": "2025-07-11T10:46:29.135719+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "ardor": {
+    "last_update": "2025-07-11T10:46:33.569411+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "harrypotterobamasonic10in": {
+    "last_update": "2025-07-11T10:46:34.826168+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "ronin-bridged-weth-ronin": {
+    "last_update": "2025-07-11T10:46:36.007293+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "songbird": {
+    "last_update": "2025-07-11T10:46:38.603846+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "chromaway": {
+    "last_update": "2025-07-11T10:46:39.763893+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "banana-gun": {
+    "last_update": "2025-07-11T10:46:40.985672+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "civic": {
+    "last_update": "2025-07-11T10:46:42.042242+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "bancor": {
+    "last_update": "2025-07-11T10:46:43.794415+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "milk-alliance": {
+    "last_update": "2025-07-11T10:46:46.968220+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "infinitar-governance-token": {
+    "last_update": "2025-07-11T10:46:47.639437+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "terrausd": {
+    "last_update": "2025-07-11T10:46:50.010472+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "ong": {
+    "last_update": "2025-07-11T10:46:51.645335+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "wax": {
+    "last_update": "2025-07-11T10:46:53.375141+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "kelp-gain": {
+    "last_update": "2025-07-11T10:46:53.910829+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "ark": {
+    "last_update": "2025-07-11T10:46:55.695965+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "btu-protocol": {
+    "last_update": "2025-07-11T10:46:59.158548+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "minidoge-5": {
+    "last_update": "2025-07-11T10:46:59.694192+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "f-x-protocol-fxusd": {
+    "last_update": "2025-07-11T10:47:00.926898+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "layerzero-bridged-weeth-swellchain": {
+    "last_update": "2025-07-11T10:47:02.070388+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "temple": {
+    "last_update": "2025-07-11T10:47:02.856448+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "space-id": {
+    "last_update": "2025-07-11T10:47:04.412507+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "iexec-rlc": {
+    "last_update": "2025-07-11T10:47:05.462272+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "felix-feusd": {
+    "last_update": "2025-07-11T10:47:06.574272+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "l2-standard-bridged-weth-blast": {
+    "last_update": "2025-07-11T10:47:07.795757+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "bitdca": {
+    "last_update": "2025-07-11T10:47:08.295107+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "moonbeam": {
+    "last_update": "2025-07-11T10:47:10.416375+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "mindwavedao": {
+    "last_update": "2025-07-11T10:47:13.459239+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "newton-protocol": {
+    "last_update": "2025-07-11T10:47:13.975030+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "satoshi-stablecoin": {
+    "last_update": "2025-07-11T10:47:14.847224+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "steem": {
+    "last_update": "2025-07-11T10:47:16.888011+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "zeus-network": {
+    "last_update": "2025-07-11T10:47:17.710115+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "huma-finance": {
+    "last_update": "2025-07-11T10:47:19.932187+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "resupply-usd": {
+    "last_update": "2025-07-11T10:47:21.051865+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "marlin": {
+    "last_update": "2025-07-11T10:47:23.436780+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "balancer": {
+    "last_update": "2025-07-11T10:47:24.453626+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "cyberconnect": {
+    "last_update": "2025-07-11T10:47:25.305331+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "arcblock": {
+    "last_update": "2025-07-11T10:47:29.544029+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "staked-frax": {
+    "last_update": "2025-07-11T10:47:30.405659+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "connex": {
+    "last_update": "2025-07-11T10:47:30.924178+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "chill-guy": {
+    "last_update": "2025-07-11T10:47:31.423702+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "apu-s-club": {
+    "last_update": "2025-07-11T10:47:32.161390+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "andy-the-wisguy": {
+    "last_update": "2025-07-11T10:47:33.380105+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "vanar-chain": {
+    "last_update": "2025-07-11T10:47:34.779199+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "hyperbeat-ultra-hype": {
+    "last_update": "2025-07-11T10:47:35.331914+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "dogelon-mars": {
+    "last_update": "2025-07-11T10:47:35.882826+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "paxos-standard": {
+    "last_update": "2025-07-11T10:47:39.822180+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "bugscoin": {
+    "last_update": "2025-07-11T10:47:40.931685+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "usualx": {
+    "last_update": "2025-07-11T10:47:42.052256+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "ski-mask-dog": {
+    "last_update": "2025-07-11T10:47:43.289753+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "sosovalue": {
+    "last_update": "2025-07-11T10:47:44.315864+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "blockv": {
+    "last_update": "2025-07-11T10:47:49.188260+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "fimarkcoin-com": {
+    "last_update": "2025-07-11T10:47:50.434648+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "reservoir-rusd": {
+    "last_update": "2025-07-11T10:47:51.483200+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "bucket-protocol-buck-stablecoin": {
+    "last_update": "2025-07-11T10:47:53.073359+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "shuffle-2": {
+    "last_update": "2025-07-11T10:47:53.588618+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "dent": {
+    "last_update": "2025-07-11T10:47:56.371644+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "carv": {
+    "last_update": "2025-07-11T10:47:57.062682+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "debridge": {
+    "last_update": "2025-07-11T10:47:58.239375+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "chutes": {
+    "last_update": "2025-07-11T10:47:59.992176+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "taiko": {
+    "last_update": "2025-07-11T10:48:01.486714+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "goldfinch": {
+    "last_update": "2025-07-11T10:48:02.958800+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "quantum-resistant-ledger": {
+    "last_update": "2025-07-11T10:48:07.290783+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "comedian": {
+    "last_update": "2025-07-11T10:48:08.452641+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "joe": {
+    "last_update": "2025-07-11T13:49:44.330709+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "hydradx": {
+    "last_update": "2025-07-11T13:49:46.122467+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "adventure-gold": {
+    "last_update": "2025-07-11T13:49:47.611393+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "auction": {
+    "last_update": "2025-07-11T13:49:49.326792+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "ocean-protocol": {
+    "last_update": "2025-07-11T13:49:51.123070+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "international-meme-fund": {
+    "last_update": "2025-07-11T13:49:52.154345+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "metal": {
+    "last_update": "2025-07-11T13:49:54.414768+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "game-by-virtuals": {
+    "last_update": "2025-07-11T13:49:55.477049+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "ssv-network": {
+    "last_update": "2025-07-11T13:49:57.280863+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "neutron-3": {
+    "last_update": "2025-07-11T13:49:57.796765+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "solv-protocol": {
+    "last_update": "2025-07-11T13:49:58.917844+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "ekubo-protocol": {
+    "last_update": "2025-07-11T13:50:00.432016+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "connect-token-wct": {
+    "last_update": "2025-07-11T13:50:04.276305+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "puff-the-dragon": {
+    "last_update": "2025-07-11T13:50:05.094904+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "stronghold-token": {
+    "last_update": "2025-07-11T13:50:06.119739+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "numeraire": {
+    "last_update": "2025-07-11T13:50:08.764377+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "looped-hype": {
+    "last_update": "2025-07-11T13:50:10.078485+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "nillion": {
+    "last_update": "2025-07-11T13:50:10.545938+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "scroll": {
+    "last_update": "2025-07-11T13:50:11.855687+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "vaneck-treasury-fund": {
+    "last_update": "2025-07-11T13:50:13.041195+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "sundog": {
+    "last_update": "2025-07-11T13:50:13.502683+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "ao-computer": {
+    "last_update": "2025-07-11T13:50:14.585057+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "solidus-aitech": {
+    "last_update": "2025-07-11T13:50:15.105064+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "cross-2": {
+    "last_update": "2025-07-11T13:50:16.092494+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "global-commercial-business": {
+    "last_update": "2025-07-11T13:50:16.839797+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "bc-token": {
+    "last_update": "2025-07-11T13:50:17.460299+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "moonriver": {
+    "last_update": "2025-07-11T13:50:19.203761+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "home": {
+    "last_update": "2025-07-11T13:50:20.737502+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "polyhedra-network": {
+    "last_update": "2025-07-11T13:50:22.097598+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "bifrost": {
+    "last_update": "2025-07-11T13:50:22.915857+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "cartesi": {
+    "last_update": "2025-07-11T13:50:24.491569+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "spacen": {
+    "last_update": "2025-07-11T13:50:25.963534+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "qanplatform": {
+    "last_update": "2025-07-11T13:50:27.446897+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "zentry": {
+    "last_update": "2025-07-11T13:50:28.074759+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "supra": {
+    "last_update": "2025-07-11T13:50:28.612940+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "rif-token": {
+    "last_update": "2025-07-11T13:50:31.532977+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "medibloc": {
+    "last_update": "2025-07-11T13:50:36.598055+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "gamebuild": {
+    "last_update": "2025-07-11T13:50:37.929473+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "tokamak-network": {
+    "last_update": "2025-07-11T13:50:39.532944+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "cronos-bridged-wbtc-cronos": {
+    "last_update": "2025-07-11T13:50:40.802940+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "wilder-world": {
+    "last_update": "2025-07-11T13:50:43.703125+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "tagger": {
+    "last_update": "2025-07-11T13:50:44.795099+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "joe-coin": {
+    "last_update": "2025-07-11T13:50:45.841094+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "skyai": {
+    "last_update": "2025-07-11T13:50:47.621688+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "griffain": {
+    "last_update": "2025-07-11T13:50:48.115121+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "oraichain-token": {
+    "last_update": "2025-07-11T13:50:50.543250+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "geodnet": {
+    "last_update": "2025-07-11T13:50:51.729615+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "researchcoin": {
+    "last_update": "2025-07-11T13:50:53.719721+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "cobak-token": {
+    "last_update": "2025-07-11T13:50:54.706947+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "iagon": {
+    "last_update": "2025-07-11T13:50:56.219780+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "secret": {
+    "last_update": "2025-07-11T13:50:58.056942+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "gains-network": {
+    "last_update": "2025-07-11T13:50:59.095253+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "railgun": {
+    "last_update": "2025-07-11T13:51:00.779010+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "sui-bridged-ether-sui": {
+    "last_update": "2025-07-11T13:51:01.792774+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "zircuit": {
+    "last_update": "2025-07-11T13:51:02.456965+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "pundi-aifx": {
+    "last_update": "2025-07-11T13:51:03.555159+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "bim-2": {
+    "last_update": "2025-07-11T13:51:04.144709+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "aergo": {
+    "last_update": "2025-07-11T13:51:07.534570+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "anvil": {
+    "last_update": "2025-07-11T13:51:08.761851+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "islamic-coin": {
+    "last_update": "2025-07-11T13:51:10.405389+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "humans-ai": {
+    "last_update": "2025-07-11T13:51:11.883733+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "bridged-tether-opbnb": {
+    "last_update": "2025-07-11T13:51:12.753138+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "metfi-2": {
+    "last_update": "2025-07-11T13:51:14.382105+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "oasys": {
+    "last_update": "2025-07-11T13:51:15.932601+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "hippo-protocol": {
+    "last_update": "2025-07-11T13:51:18.380204+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "hashai": {
+    "last_update": "2025-07-11T13:51:19.146281+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "kyber-network-crystal": {
+    "last_update": "2025-07-11T13:51:19.821352+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "level-staked-usd": {
+    "last_update": "2025-07-11T13:51:20.299276+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "smooth-love-potion": {
+    "last_update": "2025-07-11T13:51:21.684390+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "unipoly": {
+    "last_update": "2025-07-11T13:51:22.200847+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "bone-shibaswap": {
+    "last_update": "2025-07-11T13:51:23.716524+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "tars-protocol": {
+    "last_update": "2025-07-11T13:51:24.350775+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "zedxion": {
+    "last_update": "2025-07-11T13:51:25.866967+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "simon-s-cat": {
+    "last_update": "2025-07-11T13:51:27.090105+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "propy": {
+    "last_update": "2025-07-11T13:51:30.511742+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "wink": {
+    "last_update": "2025-07-11T13:51:32.537289+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "ecomi": {
+    "last_update": "2025-07-11T13:51:35.089441+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "heyanon": {
+    "last_update": "2025-07-11T13:51:36.130528+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "mantle-bridged-usde-mantle": {
+    "last_update": "2025-07-11T13:51:37.486100+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "tomochain": {
+    "last_update": "2025-07-11T13:51:39.292165+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "escoin-token": {
+    "last_update": "2025-07-11T13:51:40.103831+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "access-protocol": {
+    "last_update": "2025-07-11T13:51:40.625614+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "bridged-usd-coin-optimism": {
+    "last_update": "2025-07-11T13:51:42.284503+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "velodrome-finance": {
+    "last_update": "2025-07-11T13:51:43.779764+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "dia-data": {
+    "last_update": "2025-07-11T13:51:45.406941+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "liqwid-finance": {
+    "last_update": "2025-07-11T13:51:47.575567+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "helder": {
+    "last_update": "2025-07-11T13:51:49.931605+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "tutorial": {
+    "last_update": "2025-07-11T13:51:50.512211+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "resolv": {
+    "last_update": "2025-07-11T13:51:51.810710+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "coin98": {
+    "last_update": "2025-07-11T13:51:54.415288+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "quark-chain": {
+    "last_update": "2025-07-11T13:51:58.940198+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "hashflow": {
+    "last_update": "2025-07-11T13:52:00.361420+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "marinade": {
+    "last_update": "2025-07-11T13:52:02.138342+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "hamster-kombat": {
+    "last_update": "2025-07-11T13:52:02.825446+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "alethea-artificial-liquid-intelligence-token": {
+    "last_update": "2025-07-11T13:52:04.063830+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "tokpie": {
+    "last_update": "2025-07-11T13:52:05.159865+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "concordium": {
+    "last_update": "2025-07-11T13:52:07.249907+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "landwolf-0x67": {
+    "last_update": "2025-07-11T13:52:08.050927+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "avail": {
+    "last_update": "2025-07-11T13:52:09.284680+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "nosana": {
+    "last_update": "2025-07-11T13:52:10.002796+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "messier": {
+    "last_update": "2025-07-11T13:52:12.246423+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "avalanche-bridged-weth-avalanche": {
+    "last_update": "2025-07-11T13:52:12.862643+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "pythia": {
+    "last_update": "2025-07-11T13:52:13.878617+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "avalanche-old-bridged-wbtc-avalanche": {
+    "last_update": "2025-07-11T13:52:14.548054+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "renzo-restaked-sol": {
+    "last_update": "2025-07-11T13:52:15.934165+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "celer-network": {
+    "last_update": "2025-07-11T13:52:17.586645+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "strikecoin": {
+    "last_update": "2025-07-11T13:52:20.317609+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "trufin-staked-apt": {
+    "last_update": "2025-07-11T13:52:21.567613+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "hunt-token": {
+    "last_update": "2025-07-11T13:52:25.460273+00:00",
     "days": "max",
     "version": "1.0"
   }

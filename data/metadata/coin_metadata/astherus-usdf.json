@@ -1,0 +1,52 @@
+{
+  "id": "astherus-usdf",
+  "symbol": "usdf",
+  "name": "Aster USDF",
+  "categories": [
+    "Stablecoins",
+    "BNB Chain Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x5a110fc00474038f6c02e89c707d638602ea44b5"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "Aster is a decentralized perpetual exchange built for everyone. It offers MEV-free, one-click trading with up to 1001x leverage in Simple Mode, and full-featured, pro-grade tools in Pro Mode. Backed by YZi Labs, Aster is building the future of DeFi: fast, flexible, and community-first.\r\n\r\nUSDF is a yield-bearing stablecoin issued by Aster, convertible with USDT at a 1:1 ratio. Underlying USDT funds are used to create and maintain delta neutral positions that back USDF and generate asUSDF yields."
+  },
+  "links": {
+    "homepage": [
+      "https://www.asterdex.com/en/usdf"
+    ],
+    "whitepaper": "https://docs.asterdex.com/product/usdf-stablecoin",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x5a110fc00474038f6c02e89c707d638602ea44b5",
+      "https://binplorer.com/address/0x5A110fC00474038f6c02E89C707D638602EA44B5"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "http://discord.gg/invite/HzrgVv7n64",
+      "https://medium.com/asterdex"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Aster_DEX",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "AsterDEX",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54133/thumb/USDF_LOGO.png?1738393978",
+    "small": "https://coin-images.coingecko.com/coins/images/54133/small/USDF_LOGO.png?1738393978",
+    "large": "https://coin-images.coingecko.com/coins/images/54133/large/USDF_LOGO.png?1738393978"
+  },
+  "last_updated": "2025-07-11T09:51:48.207425+00:00"
+}

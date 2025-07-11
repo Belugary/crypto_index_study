@@ -1,0 +1,78 @@
+{
+  "id": "alethea-artificial-liquid-intelligence-token",
+  "symbol": "ali",
+  "name": "Artificial Liquid Intelligence",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "NFT",
+    "Metaverse",
+    "Solana Ecosystem",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem",
+    "Cronos Ecosystem",
+    "Base Ecosystem",
+    "Multicoin Capital Portfolio",
+    "AI Agents",
+    "Alameda Research Portfolio",
+    "DeFiance Capital Portfolio",
+    "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x6b0b3a982b4634ac68dd83a4dbf02311ce324181",
+    "base": "0x97c806e7665d3afd84a8fe1837921403d59f3dcc",
+    "cronos": "0x45c135c1cdce8d25a3b729a28659561385c52671",
+    "polygon-pos": "0xbfc70507384047aa74c29cdc8c5cb88d0f7213ac",
+    "solana": "9wvorGtBJ8gyLorFTmwXWcymPoGVUBn6MRzHwFpCdCeC"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Alethea AI is building a decentralized protocol to create an Intelligent Metaverse inhabited by interactive and intelligent NFTs (iNFTs). As originators of the iNFT standard, Alethea AI is on the cutting edge of embedding AI animation, interaction and generative AI capabilities into NFTs. Developers can use the iNFT protocol to Create, Train and Earn from their iNFTs in the world’s first Intelligent Metaverse known as Noah’s Ark.\r\nNoah's Ark has a bold aim: To preserve and evolve the culture, stories and collective intelligence of the human species.\r\n\r\nThe NFT ecosystem is witnessing a Cambrian explosion in innovation and creativity, with avatar-centric communities launching at a scale and speed we never thought possible. New intellectual property is being created from the bottom-up, without the involvement of major corporate studios or large budgets. \r\nCreators and communities will soon demand to do more with their NFTs, and the Alethea AI team sees the Noah’s Ark Intelligent Metaverse as the connective tissue for the numerous  NFT projects and owners to bond and create rich, free-flowing, enjoyable interactive experiences on a crypto-native stack.\r\n\r\nAs the population of iNFTs within the Noah’s Ark increases, so too will the possibilities of interactions and collaborations with and between these iNFTs - enabling the emergence of an \"\"Intelligent Hive Mind\"\", powering the Ark's AI Engine. This intelligence will enable us to not only explore what it means to be human and what constitutes a personality, but also to discover how an Intelligent Metaverse powered by such an Intelligence can help shape our stories, culture, and intelligence as we realize the true meaning behind being Homo Narrans."
+  },
+  "links": {
+    "homepage": [
+      "https://aliagents.ai",
+      "https://aiprotocol.info",
+      "https://alethea.ai"
+    ],
+    "whitepaper": "https://docs.aiprotocol.info",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x6b0b3a982b4634ac68dd83a4dbf02311ce324181",
+      "https://platform.arkhamintelligence.com/explorer/token/alethea-artificial-liquid-intelligence-token",
+      "https://ethplorer.io/address/0x6b0b3a982b4634ac68dd83a4dbf02311ce324181",
+      "https://cronoscan.com/token/0x45c135c1cdce8d25a3b729a28659561385c52671",
+      "https://cronos-explorer.crypto.org/token/0x45c135c1cdce8d25a3b729a28659561385c52671",
+      "https://polygonscan.com/token/0xbfc70507384047aa74c29cdc8c5cb88d0f7213ac",
+      "https://basescan.org/token/0x97c806e7665d3afd84a8fe1837921403d59f3dcc",
+      "https://solscan.io/token/9wvorGtBJ8gyLorFTmwXWcymPoGVUBn6MRzHwFpCdCeC"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/theaiprotocol",
+      "https://www.youtube.com/channel/UC3WLysYnxlErUeCeXxzVRLA",
+      "https://www.linkedin.com/company/alethiaai"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "real_alethea",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "alethea_ai",
+    "subreddit_url": "https://www.reddit.com/r/Alethea/",
+    "repos_url": {
+      "github": [
+        "https://github.com/AI-Protocol-Official"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/22062/thumb/ALI-v2.webp?1728501978",
+    "small": "https://coin-images.coingecko.com/coins/images/22062/small/ALI-v2.webp?1728501978",
+    "large": "https://coin-images.coingecko.com/coins/images/22062/large/ALI-v2.webp?1728501978"
+  },
+  "last_updated": "2025-07-11T09:52:23.147589+00:00"
+}

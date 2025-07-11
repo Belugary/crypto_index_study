@@ -1,0 +1,57 @@
+{
+  "id": "xpla",
+  "symbol": "xpla",
+  "name": "XPLA",
+  "categories": [
+    "Smart Contract Platform",
+    "Gaming (GameFi)",
+    "NFT",
+    "Wallets",
+    "Osmosis Ecosystem",
+    "Gaming Blockchains",
+    "Gaming Platform",
+    "Appchains"
+  ],
+  "asset_platform_id": "osmosis",
+  "platforms": {
+    "osmosis": "ibc/95C9B5870F95E21A242E6AF9ADCB1F212EE4A8855087226C36FBE43FC41A77B8"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "XPLA is a Layer 1 blockchain that serves as a hub for digital media content. It encompasses a wide range of digital content, including Web3 games, blockchain gaming platform, NFT marketplace, and metaverse, with the intent of ‘Explore & Play.’ With a leading blockchain infrastructure empowered by a sustainable ecosystem, native SDK, and diverse middleware that fosters a developer-friendly environment, XPLA takes a leap as the core global blockchain hub. XPLA is a collaborative blockchain, where partners with expertise in technology, security, and content come together to contribute their exceptional skills. Central to its mission is the creation of a sustainable blockchain gaming ecosystem, anchored by the 'Play to Own' principle. This ethos ensures that the ownership and efforts of gamers are respected and valued.\r\n\r\nXPLA Mainnet utilizes the Cosmos SDK and expands consistently through interoperability with various chains based on Cosmos IBC. It has established an environment that supports COSMWASM and EVM for active interaction with other ecosystems and is compatible with smart contracts coded in Solidity through EVM compatibility.\r\n\r\nWithin the XPLA mainnet, a vibrant ecosystem of diverse genres of games and DApps is continuously maturing. Having recently onboarded top-notch IPs such as The Walking Dead: All-Stars, Summoners War: Chronicles, and MiniGame Party, including the first cross-chain game, Idle Ninja Online, XPLA is not merely progressing, but propelling ahead as a pivotal, content-driven blockchain, exhibiting an impressive spectrum of services."
+  },
+  "links": {
+    "homepage": [
+      "https://www.xpla.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.xpla.io/mainnet/token/xpla",
+      "https://www.mintscan.io/xpla"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://medium.com/@XPLA_Official"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "XPLA_Official",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Official_XPLA",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/27925/thumb/XPLA_Symbol.png?1710861894",
+    "small": "https://coin-images.coingecko.com/coins/images/27925/small/XPLA_Symbol.png?1710861894",
+    "large": "https://coin-images.coingecko.com/coins/images/27925/large/XPLA_Symbol.png?1710861894"
+  },
+  "last_updated": "2025-07-11T09:53:40.696062+00:00"
+}

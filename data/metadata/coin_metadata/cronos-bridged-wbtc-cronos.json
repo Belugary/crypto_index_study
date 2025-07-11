@@ -1,0 +1,49 @@
+{
+  "id": "cronos-bridged-wbtc-cronos",
+  "symbol": "wbtc",
+  "name": "Cronos Bridged WBTC (Cronos)",
+  "categories": [
+    "Cronos Ecosystem",
+    "Bridged WBTC",
+    "Bridged-Tokens"
+  ],
+  "asset_platform_id": "cronos",
+  "platforms": {
+    "cronos": "0x062e66477faf219f25d27dced647bf57c3107d52"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://cronos.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://cronos-explorer.crypto.org/token/0x062e66477faf219f25d27dced647bf57c3107d52"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39555/thumb/wbtc.png?1722897761",
+    "small": "https://coin-images.coingecko.com/coins/images/39555/small/wbtc.png?1722897761",
+    "large": "https://coin-images.coingecko.com/coins/images/39555/large/wbtc.png?1722897761"
+  },
+  "last_updated": "2025-07-11T09:51:47.232465+00:00"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "spell-token",
+  "symbol": "spell",
+  "name": "Spell",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Yield Farming",
+    "Avalanche Ecosystem",
+    "Fantom Ecosystem",
+    "Arbitrum Ecosystem",
+    "Olympus Pro Ecosystem",
+    "Ethereum Ecosystem",
+    "Stablecoin Protocol"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x090185f2135308bad17527004364ebcc2d37e5f6",
+    "arbitrum-one": "0x3e6648c5a70a150a88bce65f4ad4d506fe15d2af",
+    "fantom": "0x468003b688943977e6130f4f68f23aad939a1040",
+    "avalanche": "0xce1bffbd5374dac86a2893119683f4911a2f7814"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://abracadabra.money/"
+    ],
+    "whitepaper": null,
+    "blockchain_site": [
+      "https://etherscan.io/token/0x090185f2135308bad17527004364ebcc2d37e5f6",
+      "https://platform.arkhamintelligence.com/explorer/token/spell-token",
+      "https://ethplorer.io/address/0x090185f2135308bad17527004364ebcc2d37e5f6",
+      "https://cchain.explorer.avax.network/tokens/0xce1bffbd5374dac86a2893119683f4911a2f7814/token-transfers",
+      "https://ftmscan.com/token/0x468003b688943977e6130f4f68f23aad939a1040",
+      "https://arbiscan.io/token/0x3e6648c5a70a150a88bce65f4ad4d506fe15d2af",
+      "https://snowtrace.io/token/0xce1bffbd5374dac86a2893119683f4911a2f7814",
+      "https://scan.meter.io/address/0x468003b688943977e6130f4f68f23aad939a1040",
+      "https://ftmscan.com/address/0x468003b688943977e6130f4f68f23aad939a1040",
+      "https://avascan.info/blockchain/c/address/0xce1bffbd5374dac86a2893119683f4911a2f7814/token"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://abracadabramoney.medium.com/"
+    ],
+    "snapshot_url": "https://snapshot.org/#/abracadabrabymerlinthemagician.eth",
+    "twitter_screen_name": "MIM_Spell",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "abracadabramoney",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/15861/thumb/abracadabra-3.png?1696515477",
+    "small": "https://coin-images.coingecko.com/coins/images/15861/small/abracadabra-3.png?1696515477",
+    "large": "https://coin-images.coingecko.com/coins/images/15861/large/abracadabra-3.png?1696515477"
+  },
+  "last_updated": "2025-07-11T09:50:33.045141+00:00"
+}

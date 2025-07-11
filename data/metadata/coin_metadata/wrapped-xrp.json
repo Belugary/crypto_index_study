@@ -1,0 +1,55 @@
+{
+  "id": "wrapped-xrp",
+  "symbol": "wxrp",
+  "name": "Wrapped XRP",
+  "categories": [
+    "Crypto-Backed Tokens",
+    "Wrapped-Tokens",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x39fbbabf11738317a448031930706cd3e612e1b9"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Wrapped XRP is a 1:1 equivalent of XRP represented as an ERC-20 on Ethereum.\r\n\r\nWrapped.com lets investors use their digital assets to lend, borrow, and trade on all major DeFi platforms. Each wrapped asset is fully-collateralized and held with a qualified custodian.\r\n\r\nWrapped.com is a collaboration of Tokensoft Inc. with leading custodians and other financial institutions. Tokensoft provides the technology layer via Wrapped.com that allows users to wrap their XRP into wXRP."
+  },
+  "links": {
+    "homepage": [
+      "https://wrapped.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x39fbbabf11738317a448031930706cd3e612e1b9",
+      "https://platform.arkhamintelligence.com/explorer/token/wrapped-xrp",
+      "https://ethplorer.io/address/0x39fbbabf11738317a448031930706cd3e612e1b9"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/wrapped"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "wrappedfi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "wrappedfi",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/wrappedfi"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/19952/thumb/WXRP_revision-256px.png?1696519369",
+    "small": "https://coin-images.coingecko.com/coins/images/19952/small/WXRP_revision-256px.png?1696519369",
+    "large": "https://coin-images.coingecko.com/coins/images/19952/large/WXRP_revision-256px.png?1696519369"
+  },
+  "last_updated": "2025-07-11T09:52:42.324264+00:00"
+}

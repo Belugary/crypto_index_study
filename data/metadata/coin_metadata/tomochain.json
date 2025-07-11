@@ -1,0 +1,56 @@
+{
+  "id": "tomochain",
+  "symbol": "vic",
+  "name": "Viction",
+  "categories": [
+    "Smart Contract Platform",
+    "Masternodes",
+    "Layer 1 (L1)",
+    "DWF Labs Portfolio"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2018-02-28",
+  "country_origin": "SG",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://viction.xyz/"
+    ],
+    "whitepaper": "https://tomochain.com/docs/technical-whitepaper--1.0.pdf",
+    "blockchain_site": [
+      "https://www.vicscan.xyz"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/vCEJV44knr"
+    ],
+    "announcement_url": [
+      "https://blog.viction.xyz/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "BuildOnViction",
+    "facebook_username": "tomochainofficial",
+    "bitcointalk_thread_identifier": 2021785,
+    "telegram_channel_identifier": "buildonviction",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/BuildOnViction"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/3416/thumb/viction.jpeg?1698894318",
+    "small": "https://coin-images.coingecko.com/coins/images/3416/small/viction.jpeg?1698894318",
+    "large": "https://coin-images.coingecko.com/coins/images/3416/large/viction.jpeg?1698894318"
+  },
+  "last_updated": "2025-07-11T09:52:13.206047+00:00"
+}

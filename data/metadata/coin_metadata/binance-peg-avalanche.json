@@ -1,0 +1,52 @@
+{
+  "id": "binance-peg-avalanche",
+  "symbol": "avax",
+  "name": "Binance-Peg Avalanche",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Binance-Peg Tokens"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x1ce0c2827e2ef14d5c4f29a091d735a204794041"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Tokens that are wrapped and pegged by Binance on a 1:1 ratio to the corresponding native token. Also supports BEP20 token deposits and withdrawals at Binance.com"
+  },
+  "links": {
+    "homepage": [
+      "https://www.avax.network/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x1ce0c2827e2ef14d5c4f29a091d735a204794041",
+      "https://platform.arkhamintelligence.com/explorer/token/binance-peg-avalanche",
+      "https://binplorer.com/address/0x1ce0c2827e2ef14d5c4f29a091d735a204794041"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/RwXY7P6"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "avalancheavax",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/Avax",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/18674/thumb/avax_logo_1.png?1696518143",
+    "small": "https://coin-images.coingecko.com/coins/images/18674/small/avax_logo_1.png?1696518143",
+    "large": "https://coin-images.coingecko.com/coins/images/18674/large/avax_logo_1.png?1696518143"
+  },
+  "last_updated": "2025-07-11T09:53:11.483787+00:00"
+}

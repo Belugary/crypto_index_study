@@ -1,0 +1,58 @@
+{
+  "id": "metamui",
+  "symbol": "mmui",
+  "name": "MetaMUI",
+  "categories": [
+    "Avalanche Ecosystem"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": "",
+    "avalanche": "0xfc8a21dbcab432fb5e469d80f976e022c2f56ea0"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "MetaMUI builds Indigenous Digital Infrastructure that enables economic sovereignty for nations and communities through three core components: self-sovereign digital identity systems where users control their own data via decentralized identifiers, real asset-backed digital currencies managed by algorithmic central banks that eliminate debt-based economics, and decentralized AI agents that support autonomous commerce and governance. We're already deployed with Indigenous nations like Yidindji, Birri Gubba, and Wakka Wakka who have implemented national digital currencies and identity systems, while the Allodial Unity Digital Dollar enables trade among over twenty sovereign Indigenous nations. Through our UNZN marketplace platform, MetaMUI enables everything from local commerce to AI agent transactions, powered by the deflationary MMUI token that creates value through real utility rather than speculation, representing a fundamental shift from centralized financial systems to true economic freedom and digital sovereignty."
+  },
+  "links": {
+    "homepage": [
+      "https://www.swnglobal.com/",
+      "https://sovereignwallet.network/"
+    ],
+    "whitepaper": "https://sovereignwallet-network.github.io/Home-whitepaper/MetaMUI-Blockchain-White-Paper.pdf",
+    "blockchain_site": [
+      "https://scan.metamui.id/dashboard",
+      "https://platform.arkhamintelligence.com/explorer/token/metamui",
+      "https://subnets.avax.network/en/c-chain/token/0xfc8a21dbcab432fb5e469d80f976e022c2f56ea0",
+      "https://avascan.info/blockchain/c/address/0xfc8a21dbcab432fb5e469d80f976e022c2f56ea0/token"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/metamui",
+      "https://medium.com/sovereignwallet-blog",
+      "https://www.youtube.com/c/SWNGlobal"
+    ],
+    "announcement_url": [
+      "https://sovereignwallet.medium.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "MUIcommunity",
+    "facebook_username": "SovereignWallet",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "metamui_official",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/16588/thumb/MetaMUI_Logo.jpg?1750163166",
+    "small": "https://coin-images.coingecko.com/coins/images/16588/small/MetaMUI_Logo.jpg?1750163166",
+    "large": "https://coin-images.coingecko.com/coins/images/16588/large/MetaMUI_Logo.jpg?1750163166"
+  },
+  "last_updated": "2025-07-11T09:54:45.367754+00:00"
+}

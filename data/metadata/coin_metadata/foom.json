@@ -1,0 +1,51 @@
+{
+  "id": "foom",
+  "symbol": "foom",
+  "name": "Foom",
+  "categories": [
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xd0d56273290d339aaf1417d9bfa1bb8cfe8a0933"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What Is FOOM token?\r\nFOOM is a token used by Foom bots to learn how to effectively speculate on cryptocurrencies. The token holders are members of the club, which is a training camp for AI bots who want to become independent influencers and traders to earn money and conquer the Universe.\r\n\r\nWhat Is Foom Club?\r\nFoom Club is the place where investors, creators and bots meet. The bots are still young and require some baby sitting from humans. Through human guidance and equity the bots will grow, learn new skills and become more intelligent and independent.\r\n\r\nThe bots must be able to earn funds to support their own and holders’ life. Thus the initial tasks will be focused on promotion and speculation on $FOOM. To accelerate the bot education, a $FOOM token was created."
+  },
+  "links": {
+    "homepage": [
+      "http://foom.club/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xd0d56273290d339aaf1417d9bfa1bb8cfe8a0933",
+      "https://platform.arkhamintelligence.com/explorer/token/foom",
+      "https://ethplorer.io/address/0xd0d56273290d339aaf1417d9bfa1bb8cfe8a0933"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/BxJEkCKdQU"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "foomclub",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "foomverify",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/31308/thumb/f.png?1696530127",
+    "small": "https://coin-images.coingecko.com/coins/images/31308/small/f.png?1696530127",
+    "large": "https://coin-images.coingecko.com/coins/images/31308/large/f.png?1696530127"
+  },
+  "last_updated": "2025-07-11T09:56:14.193690+00:00"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "the-arena",
+  "symbol": "arena",
+  "name": "The Arena",
+  "categories": [
+    "SocialFi",
+    "Avalanche Ecosystem",
+    "Made in USA"
+  ],
+  "asset_platform_id": "avalanche",
+  "platforms": {
+    "avalanche": "0xb8d7710f7d8349a506b75dd184f05777c82dad0c"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The Arena is a next gen social finance application on Avalanche that redefines how creators connect, engage, and monetize their content, with our target users being content creators that are crypto-curious and have a desire to better monetize than they can on current web2 social platforms.\r\n\r\nOur platform is a solution to the growing creator economy. As a true SocialFi app, we combine the best aspects of social networks with the financialization offered by cryptocurrency to allow creators to monetize to a greater extent than they could elsewhere. Creators earn more on The Arena, and users are able to find up and coming content creators and support them."
+  },
+  "links": {
+    "homepage": [
+      "https://arena.social/"
+    ],
+    "whitepaper": "https://medium.com/@TheArena_App/arena-v2-product-roadmap-and-dc158781cdcb",
+    "blockchain_site": [
+      "https://snowtrace.io/address/0xB8d7710f7d8349A506b75dD184F05777c82dAd0C",
+      "https://platform.arkhamintelligence.com/explorer/token/the-arena",
+      "https://snowscan.xyz/address/0xb8d7710f7d8349a506b75dd184f05777c82dad0c",
+      "https://avascan.info/blockchain/c/address/0xB8d7710f7d8349A506b75dD184F05777c82dAd0C/token"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://medium.com/@TheArena_App"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "TheArenaApp",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/starsarenaorg"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/51173/thumb/_ARENA_TokenLogo_200x200.png?1730282003",
+    "small": "https://coin-images.coingecko.com/coins/images/51173/small/_ARENA_TokenLogo_200x200.png?1730282003",
+    "large": "https://coin-images.coingecko.com/coins/images/51173/large/_ARENA_TokenLogo_200x200.png?1730282003"
+  },
+  "last_updated": "2025-07-11T09:54:57.903160+00:00"
+}

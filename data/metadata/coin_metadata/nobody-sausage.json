@@ -1,0 +1,49 @@
+{
+  "id": "nobody-sausage",
+  "symbol": "nobody",
+  "name": "Nobody Sausage",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Solana Meme"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "C29ebrgYjYoJPMGPnPSGY1q3mMGk4iDSqnQeQQA7moon"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Nobody Sausage is a unique online presence that embodies the playful, humorous side of internet culture. Created by Kael Cabral, this character has evolved into a beloved brand that resonates with people through its quirky personality and entertaining content.\r\n\r\nImpact and Significance\r\n1. Community building: Nobody Sausage has fostered a sense of community among its fans, who share and engage with its content, creating a collective experience.\r\n2. Entertainment value: The character's quirky personality and humor provide endless entertainment for online audiences, making it a go-to destination for laughs and good times.\r\n3. Cultural relevance: Nobody Sausage has become a symbol of the absurd, joyful aspects of internet culture, reflecting the ever-changing nature of online trends and memes."
+  },
+  "links": {
+    "homepage": [
+      "https://nobodysausage.club/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/C29ebrgYjYoJPMGPnPSGY1q3mMGk4iDSqnQeQQA7moon"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "nobodysausage",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55425/thumb/IMG_3623.jpeg?1745945623",
+    "small": "https://coin-images.coingecko.com/coins/images/55425/small/IMG_3623.jpeg?1745945623",
+    "large": "https://coin-images.coingecko.com/coins/images/55425/large/IMG_3623.jpeg?1745945623"
+  },
+  "last_updated": "2025-07-11T09:53:27.845046+00:00"
+}

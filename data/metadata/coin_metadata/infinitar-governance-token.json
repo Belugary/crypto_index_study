@@ -1,0 +1,55 @@
+{
+  "id": "infinitar-governance-token",
+  "symbol": "igt",
+  "name": "Infinitar Governance Token",
+  "categories": [
+    "Gaming (GameFi)",
+    "NFT",
+    "BNB Chain Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xd5eeec1a534c35c418b44bb28e4d5a602f1a22de"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.infinitar.com/",
+      "https://infinitar.gitbook.io/whitepaper"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0xD5eeEc1a534c35C418B44bb28E4d5a602f1A22DE",
+      "https://platform.arkhamintelligence.com/explorer/token/infinitar-governance-token",
+      "https://binplorer.com/address/0xD5eeEc1a534c35C418B44bb28E4d5a602f1A22DE"
+    ],
+    "official_forum_url": [
+      "https://discord.com/invite/infinitar",
+      "https://medium.com/@infinitar"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Infinitar_MOBA",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "infinitar_MOBA",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/50985/thumb/infinitar.jpg?1729654559",
+    "small": "https://coin-images.coingecko.com/coins/images/50985/small/infinitar.jpg?1729654559",
+    "large": "https://coin-images.coingecko.com/coins/images/50985/large/infinitar.jpg?1729654559"
+  },
+  "last_updated": "2025-07-11T09:50:48.646724+00:00"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "bankercoin-2",
+  "symbol": "bnkr",
+  "name": "BankrCoin",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Base Ecosystem",
+    "AI Agents",
+    "Clanker Ecosystem",
+    "DeFAI"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0x22af33fe49fd1fa80c7149773dde5890d3c76f3b"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "Bankr is an advanced AI agent focused on simplifying the process of buying and selling digital assets. Bankr was the first AI agent on Farcaster to help you quickly buy all your favorites coins directly in the social. BankrCoin is the official coin of the agent and was deployed by Bankr itself directly in the Farcaster social feed. Fees from swaps go to support BankrCoin. Bankr is available on Farcaster and will soon be launching a private terminal, token recs, and limit orders on Base."
+  },
+  "links": {
+    "homepage": [
+      "https://bankr.bot"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://basescan.org/address/0x22aF33FE49fD1Fa80c7149773dDe5890D3c76F3b",
+      "https://basescan.org/token/0x22aF33FE49fD1Fa80c7149773dDe5890D3c76F3b"
+    ],
+    "official_forum_url": [
+      "https://warpcast.com/bankr"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "bankrbot",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/52626/thumb/bankr-static.png?1736405365",
+    "small": "https://coin-images.coingecko.com/coins/images/52626/small/bankr-static.png?1736405365",
+    "large": "https://coin-images.coingecko.com/coins/images/52626/large/bankr-static.png?1736405365"
+  },
+  "last_updated": "2025-07-11T09:53:04.690646+00:00"
+}

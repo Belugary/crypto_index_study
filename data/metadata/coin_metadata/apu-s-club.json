@@ -1,0 +1,58 @@
+{
+  "id": "apu-s-club",
+  "symbol": "apu",
+  "name": "Apu Apustaja",
+  "categories": [
+    "Meme",
+    "Ethereum Ecosystem",
+    "Frog-Themed",
+    "Murad Picks",
+    "Binance Alpha Spotlight",
+    "4chan-Themed"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x594daad7d77592a2b97b725a7ad59d7e188b5bfa"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Apu, also known as Peepo or Helper, is a pepe-variant that is used to represent a much younger, kinder and more naive anthropomorphic frog. Fed up with low-effort memecoins, more often than not led by deceptive developers, Apu decided to create his own fairly launched, fully transparent coin: $APU – the one and only coin for all frens."
+  },
+  "links": {
+    "homepage": [
+      "https://apu.com"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/address/0x594daad7d77592a2b97b725a7ad59d7e188b5bfa",
+      "https://platform.arkhamintelligence.com/explorer/token/apu-s-club",
+      "https://etherscan.io/token/0x594daad7d77592a2b97b725a7ad59d7e188b5bfa",
+      "https://ethplorer.io/address/0x594daad7d77592a2b97b725a7ad59d7e188b5bfa"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/apuclub/",
+      "https://www.tiktok.com/@apuclub"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "apuscoin",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "apuclub",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/35986/thumb/200x200.png?1710308147",
+    "small": "https://coin-images.coingecko.com/coins/images/35986/small/200x200.png?1710308147",
+    "large": "https://coin-images.coingecko.com/coins/images/35986/large/200x200.png?1710308147"
+  },
+  "last_updated": "2025-07-11T09:51:05.254475+00:00"
+}

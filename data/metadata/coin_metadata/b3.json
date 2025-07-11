@@ -1,0 +1,55 @@
+{
+  "id": "b3",
+  "symbol": "b3",
+  "name": "B3 (Base)",
+  "categories": [
+    "Smart Contract Platform",
+    "Base Ecosystem",
+    "Gaming Blockchains"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0xb3b32f9f8827d4634fe7d973fa1034ec9fddb3b3"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "B3 is a Layer 3 blockchain settlement layer built on Base, designed to revolutionize onchain gaming through its [Open Gaming](https://opengaming.b3.fun/) ecosystem. By addressing key pain points in blockchain-based gaming, B3 enhances accessibility for both developers and players. Its infrastructure minimizes transaction costs, simplifies onboarding, and fosters a collaborative ecosystem where games share liquidity, incentives, and audiences.\r\n\r\nThe $B3 token serves as the backbone of the ecosystem, ensuring seamless interaction across multiple games and chains, enabling \r\n* Governance\r\n* Staking\r\n* In-game transactions"
+  },
+  "links": {
+    "homepage": [
+      "https://b3.fun/"
+    ],
+    "whitepaper": "https://docs.b3.fun/",
+    "blockchain_site": [
+      "https://basescan.org/token/0xB3B32F9f8827D4634fE7d973Fa1034Ec9fdDB3B3",
+      "https://explorer.b3.fun/address/0xB3B32F9f8827D4634fE7d973Fa1034Ec9fdDB3B3"
+    ],
+    "official_forum_url": [
+      "https://warpcast.com/b3dotfun",
+      "https://b3dotfun.tumblr.com/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/b3dotfun"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "b3dotfun",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54287/thumb/B3.png?1739001374",
+    "small": "https://coin-images.coingecko.com/coins/images/54287/small/B3.png?1739001374",
+    "large": "https://coin-images.coingecko.com/coins/images/54287/large/B3.png?1739001374"
+  },
+  "last_updated": "2025-07-11T09:50:43.429950+00:00"
+}

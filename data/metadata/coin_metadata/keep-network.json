@@ -1,0 +1,67 @@
+{
+  "id": "keep-network",
+  "symbol": "keep",
+  "name": "Keep Network",
+  "categories": [
+    "Smart Contract Platform",
+    "Decentralized Finance (DeFi)",
+    "Harmony Ecosystem",
+    "Ethereum Ecosystem",
+    "Paradigm Portfolio",
+    "Multicoin Capital Portfolio",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "Energi Ecosystem",
+    "Privacy Blockchain"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x85eee30c52b0b379b046fb0f85f4f3dc3009afec",
+    "harmony-shard-0": "0x43bf77db5e784b263a459141bdcdf5cf6987936d",
+    "energi": "0x9caa73156981600f4d276a10f80970a171abc1d1"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "A keep is an off-chain container for private data. Keeps help contracts harness the full power of the public blockchain — enabling deep interactivity with private data.\r\n\r\nKeep Network aims to provide an off-chain “containers” — called keeps — that should keep private data safe from the public blockchain, thereby enabling smart contracts to maximize the full potential of blockchain tech without compromising on transparency or privacy. Keeps will be used to encrypt and store private data, and the keeps are to be protected by secure multi-party computation (sMPC) that allows generating, storing, encrypting and transmitting of data among different users."
+  },
+  "links": {
+    "homepage": [
+      "https://keep.network/"
+    ],
+    "whitepaper": "https://keep.network/whitepaper",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x85eee30c52b0b379b046fb0f85f4f3dc3009afec",
+      "https://platform.arkhamintelligence.com/explorer/token/keep-network",
+      "https://ethplorer.io/address/0x85eee30c52b0b379b046fb0f85f4f3dc3009afec",
+      "https://explorer.energi.network/token/0x9caa73156981600f4d276a10f80970a171abc1d1",
+      "https://explorer.harmony.one/token/0x43bf77db5e784b263a459141bdcdf5cf6987936d"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discordapp.com/invite/wYezN7v"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "keep_project",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "KeepNetworkOfficial",
+    "subreddit_url": "https://www.reddit.com/r/KeepNetwork",
+    "repos_url": {
+      "github": [
+        "https://github.com/keep-network/keep-core",
+        "https://github.com/keep-network/tbtc",
+        "https://github.com/keep-network/keep-ecdsa"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/3373/thumb/IuNzUb5b_400x400.jpg?1696504072",
+    "small": "https://coin-images.coingecko.com/coins/images/3373/small/IuNzUb5b_400x400.jpg?1696504072",
+    "large": "https://coin-images.coingecko.com/coins/images/3373/large/IuNzUb5b_400x400.jpg?1696504072"
+  },
+  "last_updated": "2025-07-11T09:53:02.692564+00:00"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "joe",
+  "symbol": "joe",
+  "name": "JOE",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Decentralized Finance (DeFi)",
+    "Yield Farming",
+    "Automated Market Maker (AMM)",
+    "BNB Chain Ecosystem",
+    "Avalanche Ecosystem",
+    "Arbitrum Ecosystem",
+    "Mantle Ecosystem",
+    "DeFiance Capital Portfolio",
+    "Delphi Ventures Portfolio",
+    "Dex Aggregator"
+  ],
+  "asset_platform_id": "avalanche",
+  "platforms": {
+    "avalanche": "0x6e84a6216ea6dacc71ee8e6b0a5b7322eebc0fdd",
+    "arbitrum-one": "0x371c7ec6d8039ff7933a2aa28eb827ffe1f52f07",
+    "mantle": "0x371c7ec6d8039ff7933a2aa28eb827ffe1f52f07",
+    "binance-smart-chain": "0x371c7ec6d8039ff7933a2aa28eb827ffe1f52f07"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Trader Joe is a leading decentralised exchange on Arbitrum, Avalanche and BNB Chain. \r\n\r\nOn the Trader Joe platform you can swap tokens, provide liquidity, yield farm and also shop for NFTs at the Joepegs Marketplace.\r\n\r\nThe Trader Joe DEX is powered by the Liquidity Book Automated Market Maker (AMM), the most efficient and versatile AMM in DeFi.\r\n\r\nJOE is the native governance token that also accrues a share of trading fees collected by Liquidity Pools."
+  },
+  "links": {
+    "homepage": [
+      "https://lfj.gg/avalanche"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://snowtrace.io/token/0x6e84a6216ea6dacc71ee8e6b0a5b7322eebc0fdd",
+      "https://platform.arkhamintelligence.com/explorer/token/joe",
+      "https://avascan.info/blockchain/c/address/0x6e84a6216ea6dacc71ee8e6b0a5b7322eebc0fdd/token",
+      "https://arbiscan.io/token/0x371c7ec6d8039ff7933a2aa28eb827ffe1f52f07",
+      "https://bscscan.com/token/0x371c7ec6d8039ff7933a2aa28eb827ffe1f52f07",
+      "https://arbitrum.dex.guru/token/0x371c7ec6d8039ff7933a2aa28eb827ffe1f52f07",
+      "https://binplorer.com/address/0x371c7ec6d8039ff7933a2aa28eb827ffe1f52f07",
+      "https://mantlescan.xyz/token/0x371c7ec6d8039ff7933a2aa28eb827ffe1f52f07",
+      "https://explorer.mantle.xyz/token/0x371c7ec6d8039ff7933a2aa28eb827ffe1f52f07"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/lfj",
+      "https://joecontent.substack.com/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "LFJ_gg",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "lfj_gg",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/traderjoe-xyz/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/17569/thumb/LFJ_JOE_Logo.png?1727200941",
+    "small": "https://coin-images.coingecko.com/coins/images/17569/small/LFJ_JOE_Logo.png?1727200941",
+    "large": "https://coin-images.coingecko.com/coins/images/17569/large/LFJ_JOE_Logo.png?1727200941"
+  },
+  "last_updated": "2025-07-11T09:51:36.473311+00:00"
+}

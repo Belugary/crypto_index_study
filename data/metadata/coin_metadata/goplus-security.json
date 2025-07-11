@@ -1,0 +1,61 @@
+{
+  "id": "goplus-security",
+  "symbol": "gps",
+  "name": "GoPlus Security",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Base Ecosystem",
+    "Cybersecurity",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "OKX Ventures Portfolio",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0x0c1dc73159e30c4b06170f2593d3118968a0dca5",
+    "binance-smart-chain": "0x9a4a67721573f2c9209dfff972c52be4e3f6642e"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "GoPlus is revolutionizing Web3 user security through its permissionless and user-driven User Security Network, which provides comprehensive protection across the entire user transaction lifecycle. GoPlus aims to create a more secure and user-friendly Web3 on-chain interaction environment by filling the gap of the security layer in the current blockchain's architecture, providing users with more effective and better-experienced on-chain security protection.\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://gopluslabs.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://basescan.org/address/0x0c1dc73159e30c4b06170f2593d3118968a0dca5",
+      "https://basescan.org/token/0x0c1dc73159e30c4b06170f2593d3118968a0dca5",
+      "https://bscscan.com/token/0x9a4a67721573f2c9209dfff972c52be4e3f6642e",
+      "https://binplorer.com/address/0x9a4a67721573f2c9209dfff972c52be4e3f6642e"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/goplussecurity",
+      "https://goplussecurity.medium.com/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "GoPlusSecurity",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "GoPlusSecurity",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/GoPlusSecurity/GPS-AUDIT"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53686/thumb/Separate_logo%EF%BC%88green%EF%BC%89.png?1737033911",
+    "small": "https://coin-images.coingecko.com/coins/images/53686/small/Separate_logo%EF%BC%88green%EF%BC%89.png?1737033911",
+    "large": "https://coin-images.coingecko.com/coins/images/53686/large/Separate_logo%EF%BC%88green%EF%BC%89.png?1737033911"
+  },
+  "last_updated": "2025-07-11T09:52:49.596145+00:00"
+}

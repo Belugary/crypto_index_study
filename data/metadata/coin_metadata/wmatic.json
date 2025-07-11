@@ -1,0 +1,73 @@
+{
+  "id": "wmatic",
+  "symbol": "wpol",
+  "name": "Wrapped POL",
+  "categories": [
+    "Crypto-Backed Tokens",
+    "Wrapped-Tokens",
+    "Polygon Ecosystem",
+    "Fantom Ecosystem",
+    "IoTeX Ecosystem",
+    "Velas Ecosystem",
+    "Linea Ecosystem",
+    "Polygon zkEVM Ecosystem",
+    "Astar Ecosystem",
+    "Telos Ecosystem"
+  ],
+  "asset_platform_id": "polygon-pos",
+  "platforms": {
+    "polygon-pos": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+    "polygon-zkevm": "0xa2036f0538221a77a3937f1379699f44945018d0",
+    "iotex": "0x8e66c0d6b70c0b23d39f4b21a1eac52bba8ed89a",
+    "astar": "0xdd90e5e87a2081dcf0391920868ebc2ffb81a1af",
+    "telos": "0x332730a4f6e03d9c55829435f10360e13cfa41ff",
+    "linea": "0x265b25e22bcd7f10a5bd6e6410f10537cc7567e8",
+    "sx-network": "0xfa6f64dfbad14e6883321c2f756f5b22ff658f9c",
+    "velas": "0xa649325aa7c5093d12d6f98eb4378deae68ce23f",
+    "fantom": "0x40df1ae6074c35047bff66675488aa2f9f6384f3"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Wrapped Matic on Polygon (PoS) chain."
+  },
+  "links": {
+    "homepage": [
+      "https://polygon.technology/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://polygonscan.com/token/0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+      "https://platform.arkhamintelligence.com/explorer/token/wmatic",
+      "https://ftmscan.com/token/0x40df1ae6074c35047bff66675488aa2f9f6384f3",
+      "https://scan.meter.io/address/0x40df1ae6074c35047bff66675488aa2f9f6384f3",
+      "https://ftmscan.com/address/0x40df1ae6074c35047bff66675488aa2f9f6384f3",
+      "https://www.teloscan.io/",
+      "https://blockscout.com/astar/token/<>",
+      "https://explorer.sx.technology/token/0xfa6f64dfbad14e6883321c2f756f5b22ff658f9c",
+      "https://blockscout.com/astar/token/0xdd90e5e87a2081dcf0391920868ebc2ffb81a1af",
+      "https://evmexplorer.velas.com/token/0xa649325aa7c5093d12d6f98eb4378deae68ce23f/token-transfers"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/14073/thumb/matic.png?1696513797",
+    "small": "https://coin-images.coingecko.com/coins/images/14073/small/matic.png?1696513797",
+    "large": "https://coin-images.coingecko.com/coins/images/14073/large/matic.png?1696513797"
+  },
+  "last_updated": "2025-07-11T09:52:03.022554+00:00"
+}

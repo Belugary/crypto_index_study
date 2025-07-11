@@ -1,0 +1,53 @@
+{
+  "id": "game-by-virtuals",
+  "symbol": "game",
+  "name": "GAME by Virtuals",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Base Ecosystem",
+    "AI Agents",
+    "Virtuals Protocol Ecosystem",
+    "Binance Alpha Spotlight",
+    "AI Framework"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0x1c4cca7c5db003824208adda61bd749e55f463a3"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://app.virtuals.io/virtuals/273"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://basescan.org/token/0x1c4cca7c5db003824208adda61bd749e55f463a3",
+      "https://platform.arkhamintelligence.com/explorer/token/game-by-virtuals"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "GAME_Virtuals",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/51063/thumb/Gaming_Agent_1fe70d54ba.jpg?1729925539",
+    "small": "https://coin-images.coingecko.com/coins/images/51063/small/Gaming_Agent_1fe70d54ba.jpg?1729925539",
+    "large": "https://coin-images.coingecko.com/coins/images/51063/large/Gaming_Agent_1fe70d54ba.jpg?1729925539"
+  },
+  "last_updated": "2025-07-11T09:51:27.004524+00:00"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "international-meme-fund",
+  "symbol": "imf",
+  "name": "International Meme Fund",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Meme",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x05be1d4c307c19450a6fd7ce7307ce72a3829a60"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "International Meme Fund (IMF) is a decentralized credit protocol on Ethereum that unlocks stablecoin liquidity using memecoins as collateral. It operates through pooled credit markets with isolated lending vaults integrated via Morpho. The protocol’s native token, IMF, governs how liquidity is allocated across supported markets. By treating memes as signal and credit as infrastructure, IMF enables communities to coordinate access to capital and turn belief into buying power."
+  },
+  "links": {
+    "homepage": [
+      "https://imf.bz",
+      "https://app.imf.bz"
+    ],
+    "whitepaper": "https://docs.imf.bz",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x05BE1d4c307C19450A6Fd7cE7307cE72a3829A60",
+      "https://ethplorer.io/address/0x05BE1d4c307C19450A6Fd7cE7307cE72a3829A60"
+    ],
+    "official_forum_url": [
+      "https://warpcast.com/~/channel/imf"
+    ],
+    "chat_url": [
+      "https://www.youtube.com/@intlmemefund"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "intlmemefund",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "intlmemefund",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/International-Meme-Fund"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/52031/thumb/imf-coingecko-200px.png?1732365603",
+    "small": "https://coin-images.coingecko.com/coins/images/52031/small/imf-coingecko-200px.png?1732365603",
+    "large": "https://coin-images.coingecko.com/coins/images/52031/large/imf-coingecko-200px.png?1732365603"
+  },
+  "last_updated": "2025-07-11T09:52:00.759442+00:00"
+}

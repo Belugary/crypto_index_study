@@ -1,0 +1,56 @@
+{
+  "id": "radicle",
+  "symbol": "rad",
+  "name": "Radworks",
+  "categories": [
+    "Infrastructure",
+    "Ethereum Ecosystem",
+    "DePIN",
+    "Galaxy Digital Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x31c8eacbffdd875c74b94b077895bd78cf1e64a3"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Radworks is building a sovereign developer stack that enables developers to securely host, collaborate, and reward open-source code. It’s composed of Radicle, an open source, peer-to-peer code collaboration stack, and Drips, a decentralized toolkit for continuously funding critical software dependencies.\r\n​​​​​​​\r\n$RAD is the native token of the Radworks Network, used as the primary means to coordinate all actors, govern the treasury, and reward infrastructure providers on top of the Radicle network."
+  },
+  "links": {
+    "homepage": [
+      "https://radworks.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x31c8eacbffdd875c74b94b077895bd78cf1e64a3",
+      "https://platform.arkhamintelligence.com/explorer/token/radicle",
+      "https://ethplorer.io/address/0x31c8eacbffdd875c74b94b077895bd78cf1e64a3"
+    ],
+    "official_forum_url": [
+      "https://radicle.community/"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": "https://snapshot.org/#/gov.radicle.eth",
+    "twitter_screen_name": "radicle",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/radicle-dev"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/14013/thumb/radicle.png?1696513741",
+    "small": "https://coin-images.coingecko.com/coins/images/14013/small/radicle.png?1696513741",
+    "large": "https://coin-images.coingecko.com/coins/images/14013/large/radicle.png?1696513741"
+  },
+  "last_updated": "2025-07-11T09:54:12.499226+00:00"
+}

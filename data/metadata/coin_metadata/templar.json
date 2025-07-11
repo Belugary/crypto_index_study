@@ -1,0 +1,51 @@
+{
+  "id": "templar",
+  "symbol": "sn3",
+  "name": "τemplar",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Bittensor Ecosystem",
+    "Bittensor Subnets"
+  ],
+  "asset_platform_id": "bittensor",
+  "platforms": {
+    "bittensor": "3"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.tplr.ai/"
+    ],
+    "whitepaper": "https://docs.tplr.ai/",
+    "blockchain_site": [
+      "https://taostats.io/subnets/3/chart"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/tplr-ai/templar"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/66334/thumb/sn3.png?1749237576",
+    "small": "https://coin-images.coingecko.com/coins/images/66334/small/sn3.png?1749237576",
+    "large": "https://coin-images.coingecko.com/coins/images/66334/large/sn3.png?1749237576"
+  },
+  "last_updated": "2025-07-11T09:55:02.005576+00:00"
+}

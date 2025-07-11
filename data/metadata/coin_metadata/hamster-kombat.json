@@ -1,0 +1,56 @@
+{
+  "id": "hamster-kombat",
+  "symbol": "hmstr",
+  "name": "Hamster Kombat",
+  "categories": [
+    "Gaming (GameFi)",
+    "Play To Earn",
+    "Telegram Apps",
+    "TON Ecosystem",
+    "Tap to Earn",
+    "Arcade Games"
+  ],
+  "asset_platform_id": "the-open-network",
+  "platforms": {
+    "the-open-network": "EQAJ8uWd7EBqsmpSWaRdf_I-8R8-XHwh3gsNKhy-UrdrPcUo"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Hamster Kombat is a crypto exchange CEO simulator game built on Telegram with 300 million players. Its mission is to smoothly onboard 1,000,000,000 Web2 users into Web3."
+  },
+  "links": {
+    "homepage": [
+      "https://hamsterkombat.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://tonscan.org/address/EQAJ8uWd7EBqsmpSWaRdf_I-8R8-XHwh3gsNKhy-UrdrPcUo",
+      "https://platform.arkhamintelligence.com/explorer/token/hamster-kombat",
+      "https://tonviewer.com/EQAJ8uWd7EBqsmpSWaRdf_I-8R8-XHwh3gsNKhy-UrdrPcUo"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.youtube.com/@HamsterKombat_Official"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "hamster_kombat",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "hamster_kombat",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39102/thumb/hamster-removebg-preview.png?1720514486",
+    "small": "https://coin-images.coingecko.com/coins/images/39102/small/hamster-removebg-preview.png?1720514486",
+    "large": "https://coin-images.coingecko.com/coins/images/39102/large/hamster-removebg-preview.png?1720514486"
+  },
+  "last_updated": "2025-07-11T09:52:20.553805+00:00"
+}

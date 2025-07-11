@@ -1,0 +1,51 @@
+{
+  "id": "scroll",
+  "symbol": "scr",
+  "name": "Scroll",
+  "categories": [
+    "Smart Contract Platform",
+    "Binance Launchpool",
+    "Layer 2 (L2)",
+    "Scroll Ecosystem"
+  ],
+  "asset_platform_id": "scroll",
+  "platforms": {
+    "scroll": "0xd29687c813d741e2f938f4ac377128810e217b1b"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Scroll is designed from the ground-up to maximize compatibility with Ethereum Virtual Machine. Thanks to bytecode-level compatibility with EVM, your existing applications and favorite tools are compatible with Scroll out-of-the-box. Being the most popular virtual machine for blockchains, EVM enables new developers to easily pick up Solidity or Vyper through countless tutorials, open-source code, and online communities."
+  },
+  "links": {
+    "homepage": [
+      "https://scroll.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://scrollscan.com/token/0xd29687c813D741E2F938F4aC377128810E217b1b",
+      "https://scroll.l2scan.co/token/0xd29687c813D741E2F938F4aC377128810E217b1b"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Scroll_ZKP",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/50571/thumb/scroll.jpg?1728376125",
+    "small": "https://coin-images.coingecko.com/coins/images/50571/small/scroll.jpg?1728376125",
+    "large": "https://coin-images.coingecko.com/coins/images/50571/large/scroll.jpg?1728376125"
+  },
+  "last_updated": "2025-07-11T09:51:35.485836+00:00"
+}

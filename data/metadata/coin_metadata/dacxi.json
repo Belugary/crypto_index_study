@@ -1,0 +1,55 @@
+{
+  "id": "dacxi",
+  "symbol": "dxi",
+  "name": "Dacxi",
+  "categories": [
+    "Education",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x5e29cf3e3fed4df50acab95f8268e9ee26ea36f2"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "SG",
+  "description": {
+    "en": "What is Dacxi Coin?\r\nDacxi Coin is the engine that powers the Dacxi Chain; the world’s first global tokenized crowdfunding system. Harnessing blockchain technology and tokenization, the Dacxi Chain creates digital versions of company shares that can be easily bought and sold by anyone, anywhere, at any time. In doing so, it aims to solve the fundamental flaws that have held crowdfunding back from the trillion-dollar industry that leading companies such as IBM believe it could (and should) be.  \r\nFirst launched in 2017, Dacxi Coin is the Dacxi Chain’s native cryptocurrency. As such, it plays a vital role in the Dacxi Chain’s operation. Dacxi Coin is responsible for facilitating global investment transfers, paying fees on the Dacxi Chain blockchain, node staking, and as the currency for the Dacxi Chain’s global crowdfunding network. The Dacxi Chain aims to unleash innovation around the world, by seamlessly connecting entrepreneurs with everyday investors who can offer the funding they need to succeed. When the Dacxi Chain is fully up and running, demand for Dacxi Coin is projected to reach billions. This makes Dacxi Coin one to closely watch.  \r\n\r\nWhat makes Dacxi Coin Unique?\r\nAs the native crypto of the Dacxi Chain, Dacxi Coin has a strong and sound use case – using blockchain technology to solve real-world problem. The early stage funding crisis is sealing the fate of thousands of world-changing products and ideas each year. Crowdfunding as we know it today has failed to reach the heights it promised – held back by limitations like geographical borders, lack of scale, and lack of buzz. \r\nIn delivering the world’s first global tokenized crowdfunding system, the Dacxi Chain will break down these barriers. Opening the door for everyday investors to fund exciting new projects. Connecting entrepreneurs with the capital they need to grow their businesses. And unleashing the world’s innovation potential. "
+  },
+  "links": {
+    "homepage": [
+      "https://dacxicoin.io/"
+    ],
+    "whitepaper": "https://dacxichain.com/wp-content/uploads/2022/12/DACHN220016-Dacxi-Coin-whitepaper-v5-1.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x5e29CF3E3fEd4df50aCab95f8268e9ee26Ea36f2",
+      "https://platform.arkhamintelligence.com/explorer/token/dacxi",
+      "https://ethplorer.io/address/0x5e29CF3E3fEd4df50aCab95f8268e9ee26Ea36f2"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/dacxi/",
+      "https://medium.com/@dacxi"
+    ],
+    "chat_url": [],
+    "announcement_url": [
+      "https://dacxi.medium.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "dacxicoin",
+    "facebook_username": "DacxiGlobal",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "DacxiCoinCommunity",
+    "subreddit_url": "https://www.reddit.com/r/DACXI/",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/4466/thumb/dacxi.png?1696505057",
+    "small": "https://coin-images.coingecko.com/coins/images/4466/small/dacxi.png?1696505057",
+    "large": "https://coin-images.coingecko.com/coins/images/4466/large/dacxi.png?1696505057"
+  },
+  "last_updated": "2025-07-11T09:54:38.412418+00:00"
+}

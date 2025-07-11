@@ -1,0 +1,53 @@
+{
+  "id": "tokenbot-2",
+  "symbol": "clanker",
+  "name": "tokenbot",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Launchpad",
+    "Base Ecosystem",
+    "AI Applications",
+    "Clanker Ecosystem",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0x1bc0c42215582d5a085795f4badbac3ff36d1bcb"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Clanker is an autonomous agent for deploying tokens. Currently, users may request clanker to deploy an ERC-20 token on Base by tagging it @clanker on Farcaster."
+  },
+  "links": {
+    "homepage": [
+      "https://www.clanker.world/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://basescan.org/token/0x1bc0c42215582d5a085795f4badbac3ff36d1bcb",
+      "https://platform.arkhamintelligence.com/explorer/token/tokenbot-2"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/51440/thumb/CLANKER.png?1731232869",
+    "small": "https://coin-images.coingecko.com/coins/images/51440/small/CLANKER.png?1731232869",
+    "large": "https://coin-images.coingecko.com/coins/images/51440/large/CLANKER.png?1731232869"
+  },
+  "last_updated": "2025-07-11T09:53:16.537321+00:00"
+}

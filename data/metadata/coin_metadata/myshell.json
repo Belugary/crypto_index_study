@@ -1,0 +1,66 @@
+{
+  "id": "myshell",
+  "symbol": "shell",
+  "name": "MyShell",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem",
+    "DragonFly Capital Portfolio",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Delphi Ventures Portfolio",
+    "OKX Ventures Portfolio",
+    "Binance HODLer Airdrops",
+    "AI Agent Launchpad",
+    "Binance Alpha Spotlight",
+    "AI Framework",
+    "Binance Wallet IDO"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xf2c88757f8d03634671208935974b60a2a28bdb3",
+    "binance-smart-chain": "0xf2c88757f8d03634671208935974b60a2a28bdb3"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "MyShell (http://myshell.ai/) is an AI consumer layer for everyone to build, share, and own AI agents. The team bridges AI and Blockchain through Agentic Frameworks, open-source models, and AI creator community. MyShell also provides users with AI-powered entertainment and utility while offering them shared ownership.\r\nTo learn more about MyShell, check the whitepaper (https://docs.myshell.ai/).\r\nMyShell leads in open-source AI with flagship models like MeloTTS (20M downloads in 2024) and OpenVoice (30K GitHub stars, top 0.03%). Both trended #1 on GitHub at launch.\r\nThe platform offers three modes for AI agent creation, catering to creators of different skill levels. ShellAgent is the most powerful and modular Agentic Framework.\r\nMyShell commercializes high-quality AI agents as investable assets for sustainable returns, benefiting both creators and investors.\r\nCurrently, 200K+ AI Agents are deployed on MyShell, with 170K active AI creators and 5M+ users."
+  },
+  "links": {
+    "homepage": [
+      "https://myshell.ai/"
+    ],
+    "whitepaper": "https://docs.myshell.ai/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xf2c88757f8d03634671208935974B60a2a28Bdb3",
+      "https://ethplorer.io/address/0xf2c88757f8d03634671208935974B60a2a28Bdb3",
+      "https://bscscan.com/token/0xf2c88757f8d03634671208935974B60a2a28Bdb3",
+      "https://binplorer.com/address/0xf2c88757f8d03634671208935974B60a2a28Bdb3"
+    ],
+    "official_forum_url": [
+      "https://discord.com/invite/myshell"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "myshell_ai",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/myshell-ai"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54374/thumb/myshell.jpg?1739428226",
+    "small": "https://coin-images.coingecko.com/coins/images/54374/small/myshell.jpg?1739428226",
+    "large": "https://coin-images.coingecko.com/coins/images/54374/large/myshell.jpg?1739428226"
+  },
+  "last_updated": "2025-07-11T09:52:45.500025+00:00"
+}

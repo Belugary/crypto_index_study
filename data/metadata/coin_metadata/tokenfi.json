@@ -1,0 +1,70 @@
+{
+  "id": "tokenfi",
+  "symbol": "token",
+  "name": "TokenFi",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Decentralized Finance (DeFi)",
+    "Analytics",
+    "BNB Chain Ecosystem",
+    "Launchpad",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "Telegram Apps",
+    "Discord Bots",
+    "DWF Labs Portfolio",
+    "TokenFi Launchpad"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x4507cef57c46789ef8d1a19ea45f4216bae2b528",
+    "binance-smart-chain": "0x4507cef57c46789ef8d1a19ea45f4216bae2b528"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "TokenFi aims to simplify the crypto and asset tokenization process and eventually become the foremost tokenization platform in the world.\r\n\r\nThe tokenization industry is projected to be a $16 trillion industry by the year 2030. BlackRock, the world’s biggest institutional investor with $10 trillion of assets under management, strongly believes in the industry’s potential, which they call \"the next evolution in markets”.\r\n\r\nTokenFi is launched by the highly experienced and connected Floki team that launched the popular Floki token that went to an ATH valuation of $3.5 billion. They will be leveraging this same experience to make TokenFi the number one tokenization platform in the industry."
+  },
+  "links": {
+    "homepage": [
+      "https://tokenfi.com",
+      "https://floki.com"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x4507cef57c46789ef8d1a19ea45f4216bae2b528",
+      "https://platform.arkhamintelligence.com/explorer/token/tokenfi",
+      "https://bscscan.com/token/0x4507cef57c46789ef8d1a19ea45f4216bae2b528",
+      "https://ethplorer.io/address/0x4507cef57c46789ef8d1a19ea45f4216bae2b528",
+      "https://binplorer.com/address/0x4507cef57c46789ef8d1a19ea45f4216bae2b528"
+    ],
+    "official_forum_url": [
+      "https://www.tiktok.com/@TokenFi"
+    ],
+    "chat_url": [
+      "https://discord.gg/floki",
+      "https://medium.com/@TokenFi"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "tokenfi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "FlokiInuToken",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Floki-Inu"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/32507/thumb/MAIN_TokenFi_logo_icon.png?1698918427",
+    "small": "https://coin-images.coingecko.com/coins/images/32507/small/MAIN_TokenFi_logo_icon.png?1698918427",
+    "large": "https://coin-images.coingecko.com/coins/images/32507/large/MAIN_TokenFi_logo_icon.png?1698918427"
+  },
+  "last_updated": "2025-07-11T09:52:55.233236+00:00"
+}

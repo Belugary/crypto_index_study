@@ -1,0 +1,60 @@
+{
+  "id": "endurance",
+  "symbol": "ace",
+  "name": "Fusionist",
+  "categories": [
+    "Gaming (GameFi)",
+    "NFT",
+    "BNB Chain Ecosystem",
+    "Binance Launchpool",
+    "RPG",
+    "Strategy Games",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Endurance Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xc27a719105a987b4c34116223cae8bd8f4b5def4"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Fusionist is a AAA game that we have developed independently.\r\n\r\nThe client utilizes the Unity engine, with the rendering segment employing the HDRP (High Definition Render Pipeline) to achieve AAA visual effects.\r\n\r\nThe networking segment adopts real-time synchronization technology (KCP + flatbuffer protocol), and all computation results are determined by the backend to ensure there's no possibility of cheating.\r\n\r\nAdditionally, we have developed a lightweight client using Unity WebGL technology, which can run on PCs or mobile devices, ensuring the maximization of user reachability.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://link3.to/fusionist_io"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer-endurance.fusionist.io/",
+      "https://platform.arkhamintelligence.com/explorer/token/endurance",
+      "https://bscscan.com/token/0xc27a719105a987b4c34116223cae8bd8f4b5def4",
+      "https://binplorer.com/address/0xc27a719105a987b4c34116223cae8bd8f4b5def4"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://medium.com/@fusionistio",
+      "https://studio.youtube.com/channel/UCiqUe9JXwlrOO20QhLoCEaw"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "fusionistio",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33528/thumb/ACE.png?1702254943",
+    "small": "https://coin-images.coingecko.com/coins/images/33528/small/ACE.png?1702254943",
+    "large": "https://coin-images.coingecko.com/coins/images/33528/large/ACE.png?1702254943"
+  },
+  "last_updated": "2025-07-11T09:53:14.980345+00:00"
+}

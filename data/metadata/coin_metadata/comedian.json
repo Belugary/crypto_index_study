@@ -1,0 +1,53 @@
+{
+  "id": "comedian",
+  "symbol": "ban",
+  "name": "Comedian",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Solana Meme",
+    "Pump.fun Ecosystem"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "9PR7nCP9DpcUotnDPVLUBUZKu5WAYkwrCUx9wDnSpump"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://comedian.meme/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/9PR7nCP9DpcUotnDPVLUBUZKu5WAYkwrCUx9wDnSpump",
+      "https://platform.arkhamintelligence.com/explorer/token/comedian"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/98SPpykTf5"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ban_comedian",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "comedian_ban",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/51100/thumb/ban.jpg?1730085215",
+    "small": "https://coin-images.coingecko.com/coins/images/51100/small/ban.jpg?1730085215",
+    "large": "https://coin-images.coingecko.com/coins/images/51100/large/ban.jpg?1730085215"
+  },
+  "last_updated": "2025-07-11T09:51:24.352505+00:00"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "ecomi",
+  "symbol": "omi",
+  "name": "ECOMI",
+  "categories": [
+    "Gaming (GameFi)",
+    "NFT",
+    "Metaverse",
+    "Collectibles",
+    "Play To Earn",
+    "Ethereum Ecosystem",
+    "Base Ecosystem",
+    "Energi Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xed35af169af46a02ee13b9d79eb57d6d68c1749e",
+    "base": "0x3792dbdd07e87413247df995e692806aa13d3299",
+    "energi": "0x003d765f3793de38ad5ea9d5fd0021cf12c3ba68"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "SG",
+  "description": {
+    "en": "ECOMI is the issuer of the OMI token. The OMI token is intended for use in the VeVe digital collectibles ecosystem. With over 8 million digital collectible NFTs sold since the beginning of 2021 and a range of international brands, artists, and IP partners releasing content through the platform, VeVe is the world’s leading mobile-first digital collectible platform.\r\n\r\nThrough an innovative loyalty program- the VeVe Master Collector Program- the OMI token is intended to amplify the collecting experience and, when available, will provide VeVe collectors with a range of unique ways to build and expand their digital collections."
+  },
+  "links": {
+    "homepage": [
+      "https://ecomi.notion.site/"
+    ],
+    "whitepaper": "https://drive.google.com/file/d/1UNE-EvjuMIaWJUfvF3qQiTe0OKLFAJXV/view",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xed35af169af46a02ee13b9d79eb57d6d68c1749e",
+      "https://platform.arkhamintelligence.com/explorer/token/ecomi",
+      "https://ethplorer.io/address/0xed35af169af46a02ee13b9d79eb57d6d68c1749e",
+      "https://explorer.energi.network/token/0x003d765f3793de38ad5ea9d5fd0021cf12c3ba68",
+      "https://basescan.org/token/0x3792dbdd07e87413247df995e692806aa13d3299"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/veve",
+      "https://medium.com/ecomi",
+      "https://www.youtube.com/c/ecomi"
+    ],
+    "announcement_url": [
+      "https://www.instagram.com/veve_official"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "ecomi_",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "ecomi",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Ecomi-Ecosystem/tge-contract"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/4428/thumb/ECOMI.png?1696505023",
+    "small": "https://coin-images.coingecko.com/coins/images/4428/small/ECOMI.png?1696505023",
+    "large": "https://coin-images.coingecko.com/coins/images/4428/large/ECOMI.png?1696505023"
+  },
+  "last_updated": "2025-07-11T09:52:07.688674+00:00"
+}

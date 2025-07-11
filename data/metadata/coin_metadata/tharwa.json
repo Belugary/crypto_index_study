@@ -1,0 +1,58 @@
+{
+  "id": "tharwa",
+  "symbol": "trwa",
+  "name": "Tharwa",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "RWA Protocol"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x7b10d50b5885be4c7985a88408265c109bd1eec8"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "The Tharwa ecosystem is a pioneering multi-asset, RWA-tokenized hedge fund featuring thUSD, a high-yield stablecoin backed by gold, UAE real estate, oil, and U.S. Treasury bills, maintaining a 1:1 USD peg for stability and liquidity. It includes risk-on vaults with varied APYs, sthUSD for passive yield distribution, an OTC marketplace for thUSD trading, and the $TRWA token for revenue sharing and governance. AI-powered, Sharia-compliant, and built in the UAE, Tharwa scales globally, offering diverse investment opportunities."
+  },
+  "links": {
+    "homepage": [
+      "https://tharwa.finance/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x7b10d50b5885bE4c7985A88408265c109bd1EeC8",
+      "https://ethplorer.io/address/0x7b10d50b5885bE4c7985A88408265c109bd1EeC8"
+    ],
+    "official_forum_url": [
+      "https://tharwa.gitbook.io/tharwa"
+    ],
+    "chat_url": [
+      "https://discord.gg/gn9htPaF9v",
+      "https://medium.com/@tharwa"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "tharwauae",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/tharwa-finance"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/66993/thumb/200x200.jpg?1751388636",
+    "small": "https://coin-images.coingecko.com/coins/images/66993/small/200x200.jpg?1751388636",
+    "large": "https://coin-images.coingecko.com/coins/images/66993/large/200x200.jpg?1751388636"
+  },
+  "last_updated": "2025-07-11T09:55:13.904265+00:00"
+}

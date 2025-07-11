@@ -1,0 +1,51 @@
+{
+  "id": "ai-analysis-token",
+  "symbol": "aiat",
+  "name": "AI Analysis Token",
+  "categories": [
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x0501b9188436e35bb10f35998c40adc079003866"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Launched in 2023, AI Analysis was formed by a diverse team from around the world to create a Holistic ecosystem centred around the world of trading and the integration of cutting-edge artificial intelligence technology.\r\n\r\nThe origins of the project are rooted in the trading of financial instruments including the FOREX & Cryptocurrency markets. The concept of AI Analysis was created to provide a suite of services to synergistically enhance traders' capabilities across an array of markets with applications at both retail and institutional levels.\r\n\r\nThese services include the AI Signals service, which analyses financial instruments using a well-established and proven strategy to identify trading opportunities. The AI Analysis Exchange serves as the optimal platform for executing trades, offering low latency, deep liquidity, and tight spreads. The AI Analysis Mastercard provides user-friendly payment solutions, accepted worldwide, including at ATMs, ensuring seamless global transactions for a digital world.\r\n\r\nThese services are supported and underpinned by the AI Analysis Token (AIAT) providing critical utility across the ecosystem."
+  },
+  "links": {
+    "homepage": [
+      "https://aianalysis.group/token/"
+    ],
+    "whitepaper": "https://aianalysis.group/wp-content/uploads/2024/02/aiat-whitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x0501b9188436e35bb10f35998c40adc079003866",
+      "https://platform.arkhamintelligence.com/explorer/token/ai-analysis-token",
+      "https://ethplorer.io/address/0x0501b9188436e35bb10f35998c40adc079003866"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/aianalysisgroup/"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "AiAnalysisGroup",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "aianalysiscommunity",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33672/thumb/aia-logo-icon200.png?1702702028",
+    "small": "https://coin-images.coingecko.com/coins/images/33672/small/aia-logo-icon200.png?1702702028",
+    "large": "https://coin-images.coingecko.com/coins/images/33672/large/aia-logo-icon200.png?1702702028"
+  },
+  "last_updated": "2025-07-11T09:53:37.268487+00:00"
+}

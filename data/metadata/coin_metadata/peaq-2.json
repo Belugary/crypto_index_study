@@ -1,0 +1,58 @@
+{
+  "id": "peaq-2",
+  "symbol": "peaq",
+  "name": "peaq",
+  "categories": [
+    "Smart Contract Platform",
+    "Polkadot Ecosystem",
+    "Layer 1 (L1)",
+    "DePIN",
+    "Outlier Ventures Portfolio",
+    "Peaq Ecosystem"
+  ],
+  "asset_platform_id": "peaq",
+  "platforms": {
+    "peaq": "PEAQ"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What is peaq?\r\npeaq is a layer-1 blockchain powering the Machine Economy. It is designed to power Decentralized Physical Infrastructure Networks (DePINs) and the billions of devices, robots and vehicles (RWAs) that run on them. At the time of launch, peaq is home to over 50 DePINs in 20+ industries. \r\n\r\nWhat is DePIN? \r\nDecentralized Physical Infrastructure Networks (DePIN) is the name for decentralized applications that use tokens to incentivise communities to build physical infrastructure networks (think mobility, electric vehicle charging, telecoms etc.) from the ground up.\r\n\r\nMore on DePIN: https://www.peaq.network/blog/what-are-decentralized-physical-infrastructure-networks-depin \r\n\r\nWhy do DePINs build on peaq?\r\npeaq is designed to power real-world Web3 applications. peaq’s Modular DePIN Functions — which include Machine IDs and DePIN Data Verification — work as building blocks DePINs leverage to speed up their development and deployment. \r\n\r\npeaq’s DePIN ecosystem enables DePINs to explore synergies with peers, peaq’s DePIN-focused enterprise ecosystem gives DePINs opportunities to expand their demand side, and peaq’s fundamentals give them affordable and fast transactions as well as a high degree of decentralization.\r\n\r\nMore on peaq’s DePIN-specific features:\r\nhttps://www.peaq.network/blog/peaq-a-layer-1-blockchain-designed-for-depins-decentralized-physical-infrastructure-networks\r\n\r\nWhat can you build on peaq?\r\nOn peaq, you can build any decentralized application that taps real-world devices to offer services. Some examples of projects built on peaq include:\r\n\r\n- Silencio: A DePIN crowdsourcing the world’s largest noise pollution map via a phone app that rewards people with tokens for collecting local noise data, with 360,000+ users across 180 countries.\r\n- XMAQUINA: A tokenization platform for autonomous robots behind the world’s first tokenized automatic robo-cafe.\r\n- Farmsent: A DePIN for smart agriculture and a peer-to-peer farm produce marketplace which has already onboarded 160,000+ farmers across Asia and South America.\r\n- MapMetrics: A drive-to-earn DePIN rewarding people for collecting navigation data via a phone app counting 60,000 users.\r\n- Teneo Protocol: A DePIN for crowdsourcing real-time social media data via more than 250,000 Community Nodes.\r\n\r\nExplore the peaq ecosystem:\r\nhttps://www.peaq.network/learn/ecosystem \r\n\r\nWhat enterprises does peaq work with?\r\npeaq is collaborating with leading IoT manufacturers such as Bosch and is involved in the Bosch-led moveID project, which also includes names like Airbus and Continental. peaq is also collaborating with Mastercard.\r\n\r\nExplore the peaq enterprise ecosystem:\r\nhttps://www.peaq.network/learn/ecosystem?category=Enterprises "
+  },
+  "links": {
+    "homepage": [
+      "https://www.peaq.network/"
+    ],
+    "whitepaper": "https://docs.peaq.network/",
+    "blockchain_site": [
+      "https://peaq.subscan.io/system_token_detail?unique_id=PEAQ",
+      "https://peaq.subscan.io/token/PEAQ"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.peaq.network/community/blog",
+      "https://www.youtube.com/@peaqnetwork"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "peaq",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "peaqnetwork",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/peaqnetwork"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/51415/thumb/peaq-token-brand-icon_%281%29.png?1731122664",
+    "small": "https://coin-images.coingecko.com/coins/images/51415/small/peaq-token-brand-icon_%281%29.png?1731122664",
+    "large": "https://coin-images.coingecko.com/coins/images/51415/large/peaq-token-brand-icon_%281%29.png?1731122664"
+  },
+  "last_updated": "2025-07-11T09:50:38.686500+00:00"
+}

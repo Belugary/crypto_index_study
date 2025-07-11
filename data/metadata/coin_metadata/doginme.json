@@ -1,0 +1,54 @@
+{
+  "id": "doginme",
+  "symbol": "doginme",
+  "name": "doginme",
+  "categories": [
+    "Meme",
+    "Base Ecosystem",
+    "Dog-Themed",
+    "Base Meme",
+    "Farcaster Ecosystem"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0x6921b130d297cc43754afba22e5eac0fbf8db75b"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Got that dog in you? - Fueled by a mantra of tokenized self-belief, doginme is representative of the community's collective efforts to embrace and embolden that dog in them. doginme stands for knowing yourself and having that unshakable drive to keep pushing forward. doginme was originally launched in February 2024 when the Farcaster founder was asked if he owned a dog, to which he replied affirmatively: \"no but I got that dog in me\""
+  },
+  "links": {
+    "homepage": [
+      "https://dogin.meme/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://basescan.org/token/0x6921b130d297cc43754afba22e5eac0fbf8db75b",
+      "https://platform.arkhamintelligence.com/explorer/token/doginme"
+    ],
+    "official_forum_url": [
+      "https://warpcast.com/doginme"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "doginmeonbase",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "doginmediscussion",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/35123/thumb/doginme-logo1-transparent200.png?1710856784",
+    "small": "https://coin-images.coingecko.com/coins/images/35123/small/doginme-logo1-transparent200.png?1710856784",
+    "large": "https://coin-images.coingecko.com/coins/images/35123/large/doginme-logo1-transparent200.png?1710856784"
+  },
+  "last_updated": "2025-07-11T09:52:52.576729+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "minidoge-5",
+  "symbol": "minidoge",
+  "name": "Minidoge",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Meme",
+    "Dog-Themed"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xc76979538aad5c50ede8fe561830e35ab49c8888"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Minidoge is a structural Meme project built on the BSC public chain ecosystem. It is committed to breaking the hype narrative of traditional Meme projects and creating a new Web3 paradigm that integrates DeFi financial incentives, DePIN physical computing power networks, and AI public chain intelligent engines. By connecting community sentiment with real value, Minidoge is promoting the evolution of Meme from \"memes\" to \"productivity,\" and constructing a sustainable ecological incentive system and a global participatory growth model."
+  },
+  "links": {
+    "homepage": [
+      "https://aiminidoge.com/",
+      "https://linktr.ee/Minidoge_Global"
+    ],
+    "whitepaper": "https://dcnw5uflg4ql.feishu.cn/file/YUALb5eA0o3yM2x5C6RceeiPn52",
+    "blockchain_site": [
+      "https://bscscan.com/token/0xc76979538aad5c50ede8fe561830e35ab49c8888",
+      "https://binplorer.com/address/0xc76979538aad5c50ede8fe561830e35ab49c8888"
+    ],
+    "official_forum_url": [
+      "https://linktr.ee/Minidoge_Global"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "minidoge_global",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Minidoge2024",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Minidoge2024/Minidoge/blob/main/Privacy%20Policy"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/67199/thumb/photo_2024-12-30_14-50-04.jpg?1752056446",
+    "small": "https://coin-images.coingecko.com/coins/images/67199/small/photo_2024-12-30_14-50-04.jpg?1752056446",
+    "large": "https://coin-images.coingecko.com/coins/images/67199/large/photo_2024-12-30_14-50-04.jpg?1752056446"
+  },
+  "last_updated": "2025-07-11T09:50:52.805264+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "eth0",
+  "symbol": "eth0",
+  "name": "Usual ETH",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x734eec7930bc84ec5732022b9eb949a81fb89abe"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "ETH0 is a synthetic ETH asset fully backed by Lido’s wstETH and issued by the Usual protocol. It allows institutional investors and crypto-native whales to maintain directional ETH exposure while capturing significantly higher yields than conventional staking or restaking.\r\n\r\nPowered by the same architecture that underpins Usual’s stablecoin (backed by tokenized T-bills), ETH0 holders receive USUAL tokens, allowing them to outperform the underlying yield.\r\n\r\nFor hedge funds, treasuries, and whales seeking to make ETH work harder, ETH0 offers a liquid, composable, and yield-optimized vehicle."
+  },
+  "links": {
+    "homepage": [
+      "https://usual.money/",
+      "https://x.usual.money/",
+      "https://discord.usual.money/"
+    ],
+    "whitepaper": "https://docs.usual.money/resources-and-ecosystem/whitepaper",
+    "blockchain_site": [
+      "https://etherscan.io/address/0x734eec7930bc84ec5732022b9eb949a81fb89abe",
+      "https://etherscan.io/token/0x734eec7930bc84eC5732022B9EB949A81fB89AbE",
+      "https://ethplorer.io/address/0x734eec7930bc84eC5732022B9EB949A81fB89AbE"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.usual.money/",
+      "https://blog.usual.money/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "usualmoney",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/66400/thumb/ETH0512px.png?1749288687",
+    "small": "https://coin-images.coingecko.com/coins/images/66400/small/ETH0512px.png?1749288687",
+    "large": "https://coin-images.coingecko.com/coins/images/66400/large/ETH0512px.png?1749288687"
+  },
+  "last_updated": "2025-07-11T09:53:42.718779+00:00"
+}

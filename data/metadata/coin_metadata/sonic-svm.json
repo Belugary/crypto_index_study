@@ -1,0 +1,61 @@
+{
+  "id": "sonic-svm",
+  "symbol": "sonic",
+  "name": "Sonic SVM",
+  "categories": [
+    "Smart Contract Platform",
+    "Gaming (GameFi)",
+    "Solana Ecosystem",
+    "Layer 2 (L2)",
+    "Gaming Blockchains",
+    "Sonic SVM Ecosystem"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "SonicxvLud67EceaEzCLRnMTBqzYUUYNr93DBkBdDES",
+    "sonic-svm": "mrujEYaN1oyQXDHeYNxBYpxWKVkQ2XsGxfznpifu4aL"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Sonic is the first SVM chain to launch on Solana, for games and applications. It is powered by Sonic HyperGrid, a framework for orchestrating optimistic Solana rollups. Sonic is the home of SonicX, industry’s first Web3 TikTok App Layer - designed to onboard the next billion users.\r\n\r\nVision:\r\nSonic SVM was built to unlock new experiences for both builders, and players. 💫\r\n\r\nWe designed Sonic to be the brewing ground for  a world of high-performance decentralized gaming, creating a distinction from the traditional trading experience of in-game assets. \r\n\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.sonic.game/"
+    ],
+    "whitepaper": "https://github.com/mirrorworld-universe/reports/blob/master/Sonic%20SVM%20%E2%80%93%20A%20HyperGrid%20Scaling%20Future%20of%20Solana.pdf",
+    "blockchain_site": [
+      "https://solscan.io/token/SonicxvLud67EceaEzCLRnMTBqzYUUYNr93DBkBdDES",
+      "https://explorer.sonic.game/address/mrujEYaN1oyQXDHeYNxBYpxWKVkQ2XsGxfznpifu4aL"
+    ],
+    "official_forum_url": [
+      "https://www.tiktok.com/@sonicsvm"
+    ],
+    "chat_url": [
+      "https://discord.gg/joinmirrorworld",
+      "https://blog.sonic.game/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SonicSVM",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "SonicSVM",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/mirrorworld-universe"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53061/thumb/Token.png?1735169618",
+    "small": "https://coin-images.coingecko.com/coins/images/53061/small/Token.png?1735169618",
+    "large": "https://coin-images.coingecko.com/coins/images/53061/large/Token.png?1735169618"
+  },
+  "last_updated": "2025-07-11T09:50:35.555294+00:00"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "lista",
+  "symbol": "lista",
+  "name": "Lista DAO",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "Lending/Borrowing Protocols",
+    "Liquid Staking Tokens",
+    "Binance Megadrop",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xfceb31a79f71ac9cbdcf853519c1b12d379edc46"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Lista Dao is a liquid staking and decentralized protocol. Users can undergo staking and liquid staking on Lista, as well as borrow lisUSD against a variety of decentralized collaterals."
+  },
+  "links": {
+    "homepage": [
+      "https://lista.org/"
+    ],
+    "whitepaper": "https://docs.bsc.lista.org/",
+    "blockchain_site": [
+      "https://bscscan.com/token/0xfceb31a79f71ac9cbdcf853519c1b12d379edc46",
+      "https://platform.arkhamintelligence.com/explorer/token/lista",
+      "https://binplorer.com/address/0xfceb31a79f71ac9cbdcf853519c1b12d379edc46"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/listadao",
+      "https://medium.com/@ListaDAO"
+    ],
+    "announcement_url": [
+      "https://medium.com/@ListaDAO"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "lista_dao",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "ListaDAO",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/lista-dao"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/38068/thumb/lista.png?1716443925",
+    "small": "https://coin-images.coingecko.com/coins/images/38068/small/lista.png?1716443925",
+    "large": "https://coin-images.coingecko.com/coins/images/38068/large/lista.png?1716443925"
+  },
+  "last_updated": "2025-07-11T09:52:53.638730+00:00"
+}

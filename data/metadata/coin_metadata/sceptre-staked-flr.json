@@ -1,0 +1,52 @@
+{
+  "id": "sceptre-staked-flr",
+  "symbol": "sflr",
+  "name": "Sceptre Staked FLR",
+  "categories": [
+    "Liquid Staking Tokens",
+    "Flare Network Ecosystem",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "flare-network",
+  "platforms": {
+    "flare-network": "0x12e605bc104e93b45e1ad99f9e555f659051c2bb"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Sceptre Liquid Staking for Flare is Liquid Staking on Flare. It provides sFLR to the user when they stake their (w)FLR with Sceptre. sFLR is then available to be used in other protocols like lending markets. "
+  },
+  "links": {
+    "homepage": [
+      "https://flare.sceptre.fi/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://flare-explorer.flare.network/token/0x12e605bc104e93b45e1ad99f9e555f659051c2bb",
+      "https://platform.arkhamintelligence.com/explorer/token/sceptre-staked-flr"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SceptreLS",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "+EPX7zCOf44owMTZk",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Rome-Blockchain-Labs/flare-smart-contracts-public"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/38940/thumb/sFLR.png?1719569593",
+    "small": "https://coin-images.coingecko.com/coins/images/38940/small/sFLR.png?1719569593",
+    "large": "https://coin-images.coingecko.com/coins/images/38940/large/sFLR.png?1719569593"
+  },
+  "last_updated": "2025-07-11T09:55:36.883265+00:00"
+}

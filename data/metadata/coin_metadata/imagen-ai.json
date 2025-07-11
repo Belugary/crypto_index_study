@@ -1,0 +1,56 @@
+{
+  "id": "imagen-ai",
+  "symbol": "image",
+  "name": "Imagen Network",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "BNB Chain Ecosystem",
+    "Solana Ecosystem",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x2e156a3e09782a785345b7a33c46c71596ffd551",
+    "ethereum": "0x1c3547dfa9ce7acd9c54ae49244575fa65bc75e2",
+    "solana": "EZGB14NYbqMrsw1QKSgfLXKpj8PrnQBXSjWHbwxpvbAy"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Imagen Network is a decentralized social platform that merges advanced AI with Web3 technologies to redefine image creation and sharing. It utilizes models like DALL-E and Stable Diffusion to enable users to generate and customize images through a user-friendly interface. The platform operates on multiple blockchains, including BNB Chain, Solana, and Ethereum, using its native $IMAGE token for transactions, premium features, and governance. With a focus on community engagement and continuous development, Imagen Network aims to lead in AI-driven visual content within the decentralized web."
+  },
+  "links": {
+    "homepage": [
+      "https://imagen.network/"
+    ],
+    "whitepaper": "https://whitepaper.imagen.network/",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x2e156a3e09782A785345B7A33c46C71596FFd551",
+      "https://binplorer.com/address/0x2e156a3e09782A785345B7A33c46C71596FFd551",
+      "https://etherscan.io/token/0x1c3547dfa9ce7acd9c54ae49244575fa65bc75e2",
+      "https://ethplorer.io/address/0x1c3547dfa9ce7acd9c54ae49244575fa65bc75e2",
+      "https://solscan.io/token/EZGB14NYbqMrsw1QKSgfLXKpj8PrnQBXSjWHbwxpvbAy"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/66923/thumb/ImagenLogo.png?1751056043",
+    "small": "https://coin-images.coingecko.com/coins/images/66923/small/ImagenLogo.png?1751056043",
+    "large": "https://coin-images.coingecko.com/coins/images/66923/large/ImagenLogo.png?1751056043"
+  },
+  "last_updated": "2025-07-11T09:51:19.016093+00:00"
+}

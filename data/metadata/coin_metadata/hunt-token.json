@@ -1,0 +1,65 @@
+{
+  "id": "hunt-token",
+  "symbol": "hunt",
+  "name": "Hunt",
+  "categories": [
+    "Ethereum Ecosystem",
+    "Base Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x9aab071b4129b083b01cb5a0cb513ce7eca26fa5",
+    "base": "0x37f0c2915cecc7e977183b8543fc0864d03e064c"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "KR",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://hunt.town",
+      "https://news.hunt.town",
+      "https://nomadtask.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x9aab071b4129b083b01cb5a0cb513ce7eca26fa5",
+      "https://platform.arkhamintelligence.com/explorer/token/hunt-token",
+      "https://ethplorer.io/address/0x9aab071b4129b083b01cb5a0cb513ce7eca26fa5",
+      "https://basescan.org/token/0x37f0c2915cecc7e977183b8543fc0864d03e064c"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/ZFnssyzvde"
+    ],
+    "announcement_url": [
+      "https://steemit.com/@steemhunt"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "steemhunt",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/steemhunt",
+    "repos_url": {
+      "github": [
+        "https://github.com/Steemhunt",
+        "https://github.com/Steemhunt/browser-extension",
+        "https://github.com/Steemhunt/web",
+        "https://github.com/Steemhunt/token-website",
+        "https://github.com/Steemhunt/reviewhunt-pre",
+        "https://github.com/Steemhunt/whitelist"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/7989/thumb/HUNT.png?1696508215",
+    "small": "https://coin-images.coingecko.com/coins/images/7989/small/HUNT.png?1696508215",
+    "large": "https://coin-images.coingecko.com/coins/images/7989/large/HUNT.png?1696508215"
+  },
+  "last_updated": "2025-07-11T09:52:28.611044+00:00"
+}

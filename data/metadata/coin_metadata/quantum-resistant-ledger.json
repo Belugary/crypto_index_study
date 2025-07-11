@@ -1,0 +1,57 @@
+{
+  "id": "quantum-resistant-ledger",
+  "symbol": "qrl",
+  "name": "Quantum Resistant Ledger",
+  "categories": [
+    "Smart Contract Platform",
+    "Proof of Work (PoW)"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 1,
+  "hashing_algorithm": "RandomX",
+  "genesis_date": "2018-06-26",
+  "country_origin": "",
+  "description": {
+    "en": "Quantum Resistant Ledger is a cryptocurrency based on the Python programming language, aimed at combating future attacks by quantum computers. This cryptocurrency is the brainchild of Peter Waterland who realised that Bitcoin, Ethereum, and other such cryptocurrencies have no protection against future technology. It claims to be a “future-proof” cryptocurrency which enables transactions and decentralized communication while providing protection against classical as well as quantum computer attacks.\r\n\r\nThe Quantum Resistant Ledger company was founded by Peter Waterland, who found that Bitcoin, as well as Ethereum signatures are susceptible to attacks by powerful quantum computers. His research on quantum computers and signature programs let to the development of this new cryptocurrency, designed to be resistant to the present classical attacks as well as any future quantum computer attacks. Their team is made up of a diverse range of members spread out across the world, including developers (core, blockchain, mobile developers, etc.), analysts, advisors, marketing managers, designers and more.\r\n\r\nQuantum Resistant Ledger is the first ever cryptocurrency and the only one in existence as of August 2018, to consider the threat that the future technology of quantum computing poses to cryptocurrencies and their working. It uses a technology specifically designed for post-quantum security, called XMSS, which makes it secure against powerful quantum computers even while using a Proof-of-Stake consensus mechanism. Security against cyber-attacks is a very serious concern in this digital age, especially when you have digital assets whose loss is likely to lead you to bankruptcy.\r\n\r\nQRL is the first blockchain technology that provides durability and stability through resistance to quantum computer attacks. The encryption methods used by modern blockchains can become vulnerable to quantum computers over the next ten years. QRL tries to create a blockchain with long-term stability. By using blockchain technology, the QRL platform creates a “ledger” that generates hashes in such a way that it is virtually impenetrable to any type of computer attack."
+  },
+  "links": {
+    "homepage": [
+      "https://www.theqrl.org"
+    ],
+    "whitepaper": "https://github.com/theQRL/Whitepaper/blob/master/QRL_whitepaper.pdf",
+    "blockchain_site": [
+      "https://explorer.theqrl.org/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.facebook.com/theqrl/",
+      "https://www.theqrl.org/discord"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": 1730273,
+    "telegram_channel_identifier": "QRLedgerOfficial",
+    "subreddit_url": "https://www.reddit.com/r/qrl",
+    "repos_url": {
+      "github": [
+        "https://github.com/theQRL/QRL",
+        "https://github.com/theQRL/theqrl.org",
+        "https://github.com/theQRL/qips",
+        "https://github.com/theQRL/zeus",
+        "https://github.com/theQRL/zond"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/700/thumb/yellow-black.512x512.png?1696501888",
+    "small": "https://coin-images.coingecko.com/coins/images/700/small/yellow-black.512x512.png?1696501888",
+    "large": "https://coin-images.coingecko.com/coins/images/700/large/yellow-black.512x512.png?1696501888"
+  },
+  "last_updated": "2025-07-11T09:51:23.864293+00:00"
+}

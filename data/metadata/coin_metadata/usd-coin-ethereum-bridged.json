@@ -1,0 +1,52 @@
+{
+  "id": "usd-coin-ethereum-bridged",
+  "symbol": "usdc.e",
+  "name": "Arbitrum Bridged USDC (Arbitrum)",
+  "categories": [
+    "Arbitrum Ecosystem",
+    "Bridged USDC",
+    "Bridged-Tokens",
+    "Bridged Stablecoin"
+  ],
+  "asset_platform_id": "arbitrum-one",
+  "platforms": {
+    "arbitrum-one": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.circle.com/blog/arbitrum-usdc-now-available"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://arbiscan.io/token/0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+      "https://platform.arkhamintelligence.com/explorer/token/usd-coin-ethereum-bridged",
+      "https://arbitrum.dex.guru/token/0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/30691/thumb/usdc.png?1696529560",
+    "small": "https://coin-images.coingecko.com/coins/images/30691/small/usdc.png?1696529560",
+    "large": "https://coin-images.coingecko.com/coins/images/30691/large/usdc.png?1696529560"
+  },
+  "last_updated": "2025-07-11T09:50:36.657071+00:00"
+}

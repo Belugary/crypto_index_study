@@ -1,0 +1,66 @@
+{
+  "id": "marblex",
+  "symbol": "mbx",
+  "name": "MARBLEX",
+  "categories": [
+    "Smart Contract Platform",
+    "Gaming (GameFi)",
+    "NFT",
+    "BNB Chain Ecosystem",
+    "Kaia Ecosystem",
+    "Aptos Ecosystem",
+    "DWF Labs Portfolio",
+    "Gaming Blockchains"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xf95a5532d67c944dfa7eddd2f8c358fe0dc7fac2",
+    "aptos": "0x665d06fcd9c94430099f82973f2a5e5f13142e42fa172e72ce14f51a64bd8ad9::coin_mbx::MBX",
+    "klay-token": "0xd068c52d81f4409b9502da926ace3301cc41f623"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "MARBLEX, under the slogan “Fun Comes First,” uses blockchain technology to build a next-generation gaming and content ecosystem that prioritizes fun and immersion. By leveraging global success stories, expertise in virtual economy construction, and a diverse portfolio of game genres, MARBLEX delivers a Web3 entertainment experience to users.\r\n\r\nThe MBX token serves as the main currency in the MARBLEX ecosystem and lets users engage with blockchain games and services integrated to MARBLEX. Through Marblex's Game, GameFi, and NFT services, users will gain access to a wide array of entertainment options and tangible value.\r\n\r\nFeatures and Highlights\r\n[Game]\r\n-Netmarble & 3rd Party Games\r\nThe MARBLEX ecosystem features various games, including Netmarble’s AAA titles such as cartoon-rendered MMORPG Ni No Kuni: Crossworld, casual board game Meta World: My City, and idle growth game Pocket Girls: Idle RPG.\r\n-MBX Station\r\nThe MBX Station makes it easy for users to exchange in-game currency for MBX tokens, and provides minimal integration friction for game developers seeking to access Web3.\r\n-Creator Program\r\nMARBLEX runs a smart contract-based global sponsorship program for game creators. This program rewards core gamers and followers for their contribution to the ecosystem.\r\n\r\n[Game-Fi]\r\n-MBX Swap\r\nMARBLEX ecosystem participants can swap MBX tokens for various game tokens or across different networks, and also stake MBXL tokens.\r\n-MBX Wallet\r\nThe MBX Wallet lets users store, view, and transfer tokens within the MARBLEX ecosystem. By linking sign-up and login processes, MARBLEX streamlines connections between games and blockchain services.\r\n\r\n[NFT]\r\n-NFT Adventure\r\nNFT Adventure offers an interactive NFT service that gamifies popular IPs or game characters, with the most notable example being Koongyaz Restaurants.\r\n-MBX NFT\r\nUsers can level up, combine, and upgrade NFTs to earn benefits such as game coupons and rewards.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://marblex.io"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://scope.klaytn.com/token/0xd068c52d81f4409b9502da926ace3301cc41f623?tabid=tokentransfer",
+      "https://platform.arkhamintelligence.com/explorer/token/marblex",
+      "https://bscscan.com/token/0xd068c52d81f4409b9502da926ace3301cc41f623",
+      "https://binplorer.com/address/0xd068c52d81f4409b9502da926ace3301cc41f623",
+      "https://bscscan.com/token/0xf95a5532d67c944dfa7eddd2f8c358fe0dc7fac2",
+      "https://binplorer.com/address/0xf95a5532d67c944dfa7eddd2f8c358fe0dc7fac2",
+      "https://aptscan.ai/coins/0x665d06fcd9c94430099f82973f2a5e5f13142e42fa172e72ce14f51a64bd8ad9::coin_mbx::mbx",
+      "https://tracemove.io/coin/0x665d06fcd9c94430099f82973f2a5e5f13142e42fa172e72ce14f51a64bd8ad9::coin_mbx::mbx",
+      "https://kaiascan.io/token/0xd068c52d81f4409b9502da926ace3301cc41f623"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://marblex.medium.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "MARBLEXofficial",
+    "facebook_username": "MARBLEXplayground",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "MARBLEX_official_ENG",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/24423/thumb/241119_MBX_Token_Flat.png?1737412821",
+    "small": "https://coin-images.coingecko.com/coins/images/24423/small/241119_MBX_Token_Flat.png?1737412821",
+    "large": "https://coin-images.coingecko.com/coins/images/24423/large/241119_MBX_Token_Flat.png?1737412821"
+  },
+  "last_updated": "2025-07-11T09:53:09.524881+00:00"
+}

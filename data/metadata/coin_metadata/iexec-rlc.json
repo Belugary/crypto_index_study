@@ -1,0 +1,72 @@
+{
+  "id": "iexec-rlc",
+  "symbol": "rlc",
+  "name": "iExec RLC",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Oracle",
+    "Ethereum Ecosystem",
+    "DePIN",
+    "AI Agents",
+    "Energi Ecosystem",
+    "Sora Ecosystem",
+    "GMCI DePIN Index",
+    "GMCI Index"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x607f4c5bb672230e8672085532f7e901544a7375",
+    "energi": "0xb4ff17b5e93c40ff09326b0d538118022f02dc2b",
+    "sora": "0x008294f7b08f568a661de2b248c34fc574e7e0012a12ef7959eb1a5c6b349e09"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2017-04-19",
+  "country_origin": "",
+  "description": {
+    "en": "iExec is the trust layer for DePIN and AI.\r\n\r\niExec enables confidential computing and trusted off-chain execution, powered by a decentralized TEE-based CPU and GPU infrastructure.\r\n\r\nDevelopers access developer tools and computing resources to build and monetize privacy-preserving applications across AI, DeFi, RWA, big data and more.\r\n\r\nThe iExec ecosystem allows any participant to control, protect, and monetize their digital assets ranging from - computing power, personal data, and code, to AI models - all via the iExec RLC token, driving an asset-based token economy."
+  },
+  "links": {
+    "homepage": [
+      "http://iex.ec/",
+      "https://www.iex.ec/academy"
+    ],
+    "whitepaper": "https://www.iex.ec/developers",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x607f4c5bb672230e8672085532f7e901544a7375",
+      "https://platform.arkhamintelligence.com/explorer/token/iexec-rlc",
+      "https://ethplorer.io/address/0x607f4c5bb672230e8672085532f7e901544a7375",
+      "https://explorer.energi.network/token/0xb4ff17b5e93c40ff09326b0d538118022f02dc2b"
+    ],
+    "official_forum_url": [
+      "https://warpcast.com/iexec"
+    ],
+    "chat_url": [
+      "https://medium.com/iex-ec",
+      "https://www.youtube.com/@iExec/videos"
+    ],
+    "announcement_url": [
+      "https://iex.ec"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "iEx_ec",
+    "facebook_username": "iexecteam",
+    "bitcointalk_thread_identifier": 1746241,
+    "telegram_channel_identifier": "iexec_rlc_official",
+    "subreddit_url": "https://www.reddit.com/r/iexec",
+    "repos_url": {
+      "github": [
+        "https://github.com/iExecBlockchainComputing/iexec-sdk",
+        "https://github.com/iExecBlockchainComputing/iexec-stack",
+        "https://github.com/iExecBlockchainComputing/PoCo"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/646/thumb/pL1VuXm.png?1696501840",
+    "small": "https://coin-images.coingecko.com/coins/images/646/small/pL1VuXm.png?1696501840",
+    "large": "https://coin-images.coingecko.com/coins/images/646/large/pL1VuXm.png?1696501840"
+  },
+  "last_updated": "2025-07-11T09:50:57.928694+00:00"
+}

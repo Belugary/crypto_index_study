@@ -1,0 +1,53 @@
+{
+  "id": "palm-ai",
+  "symbol": "palm",
+  "name": "PaLM AI",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Ethereum Ecosystem",
+    "Telegram Apps"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xf1df7305e4bab3885cab5b1e4dfc338452a67891"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The definitive LLM-based AI chatbot. Tech powered by Google's PaLM, brought to you by the $PALM team 🌴"
+  },
+  "links": {
+    "homepage": [
+      "https://palmai.tech/"
+    ],
+    "whitepaper": "https://palmai.tech/whitepaper",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xf1df7305e4bab3885cab5b1e4dfc338452a67891",
+      "https://platform.arkhamintelligence.com/explorer/token/palm-ai",
+      "https://ethplorer.io/address/0xf1df7305e4bab3885cab5b1e4dfc338452a67891"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://medium.com/@palmaierc"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "palmaierc",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "paLMEthereum",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33097/thumb/PALM_NEW_LOGO.png?1735243643",
+    "small": "https://coin-images.coingecko.com/coins/images/33097/small/PALM_NEW_LOGO.png?1735243643",
+    "large": "https://coin-images.coingecko.com/coins/images/33097/large/PALM_NEW_LOGO.png?1735243643"
+  },
+  "last_updated": "2025-07-11T09:55:57.246141+00:00"
+}

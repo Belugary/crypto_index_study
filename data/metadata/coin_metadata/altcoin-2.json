@@ -1,0 +1,48 @@
+{
+  "id": "altcoin-2",
+  "symbol": "alt",
+  "name": "Altcoin",
+  "categories": [
+    "Meme",
+    "Solana Meme"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "Cdq1WR1d4i2hMrqKUWgZeUbRpkhamGHSvm1f6ATpuray"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "$ALT season starts now."
+  },
+  "links": {
+    "homepage": [
+      "https://www.altcoin.fun/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/Cdq1WR1d4i2hMrqKUWgZeUbRpkhamGHSvm1f6ATpuray"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "altcoinofsol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "altcoinofsol",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/67181/thumb/bihvzx2ifx011ghkysnm05p59lxd.?1751991701",
+    "small": "https://coin-images.coingecko.com/coins/images/67181/small/bihvzx2ifx011ghkysnm05p59lxd.?1751991701",
+    "large": "https://coin-images.coingecko.com/coins/images/67181/large/bihvzx2ifx011ghkysnm05p59lxd.?1751991701"
+  },
+  "last_updated": "2025-07-11T09:53:31.942990+00:00"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "hooked-protocol",
+  "symbol": "hook",
+  "name": "Hooked Protocol",
+  "categories": [
+    "Gaming (GameFi)",
+    "BNB Chain Ecosystem",
+    "Metaverse",
+    "Binance Launchpad",
+    "Gaming Platform",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Sequoia Capital Portfolio"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xa260e12d2b924cb899ae80bb58123ac3fee1e2f0"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Hooked Protocol is building the on-ramp layer for massive Web3 adoption, providing tailored Learn & Earn products and onboarding infrastructures for users & businesses to enter the new world of web3.\r\n\r\nIts first pilot product, Wild Cash, with Quiz-to-Earn experience and other gamified learning features, achieved an impressive growth of over 2 million monthly active users.\r\n\r\nHooked Protocol adopts an innovative single token (HOOK) oriented structure, supplemented with in-ecosystem only utility token HGT (Hooked Gold Token). HOOK is the governance token of the ecosystem."
+  },
+  "links": {
+    "homepage": [
+      "https://hooked.io/"
+    ],
+    "whitepaper": "https://hooked-protocol.gitbook.io/hooked-protocol-whitepaper",
+    "blockchain_site": [
+      "https://bscscan.com/token/0xa260e12d2b924cb899ae80bb58123ac3fee1e2f0",
+      "https://platform.arkhamintelligence.com/explorer/token/hooked-protocol",
+      "https://binplorer.com/address/0xa260e12d2b924cb899ae80bb58123ac3fee1e2f0"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/2aWBxMKRFf"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "hookedprotocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "HookedProtocolOfficial",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/28288/thumb/hooked2.png?1696527288",
+    "small": "https://coin-images.coingecko.com/coins/images/28288/small/hooked2.png?1696527288",
+    "large": "https://coin-images.coingecko.com/coins/images/28288/large/hooked2.png?1696527288"
+  },
+  "last_updated": "2025-07-11T09:54:25.884051+00:00"
+}

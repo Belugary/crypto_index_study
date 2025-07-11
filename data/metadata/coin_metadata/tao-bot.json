@@ -1,0 +1,54 @@
+{
+  "id": "tao-bot",
+  "symbol": "taobot",
+  "name": "tao.bot",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Decentralized Finance (DeFi)",
+    "Ethereum Ecosystem",
+    "AI Applications",
+    "Bittensor Ecosystem",
+    "DeFAI"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x49fb8ad7578148e17c3ef0c344ce23a66ed372c4"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Welcome to tao.bot! We aim to be the all-in-one Telegram bot for Bittensor–the unified trading and interaction terminal for all things TAO.\r\n\r\nTry out our bot here: t.me/trytaobot"
+  },
+  "links": {
+    "homepage": [
+      "https://tao.bot"
+    ],
+    "whitepaper": "https://docs.tao.bot",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x49fb8ad7578148e17c3ef0c344ce23a66ed372c4",
+      "https://platform.arkhamintelligence.com/explorer/token/tao-bot",
+      "https://ethplorer.io/address/0x49fb8ad7578148e17c3ef0c344ce23a66ed372c4"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "taodotbot",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "taodotbot",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/35829/thumb/taobot200.png?1709887868",
+    "small": "https://coin-images.coingecko.com/coins/images/35829/small/taobot200.png?1709887868",
+    "large": "https://coin-images.coingecko.com/coins/images/35829/large/taobot200.png?1709887868"
+  },
+  "last_updated": "2025-07-11T09:54:21.667062+00:00"
+}

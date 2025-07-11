@@ -1,0 +1,55 @@
+{
+  "id": "tensor",
+  "symbol": "tnsr",
+  "name": "Tensor",
+  "categories": [
+    "NFT",
+    "Solana Ecosystem",
+    "NFT Marketplace"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "TNSRxcUxoT9xBG3de7PiJyTDYu7kskLqcpddxnEJAS6"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The TNSR token governs the protocols underlying Tensor and Vector. 50% of protocol fees from both products accrue to the TNSR treasury.\r\n\r\nTensor launched in July 2022 and is the leading NFT marketplace on Solana, commanding 60-70% of Solana NFT market share. It gained momentum by catering to NFTs traders instead of just collectors with real-time data, pro charting tools, and a fast terminal interface.\r\n\r\nVector is the leading social trading app in crypto. Within 3 months of launch, it grew to $7.5 billion of annualized volume and 20k daily active users, both of which are doubling every 1-2 weeks. It generates $75M/year in fees of which 50% goes directly to the TNSR treasury."
+  },
+  "links": {
+    "homepage": [
+      "https://www.tensor.foundation",
+      "https://www.tensor.trade/"
+    ],
+    "whitepaper": "https://docs.tensor.foundation",
+    "blockchain_site": [
+      "https://solscan.io/token/TNSRxcUxoT9xBG3de7PiJyTDYu7kskLqcpddxnEJAS6",
+      "https://platform.arkhamintelligence.com/explorer/token/tensor"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/tensor"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "tensorfdn",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/tensor-foundation"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/35972/thumb/tnsr.png?1712687367",
+    "small": "https://coin-images.coingecko.com/coins/images/35972/small/tnsr.png?1712687367",
+    "large": "https://coin-images.coingecko.com/coins/images/35972/large/tnsr.png?1712687367"
+  },
+  "last_updated": "2025-07-11T09:52:47.498011+00:00"
+}

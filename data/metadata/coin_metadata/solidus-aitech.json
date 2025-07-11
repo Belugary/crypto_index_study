@@ -1,0 +1,68 @@
+{
+  "id": "solidus-aitech",
+  "symbol": "aitech",
+  "name": "Solidus Ai Tech",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "BNB Chain Ecosystem",
+    "Launchpad",
+    "Base Ecosystem",
+    "ChainGPT Launchpad",
+    "AI Agents",
+    "Binance Alpha Spotlight",
+    "DeFAI"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x2d060ef4d6bf7f9e5edde373ab735513c0e4f944",
+    "base": "0xd71552d9e08e5351adb52163b3bbbc4d7de53ce1"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "About Solidus AI Tech ($AITECH)\r\n\r\nSolidus AI Tech has built one of the first Web3 AI infrastructure powered by a state-of-the-art, eco-friendly High-Performance Computing (HPC) data center in Europe. The $AITECH token fuels an ecosystem of products that bridge AI utility, scalable compute, and Web3-native tooling - empowering developers, enterprises, and institutions to build, deploy, and scale AI solutions seamlessly.\r\n\r\nCompute Marketplace\r\nA platform offering on-demand access to high-performance compute infrastructure, including enterprise-grade NVIDIA H200, H100, and A100 servers. Designed for projects, developers, and enterprises to scale AI, ML, and data-intensive workloads without the limitations\r\n\r\nAI Marketplace\r\nA curated environment where users can access and deploy AI models, datasets, and AI apps across verticals like image enhancement, document redaction, web research, animated content generation, and more. Designed for both technical and non-technical users, with tokenized access and pay-per-use capabilities.\r\n\r\nAgent Forge\r\nA no-code AI agent workflow builder that allows anyone to create autonomous AI agent workflows using LLMs, API integrations, and real-time memory. Developers can launch research agents, trading bots, automation flows, and more - all powered by $AITECH.\r\n\r\nCommunity Ecosystem:\r\n\r\nThe broader Solidus AI Tech community is supported by a suite of consumer-facing and utility products designed to foster adoption and engagement:\r\n\r\nAI Agent Tap Hub – A gamified experience where users are rewarded through AI mining, games, and agent-based tasks.\r\n\r\nAVAchat – A Telegram and X native AI agent that provides real-time AI assistance and on-chain interactions.\r\n\r\nVPN Powered by AITECH – A decentralized, secure VPN solution aligned with user privacy and freedom.\r\n\r\nAITECH Debit Card – Spend your crypto in the real world with a global debit card powered by the ecosystem.\r\n\r\nLaunchpad – A multi-tiered AI-centric token launch platform powered by $AITECH staking.\r\n\r\nBacked by major partnerships including NVIDIA, IBM, Fetch.ai, Tron, BNBChain, Binance Wallet, Trustwallet & many more. Solidus AI Tech is becoming one of the most advanced and adoptable AI token projects in Web3 — positioning itself alongside industry leaders."
+  },
+  "links": {
+    "homepage": [
+      "https://aitech.io",
+      "https://ai.aitech.io",
+      "https://gpu.aitech.io"
+    ],
+    "whitepaper": "https://docs.aitech.io",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x2d060ef4d6bf7f9e5edde373ab735513c0e4f944",
+      "https://platform.arkhamintelligence.com/explorer/token/solidus-aitech",
+      "https://binplorer.com/address/0x2d060ef4d6bf7f9e5edde373ab735513c0e4f944",
+      "https://basescan.org/token/0xd71552d9e08e5351adb52163b3bbbc4d7de53ce1"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/solidus-ai-tech-ltd/",
+      "https://www.instagram.com/aitechio/",
+      "https://t.me/solidusaitech"
+    ],
+    "chat_url": [
+      "https://www.facebook.com/Solidus-Ai-Tech-100121909056613",
+      "https://medium.com/@solidusaitech",
+      "https://www.youtube.com/channel/UCAoiPKK4VkbngPGw4mHqCKQ?sub_confirmation=1"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "AITECHio",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "solidusaichat",
+    "subreddit_url": "https://www.reddit.com/r/AITECHtoken",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/22114/thumb/CMC_Logo_200x200.png?1719949930",
+    "small": "https://coin-images.coingecko.com/coins/images/22114/small/CMC_Logo_200x200.png?1719949930",
+    "large": "https://coin-images.coingecko.com/coins/images/22114/large/CMC_Logo_200x200.png?1719949930"
+  },
+  "last_updated": "2025-07-11T09:51:39.548834+00:00"
+}

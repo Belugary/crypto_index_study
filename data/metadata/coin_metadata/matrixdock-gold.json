@@ -1,0 +1,56 @@
+{
+  "id": "matrixdock-gold",
+  "symbol": "xaum",
+  "name": "Matrixdock Gold",
+  "categories": [
+    "Tokenized Assets",
+    "Tokenized Gold",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "Tokenized Commodities"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x2103e845c5e135493bb6c2a4f0b8651956ea8682",
+    "binance-smart-chain": "0x23ae4fd8e7844cdbc97775496ebd0e8248656028"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Matrixdock Gold token XAUm is an ERC-20 and BEP-20 token backed 1:1 by 1 troy ounce of fine weight, high-grade gold certified by the LBMA (London Bullion Market Association). Each token represents physical gold securely stored in reputable, high-security vaults. The total supply of XAUm will always match the underlying gold holdings, ensuring transparency and trustworthiness for investors and users."
+  },
+  "links": {
+    "homepage": [
+      "https://www.matrixdock.com/xaum",
+      "https://www.matrixdock.com/xaum"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x2103E845C5E135493Bb6c2A4f0B8651956eA8682",
+      "https://ethplorer.io/address/0x2103E845C5E135493Bb6c2A4f0B8651956eA8682",
+      "https://bscscan.com/token/0x23ae4fd8e7844cdbc97775496ebd0e8248656028",
+      "https://binplorer.com/address/0x23ae4fd8e7844cdbc97775496ebd0e8248656028"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "matrixdock",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/51962/thumb/xaum_200px_logo_1x.png?1733560735",
+    "small": "https://coin-images.coingecko.com/coins/images/51962/small/xaum_200px_logo_1x.png?1733560735",
+    "large": "https://coin-images.coingecko.com/coins/images/51962/large/xaum_200px_logo_1x.png?1733560735"
+  },
+  "last_updated": "2025-07-11T09:52:57.674128+00:00"
+}

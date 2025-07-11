@@ -1,0 +1,61 @@
+{
+  "id": "vaneck-treasury-fund",
+  "symbol": "vbill",
+  "name": "VanEck Treasury Fund",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Solana Ecosystem",
+    "Avalanche Ecosystem",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x2255718832bc9fd3be1caf75084f4803da14ff01",
+    "solana": "34mJztT9am2jybSukvjNqRjgJBZqHJsHnivArx1P4xy1",
+    "binance-smart-chain": "0x14d72634328c4d03bba184a48081df65f1911279",
+    "avalanche": "0x7f4546ef315efc65336187fe3765ea779ac90183"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "This Fund seeks to offer a stable value of $1 per token and pays daily accrued dividends directly to investors' wallets as new tokens each day. The Fund primarily invests its total assets in cash, U.S. Treasury bills, and repurchase agreements, allowing investors to earn yield while holding the token on the blockchain. \r\n \r\nThe Fund pursues its investment objective by investing only in cash, U.S. Treasury obligations, which include securities issued or guaranteed by the U.S. Treasury where the payment of principal and interest is backed by the full faith and credit of the U.S. government (“U.S. Treasury Obligations”), and repurchase agreements collateralized by U.S. Treasury Obligations and cash. The Fund will invest in securities with maturities of (or deemed maturities of) 397 days or less and will maintain a dollar-weighted average portfolio maturity of 60 days or less and a dollar-weighted average portfolio life of 120 days or less. \r\n\r\nThe Fund may also invest in one or more other pooled investment vehicles managed by third-party investment managers or the Investment Manager or an affiliate thereof that invest in the same types of securities in which the Fund may invest directly (“Underlying Funds”). Underlying Funds may include investment companies registered under the U.S. Investment Company Act of 1940, as amended (the “Investment Company Act”).\r\n\r\nThe Fund may also invest in or otherwise hold one or more stablecoins and similar yield-bearing digital asset instruments, including in connection with investors that subscribe for Shares (as defined below) in-kind with stablecoins and such instruments instead of U.S. dollars, including subscriptions executed through Atomic Swaps (as defined below), and in connection with processing redemption transactions.\r\n\r\nFor the purposes of satisfying the Fund’s investment strategy of investing only in cash, U.S. Treasury Obligations and repurchase agreements collateralized by U.S. Treasury Obligations and cash, investments in Underlying Funds, stablecoins and similar yieldbearing digital asset instruments will be considered as if they are invested in cash and such securities.\r\n\r\nFor the purposes of this Memorandum, the Fund’s investments are collectively referred to as “Investments”. While the Fund intends to invest in the manner described above, the Fund will also remain opportunistic and may pursue other investment opportunities.\r\n\r\nThere can be no assurance that the Fund will achieve its investment objective; you could lose money by investing in the Fund. Although the Fund seeks to preserve the value of your investment at $1.00 per Share, it cannot guarantee it will do so. An investment in the Fund is not a bank account or a deposit of a bank and is not insured or guaranteed by the U.S. Federal Deposit Insurance Corporation or any other government agency. You should not expect that the Investment Manager or its affiliates will provide financial support to the Fund at any time, including during periods of market stress."
+  },
+  "links": {
+    "homepage": [
+      "https://securitize.io/primary-market/vaneck-vbill",
+      "https://www.vaneck.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x2255718832bC9fD3bE1CaF75084F4803DA14FF01",
+      "https://bscscan.com/token/0x14d72634328c4d03bba184a48081df65f1911279",
+      "https://snowtrace.io/token/0x7F4546eF315Efc65336187Fe3765ea779Ac90183",
+      "https://solscan.io/token/34mJztT9am2jybSukvjNqRjgJBZqHJsHnivArx1P4xy1",
+      "https://ethplorer.io/address/0x2255718832bC9fD3bE1CaF75084F4803DA14FF01",
+      "https://binplorer.com/address/0x14d72634328c4d03bba184a48081df65f1911279",
+      "https://avascan.info/blockchain/c/address/0x7f4546ef315efc65336187fe3765ea779ac90183/token"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "vaneck_us",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/56023/thumb/vbill_200.png?1748092620",
+    "small": "https://coin-images.coingecko.com/coins/images/56023/small/vbill_200.png?1748092620",
+    "large": "https://coin-images.coingecko.com/coins/images/56023/large/vbill_200.png?1748092620"
+  },
+  "last_updated": "2025-07-11T09:51:35.973712+00:00"
+}

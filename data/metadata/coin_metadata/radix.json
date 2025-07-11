@@ -1,0 +1,59 @@
+{
+  "id": "radix",
+  "symbol": "xrd",
+  "name": "Radix",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "DWF Labs Portfolio",
+    "Radix Ecosystem"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Radix is building an open, interconnected platform where the full range of powerful DeFi applications will be built securely and safely."
+  },
+  "links": {
+    "homepage": [
+      "https://www.radixdlt.com/"
+    ],
+    "whitepaper": "https://www.radixdlt.com/whitepapers",
+    "blockchain_site": [
+      "https://dashboard.radixdlt.com/"
+    ],
+    "official_forum_url": [
+      "https://www.radixdlt.com/podcast"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/WkB2USt",
+      "https://www.youtube.com/radixdlt"
+    ],
+    "announcement_url": [
+      "https://www.radixdlt.com/blog/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "radixdlt",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "radix_dlt",
+    "subreddit_url": "https://www.reddit.com/r/Radix/",
+    "repos_url": {
+      "github": [
+        "https://github.com/radixdlt"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/4374/thumb/6266da240f9ff5b6237a154c_Radix-Icon-256x256.png?1719376420",
+    "small": "https://coin-images.coingecko.com/coins/images/4374/small/6266da240f9ff5b6237a154c_Radix-Icon-256x256.png?1719376420",
+    "large": "https://coin-images.coingecko.com/coins/images/4374/large/6266da240f9ff5b6237a154c_Radix-Icon-256x256.png?1719376420"
+  },
+  "last_updated": "2025-07-11T09:50:44.421038+00:00"
+}

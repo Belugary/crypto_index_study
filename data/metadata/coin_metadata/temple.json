@@ -1,0 +1,54 @@
+{
+  "id": "temple",
+  "symbol": "temple",
+  "name": "TempleDAO",
+  "categories": [
+    "Crypto-Backed Tokens",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x470ebf5f030ed85fc1ed4c2d36b9dd02e77cf1b7"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "TempleDAO is designed on strong principles: building the Temple for the long-term, community first and fairly in all aspects, and prioritising stable wealth creation. Our innovative mechanics including safe minting, intrinsic value backed rewards, safe harvest, price defence incentives, and exit queue."
+  },
+  "links": {
+    "homepage": [
+      "https://www.templedao.link/rituals"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x470ebf5f030ed85fc1ed4c2d36b9dd02e77cf1b7",
+      "https://platform.arkhamintelligence.com/explorer/token/temple",
+      "https://ethplorer.io/address/0x470ebf5f030ed85fc1ed4c2d36b9dd02e77cf1b7"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/templedao"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "templedao",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "TempleDAOcommunity",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/TempleDAO/TempleDAO"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/20040/thumb/LPK15ZOW_400x400.jpg?1696519459",
+    "small": "https://coin-images.coingecko.com/coins/images/20040/small/LPK15ZOW_400x400.jpg?1696519459",
+    "large": "https://coin-images.coingecko.com/coins/images/20040/large/LPK15ZOW_400x400.jpg?1696519459"
+  },
+  "last_updated": "2025-07-11T09:50:56.378830+00:00"
+}

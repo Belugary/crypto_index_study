@@ -1,0 +1,60 @@
+{
+  "id": "ski-mask-dog",
+  "symbol": "ski",
+  "name": "Ski Mask Dog",
+  "categories": [
+    "Charity",
+    "Meme",
+    "Base Ecosystem",
+    "Dog-Themed",
+    "Base Meme",
+    "Binance Alpha Spotlight",
+    "Made in USA"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0x768be13e1680b5ebe0024c42c896e3db59ec0149"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The real dog on Base. Mask On"
+  },
+  "links": {
+    "homepage": [
+      "https://www.skimaskdog.tech"
+    ],
+    "whitepaper": "https://docs.google.com/document/d/1YiDOGnyU9tWDDluwHCGGxnvg7cW-_rQDoKEiXedZ9fo/edit?usp=sharing",
+    "blockchain_site": [
+      "https://basescan.org/token/0x768be13e1680b5ebe0024c42c896e3db59ec0149",
+      "https://platform.arkhamintelligence.com/explorer/token/ski-mask-dog"
+    ],
+    "official_forum_url": [
+      "https://www.tiktok.com/@skimaskdog_cto",
+      "https://www.instagram.com/ski_CTO",
+      "https://warpcast.com/~/channel/skimaskdog"
+    ],
+    "chat_url": [
+      "https://discord.gg/ZN9C5unv"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Ski_CTO",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "skionbase_cto",
+    "subreddit_url": "https://www.reddit.com/r/Skimaskdog",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/37195/thumb/32992128-F52F-4346-84CA-8E0C48F43606.jpeg?1713676521",
+    "small": "https://coin-images.coingecko.com/coins/images/37195/small/32992128-F52F-4346-84CA-8E0C48F43606.jpeg?1713676521",
+    "large": "https://coin-images.coingecko.com/coins/images/37195/large/32992128-F52F-4346-84CA-8E0C48F43606.jpeg?1713676521"
+  },
+  "last_updated": "2025-07-11T09:51:14.354075+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "arcblock",
+  "symbol": "abt",
+  "name": "Arcblock",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Infrastructure",
+    "Ethereum Ecosystem",
+    "AI Framework",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xb98d4c97425d9908e66e53a6fdf673acca0be986"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "CN",
+  "description": {
+    "en": "The ArcBlock project was created to create the first Blockchain ecosystem in the world. Develop and develop decentralized applications (DApp) according to objectives. ArcBlock, one of the ICO projects emerging in early 2018. Just launched on 3/1/2018, ArcBlock has quickly attracted the attention of technology as well as investors. ArcBlock brings great technological advancements that will open the third generation of blockchain applications.\r\n\r\nArcblock work by bridging the gap between different blockchains and their respective ecosystems has not been easy. There are some solutions which attempt to solve this problem, but it is evident there is plenty of room for competition in this regard. Building an open chain access layer capable of spanning multiple new and existing blockchains is a very interesting business model.\r\n\r\nBuilding a new ecosystem meant to connect various chains will not be easy. As of right now, the team has completed its token sale, and the first public release candidate for the Open Chain Access Protocol will be released in Q3. Early 2019 will herald the introduction of more technical features and an Ethereum Blocklet prototype."
+  },
+  "links": {
+    "homepage": [
+      "https://www.arcblock.io/"
+    ],
+    "whitepaper": "https://drive.google.com/file/d/1kQ58pxJViKC0I28rZDQ8XzDgwrupLYN/view?usp=sharing",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xb98d4c97425d9908e66e53a6fdf673acca0be986",
+      "https://platform.arkhamintelligence.com/explorer/token/arcblock",
+      "https://ethplorer.io/address/0xb98d4c97425d9908e66e53a6fdf673acca0be986"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ArcBlock_io",
+    "facebook_username": "arcblock.io",
+    "bitcointalk_thread_identifier": 2699379,
+    "telegram_channel_identifier": "ArcBlock",
+    "subreddit_url": "https://www.reddit.com/r/arcblock/",
+    "repos_url": {
+      "github": [
+        "https://github.com/ArcBlock/ArcBlock-Token"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/2341/thumb/arcblock.png?1696503220",
+    "small": "https://coin-images.coingecko.com/coins/images/2341/small/arcblock.png?1696503220",
+    "large": "https://coin-images.coingecko.com/coins/images/2341/large/arcblock.png?1696503220"
+  },
+  "last_updated": "2025-07-11T09:51:10.420769+00:00"
+}

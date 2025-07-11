@@ -1,0 +1,64 @@
+{
+  "id": "numeraire",
+  "symbol": "nmr",
+  "name": "Numeraire",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Business Services",
+    "Decentralized Finance (DeFi)",
+    "Ethereum Ecosystem",
+    "Paradigm Portfolio",
+    "DragonFly Capital Portfolio",
+    "Energi Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x1776e1f26f98b1a5df9cd347953a26dd3cb46671",
+    "energi": "0xd72922e849477a042a7e6dc84309f4bc1c1227a2"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2017-06-20",
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://numer.ai/"
+    ],
+    "whitepaper": "https://numer.ai/whitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x1776e1f26f98b1a5df9cd347953a26dd3cb46671",
+      "https://platform.arkhamintelligence.com/explorer/token/numeraire",
+      "https://ethplorer.io/address/0x1776e1f26f98b1a5df9cd347953a26dd3cb46671",
+      "https://explorer.energi.network/token/0xd72922e849477a042a7e6dc84309f4bc1c1227a2"
+    ],
+    "official_forum_url": [
+      "https://community.numer.ai/channel/erasure"
+    ],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/numerai"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "numerai",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/numerai",
+    "repos_url": {
+      "github": [
+        "https://github.com/erasureprotocol/erasure-protocol",
+        "https://github.com/numerai/numerapi-1"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/752/thumb/numeraire.png?1696501906",
+    "small": "https://coin-images.coingecko.com/coins/images/752/small/numeraire.png?1696501906",
+    "large": "https://coin-images.coingecko.com/coins/images/752/large/numeraire.png?1696501906"
+  },
+  "last_updated": "2025-07-11T09:51:33.984200+00:00"
+}

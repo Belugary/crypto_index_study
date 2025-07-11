@@ -1,0 +1,54 @@
+{
+  "id": "ai-rig-complex",
+  "symbol": "arc",
+  "name": "AI Rig Complex",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Infrastructure",
+    "Solana Ecosystem",
+    "AI Agents",
+    "Pump.fun Ecosystem",
+    "AI Agent Launchpad",
+    "Binance Alpha Spotlight",
+    "AI Framework"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "we're here to make you take the red pill. then, the blue pill."
+  },
+  "links": {
+    "homepage": [
+      "https://www.arc.fun/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "arcdotfun",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "+CI-vivonuApiZWQ0",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/52701/thumb/u312bPNA_400x400.jpg?1734044765",
+    "small": "https://coin-images.coingecko.com/coins/images/52701/small/u312bPNA_400x400.jpg?1734044765",
+    "large": "https://coin-images.coingecko.com/coins/images/52701/large/u312bPNA_400x400.jpg?1734044765"
+  },
+  "last_updated": "2025-07-11T09:54:02.273853+00:00"
+}

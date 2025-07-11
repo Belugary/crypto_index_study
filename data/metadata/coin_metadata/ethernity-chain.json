@@ -1,0 +1,60 @@
+{
+  "id": "ethernity-chain",
+  "symbol": "ern",
+  "name": "Ethernity Chain",
+  "categories": [
+    "Smart Contract Platform",
+    "NFT",
+    "Metaverse",
+    "Collectibles",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem",
+    "Layer 2 (L2)",
+    "Optimism Superchain Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xbbc2ae13b23d715c30720f079fcd9b4a74093505",
+    "polygon-pos": "0x0e50bea95fe001a370a4f1c220c49aedcb982dec"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "KY",
+  "description": {
+    "en": "Welcome to the Future of Entertainment with Ethernity Chain! Initially launched as an NFT marketplace, Ethernity Chain has transformed into an ETH Layer 2 platform with enhanced AI-driven security, setting new standards for on-chain entertainment, all powered by $ERN.\r\n\r\nWith the global entertainment and media market projected to reach $3.5 trillion by 2030, Ethernity Chain is positioned as the premier platform for global brands to transition their franchises onto the blockchain. Having already onboarded icons like Lionel Messi, Shaquille O'Neal, and Muhammad Ali, Ethernity Chain now focuses on the biggest entertainment franchises, offering a purpose-built platform with an industry-first built-in AI security model.\r\n\r\nCrafted through discussions with industry leaders, Ethernity Chain's Layer 2 solution boasts key features such as AI-enhanced security and DRM, easy integration with a plug-and-play toolkit, eco-friendly operations with reduced gas fees, and 100% EVM compatibility for seamless operations.\r\n\r\nBrands can leverage the Ethernity product suite and plug-and-play toolkit to develop next-gen Web3 applications spanning web3 games, digital collectibles, RWAs, and interactive media. Exciting launches are on the horizon, including the FanableApp RWA marketplace, the Exorians sci-fi franchise and Web3 game, and numerous third-party applications by industry-leading teams. Get ready to experience the future of entertainment with Ethernity Chain!\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://ethernity.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xbbc2ae13b23d715c30720f079fcd9b4a74093505",
+      "https://platform.arkhamintelligence.com/explorer/token/ethernity-chain",
+      "https://ethplorer.io/address/0xbbc2ae13b23d715c30720f079fcd9b4a74093505",
+      "https://polygonscan.com/token/0x0e50bea95fe001a370a4f1c220c49aedcb982dec"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/epiconchain"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ethernitychain",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "ethernitychain",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/14238/thumb/logo_black.png?1715198164",
+    "small": "https://coin-images.coingecko.com/coins/images/14238/small/logo_black.png?1715198164",
+    "large": "https://coin-images.coingecko.com/coins/images/14238/large/logo_black.png?1715198164"
+  },
+  "last_updated": "2025-07-11T09:56:19.224407+00:00"
+}

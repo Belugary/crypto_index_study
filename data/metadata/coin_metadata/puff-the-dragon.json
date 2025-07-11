@@ -1,0 +1,59 @@
+{
+  "id": "puff-the-dragon",
+  "symbol": "puff",
+  "name": "Puff The Dragon",
+  "categories": [
+    "Meme",
+    "Ethereum Ecosystem",
+    "Mantle Ecosystem"
+  ],
+  "asset_platform_id": "mantle",
+  "platforms": {
+    "mantle": "0x26a6b0dcdcfb981362afa56d581e4a7dba3be140",
+    "ethereum": "0x31b6100f5f4466e6daeb1edb2f2ce6e548cf8938"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "## What Is PUFF?\r\n\r\nPuff is the erc-20 memecoin token based around the mETH community.\r\n\r\nPuff is an innovative experiment - a blockchain interactive story where holders can experience a 6 chapter journey and choose their own path through it.\r\n\r\nUsers may interact with Puff's story as it progresses in Puff's Penthouse inside methlab.xyz\r\n\r\n\r\n## How Many PUFF Coins Are There in Circulation?\r\n\r\nPuff launched in March 2024 with 888,888,888 PUFF tokens created at genesis.\r\n\r\nThere is no additional supply.\r\n\r\n48.5% of the supply was unlocked at genesis, and the rest released over Chapters 2 to 6.\r\n\r\n\r\n### Who Are the Founders of PUFF?\r\n\r\nPuff is a community led project with various early contributors passionate about mETH and onchain communities.\r\n\r\n### Where Can I Buy PUFF?\r\n\r\nThe initial liquidity Pool for Puff is inside Puff's Penthouse on methlab.xyz"
+  },
+  "links": {
+    "homepage": [
+      "https://puffthedragon.xyz/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.mantle.xyz/token/0x26a6b0dcdcfb981362afa56d581e4a7dba3be140",
+      "https://platform.arkhamintelligence.com/explorer/token/puff-the-dragon",
+      "https://mantlescan.xyz/token/0x26a6b0dcdcfb981362afa56d581e4a7dba3be140",
+      "https://etherscan.io/token/0x31b6100f5f4466e6daeb1edb2f2ce6e548cf8938",
+      "https://ethplorer.io/address/0x31b6100f5f4466e6daeb1edb2f2ce6e548cf8938"
+    ],
+    "official_forum_url": [
+      "https://t.me/+iMPLflo3-f8xMWNl"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/puffdrgn",
+      "http://www.youtube.com/@PufftheDragon"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "puff_drgn",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "puff_drgn_official",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/35950/thumb/photo_2024-03-11_10.18.27.jpeg?1710240090",
+    "small": "https://coin-images.coingecko.com/coins/images/35950/small/photo_2024-03-11_10.18.27.jpeg?1710240090",
+    "large": "https://coin-images.coingecko.com/coins/images/35950/large/photo_2024-03-11_10.18.27.jpeg?1710240090"
+  },
+  "last_updated": "2025-07-11T09:51:29.504959+00:00"
+}

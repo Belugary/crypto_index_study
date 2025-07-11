@@ -1,0 +1,49 @@
+{
+  "id": "vedoraai",
+  "symbol": "ved",
+  "name": "VedoraAI",
+  "categories": [
+    "Ethereum Ecosystem",
+    "AI Applications"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x6282727946325daa05636adec103b385b7c995bf"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "Vedora AI is essentially a Layer 2 blockchain purpose-built for AI-driven decentralized applications. The scalable, low-cost infrastructure is optimized for AI agents and machine learning systems, providing the perfect environment for innovation.\r\n\r\nThe development of AI Layer 2 blockchains like Vedora AI represents a significant step forward in making AI more efficient, accessible, and decentralised.\r\n\r\nThese technologies offer a practical solution to some of the biggest challenges in AI and blockchain, such as scalability, cost, and data privacy.\r\n\r\nBy decentralising the infrastructure needed for AI, platforms like Vedora AI not only reduce costs but also open the door for more people and organisations to participate in the AI economy.\r\n\r\nThis democratization of AI could lead to faster innovation and a more equitable distribution of the benefits of these technologies."
+  },
+  "links": {
+    "homepage": [
+      "https://vedora.ai/"
+    ],
+    "whitepaper": "https://docs.vedora.ai/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x6282727946325Daa05636aDeC103B385B7c995Bf",
+      "https://ethplorer.io/address/0x6282727946325Daa05636aDeC103B385B7c995Bf"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "VedoraAI",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "VedoraAI",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55101/thumb/VED_%281%29.jpg?1743752494",
+    "small": "https://coin-images.coingecko.com/coins/images/55101/small/VED_%281%29.jpg?1743752494",
+    "large": "https://coin-images.coingecko.com/coins/images/55101/large/VED_%281%29.jpg?1743752494"
+  },
+  "last_updated": "2025-07-11T09:55:34.862861+00:00"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "anvil",
+  "symbol": "anvl",
+  "name": "Anvil",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x2ca9242c1810029efed539f1c60d68b63ad01bfc"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Anvil is a system of Ethereum-based smart contracts that manages collateral and issues fully secured credit. A primary example is a letter of credit (LOC), analogous to a paper bank cheque drawing verified funds, providing an economic guarantee of payment.\r\n\r\nAnvil enables transparency and trustless verification of assets, thereby reducing counterparty risk. The protocol is designed for maximum efficiency and extensibility to incorporate collateral throughout decentralized and traditional finance. \r\n\r\nWhat can Anvil be used for?\r\nAnvil is a unified protocol for asset provision, designed explicitly for safety, simplicity, and composability as a primitive building block in the development of other applications. \r\n\r\nPayments: LOCs offer security for both online and in-store digital payment transactions.\r\n\r\nCounterparty credit: LOCs can be accepted on centralized exchanges to secure instant deposits for immediate trading or more efficient liquidity provision.\r\n\r\nAsset bridging: LOCs can facilitate immediate cross-platform transactions. LOCs can also secure deposit or withdrawal transactions on layer 2 (L2) implementations. In instances where a platform integrates Anvil LOCs, immediate, on-demand asset transfers can be safely executed."
+  },
+  "links": {
+    "homepage": [
+      "https://www.anvil.xyz"
+    ],
+    "whitepaper": "https://docs.anvil.xyz/whitepaper",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x2ca9242c1810029efed539f1c60d68b63ad01bfc",
+      "https://platform.arkhamintelligence.com/explorer/token/anvil",
+      "https://ethplorer.io/address/0x2ca9242c1810029efed539f1c60d68b63ad01bfc"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/acronym-foundation/"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "anvil_xyz",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/AcronymFoundation"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/50825/thumb/anvil.png?1744709012",
+    "small": "https://coin-images.coingecko.com/coins/images/50825/small/anvil.png?1744709012",
+    "large": "https://coin-images.coingecko.com/coins/images/50825/large/anvil.png?1744709012"
+  },
+  "last_updated": "2025-07-11T09:51:59.772096+00:00"
+}

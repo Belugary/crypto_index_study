@@ -1,0 +1,53 @@
+{
+  "id": "aquarius",
+  "symbol": "aqua",
+  "name": "Aquarius",
+  "categories": [
+    "Stellar Ecosystem"
+  ],
+  "asset_platform_id": "stellar",
+  "platforms": {
+    "stellar": "GBNZILSTVQZ4R7IKQDGHYGY2QXL5QOFJYQMXPKWRRM5PAV7Y4M67AQUA"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "AQUA is the currency for rewards and on-chain voting on the Stellar network. The Aquarius project has been designed to supercharge trading on Stellar, bring more liquidity and give control over how it is distributed across various market pairs of Stellar’s internal Decentralized Exchange (SDEX).\r\n\r\nAquarius allows the community to set market making rewards for selected markets through on-chain voting. AQUA holders can vote for market pairs that need more liquidity and select trusted assets. Both DEX traders and LPs can earn AQUA rewards on selected market pairs based on their participation with market making on the Stellar blockchain.\r\n\r\nAQUA holders will be able to participate in DAO voting to decide the direction of the Community DAO Fund and navigate future Aquarius developments."
+  },
+  "links": {
+    "homepage": [
+      "https://aqua.network"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://stellar.expert/explorer/public/asset/aqua-gbnzilstvqz4r7ikqdghygy2qxl5qofjyqmxpkwrrm5pav7y4m67aqua"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/sgzFscHp4C"
+    ],
+    "announcement_url": [
+      "https://medium.com/aquarius-aqua"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "aqua_token",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "aqua_token",
+    "subreddit_url": "https://www.reddit.com/r/AquariusAqua",
+    "repos_url": {
+      "github": [
+        "https://github.com/AquaToken"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/20026/thumb/aqua-logo.png?1696519446",
+    "small": "https://coin-images.coingecko.com/coins/images/20026/small/aqua-logo.png?1696519446",
+    "large": "https://coin-images.coingecko.com/coins/images/20026/large/aqua-logo.png?1696519446"
+  },
+  "last_updated": "2025-07-11T09:54:17.638640+00:00"
+}

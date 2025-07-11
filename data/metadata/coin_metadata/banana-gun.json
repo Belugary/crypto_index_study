@@ -1,0 +1,53 @@
+{
+  "id": "banana-gun",
+  "symbol": "banana",
+  "name": "Banana Gun",
+  "categories": [
+    "Ethereum Ecosystem",
+    "Telegram Apps",
+    "Binance HODLer Airdrops"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x38e68a37e401f7271568cecaac63c6b1e19130b4"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What is the project about?\r\nA telegram bot where you can manually buy and snipe tokens on Ethereum (more chains coming soon). We offer the fastest set-up, simple and no-nonsense UX combined with bribing to ensure our users can be the first in line for new token launches.\r\n\r\nWhat makes your project unique?\r\nWe are an upcoming and fast-growing sniper bot on Ethereum with unique tokenomics fueled by our bot.\r\n\r\nHistory of your project.\r\nOur bot ran for 3 months generating a steady revenue, now our token will be deployed on main net\r\n\r\nWhat’s next for your project?\r\nMultichain, webapp, more features are in the pipeline. Obviously we will also listen to feedback of our users.\r\n\r\nWhat can your token be used for?\r\nFueling the Banana ecosystem\r\n"
+  },
+  "links": {
+    "homepage": [
+      "http://bananagun.io",
+      "https://t.me/BananaGunSniper_bot",
+      "https://t.me/BananaGunSell_bot"
+    ],
+    "whitepaper": "https://docs.bananagun.io/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x38e68a37e401f7271568cecaac63c6b1e19130b4",
+      "https://platform.arkhamintelligence.com/explorer/token/banana-gun",
+      "https://ethplorer.io/address/0x38e68a37e401f7271568cecaac63c6b1e19130b4"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/31744/thumb/bg-logo-coingecko-200.png?1716971024",
+    "small": "https://coin-images.coingecko.com/coins/images/31744/small/bg-logo-coingecko-200.png?1716971024",
+    "large": "https://coin-images.coingecko.com/coins/images/31744/large/bg-logo-coingecko-200.png?1716971024"
+  },
+  "last_updated": "2025-07-11T09:50:43.914009+00:00"
+}

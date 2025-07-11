@@ -1,0 +1,87 @@
+{
+  "id": "cartesi",
+  "symbol": "ctsi",
+  "name": "Cartesi",
+  "categories": [
+    "Infrastructure",
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Avalanche Ecosystem",
+    "Polygon Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Layer 2 (L2)",
+    "Base Ecosystem",
+    "Binance Launchpad",
+    "Modular Blockchain",
+    "Layer 3 (L3)",
+    "Rollup",
+    "Proof of Stake (PoS)",
+    "Appchains",
+    "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x491604c0fdf08347dd1fa4ee062a822a5dd06b5d",
+    "arbitrum-one": "0x319f865b287fcc10b30d8ce6144e8b6d1b476999",
+    "optimistic-ethereum": "0xec6adef5e1006bb305bb1975333e8fc4071295bf",
+    "base": "0x259fac10c5cbfefe3e710e1d9467f70a76138d45",
+    "binance-smart-chain": "0x8da443f84fea710266c8eb6bc34b71702d033ef2",
+    "avalanche": "0x6b289cceaa8639e3831095d75a3e43520fabf552",
+    "polygon-pos": "0x2727ab1c2d22170abc9b595177b2d5c6e1ab7b7b"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "SG",
+  "description": {
+    "en": "About Cartesi (CTSI)\r\nCartesi is an application-specific rollups execution layer with a Linux runtime. Cartesi’s RISC-V virtual machine allows developers to import decades of open-source wisdom to blockchain applications and build decentralized applications with their favorite libraries, compilers, and other time-tested open-source tooling. Cartesi Rollups can be deployed as layer 2 (on top of Ethereum) or as layer 3 (on top of Optimism, Arbitrum, zkEVM chains, etc.), or as sovereign rollups.\r\n\r\nWhat Makes Cartesi Unique and Key Highlights\r\nCartesi is an application-specific rollup execution layer with a Linux runtime. Cartesi’s RISC-V virtual machine allows developers to import decades of open-source wisdom to blockchain applications and build decentralized applications with their favorite libraries, compilers, and other time-tested open-source tooling.\r\n\r\nDApps are deployed on their own customizable application-specific rollup chains;\r\nDApps don't compete with each other in Cartesi’s ecosystem for scarce blockspace;\r\nProvides Ethereum or L2’s with orders of magnitude more computational capacity;\r\nDevelopers can code decentralized logic with their favorite libraries, compilers and other time-tested open source components;\r\nDApps preserve the strong security guarantees and censorship resistance of the underlying blockchain;\r\nCartesi Rollups can be deployed as a layer 2 (on top of Ethereum), as a layer 3 (on top of Optimism, Arbitrum, zkEVM chains, etc.), or as sovereign rollups;\r\nCartesi Rollups opens up the design space for more expressive and computationally intensive blockchain applications.\r\nThe Cartesi Team\r\nThe most important asset for The Cartesi Foundation is an ecosystem of contributors, each with a team of strong professionals, researchers and engineers extremely excited to create and implement cutting edge solutions in the blockchain space. \r\n\r\nCartesi’s core contributors come from high profile backgrounds with real-world experience at top companies such as Microsoft Research, and PhDs from top universities like ETH Zurich and Princeton.\r\n\r\nTo read about the Cartesi Foundation's story and see the full lineup of contributors, visit the About page.\r\n\r\nWhat Can CTSI Be Used For? \r\nThe token for Cartesi, CTSI, has been designed to intermediate protocol governance and to provide additional convenience and timeliness to Cartesi DApps. \r\n\r\nCTSI’s primary function is governance for the Cartesi ecosystem.\r\n\r\nCartesi Foundation's decentralized ecosystem will use CTSI as a way for community members to signal approval or disapproval of community programs originating from Cartesi Improvement Proposals (CIPs).\r\nThe first will be to govern the Cartesi Community Grant Program and ecosystem. The community grant program will fund new DApps built on Cartesi Rollups, public goods or retroactively fund successful projects in the Cartesi ecosystem.\r\nAs the Cartesi Foundation becomes more and more decentralized, CTSI will be used in several aspects of governing the future ecosystem, network, and DAOs.\r\n​​​​CTSI will also play an increasingly important role in terms of convenience and timeliness for DApps through Noether. Noether is a proof-of-stake solution for race-condition problems in financially incentivized blockchain interactions. In other words, node runners and stakers participating in Nother are financially rewarded for timely executing future Cartesi Ecosystem services, such as the decentralized sequencer, automatic execution vouchers, liquidity providers, and validator claims. \r\n\r\nNoether also plays a role in Cartesi's governance. CTSI holders willing to participate in governance voting must first have their tokens delegated to a pool in the PoS system.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://cartesi.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x491604c0fdf08347dd1fa4ee062a822a5dd06b5d",
+      "https://platform.arkhamintelligence.com/explorer/token/cartesi",
+      "https://ethplorer.io/address/0x491604c0fdf08347dd1fa4ee062a822a5dd06b5d",
+      "https://explorer.cartesi.io",
+      "https://polygonscan.com/token/0x491604c0fdf08347dd1fa4ee062a822a5dd06b5d}",
+      "https://bscscan.com/token/0x8da443f84fea710266c8eb6bc34b71702d033ef2",
+      "https://polygonscan.com/token/0x2727ab1c2d22170abc9b595177b2d5c6e1ab7b7b",
+      "https://snowtrace.io/token/0x6b289cceaa8639e3831095d75a3e43520fabf552",
+      "https://avascan.info/blockchain/c/address/0x6b289cceaa8639e3831095d75a3e43520fabf552/token",
+      "https://arbiscan.io/token/0x319f865b287fcc10b30d8ce6144e8b6d1b476999"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/Y6qXzM9DeJ",
+      "https://www.linkedin.com/company/cartesiproject/"
+    ],
+    "announcement_url": [
+      "https://medium.com/cartesi"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "cartesiproject",
+    "facebook_username": "cartesiproject",
+    "bitcointalk_thread_identifier": 5211981,
+    "telegram_channel_identifier": "cartesiproject",
+    "subreddit_url": "https://www.reddit.com/r/cartesi/",
+    "repos_url": {
+      "github": [
+        "https://github.com/cartesi/machine-emulator",
+        "https://github.com/cartesi/arbitration-dlib",
+        "https://github.com/cartesi/machine-solidity-step"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/11038/thumb/Cartesi_Logo.png?1696510982",
+    "small": "https://coin-images.coingecko.com/coins/images/11038/small/Cartesi_Logo.png?1696510982",
+    "large": "https://coin-images.coingecko.com/coins/images/11038/large/Cartesi_Logo.png?1696510982"
+  },
+  "last_updated": "2025-07-11T09:51:42.009566+00:00"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "across-protocol",
+  "symbol": "acx",
+  "name": "Across Protocol",
+  "categories": [
+    "Polygon Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Bridge Governance Tokens",
+    "Cross-chain Communication",
+    "Intent",
+    "Boba Network Ecosystem",
+    "Blockchain Capital Portfolio",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x44108f0223a3c3028f5fe7aec7f9bb2e66bef82f",
+    "optimistic-ethereum": "0xff733b2a3557a7ed6697007ab5d11b79fdd1b76b",
+    "arbitrum-one": "0x53691596d1bce8cea565b84d4915e69e03d9c99d",
+    "boba": "0x96821b258955587069f680729cd77369c0892b40",
+    "polygon-pos": "0xf328b73b6c685831f238c30a23fc19140cb4d8fc"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Across is an optimistic cross-chain bridge secured by UMA’s optimistic oracle. It is optimized for capital efficiency with a single liquidity pool, a competitive relayer landscape, and a no-slippage fee model. "
+  },
+  "links": {
+    "homepage": [
+      "https://across.to/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x44108f0223a3c3028f5fe7aec7f9bb2e66bef82f",
+      "https://platform.arkhamintelligence.com/explorer/token/across-protocol",
+      "https://ethplorer.io/address/0x44108f0223a3c3028f5fe7aec7f9bb2e66bef82f",
+      "https://optimistic.etherscan.io/token/0xff733b2a3557a7ed6697007ab5d11b79fdd1b76b",
+      "https://arbiscan.io/token/0x53691596d1bce8cea565b84d4915e69e03d9c99d",
+      "https://blockexplorer.boba.network/tokens/0x96821b258955587069f680729cd77369c0892b40",
+      "https://polygonscan.com/token/0xf328b73b6c685831f238c30a23fc19140cb4d8fc",
+      "https://lineascan.build/token/0x7e63a5f1a8f0b4d0934b2f2327daed3f6bb2ee75",
+      "https://lineaplorer.build/address/0x7e63a5f1a8f0b4d0934b2f2327daed3f6bb2ee75",
+      "https://bobascan.com/token/0x96821b258955587069f680729cd77369c0892b40"
+    ],
+    "official_forum_url": [
+      "https://forum.across.to/"
+    ],
+    "chat_url": [
+      "https://discord.across.to/",
+      "https://medium.com/across-protocol",
+      "https://www.youtube.com/@acrossprotocol"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "AcrossProtocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/across-protocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/28161/thumb/across-200x200.png?1696527165",
+    "small": "https://coin-images.coingecko.com/coins/images/28161/small/across-200x200.png?1696527165",
+    "large": "https://coin-images.coingecko.com/coins/images/28161/large/across-200x200.png?1696527165"
+  },
+  "last_updated": "2025-07-11T09:50:24.755535+00:00"
+}

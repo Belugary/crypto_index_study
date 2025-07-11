@@ -79,6 +79,11 @@ class PriceDataUpdater:
 
         self.stats = {
             "total_coins": 0,
+            "native_coins": 0,
+            "stablecoins": 0,
+            "wrapped_coins": 0,
+            "searched_coins": 0,
+            "target_native_coins": 0,
             "new_coins": 0,
             "updated_coins": 0,
             "failed_coins": 0,
@@ -148,6 +153,115 @@ class PriceDataUpdater:
         # 确保只返回前N名
         result = all_coins[:n]
         logger.info(f"✅ 成功获取 {len(result)} 个币种的市值排名")
+
+        return result
+
+    def get_top_n_native_coins_by_market_cap(
+        self, target_native_coins: int = 510, max_search_range: int = 3000
+    ) -> List[Dict]:
+        """
+        获取市值前N名的原生币种，自动扩大搜索范围直到找到足够的原生币
+
+        Args:
+            target_native_coins: 目标原生币种数量
+            max_search_range: 最大搜索范围（默认3000，确保能覆盖足够的币种）
+
+        Returns:
+            原生币种列表
+        """
+        logger.info(f"🔍 获取市值前 {target_native_coins} 名原生币种")
+
+        native_coins = []
+        # 智能设定初始搜索范围：目标数量 + 预估的稳定币/包装币数量
+        estimated_non_native = int(target_native_coins * 0.3)  # 预估30%为非原生币
+        search_range = min(target_native_coins + estimated_non_native, max_search_range)
+
+        while (
+            len(native_coins) < target_native_coins and search_range <= max_search_range
+        ):
+            logger.info(
+                f"搜索市值前 {search_range} 名币种以找到 {target_native_coins} 个原生币..."
+            )
+
+            # 获取市值排名
+            all_coins = self.get_top_n_coins_by_market_cap(search_range)
+            if not all_coins:
+                break
+
+            # 过滤出原生币种
+            native_coins = []
+            stable_count = 0
+            wrapped_count = 0
+
+            for coin in all_coins:
+                try:
+                    # 检查是否为稳定币或包装币
+                    stable_result = self.checker.is_stablecoin(coin["id"])
+                    wrapped_result = self.wrapped_checker.is_wrapped_coin(coin["id"])
+
+                    # 提取实际的布尔值
+                    is_stable = (
+                        stable_result.get("is_stablecoin", False)
+                        if isinstance(stable_result, dict)
+                        else stable_result
+                    )
+                    is_wrapped = (
+                        wrapped_result.get("is_wrapped_coin", False)
+                        if isinstance(wrapped_result, dict)
+                        else wrapped_result
+                    )
+
+                    if is_stable:
+                        stable_count += 1
+                    elif is_wrapped:
+                        wrapped_count += 1
+                    else:
+                        native_coins.append(coin)
+
+                    if len(native_coins) >= target_native_coins:
+                        break
+                except Exception as e:
+                    logger.warning(f"检查币种 {coin['id']} 时出错: {e}")
+                    # 如果检查失败，暂时认为是原生币种
+                    native_coins.append(coin)
+                    if len(native_coins) >= target_native_coins:
+                        break
+
+            # 更新统计信息
+            self.stats["searched_coins"] = len(all_coins)
+            self.stats["stablecoins"] = stable_count
+            self.stats["wrapped_coins"] = wrapped_count
+            self.stats["native_coins"] = len(native_coins)
+
+            if len(native_coins) >= target_native_coins:
+                break
+            else:
+                # 如果原生币种不足，智能扩大搜索范围
+                old_range = search_range
+                # 根据缺口大小决定扩大幅度
+                shortage = target_native_coins - len(native_coins)
+                if shortage > 200:
+                    increment = 500  # 缺口大时大幅扩大
+                elif shortage > 100:
+                    increment = 300  # 中等缺口中等扩大
+                else:
+                    increment = 200  # 小缺口小幅扩大
+
+                search_range = min(search_range + increment, max_search_range)
+
+                if search_range == old_range:
+                    # 达到最大搜索范围，停止
+                    logger.warning(
+                        f"达到最大搜索范围 {max_search_range}，但只找到 {len(native_coins)} 个原生币种"
+                    )
+                    break
+                logger.info(
+                    f"原生币种不足 ({len(native_coins)}/{target_native_coins})，扩大搜索范围到 {search_range}"
+                )
+
+        result = native_coins[:target_native_coins]
+        self.stats["target_native_coins"] = len(result)
+        logger.info(f"✅ 成功获取 {len(result)} 个原生币种")
 
         return result
 
@@ -417,11 +531,20 @@ class PriceDataUpdater:
         report = f"""
 🔍 量价数据更新报告
 {'='*60}
-📊 统计信息:
-   - 总币种数: {self.stats['total_coins']}
+📊 币种分类统计:
+   - 搜索范围: 前{self.stats['searched_coins']}名
+   - 目标原生币种数: {self.stats['target_native_coins']}
+   - 发现原生币种: {self.stats['native_coins']}个
+   - 发现稳定币: {self.stats['stablecoins']}个
+   - 发现包装币: {self.stats['wrapped_coins']}个
+
+📈 处理统计:
+   - 实际处理币种数: {self.stats['total_coins']}
    - 新币种数: {self.stats['new_coins']}
    - 更新币种数: {self.stats['updated_coins']}
    - 失败币种数: {self.stats['failed_coins']}
+
+⚡ 性能统计:
    - API调用次数: {self.stats['total_api_calls']}
    - 总耗时: {duration}
 
@@ -470,42 +593,38 @@ class PriceDataUpdater:
             logger.error(error_msg)
             self.errors.append(error_msg)
 
-    def run(self, top_n: int = 500) -> None:
+    def run(self, top_n: int = 600, native_coins: int = 510) -> None:
         """
         执行完整的量价数据更新流程
 
         Args:
-            top_n: 市值前N名
+            top_n: 初始搜索范围建议值 (已弃用，现在会自动计算)
+            native_coins: 目标原生币种数量
         """
-        logger.info(f"🚀 开始量价数据更新流程 (前{top_n}名)")
+        logger.info(f"🚀 开始量价数据更新流程 (前{native_coins}名原生币)")
         logger.info("=" * 60)
 
         self.stats["start_time"] = datetime.now()
 
         try:
-            # 1. 获取市值前N名币种
-            top_coins = self.get_top_n_coins_by_market_cap(top_n)
-            if not top_coins:
-                logger.error("❌ 无法获取市值排名数据")
+            # 1. 获取市值前N名原生币种 (自动计算合适的搜索范围)
+            max_search_range = max(native_coins * 2, 2000)  # 确保搜索范围足够大
+            native_coins_list = self.get_top_n_native_coins_by_market_cap(
+                native_coins, max_search_range
+            )
+            if not native_coins_list:
+                logger.error("❌ 无法获取原生币种数据")
                 return
 
             # 2. 获取现有币种ID
             existing_ids = self.get_existing_coin_ids()
 
             # 3. 找出新币种
-            new_coins = self.find_new_coins(top_coins, existing_ids)
+            new_coins = self.find_new_coins(native_coins_list, existing_ids)
             self.stats["new_coins"] = len(new_coins)
 
-            # 4. 合并所有需要处理的币种
-            all_target_coins = {coin["id"]: coin for coin in top_coins}
-
-            # 添加现有币种（可能不在前N名中）
-            for existing_id in existing_ids:
-                if existing_id not in all_target_coins:
-                    all_target_coins[existing_id] = {
-                        "id": existing_id,
-                        "name": existing_id,
-                    }
+            # 4. 所有需要处理的币种就是这些原生币种
+            all_target_coins = {coin["id"]: coin for coin in native_coins_list}
 
             self.stats["total_coins"] = len(all_target_coins)
 
@@ -526,7 +645,16 @@ class PriceDataUpdater:
                 for coin_id, coin_info in all_target_coins.items():
                     try:
                         # 检查是否是稳定币
-                        if self.checker.is_stablecoin(coin_info.get("symbol", "")):
+                        stable_result = self.checker.is_stablecoin(
+                            coin_info.get("symbol", "")
+                        )
+                        is_stable = (
+                            stable_result.get("is_stablecoin", False)
+                            if isinstance(stable_result, dict)
+                            else stable_result
+                        )
+
+                        if is_stable:
                             pbar.update(1)
                             pbar.set_postfix({"状态": "跳过稳定币"})
                             continue
@@ -618,7 +746,12 @@ def main():
     import argparse
 
     parser = argparse.ArgumentParser(description="更新加密货币量价数据")
-    parser.add_argument("--top-n", type=int, default=500, help="市值前N名 (默认: 500)")
+    parser.add_argument(
+        "--top-n", type=int, default=600, help="市值前N名搜索范围 (默认: 600)"
+    )
+    parser.add_argument(
+        "--native-coins", type=int, default=510, help="目标原生币种数量 (默认: 510)"
+    )
     parser.add_argument(
         "--batch-size", type=int, default=50, help="批处理大小 (默认: 50)"
     )
@@ -634,7 +767,8 @@ def main():
 
     print(f"🔍 量价数据更新工具")
     print(f"📊 配置信息:")
-    print(f"   - 目标币种数: 前{args.top_n}名（用于发现新币种）")
+    print(f"   - 目标原生币种数: {args.native_coins}")
+    print(f"   - 搜索范围: 动态扩展（自动调整直到找到足够的原生币）")
     print(f"   - 批处理大小: {args.batch_size}")
     print(f"   - API调用延迟: {args.delay}秒")
     print(f"   - 预估API调用频率: {60/args.delay:.1f}次/分钟")
@@ -642,7 +776,7 @@ def main():
 
     # 创建更新器并运行
     updater = PriceDataUpdater()
-    updater.run(top_n=args.top_n)
+    updater.run(top_n=args.top_n, native_coins=args.native_coins)
 
 
 if __name__ == "__main__":

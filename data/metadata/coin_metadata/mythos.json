@@ -1,0 +1,59 @@
+{
+  "id": "mythos",
+  "symbol": "myth",
+  "name": "Mythos",
+  "categories": [
+    "Gaming (GameFi)",
+    "Polkadot Ecosystem",
+    "NFT",
+    "Ethereum Ecosystem",
+    "Gaming Blockchains",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Galaxy Digital Portfolio",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xba41ddf06b7ffd89d1267b5a93bfef2424eb2003"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Mythos aims to democratize the gaming world and allow for players and creators to participate in the value chain. The Mythos token (MYTH) will be the interoperable utility token used in these decentralized efforts and provide opportunity for anyone to participate and contribute within the ecosystem - adding governance and value to game developers, publishers, and content creators."
+  },
+  "links": {
+    "homepage": [
+      "https://mythos.foundation/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xba41ddf06b7ffd89d1267b5a93bfef2424eb2003",
+      "https://platform.arkhamintelligence.com/explorer/token/mythos",
+      "https://ethplorer.io/address/0xba41ddf06b7ffd89d1267b5a93bfef2424eb2003"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/6tmvUYEfMr"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "EnterTheMythos",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/28045/thumb/Mythos_Logos_200x200.png?1696527059",
+    "small": "https://coin-images.coingecko.com/coins/images/28045/small/Mythos_Logos_200x200.png?1696527059",
+    "large": "https://coin-images.coingecko.com/coins/images/28045/large/Mythos_Logos_200x200.png?1696527059"
+  },
+  "last_updated": "2025-07-11T09:50:18.505034+00:00"
+}

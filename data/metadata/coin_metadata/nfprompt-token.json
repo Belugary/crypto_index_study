@@ -1,0 +1,55 @@
+{
+  "id": "nfprompt-token",
+  "symbol": "nfp",
+  "name": "NFPrompt",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Binance Launchpool",
+    "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x551897f8203bd131b350601d3ac0679ba0fc0136"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "NFP is the token powering the NFPrompt Platform, an AI-Powered UGC platform to easily create stunning Tokenized AIGC. Mint your Imagination."
+  },
+  "links": {
+    "homepage": [
+      "https://nfprompt.io"
+    ],
+    "whitepaper": "https://docs.nfprompt.io",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x551897f8203bd131b350601d3ac0679ba0fc0136",
+      "https://platform.arkhamintelligence.com/explorer/token/nfprompt-token",
+      "https://binplorer.com/address/0x551897f8203bd131b350601d3ac0679ba0fc0136"
+    ],
+    "official_forum_url": [
+      "https://discord.gg/nfprompt"
+    ],
+    "chat_url": [
+      "https://discord.gg/nfprompt"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "nfprompt",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "nfprompt",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/34041/thumb/nfp.jpeg?1703700482",
+    "small": "https://coin-images.coingecko.com/coins/images/34041/small/nfp.jpeg?1703700482",
+    "large": "https://coin-images.coingecko.com/coins/images/34041/large/nfp.jpeg?1703700482"
+  },
+  "last_updated": "2025-07-11T09:54:12.020839+00:00"
+}

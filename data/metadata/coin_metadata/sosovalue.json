@@ -1,0 +1,59 @@
+{
+  "id": "sosovalue",
+  "symbol": "soso",
+  "name": "SoSoValue",
+  "categories": [
+    "Index",
+    "Decentralized Finance (DeFi)",
+    "Analytics",
+    "Ethereum Ecosystem",
+    "Base Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x76a0e27618462bdac7a29104bdcfff4e6bfcea2d",
+    "base": "0x624e2e7fdc8903165f64891672267ab0fcb98831"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "SoSoValue is an AI-powered investment and research platform that combines the efficiency of CeFi with the transparency of DeFi, addressing challenges like information overload and cross-chain asset management in the cryptocurrency market.\r\nThe platform consists of two key components:\r\nAI Crypto Market Research Tool: Aggregates and analyzes vast amounts of data to deliver clear, actionable market insights.\r\nDecentralized SSI Protocol: Built on the EVM, it offers a low-barrier, high-efficiency portfolio management solution, overcoming traditional obstacles like high fees, slow settlements, and restricted market access.\r\nBy integrating the strengths of CeFi and DeFi, SoSoValue enhances investment decision-making, streamlines wealth management, and helps investors capitalize on market growth opportunities."
+  },
+  "links": {
+    "homepage": [
+      "https://sosovalue.com/",
+      "https://ssi.sosovalue.com/"
+    ],
+    "whitepaper": "https://sosovalue-white-paper.gitbook.io/sosovalue-whitepaper",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x76A0e27618462bDAC7a29104bdcfFf4E6BFCea2D",
+      "https://ethplorer.io/address/0x76A0e27618462bDAC7a29104bdcfFf4E6BFCea2D",
+      "https://basescan.org/token/0x624e2e7fdc8903165f64891672267ab0fcb98831"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.youtube.com/@sosovalue"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SoSoValueCrypto",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "SoSoValueCommunity",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/SoSoValueLabs/ssi-protocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53919/thumb/soso.jpg?1737717378",
+    "small": "https://coin-images.coingecko.com/coins/images/53919/small/soso.jpg?1737717378",
+    "large": "https://coin-images.coingecko.com/coins/images/53919/large/soso.jpg?1737717378"
+  },
+  "last_updated": "2025-07-11T09:51:13.866413+00:00"
+}

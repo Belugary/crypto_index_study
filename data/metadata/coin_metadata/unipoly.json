@@ -1,0 +1,57 @@
+{
+  "id": "unipoly",
+  "symbol": "unp",
+  "name": "Unipoly",
+  "categories": [
+    "Gaming (GameFi)",
+    "Ethereum Ecosystem",
+    "Skale Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x23d7ff057c696fee679c60cef61fee6614218f04",
+    "skale": "0x7ca58393eb55aec51204f2370c1b9cccaa9d9784"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Unipoly Coin (UNP) is a pioneering project in the GameFi and decentralized entertainment space, launched in October 2023 with the mission of creating a secure, scalable, and transparent ecosystem for gamers and global communities. By integrating blockchain technology, innovative gaming experiences, and a decentralized social media platform (UniTribe), Unipoly offers a comprehensive ecosystem that empowers users to earn income through entertainment and social interaction."
+  },
+  "links": {
+    "homepage": [
+      "https://www.unipolycoin.com/",
+      "https://www.unipolygames.com/"
+    ],
+    "whitepaper": "https://www.unipolycoin.com/WhitePaperTR.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/address/0x23d7ff057c696fee679c60cef61fee6614218f04",
+      "https://platform.arkhamintelligence.com/explorer/token/unipoly",
+      "https://etherscan.io/token/0x23d7ff057c696fee679c60cef61fee6614218f04",
+      "https://ethplorer.io/address/0x23d7ff057c696fee679c60cef61fee6614218f04",
+      "https://elated-tan-skat.explorer.mainnet.skalenodes.com/token/0x7ca58393eb55aec51204f2370c1b9cccaa9d9784"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.youtube.com/channel/UCpMiZbz3XZ8iPTa5YmEo-uQ"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "unipolycoin",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "unipolycoin",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/32510/thumb/20231018_231410.png?1698398961",
+    "small": "https://coin-images.coingecko.com/coins/images/32510/small/20231018_231410.png?1698398961",
+    "large": "https://coin-images.coingecko.com/coins/images/32510/large/20231018_231410.png?1698398961"
+  },
+  "last_updated": "2025-07-11T09:52:06.155210+00:00"
+}

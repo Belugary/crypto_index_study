@@ -1,0 +1,54 @@
+{
+  "id": "felix-feusd",
+  "symbol": "feusd",
+  "name": "Felix feUSD",
+  "categories": [
+    "Stablecoins",
+    "Synthetic Asset",
+    "Hyperliquid Ecosystem",
+    "Crypto-backed Stablecoin",
+    "HyperEVM Ecosystem"
+  ],
+  "asset_platform_id": "hyperevm",
+  "platforms": {
+    "hyperevm": "0x02c6a2fa58cc01a18b8d9e00ea48d65e4df26c70",
+    "hyperliquid": "0x88102bea0bbad5f301f6e9e4dacdf979"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://usefelix.xyz/"
+    ],
+    "whitepaper": "https://usefelix.gitbook.io/felix-docs",
+    "blockchain_site": [
+      "https://hyperliquid.cloud.blockscout.com/token/0x02c6a2fa58cc01a18b8d9e00ea48d65e4df26c70",
+      "https://hyperevmscan.io/token/0x02c6a2fa58cc01a18b8d9e00ea48d65e4df26c70",
+      "https://app.hyperliquid.xyz/explorer/token/0x88102bea0bbad5f301f6e9e4dacdf979"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "felixprotocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55068/thumb/feusd.jpg?1743581333",
+    "small": "https://coin-images.coingecko.com/coins/images/55068/small/feusd.jpg?1743581333",
+    "large": "https://coin-images.coingecko.com/coins/images/55068/large/feusd.jpg?1743581333"
+  },
+  "last_updated": "2025-07-11T09:50:58.474702+00:00"
+}

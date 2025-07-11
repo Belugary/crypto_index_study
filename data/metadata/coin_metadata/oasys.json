@@ -1,0 +1,55 @@
+{
+  "id": "oasys",
+  "symbol": "oas",
+  "name": "Oasys",
+  "categories": [
+    "Smart Contract Platform",
+    "Gaming (GameFi)",
+    "Layer 1 (L1)",
+    "Proof of Stake (PoS)",
+    "Gaming Blockchains"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "In the blockchain game, a huge number of transactions occur.\r\nHowever, many blockchains cannot handle so many Transactions, and nodes often crash.\r\nOasys, as a game-specific blockchain, uses technology that is less likely to fail due to the increased number of transactions caused by games.\r\n\r\nOasys is a multi-layered EVM-compatible PoS public blockchain that solves game developers’ struggles with other blockchains.\r\n\r\nThe main competitors are blockchains trying to solve the problems of scalability, gas fees, and transaction speed of Ethereum. e.g) Flow, Avalanche, Polygon, Polkadot and so on. \r\n\r\nFor gamers\r\n1. Zero Gas Fees\r\n2. High-speed Transactions\r\n3. Scam Less\r\n\r\nFor game developers.\r\n1. Flexible Token Design with using vTokens and oTokens\r\n2. Builders’ Own Verse\r\n3. EVM-Compatible\r\n4. Scam Resistance\r\n\r\n\r\nFor IP holders\r\n1. Easier to Protect IP\r\n2. Eco Friendly\r\n3. A verse limited to own IP\r\n4. Scam Resistance\r\n\r\nAnd features of Oasys are three points as below.\r\nFirstly, Hub-Layer :  High Scalability, High Data Availability, High Network Stability.\r\n\r\nThe Hub-Layer is specialized for storing and exchanging data securely and in a stable manner, so it does not allow applications to run directly. The layer maintains high data availability as all data on Oasys is stored. Block time is set to every 15 seconds , the same level as Ethereum, to ensure stable data transmission to globally distributed nodes. With the same level of network stability as Ethereum, the Hub-Layer has enough resilience to operate with thousands of Verse-Layers connected.\r\n\r\nSecondly, Verse-Layer: Oasys Layer-2 Technology.\r\n\r\nThe Verse-Layer is the layer 2 blockchain on Oasys. The layer can operate as a permissioned chain. While there are several layer 2 options, our solution is customized Optimistic rollups at this moment.\r\n\r\nFinally, Token Design: Three Types of FT/NFT.\r\n\r\nFungible Token (FT) and Non-Fungible Token (NFT) are essential assets for tokenomics in the ecosystem. "
+  },
+  "links": {
+    "homepage": [
+      "https://www.oasys.games/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.oasys.games/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/8hfWTbKVex"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "oasys_games",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/oasysgames"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/27909/thumb/OAS.png?1696526929",
+    "small": "https://coin-images.coingecko.com/coins/images/27909/small/OAS.png?1696526929",
+    "large": "https://coin-images.coingecko.com/coins/images/27909/large/OAS.png?1696526929"
+  },
+  "last_updated": "2025-07-11T09:51:56.137748+00:00"
+}

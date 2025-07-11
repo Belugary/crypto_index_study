@@ -1,0 +1,48 @@
+{
+  "id": "honey-3",
+  "symbol": "honey",
+  "name": "Honey",
+  "categories": [
+    "Stablecoins",
+    "Berachain Ecosystem"
+  ],
+  "asset_platform_id": "berachain",
+  "platforms": {
+    "berachain": "0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.berachain.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://berascan.com/token/0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "berachain",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54194/thumb/honey.png?1738725085",
+    "small": "https://coin-images.coingecko.com/coins/images/54194/small/honey.png?1738725085",
+    "large": "https://coin-images.coingecko.com/coins/images/54194/large/honey.png?1738725085"
+  },
+  "last_updated": "2025-07-11T09:52:47.018404+00:00"
+}

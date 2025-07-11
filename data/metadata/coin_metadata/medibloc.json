@@ -1,0 +1,51 @@
+{
+  "id": "medibloc",
+  "symbol": "med",
+  "name": "Medibloc",
+  "categories": [
+    "Healthcare",
+    "Osmosis Ecosystem"
+  ],
+  "asset_platform_id": "osmosis",
+  "platforms": {
+    "osmosis": "ibc/3BCCC93AD5DF58D11A6F8A05FA8BC801CBA0BA61A981F57E91B8B598BF8061CB"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2017-09-08",
+  "country_origin": "GI",
+  "description": {
+    "en": "MediBloc’s healthcare information platform is a personal data ecosystem for patients, providers and researchers, built on blockchain technology. Our mission is to streamline medicine for patients, providers and researchers by redistributing value behind personal healthcare data ownership.Through MediBloc, you can effectively own your medical data, providers can remove redundancies to provide better care, and your valuable data can help researchers push the advancement of medicine faster than ever."
+  },
+  "links": {
+    "homepage": [
+      "https://medibloc.com/"
+    ],
+    "whitepaper": "https://medibloc.org/whitepaper/medibloc_whitepaper_en.pdf",
+    "blockchain_site": [
+      "https://www.mintscan.io/osmosis/assets/ibc/aWJjLzNCQ0NDOTNBRDVERjU4RDExQTZGOEEwNUZBOEJDODAxQ0JBMEJBNjFBOTgxRjU3RTkxQjhCNTk4QkY4MDYxQ0I=",
+      "https://atomscan.com/medibloc"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "_MediBloc",
+    "facebook_username": "medibloc",
+    "bitcointalk_thread_identifier": 2285103,
+    "telegram_channel_identifier": "medibloc",
+    "subreddit_url": "https://www.reddit.com/r/MediBloc",
+    "repos_url": {
+      "github": [
+        "https://github.com/medibloc"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/1374/thumb/medibloc_basic.png?1696502431",
+    "small": "https://coin-images.coingecko.com/coins/images/1374/small/medibloc_basic.png?1696502431",
+    "large": "https://coin-images.coingecko.com/coins/images/1374/large/medibloc_basic.png?1696502431"
+  },
+  "last_updated": "2025-07-11T09:51:43.666434+00:00"
+}

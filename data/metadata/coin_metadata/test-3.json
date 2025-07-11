@@ -1,0 +1,51 @@
+{
+  "id": "test-3",
+  "symbol": "tst",
+  "name": "Test",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Meme",
+    "Binance Alpha Spotlight",
+    "Four.meme Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x86bb94ddd16efc8bc58e6b056e8df71d9e666429"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Say \"Hello\" to , Test Token, deployed by Binance on four.meme!\r\n\r\nThis innovative memecoin is designed to captivate the crypto community with its unique features and promising potential.\r\n\r\nTest Token is set to make waves in the crypto market.\r\n\r\nGet ready to embark on an exciting journey with Test Token, and be part of the future of decentralized finance and meme culture.\r\n\r\nDev's previous project hit 100b"
+  },
+  "links": {
+    "homepage": [
+      "https://testtoken.vip/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x86Bb94DdD16Efc8bc58e6b056e8df71D9e666429",
+      "https://binplorer.com/address/0x86Bb94DdD16Efc8bc58e6b056e8df71D9e666429"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "TestonBSC",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Testonbsc",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54274/thumb/Test.png?1738997629",
+    "small": "https://coin-images.coingecko.com/coins/images/54274/small/Test.png?1738997629",
+    "large": "https://coin-images.coingecko.com/coins/images/54274/large/Test.png?1738997629"
+  },
+  "last_updated": "2025-07-11T09:52:21.691347+00:00"
+}

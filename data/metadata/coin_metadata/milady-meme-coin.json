@@ -1,0 +1,57 @@
+{
+  "id": "milady-meme-coin",
+  "symbol": "ladys",
+  "name": "Milady Meme Coin",
+  "categories": [
+    "Meme",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "DWF Labs Portfolio",
+    "4chan-Themed"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x12970e6868f88f6557b76120662c1b3e50a646bf",
+    "arbitrum-one": "0x3b60ff35d3f7f62d636b067dd0dc0dfdad670e4e"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "$LADYS coin has no association with Charlotte Fang or her creation Milady Maker. This token is simply paying homage to a meme we all love and recognize.\r\n\r\n$LADYS is a meme coin with no intrinsic value or expectation of financial return. There is no formal team or roadmap. the coin is completely useless and for entertainment purposes only.\r\n\r\nThe project was initiated on 05 May 2023 and the contract was deployed on 07 May 2023.\r\n\r\nThe project will be launching a dapp on the official website for all holders of PEPE tokens and Milady Maker NFTs to claim $LADYS.\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://milady.gg"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x12970e6868f88f6557b76120662c1b3e50a646bf",
+      "https://platform.arkhamintelligence.com/explorer/token/milady-meme-coin",
+      "https://ethplorer.io/address/0x12970e6868f88f6557b76120662c1b3e50a646bf",
+      "https://arbiscan.io/token/0x3b60ff35d3f7f62d636b067dd0dc0dfdad670e4e"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/6H5KGwGcKx"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "miladymemecoin",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "miladymemecoinchannel",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/30194/thumb/LADYS_Clean.png?1725897475",
+    "small": "https://coin-images.coingecko.com/coins/images/30194/small/LADYS_Clean.png?1725897475",
+    "large": "https://coin-images.coingecko.com/coins/images/30194/large/LADYS_Clean.png?1725897475"
+  },
+  "last_updated": "2025-07-11T09:53:50.724740+00:00"
+}

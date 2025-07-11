@@ -1,0 +1,52 @@
+{
+  "id": "astherus-staked-usdf",
+  "symbol": "asusdf",
+  "name": "Aster Staked USDF",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Liquid Staking Tokens"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x917af46b3c3c6e1bb7286b9f59637fb7c65851fb"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Aster is a decentralized perpetual exchange built for everyone. It offers MEV-free, one-click trading with up to 1001x leverage in Simple Mode, and full-featured, pro-grade tools in Pro Mode. Backed by YZi Labs, Aster is building the future of DeFi: fast, flexible, and community-first.\r\n\r\nasUSDF is a liquid staking derivative of the Aster-issued USDF stablecoin. It accrues APY from delta-neutral strategies and funding rates. It also accrues Au points for the Aster token airdrop."
+  },
+  "links": {
+    "homepage": [
+      "https://www.asterdex.com/en/earn"
+    ],
+    "whitepaper": "https://docs.asterdex.com/product/aster-earn/earn/mint-asusdf",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x917af46b3c3c6e1bb7286b9f59637fb7c65851fb",
+      "https://binplorer.com/address/0x917AF46B3C3c6e1Bb7286B9F59637Fb7C65851Fb"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "http://discord.gg/invite/HzrgVv7n64",
+      "https://medium.com/asterdex"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Aster_DEX",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "AsterDEX",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54132/thumb/asUSDF.png?1744789471",
+    "small": "https://coin-images.coingecko.com/coins/images/54132/small/asUSDF.png?1744789471",
+    "large": "https://coin-images.coingecko.com/coins/images/54132/large/asUSDF.png?1744789471"
+  },
+  "last_updated": "2025-07-11T09:54:56.602773+00:00"
+}

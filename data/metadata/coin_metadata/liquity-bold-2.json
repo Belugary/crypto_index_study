@@ -1,0 +1,55 @@
+{
+  "id": "liquity-bold-2",
+  "symbol": "bold",
+  "name": "Liquity BOLD",
+  "categories": [
+    "Stablecoins",
+    "Decentralized Finance (DeFi)",
+    "USD Stablecoin",
+    "Stablecoin Protocol",
+    "Crypto-backed Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x6440f144b7e50d6a8439336510312d2f54beb01d"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "BOLD is a fully redeemable USD-pegged stablecoin issued by the Liquity Protocol. It is used to pay out loans within the Liquity ecosystem, which allows users to set their own interest rates and borrow against ETHm, wstETH, and rETH as collateral. Loans must maintain a minimum collateral ratio of 110% and are secured by a Stability Pool containing BOLD and by fellow borrowers acting as guarantors of last resort."
+  },
+  "links": {
+    "homepage": [
+      "https://www.liquity.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/address/0x6440f144b7e50d6a8439336510312d2f54beb01d",
+      "https://etherscan.io/token/0x6440f144b7e50D6a8439336510312d2F54beB01D",
+      "https://ethplorer.io/address/0x6440f144b7e50D6a8439336510312d2F54beB01D"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "LiquityProtocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/liquity/bold"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/56069/thumb/BOLD_logo.png?1748265087",
+    "small": "https://coin-images.coingecko.com/coins/images/56069/small/BOLD_logo.png?1748265087",
+    "large": "https://coin-images.coingecko.com/coins/images/56069/large/BOLD_logo.png?1748265087"
+  },
+  "last_updated": "2025-07-11T09:53:01.198933+00:00"
+}

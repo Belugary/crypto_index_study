@@ -1,0 +1,62 @@
+{
+  "id": "netmind-token",
+  "symbol": "nmt",
+  "name": "NetMind Token",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem",
+    "DePIN",
+    "AI Agents"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x03aa6298f1370642642415edc0db8b957783e8d6",
+    "binance-smart-chain": "0x03aa6298f1370642642415edc0db8b957783e8d6"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "NetMind Power leverages the underutilized or idle GPUs of users worldwide, creating a global network of computing power. This approach addresses the monopolistic control in the computing sector by harnessing a vast, untapped resource. Many individuals own GPUs for activities like gaming, video rendering, or crypto mining, which often remain underutilized. NetMind Power utilizes these GPUs, offering a solution that benefits both GPU owners and the AI community.\r\n\r\nThe platform integrates large-scale distributed computing, incorporating grid computing, voluntary computing scheduling, and load balancing technologies. It provides a low-latency, well-connected, and easy-to-manage environment for distributed deep learning training and inference. The core components of NetMind Power include a training platform, an inference platform, and the NetMind Chain and Token (NMT). This utility token facilitates transactions within the platform.\r\n\r\nNetMind Power's innovative approach is particularly relevant in the current landscape, where AI has become a major technological advancement. The demand for high-performance computing is continuously rising, making access to necessary resources expensive and limited. By tapping into the pool of idle GPUs, NetMind Power offers a cost-effective and efficient solution for AI model training and inference."
+  },
+  "links": {
+    "homepage": [
+      "https://power.netmind.ai",
+      "https://power.netmind.ai/NMT",
+      "https://power.netmind.ai/NetMindChain"
+    ],
+    "whitepaper": "https://netmind-power.gitbook.io/white-paper/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x03aa6298f1370642642415edc0db8b957783e8d6",
+      "https://platform.arkhamintelligence.com/explorer/token/netmind-token",
+      "https://ethplorer.io/address/0x03aa6298f1370642642415edc0db8b957783e8d6",
+      "https://bscscan.com/token/0x03aa6298f1370642642415edc0db8b957783e8d6",
+      "https://binplorer.com/address/0x03aa6298f1370642642415edc0db8b957783e8d6"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/netmind-ai"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/JYD4aPTqsg"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "NetmindAi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "NetmindAI",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/35328/thumb/NMT-logo.png?1708267799",
+    "small": "https://coin-images.coingecko.com/coins/images/35328/small/NMT-logo.png?1708267799",
+    "large": "https://coin-images.coingecko.com/coins/images/35328/large/NMT-logo.png?1708267799"
+  },
+  "last_updated": "2025-07-11T09:55:27.905443+00:00"
+}

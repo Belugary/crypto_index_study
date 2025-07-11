@@ -1,0 +1,55 @@
+{
+  "id": "metfi-2",
+  "symbol": "metfi",
+  "name": "MetFi",
+  "categories": [
+    "BNB Chain Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x3e7f1039896454b9cb27c53cc7383e1ab9d9512a"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://app.metfi.io"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x3e7f1039896454b9cb27c53cc7383e1ab9d9512a",
+      "https://platform.arkhamintelligence.com/explorer/token/metfi-2",
+      "https://bnb.dex.guru/token/0x3e7f1039896454b9cb27c53cc7383e1ab9d9512a",
+      "https://binplorer.com/address/0x3e7f1039896454b9cb27c53cc7383e1ab9d9512a"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/R7YqC5xVSW",
+      "https://medium.com/@MetFi_DAO"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "MetFi_DAO",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "MetFiChat",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/metfi"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/29676/thumb/logo-200.png?1696528611",
+    "small": "https://coin-images.coingecko.com/coins/images/29676/small/logo-200.png?1696528611",
+    "large": "https://coin-images.coingecko.com/coins/images/29676/large/logo-200.png?1696528611"
+  },
+  "last_updated": "2025-07-11T09:51:57.191550+00:00"
+}

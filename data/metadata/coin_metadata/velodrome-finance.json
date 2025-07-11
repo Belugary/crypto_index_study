@@ -1,0 +1,53 @@
+{
+  "id": "velodrome-finance",
+  "symbol": "velo",
+  "name": "Velodrome Finance",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Optimism Ecosystem"
+  ],
+  "asset_platform_id": "optimistic-ethereum",
+  "platforms": {
+    "optimistic-ethereum": "0x9560e827af36c94d2ac33a39bce1fe78631088db"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Velodrome Finance is the trading and liquidity marketplace on Optimism."
+  },
+  "links": {
+    "homepage": [
+      "https://velodrome.finance/"
+    ],
+    "whitepaper": "https://docs.velodrome.finance/",
+    "blockchain_site": [
+      "https://optimistic.etherscan.io/token/0x9560e827af36c94d2ac33a39bce1fe78631088db",
+      "https://platform.arkhamintelligence.com/explorer/token/velodrome-finance",
+      "https://optimism.dex.guru/token/0x9560e827af36c94d2ac33a39bce1fe78631088db"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/velodrome",
+      "https://medium.com/@VelodromeFi"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "VelodromeFi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/25783/thumb/velo.png?1696524870",
+    "small": "https://coin-images.coingecko.com/coins/images/25783/small/velo.png?1696524870",
+    "large": "https://coin-images.coingecko.com/coins/images/25783/large/velo.png?1696524870"
+  },
+  "last_updated": "2025-07-11T09:52:08.754463+00:00"
+}

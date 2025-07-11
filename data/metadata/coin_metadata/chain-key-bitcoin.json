@@ -1,0 +1,51 @@
+{
+  "id": "chain-key-bitcoin",
+  "symbol": "ckbtc",
+  "name": "Chain-key Bitcoin",
+  "categories": [
+    "Tokenized BTC",
+    "Wrapped-Tokens",
+    "Internet Computer Ecosystem"
+  ],
+  "asset_platform_id": "internet-computer",
+  "platforms": {
+    "internet-computer": "mxzaz-hqaaa-aaaar-qaada-cai"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://internetcomputer.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://dashboard.internetcomputer.org/canister/mxzaz-hqaaa-aaaar-qaada-cai"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://medium.com/dfinity"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "dfinity",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33818/thumb/01_ckBTC_Token_HEX__4x.png?1703046026",
+    "small": "https://coin-images.coingecko.com/coins/images/33818/small/01_ckBTC_Token_HEX__4x.png?1703046026",
+    "large": "https://coin-images.coingecko.com/coins/images/33818/large/01_ckBTC_Token_HEX__4x.png?1703046026"
+  },
+  "last_updated": "2025-07-11T09:53:13.479949+00:00"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "clover-finance",
+  "symbol": "clv",
+  "name": "Clover Finance",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem",
+    "Layer 2 (L2)"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x80c62fe4487e1351b47ba49809ebd60ed085bf52",
+    "binance-smart-chain": "0x09e889bb4d5b474f561db0491c38702f367a4e4d"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "VG",
+  "description": {
+    "en": "CLV is a one-stop infrastructure platform for cross-chain and decentralized applications. The CLV chain is a Substrate-based specialized Layer-1 chain that is EVM compatible, cross-chain interoperable, and also functions as a Parachain in the Polkadot ecosystem. CLV wallet is a cross-chain all-in-one wallet, for Day-to-Day, DeFi, Metaverse and Gaming purposes. With multi-dimensional products lineup, including CLV Multi-Chain Wallets, CLV dApp Interaction Protocol, CLV Chain EVM and Universal Cross-Chain Support, CLV uniquely positioned itself as “Passport to the Omniverse.”"
+  },
+  "links": {
+    "homepage": [
+      "https://clv.org/"
+    ],
+    "whitepaper": "https://clv.org/whitepaper.pdf",
+    "blockchain_site": [
+      "https://clover.subscan.io/",
+      "https://platform.arkhamintelligence.com/explorer/token/clover-finance",
+      "https://etherscan.io/token/0x80c62fe4487e1351b47ba49809ebd60ed085bf52",
+      "https://bscscan.com/token/0x09e889bb4d5b474f561db0491c38702f367a4e4d",
+      "https://ethplorer.io/address/0x80c62fe4487e1351b47ba49809ebd60ed085bf52",
+      "https://binplorer.com/address/0x09e889bb4d5b474f561db0491c38702f367a4e4d"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/M6SxuXqMVB",
+      "https://medium.com/@LucentNetwork"
+    ],
+    "announcement_url": [
+      "https://medium.com/@clv_org",
+      "https://blog.clover.finance/?gi=d7eb4c021f15"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "Lucent_Network",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "clvorg",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/clover-network"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/15278/thumb/CLV_-_Circle_Logo_-_Only_Icon_1_%281%29.png?1734037808",
+    "small": "https://coin-images.coingecko.com/coins/images/15278/small/CLV_-_Circle_Logo_-_Only_Icon_1_%281%29.png?1734037808",
+    "large": "https://coin-images.coingecko.com/coins/images/15278/large/CLV_-_Circle_Logo_-_Only_Icon_1_%281%29.png?1734037808"
+  },
+  "last_updated": "2025-07-11T09:55:05.649715+00:00"
+}

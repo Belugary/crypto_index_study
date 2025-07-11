@@ -1,0 +1,51 @@
+{
+  "id": "tars-protocol",
+  "symbol": "tai",
+  "name": "TARS AI",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Solana Ecosystem"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "Hax9LTgsQkze1YFychnBLtFH8gYbQKtKfWKKg2SP6gdD"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "TARS Protocol is an AI-driven, scalable Web3 modular infrastructure platform designed to empower projects with cutting-edge artificial intelligence solutions and one-stop BaaS (Blockchain-as-a-Service). TARS aims to bridge the gap between AI and Web3 worlds by providing a unified platform for AI-powered tools and services, enabling organizations and individuals to effortlessly transition from Web2 to Web3."
+  },
+  "links": {
+    "homepage": [
+      "https://tars.pro/"
+    ],
+    "whitepaper": "https://docs.tars.pro/",
+    "blockchain_site": [
+      "https://solscan.io/token/Hax9LTgsQkze1YFychnBLtFH8gYbQKtKfWKKg2SP6gdD",
+      "https://platform.arkhamintelligence.com/explorer/token/tars-protocol"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "tarsprotocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "tars_pro",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Tars-protocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/37538/thumb/image_6.png?1736608965",
+    "small": "https://coin-images.coingecko.com/coins/images/37538/small/image_6.png?1736608965",
+    "large": "https://coin-images.coingecko.com/coins/images/37538/large/image_6.png?1736608965"
+  },
+  "last_updated": "2025-07-11T09:52:01.239799+00:00"
+}

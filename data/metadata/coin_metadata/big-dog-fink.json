@@ -1,0 +1,49 @@
+{
+  "id": "big-dog-fink",
+  "symbol": "bink",
+  "name": "Big Dog Fink",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Solana Meme"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "CeK6k4BMmiqkxkzYAbQuUp3hrVFSHxuQ1LJXmNybc3vz"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "In an unprecedented CTO, Big Dog Fink has officially been removed from BarkRock and has been appointed as the Treasury Secretary of the Department of Government Efficiency (D.O.G.E).\r\n\r\nTogether, we’re building a new era for Big Dog Fink and taking this memecoin to the next level!\r\n\r\nAs the new Treasury Secretary, Big Dog is launching the Blockchain Defense Fund (BDF).\r\n\r\nThis initiative is dedicated to supporting policies and innovations that will keep America at the forefront of blockchain technology.\r\n\r\nOur mission is clear: to make blockchain great again."
+  },
+  "links": {
+    "homepage": [
+      "https://bigdogfink.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/CeK6k4BMmiqkxkzYAbQuUp3hrVFSHxuQ1LJXmNybc3vz"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "bigdogfink",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "bigdogfink",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/51674/thumb/IMG_6585.png?1731774784",
+    "small": "https://coin-images.coingecko.com/coins/images/51674/small/IMG_6585.png?1731774784",
+    "large": "https://coin-images.coingecko.com/coins/images/51674/large/IMG_6585.png?1731774784"
+  },
+  "last_updated": "2025-07-11T09:53:51.692810+00:00"
+}

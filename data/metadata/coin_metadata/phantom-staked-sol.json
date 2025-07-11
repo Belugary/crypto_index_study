@@ -1,0 +1,49 @@
+{
+  "id": "phantom-staked-sol",
+  "symbol": "psol",
+  "name": "Phantom Staked SOL",
+  "categories": [
+    "Solana Ecosystem",
+    "Liquid Staked SOL",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "pSo1f9nQXWgXibFtKf7NWYxb5enAM4qfP6UJSiXRQfL"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Phantom Liquid Staking Token. Liquid Staking with Phantom Staked Solana - deposit SOL into the Phantom stake pool to get PSOL, which grows with your stake. Redeem your PSOL later for your initial amount + accrued rewards or use it in DeFi. Liquid Staking with Phantom Staked Solana provides higher average rewards versus native Solana staking by sharing in MEV tips and priority fees earned, and leverages the Solana stake pool program, which has been audited 9 times."
+  },
+  "links": {
+    "homepage": [
+      "https://phantom.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/pSo1f9nQXWgXibFtKf7NWYxb5enAM4qfP6UJSiXRQfL"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "phantom",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55849/thumb/PSOL.png?1747410026",
+    "small": "https://coin-images.coingecko.com/coins/images/55849/small/PSOL.png?1747410026",
+    "large": "https://coin-images.coingecko.com/coins/images/55849/large/PSOL.png?1747410026"
+  },
+  "last_updated": "2025-07-11T09:52:31.002012+00:00"
+}

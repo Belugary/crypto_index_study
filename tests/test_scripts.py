@@ -99,7 +99,9 @@ class TestPriceDataUpdaterLogic(unittest.TestCase):
         ]
 
         # 模拟稳定币检查器
-        self.mock_checker.is_stablecoin.side_effect = lambda symbol: symbol == "usdt"
+        self.mock_checker.is_stablecoin.side_effect = lambda symbol: {
+            "is_stablecoin": symbol == "usdt"
+        }
 
         # 模拟包装币检查器
         self.mock_wrapped_checker.is_wrapped_coin.side_effect = lambda coin_id: {

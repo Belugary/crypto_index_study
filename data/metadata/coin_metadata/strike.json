@@ -1,0 +1,58 @@
+{
+  "id": "strike",
+  "symbol": "strike",
+  "name": "Strike",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Lending/Borrowing Protocols",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x74232704659ef37c08995e386a2e26cc27a8d7b1"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Strike enables users and developers to supply digital assets onto the platform to earn from dyanmic rates provided by the protocol and use that supplied asset as collateral to borrow other supported digital assets all on-chain."
+  },
+  "links": {
+    "homepage": [
+      "https://strike.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x74232704659ef37c08995e386a2e26cc27a8d7b1",
+      "https://platform.arkhamintelligence.com/explorer/token/strike",
+      "https://ethplorer.io/address/0x74232704659ef37c08995e386a2e26cc27a8d7b1"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://community.strike.org/",
+      "https://t.me/StrikeNews"
+    ],
+    "announcement_url": [
+      "https://medium.com/strikefinance"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "StrikeFinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "StrikeFinance",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/StrikeFinance"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/14607/thumb/Jw-36llq_400x400.jpg?1696514286",
+    "small": "https://coin-images.coingecko.com/coins/images/14607/small/Jw-36llq_400x400.jpg?1696514286",
+    "large": "https://coin-images.coingecko.com/coins/images/14607/large/Jw-36llq_400x400.jpg?1696514286"
+  },
+  "last_updated": "2025-07-11T09:53:52.716884+00:00"
+}

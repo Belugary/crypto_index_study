@@ -1,0 +1,73 @@
+{
+  "id": "dforce-token",
+  "symbol": "df",
+  "name": "dForce",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "Lending/Borrowing Protocols",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Multicoin Capital Portfolio",
+    "Stablecoin Protocol",
+    "Energi Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x431ad2ff6a9c365805ebad47ee021148d6f7dbe0",
+    "arbitrum-one": "0xae6aab43c4f3e0cea4ab83752c278f8debaba689",
+    "energi": "0xc588d81d1a9ef1a119446482fc7cbcdb0012292a",
+    "binance-smart-chain": "0x4a9a2b2b04549c3927dd2c9668a5ef3fca473623"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "dForce is advocating for building a full suite of DeFi protocols covering assets, lending, trading, staking, and bridge, serving as DeFi infrastructure in Web3. \r\n\r\ndForce DAO is a community-driven project, with major protocol changes driven by the community and jointly decided by DF token holders through governance. \r\n\r\nStablecoin USX\r\nUSX is the most important DeFi primitive within dForce’s protocol matrix. As a decentralized and algorithmic stablecoin, USX implements a dual model (pool-based & vault-based) with hybrid interest rate policy, making it highly efficient and flexible to support collaterals of different risk profiles in isolation. USX is powered by protocol-controlled liquidity to facilitate protocol-to-protocol integrations, as well as cross-chain bridge that allow users to move USX across supported blockchains with zero slippage and uncapped limit.  \r\n\r\ndForce Lending \r\ndForce Lending is a pool-based multi-sided lending protocol which supports multiple collaterals with a market-driven dynamic interest rate model. dForce Lending has undergone extensive code reviews and security audits by Trail of Bits, ConsenSys Diligence, CertiK, Certora (formal verification), with a bug bounty launched through Immunefi. dForce Lending has been deployed for over 1 year and is well battle-tested.\r\n\r\ndForce Staking\r\ndForce introduces a hybrid model featuring both Free Staking and Lock-up Staking. Staking unlocks a new approach for DF token holders to capture fee income across dForce network. Participants in Free Staking can unstake at any time, whilst those committed to Lock-up Staking will earn higher yield and voting power. In addition, most of DF purchased in the secondary market will be rewarded to participants in Lock-up Staking. \r\n\r\ndForce Trading\r\nPeer-to-peer marketplace with aggregated liquidity across different platforms with the best price.\r\n\r\ndForce Bridge\r\nA cross-chain bridging tool facilitating instant and low-cost transfer of USX and DF across all supported L2s and blockchains.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://dforce.network/",
+      "https://usdx.dforce.network/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x431ad2ff6a9c365805ebad47ee021148d6f7dbe0",
+      "https://platform.arkhamintelligence.com/explorer/token/dforce-token",
+      "https://ethplorer.io/address/0x431ad2ff6a9c365805ebad47ee021148d6f7dbe0",
+      "https://arbiscan.io/token/0xae6aab43c4f3e0cea4ab83752c278f8debaba689",
+      "https://explorer.energi.network/token/0xc588d81d1a9ef1a119446482fc7cbcdb0012292a",
+      "https://bscscan.com/token/0x4a9a2b2b04549c3927dd2c9668a5ef3fca473623",
+      "https://binplorer.com/address/0x4a9a2b2b04549c3927dd2c9668a5ef3fca473623"
+    ],
+    "official_forum_url": [
+      "https://forum.dforce.network/"
+    ],
+    "chat_url": [
+      "https://www.linkedin.com/company/dforce-network/",
+      "https://discord.com/invite/Gbtd3MR"
+    ],
+    "announcement_url": [
+      "https://medium.com/dforcenet"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": null,
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": "https://www.reddit.com/r/dForceNetwork/",
+    "repos_url": {
+      "github": [
+        "https://github.com/dforcenetwork"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/9709/thumb/xlGxxIjI_400x400.jpg?1696509776",
+    "small": "https://coin-images.coingecko.com/coins/images/9709/small/xlGxxIjI_400x400.jpg?1696509776",
+    "large": "https://coin-images.coingecko.com/coins/images/9709/large/xlGxxIjI_400x400.jpg?1696509776"
+  },
+  "last_updated": "2025-07-11T09:54:59.926054+00:00"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "gains-network",
+  "symbol": "gns",
+  "name": "Gains Network",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Derivatives",
+    "Perpetuals",
+    "Polygon Ecosystem",
+    "Arbitrum Ecosystem",
+    "Base Ecosystem",
+    "ApeChain Ecosystem"
+  ],
+  "asset_platform_id": "polygon-pos",
+  "platforms": {
+    "polygon-pos": "0xe5417af564e4bfda1c483642db72007871397896",
+    "apechain": "0xe31c676d8235437597581b44c1c4f8a30e90b38a",
+    "arbitrum-one": "0x18c11fd286c5ec11c3b683caa813b77f5163a122",
+    "base": "0xfb1aaba03c31ea98a3eec7591808acb1947ee7ac"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "\\"
+  },
+  "links": {
+    "homepage": [
+      "https://gains.trade/"
+    ],
+    "whitepaper": "https://gains-network.gitbook.io/docs-home/",
+    "blockchain_site": [
+      "https://polygonscan.com/token/0xe5417af564e4bfda1c483642db72007871397896",
+      "https://platform.arkhamintelligence.com/explorer/token/gains-network",
+      "https://arbiscan.io/token/0x18c11fd286c5ec11c3b683caa813b77f5163a122",
+      "https://polygon.dex.guru/token/0xe5417af564e4bfda1c483642db72007871397896",
+      "https://arbitrum.dex.guru/token/0x18c11fd286c5ec11c3b683caa813b77f5163a122",
+      "https://basescan.org/token/0xFB1Aaba03c31EA98A3eEC7591808AcB1947ee7Ac",
+      "https://apescan.io/token/0xe31c676d8235437597581b44c1c4f8a30e90b38a"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/gains-network"
+    ],
+    "announcement_url": [
+      "https://gainsnetwork-io.medium.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "GainsNetwork_io",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "GainsNetwork",
+    "subreddit_url": "https://www.reddit.com/r/GainsNetwork/",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/19737/thumb/logo.png?1696519161",
+    "small": "https://coin-images.coingecko.com/coins/images/19737/small/logo.png?1696519161",
+    "large": "https://coin-images.coingecko.com/coins/images/19737/large/logo.png?1696519161"
+  },
+  "last_updated": "2025-07-11T09:51:51.712203+00:00"
+}

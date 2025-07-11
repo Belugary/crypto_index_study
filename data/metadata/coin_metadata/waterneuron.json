@@ -1,0 +1,50 @@
+{
+  "id": "waterneuron",
+  "symbol": "wtn",
+  "name": "WaterNeuron",
+  "categories": [
+    "Internet Computer Ecosystem"
+  ],
+  "asset_platform_id": "internet-computer",
+  "platforms": {
+    "internet-computer": "jcmow-hyaaa-aaaaq-aadlq-cai"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "WaterNeuron is a liquid staking protocol designed for the Internet Computer (ICP) network. It allows users to stake their ICP tokens in a capital-efficient manner by issuing nICP tokens They represent the staked ICP and can be used within the DeFi ecosystem on the Internet Computer. This enables users to benefit from both the staking rewards of ICP and the yields from DeFi applications without locking up their tokens."
+  },
+  "links": {
+    "homepage": [
+      "https://docs.waterneuron.fi"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://dashboard.internetcomputer.org/sns/jmod6-4iaaa-aaaaq-aadkq-cai/transactions",
+      "https://dashboard.internetcomputer.org/canister/jcmow-hyaaa-aaaaq-aadlq-cai"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "WaterNeuron",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/WaterNeuron"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39647/thumb/logo.png?1723427101",
+    "small": "https://coin-images.coingecko.com/coins/images/39647/small/logo.png?1723427101",
+    "large": "https://coin-images.coingecko.com/coins/images/39647/large/logo.png?1723427101"
+  },
+  "last_updated": "2025-07-11T09:56:32.319628+00:00"
+}

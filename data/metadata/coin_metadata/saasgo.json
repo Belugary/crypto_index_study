@@ -1,0 +1,50 @@
+{
+  "id": "saasgo",
+  "symbol": "saas",
+  "name": "SaaSGo",
+  "categories": [
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x350e52bb0f874f3b558a3679aac24268ee37a699"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://saasgo.xyz/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x350e52bb0f874f3b558a3679aac24268ee37a699",
+      "https://ethplorer.io/address/0x350e52BB0F874f3B558A3679aac24268Ee37A699"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SaaSGoOfficial",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "SaaSGo_Official",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/EncentiveProtocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/52986/thumb/saasgo.jpg?1734920034",
+    "small": "https://coin-images.coingecko.com/coins/images/52986/small/saasgo.jpg?1734920034",
+    "large": "https://coin-images.coingecko.com/coins/images/52986/large/saasgo.jpg?1734920034"
+  },
+  "last_updated": "2025-07-11T09:53:25.177697+00:00"
+}

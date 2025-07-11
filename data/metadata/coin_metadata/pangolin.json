@@ -1,0 +1,52 @@
+{
+  "id": "pangolin",
+  "symbol": "png",
+  "name": "Pangolin",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Decentralized Finance (DeFi)",
+    "Avalanche Ecosystem",
+    "Olympus Pro Ecosystem"
+  ],
+  "asset_platform_id": "avalanche",
+  "platforms": {
+    "avalanche": "0x60781c2586d68229fde47564546784ab3faca982"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Pangolin is a community-driven decentralized exchange for Avalanche and Ethereum assets with fast settlement, low transaction fees, and a democratic distribution–powered by Avalanche."
+  },
+  "links": {
+    "homepage": [
+      "https://pangolin.exchange/"
+    ],
+    "whitepaper": null,
+    "blockchain_site": [
+      "https://snowtrace.io/token/0x60781c2586d68229fde47564546784ab3faca982",
+      "https://platform.arkhamintelligence.com/explorer/token/pangolin",
+      "https://avascan.info/blockchain/c/address/0x60781c2586d68229fde47564546784ab3faca982/token"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": "https://snapshot.org/#/pangolindex.eth",
+    "twitter_screen_name": "pangolindex",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "pangolindexV2",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/14023/thumb/PNG_token.png?1696513750",
+    "small": "https://coin-images.coingecko.com/coins/images/14023/small/PNG_token.png?1696513750",
+    "large": "https://coin-images.coingecko.com/coins/images/14023/large/PNG_token.png?1696513750"
+  },
+  "last_updated": "2025-07-11T09:54:55.127901+00:00"
+}

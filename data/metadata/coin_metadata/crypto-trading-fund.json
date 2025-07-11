@@ -1,0 +1,53 @@
+{
+  "id": "crypto-trading-fund",
+  "symbol": "ctf",
+  "name": "Crypto Trading Fund",
+  "categories": [
+    "Polygon Ecosystem",
+    "XRP Ledger Ecosystem"
+  ],
+  "asset_platform_id": "polygon-pos",
+  "platforms": {
+    "polygon-pos": "0x7b3bd12675c6b9d6993eb81283cb68e6eb9260b5",
+    "xrp": "r9Xzi4KsSF1Xtr8WHyBmUcvfP9FzTyG5wp"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "A community-driven innovative network and platform where your money actively serves you, connecting you to a framework for generating passive income through blockchain technology"
+  },
+  "links": {
+    "homepage": [
+      "https://www.ctftoken.com/"
+    ],
+    "whitepaper": "https://www.ctftoken.com/_files/ugd/888cba_0a3ed637315a4b58ba1b46e5dff09193.pdf",
+    "blockchain_site": [
+      "https://polygonscan.com/token/0x7b3bd12675c6b9d6993eb81283cb68e6eb9260b5",
+      "https://platform.arkhamintelligence.com/explorer/token/crypto-trading-fund",
+      "https://xrpscan.com/account/r9xzi4kssf1xtr8whybmucvfp9fztyg5wp",
+      "https://xrpscan.com/token/r9Xzi4KsSF1Xtr8WHyBmUcvfP9FzTyG5wp",
+      "https://livenet.xrpl.org/token/r9Xzi4KsSF1Xtr8WHyBmUcvfP9FzTyG5wp"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "TokenCTF",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "CTFCommunity",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/37122/thumb/33DE079C-182B-40D7-B26D-0D7E12158140.jpeg?1713366927",
+    "small": "https://coin-images.coingecko.com/coins/images/37122/small/33DE079C-182B-40D7-B26D-0D7E12158140.jpeg?1713366927",
+    "large": "https://coin-images.coingecko.com/coins/images/37122/large/33DE079C-182B-40D7-B26D-0D7E12158140.jpeg?1713366927"
+  },
+  "last_updated": "2025-07-11T09:53:36.211112+00:00"
+}

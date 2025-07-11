@@ -1,0 +1,51 @@
+{
+  "id": "t-mac-dao",
+  "symbol": "tmg",
+  "name": "T-mac DAO",
+  "categories": [
+    "BNB Chain Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x71b87be9ccbabe4f393e809dfc26df3c9720e0a2"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The T-Mac DAO is the first fan DAO dedicated to the star T-Mac, created by the community and owned by the community. Launched in a fair and transparent format through web3, it is dedicated to expanding T-Mac's brand reach. In the T-Mac DAO, community members can earn governance token rewards and different levels of fan badges through content output, by participating in peripheral activities, creating ecosystem products, influence spreading and various other interactive forms. TMG is the governance token of the DAO. Token holders enjoy the rights and interests of community governance and community-related products, including but not limited to T-Mac peripheral products, limited NFT auction sales, third-party community token airdrops and T-Mac's personal presence and interaction.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://t-mac.homes/home"
+    ],
+    "whitepaper": null,
+    "blockchain_site": [
+      "https://bscscan.com/token/0x71b87be9ccbabe4f393e809dfc26df3c9720e0a2",
+      "https://platform.arkhamintelligence.com/explorer/token/t-mac-dao",
+      "https://binplorer.com/address/0x71b87be9ccbabe4f393e809dfc26df3c9720e0a2"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://medium.com/@T_MacDAO"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "T_MacDAO",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "TMacDAO",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/28117/thumb/tmg.png?1696527125",
+    "small": "https://coin-images.coingecko.com/coins/images/28117/small/tmg.png?1696527125",
+    "large": "https://coin-images.coingecko.com/coins/images/28117/large/tmg.png?1696527125"
+  },
+  "last_updated": "2025-07-11T09:52:48.032488+00:00"
+}

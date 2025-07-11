@@ -1,0 +1,65 @@
+{
+  "id": "binance-usd",
+  "symbol": "busd",
+  "name": "BUSD",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "Ethereum Ecosystem",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x4fabb145d64652a948d72533023f6e7a623c7c53"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Binance USD (BUSD) is a stable coin pegged to USD that has received approval from the New York State Department of Financial Services (NYDFS). BUSD will be available for direct purchase and redemption at a rate of 1 BUSD = 1 USD. "
+  },
+  "links": {
+    "homepage": [
+      "https://www.paxos.com/busd/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x4fabb145d64652a948d72533023f6e7a623c7c53",
+      "https://platform.arkhamintelligence.com/explorer/token/binance-usd",
+      "https://ethplorer.io/address/0x4fabb145d64652a948d72533023f6e7a623c7c53",
+      "https://blockscout.com/astar/token/0x4bf769b05e832fcdc9053fffbc78ca889acb5e1e",
+      "https://evmexplorer.velas.com/address/0xc111c29a988ae0c0087d97b33c6e6766808a3bd3",
+      "https://iotexscan.io/token/0x84abcb2832be606341a50128aeb1db43aa017449",
+      "https://evmexplorer.velas.com/token/0xc9baa8cfdde8e328787e29b4b078abf2dadc2055",
+      "https://www.oklink.com/en/okc/token/0x332730a4f6e03d9c55829435f10360e13cfa41ff",
+      "https://tracemove.io/coin/0xccc9620d38c4f3991fa68a03ad98ef3735f18d04717cb75d7a1300dd8a7eed75::coin::t",
+      "https://aptscan.ai/coins/0xccc9620d38c4f3991fa68a03ad98ef3735f18d04717cb75d7a1300dd8a7eed75::coin::t"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/paxos/"
+    ],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/paxos"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "PaxosGlobal",
+    "facebook_username": "paxosglobal",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/paxosglobal/busd-contract"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/9576/thumb/BUSDLOGO.jpg?1696509654",
+    "small": "https://coin-images.coingecko.com/coins/images/9576/small/BUSDLOGO.jpg?1696509654",
+    "large": "https://coin-images.coingecko.com/coins/images/9576/large/BUSDLOGO.jpg?1696509654"
+  },
+  "last_updated": "2025-07-11T09:51:50.715442+00:00"
+}

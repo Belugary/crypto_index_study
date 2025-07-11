@@ -1,0 +1,70 @@
+{
+  "id": "terrausd",
+  "symbol": "ustc",
+  "name": "TerraClassicUSD",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "Seigniorage",
+    "Alleged SEC Securities",
+    "Osmosis Ecosystem",
+    "Stablecoin Protocol",
+    "DeFiance Capital Portfolio",
+    "Terra Classic Ecosystem",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Delphi Ventures Portfolio",
+    "Galaxy Digital Portfolio",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "terra",
+  "platforms": {
+    "terra": "uusd",
+    "osmosis": "ibc/BE1BB42D4BE3C30D50B68D7C41DB4DFCE9678E8EF8C539F6E6A9345048894FCC"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "SHA-256",
+  "genesis_date": null,
+  "country_origin": "KR",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.terra-classic.money"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://finder.terra.money/classic/",
+      "https://finder.terraport.finance/",
+      "https://finder.terraclassic.community/",
+      "https://luncscan.com/",
+      "https://moon-runners.net/finder",
+      "https://www.mintscan.io/osmosis/assets/ibc/aWJjL0JFMUJCNDJENEJFM0MzMEQ1MEI2OEQ3QzQxREI0REZDRTk2NzhFOEVGOEM1MzlGNkU2QTkzNDUwNDg4OTRGQ0M="
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://terra.sc/classicdiscord"
+    ],
+    "announcement_url": [
+      "https://medium.com/terra-money"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "terra_money",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/terra-project"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/12681/thumb/UST.png?1696512486",
+    "small": "https://coin-images.coingecko.com/coins/images/12681/small/UST.png?1696512486",
+    "large": "https://coin-images.coingecko.com/coins/images/12681/large/UST.png?1696512486"
+  },
+  "last_updated": "2025-07-11T09:50:52.334816+00:00"
+}

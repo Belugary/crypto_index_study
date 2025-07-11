@@ -1,0 +1,55 @@
+{
+  "id": "austin-capitals",
+  "symbol": "aux",
+  "name": "Austin Capitals",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "Payment Solutions"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xeee352f77f28d31601eb20d3de09d7729ca2dc79"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "Austin Token is a digital finance platform that integrates cryptocurrency, arbitrage, NFTs, and metaverse experiences into a unified ecosystem. Built on the Binance Smart Chain, the platform offers fast, secure, and scalable transactions along with advanced arbitrage tools and an NFT marketplace. It provides users with a dedicated wallet solution for asset management and facilitates seamless trading and digital payments. Emphasizing transparency, robust security protocols, and regulatory compliance, Austin Token is engineered to support decentralized finance operations while continuously evolving through innovative blockchain technologies"
+  },
+  "links": {
+    "homepage": [
+      "https://austintoken.live/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0xeee352f77f28d31601eb20d3de09d7729ca2dc79",
+      "https://binplorer.com/address/0xeee352f77f28d31601eB20D3DE09d7729cA2dc79"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/austin_capitals"
+    ],
+    "chat_url": [
+      "https://medium.com/@austincapitals",
+      "https://www.youtube.com/@Austin_capital"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Austin_capitals",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "austin_capitals",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54937/thumb/AUSTIN-Logoo_%281%29.png?1742633631",
+    "small": "https://coin-images.coingecko.com/coins/images/54937/small/AUSTIN-Logoo_%281%29.png?1742633631",
+    "large": "https://coin-images.coingecko.com/coins/images/54937/large/AUSTIN-Logoo_%281%29.png?1742633631"
+  },
+  "last_updated": "2025-07-11T09:53:10.029368+00:00"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "miu-2",
+  "symbol": "miu",
+  "name": "MIU",
+  "categories": [
+    "Meme",
+    "Sui Ecosystem",
+    "Cat-Themed",
+    "Sui Meme"
+  ],
+  "asset_platform_id": "sui",
+  "platforms": {
+    "sui": "0x32a976482bf4154961bf20bfa3567a80122fdf8e8f8b28d752b609d8640f7846::miu::MIU"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "MIU is a community-driven meme token built on the Sui Network, designed to blend entertainment with practical utility. As a cat-themed cryptocurrency, MIU embodies the fun and engagement of meme culture while offering real blockchain utilities. The project features a staking platform, token creation tools, and token locking mechanisms, allowing users to interact with the Sui ecosystem in a meaningful way.\r\n\r\nWith zero tax, fair distribution, and a strong focus on community engagement, MIU fosters an interactive and growing ecosystem. The Community Catalyst Fund further supports engagement through community rewards, events, and ecosystem incentives.\r\n\r\nMIU is more than just a meme—it is a dynamic, evolving project that brings both fun and function to the Sui blockchain"
+  },
+  "links": {
+    "homepage": [
+      "https://miucoin.org",
+      "https://www.geckoterminal.com/sui-network/pools/0x4edb54baafdf02a2219b6c327c9acacd79280b9c98cdc1b2b23230de906fa421"
+    ],
+    "whitepaper": "https://miucoin.org/white-paper-2024.pdf",
+    "blockchain_site": [
+      "https://suiscan.xyz/mainnet/coin/0x32a976482bf4154961bf20bfa3567a80122fdf8e8f8b28d752b609d8640f7846::miu::MIU/txs",
+      "https://suivision.xyz/coin/0x32a976482bf4154961bf20bfa3567a80122fdf8e8f8b28d752b609d8640f7846::miu::MIU"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/miucoinsui/"
+    ],
+    "chat_url": [
+      "https://miucoinsui.medium.com"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "miucoin_sui",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "miucoin_sui",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54420/thumb/miu_200_blue.png?1739602159",
+    "small": "https://coin-images.coingecko.com/coins/images/54420/small/miu_200_blue.png?1739602159",
+    "large": "https://coin-images.coingecko.com/coins/images/54420/large/miu_200_blue.png?1739602159"
+  },
+  "last_updated": "2025-07-11T09:53:16.068027+00:00"
+}

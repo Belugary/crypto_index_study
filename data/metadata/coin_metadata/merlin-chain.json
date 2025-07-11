@@ -1,0 +1,67 @@
+{
+  "id": "merlin-chain",
+  "symbol": "merl",
+  "name": "Merlin Chain",
+  "categories": [
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem",
+    "Layer 2 (L2)",
+    "Merlin Chain Ecosystem",
+    "Bitcoin Sidechains",
+    "SideChain",
+    "OKX Ventures Portfolio"
+  ],
+  "asset_platform_id": "merlin-chain",
+  "platforms": {
+    "merlin-chain": "0x5c46bff4b38dc1eae09c5bac65872a1d8bc87378",
+    "binance-smart-chain": "0xa0c56a8c0692bd10b3fa8f8ba79cf5332b7107f9",
+    "ethereum": "0xa0c56a8c0692bd10b3fa8f8ba79cf5332b7107f9"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Merlin Chain serves as a Layer 2 solution for Bitcoin, incorporating essential components like ZK-Rollup networks, decentralized oracle networks, and fraud proofs within the Bitcoin chain. Its primary objective is to empower the native assets, protocols, and application ecosystem of Bitcoin Layer 1, facilitating ongoing innovation and maximizing asset potential on Layer 2 networks.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://merlinchain.io/",
+      "https://scan.merlinchain.io/"
+    ],
+    "whitepaper": "https://docs.merlinchain.io/merlin-docs",
+    "blockchain_site": [
+      "https://scan.merlinchain.io/address/0x5c46bff4b38dc1eae09c5bac65872a1d8bc87378",
+      "https://etherscan.io/token/0x0f3a12b78fee11ee088e454a0547bdbc5a253a6d",
+      "https://ethplorer.io/address/0x0f3a12b78fee11ee088e454a0547bdbc5a253a6d",
+      "https://etherscan.io/token/0xa0c56a8c0692bD10B3fA8f8bA79Cf5332B7107F9",
+      "https://ethplorer.io/address/0xa0c56a8c0692bD10B3fA8f8bA79Cf5332B7107F9",
+      "https://bscscan.com/token/0xa0c56a8c0692bd10b3fa8f8ba79cf5332b7107f9",
+      "https://binplorer.com/address/0xa0c56a8c0692bd10b3fa8f8ba79cf5332b7107f9"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/JYqDYMu76e"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "MerlinLayer2",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "merlin_chain",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/MerlinLayer2"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/37118/thumb/merlin.jpeg?1713352230",
+    "small": "https://coin-images.coingecko.com/coins/images/37118/small/merlin.jpeg?1713352230",
+    "large": "https://coin-images.coingecko.com/coins/images/37118/large/merlin.jpeg?1713352230"
+  },
+  "last_updated": "2025-07-11T09:50:35.045718+00:00"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "devve",
+  "symbol": "devve",
+  "name": "DevvE",
+  "categories": [
+    "Exchange-based Tokens",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x8248270620aa532e4d64316017be5e873e37cc09"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "DevvE is the layer 1 token native to the DevvX blockchain and bridged to Ethereum. Operating at ⅓ billionth the energy of Bitcoin, 1/10 millionth the cost of Ethereum and infinite TPS, the primary function serves as the intermediary and liquidity mechanism for RWAs & digitally native assets on devv.exchange.\r\n\r\nAsset owners may contribute DevvE into a revolutionary liquidity system to earn rewards generated from market making fees, exchange fees and an instant payments network. All trades are routed via DevvE as the primary SDA (shared digital asset) to remove fractured liquidity across multiple trading pools.\r\n\r\nDevvExchange is a fully non-custodial settlement layer, with Contingent Transaction Sets for Mathematically Instant Settlement, Privacy, Fraud & Theft protections, making it the safest platform to store and trade digital assets. DevvExchange also removes Counterparty Risk from both TradFi and DeFi platforms. Anybody who owns any digital asset, from BTC, ETH to stocks, commodities or impact assets, can retain full custody while generating rewards - essentially delivering crypto without the chaos.\r\n\r\nThe patented DevvX sharding architecture enables complete local, cross jurisdictional and operational compliance measures for enterprise grade applications and is unlocking the full potential of blockchain technology at global scale with institutional partners, through a simple RESTful API integration.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.devve.io/",
+      "https://linktr.ee/devveecosystem",
+      "https://devv.exchange/"
+    ],
+    "whitepaper": "https://assets-global.website-files.com/6509e01d2c57f1be928c4ad1/657734916a8fe48f1b8039cd_DevvE%20Whitepaper%20Dec%2011%20-%2023.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x8248270620aa532e4d64316017be5e873e37cc09",
+      "https://platform.arkhamintelligence.com/explorer/token/devve",
+      "https://ethplorer.io/address/0x8248270620aa532e4d64316017be5e873e37cc09"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/devve/"
+    ],
+    "chat_url": [
+      "https://discord.gg/q2NNV6WXfV",
+      "https://www.youtube.com/@DevvEecosystem"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "DevveEcosystem",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "DevveOfficial",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/35136/thumb/DevvE_gradient200x200.png?1743579857",
+    "small": "https://coin-images.coingecko.com/coins/images/35136/small/DevvE_gradient200x200.png?1743579857",
+    "large": "https://coin-images.coingecko.com/coins/images/35136/large/DevvE_gradient200x200.png?1743579857"
+  },
+  "last_updated": "2025-07-11T09:53:19.574258+00:00"
+}

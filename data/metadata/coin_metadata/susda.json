@@ -1,0 +1,65 @@
+{
+  "id": "susda",
+  "symbol": "susda",
+  "name": "sUSDa",
+  "categories": [
+    "Stablecoins",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x2b66aade1e9c062ff411bd47c44e0ad696d43bd9",
+    "mantle": "0x5a61b1d8272b250729ea3f5ed3ef843f4d66bc6e",
+    "base": "0xd329f9a8589723357c36727a2d5e15974c835ccf",
+    "binance-smart-chain": "0x73a325103935b0b5e7aa3aca6dba74ad22f82b03"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "Avalon Labs is creating an on-chain financial center for Bitcoin, offering BTC-backed lending, a Bitcoin-backed stablecoin, yield accounts, and a credit card. The goal is to make Bitcoin an active economic asset in global markets through a scalable and accessible network.\r\nUSDa is the flagship CDP (Collateralized Debt Position) product based on Avalon's CeDeFi lending platform. The goal of USDa is to provide the best stablecoin solution for DeFi community with extremely high capital efficiency, stability and deep liquidity from BTC community.\r\nsUSDa is a yield-bearing version of USDa. By staking USDa, users receive sUSDa, which earns yield through borrowing rates and other protocol revenue. This mechanism allows users to generate scalable and sustainable returns, enhancing the value proposition of USDa in both DeFi and CeDeFi ecosystems."
+  },
+  "links": {
+    "homepage": [
+      "https://www.avalonfinance.xyz/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/address/0x2b66aade1e9c062ff411bd47c44e0ad696d43bd9",
+      "https://bscscan.com/address/0x73a325103935b0b5e7aa3aca6dba74ad22f82b03",
+      "https://mantlescan.info/token/0x5A61B1d8272B250729EA3F5eD3Ef843f4D66BC6e",
+      "https://basescan.org/address/0xd329f9a8589723357c36727a2d5e15974c835ccf",
+      "https://etherscan.io/token/0x2b66aade1e9c062ff411bd47c44e0ad696d43bd9",
+      "https://ethplorer.io/address/0x2b66aade1e9c062ff411bd47c44e0ad696d43bd9",
+      "https://bscscan.com/token/0x73a325103935b0b5e7aa3aca6dba74ad22f82b03",
+      "https://binplorer.com/address/0x73a325103935b0b5e7aa3aca6dba74ad22f82b03",
+      "https://explorer.mantle.xyz/token/0x5a61b1d8272b250729ea3f5ed3ef843f4d66bc6e",
+      "https://mantlescan.xyz/token/0x5a61b1d8272b250729ea3f5ed3ef843f4d66bc6e"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/avalonlabs",
+      "https://medium.com/@avalonlabs"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "avalonfinance_",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "AvalonLabs_Official",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/avalonfinancexyz"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/51821/thumb/USDA.png?1732035172",
+    "small": "https://coin-images.coingecko.com/coins/images/51821/small/USDA.png?1732035172",
+    "large": "https://coin-images.coingecko.com/coins/images/51821/large/USDA.png?1732035172"
+  },
+  "last_updated": "2025-07-11T09:50:51.282578+00:00"
+}

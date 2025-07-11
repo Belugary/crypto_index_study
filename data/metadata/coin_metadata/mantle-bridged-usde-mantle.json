@@ -1,0 +1,49 @@
+{
+  "id": "mantle-bridged-usde-mantle",
+  "symbol": "usde",
+  "name": "Mantle Bridged USDe (Mantle)",
+  "categories": [
+    "Mantle Ecosystem",
+    "Bridged USDC",
+    "Bridged-Tokens",
+    "Bridged Stablecoin"
+  ],
+  "asset_platform_id": "mantle",
+  "platforms": {
+    "mantle": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.mantle.xyz/token/0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "https://mantlescan.xyz/token/0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/66730/thumb/usde.jpg?1750321863",
+    "small": "https://coin-images.coingecko.com/coins/images/66730/small/usde.jpg?1750321863",
+    "large": "https://coin-images.coingecko.com/coins/images/66730/large/usde.jpg?1750321863"
+  },
+  "last_updated": "2025-07-11T09:52:14.714143+00:00"
+}

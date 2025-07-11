@@ -1,0 +1,57 @@
+{
+  "id": "connect-token-wct",
+  "symbol": "wct",
+  "name": "WalletConnect Token",
+  "categories": [
+    "Solana Ecosystem",
+    "Wallets",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem"
+  ],
+  "asset_platform_id": "optimistic-ethereum",
+  "platforms": {
+    "optimistic-ethereum": "0xef4461891dfb3ac8572ccf7c794664a8dd927945",
+    "solana": "WCTk5xWdn5SYg56twGj32sUF3W4WFQ48ogezLBuYTBY",
+    "ethereum": "0xef4461891dfb3ac8572ccf7c794664a8dd927945"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The WalletConnect Network is the onchain UX ecosystem. It is the open and decentralized network that enables users to connect to apps across the globe. It continues to power over 15M monthly connections for users across the world's leading decentralized applications and 300+ chains. In the past 12 months, the WalletConnect Network has grown by over 240%. Simply put, the WalletConnect Network plays a critical role in the $2+ trillion that flows throughout web3 today."
+  },
+  "links": {
+    "homepage": [
+      "https://walletconnect.network"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://optimistic.etherscan.io/token/0xeF4461891DfB3AC8572cCf7C794664A8DD927945",
+      "https://etherscan.io/token/0xef4461891dfb3ac8572ccf7c794664a8dd927945",
+      "https://ethplorer.io/address/0xef4461891dfb3ac8572ccf7c794664a8dd927945",
+      "https://solscan.io/token/WCTk5xWdn5SYg56twGj32sUF3W4WFQ48ogezLBuYTBY"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.youtube.com/@walletconnectofficial"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "WalletConnect",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "walletconnect",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/50390/thumb/wc-token1.png?1727569464",
+    "small": "https://coin-images.coingecko.com/coins/images/50390/small/wc-token1.png?1727569464",
+    "large": "https://coin-images.coingecko.com/coins/images/50390/large/wc-token1.png?1727569464"
+  },
+  "last_updated": "2025-07-11T09:51:24.927283+00:00"
+}

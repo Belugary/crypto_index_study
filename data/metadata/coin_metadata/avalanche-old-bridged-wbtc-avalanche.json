@@ -1,0 +1,51 @@
+{
+  "id": "avalanche-old-bridged-wbtc-avalanche",
+  "symbol": "wbtc",
+  "name": "Avalanche Bridged WBTC (Avalanche)",
+  "categories": [
+    "Avalanche Ecosystem",
+    "Bridged WBTC",
+    "Bridged-Tokens"
+  ],
+  "asset_platform_id": "avalanche",
+  "platforms": {
+    "avalanche": "0x50b7545627a5162f82a992c33b87adc75187b218"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.avax.network/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://snowtrace.io/token/0x50b7545627a5162f82a992c33b87adc75187b218",
+      "https://platform.arkhamintelligence.com/explorer/token/avalanche-old-bridged-wbtc-avalanche",
+      "https://avascan.info/blockchain/c/address/0x50b7545627a5162f82a992c33b87adc75187b218/token"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39529/thumb/wbtc.png?1722809081",
+    "small": "https://coin-images.coingecko.com/coins/images/39529/small/wbtc.png?1722809081",
+    "large": "https://coin-images.coingecko.com/coins/images/39529/large/wbtc.png?1722809081"
+  },
+  "last_updated": "2025-07-11T09:52:26.128286+00:00"
+}

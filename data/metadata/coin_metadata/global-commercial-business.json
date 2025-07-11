@@ -1,0 +1,58 @@
+{
+  "id": "global-commercial-business",
+  "symbol": "gcb",
+  "name": "Global Commercial Business",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Tron Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x84f70be4deb029d5f8aacbeacc74c4dc10737342",
+    "tron": "TPN3AXU6GH9abi7xKchewq4jTuSFLGjq5i"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Welcome to GCB (GCB), a cutting-edge utility token operating on both the Binance Smart Chain and TRON platforms. At GCB, we are revolutionizing digital finance by leveraging blockchain technology to tackle the pressing challenges faced in the Middle East, Africa, and emerging markets globally. Our primary objective is to promote financial inclusion by simplifying access to essential financial services through our robust digital platform.\r\n\r\nGCB serves as the cornerstone of our comprehensive digital financial ecosystem, offering seamless solutions for account management, fund transfers, and decentralized finance (DeFi) opportunities. What sets us apart is our commitment to diversification across multiple industries, enhancing the utility and resilience of the GCB token. Whether it's facilitating cross-border transactions, empowering local businesses, or supporting innovative fintech initiatives, GCB is at the forefront of driving economic empowerment and digital transformation.\r\n\r\nBehind GCB's vision and success is our dynamic team of industry pioneers and experts. With extensive backgrounds in fintech, business development, blockchain architecture, Web3 technologies, artificial intelligence, and emerging tech trends, we are uniquely positioned to pioneer groundbreaking solutions that redefine the standards of digital finance.\r\n\r\nJoin us on our journey to reshape the future of finance, one innovative solution at a time. Discover the power of GCB and experience a new era of accessible, inclusive, and sustainable financial services."
+  },
+  "links": {
+    "homepage": [
+      "https://www.gcbex.com"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://tronscan.org/#/token20/tpn3axu6gh9abi7xkchewq4jtusflgjq5i/code",
+      "https://platform.arkhamintelligence.com/explorer/token/global-commercial-business",
+      "https://bscscan.com/token/0x84f70be4deb029d5f8aacbeacc74c4dc10737342#code",
+      "https://bscscan.com/token/0x84f70be4deb029d5f8aacbeacc74c4dc10737342",
+      "https://binplorer.com/address/0x84f70be4deb029d5f8aacbeacc74c4dc10737342",
+      "https://tronscan.org/#/token20/tpn3axu6gh9abi7xkchewq4jtusflgjq5i"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.youtube.com/@GCBFinancialTechnology"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "gcbglobal",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "GCBProject",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/gcbfinancetech/gcb-smart-contracts/blob/main/contracts/GCB_Token.sol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39089/thumb/gcbt.png?1720461904",
+    "small": "https://coin-images.coingecko.com/coins/images/39089/small/gcbt.png?1720461904",
+    "large": "https://coin-images.coingecko.com/coins/images/39089/large/gcbt.png?1720461904"
+  },
+  "last_updated": "2025-07-11T09:51:28.478935+00:00"
+}

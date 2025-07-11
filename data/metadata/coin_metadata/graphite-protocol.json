@@ -1,0 +1,50 @@
+{
+  "id": "graphite-protocol",
+  "symbol": "gp",
+  "name": "Graphite Protocol",
+  "categories": [
+    "Solana Ecosystem"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "31k88G5Mq7ptbRDf3AM13HAq6wRQHXHikR8hik7wPygk"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Graphite Protocol powering the future of creators on the Blockchain.\r\n\r\nGraphite is based around Creator Suite products that provides easily, simple tech to Creators."
+  },
+  "links": {
+    "homepage": [
+      "https://taiyorobotics.com/"
+    ],
+    "whitepaper": "https://solport.gitbook.io/graphite-whitepaper/",
+    "blockchain_site": [
+      "https://solscan.io/token/31k88G5Mq7ptbRDf3AM13HAq6wRQHXHikR8hik7wPygk",
+      "https://platform.arkhamintelligence.com/explorer/token/graphite-protocol"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/fUYuEPHMJP"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "GraphiteProto",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/30359/thumb/tweet_to_image_pp_%284%29.jpeg?1696529258",
+    "small": "https://coin-images.coingecko.com/coins/images/30359/small/tweet_to_image_pp_%284%29.jpeg?1696529258",
+    "large": "https://coin-images.coingecko.com/coins/images/30359/large/tweet_to_image_pp_%284%29.jpeg?1696529258"
+  },
+  "last_updated": "2025-07-11T09:53:41.194328+00:00"
+}

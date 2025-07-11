@@ -1,0 +1,51 @@
+{
+  "id": "manyu-2",
+  "symbol": "manyu",
+  "name": "Manyu",
+  "categories": [
+    "Meme",
+    "Ethereum Ecosystem",
+    "Dog-Themed",
+    "TikTok Meme"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x95af4af910c28e8ece4512bfe46f1f33687424ce"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://manyushiba.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x95af4af910c28e8ece4512bfe46f1f33687424ce",
+      "https://ethplorer.io/address/0x95af4af910c28e8ece4512bfe46f1f33687424ce"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ManyuShiba",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "ManyuShiba",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/67068/thumb/manyu-shiba-logo.jpg?1751631683",
+    "small": "https://coin-images.coingecko.com/coins/images/67068/small/manyu-shiba-logo.jpg?1751631683",
+    "large": "https://coin-images.coingecko.com/coins/images/67068/large/manyu-shiba-logo.jpg?1751631683"
+  },
+  "last_updated": "2025-07-11T09:53:49.172553+00:00"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "islamic-coin",
+  "symbol": "islm",
+  "name": "Islamic Coin",
+  "categories": [
+    "Smart Contract Platform",
+    "Wallets",
+    "Layer 2 (L2)",
+    "Osmosis Ecosystem"
+  ],
+  "asset_platform_id": "osmosis",
+  "platforms": {
+    "osmosis": "ibc/69110FF673D70B39904FF056CFDFD58A90BEC3194303F45C32CB91B8B0A738EA"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "We are on a mission to onboard over 1.8+ billion Muslims into digital finance without compromising the values and faith. Islamic coin is the native currency of HAQQ, an ethics first, scalable and interoperable blockchain built on Proof-of-Stake with fast finality.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://islamiccoin.net/"
+    ],
+    "whitepaper": "https://islamiccoin.net/whitepaper",
+    "blockchain_site": [
+      "https://explorer.haqq.network/",
+      "https://www.mintscan.io/osmosis/assets/ibc/aWJjLzY5MTEwRkY2NzNENzBCMzk5MDRGRjA1NkNGREZENThBOTBCRUMzMTk0MzAzRjQ1QzMyQ0I5MUI4QjBBNzM4RUE="
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/islamiccoin"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/islamiccoin",
+      "https://medium.com/islamic-coin",
+      "https://www.youtube.com/channel/UCTjvOCTDeO9H67y_6btF1NA"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Islamic_Coin",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "islamiccoin_int",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/haqq-network"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/32284/thumb/66eade0c3f9fa1dbb50d7a37_Logomark__2.png?1728441108",
+    "small": "https://coin-images.coingecko.com/coins/images/32284/small/66eade0c3f9fa1dbb50d7a37_Logomark__2.png?1728441108",
+    "large": "https://coin-images.coingecko.com/coins/images/32284/large/66eade0c3f9fa1dbb50d7a37_Logomark__2.png?1728441108"
+  },
+  "last_updated": "2025-07-11T09:51:59.304555+00:00"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "sygnum-fiusd-liquidity-fund",
+  "symbol": "fiusd",
+  "name": "Sygnum FIUSD Liquidity Fund",
+  "categories": [
+    "Arbitrum Ecosystem",
+    "ZkSync Ecosystem",
+    "Real World Assets (RWA)"
+  ],
+  "asset_platform_id": "zksync",
+  "platforms": {
+    "zksync": "0x2ab105a3ead22731082b790ca9a00d9a3a7627f9",
+    "arbitrum-one": "0xcded6b899edba762d793f44ed295248049440e1e"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "This project focuses on the tokenization of Fidelity International's Money Market Fund by Sygnum Bank, specifically the Fidelity Institutional Liquidity Fund (ILF) USD Fund Class G Acc. Sygnum Bank is the token issuer of the above mentioned."
+  },
+  "links": {
+    "homepage": [
+      "https://www.sygnum.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://era.zksync.network/address/0x2ab105a3ead22731082b790ca9a00d9a3a7627f9",
+      "https://era.zksync.network/token/0x2ab105a3ead22731082b790ca9a00d9a3a7627f9",
+      "https://explorer.zksync.io/address/0x2ab105a3ead22731082b790ca9a00d9a3a7627f9",
+      "https://zksync-era.l2scan.co/token/0x2ab105a3ead22731082b790ca9a00d9a3a7627f9",
+      "https://arbiscan.io/token/0xcDEd6B899edba762D793F44eD295248049440e1E"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/50749/thumb/FIUDS_200x200px_%281%29.png?1728956878",
+    "small": "https://coin-images.coingecko.com/coins/images/50749/small/FIUDS_200x200px_%281%29.png?1728956878",
+    "large": "https://coin-images.coingecko.com/coins/images/50749/large/FIUDS_200x200px_%281%29.png?1728956878"
+  },
+  "last_updated": "2025-07-11T09:52:38.680425+00:00"
+}

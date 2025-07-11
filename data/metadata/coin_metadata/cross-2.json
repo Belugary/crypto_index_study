@@ -1,0 +1,54 @@
+{
+  "id": "cross-2",
+  "symbol": "cross",
+  "name": "Cross",
+  "categories": [
+    "Smart Contract Platform",
+    "Gaming (GameFi)",
+    "BNB Chain Ecosystem",
+    "Layer 1 (L1)",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x6bf62ca91e397b5a7d1d6bce97d9092065d7a510"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "CROSS is a gaming-optimized Layer 1 blockchain with full EVM compatibility. It offers modular infrastructure for on-chain games, including SDKs, a DEX, bridge, and wallet. The $CROSS token powers gas, governance, and staking, with fixed supply and no future minting. The mainnet and wallet are already live, and CROSS is actively onboarding games. The project aims to scale Web3 gaming by bridging Web2-level performance with decentralized ownership."
+  },
+  "links": {
+    "homepage": [
+      "https://opengamefoundation.org/"
+    ],
+    "whitepaper": "https://contents.crosstoken.io/white-paper/CROSS_White_Paper_v1.5.pdf",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x6bf62ca91e397b5a7d1d6bce97d9092065d7a510",
+      "https://binplorer.com/address/0x6bf62ca91e397b5a7d1d6bce97d9092065d7a510"
+    ],
+    "official_forum_url": [
+      "https://www.youtube.com/@cross_protocol"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "cross_protocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "cross_protocol",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/67058/thumb/cross.jpg?1751616046",
+    "small": "https://coin-images.coingecko.com/coins/images/67058/small/cross.jpg?1751616046",
+    "large": "https://coin-images.coingecko.com/coins/images/67058/large/cross.jpg?1751616046"
+  },
+  "last_updated": "2025-07-11T09:51:33.474365+00:00"
+}

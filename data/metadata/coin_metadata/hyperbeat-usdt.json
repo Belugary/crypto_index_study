@@ -1,0 +1,47 @@
+{
+  "id": "hyperbeat-usdt",
+  "symbol": "hbusdt",
+  "name": "Hyperbeat USDT",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "HyperEVM Ecosystem"
+  ],
+  "asset_platform_id": "hyperevm",
+  "platforms": {
+    "hyperevm": "0x5e105266db42f78fa814322bce7f388b4c2e61eb"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://hyperliquid.cloud.blockscout.com/token/0x5e105266db42f78FA814322Bce7f388B4C2e61eb",
+      "https://hyperevmscan.io/token/0x5e105266db42f78FA814322Bce7f388B4C2e61eb"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/67161/thumb/hyperbeat_usdt.jpg?1751940634",
+    "small": "https://coin-images.coingecko.com/coins/images/67161/small/hyperbeat_usdt.jpg?1751940634",
+    "large": "https://coin-images.coingecko.com/coins/images/67161/large/hyperbeat_usdt.jpg?1751940634"
+  },
+  "last_updated": "2025-07-11T09:53:39.247251+00:00"
+}

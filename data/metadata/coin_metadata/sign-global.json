@@ -1,0 +1,58 @@
+{
+  "id": "sign-global",
+  "symbol": "sign",
+  "name": "Sign",
+  "categories": [
+    "Analytics",
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem",
+    "Zero Knowledge (ZK)",
+    "Base Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x868fced65edbf0056c4163515dd840e9f287a4c3",
+    "base": "0x868fced65edbf0056c4163515dd840e9f287a4c3",
+    "binance-smart-chain": "0x868fced65edbf0056c4163515dd840e9f287a4c3"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://sign.global/",
+      "https://www.ethsign.xyz/"
+    ],
+    "whitepaper": "https://docs.sign.global/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x868FCEd65edBF0056c4163515dD840e9f287A4c3",
+      "https://ethplorer.io/address/0x868FCEd65edBF0056c4163515dD840e9f287A4c3",
+      "https://basescan.org/token/0x868fced65edbf0056c4163515dd840e9f287a4c3",
+      "https://bscscan.com/token/0x868fced65edbf0056c4163515dd840e9f287a4c3",
+      "https://binplorer.com/address/0x868fced65edbf0056c4163515dd840e9f287a4c3"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ethsign",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55303/thumb/sign.jpg?1745303393",
+    "small": "https://coin-images.coingecko.com/coins/images/55303/small/sign.jpg?1745303393",
+    "large": "https://coin-images.coingecko.com/coins/images/55303/large/sign.jpg?1745303393"
+  },
+  "last_updated": "2025-07-11T09:50:22.099513+00:00"
+}

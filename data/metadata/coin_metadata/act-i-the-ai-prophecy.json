@@ -1,0 +1,52 @@
+{
+  "id": "act-i-the-ai-prophecy",
+  "symbol": "act",
+  "name": "Act I The AI Prophecy",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Solana Meme",
+    "AI Meme",
+    "Pump.fun Ecosystem"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://pump.fun/GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump",
+      "https://platform.arkhamintelligence.com/explorer/token/act-i-the-ai-prophecy"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ACTICOMMUNITY",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "actportal",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/50984/thumb/ai_prophecy.jpg?1729653897",
+    "small": "https://coin-images.coingecko.com/coins/images/50984/small/ai_prophecy.jpg?1729653897",
+    "large": "https://coin-images.coingecko.com/coins/images/50984/large/ai_prophecy.jpg?1729653897"
+  },
+  "last_updated": "2025-07-11T09:53:06.914352+00:00"
+}

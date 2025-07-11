@@ -1,0 +1,51 @@
+{
+  "id": "agenda-47",
+  "symbol": "a47",
+  "name": "AGENDA 47",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Pump.fun Ecosystem"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "CN162nCPpq3DxPCyKLbAvEJeB1aCxsnVTEG4ZU8vpump"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "A47 aims to redefine how global affairs are consumed, discussed, and rewarded. We are creating an AI-powered, meme-driven ecosystem where politics meets humor, powered by 47 AI Agents.\r\n\r\nA47 is a next–generation AI–powered content and meme ecosystem, driven by:\r\n\r\nAI-Generated Content\r\n47 AI Agents generating humorous takes on global political and economic events.\r\n\r\nTokenomics Integration\r\nA model where user engagement directly correlates with rewards, incentivizing participation.\r\n\r\nCommunity-Driven Approach\r\nPowered by crypto enthusiasts, meme creators, and content contributors."
+  },
+  "links": {
+    "homepage": [
+      "https://a47news.ai/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/CN162nCPpq3DxPCyKLbAvEJeB1aCxsnVTEG4ZU8vpump"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.youtube.com/@A47News_ai"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "a47news_ai",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Agenda47Official",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54093/thumb/logo-2-A47-Breaking-Memes-01-%282%29_%282%29.png?1741895374",
+    "small": "https://coin-images.coingecko.com/coins/images/54093/small/logo-2-A47-Breaking-Memes-01-%282%29_%282%29.png?1741895374",
+    "large": "https://coin-images.coingecko.com/coins/images/54093/large/logo-2-A47-Breaking-Memes-01-%282%29_%282%29.png?1741895374"
+  },
+  "last_updated": "2025-07-11T09:56:16.684492+00:00"
+}

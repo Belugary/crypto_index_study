@@ -1,0 +1,58 @@
+{
+  "id": "acala",
+  "symbol": "aca",
+  "name": "Acala",
+  "categories": [
+    "Smart Contract Platform",
+    "Decentralized Finance (DeFi)",
+    "Polkadot Ecosystem",
+    "Layer 1 (L1)",
+    "Coinbase Ventures Portfolio",
+    "Pantera Capital Portfolio"
+  ],
+  "asset_platform_id": "polkadot",
+  "platforms": {
+    "polkadot": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Acala is building the liquidity layer for web3 finance that is captive and sustainable. It aims to provide infrastructures for HyFi (DeFi+CeFi) solutions with crypto and real-world assets. Acala offers a Universal Asset Hub that hosts multichain liquid staking token (LST) protocols (such as liquid DOT - LDOT), an AMM decentralized exchange, and an app platform that is EVM-compatible and highly customizable (based on Substrate). Acala is secured by Polkadot, and is the liquidity gateway of Polkadot parachains and L1/L2 blockchains."
+  },
+  "links": {
+    "homepage": [
+      "https://acala.network/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://acala.subscan.io/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/fNGtR4A42N"
+    ],
+    "announcement_url": [
+      "https://medium.com/acalanetwork"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "AcalaNetwork",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "acalaofficial",
+    "subreddit_url": "https://www.reddit.com/r/AcalaNetwork/",
+    "repos_url": {
+      "github": [
+        "https://github.com/AcalaNetwork/Acala"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/20634/thumb/upOKBONH_400x400.jpg?1696520038",
+    "small": "https://coin-images.coingecko.com/coins/images/20634/small/upOKBONH_400x400.jpg?1696520038",
+    "large": "https://coin-images.coingecko.com/coins/images/20634/large/upOKBONH_400x400.jpg?1696520038"
+  },
+  "last_updated": "2025-07-11T09:54:20.145867+00:00"
+}

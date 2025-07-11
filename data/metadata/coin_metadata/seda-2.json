@@ -1,0 +1,63 @@
+{
+  "id": "seda-2",
+  "symbol": "seda",
+  "name": "SEDA",
+  "categories": [
+    "Smart Contract Platform",
+    "Oracle",
+    "Ethereum Ecosystem",
+    "Base Ecosystem",
+    "Modular Blockchain",
+    "Osmosis Ecosystem"
+  ],
+  "asset_platform_id": "osmosis",
+  "platforms": {
+    "osmosis": "ibc/956AEF1DA92F70584266E87978C3F30A43B91EE6ABC62F03D097E79F6B99C4D8",
+    "base": "0x306acd0c07c430abbbb2e74ef7bde94f32a898c0",
+    "ethereum": "0x14862c03a0caccc1ab328b062e64e31b2a1afcd7"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "SEDA is a standard for modular data transport and querying. Any data type, for all networks."
+  },
+  "links": {
+    "homepage": [
+      "https://www.seda.xyz/"
+    ],
+    "whitepaper": "https://docs.seda.xyz/seda-network",
+    "blockchain_site": [
+      "https://explorer.seda.xyz/",
+      "https://www.mintscan.io/osmosis/assets/ibc/aWJjLzk1NkFFRjFEQTkyRjcwNTg0MjY2RTg3OTc4QzNGMzBBNDNCOTFFRTZBQkM2MkYwM0QwOTdFNzlGNkI5OUM0RDg=",
+      "https://etherscan.io/token/0x14862c03a0caccc1ab328b062e64e31b2a1afcd7",
+      "https://ethplorer.io/address/0x14862c03a0caccc1ab328b062e64e31b2a1afcd7",
+      "https://basescan.org/token/0x306acd0c07c430abbbb2e74ef7bde94f32a898c0"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/seda",
+      "https://sedaprotocol.medium.com/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "sedaprotocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "+AEmfJttwGHE4ODhi",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/sedaprotocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/36689/thumb/SEDA_Logo.png?1712087674",
+    "small": "https://coin-images.coingecko.com/coins/images/36689/small/SEDA_Logo.png?1712087674",
+    "large": "https://coin-images.coingecko.com/coins/images/36689/large/SEDA_Logo.png?1712087674"
+  },
+  "last_updated": "2025-07-11T09:55:03.597648+00:00"
+}

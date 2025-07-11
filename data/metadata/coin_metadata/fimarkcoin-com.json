@@ -1,0 +1,52 @@
+{
+  "id": "fimarkcoin-com",
+  "symbol": "fmc",
+  "name": "Fimarkcoin",
+  "categories": [
+    "Centralized Exchange (CEX) Token",
+    "Tron Ecosystem",
+    "Made in USA"
+  ],
+  "asset_platform_id": "tron",
+  "platforms": {
+    "tron": "TF8EjxT89LmcUNKV3fq55oeD5V44V7tjo2"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "FMC is the native token of FMCPAY Exchange, aiming to simplify payment processes and enable efficient co-payment of transaction fees and travel expenses. It offers a streamlined approach to co-payment, reducing friction and enhancing the payment experience. FMC also serves as a versatile means of payment for travel-related services, such as airline tickets and hotel bookings. Overall, FMC facilitates a high-performance payment business environment, making transactions and travel payments more accessible and user-friendly."
+  },
+  "links": {
+    "homepage": [
+      "https://fimarkcoin.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://tronscan.org/#/token20/tf8ejxt89lmcunkv3fq55oed5v44v7tjo2",
+      "https://platform.arkhamintelligence.com/explorer/token/fimarkcoin-com"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.youtube.com/@FMCPAY"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "FMCPay",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "FMCPAYGlobalChat",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33132/thumb/fimarkcoin.png?1702316882",
+    "small": "https://coin-images.coingecko.com/coins/images/33132/small/fimarkcoin.png?1702316882",
+    "large": "https://coin-images.coingecko.com/coins/images/33132/large/fimarkcoin.png?1702316882"
+  },
+  "last_updated": "2025-07-11T09:51:14.859227+00:00"
+}

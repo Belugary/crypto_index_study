@@ -1,0 +1,55 @@
+{
+  "id": "liquidlaunch",
+  "symbol": "liqd",
+  "name": "LiquidLaunch",
+  "categories": [
+    "Launchpad",
+    "Hyperliquid Ecosystem",
+    "HyperEVM Ecosystem"
+  ],
+  "asset_platform_id": "hyperliquid",
+  "platforms": {
+    "hyperliquid": "0xa043053570d42d6f553896820dfd42b6",
+    "hyperevm": "0x1ecd15865d7f8019d546f76d095d9c93cc34edfa"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "LiquidLaunch is the first native fair launch token platform and DEX aggregator built on Hyperliquid’s HyperEVM. It empowers creators to launch ERC-20 tokens on-chain without permission, presale, or reliance on web2 infrastructure, offering a fast and frictionless path to liquidity.\r\n\r\nThe platform goes hand in hand with it’s other product, LiquidSwap, Routing trades through top HyperEVM DEXs like HyperSwap and KittenSwap, ensuring users get the best prices with minimal slippage.\r\n\r\nNew tokens, whether they’ve bonded through LiquidLaunch or not, are immediately tradable through LiquidSwap.\r\n\r\n100% of the revenue generated on LiquidLaunch and LiquidSwap go back to $LIQD token stakers. (https://liqd.ag/staking)\r\n\r\nFair launches on LiquidLaunch mean there are no allocations or private rounds — just transparent, public launches powered entirely on-chain."
+  },
+  "links": {
+    "homepage": [
+      "https://liqd.ag/",
+      "https://liquidlaunch.app/"
+    ],
+    "whitepaper": "https://liquidlaunch.gitbook.io/liquidlaunch",
+    "blockchain_site": [
+      "https://hyperliquid.cloud.blockscout.com/token/0x1Ecd15865D7F8019D546f76d095d9c93cc34eDFa",
+      "https://app.hyperliquid.xyz/explorer/token/0xa043053570d42d6f553896820dfd42b6",
+      "https://hyperevmscan.io/token/0x1ecd15865d7f8019d546f76d095d9c93cc34edfa"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/liquidlaunch"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "LiquidLaunchHL",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53730/thumb/Logo.png?1737143175",
+    "small": "https://coin-images.coingecko.com/coins/images/53730/small/Logo.png?1737143175",
+    "large": "https://coin-images.coingecko.com/coins/images/53730/large/Logo.png?1737143175"
+  },
+  "last_updated": "2025-07-11T09:52:45.991855+00:00"
+}

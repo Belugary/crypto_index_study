@@ -1,0 +1,67 @@
+{
+  "id": "automata",
+  "symbol": "ata",
+  "name": "Automata",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Binance Launchpool",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem",
+    "Restaking",
+    "Alameda Research Portfolio",
+    "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xa2120b9e674d3fc3875f415a7df52e382f141225",
+    "binance-smart-chain": "0xa2120b9e674d3fc3875f415a7df52e382f141225",
+    "polygon-pos": "0x0df0f72ee0e5c9b7ca761ecec42754992b2da5bf"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Automata Network is a modular attestation layer that extends machine trust to Ethereum with TEE Coprocessors. With Proof of Machinehood, a global, decentralized network of machine attestations helps rollups to achieve an Ethereum-aligned future without excessive computation or economic stake. Our offerings include 1RPC, a private RPC relay that protects user metadata, TEE Multi-Prover, which integrates Intel SGX for diverse and resilient proof methods and TEE Builder, which ensures transaction confidentiality and user privacy by securing sensitive data within Intel SGX.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.ata.network/"
+    ],
+    "whitepaper": "https://docs.ata.network/research/lightpaper",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xa2120b9e674d3fc3875f415a7df52e382f141225",
+      "https://platform.arkhamintelligence.com/explorer/token/automata",
+      "https://bscscan.com/token/0xa2120b9e674d3fc3875f415a7df52e382f141225",
+      "https://ethplorer.io/address/0xa2120b9e674d3fc3875f415a7df52e382f141225",
+      "https://polygonscan.com/token/0x0df0f72ee0e5c9b7ca761ecec42754992b2da5bf",
+      "https://binplorer.com/address/0xa2120b9e674d3fc3875f415a7df52e382f141225"
+    ],
+    "official_forum_url": [
+      "https://docs.ata.network/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/automata"
+    ],
+    "announcement_url": [
+      "https://medium.com/atanetwork",
+      "https://docs.ata.network/mev/introduction/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "automatanetwork",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "ata_network",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/15985/thumb/ATA_Icon_%28Profile_2%29.png?1720487988",
+    "small": "https://coin-images.coingecko.com/coins/images/15985/small/ATA_Icon_%28Profile_2%29.png?1720487988",
+    "large": "https://coin-images.coingecko.com/coins/images/15985/large/ATA_Icon_%28Profile_2%29.png?1720487988"
+  },
+  "last_updated": "2025-07-11T09:54:28.950899+00:00"
+}

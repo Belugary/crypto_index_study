@@ -1,0 +1,72 @@
+{
+  "id": "chromaway",
+  "symbol": "chr",
+  "name": "Chromia",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Smart Contract Platform",
+    "Gaming (GameFi)",
+    "NFT",
+    "BNB Chain Ecosystem",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "Modular Blockchain",
+    "Chromia Ecosystem",
+    "RWA Protocol"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x8a2279d4a90b6fe1c4b30fa660cc9f926797baa2",
+    "binance-smart-chain": "0xf9cec8d50f6c8ad3fb6dccec577e05aa32b224fe"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "\r\nWhat is Chromia?\r\nChromia is an open source public blockchain conceived of by Swedish company Chromaway AB. The Chroma token (CHR) was launched in May of 2019. The technology behind the Chromia blockchain is adapted from an earlier technology called ‘Postchain’, a solution provided by Chromaway AB for enterprise clients. \r\n\r\nHow does Chromia work?\r\nChromia is a standalone Layer-1 blockchain and EVM compatible Layer-2 enhancement for Binance Smart Chain and Ethereum. It is designed to enhance existing dApps and allow for the creation of next-generation dApps by providing scalability, improved data handling, and customizable fee structures. The blockchain uses a unique architecture called relational blockchain, as well as a custom programming language called Rell.\r\n\r\nRell is designed to code and function very similarly to SQL, allowing developers to leverage the security and immutability of blockchain while storing and handling data with the efficiency of a relational database.  Each dApp running on Chromia operates on its own sidechain which is rooted in the main blockchain. This allows each application to scale more efficiently and gives each application developer the freedom to choose from a variety of fee structures. For example, one application may require users to pay transaction fees in CHR (similar to how Ethereum or Bitcoin work), while another application could stake enough CHR to reserve computational power and allow their users to make unlimited transactions without paying any fees at all. \r\n\r\nWhat applications have been built on Chromia?\r\nChromia already has a wide variety of applications building upon their blockchain, using their chain as a decentralized storage layer, and using their Layer-2 enhancements. These applications range from DeFi options trading platform Hedget, to open world farming game My Neighbor Alice, to government land registry initiative LAC PropertyChain.  One of the latest features in development is a new NFT standard called Chromia Originals, which will operate both as a native standard on Chromia’s chain as well as an enhancement layer for existing ERC-721 and BEP-721 tokens. Work on these Layer-2 enhancements are being developed in cooperation with My Neighbor Alice.\r\n\r\nWho is behind Chromia?\r\nChromia’s core team consists of industry veterans Or Perelman, Henrik Hjelte and Alex Mizrahi. All three have deep roots in the crypto space, going back to the early days of Bitcoin and Ethereum. For example, Alex published several early academic papers on Proof of Stake consensus and was also one of the key figures behind Colored Coins, one of the first projects to develop the idea of ‘tokens’ that would later be brought to prominence by Ethereum.\r\n\r\nIn summary, Chromia is a Layer-1 and Layer-2 blockchain solution under active development, with the goal of delivering enhanced features and data handling and storage capabilities to decentralized applications."
+  },
+  "links": {
+    "homepage": [
+      "https://chromia.com/",
+      "https://chromapolis.com/",
+      "https://explorer.chromia.com/Mainnet"
+    ],
+    "whitepaper": "https://chromia.com/whitepaper-english.html",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x8a2279d4a90b6fe1c4b30fa660cc9f926797baa2",
+      "https://platform.arkhamintelligence.com/explorer/token/chromaway",
+      "https://ethplorer.io/address/0x8a2279d4a90b6fe1c4b30fa660cc9f926797baa2",
+      "https://bscscan.com/token/0xf9cec8d50f6c8ad3fb6dccec577e05aa32b224fe",
+      "https://binplorer.com/address/0xf9cec8d50f6c8ad3fb6dccec577e05aa32b224fe"
+    ],
+    "official_forum_url": [
+      "https://vault.chromia.com/en/dapps/"
+    ],
+    "chat_url": [
+      "https://www.facebook.com/teamchromia"
+    ],
+    "announcement_url": [
+      "https://blog.chromia.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "chromia",
+    "facebook_username": "teamchromia",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "hellochromia",
+    "subreddit_url": "https://www.reddit.com/r/Teamchromia/",
+    "repos_url": {
+      "github": [],
+      "bitbucket": [
+        "https://bitbucket.org/chromawallet/"
+      ]
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/5000/thumb/Chromia.png?1696505533",
+    "small": "https://coin-images.coingecko.com/coins/images/5000/small/Chromia.png?1696505533",
+    "large": "https://coin-images.coingecko.com/coins/images/5000/large/Chromia.png?1696505533"
+  },
+  "last_updated": "2025-07-11T09:50:45.497475+00:00"
+}

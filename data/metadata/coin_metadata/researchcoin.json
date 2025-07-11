@@ -1,0 +1,59 @@
+{
+  "id": "researchcoin",
+  "symbol": "rsc",
+  "name": "ResearchCoin",
+  "categories": [
+    "Ethereum Ecosystem",
+    "Base Ecosystem",
+    "Decentralized Science (DeSci)",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xd101dcc414f310268c37eeb4cd376ccfa507f571",
+    "base": "0xfbb75a59193a3525a8825bebe7d4b56899e2f7e1"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The mission of ResearchHub is to accelerate the pace of science. Our goal is to make a modern mobile and web application where people can collaborate on scientific research in a more efficient way, similar to what GitHub has done for software engineering. \r\n\r\nResearchCoin (RSC) is the community governance and rewards token on the ResearchHub platform. RSC is used to reward scientific contributors for certain behaviors (i.e. uploading scientific literature, distributed to most upvoted content etc). It can also be used for users to tip content they like and open bounties to incentivize completion of scientific tasks (i.e. pay for peer review, request a meta-analysis, generate graphical abstracts for scientific papers etc).\r\n\r\n2 minute new short video outlining ResearchHub/ResearchCoin and the value proposition: https://www.youtube.com/watch?v=mbIdAODhcXo\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.researchhub.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xd101dcc414f310268c37eeb4cd376ccfa507f571",
+      "https://platform.arkhamintelligence.com/explorer/token/researchcoin",
+      "https://ethplorer.io/address/0xd101dcc414f310268c37eeb4cd376ccfa507f571",
+      "https://basescan.org/token/0xfbb75a59193a3525a8825bebe7d4b56899e2f7e1"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/researchhub",
+      "https://medium.com/researchhub"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ResearchHub",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/ResearchHub"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/28146/thumb/RH_BOTTLE_CLEAN_Aug_2024_1.png?1732742001",
+    "small": "https://coin-images.coingecko.com/coins/images/28146/small/RH_BOTTLE_CLEAN_Aug_2024_1.png?1732742001",
+    "large": "https://coin-images.coingecko.com/coins/images/28146/large/RH_BOTTLE_CLEAN_Aug_2024_1.png?1732742001"
+  },
+  "last_updated": "2025-07-11T09:51:51.182149+00:00"
+}

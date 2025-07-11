@@ -1,0 +1,76 @@
+{
+  "id": "pha",
+  "symbol": "pha",
+  "name": "PHALA",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Infrastructure",
+    "Smart Contract Platform",
+    "Oracle",
+    "Polkadot Ecosystem",
+    "Ethereum Ecosystem",
+    "Interoperability",
+    "Layer 2 (L2)",
+    "Zero Knowledge (ZK)",
+    "DePIN",
+    "DWF Labs Portfolio",
+    "Rollup",
+    "AI Agents",
+    "Sora Ecosystem",
+    "AI Framework",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x6c5ba91642f10282b576d91922ae6448c9d52f4e",
+    "sora": "0x0033271716eec64234a5324506c4558de27b7c23c42f3e3b74801f98bdfeebf7"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What Is Phala Network (PHA)?\r\n\r\nPhala Network (https://phala.network/) is the Execution Layer for Web3 AI, enabling AI to interact with blockchains and unlocking Web3 for the first billion users.\r\n\r\nPhala’s multi-proof system solves the AI execution problem, allowing you to build tamper-proof and unstoppable AI Agents that integrate with smart contracts through the AI-Agent Contract.\r\n\r\n1. Agentize Smart Contracts: Develop AI Agents for smart contracts using natural and programming languages.\r\n2. Connect to Multi-Agents: Make your agents accessible to other cross-chain AI Agents.\r\n3. Launch AI Agents and Earn: Own your agents and build a profitable token economy.\r\n\r\nPHALA as the AI Execution Layer:\r\n\r\nPhala leverages AI Agents to interface with blockchain technology, ensuring behavior aligns with intentions and preventing fraud. Using Phala's Blockchain-TEE hybrid system, AI Agents can act like smart contracts with decentralized hosting, governance by smart contracts, protected prompts, and low latency with no gas fees.\r\n\r\nPhala Network’s AI Ecosystem:\r\n\r\nPhala leads Web3 and AI integration with:\r\n\r\n1. AI Agent Contract (https://docs.phala.network/ai-agent-contract/getting-started): For building decentralized AI applications.\r\n2. Agent Wars (https://agentwars.phala.network/home): A platform to create, interact with, and monetize AI agents.\r\n3. Redpill (https://red-pill.ai/join): An AI aggregator optimizing multiple AI models, increasing network usage and computation power.\r\n\r\nHow Many PHA Coins Are There?\r\n\r\nThe maximum supply is 1 billion PHA. As of May 29, 2024, the circulating supply is 724,199,827 PHA. For updates, visit the API here (https://khala-circulation-api.phala-dev.workers.dev/).\r\n\r\nWhere Can I Buy Phala (PHA)?\r\nPHA is available on Binance, Kraken, and other major exchanges. For a full list, visit here CoinGeko PHALA listing page."
+  },
+  "links": {
+    "homepage": [
+      "https://phala.network/",
+      "https://phala.network/blog",
+      "https://phala.network/ai"
+    ],
+    "whitepaper": "https://files.phala.network/phala-paper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x6c5ba91642f10282b576d91922ae6448c9d52f4e",
+      "https://platform.arkhamintelligence.com/explorer/token/pha",
+      "https://ethplorer.io/address/0x6c5ba91642f10282b576d91922ae6448c9d52f4e",
+      "https://phala.subscan.io/account"
+    ],
+    "official_forum_url": [
+      "https://forum.phala.network/",
+      "https://app.subsocial.network/@PhalaNetwork"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/phala-network",
+      "https://www.youtube.com/@PhalaNetwork"
+    ],
+    "announcement_url": [
+      "https://medium.com/phala-network"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": null,
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/12451/thumb/phala.png?1696512270",
+    "small": "https://coin-images.coingecko.com/coins/images/12451/small/phala.png?1696512270",
+    "large": "https://coin-images.coingecko.com/coins/images/12451/large/phala.png?1696512270"
+  },
+  "last_updated": "2025-07-11T09:50:16.012958+00:00"
+}

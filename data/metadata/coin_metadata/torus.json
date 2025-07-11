@@ -1,0 +1,52 @@
+{
+  "id": "torus",
+  "symbol": "torus",
+  "name": "Torus",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Base Ecosystem",
+    "AI Agents"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0x78ec15c5fd8efc5e924e9eebb9e549e29c785867"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Torus is an open-ended experiment to encode biology's principles of autonomy, adaptive inference and self-organization into a stake-anchored agentic protocol, perpetually producing novelty.\r\n\r\nThis creates a self-assembling & evolving peer to peer organism, forming its organs, like memory and immune system, over time. The organism is capable of integrating any piece of technology into its distributed body and orchestrate resources through incentives.\r\n\r\nThe system operates as an emergent multi-graph of recursively delegated permissions and incentives among agents over onchain protocol and offchain agent control spaces, anchored to the root agent stake.\r\n\r\nThis structure forms a multi-scale competency architecture with arbitrarily granular and complex specialization, aligning itself towards the stake root.\r\n\r\nEvery part of the Torus has local autonomy and except the root agent (fully onchain) is unconstrained in its substrate, design and function."
+  },
+  "links": {
+    "homepage": [
+      "https://torus.network/",
+      "https://dao.torus.network/"
+    ],
+    "whitepaper": "https://docs.torus.network/",
+    "blockchain_site": [
+      "https://basescan.org/token/0x78EC15C5FD8EfC5e924e9EEBb9e549e29C785867"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/torus"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "torus_network",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "torusnetwork",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53678/thumb/Torus.jpg?1737010506",
+    "small": "https://coin-images.coingecko.com/coins/images/53678/small/Torus.jpg?1737010506",
+    "large": "https://coin-images.coingecko.com/coins/images/53678/large/Torus.jpg?1737010506"
+  },
+  "last_updated": "2025-07-11T09:54:59.403147+00:00"
+}

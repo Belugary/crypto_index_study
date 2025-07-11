@@ -1,0 +1,61 @@
+{
+  "id": "paxos-standard",
+  "symbol": "usdp",
+  "name": "Pax Dollar",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "Solana Ecosystem",
+    "Ethereum Ecosystem",
+    "Multicoin Capital Portfolio",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x8e870d67f660d95d5be530380d0ec0bd388289e1",
+    "solana": "HVbpJAQGNpkgBaYBZQBR1t7yFdvaYVp2vCQQfKKEN4tM"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Pax Dollar (USDP) was created by Paxos, a financial technology company on a mission to modernize finance by mobilizing assets at the speed of the internet. Paxos was the first virtual currency company to receive a charter from the New York State Department of Financial Services. As a chartered limited purpose trust company with fiduciary powers under the Banking Law, Paxos is able to offer regulated services in the crypto-asset and virtual commodities space.\r\n\r\nThe Paxos team comes from a wide variety of backgrounds with a diverse array of experiences ranging from Wall Street to Silicon Valley. It’s led by CEO and co-founder Charles Cascarilla, who has spent his career as a customer, analyst, investor and now creator of financial technology.\r\n\r\nPaxos describes itself as “the first regulated Trust company with blockchain expertise”, and it is using that expertise to create a modern settlement solution that can eliminate risk and simplify settlements. What many people may not know about Paxos is that it was actually founded in 2012 as Paxos Trust Company, and that for most of its life it ran the cryptocurrency exchange itBit, which is still operates. The creation of Paxos was a pivot from an exchange platform to a company focused on creating a modern settlement platform using blockchain technology.\r\n\r\nPaxos has become the most widely adopted cryptocurrency in the fastest time frame, with support from over 20 exchanges and OTC desks in the first five weeks of its existence. It’s been picked up and listed by six of the top ten cryptocurrency exchanges, Binance, OKEx, Gate.io, ZB, KuCoin and DigiFinex. These exchanges are offering PAX as an alternative to the controversial Tether. Unlike the controversy surrounding the people who control Tether, there is no such obscurity when it comes to the people behind Paxos. The CEO and co-founder is Charles Cascarilla. He has over 15 years in financial services and has co-founded Cedar Hill asset management back in 2005. He has also worked and Bank of America and Goldman Sachs prior to that.\r\n\r\nThe Pax Dollar (USDP) is the first digital asset to be issued by a financial institution and to be fully secured by the U.S. dollar. While other similar stablecoins have existed, there has been no proof of full U.S. dollar reserves, nor have these earlier assets been issued by a financial institution. The Paxos team has been fairly clear in declaring the different base that PAX is working from. "
+  },
+  "links": {
+    "homepage": [
+      "https://www.paxos.com/standard/"
+    ],
+    "whitepaper": "https://standard.paxos.com/whitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x8e870d67f660d95d5be530380d0ec0bd388289e1",
+      "https://platform.arkhamintelligence.com/explorer/token/paxos-standard",
+      "https://ethplorer.io/address/0x8e870d67f660d95d5be530380d0ec0bd388289e1",
+      "https://blockchair.com/ethereum/erc-20/token/0x8e870d67f660d95d5be530380d0ec0bd388289e1",
+      "https://solscan.io/token/hvbpjaqgnpkgbaybzqbr1t7yfdvayvp2vcqqfkken4tm"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/@PaxosStandard"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "PaxosGlobal",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/paxosglobal/pax-contracts"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/6013/thumb/Pax_Dollar.png?1696506427",
+    "small": "https://coin-images.coingecko.com/coins/images/6013/small/Pax_Dollar.png?1696506427",
+    "large": "https://coin-images.coingecko.com/coins/images/6013/large/Pax_Dollar.png?1696506427"
+  },
+  "last_updated": "2025-07-11T09:51:13.362133+00:00"
+}

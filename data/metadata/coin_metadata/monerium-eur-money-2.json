@@ -1,0 +1,75 @@
+{
+  "id": "monerium-eur-money-2",
+  "symbol": "eure",
+  "name": "Monerium EUR emoney",
+  "categories": [
+    "Stablecoins",
+    "Decentralized Finance (DeFi)",
+    "EUR Stablecoin",
+    "Polygon Ecosystem",
+    "Gnosis Chain Ecosystem",
+    "Arbitrum Ecosystem",
+    "Linea Ecosystem",
+    "Osmosis Ecosystem",
+    "Scroll Ecosystem",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x39b8b6385416f4ca36a20319f70d28621895279d",
+    "polygon-pos": "0xe0aea583266584dafbb3f9c3211d5588c73fea8d",
+    "xdai": "0x420ca0f9b9b604ce0fd9c18ef134c705e5fa3430",
+    "osmosis": "ibc/92AE2F53284505223A1BB80D132F859A00E190C6A738772F0B3EF65E20BA484F",
+    "linea": "0x3ff47c5bf409c86533fe1f4907524d304062428d",
+    "scroll": "0xd7bb130a48595fcdf9480e36c1ae97ff2938ac21",
+    "arbitrum-one": "0x0c06ccf38114ddfc35e07427b9424adcca9f44f8"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://monerium.com/tokens/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x39b8B6385416f4cA36a20319F70D28621895279D",
+      "https://ethplorer.io/address/0x39b8B6385416f4cA36a20319F70D28621895279D",
+      "https://polygonscan.com/token/0xE0aEa583266584DafBB3f9C3211d5588c73fEa8d",
+      "https://gnosisscan.io/token/0x420CA0f9B9b604cE0fd9C18EF134C705e5Fa3430",
+      "https://www.mintscan.io/osmosis/assets/ibc/aWJjLzkyQUUyRjUzMjg0NTA1MjIzQTFCQjgwRDEzMkY4NTlBMDBFMTkwQzZBNzM4NzcyRjBCM0VGNjVFMjBCQTQ4NEY=",
+      "https://arbiscan.io/token/0x0c06cCF38114ddfc35e07427B9424adcca9F44F8",
+      "https://lineascan.build/token/0x3ff47c5bf409c86533fe1f4907524d304062428d",
+      "https://lineaplorer.build/address/0x3ff47c5bf409c86533fe1f4907524d304062428d",
+      "https://scrollscan.com/token/0xd7bb130a48595fcdf9480e36c1ae97ff2938ac21",
+      "https://scroll.l2scan.co/token/0xd7bb130a48595fcdf9480e36c1ae97ff2938ac21"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/@monerium"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/monerium/smart-contracts"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54303/thumb/eure.jpg?1739167959",
+    "small": "https://coin-images.coingecko.com/coins/images/54303/small/eure.jpg?1739167959",
+    "large": "https://coin-images.coingecko.com/coins/images/54303/large/eure.jpg?1739167959"
+  },
+  "last_updated": "2025-07-11T09:55:20.893232+00:00"
+}

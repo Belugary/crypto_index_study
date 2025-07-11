@@ -1,0 +1,61 @@
+{
+  "id": "orchid-protocol",
+  "symbol": "oxt",
+  "name": "Orchid Protocol",
+  "categories": [
+    "Smart Contract Platform",
+    "Ethereum Ecosystem",
+    "DePIN",
+    "Proof of Stake (PoS)",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "Sequoia Capital Portfolio",
+    "Blockchain Capital Portfolio",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x4575f41308ec1483f3d399aa9a2826d74da13deb"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The Orchid Protocol organizes bandwidth sellers into a structured peer-to-peer (P2P) network termed the Orchid Market. Customers connect to the Orchid Market and pay bandwidth sellers in order to form a proxy chain to a specific resource on the Internet.\r\n\r\nUnlike more common methods for sending and receiving data from the global Internet, proxy chains in the Orchid Market naturally separate information about the source of data from information about its destination; no single relay or proxy holds both pieces of information, or knows the identity of someone who does. The structure of the Orchid Market further supports this separation of information by providing strong resistance against collusion attacks – the ability of a group of bandwidth sellers to overcome this separation of knowledge.\r\n\r\nThe Internet was originally an open platform where people could freely learn and communicate. Unfortunately, as the Internet grew it became a place where people could be monitored, controlled, and censored. We're building a new civil contract around a distributed marketplace for computation, storage, and bandwidth to provide the framework for a new form of digital citizenship.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.orchid.com/"
+    ],
+    "whitepaper": "https://orchid.com/whitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x4575f41308ec1483f3d399aa9a2826d74da13deb",
+      "https://platform.arkhamintelligence.com/explorer/token/orchid-protocol",
+      "https://ethplorer.io/address/0x4575f41308ec1483f3d399aa9a2826d74da13deb"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://orchid.com/blog",
+      "https://www.orchid.com/assets/whitepaper/whitepaper.pdf"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "orchidprotocol",
+    "facebook_username": "OrchidProtocol",
+    "bitcointalk_thread_identifier": 2704270,
+    "telegram_channel_identifier": "OrchidOfficial",
+    "subreddit_url": "https://www.reddit.com/r/orchid/",
+    "repos_url": {
+      "github": [
+        "https://github.com/OrchidTechnologies/orchid"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/3916/thumb/download_%285%29.png?1696504574",
+    "small": "https://coin-images.coingecko.com/coins/images/3916/small/download_%285%29.png?1696504574",
+    "large": "https://coin-images.coingecko.com/coins/images/3916/large/download_%285%29.png?1696504574"
+  },
+  "last_updated": "2025-07-11T09:54:06.132341+00:00"
+}

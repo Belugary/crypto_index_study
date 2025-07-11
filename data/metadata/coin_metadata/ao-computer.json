@@ -1,0 +1,49 @@
+{
+  "id": "ao-computer",
+  "symbol": "ao",
+  "name": "ao Computer",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Smart Contract Platform",
+    "DePIN"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://ao.arweave.net/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "aoTheComputer",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/permaweb/ao"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/38335/thumb/ao.png?1717120361",
+    "small": "https://coin-images.coingecko.com/coins/images/38335/small/ao.png?1717120361",
+    "large": "https://coin-images.coingecko.com/coins/images/38335/large/ao.png?1717120361"
+  },
+  "last_updated": "2025-07-11T09:51:37.992163+00:00"
+}

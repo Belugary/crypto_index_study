@@ -1,0 +1,50 @@
+{
+  "id": "rings-scbtc",
+  "symbol": "scbtc",
+  "name": "Rings scBTC",
+  "categories": [
+    "Wrapped-Tokens",
+    "Sonic Ecosystem"
+  ],
+  "asset_platform_id": "sonic",
+  "platforms": {
+    "sonic": "0xbb30e76d9bb2cc9631f7fc5eb8e87b5aff32bfbd"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "Rings is the meta-stable protocol of Sonic chain. It serves as the main bridge for Ethereum Mainnet stablecoins and ETH derivatives token holders to start earning yield on Sonic. Users can bridge ETH and stablecoins from Mainnet to Sonic, mint scETH and scUSD and scBTC, stake them for stkETH and stkUSD and stkBTC to generate yield, or lock them for veETH and veUSD and veBTC to access governance power.\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://rings.money/",
+      "https://app.rings.money/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://sonicscan.org/address/0xBb30e76d9Bb2CC9631F7fC5Eb8e87B5Aff32bFbd",
+      "https://sonicscan.org/token/0xBb30e76d9Bb2CC9631F7fC5Eb8e87B5Aff32bFbd"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Rings_Protocol",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54997/thumb/scBTC_32.png?1743095543",
+    "small": "https://coin-images.coingecko.com/coins/images/54997/small/scBTC_32.png?1743095543",
+    "large": "https://coin-images.coingecko.com/coins/images/54997/large/scBTC_32.png?1743095543"
+  },
+  "last_updated": "2025-07-11T09:50:58.980390+00:00"
+}

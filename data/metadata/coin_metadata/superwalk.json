@@ -1,0 +1,55 @@
+{
+  "id": "superwalk",
+  "symbol": "grnd",
+  "name": "SuperWalk GRND",
+  "categories": [
+    "Arbitrum Ecosystem",
+    "Kaia Ecosystem"
+  ],
+  "asset_platform_id": "klay-token",
+  "platforms": {
+    "klay-token": "0x84f8c3c8d6ee30a559d73ec570d574f671e82647",
+    "arbitrum-one": "0x3b58a4c865b568a2f6a957c264f6b50cba35d8ce"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "SuperWalk team has a vision that we make building active and healthy habits easier around the world. By operating community-based running app ‘Proground’ for 9 months, SuperWalk team carried out R&D on walking pattern recognition, GPS tracking and Vehicle Detection.\r\n\r\nIn SuperWalk ecosystem, walkers and runners buy NFT shoes to start Pro Mode, earn $GRND by moving at the targeted speed and upgrade them to get more rewards. In addition, non-crypto users can access SuperWalk ecosystem by just downloading and earning a small amount of $WALK in Basic Mode.\r\n\r\nSuperWalk has a vision that holders use their NFT shoes on ZEPETO metaverse with 300 million users and get real sneakers from Kream, which is the fastest growing sneakers resell platform in East Asia. By integrating in-app exercise data, metaverse communities and tangible shoes rewards, SuperWalk will create a unique fitness ecosystem around the world."
+  },
+  "links": {
+    "homepage": [
+      "https://superwalk.io"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://arbiscan.io/address/0x3b58a4c865b568a2f6a957c264f6b50cba35d8ce",
+      "https://platform.arkhamintelligence.com/explorer/token/superwalk",
+      "https://kaiascan.io/token/0x84f8c3c8d6ee30a559d73ec570d574f671e82647",
+      "https://arbiscan.io/token/0x3b58a4c865b568a2f6a957c264f6b50cba35d8ce"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/superwalk-official",
+      "https://medium.com/@SuperWalk"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SuperWalk_",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/27186/thumb/GRND_3x.png?1696526235",
+    "small": "https://coin-images.coingecko.com/coins/images/27186/small/GRND_3x.png?1696526235",
+    "large": "https://coin-images.coingecko.com/coins/images/27186/large/GRND_3x.png?1696526235"
+  },
+  "last_updated": "2025-07-11T09:53:10.988681+00:00"
+}

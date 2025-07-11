@@ -1,0 +1,56 @@
+{
+  "id": "coreum",
+  "symbol": "coreum",
+  "name": "Coreum",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Osmosis Ecosystem",
+    "XRP Ledger Ecosystem"
+  ],
+  "asset_platform_id": "xrp",
+  "platforms": {
+    "xrp": "rfpYHS1P7NGALmf4BhiNffXCcj96zJCore",
+    "osmosis": "ibc/F3166F4D31D6BA1EC6C9F5536F5DDDD4CC93DBA430F7419E7CDC41C497944A65"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Coreum is a fast Layer-1 #Blockchain with smart contract, set as a core infrastructure for future decentralized apps and #DeFi."
+  },
+  "links": {
+    "homepage": [
+      "https://www.coreum.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://xrpscan.com/account/rfpyhs1p7ngalmf4bhinffxccj96zjcore",
+      "https://www.mintscan.io/osmosis/assets/ibc/aWJjL0YzMTY2RjREMzFENkJBMUVDNkM5RjU1MzZGNUREREQ0Q0M5M0RCQTQzMEY3NDE5RTdDREM0MUM0OTc5NDRBNjU=",
+      "https://xrpscan.com/token/rfpYHS1P7NGALmf4BhiNffXCcj96zJCore",
+      "https://livenet.xrpl.org/token/rfpYHS1P7NGALmf4BhiNffXCcj96zJCore"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/XdVAGKXEhg"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "CoreumOfficial",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "CoreumOfficial",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/24169/thumb/Coreum-Icon_%282%29.png?1738317497",
+    "small": "https://coin-images.coingecko.com/coins/images/24169/small/Coreum-Icon_%282%29.png?1738317497",
+    "large": "https://coin-images.coingecko.com/coins/images/24169/large/Coreum-Icon_%282%29.png?1738317497"
+  },
+  "last_updated": "2025-07-11T09:50:40.717289+00:00"
+}

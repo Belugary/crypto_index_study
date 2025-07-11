@@ -1,0 +1,64 @@
+{
+  "id": "aurora-near",
+  "symbol": "aurora",
+  "name": "Aurora",
+  "categories": [
+    "Near Protocol Ecosystem",
+    "Ethereum Ecosystem",
+    "DWF Labs Portfolio",
+    "DragonFly Capital Portfolio",
+    "Pantera Capital Portfolio",
+    "Aurora Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xaaaaaa20d9e0e2461697782ef11675f668207961",
+    "aurora": "0x8bec47865ade3b172a928df8f990bc7f2a3b9f79",
+    "near-protocol": "aaaaaa20d9e0e2461697782ef11675f668207961.factory.bridge.near"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Aurora is an EVM built on the NEAR Protocol, delivering a turn-key solution for developers to operate their apps on an Ethereum-compatible, high-throughput, scalable and future-safe platform, with low transaction costs for their users."
+  },
+  "links": {
+    "homepage": [
+      "https://aurora.dev/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xaaaaaa20d9e0e2461697782ef11675f668207961",
+      "https://platform.arkhamintelligence.com/explorer/token/aurora-near",
+      "https://ethplorer.io/address/0xaaaaaa20d9e0e2461697782ef11675f668207961",
+      "https://explorer.mainnet.aurora.dev/token/0x8bec47865ade3b172a928df8f990bc7f2a3b9f79/token-transfers",
+      "https://explorer.mainnet.aurora.dev/token/0x8bec47865ade3b172a928df8f990bc7f2a3b9f79",
+      "https://nearblocks.io/token/aaaaaa20d9e0e2461697782ef11675f668207961.factory.bridge.near",
+      "https://explorer.near.org/accounts/aaaaaa20d9e0e2461697782ef11675f668207961.factory.bridge.near"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/dEFJBz8HQV"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "auroraisnear",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "auroraisnear",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/aurora-is-near/aurora-engine"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/20582/thumb/aurora.jpeg?1696519989",
+    "small": "https://coin-images.coingecko.com/coins/images/20582/small/aurora.jpeg?1696519989",
+    "large": "https://coin-images.coingecko.com/coins/images/20582/large/aurora.jpeg?1696519989"
+  },
+  "last_updated": "2025-07-11T09:52:38.187069+00:00"
+}

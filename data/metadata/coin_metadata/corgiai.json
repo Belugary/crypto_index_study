@@ -1,0 +1,64 @@
+{
+  "id": "corgiai",
+  "symbol": "corgiai",
+  "name": "CorgiAI",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Ethereum Ecosystem",
+    "Cronos Ecosystem",
+    "Dog-Themed",
+    "AI Meme"
+  ],
+  "asset_platform_id": "cronos",
+  "platforms": {
+    "cronos": "0x6b431b8a964bfcf28191b07c91189ff4403957d0",
+    "ethereum": "0x6b431b8a964bfcf28191b07c91189ff4403957d0",
+    "solana": "79F32BvHBE49gPsvypYTGzcpWGvt66mgvenQow3mJjXu"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What is the project about?\r\nCorgiAI is a community driven AI project centered around the creation of a tight knitted community. In CorgiAI, we would like to combine the best of AI with web3 capabilities and allow users to explore the limitless potential of AI technology. \r\n\r\n\r\nWhat makes your project unique?\r\nWe are the first project on Cronos Chain to build with AI technology. We have ambitious plans to launch various features with the aid of AI Image Generative Tool and Chatbots so that our users can try out these tools while having fun and earning yields on our platform. \r\n\r\n\r\nHistory of your project.\r\nOur project was officially launched in Jun 2023 along with the ICO of our native token via VVS Finance. We are currently incubated in Cronos Labs Accelerator Program.\r\n\r\n\r\nWhat’s next for your project?\r\nWe are in preparation to launch several features to expand the utility of $CORGIAI and to allow users exploring AI image generation technology.\r\n\r\nWhat can your token be used for?\r\nCurrently, it is equipped with staking capability. However, in a near feature, it will be used for a wide range of features on our platform such as redeeming credits for generating images with AI.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://corgiai.xyz/"
+    ],
+    "whitepaper": "https://corgiai.xyz/CorgiAI_Whitepaper.pdf",
+    "blockchain_site": [
+      "https://cronoscan.com/address/0x6b431b8a964bfcf28191b07c91189ff4403957d0",
+      "https://platform.arkhamintelligence.com/explorer/token/corgiai",
+      "https://etherscan.io/address/0x6b431b8a964bfcf28191b07c91189ff4403957d0",
+      "https://cronos-explorer.crypto.org/token/0x6b431b8a964bfcf28191b07c91189ff4403957d0",
+      "https://etherscan.io/token/0x6b431b8a964bfcf28191b07c91189ff4403957d0",
+      "https://ethplorer.io/address/0x6b431b8a964bfcf28191b07c91189ff4403957d0",
+      "https://solscan.io/token/79f32bvhbe49gpsvypytgzcpwgvt66mgvenqow3mjjxu"
+    ],
+    "official_forum_url": [
+      "https://blog.cronos.org/p/cronos-labs-kicks-off-second-cohort"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/HrrmmdAytu"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "corgiaiclub",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/30933/thumb/Token.png?1696529775",
+    "small": "https://coin-images.coingecko.com/coins/images/30933/small/Token.png?1696529775",
+    "large": "https://coin-images.coingecko.com/coins/images/30933/large/Token.png?1696529775"
+  },
+  "last_updated": "2025-07-11T09:53:03.189014+00:00"
+}

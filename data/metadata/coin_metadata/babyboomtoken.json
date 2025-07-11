@@ -1,0 +1,51 @@
+{
+  "id": "babyboomtoken",
+  "symbol": "bbt",
+  "name": "BabyBoomToken",
+  "categories": [
+    "Healthcare",
+    "Marketing",
+    "BNB Chain Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xb208063997db51de3f0988f8a87b0aff83a6213f"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Launched in March 2023, BabyBoomToken (BBT) is a blockchain-based reward system designed to address declining global birth rates. It incentivizes family planning activities like pregnancy, childbirth, and parenting, offering BBT tokens as rewards. Operating on Binance Smart Chain (BSC), BabyBoomToken ensures secure and transparent reward distribution through smart contracts. Users earn tokens by participating in the BabyBoom and Sellon dApps. As user engagement and traffic within the dApps increase, the platform generates advertising revenue. This revenue is reinvested to buy back BBT tokens, helping to stabilize its price and ensure long-term value for the ecosystem. With over 500,000 registered users and growing daily activity, BabyBoomToken aims to expand its ecosystem, form partnerships with healthcare providers, and introduce new features to enhance user experience."
+  },
+  "links": {
+    "homepage": [
+      "https://www.babyboomtoken.com/"
+    ],
+    "whitepaper": "https://www.babyboomtoken.com/assets/file/Whitepaper.pdf",
+    "blockchain_site": [
+      "https://bscscan.com/token/0xb208063997db51de3f0988f8a87b0aff83a6213f",
+      "https://platform.arkhamintelligence.com/explorer/token/babyboomtoken",
+      "https://binplorer.com/address/0xb208063997db51de3f0988f8a87b0aff83a6213f"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "babyboomtoken",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "babyboomtoken",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/50996/thumb/BabyBoomToken_logo.png?1729675164",
+    "small": "https://coin-images.coingecko.com/coins/images/50996/small/BabyBoomToken_logo.png?1729675164",
+    "large": "https://coin-images.coingecko.com/coins/images/50996/large/BabyBoomToken_logo.png?1729675164"
+  },
+  "last_updated": "2025-07-11T09:52:48.623867+00:00"
+}

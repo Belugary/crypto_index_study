@@ -1,0 +1,51 @@
+{
+  "id": "slash-vision-labs",
+  "symbol": "svl",
+  "name": "Slash Vision Labs",
+  "categories": [
+    "Mantle Ecosystem",
+    "Payment Solutions"
+  ],
+  "asset_platform_id": "mantle",
+  "platforms": {
+    "mantle": "0xabbeed1d173541e0546b38b1c0394975be200000"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "SVL (Slash Vision Labs) is pioneering the transformation of the cryptocurrency payments landscape with its innovative ecosystem, built on the Mantle Network. Embracing decentralization and community empowerment, SVL redistributes 100% of protocol fees back into the ecosystem, rewarding token stakers and fostering active participation.\r\nSlash offers two flagship products: Slash Payment and Slash Card.\r\nSlash Payment: Since its launch in October 2022, Slash Payment has empowered over 4000 merchants to seamlessly accept various tokens on any network as forms of payment, processing over 180 million USD worth of transactions.\r\nSlash Card: Slash Card is the first-ever and only crypto-backed credit card that comply fully with Japan's stringent crypto and payments regulations. Bridging fiat and crypto economies, Slash Card aims to onboard Japanese consumers, merchants, developers, and institutions into the world of cryptocurrency seamlessly, offering unparalleled convenience."
+  },
+  "links": {
+    "homepage": [
+      "https://slash.vision/"
+    ],
+    "whitepaper": "https://slash-fi.gitbook.io/docs",
+    "blockchain_site": [
+      "https://explorer.mantle.xyz/token/0xabbeed1d173541e0546b38b1c0394975be200000",
+      "https://mantlescan.xyz/token/0xabbeed1d173541e0546b38b1c0394975be200000"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/GBwene69jt"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SlashWeb3",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "SlashVisionLabss",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/37444/thumb/svl.jpeg?1714443652",
+    "small": "https://coin-images.coingecko.com/coins/images/37444/small/svl.jpeg?1714443652",
+    "large": "https://coin-images.coingecko.com/coins/images/37444/large/svl.jpeg?1714443652"
+  },
+  "last_updated": "2025-07-11T09:54:47.942942+00:00"
+}

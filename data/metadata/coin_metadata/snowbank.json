@@ -1,0 +1,54 @@
+{
+  "id": "snowbank",
+  "symbol": "sb",
+  "name": "Snowbank",
+  "categories": [
+    "Crypto-Backed Tokens",
+    "Rebase Tokens",
+    "Avalanche Ecosystem",
+    "Ohm Fork"
+  ],
+  "asset_platform_id": "avalanche",
+  "platforms": {
+    "avalanche": "0x7d1232b90d3f809a54eeaeebc639c62df8a8942f"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Snowbank DAO is the decentralized reserve currency protocol available on the Avalanche Network based on the SB token. Each SB token is backed by a basket of assets (e.g., MIM, SB-AVAX LP Tokens etc etc) in the Snowbank DAO treasury, giving it an intrinsic value that it cannot fall below. Snowbank DAO also introduces economic and game-theoretic dynamics into the market through staking and minting. "
+  },
+  "links": {
+    "homepage": [
+      "https://www.snowbank.finance/"
+    ],
+    "whitepaper": null,
+    "blockchain_site": [
+      "https://snowtrace.io/token/0x7d1232b90d3f809a54eeaeebc639c62df8a8942f",
+      "https://platform.arkhamintelligence.com/explorer/token/snowbank",
+      "https://avascan.info/blockchain/c/address/0x7d1232b90d3f809a54eeaeebc639c62df8a8942f/token"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/MCzhPPFXqG"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SnowbankDAO",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/19947/thumb/sb.png?1696519364",
+    "small": "https://coin-images.coingecko.com/coins/images/19947/small/sb.png?1696519364",
+    "large": "https://coin-images.coingecko.com/coins/images/19947/large/sb.png?1696519364"
+  },
+  "last_updated": "2025-07-11T09:53:33.777965+00:00"
+}

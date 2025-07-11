@@ -1,0 +1,62 @@
+{
+  "id": "saucerswap",
+  "symbol": "sauce",
+  "name": "SaucerSwap",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Exchange-based Tokens",
+    "Decentralized Finance (DeFi)",
+    "Hedera Ecosystem",
+    "Made in USA"
+  ],
+  "asset_platform_id": "hedera-hashgraph",
+  "platforms": {
+    "hedera-hashgraph": "0x00000000000000000000000000000000000b2ad5"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "SaucerSwap is the leading decentralized exchange protocol on the Hedera network, implemented as a set of non-upgradable smart contracts focused on censorship resistance, security, and self-custody. \r\n\r\nSaucerSwap leverages the Hedera Token Service (HTS) for its rapid throughput and low-cost, U.S. dollar-denominated fee structure. Hedera's architecture ensures fair transaction ordering on SaucerSwap. This nullifies the possibility of MEV attacks seen in Ethereum-based protocols like Uniswap.\r\n\r\nThe protocol has two iterations: SaucerSwap V1 operates as a constant product AMM, while V2 introduces concentrated liquidity for better capital efficiency.\r\n\r\nSAUCE, the native token of SaucerSwap, has multiple roles:\r\n\r\nGovernance: SAUCE enables token holders to participate in the SaucerSwap DAO, voting on ecosystem-wide proposals such as protocol upgrades and incentive alignments.\r\nLiquidity: Governed by the Masterchef smart contract, SAUCE is used to incentivize liquidity in SaucerSwap V1 and V2.\r\nStaking: SAUCE holders can stake their tokens to earn a share of trading fees, HBAR staking rewards, and emissions through an automated buyback mechanism.\r\n\r\nFor more information, visit https://docs.saucerswap.finance"
+  },
+  "links": {
+    "homepage": [
+      "https://www.saucerswap.finance/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://hashscan.io/#/mainnet/token/0.0.731861",
+      "https://hashscan.io/mainnet/token/0.0.731861",
+      "https://hashscan.io/mainnet/token/0x00000000000000000000000000000000000b2ad5"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/saucerswaplabs/",
+      "https://www.linkedin.com/company/saucerswaplabs/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/PvgKSTTMbf",
+      "https://medium.com/@saucerswap"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SaucerSwapLabs",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "SaucerSwapLabs",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/saucerswaplabs/saucerswaplabs-core",
+        "https://github.com/saucerswaplabs/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/27401/thumb/SAUCE_ICON_FINAL_200x200.png?1748588084",
+    "small": "https://coin-images.coingecko.com/coins/images/27401/small/SAUCE_ICON_FINAL_200x200.png?1748588084",
+    "large": "https://coin-images.coingecko.com/coins/images/27401/large/SAUCE_ICON_FINAL_200x200.png?1748588084"
+  },
+  "last_updated": "2025-07-11T09:54:07.706143+00:00"
+}

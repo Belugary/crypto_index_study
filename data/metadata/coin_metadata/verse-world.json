@@ -1,0 +1,52 @@
+{
+  "id": "verse-world",
+  "symbol": "verse",
+  "name": "Verse World",
+  "categories": [
+    "Gaming (GameFi)",
+    "Metaverse",
+    "Solana Ecosystem",
+    "Pump.fun Ecosystem"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "vRseBFqTy9QLmmo5qGiwo74AVpdqqMTnxPqWoWMpump"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Verse World is a successful VR company with long term clients such as Dubai Police, Toyota, Lexus, BYD or Lionel Messi. They also been building for the last four years with a team of 50+ full-time developers a digital world similar to Grand Theft Auto, accessible via desktop on the Epic Games Store or via Virtual Reality , which is powered by an immersive in-game economy centered around the Verse token."
+  },
+  "links": {
+    "homepage": [
+      "https://www.verseworld.com"
+    ],
+    "whitepaper": "https://www.verseworld.com",
+    "blockchain_site": [
+      "https://solscan.io/token/vRseBFqTy9QLmmo5qGiwo74AVpdqqMTnxPqWoWMpump"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/verseworld/"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "verseworld",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/66483/thumb/image00001.jpeg?1749502715",
+    "small": "https://coin-images.coingecko.com/coins/images/66483/small/image00001.jpeg?1749502715",
+    "large": "https://coin-images.coingecko.com/coins/images/66483/large/image00001.jpeg?1749502715"
+  },
+  "last_updated": "2025-07-11T09:54:54.116192+00:00"
+}

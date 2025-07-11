@@ -1,0 +1,71 @@
+{
+  "id": "dusk-network",
+  "symbol": "dusk",
+  "name": "DUSK",
+  "categories": [
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "Zero Knowledge (ZK)",
+    "Real World Assets (RWA)",
+    "Energi Ecosystem",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Privacy Blockchain"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x940a2db1b7008b6c776d4faaca729d6d4a4aa551",
+    "energi": "0x458a9f6a008055fd79f321ea7eb3f83a6cb326e2",
+    "binance-smart-chain": "0xb2bd0749dbe21f623d9baba856d3b0f0e1bfec9c"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Proof of Stake",
+  "genesis_date": null,
+  "country_origin": "NL",
+  "description": {
+    "en": "Dusk is a public, permissionless Layer 1 blockchain purpose-built for regulated financial markets. It enables the native issuance, trading, and settlement of real-world assets (RWAs) in full compliance with EU regulations such as MiFID II, MiCA, and the DLT Pilot Regime. Through strategic partnerships - including with NPEX, a Dutch MTF-regulated exchange, and Quantoz, a MiCA-compliant EMI issuing EURQ—Dusk facilitates the creation of secondary markets for digital securities. With privacy-preserving smart contracts, zero-knowledge compliance infrastructure, and institutional custody solutions like Dusk Vault, Dusk provides the complete stack for compliant on-chain finance in Europe."
+  },
+  "links": {
+    "homepage": [
+      "https://dusk.network/"
+    ],
+    "whitepaper": "https://dusk-cms.ams3.digitaloceanspaces.com/Dusk_Whitepaper_2024_4db72f92a1.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x940a2db1b7008b6c776d4faaca729d6d4a4aa551",
+      "https://platform.arkhamintelligence.com/explorer/token/dusk-network",
+      "https://ethplorer.io/address/0x940a2db1b7008b6c776d4faaca729d6d4a4aa551",
+      "https://explorer.energi.network/token/0x458a9f6a008055fd79f321ea7eb3f83a6cb326e2",
+      "https://bscscan.com/token/0xb2bd0749dbe21f623d9baba856d3b0f0e1bfec9c",
+      "https://binplorer.com/address/0xb2bd0749dbe21f623d9baba856d3b0f0e1bfec9c"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/dusknetwork/"
+    ],
+    "chat_url": [
+      "https://discord.gg/dusk-official"
+    ],
+    "announcement_url": [
+      "https://dusk.network/pages/all-posts"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "DuskFoundation",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "DuskNetwork",
+    "subreddit_url": "https://www.reddit.com/r/DuskNetwork/",
+    "repos_url": {
+      "github": [
+        "https://github.com/dusk-network/dusk-blockchain",
+        "https://github.com/dusk-network/dusk-zerocaf"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/5217/thumb/image_widget_biddfvxd454b1.png?1696505726",
+    "small": "https://coin-images.coingecko.com/coins/images/5217/small/image_widget_biddfvxd454b1.png?1696505726",
+    "large": "https://coin-images.coingecko.com/coins/images/5217/large/image_widget_biddfvxd454b1.png?1696505726"
+  },
+  "last_updated": "2025-07-11T09:54:13.028328+00:00"
+}

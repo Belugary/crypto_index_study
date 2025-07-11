@@ -1,0 +1,61 @@
+{
+  "id": "tornado-cash",
+  "symbol": "torn",
+  "name": "Tornado Cash",
+  "categories": [
+    "Privacy",
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x77777feddddffc19ff86db637967013e6c6a116c",
+    "binance-smart-chain": "0x1ba8d3c4c219b124d351f603060663bd1bcd9bbf"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://ipfs.io/ipns/tornadocash.eth/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x77777feddddffc19ff86db637967013e6c6a116c",
+      "https://platform.arkhamintelligence.com/explorer/token/tornado-cash",
+      "https://ethplorer.io/address/0x77777feddddffc19ff86db637967013e6c6a116c",
+      "https://bscscan.com/token/0x1ba8d3c4c219b124d351f603060663bd1bcd9bbf",
+      "https://binplorer.com/address/0x1ba8d3c4c219b124d351f603060663bd1bcd9bbf"
+    ],
+    "official_forum_url": [
+      "https://forum.tornado.ws"
+    ],
+    "chat_url": [],
+    "announcement_url": [
+      "https://tornado-cash.medium.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "TornadoCash",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "TornadoCashOfficialDAO",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/tornadocash-community"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/13496/thumb/ZINt8NSB_400x400.jpg?1696513257",
+    "small": "https://coin-images.coingecko.com/coins/images/13496/small/ZINt8NSB_400x400.jpg?1696513257",
+    "large": "https://coin-images.coingecko.com/coins/images/13496/large/ZINt8NSB_400x400.jpg?1696513257"
+  },
+  "last_updated": "2025-07-11T09:53:23.646079+00:00"
+}

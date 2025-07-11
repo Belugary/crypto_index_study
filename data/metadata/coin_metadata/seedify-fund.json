@@ -1,0 +1,61 @@
+{
+  "id": "seedify-fund",
+  "symbol": "sfund",
+  "name": "Seedify.fund",
+  "categories": [
+    "Gaming (GameFi)",
+    "BNB Chain Ecosystem",
+    "Launchpad",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "DWF Labs Portfolio"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x477bc8d23c634c154061869478bce96be6045d12",
+    "arbitrum-one": "0x560363bda52bc6a44ca6c8c9b4a5fadbda32fa60",
+    "ethereum": "0x560363bda52bc6a44ca6c8c9b4a5fadbda32fa60"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Seedify is a Blockchain Gaming Incubator and Launchpad founded in February 2021 that aims to redefine the blockchain gaming environment by empowering lives through play-to-earn revenue models by providing the best Launchpad and Incubation platform to gaming projects and, launchings these projects to the community via the IGOs (Initial Gaming Offering). \r\n\r\n\r\nSeedify brings to the community the most exciting Blockchain Games initiatives developed on BSC, Polygon and Solana networks. Most recently, Seedify has been strengthening its incubation side to provide even more robust support to early-stages Blockchain Games and help them achieve their full potential when entering the market via the IGOs.This initiative includes a robust game design, tokenomics and marketing support to the games, ensuring they have everything it takes to entertain and generate good profit for its players.\r\n\r\n\r\nSeedify is strongly backed by major Blockchain Companies like Elrond, Polygon and Chainling (among others), besides many big Venture Capitals that provide the foundation needed for Seedify’s growth.\r\n\r\nSeedify’s Ecosystem is based on 5 pillars: Launchpad, Incubator, Partners, VCs, and Influencers $ community. Each of these parts has its own features and comes together to enable Seedify to be one of the best Launchpads and Incubators in the Blockchain Market."
+  },
+  "links": {
+    "homepage": [
+      "https://seedify.fund/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x477bc8d23c634c154061869478bce96be6045d12",
+      "https://platform.arkhamintelligence.com/explorer/token/seedify-fund",
+      "https://binplorer.com/address/0x477bc8d23c634c154061869478bce96be6045d12",
+      "https://arbiscan.io/token/0x560363bda52bc6a44ca6c8c9b4a5fadbda32fa60",
+      "https://etherscan.io/token/0x560363bda52bc6a44ca6c8c9b4a5fadbda32fa60",
+      "https://ethplorer.io/address/0x560363bda52bc6a44ca6c8c9b4a5fadbda32fa60"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/seedify"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "seedifyfund",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "seedifyfundofficial",
+    "subreddit_url": "https://www.reddit.com/r/SeedifyFund/",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/14614/thumb/Favicon_Icon.png?1696514292",
+    "small": "https://coin-images.coingecko.com/coins/images/14614/small/Favicon_Icon.png?1696514292",
+    "large": "https://coin-images.coingecko.com/coins/images/14614/large/Favicon_Icon.png?1696514292"
+  },
+  "last_updated": "2025-07-11T09:53:04.197054+00:00"
+}

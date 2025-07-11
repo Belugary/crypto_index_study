@@ -1,0 +1,74 @@
+{
+  "id": "ampleforth",
+  "symbol": "ampl",
+  "name": "Ampleforth",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Rebase Tokens",
+    "BNB Chain Ecosystem",
+    "Avalanche Ecosystem",
+    "Near Protocol Ecosystem",
+    "Harmony Ecosystem",
+    "Ethereum Ecosystem",
+    "Pantera Capital Portfolio",
+    "Energi Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xd46ba6d942050d489dbd938a2c909a5d5039a161",
+    "near-protocol": "77fba179c79de5b7653f68b5039af940ada60ce0.factory.bridge.near",
+    "harmony-shard-0": "0xf2f5bf00cd952f3f980a02f5dce278cbff4dae05",
+    "energi": "0x79786ed8a70ccec6c7a31debc7fefc5119f9dc95",
+    "binance-smart-chain": "0xdb021b1b247fe2f1fa57e0a87c748cc1e321f07f",
+    "avalanche": "0x027dbca046ca156de9622cd1e2d907d375e53aa7"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "US",
+  "description": {
+    "en": "Ampleforth is a digital-asset-protocol for smart commodity-money.\r\n\r\nThe smart commodity money with a unique elastic supply protocol. AMPL supply expands and contracts in response to it’s price deviating from a 1 USD target. Deviations result in a supply change of AMPLs once every 24 hours, increasing or decreasing the number of tokens in each holder’s wallet pro-rata. Ampleforth is the only asset in the world with this elastic supply property, and therefore has counter-cyclical trading pressure and is uncorrelated with other digital assets such as Bitcoin."
+  },
+  "links": {
+    "homepage": [
+      "https://www.ampleforth.org/"
+    ],
+    "whitepaper": "https://drive.google.com/file/d/1I-NmSnQ6E7wY1nyouuf-GuDdJWNCnJWl/view",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xd46ba6d942050d489dbd938a2c909a5d5039a161",
+      "https://platform.arkhamintelligence.com/explorer/token/ampleforth",
+      "https://ethplorer.io/address/0xd46ba6d942050d489dbd938a2c909a5d5039a161",
+      "https://bscscan.com/token/0xdb021b1b247fe2f1fa57e0a87c748cc1e321f07f",
+      "https://cchain.explorer.avax.network/token/0x027dbca046ca156de9622cd1e2d907d375e53aa7/token-transfers",
+      "https://snowtrace.io/token/0x027dbca046ca156de9622cd1e2d907d375e53aa7",
+      "https://avascan.info/blockchain/c/address/0x027dbca046ca156de9622cd1e2d907d375e53aa7/token",
+      "https://explorer.energi.network/token/0x79786ed8a70ccec6c7a31debc7fefc5119f9dc95",
+      "https://nearblocks.io/token/77fba179c79de5b7653f68b5039af940ada60ce0.factory.bridge.near",
+      "https://binplorer.com/address/0xdb021b1b247fe2f1fa57e0a87c748cc1e321f07f"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.facebook.com/ampleforthprotocol/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": "https://snapshot.org/#/ampleforthorg.eth",
+    "twitter_screen_name": "ampleforthorg",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Ampleforth",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/ampleforth/uFragments",
+        "https://github.com/ampleforth/market-oracle"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/4708/thumb/Ampleforth.png?1696505273",
+    "small": "https://coin-images.coingecko.com/coins/images/4708/small/Ampleforth.png?1696505273",
+    "large": "https://coin-images.coingecko.com/coins/images/4708/large/Ampleforth.png?1696505273"
+  },
+  "last_updated": "2025-07-11T09:54:13.500284+00:00"
+}

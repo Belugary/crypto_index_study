@@ -1,0 +1,72 @@
+{
+  "id": "cortex-2",
+  "symbol": "cx",
+  "name": "Cortex",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Solana Ecosystem",
+    "Ethereum Ecosystem",
+    "Base Ecosystem",
+    "AI Agents",
+    "DeFAI"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x000000000000012def132e61759048be5b5c6033",
+    "binance-smart-chain": "0x000000000000012def132e61759048be5b5c6033",
+    "avalanche": "0x000000000000012def132e61759048be5b5c6033",
+    "solana": "CortexFv3fRcLKTgACr7aLqckGh5eP7TP3z9JHoKqMc6",
+    "base": "0x000000000000012def132e61759048be5b5c6033",
+    "arbitrum-one": "0x000000000000012def132e61759048be5b5c6033",
+    "optimistic-ethereum": "0x000000000000012def132e61759048be5b5c6033"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Cortex is the protocol for decentralized on-chain agents. In the future AI agents will be the primary way to interact with blockchains and make up the majority of crypto activity. This will happen in two stages, first human directed agents and then autonomous agents with their own objective functions.\r\n\r\nCortex is made up of two main parts: \r\n1. The Cortex Agent, our generalised trading agent: Allowing users to research coins, trade, and deploy to blockchains through a LLM interface\r\n2. Cortex Agent Platform: a platform that allows developers to permissionlessly deploy task-specific agents with on-chain capabilities.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://cortexprotocol.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/address/0x000000000000012DeF132E61759048bE5b5C6033",
+      "https://optimistic.etherscan.io/address/0x000000000000012def132e61759048be5b5c6033",
+      "https://snowscan.xyz/address/0x000000000000012DeF132E61759048bE5b5C6033",
+      "https://polygonscan.com/address/0x000000000000012DeF132E61759048bE5b5C6033",
+      "https://arbiscan.io/address/0x000000000000012DeF132E61759048bE5b5C6033",
+      "https://etherscan.io/token/0x000000000000012DeF132E61759048bE5b5C6033",
+      "https://ethplorer.io/address/0x000000000000012DeF132E61759048bE5b5C6033",
+      "https://arbiscan.io/token/0x000000000000012def132e61759048be5b5c6033",
+      "https://avascan.info/blockchain/c/address/0x000000000000012def132e61759048be5b5c6033/token",
+      "https://optimistic.etherscan.io/token/0x000000000000012def132e61759048be5b5c6033"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/cortexprotocol",
+      "https://medium.com/cortex-protocol"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Cortex_Protocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/cortexprotocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53285/thumb/CX_Round.png?1735994730",
+    "small": "https://coin-images.coingecko.com/coins/images/53285/small/CX_Round.png?1735994730",
+    "large": "https://coin-images.coingecko.com/coins/images/53285/large/CX_Round.png?1735994730"
+  },
+  "last_updated": "2025-07-11T09:55:33.772952+00:00"
+}

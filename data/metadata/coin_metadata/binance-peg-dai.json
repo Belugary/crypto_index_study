@@ -1,0 +1,50 @@
+{
+  "id": "binance-peg-dai",
+  "symbol": "dai",
+  "name": "Binance-Peg DAI",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Binance-Peg Tokens"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.binance.com/en"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
+      "https://platform.arkhamintelligence.com/explorer/token/binance-peg-dai",
+      "https://binplorer.com/address/0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39784/thumb/dai.png?1724109857",
+    "small": "https://coin-images.coingecko.com/coins/images/39784/small/dai.png?1724109857",
+    "large": "https://coin-images.coingecko.com/coins/images/39784/large/dai.png?1724109857"
+  },
+  "last_updated": "2025-07-11T09:53:56.170356+00:00"
+}

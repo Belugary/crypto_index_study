@@ -1,0 +1,61 @@
+{
+  "id": "myria",
+  "symbol": "myria",
+  "name": "Myria",
+  "categories": [
+    "Smart Contract Platform",
+    "Gaming (GameFi)",
+    "NFT",
+    "Ethereum Ecosystem",
+    "Layer 2 (L2)",
+    "Rollup",
+    "Gaming Blockchains",
+    "Gaming Platform",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xa0ef786bf476fe0810408caba05e536ac800ff86"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://myria.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xa0ef786bf476fe0810408caba05e536ac800ff86",
+      "https://platform.arkhamintelligence.com/explorer/token/myria",
+      "https://ethplorer.io/address/0xa0ef786bf476fe0810408caba05e536ac800ff86"
+    ],
+    "official_forum_url": [
+      "http://discord.gg/myria",
+      "https://www.instagram.com/myriagames/",
+      "https://medium.com/@myriagames"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "myria",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "myriaofficialgroup",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/29273/thumb/myria.png?1696528226",
+    "small": "https://coin-images.coingecko.com/coins/images/29273/small/myria.png?1696528226",
+    "large": "https://coin-images.coingecko.com/coins/images/29273/large/myria.png?1696528226"
+  },
+  "last_updated": "2025-07-11T09:53:52.207289+00:00"
+}

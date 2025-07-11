@@ -1,0 +1,66 @@
+{
+  "id": "mobox",
+  "symbol": "mbox",
+  "name": "Mobox",
+  "categories": [
+    "Gaming (GameFi)",
+    "NFT",
+    "BNB Chain Ecosystem",
+    "Binance Launchpool",
+    "Metaverse",
+    "Play To Earn",
+    "Arbitrum Ecosystem",
+    "Animoca Brands Portfolio",
+    "RPG",
+    "Gaming Blockchains",
+    "Gaming Governance Token",
+    "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x3203c9e46ca618c8c1ce5dc67e7e9d75f5da2377",
+    "arbitrum-one": "0xda661fa59320b808c5a6d23579fcfedf1fd3cf36"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "AU",
+  "description": {
+    "en": "The world's first ever FAIR LAUNCH optimized yield farming and NFT platform is now LIVE on Binance Smart Chain.\r\nMOBOX Platform combines DeFi and Gaming NFT, creating a truly free to play play to earn ecosystem."
+  },
+  "links": {
+    "homepage": [
+      "https://www.mobox.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x3203c9e46ca618c8c1ce5dc67e7e9d75f5da2377",
+      "https://platform.arkhamintelligence.com/explorer/token/mobox",
+      "https://binplorer.com/address/0x3203c9e46ca618c8c1ce5dc67e7e9d75f5da2377",
+      "https://arbiscan.io/token/0xda661fa59320b808c5a6d23579fcfedf1fd3cf36"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/ZSEhP2AbQ9"
+    ],
+    "announcement_url": [
+      "https://mbox.medium.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "MOBOX_Official",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "mobox_io",
+    "subreddit_url": "https://www.reddit.com/r/Mobox/",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/14751/thumb/mobox.PNG?1696514420",
+    "small": "https://coin-images.coingecko.com/coins/images/14751/small/mobox.PNG?1696514420",
+    "large": "https://coin-images.coingecko.com/coins/images/14751/large/mobox.PNG?1696514420"
+  },
+  "last_updated": "2025-07-11T09:55:00.443582+00:00"
+}

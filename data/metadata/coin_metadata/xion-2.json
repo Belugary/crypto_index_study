@@ -1,0 +1,69 @@
+{
+  "id": "xion-2",
+  "symbol": "xion",
+  "name": "XION",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "Animoca Brands Portfolio",
+    "Base Ecosystem",
+    "Osmosis Ecosystem",
+    "Multicoin Capital Portfolio",
+    "Alameda Research Portfolio",
+    "DeFiance Capital Portfolio",
+    "Made in USA",
+    "Chain Abstraction"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": "",
+    "base": "0xe4c3461a20f50dad7b9e88ca0222a255c4126fc0",
+    "ethereum": "0x24d7ad9402717f429a81925fe7643b78918eda8b",
+    "osmosis": "ibc/2E3784772E70F7B3A638BA88F65C8BE125D3CDB6E28C6AABC51098C94F5E16A5"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "XION is the first L1 purpose-built for mainstream adoption. \r\n\r\n**What is XION?** \r\n\r\nXION is a blockchain built for everyone, everywhere through chain abstraction. Utilizing its Generalized Abstraction layer, XION distinguishes itself by integrating complex blockchain functionalities, such as accounts, signatures, and interoperability, directly at the protocol level. This approach allows for engagement with blockchain applications without needing to understand the underlying technologies. XION is the native utility token that is used for: \r\n- Network Usage Fees: Transactions on the XION network incur fees, which are used innovatively to offset the minting of new tokens. This mechanism means that as network usage increases, the offsetting of fees could lead to a deflationary token model. \r\n- Proof of Stake Security: As a proof-of-stake network, XION relies on validators to maintain its integrity. $XION token holders can delegate their tokens to validators or stake their tokens to run their own validator nodes. In addition, instead of calculating inflation against all tokens, the XION network calculates against only staked tokens. This vastly reduces the token’s overall inflation, leading to much more sustainable economics of the network. \r\n- Governance: $XION token holders can actively participate in network governance by proposing and voting on proposals. \r\n- Medium of Exchange & Collateral: $XION can be utilized as native liquidity and collateral within the ecosystem. It can also facilitate peer-to-peer transactions across applications and accounts within the XION ecosystem. \r\n\r\n**What makes XION unique?** \r\n\r\nGeneralized Abstraction Layer: XION's foundational feature is its Generalized Abstraction layer, designed to simplify blockchain technology's complexities. This innovation aims to address the primary challenges that have prevented widespread blockchain adoption, providing a comprehensive solution for users and developers. \r\n\r\nMeta Accounts: A distinctive element of XION, Meta Accounts, abstracts the traditional key model, enabling varied authentication methods. This feature facilitates a user-friendly transition from traditional web experiences to blockchain-based applications. \r\n\r\nSignature and Device Abstraction: Through a signature-agnostic approach, XION accommodates transactions authenticated via common methods like email and biometrics. This inclusivity extends to device usage, ensuring seamless interactions across multiple platforms, thereby boosting security and user accessibility. \r\n\r\nParameterized Fee Layer: XION introduces a parameterized fee system that abstracts fees, enhancing user convenience. Furthermore, this system supports transactions denominated in stablecoins, such as USDC, enabling familiar pricing and stability. \r\n\r\nAbstracted Interoperability: Focusing on interoperability, XION ensures that its Meta Accounts are compatible across diverse blockchain ecosystems. This feature enhances the user experience by facilitating effortless cross-chain interactions through chain abstraction. \r\n\r\n**Who are the founders of XION?** \r\n\r\nBurnt is the research and development company that first began contributing to XION blockchain. \r\n\r\nBurnt Banksy, the founder, purchased a painting by the internationally famous artist Banksy, incinerated it, and then created an authenticated 1 of 1 NFT representation, selling it for more than the original physical artwork. His actions demonstrated the concept of digital scarcity on the world stage, making NFT community history and receiving universal acclaim in the process. The story was covered by leading publications including Bloomberg, CoinDesk, GQ, CoinTelegraph, BBC, CBS, HYPEBEAST, Art.Net, TechCrunch, and many others. He is often cited as one of the catalysts for NFTs as well as being cited in the wikipedia for the word NFT. \r\n\r\n**How is XION secured?** \r\n\r\nXION operates on a Tendermint-based proof-of-stake (PoS) consensus mechanism. Prominent validators help to secure the network while making it more decentralized as well. \r\n\r\nXION is backed by industry leaders such as Animoca, Circle, Multicoin, Arrington, Spartan, Draper Dragon, Hashkey, GoldenTree, Mechanism, Morningstar Ventures, Figment, Play Ventures, Valor, Sfermion, Kucoin Ventures, MH Ventures, Laser Digital (Nomura) and more."
+  },
+  "links": {
+    "homepage": [
+      "https://xion.burnt.com"
+    ],
+    "whitepaper": "https://xion.burnt.com/whitepaper",
+    "blockchain_site": [
+      "https://explorer.burnt.com",
+      "https://etherscan.io/token/0x24D7ad9402717F429A81925fe7643B78918EdA8B",
+      "https://ethplorer.io/address/0x24D7ad9402717F429A81925fe7643B78918EdA8B",
+      "https://basescan.org/token/0xe4c3461a20f50dad7b9e88ca0222a255c4126fc0"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/burnt",
+      "https://xion.burnt.com/blog",
+      "https://www.youtube.com/@burnt_xion"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "burnt_xion",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "xion_announcements",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/burnt-labs/xion"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39034/thumb/Burnt-Xion-Blaise-Logo-White-On-Black-Square.png?1720038410",
+    "small": "https://coin-images.coingecko.com/coins/images/39034/small/Burnt-Xion-Blaise-Logo-White-On-Black-Square.png?1720038410",
+    "large": "https://coin-images.coingecko.com/coins/images/39034/large/Burnt-Xion-Blaise-Logo-White-On-Black-Square.png?1720038410"
+  },
+  "last_updated": "2025-07-11T09:53:58.386087+00:00"
+}

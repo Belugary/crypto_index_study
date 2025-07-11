@@ -1,0 +1,61 @@
+{
+  "id": "humans-ai",
+  "symbol": "heart",
+  "name": "Humans.ai",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "Osmosis Ecosystem",
+    "AI Agents",
+    "AI Agent Launchpad"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x8fac8031e079f409135766c7d5de29cf22ef897c",
+    "osmosis": "ibc/35CECC330D11DD00FACB555D07687631E0BC7D226260CC5F015F6D7980819533"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Humans.ai is a next generation blockchain platform that brings together an ecosystem of stakeholders around the use of AI to create at scale. It combines a library of AI tools into a creative studio suite where users will be able to pick and choose as they bring their ideas to life. Individuals are empowered to create and own their digital likenesses, which may be used by themselves and others in the creation of any number of digital assets. The synthetic media, AI apps, and other digital assets utilize blockchain technology to generate Non-Fungible Tokens (NFTs) as a way of creating transparency, provenance, accountability, and long-term governance."
+  },
+  "links": {
+    "homepage": [
+      "https://humans.ai"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x8fac8031e079f409135766c7d5de29cf22ef897c",
+      "https://platform.arkhamintelligence.com/explorer/token/humans-ai",
+      "https://ethplorer.io/address/0x8fac8031e079f409135766c7d5de29cf22ef897c",
+      "https://www.mintscan.io/humans",
+      "https://bigdipper.live/humansai",
+      "https://humans.explorers.guru/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/humansdotai"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "humansdotai",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "humansdotai",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/21273/thumb/h_logo_1x.png?1696520644",
+    "small": "https://coin-images.coingecko.com/coins/images/21273/small/h_logo_1x.png?1696520644",
+    "large": "https://coin-images.coingecko.com/coins/images/21273/large/h_logo_1x.png?1696520644"
+  },
+  "last_updated": "2025-07-11T09:51:57.685254+00:00"
+}

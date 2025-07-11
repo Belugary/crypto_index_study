@@ -1,0 +1,53 @@
+{
+  "id": "wink",
+  "symbol": "win",
+  "name": "WINkLink",
+  "categories": [
+    "Oracle",
+    "Binance Launchpad",
+    "Tron Ecosystem",
+    "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "asset_platform_id": "tron",
+  "platforms": {
+    "tron": "TLa2f6VPqDgRE67v1736s7bJ8Ray5wYjU7"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The first TRON ecosystem comprehensive oracle WINkLink fully integrates the real world with the blockchain space, will be able to provide reliable, unpredictable and verifiable random numbers, and fully restore trust and improve user experience by tapping into data, events, and payment systems etc. from the real world. The WINk team completed the acquisition of justlink.io on April 26, 2021, and WINkLink becomes the first TRON ecosystem comprehensive oracle.  WIN, a TRON-based TRC20 token, will be the governance token of the WINkLink oracle network. Up to now, WIN has been listed on Binance, KuCoin, Poloniex, Bithumb, HitBTC, WazirX and many other well-known international exchanges."
+  },
+  "links": {
+    "homepage": [
+      "https://winklink.org/"
+    ],
+    "whitepaper": "https://winklink.org/WinkLink%20white%20paper.pdf",
+    "blockchain_site": [
+      "https://tronscan.org/#/token20/tla2f6vpqdgre67v1736s7bj8ray5wyju7",
+      "https://platform.arkhamintelligence.com/explorer/token/wink"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://winklink-oracle.medium.com"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "WinkLink_Oracle",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "WINkLink_Oracle_official",
+    "subreddit_url": "https://www.reddit.com/r/WINk_org/",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/9129/thumb/WinK.png?1696509252",
+    "small": "https://coin-images.coingecko.com/coins/images/9129/small/WinK.png?1696509252",
+    "large": "https://coin-images.coingecko.com/coins/images/9129/large/WinK.png?1696509252"
+  },
+  "last_updated": "2025-07-11T09:52:08.190935+00:00"
+}

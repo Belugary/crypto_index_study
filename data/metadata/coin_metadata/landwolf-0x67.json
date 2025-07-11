@@ -1,0 +1,51 @@
+{
+  "id": "landwolf-0x67",
+  "symbol": "wolf",
+  "name": "LandWolf",
+  "categories": [
+    "Meme",
+    "Ethereum Ecosystem",
+    "The Boy’s Club"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x67466be17df832165f8c80a5a120ccc652bd7e69"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Launched in April, $WOLF coin, also known as Landwolf, was gifted to the community by its developer and has rapidly evolved into an unstoppable force with a vibrant and engaged community. Inspired by the playful and imaginative world of 'Boysclub' by Matt Furie, $WOLF coin embraces the spirit of fun and camaraderie. It is designed solely for entertainment purposes, with no inherent utility but to serve as a token of enjoyment and community participation. As a true token 'for the People,' $WOLF coin continues to foster a lively and supportive environment where members can connect, share, and revel in the joy of collective amusement."
+  },
+  "links": {
+    "homepage": [
+      "https://boysclubwolf.com/"
+    ],
+    "whitepaper": "https://docs.google.com/document/d/1FV7D39pI9-JBisuUq4D9SQrfg9qMdxJE6gxYM4h1da8/edit?usp=sharing",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x67466be17df832165f8c80a5a120ccc652bd7e69",
+      "https://platform.arkhamintelligence.com/explorer/token/landwolf-0x67",
+      "https://ethplorer.io/address/0x67466be17df832165f8c80a5a120ccc652bd7e69"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": null,
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/37403/thumb/wolf_200x200.png?1715222165",
+    "small": "https://coin-images.coingecko.com/coins/images/37403/small/wolf_200x200.png?1715222165",
+    "large": "https://coin-images.coingecko.com/coins/images/37403/large/wolf_200x200.png?1715222165"
+  },
+  "last_updated": "2025-07-11T09:52:22.645531+00:00"
+}

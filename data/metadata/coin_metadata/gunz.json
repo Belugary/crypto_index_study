@@ -1,0 +1,61 @@
+{
+  "id": "gunz",
+  "symbol": "gun",
+  "name": "Gunz",
+  "categories": [
+    "Smart Contract Platform",
+    "Gaming (GameFi)",
+    "Solana Ecosystem",
+    "Layer 1 (L1)",
+    "Play To Earn",
+    "Shooting Games",
+    "Coinbase Ventures Portfolio",
+    "Gaming Blockchains",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Delphi Ventures Portfolio",
+    "Action Games"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": "",
+    "solana": "3jUf2RTyXp867piSB2dt8uUcNiLDW58asjGtXkRAkBbe"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://gunbygunz.com/"
+    ],
+    "whitepaper": "https://www.gunbygunz.com/whitepaper/",
+    "blockchain_site": [
+      "https://gunzscan.io/",
+      "https://solscan.io/token/3jUf2RTyXp867piSB2dt8uUcNiLDW58asjGtXkRAkBbe"
+    ],
+    "official_forum_url": [
+      "https://discord.com/invite/gunbygunz"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "GUNbyGUNZ",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55027/thumb/gunz.jpg?1743262298",
+    "small": "https://coin-images.coingecko.com/coins/images/55027/small/gunz.jpg?1743262298",
+    "large": "https://coin-images.coingecko.com/coins/images/55027/large/gunz.jpg?1743262298"
+  },
+  "last_updated": "2025-07-11T09:54:11.553885+00:00"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "milady-cult-coin",
+  "symbol": "cult",
+  "name": "Milady Cult Coin",
+  "categories": [
+    "Meme",
+    "Ethereum Ecosystem",
+    "Airdropped Tokens by NFT Projects",
+    "4chan-Themed"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x0000000000c5dc95539589fbd24be07c6c14eca4"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://cult.inc/",
+      "https://www.remilia.org/"
+    ],
+    "whitepaper": "https://cult.inc/assets/pdf/cultpaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x0000000000c5dc95539589fbd24be07c6c14eca4",
+      "https://ethplorer.io/address/0x0000000000c5dc95539589fbd24be07c6c14eca4"
+    ],
+    "official_forum_url": [
+      "https://www.tiktok.com/@cult.incorporated",
+      "https://www.instagram.com/cult_incorporated/"
+    ],
+    "chat_url": [
+      "https://discord.gg/cultinc",
+      "https://www.youtube.com/@CultCoin"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "MiladyCult",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "CultDotInc",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/52583/thumb/cult.jpg?1733712273",
+    "small": "https://coin-images.coingecko.com/coins/images/52583/small/cult.jpg?1733712273",
+    "large": "https://coin-images.coingecko.com/coins/images/52583/large/cult.jpg?1733712273"
+  },
+  "last_updated": "2025-07-11T09:54:35.452364+00:00"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "vaultbridge-bridged-wbtc-katana",
+  "symbol": "vbwbtc",
+  "name": "VaultBridge Bridged WBTC (Katana)",
+  "categories": [
+    "Bridged WBTC",
+    "Bridged-Tokens",
+    "Katana Ecosystem"
+  ],
+  "asset_platform_id": "katana",
+  "platforms": {
+    "katana": "0x0913da6da4b42f538b445599b46bb4622342cf52"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.katanarpc.com/token/0x0913DA6Da4b42f538B445599b46Bb4622342Cf52"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/67045/thumb/btc.png?1751581679",
+    "small": "https://coin-images.coingecko.com/coins/images/67045/small/btc.png?1751581679",
+    "large": "https://coin-images.coingecko.com/coins/images/67045/large/btc.png?1751581679"
+  },
+  "last_updated": "2025-07-11T09:55:49.464615+00:00"
+}

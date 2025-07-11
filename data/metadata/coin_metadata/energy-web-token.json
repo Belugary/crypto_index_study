@@ -1,0 +1,65 @@
+{
+  "id": "energy-web-token",
+  "symbol": "ewt",
+  "name": "Energy Web",
+  "categories": [
+    "Energy",
+    "Polkadot Ecosystem",
+    "Gnosis Chain Ecosystem",
+    "Regenerative Finance (ReFi)",
+    "Real World Assets (RWA)",
+    "Blockchain Capital Portfolio",
+    "Hydration Ecosystem"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": "",
+    "xdai": "0x6a8cb6714b1ee5b471a7d2ec4302cb4f5ff25ec2",
+    "hydration": "asset_registry%2F252525"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Energy Web Token (EWT) is the native token of the Energy Web Chain, a public, Proof-of-Authority Ethereum Virtual Machine blockchain specifically designed to support enterprise-grade applications in the energy sector. The Energy Web Chain is operated and governed by over 25 Validator nodes from 15 countries, including utilities, grid operators, and startups. In addition to its native token, the EW Chain supports all ERC standards. The Energy Web Chain was launched in June 2019 by Energy Web Foundation - a global nonprofit unleashing blockchain's potential in the energy sector - and its global consortium of Members that includes upstream energy companies, utilities, grid operators, software developers, and technology vendors. For more information, visit energyweb.org."
+  },
+  "links": {
+    "homepage": [
+      "https://www.energyweb.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.energyweb.org/",
+      "https://blockscout.com/poa/xdai/tokens/0x6a8cb6714b1ee5b471a7d2ec4302cb4f5ff25ec2/token-transfers",
+      "https://etherscan.io/token/0x178c820f862b14f316509ec36b13123da19a6054",
+      "https://explorer.energi.network/token/0x387005f39bf464c00bf3ac7c80021f919c2f4164",
+      "https://gnosisscan.io/token/0x6a8cb6714b1ee5b471a7d2ec4302cb4f5ff25ec2",
+      "https://hydration.subscan.io/custom_token?unique_id=asset_registry%2F252525"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.linkedin.com/company/energy-web-foundation/",
+      "https://www.facebook.com/energywebx/"
+    ],
+    "announcement_url": [
+      "https://medium.com/energy-web-insights"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "energywebx",
+    "facebook_username": "EnergyWebFoundation",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "energyweb",
+    "subreddit_url": "https://www.reddit.com/r/EnergyWeb/",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/10886/thumb/R9gQTJV__400x400.png?1696510839",
+    "small": "https://coin-images.coingecko.com/coins/images/10886/small/R9gQTJV__400x400.png?1696510839",
+    "large": "https://coin-images.coingecko.com/coins/images/10886/large/R9gQTJV__400x400.png?1696510839"
+  },
+  "last_updated": "2025-07-11T09:50:26.573262+00:00"
+}

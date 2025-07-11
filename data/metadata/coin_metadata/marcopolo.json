@@ -1,0 +1,62 @@
+{
+  "id": "marcopolo",
+  "symbol": "mapo",
+  "name": "MAP Protocol",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem",
+    "DWF Labs Portfolio"
+  ],
+  "asset_platform_id": "map-protocol",
+  "platforms": {
+    "map-protocol": "mapo",
+    "ethereum": "0x66d79b8f60ec93bfce0b56f5ac14a2714e509a99",
+    "binance-smart-chain": "0x66d79b8f60ec93bfce0b56f5ac14a2714e509a99"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Proof of Stake",
+  "genesis_date": null,
+  "country_origin": "SG",
+  "description": {
+    "en": "MAP Protocol is a decentralized cross-chain interoperability protocol backed by a dedicated blockchain which safeguards cross-chain assets and empowers Dapps to achieve full potential."
+  },
+  "links": {
+    "homepage": [
+      "https://www.mapprotocol.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://www.maposcan.io/mapo",
+      "https://platform.arkhamintelligence.com/explorer/token/marcopolo",
+      "https://www.maposcan.io/address/mapo",
+      "https://etherscan.io/token/0x66d79b8f60ec93bfce0b56f5ac14a2714e509a99",
+      "https://ethplorer.io/address/0x66d79b8f60ec93bfce0b56f5ac14a2714e509a99",
+      "https://bscscan.com/token/0x66d79b8f60ec93bfce0b56f5ac14a2714e509a99",
+      "https://binplorer.com/address/0x66d79b8f60ec93bfce0b56f5ac14a2714e509a99"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/marcopolo-protocol",
+      "https://blog.naver.com/mapprotocol"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "MapProtocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "MAPprotocol",
+    "subreddit_url": "https://www.reddit.com/r/MarcoPoloProtocol/",
+    "repos_url": {
+      "github": [
+        "https://github.com/mapprotocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/10085/thumb/500*500.png?1723560204",
+    "small": "https://coin-images.coingecko.com/coins/images/10085/small/500*500.png?1723560204",
+    "large": "https://coin-images.coingecko.com/coins/images/10085/large/500*500.png?1723560204"
+  },
+  "last_updated": "2025-07-11T09:55:02.600766+00:00"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "creatorbid",
+  "symbol": "bid",
+  "name": "CreatorBid",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "BNB Chain Ecosystem",
+    "Base Ecosystem",
+    "AI Agent Launchpad",
+    "Binance Alpha Spotlight",
+    "Binance Wallet IDO"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xa1832f7f4e534ae557f9b5ab76de54b1873e498b",
+    "base": "0xa1832f7f4e534ae557f9b5ab76de54b1873e498b"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://creator.bid/"
+    ],
+    "whitepaper": "https://blog.creator.bid/2025/01/23/creatorbid-intro/",
+    "blockchain_site": [
+      "https://bscscan.com/token/0xa1832f7F4e534aE557f9B5AB76dE54B1873e498B",
+      "https://binplorer.com/address/0xa1832f7F4e534aE557f9B5AB76dE54B1873e498B",
+      "https://basescan.org/token/0xa1832f7F4e534aE557f9B5AB76dE54B1873e498B"
+    ],
+    "official_forum_url": [
+      "https://blog.creator.bid/"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "CreatorBid",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "creatorbid",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53878/thumb/creatorbid.jpg?1737623538",
+    "small": "https://coin-images.coingecko.com/coins/images/53878/small/creatorbid.jpg?1737623538",
+    "large": "https://coin-images.coingecko.com/coins/images/53878/large/creatorbid.jpg?1737623538"
+  },
+  "last_updated": "2025-07-11T09:54:48.966517+00:00"
+}

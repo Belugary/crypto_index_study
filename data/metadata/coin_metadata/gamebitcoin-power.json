@@ -1,0 +1,48 @@
+{
+  "id": "gamebitcoin-power",
+  "symbol": "pwr",
+  "name": "Gamebitcoin Power",
+  "categories": [
+    "Gaming (GameFi)",
+    "Polygon Ecosystem"
+  ],
+  "asset_platform_id": "polygon-pos",
+  "platforms": {
+    "polygon-pos": "0xc2a7195cef4605bd80b949cd7eb1f7ad1566c850"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The Dcosmos project is a web3.0 game project that stands for PNE (Play n Earn).\r\nWe aim to make the game more like a game, creating a blockchain project that game users can enjoy.\r\nThe primary goal is to create games that users can enjoy, and as a result of focusing on the game, the secondary goal is to move to a stage where they may earn a certain profit.\r\nWe are creating a platform for gamer and developer modes."
+  },
+  "links": {
+    "homepage": [
+      "http://pwr.gamebitcoin.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://polygonscan.com/token/0xC2A7195CeF4605bD80B949CD7eB1f7aD1566c850"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "gamebitPWR",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "pwr_official_group",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53262/thumb/pwr_200x200.png?1735911290",
+    "small": "https://coin-images.coingecko.com/coins/images/53262/small/pwr_200x200.png?1735911290",
+    "large": "https://coin-images.coingecko.com/coins/images/53262/large/pwr_200x200.png?1735911290"
+  },
+  "last_updated": "2025-07-11T09:54:42.918269+00:00"
+}

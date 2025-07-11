@@ -1,0 +1,60 @@
+{
+  "id": "bonfida",
+  "symbol": "fida",
+  "name": "Solana Name Service (prev. Bonfida)",
+  "categories": [
+    "Big Data",
+    "Business Services",
+    "Infrastructure",
+    "Decentralized Finance (DeFi)",
+    "Solana Ecosystem",
+    "FTX Holdings",
+    "DWF Labs Portfolio",
+    "Name Service"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "EchesyfXePKdLtoiZSL8pBe8Myagyy8ZRqsACNCFGnvp"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "SNS is the user identity infrastructure layer on Solana. The .sol domain name can be used as your payment method, web3 username, and on-chain identity.\r\n\r\nSNS is building a composable and interactive web3 identity to help anyone anywhere connect to each other with an intuitive and user-friendly omni-chain experience.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.bonfida.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.solana.com/address/echesyfxepkdltoizsl8pbe8myagyy8zrqsacncfgnvp",
+      "https://platform.arkhamintelligence.com/explorer/token/bonfida",
+      "https://solscan.io/token/echesyfxepkdltoizsl8pbe8myagyy8zrqsacncfgnvp"
+    ],
+    "official_forum_url": [
+      "https://www.bonfida.org/blog"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/bonfida-778660171265474572"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "bonfida",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/13395/thumb/bonfida.png?1696513157",
+    "small": "https://coin-images.coingecko.com/coins/images/13395/small/bonfida.png?1696513157",
+    "large": "https://coin-images.coingecko.com/coins/images/13395/large/bonfida.png?1696513157"
+  },
+  "last_updated": "2025-07-11T09:50:27.221261+00:00"
+}

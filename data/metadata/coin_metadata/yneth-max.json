@@ -1,0 +1,85 @@
+{
+  "id": "yneth-max",
+  "symbol": "ynethx",
+  "name": "ynETH MAX",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Mantle Ecosystem",
+    "Base Ecosystem",
+    "Scroll Ecosystem",
+    "Restaking",
+    "Berachain Ecosystem",
+    "Liquid Restaking Tokens",
+    "Blast Ecosystem",
+    "Fraxtal Ecosystem",
+    "Liquid Restaked ETH"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x657d9aba1dbb59e53f9f3ecaa878447dcfc96dcb",
+    "fraxtal": "0xe231db5f348d709239ef1741ea30961b3b635a61",
+    "berachain": "0xe231db5f348d709239ef1741ea30961b3b635a61",
+    "binance-smart-chain": "0xe231db5f348d709239ef1741ea30961b3b635a61",
+    "scroll": "0xe231db5f348d709239ef1741ea30961b3b635a61",
+    "taiko": "0xe231db5f348d709239ef1741ea30961b3b635a61",
+    "mantle": "0xe231db5f348d709239ef1741ea30961b3b635a61",
+    "blast": "0xe231db5f348d709239ef1741ea30961b3b635a61",
+    "base": "0xe231db5f348d709239ef1741ea30961b3b635a61",
+    "arbitrum-one": "0xe231db5f348d709239ef1741ea30961b3b635a61",
+    "optimistic-ethereum": "0xe231db5f348d709239ef1741ea30961b3b635a61"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "ynETHx is a MAX LRT defining a new LRT class designed to optimize yield from ETH restaking and DeFi strategies using L1 settlement assurances all under 1 product. MAX LRTs rebalance assets across multiple tokenized strategies and multiple chains with the goal of achieving a risk adjusted 10-15% APY. ynETHx generates yield from ETH staking, EigenLayer restaking, and DeFi strategies. Strategies are modular and enable the ability to add and remove strategies allowing ynETHx to adapt to an evolving market to maintain the highest-yielding restaking opportunities, while always keeping security and safety in mind. Strategies are managed by the YieldNest DAO/subDAO’s."
+  },
+  "links": {
+    "homepage": [
+      "https://yieldnest.finance",
+      "https://app.yieldnest.finance"
+    ],
+    "whitepaper": "https://docs.yieldnest.finance/",
+    "blockchain_site": [
+      "https://etherscan.io/address/0x657d9ABA1DBb59e53f9F3eCAA878447dCfC96dCb",
+      "https://etherscan.io/token/0x657d9ABA1DBb59e53f9F3eCAA878447dCfC96dCb",
+      "https://ethplorer.io/address/0x657d9ABA1DBb59e53f9F3eCAA878447dCfC96dCb",
+      "https://arbiscan.io/token/0xe231db5f348d709239ef1741ea30961b3b635a61",
+      "https://optimistic.etherscan.io/token/0xe231db5f348d709239ef1741ea30961b3b635a61",
+      "https://basescan.org/token/0xe231db5f348d709239ef1741ea30961b3b635a61",
+      "https://fraxscan.com/token/0xe231db5f348d709239ef1741ea30961b3b635a61",
+      "https://scrollscan.com/token/0xe231db5f348d709239ef1741ea30961b3b635a61",
+      "https://scroll.l2scan.co/token/0xe231db5f348d709239ef1741ea30961b3b635a61",
+      "https://taikoscan.io/token/0xe231db5f348d709239ef1741ea30961b3b635a61"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/ayAZuQgFaE",
+      "https://medium.com/@yieldnest"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/orgs/yieldnest/repositories"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/51623/thumb/ynETHx.png?1731659494",
+    "small": "https://coin-images.coingecko.com/coins/images/51623/small/ynETHx.png?1731659494",
+    "large": "https://coin-images.coingecko.com/coins/images/51623/large/ynETHx.png?1731659494"
+  },
+  "last_updated": "2025-07-11T09:53:22.626496+00:00"
+}

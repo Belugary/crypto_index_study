@@ -1,0 +1,49 @@
+{
+  "id": "masha-and-the-bear",
+  "symbol": "masha",
+  "name": "Masha and the Bear",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Solana Meme"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "mae8vJGf8Wju8Ron1oDTQVaTGGBpcpWDwoRQJALMMf2"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "MASHA is a Solana-based memecoin project that explores crypto culture through humor, storytelling, and community participation. It centers around two symbolic characters—Masha, a curious girl, and Bear, her skeptical companion—who reflect the contrasting personalities in crypto: the dreamers and the realists. The project was launched without a presale, VC investment, or team allocation, emphasizing fair distribution and decentralized ownership. Rather than offering traditional utility, MASHA embraces memes and cultural expression as its core value. The project invites users to co-create content, participate in social experiments, and shape a narrative that satirizes and celebrates the chaos of Web3."
+  },
+  "links": {
+    "homepage": [
+      "https://mashatoken.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/mae8vJGf8Wju8Ron1oDTQVaTGGBpcpWDwoRQJALMMf2"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "mashatoken",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "MashaAndTheBearTokenCommunity",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/66618/thumb/masha-logo-token.jpg?1750045395",
+    "small": "https://coin-images.coingecko.com/coins/images/66618/small/masha-logo-token.jpg?1750045395",
+    "large": "https://coin-images.coingecko.com/coins/images/66618/large/masha-logo-token.jpg?1750045395"
+  },
+  "last_updated": "2025-07-11T09:54:37.453907+00:00"
+}

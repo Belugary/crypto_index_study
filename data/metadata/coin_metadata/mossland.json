@@ -1,0 +1,53 @@
+{
+  "id": "mossland",
+  "symbol": "moc",
+  "name": "Mossland",
+  "categories": [
+    "Augmented Reality",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x865ec58b06bf6305b886793aa20a2da31d034e68"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "EE",
+  "description": {
+    "en": "“Mossland” is a location-based AR mobile game based on real estate. Users can identify real properties in vicinity, acquire and trade them in the game. Virtual properties in the game can be tradable and liquified through cryptocurrency exchange, so users will put time and effort to increase the value of their properties."
+  },
+  "links": {
+    "homepage": [
+      "http://moss.land/"
+    ],
+    "whitepaper": "https://d2vy65gufabiok.cloudfront.net/whitepaper/Mossland+Whitepaper+-+ENG.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x865ec58b06bf6305b886793aa20a2da31d034e68",
+      "https://platform.arkhamintelligence.com/explorer/token/mossland",
+      "https://ethplorer.io/address/0x865ec58b06bf6305b886793aa20a2da31d034e68",
+      "https://scan.luniverse.io/tokens/0x878120a5c9828759a250156c66d629219f07c5c6"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "TheMossland",
+    "facebook_username": "TheMossland",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/Mossland/",
+    "repos_url": {
+      "github": [
+        "https://github.com/mossland"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/2374/thumb/moc.png?1696503240",
+    "small": "https://coin-images.coingecko.com/coins/images/2374/small/moc.png?1696503240",
+    "large": "https://coin-images.coingecko.com/coins/images/2374/large/moc.png?1696503240"
+  },
+  "last_updated": "2025-07-11T09:55:11.856932+00:00"
+}

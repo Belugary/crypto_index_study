@@ -1,0 +1,61 @@
+{
+  "id": "geodnet",
+  "symbol": "geod",
+  "name": "Geodnet",
+  "categories": [
+    "Solana Ecosystem",
+    "Polygon Ecosystem",
+    "DePIN",
+    "Pantera Capital Portfolio"
+  ],
+  "asset_platform_id": "polygon-pos",
+  "platforms": {
+    "polygon-pos": "0xac0f66379a6d7801d7726d5a943356a172549adb",
+    "solana": "7JA5eZdCzztSfQbJvS8aVVxMFfd81Rs9VvwnocV1mKHu"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The Global Earth Observation Decentralized Network (GEODNET) is a decentralized network of Space Weather mining stations that report the real-time influence of the Sun’s solar winds on the Global Navigation Satellite System (GNSS) signals.  This data is commonly used to accurately correct GNSS (GPS and other navigation satellite) signals to provide centimeter level positioning accuracy and improve absolute time accuracy to nano-second level. "
+  },
+  "links": {
+    "homepage": [
+      "https://geodnet.com/",
+      "https://console.geodnet.com"
+    ],
+    "whitepaper": "https://geodnet.com/file/Geodnet%20whitepaper.pdf",
+    "blockchain_site": [
+      "https://polygonscan.com/token/0xac0f66379a6d7801d7726d5a943356a172549adb",
+      "https://platform.arkhamintelligence.com/explorer/token/geodnet",
+      "https://solscan.io/token/7JA5eZdCzztSfQbJvS8aVVxMFfd81Rs9VvwnocV1mKHu"
+    ],
+    "official_forum_url": [
+      "https://medium.com/geodnet"
+    ],
+    "chat_url": [
+      "https://discord.gg/geodnet",
+      "https://www.youtube.com/@GEODNET"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "GEODNET_",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "geodnet",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/geodnet"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/31608/thumb/Circular_White.png?1696530424",
+    "small": "https://coin-images.coingecko.com/coins/images/31608/small/Circular_White.png?1696530424",
+    "large": "https://coin-images.coingecko.com/coins/images/31608/large/Circular_White.png?1696530424"
+  },
+  "last_updated": "2025-07-11T09:51:53.234121+00:00"
+}

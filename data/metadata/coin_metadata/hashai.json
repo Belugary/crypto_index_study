@@ -1,0 +1,55 @@
+{
+  "id": "hashai",
+  "symbol": "hashai",
+  "name": "HashAI",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Ethereum Ecosystem",
+    "DePIN"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x292fcdd1b104de5a00250febba9bc6a5092a0076"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Where Artificial Intelligence Meets Mining Excellence\r\nWith vast Crypto and Web3 experience, the Hash AI team has established the infrastructure, partnerships, and distribution network for a successful Crypto mining company. This involves mining rig supplies, rig hosting and GPU sales, and a mining facility with over 500 top GPUs.\r\n\r\nHarnessing the power of AI, we've developed an intelligent mining algorithm that maximizes hash power by selecting and mining the most efficient coins across L1 Blockchains in real-time.\r\n\r\nUnique Hash AI Token\r\nWe also are introducing our very own Hash AI token. Income from our AI-enhanced mining rigs will be shared with token holders.\r\n\r\nObjectives of Hash AI\r\n\r\nMaximize Returns\r\nIntroduce a mining algorithm that maximizes returns through AI-optimization.\r\n \r\nExpand Our Services\r\nExpand mining facility for better efficiency, and introduce Hash & Node rental.\r\n \r\nEstablish Global Leadership\r\nEstablish Hash AI as a global leader in sustainable and efficient mining practices."
+  },
+  "links": {
+    "homepage": [
+      "https://hashai.co.uk",
+      "https://dapp.hashai.co.uk"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x292fcdd1b104de5a00250febba9bc6a5092a0076",
+      "https://platform.arkhamintelligence.com/explorer/token/hashai",
+      "https://ethplorer.io/address/0x292fcdd1b104de5a00250febba9bc6a5092a0076"
+    ],
+    "official_forum_url": [
+      "https://www.tiktok.com/hash_ai",
+      "https://www.instagram.com/officialhashai"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": null,
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/36743/thumb/HashAi.png?1721618300",
+    "small": "https://coin-images.coingecko.com/coins/images/36743/small/HashAi.png?1721618300",
+    "large": "https://coin-images.coingecko.com/coins/images/36743/large/HashAi.png?1721618300"
+  },
+  "last_updated": "2025-07-11T09:51:52.727679+00:00"
+}

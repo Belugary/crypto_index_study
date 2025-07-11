@@ -1,0 +1,55 @@
+{
+  "id": "gamebuild",
+  "symbol": "game",
+  "name": "GameBuild",
+  "categories": [
+    "Gaming (GameFi)",
+    "Ethereum Ecosystem",
+    "Telegram Apps",
+    "Gaming Platform"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x825459139c897d769339f295e962396c4f9e4a4d"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "GameBuild is a next-generation game infrastructure with powerful toolkits, bringing a brand new economics and experience for Gamers, Developers and Advertisers."
+  },
+  "links": {
+    "homepage": [
+      "https://game.build"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/address/0x825459139c897d769339f295e962396c4f9e4a4d",
+      "https://platform.arkhamintelligence.com/explorer/token/gamebuild",
+      "https://etherscan.io/token/0x825459139c897d769339f295e962396c4f9e4a4d",
+      "https://ethplorer.io/address/0x825459139c897d769339f295e962396c4f9e4a4d"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://medium.com/gamebuild-team"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "gamebuildofficial",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/37789/thumb/Gamebuild-logo-200.png?1715586834",
+    "small": "https://coin-images.coingecko.com/coins/images/37789/small/Gamebuild-logo-200.png?1715586834",
+    "large": "https://coin-images.coingecko.com/coins/images/37789/large/Gamebuild-logo-200.png?1715586834"
+  },
+  "last_updated": "2025-07-11T09:51:48.711469+00:00"
+}

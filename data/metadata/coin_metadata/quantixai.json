@@ -1,0 +1,54 @@
+{
+  "id": "quantixai",
+  "symbol": "qai",
+  "name": "QuantixAI",
+  "categories": [
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xcb21311d3b91b5324f6c11b4f5a656fcacbff122"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Introducing QAI the native utility token powering the QuantixAI ecosystem, including access to advanced features like, stakeholder returns, participation in decentralised governance, incentivising user engagement, and designed for facilitating trades and providing liquidity provisions for the QuantixAI trading bot."
+  },
+  "links": {
+    "homepage": [
+      "https://quantixai.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xcb21311d3b91b5324f6c11b4f5a656fcacbff122",
+      "https://platform.arkhamintelligence.com/explorer/token/quantixai",
+      "https://ethplorer.io/address/0xcb21311d3b91b5324f6c11b4f5a656fcacbff122"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/quantixcapital",
+      "https://www.linkedin.com/company/quantixcapital/"
+    ],
+    "chat_url": [
+      "http://discord.gg/aghdDvUHzj"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "QuantixCapital",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Quantixcapital",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/36166/thumb/200px_Qai.png?1726228972",
+    "small": "https://coin-images.coingecko.com/coins/images/36166/small/200px_Qai.png?1726228972",
+    "large": "https://coin-images.coingecko.com/coins/images/36166/large/200px_Qai.png?1726228972"
+  },
+  "last_updated": "2025-07-11T09:50:25.277931+00:00"
+}

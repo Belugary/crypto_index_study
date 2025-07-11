@@ -1,0 +1,52 @@
+{
+  "id": "spacen",
+  "symbol": "sn",
+  "name": "SpaceN",
+  "categories": [
+    "BNB Chain Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x939dd9e433552e325d78c33a16ef4cd8004d2f9c"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "SpaceN is an NFT one-stop investment management tool.SpaceN will automatically count the investment income information of users buying and selling NFTs, so that users can timely understand the changes of their NFT assets.SpaceN will bring together the basic information and project dynamics of NFT projects to facilitate users to obtain valuable NFT project information in one stop.SpaceN will recommend corresponding social circles based on NFT holdings, so that users can find like-minded NFT holders or NFT traders.SpaceN will become a platform for users to build self-organized DAOs, so that users can build their own DAOs and sell their own NFTs."
+  },
+  "links": {
+    "homepage": [
+      "https://www.spacen.xyz/"
+    ],
+    "whitepaper": null,
+    "blockchain_site": [
+      "https://bscscan.com/token/0x939dd9e433552e325d78c33a16ef4cd8004d2f9c",
+      "https://platform.arkhamintelligence.com/explorer/token/spacen",
+      "https://binplorer.com/address/0x939dd9e433552e325d78c33a16ef4cd8004d2f9c"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/DCRjedrUgm",
+      "https://medium.com/@spacenNFT"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "spacenNFT",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "spacenNFT",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/27576/thumb/sn.png?1696526609",
+    "small": "https://coin-images.coingecko.com/coins/images/27576/small/sn.png?1696526609",
+    "large": "https://coin-images.coingecko.com/coins/images/27576/large/sn.png?1696526609"
+  },
+  "last_updated": "2025-07-11T09:51:41.531924+00:00"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "forta",
+  "symbol": "fort",
+  "name": "Forta",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem",
+    "Coinbase Ventures Portfolio",
+    "Cybersecurity",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "Blockchain Capital Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x41545f8b9472d758bb669ed8eaeeecd7a9c4ec29",
+    "polygon-pos": "0x9ff62d1fc52a907b6dcba8077c2ddca6e6a9d3e1"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Forta (FORT) is the leading decentralized security solution for Web3, backed by major players like Coinbase and a16z, providing AI-powered real-time threat prevention for DeFi.\r\n\r\nForta Firewall, its flagship product, is the first AI-powered on-chain security and compliance solution that proactively blocks harmful activity while allowing legitimate transactions to proceed uninterrupted. This “security by default” approach protects user funds without compromising usability.\r\n\r\nUnlike traditional security solutions that react after an attack, Forta Firewall stops malicious transactions before execution at the RPC level."
+  },
+  "links": {
+    "homepage": [
+      "https://forta.org/",
+      "https://firewall.forta.network/",
+      "https://app.forta.network/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.forta.network/",
+      "https://platform.arkhamintelligence.com/explorer/token/forta",
+      "https://etherscan.io/token/0x41545f8b9472d758bb669ed8eaeeecd7a9c4ec29",
+      "https://ethplorer.io/address/0x41545f8b9472d758bb669ed8eaeeecd7a9c4ec29",
+      "https://polygonscan.com/token/0x9ff62d1fc52a907b6dcba8077c2ddca6e6a9d3e1"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "FortaNetwork",
+    "facebook_username": "FortaProtocol",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/forta-network"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/25060/thumb/Forta_lgo_%281%29.png?1696524210",
+    "small": "https://coin-images.coingecko.com/coins/images/25060/small/Forta_lgo_%281%29.png?1696524210",
+    "large": "https://coin-images.coingecko.com/coins/images/25060/large/Forta_lgo_%281%29.png?1696524210"
+  },
+  "last_updated": "2025-07-11T09:52:52.077301+00:00"
+}

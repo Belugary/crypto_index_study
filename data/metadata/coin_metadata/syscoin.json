@@ -1,0 +1,71 @@
+{
+  "id": "syscoin",
+  "symbol": "sys",
+  "name": "Syscoin",
+  "categories": [
+    "Smart Contract Platform",
+    "Masternodes",
+    "Layer 1 (L1)",
+    "Decentralized Identifier (DID)",
+    "Layer 2 (L2)",
+    "Zero Knowledge (ZK)",
+    "Rollux Ecosystem",
+    "DWF Labs Portfolio",
+    "Data Availability",
+    "Modular Blockchain",
+    "Rollup",
+    "Proof of Work (PoW)"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "SHA-256",
+  "genesis_date": null,
+  "country_origin": "CA",
+  "description": {
+    "en": "What Is Syscoin (SYS)?\r\n\r\nFounded in 2014 as a fork of Bitcoin, Syscoin (SYS) is a trailblazing blockchain network that synergizes the robust security of Bitcoin's Proof of Work (PoW) consensus algorithm with the versatility of Ethereum's smart contract functionality. Syscoin is not just a blockchain; it's a full-stack, modular ecosystem that includes Rollux, the industry's most competitive EVM Layer 2 rollup solution. Due to its modularity, it is worth noting that Syscoin has three chains, its UTXO and [N]EVM chains comprise its Layer 1, and its Layer 2 currently consists of Rollux.\r\n\r\nRollux sets a new standard for Ethereum-compatible dApps by being the only EVM L2 secured by Bitcoin through merged mining. It's grounded in OP Stack and features PoDA (Proof-of-Data Availability), the most advanced data availability solution in the industry. This unique architecture makes Rollux the most secure, performant, affordable, and scalable rollup for Ethereum-compatible dApps.\r\n\r\nSyscoin aims to be at the forefront of smart contract applications, spanning Metaverse, IoT, Smart Cities, and even interplanetary economies. Looking forward, its roadmap is rich with cutting-edge technologies, including various ZK technologies like rollups, and DAOSYS—a revolutionary DAO model designed for governance-free treasury management and self-sovereignty for all participants.\r\n\r\nEnvisioning a world with unprecedented financial inclusion, Syscoin seeks to empower every individual and business to benefit from Web3 and beyond. It brings together the capabilities of Ethereum and the original vision of Satoshi Nakamoto for Bitcoin, opening up unparalleled possibilities for a decentralized future.\r\n\r\nSyscoin offers its unique version of EVM, known as Network Enhanced Virtual Machine (NEVM), allowing it to host Ethereum-compatible smart contracts and rollups. In addition to Rollux, Syscoin features other Layer-2 solutions like Z-DAG and the Syscoin Bridge, further enhancing its scalability, interoperability, and performance."
+  },
+  "links": {
+    "homepage": [
+      "http://syscoin.org/",
+      "https://rollux.com"
+    ],
+    "whitepaper": "https://syscoin.org/research-whitepapers",
+    "blockchain_site": [
+      "https://explorer.syscoin.org",
+      "https://explorer.rollux.com",
+      "https://blockbook.elint.services",
+      "https://chainz.cryptoid.info/sys/"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/syscoin_org/",
+      "https://linkedin.com/company/syscoin"
+    ],
+    "chat_url": [
+      "https://discord.gg/syscoin",
+      "https://www.facebook.com/Syscoin/",
+      "https://www.youtube.com/syscoin"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "syscoin",
+    "facebook_username": "Syscoin",
+    "bitcointalk_thread_identifier": 587080,
+    "telegram_channel_identifier": "Syscoin_Official",
+    "subreddit_url": "https://www.reddit.com/r/SysCoin",
+    "repos_url": {
+      "github": [
+        "https://github.com/syscoin/syscoin2"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/119/thumb/Syscoin.png?1696501494",
+    "small": "https://coin-images.coingecko.com/coins/images/119/small/Syscoin.png?1696501494",
+    "large": "https://coin-images.coingecko.com/coins/images/119/large/Syscoin.png?1696501494"
+  },
+  "last_updated": "2025-07-11T09:53:57.180343+00:00"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "hydradx",
+  "symbol": "hdx",
+  "name": "Hydration",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Smart Contract Platform",
+    "Decentralized Finance (DeFi)",
+    "Polkadot Ecosystem",
+    "Layer 1 (L1)"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://hydration.net"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://hydration.subscan.io"
+    ],
+    "official_forum_url": [
+      "https://hydration.substack.com/",
+      "https://hydradx.substack.com/"
+    ],
+    "chat_url": [
+      "https://discord.gg/kkmY35UxAG"
+    ],
+    "announcement_url": [
+      "https://hydradx.substack.com/archive"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "hydration_net",
+    "subreddit_url": "https://www.reddit.com/r/hdx/",
+    "repos_url": {
+      "github": [
+        "https://github.com/galacticcouncil"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/13929/thumb/avatar-circle-pink.png?1717638991",
+    "small": "https://coin-images.coingecko.com/coins/images/13929/small/avatar-circle-pink.png?1717638991",
+    "large": "https://coin-images.coingecko.com/coins/images/13929/large/avatar-circle-pink.png?1717638991"
+  },
+  "last_updated": "2025-07-11T09:51:25.440324+00:00"
+}

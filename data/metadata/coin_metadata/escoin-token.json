@@ -1,0 +1,62 @@
+{
+  "id": "escoin-token",
+  "symbol": "elg",
+  "name": "Escoin",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xa2085073878152ac3090ea13d1e41bd69e60dc99",
+    "arbitrum-one": "0x89d59a38eb2a91df58a709bb249bf1d13ad11037",
+    "binance-smart-chain": "0x755341c49f4427e43d99d8254a8dd87056f1ee00",
+    "polygon-pos": "0x8226ac9edb26ff16da19151042a8ba3bb2cc237f"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "EE",
+  "description": {
+    "en": "The purpose of Escoin includes providing clients and law firms establish mutual cooperation in the digital environment in accordance with common interests by eliminating the country’s borders and providing the entire infrastructure they need. In doing so, the aim is to expand the network and thus to provide a more transparent and healthy business model."
+  },
+  "links": {
+    "homepage": [
+      "https://www.escoin.ee/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xa2085073878152ac3090ea13d1e41bd69e60dc99",
+      "https://platform.arkhamintelligence.com/explorer/token/escoin-token",
+      "https://ethplorer.io/address/0xa2085073878152ac3090ea13d1e41bd69e60dc99",
+      "https://bscscan.com/token/0x755341c49f4427e43d99d8254a8dd87056f1ee00",
+      "https://binplorer.com/address/0x755341c49f4427e43d99d8254a8dd87056f1ee00",
+      "https://polygonscan.com/token/0x8226ac9edb26ff16da19151042a8ba3bb2cc237f",
+      "https://arbiscan.io/token/0x89d59a38eb2a91df58a709bb249bf1d13ad11037"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://icoescoin.medium.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "EsCoinICO",
+    "facebook_username": "ICOEscoin",
+    "bitcointalk_thread_identifier": 5277290,
+    "telegram_channel_identifier": "EscoinICO",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/escoin-ico"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/13566/thumb/escoin-200.png?1696513320",
+    "small": "https://coin-images.coingecko.com/coins/images/13566/small/escoin-200.png?1696513320",
+    "large": "https://coin-images.coingecko.com/coins/images/13566/large/escoin-200.png?1696513320"
+  },
+  "last_updated": "2025-07-11T09:52:09.846596+00:00"
+}

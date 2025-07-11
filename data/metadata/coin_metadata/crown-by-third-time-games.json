@@ -1,0 +1,57 @@
+{
+  "id": "crown-by-third-time-games",
+  "symbol": "crown",
+  "name": "Crown by Third Time Games",
+  "categories": [
+    "Gaming (GameFi)",
+    "Solana Ecosystem",
+    "Animal Racing",
+    "Gaming Utility Token",
+    "Sports Games",
+    "Made in USA"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "GDfnEsia2WLAW5t8yx2X5j2mkfA74i5kwGdDuZHt7XmG"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "#What is CROWN\r\nCROWN is the official utility token of Photo Finish™ LIVE, which is the official game of the Kentucky Derby. It's a vital component of the game ecosystem and provides users with unique opportunities and benefits, and is integral for becoming a track owner within the game.\r\n\r\n#What Makes CROWN Unique?\r\nCROWN brings a novel application of blockchain technology to the world of digital horse racing and gaming. It allows for the operation of tracks within Photo Finish™ LIVE. The token serves multiple purposes – from paying for in-game benefits, to stake as a demonstration of ownership rights over tracks, to providing a form of reward for successful racing careers.\r\n\r\n#History of CROWN\r\nThe concept of CROWN was born alongside Photo Finish™ LIVE. Its development and integration into the game ecosystem have been geared towards enhancing user experience and introducing decentralized elements to the world of digital horse racing. While relatively new in the blockchain space, CROWN is gaining traction rapidly due to its unique application, growing user base, and alignment with the top brands in the sport.\r\n\r\n#What’s Next for CROWN\r\nFuture developments for CROWN include further enhancements to its utility within the Photo Finish™ LIVE ecosystem. It will continue to evolve in line with the needs and desires of the game's user base. Additional functionalities, game features and rewards systems may also be integrated with CROWN, further entrenching its importance within the game ecosystem.\r\n\r\n#Learn More\r\n- The tokenomics whitepaper: https://www.dropbox.com/s/1h8rm2nn8jt9afe/CrownWhitepaper.pdf?dl=0\r\n- CROWN resource center: https://thirdtimegames.com/crown-staking-resource-center/"
+  },
+  "links": {
+    "homepage": [
+      "https://thirdtimegames.com",
+      "https://thirdtimegames.com/photo-finish-live",
+      "https://photofinish.live"
+    ],
+    "whitepaper": "https://www.dropbox.com/s/1h8rm2nn8jt9afe/CrownWhitepaper.pdf?dl=0",
+    "blockchain_site": [
+      "https://solscan.io/token/GDfnEsia2WLAW5t8yx2X5j2mkfA74i5kwGdDuZHt7XmG",
+      "https://platform.arkhamintelligence.com/explorer/token/crown-by-third-time-games"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/tVhBawVeb9"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "photofinishgame",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/30452/thumb/crown_200_transparent.png?1696529338",
+    "small": "https://coin-images.coingecko.com/coins/images/30452/small/crown_200_transparent.png?1696529338",
+    "large": "https://coin-images.coingecko.com/coins/images/30452/large/crown_200_transparent.png?1696529338"
+  },
+  "last_updated": "2025-07-11T09:55:32.760507+00:00"
+}

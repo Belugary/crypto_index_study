@@ -1,0 +1,54 @@
+{
+  "id": "chill-guy",
+  "symbol": "chillguy",
+  "name": "Just a chill guy",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Dog-Themed",
+    "Solana Meme",
+    "Pump.fun Ecosystem",
+    "TikTok Meme"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "Df6yfrKC8kZE3KNkrHERKzAetSxbrWeniQfyJY4Jpump"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Chill Guy is the memecoin for the Chill Guy meme which is going viral on TikTok with over 600 million videos about it\r\n\r\nThis project is about fostering a community around this viral meme and the message it shares. The Chill Guy meme is all about a nonchalant character who remains unfaded no matter what life throws at him. In a hectic industry as the crypto industry, we could all be a little more like Chill Guy."
+  },
+  "links": {
+    "homepage": [
+      "https://www.chillguy.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/Df6yfrKC8kZE3KNkrHERKzAetSxbrWeniQfyJY4Jpump",
+      "https://solscan.io/account/93tjgwff5Ac5ThyMi8C4WejVVQq4tuMeMuYW1LEYZ7bu",
+      "https://pump.fun/coin/Df6yfrKC8kZE3KNkrHERKzAetSxbrWeniQfyJY4Jpump"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "chillguycto",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "chillguycto",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/51746/thumb/Scherm%C2%ADafbeelding_2024-11-15_om_20.57.58.png?1731926037",
+    "small": "https://coin-images.coingecko.com/coins/images/51746/small/Scherm%C2%ADafbeelding_2024-11-15_om_20.57.58.png?1731926037",
+    "large": "https://coin-images.coingecko.com/coins/images/51746/large/Scherm%C2%ADafbeelding_2024-11-15_om_20.57.58.png?1731926037"
+  },
+  "last_updated": "2025-07-11T09:51:08.330231+00:00"
+}

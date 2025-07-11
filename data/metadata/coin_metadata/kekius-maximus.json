@@ -1,0 +1,58 @@
+{
+  "id": "kekius-maximus",
+  "symbol": "kekius",
+  "name": "Kekius Maximus",
+  "categories": [
+    "Meme",
+    "Ethereum Ecosystem",
+    "Frog-Themed",
+    "Elon Musk-Inspired",
+    "PolitiFi",
+    "AI Meme",
+    "Parody Meme",
+    "Celebrity-Themed",
+    "Zoo-Themed",
+    "Mascot-Themed",
+    "Desci Meme"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x26e550ac11b26f78a04489d5f20f24e3559f7dd9"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "Elon Musk & Pepe Official interacted with our meme making us super rare.\r\n\r\nCommunity driven token with one goal.. To reach the moon!\r\n\r\nElon Musk mentioned us, retweeted & replied, Pepe official replied in response to Elon with a meme of our token!\r\nElon named us, he loves us!\r\n\r\nProject is about bringing everyone together as a community, bury the developer who created this token only to rug on the community, it’s ours now and we will bury him while he watches on the sidelines!"
+  },
+  "links": {
+    "homepage": [
+      "https://kekiusmaximus.vip/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x26e550ac11b26f78a04489d5f20f24e3559f7dd9",
+      "https://ethplorer.io/address/0x26E550AC11B26f78A04489d5F20f24E3559f7Dd9"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "KekiusCto",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "KekiusMaximusOnEthportal",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/52791/thumb/Untitled_design.png?1734292733",
+    "small": "https://coin-images.coingecko.com/coins/images/52791/small/Untitled_design.png?1734292733",
+    "large": "https://coin-images.coingecko.com/coins/images/52791/large/Untitled_design.png?1734292733"
+  },
+  "last_updated": "2025-07-11T09:56:01.178053+00:00"
+}

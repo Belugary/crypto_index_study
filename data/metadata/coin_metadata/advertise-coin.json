@@ -1,0 +1,51 @@
+{
+  "id": "advertise-coin",
+  "symbol": "adco",
+  "name": "Advertise Coin",
+  "categories": [
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xb6c3dc857845a713d3531cea5ac546f6767992f4"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "BG",
+  "description": {
+    "en": "Advertise Exchange connects publishers and advertisers in a crypto world. The ADCO serviced marketplace includes easy cryptocurrency payments, which makes business truly efficient, transparent, and reliable. Advertise Coin has its own ecosystem with several major advertising companies. Our focus is to integrate all companies, employees, and businesses on the advertising market. Our platform allows advertising companies to contact the API database directly, and offers consumers to use much lower prices for services in the advertising market."
+  },
+  "links": {
+    "homepage": [
+      "https://advertisecoin.com/"
+    ],
+    "whitepaper": null,
+    "blockchain_site": [
+      "https://etherscan.io/token/0xb6c3dc857845a713d3531cea5ac546f6767992f4",
+      "https://platform.arkhamintelligence.com/explorer/token/advertise-coin",
+      "https://ethplorer.io/address/0xb6c3dc857845a713d3531cea5ac546f6767992f4"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/@advertisecoin"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "advertisecoin",
+    "facebook_username": "advertisecoin.com",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "advertisecoin",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/14344/thumb/advertisecoin200x200.png?1696514031",
+    "small": "https://coin-images.coingecko.com/coins/images/14344/small/advertisecoin200x200.png?1696514031",
+    "large": "https://coin-images.coingecko.com/coins/images/14344/large/advertisecoin200x200.png?1696514031"
+  },
+  "last_updated": "2025-07-11T09:54:51.024537+00:00"
+}

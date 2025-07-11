@@ -1,0 +1,70 @@
+{
+  "id": "taiko",
+  "symbol": "taiko",
+  "name": "Taiko",
+  "categories": [
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem",
+    "Layer 2 (L2)",
+    "Zero Knowledge (ZK)",
+    "Rollup",
+    "OKX Ventures Portfolio",
+    "Centralized Exchange (CEX) Product",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x10dea67478c5f8c5e2d90e5e9b26dbe60c54d800",
+    "binance-smart-chain": "0x30c60b20c25b2810ca524810467a0c342294fc61",
+    "taiko": "0xa9d23408b9ba935c230493c40c73824df71a0975"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Taiko is a fully open source, permissionless, Ethereum-equivalent ZK-Rollup. Using Taiko feels the same as using Ethereum. There are no centralized actors that operate the network; all operations are permissionlessly run by the community."
+  },
+  "links": {
+    "homepage": [
+      "https://taiko.xyz/"
+    ],
+    "whitepaper": "https://docs.taiko.xyz/start-here/getting-started",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x10dea67478c5f8c5e2d90e5e9b26dbe60c54d800",
+      "https://platform.arkhamintelligence.com/explorer/token/taiko",
+      "https://ethplorer.io/address/0x10dea67478c5f8c5e2d90e5e9b26dbe60c54d800",
+      "https://taikoscan.io/token/0xa9d23408b9ba935c230493c40c73824df71a0975",
+      "https://bscscan.com/token/0x30c60b20c25b2810ca524810467a0c342294fc61",
+      "https://binplorer.com/address/0x30c60b20c25b2810ca524810467a0c342294fc61"
+    ],
+    "official_forum_url": [
+      "https://taiko.mirror.xyz/",
+      "https://community.taiko.xyz/"
+    ],
+    "chat_url": [
+      "https://www.youtube.com/@taikoxyz",
+      "https://discord.com/invite/taikoxyz"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "taikoxyz",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/taikoxyz"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/38058/thumb/icon.png?1717626867",
+    "small": "https://coin-images.coingecko.com/coins/images/38058/small/icon.png?1717626867",
+    "large": "https://coin-images.coingecko.com/coins/images/38058/large/icon.png?1717626867"
+  },
+  "last_updated": "2025-07-11T09:51:20.073622+00:00"
+}

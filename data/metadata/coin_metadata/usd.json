@@ -1,0 +1,67 @@
+{
+  "id": "usd",
+  "symbol": "usd+",
+  "name": "Overnight.fi USD+",
+  "categories": [
+    "Stablecoins",
+    "BNB Chain Ecosystem",
+    "Polygon Ecosystem",
+    "ZkSync Ecosystem",
+    "Crypto-backed Stablecoin"
+  ],
+  "asset_platform_id": "polygon-pos",
+  "platforms": {
+    "polygon-pos": "0x236eec6359fb44cce8f97e99387aa7f8cd5cde1f",
+    "zksync": "0x8e86e46278518efc1c5ced245cba2c7e3ef11557",
+    "binance-smart-chain": "0xe80772eaf6e2e18b651f160bc9158b2a5cafca65"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "USD+ is a yield-generating stablecoin yielding 8-12% pa, via daily rebase. It is fully backed by a portfolio of liquid, yield generating, low-risk DeFi assets (mostly, lending protocols and stable-to-stable liquidity pools in a way that allows to (1) avoid losses and generate profit every day (2) mint and redeem USD+ against USDC instantly on request.\r\n\r\nUSD+ is used for (1) liquidity management - temporary parking of spare stablecoin cash (2) AMM trading and (3) leveraged yield farming. USD+ brings the benefit of capital efficiency to stablecoin usage, i.e. extra yield on idle stablecoins and/or used in major protocols\r\n\r\nUSD+ is currently on Polygon and expanding to other chains. We are going to market by establishing USD+ trading pairs at leading AMMs: (1) Stablecoin boosted pools on Balancer/Beethoven (2) ETH-USD+, Matic-USD+ on Quickswap/Uni V2, (3) potentially, Curve. The advantage USD+ has is our ability to maintain the peg without deploying our own capital - as USD+ can be minted/redeemed against USDC instantly, we are able to arbitrage our pools using flashloans, without our own capital, thus maintaining the peg."
+  },
+  "links": {
+    "homepage": [
+      "https://overnight.fi/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://polygonscan.com/token/0x236eec6359fb44cce8f97e99387aa7f8cd5cde1f",
+      "https://platform.arkhamintelligence.com/explorer/token/usd",
+      "https://bscscan.com/token/0xe80772eaf6e2e18b651f160bc9158b2a5cafca65",
+      "https://binplorer.com/address/0xe80772eaf6e2e18b651f160bc9158b2a5cafca65",
+      "https://era.zksync.network/token/0x8e86e46278518efc1c5ced245cba2c7e3ef11557",
+      "https://explorer.zksync.io/address/0x8e86e46278518efc1c5ced245cba2c7e3ef11557",
+      "https://zksync-era.l2scan.co/token/0x8e86e46278518efc1c5ced245cba2c7e3ef11557"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/overnight-fi",
+      "https://www.linkedin.com/company/overnightfi/",
+      "https://www.youtube.com/channel/UCuPsmMZTOCaTNZWUXWZr12A"
+    ],
+    "announcement_url": [
+      "https://blog.overnight.fi/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "overnight_fi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "overnight_fi",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/ovnstable"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/25757/thumb/USD__logo.png?1696524843",
+    "small": "https://coin-images.coingecko.com/coins/images/25757/small/USD__logo.png?1696524843",
+    "large": "https://coin-images.coingecko.com/coins/images/25757/large/USD__logo.png?1696524843"
+  },
+  "last_updated": "2025-07-11T09:52:40.234746+00:00"
+}

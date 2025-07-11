@@ -1,0 +1,59 @@
+{
+  "id": "law-blocks",
+  "symbol": "lbt",
+  "name": "Law Blocks",
+  "categories": [
+    "XDC Ecosystem"
+  ],
+  "asset_platform_id": "xdc-network",
+  "platforms": {
+    "xdc-network": "0x05940b2df33d6371201e7ae099ced4c363855dfe"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What is Law Blocks AI\r\nLaw Blocks AI is a Legal Tech Ecosystem.\r\n\r\nKey Features of Law Blocks AI:\r\nA) AI-generated legal documents,  tailored to your state & country.\r\nB) Global AI - providing legal, medical & general information globally.\r\nC) Sharing & editing legal documents with your counterparts & legal team in real time with timestamp.\r\nD) E-signature/Digital Signature on Web3 — the only e-sign solution available on Web3.\r\nE) Uploading finalized documents securely post e-sign on IPFS (Inter Planetary File System) XDC Blockchain.\r\nF) Dispute Resolution through ADR(Alternate Dispute Resolution) Mediation & Arbitration, on Law Blocks AI platform.\r\nG) Online Legal Solutions - through Legal Experts globally.\r\nH) Dispute Resolutions through International Mediation & Arbitration Courts.\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://lawblocks.io/"
+    ],
+    "whitepaper": "https://lawblocks.io/static/media/Law_Blocks_AI_Whitepaper.96d4cffe57b623991ac7.pdf",
+    "blockchain_site": [
+      "https://explorer.network/token/xdc05940b2df33d6371201e7ae099ced4c363855dfe",
+      "https://xdc.blocksscan.io/tokens/xdc05940b2df33d6371201e7ae099ced4c363855dfe",
+      "https://explorer.xinfin.network/tokens/xdc05940b2df33d6371201e7ae099ced4c363855dfe",
+      "https://xdcscan.com/token/xdc05940b2df33d6371201e7ae099ced4c363855dfe",
+      "https://explorer.xinfin.network/tokens/0x05940b2df33d6371201e7ae099ced4c363855dfe",
+      "https://xdcscan.com/token/0x05940b2df33d6371201e7ae099ced4c363855dfe"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/in/law-blocks-365731225/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/e9cKqusTDB",
+      "https://lawblocks.medium.com/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "lawblockstoken",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/LawBlocks"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/26266/thumb/photo_6264996132874731595_y.jpg?1717679177",
+    "small": "https://coin-images.coingecko.com/coins/images/26266/small/photo_6264996132874731595_y.jpg?1717679177",
+    "large": "https://coin-images.coingecko.com/coins/images/26266/large/photo_6264996132874731595_y.jpg?1717679177"
+  },
+  "last_updated": "2025-07-11T09:54:24.895492+00:00"
+}

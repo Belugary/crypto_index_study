@@ -1,0 +1,57 @@
+{
+  "id": "socean-staked-sol",
+  "symbol": "inf",
+  "name": "Sanctum Infinity",
+  "categories": [
+    "Solana Ecosystem",
+    "Liquid Staking Tokens",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Socean is a noncustodial stake pool for the Solana blockchain based on the Solana stake pool reference implementation. Users deposit SOL, we stake it for them, and give them a derivative token called SOCN that can be redeemed for SOL at any time. The SOCN token can then be used in several different use-cases, like lending/borrowing, liquidity provision, trading, etc."
+  },
+  "links": {
+    "homepage": [
+      "https://sanctum.so"
+    ],
+    "whitepaper": "https://blog.sanctum.so/docs",
+    "blockchain_site": [
+      "https://explorer.solana.com/address/5ovnbeeeqvyi1cx3ir8dx5n1p7pdxydbgf2x4txvusjm?cluster=mainnet-beta",
+      "https://platform.arkhamintelligence.com/explorer/token/socean-staked-sol",
+      "https://solscan.io/token/5ovnbeeeqvyi1cx3ir8dx5n1p7pdxydbgf2x4txvusjm"
+    ],
+    "official_forum_url": [
+      "https://blog.sanctum.so/blog"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/sanctumso"
+    ],
+    "announcement_url": [
+      "https://medium.com/@soceanfinance"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "sanctumso",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "sanctumso",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/18468/thumb/infSOL.png?1710325032",
+    "small": "https://coin-images.coingecko.com/coins/images/18468/small/infSOL.png?1710325032",
+    "large": "https://coin-images.coingecko.com/coins/images/18468/large/infSOL.png?1710325032"
+  },
+  "last_updated": "2025-07-11T09:52:39.741922+00:00"
+}

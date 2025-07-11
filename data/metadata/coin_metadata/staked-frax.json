@@ -1,0 +1,73 @@
+{
+  "id": "staked-frax",
+  "symbol": "sfrax",
+  "name": "Staked FRAX",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "USD Stablecoin",
+    "BNB Chain Ecosystem",
+    "Avalanche Ecosystem",
+    "Arbitrum Ecosystem",
+    "Liquid Staking Tokens",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "arbitrum-one",
+  "platforms": {
+    "arbitrum-one": "0xe3b3fe7bca19ca77ad877a5bebab186becfad906",
+    "optimistic-ethereum": "0x2dd1b4d4548accea497050619965f91f78b3b532",
+    "ethereum": "0xa663b02cf0a4b149d2ad41910cb81e23e1c41c32",
+    "binance-smart-chain": "0xa63f56985f9c7f3bc9ffc5685535649e0c1a55f3",
+    "avalanche": "0x3405e88af759992937b84e58f2fe691ef0eea320"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Staked FRAX (sFRAX) is an ERC4626 staking vault that distributes part of the Frax Protocol yield weekly to stakers denominated in FRAX stablecoins. The sFRAX token represents pro rata deposits within the vault and is always withdrawable for FRAX stablecoins at the pro rata rate at all times."
+  },
+  "links": {
+    "homepage": [
+      "https://app.frax.finance/sfrax/stake"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xa663b02cf0a4b149d2ad41910cb81e23e1c41c32",
+      "https://platform.arkhamintelligence.com/explorer/token/staked-frax",
+      "https://arbiscan.io/address/0xe3b3fe7bca19ca77ad877a5bebab186becfad906",
+      "https://snowtrace.io/address/0x3405e88af759992937b84e58f2fe691ef0eea320",
+      "https://bscscan.com/address/0xa63f56985f9c7f3bc9ffc5685535649e0c1a55f3",
+      "https://optimistic.etherscan.io/address/0x2dd1b4d4548accea497050619965f91f78b3b532",
+      "https://arbiscan.io/token/0xe3b3fe7bca19ca77ad877a5bebab186becfad906",
+      "https://avascan.info/blockchain/c/address/0x3405e88af759992937b84e58f2fe691ef0eea320/token",
+      "https://ethplorer.io/address/0xa663b02cf0a4b149d2ad41910cb81e23e1c41c32",
+      "https://bscscan.com/token/0xa63f56985f9c7f3bc9ffc5685535649e0c1a55f3"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/b2VuPdef5T",
+      "https://fraxfinancecommunity.medium.com/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "fraxfinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "fraxfinance",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/FraxFinance/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/35383/thumb/SFRAX.png?1751911235",
+    "small": "https://coin-images.coingecko.com/coins/images/35383/small/SFRAX.png?1751911235",
+    "large": "https://coin-images.coingecko.com/coins/images/35383/large/SFRAX.png?1751911235"
+  },
+  "last_updated": "2025-07-11T09:51:09.389353+00:00"
+}

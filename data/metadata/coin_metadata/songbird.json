@@ -1,0 +1,51 @@
+{
+  "id": "songbird",
+  "symbol": "sgb",
+  "name": "Songbird",
+  "categories": [
+    "Smart Contract Platform"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://flare.network/",
+      "https://portal.flare.network/",
+      "https://docs.flare.network/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://songbird-explorer.flare.network/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/XqNa7Rq"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "FlareNetworks",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "FlareNetwork",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/18663/thumb/SGB_512x512.png?1696518133",
+    "small": "https://coin-images.coingecko.com/coins/images/18663/small/SGB_512x512.png?1696518133",
+    "large": "https://coin-images.coingecko.com/coins/images/18663/large/SGB_512x512.png?1696518133"
+  },
+  "last_updated": "2025-07-11T09:50:44.968699+00:00"
+}

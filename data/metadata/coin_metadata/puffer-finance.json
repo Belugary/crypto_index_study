@@ -1,0 +1,64 @@
+{
+  "id": "puffer-finance",
+  "symbol": "puffer",
+  "name": "Puffer",
+  "categories": [
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem",
+    "Layer 2 (L2)",
+    "Restaking",
+    "Liquid Restaking Governance Tokens",
+    "Rollup",
+    "Liquid Staking",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x4d1c297d39c5c1277964d0e3f8aa901493664530",
+    "binance-smart-chain": "0x87d00066cf131ff54b72b134a217d5401e5392b6"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Puffer is a decentralized platform designed to enhance Ethereum's scalability and security through innovative restaking and rollup solutions. Puffer’s suite of synergistic products includes liquid restaking (LRT), Based Rollups, and a preconfirmation AVS. Powered by natively restaked validators and the AVS, the UniFi based rollup stack addresses liquidity fragmentation across Ethereum while providing instant settlement and 100ms transactions.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.puffer.fi/"
+    ],
+    "whitepaper": "https://docs.puffer.fi/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x4d1C297d39C5c1277964D0E3f8Aa901493664530",
+      "https://platform.arkhamintelligence.com/explorer/token/puffer-finance",
+      "https://ethplorer.io/address/0x4d1C297d39C5c1277964D0E3f8Aa901493664530",
+      "https://bscscan.com/token/0x87d00066cf131ff54B72B134a217D5401E5392b6",
+      "https://binplorer.com/address/0x87d00066cf131ff54B72B134a217D5401E5392b6"
+    ],
+    "official_forum_url": [
+      "https://medium.com/@puffer.fi"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/pufferfi"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "puffer_finance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "puffer_fi",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/50630/thumb/PUFFER_token_Logo.png?1729574024",
+    "small": "https://coin-images.coingecko.com/coins/images/50630/small/PUFFER_token_Logo.png?1729574024",
+    "large": "https://coin-images.coingecko.com/coins/images/50630/large/PUFFER_token_Logo.png?1729574024"
+  },
+  "last_updated": "2025-07-11T09:54:08.878927+00:00"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "bobo-coin",
+  "symbol": "bobo",
+  "name": "BOBO Coin",
+  "categories": [
+    "Meme",
+    "Ethereum Ecosystem",
+    "Base Ecosystem",
+    "4chan-Themed"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xb90b2a35c65dbc466b04240097ca756ad2005295",
+    "base": "0x570b1533f6daa82814b25b62b5c7c4c55eb83947"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Bobo Coin is a meme ERC-20 token based off of Bobo the Bear. Bobo the Bear is a meme character associated with bearish markets and is often posted on 4chan's /biz/ board. It originated in 2018 and has since gained popularity with over 40,000 mentions. Bobo is commonly shared alongside Apu Apustaja and Pepe the Frog memes to satirize poor investment choices and express pessimism in financial markets.\r\n\r\nBobo the Bear is a meme character associated with bearish markets. The design of Bobo is based on Apu Apustaja and sometimes Pepe the Frog. The name \"Bobo\" was chosen in June 2018 and has become the official name for the character. Bobo is posted sitewide on 4chan, but particularly on the /biz/ board. Bobo NFTs (Non-Fungible Tokens) have been created. Over 40,000 mentions of \"Bobo\" have been recorded since its official naming. Bobo is used to satirize poor investment choices and express pessimism in financial markets."
+  },
+  "links": {
+    "homepage": [
+      "https://bobothebear.io"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xb90b2a35c65dbc466b04240097ca756ad2005295",
+      "https://platform.arkhamintelligence.com/explorer/token/bobo-coin",
+      "https://ethplorer.io/address/0xb90b2a35c65dbc466b04240097ca756ad2005295",
+      "https://basescan.org/token/0x570b1533f6daa82814b25b62b5c7c4c55eb83947"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "bobocoineth",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "bobocoineth",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/30388/thumb/bobologo_200x200.png?1725466815",
+    "small": "https://coin-images.coingecko.com/coins/images/30388/small/bobologo_200x200.png?1725466815",
+    "large": "https://coin-images.coingecko.com/coins/images/30388/large/bobologo_200x200.png?1725466815"
+  },
+  "last_updated": "2025-07-11T09:53:26.264904+00:00"
+}

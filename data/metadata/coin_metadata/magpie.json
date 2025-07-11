@@ -1,0 +1,58 @@
+{
+  "id": "magpie",
+  "symbol": "mgp",
+  "name": "Magpie",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Arbitrum Ecosystem",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xd06716e1ff2e492cc5034c2e81805562dd3b45fa",
+    "arbitrum-one": "0xa61f74247455a40b01b0559ff6274441fafa22a3"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Magpie XYZ is a platform built on BNB Chain to boost yields for liquidity providers and governance token holders of veTokenomics protocols.\r\n\r\nveTokenomics, introduced by Curve, is a tokenomics model in which users must lock the governance token to veToken (vote-escrowed token) for a fixed period of time to increase their voting power and claims on a protocol's governance token emissions. This helps the protocol to control the governance token inflation and distribute more governance tokens to long-term holders. However, veTokenomics still have room for improvement and many veTokenomics protocols face the following issues:\r\n\r\n- Limited user base - The requirement to buy & lock governance tokens prevents many risk-averse liquidity providers to participate.\r\n- Limited income for veToken holders - veToken holders can earn zero or limited passive income.\r\n- Expensive voting power - Voters must buy and lock governance tokens in order to gain voting rights.\r\n\r\nMagpie XYZ offers a solution that helps the veTokenomics protocols to solve the above issues. Essentially the platform incentivizes governance token holders and liquidity providers to pool their assets together so that the platform can acquire governance tokens, convert into veTokens, boost yield for liquidity providers, and in return share part of protocol revenues derived from liquidity providers’ boosted profits back to governance token holders. Magpie XYZ helps veTokenomics protocols to:\r\n\r\n- Get a diverse user base - Risk-averse liquidity providers can get boosted yield without the need of holding veToken.\r\n- Increase income for veToken holders - veToken holders can share part of Magpie XYZ’s revenue.\r\n- Lower the voting bar - Magpie XYZ provides a cost-effective way to acquire voting rights on veTokenomics protocols by leveraging sufficient veToken balance Magpie XYZ accumulated.\r\n\r\nMagpie XYZ starts from the integration with Wombat Exchange, and will expand to more veTokenomics protocols like PancakeSwap. In the long term,"
+  },
+  "links": {
+    "homepage": [
+      "https://www.magpiexyz.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0xd06716e1ff2e492cc5034c2e81805562dd3b45fa",
+      "https://platform.arkhamintelligence.com/explorer/token/magpie",
+      "https://arbiscan.io/token/0xa61f74247455a40b01b0559ff6274441fafa22a3",
+      "https://binplorer.com/address/0xd06716e1ff2e492cc5034c2e81805562dd3b45fa"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/magpiexyz",
+      "https://blog.magpiexyz.io/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": null,
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "101118",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/magpiexyz"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/27972/thumb/MagpieLogo.png?1696526991",
+    "small": "https://coin-images.coingecko.com/coins/images/27972/small/MagpieLogo.png?1696526991",
+    "large": "https://coin-images.coingecko.com/coins/images/27972/large/MagpieLogo.png?1696526991"
+  },
+  "last_updated": "2025-07-11T09:55:56.181141+00:00"
+}

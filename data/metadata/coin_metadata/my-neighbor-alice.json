@@ -1,0 +1,66 @@
+{
+  "id": "my-neighbor-alice",
+  "symbol": "alice",
+  "name": "My Neighbor Alice",
+  "categories": [
+    "Gaming (GameFi)",
+    "NFT",
+    "BNB Chain Ecosystem",
+    "Binance Launchpool",
+    "Metaverse",
+    "DaoMaker Launchpad",
+    "Ethereum Ecosystem",
+    "Gaming Governance Token",
+    "Gaming Utility Token",
+    "Simulation Games",
+    "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xac51066d7bec65dc4589368da368b212745d63e8",
+    "binance-smart-chain": "0xac51066d7bec65dc4589368da368b212745d63e8"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "My Neighbor Alice is a fully on-chain multiplayer game built on Chromia with a strong focus on self-expression, collaboration and communities. Players can explore, gather resources, craft unique NFTs, and shape their own virtual world in the Lummelunda Archipelago.\r\n\r\nThe game appeals to all ages and genders, promotes cooperation over competition. With open codebase and UGC tools, it fosters creativity, allowing players to create and potentially earn from their own assets and experiences.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.myneighboralice.com/"
+    ],
+    "whitepaper": "https://whitepaper.myneighboralice.com/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xac51066d7bec65dc4589368da368b212745d63e8",
+      "https://platform.arkhamintelligence.com/explorer/token/my-neighbor-alice",
+      "https://ethplorer.io/address/0xac51066d7bec65dc4589368da368b212745d63e8",
+      "https://bscscan.com/token/0xac51066d7bec65dc4589368da368b212745d63e8",
+      "https://binplorer.com/address/0xac51066d7bec65dc4589368da368b212745d63e8"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.youtube.com/channel/UCcsC3etSluSlJZzw7V3b9wg"
+    ],
+    "announcement_url": [
+      "https://myneighboralice.medium.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": null,
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": "https://www.reddit.com/r/MyNeighborAlice/",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/14375/thumb/alice_logo.jpg?1696514067",
+    "small": "https://coin-images.coingecko.com/coins/images/14375/small/alice_logo.jpg?1696514067",
+    "large": "https://coin-images.coingecko.com/coins/images/14375/large/alice_logo.jpg?1696514067"
+  },
+  "last_updated": "2025-07-11T09:53:12.016421+00:00"
+}

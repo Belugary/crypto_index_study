@@ -1,0 +1,53 @@
+{
+  "id": "targon",
+  "symbol": "sn4",
+  "name": "Targon",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Bittensor Ecosystem",
+    "Bittensor Subnets"
+  ],
+  "asset_platform_id": "bittensor",
+  "platforms": {
+    "bittensor": "4"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Targon is a decentalized, frontier AI lab"
+  },
+  "links": {
+    "homepage": [
+      "https://targon.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://taostats.io/subnets/4/chart"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/pJxXhaM94B"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "manifoldlabs",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/manifold-inc/targon"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/66342/thumb/sn4.png?1749239249",
+    "small": "https://coin-images.coingecko.com/coins/images/66342/small/sn4.png?1749239249",
+    "large": "https://coin-images.coingecko.com/coins/images/66342/large/sn4.png?1749239249"
+  },
+  "last_updated": "2025-07-11T09:53:12.507697+00:00"
+}

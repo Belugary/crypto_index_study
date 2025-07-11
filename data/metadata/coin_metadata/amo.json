@@ -1,0 +1,56 @@
+{
+  "id": "amo",
+  "symbol": "amo",
+  "name": "AMO Coin",
+  "categories": [
+    "Big Data",
+    "Kaia Ecosystem"
+  ],
+  "asset_platform_id": "klay-token",
+  "platforms": {
+    "klay-token": "0x6e6c55ac20c41669261969089fad7f7fcd9ba690"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "SG",
+  "description": {
+    "en": "AMO is a blockchain infrastructure for the efficient exchange and sharing of all CAR DATA powering the next generation of automobiles. For car users, manufacturers, and relevant service providers, this means that data will no longer be under the centralized control of specific companies, but rather become public assets that allow for valuable services to be made available. "
+  },
+  "links": {
+    "homepage": [
+      "https://amo.foundation/"
+    ],
+    "whitepaper": "https://amo.foundation/downloads/",
+    "blockchain_site": [
+      "https://kaiascan.io/token/0x6e6c55ac20c41669261969089fad7f7fcd9ba690"
+    ],
+    "official_forum_url": [
+      "https://amo.foundation/blog/"
+    ],
+    "chat_url": [
+      "https://open.kakao.com/o/gnPdo5K"
+    ],
+    "announcement_url": [
+      "https://medium.com/@amoblockchain"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "amoblockchain",
+    "facebook_username": "amoblockchain",
+    "bitcointalk_thread_identifier": 3667142,
+    "telegram_channel_identifier": "amo_official",
+    "subreddit_url": "https://www.reddit.com/r/amoblockchain",
+    "repos_url": {
+      "github": [
+        "https://github.com/AMO-Project/AMO-Contracts"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/4009/thumb/amo-logomark_black.png?1696504648",
+    "small": "https://coin-images.coingecko.com/coins/images/4009/small/amo-logomark_black.png?1696504648",
+    "large": "https://coin-images.coingecko.com/coins/images/4009/large/amo-logomark_black.png?1696504648"
+  },
+  "last_updated": "2025-07-11T09:54:42.429712+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "tree-capital",
+  "symbol": "tree",
+  "name": "Tree",
+  "categories": [
+    "Analytics",
+    "Ethereum Ecosystem",
+    "Base Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xba25b2281214300e4e649fead9a6d6acd25f1c0a",
+    "base": "0x52c2b317eb0bb61e650683d2f287f56c413e4cf6"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Utility token for Tree News. The token can be used for a new subscription tier that lets users unlock all advantages that only TreeNFT holders could get until now."
+  },
+  "links": {
+    "homepage": [
+      "http://news.treeofalpha.com",
+      "https://www.treeofalpha.com"
+    ],
+    "whitepaper": "https://news.treeofalpha.com/litepaper",
+    "blockchain_site": [
+      "https://etherscan.io/address/0xba25b2281214300e4e649fead9a6d6acd25f1c0a",
+      "https://platform.arkhamintelligence.com/explorer/token/tree-capital",
+      "https://etherscan.io/token/0xba25b2281214300e4e649fead9a6d6acd25f1c0a",
+      "https://ethplorer.io/address/0xba25b2281214300e4e649fead9a6d6acd25f1c0a",
+      "https://basescan.org/token/0x52c2b317eb0bb61e650683d2f287f56c413e4cf6"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "TreeTokenEth",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "treetokeneth",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33727/thumb/circle_green.png?1709894067",
+    "small": "https://coin-images.coingecko.com/coins/images/33727/small/circle_green.png?1709894067",
+    "large": "https://coin-images.coingecko.com/coins/images/33727/large/circle_green.png?1709894067"
+  },
+  "last_updated": "2025-07-11T09:54:03.317051+00:00"
+}

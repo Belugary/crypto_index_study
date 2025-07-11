@@ -1,0 +1,55 @@
+{
+  "id": "wayfinder",
+  "symbol": "prompt",
+  "name": "Wayfinder",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Base Ecosystem",
+    "AI Agents",
+    "DeFAI"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x28d38df637db75533bd3f71426f3410a82041544",
+    "base": "0x30c7235866872213f68cb1f08c37cb9eccb93452"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.wayfinder.ai/"
+    ],
+    "whitepaper": "https://paper.wayfinder.ai/wayfinder_paper_v1.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x28d38dF637dB75533bD3F71426F3410a82041544",
+      "https://ethplorer.io/address/0x28d38dF637dB75533bD3F71426F3410a82041544",
+      "https://basescan.org/token/0x30c7235866872213F68cb1F08c37Cb9eCCB93452"
+    ],
+    "official_forum_url": [
+      "https://discord.com/invite/aiwayfinder"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "AIWayfinder",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55169/thumb/wayfinder.jpg?1744336900",
+    "small": "https://coin-images.coingecko.com/coins/images/55169/small/wayfinder.jpg?1744336900",
+    "large": "https://coin-images.coingecko.com/coins/images/55169/large/wayfinder.jpg?1744336900"
+  },
+  "last_updated": "2025-07-11T09:54:03.921910+00:00"
+}

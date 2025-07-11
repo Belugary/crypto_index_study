@@ -1,0 +1,60 @@
+{
+  "id": "home",
+  "symbol": "home",
+  "name": "HOME",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "Solana Ecosystem",
+    "Base Ecosystem",
+    "Account Abstraction",
+    "Dex Aggregator"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0x4bfaa776991e85e5f8b1255461cbbd216cfc714f",
+    "binance-smart-chain": "0x4bfaa776991e85e5f8b1255461cbbd216cfc714f",
+    "solana": "J3umBWqhSjd13sag1E1aUojViWvPYA5dFNyqpKuX3WXj"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Crypto's \"Everything App\" that makes DeFi as easy as using an iPhone, combining instant cross-chain swaps, yield farming, and perps trading with zero gas fees, zero bridging and full self-custody.\r\n\r\nDecentralized finance has massive potential, but several challenges have consistently held it back from broader adoption:\r\n-Complex User Experience: The steep learning curve, confusing interfaces, and technical barriers make DeFi intimidating for newcomers.\r\n-Fragmented Ecosystem: Managing assets across multiple blockchains can feel disjointed and labor-intensive, with users needing to navigate different platforms and tools.\r\n-Risk of User Errors: DeFi can be unforgiving—losing a seed phrase or making a small mistake can lead to significant financial losses.\r\n-Issues with Centralized Exchanges: Centralized exchanges compromise control and security by holding custody of users' assets, which goes against the core principles of decentralization.\r\n\r\nDefi App directly addresses these issues to make DeFi simple, safe, and accessible:\r\n-Unified Platform: Defi App provides native account abstraction, allowing you to connect your wallets and manage all your assets without dealing with technical intricacies. There’s no need to navigate multiple tools or migrate assets across chains—everything you need is in one place.\r\n-Cross-Chain Capabilities: Our platform supports seamless engagement across different blockchain networks. Swap tokens, leverage assets, or yield farm—Defi App breaks down chain boundaries, so you can take advantage of opportunities anywhere in DeFi.\r\n-Gasless Transactions: Defi App sponsors gas fees, meaning you don’t need to hold specific gas tokens for every chain. This makes transactions easy and eliminates a common barrier that frustrates both new and experienced users.\r\n-Intuitive Design: Defi App’s user-friendly interface ensures that anyone, from beginners to experts, can navigate DeFi confidently.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://defi.app"
+    ],
+    "whitepaper": "https://docs.defi.app/knowledge-base",
+    "blockchain_site": [
+      "https://basescan.org/token/0x4bfaa776991e85e5f8b1255461cbbd216cfc714f",
+      "https://bscscan.com/token/0x4bfaa776991e85e5f8b1255461cbbd216cfc714f",
+      "https://binplorer.com/address/0x4bfaa776991e85e5f8b1255461cbbd216cfc714f",
+      "https://solscan.io/token/J3umBWqhSjd13sag1E1aUojViWvPYA5dFNyqpKuX3WXj"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/defiapp",
+      "https://blog.defi.app/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "defidotapp",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54873/thumb/defi-app.png?1742235743",
+    "small": "https://coin-images.coingecko.com/coins/images/54873/small/defi-app.png?1742235743",
+    "large": "https://coin-images.coingecko.com/coins/images/54873/large/defi-app.png?1742235743"
+  },
+  "last_updated": "2025-07-11T09:51:34.449195+00:00"
+}

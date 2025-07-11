@@ -1,0 +1,67 @@
+{
+  "id": "melon",
+  "symbol": "mln",
+  "name": "Enzyme",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Asset Manager",
+    "Polygon Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "DeFiance Capital Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xec67005c4e498ec7f55e092bd1d35cbc47c91892",
+    "polygon-pos": "0xa9f37d84c856fda3812ad0519dad44fa0a3fe207",
+    "arbitrum-one": "0x8f5c1a99b1df736ad685006cb6adca7b7ae4b514"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2017-03-15",
+  "country_origin": "",
+  "description": {
+    "en": "MLN is the official token of Enzyme. Founded in 2017, Enzyme is the global infrastructure for tokenized finance. Enzyme provides industry leaders with a comprehensive suites of Vault-As-A-Service and Financial Instruments products to manage on-chain assets efficiently, optimize operational processes, and develop innovative financial strategies tailored to their unique goals and challenges.        "
+  },
+  "links": {
+    "homepage": [
+      "https://enzyme.finance/"
+    ],
+    "whitepaper": "https://userdocs.enzyme.finance/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xec67005c4e498ec7f55e092bd1d35cbc47c91892",
+      "https://platform.arkhamintelligence.com/explorer/token/melon",
+      "https://ethplorer.io/address/0xec67005c4e498ec7f55e092bd1d35cbc47c91892",
+      "https://polygonscan.com/token/0xa9f37d84c856fda3812ad0519dad44fa0a3fe207",
+      "https://arbiscan.io/token/0x8f5c1a99b1df736ad685006cb6adca7b7ae4b514"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.enzyme.finance",
+      "https://medium.enzyme.finance",
+      "https://youtube.enzyme.finance"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "enzymefinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "+nLYr_ITGTzVhOGFl",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/enzymefinance/protocol",
+        "https://github.com/enzymefinance",
+        "https://github.com/melonproject/protocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/605/thumb/Enzyme_LinkedIn_Profile_Picture.png?1747249623",
+    "small": "https://coin-images.coingecko.com/coins/images/605/small/Enzyme_LinkedIn_Profile_Picture.png?1747249623",
+    "large": "https://coin-images.coingecko.com/coins/images/605/large/Enzyme_LinkedIn_Profile_Picture.png?1747249623"
+  },
+  "last_updated": "2025-07-11T09:56:30.726603+00:00"
+}

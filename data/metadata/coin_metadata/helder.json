@@ -1,0 +1,51 @@
+{
+  "id": "helder",
+  "symbol": "helder",
+  "name": "Helder",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x1446acc4d5c0d195457568dd4fd5fc8dc5c4bfdd"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Helder is a next-generation staking and compounding protocol designed to provide secure, sustainable, and automated passive income. Unlike traditional DeFi staking platforms that rely on unsustainable high APYs, Helder ensures long-term profitability through a fixed APY model, automated reward distribution, and a deflationary token mechanism.\r\nBuilt with anti-rug-pull protections, fully verified & audited smart contracts, and a doxxed team. helder prioritizes investor security and transparency. The ecosystem extends beyond staking, incorporating multi-chain expansion, and SaaS products to drive real-world utility. With hYBRID staking, compounding rewards every second, and instant withdrawals at Live market prices. helder redefines how investors generate wealth in DeFi."
+  },
+  "links": {
+    "homepage": [
+      "https://www.helder.world/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x1446acc4d5c0d195457568dd4fd5fc8dc5c4bfdd",
+      "https://binplorer.com/address/0x1446AcC4d5C0d195457568dd4FD5fc8Dc5c4BfDD"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/helder_world"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "helder_world",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "helder_world",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55761/thumb/HELDERS.jpg?1747328302",
+    "small": "https://coin-images.coingecko.com/coins/images/55761/small/HELDERS.jpg?1747328302",
+    "large": "https://coin-images.coingecko.com/coins/images/55761/large/HELDERS.jpg?1747328302"
+  },
+  "last_updated": "2025-07-11T09:52:26.604931+00:00"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "hive_dollar",
+  "symbol": "hbd",
+  "name": "Hive Dollar",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "Algorithmic Stablecoin"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Delegated Proof-of-Stake",
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://hive.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://hiveblocks.com/",
+      "https://hiveblockexplorer.com/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/YDDSXsudHW"
+    ],
+    "announcement_url": [
+      "https://medium.com/@hiveblocks"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "hiveblocks",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "hivenetwork",
+    "subreddit_url": "https://www.reddit.com/r/hivenetwork",
+    "repos_url": {
+      "github": [
+        "https://github.com/openhive-network/hive"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/10855/thumb/w_q7vezk_400x400.jpg?1696510810",
+    "small": "https://coin-images.coingecko.com/coins/images/10855/small/w_q7vezk_400x400.jpg?1696510810",
+    "large": "https://coin-images.coingecko.com/coins/images/10855/large/w_q7vezk_400x400.jpg?1696510810"
+  },
+  "last_updated": "2025-07-11T09:53:59.605278+00:00"
+}

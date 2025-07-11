@@ -1,0 +1,70 @@
+{
+  "id": "radiant-capital",
+  "symbol": "rdnt",
+  "name": "Radiant Capital",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Binance Launchpool",
+    "Lending/Borrowing Protocols",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Base Ecosystem",
+    "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "asset_platform_id": "arbitrum-one",
+  "platforms": {
+    "arbitrum-one": "0x3082cc23568ea640225c2467653db90e9250aaa0",
+    "base": "0xd722e55c1d9d9fa0021a5215cbb904b92b3dc5d4",
+    "ethereum": "0x137ddb47ee24eaa998a535ab00378d6bfa84f893",
+    "binance-smart-chain": "0xf7de7e8a6bd59ed41a4b5fe50278b3b7f31384df"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What is Radiant Capital?\r\n\r\nProject Overview\r\n\r\nCapital in DeFi is extremely fragmented across chains, evidenced by the dozens of different money markets, all with their own liquidity.\r\n\r\nRadiant aims to be an omnichain money market where users can deposit any major asset on any major chain and borrow various supported assets across multiple chains, eliminating the need for silos of liquidity.\r\n\r\nRadiant’s cross-chain interoperability functions using LayerZero messaging and Stargate's stable router interface. For example, lenders may reclaim their collateral and can direct which chain to withdraw funds from and what percentage they’d like sent to each chain.\r\n\r\nRadiant aims to solve DeFi 1.0 issues of unpredictable and transient liquidity through its innovative Dynamic Liquidity Providers (dLP) and gated emissions.\r\n\r\nValue Proposition\r\n\r\nConsolidation of Fragmented Liquidity: The primary goal of the Radiant DAO is to consolidate billions in fragmented liquidity across multiple lending protocols and chains under one safe, user-friendly, and capital-efficient cross-chain protocol. This consolidation of fragmented liquidity is intended to enhance the overall DeFi ecosystem and create a more seamless experience for users.\r\n\r\nGated Emissions: Sustainability is an important Key Performance Indicator to the Radiant DAO and thus the protocol implemented a Dynamic Liquidity (dLP) mechanism which only enables incentivized RDNT emissions to dLP providers. Dynamic Liquidity Provisioners also share in the utility of platform fees captured in blue-chip assets such as Bitcoin, Ethereum, BNB, and stablecoins through borrowing interest, flash loans, and liquidations.\r\n\r\nProject Key Highlights\r\n\r\nOmnichain Money Market: Users can deposit and borrow assets across chains seamlessly within minutes via Radiant’s integrations with LayerZero and the Stargate stable router interface, which solves many DeFi pain points related to requiring multiple transactions to lend, borrow, bridge, and swap.\r\n\r\nDeFi 3.0: Early iterations of DeFi featured many copycat protocols with zero utility and high-emission governance tokens. In the Radiant DAO’s V2 launch, Radiant will continue to allow all users to borrow and lend cross-chain, seamlessly. However, emissions are gated to only users which provide utility to the protocol in the form of Dynamic Liquidity Provisioning\r\n\r\nSupport for 20+ Collateral Options: As the Radiant DAO expands its cross-chain functionality to additional chains, new collateral options will emerge with DAO-voted Loan-To-Value parameters and oracle usage."
+  },
+  "links": {
+    "homepage": [
+      "https://radiant.capital/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://arbiscan.io/token/0x3082cc23568ea640225c2467653db90e9250aaa0",
+      "https://platform.arkhamintelligence.com/explorer/token/radiant-capital",
+      "https://bscscan.com/token/0xf7de7e8a6bd59ed41a4b5fe50278b3b7f31384df",
+      "https://bnb.dex.guru/token/0xf7de7e8a6bd59ed41a4b5fe50278b3b7f31384df",
+      "https://binplorer.com/address/0xf7de7e8a6bd59ed41a4b5fe50278b3b7f31384df",
+      "https://arbitrum.dex.guru/token/0x3082cc23568ea640225c2467653db90e9250aaa0",
+      "https://etherscan.io/token/0x137ddb47ee24eaa998a535ab00378d6bfa84f893",
+      "https://ethplorer.io/address/0x137ddb47ee24eaa998a535ab00378d6bfa84f893",
+      "https://basescan.org/token/0xd722e55c1d9d9fa0021a5215cbb904b92b3dc5d4"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/radiantcapital",
+      "https://medium.com/@RadiantCapital",
+      "https://www.youtube.com/@RadiantCapital/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "RDNTCapital",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "radiantcapitalofficial",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/radiant-capital/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/26536/thumb/Radiant-Logo-200x200.png?1696525610",
+    "small": "https://coin-images.coingecko.com/coins/images/26536/small/Radiant-Logo-200x200.png?1696525610",
+    "large": "https://coin-images.coingecko.com/coins/images/26536/large/Radiant-Logo-200x200.png?1696525610"
+  },
+  "last_updated": "2025-07-11T09:54:51.536655+00:00"
+}

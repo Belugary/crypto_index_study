@@ -1,0 +1,62 @@
+{
+  "id": "harrypotterobamasonic10in",
+  "symbol": "bitcoin",
+  "name": "HarryPotterObamaSonic10Inu (ETH)",
+  "categories": [
+    "Meme",
+    "Ethereum Ecosystem",
+    "Base Ecosystem",
+    "Berachain Ecosystem",
+    "Murad Picks",
+    "Binance Alpha Spotlight",
+    "4chan-Themed"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x72e4f9f808c49a2a61de9c5896298920dc4eeea9",
+    "solana": "CTgiaZUK12kCcB8sosn4Nt2NZtzLgtPqDwyQyr2syATC",
+    "berachain": "0x6b26f778bfae56cfb4bf9b62c678d9d40e725227",
+    "base": "0x2a06a17cbc6d0032cac2c6696da90f29d39a1a29"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "HarryPotterObamaSonic10Inu (Ticker: BITCOIN) is a endgame of crypto-assets (0 Tax). BITCOIN incentivizes the creation of novel and entertaining meme content. With ownership renounced and Liquidity locked, our robust growing community has taken the lead; we have successfully completed a full audit, an NFT collection, and are exploring partnerships with other tokens in the space, a one-of-a -kind website, and one-of-a-kind merchandise and ecommerce site in the works based on the legendary meme that inspired BITCOIN's creation. Our goal is to create an ecosystem for active community members to meet, collaborate, and share our rich lore (the archive of our token's storied history) with the world."
+  },
+  "links": {
+    "homepage": [
+      "https://hpos10i.com"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x72e4f9f808c49a2a61de9c5896298920dc4eeea9",
+      "https://platform.arkhamintelligence.com/explorer/token/harrypotterobamasonic10in",
+      "https://ethplorer.io/address/0x72e4f9f808c49a2a61de9c5896298920dc4eeea9",
+      "https://ethereum.dex.guru/token/0x72e4f9f808c49a2a61de9c5896298920dc4eeea9",
+      "https://basescan.org/token/0x2a06a17cbc6d0032cac2c6696da90f29d39a1a29",
+      "https://solscan.io/token/CTgiaZUK12kCcB8sosn4Nt2NZtzLgtPqDwyQyr2syATC",
+      "https://berascan.com/token/0x6b26f778bfae56cfb4bf9b62c678d9d40e725227"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "hpos10ireturns",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "hpos10i",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/30323/thumb/hpos10i_logo_casino_night-dexview.png?1696529224",
+    "small": "https://coin-images.coingecko.com/coins/images/30323/small/hpos10i_logo_casino_night-dexview.png?1696529224",
+    "large": "https://coin-images.coingecko.com/coins/images/30323/large/hpos10i_logo_casino_night-dexview.png?1696529224"
+  },
+  "last_updated": "2025-07-11T09:50:40.175730+00:00"
+}

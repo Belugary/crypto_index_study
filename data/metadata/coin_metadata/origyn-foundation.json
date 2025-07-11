@@ -1,0 +1,61 @@
+{
+  "id": "origyn-foundation",
+  "symbol": "ogy",
+  "name": "ORIGYN",
+  "categories": [
+    "Internet Computer Ecosystem",
+    "Real World Assets (RWA)",
+    "RWA Protocol"
+  ],
+  "asset_platform_id": "internet-computer",
+  "platforms": {
+    "internet-computer": "lkwrt-vyaaa-aaaaq-aadhq-cai"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "ORIGYN token (henceforth OGY) is the native token of the ORIGYN platform. OGY is the principal mechanism for the creation of ORIGYN certificates of authenticity and are required to interact with the platform. The OGY token is a Utility Token by the standards put forward by the Swiss Regulators (FINMA) regarding token classification and will be publicly traded. Specifically, the OGY token provides the utility 1 of access to a platform where ORIGYN Certificates are minted, referenced, and transacted. The ORIGYN Certificate is a Non-Fungible Token (NFT), referring to a Unique Item. The ORIGYN Certificate is a Digital Twin of the unique item, and every new luxury object (e.g., watch, bag, artwork, etc.) is paired with a digital twin (NFT) during the minting process."
+  },
+  "links": {
+    "homepage": [
+      "https://www.origyn.com/",
+      "https://dashboard.origyn.com/",
+      "https://linktr.ee/origynfoundationhub"
+    ],
+    "whitepaper": "https://dashboard.origyn.com/Tokenomics_V3.pdf",
+    "blockchain_site": [
+      "https://dashboard.origyn.com/explorer",
+      "https://dashboard.internetcomputer.org/canister/lkwrt-vyaaa-aaaaq-aadhq-cai"
+    ],
+    "official_forum_url": [
+      "https://www.facebook.com/Origynfoundation/",
+      "https://www.instagram.com/origynfoundation/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/2N4fyWNGgx",
+      "https://medium.com/@ORIGYN-Foundation",
+      "https://www.youtube.com/c/ORIGYNFoundation"
+    ],
+    "announcement_url": [
+      "https://medium.com/@ORIGYN-Foundation"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/25788/thumb/Asset_19.png?1703173153",
+    "small": "https://coin-images.coingecko.com/coins/images/25788/small/Asset_19.png?1703173153",
+    "large": "https://coin-images.coingecko.com/coins/images/25788/large/Asset_19.png?1703173153"
+  },
+  "last_updated": "2025-07-11T09:55:26.442794+00:00"
+}

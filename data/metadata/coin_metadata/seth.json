@@ -1,0 +1,59 @@
+{
+  "id": "seth",
+  "symbol": "seth",
+  "name": "sETH",
+  "categories": [
+    "Crypto-Backed Tokens",
+    "Decentralized Finance (DeFi)",
+    "Synthetic Asset",
+    "Derivatives",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Synthetic"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x5e74c9036fb86bd7ecdcb084a0673efc32ea31cb",
+    "optimistic-ethereum": "0xe405de8f52ba7559f9df3c368500b6e6ae6cee49"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Synth sETH by Synthetix\r\nTracks the price of Ether through price feeds supplied by an oracle."
+  },
+  "links": {
+    "homepage": [
+      "https://www.synthetix.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x5e74c9036fb86bd7ecdcb084a0673efc32ea31cb",
+      "https://platform.arkhamintelligence.com/explorer/token/seth",
+      "https://ethplorer.io/address/0x5e74c9036fb86bd7ecdcb084a0673efc32ea31cb",
+      "https://optimistic.etherscan.io/token/0xe405de8f52ba7559f9df3c368500b6e6ae6cee49"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discordapp.com/invite/AEdUHzt"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "synthetix_io",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/synthetix_io",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/8843/thumb/sETH.png?1696508995",
+    "small": "https://coin-images.coingecko.com/coins/images/8843/small/sETH.png?1696508995",
+    "large": "https://coin-images.coingecko.com/coins/images/8843/large/sETH.png?1696508995"
+  },
+  "last_updated": "2025-07-11T09:54:15.539583+00:00"
+}

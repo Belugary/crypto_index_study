@@ -1,0 +1,49 @@
+{
+  "id": "wfca",
+  "symbol": "wfca",
+  "name": "World Friendship Cash",
+  "categories": [
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xae4533189c7281501f04ba4b7c37e3aded402902"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "WFCA is committed to building a digital economy that transcends the virtual and the real to solve the social and economic problems that Japan is currently facing, combine Japan's soft power with its hard power, and empower Japanese industries to enter the digital age.\r\n\r\nWFCA will create a metaverse platform that deeply integrates Japanese anime culture and traditional craftsman spirit. We will develop the anime NFT market to support creators to digitise their works through NFT, establish a virtual shopping mall to sell high-quality products from all over Japan, and open offline physical stores to form an O2O closed loop.\r\n\r\nMeanwhile, WFCA is applying to become a blockchain bank that not only supports crypto assets, but also provides complete legal tender account services. We will also build financial infrastructures such as exchanges, asset custody platforms, and asset management terminals.\r\n\r\nThe goal of WFCA is to become a bridge between the virtual world and the real world, creating a new digital economy system. We welcome every creator and product producer to join this new digital ecosystem. Let's step into the new era of Web3 together!"
+  },
+  "links": {
+    "homepage": [
+      "https://wfca.io/"
+    ],
+    "whitepaper": "https://wfca.io/assets/doc/WFCA_Whitepaper_ver1.1_220922.pdf?v20231004",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xae4533189c7281501f04ba4b7c37e3aded402902",
+      "https://platform.arkhamintelligence.com/explorer/token/wfca",
+      "https://ethplorer.io/address/0xae4533189c7281501f04ba4b7c37e3aded402902"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "wfca_global",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "WFCA%20Infrastructure",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/31997/thumb/wfca.jpg?1696530798",
+    "small": "https://coin-images.coingecko.com/coins/images/31997/small/wfca.jpg?1696530798",
+    "large": "https://coin-images.coingecko.com/coins/images/31997/large/wfca.jpg?1696530798"
+  },
+  "last_updated": "2025-07-11T09:55:41.719427+00:00"
+}

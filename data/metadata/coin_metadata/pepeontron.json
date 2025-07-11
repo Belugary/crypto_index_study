@@ -1,0 +1,49 @@
+{
+  "id": "pepeontron",
+  "symbol": "pepeontron",
+  "name": "PePeonTron",
+  "categories": [
+    "Meme",
+    "Tron Ecosystem",
+    "The Boy’s Club"
+  ],
+  "asset_platform_id": "tron",
+  "platforms": {
+    "tron": "TMacq4TDUw5q8NFBwmbY4RLXvzvG5JTkvi"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Pepe is tired of watching everyone play hot potato with the endless\r\nderivative ShibaCumGMElonKishuTurboAssFlokiMoon Inu coins.\r\nThe Inu’s have had their day. It’s time for the most recognizable\r\nmeme in the world to take his reign as king of the internet.\r\nPepe is here to make memecoins great again. Launched stealth with\r\nno presale, zero taxes, LP burnt and contract renounced, $PEPE is\r\na coin for the people, forever. Fueled by pure memetic power, let\r\n$PEPE show you the way."
+  },
+  "links": {
+    "homepage": [
+      "https://pepeontron.cc/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://tronscan.org/#/token20/TMacq4TDUw5q8NFBwmbY4RLXvzvG5JTkvi"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "PePeonTron_Coin",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "PePeontron_cc",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/66637/thumb/1000000740.jpg?1750094156",
+    "small": "https://coin-images.coingecko.com/coins/images/66637/small/1000000740.jpg?1750094156",
+    "large": "https://coin-images.coingecko.com/coins/images/66637/large/1000000740.jpg?1750094156"
+  },
+  "last_updated": "2025-07-11T09:50:23.257923+00:00"
+}

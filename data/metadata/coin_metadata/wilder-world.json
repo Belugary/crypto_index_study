@@ -1,0 +1,63 @@
+{
+  "id": "wilder-world",
+  "symbol": "wild",
+  "name": "Wilder World",
+  "categories": [
+    "Gaming (GameFi)",
+    "NFT",
+    "Metaverse",
+    "Solana Ecosystem",
+    "Play To Earn",
+    "Ethereum Ecosystem",
+    "Animoca Brands Portfolio",
+    "Gaming Governance Token",
+    "Racing Games",
+    "Simulation Games",
+    "Action Games"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x2a3bff78b79a009976eea096a51a948a3dc00e34",
+    "solana": "FVvd3s9dZYzsgitkJyWbmycSc8MkYZjyF7oqAEvmSxTZ"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Wilder World is a massive multiplayer metaverse powered by Ethereum, Unreal Engine 5, and ZERO. Leveraging the latest advances in real-time photorealism, virtual reality, blockchain, artificial intelligence and massive scale multiplayer technology, Wilder World creates an unparalleled experience in a fully decentralized virtual world.\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.wilderworld.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x2a3bff78b79a009976eea096a51a948a3dc00e34",
+      "https://platform.arkhamintelligence.com/explorer/token/wilder-world",
+      "https://ethplorer.io/address/0x2a3bff78b79a009976eea096a51a948a3dc00e34",
+      "https://solscan.io/token/FVvd3s9dZYzsgitkJyWbmycSc8MkYZjyF7oqAEvmSxTZ"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/wilderworld"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "WilderWorld",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "wilder_world",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/15407/thumb/wld-logo.png?1712273448",
+    "small": "https://coin-images.coingecko.com/coins/images/15407/small/wld-logo.png?1712273448",
+    "large": "https://coin-images.coingecko.com/coins/images/15407/large/wld-logo.png?1712273448"
+  },
+  "last_updated": "2025-07-11T09:51:49.757897+00:00"
+}

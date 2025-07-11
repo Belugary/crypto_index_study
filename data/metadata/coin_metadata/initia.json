@@ -1,0 +1,61 @@
+{
+  "id": "initia",
+  "symbol": "init",
+  "name": "Initia",
+  "categories": [
+    "Infrastructure",
+    "Smart Contract Platform",
+    "Binance Launchpool",
+    "Layer 1 (L1)",
+    "Osmosis Ecosystem",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Initia Ecosystem"
+  ],
+  "asset_platform_id": "initia",
+  "platforms": {
+    "initia": "uinit",
+    "osmosis": "ibc/DD7EA9AF1E58E9FDD7F9810976817E203D5B87BAEF7AEA592FA34DF73310620B"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Initia is a network for interwoven optimistic rollups; we are holistically rebuilding how the multichain system should look, feel, and operate."
+  },
+  "links": {
+    "homepage": [
+      "https://initia.xyz/",
+      "https://app.initia.xyz/"
+    ],
+    "whitepaper": "https://docs.initia.xyz/",
+    "blockchain_site": [
+      "https://scan.initia.xyz/interwoven-1",
+      "https://www.mintscan.io/osmosis/assets/ibc/aWJjL0REN0VBOUFGMUU1OEU5RkREN0Y5ODEwOTc2ODE3RTIwM0Q1Qjg3QkFFRjdBRUE1OTJGQTM0REY3MzMxMDYyMEI=",
+      "https://scan.initia.xyz/interwoven-1/accounts/0x8e4733bdabcf7d4afc3d14f0dd46c9bf52fb0fce9e4b996c939e195b8bc891d9",
+      "https://scan.initia.xyz/interwoven-1/accounts/uinit"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/initia",
+      "https://medium.com/@initiafdn"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "initiaFDN",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/40138/thumb/initia_symbol_white.png?1745511525",
+    "small": "https://coin-images.coingecko.com/coins/images/40138/small/initia_symbol_white.png?1745511525",
+    "large": "https://coin-images.coingecko.com/coins/images/40138/large/initia_symbol_white.png?1745511525"
+  },
+  "last_updated": "2025-07-11T09:50:29.695731+00:00"
+}

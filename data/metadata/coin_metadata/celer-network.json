@@ -1,0 +1,67 @@
+{
+  "id": "celer-network",
+  "symbol": "celr",
+  "name": "Celer Network",
+  "categories": [
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Bridge Governance Tokens",
+    "Binance Launchpad",
+    "Cross-chain Communication",
+    "Pantera Capital Portfolio",
+    "Energi Ecosystem",
+    "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x4f9254c83eb525f9fcf346490bbb3ed28a81c667",
+    "arbitrum-one": "0x3a8b787f78d775aecfeea15706d4221b40f345ab",
+    "energi": "0x1833e138fadf220eb951a8590b8ba9058785ddde"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.celer.network/"
+    ],
+    "whitepaper": "https://im-docs.celer.network/developer/celer-im-overview",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x4f9254c83eb525f9fcf346490bbb3ed28a81c667",
+      "https://platform.arkhamintelligence.com/explorer/token/celer-network",
+      "https://ethplorer.io/address/0x4f9254c83eb525f9fcf346490bbb3ed28a81c667",
+      "https://arbiscan.io/token/0x3a8b787f78d775aecfeea15706d4221b40f345ab",
+      "https://explorer.energi.network/token/0x1833e138fadf220eb951a8590b8ba9058785ddde"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discordapp.com/invite/Trhab5w"
+    ],
+    "announcement_url": [
+      "https://blog.celer.network/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "CelerNetwork",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "celernetwork",
+    "subreddit_url": "https://www.reddit.com/r/celernetwork/",
+    "repos_url": {
+      "github": [
+        "https://github.com/celer-network/sgn-v2-contracts",
+        "https://github.com/celer-network"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/4379/thumb/Celr.png?1696504978",
+    "small": "https://coin-images.coingecko.com/coins/images/4379/small/Celr.png?1696504978",
+    "large": "https://coin-images.coingecko.com/coins/images/4379/large/Celr.png?1696504978"
+  },
+  "last_updated": "2025-07-11T09:52:29.486850+00:00"
+}

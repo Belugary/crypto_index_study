@@ -1,0 +1,56 @@
+{
+  "id": "ecoin-2",
+  "symbol": "ecoin",
+  "name": "Ecoin",
+  "categories": [
+    "XDC Ecosystem",
+    "Telos Ecosystem"
+  ],
+  "asset_platform_id": "telos",
+  "platforms": {
+    "telos": "",
+    "xdc-network": "xdc536dd70445cea1e97f9bf1bada04cbda5199a2a1"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://ecoinofficial.org/"
+    ],
+    "whitepaper": null,
+    "blockchain_site": [
+      "https://telos.bloks.io/tokens/ecoin-telos-ecoin1nation",
+      "https://www.teloscan.io/",
+      "https://www.teloscan.io/token/",
+      "https://www.teloscan.io/address/",
+      "https://explorer.xinfin.network/tokens/xdc536dd70445cea1e97f9bf1bada04cbda5199a2a1",
+      "https://xdcscan.com/token/xdc536dd70445cea1e97f9bf1bada04cbda5199a2a1"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.facebook.com/ecoinofficial/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ecoinofficial",
+    "facebook_username": "ecoinofficial",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "ecoinofficial",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/10849/thumb/IMG_4307.jpg?1696510805",
+    "small": "https://coin-images.coingecko.com/coins/images/10849/small/IMG_4307.jpg?1696510805",
+    "large": "https://coin-images.coingecko.com/coins/images/10849/large/IMG_4307.jpg?1696510805"
+  },
+  "last_updated": "2025-07-11T09:54:10.582694+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "noon-usn",
+  "symbol": "usn",
+  "name": "Noon USN",
+  "categories": [
+    "Stablecoins",
+    "Ethereum Ecosystem",
+    "ZkSync Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xda67b4284609d2d48e5d10cfac411572727dc1ed",
+    "zksync": "0x0469d9d1de0ee58fa1153ef00836b9bbcb84c0b6"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Noon Capital is building a yield-bearing stablecoin called USN, designed to maintain a 1:1 peg with the US Dollar while offering competitive yields. The project aims to provide a stable, interest-bearing asset for users seeking a secure store of value with returns that can potentially outpace inflation. USN generates revenue through a sophisticated basis yield strategy, combining different strategies to ensure consistent returns across various market conditions.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.noon.capital/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xda67b4284609d2d48e5d10cfac411572727dc1ed",
+      "https://ethplorer.io/address/0xdA67B4284609d2d48e5d10cfAc411572727dc1eD",
+      "https://era.zksync.network/token/0x0469d9d1dE0ee58fA1153ef00836B9BbCb84c0B6",
+      "https://explorer.zksync.io/address/0x0469d9d1dE0ee58fA1153ef00836B9BbCb84c0B6"
+    ],
+    "official_forum_url": [
+      "https://mirror.xyz/nooncapital.eth"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "noon_capital",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "nooncapital",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53948/thumb/Copy_of_USN.png?1748952392",
+    "small": "https://coin-images.coingecko.com/coins/images/53948/small/Copy_of_USN.png?1748952392",
+    "large": "https://coin-images.coingecko.com/coins/images/53948/large/Copy_of_USN.png?1748952392"
+  },
+  "last_updated": "2025-07-11T09:56:26.205054+00:00"
+}

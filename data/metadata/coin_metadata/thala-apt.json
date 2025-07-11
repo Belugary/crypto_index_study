@@ -1,0 +1,57 @@
+{
+  "id": "thala-apt",
+  "symbol": "thapt",
+  "name": "Thala APT",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Liquid Staking Tokens",
+    "Aptos Ecosystem",
+    "Liquid Staked APT\t"
+  ],
+  "asset_platform_id": "aptos",
+  "platforms": {
+    "aptos": "0xfaf4e633ae9eb31366c9ca24214231760926576c7b625313b3688b5e900731f6::staking::StakedThalaAPT"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "thAPT is a liquid staking token that's loosely pegged to APT"
+  },
+  "links": {
+    "homepage": [
+      "https://app.thala.fi/lsd"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://aptscan.ai/coins/0xfaf4e633ae9eb31366c9ca24214231760926576c7b625313b3688b5e900731f6::staking::ThalaAPT",
+      "https://aptscan.ai/coins/0xfaf4e633ae9eb31366c9ca24214231760926576c7b625313b3688b5e900731f6::staking::StakedThalaAPT",
+      "https://tracemove.io/coin/0xfaf4e633ae9eb31366c9ca24214231760926576c7b625313b3688b5e900731f6::staking::StakedThalaAPT"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/thala",
+      "https://thalalabs.medium.com/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ThalaLabs",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/thalalabs"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33020/thumb/thAPT_Logomark.png?1728418104",
+    "small": "https://coin-images.coingecko.com/coins/images/33020/small/thAPT_Logomark.png?1728418104",
+    "large": "https://coin-images.coingecko.com/coins/images/33020/large/thAPT_Logomark.png?1728418104"
+  },
+  "last_updated": "2025-07-11T09:54:01.736681+00:00"
+}

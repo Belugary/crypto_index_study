@@ -1,0 +1,64 @@
+{
+  "id": "smooth-love-potion",
+  "symbol": "slp",
+  "name": "Smooth Love Potion",
+  "categories": [
+    "Entertainment",
+    "Gaming (GameFi)",
+    "NFT",
+    "Axie Infinity Ecosystem",
+    "Play To Earn",
+    "Ethereum Ecosystem",
+    "Ronin Ecosystem",
+    "Gaming Utility Token"
+  ],
+  "asset_platform_id": "ronin",
+  "platforms": {
+    "ronin": "0xa8754b9fa15fc18bb59458815510e40a12cd2014",
+    "ethereum": "0xcc8fa225d80b9c7d42f96e9570156c65d6caaa25"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "VN",
+  "description": {
+    "en": "Smooth Love Potion (SLP) tokens can be earned as rewards by Axie Infinity players through battle or adventure mode. SLP are tokens that can be used to breed new digital pets, known as Axies. It was formally known as Small Love Potion before the token upgrade to the Ronin blockchain.\r\n\r\nThe cost of breeding begins at 100 SLP but increases gradually — rising to 200 SLP for the second breed, 300 for the third, 500 for the fourth, 800 for the fifth, and 1,300 for the sixth. Axies can be bred a maximum of seven times, and the seventh breed costs 2,100 SLP. This limit exists in order to prevent hyperinflation in the marketplace.\r\n\r\nSLP paves the way to the concept of Play-to-earn which popularizes the Axie Infinity games among players who are looking to earn some money or participate in DeFi. It is especially popular in countries like Philippines. "
+  },
+  "links": {
+    "homepage": [
+      "https://axieinfinity.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.roninchain.com/token/0xa8754b9fa15fc18bb59458815510e40a12cd2014",
+      "https://platform.arkhamintelligence.com/explorer/token/smooth-love-potion",
+      "https://etherscan.io/token/0xcc8fa225d80b9c7d42f96e9570156c65d6caaa25",
+      "https://ethplorer.io/address/0xcc8fa225d80b9c7d42f96e9570156c65d6caaa25",
+      "https://explorer.energi.network/token/0xa598b856fa2d5e016d2e84a6a86ff99d69dd841e",
+      "https://app.roninchain.com/token/0xa8754b9fa15fc18bb59458815510e40a12cd2014"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/axie"
+    ],
+    "announcement_url": [
+      "https://medium.com/@AxieInfinity"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "AxieInfinity",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/AxieInfinity",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/10366/thumb/SLP.png?1696510368",
+    "small": "https://coin-images.coingecko.com/coins/images/10366/small/SLP.png?1696510368",
+    "large": "https://coin-images.coingecko.com/coins/images/10366/large/SLP.png?1696510368"
+  },
+  "last_updated": "2025-07-11T09:52:06.686105+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "cetus-protocol",
+  "symbol": "cetus",
+  "name": "Cetus Protocol",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Decentralized Finance (DeFi)",
+    "Sui Ecosystem",
+    "Animoca Brands Portfolio",
+    "OKX Ventures Portfolio",
+    "Dex Aggregator"
+  ],
+  "asset_platform_id": "sui",
+  "platforms": {
+    "sui": "0x06864a6f921804860930db6ddbe2e16acdf8504495ea7481637a1c8b9a8fe54b::cetus::CETUS"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Cetus is a pioneer DEX and concentrated liquidity protocol built on the Sui and Aptos blockchain. The mission of Cetus is building a powerful and flexible underlying liquidity network to make trading easier for any users and assets. It focuses on delivering the best trading experience and superior liquidity efficiency to DeFi users through the process of building its concentrated liquidity protocol and a series of affiliate interoperable functional modules."
+  },
+  "links": {
+    "homepage": [
+      "https://www.cetus.zone/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://suiscan.xyz/mainnet/coin/0x06864a6f921804860930db6ddbe2e16acdf8504495ea7481637a1c8b9a8fe54b::cetus::cetus/txs",
+      "https://suiscan.xyz/mainnet/coin/0x6864a6f921804860930db6ddbe2e16acdf8504495ea7481637a1c8b9a8fe54b::cetus::cetus/txs",
+      "https://suivision.xyz/coin/0x6864a6f921804860930db6ddbe2e16acdf8504495ea7481637a1c8b9a8fe54b::cetus::cetus",
+      "https://suivision.xyz/coin/0x06864a6f921804860930db6ddbe2e16acdf8504495ea7481637a1c8b9a8fe54b::cetus::CETUS"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "cetusprotocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/30256/thumb/cetus.png?1696529165",
+    "small": "https://coin-images.coingecko.com/coins/images/30256/small/cetus.png?1696529165",
+    "large": "https://coin-images.coingecko.com/coins/images/30256/large/cetus.png?1696529165"
+  },
+  "last_updated": "2025-07-11T09:50:12.340597+00:00"
+}

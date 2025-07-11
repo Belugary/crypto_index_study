@@ -1,0 +1,61 @@
+{
+  "id": "huma-finance",
+  "symbol": "huma",
+  "name": "Huma Finance",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "Payment Solutions",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "HUMA1821qVDKta3u2ovmfDQeW2fSQouSKE8fkF44wvGw",
+    "binance-smart-chain": "0x92516e0ddf1ddbf7fab1b79cac26689fdc5ba8e6"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Huma Finance is the first PayFi network, powering the financing of global payments with instant access to liquidity - anywhere, anytime. \r\n\r\nHuma Finance enables global payment institutions to settle their payments 24/7 using stablecoins and liquidity on-chain. It powers settlements for a range of PayFi use cases such as cross-border payments, credit cards, trade finance, and enables novel solutions like DePiN financing. "
+  },
+  "links": {
+    "homepage": [
+      "https://huma.finance/",
+      "https://app.huma.finance/",
+      "https://linktr.ee/humafinance"
+    ],
+    "whitepaper": "https://docs.huma.finance/",
+    "blockchain_site": [
+      "https://solscan.io/token/HUMA1821qVDKta3u2ovmfDQeW2fSQouSKE8fkF44wvGw",
+      "https://bscscan.com/token/0x92516e0ddf1ddbf7fab1b79cac26689fdc5ba8e6",
+      "https://binplorer.com/address/0x92516e0ddf1ddbf7fab1b79cac26689fdc5ba8e6"
+    ],
+    "official_forum_url": [
+      "https://mirror.xyz/0x4ef8557534b579128428b87A599Fe9549A572bcB"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/aCDxmJqvE2"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "humafinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/00labs"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/29215/thumb/huma.png?1696528173",
+    "small": "https://coin-images.coingecko.com/coins/images/29215/small/huma.png?1696528173",
+    "large": "https://coin-images.coingecko.com/coins/images/29215/large/huma.png?1696528173"
+  },
+  "last_updated": "2025-07-11T09:51:02.318794+00:00"
+}

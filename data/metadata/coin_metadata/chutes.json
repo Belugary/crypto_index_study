@@ -1,0 +1,51 @@
+{
+  "id": "chutes",
+  "symbol": "sn64",
+  "name": "Chutes",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Bittensor Ecosystem",
+    "Bittensor Subnets"
+  ],
+  "asset_platform_id": "bittensor",
+  "platforms": {
+    "bittensor": "64"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://chutes.ai/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://taostats.io/subnets/64/chart"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "chutes_ai",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/rayonlabs/chutes"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/66308/thumb/chutes.jpg?1749181700",
+    "small": "https://coin-images.coingecko.com/coins/images/66308/small/chutes.jpg?1749181700",
+    "large": "https://coin-images.coingecko.com/coins/images/66308/large/chutes.jpg?1749181700"
+  },
+  "last_updated": "2025-07-11T09:51:22.346567+00:00"
+}

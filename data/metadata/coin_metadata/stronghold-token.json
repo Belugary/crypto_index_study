@@ -1,0 +1,60 @@
+{
+  "id": "stronghold-token",
+  "symbol": "shx",
+  "name": "Stronghold",
+  "categories": [
+    "Ethereum Ecosystem",
+    "Stellar Ecosystem",
+    "Made in USA"
+  ],
+  "asset_platform_id": "stellar",
+  "platforms": {
+    "stellar": "SHX-GDSTRSHXHGJ7ZIVRBXEYE5Q74XUVCUSEKEBR7UCHEUUEK72N7I7KJ6JH",
+    "ethereum": "0xee7527841a932d2912224e20a405e1a1ff747084"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "US",
+  "description": {
+    "en": "Stronghold is a financial services platform that enables payments, trading, and USD reserves using our technology products like Stronghold USD and our platform APIs."
+  },
+  "links": {
+    "homepage": [
+      "https://stronghold.co/stronghold-shx"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://stellar.expert/explorer/public/asset/shx-gdstrshxhgj7zivrbxeye5q74xuvcusekebr7ucheuuek72n7i7kj6jh",
+      "https://platform.arkhamintelligence.com/explorer/token/stronghold-token",
+      "https://etherscan.io/token/0xee7527841a932d2912224e20a405e1a1ff747084",
+      "https://ethplorer.io/address/0xee7527841a932d2912224e20a405e1a1ff747084"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/strongholdpay/",
+      "https://www.youtube.com/c/Strongholdpay"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/QKqu8RZR29"
+    ],
+    "announcement_url": [
+      "https://medium.com/strongholdpay"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "strongholdpay",
+    "facebook_username": "strongholdxchg",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "strongholdxchg",
+    "subreddit_url": "https://www.reddit.com/r/strongholdxchg/",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/7427/thumb/Blue_Mark_-_White_BG.png?1696507700",
+    "small": "https://coin-images.coingecko.com/coins/images/7427/small/Blue_Mark_-_White_BG.png?1696507700",
+    "large": "https://coin-images.coingecko.com/coins/images/7427/large/Blue_Mark_-_White_BG.png?1696507700"
+  },
+  "last_updated": "2025-07-11T09:51:41.054061+00:00"
+}

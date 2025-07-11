@@ -1,0 +1,58 @@
+{
+  "id": "spectre-ai",
+  "symbol": "spectre",
+  "name": "Spectre AI",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Ethereum Ecosystem",
+    "Telegram Apps",
+    "AI Agents",
+    "DeFAI"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x9cf0ed013e67db12ca3af8e7506fe401aa14dad6"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "SPECTRE is the native token of an innovative AI-powered predictive learning tool designed to assist traders and investors."
+  },
+  "links": {
+    "homepage": [
+      "https://spectreai.io/"
+    ],
+    "whitepaper": "https://spectre-ai-prediction-bot.gitbook.io/spectre-ai-trading-bot/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x9cf0ed013e67db12ca3af8e7506fe401aa14dad6",
+      "https://platform.arkhamintelligence.com/explorer/token/spectre-ai",
+      "https://ethplorer.io/address/0x9cf0ed013e67db12ca3af8e7506fe401aa14dad6"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/ai-spectre/"
+    ],
+    "chat_url": [
+      "https://spectreaisearchengine.medium.com/",
+      "https://www.youtube.com/@ai-spectre"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Spectre__AI",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "AI_SPECTRE",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33066/thumb/logo.png?1738485380",
+    "small": "https://coin-images.coingecko.com/coins/images/33066/small/logo.png?1738485380",
+    "large": "https://coin-images.coingecko.com/coins/images/33066/large/logo.png?1738485380"
+  },
+  "last_updated": "2025-07-11T09:56:21.236652+00:00"
+}

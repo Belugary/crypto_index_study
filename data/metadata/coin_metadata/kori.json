@@ -1,0 +1,52 @@
+{
+  "id": "kori",
+  "symbol": "kori",
+  "name": "Kori",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "LetsBONK.fun Ecosystem"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "HtTYHz1Kf3rrQo6AqDLmss7gq5WrkWAaXn3tupUZbonk"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Kori is the cutest pomeranian on the solana blockchain! The coin was deployed on letsBONK.fun on 13th May 2025. Kori is the most viral dog on social media in terms of Tiktok and Instagram engagement and now he has found his home within Web3. Our project is a CTO but has the backing of the owner of Kori's social media accounts (1.7m followers on Tiktok and over 300k on IG). Our contract address is on all of Kori's socials and our aim is to appeal to a big audience!! In summary this is some legendary lore, a great, upcoming CTO, and crazily trendy & popular (the top video on his Tiktok has almost reached 1 billion views)!\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://letsbonk.fun/token/HtTYHz1Kf3rrQo6AqDLmss7gq5WrkWAaXn3tupUZbonk"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/HtTYHz1Kf3rrQo6AqDLmss7gq5WrkWAaXn3tupUZbonk"
+    ],
+    "official_forum_url": [
+      "https://www.tiktok.com/@pomkori_",
+      "https://www.instagram.com/pomkori/?hl=en"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "pomkori",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "PomKorionSol",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55882/thumb/Kori_sup_dawg.jpeg?1747556841",
+    "small": "https://coin-images.coingecko.com/coins/images/55882/small/Kori_sup_dawg.jpeg?1747556841",
+    "large": "https://coin-images.coingecko.com/coins/images/55882/large/Kori_sup_dawg.jpeg?1747556841"
+  },
+  "last_updated": "2025-07-11T09:56:05.832971+00:00"
+}

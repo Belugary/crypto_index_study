@@ -1,0 +1,56 @@
+{
+  "id": "superrare",
+  "symbol": "rare",
+  "name": "SuperRare",
+  "categories": [
+    "NFT",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xba5bde662c17e2adff1075610382b9b691296350"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://superrare.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xba5bde662c17e2adff1075610382b9b691296350",
+      "https://platform.arkhamintelligence.com/explorer/token/superrare",
+      "https://ethplorer.io/address/0xba5bde662c17e2adff1075610382b9b691296350"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.instagram.com/superrare.co/",
+      "https://discord.com/invite/5DwpdyJR6t"
+    ],
+    "announcement_url": [
+      "https://medium.com/superrare",
+      "https://superrare.mirror.xyz/"
+    ],
+    "snapshot_url": "https://snapshot.org/#/superraredao.eth",
+    "twitter_screen_name": "SuperRare",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "SuperRare",
+    "subreddit_url": "https://www.reddit.com/r/SuperRare/",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/17753/thumb/RARE.png?1709598473",
+    "small": "https://coin-images.coingecko.com/coins/images/17753/small/RARE.png?1709598473",
+    "large": "https://coin-images.coingecko.com/coins/images/17753/large/RARE.png?1709598473"
+  },
+  "last_updated": "2025-07-11T09:52:51.596059+00:00"
+}

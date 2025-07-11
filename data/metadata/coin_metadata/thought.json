@@ -1,0 +1,58 @@
+{
+  "id": "thought",
+  "symbol": "tht",
+  "name": "Thought",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Layer 1 (L1)",
+    "Wallets",
+    "Made in USA"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "VG",
+  "description": {
+    "en": "Thought is changing the way the world creates, processes, regurgitates, interprets and even discards information through a combination of data analytics and artificial intelligence. The system has been developed to work with the Nuance application as well as hybrid data systems. The platform has also been programmed to fuse in and work and interact with the Thought Fabric system."
+  },
+  "links": {
+    "homepage": [
+      "https://thought.live/"
+    ],
+    "whitepaper": "https://thought.live/assets/thought-white-paper.pdf",
+    "blockchain_site": [
+      "https://exp.thought.live/insight/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.linkedin.com/company/thought-network/",
+      "https://t.me/thoughtcommunity",
+      "https://discord.gg/sRVhwCMuXh"
+    ],
+    "announcement_url": [
+      "https://medium.com/thought-tht"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "thought_THT",
+    "facebook_username": "ThoughtTHT",
+    "bitcointalk_thread_identifier": 2876253,
+    "telegram_channel_identifier": "Thought_AI",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/thoughtnetwork/thought-whitepaper"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/3071/thumb/IeNAK31H_400x400.jpg?1696503803",
+    "small": "https://coin-images.coingecko.com/coins/images/3071/small/IeNAK31H_400x400.jpg?1696503803",
+    "large": "https://coin-images.coingecko.com/coins/images/3071/large/IeNAK31H_400x400.jpg?1696503803"
+  },
+  "last_updated": "2025-07-11T09:55:22.388750+00:00"
+}

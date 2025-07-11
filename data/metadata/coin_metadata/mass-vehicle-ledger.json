@@ -1,0 +1,65 @@
+{
+  "id": "mass-vehicle-ledger",
+  "symbol": "mvl",
+  "name": "MVL",
+  "categories": [
+    "Internet of Things (IOT)",
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem",
+    "DePIN",
+    "DWF Labs Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xa849eaae994fb86afa73382e9bd88c2b6b18dc71",
+    "the-open-network": "EQD2yazA2wf5AY2joEzGUDGk0cQWxEa2NdiP4Zgf9-eF04tp",
+    "binance-smart-chain": "0x5f588efaf8eb57e3837486e834fc5a4e07768d98"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Delegated Proof-of-Stake",
+  "genesis_date": null,
+  "country_origin": "SG",
+  "description": {
+    "en": "It is a blockchain-based ecosystem that connects all services, like the car dealer shops, mechanic shops and car rental companies, that touch your car to collect its lifetime data. \r\n\r\nParticipants from automobile-related companies, services or trade industry will be connected and they will insert core data related to driving, traffic accidents, repairs and other car-related transactions into the blockchain. \r\n\r\nParticipants who provide data related to automobile will receive MVL Point (MVP), a reward system used to encourage contribution to the ecosystem. "
+  },
+  "links": {
+    "homepage": [
+      "https://mvlchain.io/"
+    ],
+    "whitepaper": "https://drive.google.com/file/d/1JuI-bSOiLX5hYXJSFpdsg-JfR48b7DXk/view?usp=sharing",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xa849eaae994fb86afa73382e9bd88c2b6b18dc71",
+      "https://platform.arkhamintelligence.com/explorer/token/mass-vehicle-ledger",
+      "https://ethplorer.io/address/0xa849eaae994fb86afa73382e9bd88c2b6b18dc71",
+      "https://bscscan.com/token/0x5f588efaf8eb57e3837486e834fc5a4e07768d98",
+      "https://binplorer.com/address/0x5f588efaf8eb57e3837486e834fc5a4e07768d98",
+      "https://tonscan.org/address/EQD2yazA2wf5AY2joEzGUDGk0cQWxEa2NdiP4Zgf9-eF04tp",
+      "https://tonviewer.com/EQD2yazA2wf5AY2joEzGUDGk0cQWxEa2NdiP4Zgf9-eF04tp"
+    ],
+    "official_forum_url": [
+      "https://mvlchain.io/blog"
+    ],
+    "chat_url": [
+      "https://t.me/mvlchain_kr"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "mvlchain",
+    "facebook_username": "mvlchain",
+    "bitcointalk_thread_identifier": 5076399,
+    "telegram_channel_identifier": "mvlchain_en",
+    "subreddit_url": "https://www.reddit.com/r/MVL",
+    "repos_url": {
+      "github": [
+        "https://github.com/mvlchain/PWSwitch"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/3476/thumb/CoinGecko.png?1711620384",
+    "small": "https://coin-images.coingecko.com/coins/images/3476/small/CoinGecko.png?1711620384",
+    "large": "https://coin-images.coingecko.com/coins/images/3476/large/CoinGecko.png?1711620384"
+  },
+  "last_updated": "2025-07-11T09:50:25.903289+00:00"
+}

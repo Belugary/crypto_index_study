@@ -1,0 +1,61 @@
+{
+  "id": "reservoir-rusd",
+  "symbol": "rusd",
+  "name": "Reservoir rUSD",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "Ethereum Ecosystem",
+    "Berachain Ecosystem",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x09d4214c03d01f49544c0448dbe3a27f768f2b34",
+    "berachain": "0x09d4214c03d01f49544c0448dbe3a27f768f2b34"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Reservoir Protocol was created to offer users the most trusted and scalable decentralized, next-gen stablecoin protocol as part of a broader effort to address the market’s demand for a decentralized, scalable, efficient, and yield-bearing stablecoin. As a permissionless protocol on Ethereum with native integration on top-tier networks, Reservoir offers users globally access to a next-gen stablecoin, a liquid yielding asset, a term-based yielding asset, and a permissionless lending market. Backed by multiple digital and Real World Assets (RWA), Reservoir provides the most scalable stablecoin through DeFi applications and RWA integrations, offering better and more consistent yields than other stablecoin protocols, irrespective of market conditions."
+  },
+  "links": {
+    "homepage": [
+      "https://www.reservoir.xyz/",
+      "https://reservoir.beehiiv.com/"
+    ],
+    "whitepaper": "https://docs.reservoir.xyz/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x09d4214c03d01f49544c0448dbe3a27f768f2b34",
+      "https://ethplorer.io/address/0x09D4214C03D01F49544C0448DBE3A27f768F2b34",
+      "https://berascan.com/token/0x09d4214c03d01f49544c0448dbe3a27f768f2b34"
+    ],
+    "official_forum_url": [
+      "https://reservoir.beehiiv.com/"
+    ],
+    "chat_url": [
+      "https://www.discord.com/invite/reservoir"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "reservoir_xyz",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/reservoir-protocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54117/thumb/rusd_bera2.png?1738311629",
+    "small": "https://coin-images.coingecko.com/coins/images/54117/small/rusd_bera2.png?1738311629",
+    "large": "https://coin-images.coingecko.com/coins/images/54117/large/rusd_bera2.png?1738311629"
+  },
+  "last_updated": "2025-07-11T09:51:16.862417+00:00"
+}

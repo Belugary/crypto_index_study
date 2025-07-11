@@ -1,0 +1,54 @@
+{
+  "id": "ampleforth-governance-token",
+  "symbol": "forth",
+  "name": "Ampleforth Governance",
+  "categories": [
+    "Ethereum Ecosystem",
+    "Stablecoin Protocol"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x77fba179c79de5b7653f68b5039af940ada60ce0"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "FORTH is the native governance token that powers Ampleforth, a protocol that automatically adjusts the supply of its native token, AMPL, in response to demand. FORTH holders can vote on proposed changes to the Ampleforth protocol or delegate their votes to representatives who vote on their behalf."
+  },
+  "links": {
+    "homepage": [
+      "https://www.ampleforth.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x77fba179c79de5b7653f68b5039af940ada60ce0",
+      "https://platform.arkhamintelligence.com/explorer/token/ampleforth-governance-token",
+      "https://ethplorer.io/address/0x77fba179c79de5b7653f68b5039af940ada60ce0"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/mptQ49m"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "AmpleforthOrg",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Ampleforth",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/ampleforth/Forth/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/14917/thumb/photo_2021-04-22_00.00.03.jpeg?1696514579",
+    "small": "https://coin-images.coingecko.com/coins/images/14917/small/photo_2021-04-22_00.00.03.jpeg?1696514579",
+    "large": "https://coin-images.coingecko.com/coins/images/14917/large/photo_2021-04-22_00.00.03.jpeg?1696514579"
+  },
+  "last_updated": "2025-07-11T09:54:58.394759+00:00"
+}

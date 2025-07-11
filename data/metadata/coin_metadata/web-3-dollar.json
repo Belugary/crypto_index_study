@@ -1,0 +1,59 @@
+{
+  "id": "web-3-dollar",
+  "symbol": "usd3",
+  "name": "Web 3 Dollar",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "Ethereum Ecosystem",
+    "Base Ecosystem",
+    "Crypto-backed Stablecoin",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x0d86883faf4ffd7aeb116390af37746f45b6f378",
+    "base": "0xefb97aaf77993922ac4be4da8fbc9a2425322677"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "USD3 is a fully asset-backed currency (“RToken”) created on the Reserve protocol. RTokens feature onchain asset-backing, revenue sharing, overcollateralization and mint/redemptions, governed by RSR stakers. \r\n\r\nThe native web 3 currency. A low-risk yield-bearing USD stablecoin built on DeFi markets. Governance should prioritize safety and stability, seeking highly-rated stables and DeFi platforms. Earn the DeFi rate any time you're in stables."
+  },
+  "links": {
+    "homepage": [
+      "https://app.reserve.org/ethereum/token/0x0d86883faf4ffd7aeb116390af37746f45b6f378/overview",
+      "https://reserve.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x0d86883faf4ffd7aeb116390af37746f45b6f378",
+      "https://platform.arkhamintelligence.com/explorer/token/web-3-dollar",
+      "https://basescan.org/token/0xefb97aaf77993922ac4be4da8fbc9a2425322677",
+      "https://ethplorer.io/address/0x0d86883faf4ffd7aeb116390af37746f45b6f378"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/YmbQwmmKEv"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "USD_3",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/38073/thumb/usd3%28200_x_200_px%29.png?1716449060",
+    "small": "https://coin-images.coingecko.com/coins/images/38073/small/usd3%28200_x_200_px%29.png?1716449060",
+    "large": "https://coin-images.coingecko.com/coins/images/38073/large/usd3%28200_x_200_px%29.png?1716449060"
+  },
+  "last_updated": "2025-07-11T09:52:37.241947+00:00"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "moonriver",
+  "symbol": "movr",
+  "name": "Moonriver",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Moonriver Ecosystem",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Meter Ecosystem"
+  ],
+  "asset_platform_id": "moonriver",
+  "platforms": {
+    "moonriver": "0x98878b06940ae243284ca214f92bb71a2b032b8a",
+    "meter": "0xb158870beb809ad955bf56065c5c10d7fd957cc0"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Moonriver is a fully Ethereum-compatible smart contract parachain on Kusama. Due to this Ethereum-like design and developer-friendly approach, Moonriver has attracted dozens of projects to build on it: https://moonbeam.network/community/projects/. It does this by providing a full EVM implementation, a Web3-compatible API, and bridges that connect Moonriver to existing Ethereum networks. This allows developers to deploy existing Solidity/Vyper smart contracts and DApp frontends to Moonriver with minimal changes.\r\n\r\nIt is intended to be a companion network to Moonbeam (on Polkadot), where it will provide a permanently incentivized canary network. New code will ship to Moonriver first, where it can be tested and verified under real economic conditions. Once proven, the same code will ship to Moonbeam on Polkadot."
+  },
+  "links": {
+    "homepage": [
+      "https://moonbeam.network/networks/moonriver/",
+      "https://moonbeam.foundation/moonriver-token/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://moonriver.subscan.io/",
+      "https://blockscout.moonriver.moonbeam.network/",
+      "https://moonriver.moonscan.io/",
+      "https://moonriver.moonscan.io/token/0x98878b06940ae243284ca214f92bb71a2b032b8a",
+      "https://scan.meter.io/address/0xb158870beb809ad955bf56065c5c10d7fd957cc0",
+      "https://movr.tokenview.io/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/moonbeam-network"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "MoonriverNW",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Moonbeam_Official",
+    "subreddit_url": "https://www.reddit.com/r/moonbeam/",
+    "repos_url": {
+      "github": [
+        "https://github.com/PureStake/moonbeam/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/17984/thumb/Moonriver_MOVR_ICON.png?1716647589",
+    "small": "https://coin-images.coingecko.com/coins/images/17984/small/Moonriver_MOVR_ICON.png?1716647589",
+    "large": "https://coin-images.coingecko.com/coins/images/17984/large/Moonriver_MOVR_ICON.png?1716647589"
+  },
+  "last_updated": "2025-07-11T09:51:37.414720+00:00"
+}

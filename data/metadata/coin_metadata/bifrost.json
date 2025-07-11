@@ -1,0 +1,61 @@
+{
+  "id": "bifrost",
+  "symbol": "bfc",
+  "name": "Bifrost",
+  "categories": [
+    "Fantom Ecosystem",
+    "Ethereum Ecosystem",
+    "Liquid Staking Governance Tokens",
+    "DWF Labs Portfolio",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x0c7d5ae016f806603cb1782bea29ac69471cab9c",
+    "fantom": "0x84c882a4d8eb448ce086ea19418ca0f32f106117"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "SG",
+  "description": {
+    "en": "Bifrost Token (BFC) is the currency of the DApps in the Bifrost Multichain Ecosystem. Developers pay BFC for using the multichain middleware to develop and operate their DApps."
+  },
+  "links": {
+    "homepage": [
+      "https://www.bifrostnetwork.com/"
+    ],
+    "whitepaper": "https://thebifrost.io/static/Bifrost_WP_Eng.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x0c7d5ae016f806603cb1782bea29ac69471cab9c",
+      "https://platform.arkhamintelligence.com/explorer/token/bifrost",
+      "https://ethplorer.io/address/0x0c7d5ae016f806603cb1782bea29ac69471cab9c",
+      "https://ftmscan.com/token/0x84c882a4d8eb448ce086ea19418ca0f32f106117",
+      "https://scan.meter.io/address/0x84c882a4d8eb448ce086ea19418ca0f32f106117",
+      "https://ftmscan.com/address/0x84c882a4d8eb448ce086ea19418ca0f32f106117"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/bifrostcity"
+    ],
+    "announcement_url": [
+      "https://medium.com/bifrost"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "bifrost_network",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Bifrost_Global",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/4639/thumb/BFC_Symbol.png?1696505208",
+    "small": "https://coin-images.coingecko.com/coins/images/4639/small/BFC_Symbol.png?1696505208",
+    "large": "https://coin-images.coingecko.com/coins/images/4639/large/BFC_Symbol.png?1696505208"
+  },
+  "last_updated": "2025-07-11T09:51:38.973417+00:00"
+}

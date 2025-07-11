@@ -1,0 +1,48 @@
+{
+  "id": "vaultbridge-bridged-usdc-katana",
+  "symbol": "vbusdc",
+  "name": "VaultBridge Bridged USDC (Katana)",
+  "categories": [
+    "Bridged USDC",
+    "Bridged-Tokens",
+    "Bridged Stablecoin",
+    "Katana Ecosystem"
+  ],
+  "asset_platform_id": "katana",
+  "platforms": {
+    "katana": "0x203a662b0bd271a6ed5a60edfbd04bfce608fd36"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.katanarpc.com/token/0x203A662b0BD271A6ed5a60EdFbd04bFce608FD36"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/67043/thumb/usdc1.png?1751581304",
+    "small": "https://coin-images.coingecko.com/coins/images/67043/small/usdc1.png?1751581304",
+    "large": "https://coin-images.coingecko.com/coins/images/67043/large/usdc1.png?1751581304"
+  },
+  "last_updated": "2025-07-11T09:50:39.209005+00:00"
+}

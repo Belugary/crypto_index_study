@@ -1,0 +1,52 @@
+{
+  "id": "a-hunters-dream",
+  "symbol": "caw",
+  "name": "A Hunters Dream",
+  "categories": [
+    "SocialFi",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xf3b9569f82b18aef890de263b84189bd33ebe452"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "CAW is a decentralised \"Social Clearing House\" which originated from the Shib deployer.\r\n\r\nThe concept of decentralization has been lost to some of us over time, those who forgot why Bitcoin was created, the issues blockchain and cryptocurrency is meant to solve. \r\nTo be decentralized means there is no single person, entity, nor group which has ultimate control nor\r\nbenefit over a system.\r\n\r\nFreedom given to the people to discover CAW's meaning amongst themselves.\r\n\r\nCAW is by design without design, and it is up the CAWMmunity to shape CAW. "
+  },
+  "links": {
+    "homepage": [
+      "https://caw.is"
+    ],
+    "whitepaper": "https://github.com/cawdevelopment/manifesto",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xf3b9569f82b18aef890de263b84189bd33ebe452",
+      "https://platform.arkhamintelligence.com/explorer/token/a-hunters-dream",
+      "https://ethplorer.io/address/0xf3b9569f82b18aef890de263b84189bd33ebe452"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://t.me/AHuntersDreamCAW"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "CommunityCaw",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "cawbuilders",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/25130/thumb/x-Logo-color-10x.png?1696524280",
+    "small": "https://coin-images.coingecko.com/coins/images/25130/small/x-Logo-color-10x.png?1696524280",
+    "large": "https://coin-images.coingecko.com/coins/images/25130/large/x-Logo-color-10x.png?1696524280"
+  },
+  "last_updated": "2025-07-11T09:54:46.423493+00:00"
+}

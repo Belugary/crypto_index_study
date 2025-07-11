@@ -1,0 +1,69 @@
+{
+  "id": "lisk",
+  "symbol": "lsk",
+  "name": "Lisk",
+  "categories": [
+    "Smart Contract Platform",
+    "Ethereum Ecosystem",
+    "Layer 2 (L2)",
+    "Optimism Superchain Ecosystem",
+    "Outlier Ventures Portfolio",
+    "Lisk Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f",
+    "lisk": "0xac485391eb2d7d88253a7f1ef18c37f4242d1a24"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Delegated Proof-of-Stake",
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Lisk is a Layer 2 blockchain dedicated to bringing Web3 adoption in emerging markets back to Ethereum. Offering some of the lowest transaction fees in the industry, Lisk is the ecosystem of choice for users and developers in cost-sensitive regions. By leveraging efficient, scalable, and innovative Layer 2 technology, Lisk enables real-world applications in emerging markets to operate efficiently on Ethereum for the first time. Lisk’s founder-focused approach provides a comprehensive ecosystem of builder programs, tools, seed liquidity, and knowledge bases to support local Web3 projects from inception to success. As a long-standing Web3 infrastructure project, Lisk has been democratizing blockchain accessibility for developers and end-users globally since 2016. As a member of the Optimism Superchain, Lisk plays a pivotal role in building the industry’s first truly interoperable supernetwork alongside Base, Optimism, Mode, and Worldchain. "
+  },
+  "links": {
+    "homepage": [
+      "https://lisk.com"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f",
+      "https://platform.arkhamintelligence.com/explorer/token/lisk",
+      "https://ethplorer.io/address/0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f",
+      "https://blockscout.lisk.com/token/0xac485391eb2d7d88253a7f1ef18c37f4242d1a24"
+    ],
+    "official_forum_url": [
+      "https://forum.lisk.io/",
+      "https://discord.com/invite/lisk",
+      "https://www.linkedin.com/company/lisk/"
+    ],
+    "chat_url": [
+      "https://www.facebook.com/LiskHQ",
+      "https://www.youtube.com/channel/UCuqpGfg_bOQ8Ja4pj811PWg/featured",
+      "https://www.instagram.com/lisk_blockchain/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "LiskHQ",
+    "facebook_username": "LiskHQ",
+    "bitcointalk_thread_identifier": 1346646,
+    "telegram_channel_identifier": "Lisk_HQ",
+    "subreddit_url": "https://www.reddit.com/r/Lisk",
+    "repos_url": {
+      "github": [
+        "https://github.com/LiskHQ/lisk-sdk",
+        "https://github.com/LiskHQ/lisk-core",
+        "https://github.com/LiskHQ/lisk-desktop",
+        "https://github.com/LiskHQ/lisk-mobile"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/385/thumb/Lisk_logo.png?1722338450",
+    "small": "https://coin-images.coingecko.com/coins/images/385/small/Lisk_logo.png?1722338450",
+    "large": "https://coin-images.coingecko.com/coins/images/385/large/Lisk_logo.png?1722338450"
+  },
+  "last_updated": "2025-07-11T09:50:32.067677+00:00"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "beincom",
+  "symbol": "bic",
+  "name": "Beincom",
+  "categories": [
+    "SocialFi",
+    "Arbitrum Ecosystem",
+    "Payment Solutions"
+  ],
+  "asset_platform_id": "arbitrum-one",
+  "platforms": {
+    "arbitrum-one": "0xb1c3960aeeaf4c255a877da04b06487bba698386"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "Started from 2021, Beincom has been built to become a social hub and community platform, with BIC Token at its heart. \r\nBeincom created a platform for community builders to connect with their most engaging members/followers, consolidating the loyals from multiple platforms into one unified. Contents created in Beincom can be shared to other platforms, and contents from others can be embedded to Beincom, making a \"social hub\", one platform to manage all others.\r\nCommunities on Beincom are structured in the \"inner-circle\" model. A community contains multiple of smaller groups inside, and each group may have many more inner groups, classifying the community thus support the administration and content delivery.\r\nThe community builders receive BIC Token in the form of donation from their members, or via paid features such as TPDM, and by completing missions and achievements. The BIC Token are also used in NFT minting and auction, advertisement like boosted content and recommended community, premium features and other utilities on the platform.\r\nBeincom is empowered by the integrated technology of web2 and web3. The interface keeps the familiarity of traditional social platform, while offering users web3 features including wallet, token swap, NFT & Marketplace, etc. "
+  },
+  "links": {
+    "homepage": [
+      "https://www.beincom.com/",
+      "https://bictoken.global/"
+    ],
+    "whitepaper": "https://docs.google.com/document/d/1Tc-J7riUBzB7ZRySmIBWIPY9Rk--ayIidwccD5L4HcM/edit?usp=drive_link",
+    "blockchain_site": [
+      "https://arbiscan.io/address/0xb1c3960aeeaf4c255a877da04b06487bba698386",
+      "https://arbiscan.io/token/0xB1C3960aeeAf4C255A877da04b06487BBa698386"
+    ],
+    "official_forum_url": [
+      "https://group.beincom.com/ref/WaMIF8"
+    ],
+    "chat_url": [
+      "https://www.youtube.com/@BeincomOfficial"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "BeincomOfficial",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/beincom"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55109/thumb/BIC_-_Violet_200x200.png?1743754248",
+    "small": "https://coin-images.coingecko.com/coins/images/55109/small/BIC_-_Violet_200x200.png?1743754248",
+    "large": "https://coin-images.coingecko.com/coins/images/55109/large/BIC_-_Violet_200x200.png?1743754248"
+  },
+  "last_updated": "2025-07-11T09:55:04.598446+00:00"
+}

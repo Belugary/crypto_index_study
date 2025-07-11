@@ -1,0 +1,66 @@
+{
+  "id": "axondao-governance-token",
+  "symbol": "axgt",
+  "name": "AxonDAO Governance Token",
+  "categories": [
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "DePIN",
+    "Base Ecosystem",
+    "Decentralized Science (DeSci)",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xdd66781d0e9a08d4fbb5ec7bac80b691be27f21d",
+    "arbitrum-one": "0xe0ee18eacafddaeb38f8907c74347c44385578ab",
+    "base": "0x9b700b043e9587dde9a0c29a9483e2f8fa450d54"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "AxonDAO Funds, Builds, and Supports DeSci using AI & Biometric Algorithms "
+  },
+  "links": {
+    "homepage": [
+      "https://axondao.io"
+    ],
+    "whitepaper": "https://axondao.gitbook.io/whitepaper_axondao_axgt/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xdd66781d0e9a08d4fbb5ec7bac80b691be27f21d",
+      "https://platform.arkhamintelligence.com/explorer/token/axondao-governance-token",
+      "https://ethplorer.io/address/0xdd66781d0e9a08d4fbb5ec7bac80b691be27f21d",
+      "https://arbiscan.io/token/0xe0ee18eacafddaeb38f8907c74347c44385578ab",
+      "https://basescan.org/token/0x9b700b043e9587dde9a0c29a9483e2f8fa450d54"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/axondao/",
+      "https://medium.com/@axondao",
+      "https://www.linkedin.com/company/axon-medical-research-token/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/Sbfb3Hh3YX",
+      "https://medium.com/@axondao",
+      "https://www.youtube.com/channel/UCO5CLbzq5Q-nMTx21SIb5Dg"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "AxonDAO",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "AXONDAO",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/35290/thumb/AXGT-logo-7.png?1708076161",
+    "small": "https://coin-images.coingecko.com/coins/images/35290/small/AXGT-logo-7.png?1708076161",
+    "large": "https://coin-images.coingecko.com/coins/images/35290/large/AXGT-logo-7.png?1708076161"
+  },
+  "last_updated": "2025-07-11T09:52:58.644997+00:00"
+}

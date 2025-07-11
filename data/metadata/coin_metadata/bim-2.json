@@ -1,0 +1,53 @@
+{
+  "id": "bim-2",
+  "symbol": "bim",
+  "name": "BIM",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Base Ecosystem"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0x555fff48549c1a25a723bd8e7ed10870d82e8379"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://bim.finance/",
+      "https://exchange.bim.finance/",
+      "https://www.blog.bim.finance/"
+    ],
+    "whitepaper": "https://docs.bim.finance/whitepaper",
+    "blockchain_site": [
+      "https://basescan.org/token/0x555FFF48549C1A25a723Bd8e7eD10870D82E8379"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/bimfinance",
+      "https://www.instagram.com/bim.finance/"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "BIM_Finance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "bimprotocol",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54860/thumb/bim-fi.jpg?1742179842",
+    "small": "https://coin-images.coingecko.com/coins/images/54860/small/bim-fi.jpg?1742179842",
+    "large": "https://coin-images.coingecko.com/coins/images/54860/large/bim-fi.jpg?1742179842"
+  },
+  "last_updated": "2025-07-11T09:51:55.178465+00:00"
+}

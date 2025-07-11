@@ -1,0 +1,50 @@
+{
+  "id": "bc-token",
+  "symbol": "bc",
+  "name": "BCGame Coin",
+  "categories": [
+    "Gambling (GambleFi)",
+    "Solana Ecosystem"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "BCNT4t3rv5Hva8RnUtJUJLnxzeFAabcYp8CghC1SmWin"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "$BC is the native token of the BC.GAME platform, serving as both a governance and utility token to enhance user experience through diverse incentives and practical applications within BC.GAME’s gaming ecosystem. Built on the SOL blockchain, $BC ensures fast and secure transactions, with a total supply capped at 10 billion tokens to maintain value and utility.\r\n\r\nTo further strengthen its economic structure, BC.GAME employs a weekly buyback and burn mechanism. A portion of the platform's revenue or reserves is allocated to buy $BC tokens from exchanges or liquidity pools, guided by market conditions, token performance, or strategic objectives. These tokens are then permanently removed from circulation through an automated or manual burn process, executed via smart contracts. This approach reduces supply, fosters scarcity, and enhances the long-term value of the token."
+  },
+  "links": {
+    "homepage": [
+      "https://bc.game/"
+    ],
+    "whitepaper": "https://whitepaper.bc.game/bc-white-paper",
+    "blockchain_site": [
+      "https://solscan.io/token/BCNT4t3rv5Hva8RnUtJUJLnxzeFAabcYp8CghC1SmWin"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/xqUMQesZQq"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "bcgameofficial",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "bcgamewin",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53197/thumb/Graphic_Only-200black.png?1746867614",
+    "small": "https://coin-images.coingecko.com/coins/images/53197/small/Graphic_Only-200black.png?1746867614",
+    "large": "https://coin-images.coingecko.com/coins/images/53197/large/Graphic_Only-200black.png?1746867614"
+  },
+  "last_updated": "2025-07-11T09:51:38.502571+00:00"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "griffain",
+  "symbol": "griffain",
+  "name": "GRIFFAIN",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Solana Ecosystem",
+    "Pump.fun Ecosystem",
+    "AI Agent Launchpad",
+    "Binance Alpha Spotlight",
+    "DeFAI"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "KENJSUYLASHUMfHyy5o4Hp2FdNqZg1AsUPhfH2kYvEP"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Griffain is a blockchain-based platform designed to operate within the Solana ecosystem. The project focuses on creating a robust and scalable decentralized finance (DeFi) solution that supports seamless token swaps, liquidity provision, and ecosystem growth. It aims to empower users with efficient tools for trading and managing digital assets while maintaining transparency and decentralization as core principles.\r\n\r\nGriffain leverages Solana's high throughput and low transaction costs to deliver a superior user experience, particularly for those engaged in DeFi activities. The platform integrates a decentralized exchange (DEX), where users can swap tokens efficiently, and liquidity pools, where participants can earn rewards by contributing liquidity to the ecosystem.\r\n\r\nThe project also emphasizes community engagement and aims to expand its ecosystem through partnerships, community-driven initiatives, and continuous innovation. Its utility token plays a central role in governance, incentivization, and facilitating platform interactions.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://griffain.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/KENJSUYLASHUMfHyy5o4Hp2FdNqZg1AsUPhfH2kYvEP"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "griffaindotcom",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "GriffainSOL",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/52547/thumb/aAp7HijF4Uf1SkZO3FsVMyrbBc5kux_0vIlI7Amxiu7ygza2T_Swtp8bA2KoL_yU0YWw7c52LG9wflD7b5KMZ6GNJgDtgQfmMKy75SBQ5ldIHl6qffC9SNWqKyvqKQJ5sWZgJnXztPPsuJD_IVTTdPlabPlxxuNq7OAxQcjCbRxnge3tim3QyyIrc5vTOzWR93BoZVf0pd7EzwziVlhzov.jpg?1733590142",
+    "small": "https://coin-images.coingecko.com/coins/images/52547/small/aAp7HijF4Uf1SkZO3FsVMyrbBc5kux_0vIlI7Amxiu7ygza2T_Swtp8bA2KoL_yU0YWw7c52LG9wflD7b5KMZ6GNJgDtgQfmMKy75SBQ5ldIHl6qffC9SNWqKyvqKQJ5sWZgJnXztPPsuJD_IVTTdPlabPlxxuNq7OAxQcjCbRxnge3tim3QyyIrc5vTOzWR93BoZVf0pd7EzwziVlhzov.jpg?1733590142",
+    "large": "https://coin-images.coingecko.com/coins/images/52547/large/aAp7HijF4Uf1SkZO3FsVMyrbBc5kux_0vIlI7Amxiu7ygza2T_Swtp8bA2KoL_yU0YWw7c52LG9wflD7b5KMZ6GNJgDtgQfmMKy75SBQ5ldIHl6qffC9SNWqKyvqKQJ5sWZgJnXztPPsuJD_IVTTdPlabPlxxuNq7OAxQcjCbRxnge3tim3QyyIrc5vTOzWR93BoZVf0pd7EzwziVlhzov.jpg?1733590142"
+  },
+  "last_updated": "2025-07-11T09:51:43.074553+00:00"
+}

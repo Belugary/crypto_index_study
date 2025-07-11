@@ -1,0 +1,47 @@
+{
+  "id": "xtusd",
+  "symbol": "xtusd",
+  "name": "XT Stablecoin XTUSD",
+  "categories": [
+    "Stablecoins"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": "0x1a6131eaf7edd96afa10fc75b0d79dd814d19ed0"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.xtusd.pro/main"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://xscscan.pub/address/0x1a6131eaf7edd96afa10fc75b0d79dd814d19ed0"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/26504/thumb/header-logo.67638e6.png?1696525577",
+    "small": "https://coin-images.coingecko.com/coins/images/26504/small/header-logo.67638e6.png?1696525577",
+    "large": "https://coin-images.coingecko.com/coins/images/26504/large/header-logo.67638e6.png?1696525577"
+  },
+  "last_updated": "2025-07-11T09:54:19.116236+00:00"
+}

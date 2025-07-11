@@ -1,0 +1,52 @@
+{
+  "id": "usd-coin-avalanche-bridged-usdc-e",
+  "symbol": "usdc.e",
+  "name": "Avalanche Bridged USDC (Avalanche)",
+  "categories": [
+    "Avalanche Ecosystem",
+    "Bridged USDC",
+    "Bridged-Tokens",
+    "Bridged Stablecoin"
+  ],
+  "asset_platform_id": "avalanche",
+  "platforms": {
+    "avalanche": "0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.circle.com/blog/understanding-avalanche-usdc-vs.-usdc.e"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://snowtrace.io/token/0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664",
+      "https://platform.arkhamintelligence.com/explorer/token/usd-coin-avalanche-bridged-usdc-e",
+      "https://avascan.info/blockchain/c/address/0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664/token"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/23263/thumb/3408.png?1696522483",
+    "small": "https://coin-images.coingecko.com/coins/images/23263/small/3408.png?1696522483",
+    "large": "https://coin-images.coingecko.com/coins/images/23263/large/3408.png?1696522483"
+  },
+  "last_updated": "2025-07-11T09:52:57.179340+00:00"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "earthmeta",
+  "symbol": "emt",
+  "name": "EarthMeta",
+  "categories": [
+    "NFT",
+    "Metaverse",
+    "Polygon Ecosystem"
+  ],
+  "asset_platform_id": "polygon-pos",
+  "platforms": {
+    "polygon-pos": "0x708383ae0e80e75377d664e4d6344404dede119a"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "$EMT token is a utility token serving as the backbone of EarthMeta Metaverse. It is the EarthMeta ecosystem's primary currency, facilitating transactions, rewards, and governance participation.\r\nEarthMeta is a Metaverse where the users can own a City and Govern it. Sell lands as NFTs, and create an economy in their city like a strategy game."
+  },
+  "links": {
+    "homepage": [
+      "https://earthmeta.ai/"
+    ],
+    "whitepaper": "https://static2.earthmeta.ai/Whitepaper_EarthMeta_Token_V1.pdf",
+    "blockchain_site": [
+      "https://polygonscan.com/token/0x708383ae0e80e75377d664e4d6344404dede119a",
+      "https://platform.arkhamintelligence.com/explorer/token/earthmeta"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/earthmetaai/",
+      "https://www.linkedin.com/company/earthmetaofficial"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/dWH8nem8pZ",
+      "https://www.youtube.com/@Earthmetaai"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "EarthMetaAi",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "EarthMetaAI",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/earthmeta"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/38990/thumb/logo__200x200.png?1719807507",
+    "small": "https://coin-images.coingecko.com/coins/images/38990/small/logo__200x200.png?1719807507",
+    "large": "https://coin-images.coingecko.com/coins/images/38990/large/logo__200x200.png?1719807507"
+  },
+  "last_updated": "2025-07-11T09:56:33.351122+00:00"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "adventure-gold",
+  "symbol": "agld",
+  "name": "Adventure Gold",
+  "categories": [
+    "Ethereum Ecosystem",
+    "DWF Labs Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x32353a6c91143bfd6c7d363b546e62a9a2489a20"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Loot is randomized adventurer gear generated and stored on chain. Stats, images, and other functionality are intentionally omitted for others to interpret."
+  },
+  "links": {
+    "homepage": [
+      "https://www.lootproject.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x32353a6c91143bfd6c7d363b546e62a9a2489a20",
+      "https://platform.arkhamintelligence.com/explorer/token/adventure-gold",
+      "https://ethplorer.io/address/0x32353a6c91143bfd6c7d363b546e62a9a2489a20"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/Q5KGjftshm"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "lootproject",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/18125/thumb/lpgblc4h_400x400.jpg?1696517628",
+    "small": "https://coin-images.coingecko.com/coins/images/18125/small/lpgblc4h_400x400.jpg?1696517628",
+    "large": "https://coin-images.coingecko.com/coins/images/18125/large/lpgblc4h_400x400.jpg?1696517628"
+  },
+  "last_updated": "2025-07-11T09:51:01.743172+00:00"
+}

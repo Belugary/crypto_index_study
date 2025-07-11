@@ -1,0 +1,53 @@
+{
+  "id": "bugscoin",
+  "symbol": "bgsc",
+  "name": "BugsCoin",
+  "categories": [
+    "Retail",
+    "BNB Chain Ecosystem",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xa4b68d48d7bc6f04420e8077e6f74bdef809dea3"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The BugsCoin project was initiated to overcome the limitations of traditional reward systems in promoting user engagement. Existing reward systems often suffer from issues such as centralized management, limited usability, and a lack of tangible economic value, all of which hinder long-term user participation.\r\n\r\nBugsCoin is a digital asset developed  based on the Binance Smart Chain (BSC) network that leverages blockchain technology to address these challenges. It is designed to provide users with greater transparency and fairness in transactions and rewards. Through BugsCoin, users can engage in meaningful economic activities beyond mere point accumulation and can directly contribute to decision-making within the community.\r\n\r\nTo realize this vision, the online platform \"AntTalk,\" which allows for simulated investments in digital assets, has transitioned its existing reward system to BugsCoin. This shift enables the AntTalk community to foster long-term user engagement, laying the groundwork for the platform's continued growth.\r\n\r\nThe BugsCoin project aims to build a user-centric, decentralized economic system, with plans to expand from \"AntTalk\" to the global market. Through this initiative, users are expected to participate more actively in the platform and contribute to its growth."
+  },
+  "links": {
+    "homepage": [
+      "https://www.bugscoin.com/en"
+    ],
+    "whitepaper": "https://bugscoin.gitbook.io/whitepaper",
+    "blockchain_site": [
+      "https://www.bscscan.com/token/0xa4B68D48D7bc6f04420e8077E6F74bdeF809dEa3",
+      "https://bscscan.com/token/0xa4B68D48D7bc6f04420e8077E6F74bdeF809dEa3",
+      "https://binplorer.com/address/0xa4B68D48D7bc6f04420e8077E6F74bdeF809dEa3"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.youtube.com/@inbumtv"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "bugscoin_bgsc",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "bugscoin_offcial",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/52619/thumb/bnUmy-NT_400x400.png?1733784337",
+    "small": "https://coin-images.coingecko.com/coins/images/52619/small/bnUmy-NT_400x400.png?1733784337",
+    "large": "https://coin-images.coingecko.com/coins/images/52619/large/bnUmy-NT_400x400.png?1733784337"
+  },
+  "last_updated": "2025-07-11T09:51:16.343309+00:00"
+}

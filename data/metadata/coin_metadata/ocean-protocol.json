@@ -1,0 +1,76 @@
+{
+  "id": "ocean-protocol",
+  "symbol": "ocean",
+  "name": "Ocean Protocol",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Storage",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "DePIN",
+    "Energi Ecosystem",
+    "Sora Ecosystem",
+    "Outlier Ventures Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x967da4048cd07ab37855c090aaf366e4ce1b9f48",
+    "energi": "0x99a17fb61fbdc4e42f6b0f496fe92ba820ce5d2b",
+    "optimistic-ethereum": "0x2561aa2bb1d2eb6629edd7b0938d7679b8b49f9e",
+    "sora": "0x002ca40397c794e25dba18cf807910eeb69eb8e81b3f07bb54f7c5d1d8ab76b9",
+    "polygon-pos": "0x282d8efce846a88b159800bd4130ad77443fa1a1"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "SG",
+  "description": {
+    "en": "Ocean Protocol is an ecosystem for sharing data and associated services. It provides a tokenized service layer that exposes data, storage, compute and algorithms for consumption with a set of deterministic proofs on availability and integrity that serve as verifiable service agreements. There is staking on services to signal quality, reputation and ward against Sybil Attacks.\r\n\r\nOcean helps to unlock data, particularly for AI. It is designed for scale and uses blockchain technology that allows data to be shared and sold in a safe, secure and transparent manner.\r\n\r\nThe Ocean Protocol is an ecosystem composed of data assets and services, where assets are represented by data and algorithms, and services are represented by integration, processing and persistence mechanisms. Ocean Protocol facilitates discovery by storing and promoting metadata, linking assets and services, and provides a licensing framework that has toolsets for pricing.\r\n\r\nA multitude of data marketplaces can hook into Ocean Protocol to provide “last mile” services to connect data providers and consumers. Ocean Protocol is designed so that data owners cannot be locked-in to any single marketplace. The data owner controls each dataset."
+  },
+  "links": {
+    "homepage": [
+      "https://oceanprotocol.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x967da4048cd07ab37855c090aaf366e4ce1b9f48",
+      "https://platform.arkhamintelligence.com/explorer/token/ocean-protocol",
+      "https://blockchair.com/ethereum/erc-20/token/0x967da4048cd07ab37855c090aaf366e4ce1b9f48",
+      "https://ethplorer.io/address/0x967da4048cd07ab37855c090aaf366e4ce1b9f48",
+      "https://explorer.energi.network/token/0x99a17fb61fbdc4e42f6b0f496fe92ba820ce5d2b",
+      "https://polygonscan.com/token/0x282d8efce846a88b159800bd4130ad77443fa1a1",
+      "https://optimistic.etherscan.io/token/0x2561aa2bb1d2eb6629edd7b0938d7679b8b49f9e"
+    ],
+    "official_forum_url": [
+      "https://oceanprotocol.com/#blog"
+    ],
+    "chat_url": [
+      "https://t.me/oceanprotocol_community"
+    ],
+    "announcement_url": [
+      "https://blog.oceanprotocol.com/"
+    ],
+    "snapshot_url": "https://snapshot.org/#/officialoceandao.eth",
+    "twitter_screen_name": "oceanprotocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "oceanprotocol",
+    "subreddit_url": "https://www.reddit.com/r/oceanprotocol/",
+    "repos_url": {
+      "github": [
+        "https://github.com/oceanprotocol/market",
+        "https://github.com/oceanprotocol/pleuston",
+        "https://github.com/oceanprotocol/squid-js",
+        "https://github.com/oceanprotocol/keeper-contracts"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/3687/thumb/ocean-protocol-logo.jpg?1696504363",
+    "small": "https://coin-images.coingecko.com/coins/images/3687/small/ocean-protocol-logo.jpg?1696504363",
+    "large": "https://coin-images.coingecko.com/coins/images/3687/large/ocean-protocol-logo.jpg?1696504363"
+  },
+  "last_updated": "2025-07-11T09:51:29.954576+00:00"
+}

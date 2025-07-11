@@ -1,0 +1,50 @@
+{
+  "id": "optio",
+  "symbol": "opt",
+  "name": "Optio",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Layer 1 (L1)",
+    "Proof of Stake (PoS)",
+    "E-commerce"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Optio Blockchain is a user-first, decentralized ecosystem designed to return data ownership and value to individuals instead of Big Tech corporations. Unlike traditional platforms that exploit user data for profit, Optio enables users to monetize their engagement through its Proof-of-Impact (PoI) protocol, earning OPT tokens simply by interacting with applications in the ecosystem. The project aims to shift the business model of the internet from one based on surveillance and exploitation to one based on empowerment, fairness, and equity."
+  },
+  "links": {
+    "homepage": [
+      "https://optio.community"
+    ],
+    "whitepaper": "https://www.optio.community/white-paper",
+    "blockchain_site": [
+      "https://optioscan.io"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Optiocommunity",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "optiocommunity",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54505/thumb/Optio_logo.png?1740033849",
+    "small": "https://coin-images.coingecko.com/coins/images/54505/small/Optio_logo.png?1740033849",
+    "large": "https://coin-images.coingecko.com/coins/images/54505/large/Optio_logo.png?1740033849"
+  },
+  "last_updated": "2025-07-11T09:53:21.638606+00:00"
+}

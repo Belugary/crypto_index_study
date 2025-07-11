@@ -1,0 +1,57 @@
+{
+  "id": "minswap",
+  "symbol": "min",
+  "name": "Minswap",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Exchange-based Tokens",
+    "Decentralized Finance (DeFi)",
+    "Yield Farming",
+    "Automated Market Maker (AMM)",
+    "Cardano Ecosystem"
+  ],
+  "asset_platform_id": "cardano",
+  "platforms": {
+    "cardano": "29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c6"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://minswap.org/"
+    ],
+    "whitepaper": "https://docs.minswap.org/whitepaper",
+    "blockchain_site": [
+      "https://cardanoscan.io/token/29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c64d494e"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://minswap-labs.medium.com/",
+      "https://discord.com/invite/ZjB8ZBhkbm"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "MinswapDEX",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "MinswapMafia",
+    "subreddit_url": "https://www.reddit.com/r/MinSwap/",
+    "repos_url": {
+      "github": [
+        "https://github.com/minswap"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/27823/thumb/Logo_Round.png?1727293179",
+    "small": "https://coin-images.coingecko.com/coins/images/27823/small/Logo_Round.png?1727293179",
+    "large": "https://coin-images.coingecko.com/coins/images/27823/large/Logo_Round.png?1727293179"
+  },
+  "last_updated": "2025-07-11T09:54:57.069982+00:00"
+}

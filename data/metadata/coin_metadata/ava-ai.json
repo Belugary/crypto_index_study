@@ -1,0 +1,54 @@
+{
+  "id": "ava-ai",
+  "symbol": "ava",
+  "name": "Ava AI",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Solana Ecosystem",
+    "Meme",
+    "AI Meme",
+    "AI Agents",
+    "Pump.fun Ecosystem",
+    "Binance Alpha Spotlight",
+    "Made in USA"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "DKu9kykSfbN5LBfFXtNNDPaX35o4Fv6vJ9FKk7pZpump"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Ava is the first AI Agent to be built on HoloworldAI.\r\n\r\n$AVA was initially launched by the community after Holoworld welcomed to the world, AVA the Holo AI intern. Since then, it has grown tremendously into a vibrant community.\r\n\r\nAs Holoworld progresses, @AVA_holo will be the primary AI agent IP for showcasing Holoworlds latest developments. From on-chain experiments to unreleased AI agent features, they will lean on Ava to demonstrate our vision and gather feedback from our community."
+  },
+  "links": {
+    "homepage": [
+      "https://www.holoworld.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/DKu9kykSfbN5LBfFXtNNDPaX35o4Fv6vJ9FKk7pZpump"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "AVA_holo",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "AvaAIonSol",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/51935/thumb/7VZQ0qhB_400x400_%282%29.jpg?1732206907",
+    "small": "https://coin-images.coingecko.com/coins/images/51935/small/7VZQ0qhB_400x400_%282%29.jpg?1732206907",
+    "large": "https://coin-images.coingecko.com/coins/images/51935/large/7VZQ0qhB_400x400_%282%29.jpg?1732206907"
+  },
+  "last_updated": "2025-07-11T09:53:43.771659+00:00"
+}

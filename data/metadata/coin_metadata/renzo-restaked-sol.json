@@ -1,0 +1,56 @@
+{
+  "id": "renzo-restaked-sol",
+  "symbol": "ezsol",
+  "name": "Renzo Restaked SOL",
+  "categories": [
+    "Solana Ecosystem",
+    "Restaking",
+    "Liquid Restaking Tokens",
+    "Liquid Restaked SOL"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "ezSoL6fY1PVdJcJsUpe5CM3xkfmy3zoVCABybm5WtiC"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Renzo is a restaking protocol that abstracts and manages Actively Validated Services (AVS) strategies for Liquid Restaking Tokens (LRTs), making Ethereum and Solana restaking ezpz and accessible to everyone. The products $ezETH, $pzETH, and $ezSOL serve as interfaces to the EigenLayer, Symbiotic, and Jito Network ecosystems, respectively. Renzo's mission is to make restaking easy and accessible to everyone.\r\n\r\nezSOL is the flagship vault restaking token representing a user's restaked position on Jito.  Users can deposit JitoSOL and, soon, SOL and receive ezSOL, representing their position in securing Node Consensus Networks (NCNs). Restakers will generate staking, restaking, and Maximal Extractable Value (MEV) rewards that will be auto-compounded in ezSOL."
+  },
+  "links": {
+    "homepage": [
+      "https://app.renzoprotocol.com/ezsol"
+    ],
+    "whitepaper": "https://docs.renzoprotocol.com/docs/",
+    "blockchain_site": [
+      "https://solscan.io/token/ezSoL6fY1PVdJcJsUpe5CM3xkfmy3zoVCABybm5WtiC",
+      "https://platform.arkhamintelligence.com/explorer/token/renzo-restaked-sol"
+    ],
+    "official_forum_url": [
+      "https://discord.gg/renzoprotocol",
+      "https://mirror.xyz/renzoprotocol.eth"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "RenzoProtocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "RenzoProtocolChat",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Renzo-Protocol/contracts-public"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39705/thumb/ezSOL_Logo.png?1730786654",
+    "small": "https://coin-images.coingecko.com/coins/images/39705/small/ezSOL_Logo.png?1730786654",
+    "large": "https://coin-images.coingecko.com/coins/images/39705/large/ezSOL_Logo.png?1730786654"
+  },
+  "last_updated": "2025-07-11T09:52:28.066357+00:00"
+}

@@ -1,0 +1,87 @@
+{
+  "id": "kyber-network-crystal",
+  "symbol": "knc",
+  "name": "Kyber Network Crystal",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Decentralized Finance (DeFi)",
+    "Automated Market Maker (AMM)",
+    "BNB Chain Ecosystem",
+    "Avalanche Ecosystem",
+    "Polygon Ecosystem",
+    "Fantom Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "ZkSync Ecosystem",
+    "Linea Ecosystem",
+    "Pantera Capital Portfolio",
+    "Polygon zkEVM Ecosystem",
+    "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xdefa4e8a7bcba345f687a2f1456f5edd9ce97202",
+    "polygon-zkevm": "0x6a80a465409ce8d36c513129c0feea61bed579ba",
+    "arbitrum-one": "0xe4dddfe67e7164b0fe14e218d80dc4c08edc01cb",
+    "zksync": "0x6ee46cb7cd2f15ee1ec9534cf29a5b51c83283e6",
+    "optimistic-ethereum": "0xa00e3a3511aac35ca78530c85007afcd31753819",
+    "linea": "0x3b2f62d42db19b30588648bf1c184865d4c3b1d6",
+    "binance-smart-chain": "0xfe56d5892bdffc7bf58f2e84be1b2c32d21c308b",
+    "fantom": "0x1e1085efaa63edfe74aad7c05a28eae4ef917c3f",
+    "avalanche": "0x39fc9e94caeacb435842fadedecb783589f50f5f",
+    "polygon-pos": "0x1c954e8fe737f99f68fa1ccda3e51ebdb291948c"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What Is Kyber Network (KNC)?\r\nKyber Network is a hub of liquidity protocols that aggregates liquidity from various sources to provide secure and instant transactions on any decentralized application (DApp). The main goal of Kyber Network is to enable DeFi DApps, decentralized exchanges (DEXs) and other users easy access to liquidity pools that provide the best rates.\r\n\r\nAll transactions on Kyber are on-chain, which means they can be easily verified using any Ethereum block explorer. Projects can build on top of Kyber to utilize all the services offered by the protocol, such as the instant settlement of tokens, liquidity aggregation, and a customizable business model.\r\n\r\nKyber looks to solve the liquidity issue in the decentralized finance (DeFi) industry by allowing developers to build products and services without having to worry about liquidity for different needs. \r\n\r\nThe Kyber Network Crystal (KNC) token is a utility token that is the \"glue that connects different stakeholders in Kyber's ecosystem.\" KNC holders can stake their tokens in the KyberDAO to help govern the platform and vote on important proposals — and earn staking rewards in Ethereum (ETH) that come from trading fees. \r\n\r\nWhat Makes Kyber Network Unique?\r\nKyber Network is the first tool that allows anyone to instantly swap tokens without the need of a third-party, like a centralized exchange. The unique architecture of Kyber is designed to be developer-friendly, which enables the protocol to be easily integrated with apps and other blockchain-based protocols.\r\n\r\nDeFi has many use cases and possibilities. Therefore, no single liquidity protocol can fit the needs of all liquidity providers, takers, and other market participants. Kyber’s liquidity hub architecture allows developers and the Kyber team to rapidly innovate and integrate new protocols into the overall Kyber Network to cater to different liquidity needs.\r\n\r\nIn April 2021, Kyber launched the Kyber DMM, the world’s first dynamic market maker protocol (DMM). Kyber DMM is a next-generation AMM designed to react to market conditions to optimise fees, maximise earnings, and enable extremely high capital efficiency for liquidity providers, especially for stable pairs with low variability in price range (like USDC/USDT, ETH/SETH). They will be able to support pools with extremely high amplification factors, which means given the same liquidity pool and trade size, slippage can be 100x (or more) better than typical AMMs. Depending on their amplification strategy, liquidity providers can maximise the use of their capital and have the opportunity to earn much more fees relative to their contribution size, while takers can enjoy extremely low slippage on their trades.\r\n\r\nKyber DMM is the first of many new liquidity protocols that will be launched on the Kyber 3.0 Liquidity Hub.\r\n\r\nIn the Kyber ecosystem, KNC token holders play an important role in deciding new growth and value-capture opportunities and incentive mechanisms. Through KyberDAO, KNC holders can participate in the governance of the network by voting on important proposals. Kyber’s community is sizable and made up of a wide range of developers, in addition to other members of the blossoming DeFi industry.\r\n\r\nKyber’s fully on-chain design enables the protocol to maintain full transparency and verifiability. The platform claims to be the most used liquidity hub in the world.\r\n\r\nHow Is the Kyber Network Secured?\r\nAs an ERC-20 token, Kyber is built on top of and secured by the Ethereum blockchain. In addition, Kyber uses an extensive trust and security model that protects users from misbehaving administrators or exchanges, thanks to security measures built in both at the protocol and smart contract level.\r\n\r\nThe platform has been audited by several third-party security firms and researchers, including Chainsecurity, which have determined that the protocol is secure and hence free of vulnerabilities."
+  },
+  "links": {
+    "homepage": [
+      "https://kyber.network/",
+      "https://kyberswap.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xdefa4e8a7bcba345f687a2f1456f5edd9ce97202",
+      "https://platform.arkhamintelligence.com/explorer/token/kyber-network-crystal",
+      "https://ethplorer.io/address/0xdefa4e8a7bcba345f687a2f1456f5edd9ce97202",
+      "https://bscscan.com/token/0xfe56d5892bdffc7bf58f2e84be1b2c32d21c308b",
+      "https://polygonscan.com/token/0x1c954e8fe737f99f68fa1ccda3e51ebdb291948c",
+      "https://snowtrace.io/token/0x39fc9e94caeacb435842fadedecb783589f50f5f",
+      "https://ftmscan.com/token/0x1e1085efaa63edfe74aad7c05a28eae4ef917c3f",
+      "https://scan.meter.io/address/0x1e1085efaa63edfe74aad7c05a28eae4ef917c3f",
+      "https://optimistic.etherscan.io/token/0xa00e3a3511aac35ca78530c85007afcd31753819",
+      "https://avascan.info/blockchain/c/address/0x39fc9e94caeacb435842fadedecb783589f50f5f/token"
+    ],
+    "official_forum_url": [
+      "https://gov.kyber.org/"
+    ],
+    "chat_url": [
+      "https://discord.gg/kyberswap",
+      "https://www.facebook.com/kyberswap/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "kybernetwork",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "kybernetwork ",
+    "subreddit_url": "https://www.reddit.com/r/kybernetwork/",
+    "repos_url": {
+      "github": [
+        "https://github.com/kybernetwork/KyberWallet"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/14899/thumb/RwdVsGcw_400x400.jpg?1696514562",
+    "small": "https://coin-images.coingecko.com/coins/images/14899/small/RwdVsGcw_400x400.jpg?1696514562",
+    "large": "https://coin-images.coingecko.com/coins/images/14899/large/RwdVsGcw_400x400.jpg?1696514562"
+  },
+  "last_updated": "2025-07-11T09:52:05.132005+00:00"
+}

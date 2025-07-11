@@ -1,0 +1,51 @@
+{
+  "id": "fwog",
+  "symbol": "fwog",
+  "name": "Fwog",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Frog-Themed",
+    "Solana Meme",
+    "Pump.fun Ecosystem",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "A8C3xuqscfmyLrte3VmTqrAq8kgMASius9AFNANwpump"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/A8C3xuqscfmyLrte3VmTqrAq8kgMASius9AFNANwpump",
+      "https://platform.arkhamintelligence.com/explorer/token/fwog"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "fwogportal",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39453/thumb/fwog.png?1722318442",
+    "small": "https://coin-images.coingecko.com/coins/images/39453/small/fwog.png?1722318442",
+    "large": "https://coin-images.coingecko.com/coins/images/39453/large/fwog.png?1722318442"
+  },
+  "last_updated": "2025-07-11T09:52:56.201457+00:00"
+}

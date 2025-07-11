@@ -1,0 +1,49 @@
+{
+  "id": "skyai",
+  "symbol": "skyai",
+  "name": "SkyAI",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x92aa03137385f18539301349dcfc9ebc923ffb10"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "SkyAI is an all-in-one AI ecosystem powered by MCP, designed to seamlessly integrate intelligent solutions across industries."
+  },
+  "links": {
+    "homepage": [
+      "https://skyai.pro/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x92aa03137385F18539301349dcfC9EbC923fFb10",
+      "https://binplorer.com/address/0x92aa03137385F18539301349dcfC9EbC923fFb10"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SKYAIpro",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "SKYAI_MCP",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55294/thumb/1.png?1745517593",
+    "small": "https://coin-images.coingecko.com/coins/images/55294/small/1.png?1745517593",
+    "large": "https://coin-images.coingecko.com/coins/images/55294/large/1.png?1745517593"
+  },
+  "last_updated": "2025-07-11T09:51:49.224024+00:00"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "qanplatform",
+  "symbol": "qanx",
+  "name": "QANplatform",
+  "categories": [
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "Cybersecurity"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xaaa9214f675316182eaa21c85f0ca99160cc3aaa",
+    "binance-smart-chain": "0xaaa9214f675316182eaa21c85f0ca99160cc3aaa"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "EE",
+  "description": {
+    "en": "What Is QANplatform (QANX)? \r\n\r\nQANplatform, the quantum-resistant hybrid blockchain platform enables developers and enterprises to rapidly build software applications like DApps or DeFi and run business processes on blockchain. A blockchain platform, like QANplatform is the basic infrastructure of all blockchain projects and applications. It is like the operating system on a computer. The whole ecosystem can only build and work on top of it. Connect it with real-world data, run automated smart contracts, build decentralized applications (DApps). According to HFS Research excerpt for IBM: Enterprise blockchain adoption is going through a “90-9-1” adoption challenge. 90% of companies are still trying to internalize the concept and its relevant impact. 9% of enterprises that identified relevant use cases are struggling to start with their PoCs and pilots. The 1% of enterprises that have successful pilots are challenged with scalability to a production-grade environment. To achieve blockchain mass adoption Qanplatform focused on these challenges. They built a lot of automation and integration to help freelance developers, blockchain development companies and enterprises start their blockchain PoCs (Proof-of-Concept) as fast as possible. It takes less than 5 minutes to deploy the QAN private blockchain to a preferred cloud platform and start building on it. \r\n\r\nWho Are the Founders of QANplatform ? \r\n\r\nJohann Polecsak, QAN's Chief Technology Officer is also an economist. He along with the Business Development team pursues the way to make QAN as appealing as possible. In the end all what matters is market share. His laser focus lights in the single direction of eliminating any obstacles which could come up as a reason not to implement Blockchain technology, making QAN the only sane choice to work with. Endre Abraham (Silur), QAN's Head of Cryptology contributed to several blockchain projects like Ethereum, Zcash, or Monero. Gaining such an extensive experience could only lead him in one direction: Building a blockchain which solves the pain points of the existing mainstream ones.\r\n\r\nWhat Makes QANplatform Unique? \r\n\r\nQANplatform solves the problems enterprises and developers face when using currently available blockchain by building a platform from scratch that does not require them to make compromises:\r\n\r\n    - Hybrid blockchain platform\r\n    - 80% faster implementation than other blockchains\r\n    - Lowest hardware and energy requirements on the market\r\n    - Predictable data transaction prices for public blockchains\r\n    - Enterprise-ready transaction speed\r\n    - Quantum-resistant security \r\n\r\nThe experienced team behind QANplatform worked in companies and projects like IBM, Telekom, Uber, Bitcoin.com, Ethereum, Monero, Zcash..."
+  },
+  "links": {
+    "homepage": [
+      "https://www.qanplatform.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xaaa9214f675316182eaa21c85f0ca99160cc3aaa",
+      "https://platform.arkhamintelligence.com/explorer/token/qanplatform",
+      "https://ethplorer.io/address/0xaaa9214f675316182eaa21c85f0ca99160cc3aaa",
+      "https://bscscan.com/token/0xaaa9214f675316182eaa21c85f0ca99160cc3aaa",
+      "https://binplorer.com/address/0xaaa9214f675316182eaa21c85f0ca99160cc3aaa",
+      "https://bnb.dex.guru/token/0xaaa9214f675316182eaa21c85f0ca99160cc3aaa"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/pEHCdjEJQc"
+    ],
+    "announcement_url": [
+      "https://medium.com/qanplatform/qanx-token-listing-on-pancakeswap-and-uniswap-on-june-2-2-00-pm-utc-continiuosly-updated-e3d6b3616b45"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "QANplatform",
+    "facebook_username": "QANplatform",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "QANplatform",
+    "subreddit_url": "https://www.reddit.com/r/QANplatform/",
+    "repos_url": {
+      "github": [
+        "https://github.com/qanplatform/qanx-token"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/15977/thumb/qanx.png?1696515591",
+    "small": "https://coin-images.coingecko.com/coins/images/15977/small/qanx.png?1696515591",
+    "large": "https://coin-images.coingecko.com/coins/images/15977/large/qanx.png?1696515591"
+  },
+  "last_updated": "2025-07-11T09:51:40.532012+00:00"
+}

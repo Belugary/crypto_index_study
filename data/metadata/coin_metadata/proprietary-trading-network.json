@@ -1,0 +1,53 @@
+{
+  "id": "proprietary-trading-network",
+  "symbol": "sn8",
+  "name": "Proprietary Trading Network",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Bittensor Ecosystem",
+    "Bittensor Subnets"
+  ],
+  "asset_platform_id": "bittensor",
+  "platforms": {
+    "bittensor": "8"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.taoshi.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://taostats.io/subnets/8/chart"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/2XSw62p9Fj"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "taoshiio",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/taoshidev/proprietary-trading-network"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/66345/thumb/sn8.png?1749239742",
+    "small": "https://coin-images.coingecko.com/coins/images/66345/small/sn8.png?1749239742",
+    "large": "https://coin-images.coingecko.com/coins/images/66345/large/sn8.png?1749239742"
+  },
+  "last_updated": "2025-07-11T09:56:38.314025+00:00"
+}

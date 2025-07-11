@@ -1,0 +1,52 @@
+{
+  "id": "resupply-usd",
+  "symbol": "reusd",
+  "name": "Resupply USD",
+  "categories": [
+    "Stablecoins",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x57ab1e0003f623289cd798b1824be09a793e4bec"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "A decentralized stablecoin backed by Collateralized Debt Positions (CDP), leveraging the liquidity and stability of lending markets.\r\n\r\nThe Resupply stablecoin is backed by other stablecoins that are earning interest on other lending markets.\r\n\r\nDesigned to maximize yield returns by having the borrow rate always be half the lending rate being earned, half the risk-free rate, or two percent, whichever is greater.\r\n\r\nEmissions are designed for long-term sustainability by directing at three groups: the insurance pool, voting incentives, and directly at borrowers.\r\n\r\nThe revenue that borrowers generate will directly correlate with the emissions directed towards them. The more revenue a borrower generates for Resupply, the greater the share of emissions it will receive.\r\n\r\nTargeted platforms for launch are Curve Lend and Fraxlend."
+  },
+  "links": {
+    "homepage": [
+      "https://resupply.fi/"
+    ],
+    "whitepaper": "https://docs.resupply.fi/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x57aB1E0003F623289CD798B1824Be09a793e4Bec",
+      "https://ethplorer.io/address/0x57aB1E0003F623289CD798B1824Be09a793e4Bec"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/resupplyfi",
+      "https://mirror.xyz/resupply.eth"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ResupplyFi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54836/thumb/reusd-icon-black-200px.png?1741970002",
+    "small": "https://coin-images.coingecko.com/coins/images/54836/small/reusd-icon-black-200px.png?1741970002",
+    "large": "https://coin-images.coingecko.com/coins/images/54836/large/reusd-icon-black-200px.png?1741970002"
+  },
+  "last_updated": "2025-07-11T09:51:07.349089+00:00"
+}

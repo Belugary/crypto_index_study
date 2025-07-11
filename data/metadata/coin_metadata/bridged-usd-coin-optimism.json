@@ -1,0 +1,51 @@
+{
+  "id": "bridged-usd-coin-optimism",
+  "symbol": "usdc.e",
+  "name": "Standard Bridged USDC.e (Optimism)",
+  "categories": [
+    "Optimism Ecosystem",
+    "Bridged USDC",
+    "Bridged-Tokens",
+    "Bridged Stablecoin"
+  ],
+  "asset_platform_id": "optimistic-ethereum",
+  "platforms": {
+    "optimistic-ethereum": "0x7f5c764cbc14f9669b88837ca1490cca17c31607"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://app.optimism.io/bridge/deposit"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://optimistic.etherscan.io/token/0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+      "https://platform.arkhamintelligence.com/explorer/token/bridged-usd-coin-optimism"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/31580/thumb/USDC-icon.png?1696530397",
+    "small": "https://coin-images.coingecko.com/coins/images/31580/small/USDC-icon.png?1696530397",
+    "large": "https://coin-images.coingecko.com/coins/images/31580/large/USDC-icon.png?1696530397"
+  },
+  "last_updated": "2025-07-11T09:52:14.190080+00:00"
+}

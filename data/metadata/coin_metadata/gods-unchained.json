@@ -1,0 +1,61 @@
+{
+  "id": "gods-unchained",
+  "symbol": "gods",
+  "name": "Gods Unchained",
+  "categories": [
+    "Gaming (GameFi)",
+    "NFT",
+    "Play To Earn",
+    "Ethereum Ecosystem",
+    "Card Games",
+    "Gaming Governance Token",
+    "Galaxy Digital Portfolio",
+    "OKX Ventures Portfolio",
+    "Action Games"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xccc8cb5229b0ac8069c51fd58367fd1e622afd97"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "GODS token is the currency used in the blockchain-based online trading card game, Gods Unchained. The token will act as a governance so players will be able to decide the development direction of the game. Players can also use the token to mint rare cards. Most importantly, the GODS token will be an integral part of the play to earn concept of the game."
+  },
+  "links": {
+    "homepage": [
+      "https://godsunchained.com",
+      "https://gudecks.com"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xccc8cb5229b0ac8069c51fd58367fd1e622afd97",
+      "https://platform.arkhamintelligence.com/explorer/token/gods-unchained",
+      "https://ethplorer.io/address/0xccc8cb5229b0ac8069c51fd58367fd1e622afd97"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/godsunchained",
+      "https://www.twitch.tv/godsunchained/videos"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "GodsUnchained",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/GodsUnchained",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/17139/thumb/10631.png?1696516698",
+    "small": "https://coin-images.coingecko.com/coins/images/17139/small/10631.png?1696516698",
+    "large": "https://coin-images.coingecko.com/coins/images/17139/large/10631.png?1696516698"
+  },
+  "last_updated": "2025-07-11T09:52:41.809276+00:00"
+}

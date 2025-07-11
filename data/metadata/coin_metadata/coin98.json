@@ -1,0 +1,74 @@
+{
+  "id": "coin98",
+  "symbol": "c98",
+  "name": "Coin98",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "Solana Ecosystem",
+    "Wallets",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem",
+    "Binance Launchpad",
+    "DWF Labs Portfolio",
+    "Multicoin Capital Portfolio",
+    "Alameda Research Portfolio",
+    "Viction Ecosystem",
+    "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xaec945e04baf28b135fa7c640f624f8d90f1c3a6",
+    "tomochain": "0x0fd0288aaae91eaf935e2ec14b23486f86516c8c",
+    "ethereum": "0xae12c5930881c53715b369cec7606b70d8eb229f",
+    "polygon-pos": "0x77f56cf9365955486b12c4816992388ee8606f0e",
+    "solana": "C98A4nkJXhpVZNAZdHUA95RpTF3T4whtQubL3YobiUX9"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "VN",
+  "description": {
+    "en": "Coin98 is an all-in-one DeFi Platform that aims to fulfill untapped demand in the industry and become a Gateway bridging TradFi users to any DeFi services on multiple blockchains. It accomplishes this mission through a full suite of products, including Coin98 Wallet, Coin98 Exchange, and Space Gate (cross-chain bridge).\r\n\r\nCoin98 Wallet: Allows users to store, send, receive, manage crypto assets and connect to numerous dApps on multiple blockchains. It supports over 20 blockchains such as Ethereum, Binance Smart Chain, Solana, Polygon, Avalanche, Terra, etc on both mobile (iOS & android) and Chrome extension versions.\r\n\r\nCoin98 Exchange: A multichain liquidity aggregator that allows users to swap, stake, lend, borrow, earn crypto with the best rates and low slippage.\r\n\r\nSpace Gate: A cross-chain bridge that enables swapping and transferring values across multiple networks. It supports token swaps between ERC20 tokens, BEP20 tokens, SPL tokens, and more.\r\n\r\nThe C98 token is the native utility token of the Coin98 platform and will be used to pay services fees, as staking incentives, for governance, and unique membership rights."
+  },
+  "links": {
+    "homepage": [
+      "https://coin98.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0xaec945e04baf28b135fa7c640f624f8d90f1c3a6",
+      "https://platform.arkhamintelligence.com/explorer/token/coin98",
+      "https://etherscan.io/token/0xae12c5930881c53715b369cec7606b70d8eb229f",
+      "https://explorer.solana.com/address/c98a4nkjxhpvznazdhua95rptf3t4whtqubl3yobiux9",
+      "https://ethplorer.io/address/0xae12c5930881c53715b369cec7606b70d8eb229f",
+      "https://polygonscan.com/token/0x77f56cf9365955486b12c4816992388ee8606f0e",
+      "https://solscan.io/token/c98a4nkjxhpvznazdhua95rptf3t4whtqubl3yobiux9",
+      "https://tomoscan.io/token/0x0fd0288aaae91eaf935e2ec14b23486f86516c8c",
+      "https://binplorer.com/address/0xaec945e04baf28b135fa7c640f624f8d90f1c3a6"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://blog.coin98.com"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "coin98_wallet",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "coin98_wallet",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/coin98"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/17117/thumb/logo.png?1696516677",
+    "small": "https://coin-images.coingecko.com/coins/images/17117/small/logo.png?1696516677",
+    "large": "https://coin-images.coingecko.com/coins/images/17117/large/logo.png?1696516677"
+  },
+  "last_updated": "2025-07-11T09:52:19.444562+00:00"
+}

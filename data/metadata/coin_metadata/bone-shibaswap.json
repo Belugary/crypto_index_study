@@ -1,0 +1,57 @@
+{
+  "id": "bone-shibaswap",
+  "symbol": "bone",
+  "name": "Bone ShibaSwap",
+  "categories": [
+    "Smart Contract Platform",
+    "Meme",
+    "Ethereum Ecosystem",
+    "Layer 2 (L2)",
+    "Shibarium Ecosystem",
+    "Dog-Themed"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x9813037ee2218799597d83d4a5b6f3b6778218d9"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://shibaswap.com"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x9813037ee2218799597d83d4a5b6f3b6778218d9",
+      "https://platform.arkhamintelligence.com/explorer/token/bone-shibaswap",
+      "https://ethplorer.io/address/0x9813037ee2218799597d83d4a5b6f3b6778218d9",
+      "https://ethereum.dex.guru/token/0x9813037ee2218799597d83d4a5b6f3b6778218d9"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/shibatoken"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "shibtoken",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "shibainuthedogecoinkiller",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/16916/thumb/bone_icon.png?1696516487",
+    "small": "https://coin-images.coingecko.com/coins/images/16916/small/bone_icon.png?1696516487",
+    "large": "https://coin-images.coingecko.com/coins/images/16916/large/bone_icon.png?1696516487"
+  },
+  "last_updated": "2025-07-11T09:52:10.430141+00:00"
+}

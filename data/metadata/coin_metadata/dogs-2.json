@@ -1,0 +1,52 @@
+{
+  "id": "dogs-2",
+  "symbol": "dogs",
+  "name": "Dogs",
+  "categories": [
+    "Meme",
+    "Dog-Themed",
+    "TON Ecosystem",
+    "TON Meme"
+  ],
+  "asset_platform_id": "the-open-network",
+  "platforms": {
+    "the-open-network": "EQCvxJy4eG8hyHBFsZ7eePxrRsUQSFE_jpptRAYBmcG_DOGS"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Dogs Community is a vibrant, community-driven initiative built on the TON Blockchain, designed to leverage Telegram's vast user base and native meme culture. Centered around a beloved dog mascot originally created by Telegram's founder, the project aims to introduce millions to blockchain technology through tokenized stickers, fostering a fun and engaging ecosystem with a focus on community ownership and fair rewards distribution."
+  },
+  "links": {
+    "homepage": [
+      "https://t.me/dogshouse_bot"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://tonviewer.com/EQCvxJy4eG8hyHBFsZ7eePxrRsUQSFE_jpptRAYBmcG_DOGS",
+      "https://platform.arkhamintelligence.com/explorer/token/dogs-2",
+      "https://tonscan.org/address/EQCvxJy4eG8hyHBFsZ7eePxrRsUQSFE_jpptRAYBmcG_DOGS"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "realDogsHouse",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "dogs_community",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39699/thumb/dogs_logo_200x200.png?1723687163",
+    "small": "https://coin-images.coingecko.com/coins/images/39699/small/dogs_logo_200x200.png?1723687163",
+    "large": "https://coin-images.coingecko.com/coins/images/39699/large/dogs_logo_200x200.png?1723687163"
+  },
+  "last_updated": "2025-07-11T09:50:41.263330+00:00"
+}

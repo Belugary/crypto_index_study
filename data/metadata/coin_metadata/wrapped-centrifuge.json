@@ -1,0 +1,57 @@
+{
+  "id": "wrapped-centrifuge",
+  "symbol": "wcfg",
+  "name": "Wrapped Centrifuge",
+  "categories": [
+    "Crypto-Backed Tokens",
+    "Wrapped-Tokens",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xc221b7e65ffc80de234bbb6667abdd46593d34f0"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://centrifuge.io/",
+      "https://app.centrifuge.io/",
+      "https://centrifuge.mirror.xyz/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xc221b7e65ffc80de234bbb6667abdd46593d34f0",
+      "https://platform.arkhamintelligence.com/explorer/token/wrapped-centrifuge",
+      "https://ethplorer.io/address/0xc221b7e65ffc80de234bbb6667abdd46593d34f0"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/yEzyUq5gxF"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "centrifuge",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "centrifuge_chat",
+    "subreddit_url": "https://www.reddit.com/r/Centrifuge/",
+    "repos_url": {
+      "github": [
+        "https://github.com/centrifuge/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/17106/thumb/WCFG.jpg?1696516667",
+    "small": "https://coin-images.coingecko.com/coins/images/17106/small/WCFG.jpg?1696516667",
+    "large": "https://coin-images.coingecko.com/coins/images/17106/large/WCFG.jpg?1696516667"
+  },
+  "last_updated": "2025-07-11T09:51:33.004182+00:00"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "pundi-x-2",
+  "symbol": "pundix",
+  "name": "Pundi X",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Wallets",
+    "Ethereum Ecosystem",
+    "Pundi AIFX Omnilayer Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38",
+    "pundi-aifx-omnilayer": "0xd567b3d7b8fe3c79a1ad8da978812cfc4fa05e75"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://pundix.com"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38",
+      "https://platform.arkhamintelligence.com/explorer/token/pundi-x-2",
+      "https://ethplorer.io/address/0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38",
+      "https://pundiscan.io/evm/address/0xd567b3d7b8fe3c79a1ad8da978812cfc4fa05e75"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.instagram.com/pundi_x/"
+    ],
+    "announcement_url": [
+      "https://www.youtube.com/channel/UCOIf6WeLEzZi3DQxzenTZeA"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "PundiXLabs",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Pundix",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/14571/thumb/vDyefsXq_400x400.jpg?1696514252",
+    "small": "https://coin-images.coingecko.com/coins/images/14571/small/vDyefsXq_400x400.jpg?1696514252",
+    "large": "https://coin-images.coingecko.com/coins/images/14571/large/vDyefsXq_400x400.jpg?1696514252"
+  },
+  "last_updated": "2025-07-11T09:50:34.061615+00:00"
+}

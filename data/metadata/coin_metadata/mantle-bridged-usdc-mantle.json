@@ -1,0 +1,49 @@
+{
+  "id": "mantle-bridged-usdc-mantle",
+  "symbol": "usdc",
+  "name": "Mantle Bridged USDC (Mantle)",
+  "categories": [
+    "Mantle Ecosystem",
+    "Bridged USDC",
+    "Bridged-Tokens",
+    "Bridged Stablecoin"
+  ],
+  "asset_platform_id": "mantle",
+  "platforms": {
+    "mantle": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [],
+    "whitepaper": "https://docs.meson.fi/references/supported-stablecoins",
+    "blockchain_site": [
+      "https://explorer.mantle.xyz/token/0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+      "https://mantlescan.xyz/token/0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/35296/thumb/USDC_Icon.png?1708082083",
+    "small": "https://coin-images.coingecko.com/coins/images/35296/small/USDC_Icon.png?1708082083",
+    "large": "https://coin-images.coingecko.com/coins/images/35296/large/USDC_Icon.png?1708082083"
+  },
+  "last_updated": "2025-07-11T09:56:15.203406+00:00"
+}

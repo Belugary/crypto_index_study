@@ -1,0 +1,49 @@
+{
+  "id": "maxi-payfi-strategy-token",
+  "symbol": "mpst",
+  "name": "Maxi PayFi Strategy Token",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "LP Tokens",
+    "Solana Ecosystem"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "HUPfpnsaJtJGpJxAPNX1vXah7BgYiQYt1c2JMgMumvPs"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "Huma is the first PayFi network and a pioneer in the rapidly growing PayFi ecosystem. It enables global payment institutions to settle payments 24/7 using stablecoins and on-chain liquidity, bringing speed, transparency, and efficiency to traditionally slow financial infrastructure. Backed by strategic partners, including Solana, Circle, Stellar Development Foundation (SDF), Galaxy Digital, and others, Huma has processed over $3.8 billion in transaction volume and delivered double-digit real-world yield to its LPs.\r\n\r\nThe Huma Protocol is offered in two forms:\r\n\r\nHuma (Permissionless) – Launched in April 2025, this version is open to all, allowing retail investors to participate in Huma pools and join the broader PayFi movement.\r\n\r\nHuma Institutional – A permissioned service tailored for institutional investors, offering access to curated, receivables-backed credit opportunities within a regulated framework."
+  },
+  "links": {
+    "homepage": [
+      "https://app.huma.finance"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/HUPfpnsaJtJGpJxAPNX1vXah7BgYiQYt1c2JMgMumvPs"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": null,
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55272/thumb/mPST.png?1745142690",
+    "small": "https://coin-images.coingecko.com/coins/images/55272/small/mPST.png?1745142690",
+    "large": "https://coin-images.coingecko.com/coins/images/55272/large/mPST.png?1745142690"
+  },
+  "last_updated": "2025-07-11T09:53:15.576488+00:00"
+}

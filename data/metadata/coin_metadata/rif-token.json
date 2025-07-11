@@ -1,0 +1,69 @@
+{
+  "id": "rif-token",
+  "symbol": "rif",
+  "name": "Rootstock Infrastructure Framework",
+  "categories": [
+    "Solana Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Base Ecosystem",
+    "Rootstock Ecosystem",
+    "Outlier Ventures Portfolio"
+  ],
+  "asset_platform_id": "rootstock",
+  "platforms": {
+    "rootstock": "0x2acc95758f8b5f583470ba265eb685a8f45fc9d5",
+    "ethereum": "0x01b603be3d545f096015741e6503440282bf45fb",
+    "arbitrum-one": "0xe5e851b01dd3eda24fde709a407db44555b6d1e0",
+    "base": "0xe5e851b01dd3eda24fde709a407db44555b6d1e0",
+    "solana": "AAeENcfHbTExuTvs4q7r9Bjax98Dg6BGX3aMph4bTLdK"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Ethash",
+  "genesis_date": null,
+  "country_origin": "AR",
+  "description": {
+    "en": "Built to compliment Bitcoin, not compete with it. RIF is designed to accelerate the adoption of Rootstock, Bitcoin’s DeFi Layer by powering incentives, infrastructure and interoperability. RIF is the easiest way for anyone to shape and share in the success of  Bitcoin DeFi.\r\n\r\nRIF powers community rewards, governance and grants, on RootstockCollective, the home of the community on Rootstock. RIF underpins key infrastructure powering Bitcoin DeFi on Rootstock including USDRIF, a censorship resistant stablecoin and RNS for simplifying wallet addresses.\r\n\r\nRIF gives the wider world of Web3 exposure to the success of Bitcoin DeFi on Rootstock through availability on the top exchanges, leading chains and largest dApps."
+  },
+  "links": {
+    "homepage": [
+      "https://rif.technology/",
+      "https://rootstockcollective.xyz/"
+    ],
+    "whitepaper": "https://rif.technology/static/add903ce229a6f45a606cd78b028cf9e/RIF-whitepaper-V2.pdf",
+    "blockchain_site": [
+      "https://explorer.rsk.co/address/0x2acc95758f8b5f583470ba265eb685a8f45fc9d5",
+      "https://explorer.energi.network/token/0x0afe3ff501cf4a7f6dd510d32d90e4d8ac963abd",
+      "https://explorer.rootstock.io/address/0x2acc95758f8b5f583470ba265eb685a8f45fc9d5",
+      "https://etherscan.io/token/0x01b603be3D545F096015741e6503440282BF45fb",
+      "https://ethplorer.io/address/0x01b603be3D545F096015741e6503440282BF45fb",
+      "https://arbiscan.io/token/0xe5e851b01DD3Eda24FDe709a407dB44555B6d1E0",
+      "https://basescan.org/token/0xe5e851b01DD3Eda24FDe709a407dB44555B6d1E0",
+      "https://solscan.io/token/AAeENcfHbTExuTvs4q7r9Bjax98Dg6BGX3aMph4bTLdK"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "http://discord.gg/rootstock",
+      "https://rif.technology/content-hub/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "RifTechnology",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "rskofficialcommunity",
+    "subreddit_url": "https://www.reddit.com/r/rootstock/",
+    "repos_url": {
+      "github": [
+        "https://github.com/riflabs"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/7460/thumb/8befc44a46c247e8a3f7fc8abba586b1_%283%29.png?1705501867",
+    "small": "https://coin-images.coingecko.com/coins/images/7460/small/8befc44a46c247e8a3f7fc8abba586b1_%283%29.png?1705501867",
+    "large": "https://coin-images.coingecko.com/coins/images/7460/large/8befc44a46c247e8a3f7fc8abba586b1_%283%29.png?1705501867"
+  },
+  "last_updated": "2025-07-11T09:51:44.670003+00:00"
+}

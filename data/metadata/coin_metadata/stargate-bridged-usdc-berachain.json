@@ -1,0 +1,48 @@
+{
+  "id": "stargate-bridged-usdc-berachain",
+  "symbol": "usdc.e",
+  "name": "Stargate Bridged USDC (Berachain)",
+  "categories": [
+    "Berachain Ecosystem",
+    "Bridged USDC",
+    "Bridged-Tokens",
+    "Bridged Stablecoin"
+  ],
+  "asset_platform_id": "berachain",
+  "platforms": {
+    "berachain": "0x549943e04f40284185054145c6e4e9568c1d3241"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://berascan.com/token/0x549943e04f40284185054145c6E4e9568C1D3241"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54336/thumb/usdc.jpg?1739335056",
+    "small": "https://coin-images.coingecko.com/coins/images/54336/small/usdc.jpg?1739335056",
+    "large": "https://coin-images.coingecko.com/coins/images/54336/large/usdc.jpg?1739335056"
+  },
+  "last_updated": "2025-07-11T09:55:16.103168+00:00"
+}

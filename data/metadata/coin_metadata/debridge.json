@@ -1,0 +1,60 @@
+{
+  "id": "debridge",
+  "symbol": "dbr",
+  "name": "deBridge",
+  "categories": [
+    "Solana Ecosystem",
+    "Bridge Governance Tokens",
+    "Cross-chain Communication",
+    "Intent"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "DBRiDgJAMsM95moTzJs7M9LnkGErpbv9v6CUR1DXnUu5"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "deBridge is the bridge that moves at lightspeed. With zero locked liquidity or liquidity pools, deBridge enables value and information to flow anywhere virtually instantly with deep liquidity and guaranteed rates."
+  },
+  "links": {
+    "homepage": [
+      "https://debridge.finance/"
+    ],
+    "whitepaper": "https://docs.debridge.finance/",
+    "blockchain_site": [
+      "https://solscan.io/token/DBRiDgJAMsM95moTzJs7M9LnkGErpbv9v6CUR1DXnUu5",
+      "https://platform.arkhamintelligence.com/explorer/token/debridge"
+    ],
+    "official_forum_url": [
+      "https://debridge.finance/blog/",
+      "https://debridge.medium.com/"
+    ],
+    "chat_url": [
+      "https://www.facebook.com/deBridgeFinance/",
+      "https://discord.com/invite/debridge",
+      "https://www.linkedin.com/company/debridge-finance/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/debridge-finance"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/38019/thumb/DBR_icon_Color.png?1724708885",
+    "small": "https://coin-images.coingecko.com/coins/images/38019/small/DBR_icon_Color.png?1724708885",
+    "large": "https://coin-images.coingecko.com/coins/images/38019/large/DBR_icon_Color.png?1724708885"
+  },
+  "last_updated": "2025-07-11T09:51:22.864881+00:00"
+}

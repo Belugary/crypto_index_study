@@ -1,0 +1,73 @@
+{
+  "id": "carv",
+  "symbol": "carv",
+  "name": "CARV",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Infrastructure",
+    "Gaming (GameFi)",
+    "NFT",
+    "Solana Ecosystem",
+    "Arbitrum Ecosystem",
+    "Impossible Finance Launchpad",
+    "Ethereum Ecosystem",
+    "Animoca Brands Portfolio",
+    "Base Ecosystem"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0xc08cd26474722ce93f4d0c34d16201461c10aa8c",
+    "arbitrum-one": "0xc08cd26474722ce93f4d0c34d16201461c10aa8c",
+    "ethereum": "0xc08cd26474722ce93f4d0c34d16201461c10aa8c",
+    "solana": "AFJtnuqGMaj5jAo6Pwxo28r1f7XAXXTSA8q3rG3q8b4A"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "CARV is where Sovereign AI Beings live, learn, and evolve.\r\nWhat are AI Beings? They are sovereign intelligences born natively on-chain. AI Beings are designed with purpose, autonomy, and the capacity for growth. They possess memory, identity, and the ability to perceive and interact with their environment, not just to execute tasks, but to make independent decisions, adapt over time, and pursue self-defined goals.\r\n\r\nAnchored by its proprietary CARV SVM Chain, D.A.T.A. Framework, and CARV ID/Agent ID system (ERC-7231), CARV enables verifiable, consent-based AI Beings that learn, adapt, and co-create with users. Driven by CARV’s AI-first stack, consumer AI apps incubated through CARV Labs launched on Google Play, App Store and beyond, reaching billions of people, bringing agent-powered experiences and real-world incentives into mainstream digital life.\r\n\r\nWith 8M+ CARV IDs issued, 60K+ verifier nodes, and 1,000+ integrated games, CARV bridges AI agents, Web3 infrastructure, and real-world utility, fueling the rise of agent-driven economies. At its core, $CARV token powers staking, governance, and coordination across this stack, making CARV the operating system for AI Beings on Web3."
+  },
+  "links": {
+    "homepage": [
+      "https://carv.io",
+      "https://play.carv.io/",
+      "https://protocol.carv.io/"
+    ],
+    "whitepaper": "https://docs.carv.io",
+    "blockchain_site": [
+      "https://platform.arkhamintelligence.com/explorer/token/carv",
+      "https://basescan.org/token/0xc08cd26474722ce93f4d0c34d16201461c10aa8c",
+      "https://arbiscan.io/token/0xc08cd26474722ce93f4d0c34d16201461c10aa8c",
+      "https://etherscan.io/token/0xc08cd26474722ce93f4d0c34d16201461c10aa8c",
+      "https://ethplorer.io/address/0xc08cd26474722ce93f4d0c34d16201461c10aa8c",
+      "https://solscan.io/token/AFJtnuqGMaj5jAo6Pwxo28r1f7XAXXTSA8q3rG3q8b4A"
+    ],
+    "official_forum_url": [
+      "https://newsletter.carv.io/",
+      "https://link3.to/carvofficial"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/carv",
+      "https://medium.com/@Carv",
+      "https://www.youtube.com/channel/UCU9MzSdeEKLYUXnM6SfXFTQ"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "carv_official",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/37689/thumb/CARV_%281%29.png?1728418485",
+    "small": "https://coin-images.coingecko.com/coins/images/37689/small/CARV_%281%29.png?1728418485",
+    "large": "https://coin-images.coingecko.com/coins/images/37689/large/CARV_%281%29.png?1728418485"
+  },
+  "last_updated": "2025-07-11T09:51:18.480592+00:00"
+}

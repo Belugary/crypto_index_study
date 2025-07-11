@@ -1,0 +1,54 @@
+{
+  "id": "apollox-2",
+  "symbol": "apx",
+  "name": "APX",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "Perpetuals",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x78f5d389f5cdccfc41594abab4b0ed02f31398b3"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "APX launched on 21 December 2021. A total supply of 10 billion APX will be minted. The first listing DEX for APX is PancakeSwap, for a listing price of $0.0004. The bulk of the tokens will be minted via trading rewards on ApolloX. "
+  },
+  "links": {
+    "homepage": [
+      "https://www.apollox.finance/",
+      "https://docs.apollox.finance/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x78f5d389f5cdccfc41594abab4b0ed02f31398b3",
+      "https://platform.arkhamintelligence.com/explorer/token/apollox-2",
+      "https://binplorer.com/address/0x78f5d389f5cdccfc41594abab4b0ed02f31398b3"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "APX_Finance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "ApolloX_Finance",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/21972/thumb/apx.png?1696521320",
+    "small": "https://coin-images.coingecko.com/coins/images/21972/small/apx.png?1696521320",
+    "large": "https://coin-images.coingecko.com/coins/images/21972/large/apx.png?1696521320"
+  },
+  "last_updated": "2025-07-11T09:54:07.112023+00:00"
+}

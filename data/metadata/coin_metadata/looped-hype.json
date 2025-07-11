@@ -1,0 +1,50 @@
+{
+  "id": "looped-hype",
+  "symbol": "lhype",
+  "name": "Looped Hype",
+  "categories": [
+    "Liquid Staking",
+    "HyperEVM Ecosystem"
+  ],
+  "asset_platform_id": "hyperevm",
+  "platforms": {
+    "hyperevm": "0x5748ae796ae46a4f1348a1693de4b50560485562"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "loopedHYPE (LHYPE) is an automated looping protocol that maximizes yield on staked HYPE.\r\n\r\nUsers deposit HYPE to get LHYPE, then behind the scenes the protocol uses an automated looping strategy to generate additional yield, on top of any network rewards earned from staking.\r\n\r\nloopedHYPE aims to democratize institutional-grade yield strategies while strengthening the Hyperliquid ecosystem through three core pillars: \r\n\r\nDemocratizing Institutional DeFi\r\n- Providing professional-grade yield strategies to all users\r\n\r\nCommunity-Centric Architecture\r\n- LHYPE is backed by a governance token, 90% of which is distributed to depositors and ecosystem players.\r\n\r\nHyperCatalyst\r\n- An initiative to reinvest 1% of TVL back into Hyperliquid native projects."
+  },
+  "links": {
+    "homepage": [
+      "https://loopedhype.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://hyperliquid.cloud.blockscout.com/token/0x5748ae796AE46A4F1348a1693de4b50560485562",
+      "https://purrsec.com/address/0x5748ae796ae46a4f1348a1693de4b50560485562",
+      "https://hyperevmscan.io/token/0x5748ae796ae46a4f1348a1693de4b50560485562"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "looped_hype",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54816/thumb/loopedhype_logo_transparent.png?1741850425",
+    "small": "https://coin-images.coingecko.com/coins/images/54816/small/loopedhype_logo_transparent.png?1741850425",
+    "large": "https://coin-images.coingecko.com/coins/images/54816/large/loopedhype_logo_transparent.png?1741850425"
+  },
+  "last_updated": "2025-07-11T09:51:31.510593+00:00"
+}

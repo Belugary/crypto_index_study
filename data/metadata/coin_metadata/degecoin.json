@@ -1,0 +1,49 @@
+{
+  "id": "degecoin",
+  "symbol": "$dege",
+  "name": "DegeCoin",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "CPG7gjcjcdZGHE5EJ6LoAL4xqZtNFeWEXXmtkYjAoVaF"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "With a mission to bring financial freedom to every American household, DEGE is rapidly becoming the most recognizable face of the DeFi revolution. This initiative is built on the core belief that financial empowerment should be accessible to all, not just a privileged few. By harnessing the power of decentralized finance, the project aims to create a more equitable system, offering tools and opportunities that bypass the restrictive and often costly nature of traditional banking.\r\n\r\nDEGE is positioning itself at the forefront of this financial paradigm shift, striving to make complex concepts like decentralized exchanges and yield farming understandable and usable for the average person. The project's goal is to become synonymous with trust and innovation in the blockchain space, fostering a strong community-driven ecosystem where users have greater control over their assets. As it continues to grow, DEGE aims to be more than just a platform; it seeks to be a foundational element in the journey toward a truly decentralized and financially liberated future for individuals across the country."
+  },
+  "links": {
+    "homepage": [
+      "https://www.dege.io"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/CPG7gjcjcdZGHE5EJ6LoAL4xqZtNFeWEXXmtkYjAoVaF#holders",
+      "https://solscan.io/token/CPG7gjcjcdZGHE5EJ6LoAL4xqZtNFeWEXXmtkYjAoVaF"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "DegeCoin_",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/67202/thumb/degecoin_logo200x200.png?1752057750",
+    "small": "https://coin-images.coingecko.com/coins/images/67202/small/degecoin_logo200x200.png?1752057750",
+    "large": "https://coin-images.coingecko.com/coins/images/67202/large/degecoin_logo200x200.png?1752057750"
+  },
+  "last_updated": "2025-07-11T09:54:39.896804+00:00"
+}

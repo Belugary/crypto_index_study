@@ -1,0 +1,69 @@
+{
+  "id": "nym",
+  "symbol": "nym",
+  "name": "Nym",
+  "categories": [
+    "Smart Contract Platform",
+    "Privacy",
+    "Ethereum Ecosystem",
+    "DePIN",
+    "Osmosis Ecosystem",
+    "VPN",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x525a8f6f3ba4752868cde25164382bfbae3990e1",
+    "osmosis": "ibc/37CB3078432510EE57B9AFA8DBE028B33AE3280A144826FEAC5F2334CF2C5539"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Existing internet protocols leak sensitive data that can be used without users knowledge — Nym is developing the infrastructure to prevent this data leakage by protecting every packet’s metadata at the network and application layers."
+  },
+  "links": {
+    "homepage": [
+      "https://nym.com"
+    ],
+    "whitepaper": "https://nym.com/nym-whitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x525a8f6f3ba4752868cde25164382bfbae3990e1",
+      "https://platform.arkhamintelligence.com/explorer/token/nym",
+      "https://ethplorer.io/address/0x525a8f6f3ba4752868cde25164382bfbae3990e1",
+      "https://explorer.nymtech.net/overview",
+      "https://mixnet.explorers.guru",
+      "https://www.mintscan.io/osmosis/assets/ibc/aWJjLzM3Q0IzMDc4NDMyNTEwRUU1N0I5QUZBOERCRTAyOEIzM0FFMzI4MEExNDQ4MjZGRUFDNUYyMzM0Q0YyQzU1Mzk="
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/nymproject"
+    ],
+    "chat_url": [
+      "https://discord.gg/nym",
+      "https://medium.com/nymtech"
+    ],
+    "announcement_url": [
+      "https://blog.nymtech.net/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "nymproject",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "nymchan",
+    "subreddit_url": "https://www.reddit.com/r/nym",
+    "repos_url": {
+      "github": [
+        "https://github.com/nymtech/nym/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/24488/thumb/NYM_Token.png?1696523668",
+    "small": "https://coin-images.coingecko.com/coins/images/24488/small/NYM_Token.png?1696523668",
+    "large": "https://coin-images.coingecko.com/coins/images/24488/large/NYM_Token.png?1696523668"
+  },
+  "last_updated": "2025-07-11T09:54:18.106476+00:00"
+}

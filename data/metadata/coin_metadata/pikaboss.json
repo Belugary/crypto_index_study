@@ -1,0 +1,50 @@
+{
+  "id": "pikaboss",
+  "symbol": "pika",
+  "name": "Pikaboss",
+  "categories": [
+    "Meme",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xa9d54f37ebb99f83b603cc95fc1a5f3907aaccfd"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Tired of watching everyone degenerating with the endless derivative DoggyFroggy coins? It's time for Pikaboss to flip dogs and frogs!\r\n\r\nPIKA has no association with Pokémon or its creation Pikachu. This token is simply paying homage to an adorable creature we all love and parody.\r\n\r\nPIKA is a meme coin with no intrinsic value or expectation of financial return. There is no formal team or roadmap. The coin is completely useless and for entertainment purposes only."
+  },
+  "links": {
+    "homepage": [
+      "https://pikaboss.vip"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xa9d54f37ebb99f83b603cc95fc1a5f3907aaccfd",
+      "https://platform.arkhamintelligence.com/explorer/token/pikaboss",
+      "https://ethplorer.io/address/0xa9d54f37ebb99f83b603cc95fc1a5f3907aaccfd"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "pikabossvip",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "pikabossvip",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/32061/thumb/logocg.png?1696530858",
+    "small": "https://coin-images.coingecko.com/coins/images/32061/small/logocg.png?1696530858",
+    "large": "https://coin-images.coingecko.com/coins/images/32061/large/logocg.png?1696530858"
+  },
+  "last_updated": "2025-07-11T09:56:00.057829+00:00"
+}

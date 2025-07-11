@@ -1,0 +1,76 @@
+{
+  "id": "paraswap",
+  "symbol": "psp",
+  "name": "ParaSwap",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Exchange-based Tokens",
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Alameda Research Portfolio",
+    "Intent",
+    "Blockchain Capital Portfolio",
+    "Dex Aggregator"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xcafe001067cdef266afb7eb5a286dcfd277f3de5",
+    "optimistic-ethereum": "0xd3594e879b358f430e20f82bea61e83562d49d48",
+    "binance-smart-chain": "0xcafe001067cdef266afb7eb5a286dcfd277f3de5",
+    "polygon-pos": "0x42d61d766b85431666b39b89c43011f24451bff6"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "PSP is the governance token for ParaSwap with the aim to provide a decentralized exchange aggregator that is decentralized and market efficient."
+  },
+  "links": {
+    "homepage": [
+      "https://www.paraswap.xyz/",
+      "https://app.paraswap.xyz/",
+      "https://paraswap.medium.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xcafe001067cdef266afb7eb5a286dcfd277f3de5",
+      "https://platform.arkhamintelligence.com/explorer/token/paraswap",
+      "https://ethplorer.io/address/0xcafe001067cdef266afb7eb5a286dcfd277f3de5",
+      "https://bscscan.com/token/0xcafe001067cdef266afb7eb5a286dcfd277f3de5",
+      "https://polygonscan.com/token/0x42d61d766b85431666b39b89c43011f24451bff6",
+      "https://optimistic.etherscan.io/token/0xd3594e879b358f430e20f82bea61e83562d49d48",
+      "https://binplorer.com/address/0xcafe001067cdef266afb7eb5a286dcfd277f3de5"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/paraswap/"
+    ],
+    "chat_url": [
+      "https://medium.com/paraswap"
+    ],
+    "announcement_url": [
+      "https://paraswap.medium.com/"
+    ],
+    "snapshot_url": "https://snapshot.org/#/paraswap-dao.eth",
+    "twitter_screen_name": "paraswap",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "paraswap",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/paraswap"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/20403/thumb/ep7GqM19_400x400.jpg?1696519812",
+    "small": "https://coin-images.coingecko.com/coins/images/20403/small/ep7GqM19_400x400.jpg?1696519812",
+    "large": "https://coin-images.coingecko.com/coins/images/20403/large/ep7GqM19_400x400.jpg?1696519812"
+  },
+  "last_updated": "2025-07-11T09:54:04.935881+00:00"
+}

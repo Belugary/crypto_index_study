@@ -1,0 +1,54 @@
+{
+  "id": "wojak",
+  "symbol": "wojak",
+  "name": "Wojak",
+  "categories": [
+    "Meme",
+    "Ethereum Ecosystem",
+    "Wojak-Themed",
+    "4chan-Themed"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x5026f006b85729a8b14553fae6af249ad16c9aab",
+    "solana": "6bn6rKWbTRAQwizwqEfcmpAtoAMnqzfG7F8DYMK5reYn"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "WOJAK is a cryptoasset project that aims to create a decentralized platform for connecting people through the power of memes. The project is inspired by the popular internet meme of the same name, which represents a cartoonish face expressing a range of emotions.\r\n\r\nThe WOJAK cryptoasset will serve as the native currency of the platform, enabling users to engage in a variety of activities, including buying, selling, and trading memes, participating in community-driven events, and connecting with like-minded individuals across the globe.\r\n\r\nThe project will leverage blockchain technology to create a secure and transparent ecosystem for meme enthusiasts, allowing them to showcase their creativity and express themselves freely. The platform will feature a user-friendly interface, intuitive navigation, and robust security protocols to ensure that users can interact with each other in a safe and seamless manner.\r\n\r\nBy creating a decentralized platform for meme enthusiasts, WOJAK aims to empower individuals to connect with others who share their interests, forge new relationships, and build communities based on shared values and common experiences. With WOJAK, anyone can become a part of the meme revolution and join the movement towards a more decentralized and connected world."
+  },
+  "links": {
+    "homepage": [
+      "https://linktr.ee/wojaketh"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x5026f006b85729a8b14553fae6af249ad16c9aab",
+      "https://platform.arkhamintelligence.com/explorer/token/wojak",
+      "https://ethplorer.io/address/0x5026f006b85729a8b14553fae6af249ad16c9aab",
+      "https://solscan.io/token/6bn6rKWbTRAQwizwqEfcmpAtoAMnqzfG7F8DYMK5reYn"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "wojakcoineth",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "wojak_ETH",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/29856/thumb/wojak.png?1696528782",
+    "small": "https://coin-images.coingecko.com/coins/images/29856/small/wojak.png?1696528782",
+    "large": "https://coin-images.coingecko.com/coins/images/29856/large/wojak.png?1696528782"
+  },
+  "last_updated": "2025-07-11T09:53:44.241539+00:00"
+}

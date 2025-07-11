@@ -1,0 +1,49 @@
+{
+  "id": "coinshift-usdc",
+  "symbol": "csusdc",
+  "name": "Coinshift USDC",
+  "categories": [
+    "Ethereum Ecosystem",
+    "Morpho Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x7204b7dbf9412567835633b6f00c3edc3a8d6330"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Coinshift is an onchain treasury management platform with $1B+ AUM, combining Payments, Accounting and Asset management. Backed by Tiger Global, Sequoia, and Consensys. Trusted by 300+ leading web3 organizations including Aave, Zapper, Gitcoin, Instadapp and Starknet.\r\n\r\nCoinshift recently launched its asset management products, csUSDL and csUSDC and is bootstrapping the liquidity with some of the biggest investors in the world, including Amber, Dialectic, Edge Capital, Re7, GSR and Nascent. We will offer csUSDL and csUSDC as a go to treasury asset for all our clients (1B+ in assets) and partner with other distribution partners.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.coinshift.xyz/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x7204B7Dbf9412567835633B6F00C3Edc3a8D6330",
+      "https://ethplorer.io/address/0x7204B7Dbf9412567835633B6F00C3Edc3a8D6330"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "0xCoinshift",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55163/thumb/csUSDC-badge.png?1744287231",
+    "small": "https://coin-images.coingecko.com/coins/images/55163/small/csUSDC-badge.png?1744287231",
+    "large": "https://coin-images.coingecko.com/coins/images/55163/large/csUSDC-badge.png?1744287231"
+  },
+  "last_updated": "2025-07-11T09:54:20.632572+00:00"
+}

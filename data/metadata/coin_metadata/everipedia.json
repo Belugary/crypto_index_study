@@ -1,0 +1,69 @@
+{
+  "id": "everipedia",
+  "symbol": "iq",
+  "name": "IQ",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Big Data",
+    "Media",
+    "BNB Chain Ecosystem",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem",
+    "GMCI DePIN Index",
+    "Galaxy Digital Portfolio",
+    "GMCI Index"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x579cea1889991f68acc35ff5c3dd0621ff29b0c9",
+    "binance-smart-chain": "0x0e37d70b51ffa2b98b4d34a5712c5291115464e3",
+    "polygon-pos": "0xb9638272ad6998708de56bbc0a290a1de534a578"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The IQ token is a cryptocurrency that powers the Agent Tokenization Platform (ATP). ATP was built for developers to launch the next generation of tokenized agents that are verifiably autonomous and sovereign. These agents are capable of owning and managing digital and physical assets, from cryptocurrencies to DeFi transactions to robots."
+  },
+  "links": {
+    "homepage": [
+      "https://iq.wiki/",
+      "https://braindao.org/",
+      "https://iqgpt.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x579cea1889991f68acc35ff5c3dd0621ff29b0c9",
+      "https://platform.arkhamintelligence.com/explorer/token/everipedia",
+      "https://bscscan.com/token/0x0e37d70b51ffa2b98b4d34a5712c5291115464e3",
+      "https://polygonscan.com/token/0xb9638272ad6998708de56bbc0a290a1de534a578",
+      "https://bloks.io/tokens/iq-eos-everipediaiq",
+      "https://ethplorer.io/address/0x579cea1889991f68acc35ff5c3dd0621ff29b0c9",
+      "https://binplorer.com/address/0x0e37d70b51ffa2b98b4d34a5712c5291115464e3"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/RkMDgWy5XQ"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "iqwiki",
+    "facebook_username": "everipedia",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "everipedia",
+    "subreddit_url": "https://www.reddit.com/r/Everipedia/",
+    "repos_url": {
+      "github": [
+        "https://github.com/EveripediaNetwork/Everipedia"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/5010/thumb/iq_logo_1.png?1752115886",
+    "small": "https://coin-images.coingecko.com/coins/images/5010/small/iq_logo_1.png?1752115886",
+    "large": "https://coin-images.coingecko.com/coins/images/5010/large/iq_logo_1.png?1752115886"
+  },
+  "last_updated": "2025-07-11T09:50:27.728403+00:00"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "tokenlon",
+  "symbol": "lon",
+  "name": "Tokenlon",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Decentralized Finance (DeFi)",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x0000000000095413afc295d19edeb1ad7b71c952",
+    "arbitrum-one": "0x55678cd083fcdc2947a0df635c93c838c89454a3"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "LON is a utility token issued by the Tokenlon DEX, used to align all ecosystem stakeholders and incentivize participation and expansion of the ecosystem."
+  },
+  "links": {
+    "homepage": [
+      "https://tokenlon.im/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x0000000000095413afc295d19edeb1ad7b71c952",
+      "https://platform.arkhamintelligence.com/explorer/token/tokenlon",
+      "https://ethplorer.io/address/0x0000000000095413afc295d19edeb1ad7b71c952",
+      "https://arbiscan.io/token/0x55678cd083fcdc2947a0df635c93c838c89454a3"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/nPmsMrG"
+    ],
+    "announcement_url": [
+      "https://medium.com/tokenlon"
+    ],
+    "snapshot_url": "https://snapshot.org/#/tokenlon.eth",
+    "twitter_screen_name": "tokenlon",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/13454/thumb/lon_logo.png?1696513217",
+    "small": "https://coin-images.coingecko.com/coins/images/13454/small/lon_logo.png?1696513217",
+    "large": "https://coin-images.coingecko.com/coins/images/13454/large/lon_logo.png?1696513217"
+  },
+  "last_updated": "2025-07-11T09:50:13.177325+00:00"
+}

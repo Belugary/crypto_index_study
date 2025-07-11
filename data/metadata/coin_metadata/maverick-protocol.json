@@ -1,0 +1,70 @@
+{
+  "id": "maverick-protocol",
+  "symbol": "mav",
+  "name": "Maverick Protocol",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Binance Launchpool",
+    "Ethereum Ecosystem",
+    "ZkSync Ecosystem",
+    "Base Ecosystem",
+    "Coinbase Ventures Portfolio",
+    "Pantera Capital Portfolio",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Circle Ventures Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x7448c7456a97769f6cd04f1e83a4a23ccdc46abd",
+    "zksync": "0x787c09494ec8bcb24dcaf8659e7d5d69979ee508",
+    "base": "0x64b88c73a5dfa78d1713fe1b4c69a22d7e0faaa7",
+    "binance-smart-chain": "0xd691d9a68c887bdf34da8c36f63487333acfd103"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What is the project about?\r\nMaverick Protocol is a next-generation DeFi infrastructure focused on increasing industry efficiency, powered by Maverick AMM.\r\n\r\nWhat makes your project unique?\r\nMaverick AMM eliminates this complexity by letting users select a movement mode that will move their liquidity for them. Some other innovative features of Maverick AMM are:\r\n- Customized Liquidity Distributions\r\n- Fee Auto-compounding\r\n- Liquidity Shaping Using Boosted Positions\r\n- Native LST Support with Price Following function and Protocol Support.\r\n\r\nHistory of your project.\r\n- Maverick raised 3 rounds of funding with a total $18 million raised. Investors including Founders Fund, Pantera Capital, Coinbase Ventures, Binance Labs, Circle Ventures, Gemini, etc.\r\n- Maverick launched Maverick AMM to Ethereum Mainnet in March 2023, zkSync Era in April 2023, and BNB Chain in June 2023.\r\n- Maverick supported over 2.5 B trading volume and hit top 5 DEXs by volume on all chains according to DefiLlama.\r\n- Surpassed Uniswap and Curve to become #1 for wstETH (Liquid Staking Token) trading volume\r\n\r\nWhat’s next for your project?\r\nQ3 2023:\r\n- Launch Voting Escrow and Governance contracts\r\nQ4 2023 (subject to DAO votes):\r\n- Launch Boosted Pool Voting\r\n- Launch AMM on more chains\r\nH1 2024 (subject to DAO votes):\r\n- MAV LayerZero support on more chains\r\n\r\nWhat can your token be used for?\r\nMAV is the native utility token of the Maverick ecosystem. It is designed for governance of Maverick.\r\nMaverick governance will take place through a Voting Escrow (ve) contract, where users can stake MAV to receive veMAV. veMAV’s governance is designed to put more voting power in the hands of users who are committed to the ecosystem and provides protection against mercenary governance. The longer a user chooses to stake their MAV for, the more veMAV they will receive in return and the more voting power they will have.\r\n\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.mav.xyz/",
+      "https://app.mav.xyz/"
+    ],
+    "whitepaper": "https://bit.ly/MavWhitepaper",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x7448c7456a97769f6cd04f1e83a4a23ccdc46abd",
+      "https://platform.arkhamintelligence.com/explorer/token/maverick-protocol",
+      "https://ethplorer.io/address/0x7448c7456a97769f6cd04f1e83a4a23ccdc46abd",
+      "https://bscscan.com/token/0xd691d9a68c887bdf34da8c36f63487333acfd103",
+      "https://binplorer.com/address/0xd691d9a68c887bdf34da8c36f63487333acfd103",
+      "https://basescan.org/token/0x64b88c73a5dfa78d1713fe1b4c69a22d7e0faaa7",
+      "https://era.zksync.network/token/0x787c09494ec8bcb24dcaf8659e7d5d69979ee508",
+      "https://explorer.zksync.io/address/0x787c09494ec8bcb24dcaf8659e7d5d69979ee508",
+      "https://zksync-era.l2scan.co/token/0x787c09494ec8bcb24dcaf8659e7d5d69979ee508"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "http://discord.gg/dVvnmtwdRJ",
+      "https://medium.com/maverick-protocol"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "mavprotocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "maverickprotocolofficial",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/30850/thumb/MAV_Logo.png?1696529701",
+    "small": "https://coin-images.coingecko.com/coins/images/30850/small/MAV_Logo.png?1696529701",
+    "large": "https://coin-images.coingecko.com/coins/images/30850/large/MAV_Logo.png?1696529701"
+  },
+  "last_updated": "2025-07-11T09:54:25.379986+00:00"
+}

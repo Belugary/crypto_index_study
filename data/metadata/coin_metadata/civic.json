@@ -1,0 +1,65 @@
+{
+  "id": "civic",
+  "symbol": "cvc",
+  "name": "Civic",
+  "categories": [
+    "Software as a service",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem",
+    "Decentralized Identifier (DID)",
+    "Pantera Capital Portfolio",
+    "Energi Ecosystem",
+    "Blockchain Capital Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x41e5560054824ea6b0732e656e3ad64e20e94e45",
+    "energi": "0x0d91d554768dc20e1d3d95ff9d5bc041edc3ba0f",
+    "polygon-pos": "0x66dc5a08091d1968e08c16aa5b27bac8398b02be"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2017-07-12",
+  "country_origin": "US",
+  "description": {
+    "en": "Civic delivers on‑chain identity infrastructure that verifies humans and AI agents, thwarts fraud, and safeguards user privacy. Civic  Auth offers universal single‑sign‑on—supporting users with or without crypto wallets—together with granular permissioning, verifiable credentials, and bot resistance across leading blockchain networks. Civic sets the global standard for scalable, privacy‑preserving digital identity."
+  },
+  "links": {
+    "homepage": [
+      "https://www.civic.com/"
+    ],
+    "whitepaper": "https://tokensale.civic.com/whitepaper",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x41e5560054824ea6b0732e656e3ad64e20e94e45",
+      "https://platform.arkhamintelligence.com/explorer/token/civic",
+      "https://ethplorer.io/address/0x41e5560054824ea6b0732e656e3ad64e20e94e45",
+      "https://explorer.energi.network/token/0x0d91d554768dc20e1d3d95ff9d5bc041edc3ba0f",
+      "https://polygonscan.com/token/0x66dc5a08091d1968e08c16aa5b27bac8398b02be"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/NxDKyUVGaR"
+    ],
+    "announcement_url": [
+      "https://www.civic.com/blog/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "civickey",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": 1942882,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/civicplatform",
+    "repos_url": {
+      "github": [
+        "https://github.com/civicteam/identity-swap"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/788/thumb/civic-icon-black-padding.png?1750494984",
+    "small": "https://coin-images.coingecko.com/coins/images/788/small/civic-icon-black-padding.png?1750494984",
+    "large": "https://coin-images.coingecko.com/coins/images/788/large/civic-icon-black-padding.png?1750494984"
+  },
+  "last_updated": "2025-07-11T09:50:46.997013+00:00"
+}

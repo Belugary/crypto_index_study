@@ -1,0 +1,52 @@
+{
+  "id": "mister-miggles",
+  "symbol": "miggles",
+  "name": "Mr. Miggles",
+  "categories": [
+    "Meme",
+    "Base Ecosystem",
+    "Cat-Themed",
+    "Base Meme",
+    "Made in USA"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0xb1a03eda10342529bbf8eb700a06c60441fef25d"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Mr. Miggles, The Creators’ Cat Born from a Coinbase campaign championing creator rights, Mr. Miggles has evolved into a community-led movement empowering creators both off and onchain. With the Miggles IP officially licensed to purrLabs directly from Coinbase, and a dedicated creators’ fund, Mr. Miggles is becoming a force for good in bridging worlds, inspiring innovation, and inviting everyone to channel their inner creator. Birthed by Coinbase, Fostered by purrLabs, Loved by everyone. Feeling migglish? 😼🫳🏼🌐"
+  },
+  "links": {
+    "homepage": [
+      "https://miggles.io"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://basescan.org/token/0xb1a03eda10342529bbf8eb700a06c60441fef25d",
+      "https://platform.arkhamintelligence.com/explorer/token/mister-miggles"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "MrMigglesOnBase",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39251/thumb/New_LOGO.png?1734294728",
+    "small": "https://coin-images.coingecko.com/coins/images/39251/small/New_LOGO.png?1734294728",
+    "large": "https://coin-images.coingecko.com/coins/images/39251/large/New_LOGO.png?1734294728"
+  },
+  "last_updated": "2025-07-11T09:53:47.121443+00:00"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "vitadao",
+  "symbol": "vita",
+  "name": "VitaDAO",
+  "categories": [
+    "Ethereum Ecosystem",
+    "Decentralized Science (DeSci)",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x81f8f0bb1cb2a06649e51913a151f0e7ef6fa321"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Governance Token for VitaDAO, focused on funding longevity research through building and marketing intellectual property in longevity. "
+  },
+  "links": {
+    "homepage": [
+      "https://www.vitadao.com/",
+      "https://dao.vitadao.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x81f8f0bb1cb2a06649e51913a151f0e7ef6fa321",
+      "https://platform.arkhamintelligence.com/explorer/token/vitadao",
+      "https://ethplorer.io/address/0x81f8f0bb1cb2a06649e51913a151f0e7ef6fa321",
+      "https://gnosis.dex.guru/token/0x0939a7c3f8d37c1ce67fada4963ae7e0bd112ff3"
+    ],
+    "official_forum_url": [
+      "https://vitadao.medium.com/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/vitadao"
+    ],
+    "announcement_url": [],
+    "snapshot_url": "https://snapshot.org/#/vote.vitadao.eth",
+    "twitter_screen_name": "vita_dao",
+    "facebook_username": "vitadao",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "vitadao",
+    "subreddit_url": "https://www.reddit.com/r/VitaDAO/",
+    "repos_url": {
+      "github": [
+        "https://github.com/VitaDAO"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/16580/thumb/QmRjwywiAfpzSfQTuWM3zCTghSHN7G6ohQaar7Ht6WANUp.png?1696516140",
+    "small": "https://coin-images.coingecko.com/coins/images/16580/small/QmRjwywiAfpzSfQTuWM3zCTghSHN7G6ohQaar7Ht6WANUp.png?1696516140",
+    "large": "https://coin-images.coingecko.com/coins/images/16580/large/QmRjwywiAfpzSfQTuWM3zCTghSHN7G6ohQaar7Ht6WANUp.png?1696516140"
+  },
+  "last_updated": "2025-07-11T09:54:33.983820+00:00"
+}

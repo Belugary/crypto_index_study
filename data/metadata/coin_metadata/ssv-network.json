@@ -1,0 +1,62 @@
+{
+  "id": "ssv-network",
+  "symbol": "ssv",
+  "name": "SSV Network",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Ethereum Ecosystem",
+    "Restaking",
+    "Coinbase Ventures Portfolio",
+    "OKX Ventures Portfolio",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x9d65ff81a3c488d585bbfb0bfe3c7707c7917f54"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "SSV promotes decentralization, security, and liveness across the Ethereum consensus layer and forms the foundation of SSV.network – a fully decentralized and robust ETH staking network. Using the network will be open and simple for anyone who wants to run an Ethereum validator; from DIY users all the way to staking pools and big institutional staking services. This applies to using the network both as a user or a service provider; regardless of staking configuration, as long as duties are properly executed, anyone is eligible to provide service and reap rewards for doing so. "
+  },
+  "links": {
+    "homepage": [
+      "https://ssv.network/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x9d65ff81a3c488d585bbfb0bfe3c7707c7917f54",
+      "https://platform.arkhamintelligence.com/explorer/token/ssv-network",
+      "https://ethplorer.io/address/0x9d65ff81a3c488d585bbfb0bfe3c7707c7917f54"
+    ],
+    "official_forum_url": [
+      "https://www.youtube.com/c/BloxStaking"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/eDXSP9R"
+    ],
+    "announcement_url": [
+      "https://medium.com/bloxstaking"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "ssv_network",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/bloxapp/ssv-web"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/19155/thumb/ssv.png?1696518606",
+    "small": "https://coin-images.coingecko.com/coins/images/19155/small/ssv.png?1696518606",
+    "large": "https://coin-images.coingecko.com/coins/images/19155/large/ssv.png?1696518606"
+  },
+  "last_updated": "2025-07-11T09:51:27.475099+00:00"
+}

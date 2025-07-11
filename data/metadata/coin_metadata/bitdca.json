@@ -1,0 +1,55 @@
+{
+  "id": "bitdca",
+  "symbol": "bdca",
+  "name": "BitDCA",
+  "categories": [
+    "BNB Chain Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x0c8382719ef242cae2247e4decb2891fbf699818"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "BitDCA with its mobile app Littblebit allows you to automatically save in Bitcoin by setting aside a small percentage from each payment made with your current card. Users can automatically set aside a percentage of their everyday purchases into bitcoin and allocate directly into bitcoin without opening new accounts and acquiring new credit and debit cards. BDCA token holders earn a share of revenue from every Littlebit transaction. The project emphasizes security and transparency, validated by a Certik audit, and targets Europe with plans for global expansion in 2026."
+  },
+  "links": {
+    "homepage": [
+      "https://www.bitdca.io/",
+      "https://tokenomics.bitdca.com/",
+      "https://littlebitapp.com"
+    ],
+    "whitepaper": "https://gitbook.bitdca.com/",
+    "blockchain_site": [
+      "https://bscscan.com/address/0x0c8382719ef242cae2247e4decb2891fbf699818",
+      "https://bscscan.com/token/0x0c8382719ef242CaE2247E4DeCb2891fBF699818",
+      "https://binplorer.com/address/0x0c8382719ef242CaE2247E4DeCb2891fBF699818"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/bitdca"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "bitdcaOFFICIAL",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "bitdca",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://gitbook.bitdca.com/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54590/thumb/bdca_logo_transparent200x200.png?1740562139",
+    "small": "https://coin-images.coingecko.com/coins/images/54590/small/bdca_logo_transparent200x200.png?1740562139",
+    "large": "https://coin-images.coingecko.com/coins/images/54590/large/bdca_logo_transparent200x200.png?1740562139"
+  },
+  "last_updated": "2025-07-11T09:51:00.510820+00:00"
+}

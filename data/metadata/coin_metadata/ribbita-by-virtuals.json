@@ -1,0 +1,51 @@
+{
+  "id": "ribbita-by-virtuals",
+  "symbol": "tibbir",
+  "name": "Ribbita by Virtuals",
+  "categories": [
+    "Meme",
+    "Base Ecosystem",
+    "AI Meme",
+    "Virtuals Protocol Ecosystem",
+    "DeFAI"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0xa4a2e2ca3fbfe21aed83471d28b6f65a233c6e00"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "Tibbir is a stealth-launched cryptocurrency project that aims to enhance efficiency and security within the crypto and artificial intelligence (AI) sectors. The project is closely associated with Ribbit Capital, a venture capital firm known for its investments in innovative financial technologies.\r\n\r\nAs a key partner in the Agentic Finance Hackathon, Tibbir contributed to the development of new initiatives in the crypto and AI domains. \r\n\r\nWhile specific details about Tibbir's technology and roadmap remain limited due to its stealth status, the project has generated interest within the crypto community, with discussions focusing on its potential to shape the future of decentralized finance and AI integration. \r\n\r\nAs Tibbir progresses, stakeholders and enthusiasts are encouraged to monitor official channels for updates and further information about the project's developments and objectives. "
+  },
+  "links": {
+    "homepage": [
+      "https://app.virtuals.io/virtuals/18820"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://basescan.org/token/0xa4a2e2ca3fbfe21aed83471d28b6f65a233c6e00"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ribbita2012",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54970/thumb/Untitled_design.png?1742941268",
+    "small": "https://coin-images.coingecko.com/coins/images/54970/small/Untitled_design.png?1742941268",
+    "large": "https://coin-images.coingecko.com/coins/images/54970/large/Untitled_design.png?1742941268"
+  },
+  "last_updated": "2025-07-11T09:50:24.261875+00:00"
+}

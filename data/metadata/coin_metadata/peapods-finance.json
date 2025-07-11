@@ -1,0 +1,67 @@
+{
+  "id": "peapods-finance",
+  "symbol": "peas",
+  "name": "Peapods Finance",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Base Ecosystem",
+    "Berachain Ecosystem",
+    "Mode Ecosystem",
+    "Sonic Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+    "sonic": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+    "berachain": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+    "mode": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+    "arbitrum-one": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+    "base": "0x02f92800f57bcd74066f5709f1daa1a4302df875"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The first fully decentralized on-chain yield-bearing index funds, or \"pods\"\r\nGet broad crypto exposure from blue chips to microcaps and earn real yield powered by market volatility and arbitrage. Simply wrap or buy into a pod, provide liquidity, sit back, relax, and earn PEAS forever."
+  },
+  "links": {
+    "homepage": [
+      "https://peapods.finance",
+      "https://peapods.finance/app"
+    ],
+    "whitepaper": "https://docs.peapods.finance",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x02f92800f57bcd74066f5709f1daa1a4302df875",
+      "https://platform.arkhamintelligence.com/explorer/token/peapods-finance",
+      "https://ethplorer.io/address/0x02f92800f57bcd74066f5709f1daa1a4302df875",
+      "https://arbiscan.io/token/0x02f92800F57BCD74066F5709F1Daa1A4302Df875",
+      "https://basescan.org/token/0x02f92800F57BCD74066F5709F1Daa1A4302Df875",
+      "https://explorer.mode.network/address/0x02f92800F57BCD74066F5709F1Daa1A4302Df875",
+      "https://modescan.io/token/0x02f92800F57BCD74066F5709F1Daa1A4302Df875",
+      "https://sonicscan.org/token/0x02f92800f57bcd74066f5709f1daa1a4302df875",
+      "https://berascan.com/token/0x02f92800f57bcd74066f5709f1daa1a4302df875"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "PeapodsFinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "PeapodsFinance",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33711/thumb/PEAS-icon-2025-200x200px.png?1751181210",
+    "small": "https://coin-images.coingecko.com/coins/images/33711/small/PEAS-icon-2025-200x200px.png?1751181210",
+    "large": "https://coin-images.coingecko.com/coins/images/33711/large/PEAS-icon-2025-200x200px.png?1751181210"
+  },
+  "last_updated": "2025-07-11T09:53:28.864784+00:00"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "societe-generale-forge-eurcv",
+  "symbol": "eurcv",
+  "name": "EUR CoinVertible",
+  "categories": [
+    "Stablecoins",
+    "EUR Stablecoin",
+    "Solana Ecosystem",
+    "Ethereum Ecosystem",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x5f7827fdeb7c20b443265fc2f40845b715385ff2",
+    "solana": "DghpMkatCiUsofbTmid3M3kAbDTPqDwKiYHnudXeGG52"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.sgforge.com/product/coinvertible/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x5f7827fdeb7c20b443265fc2f40845b715385ff2",
+      "https://platform.arkhamintelligence.com/explorer/token/societe-generale-forge-eurcv",
+      "https://ethplorer.io/address/0x5f7827fdeb7c20b443265fc2f40845b715385ff2",
+      "https://solscan.io/token/DghpMkatCiUsofbTmid3M3kAbDTPqDwKiYHnudXeGG52"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/18818506"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33415/thumb/eurcv_%281%29.png?1701752017",
+    "small": "https://coin-images.coingecko.com/coins/images/33415/small/eurcv_%281%29.png?1701752017",
+    "large": "https://coin-images.coingecko.com/coins/images/33415/large/eurcv_%281%29.png?1701752017"
+  },
+  "last_updated": "2025-07-11T09:52:31.511765+00:00"
+}

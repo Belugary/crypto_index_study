@@ -1,0 +1,56 @@
+{
+  "id": "strike-2",
+  "symbol": "strike",
+  "name": "Strike",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Derivatives",
+    "Options",
+    "Perpetuals",
+    "Cardano Ecosystem"
+  ],
+  "asset_platform_id": "cardano",
+  "platforms": {
+    "cardano": "f13ac4d66b3ee19a6aa0f2a22298737bd907cc95121662fc971b5275"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "Strike Finance introduces options, forwards, and perpetual futures trading directly on the Cardano blockchain.\r\n\r\nCurrently, centralized exchanges account for more than 98% of derivatives trading in crypto assets. Derivatives trading on Cardano are nearly non-existent before the advent of Strike Finance. This scarcity is not due to a lack of demand for on-chain trading, but rather the absence of a derivatives protocol.\r\n\r\nOptions, forwards, and perpetual futures trading offer traders a wider range of tools to capitalize on the volatile crypto market. Strike Finance streamlines this process by providing a beginner-friendly trading experience. Our platform empowers individuals with advanced financial instruments while maintaining the security and transparency inherent to blockchain technology."
+  },
+  "links": {
+    "homepage": [
+      "https://strikefinance.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://cardanoscan.io/tokenPolicy/f13ac4d66b3ee19a6aa0f2a22298737bd907cc95121662fc971b5275"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/8MndyPVjg2",
+      "https://medium.com/@strikecardano"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "strikecardano",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/strike-finance"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/50560/thumb/1.png?1728370388",
+    "small": "https://coin-images.coingecko.com/coins/images/50560/small/1.png?1728370388",
+    "large": "https://coin-images.coingecko.com/coins/images/50560/large/1.png?1728370388"
+  },
+  "last_updated": "2025-07-11T09:54:38.893961+00:00"
+}

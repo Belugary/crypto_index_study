@@ -1,0 +1,59 @@
+{
+  "id": "auki-labs",
+  "symbol": "auki",
+  "name": "AUKI",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "DePIN",
+    "Base Ecosystem",
+    "Outlier Ventures Portfolio"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0xf9569cfb8fd265e91aa478d86ae8c78b8af55df4"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "About The Posemesh\r\n\r\n\"The eyes and ears of spatial AI\"\r\n\r\nWithout spatial awareness, AI is confined to the internet and blind to the world around it. Spatial computing and machine perception bring AI's power to the physical world.\r\n\r\nThe posemesh is a decentralized spatial computing and machine perception network for the next 100 billion people, devices and AI.\r\n\r\nTraction & Milestones\r\n\r\n- 700+ posemesh domains around the world; anyone can create their own domain by grabbing a portal kit and setting it up within minutes. We have another app called McKenna for decorating domains with NFTs, images, videos, 3D assets, and text notes.\r\n- 6+ month pilot with Coop (a major grocery retailer in Sweden) integrating spatial AI and staff productivity, saving them more than 15 minutes per employee per day and increasing their self-sufficiency.\r\n- 2+ month multi-store pilot with another major Swedish grocery retailer that has committed to doing a complete rollout in the coming 12 months, plus a number of others in Hong Kong.\r\n- Top 10 global retailers are interested in Spatial AI to do empty shelf detection and planogram compliance; they’ve also expressed strong interest in ESL positioning and realograms (having a detailed understanding of where items are in their stores).\r\n- Pre-pilot planning with more of Europe and North America's largest grocery retailers; a combined total of 40,000+ stores and hundreds of thousands of employees.\r\n- Real-time indoor navigation and friend finding at a number of large events and venues.\r\n- 40k DePIN app users on TG\r\n- 300+ DePIN servers around the world (purposely capped to avoid over-provisioning)\r\n- 450+ app developers using the posemesh SDK for building shared and persistent AR experiences\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://auki.ai/"
+    ],
+    "whitepaper": "https://auki.gitbook.io/",
+    "blockchain_site": [
+      "https://basescan.org/token/0xf9569cfb8fd265e91aa478d86ae8c78b8af55df4",
+      "https://platform.arkhamintelligence.com/explorer/token/auki-labs"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/aukilabs/"
+    ],
+    "chat_url": [
+      "https://discord.gg/aukiverse",
+      "https://auki.medium.com/",
+      "https://www.youtube.com/@aukilabs"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "aukinetwork",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "AukiNetwork",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://auki.gitbook.io/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39811/thumb/COINGECKO-200-x-200_%281%29.png?1724166209",
+    "small": "https://coin-images.coingecko.com/coins/images/39811/small/COINGECKO-200-x-200_%281%29.png?1724166209",
+    "large": "https://coin-images.coingecko.com/coins/images/39811/large/COINGECKO-200-x-200_%281%29.png?1724166209"
+  },
+  "last_updated": "2025-07-11T09:53:35.225025+00:00"
+}

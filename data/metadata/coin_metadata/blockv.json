@@ -1,0 +1,58 @@
+{
+  "id": "blockv",
+  "symbol": "vee",
+  "name": "BLOCKv",
+  "categories": [
+    "NFT",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x340d2bde5eb28c1eed91b2f790723e3b160613b7",
+    "optimistic-ethereum": "0xe3c332a5dce0e1d9bc2cc72a68437790570c28a4",
+    "polygon-pos": "0xf1c1a3c2481a3a8a3f173a9ab5ade275292a6fa3"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2017-11-23",
+  "country_origin": "US",
+  "description": {
+    "en": "BLOCKv, the shared protocol for the blockchain developer stack, represents the interface moment in the maturation of the blockchain sector. BLOCKv provides developers with the building blocks to design the experiential economy of the future and unlock new revenue generating opportunities for businesses within this growing ecosystem. The BLOCKv platform enables the creation of smart digital objects on blockchains unlocking the potential to rapidly engage end-users and traverse digital and real-world environments. These smart objects, called vAtoms (Virtual Atoms) combine code with multimedia elements and are dynamic, compelling digital goods that make a cryptocurrency come alive as an asset for developers, brands and end users."
+  },
+  "links": {
+    "homepage": [
+      "https://blockv.io/"
+    ],
+    "whitepaper": "https://blockv.io/documents/whitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x340d2bde5eb28c1eed91b2f790723e3b160613b7",
+      "https://platform.arkhamintelligence.com/explorer/token/blockv",
+      "https://ethplorer.io/address/0x340d2bde5eb28c1eed91b2f790723e3b160613b7",
+      "https://polygonscan.com/token/0xf1c1a3c2481a3a8a3f173a9ab5ade275292a6fa3",
+      "https://optimistic.etherscan.io/token/0xe3c332a5dce0e1d9bc2cc72a68437790570c28a4"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "blockv_io",
+    "facebook_username": "blockv.io",
+    "bitcointalk_thread_identifier": 2181569,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/blockv",
+    "repos_url": {
+      "github": [
+        "https://github.com/BLOCKvIO/contracts"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/1266/thumb/blockv.png?1696502339",
+    "small": "https://coin-images.coingecko.com/coins/images/1266/small/blockv.png?1696502339",
+    "large": "https://coin-images.coingecko.com/coins/images/1266/large/blockv.png?1696502339"
+  },
+  "last_updated": "2025-07-11T09:51:15.837994+00:00"
+}

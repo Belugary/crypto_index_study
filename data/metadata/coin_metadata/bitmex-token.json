@@ -1,0 +1,54 @@
+{
+  "id": "bitmex-token",
+  "symbol": "bmex",
+  "name": "BitMEX",
+  "categories": [
+    "Exchange-based Tokens",
+    "Centralized Exchange (CEX) Token",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xb113c6cf239f60d380359b762e95c13817275277"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "BMEX is the token for the BitMEX derivative exchange. Traders on the platform will be able to start earning BMEX tokens. As part of the launch, there will be an airdrop reward for sign ups, referrals, and trading activities on the exchange.\r\n\r\nBMEX token holders will be able to enjoy trading fees discounts, preferred rates in earn products, early access to new features, swags, academy access, and return through token burns."
+  },
+  "links": {
+    "homepage": [
+      "https://www.bitmex.com",
+      "https://www.bitmex.com/token"
+    ],
+    "whitepaper": null,
+    "blockchain_site": [
+      "https://etherscan.io/token/0xb113c6cf239f60d380359b762e95c13817275277",
+      "https://platform.arkhamintelligence.com/explorer/token/bitmex-token",
+      "https://ethplorer.io/address/0xb113c6cf239f60d380359b762e95c13817275277"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://blog.bitmex.com/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "bitmex",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "BitMEX_Announcements",
+    "subreddit_url": "https://www.reddit.com/r/BitMEX/",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/21831/thumb/bitmex-token.jpeg?1696521187",
+    "small": "https://coin-images.coingecko.com/coins/images/21831/small/bitmex-token.jpeg?1696521187",
+    "large": "https://coin-images.coingecko.com/coins/images/21831/large/bitmex-token.jpeg?1696521187"
+  },
+  "last_updated": "2025-07-11T09:53:30.995402+00:00"
+}

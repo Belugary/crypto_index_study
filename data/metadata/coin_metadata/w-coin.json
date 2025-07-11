@@ -1,0 +1,49 @@
+{
+  "id": "w-coin",
+  "symbol": "w",
+  "name": "W coin",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Meme"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x19683a9d2a31508847a026dfe77f53a05a084444"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "W is a utility token focused on arbitrage within the stablecoin ecosystem.\r\nBy leveraging an on-chain strategy engine, it systematically identifies and captures arbitrage opportunities across stablecoin liquidity pathways, building a highly structured on-chain yield network.\r\n\r\n**The Core Engine of On-Chain Strategy Yields**\r\n01\r\nStructural Engine\r\nStandardises arbitrage structures, executes strategies automatically, and continuously captures on-chain yields.\r\n02\r\nLiquidity Hunting Ground\r\nDeploys the USD1 liquidity monitoring system to detect deviations and mismatches in real time, generating arbitrage signals.\r\n03\r\nStrategy Module\r\nEnables users to develop arbitrage deployment skills through simulated training, live trading tasks, and hands-on participation in Stake2Hunt. 04 | Profit-Sharing System.\r\n04\r\nProfit-Sharing System\r\nScores users based on on-chain actions and execution performance, dynamically distributing profits to effective participants.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://wfirise.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x19683a9d2a31508847a026DfE77f53A05A084444",
+      "https://binplorer.com/address/0x19683a9d2a31508847a026DfE77f53A05A084444"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "W_coin_1",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "W_coin_11",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/67010/thumb/IMG_20250702_062511_574.jpg?1751462008",
+    "small": "https://coin-images.coingecko.com/coins/images/67010/small/IMG_20250702_062511_574.jpg?1751462008",
+    "large": "https://coin-images.coingecko.com/coins/images/67010/large/IMG_20250702_062511_574.jpg?1751462008"
+  },
+  "last_updated": "2025-07-11T09:52:54.758379+00:00"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "bit2me",
+  "symbol": "b2m",
+  "name": "Bit2Me",
+  "categories": [
+    "Exchange-based Tokens",
+    "BNB Chain Ecosystem",
+    "Centralized Exchange (CEX) Token",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xd7c302fc3ac829c7e896a32c4bd126f3e8bd0a1f",
+    "binance-smart-chain": "0x6e2a5ea25b161befa6a8444c71ae3a89c39933c6",
+    "polygon-pos": "0xe613a914bbb433855378183c3ab13003285da40a"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Receive, store, send, buy, sell, and use cryptocurrencies (such as Bitcoin or Ethereum) and traditional money easily, quickly, and securely.\r\n\r\nBank 3.0? No, this is better! The Bit2Me freedom formula is: Cryptocurrencies + Traditional Money + Debit Mastercard Cryptocard + Shared IBAN + Payments between friends + Simple Exchanges."
+  },
+  "links": {
+    "homepage": [
+      "https://bit2me.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xd7c302fc3ac829c7e896a32c4bd126f3e8bd0a1f",
+      "https://platform.arkhamintelligence.com/explorer/token/bit2me",
+      "https://ethplorer.io/address/0xd7c302fc3ac829c7e896a32c4bd126f3e8bd0a1f",
+      "https://bscscan.com/token/0x6e2a5ea25b161befa6a8444c71ae3a89c39933c6",
+      "https://polygonscan.com/token/0xe613a914bbb433855378183c3ab13003285da40a",
+      "https://binplorer.com/address/0x6e2a5ea25b161befa6a8444c71ae3a89c39933c6"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.linkedin.com/company/bit2me/",
+      "https://www.facebook.com/bit2me/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "bit2me",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/bit2me-devs/bit2me-token"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/19848/thumb/b2m-circle-solid-default.png?1696519271",
+    "small": "https://coin-images.coingecko.com/coins/images/19848/small/b2m-circle-solid-default.png?1696519271",
+    "large": "https://coin-images.coingecko.com/coins/images/19848/large/b2m-circle-solid-default.png?1696519271"
+  },
+  "last_updated": "2025-07-11T09:54:26.363154+00:00"
+}

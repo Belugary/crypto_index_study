@@ -1,0 +1,50 @@
+{
+  "id": "polygon-hermez-bridged-usdt-x-layer",
+  "symbol": "usdt",
+  "name": "Polygon Hermez Bridged USDT (x Layer)",
+  "categories": [
+    "Bridged USDT",
+    "X Layer Ecosystem",
+    "Bridged-Tokens",
+    "Bridged Stablecoin"
+  ],
+  "asset_platform_id": "x-layer",
+  "platforms": {
+    "x-layer": "0x1e4a5963abfd975d8c9021ce480b42188849d41d"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://polygon.technology/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://www.okx.com/explorer/xlayer/address/0x1e4a5963abfd975d8c9021ce480b42188849d41d"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/37200/thumb/usdt_%281%29.png?1713717211",
+    "small": "https://coin-images.coingecko.com/coins/images/37200/small/usdt_%281%29.png?1713717211",
+    "large": "https://coin-images.coingecko.com/coins/images/37200/large/usdt_%281%29.png?1713717211"
+  },
+  "last_updated": "2025-07-11T09:54:52.604264+00:00"
+}

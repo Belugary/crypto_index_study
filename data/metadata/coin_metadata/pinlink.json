@@ -1,0 +1,50 @@
+{
+  "id": "pinlink",
+  "symbol": "pin",
+  "name": "PinLink",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Ethereum Ecosystem",
+    "DePIN"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x2e44f3f609ff5aa4819b323fd74690f07c3607c4"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "PinLink is the first RWA-Tokenized DePIN platform, empowering users with fractionalized ownership of DePIN assets. DePINs (Decentralized Physical Infrastructure Networks) hold the promise of completely revolutionizing how AI developers source their physical infrastructure. DePINs work by using token rewards to incentivize owners of physical infrastructure assets to connect their devices to decentralized networks where they can be rented by end users in need of those services. Whether its GPUs, TPUs, CPUs or cloud storage capacity, AI developers have multiple needs that can be met by DePINs, which offer the promise of a more cost-effective and decentralized solution."
+  },
+  "links": {
+    "homepage": [
+      "http://pinlink.ai/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x2e44f3f609ff5aa4819b323fd74690f07c3607c4",
+      "https://ethplorer.io/address/0x2e44f3f609ff5aA4819B323FD74690f07C3607c4"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "pinlinkai",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "pinlinkai",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/51611/thumb/pin200.png?1736609796",
+    "small": "https://coin-images.coingecko.com/coins/images/51611/small/pin200.png?1736609796",
+    "large": "https://coin-images.coingecko.com/coins/images/51611/large/pin200.png?1736609796"
+  },
+  "last_updated": "2025-07-11T09:53:06.273600+00:00"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "dkargo",
+  "symbol": "dka",
+  "name": "dKargo",
+  "categories": [
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x5dc60c4d5e75d22588fa17ffeb90a63e535efce0"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "dKargo uses blockchain technology to solve trust issues among participants scattered in the logistics industry\r\nand establishing an efficient logistics network based on cooperation that was previously unimaginable."
+  },
+  "links": {
+    "homepage": [
+      "https://dkargo.io/"
+    ],
+    "whitepaper": "https://docs.dkargo.io/v2.0-eng",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x5dc60c4d5e75d22588fa17ffeb90a63e535efce0",
+      "https://platform.arkhamintelligence.com/explorer/token/dkargo",
+      "https://ethplorer.io/address/0x5dc60c4d5e75d22588fa17ffeb90a63e535efce0"
+    ],
+    "official_forum_url": [
+      "https://linktr.ee/dkargo_official",
+      "https://blog.naver.com/dkargo"
+    ],
+    "chat_url": [
+      "https://medium.com/dkargo-eng"
+    ],
+    "announcement_url": [
+      "https://medium.com/dkargo",
+      "https://blog.naver.com/dkargo"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "dKargo_Official",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "dKargo_Community",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/11875/thumb/DKA_ticker.png?1732553189",
+    "small": "https://coin-images.coingecko.com/coins/images/11875/small/DKA_ticker.png?1732553189",
+    "large": "https://coin-images.coingecko.com/coins/images/11875/large/DKA_ticker.png?1732553189"
+  },
+  "last_updated": "2025-07-11T09:50:39.680299+00:00"
+}

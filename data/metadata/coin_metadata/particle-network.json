@@ -1,0 +1,62 @@
+{
+  "id": "particle-network",
+  "symbol": "parti",
+  "name": "Particle Network",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "Layer 1 (L1)",
+    "Base Ecosystem",
+    "Account Abstraction",
+    "Cross-chain Communication",
+    "Binance HODLer Airdrops",
+    "Chain Abstraction",
+    "Binance Wallet IDO"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x59264f02d301281f3393e1385c0aefd446eb0f00",
+    "base": "0x59264f02d301281f3393e1385c0aefd446eb0f00"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Particle Network is the Layer-1 blockchain powering chain abstraction, seamlessly unifying users and liquidity across Web3. At its core are Universal Accounts, which provide users with a single account and unified balance across all chains. These accounts are coordinated and secured by Particle Network, ensuring a frictionless experience across the entire Web3 ecosystem.\r\n\r\nBy unifying all chains, Particle will enable billions of users to seamlessly onboard and interact with dApps across every chain, serving as the foundation for mass adoption and playing an indispensable role in unifying the Open Web."
+  },
+  "links": {
+    "homepage": [
+      "https://particle.network/"
+    ],
+    "whitepaper": "https://whitepaper.particle.network/",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x59264f02D301281f3393e1385c0aEFd446Eb0F00",
+      "https://basescan.org/token/0x59264f02D301281f3393e1385c0aEFd446Eb0F00",
+      "https://binplorer.com/address/0x59264f02D301281f3393e1385c0aEFd446Eb0F00"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/particlenetwork"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ParticleNtwrk",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Particle-Network/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54955/thumb/parti-token-200.png?1742822558",
+    "small": "https://coin-images.coingecko.com/coins/images/54955/small/parti-token-200.png?1742822558",
+    "large": "https://coin-images.coingecko.com/coins/images/54955/large/parti-token-200.png?1742822558"
+  },
+  "last_updated": "2025-07-11T09:52:44.420606+00:00"
+}

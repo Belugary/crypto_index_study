@@ -1,0 +1,49 @@
+{
+  "id": "mubarak",
+  "symbol": "mubarak",
+  "name": "Mubarak",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Meme"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x5c85d6c6825ab4032337f11ee92a72df936b46f6"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "CZ just subtly acknowledged that he’s Mubarak – a typical cryptic move from the Binance boss! Those who’ve followed CZ long enough know that when he shills like this, the chances of a Binance listing are sky-high. The Arab world, with their deep pockets, is ready to pump Mubarak to a $1 billion MC. This meme coin has now been taken over by the community, with the CTO pushing it hard – get ready for a big boom!"
+  },
+  "links": {
+    "homepage": [
+      "https://www.mubarak-cto.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x5C85D6C6825aB4032337F11Ee92a72DF936b46F6",
+      "https://binplorer.com/address/0x5C85D6C6825aB4032337F11Ee92a72DF936b46F6"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "mubarak_cto",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "mubarak_cto",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54857/thumb/DKjv3dc6_400x400.jpg?1742107486",
+    "small": "https://coin-images.coingecko.com/coins/images/54857/small/DKjv3dc6_400x400.jpg?1742107486",
+    "large": "https://coin-images.coingecko.com/coins/images/54857/large/DKjv3dc6_400x400.jpg?1742107486"
+  },
+  "last_updated": "2025-07-11T09:52:39.183780+00:00"
+}

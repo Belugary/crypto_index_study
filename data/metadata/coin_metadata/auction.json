@@ -1,0 +1,57 @@
+{
+  "id": "auction",
+  "symbol": "auction",
+  "name": "Bounce",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Launchpad",
+    "Ethereum Ecosystem",
+    "DWF Labs Portfolio",
+    "Coinbase Ventures Portfolio",
+    "Pantera Capital Portfolio",
+    "Blockchain Capital Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xa9b1eb5908cfc3cdf91f9b8b3a74108598009096"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://bounce.finance/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xa9b1eb5908cfc3cdf91f9b8b3a74108598009096",
+      "https://platform.arkhamintelligence.com/explorer/token/auction",
+      "https://ethplorer.io/address/0xa9b1eb5908cfc3cdf91f9b8b3a74108598009096"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://bouncefinance.medium.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "bounce_finance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "bounce_finance",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/13860/thumb/1_KtgpRIJzuwfHe0Rl0avP_g.jpeg?1696513606",
+    "small": "https://coin-images.coingecko.com/coins/images/13860/small/1_KtgpRIJzuwfHe0Rl0avP_g.jpeg?1696513606",
+    "large": "https://coin-images.coingecko.com/coins/images/13860/large/1_KtgpRIJzuwfHe0Rl0avP_g.jpeg?1696513606"
+  },
+  "last_updated": "2025-07-11T09:51:32.020458+00:00"
+}

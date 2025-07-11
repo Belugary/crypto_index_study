@@ -1,0 +1,52 @@
+{
+  "id": "l2-standard-bridged-weth-blast",
+  "symbol": "weth",
+  "name": "L2 Standard Bridged WETH (Blast)",
+  "categories": [
+    "Blast Ecosystem",
+    "Bridged WETH",
+    "Bridged-Tokens"
+  ],
+  "asset_platform_id": "blast",
+  "platforms": {
+    "blast": "0x4300000000000000000000000000000000000004"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://blast.io/en/bridge"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://blastscan.io/token/0x4300000000000000000000000000000000000004",
+      "https://platform.arkhamintelligence.com/explorer/token/l2-standard-bridged-weth-blast",
+      "https://blastplorer.info/address/0x4300000000000000000000000000000000000004",
+      "https://blastexplorer.io/token/0x4300000000000000000000000000000000000004"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39727/thumb/weth.png?1723758119",
+    "small": "https://coin-images.coingecko.com/coins/images/39727/small/weth.png?1723758119",
+    "large": "https://coin-images.coingecko.com/coins/images/39727/large/weth.png?1723758119"
+  },
+  "last_updated": "2025-07-11T09:51:00.014171+00:00"
+}

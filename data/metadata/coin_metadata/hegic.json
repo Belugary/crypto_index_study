@@ -1,0 +1,70 @@
+{
+  "id": "hegic",
+  "symbol": "hegic",
+  "name": "Hegic",
+  "categories": [
+    "Exchange-based Tokens",
+    "Decentralized Finance (DeFi)",
+    "Derivatives",
+    "Options",
+    "Fantom Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Energi Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x584bc13c7d411c00c01a62e8019472de68768430",
+    "arbitrum-one": "0x431402e8b9de9aa016c743880e04e517074d8cec",
+    "energi": "0x762204d444123bcc511718a24158a86e3d853266",
+    "fantom": "0x44b26e839eb3572c5e959f994804a5de66600349"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.hegic.co/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x584bc13c7d411c00c01a62e8019472de68768430",
+      "https://platform.arkhamintelligence.com/explorer/token/hegic",
+      "https://ethplorer.io/address/0x584bc13c7d411c00c01a62e8019472de68768430",
+      "https://ftmscan.com/token/0x44b26e839eb3572c5e959f994804a5de66600349",
+      "https://scan.meter.io/address/0x44b26e839eb3572c5e959f994804a5de66600349",
+      "https://ftmscan.com/address/0x44b26e839eb3572c5e959f994804a5de66600349",
+      "https://explorer.energi.network/token/0x762204d444123bcc511718a24158a86e3d853266",
+      "https://arbiscan.io/token/0x431402e8b9de9aa016c743880e04e517074d8cec"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discordapp.com/invite/znjdj8q"
+    ],
+    "announcement_url": [
+      "https://medium.com/hegic"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "HegicOptions",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "HegicOptions",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/hegic/contracts-v888"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/12454/thumb/new.png?1696512274",
+    "small": "https://coin-images.coingecko.com/coins/images/12454/small/new.png?1696512274",
+    "large": "https://coin-images.coingecko.com/coins/images/12454/large/new.png?1696512274"
+  },
+  "last_updated": "2025-07-11T09:53:51.211712+00:00"
+}

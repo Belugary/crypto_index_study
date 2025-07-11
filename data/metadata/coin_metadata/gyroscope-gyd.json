@@ -1,0 +1,73 @@
+{
+  "id": "gyroscope-gyd",
+  "symbol": "gyd",
+  "name": "Gyroscope GYD",
+  "categories": [
+    "Stablecoins",
+    "Arbitrum Ecosystem",
+    "Polygon zkEVM Ecosystem",
+    "Crypto-backed Stablecoin"
+  ],
+  "asset_platform_id": "polygon-pos",
+  "platforms": {
+    "polygon-pos": "0xca5d8f8a8d49439357d3cf46ca2e720702f132b8",
+    "polygon-zkevm": "0xca5d8f8a8d49439357d3cf46ca2e720702f132b8",
+    "arbitrum-one": "0xca5d8f8a8d49439357d3cf46ca2e720702f132b8",
+    "base": "0xca5d8f8a8d49439357d3cf46ca2e720702f132b8",
+    "xdai": "0xca5d8f8a8d49439357d3cf46ca2e720702f132b8",
+    "optimistic-ethereum": "0xca5d8f8a8d49439357d3cf46ca2e720702f132b8",
+    "avalanche": "0xca5d8f8a8d49439357d3cf46ca2e720702f132b8"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "GYD is a resilient stablecoin with risk control on auto-pilot. GYD is fully backed by a set of assets with fundamental innovations in risk control built in at the protocol level to automate diversification and redundancy.\r\n\r\nThese innovations include automated risk diversification rules, optimized minting and redemption design that guides the protocol on how to use reserve assets to maintain stability, and multiple layers of redundancy in price feeds and circuit breakers."
+  },
+  "links": {
+    "homepage": [
+      "https://gyro.finance/",
+      "https://docs.gyro.finance/gyroscope-protocol/readme",
+      "https://app.gyro.finance/pools/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xe07f9d810a48ab5c3c914ba3ca53af14e4491e8a",
+      "https://platform.arkhamintelligence.com/explorer/token/gyroscope-gyd",
+      "https://ethplorer.io/address/0xe07f9d810a48ab5c3c914ba3ca53af14e4491e8a",
+      "https://zkevm.polygonscan.com/token/0xca5d8f8a8d49439357d3cf46ca2e720702f132b8",
+      "https://arbiscan.io/token/0xca5d8f8a8d49439357d3cf46ca2e720702f132b8",
+      "https://polygonscan.com/token/0xca5d8f8a8d49439357d3cf46ca2e720702f132b8",
+      "https://gnosisscan.io/token/0xca5d8f8a8d49439357d3cf46ca2e720702f132b8",
+      "https://optimistic.etherscan.io/token/0xca5d8f8a8d49439357d3cf46ca2e720702f132b8",
+      "https://basescan.org/token/0xca5d8f8a8d49439357d3cf46ca2e720702f132b8"
+    ],
+    "official_forum_url": [
+      "https://gov.gyro.finance/",
+      "https://gyro.finance/blog/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/2vnqnS7wE6"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "gyrostable",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/gyrostable"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33428/thumb/GYD-gradient_resized_transparent.png?1702316822",
+    "small": "https://coin-images.coingecko.com/coins/images/33428/small/GYD-gradient_resized_transparent.png?1702316822",
+    "large": "https://coin-images.coingecko.com/coins/images/33428/large/GYD-gradient_resized_transparent.png?1702316822"
+  },
+  "last_updated": "2025-07-11T09:56:13.701705+00:00"
+}

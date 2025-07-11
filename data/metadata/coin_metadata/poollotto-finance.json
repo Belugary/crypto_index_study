@@ -1,0 +1,51 @@
+{
+  "id": "poollotto-finance",
+  "symbol": "plt",
+  "name": "Poollotto.finance",
+  "categories": [
+    "BNB Chain Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x631c2f0edabac799f07550aee4ff0bf7fd35212b"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "\"Poollotto Token (PLT) is a new generation of lottery token-based smart contracts for non-centralized management of the global community-driven lottery pools, automated and safe payments. \r\nThe PLT Token project was launched to create a blockchain platform and token economy that gives transparency and fair outcomes to users around the globe. At the same time, token distribution is defined to provide a required level of development, promotion, and support of the PLT Ecosystem. \""
+  },
+  "links": {
+    "homepage": [
+      "https://www.poollotto.finance/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x631c2f0edabac799f07550aee4ff0bf7fd35212b",
+      "https://platform.arkhamintelligence.com/explorer/token/poollotto-finance",
+      "https://binplorer.com/address/0x631c2f0edabac799f07550aee4ff0bf7fd35212b"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/8zVu4RnSUX"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "pltfinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "pltlottochat",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/21425/thumb/polotto.png?1696520788",
+    "small": "https://coin-images.coingecko.com/coins/images/21425/small/polotto.png?1696520788",
+    "large": "https://coin-images.coingecko.com/coins/images/21425/large/polotto.png?1696520788"
+  },
+  "last_updated": "2025-07-11T09:56:23.924182+00:00"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "pocket-network",
+  "symbol": "pokt",
+  "name": "Pocket Network",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Solana Ecosystem",
+    "Polygon Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "DePIN",
+    "Base Ecosystem"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": "",
+    "optimistic-ethereum": "0x764a726d9ced0433a8d7643335919deb03a9a935",
+    "base": "0x764a726d9ced0433a8d7643335919deb03a9a935",
+    "ethereum": "0x764a726d9ced0433a8d7643335919deb03a9a935",
+    "binance-smart-chain": "0x764a726d9ced0433a8d7643335919deb03a9a935",
+    "arbitrum-one": "0x764a726d9ced0433a8d7643335919deb03a9a935",
+    "polygon-pos": "0x764a726d9ced0433a8d7643335919deb03a9a935",
+    "solana": "6CAsXfiCXZfP8APCG6Vma2DFMindopxiqYQN4LSQfhoC"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Pocket Network is a blockchain data platform built for applications that uses cost-efficient economics to coordinate and distribute data at scale, enabling seamless interactions between blockchains and applications. With Pocket, the use of blockchains can be simply integrated into websites, mobile apps, IoT and more, giving developers the freedom to put blockchain-enabled applications into the “pocket” of every mainstream consumer."
+  },
+  "links": {
+    "homepage": [
+      "https://www.pokt.network/",
+      "https://docs.pokt.network/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.pokt.network/",
+      "https://platform.arkhamintelligence.com/explorer/token/pocket-network",
+      "https://etherscan.io/token/0x764a726d9ced0433a8d7643335919deb03a9a935",
+      "https://ethplorer.io/address/0x764a726d9ced0433a8d7643335919deb03a9a935",
+      "https://solscan.io/token/6casxficxzfp8apcg6vma2dfmindopxiqyqn4lsqfhoc",
+      "https://optimistic.etherscan.io/token/0x764a726d9ced0433a8d7643335919deb03a9a935",
+      "https://basescan.org/token/0x764a726d9ced0433a8d7643335919deb03a9a935",
+      "https://polygonscan.com/token/0x764a726d9ced0433a8d7643335919deb03a9a935",
+      "https://arbiscan.io/token/0x764a726d9ced0433a8d7643335919deb03a9a935",
+      "https://bscscan.com/token/0x764a726d9ced0433a8d7643335919deb03a9a935"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/pocket-network",
+      "https://www.linkedin.com/company/pocket-network/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": "https://snapshot.org/#/pokt-network",
+    "twitter_screen_name": "POKTnetwork",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "POKTnetwork",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/pokt-network"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/22506/thumb/POKT.jpg?1703257310",
+    "small": "https://coin-images.coingecko.com/coins/images/22506/small/POKT.jpg?1703257310",
+    "large": "https://coin-images.coingecko.com/coins/images/22506/large/POKT.jpg?1703257310"
+  },
+  "last_updated": "2025-07-11T09:50:31.571360+00:00"
+}

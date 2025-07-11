@@ -1,0 +1,63 @@
+{
+  "id": "vanar-chain",
+  "symbol": "vanry",
+  "name": "Vanar Chain",
+  "categories": [
+    "Smart Contract Platform",
+    "Gaming (GameFi)",
+    "NFT",
+    "Layer 1 (L1)",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem",
+    "Vanar Chain Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x8de5b80a0c1b02fe4976851d030b36122dbb8624",
+    "vanar-chain": "0x8de5b80a0c1b02fe4976851d030b36122dbb8624",
+    "polygon-pos": "0x8de5b80a0c1b02fe4976851d030b36122dbb8624"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Vanar, a L1 designed from the ground up, builds upon our technological expertise to foster practical real-world adoption. Drawing upon years of experience working with the gaming, entertainment, and brand sectors, our primary focus is on ushering billions of consumers into the world of web3."
+  },
+  "links": {
+    "homepage": [
+      "https://vanarchain.com"
+    ],
+    "whitepaper": "https://cdn.vanarchain.com/vanarchain/vanar_whitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/address/0x8de5b80a0c1b02fe4976851d030b36122dbb8624",
+      "https://platform.arkhamintelligence.com/explorer/token/vanar-chain",
+      "https://polygonscan.com/address/0x8de5b80a0c1b02fe4976851d030b36122dbb8624",
+      "https://etherscan.io/token/0x8de5b80a0c1b02fe4976851d030b36122dbb8624",
+      "https://ethplorer.io/address/0x8de5b80a0c1b02fe4976851d030b36122dbb8624",
+      "https://polygonscan.com/token/0x8de5b80a0c1b02fe4976851d030b36122dbb8624",
+      "https://explorer.vanarchain.com/token/0x8de5b80a0c1b02fe4976851d030b36122dbb8624"
+    ],
+    "official_forum_url": [
+      "https://vanarchain.com/blog"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Vanarchain",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "vanarofficial",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33466/thumb/apple-touch-icon.png?1701942541",
+    "small": "https://coin-images.coingecko.com/coins/images/33466/small/apple-touch-icon.png?1701942541",
+    "large": "https://coin-images.coingecko.com/coins/images/33466/large/apple-touch-icon.png?1701942541"
+  },
+  "last_updated": "2025-07-11T09:51:17.995407+00:00"
+}

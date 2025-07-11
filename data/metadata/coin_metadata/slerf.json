@@ -1,0 +1,50 @@
+{
+  "id": "slerf",
+  "symbol": "slerf",
+  "name": "Slerf",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Solana Meme"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "7BgBvyjrZX1YKz4oh9mjb8ZScatkkwb8DzFx7LoiVkM3"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "$Slerf emerged with a vision to be a fun and engaging meme coin, brimming with exciting content to propel its journey forward. "
+  },
+  "links": {
+    "homepage": [
+      "https://www.slerf.wtf/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/7BgBvyjrZX1YKz4oh9mjb8ZScatkkwb8DzFx7LoiVkM3",
+      "https://platform.arkhamintelligence.com/explorer/token/slerf"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Slerfsol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/36178/thumb/slerf.jpeg?1710753228",
+    "small": "https://coin-images.coingecko.com/coins/images/36178/small/slerf.jpeg?1710753228",
+    "large": "https://coin-images.coingecko.com/coins/images/36178/large/slerf.jpeg?1710753228"
+  },
+  "last_updated": "2025-07-11T09:53:45.256427+00:00"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "m2-global-wealth-limited-mmx",
+  "symbol": "mmx",
+  "name": "MMX",
+  "categories": [
+    "Solana Ecosystem",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x614da3b37b6f66f7ce69b4bbbcf9a55ce6168707",
+    "polygon-pos": "0x95a62521c655e7a24a3919aa1f99764c05b7ec4e",
+    "solana": "8bd3PSBp15xbjjCJzEJDrQDPiBTXgAJtgoxTcmXxytWL"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.m2.com/en_AE/"
+    ],
+    "whitepaper": "https://explore.m2.com/mmx-whitepaper",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x614da3b37b6f66f7ce69b4bbbcf9a55ce6168707",
+      "https://platform.arkhamintelligence.com/explorer/token/m2-global-wealth-limited-mmx",
+      "https://ethplorer.io/address/0x614da3b37b6f66f7ce69b4bbbcf9a55ce6168707",
+      "https://solscan.io/token/8bd3psbp15xbjjcjzejdrqdpibtxgajtgoxtcmxxytwl",
+      "https://polygonscan.com/token/0x95a62521c655e7a24a3919aa1f99764c05b7ec4e"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/m2exchange/",
+      "https://www.linkedin.com/company/m2-investment/"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33161/thumb/mmx.png?1700830276",
+    "small": "https://coin-images.coingecko.com/coins/images/33161/small/mmx.png?1700830276",
+    "large": "https://coin-images.coingecko.com/coins/images/33161/large/mmx.png?1700830276"
+  },
+  "last_updated": "2025-07-11T09:52:27.083319+00:00"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "savings-crvusd",
+  "symbol": "scrvusd",
+  "name": "Savings crvUSD",
+  "categories": [
+    "Stablecoins",
+    "Decentralized Finance (DeFi)",
+    "Ethereum Ecosystem",
+    "Curve Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x0655977feb2f289a4ab78af67bab0d17aab84367"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Savings crvUSD (scrvUSD) is an interest-bearing stablecoin that accrues yield passively just by holding the token. No action is required from users, making it a simple and effective way to earn. scrvUSD enhances the utility of crvUSD by providing a decentralized, low-risk way to grow stablecoin holdings.\r\n\r\nAs a truly decentralized stablecoin, crvUSD is backed by ETH, safe ETH liquid staking tokens, and wrapped Bitcoin assets, setting it apart in a market dominated by centralized solutions. scrvUSD increases the attractiveness of crvUSD by offering stable yields, which strengthen its peg, reduce borrow rate volatility, and drive long-term stability. Over time, this creates a more predictable borrowing environment, expands crvUSD supply, and sustainably grows fee revenue for the ecosystem."
+  },
+  "links": {
+    "homepage": [
+      "https://crvusd.curve.fi/",
+      "https://resources.curve.fi/crvusd/scrvusd/",
+      "https://docs.curve.fi/scrvusd/overview/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x0655977FEb2f289A4aB78af67BAB0d17aAb84367",
+      "https://ethplorer.io/address/0x0655977FEb2f289A4aB78af67BAB0d17aAb84367"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/9uEHakc"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "CurveFinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "curvefi",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/curvefi/scrvusd"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/51712/thumb/scrvusd.jpg?1746671018",
+    "small": "https://coin-images.coingecko.com/coins/images/51712/small/scrvusd.jpg?1746671018",
+    "large": "https://coin-images.coingecko.com/coins/images/51712/large/scrvusd.jpg?1746671018"
+  },
+  "last_updated": "2025-07-11T09:52:29.965420+00:00"
+}

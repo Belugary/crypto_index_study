@@ -1,0 +1,55 @@
+{
+  "id": "access-protocol",
+  "symbol": "acs",
+  "name": "Access Protocol",
+  "categories": [
+    "SocialFi",
+    "Solana Ecosystem"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "5MAYDfq5yxtudAhtfyuMBuHZjgAbaS9tbEyEQYAhDS5y"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Access Protocol is a digital platform designed to change how digital content is monetized, particularly benefiting creators by using a blockchain-based subscription model. Instead of traditional payment methods, Access Protocol utilizes its native token, ACS, to allow users to \"lock\" tokens in a creator's pool, granting them access to the creator's content. This model eliminates recurring subscription fees and is intended to provide a more straightforward and potentially more secure way for users to access and pay for content."
+  },
+  "links": {
+    "homepage": [
+      "https://www.accessprotocol.co/",
+      "https://hub.accessprotocol.co/invite/a329dc8bf0986ff032ab93cdf055a6e8"
+    ],
+    "whitepaper": "https://www.accessprotocol.co/Whitepaper_Access.pdf",
+    "blockchain_site": [
+      "https://solscan.io/token/5MAYDfq5yxtudAhtfyuMBuHZjgAbaS9tbEyEQYAhDS5y",
+      "https://platform.arkhamintelligence.com/explorer/token/access-protocol"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/zjqjmPNkmq",
+      "https://medium.com/access-protocol"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "AccessProtocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Access-Labs-Inc"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/28747/thumb/dR4FovX4_400x400.jpg?1696527727",
+    "small": "https://coin-images.coingecko.com/coins/images/28747/small/dR4FovX4_400x400.jpg?1696527727",
+    "large": "https://coin-images.coingecko.com/coins/images/28747/large/dR4FovX4_400x400.jpg?1696527727"
+  },
+  "last_updated": "2025-07-11T09:52:12.682448+00:00"
+}

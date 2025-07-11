@@ -1,0 +1,75 @@
+{
+  "id": "aavegotchi",
+  "symbol": "ghst",
+  "name": "Aavegotchi",
+  "categories": [
+    "Smart Contract Platform",
+    "Gaming (GameFi)",
+    "NFT",
+    "Metaverse",
+    "Collectibles",
+    "Polygon Ecosystem",
+    "Meme",
+    "Play To Earn",
+    "Ethereum Ecosystem",
+    "Gotchiverse",
+    "Base Ecosystem",
+    "Layer 3 (L3)",
+    "RPG",
+    "Gaming Governance Token",
+    "Gaming Utility Token",
+    "Energi Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x3f382dbd960e3a9bbceae22651e88158d2791550",
+    "base": "0xcd2f22236dd9dfe2356d7c543161d4d260fd9bcb",
+    "energi": "0x4bd75f8c7e067ea9b6e2dfbecd99d805396bc5ff",
+    "polygon-pos": "0x385eeac5cb85a38a9a07a70c73e0a3271cfb54a7"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "VG",
+  "description": {
+    "en": "GHST is the eco-governance token of Aavegotchi. Use GHST to purchase various digital assets within the Aavegotchi universe, such as Aavegotchi portals & wearables. Hold GHST so your Aavegotchi can participate in DAO governance, and earn GHST by excelling at Aavegotchi rarity farming."
+  },
+  "links": {
+    "homepage": [
+      "https://www.aavegotchi.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x3f382dbd960e3a9bbceae22651e88158d2791550",
+      "https://platform.arkhamintelligence.com/explorer/token/aavegotchi",
+      "https://ethplorer.io/address/0x3f382dbd960e3a9bbceae22651e88158d2791550",
+      "https://polygonscan.com/token/0x385eeac5cb85a38a9a07a70c73e0a3271cfb54a7",
+      "https://explorer.energi.network/token/0x4bd75f8c7e067ea9b6e2dfbecd99d805396bc5ff",
+      "https://polygon.dex.guru/token/0x385eeac5cb85a38a9a07a70c73e0a3271cfb54a7",
+      "https://basescan.org/token/0xcd2f22236dd9dfe2356d7c543161d4d260fd9bcb"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/KSSkUd4R48"
+    ],
+    "announcement_url": [],
+    "snapshot_url": "https://snapshot.org/#/aavegotchi.eth",
+    "twitter_screen_name": "aavegotchi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "aavegotchi",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/aavegotchi"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/12467/thumb/GHST.png?1696512286",
+    "small": "https://coin-images.coingecko.com/coins/images/12467/small/GHST.png?1696512286",
+    "large": "https://coin-images.coingecko.com/coins/images/12467/large/GHST.png?1696512286"
+  },
+  "last_updated": "2025-07-11T09:56:25.723157+00:00"
+}

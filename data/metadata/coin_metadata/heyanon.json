@@ -1,0 +1,74 @@
+{
+  "id": "heyanon",
+  "symbol": "anon",
+  "name": "Hey Anon",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Decentralized Finance (DeFi)",
+    "Solana Ecosystem",
+    "Arbitrum Ecosystem",
+    "Metis Ecosystem",
+    "AI Agents",
+    "Sonic Ecosystem",
+    "IOTA EVM Ecosystem",
+    "DeFAI"
+  ],
+  "asset_platform_id": "sonic",
+  "platforms": {
+    "sonic": "0x79bbf4508b1391af3a0f4b30bb5fc4aa9ab0e07c",
+    "arbitrum-one": "0x79bbf4508b1391af3a0f4b30bb5fc4aa9ab0e07c",
+    "iota-evm": "0x79bbf4508b1391af3a0f4b30bb5fc4aa9ab0e07c",
+    "metis-andromeda": "0x79bbf4508b1391af3a0f4b30bb5fc4aa9ab0e07c",
+    "kava": "0x79bbf4508b1391af3a0f4b30bb5fc4aa9ab0e07c",
+    "base": "0x79bbf4508b1391af3a0f4b30bb5fc4aa9ab0e07c",
+    "ethereum": "0x79bbf4508b1391af3a0f4b30bb5fc4aa9ab0e07c",
+    "binance-smart-chain": "0x79bbf4508b1391af3a0f4b30bb5fc4aa9ab0e07c",
+    "solana": "9McvH6w97oewLmPxqQEoHUAv3u5iYMyQ9AeZZhguYf1T"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "HeyAnon is an AI DeFi protocol designed to simplify DeFi interactions and aggregate essential project-related information. By combining conversational AI with real-time data aggregation, HeyAnon enables users to manage DeFi operations, stay informed about project updates, and analyze trends across various platforms and protocols. It integrates natural language processing to process user prompts, executes complex DeFi actions, and delivers near real-time insights from multiple information streams."
+  },
+  "links": {
+    "homepage": [
+      "https://heyanon.ai/"
+    ],
+    "whitepaper": "https://docs.heyanon.ai",
+    "blockchain_site": [
+      "https://sonicscan.org/token/0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C",
+      "https://solscan.io/account/AGWZY6Zf71x8VUmmRXYdaxbxH571nKmi8nkXUJ787QBv",
+      "https://arbiscan.io/token/0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C",
+      "https://explorer.evm.iota.org/address/0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C",
+      "https://andromeda-explorer.metis.io/address/0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C",
+      "https://solscan.io/token/AGWZY6Zf71x8VUmmRXYdaxbxH571nKmi8nkXUJ787QBv",
+      "https://explorer.evm.iota.org/token/0x79bbf4508b1391af3a0f4b30bb5fc4aa9ab0e07c",
+      "https://andromeda-explorer.metis.io/token/0x79bbf4508b1391af3a0f4b30bb5fc4aa9ab0e07c",
+      "https://explorer.metis.io/token/0x79bbf4508b1391af3a0f4b30bb5fc4aa9ab0e07c",
+      "https://solscan.io/token/9McvH6w97oewLmPxqQEoHUAv3u5iYMyQ9AeZZhguYf1T"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/realwagmi"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "HeyAnonai",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "realwagmi",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/52961/thumb/AAI__ANON_SQ_Wb_250x250.png?1740500195",
+    "small": "https://coin-images.coingecko.com/coins/images/52961/small/AAI__ANON_SQ_Wb_250x250.png?1740500195",
+    "large": "https://coin-images.coingecko.com/coins/images/52961/large/AAI__ANON_SQ_Wb_250x250.png?1740500195"
+  },
+  "last_updated": "2025-07-11T09:52:17.874426+00:00"
+}

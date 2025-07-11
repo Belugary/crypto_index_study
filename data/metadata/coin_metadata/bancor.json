@@ -1,0 +1,66 @@
+{
+  "id": "bancor",
+  "symbol": "bnt",
+  "name": "Bancor Network",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Exchange-based Tokens",
+    "Decentralized Finance (DeFi)",
+    "Automated Market Maker (AMM)",
+    "Ethereum Ecosystem",
+    "DeFiance Capital Portfolio",
+    "Energi Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c",
+    "energi": "0x9419e8edcf570a71eb0dd006602949742b711a80"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2017-06-12",
+  "country_origin": "",
+  "description": {
+    "en": "About Bancor?\r\nBancor is an ecosystem of decentralized, open-source protocols that promote on-chain trading and liquidity. \r\n\r\nIts main protocol, Carbon, is a decentralized trading protocol allowing users to perform automated trading strategies using custom on-chain limit orders and range orders, with the option of combining orders together to create automated buy low, sell high strategies. \r\n\r\nFast Lane, a separate open-source arbitrage protocol, allows any user to perform arbitrage between Bancor ecosystem protocols and external on-chain exchanges and redirect arbitrage profits back to the Bancor ecosystem.\r\n\r\nAll Bancor ecosystem protocols are governed by the BancorDAO via staked BNT.\r\n\r\nWhat makes Bancor Unique?\r\nBancor’s flagship protocol, Carbon, allows users to perform automated trading strategies on-chain with far greater control and efficiency compared to existing decentralized exchanges (DEXs).\r\n\r\nExisting on-chain liquidity solutions suffer from key drawbacks, namely that: 1) executed orders can be reversed when prices move, and 2) a single liquidity position must execute both buys and sells using the same pricing curve. As a result, on-chain liquidity is costly and complex to automate and update, while exposing traders to MEV sandwich attacks.\r\n\r\nCarbon introduces a new form of on-chain liquidity called Asymmetric Liquidity, which allows users to create individual liquidity positions with two distinct pricing curves: one for buying and one for selling. This gives users the ability to set buy and sell orders that execute in specific price ranges, with the option of combining orders together to create automated buy low, sell high strategies. By design, Carbon orders are irreversible on execution, easily adjustable directly on-chain, and completely resistant to MEV sandwich attacks. These capabilities give users an unprecedented level of control and automation to perform novel trading strategies on-chain.\r\n\r\nFor example, a user who believes ETH will trade in the near future between $1500-2000 could set a Carbon strategy that automatically buys ETH between $1500-1600 and sells the ETH from $1900-2000. As market prices move into selected ranges, orders are automatically executed by traders who interact with Carbon directly, or via popular DEX aggregators. All with no reliance on external oracles or keepers. Strategy updates can be made in a highly gas efficient manner, without needing to withdraw and re-add liquidity, via parameters in a strategy’s smart contract.\r\n\r\nCarbon also improves on the trading model in centralized exchanges by allowing users to create multi-order strategies that utilize a single source of rotating liquidity to fill trades, eliminating the need to create multiple limit orders and pre-fund each order as it is created.\r\nBy fusing the feature-rich trading functionality of centralized exchanges with the access and transparency of automated market-makers, Carbon unlocks the future of decentralized on-chain trading.\r\n\r\nHistory of Bancor\r\nBancor invented the first blockchain-based automated market maker (AMM) in 2017. The protocol’s first version was launched in June 2017, with subsequent protocol versions iterating on the original AMM model.\r\n\r\nIn 2020, the BancorDAO was launched to oversee and govern development of Bancor ecosystem protocols. The BancorDAO has since voted on over 450 governance proposals, and has had at the time writing over 9,700 governance token holders, and over 1,100 voters.\r\n\r\nWhat’s Next for Bancor\r\nPer the BancorDAO, the Bancor community is focused on development of its flagship protocols, Carbon and Fast Lane. The beta version of Fast Lane is currently live on Ethereum mainnet, and will continue evolving, while the beta version of Carbon is expected to go live on Ethereum mainnet in the second quarter of 2023, pending voting by the BancorDAO. From there, deployment of both Carbon and Fast Lane on other Layer-1 and Layer-2 blockchains will be explored. \r\n\r\nThe Bancor community will continue executing on its mission to build innovative solutions that expand the design space for on-chain trading and liquidity and open the doors to a wide range of future DeFi applications and products.\r\n\r\nWhat Can Bancor (BNT) Be Used For\r\nThe Bancor Network Token (BNT) can currently be staked for vBNT to vote in BancorDAO governance, with additional BNT utility controlled by the BancorDAO.\r\n\r\nRelevant Sources: \r\nBancor Github\r\nCarbon Website\r\nIntroducing Carbon Blog Post\r\nFast Lane\r\nCarbon Whitepaper\r\nCarbon Litepaper"
+  },
+  "links": {
+    "homepage": [
+      "https://www.bancor.network/"
+    ],
+    "whitepaper": "https://www.carbondefi.xyz/whitepaper",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c",
+      "https://platform.arkhamintelligence.com/explorer/token/bancor",
+      "https://ethplorer.io/address/0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c",
+      "https://blockchair.com/ethereum/erc-20/token/0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c",
+      "https://explorer.energi.network/token/0x9419e8edcf570a71eb0dd006602949742b711a80"
+    ],
+    "official_forum_url": [
+      "https://blog.bancor.network/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/bancor",
+      "https://www.youtube.com/c/BancorProtocol"
+    ],
+    "announcement_url": [],
+    "snapshot_url": "https://snapshot.org/#/bancornetwork.eth",
+    "twitter_screen_name": "Bancor",
+    "facebook_username": "bancor",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "bancor",
+    "subreddit_url": "https://www.reddit.com/r/Bancor",
+    "repos_url": {
+      "github": [
+        "https://github.com/bancorprotocol/contracts",
+        "https://github.com/bancorprotocol/contracts_eos"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/736/thumb/Bancor_Token.png?1710479159",
+    "small": "https://coin-images.coingecko.com/coins/images/736/small/Bancor_Token.png?1710479159",
+    "large": "https://coin-images.coingecko.com/coins/images/736/large/Bancor_Token.png?1710479159"
+  },
+  "last_updated": "2025-07-11T09:50:46.479292+00:00"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "uquid-coin",
+  "symbol": "uqc",
+  "name": "Uquid Coin",
+  "categories": [
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x8806926ab68eb5a7b909dcaf6fdbe5d93271d6e2"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "UQC is a decentralised virtual currency based on the ERC20 - token, one of Ethereum Technological trends.  The goal of this blockchain asset is to supplement the development of UQUID Ecosystem. In this virtual revolution, coin holders will have the benefit of instantly and effortlessly cash out their coins.\r\n\r\nThe uquid card project started from 2016 was became the first project to issue prepaid payment cards for bitcoin and altcoins. Uquid cards now support over 100 types of altcoins. The uquid coin was born with the goal of supporting the uquid ecosystem in helping altcoins users to shop online (ebay, amazon) directly through the uquid ecosystem and build up an card-less system by 2020."
+  },
+  "links": {
+    "homepage": [
+      "https://uquidcoin.com/"
+    ],
+    "whitepaper": null,
+    "blockchain_site": [
+      "https://etherscan.io/token/0x8806926ab68eb5a7b909dcaf6fdbe5d93271d6e2",
+      "https://platform.arkhamintelligence.com/explorer/token/uquid-coin",
+      "https://ethplorer.io/address/0x8806926ab68eb5a7b909dcaf6fdbe5d93271d6e2"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "uquidcard",
+    "facebook_username": "uquidcoin",
+    "bitcointalk_thread_identifier": 2161156,
+    "telegram_channel_identifier": "uquidcoinofficial",
+    "subreddit_url": "https://www.reddit.com/r/uquid/",
+    "repos_url": {
+      "github": [
+        "https://github.com/uquid/express"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/1341/thumb/uquid-coin.png?1696502403",
+    "small": "https://coin-images.coingecko.com/coins/images/1341/small/uquid-coin.png?1696502403",
+    "large": "https://coin-images.coingecko.com/coins/images/1341/large/uquid-coin.png?1696502403"
+  },
+  "last_updated": "2025-07-11T09:53:56.641091+00:00"
+}

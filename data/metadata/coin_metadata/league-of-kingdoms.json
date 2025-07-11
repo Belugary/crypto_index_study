@@ -1,0 +1,64 @@
+{
+  "id": "league-of-kingdoms",
+  "symbol": "loka",
+  "name": "League of Kingdoms",
+  "categories": [
+    "Gaming (GameFi)",
+    "NFT",
+    "Metaverse",
+    "Ethereum Ecosystem",
+    "Binance Launchpad",
+    "Gaming Governance Token",
+    "Gaming Utility Token",
+    "Strategy Games",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Sequoia Capital Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x61e90a50137e1f645c9ef4a0d3a4f01477738406"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "League of Kingdoms is one of the world's first blockchain MMO strategy games. Gamers build kingdoms, farm resources, fight monsters (PvE), and compete with enemy kingdoms (PvP) or alliances (MMO) where all the land plots are non-fungible tokens (NFT) along with tokenizable resources, skins, and many other game assets. Currently, the free-to-play strategy game is available on mobile (Android, iOS), as well as on the PC.\r\n\r\nThe project team aims to build a game universe where gamers can have fun together while capitalizing on their digital assets, skills, and play-time.\r\nThe project offers entertaining game content that appeals to not just crypto enthusiasts but also mainstream gamers."
+  },
+  "links": {
+    "homepage": [
+      "https://www.leagueofkingdoms.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x61e90a50137e1f645c9ef4a0d3a4f01477738406",
+      "https://platform.arkhamintelligence.com/explorer/token/league-of-kingdoms",
+      "https://ethplorer.io/address/0x61e90a50137e1f645c9ef4a0d3a4f01477738406"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.facebook.com/LofK.Official",
+      "https://discord.com/invite/lokofficial"
+    ],
+    "announcement_url": [
+      "https://medium.com/league-of-kingdoms-eng"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "LeagueKingdoms",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/22572/thumb/loka_64pix.png?1696521891",
+    "small": "https://coin-images.coingecko.com/coins/images/22572/small/loka_64pix.png?1696521891",
+    "large": "https://coin-images.coingecko.com/coins/images/22572/large/loka_64pix.png?1696521891"
+  },
+  "last_updated": "2025-07-11T09:54:36.975878+00:00"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "bridged-wrapped-ether-starkgate",
+  "symbol": "eth",
+  "name": "Bridged Ether (StarkGate)",
+  "categories": [
+    "Starknet Ecosystem",
+    "Bridged-Tokens"
+  ],
+  "asset_platform_id": "starknet",
+  "platforms": {
+    "starknet": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://starkgate.starknet.io/"
+    ],
+    "whitepaper": "https://docs.starknet.io/documentation/",
+    "blockchain_site": [
+      "https://starkscan.co/contract/0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+      "https://starkscan.co/token/0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+      "https://voyager.online/token/0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/qypnmzkhbc"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Starknet",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/32208/thumb/ethereum.png?1696752015",
+    "small": "https://coin-images.coingecko.com/coins/images/32208/small/ethereum.png?1696752015",
+    "large": "https://coin-images.coingecko.com/coins/images/32208/large/ethereum.png?1696752015"
+  },
+  "last_updated": "2025-07-11T09:50:28.712383+00:00"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "neuralai",
+  "symbol": "neural",
+  "name": "NEURALAI",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Gaming (GameFi)",
+    "Solana Ecosystem",
+    "Ethereum Ecosystem",
+    "Bittensor Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x32b053f2cba79f80ada5078cb6b305da92bde6e1",
+    "solana": "BNC5eVJZixJFykygncDuUK5TpRBsWZuT6eSA99YNh2cZ"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "Producing 3D content has been traditionally expensive and complex. Not anymore. NeuralAI leverages generative AI to make textual descriptions into detailed 3D models, reducing costs and complexity. Quickly produce 3D models from text prompts in our intuitive interface to craft 3D assets with ease: enter your description and our AI will materialize it into a 3D model.\r\n\r\nNeuralAI enables dramatic cost reductions and is the economical choice for 3D asset creation. Save on the costs traditionally associated with manual 3D modeling. No expertise required. No longer does creating 3D game asset require technical know-how, with NeuralAI, anyone can turn simple descriptions into a vivid 3D asset.\r\n\r\nTransforming textual input into 3D models for AR and beyond is now efficient and hassle-free with NeuralAI, eliminating the traditional barriers of cost and time."
+  },
+  "links": {
+    "homepage": [
+      "https://goneural.ai/"
+    ],
+    "whitepaper": "https://docs.goneural.ai/neuralai",
+    "blockchain_site": [
+      "https://etherscan.io/address/0x32b053f2cba79f80ada5078cb6b305da92bde6e1",
+      "https://platform.arkhamintelligence.com/explorer/token/neuralai",
+      "https://etherscan.io/token/0x32b053f2cba79f80ada5078cb6b305da92bde6e1",
+      "https://ethplorer.io/address/0x32b053f2cba79f80ada5078cb6b305da92bde6e1",
+      "https://solscan.io/token/BNC5eVJZixJFykygncDuUK5TpRBsWZuT6eSA99YNh2cZ"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "goneuralai",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "NeuralAIGeneral",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/36341/thumb/blackpfp.png?1733474630",
+    "small": "https://coin-images.coingecko.com/coins/images/36341/small/blackpfp.png?1733474630",
+    "large": "https://coin-images.coingecko.com/coins/images/36341/large/blackpfp.png?1733474630"
+  },
+  "last_updated": "2025-07-11T09:54:18.591277+00:00"
+}

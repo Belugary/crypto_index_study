@@ -1,0 +1,60 @@
+{
+  "id": "resolv",
+  "symbol": "resolv",
+  "name": "Resolv",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem",
+    "Coinbase Ventures Portfolio",
+    "Stablecoin Protocol",
+    "Delphi Ventures Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x259338656198ec7a76c729514d3cb45dfbf768a1",
+    "binance-smart-chain": "0xda6cef7f667d992a60eb823ab215493aa0c6b360"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://resolv.xyz/"
+    ],
+    "whitepaper": "https://docs.resolv.xyz/litepaper",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x259338656198ec7a76c729514d3cb45dfbf768a1",
+      "https://ethplorer.io/address/0x259338656198ec7a76c729514d3cb45dfbf768a1",
+      "https://bscscan.com/token/0xdA6CEF7F667d992A60EB823Ab215493aA0c6b360",
+      "https://binplorer.com/address/0xdA6CEF7F667d992A60EB823Ab215493aA0c6b360"
+    ],
+    "official_forum_url": [
+      "https://discord.com/invite/resolvcommunity",
+      "https://resolvlabs.substack.com/",
+      "https://resolv.xyz/blog"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ResolvLabs",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Resolv_Community",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/56092/thumb/resolv_token.png?1749800512",
+    "small": "https://coin-images.coingecko.com/coins/images/56092/small/resolv_token.png?1749800512",
+    "large": "https://coin-images.coingecko.com/coins/images/56092/large/resolv_token.png?1749800512"
+  },
+  "last_updated": "2025-07-11T09:51:45.214934+00:00"
+}

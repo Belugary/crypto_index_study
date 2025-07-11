@@ -1,0 +1,73 @@
+{
+  "id": "kujira",
+  "symbol": "kuji",
+  "name": "Kujira",
+  "categories": [
+    "Smart Contract Platform",
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "Layer 1 (L1)",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Osmosis Ecosystem",
+    "Secret Ecosystem"
+  ],
+  "asset_platform_id": "osmosis",
+  "platforms": {
+    "osmosis": "ibc/BB6BCDB515050BAE97516111873CCD7BCF1FD0CCB723CC12F3C4F704D6C646CE",
+    "optimistic-ethereum": "0x3a18dcc9745edcd1ef33ecb93b0b6eba5671e7ca",
+    "secret": "secret13hvh0rn0rcf5zr486yxlrucvwpzwqu2dsz6zu8",
+    "ethereum": "0x96543ef8d2c75c26387c1a319ae69c0bee6f3fe7",
+    "binance-smart-chain": "0x073690e6ce25be816e68f32dca3e11067c9fb5cc",
+    "arbitrum-one": "0x3a18dcc9745edcd1ef33ecb93b0b6eba5671e7ca"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Kujira is committed to levelling the playing field in decentralized finance by building dApps for regular crypto users."
+  },
+  "links": {
+    "homepage": [
+      "https://kujira.app/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://finder.kujira.app/",
+      "https://platform.arkhamintelligence.com/explorer/token/kujira",
+      "https://kujira.explorers.guru/",
+      "https://etherscan.io/token/0x96543ef8d2c75c26387c1a319ae69c0bee6f3fe7",
+      "https://ethplorer.io/address/0x96543ef8d2c75c26387c1a319ae69c0bee6f3fe7",
+      "https://arbiscan.io/token/0x3a18dcc9745edcd1ef33ecb93b0b6eba5671e7ca",
+      "https://optimistic.etherscan.io/token/0x3a18dcc9745edcd1ef33ecb93b0b6eba5671e7ca",
+      "https://www.mintscan.io/secret/address/secret13hvh0rn0rcf5zr486yxlrucvwpzwqu2dsz6zu8",
+      "https://bscscan.com/token/0x073690e6ce25be816e68f32dca3e11067c9fb5cc",
+      "https://binplorer.com/address/0x073690e6ce25be816e68f32dca3e11067c9fb5cc"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/team-kujira"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "TeamKujira",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Team-Kujira/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/20685/thumb/kuji-200x200.png?1696520085",
+    "small": "https://coin-images.coingecko.com/coins/images/20685/small/kuji-200x200.png?1696520085",
+    "large": "https://coin-images.coingecko.com/coins/images/20685/large/kuji-200x200.png?1696520085"
+  },
+  "last_updated": "2025-07-11T09:52:49.097680+00:00"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "edge",
+  "symbol": "edge",
+  "name": "Edge",
+  "categories": [
+    "Business Services",
+    "Ethereum Ecosystem",
+    "DePIN"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x4ec1b60b96193a64acae44778e51f7bff2007831"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2018-02-16",
+  "country_origin": "GB",
+  "description": {
+    "en": "Edge is the infrastructure of Web3. A peer-to-peer network and blockchain providing high performance decentralised web services, powered by the spare capacity all around us.\r\n\r\nEdge is a distributed computing paradigm that brings data storage and computation as close to the point of need as possible, pushing applications, data, and computing power away from centralized data centers. It is designed to reduce the volumes of data that must be moved, the consequent traffic, and the distance the data must travel, providing lower latency and reduced transmission costs.\r\n\r\nThe $EDGE token can be bridged in and out of the Edge Network on a 1:1 basis with $XE, the coin internal to the network that is used for the transfer of value, device staking and community governance.\r\n\r\nThe Edge Network is maintained by Edge Network Technologies, a not for profit company registered in England."
+  },
+  "links": {
+    "homepage": [
+      "https://edge.network",
+      "https://wiki.edge.network/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.edge.network/",
+      "https://platform.arkhamintelligence.com/explorer/token/edge",
+      "https://etherscan.io/token/0x4ec1b60b96193a64acae44778e51f7bff2007831",
+      "https://ethplorer.io/address/0x4ec1b60b96193a64acae44778e51f7bff2007831"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/edge_network_official"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/edgenetwork",
+      "https://www.linkedin.com/company/edgenetwork/"
+    ],
+    "announcement_url": [
+      "https://edge.medium.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "edgenetwork",
+    "facebook_username": "edgenetworktech",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "edgenetwork",
+    "subreddit_url": "https://www.reddit.com/r/edgenetwork",
+    "repos_url": {
+      "github": [
+        "https://github.com/edge"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/1848/thumb/EDGE.png?1696502846",
+    "small": "https://coin-images.coingecko.com/coins/images/1848/small/EDGE.png?1696502846",
+    "large": "https://coin-images.coingecko.com/coins/images/1848/large/EDGE.png?1696502846"
+  },
+  "last_updated": "2025-07-11T09:56:28.213390+00:00"
+}

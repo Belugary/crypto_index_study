@@ -1,0 +1,55 @@
+{
+  "id": "hex-trust-usdx",
+  "symbol": "usdx",
+  "name": "Hex Trust USD",
+  "categories": [
+    "Ethereum Ecosystem",
+    "Flare Network Ecosystem",
+    "Songbird Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xf8750b54d86be7ae9e32b4a0c826811198d63313",
+    "flare-network": "0x4a771cc1a39fdd8aa08b8ea51f7fd412e73b3d2b",
+    "songbird": "0x4a771cc1a39fdd8aa08b8ea51f7fd412e73b3d2b"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "USDX is an asset designed to be pegged to the USD, fully backed by at least a 1:1 amount of cash and cash-equivalent reserves and is available on multiple blockchains.\r\n\r\nIssued by Hex Trust issuance arm, HT Digital Asset, USDX brings a credible and reliable mediums of exchange to facilitate transactions across blockchain ecosystems. USDX is the perfect complement to Hex Trust’s vision: securing the permissionless future by building responsible digital asset solutions.\r\n\r\nWhat is the distribution model of USDX?\r\nUSDX is distributed through a process known as minting. When Authorised Merchants deposit USD into the designated account, an equivalent amount of USDX is minted and sent to their digital wallet.\r\n\r\nWhat is the ratio between USD and USDX?\r\nFor every USDX minted, there is at least 1 USD or an asset of equivalent fair value kept in reserve.\r\n\r\nWhat is the utility of the USDX token?\r\nBeyond being a stable store of value, USDX can be used in a variety of digital economy applications, from payments and settlement to smart contract interactions."
+  },
+  "links": {
+    "homepage": [
+      "https://www.htdigitalassets.com/",
+      "http://hextrust.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xf8750b54d86BE7aE9e32b4A0C826811198D63313",
+      "https://platform.arkhamintelligence.com/explorer/token/hex-trust-usdx",
+      "https://ethplorer.io/address/0xf8750b54d86BE7aE9e32b4A0C826811198D63313",
+      "https://songbird-explorer.flare.network/token/0x4a771cc1a39fdd8aa08b8ea51f7fd412e73b3d2b/token-transfers"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Hex_Trust",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "hextrustannouncements",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/38997/thumb/USDX.png?1719809776",
+    "small": "https://coin-images.coingecko.com/coins/images/38997/small/USDX.png?1719809776",
+    "large": "https://coin-images.coingecko.com/coins/images/38997/large/USDX.png?1719809776"
+  },
+  "last_updated": "2025-07-11T09:54:23.789640+00:00"
+}

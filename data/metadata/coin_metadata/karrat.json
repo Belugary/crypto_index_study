@@ -1,0 +1,54 @@
+{
+  "id": "karrat",
+  "symbol": "karrat",
+  "name": "Karrat",
+  "categories": [
+    "Infrastructure",
+    "Gaming (GameFi)",
+    "Ethereum Ecosystem",
+    "Gaming Governance Token"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xacd2c239012d17beb128b0944d49015104113650"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The KARRAT protocol is a decentralized gaming infrastructure layer, supported by $KARRAT and empowered by a truly decentralized community with a shared vision embracing gaming, entertainment and AI products catering for the new era.\r\n\r\nTo accelerate the evolution of gaming, entertainment, and AI-driven experiences with blockchain technology and a truly empowered community.\r\n\r\nThe KARRAT protocol pioneers a decentralized framework in gaming and entertainment, combining blockchain with community-driven collaboration. $KARRAT can animate ecosystems of games and products and the protocol makes tools available to support these industries and the adoption of KARRAT technology provides a unique, personalized gaming experience."
+  },
+  "links": {
+    "homepage": [
+      "https://www.karratcoin.com/"
+    ],
+    "whitepaper": "https://docs.karratcoin.com/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xacd2c239012d17beb128b0944d49015104113650",
+      "https://platform.arkhamintelligence.com/explorer/token/karrat",
+      "https://ethplorer.io/address/0xacd2c239012d17beb128b0944d49015104113650"
+    ],
+    "official_forum_url": [
+      "https://forum.karratcoin.com/"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "karratcoin",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/37237/thumb/SmallLogo.png?1714755426",
+    "small": "https://coin-images.coingecko.com/coins/images/37237/small/SmallLogo.png?1714755426",
+    "large": "https://coin-images.coingecko.com/coins/images/37237/large/SmallLogo.png?1714755426"
+  },
+  "last_updated": "2025-07-11T09:56:30.260303+00:00"
+}

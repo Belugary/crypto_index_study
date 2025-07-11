@@ -1,0 +1,62 @@
+{
+  "id": "edu-coin",
+  "symbol": "edu",
+  "name": "Open Campus",
+  "categories": [
+    "Education",
+    "BNB Chain Ecosystem",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem",
+    "Binance Launchpad",
+    "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xbdeae1ca48894a1759a8374d63925f21f2ee2639",
+    "ethereum": "0x26aad156ba8efa501b32b42ffcdc8413f90e9c99",
+    "polygon-pos": "0xb03e3b00baf9954bf1604d09a4dbd5cf88e1f695"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What is the project about?\r\nThe Open Campus Protocol is a decentralized solution for educators, content creators, parents, students, and co-publishers designed to address the major challenges in education today. Despite the critical role of educators in shaping the future generation, they are often undervalued and underpaid. Additionally, parents frequently lack control over their children's educational content.\r\n\r\nWhat makes your project unique?\r\nWe are the first education protocol that empowers teacher ecosystem to create, own, share and sell their educational content. We will create a EDU foundation that enables content creator to utilize NFT technology to monetize their creation with the financial support from co-publishers.\r\n\r\nHistory of your project.\r\nOpen Campus started in 2023, with the support from various launch partners like Animoca Brands, The Sandbox, TinyTap, etc. The protocol's main NFT publication - Publisher NFT was adopted by TinyTap and produced an auction last year with a sale of 243 ETH.\r\n\r\nWhat’s next for your project?\r\nWe will continue to build out the marketplace for content creator to create and sell assets, and enable foundation features such as Smart Donation and Scholarship Grants.\r\n\r\nWhat can your token be used for?\r\n\r\nIt will power all educational activities within the EDU Foundation, that includes a peer review system, Smart donation, purchase and selling of Publisher NFTs and Scholarship granting."
+  },
+  "links": {
+    "homepage": [
+      "https://www.opencampus.xyz/"
+    ],
+    "whitepaper": "https://open-campus.gitbook.io/open-campus-protocol-whitepaper/",
+    "blockchain_site": [
+      "https://bscscan.com/token/0xbdeae1ca48894a1759a8374d63925f21f2ee2639",
+      "https://platform.arkhamintelligence.com/explorer/token/edu-coin",
+      "https://etherscan.io/token/0x26aad156ba8efa501b32b42ffcdc8413f90e9c99",
+      "https://ethplorer.io/address/0x26aad156ba8efa501b32b42ffcdc8413f90e9c99",
+      "https://polygonscan.com/token/0xb03e3b00baf9954bf1604d09a4dbd5cf88e1f695",
+      "https://binplorer.com/address/0xbdeae1ca48894a1759a8374d63925f21f2ee2639"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/opencampus",
+      "https://opencampus-xyz.medium.com/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "opencampus_xyz",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/29948/thumb/EDU_Logo.png?1696528874",
+    "small": "https://coin-images.coingecko.com/coins/images/29948/small/EDU_Logo.png?1696528874",
+    "large": "https://coin-images.coingecko.com/coins/images/29948/large/EDU_Logo.png?1696528874"
+  },
+  "last_updated": "2025-07-11T09:53:32.419890+00:00"
+}

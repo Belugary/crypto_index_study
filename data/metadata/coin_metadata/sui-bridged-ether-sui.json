@@ -1,0 +1,46 @@
+{
+  "id": "sui-bridged-ether-sui",
+  "symbol": "sbeth",
+  "name": "Sui Bridged Ether (Sui)",
+  "categories": [
+    "Bridged-Tokens"
+  ],
+  "asset_platform_id": "sui",
+  "platforms": {
+    "sui": "0xd0e89b2af5e4910726fbcd8b8dd37bb79b29e5f83f7491bca830e94f7f226d29::eth::ETH"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://suiscan.xyz/mainnet/coin/0xd0e89b2af5e4910726fbcd8b8dd37bb79b29e5f83f7491bca830e94f7f226d29::eth::ETH/txs",
+      "https://suivision.xyz/coin/0xd0e89b2af5e4910726fbcd8b8dd37bb79b29e5f83f7491bca830e94f7f226d29::eth::ETH"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54567/thumb/sbeth.png?1740452820",
+    "small": "https://coin-images.coingecko.com/coins/images/54567/small/sbeth.png?1740452820",
+    "large": "https://coin-images.coingecko.com/coins/images/54567/large/sbeth.png?1740452820"
+  },
+  "last_updated": "2025-07-11T09:51:53.702485+00:00"
+}

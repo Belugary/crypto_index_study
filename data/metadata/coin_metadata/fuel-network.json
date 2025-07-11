@@ -1,0 +1,62 @@
+{
+  "id": "fuel-network",
+  "symbol": "fuel",
+  "name": "Fuel Network",
+  "categories": [
+    "Infrastructure",
+    "Smart Contract Platform",
+    "Impossible Finance Launchpad",
+    "Ethereum Ecosystem",
+    "Layer 2 (L2)",
+    "Centralized Exchange (CEX) Product",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x675b68aa4d9c2d3bb3f0397048e62e6b7192079c"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.fuel.network/",
+      "https://linktr.ee/fuel.network"
+    ],
+    "whitepaper": "https://docs.fuel.network/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x675B68AA4d9c2d3BB3F0397048e62E6B7192079c",
+      "https://ethplorer.io/address/0x675B68AA4d9c2d3BB3F0397048e62E6B7192079c"
+    ],
+    "official_forum_url": [
+      "https://forum.fuel.network/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/xfpK4Pe",
+      "https://fuel-labs.ghost.io/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "fuel_network",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/FuelLabs"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/29577/thumb/fuel.png?1696528516",
+    "small": "https://coin-images.coingecko.com/coins/images/29577/small/fuel.png?1696528516",
+    "large": "https://coin-images.coingecko.com/coins/images/29577/large/fuel.png?1696528516"
+  },
+  "last_updated": "2025-07-11T09:52:50.631944+00:00"
+}

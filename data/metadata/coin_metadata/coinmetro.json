@@ -1,0 +1,52 @@
+{
+  "id": "coinmetro",
+  "symbol": "xcm",
+  "name": "Coinmetro",
+  "categories": [
+    "Exchange-based Tokens",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x36ac219f90f5a6a3c77f2a7b660e3cc701f68e25"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "HK",
+  "description": {
+    "en": "CoinMetro, a one-of-a-kind, licensed, and regulated financial platform that will fuel the future of blockchain innovation. Through a tokenized ecosystem CoinMetro provides a gateway for both novice and professional traders and investors to get involved in the crypto space with an ease of access not yet seen in the industry. Our goal, above all else, is to make sure that your overall CoinMetro experience is nothing short of exemplary."
+  },
+  "links": {
+    "homepage": [
+      "https://coinmetro.com/"
+    ],
+    "whitepaper": "https://coinmetro.com/whitepaper/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x36ac219f90f5a6a3c77f2a7b660e3cc701f68e25",
+      "https://platform.arkhamintelligence.com/explorer/token/coinmetro",
+      "https://ethplorer.io/address/0x36ac219f90f5a6a3c77f2a7b660e3cc701f68e25"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/coinmetro"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "CoinMetro",
+    "facebook_username": "CoinMetro",
+    "bitcointalk_thread_identifier": 2540667,
+    "telegram_channel_identifier": "CoinMetro",
+    "subreddit_url": "https://www.reddit.com/r/CoinMetro",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/3125/thumb/XCM_Token_Logo_.png?1696503850",
+    "small": "https://coin-images.coingecko.com/coins/images/3125/small/XCM_Token_Logo_.png?1696503850",
+    "large": "https://coin-images.coingecko.com/coins/images/3125/large/XCM_Token_Logo_.png?1696503850"
+  },
+  "last_updated": "2025-07-11T09:53:13.999963+00:00"
+}

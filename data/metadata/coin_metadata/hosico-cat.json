@@ -1,0 +1,52 @@
+{
+  "id": "hosico-cat",
+  "symbol": "hosico",
+  "name": "Hosico Cat",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Solana Meme",
+    "Cat-Themed",
+    "LetsBONK.fun Ecosystem",
+    "Glue Ecosystem"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "9wK8yN6iz1ie5kEJkvZCTxyN1x5sTdNfx8yeMY8Ebonk",
+    "glue": "0x8f799534708044e27ec8f834edca4e90a81a527d"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/9wK8yN6iz1ie5kEJkvZCTxyN1x5sTdNfx8yeMY8Ebonk",
+      "https://explorer.glue.net/token/0x8F799534708044e27ec8f834EDCA4e90a81A527d"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Hosico_on_sol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55409/thumb/hosicodex.png?1745953673",
+    "small": "https://coin-images.coingecko.com/coins/images/55409/small/hosicodex.png?1745953673",
+    "large": "https://coin-images.coingecko.com/coins/images/55409/large/hosicodex.png?1745953673"
+  },
+  "last_updated": "2025-07-11T09:52:37.719952+00:00"
+}

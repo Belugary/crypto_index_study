@@ -1,0 +1,57 @@
+{
+  "id": "haedal",
+  "symbol": "haedal",
+  "name": "Haedal Protocol",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "Liquid Staking Governance Tokens",
+    "Liquid Staking",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "sui",
+  "platforms": {
+    "sui": "0x3a304c7feba2d819ea57c3542d68439ca2c386ba02159c740f7b406e592c62ea::haedal::HAEDAL",
+    "binance-smart-chain": "0x3d9be0ac1001cd81c32464276d863d2ffdca4967"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.haedal.xyz/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://suiscan.xyz/mainnet/coin/0x3a304c7feba2d819ea57c3542d68439ca2c386ba02159c740f7b406e592c62ea::haedal::HAEDAL/txs",
+      "https://suivision.xyz/coin/0x3a304c7feba2d819ea57c3542d68439ca2c386ba02159c740f7b406e592c62ea::haedal::HAEDAL",
+      "https://bscscan.com/token/0x3d9be0ac1001cd81c32464276d863d2ffdca4967",
+      "https://binplorer.com/address/0x3d9be0ac1001cd81c32464276d863d2ffdca4967"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/haedalprotocol"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "haedalprotocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55420/thumb/haedal.jpg?1745917281",
+    "small": "https://coin-images.coingecko.com/coins/images/55420/small/haedal.jpg?1745917281",
+    "large": "https://coin-images.coingecko.com/coins/images/55420/large/haedal.jpg?1745917281"
+  },
+  "last_updated": "2025-07-11T09:54:14.029344+00:00"
+}

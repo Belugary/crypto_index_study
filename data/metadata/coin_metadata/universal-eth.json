@@ -1,0 +1,59 @@
+{
+  "id": "universal-eth",
+  "symbol": "unieth",
+  "name": "Universal ETH",
+  "categories": [
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xf1376bcef0f78459c0ed0ba5ddce976f1ddf51f4",
+    "arbitrum-one": "0x3d15fd46ce9e551498328b1c83071d9509e2c3a0"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Bedrock's native tokenized version of staked Ether is known as uniETH.\r\n\r\nuniETH represents the staked ETH in Bedrock plus all future staking rewards. uniETH is non-rebasing, i.e. does not grow in quantity over time but grows in value instead. In other words, 1 uniETH will be worth more than 1 ETH as time goes on, and its value will continue to increase as more time passes.\r\n\r\nLaunched by RockX, Bedrock is a non-custodial solution that satisfies the requirements of institutions seeking a basis for large-scale liquid staking. By bringing new levels of transparency and security to liquid staking, Bedrock allows institutions to unlock liquidity safely by adhering to regulations while leveraging a true crypto-native solution.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://unieth.rockx.com",
+      "https://www.rockx.com"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xf1376bcef0f78459c0ed0ba5ddce976f1ddf51f4",
+      "https://platform.arkhamintelligence.com/explorer/token/universal-eth",
+      "https://ethplorer.io/address/0xf1376bcef0f78459c0ed0ba5ddce976f1ddf51f4",
+      "https://arbiscan.io/token/0x3d15fd46ce9e551498328b1c83071d9509e2c3a0"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/rockx-official"
+    ],
+    "chat_url": [
+      "https://discord.gg/YJzs4UwsTp"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "rockx_official",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/RockX-SG/stake"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/28477/thumb/uniETH_200.png?1696527471",
+    "small": "https://coin-images.coingecko.com/coins/images/28477/small/uniETH_200.png?1696527471",
+    "large": "https://coin-images.coingecko.com/coins/images/28477/large/uniETH_200.png?1696527471"
+  },
+  "last_updated": "2025-07-11T09:53:05.291857+00:00"
+}

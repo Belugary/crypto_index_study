@@ -1,0 +1,49 @@
+{
+  "id": "celium",
+  "symbol": "sn51",
+  "name": "Celium",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Bittensor Ecosystem",
+    "Bittensor Subnets"
+  ],
+  "asset_platform_id": "bittensor",
+  "platforms": {
+    "bittensor": "51"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://celiumcompute.ai/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://taostats.io/subnets/51/chart"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "celiumcompute",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/66328/thumb/cellium.jpg?1749225024",
+    "small": "https://coin-images.coingecko.com/coins/images/66328/small/cellium.jpg?1749225024",
+    "large": "https://coin-images.coingecko.com/coins/images/66328/large/cellium.jpg?1749225024"
+  },
+  "last_updated": "2025-07-11T09:52:50.129316+00:00"
+}

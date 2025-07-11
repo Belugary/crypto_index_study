@@ -1,0 +1,56 @@
+{
+  "id": "redstone-oracles",
+  "symbol": "red",
+  "name": "RedStone",
+  "categories": [
+    "Infrastructure",
+    "Oracle",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xc43c6bfeda065fe2c4c11765bf838789bd0bb5de"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "RedStone Is The Fastest Growing oracle, specialising in yield-bearing collateral for lending markets and securing $10bn+ . Blue chip DeFi protocols are our clients including Spark, Morpho, Compound, Pendle, Venus, Lido, EtherFi, Ethena, Puffer, Balancer, Lombard, Enzyme, Frax, Agora, M^0 and 80+ other Clients. RedStone provides a wide variety of in-demand assets such as LSTs, LRTs, Bitcoin LSTs and many others."
+  },
+  "links": {
+    "homepage": [
+      "https://www.redstone.finance/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xc43C6bfeDA065fE2c4c11765Bf838789bd0BB5dE",
+      "https://ethplorer.io/address/0xc43C6bfeDA065fE2c4c11765Bf838789bd0BB5dE"
+    ],
+    "official_forum_url": [
+      "https://blog.redstone.finance/"
+    ],
+    "chat_url": [
+      "https://discord.gg/redstonedefi"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "redstone_defi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "redstonefinance",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/redstone-finance"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53640/thumb/RedStone_Logo_New_White.png?1740640919",
+    "small": "https://coin-images.coingecko.com/coins/images/53640/small/RedStone_Logo_New_White.png?1740640919",
+    "large": "https://coin-images.coingecko.com/coins/images/53640/large/RedStone_Logo_New_White.png?1740640919"
+  },
+  "last_updated": "2025-07-11T09:50:07.219763+00:00"
+}

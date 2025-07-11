@@ -1,0 +1,52 @@
+{
+  "id": "beets-staked-sonic",
+  "symbol": "sts",
+  "name": "Beets Staked Sonic",
+  "categories": [
+    "Liquid Staking Tokens",
+    "Sonic Ecosystem"
+  ],
+  "asset_platform_id": "sonic",
+  "platforms": {
+    "sonic": "0xe5da20f15420ad15de0fa650600afc998bbe3955"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "stS is a liquid-staked token that users receive when they stake S on the Beets platform. The value of stS naturally appreciates in relation to S thanks to native network staking rewards from validator delegation being automatically compounded within the token.\r\nDue to the management of underlying nodes, validators earn 15% of the overall stS staking rewards. Beets also takes a 10% protocol fee on the rewards after the validator fees. The APY displayed on the UI is the APY the user receives (all fees have been subtracted automatically).\r\nTo stake, users simply need to head to the stS page and select how much S they wish to deposit. As an alternative to staking, users can swap out of stS on DEXs by swapping their stS for S on the Swap Page."
+  },
+  "links": {
+    "homepage": [
+      "https://beets.fi/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://sonicscan.org/token/0xe5da20f15420ad15de0fa650600afc998bbe3955"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://beets.fi/discord"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "beets_fi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/beethovenxfi"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/52937/thumb/token-beets-staked-sonic.png?1734712659",
+    "small": "https://coin-images.coingecko.com/coins/images/52937/small/token-beets-staked-sonic.png?1734712659",
+    "large": "https://coin-images.coingecko.com/coins/images/52937/large/token-beets-staked-sonic.png?1734712659"
+  },
+  "last_updated": "2025-07-11T09:50:06.540949+00:00"
+}

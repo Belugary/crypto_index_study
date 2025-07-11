@@ -1,0 +1,54 @@
+{
+  "id": "zora",
+  "symbol": "zora",
+  "name": "Zora",
+  "categories": [
+    "Infrastructure",
+    "Media",
+    "Smart Contract Platform",
+    "NFT",
+    "Layer 2 (L2)",
+    "Base Ecosystem",
+    "Coinbase Ventures Portfolio",
+    "Zora Ecosystem"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0x1111111111166b7fe7bd91427724b487980afc69"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://zora.co/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://basescan.org/token/0x1111111111166b7fe7bd91427724b487980afc69"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "zora",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54693/thumb/zora.jpg?1741094751",
+    "small": "https://coin-images.coingecko.com/coins/images/54693/small/zora.jpg?1741094751",
+    "large": "https://coin-images.coingecko.com/coins/images/54693/large/zora.jpg?1741094751"
+  },
+  "last_updated": "2025-07-11T09:54:53.088468+00:00"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "alpha-quark-token",
+  "symbol": "aqt",
+  "name": "Alpha Quark",
+  "categories": [
+    "NFT",
+    "Ethereum Ecosystem",
+    "NFTFi",
+    "NFT Lending/Borrowing"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x2a9bdcff37ab68b95a53435adfd8892e86084f93"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "SC",
+  "description": {
+    "en": "Alpha Quark is a marketplace where users can buy or sell tokenized intellectual property assets. Even though intellectual property is one of the most valuable assets, only limited players could have had access to it. Alpha Quark will enable people to have access to intellectual property."
+  },
+  "links": {
+    "homepage": [
+      "https://alphaquark.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x2a9bdcff37ab68b95a53435adfd8892e86084f93",
+      "https://platform.arkhamintelligence.com/explorer/token/alpha-quark-token",
+      "https://ethplorer.io/address/0x2a9bdcff37ab68b95a53435adfd8892e86084f93"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Alphaquark_",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "AlphaQuark",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/alphaquark/Alpha-Quark"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/12872/thumb/alpha_quark_logo.png?1696512660",
+    "small": "https://coin-images.coingecko.com/coins/images/12872/small/alpha_quark_logo.png?1696512660",
+    "large": "https://coin-images.coingecko.com/coins/images/12872/large/alpha_quark_logo.png?1696512660"
+  },
+  "last_updated": "2025-07-11T09:55:07.674643+00:00"
+}

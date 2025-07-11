@@ -1,0 +1,55 @@
+{
+  "id": "cargox",
+  "symbol": "cxo",
+  "name": "CargoX",
+  "categories": [
+    "Infrastructure",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xb6ee9668771a79be7967ee29a63d4184f8097143",
+    "polygon-pos": "0xf2ae0038696774d65e67892c9d301c5f2cbbda58"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2018-01-18",
+  "country_origin": "SI",
+  "description": {
+    "en": "The CargoX Platform gives you the world’s easiest way to upload documents and provides the tools for their secure and instant transaction. What is new is that you can also transfer ownership of documents!"
+  },
+  "links": {
+    "homepage": [
+      "https://cargox.io/"
+    ],
+    "whitepaper": "https://cargox.io/CargoX-Whitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xb6ee9668771a79be7967ee29a63d4184f8097143",
+      "https://platform.arkhamintelligence.com/explorer/token/cargox",
+      "https://ethplorer.io/address/0xb6ee9668771a79be7967ee29a63d4184f8097143",
+      "https://polygonscan.com/token/0xf2ae0038696774d65e67892c9d301c5f2cbbda58"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://cargox.io/blog/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "CargoXio ",
+    "facebook_username": "cargox.io",
+    "bitcointalk_thread_identifier": 2619373,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/CargoXio/",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/2580/thumb/cargox.png?1696503384",
+    "small": "https://coin-images.coingecko.com/coins/images/2580/small/cargox.png?1696503384",
+    "large": "https://coin-images.coingecko.com/coins/images/2580/large/cargox.png?1696503384"
+  },
+  "last_updated": "2025-07-11T09:54:16.485103+00:00"
+}

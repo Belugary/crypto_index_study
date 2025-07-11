@@ -1,0 +1,56 @@
+{
+  "id": "hippo-protocol",
+  "symbol": "hp",
+  "name": "Hippo Protocol",
+  "categories": [
+    "Healthcare",
+    "Smart Contract Platform",
+    "Layer 1 (L1)"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "HK",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://hippoprotocol.ai/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://river.hippoprotocol.ai/"
+    ],
+    "official_forum_url": [
+      "https://medium.com/hippoprotocol",
+      "https://www.linkedin.com/company/hippoprotocol"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/hippoprotocol"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Hippo_Protocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "hippoprotocol",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/hippo-protocol/hippo-protocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55508/thumb/hpo.png?1746434886",
+    "small": "https://coin-images.coingecko.com/coins/images/55508/small/hpo.png?1746434886",
+    "large": "https://coin-images.coingecko.com/coins/images/55508/large/hpo.png?1746434886"
+  },
+  "last_updated": "2025-07-11T09:52:04.143237+00:00"
+}

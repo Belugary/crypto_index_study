@@ -1,0 +1,57 @@
+{
+  "id": "czs-dog",
+  "symbol": "broccoli",
+  "name": "CZ's Dog",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Meme",
+    "Dog-Themed",
+    "Binance Alpha Spotlight",
+    "Four.meme Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x6d5ad1592ed9d6d1df9b93c793ab759573ed6714"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.broccoli.ngo/",
+      "https://four.meme/token/0x6d5ad1592ed9d6d1df9b93c793ab759573ed6714"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x6d5ad1592ed9d6d1df9b93c793ab759573ed6714",
+      "https://binplorer.com/address/0x6d5ad1592ed9d6d1df9b93c793ab759573ed6714"
+    ],
+    "official_forum_url": [
+      "https://www.binance.com/en/square/profile/BroccoliBNB"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Broccoli714_CTO",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Broccoli_BNB",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Broccoli-CTO/BroccoliNGO-Dapp"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54400/thumb/broccoli.jpg?1739504145",
+    "small": "https://coin-images.coingecko.com/coins/images/54400/small/broccoli.jpg?1739504145",
+    "large": "https://coin-images.coingecko.com/coins/images/54400/large/broccoli.jpg?1739504145"
+  },
+  "last_updated": "2025-07-11T09:52:54.199631+00:00"
+}

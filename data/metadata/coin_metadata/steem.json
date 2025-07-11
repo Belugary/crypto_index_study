@@ -1,0 +1,57 @@
+{
+  "id": "steem",
+  "symbol": "steem",
+  "name": "Steem",
+  "categories": [
+    "SocialFi"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Delegated Proof-of-Stake",
+  "genesis_date": "2016-03-24",
+  "country_origin": "",
+  "description": {
+    "en": "Steem is a cryptocurrency that rewards users for community building by posting and upvoting valuable content for others. Steem was inspired from the success of Reddit where the community helped enrich the shareholders. Steem aims to help distribute the rewards to the community members who help create the community in the first place. Steem aims to provide various services to its members such as a source of curated news, Q&amp;A, job boards etc. The founders of Steem came from BitShares with Dan Larimer involved as well.\r\n\r\nSteem’s main platform, called Steemit, is a social media network built on top of the Steem blockchain. Steemit is similar to popular content-driven social networks like Reddit and Medium, but it rewards users with cryptocurrency for their participation. Fundamentally, the more value a particular piece of content provides to a greater number of people, the more the individuals responsible for creating and curating that content can earn.\r\n\r\nUsers cast votes, creating a hierarchy of content. The more upvotes a post gets, the more it will earn. The platform also allows for downvotes, giving participants more flexibility when it comes to rating content. Steemit is meritocratic, meaning users that hold more currency can cast votes with greater influence.\r\n\r\nThe Steemit community even has another service to offer to its customers. D.tube, which is considered to be very similar to YouTube, is Blockchain based and the users can realize the difference between the traditional video publishing websites and D.tube, as the amount of money earned is also displayed beside the post apart from likes shares and comments. The Steemit community is accused of posting plagiarize contents on their publishing website. The irony seems to be reaching highest levels when the original content doesn’t receive much appreciation and income than the copied versions of it.\""
+  },
+  "links": {
+    "homepage": [
+      "https://steem.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://steemdb.io/",
+      "https://explorer.energi.network/token/0x18Cd49ABDAf652EAB2C802608CD63F9505a15bC0"
+    ],
+    "official_forum_url": [
+      "https://steemit.com/",
+      "https://busy.org/"
+    ],
+    "chat_url": [
+      "https://www.facebook.com/steemit/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SteemNetwork",
+    "facebook_username": "steemnetwork",
+    "bitcointalk_thread_identifier": 1410943,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/steem/",
+    "repos_url": {
+      "github": [
+        "https://github.com/steemit/steem",
+        "https://github.com/steemit/condenser",
+        "https://github.com/steemit/hivemind"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/398/thumb/steem.png?1696501691",
+    "small": "https://coin-images.coingecko.com/coins/images/398/small/steem.png?1696501691",
+    "large": "https://coin-images.coingecko.com/coins/images/398/large/steem.png?1696501691"
+  },
+  "last_updated": "2025-07-11T09:51:04.757666+00:00"
+}

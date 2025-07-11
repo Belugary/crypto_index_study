@@ -1,0 +1,56 @@
+{
+  "id": "kofi-aptos",
+  "symbol": "kapt",
+  "name": "Kofi Aptos",
+  "categories": [
+    "Liquid Staking Tokens",
+    "Aptos Ecosystem",
+    "Liquid Staked APT\t"
+  ],
+  "asset_platform_id": "aptos",
+  "platforms": {
+    "aptos": "0x821c94e69bc7ca058c913b7b5e6b0a5c9fd1523d58723a966fb8c1f5ea888105"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "Kofi Finance is transforming staking on Aptos by introducing MEV revenue sharing, ensuring that stakers earn enhanced rewards while maintaining full liquidity. Unlike traditional staking, where assets are locked, Kofi issues a liquid staking token (LST) that can be freely traded, used in DeFi, or redeemed for the underlying staked assets—allowing users to earn staking rewards without sacrificing liquidity."
+  },
+  "links": {
+    "homepage": [
+      "https://kofi.finance",
+      "https://app.kofi.finance"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.aptoslabs.com/fungible_asset/0x821c94e69bc7ca058c913b7b5e6b0a5c9fd1523d58723a966fb8c1f5ea888105?network=mainnet",
+      "https://aptscan.ai/coins/0x821c94e69bc7ca058c913b7b5e6b0a5c9fd1523d58723a966fb8c1f5ea888105",
+      "https://tracemove.io/coin/0x821c94e69bc7ca058c913b7b5e6b0a5c9fd1523d58723a966fb8c1f5ea888105"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/pK5QGDTNxf"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "kofi_finance",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/KofiFinance"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/66508/thumb/kapt-200x200.png?1749577040",
+    "small": "https://coin-images.coingecko.com/coins/images/66508/small/kapt-200x200.png?1749577040",
+    "large": "https://coin-images.coingecko.com/coins/images/66508/large/kapt-200x200.png?1749577040"
+  },
+  "last_updated": "2025-07-11T09:54:43.920601+00:00"
+}

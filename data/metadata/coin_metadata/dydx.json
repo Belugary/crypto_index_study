@@ -1,0 +1,63 @@
+{
+  "id": "dydx",
+  "symbol": "ethdydx",
+  "name": "dYdX",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Exchange-based Tokens",
+    "Decentralized Finance (DeFi)",
+    "Derivatives",
+    "Perpetuals",
+    "Ethereum Ecosystem",
+    "Paradigm Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x92d6c1e31e14520e676a687f0a93788b716beff5"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "US",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://dydx.trade/",
+      "https://www.dydx.foundation/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x92d6c1e31e14520e676a687f0a93788b716beff5",
+      "https://platform.arkhamintelligence.com/explorer/token/dydx",
+      "https://ethplorer.io/address/0x92d6c1e31e14520e676a687f0a93788b716beff5"
+    ],
+    "official_forum_url": [
+      "https://dydx.exchange/blog",
+      "https://dydx.forum/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/dydx"
+    ],
+    "announcement_url": [],
+    "snapshot_url": "https://snapshot.org/#/dydxgov.eth",
+    "twitter_screen_name": "dydxfoundation",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/dydxprotocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/17500/thumb/hjnIm9bV.jpg?1696517040",
+    "small": "https://coin-images.coingecko.com/coins/images/17500/small/hjnIm9bV.jpg?1696517040",
+    "large": "https://coin-images.coingecko.com/coins/images/17500/large/hjnIm9bV.jpg?1696517040"
+  },
+  "last_updated": "2025-07-11T09:55:35.843601+00:00"
+}

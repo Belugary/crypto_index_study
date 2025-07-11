@@ -1,0 +1,58 @@
+{
+  "id": "wrapped-quil",
+  "symbol": "quil",
+  "name": "Wrapped QUIL",
+  "categories": [
+    "Smart Contract Platform",
+    "Wrapped-Tokens",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x8143182a775c54578c8b7b3ef77982498866945d"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Quilibrium, the decentralized MPC platform as a service — This is NOT an official account. It is maintained by the ℚ-community.\r\n\r\nWhat is Quilibrium?\r\nQuilibrium is a decentralized internet layer protocol, providing the creature comforts of Cloud without sacrificing privacy or scalability. With familiar API-compatible SDKs, switching to NoCloud may be easier than you think.\r\n\r\nA New decentralized network model which leverages techniques that differ from common block chain constructions. Directly, \r\nit does not build consensus around a block chain, but indirectly, a block chain or any other data structure may be maintained within the shards of the hypergraph.\r\n\r\nQuilibrium’s network design utilizes cryptographic approaches to provide unforgeably valid transitions of state, such that adverse conditions are structurally impossible, and malicious behaviors are implicitly punishable by removal and reveal."
+  },
+  "links": {
+    "homepage": [
+      "https://quilibrium.com/",
+      "https://quilibrium.com/docs"
+    ],
+    "whitepaper": "https://quilibrium.com/quilibrium.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x8143182a775c54578c8b7b3ef77982498866945d",
+      "https://platform.arkhamintelligence.com/explorer/token/wrapped-quil",
+      "https://ethplorer.io/address/0x8143182a775c54578c8b7b3ef77982498866945d"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/quilibrium"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "quilibrium",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://www.github.com/QuilibriumNetwork"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/37978/thumb/Wrapped_QUIL.png?1716197853",
+    "small": "https://coin-images.coingecko.com/coins/images/37978/small/Wrapped_QUIL.png?1716197853",
+    "large": "https://coin-images.coingecko.com/coins/images/37978/large/Wrapped_QUIL.png?1716197853"
+  },
+  "last_updated": "2025-07-11T09:53:18.138616+00:00"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "messier",
+  "symbol": "m87",
+  "name": "MESSIER",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x80122c6a83c8202ea365233363d3f4837d13e888"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The team at Messier is developing a wide range of decentralized products & services, designed to help further the DeFi space by improving the many facets that are needed in order for cryptocurrencies to be viable alternatives to fiat currencies.\r\n\r\nMessier products & services will offer solutions to common problems consumers face in the DeFi sector. These products & services will launch across a multitude of networks and will collect user fees that are sent to the treasury of the Messier DAO named Virgo. \r\n\r\nVirgo will operate solely on smart contracts and will use the funds in the treasury to purchase tokens that are voted on by M87 token stakers. Virgo's immutable smart contracts will purchase the proposed upon tokens and delegate these to M87 token stakers. \r\n\r\nThere are smart contracts in Virgo that ensure there will be frequent buy & burns on the M87 token, which will help increase its value by adding liquidity to its pair & reducing its circulating supply."
+  },
+  "links": {
+    "homepage": [
+      "https://messier.app/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x80122c6a83c8202ea365233363d3f4837d13e888",
+      "https://platform.arkhamintelligence.com/explorer/token/messier",
+      "https://ethplorer.io/address/0x80122c6a83c8202ea365233363d3f4837d13e888"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://medium.com/@MessierM87"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "MessierM87",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "MessierM87Community",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/MessierM87"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/25957/thumb/MESSIERlogonew_%281%29.png?1696525036",
+    "small": "https://coin-images.coingecko.com/coins/images/25957/small/MESSIERlogonew_%281%29.png?1696525036",
+    "large": "https://coin-images.coingecko.com/coins/images/25957/large/MESSIERlogonew_%281%29.png?1696525036"
+  },
+  "last_updated": "2025-07-11T09:52:16.307638+00:00"
+}

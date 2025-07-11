@@ -1,0 +1,73 @@
+{
+  "id": "satoshi-stablecoin",
+  "symbol": "satusd",
+  "name": "Satoshi Stablecoin",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "BNB Chain Ecosystem",
+    "Base Ecosystem",
+    "Bitlayer Ecosystem",
+    "BEVM Ecosystem",
+    "Crypto-backed Stablecoin",
+    "BSquared Network Ecosystem",
+    "Hemi Ecosystem"
+  ],
+  "asset_platform_id": "bob-network",
+  "platforms": {
+    "bob-network": "0xecf21b335b41f9d5a89f6186a99c19a3c467871f",
+    "binance-smart-chain": "0xb4818bb69478730ef4e33cc068dd94278e2766cb",
+    "bsquared-network": "0x8dd8b12d55c73c08294664a5915475ed1c8b1f6f",
+    "bitlayer": "0xba50ddac6b2f5482ca064efac621e0c7c0f6a783",
+    "bevm": "0x2031c8848775a5efb7cff2a4edbe3f04c50a1478",
+    "hemi": "0xb4818bb69478730ef4e33cc068dd94278e2766cb",
+    "base": "0x70654aad8b7734dc319d0c3608ec7b32e03fa162"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Satoshi Protocol is the first universal stablecoin protocol backed by Bitcoin, allowing users to deposit BTC as collateral to borrow stablecoin $SAT.  \r\nThis serves as the cornerstone for BTCfi to unleash trillions worth of Bitcoin. "
+  },
+  "links": {
+    "homepage": [
+      "https://satoshiprotocol.org/"
+    ],
+    "whitepaper": "https://docs.satoshiprotocol.org/",
+    "blockchain_site": [
+      "https://explorer.gobob.xyz/token/0xecf21b335B41f9d5A89f6186A99c19a3c467871f",
+      "https://bscscan.com/token/0xb4818BB69478730EF4e33Cc068dD94278e2766cB",
+      "https://binplorer.com/address/0xb4818BB69478730EF4e33Cc068dD94278e2766cB",
+      "https://explorer.bsquared.network/address/0x8dD8b12d55C73c08294664a5915475eD1c8b1F6f",
+      "https://scan-mainnet.bevm.io/token/0x2031c8848775a5EFB7cfF2A4EdBE3F04c50A1478",
+      "https://explorer.hemi.xyz/token/0xb4818BB69478730EF4e33Cc068dD94278e2766cB",
+      "https://basescan.org/token/0x70654AaD8B7734dc319d0C3608ec7B32e03FA162",
+      "https://arbiscan.io/token/0xb4818BB69478730EF4e33Cc068dD94278e2766cB"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/satoshiprotocol",
+      "https://medium.com/@satoshi-protocol"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SatoshiBEVM",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "satoshi_sat",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Satoshi-Protocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/37760/thumb/Instagram_post_-_25.png?1715475306",
+    "small": "https://coin-images.coingecko.com/coins/images/37760/small/Instagram_post_-_25.png?1715475306",
+    "large": "https://coin-images.coingecko.com/coins/images/37760/large/Instagram_post_-_25.png?1715475306"
+  },
+  "last_updated": "2025-07-11T09:51:03.755356+00:00"
+}

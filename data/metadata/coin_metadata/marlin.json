@@ -1,0 +1,68 @@
+{
+  "id": "marlin",
+  "symbol": "pond",
+  "name": "Marlin",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Infrastructure",
+    "Smart Contract Platform",
+    "Decentralized Finance (DeFi)",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Zero Knowledge (ZK)",
+    "DWF Labs Portfolio",
+    "Coinbase Ventures Portfolio",
+    "Pantera Capital Portfolio",
+    "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x57b946008913b82e4df85f501cbaed910e58d26c",
+    "arbitrum-one": "0xda0a57b710768ae17941a9fa33f8b720c8bd9ddd"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "High-performance network infrastructure for modern decentralized networks\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.marlin.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x57b946008913b82e4df85f501cbaed910e58d26c",
+      "https://platform.arkhamintelligence.com/explorer/token/marlin",
+      "https://ethplorer.io/address/0x57b946008913b82e4df85f501cbaed910e58d26c",
+      "https://arbiscan.io/token/0xda0a57b710768ae17941a9fa33f8b720c8bd9ddd"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/pdQZyyy",
+      "https://blog.marlin.org/"
+    ],
+    "announcement_url": [
+      "https://www.marlin.pro/blog"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "marlinprotocol",
+    "facebook_username": "marlinprotocol",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "marlinprotocol",
+    "subreddit_url": "https://www.reddit.com/r/marlinprotocol/",
+    "repos_url": {
+      "github": [
+        "https://github.com/marlinprotocol/OpenWeaver"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/8903/thumb/200x200.png?1706115827",
+    "small": "https://coin-images.coingecko.com/coins/images/8903/small/200x200.png?1706115827",
+    "large": "https://coin-images.coingecko.com/coins/images/8903/large/200x200.png?1706115827"
+  },
+  "last_updated": "2025-07-11T09:51:06.330552+00:00"
+}

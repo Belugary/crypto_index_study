@@ -1,0 +1,50 @@
+{
+  "id": "avalanche-bridged-weth-avalanche",
+  "symbol": "weth",
+  "name": "Avalanche Bridged WETH (Avalanche)",
+  "categories": [
+    "Avalanche Ecosystem",
+    "Bridged WETH",
+    "Bridged-Tokens"
+  ],
+  "asset_platform_id": "avalanche",
+  "platforms": {
+    "avalanche": "0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.avax.network/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://avascan.info/blockchain/c/address/0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab/token",
+      "https://platform.arkhamintelligence.com/explorer/token/avalanche-bridged-weth-avalanche"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39707/thumb/WETH.PNG?1723730205",
+    "small": "https://coin-images.coingecko.com/coins/images/39707/small/WETH.PNG?1723730205",
+    "large": "https://coin-images.coingecko.com/coins/images/39707/large/WETH.PNG?1723730205"
+  },
+  "last_updated": "2025-07-11T09:52:22.170021+00:00"
+}

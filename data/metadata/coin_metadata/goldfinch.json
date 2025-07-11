@@ -1,0 +1,62 @@
+{
+  "id": "goldfinch",
+  "symbol": "gfi",
+  "name": "Goldfinch",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Lending/Borrowing Protocols",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "Coinbase Ventures Portfolio",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "RWA Protocol",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xdab396ccf3d84cf2d07c4454e10c8a6f5b008d2b"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Goldfinch is a DeFi protocol that brings crypto loans to the real world. "
+  },
+  "links": {
+    "homepage": [
+      "https://goldfinch.finance/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xdab396ccf3d84cf2d07c4454e10c8a6f5b008d2b",
+      "https://platform.arkhamintelligence.com/explorer/token/goldfinch",
+      "https://ethplorer.io/address/0xdab396ccf3d84cf2d07c4454e10c8a6f5b008d2b"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/HVeaca3fN8"
+    ],
+    "announcement_url": [
+      "https://medium.com/goldfinch-fi"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "goldfinch_fi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "goldfinch_finance",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/goldfinch-eng/community-docs"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/19081/thumb/GOLDFINCH.png?1696518531",
+    "small": "https://coin-images.coingecko.com/coins/images/19081/small/GOLDFINCH.png?1696518531",
+    "large": "https://coin-images.coingecko.com/coins/images/19081/large/GOLDFINCH.png?1696518531"
+  },
+  "last_updated": "2025-07-11T09:51:23.358429+00:00"
+}

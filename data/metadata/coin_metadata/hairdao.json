@@ -1,0 +1,60 @@
+{
+  "id": "hairdao",
+  "symbol": "hair",
+  "name": "HairDAO",
+  "categories": [
+    "Ethereum Ecosystem",
+    "Decentralized Science (DeSci)"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x9ce115f0341ae5dabc8b477b74e83db2018a6f42"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What is the project about?\r\nHairDAO is a BioDAO (part of the DeSci movement) dedicated to funding early-stage hair loss R&D. We believe that by increasing early stage funding, we'll be able to bring new hair loss treatments to market. \r\n\r\nWhat makes your project unique?\r\nNobody else is using crypto to facilitate innovation in the real world via generation of hair loss IP. \r\n\r\nHistory of your project.\r\nWe launched in November 2021 and have been apart of the first bio.xyz cohort (with VitaDAO, AthenaDAO, ValleyDAO, and PsyDAO). In November 2021, we minted our first IP-NFT in relation to our first study, which is testing the impact of T3 and T4 Thyroid Hormones on human scalp skin organ cultures. Here's the link to our IP-NFT: https://etherscan.io/nft/0x0dccd55fc2f116d0f0b82942cd39f4f6a5d88f65/1\r\n\r\nWhat’s next for your project?\r\nWe have an entire pipeline of hair loss research studies that we plan to fund, conduct, and mint as IP-NFT's until we find the cure for hair loss. \r\n\r\nWhat can your token be used for?\r\nWhile we'll likely include more utility down the line, right now our token is a governance token. 1 HAIR = 1 vote. See our snapshot here: https://gov.hairdao.xyz/#/\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.hairdao.xyz/",
+      "https://anagen.xyz/"
+    ],
+    "whitepaper": "https://uploads-ssl.webflow.com/61a12cfcc8291d38310ab2a4/61fb7b4f82f61e246e1d1f10_HairDAO%20White%20Paper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x9ce115f0341ae5dabc8b477b74e83db2018a6f42",
+      "https://platform.arkhamintelligence.com/explorer/token/hairdao",
+      "https://ethplorer.io/address/0x9ce115f0341ae5dabc8b477b74e83db2018a6f42"
+    ],
+    "official_forum_url": [
+      "https://www.tiktok.com/@hairdao",
+      "https://www.instagram.com/hairdao/",
+      "https://www.linkedin.com/company/89672070/admin/"
+    ],
+    "chat_url": [
+      "https://discord.gg/AXwcMpWEfh",
+      "https://www.youtube.com/@hairdao2153"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "HairDAO_",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/HairDAO"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/29620/thumb/LinkedIn_Logo.jpg?1696528556",
+    "small": "https://coin-images.coingecko.com/coins/images/29620/small/LinkedIn_Logo.jpg?1696528556",
+    "large": "https://coin-images.coingecko.com/coins/images/29620/large/LinkedIn_Logo.jpg?1696528556"
+  },
+  "last_updated": "2025-07-11T09:55:09.249961+00:00"
+}

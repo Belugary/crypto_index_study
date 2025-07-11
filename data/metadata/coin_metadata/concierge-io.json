@@ -1,0 +1,68 @@
+{
+  "id": "concierge-io",
+  "symbol": "ava",
+  "name": "AVA (Travala)",
+  "categories": [
+    "Tourism",
+    "Solana Ecosystem",
+    "Ethereum Ecosystem",
+    "Energi Ecosystem",
+    "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xa6c0c097741d55ecd9a3a7def3a8253fd022ceb9",
+    "solana": "G8LfyGVsjsLzetJ5RWZVAhMo4H9cb58ET1Z6gEZJQdPM",
+    "energi": "0x8476d1c07cbc7e2dd9e97ffbd9850836835ee7a8"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "VN",
+  "description": {
+    "en": "What is the project about? AVA plans to tokenise the concept of loyalty reward programs using blockchain technology. The AVA token functions as the key to accessing web3 loyalty programs and provides perks to end users, such as AVA payment discounts, AVA loyalty rewards, gated access benefits, and more. Launched in 2017, the AVA Foundation says their overarching mission is to create a decentralised and self-sufficient blockchain-based loyalty ecosystem with AVA at its core. What’s next for your project? AVA is a web3 loyalty program token designed for projects across all industries. From discounts to loyalty rewards, AVA powers blockchain-based loyalty programs via a plug-and-play approach. What can your token be used for? Travel Bookings: AVA can be used to book more than 3 million travel products on Travala, including hotels, homes, flights, and activities in over 230 countries. Discounts & Rewards: Travel bookings paid with AVA receive a discount of up to 3% on the total booking price, as well as a cashback of up to 2% in AVA. Loyalty Program: AVA unlocks further benefits via the Smart Loyalty Program, which provides users with discounts of up to 10% on travel bookings. Travel NFTs: AVA paired with Travel Tiger NFTs unlocks the Diamond membership, with exclusive benefits such as Travel Credits, Airport Lounges, VIP Concierge, and Travel Drops (unique travel experience giveaways). Open Passport: With AVA, users can access the Open Passport to collect digital NFT stamps for every travel booking. Each NFT serves as “proof of travel” and, in the future, will unlock rewards and discounts. Voting: AVA grants voting rights to users based on their Smart loyalty membership level to have a say on how funds in the AVA Community Pool are spent. Payments: AVA use cases extend to other platforms, allowing users to shop and spend with AVA at millions of merchants via Binance Pay and Simplex or pay bills. Governance: As the AVA ecosystem becomes more decentralised, AVA will be the governance token needed to vote for future changes and improvements to the ecosystem. AVA Deals: Travala will launch a new travel offer initiative named “AVA Deals”, with thousands of travel products at heavily discounted prices (up to 70% off) bookable exclusively with AVA."
+  },
+  "links": {
+    "homepage": [
+      "https://www.travala.com",
+      "https://travala.com/blog",
+      "https://www.avafoundation.org"
+    ],
+    "whitepaper": "https://www.avafoundation.org/ava-2-0-whitepaper/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xa6c0c097741d55ecd9a3a7def3a8253fd022ceb9",
+      "https://platform.arkhamintelligence.com/explorer/token/concierge-io",
+      "https://ethplorer.io/address/0xa6c0c097741d55ecd9a3a7def3a8253fd022ceb9",
+      "https://explorer.energi.network/token/0x8476d1c07cbc7e2dd9e97ffbd9850836835ee7a8",
+      "https://solscan.io/token/G8LfyGVsjsLzetJ5RWZVAhMo4H9cb58ET1Z6gEZJQdPM"
+    ],
+    "official_forum_url": [
+      "https://blog.travala.com/",
+      "https://twitter.com/travalacom",
+      "https://www.linkedin.com/company/avafoundation-org/"
+    ],
+    "chat_url": [
+      "https://t.me/s/travala",
+      "https://mirror.xyz/avafoundation.eth"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "AVAFoundation",
+    "facebook_username": "travala",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "avafoundation",
+    "subreddit_url": "https://www.reddit.com/r/Travala",
+    "repos_url": {
+      "github": [
+        "https://github.com/AVA-Foundation"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/3014/thumb/AVA_Logo_160x160px_Black.png?1696503750",
+    "small": "https://coin-images.coingecko.com/coins/images/3014/small/AVA_Logo_160x160px_Black.png?1696503750",
+    "large": "https://coin-images.coingecko.com/coins/images/3014/large/AVA_Logo_160x160px_Black.png?1696503750"
+  },
+  "last_updated": "2025-07-11T09:53:22.138969+00:00"
+}

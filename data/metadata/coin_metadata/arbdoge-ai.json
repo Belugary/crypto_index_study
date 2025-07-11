@@ -1,0 +1,56 @@
+{
+  "id": "arbdoge-ai",
+  "symbol": "aidoge",
+  "name": "ArbDoge AI",
+  "categories": [
+    "Meme",
+    "Arbitrum Ecosystem",
+    "Dog-Themed",
+    "DWF Labs Portfolio",
+    "AI Meme"
+  ],
+  "asset_platform_id": "arbitrum-one",
+  "platforms": {
+    "arbitrum-one": "0x09e18590e8f76b6cf471b3cd75fe1a1a9d2b2c2b"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://arbdoge.ai/"
+    ],
+    "whitepaper": "https://docs.arbdoge.ai/",
+    "blockchain_site": [
+      "https://arbiscan.io/token/0x09e18590e8f76b6cf471b3cd75fe1a1a9d2b2c2b",
+      "https://platform.arkhamintelligence.com/explorer/token/arbdoge-ai"
+    ],
+    "official_forum_url": [
+      "https://medium.com/@ArbDogeAI"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/arbdogeai"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ArbDoge_AI",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/29852/thumb/photo_2023-04-18_14-25-28.jpg?1696528778",
+    "small": "https://coin-images.coingecko.com/coins/images/29852/small/photo_2023-04-18_14-25-28.jpg?1696528778",
+    "large": "https://coin-images.coingecko.com/coins/images/29852/large/photo_2023-04-18_14-25-28.jpg?1696528778"
+  },
+  "last_updated": "2025-07-11T09:55:40.615930+00:00"
+}

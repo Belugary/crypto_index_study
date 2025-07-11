@@ -1,0 +1,53 @@
+{
+  "id": "0x0-ai-ai-smart-contract",
+  "symbol": "0x0",
+  "name": "0x0.ai: AI Smart Contract",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x5a3e6a77ba2f983ec0d371ea3b475f8bc0811ad5"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "0x0.ai is an AI-powered Solidity Smart Contract Auditor that uses machine learning to analyze code for vulnerabilities, errors, and issues. The state-of-the-art technology generates comprehensive reports that details any issues found, including a description of the problem, the location of the problem in the code, and suggestions for how to fix it.\r\nThe trade tax on our $0x0 token serves as a revenue stream for our project, allows token distribution to incentivize and reward contributors, helps to increase the overall value of our token by reducing the overall supply, funds community development initiatives, and creates a liquidity pool for the token. The goal of the project is to create a secure, reliable and valuable token for the community, team and investors.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://0x0.ai/",
+      "https://auditor.0x0.ai/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x5a3e6a77ba2f983ec0d371ea3b475f8bc0811ad5",
+      "https://platform.arkhamintelligence.com/explorer/token/0x0-ai-ai-smart-contract",
+      "https://ethplorer.io/address/0x5a3e6a77ba2f983ec0d371ea3b475f8bc0811ad5"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://medium.com/@privacy0x0"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "0x0exchange",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Ai0x0",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/28880/thumb/0x0.png?1696527857",
+    "small": "https://coin-images.coingecko.com/coins/images/28880/small/0x0.png?1696527857",
+    "large": "https://coin-images.coingecko.com/coins/images/28880/large/0x0.png?1696527857"
+  },
+  "last_updated": "2025-07-11T09:50:22.713552+00:00"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "pepecoin-2",
+  "symbol": "pepecoin",
+  "name": "PepeCoin",
+  "categories": [
+    "Gaming (GameFi)",
+    "NFT",
+    "Solana Ecosystem",
+    "Meme",
+    "Ethereum Ecosystem",
+    "Frog-Themed",
+    "Solana Meme",
+    "RPG",
+    "The Boy’s Club",
+    "Arcade Games",
+    "4chan-Themed"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xa9e8acf069c58aec8825542845fd754e41a9489a",
+    "solana": "EXJvx3KksbWP9QmPmtRr8mkQXD2kZrFRENCJitMs1eZ6"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "PepeCoin is a meme token based on the character Pepe the Frog. Initially launched in March 2016 on its own blockchain, it later migrated to Ethereum. PepeCoin is recognized as the original Pepe currency due to its long history. \r\n\r\nThe project aims to provide a variety of use cases, transforming PepeCoin into a memecoin with utility. \r\nThe community is primarily focused on creating a fun atmosphere, actively engaging in various events to enhance the token's growth and visibility. Additionally, PepeCoin is developing a game that will serve as an interactive social Web 3.0 video game platform, further expanding its ecosystem and fostering interaction among users."
+  },
+  "links": {
+    "homepage": [
+      "https://www.pepecoin.io",
+      "https://kek.space/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xa9e8acf069c58aec8825542845fd754e41a9489a",
+      "https://platform.arkhamintelligence.com/explorer/token/pepecoin-2",
+      "https://ethplorer.io/address/0xa9e8acf069c58aec8825542845fd754e41a9489a",
+      "https://solscan.io/token/EXJvx3KksbWP9QmPmtRr8mkQXD2kZrFRENCJitMs1eZ6"
+    ],
+    "official_forum_url": [
+      "https://www.linktr.ee/pepecoins"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/pepecoins"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "pepecoins",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "pepecoins",
+    "subreddit_url": "https://www.reddit.com/r/pepecoins",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/30219/thumb/pepecoin-icon_200x200.png?1735790725",
+    "small": "https://coin-images.coingecko.com/coins/images/30219/small/pepecoin-icon_200x200.png?1735790725",
+    "large": "https://coin-images.coingecko.com/coins/images/30219/large/pepecoin-icon_200x200.png?1735790725"
+  },
+  "last_updated": "2025-07-11T09:53:17.600915+00:00"
+}

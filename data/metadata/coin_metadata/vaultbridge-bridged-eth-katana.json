@@ -1,0 +1,46 @@
+{
+  "id": "vaultbridge-bridged-eth-katana",
+  "symbol": "vbeth",
+  "name": "VaultBridge Bridged ETH (Katana)",
+  "categories": [
+    "Bridged-Tokens",
+    "Katana Ecosystem"
+  ],
+  "asset_platform_id": "katana",
+  "platforms": {
+    "katana": "0xee7d8bcfb72bc1880d0cf19822eb0a2e6577ab62"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.katanarpc.com/token/0xEE7D8BCFb72bC1880D0Cf19822eB0A2e6577aB62"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/67044/thumb/eth1.png?1751581519",
+    "small": "https://coin-images.coingecko.com/coins/images/67044/small/eth1.png?1751581519",
+    "large": "https://coin-images.coingecko.com/coins/images/67044/large/eth1.png?1751581519"
+  },
+  "last_updated": "2025-07-11T09:50:21.550476+00:00"
+}

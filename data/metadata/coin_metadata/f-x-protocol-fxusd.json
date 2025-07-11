@@ -1,0 +1,59 @@
+{
+  "id": "f-x-protocol-fxusd",
+  "symbol": "fxusd",
+  "name": "f(x) Protocol fxUSD",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "Ethereum Ecosystem",
+    "Crypto-backed Stablecoin",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x085780639cc2cacd35e474e71f4d000e2405d8f6"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "fxUSD is unlike anything else in DeFi. It is the first truly decentralized stablecoin with the scalability to compete toe-to-toe with centralized offerings. Its combination of strong peg, built in yield and zero slippage swapping makes it extremely user friendly, while the ingenious economic design grows the available liquidity automatically as a byproduct of providing serious value to constituent LSDs."
+  },
+  "links": {
+    "homepage": [
+      "https://fx.aladdin.club"
+    ],
+    "whitepaper": "https://docs.aladdin.club/f-x-protocol/introduction-of-fxusd",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x085780639cc2cacd35e474e71f4d000e2405d8f6",
+      "https://platform.arkhamintelligence.com/explorer/token/f-x-protocol-fxusd",
+      "https://ethplorer.io/address/0x085780639cc2cacd35e474e71f4d000e2405d8f6"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/D8znPnRqZ6",
+      "https://medium.com/@protocol_fx_667",
+      "https://www.youtube.com/channel/UCaQaNdQo_j4gbEyqPkKuj_w"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "protocol_fx",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "AladdinDAO",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/AladdinDAO/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/36202/thumb/fxUSD.jpg?1710833113",
+    "small": "https://coin-images.coingecko.com/coins/images/36202/small/fxUSD.jpg?1710833113",
+    "large": "https://coin-images.coingecko.com/coins/images/36202/large/fxUSD.jpg?1710833113"
+  },
+  "last_updated": "2025-07-11T09:50:55.805900+00:00"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "newton-protocol",
+  "symbol": "newt",
+  "name": "Newton Protocol",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem",
+    "Binance HODLer Airdrops",
+    "DeFAI"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xd0ec028a3d21533fdd200838f39c85b03679285d",
+    "binance-smart-chain": "0xb8a677e6d805c8d743e6f14c8bc9c19305b5defc"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The Newton Protocol is a decentralized infrastructure layer for verifiable onchain automation and secure agent authorization. It enables protocols, DAOs, and users to execute complex actions through verifiable agents, without relying on centralized bots or offchain coordination. Users can securely authorize agents to act on their behalf using programmable permissions, ensuring that actions occur only under conditions they approve. By combining trusted execution environments (TEEs), zero-knowledge proofs, and a modular agent architecture, Newton Protocol brings automation fully onchain, enhancing transparency, composability, and trust."
+  },
+  "links": {
+    "homepage": [
+      "https://newt.foundation/",
+      "https://newton.xyz/app"
+    ],
+    "whitepaper": "https://blog.newt.foundation/the-litepaper/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xD0eC028a3D21533Fdd200838F39c85B03679285D",
+      "https://ethplorer.io/address/0xD0eC028a3D21533Fdd200838F39c85B03679285D",
+      "https://bscscan.com/token/0xb8a677e6d805c8d743e6f14c8bc9c19305b5defc",
+      "https://binplorer.com/address/0xb8a677e6d805c8d743e6f14c8bc9c19305b5defc"
+    ],
+    "official_forum_url": [
+      "https://www.youtube.com/@MagicNewton",
+      "https://discord.com/invite/magicnewton",
+      "https://www.instagram.com/magic.newton/"
+    ],
+    "chat_url": [
+      "https://www.tiktok.com/@magic.newton"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "newtfoundation",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/66819/thumb/newton.jpg?1750642513",
+    "small": "https://coin-images.coingecko.com/coins/images/66819/small/newton.jpg?1750642513",
+    "large": "https://coin-images.coingecko.com/coins/images/66819/large/newton.jpg?1750642513"
+  },
+  "last_updated": "2025-07-11T09:50:59.495892+00:00"
+}

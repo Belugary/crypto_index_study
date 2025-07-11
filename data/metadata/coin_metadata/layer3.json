@@ -1,0 +1,77 @@
+{
+  "id": "layer3",
+  "symbol": "l3",
+  "name": "Layer3",
+  "categories": [
+    "Marketing",
+    "BNB Chain Ecosystem",
+    "Solana Ecosystem",
+    "Polygon Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Decentralized Identifier (DID)",
+    "Optimism Ecosystem",
+    "Quest-to-Earn",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x88909d489678dd17aa6d9609f89b0419bf78fd9a",
+    "binance-smart-chain": "0x46777c76dbbe40fabb2aab99e33ce20058e76c59",
+    "polygon-pos": "0x46777c76dbbe40fabb2aab99e33ce20058e76c59",
+    "optimistic-ethereum": "0x46777c76dbbe40fabb2aab99e33ce20058e76c59",
+    "arbitrum-one": "0x46777c76dbbe40fabb2aab99e33ce20058e76c59",
+    "base": "0x46777c76dbbe40fabb2aab99e33ce20058e76c59",
+    "solana": "5k84VjAKoGPXa7ias1BNgKUrX7e61eMPWhZDqsiD4Bpe"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://layer3.xyz/"
+    ],
+    "whitepaper": "https://docs.layer3foundation.org/tokenomics",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x88909d489678dd17aa6d9609f89b0419bf78fd9a",
+      "https://platform.arkhamintelligence.com/explorer/token/layer3",
+      "https://ethplorer.io/address/0x88909d489678dd17aa6d9609f89b0419bf78fd9a",
+      "https://solscan.io/token/0x88909d489678dd17aa6d9609f89b0419bf78fd9a",
+      "https://solscan.io/token/5k84VjAKoGPXa7ias1BNgKUrX7e61eMPWhZDqsiD4Bpe",
+      "https://basescan.org/token/0x46777c76dbbe40fabb2aab99e33ce20058e76c59",
+      "https://bscscan.com/token/0x46777c76dbbe40fabb2aab99e33ce20058e76c59",
+      "https://binplorer.com/address/0x46777c76dbbe40fabb2aab99e33ce20058e76c59",
+      "https://arbiscan.io/token/0x46777c76dbbe40fabb2aab99e33ce20058e76c59",
+      "https://optimistic.etherscan.io/token/0x46777c76dbbe40fabb2aab99e33ce20058e76c59"
+    ],
+    "official_forum_url": [
+      "https://app.layer3.xyz/blog"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/layer3"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "layer3xyz",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/layer3xyz"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/37768/thumb/Square.png?1722045128",
+    "small": "https://coin-images.coingecko.com/coins/images/37768/small/Square.png?1722045128",
+    "large": "https://coin-images.coingecko.com/coins/images/37768/large/Square.png?1722045128"
+  },
+  "last_updated": "2025-07-11T09:54:14.550192+00:00"
+}

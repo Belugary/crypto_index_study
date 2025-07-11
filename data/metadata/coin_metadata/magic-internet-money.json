@@ -1,0 +1,61 @@
+{
+  "id": "magic-internet-money",
+  "symbol": "mim",
+  "name": "Magic Internet Money (Ethereum)",
+  "categories": [
+    "Stablecoins",
+    "Decentralized Finance (DeFi)",
+    "USD Stablecoin",
+    "Ethereum Ecosystem",
+    "Crypto-backed Stablecoin",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x99d8a9c45b2eca8864373a26d1459e3dff1e17f3"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Abracadabra.money is a lending platform that allows users to mint the Stablecoin MIM using interest bearing tokens as collaterals!"
+  },
+  "links": {
+    "homepage": [
+      "https://abracadabra.money/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x99d8a9c45b2eca8864373a26d1459e3dff1e17f3",
+      "https://platform.arkhamintelligence.com/explorer/token/magic-internet-money",
+      "https://ethplorer.io/address/0x99d8a9c45b2eca8864373a26d1459e3dff1e17f3",
+      "https://ethereum.dex.guru/token/0x99d8a9c45b2eca8864373a26d1459e3dff1e17f3"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/wcsUNxYrFM"
+    ],
+    "announcement_url": [
+      "https://abracadabramoney.medium.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "MIM_Spell",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "abracadabramoney",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Abracadabra-money/magic-internet-money"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/16786/thumb/mimlogopng.png?1696516358",
+    "small": "https://coin-images.coingecko.com/coins/images/16786/small/mimlogopng.png?1696516358",
+    "large": "https://coin-images.coingecko.com/coins/images/16786/large/mimlogopng.png?1696516358"
+  },
+  "last_updated": "2025-07-11T09:52:00.290246+00:00"
+}

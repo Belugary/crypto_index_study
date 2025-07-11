@@ -1,0 +1,55 @@
+{
+  "id": "mavryk-network",
+  "symbol": "mvrk",
+  "name": "Mavryk Network",
+  "categories": [
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "Base Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xec2fbe79236fa86bf2aa5d674dea20e2a1e7b01a",
+    "base": "0x05fc76666676f3afa90504e2ebc820612287a82f"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "Mavryk Network is a bespoke Layer 1 blockchain designed to bridge real-world assets with the dynamic realm of DeFi and foster a thriving & secure digital economy. A definitive platform at Mavryk, RWAs seamlessly converge with decentralized finance (DeFi). By leveraging RWA tokenization, DeFi applications, and robust infrastructure, Mavryk is creating an interconnected financial economy by building a more inclusive, accessible, and interoperable network where tokenized RWAs interact seamlessly with DeFi.\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://mavryk.org/"
+    ],
+    "whitepaper": "https://mavryk.org/litepaper",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xec2fbe79236fa86bf2aa5d674dea20e2a1e7b01a",
+      "https://ethplorer.io/address/0xec2FBE79236fa86bF2aa5D674deA20e2a1E7B01a",
+      "https://basescan.org/token/0x05fc76666676f3afa90504e2ebc820612287a82f"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://blog.mavryk.org/",
+      "https://www.youtube.com/@mavryknetwork"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "MavrykNetwork",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "MavrykNetwork",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55736/thumb/Logo_%281%29.png?1747244634",
+    "small": "https://coin-images.coingecko.com/coins/images/55736/small/Logo_%281%29.png?1747244634",
+    "large": "https://coin-images.coingecko.com/coins/images/55736/large/Logo_%281%29.png?1747244634"
+  },
+  "last_updated": "2025-07-11T09:54:04.445618+00:00"
+}

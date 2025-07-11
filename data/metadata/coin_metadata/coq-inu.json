@@ -1,0 +1,53 @@
+{
+  "id": "coq-inu",
+  "symbol": "coq",
+  "name": "Coq Inu",
+  "categories": [
+    "Avalanche Ecosystem",
+    "Meme",
+    "Made in USA"
+  ],
+  "asset_platform_id": "avalanche",
+  "platforms": {
+    "avalanche": "0x420fca0121dc28039145009570975747295f2329"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "We are the #1 meme coin on AVAX. Founded by well respected members of the community. They took no distribution and put the entire supply of the coin with 150 avax in initial liquidity. The contract has been fully renounced and liquidity burned. "
+  },
+  "links": {
+    "homepage": [
+      "https://www.coqinu.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://snowtrace.io/token/0x420fca0121dc28039145009570975747295f2329?chainid=43114",
+      "https://platform.arkhamintelligence.com/explorer/token/coq-inu",
+      "https://avascan.info/blockchain/c/address/0x420fca0121dc28039145009570975747295f2329/token"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/5Nde2b9B3m"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "CoqInuAvax",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33511/thumb/Coin_CoqInu_1200px.png?1702041053",
+    "small": "https://coin-images.coingecko.com/coins/images/33511/small/Coin_CoqInu_1200px.png?1702041053",
+    "large": "https://coin-images.coingecko.com/coins/images/33511/large/Coin_CoqInu_1200px.png?1702041053"
+  },
+  "last_updated": "2025-07-11T09:53:48.130986+00:00"
+}

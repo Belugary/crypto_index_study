@@ -1,0 +1,51 @@
+{
+  "id": "cronos-bridged-usdt-cronos",
+  "symbol": "usdt",
+  "name": "Cronos Bridged USDT (Cronos)",
+  "categories": [
+    "Cronos Ecosystem",
+    "Bridged USDT",
+    "Bridged-Tokens",
+    "Bridged Stablecoin"
+  ],
+  "asset_platform_id": "cronos",
+  "platforms": {
+    "cronos": "0x66e428c3f67a68878562e79a0234c1f83c208770"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://cronoscan.com/token/0x66e428c3f67a68878562e79A0234c1F83c208770"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://cronoscan.com/token/0x66e428c3f67a68878562e79a0234c1f83c208770",
+      "https://cronos-explorer.crypto.org/token/0x66e428c3f67a68878562e79a0234c1f83c208770"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/35025/thumb/USDT.png?1707233700",
+    "small": "https://coin-images.coingecko.com/coins/images/35025/small/USDT.png?1707233700",
+    "large": "https://coin-images.coingecko.com/coins/images/35025/large/USDT.png?1707233700"
+  },
+  "last_updated": "2025-07-11T09:50:23.772716+00:00"
+}

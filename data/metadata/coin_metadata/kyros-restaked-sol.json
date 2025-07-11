@@ -1,0 +1,54 @@
+{
+  "id": "kyros-restaked-sol",
+  "symbol": "kysol",
+  "name": "Kyros Restaked SOL",
+  "categories": [
+    "Solana Ecosystem",
+    "Restaking",
+    "Liquid Restaking Tokens",
+    "Liquid Restaked SOL"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "kySo1nETpsZE2NWe5vj2C64mPSciH1SppmHb4XieQ7B"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Kyros will be one of the first vault managers on Jito (Re)staking. Our first vault introduces kySOL. With kySOL, you can earn Solana staking rewards, MEV rewards, and restaking rewards—all in one token. kySOL represents your deposit of JitoSOL in our VRT vault, which helps secure Node Consensus Networks (NCNs) and provides you with additional rewards. kySOL is the liquid restaking token enabling uncapped yield through their liquid restaking token kySOL, a yield-bearing asset on Solana, combining staking rewards, MEV rewards, and restaking rewards in a single token."
+  },
+  "links": {
+    "homepage": [
+      "https://kyros.fi",
+      "https://app.kyros.fi"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/account/kySo1nETpsZE2NWe5vj2C64mPSciH1SppmHb4XieQ7B",
+      "https://solscan.io/token/kySo1nETpsZE2NWe5vj2C64mPSciH1SppmHb4XieQ7B"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "KyrosFi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "KyrosFi",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/KyrosFi"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/51806/thumb/kySOL_Logo.png?1731990348",
+    "small": "https://coin-images.coingecko.com/coins/images/51806/small/kySOL_Logo.png?1731990348",
+    "large": "https://coin-images.coingecko.com/coins/images/51806/large/kySOL_Logo.png?1731990348"
+  },
+  "last_updated": "2025-07-11T09:54:22.294122+00:00"
+}

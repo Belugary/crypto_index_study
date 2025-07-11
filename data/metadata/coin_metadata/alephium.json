@@ -1,0 +1,66 @@
+{
+  "id": "alephium",
+  "symbol": "alph",
+  "name": "Alephium",
+  "categories": [
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Layer 1 (L1)",
+    "Wallets",
+    "Ethereum Ecosystem",
+    "Alephium Ecosystem",
+    "Proof of Work (PoW)"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x590f820444fa3638e022776752c5eef34e2f89a6",
+    "binance-smart-chain": "0x8683ba2f8b0f69b2105f26f488bade1d3ab4dec8"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Alephium is the first operational sharded blockchain bringing scalability, ETH-inspired smart contracts, and dApps capabilities to Bitcoin's proven core technologies while ensuring better performance and improved energy efficiency.\r\n\r\nFrom its technical design to its interfaces, Alephium has been created to address the challenges of accessibility, scalability, and security encountered by decentralized applications today."
+  },
+  "links": {
+    "homepage": [
+      "https://alephium.org"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.alephium.org/",
+      "https://platform.arkhamintelligence.com/explorer/token/alephium",
+      "https://etherscan.io/token/0x590f820444fa3638e022776752c5eef34e2f89a6",
+      "https://ethplorer.io/address/0x590f820444fa3638e022776752c5eef34e2f89a6",
+      "https://bscscan.com/token/0x8683ba2f8b0f69b2105f26f488bade1d3ab4dec8",
+      "https://binplorer.com/address/0x8683BA2F8b0f69b2105f26f488bADe1d3AB4dec8"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://alephium.org/discord/",
+      "https://discord.gg/JErgRBfRSB"
+    ],
+    "announcement_url": [
+      "https://medium.com/@alephium"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "alephium",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": 5369918,
+    "telegram_channel_identifier": "alephiumgroup",
+    "subreddit_url": "https://www.reddit.com/r/Alephium/",
+    "repos_url": {
+      "github": [
+        "https://github.com/alephium"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/21598/thumb/Alephium-Logo-round.png?1750765372",
+    "small": "https://coin-images.coingecko.com/coins/images/21598/small/Alephium-Logo-round.png?1750765372",
+    "large": "https://coin-images.coingecko.com/coins/images/21598/large/Alephium-Logo-round.png?1750765372"
+  },
+  "last_updated": "2025-07-11T09:53:31.470595+00:00"
+}

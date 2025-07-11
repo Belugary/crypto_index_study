@@ -1,0 +1,51 @@
+{
+  "id": "kelp-gain",
+  "symbol": "ageth",
+  "name": "Kelp Gain",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Ethereum Ecosystem",
+    "Restaking"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xe1b4d34e8754600962cd944b535180bd758e6c2e"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "\r\nKelpDAO's new project, Gain, is designed to help users stake ETH and its variants (rsETH, ETHx, stETH) to earn rewards from multiple Layer 2 networks and DeFi protocols. When users deposit these assets, they receive agETH, a token that enables them to participate in airdrop farming and other reward strategies. The platform automates asset management, making it easy for users to maximize their earnings with minimal effort."
+  },
+  "links": {
+    "homepage": [
+      "https://kelpdao.xyz/gain/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xe1b4d34e8754600962cd944b535180bd758e6c2e",
+      "https://platform.arkhamintelligence.com/explorer/token/kelp-gain",
+      "https://ethplorer.io/address/0xe1b4d34e8754600962cd944b535180bd758e6c2e"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "KelpDAO",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "KelpDAOxyz",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39677/thumb/Icon___Dark.png?1723610897",
+    "small": "https://coin-images.coingecko.com/coins/images/39677/small/Icon___Dark.png?1723610897",
+    "large": "https://coin-images.coingecko.com/coins/images/39677/large/Icon___Dark.png?1723610897"
+  },
+  "last_updated": "2025-07-11T09:50:50.811623+00:00"
+}

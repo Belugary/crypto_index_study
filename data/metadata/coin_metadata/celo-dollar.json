@@ -1,0 +1,63 @@
+{
+  "id": "celo-dollar",
+  "symbol": "cusd",
+  "name": "Celo Dollar",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "Near Protocol Ecosystem",
+    "Celo Ecosystem",
+    "Algorithmic Stablecoin",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "celo",
+  "platforms": {
+    "celo": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "near-protocol": "cusd.token.a11bd.near"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Keccak",
+  "genesis_date": null,
+  "country_origin": "US",
+  "description": {
+    "en": "Celo Dollars (cUSD) are a stable asset that follows the US Dollar. With cUSD you can share money faster, cheaper, and more easily on your mobile phone. cUSD is on the Celo blockchain and is ERC 20 compatible."
+  },
+  "links": {
+    "homepage": [
+      "https://celo.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.celo.org/tokens/0x765de816845861e75a25fca122bb6898b8b1282a/token-transfers",
+      "https://nearblocks.io/token/cusd.token.a11bd.near",
+      "https://explorer.celo.org/mainnet/token/0x765de816845861e75a25fca122bb6898b8b1282a"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://chat.celo.org",
+      "https://www.facebook.com/CeloOrg/"
+    ],
+    "announcement_url": [
+      "https://medium.com/celoorg/where-to-get-celo-and-cusd-e097905fe36b",
+      "https://forum.celo.org/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "CeloOrg",
+    "facebook_username": "celohq",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "celohq",
+    "subreddit_url": "https://www.reddit.com/r/celo/",
+    "repos_url": {
+      "github": [
+        "https://github.com/celo-org"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/13161/thumb/icon-celo-dollar-color-1000-circle-cropped.png?1696512945",
+    "small": "https://coin-images.coingecko.com/coins/images/13161/small/icon-celo-dollar-color-1000-circle-cropped.png?1696512945",
+    "large": "https://coin-images.coingecko.com/coins/images/13161/large/icon-celo-dollar-color-1000-circle-cropped.png?1696512945"
+  },
+  "last_updated": "2025-07-11T09:53:59.104623+00:00"
+}

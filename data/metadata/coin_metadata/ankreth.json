@@ -1,0 +1,87 @@
+{
+  "id": "ankreth",
+  "symbol": "ankreth",
+  "name": "Ankr Staked ETH",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Avalanche Ecosystem",
+    "Fantom Ecosystem",
+    "Arbitrum Ecosystem",
+    "Liquid Staking Tokens",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Linea Ecosystem",
+    "Scroll Ecosystem",
+    "Blast Ecosystem",
+    "Mode Ecosystem",
+    "Polygon zkEVM Ecosystem",
+    "Liquid Staked ETH",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xe95a203b1a91a908f9b9ce46459d101078c2c3cb",
+    "scroll": "0x12d8ce035c5de3ce39b1fdd4c1d5a745eaba3b8c",
+    "polygon-zkevm": "0x12d8ce035c5de3ce39b1fdd4c1d5a745eaba3b8c",
+    "optimistic-ethereum": "0xe05a08226c49b636acf99c40da8dc6af83ce5bb3",
+    "arbitrum-one": "0xe05a08226c49b636acf99c40da8dc6af83ce5bb3",
+    "blast": "0x049e6a52e2c9b7814c8178908f3630726c134c92",
+    "linea": "0x11d8680c7f8f82f623e840130eb06c33d9f90c89",
+    "mode": "0x12d8ce035c5de3ce39b1fdd4c1d5a745eaba3b8c",
+    "binance-smart-chain": "0xe05a08226c49b636acf99c40da8dc6af83ce5bb3",
+    "fantom": "0x12d8ce035c5de3ce39b1fdd4c1d5a745eaba3b8c",
+    "avalanche": "0x12d8ce035c5de3ce39b1fdd4c1d5a745eaba3b8c"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "US",
+  "description": {
+    "en": "ETH Liquid Staking with Ankr\r\n\r\nAnkr Staking offers Ethereum token holders the opportunity to stake ETH and, in return, claim ETH Liquid Staking tokens — ankrETH. ankrETH also offers instant liquidity for your staked ETH, enabling you to connect ankrETH with DeFi platforms and earn several more layers of rewards.\r\n\r\nankrETH is a reward-bearing token, meaning that the fair value of 1 ankrETH token vs. ETH increases over time as staking rewards accumulate inside the token.\r\n\r\nBenefits\r\n\r\n- Generate Multiple Layers of Rewards: Use ankrETH on DeFi platforms to enable you to multiply your earning potential in APY on top of your staking rewards!\r\n- Low Impermanent Loss: Contributing ankrETH for liquidity with tokens like ETH means a low risk of impermanent loss, expanding the upside of providing liquidity for a more stable and profitable experience.\r\n- Compound Your Staking Rewards: Your staking rewards will compound daily as the value of ankrETH in your wallet increases vs. ETH.\r\n- Support & Secure Ethereum: Staking ETH directly supports the Ethereum network and helps validate transactions. Ankr’s staking system distributes staked tokens intelligently across the Ethereum ecosystem to achieve optimal decentralization.\r\n- Elastic Supply: Users can trade their ankrETH tokens for their staked ETH anytime.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.ankr.com/about-staking/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://optimistic.etherscan.io/token/0xe05a08226c49b636acf99c40da8dc6af83ce5bb3",
+      "https://platform.arkhamintelligence.com/explorer/token/ankreth",
+      "https://ethplorer.io/address/0xe95a203b1a91a908f9b9ce46459d101078c2c3cb",
+      "https://ftmscan.com/token/0x12d8ce035c5de3ce39b1fdd4c1d5a745eaba3b8c",
+      "https://snowtrace.io/token/0x12d8ce035c5de3ce39b1fdd4c1d5a745eaba3b8c",
+      "https://avascan.info/blockchain/c/address/0x12d8ce035c5de3ce39b1fdd4c1d5a745eaba3b8c/token",
+      "https://zkevm.polygonscan.com/token/0x12d8ce035c5de3ce39b1fdd4c1d5a745eaba3b8c",
+      "https://arbiscan.io/token/0xe05a08226c49b636acf99c40da8dc6af83ce5bb3",
+      "https://bscscan.com/token/0xe05a08226c49b636acf99c40da8dc6af83ce5bb3",
+      "https://binplorer.com/address/0xe05a08226c49b636acf99c40da8dc6af83ce5bb3"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/ankr",
+      "https://medium.com/ankr-network",
+      "https://youtube.com/@AnkrOfficial"
+    ],
+    "announcement_url": [
+      "https://medium.com/ankr-network"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "ankr",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "ankrnetwork",
+    "subreddit_url": "https://www.reddit.com/r/Ankrofficial",
+    "repos_url": {
+      "github": [
+        "https://github.com/Ankr-network/stkr-smartcontract-public"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/13403/thumb/aETHc.png?1696513165",
+    "small": "https://coin-images.coingecko.com/coins/images/13403/small/aETHc.png?1696513165",
+    "large": "https://coin-images.coingecko.com/coins/images/13403/large/aETHc.png?1696513165"
+  },
+  "last_updated": "2025-07-11T09:54:29.981511+00:00"
+}

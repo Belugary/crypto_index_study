@@ -1,0 +1,58 @@
+{
+  "id": "strikecoin",
+  "symbol": "strx",
+  "name": "StrikeX",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Real World Assets (RWA)"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xd6fdde76b8c1c45b33790cc8751d5b88984c44ec"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "StrikeX is the native currency of the blockchain powered eco-system developed & deployed by the UK Registered Company StrikeX Technologies Ltd. Their flag ship product, TradeStrike, will utilise the power of tokenisation to offer trading in Stocks, Cryptocurrencies, NFT’s & even Real Estate. Fully compliant, fully collateralised trading, 24/7 – 365 days a year. #ForThePeople. "
+  },
+  "links": {
+    "homepage": [
+      "https://tradestrike.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0xd6fdde76b8c1c45b33790cc8751d5b88984c44ec",
+      "https://platform.arkhamintelligence.com/explorer/token/strikecoin",
+      "https://binplorer.com/address/0xd6fdde76b8c1c45b33790cc8751d5b88984c44ec"
+    ],
+    "official_forum_url": [
+      "https://blog.strikex.com/",
+      "https://www.facebook.com/TradeStrikeBVI/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/StrikeX",
+      "https://blog.strikex.com/"
+    ],
+    "announcement_url": [
+      "https://tradestrike.medium.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "TradeStrikeBVI",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "StrikeXcrypto",
+    "subreddit_url": "https://www.reddit.com/r/TradeStrike/",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/15839/thumb/StrikeX-Icon-200px.png?1696515456",
+    "small": "https://coin-images.coingecko.com/coins/images/15839/small/StrikeX-Icon-200px.png?1696515456",
+    "large": "https://coin-images.coingecko.com/coins/images/15839/large/StrikeX-Icon-200px.png?1696515456"
+  },
+  "last_updated": "2025-07-11T09:52:25.134423+00:00"
+}

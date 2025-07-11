@@ -1,0 +1,65 @@
+{
+  "id": "bella-protocol",
+  "symbol": "bel",
+  "name": "Bella Protocol",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Yield Farming",
+    "BNB Chain Ecosystem",
+    "Binance Launchpool",
+    "Yield Aggregator",
+    "Ethereum Ecosystem",
+    "Manta Network Ecosystem",
+    "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xa91ac63d040deb1b7a5e4d4134ad23eb0ba07e14",
+    "manta-pacific": "0xb385e52903c802b3bdca7c4d0c78460a8988e1ce",
+    "binance-smart-chain": "0x8443f091997f06a61670b735ed92734f5628692f"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The Bella Protocol offers a suite of DeFi products for streamlined crypto-banking experience. The core concept of Bella’s product design is 1-Click. Bella provides automated services, subsidizes gas fees, and caters to both new and experienced users either on-chain or via Bella’s custodian service.\r\n\r\nWith Bella, users can save gas fees and time and enjoy high yields from sophisticated strategies. The current product lineups include Bella Liquidity Mining, Flex Savings, One-Click Portal, and Lending."
+  },
+  "links": {
+    "homepage": [
+      "https://bella.fi/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xa91ac63d040deb1b7a5e4d4134ad23eb0ba07e14",
+      "https://platform.arkhamintelligence.com/explorer/token/bella-protocol",
+      "https://ethplorer.io/address/0xa91ac63d040deb1b7a5e4d4134ad23eb0ba07e14",
+      "https://bscscan.com/token/0x8443f091997f06a61670b735ed92734f5628692f",
+      "https://binplorer.com/address/0x8443f091997f06a61670b735ed92734f5628692f",
+      "https://pacific-explorer.manta.network/address/0xb385e52903c802b3bdca7c4d0c78460a8988e1ce"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/jcuFJZWFMh"
+    ],
+    "announcement_url": [
+      "https://medium.com/@Bellaofficial"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "BellaProtocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "bellaprotocol",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/12478/thumb/Bella.png?1696512296",
+    "small": "https://coin-images.coingecko.com/coins/images/12478/small/Bella.png?1696512296",
+    "large": "https://coin-images.coingecko.com/coins/images/12478/large/Bella.png?1696512296"
+  },
+  "last_updated": "2025-07-11T09:56:23.462841+00:00"
+}

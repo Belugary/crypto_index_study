@@ -1,0 +1,56 @@
+{
+  "id": "standx-dusd",
+  "symbol": "dusd",
+  "name": "StandX DUSD",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "BNB Chain Ecosystem",
+    "Solana Ecosystem",
+    "Yield-Bearing Stablecoin"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xaf44a1e76f56ee12adbb7ba8acd3cbd474888122",
+    "solana": "DUSDt4AeLZHWYmcXnVGYdgAzjtzU5mXUVnTMdnSzAttM"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "StandX is a Perps DEX that enables users to trade with yield-earning margins. DUSD is StandX’s first product - a yield-bearing stablecoin. Through DUSD, StandX allows users to generate returns on their margin balances. \r\n\r\nDUSD is a yield-bearing stablecoin designed to deliver competitive returns. It is a fully collateralized, yield-bearing stablecoin that auto-distributes real yield to holders—no staking needed—offering secure, effortless returns with seamless DeFi integration.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://standx.com/"
+    ],
+    "whitepaper": "https://docs.standx.com/docs/stand-x-overview",
+    "blockchain_site": [
+      "https://bscscan.com/token/0xaf44a1e76f56ee12adbb7ba8acd3cbd474888122",
+      "https://solscan.io/token/DUSDt4AeLZHWYmcXnVGYdgAzjtzU5mXUVnTMdnSzAttM",
+      "https://binplorer.com/address/0xaf44A1E76F56eE12ADBB7ba8acD3CbD474888122"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/standx"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "StandX_Official",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55984/thumb/output-onlinepngtools.png?1747932126",
+    "small": "https://coin-images.coingecko.com/coins/images/55984/small/output-onlinepngtools.png?1747932126",
+    "large": "https://coin-images.coingecko.com/coins/images/55984/large/output-onlinepngtools.png?1747932126"
+  },
+  "last_updated": "2025-07-11T09:54:27.932671+00:00"
+}

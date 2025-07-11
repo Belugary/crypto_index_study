@@ -1,0 +1,58 @@
+{
+  "id": "trufin-staked-matic",
+  "symbol": "trumatic",
+  "name": "TruFin Staked MATIC",
+  "categories": [
+    "Polygon Ecosystem",
+    "Liquid Staking Tokens",
+    "Ethereum Ecosystem",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xa43a7c62d56df036c187e1966c03e2799d8987ed",
+    "polygon-pos": "0xf33687811f3ad0cd6b48dd4b39f9f977bd7165a2"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The TruFin Protocol builds institutional-grade Web3 primitives, that can be used as the foundational building blocks for complex digital asset strategies to reduce risk, generate rewards, securely on-chain. \r\n\r\nTruFin’s first product, TruStake, is a MATIC staking vault which provides access to MATIC staking on the Ethereum network. TruMATIC is the liquid staking token users receive when they deposit MATIC into the TruStake vault. It is an ERC-20 token like MATIC and has all the same basic functionality. As soon as a user deposits MATIC on the TruStake smart contract, they receive newly minted TruMATIC, based on the exchange rate at the time of staking. As MATIC staking rewards accrue, the value of TruMATIC increases (with reference to MATIC).\r\n\r\n- Users have have the ability to stake their MATIC through TruFin’s [dApp](https://app.trufin.io/).\r\n- When a user stakes with TruFin, they will mint a new liquid token — TruMATIC.\r\n- Rewards are restaked automatically, giving an uplift in APY from the compounding effect.\r\n\r\nThe TruMATIC liquid token is self-custodied, meaning holders have complete control over their TruMATIC at all times, with a broad set of possibilities:\r\n\r\n- **Target ~5%+ APY:** TruMATIC will deliver optimised staking rewards on the staked MATIC. Auto-restaking means your APY rides on the power of compounding.\r\n- **DeFi Interoperability:** TruMATIC’s token design ensures seamless integration with a myriad of DeFi protocols — from DEXs to lending/borrowing protocols to yield optimizers.\r\n- **Liquidity Pools:** Get ready for MATIC<>TruMATIC liquidity pools on leading DEXs, enabling a smooth liquidity provision for users seeking to exit their TruMATIC positions."
+  },
+  "links": {
+    "homepage": [
+      "https://www.trufin.io/",
+      "https://app.trufin.io/",
+      "https://immunefi.com/bounty/trufin/"
+    ],
+    "whitepaper": "https://trufin.gitbook.io/docs/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xa43a7c62d56df036c187e1966c03e2799d8987ed",
+      "https://platform.arkhamintelligence.com/explorer/token/trufin-staked-matic",
+      "https://ethplorer.io/address/0xa43a7c62d56df036c187e1966c03e2799d8987ed",
+      "https://polygonscan.com/token/0xf33687811f3ad0cd6b48dd4b39f9f977bd7165a2"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://medium.com/@trufinprotocol"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "TruFinProtocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/32416/thumb/TruMATIC_logo_250px_%281%29.png?1698114190",
+    "small": "https://coin-images.coingecko.com/coins/images/32416/small/TruMATIC_logo_250px_%281%29.png?1698114190",
+    "large": "https://coin-images.coingecko.com/coins/images/32416/large/TruMATIC_logo_250px_%281%29.png?1698114190"
+  },
+  "last_updated": "2025-07-11T09:53:14.485051+00:00"
+}

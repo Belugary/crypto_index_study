@@ -1,0 +1,51 @@
+{
+  "id": "sundog",
+  "symbol": "sundog",
+  "name": "Sundog",
+  "categories": [
+    "Meme",
+    "Tron Ecosystem",
+    "Sun Pump Ecosystem",
+    "TRON Meme"
+  ],
+  "asset_platform_id": "tron",
+  "platforms": {
+    "tron": "TXL6rJbvmjD46zeN1JssfgxvSo99qC8MRT"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The Dog on TRON taking us to the Sun"
+  },
+  "links": {
+    "homepage": [
+      "https://sunpump.meme/token/TXL6rJbvmjD46zeN1JssfgxvSo99qC8MRT"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://tronscan.org/#/token20/txl6rjbvmjd46zen1jssfgxvso99qc8mrt",
+      "https://platform.arkhamintelligence.com/explorer/token/sundog"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39752/thumb/sundog.png?1723794864",
+    "small": "https://coin-images.coingecko.com/coins/images/39752/small/sundog.png?1723794864",
+    "large": "https://coin-images.coingecko.com/coins/images/39752/large/sundog.png?1723794864"
+  },
+  "last_updated": "2025-07-11T09:51:36.930389+00:00"
+}

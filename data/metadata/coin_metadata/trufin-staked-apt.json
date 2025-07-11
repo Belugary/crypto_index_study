@@ -1,0 +1,56 @@
+{
+  "id": "trufin-staked-apt",
+  "symbol": "truapt",
+  "name": "TruFin Staked APT",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Liquid Staking Tokens",
+    "Aptos Ecosystem",
+    "Liquid Staking",
+    "Liquid Staked APT\t"
+  ],
+  "asset_platform_id": "aptos",
+  "platforms": {
+    "aptos": "0xaef6a8c3182e076db72d64324617114cacf9a52f28325edc10b483f7f05da0e7"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The TruFin Protocol builds institutional-grade Web3 primitives, that can be used as the foundational building blocks for complex digital asset strategies to reduce risk, generate rewards, securely on-chain. \r\n\r\nTruFin’s second product, TruStake Aptos, is an Aptos staking vault which provides access to APT liquid staking on the Aptos network. TruAPT is the liquid staking token users receive when they deposit APT into the TruStake vault. It is fungible asset standard like APT and has all the same basic functionality. As soon as a user deposits APT on the TruStake smart contract, they receive newly minted TruAPT, based on the exchange rate at the time of staking. As APT staking rewards accrue, the value of TruAPT increases (with reference to APT).\r\n\r\n- Users have have the ability to stake their APT through TruFin’s [dApp](https://app.trufin.io/).\r\n- When a user stakes with TruFin, they will mint a new liquid token — TruAPT.\r\n- Rewards are restaked automatically, giving an uplift in APY from the compounding effect."
+  },
+  "links": {
+    "homepage": [
+      "https://www.trufin.io/",
+      "https://app.trufin.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.aptoslabs.com/object/0xaef6a8c3182e076db72d64324617114cacf9a52f28325edc10b483f7f05da0e7?network=mainnet",
+      "https://aptscan.ai/coins/0xaef6a8c3182e076db72d64324617114cacf9a52f28325edc10b483f7f05da0e7",
+      "https://tracemove.io/coin/0xaef6a8c3182e076db72d64324617114cacf9a52f28325edc10b483f7f05da0e7"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://medium.com/@trufinprotocol"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "TruFinProtocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/50362/thumb/truAPT-logo_2.png?1727331034",
+    "small": "https://coin-images.coingecko.com/coins/images/50362/small/truAPT-logo_2.png?1727331034",
+    "large": "https://coin-images.coingecko.com/coins/images/50362/large/truAPT-logo_2.png?1727331034"
+  },
+  "last_updated": "2025-07-11T09:52:27.566647+00:00"
+}

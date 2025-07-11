@@ -1,0 +1,55 @@
+{
+  "id": "fair-and-free",
+  "symbol": "fair3",
+  "name": "Fair and Free",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Meme"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x6952c5408b9822295ba4a7e694d0c5ffdb8fe320"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "Fair³ The fairest community on the blockchain.\r\n\r\nThe FAIR³ Manifesto addresses the imbalance where creators generate vast amounts of content but receive minimal compensation, with platforms capturing the majority of the value. \r\n\r\nWe advocate for a Web3 based system that empowers creators through ownership of their data and intellectual property, decentralized monetization, and AI assisted tools. \r\n\r\nThe goal is to establish a more equitable creative ecosystem where creators directly benefit from their work.\r\n\r\nWe aim to do this through combining meme culture with real fairness and empowering our community in each step of our journey"
+  },
+  "links": {
+    "homepage": [
+      "https://x.com/Fair3_community",
+      "https://linktr.ee/fair3community"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/address/0x6952c5408b9822295ba4a7e694d0c5ffdb8fe320",
+      "https://bscscan.com/token/0x6952c5408b9822295ba4a7e694d0C5FfDB8fE320",
+      "https://binplorer.com/address/0x6952c5408b9822295ba4a7e694d0C5FfDB8fE320"
+    ],
+    "official_forum_url": [
+      "https://t.me/Fair3_Chinese"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Fair3_community",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "252",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/fairfairfair3x/fair-and-free"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55104/thumb/light_purple.png?1749482933",
+    "small": "https://coin-images.coingecko.com/coins/images/55104/small/light_purple.png?1749482933",
+    "large": "https://coin-images.coingecko.com/coins/images/55104/large/light_purple.png?1749482933"
+  },
+  "last_updated": "2025-07-11T09:54:33.451628+00:00"
+}

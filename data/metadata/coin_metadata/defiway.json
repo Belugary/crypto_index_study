@@ -1,0 +1,51 @@
+{
+  "id": "defiway",
+  "symbol": "defi",
+  "name": "Defiway",
+  "categories": [
+    "Polygon Ecosystem"
+  ],
+  "asset_platform_id": "polygon-pos",
+  "platforms": {
+    "polygon-pos": "0x18c3eb88c972390120bb4abd2f705c48f62e212c"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The Defiway ecosystem consists of DeFi products: fast cross-chain bridge with low fees. Defiway Wallet is the all-in-one crypto wallet that offers complete financial freedom (available on AppStore). Defiway Pay allows businesses and individuals to accept crypto payments online securely and cost-effectively across the globe. Defiway's PayRoll product allows you to send freelance commissions, affiliate rewards, and employee payrolls with your crypto wallet. DEFI token (10,000,000 max supply) becomes a prominent part of Defiway ecosystem."
+  },
+  "links": {
+    "homepage": [
+      "https://defiway.com",
+      "https://defiway.com/token",
+      "https://bridge.defiway.com/"
+    ],
+    "whitepaper": "https://defiway.com/whitepaper-defi-token",
+    "blockchain_site": [
+      "https://polygonscan.com/address/0x18c3eb88c972390120bb4abd2f705c48f62e212c",
+      "https://platform.arkhamintelligence.com/explorer/token/defiway",
+      "https://polygonscan.com/token/0x18c3eb88c972390120bb4abd2f705c48f62e212c"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Defiwayapp",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "defiwayapp",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39391/thumb/photo_2024-07-25_18-08-57.jpg?1721975084",
+    "small": "https://coin-images.coingecko.com/coins/images/39391/small/photo_2024-07-25_18-08-57.jpg?1721975084",
+    "large": "https://coin-images.coingecko.com/coins/images/39391/large/photo_2024-07-25_18-08-57.jpg?1721975084"
+  },
+  "last_updated": "2025-07-11T09:54:31.939398+00:00"
+}

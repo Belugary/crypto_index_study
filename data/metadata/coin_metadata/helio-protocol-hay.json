@@ -1,0 +1,59 @@
+{
+  "id": "helio-protocol-hay",
+  "symbol": "lisusd",
+  "name": "Lista USD",
+  "categories": [
+    "Stablecoins",
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Crypto-backed Stablecoin"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x0782b6d8c4551b9760e74c0545a9bcd90bdc41e5"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Developed on the BNB Chain, Helio Protocol is an open-source liquidity protocol for borrowing and earning yield on HAY, which is a “destablecoin”\r\n\r\nDestablecoin a new asset class that is over-collateralized with liquid staked assets. In other words, HAY is an over-collateralized destablecoin, where 1 HAY is always redeemable at $1 of cryptocurrency, and over-collateralized by BNB. Users can mint and borrow HAY by providing BNB as collateral, which can then be used to stake for yield, liquidity mining and as a means to transfer value.\r\n\r\nFollowing the launch of our governance token, HELIO, Helio Protocol will operate as a DAO, where the community will govern the protocol’s treasury, revenue pool and future direction."
+  },
+  "links": {
+    "homepage": [
+      "https://helio.money/"
+    ],
+    "whitepaper": "https://helio.money/static/whitepaper.pdf",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x0782b6d8c4551b9760e74c0545a9bcd90bdc41e5",
+      "https://platform.arkhamintelligence.com/explorer/token/helio-protocol-hay",
+      "https://bnb.dex.guru/token/0x0782b6d8c4551b9760e74c0545a9bcd90bdc41e5",
+      "https://binplorer.com/address/0x0782b6d8c4551b9760e74c0545a9bcd90bdc41e5"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/k5JZVQYpUn",
+      "https://medium.com/@Helio-HAY"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "helio_money",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/helio-money/helio-smart-contracts"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/26947/thumb/Coingecko_profile_lisUSD_200x200_%281%29.png?1707363097",
+    "small": "https://coin-images.coingecko.com/coins/images/26947/small/Coingecko_profile_lisUSD_200x200_%281%29.png?1707363097",
+    "large": "https://coin-images.coingecko.com/coins/images/26947/large/Coingecko_profile_lisUSD_200x200_%281%29.png?1707363097"
+  },
+  "last_updated": "2025-07-11T09:53:45.898533+00:00"
+}

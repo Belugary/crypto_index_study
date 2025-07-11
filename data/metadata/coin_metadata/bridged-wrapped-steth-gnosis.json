@@ -1,0 +1,54 @@
+{
+  "id": "bridged-wrapped-steth-gnosis",
+  "symbol": "wsteth",
+  "name": "Bridged Wrapped stETH (Gnosis)",
+  "categories": [
+    "Crypto-Backed Tokens",
+    "Wrapped-Tokens",
+    "Gnosis Chain Ecosystem",
+    "Bridged-Tokens"
+  ],
+  "asset_platform_id": "xdai",
+  "platforms": {
+    "xdai": "0x6c76971f98945ae98dd7d4dfca8711ebea946ea6"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://omni.gnosischain.com/bridge"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://gnosisscan.io/token/0x6c76971f98945ae98dd7d4dfca8711ebea946ea6"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://blog.lido.fi/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "gnosischain",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/lidofinance"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33017/thumb/wStETH.png?1700190250",
+    "small": "https://coin-images.coingecko.com/coins/images/33017/small/wStETH.png?1700190250",
+    "large": "https://coin-images.coingecko.com/coins/images/33017/large/wStETH.png?1700190250"
+  },
+  "last_updated": "2025-07-11T09:50:48.145791+00:00"
+}

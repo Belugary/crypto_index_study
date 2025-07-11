@@ -1,0 +1,54 @@
+{
+  "id": "pinksale",
+  "symbol": "pinksale",
+  "name": "PinkSale",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Launchpad"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x602ba546a7b06e0fc7f58fd27eb6996ecc824689"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "VG",
+  "description": {
+    "en": "PinkSale is a protocol aiming to provide users with the capabilities to launch their own token and create their own initial token sale. No code required, simply navigate through our terminal and design your own token and token launch within a few clicks."
+  },
+  "links": {
+    "homepage": [
+      "https://www.pinksale.finance/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x602ba546a7b06e0fc7f58fd27eb6996ecc824689",
+      "https://platform.arkhamintelligence.com/explorer/token/pinksale",
+      "https://binplorer.com/address/0x602ba546a7b06e0fc7f58fd27eb6996ecc824689"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/@pinkmoonfinance"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "pinkecosystem",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "pinkecosystem",
+    "subreddit_url": "https://www.reddit.com/r/PinkMoon/",
+    "repos_url": {
+      "github": [
+        "https://github.com/pinkmoonfinance"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/17377/thumb/4cC4Fgs.png?1696516927",
+    "small": "https://coin-images.coingecko.com/coins/images/17377/small/4cC4Fgs.png?1696516927",
+    "large": "https://coin-images.coingecko.com/coins/images/17377/large/4cC4Fgs.png?1696516927"
+  },
+  "last_updated": "2025-07-11T09:55:49.983090+00:00"
+}

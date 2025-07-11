@@ -1,0 +1,62 @@
+{
+  "id": "certik",
+  "symbol": "ctk",
+  "name": "Shentu",
+  "categories": [
+    "Business Services",
+    "Binance Launchpool",
+    "Osmosis Ecosystem",
+    "Coinbase Ventures Portfolio",
+    "Cybersecurity",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "OKX Ventures Portfolio"
+  ],
+  "asset_platform_id": "osmosis",
+  "platforms": {
+    "osmosis": "ibc/7ED954CFFFC06EE8419387F3FC688837FF64EF264DE14219935F724EEEDBF8D3"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Delegated Proof-of-Stake",
+  "genesis_date": null,
+  "country_origin": "SG",
+  "description": {
+    "en": "A Cross-Chain Protocol with Security Scoring and Decentralized Reimbursements for Building Secure dApps."
+  },
+  "links": {
+    "homepage": [
+      "https://www.shentu.technology/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.shentu.technology",
+      "https://atomscan.com/certik",
+      "https://www.mintscan.io/osmosis/assets/ibc/aWJjLzdFRDk1NENGRkZDMDZFRTg0MTkzODdGM0ZDNjg4ODM3RkY2NEVGMjY0REUxNDIxOTkzNUY3MjRFRUVEQkY4RDM=",
+      "https://www.mintscan.io/shentu"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/PsJ95xPqbC"
+    ],
+    "announcement_url": [
+      "https://medium.com/shentu-foundation"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "shentuchain",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/shentufoundation/shentu"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/12944/thumb/shentu_2.jpg?1696512733",
+    "small": "https://coin-images.coingecko.com/coins/images/12944/small/shentu_2.jpg?1696512733",
+    "large": "https://coin-images.coingecko.com/coins/images/12944/large/shentu_2.jpg?1696512733"
+  },
+  "last_updated": "2025-07-11T09:52:36.199335+00:00"
+}

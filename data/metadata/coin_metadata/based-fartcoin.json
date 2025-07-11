@@ -1,0 +1,49 @@
+{
+  "id": "based-fartcoin",
+  "symbol": "fartcoin",
+  "name": "Based Fartcoin",
+  "categories": [
+    "Meme",
+    "Base Ecosystem",
+    "Base Meme"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0x2f6c17fa9f9bc3600346ab4e48c0701e1d5962ae"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Our main mission is to bring awareness to Base chain through a fun community token which revolves around having Farts which are Based - this is a unique branding route we are taking to stand out from the Fartcoin on Solana.\r\n\r\nA meme token of this nature which brings community together online through humoristic posts online, giveaways and bonding will be a strong valuable way to bring users to base\r\n\r\nWe aim to become a global narrative while Ethereum has its shine through institutional adoption through the newly acquired ETF launch\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.basedfartcoin.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://basescan.org/token/0x2f6c17fa9f9bc3600346ab4e48c0701e1d5962ae"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "fartcoinbase",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53113/thumb/farrtcoin_logo.png?1735241861",
+    "small": "https://coin-images.coingecko.com/coins/images/53113/small/farrtcoin_logo.png?1735241861",
+    "large": "https://coin-images.coingecko.com/coins/images/53113/large/farrtcoin_logo.png?1735241861"
+  },
+  "last_updated": "2025-07-11T09:53:23.162045+00:00"
+}

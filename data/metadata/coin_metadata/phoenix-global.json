@@ -1,0 +1,61 @@
+{
+  "id": "phoenix-global",
+  "symbol": "phb",
+  "name": "Phoenix",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Oracle",
+    "NFT",
+    "BNB Chain Ecosystem",
+    "DePIN",
+    "Made in China"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x0409633a72d846fc5bbe2f98d88564d35987904d"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Phoenix is a Layer 1 and Layer 2 blockchain infrastructure, empowering intelligent Web3 applications, focusing on the next generation of AI & Privacy-Enabled Web3 Apps. Phoenix (PHB) is a cryptocurrency and operates on the BNB Smart Chain (BEP20) platform."
+  },
+  "links": {
+    "homepage": [
+      "https://www.phoenix.global/",
+      "https://supply.phoenix.global"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x0409633a72d846fc5bbe2f98d88564d35987904d",
+      "https://platform.arkhamintelligence.com/explorer/token/phoenix-global",
+      "https://binplorer.com/address/0x0409633a72d846fc5bbe2f98d88564d35987904d"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/gF5EZY4tFS"
+    ],
+    "announcement_url": [
+      "https://phoenixglobal.medium.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "Phoenix_Chain",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "APEXcommunity",
+    "subreddit_url": "https://www.reddit.com/r/RedPulseToken/",
+    "repos_url": {
+      "github": [
+        "https://github.com/phoenixglobal"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/20052/thumb/Phoenix_logo_blue_bird.png?1696519471",
+    "small": "https://coin-images.coingecko.com/coins/images/20052/small/Phoenix_logo_blue_bird.png?1696519471",
+    "large": "https://coin-images.coingecko.com/coins/images/20052/large/Phoenix_logo_blue_bird.png?1696519471"
+  },
+  "last_updated": "2025-07-11T09:55:25.420980+00:00"
+}

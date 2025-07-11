@@ -1,0 +1,52 @@
+{
+  "id": "layerzero-bridged-weeth-swellchain",
+  "symbol": "weeth",
+  "name": "Layerzero Bridged weETH (Swellchain)",
+  "categories": [
+    "Liquid Restaked ETH",
+    "Bridged-Tokens",
+    "Swellchain Ecosystem"
+  ],
+  "asset_platform_id": "swellchain",
+  "platforms": {
+    "swellchain": "0xa6cb988942610f6731e664379d15ffcfbf282b44"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "ether.fi's eETH and weETH are Natively ReStaked tokens. \r\n\r\nIn a conventional Liquid ReStaking strategy, the users lock their Liquid Staking Tokens such as stETH into the EigenLayer's Liquid ReStaking Strategy contracts. The cons are that the restaked assets are non-transferrable, non-usable in DeFi, and require 7 days withdrawal period for redemption back into the LSTs. Note that you will need additional delays to redeem ETH from your LSTs, again. \r\n\r\nIn ether.fi's eETH and weETH where the Native ReStaking happens in the protocol level:\r\n\r\nBy holding eETH/weETH, you earn the staking rewards based on the staked ETH amount and protocol's staking yields.\r\n\r\nBy holding eETH/weETH, you earn the restaking rewards based on the natively restaked ETH in the protocol level and protocol's restaking yields (+ EigenLayer points). Users do not need to make separate actions or lock up their assets.\r\n\r\nYou can bring your eETH/weETH to another DeFi and do degens!\r\n\r\nyou can redeem your ETH out of eETH/weETH without the 7 days withdrawal period as long as ether.fi has the available liquid ETH in the contract."
+  },
+  "links": {
+    "homepage": [
+      "https://www.swellnetwork.io/",
+      "https://app.ether.fi/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.swellnetwork.io/token/0xA6cB988942610f6731e664379D15fFcfBf282b44"
+    ],
+    "official_forum_url": [
+      "https://x.com/swellnetworkio"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53659/thumb/65c5a7141f77e162be7af327_eETH.png?1737001248",
+    "small": "https://coin-images.coingecko.com/coins/images/53659/small/65c5a7141f77e162be7af327_eETH.png?1737001248",
+    "large": "https://coin-images.coingecko.com/coins/images/53659/large/65c5a7141f77e162be7af327_eETH.png?1737001248"
+  },
+  "last_updated": "2025-07-11T09:50:54.810918+00:00"
+}

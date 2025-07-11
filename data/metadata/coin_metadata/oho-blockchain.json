@@ -1,0 +1,48 @@
+{
+  "id": "oho-blockchain",
+  "symbol": "oho",
+  "name": "OHO Blockchain",
+  "categories": [],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "OHO Blockchain is a fast, scalable, smart contract capable, EVM compatible, eco-friendly and secure PoA platform with 3-second finality and low fees. It is fully equipped with a variety of universal  & user-friendly tools.\r\n\r\nOHO Coin is the native cryptocurrency for OHO Blockchain, and can be safely kept on OHO wallets, MetaMask or hardware wallets. Using Proof of Authority (POA) consensus, the finality of an OHO transaction is around 3 seconds or less, and each transaction costs around only 0.0001 OHO. \r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.oho.ai"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://www.ohoscan.com",
+      "https://bscscan.com/token/0x0576fad3b0df2722d6ba73e0d37f0658f8cf10cd"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ohoblockchain",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "ohoblockchain",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/ohonetwork"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/27854/thumb/OHO_200_x_200.png?1696526873",
+    "small": "https://coin-images.coingecko.com/coins/images/27854/small/OHO_200_x_200.png?1696526873",
+    "large": "https://coin-images.coingecko.com/coins/images/27854/large/OHO_200_x_200.png?1696526873"
+  },
+  "last_updated": "2025-07-11T09:54:34.446054+00:00"
+}

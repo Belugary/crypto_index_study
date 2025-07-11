@@ -1,0 +1,57 @@
+{
+  "id": "shardus",
+  "symbol": "ult",
+  "name": "Shardus",
+  "categories": [
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x09617f6fd6cf8a71278ec86e23bbab29c04353a7",
+    "polygon-pos": "0xf0059cc2b3e980065a906940fbce5f9db7ae40a7"
+  },
+  "block_time_in_minutes": 13,
+  "hashing_algorithm": "Ethash",
+  "genesis_date": null,
+  "country_origin": "US",
+  "description": {
+    "en": "Shardus is building distributed ledger software to remedy the problems of traditional blockchains -- scalability, decentralization and efficiency. The technology being developed will use compute and state sharding to accommodate billions of daily active users, allowing for global-scale decentralized networks."
+  },
+  "links": {
+    "homepage": [
+      "https://shardus.com/"
+    ],
+    "whitepaper": null,
+    "blockchain_site": [
+      "https://etherscan.io/token/0x09617f6fd6cf8a71278ec86e23bbab29c04353a7",
+      "https://platform.arkhamintelligence.com/explorer/token/shardus",
+      "https://ethplorer.io/address/0x09617f6fd6cf8a71278ec86e23bbab29c04353a7",
+      "https://polygonscan.com/token/0xf0059cc2b3e980065a906940fbce5f9db7ae40a7"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/@shardus",
+      "https://steemit.com/@shardus"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "ShardusLedger",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "shardus",
+    "subreddit_url": "https://www.reddit.com/r/Shardus/",
+    "repos_url": {
+      "github": [
+        "https://github.com/Shardus/shardus.github.io"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/8383/thumb/final_logo_photoshop.png?1696508575",
+    "small": "https://coin-images.coingecko.com/coins/images/8383/small/final_logo_photoshop.png?1696508575",
+    "large": "https://coin-images.coingecko.com/coins/images/8383/large/final_logo_photoshop.png?1696508575"
+  },
+  "last_updated": "2025-07-11T09:54:49.490679+00:00"
+}

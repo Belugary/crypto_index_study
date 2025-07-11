@@ -1,0 +1,68 @@
+{
+  "id": "elastos",
+  "symbol": "ela",
+  "name": "Elastos",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "Bitcoin Sidechains",
+    "SideChain",
+    "Huobi ECO Chain Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xe6fd75ff38adca4b97fbcd938c86b98772431867",
+    "huobi-token": "0xa1ecfc2bec06e4b43ddd423b94fef84d0dbc8f5c"
+  },
+  "block_time_in_minutes": 2,
+  "hashing_algorithm": "SHA-256",
+  "genesis_date": "2017-12-22",
+  "country_origin": "CN",
+  "description": {
+    "en": "\"Founded by OS expert Rong Chen, Elastos is building the blockchain industry’s most comprehensive and interoperable open source platform. Using a hybrid consensus that combines the secure hashpower of Bitcoin and the democratic ideals of Delegated-Proof-of-Stake, the SmartWeb of Elastos is a suite of software for an entirely decentralized internet. Elastos employs not only blockchain technology, but a peer-to-peer network for communication, decentralized data storage services, and a decentralized ID (DID) system for all digital assets. With sidechains like Ethereum, Elastos is not merely the foundation for securing truly decentralized applications that can scale, it is the foundation for true data ownership. \r\n\r\nelastOS, the flagship product of the Elastos Smartweb, brings the entire decentralized ecosystem into a single App, currently available for Android and in development for both iOS and desktop.\r\n\r\nElastos is also actively searching for both new and existing dApp projects through its Cyber Republic initiative. Cyber Republic possesses a community-governed grant fund designed to help startups and existing businesses explore blockchain. You can read more about Cyber Republic at https://www.cyberrepublic.org."
+  },
+  "links": {
+    "homepage": [
+      "https://elastos.net/",
+      "https://blog.elastos.net/"
+    ],
+    "whitepaper": "https://www.elastos.org/downloads/elastos_whitepaper_en.pdf",
+    "blockchain_site": [
+      "https://blockchain.elastos.io",
+      "https://platform.arkhamintelligence.com/explorer/token/elastos",
+      "https://explorer.elaeth.io",
+      "https://hecoinfo.com/token/0xa1ecfc2bec06e4b43ddd423b94fef84d0dbc8f5c",
+      "https://etherscan.io/token/0xe6fd75ff38adca4b97fbcd938c86b98772431867",
+      "https://ethplorer.io/address/0xe6fd75ff38adca4b97fbcd938c86b98772431867"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/elastos",
+      "https://www.youtube.com/@elastosinfo"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ElastosInfo",
+    "facebook_username": "elastosorg",
+    "bitcointalk_thread_identifier": 2654716,
+    "telegram_channel_identifier": "elastosgroup",
+    "subreddit_url": "https://www.reddit.com/r/Elastos/",
+    "repos_url": {
+      "github": [
+        "https://github.com/elastos/Elastos.OS",
+        "https://github.com/elastos/Elastos.ELA.SideChain",
+        "https://github.com/elastos/Elastos.ELA",
+        "https://github.com/elastos/Elastos.ELA.SPV.Cpp",
+        "https://github.com/elastos/Elastos.NET.Carrier.Native.SDK"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/2780/thumb/Elastos_Icon_-_4.png?1746421513",
+    "small": "https://coin-images.coingecko.com/coins/images/2780/small/Elastos_Icon_-_4.png?1746421513",
+    "large": "https://coin-images.coingecko.com/coins/images/2780/large/Elastos_Icon_-_4.png?1746421513"
+  },
+  "last_updated": "2025-07-11T09:54:28.434526+00:00"
+}

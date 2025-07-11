@@ -1,0 +1,50 @@
+{
+  "id": "mnee-usd-stablecoin",
+  "symbol": "mnee",
+  "name": "MNEE USD Stablecoin",
+  "categories": [
+    "Stablecoins",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x8ccedbae4916b79da7f3f612efb2eb93a2bfd6cf"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.mnee.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x8ccedbae4916b79da7f3f612efb2eb93a2bfd6cf",
+      "https://platform.arkhamintelligence.com/explorer/token/mnee-usd-stablecoin",
+      "https://ethplorer.io/address/0x8ccedbae4916b79da7f3f612efb2eb93a2bfd6cf"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "MNEE_cash",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39459/thumb/MNEE_logo_no_BG.png?1725666891",
+    "small": "https://coin-images.coingecko.com/coins/images/39459/small/MNEE_logo_no_BG.png?1725666891",
+    "large": "https://coin-images.coingecko.com/coins/images/39459/large/MNEE_logo_no_BG.png?1725666891"
+  },
+  "last_updated": "2025-07-11T09:54:05.645954+00:00"
+}

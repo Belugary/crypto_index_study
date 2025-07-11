@@ -1,0 +1,51 @@
+{
+  "id": "andy-the-wisguy",
+  "symbol": "andy",
+  "name": "ANDY ETH",
+  "categories": [
+    "Meme",
+    "Ethereum Ecosystem",
+    "The Boy’s Club"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x68bbed6a47194eff1cf514b50ea91895597fc91e"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Andy. Pepe's best friend."
+  },
+  "links": {
+    "homepage": [
+      "https://boysclubandy.com"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x68bbed6a47194eff1cf514b50ea91895597fc91e",
+      "https://platform.arkhamintelligence.com/explorer/token/andy-the-wisguy",
+      "https://ethplorer.io/address/0x68bbed6a47194eff1cf514b50ea91895597fc91e"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "andycoinonerc",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "TheOnlyAndyLeft",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/35910/thumb/IMG_20240309_044840_797.jpg?1710179397",
+    "small": "https://coin-images.coingecko.com/coins/images/35910/small/IMG_20240309_044840_797.jpg?1710179397",
+    "large": "https://coin-images.coingecko.com/coins/images/35910/large/IMG_20240309_044840_797.jpg?1710179397"
+  },
+  "last_updated": "2025-07-11T09:51:09.932630+00:00"
+}

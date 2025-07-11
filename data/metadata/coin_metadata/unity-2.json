@@ -1,0 +1,51 @@
+{
+  "id": "unity-2",
+  "symbol": "uty",
+  "name": "Unity",
+  "categories": [
+    "Stablecoins",
+    "Decentralized Finance (DeFi)",
+    "Avalanche Ecosystem",
+    "Synthetic Dollar"
+  ],
+  "asset_platform_id": "avalanche",
+  "platforms": {
+    "avalanche": "0xdbc5192a6b6ffee7451301bb4ec312f844f02b4a"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "XSY.fi is a capital management platform that simplifies access to advanced DeFi strategies. Its flagship product, Unity (UTY), is a digital synthetic dollar launched on the Avalanche blockchain. UTY is engineered to unlock liquidity and capital efficiency within blockchain ecosystems by allowing users to maintain their existing AVAX exposure while accessing sustainable yield through delta-neutral and other trading strategies."
+  },
+  "links": {
+    "homepage": [
+      "https://www.xsy.fi/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://snowscan.xyz/token/0xdbc5192a6b6ffee7451301bb4ec312f844f02b4a",
+      "https://avascan.info/blockchain/c/address/0xDBc5192A6B6FfEe7451301bb4ec312f844F02B4A/token"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "xsy_fi",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/66299/thumb/UTY_token.jpg?1749148591",
+    "small": "https://coin-images.coingecko.com/coins/images/66299/small/UTY_token.jpg?1749148591",
+    "large": "https://coin-images.coingecko.com/coins/images/66299/large/UTY_token.jpg?1749148591"
+  },
+  "last_updated": "2025-07-11T09:53:43.229298+00:00"
+}

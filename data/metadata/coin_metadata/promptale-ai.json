@@ -1,0 +1,52 @@
+{
+  "id": "promptale-ai",
+  "symbol": "tale",
+  "name": "PrompTale AI",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "BNB Chain Ecosystem",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x37eff3ff1321fb9abc734761ca72fafdc044534a"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.promptale.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x37EFF3FF1321Fb9AbC734761cA72FAFDc044534A",
+      "https://binplorer.com/address/0x37EFF3FF1321Fb9AbC734761cA72FAFDc044534A"
+    ],
+    "official_forum_url": [
+      "https://medium.com/promptale"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "PrompTale",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/67165/thumb/tale.jpg?1751956666",
+    "small": "https://coin-images.coingecko.com/coins/images/67165/small/tale.jpg?1751956666",
+    "large": "https://coin-images.coingecko.com/coins/images/67165/large/tale.jpg?1751956666"
+  },
+  "last_updated": "2025-07-11T10:20:12.699063+00:00"
+}

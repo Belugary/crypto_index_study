@@ -1,0 +1,57 @@
+{
+  "id": "renzo-restaked-lst",
+  "symbol": "pzeth",
+  "name": "Renzo Restaked LST",
+  "categories": [
+    "Ethereum Ecosystem",
+    "Liquid Restaking Tokens",
+    "Liquid Restaked ETH"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x8c9532a60e0e7c6bbd2b2c1303f63ace1c3e9811"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "pzETH is a Liquid Restaking Token (LRT) by Renzo which represents a user’s restaked position within the Symbiotic ecosystem. pzETH serves as the interface to the Symbiotic ecosystem and secures Actively Validated Services (AVSs) through restaking."
+  },
+  "links": {
+    "homepage": [
+      "https://www.renzoprotocol.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x8c9532a60e0e7c6bbd2b2c1303f63ace1c3e9811",
+      "https://platform.arkhamintelligence.com/explorer/token/renzo-restaked-lst",
+      "https://ethplorer.io/address/0x8c9532a60e0e7c6bbd2b2c1303f63ace1c3e9811"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/renzoprotocol"
+    ],
+    "chat_url": [
+      "https://discord.gg/renzoprotocol"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "RenzoProtocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "RenzoProtocolChat",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Renzo-Protocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39124/thumb/200x200.png?1720629607",
+    "small": "https://coin-images.coingecko.com/coins/images/39124/small/200x200.png?1720629607",
+    "large": "https://coin-images.coingecko.com/coins/images/39124/large/200x200.png?1720629607"
+  },
+  "last_updated": "2025-07-11T09:50:14.181935+00:00"
+}

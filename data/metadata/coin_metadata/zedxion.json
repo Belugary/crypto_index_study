@@ -1,0 +1,62 @@
+{
+  "id": "zedxion",
+  "symbol": "zedxion",
+  "name": "Zedxion",
+  "categories": [
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Centralized Exchange (CEX) Token",
+    "Ethereum Ecosystem",
+    "Tron Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xff44967f2e4ebe0b8c5b6812f25e1b9bcec70b34",
+    "tron": "TUP3g7kbaESRFRhULeA19USSrcVBEpWLVY",
+    "ethereum": "0xbafdabadcf19d0cfbbe0ab9c69cf050d86ff888c"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Zedxion offers a comprehensive solution to the major problems faced by the traditional, fiat-driven monetary system. Building a crypto powered ecosystem comprising Zedxion Token.\""
+  },
+  "links": {
+    "homepage": [
+      "https://zedxion.io"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0xff44967f2e4ebe0b8c5b6812f25e1b9bcec70b34",
+      "https://platform.arkhamintelligence.com/explorer/token/zedxion",
+      "https://binplorer.com/address/0xff44967f2e4ebe0b8c5b6812f25e1b9bcec70b34",
+      "https://etherscan.io/token/0xbafdabadcf19d0cfbbe0ab9c69cf050d86ff888c",
+      "https://ethplorer.io/address/0xbafdabadcf19d0cfbbe0ab9c69cf050d86ff888c",
+      "https://tronscan.org/#/token20/tup3g7kbaesrfrhulea19ussrcvbepwlvy"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.facebook.com/zedxion.cryptocurrancy"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "zedxionc",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Zedxion",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/zedxioncryptocurrency"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/18841/thumb/ZEDXION.png?1696518302",
+    "small": "https://coin-images.coingecko.com/coins/images/18841/small/ZEDXION.png?1696518302",
+    "large": "https://coin-images.coingecko.com/coins/images/18841/large/ZEDXION.png?1696518302"
+  },
+  "last_updated": "2025-07-11T09:52:07.164289+00:00"
+}

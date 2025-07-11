@@ -1,0 +1,51 @@
+{
+  "id": "metal",
+  "symbol": "mtl",
+  "name": "Metal DAO",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 2 (L2)",
+    "Made in USA"
+  ],
+  "asset_platform_id": "metal-l2",
+  "platforms": {
+    "metal-l2": "0xbcfc435d8f276585f6431fc1b9ee9a850b5c00a9"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "US",
+  "description": {
+    "en": "Metal DAO (MTL) is a utility token that currently governs the stablecoin Metal Dollar (XMD), in addition to providing tiered trading discounts to MTL holders when using the Metal Pay cash & crypto app. Metal Pay customers who own 10,000+ MTL can enjoy 0% fees on all cryptocurrency purchases.\r\n\r\nMetal DAO's future utility includes the ability to propose new stablecoins for the Metal Dollar basket, including their allocation ratios, and the option to vote in new stablecoin issuers such as community banks or fintechs.\r\n\r\nMetal Pay was developed and launched by Metallicus in 2016."
+  },
+  "links": {
+    "homepage": [
+      "https://www.metalpay.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.metall2.com/token/0xbcfc435d8f276585f6431fc1b9ee9a850b5c00a9"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/B2QDmgf"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "metalpaysme",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": 2007466,
+    "telegram_channel_identifier": "MetalPayCommunity",
+    "subreddit_url": "https://www.reddit.com/r/MetalPay/",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/763/thumb/Metal.png?1696501916",
+    "small": "https://coin-images.coingecko.com/coins/images/763/small/Metal.png?1696501916",
+    "large": "https://coin-images.coingecko.com/coins/images/763/large/Metal.png?1696501916"
+  },
+  "last_updated": "2025-07-11T09:51:30.452282+00:00"
+}

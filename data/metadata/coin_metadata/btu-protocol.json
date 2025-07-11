@@ -1,0 +1,56 @@
+{
+  "id": "btu-protocol",
+  "symbol": "btu",
+  "name": "BTU Protocol",
+  "categories": [
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xb683d83a532e2cb7dfa5275eed3698436371cc9f",
+    "polygon-pos": "0xfdc26cda2d2440d0e83cd1dee8e8be48405806dc"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "FR",
+  "description": {
+    "en": "BTU Protocol solution helps companies get closer to consumers and build new distribution channels with better margins"
+  },
+  "links": {
+    "homepage": [
+      "https://www.btu-protocol.com/"
+    ],
+    "whitepaper": "https://www.btu-protocol.com/pdf/whitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xb683d83a532e2cb7dfa5275eed3698436371cc9f",
+      "https://platform.arkhamintelligence.com/explorer/token/btu-protocol",
+      "https://ethplorer.io/address/0xb683d83a532e2cb7dfa5275eed3698436371cc9f",
+      "https://polygonscan.com/token/0xfdc26cda2d2440d0e83cd1dee8e8be48405806dc"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/@BTUProtocolTeam/latest"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "BtuProtocol",
+    "facebook_username": "btuprotocol",
+    "bitcointalk_thread_identifier": 3082703,
+    "telegram_channel_identifier": "btucommunity",
+    "subreddit_url": "https://www.reddit.com/r/btuprotocol/",
+    "repos_url": {
+      "github": [
+        "https://github.com/btuprotocol/btuprotocol-implementation-earth"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/3697/thumb/logo-btu-white-background_%281%29.png?1707407754",
+    "small": "https://coin-images.coingecko.com/coins/images/3697/small/logo-btu-white-background_%281%29.png?1707407754",
+    "large": "https://coin-images.coingecko.com/coins/images/3697/large/logo-btu-white-background_%281%29.png?1707407754"
+  },
+  "last_updated": "2025-07-11T09:50:53.311083+00:00"
+}

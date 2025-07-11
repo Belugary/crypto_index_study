@@ -1,0 +1,57 @@
+{
+  "id": "iagon",
+  "symbol": "iag",
+  "name": "Iagon",
+  "categories": [
+    "Big Data",
+    "Infrastructure",
+    "Storage",
+    "Cardano Ecosystem",
+    "DePIN"
+  ],
+  "asset_platform_id": "cardano",
+  "platforms": {
+    "cardano": "5d16cc1a177b5d9ba9cfa9793b07e60f1fb70fea1f8aef064415d114494147"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "NO",
+  "description": {
+    "en": "IAGON enables users and enterprises to store big data files and repositories, as well as smaller scales files, to carry out complex computational processes, such as those needed for artificial intelligence and machine learning operations, within a fully secure and encrypted platform that integrates blockchain, cryptographic and AI technologies in a user- friendly way."
+  },
+  "links": {
+    "homepage": [
+      "https://www.iagon.com/"
+    ],
+    "whitepaper": "https://docs.iagon.com/docs/whitepaper/introduction",
+    "blockchain_site": [
+      "https://cardanoscan.io/token/5d16cc1a177b5d9ba9cfa9793b07e60f1fb70fea1f8aef064415d114494147"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/iagon/"
+    ],
+    "chat_url": [
+      "https://discord.gg/TCS23VWuWm"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "IagonOfficial",
+    "facebook_username": "IagonOfficial",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Iagon_official",
+    "subreddit_url": "https://www.reddit.com/r/iagon/",
+    "repos_url": {
+      "github": [
+        "https://github.com/Iagonorg/Iagon-Platform"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/3264/thumb/d8c5hLbX9u0GwYCKcZRbXS2vAQ0Vd-Hfjg-3zQ73ucSZQoFYsLH4NEKN8EQkwwBVR8OPJgrTRG-_dW_XVHL058ezYSvwsSB4bjYtHH7xjZNHBaAaX1NZl7axG8zm2FIRV6AUmgdmxcbP0BcuWvUJkcUKrYYEDf0Msx2_3arxgmS1V85YMb_1SVbWt6E3QnkpvLcGyC0SxN6rGTr.jpg?1696503977",
+    "small": "https://coin-images.coingecko.com/coins/images/3264/small/d8c5hLbX9u0GwYCKcZRbXS2vAQ0Vd-Hfjg-3zQ73ucSZQoFYsLH4NEKN8EQkwwBVR8OPJgrTRG-_dW_XVHL058ezYSvwsSB4bjYtHH7xjZNHBaAaX1NZl7axG8zm2FIRV6AUmgdmxcbP0BcuWvUJkcUKrYYEDf0Msx2_3arxgmS1V85YMb_1SVbWt6E3QnkpvLcGyC0SxN6rGTr.jpg?1696503977",
+    "large": "https://coin-images.coingecko.com/coins/images/3264/large/d8c5hLbX9u0GwYCKcZRbXS2vAQ0Vd-Hfjg-3zQ73ucSZQoFYsLH4NEKN8EQkwwBVR8OPJgrTRG-_dW_XVHL058ezYSvwsSB4bjYtHH7xjZNHBaAaX1NZl7axG8zm2FIRV6AUmgdmxcbP0BcuWvUJkcUKrYYEDf0Msx2_3arxgmS1V85YMb_1SVbWt6E3QnkpvLcGyC0SxN6rGTr.jpg?1696503977"
+  },
+  "last_updated": "2025-07-11T09:52:16.808203+00:00"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "plume-usd",
+  "symbol": "pusd",
+  "name": "Plume USD",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "Ethereum Ecosystem",
+    "Plume Network Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xdddd73f5df1f0dc31373357beac77545dc5a6f3f",
+    "plume-network": "0xdddd73f5df1f0dc31373357beac77545dc5a6f3f"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Plume USD is the premier stablecoin of the Plume ecosystem, designed to support seamless financial operations within Real World Asset Finance (RWAfi). Fully backed and deeply liquid, Plume USD plays a critical role in enabling secure payments, efficient trading, and robust collateralization across onchain apps on Plume. Plume USD provides a unified liquidity layer for all stablecoin operations on Plume, and is the gateway to earning passive real world yield on assets deposited into the Plume ecosystem."
+  },
+  "links": {
+    "homepage": [
+      "https://pusd.plume.org/",
+      "https://plume.org/",
+      "https://docs.plume.org/"
+    ],
+    "whitepaper": "https://docs.plume.org/plume/plume-chain/official-tokens/plume-usd",
+    "blockchain_site": [
+      "https://explorer.plume.org/token/0xdddD73F5Df1F0DC31373357beAC77545dC5A6f3F",
+      "https://phoenix-explorer.plumenetwork.xyz/token/0xdddD73F5Df1F0DC31373357beAC77545dC5A6f3F",
+      "https://etherscan.io/token/0xdddd73f5df1f0dc31373357beac77545dc5a6f3f",
+      "https://ethplorer.io/address/0xdddd73f5df1f0dc31373357beac77545dc5a6f3f",
+      "https://explorer.plume.org/token/0xdddd73f5df1f0dc31373357beac77545dc5a6f3f"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/plume-network",
+      "https://www.youtube.com/@plume-network"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "plumenetwork",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "PlumeNetwork",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/plumenetwork"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55542/thumb/pUSD-token.png?1746610746",
+    "small": "https://coin-images.coingecko.com/coins/images/55542/small/pUSD-token.png?1746610746",
+    "large": "https://coin-images.coingecko.com/coins/images/55542/large/pUSD-token.png?1746610746"
+  },
+  "last_updated": "2025-07-11T09:54:54.662599+00:00"
+}

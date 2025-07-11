@@ -1,0 +1,59 @@
+{
+  "id": "magic-internet-money-runes",
+  "symbol": "mim",
+  "name": "MAGIC•INTERNET•MONEY (Bitcoin)",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Bitcoin Ecosystem",
+    "Runes"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": "",
+    "ordinals": "840000:45",
+    "solana": "M1M6sdffCs3ozzhpRveweRCWdZhxth4mvVujPtYEC3h"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Magic Internet Money (MIM) is the first mainstream Bitcoin meme, originally created in 2013 and deployed a decade later on the Bitcoin blockchain by its original artist, Mavensbot.\r\n\r\nIt all began in the r/bitcoin subreddit, where Mavensbot posted his now-iconic MS Paint artwork of the “Magic Internet Money Wizard”. His drawing was later turned into a reddit ad to promote Bitcoin. It then became the most successful Reddit ad of all time and played a key role in Bitcoin’s early rise from $27 to $1,132, while helping grow the r/bitcoin subreddit community from 10,000 to over 100,000 subscribers by the end of 2014.  "
+  },
+  "links": {
+    "homepage": [
+      "https://magicinternetmoney.party/",
+      "https://www.magicinternet.meme/",
+      "https://www.bitcoinwizard.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://ordiscan.com/rune/MAGICINTERNETMONEY",
+      "https://solscan.io/token/M1M6sdffCs3ozzhpRveweRCWdZhxth4mvVujPtYEC3h"
+    ],
+    "official_forum_url": [
+      "https://www.magicinternet.meme/"
+    ],
+    "chat_url": [
+      "https://discord.gg/bitcoinwizard"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "mimcoinbtc",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "+YSQeGThze-QzZDU5",
+    "subreddit_url": "https://www.reddit.com/r/mavensbot",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54456/thumb/MIM_LOGO_2.png?1740171004",
+    "small": "https://coin-images.coingecko.com/coins/images/54456/small/MIM_LOGO_2.png?1740171004",
+    "large": "https://coin-images.coingecko.com/coins/images/54456/large/MIM_LOGO_2.png?1740171004"
+  },
+  "last_updated": "2025-07-11T09:53:03.671142+00:00"
+}

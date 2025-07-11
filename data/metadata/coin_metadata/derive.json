@@ -1,0 +1,70 @@
+{
+  "id": "derive",
+  "symbol": "drv",
+  "name": "Derive",
+  "categories": [
+    "Smart Contract Platform",
+    "Decentralized Finance (DeFi)",
+    "Derivatives",
+    "Options",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Layer 2 (L2)",
+    "Base Ecosystem",
+    "DeFAI"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xb1d1eae60eea9525032a6dcb4c1ce336a1de71be",
+    "optimistic-ethereum": "0x33800de7e817a70a694f31476313a7c572bba100",
+    "arbitrum-one": "0x77b7787a09818502305c95d68a2571f090abb135",
+    "base": "0x9d0e8f5b25384c7310cb8c6ae32c8fbeb645d083"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Derive is a decentralized protocol that creates programmable onchain options, perpetuals, and structured products. \r\n\r\nDerive is deployed and operates on Derive Chain, an Ethereum rollup built using the OP stack and is the home of the Derive Protocol. It is a permission-less smart contract platform.\r\n\r\nThe Derive DAO earns trading fees from the Derive Protocol and gas fees from the Derive Chain, governed by DRV token holders. Trading fees accrue to an insurance fund to foster robustness of the protocol and rollup.\r\n\r\nDerive has built an AI-powered trading app built for pro traders. In collaboration with Messari, Derive Pro translates market views into trades. The agent then prepares transactions for users and leverages smart contract wallets to make trades one-click, gasless and chainless. The app will support spot, perps and options trading on Derive, and will also plug in to spot AMMs on L2s like Optimism, Arbitrum and Base."
+  },
+  "links": {
+    "homepage": [
+      "https://derive.xyz/"
+    ],
+    "whitepaper": "https://www.derive.xyz/files/v2-whitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xB1D1eae60EEA9525032a6DCb4c1CE336a1dE71BE",
+      "https://optimistic.etherscan.io/token/0x33800De7E817A70A694F31476313A7c572BBa100",
+      "https://arbiscan.io/token/0x77b7787a09818502305C95d68A2571F090abb135",
+      "https://explorer.derive.xyz/address/0x2EE0fd70756EDC663AcC9676658A1497C247693A",
+      "https://ethplorer.io/address/0xB1D1eae60EEA9525032a6DCb4c1CE336a1dE71BE",
+      "https://basescan.org/token/0x9d0E8f5b25384C7310CB8C6aE32C8fbeb645d083"
+    ],
+    "official_forum_url": [
+      "https://blog.derive.xyz/"
+    ],
+    "chat_url": [
+      "https://www.youtube.com/@derivexyz"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "derivexyz",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "+yytV8ZEI8-piNjI1",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/derivexyz"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/52889/thumb/Token_Logo.png?1734601695",
+    "small": "https://coin-images.coingecko.com/coins/images/52889/small/Token_Logo.png?1734601695",
+    "large": "https://coin-images.coingecko.com/coins/images/52889/large/Token_Logo.png?1734601695"
+  },
+  "last_updated": "2025-07-11T09:52:53.082089+00:00"
+}

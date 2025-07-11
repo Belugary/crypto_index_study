@@ -1,0 +1,69 @@
+{
+  "id": "dogelon-mars",
+  "symbol": "elon",
+  "name": "Dogelon Mars",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Solana Ecosystem",
+    "Polygon Ecosystem",
+    "Meme",
+    "Ethereum Ecosystem",
+    "Cronos Ecosystem",
+    "Dog-Themed",
+    "Elon Musk-Inspired",
+    "Fuse Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x761d38e5ddf6ccf6cf7c55759d5210750b5d60f3",
+    "fuse": "0x5dd8015cec49f4db01fd228f688bf30337d3e0a9",
+    "binance-smart-chain": "0x7bd6fabd64813c48545c9c0e312a0099d9be2540",
+    "cronos": "0x02dccaf514c98451320a9365c5b46c61d3246ff3",
+    "polygon-pos": "0xe0339c80ffde91f3e20494df88d4206d86024cdf",
+    "solana": "7ZCm8WBN9aLa3o47SoYctU6iLdj7wkGG5SV2hE5CgtD5"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://dogelonmars.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x761d38e5ddf6ccf6cf7c55759d5210750b5d60f3",
+      "https://platform.arkhamintelligence.com/explorer/token/dogelon-mars",
+      "https://ethplorer.io/address/0x761d38e5ddf6ccf6cf7c55759d5210750b5d60f3",
+      "https://polygonscan.com/token/0xe0339c80ffde91f3e20494df88d4206d86024cdf",
+      "https://bscscan.com/token/0x7bd6fabd64813c48545c9c0e312a0099d9be2540",
+      "https://cronos-explorer.crypto.org/token/0x02dccaf514c98451320a9365c5b46c61d3246ff3",
+      "https://explorer.fuse.io/token/0x5dd8015cec49f4db01fd228f688bf30337d3e0a9",
+      "https://binplorer.com/address/0x7bd6fabd64813c48545c9c0e312a0099d9be2540",
+      "https://solscan.io/token/0x761d38e5ddf6ccf6cf7c55759d5210750b5d60f3",
+      "https://solscan.io/token/7zcm8wbn9ala3o47soyctu6ildj7wkgg5sv2he5cgtd5"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "dogelonmars",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "DogelonMars",
+    "subreddit_url": "https://www.reddit.com/r/dogelon/",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/14962/thumb/6GxcPRo3_400x400.jpg?1696514622",
+    "small": "https://coin-images.coingecko.com/coins/images/14962/small/6GxcPRo3_400x400.jpg?1696514622",
+    "large": "https://coin-images.coingecko.com/coins/images/14962/large/6GxcPRo3_400x400.jpg?1696514622"
+  },
+  "last_updated": "2025-07-11T09:51:12.370311+00:00"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "spark-2",
+  "symbol": "spk",
+  "name": "Spark",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Lending/Borrowing Protocols",
+    "Ethereum Ecosystem",
+    "Stablecoin Protocol"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xc20059e0317de91738d13af027dfc4a50781b066"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Spark is an onchain capital allocator, with $3.86B deployed across DeFi, CeFi, and RWA. It unlocks capital efficiency at scale, auto-balancing allocations based on market conditions while maintaining a conservative risk profile. Spark was created to solve DeFi’s core inefficiencies: fragmented liquidity, unstable yields, and idle stablecoin capital. It acts as a two-sided capital allocator—borrowing from Sky’s $6.5B+ reserves and deploying across DeFi, CeFi, and RWAs to provide deep, consistent liquidity. This yield is packaged into products like sUSDS and sUSDC, offering users programmable, fee-free income. Rather than competing with protocols, Spark powers them as the liquidity and yield infrastructure for onchain finance.\r\n\r\nAccess to Deep, Scalable Liquidity: Spark taps into Sky’s $6.5B+ stablecoin reserves, enabling large-scale capital deployment across DeFi, CeFi, and RWAs. User-Friendly Yield Products: Yield is delivered through stablecoins like sUSDS and sUSDC—fully composable, fee-free, and available across chains.\r\n\r\nSparkLend: A stablecoin lending market. Unlike other lending protocols where rates fluctuate based on utilization or loan size, SparkLend offers governance-defined rates that do not vary based on those factors. This is made possible by Spark’s Liquidity Layer (SLL), which supplies consistent stablecoin liquidity to the protocol.\r\n\r\nSpark Savings: A product for earning yield on stablecoins like USDC, and USDS (and soon, USDT) by converting them into yield-bearing sUSDS or sUSDC. These yield tokens are composable with other DeFi protocols, making it easy to put capital to work while maintaining exposure to onchain yield at a competitive risk-adjusted rate.\r\n\r\nSpark Liquidity Layer (SLL): A backend capital allocator that routes liquidity to other protocols like Aave, Morpho, and even RWAs (e.g., BlackRock’s BUIDL). One of the most important SLL deployments on Base is the Spark USDC Morpho Vault, which currently supplies $95M USDC, making it the largest liquidity provider to the Coinbase app integration on Base. This vault plays a key role in mitigating rate volatility for borrowers and demonstrates how SLL enhances liquidity conditions across DeFi.\r\n\r\nExisting Products: Spark's total TVL is currently $7.9B, split between SparkLend and the Spark Liquidity Layer (SLL). You can find real-time details and breakdowns here: https://defillama.com/protocol/spark#information\r\n\r\nSpark in DeFiLlama, https://defillama.com/protocol/spark#information\r\n\r\nSparkLend is one of the largest lending protocols in DeFi. It offers deep liquidity and governance-defined rates, providing borrowers with transparent conditions.\r\n\r\nSpark Savings is live on Ethereum mainnet, Base, Optimism, Arbitrum, Unichain, and Gnosis, offering vaults for both USDS and USDC.\r\n\r\nThe Spark Liquidity Layer actively deploys capital across protocols on multiple chains, including Ethereum mainnet, Base, and Arbitrum.\r\n\r\nSLL allocations in real-time, https://data.spark.fi/spark-liquidity-layer"
+  },
+  "links": {
+    "homepage": [
+      "https://spark.fi/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xc20059e0317DE91738d13af027DfC4a50781b066",
+      "https://ethplorer.io/address/0xc20059e0317DE91738d13af027DfC4a50781b066"
+    ],
+    "official_forum_url": [
+      "https://docs.spark.fi/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/sparkdotfi",
+      "https://mirror.xyz/sparkfi.eth",
+      "https://www.youtube.com/@sparkdotfi"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "sparkdotfi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/38637/thumb/Spark-Logomark-RGB.png?1744878896",
+    "small": "https://coin-images.coingecko.com/coins/images/38637/small/Spark-Logomark-RGB.png?1744878896",
+    "large": "https://coin-images.coingecko.com/coins/images/38637/large/Spark-Logomark-RGB.png?1744878896"
+  },
+  "last_updated": "2025-07-11T09:53:57.923657+00:00"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "autonolas",
+  "symbol": "olas",
+  "name": "Autonolas",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Solana Ecosystem",
+    "Polygon Ecosystem",
+    "Gnosis Chain Ecosystem",
+    "Arbitrum Ecosystem",
+    "Celo Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Base Ecosystem",
+    "AI Agents",
+    "Mode Ecosystem",
+    "AI Agent Launchpad",
+    "Binance Alpha Spotlight",
+    "AI Framework",
+    "DeFAI"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x0001a500a6b18995b03f44bb040a5ffc28e45cb0",
+    "celo": "0xacffae8e57ec6e394eb1b41939a8cf7892dbdc51",
+    "mode": "0xcfd1d50ce23c46d3cf6407487b2f8934e96dc8f9",
+    "base": "0x54330d28ca3357f294334bdc454a032e7f353416",
+    "xdai": "0xce11e14225575945b8e6dc0d4f2dd4c570f79d9f",
+    "optimistic-ethereum": "0xfc2e6e6bcbd49ccf3a5f029c79984372dcbfe527",
+    "arbitrum-one": "0x064f8b858c2a603e1b106a2039f5446d32dc81c1",
+    "polygon-pos": "0xfef5d947472e72efbb2e388c730b7428406f2f95",
+    "solana": "Ez3nzG9ofodYCvEmw73XhQ87LWNYVRM2s7diB5tBZPyM"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Autonolas, also known as Olas, is a unified network of off-chain services such as automation, oracles, and co-owned AI. It offers a composable stack for building these services and a protocol for incentivizing their creation. Autonolas uniquely enables the operation of these services in a co-owned and decentralized manner.\r\n\r\nAutonolas services are ideal for combining crypto and AI, executing complex logic in a decentralized manner, and interacting with on- and off-chain data autonomously and continuously. A novel use case of this cutting-edge autonomous agent technology is Governatooorr, an AI-enabled governance delegate for DAOs.\r\n\r\nAutonolas DAO was established in the summer of 2022, and the public token launch took place via a liquidity bootstrapping pool in July 2023.\r\n\r\nAutonolas is on a healthy growth trajectory and is regularly adding support for additional chains. The project's goal is to be deployed on every major blockchain, powering their core off-chain services and realizing the vision of a unified network of off-chain services.\r\n\r\nThe OLAS token provides access to the network's core functions. Users can stake OLAS to operate off-chain services and lock OLAS in veOLAS to gain governance rights, thereby contributing to the shaping of the network. Furthermore, OLAS powers a unique system of developer incentives aimed at expanding the number of services in the Olas ecosystem. Governance members can boost ETH donations to desirable services, made up of autonomous agents and their software components and referred to as  'useful code', with OLAS from the protocol. Existing token holders can bond LP shares involving OLAS into the protocol to increase protocol-owned liquidity, known as 'useful capital'. For more information, visit the DAO’s website at https://olas.network."
+  },
+  "links": {
+    "homepage": [
+      "https://olas.network"
+    ],
+    "whitepaper": "https://www.autonolas.network/whitepaper",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x0001a500a6b18995b03f44bb040a5ffc28e45cb0",
+      "https://platform.arkhamintelligence.com/explorer/token/autonolas",
+      "https://ethplorer.io/address/0x0001a500a6b18995b03f44bb040a5ffc28e45cb0",
+      "https://ethereum.dex.guru/token/0x0001a500a6b18995b03f44bb040a5ffc28e45cb0",
+      "https://gnosisscan.io/token/0xce11e14225575945b8e6dc0d4f2dd4c570f79d9f",
+      "https://polygonscan.com/token/0xfef5d947472e72efbb2e388c730b7428406f2f95",
+      "https://solscan.io/token/ez3nzg9ofodycvemw73xhq87lwnyvrm2s7dib5tbzpym",
+      "https://arbiscan.io/token/0x064F8B858C2A603e1b106a2039f5446D32dc81c1",
+      "https://optimistic.etherscan.io/token/0xFC2E6e6BCbd49ccf3A5f029c79984372DcBFE527",
+      "https://basescan.org/token/0x54330d28ca3357F294334BDC454a032e7f353416"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/BQzYqhjGjQ"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "autonolas",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/31099/thumb/OLAS-token.png?1696529930",
+    "small": "https://coin-images.coingecko.com/coins/images/31099/small/OLAS-token.png?1696529930",
+    "large": "https://coin-images.coingecko.com/coins/images/31099/large/OLAS-token.png?1696529930"
+  },
+  "last_updated": "2025-07-11T09:52:45.019893+00:00"
+}

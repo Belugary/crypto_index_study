@@ -1,0 +1,54 @@
+{
+  "id": "nillion",
+  "symbol": "nil",
+  "name": "Nillion",
+  "categories": [
+    "Infrastructure",
+    "Binance Launchpool"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Nillion is the first Blind Computer & a private computation and storage network. The network uses PETs (Privacy-Enhancing Technologies) to enable computation and storage on data while maintaining privacy, making possible use cases like private personalized AI, encrypted databases, data marketplace, and privacy-preserving applications.\r\n\r\n$NIL is the native utility token of the network that is used for:\r\nNetwork fees for blind computation and payments across the Coordination Layer and Petnet\r\nStaking to secure the network\r\nGovernance participation the onchain governance module\r\n\r\n$NIL enables access to Nillion modules and services such as:\r\nDB: an encrypted database with data split up across multiple nodes. Calculations can still be performed on data while in encrypted form\r\nAI: AI-focused privacy technologies that include:\r\nAI Virtual Machine (AIVM) &ndash; a secure AI inference platform co-developed with Meta for private inference\r\nNada-AI &ndash; a library for nilVM, offering an interface for running small AI models\r\nnilTEE & uses Trusted Execution Environments (TEEs) to run faster private inference where speed is important\r\nVM: VM with libraries that simplify program development for AI devs by letting them use Python and Javascript to write web3 programs"
+  },
+  "links": {
+    "homepage": [
+      "https://nillion.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://www.mintscan.io/nillion"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/nillionnetwork",
+      "https://medium.com/@Nillion_Network",
+      "https://www.youtube.com/channel/UCKyQIOGz5dyIQXxQMS1Ok5g"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "nillionnetwork",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "nillionnetwork",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/NillionNetwork"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39082/thumb/nillion.jpg?1723033507",
+    "small": "https://coin-images.coingecko.com/coins/images/39082/small/nillion.jpg?1723033507",
+    "large": "https://coin-images.coingecko.com/coins/images/39082/large/nillion.jpg?1723033507"
+  },
+  "last_updated": "2025-07-11T09:51:27.961246+00:00"
+}

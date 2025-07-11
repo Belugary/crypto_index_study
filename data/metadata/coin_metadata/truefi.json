@@ -1,0 +1,62 @@
+{
+  "id": "truefi",
+  "symbol": "tru",
+  "name": "TrueFi",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Yield Farming",
+    "Lending/Borrowing Protocols",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "Alameda Research Portfolio",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "RWA Protocol"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x4c19596f5aaff459fa38b0f7ed92f11ae6543784"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "It is a DeFi uncollateralized lending protocol developed by the TrustToken team. Lenders can borrow cryptocurrencies with predictable loan rates without the need to pledge collaterals like Aave, Compound, and Venus. In the long term, TrueFi aims to become a market-driven, automated credit rating and lending system. This will demand building beyond the rigid, conservative constraints such as minimum/maximum APY and high TRU participation factor. It will also require increased levels of responsibility from users, especially for onboarding new borrowers beyond the pre-approved whitelist and approving new loan types."
+  },
+  "links": {
+    "homepage": [
+      "http://truefi.io/",
+      "https://www.trusttoken.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x4c19596f5aaff459fa38b0f7ed92f11ae6543784",
+      "https://platform.arkhamintelligence.com/explorer/token/truefi",
+      "https://ethplorer.io/address/0x4c19596f5aaff459fa38b0f7ed92f11ae6543784"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/3tMyMqyqDj",
+      "https://blog.trusttoken.com/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": "https://snapshot.org/#/truefigov.eth",
+    "twitter_screen_name": "TrueFiDAO",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "jointruefi",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/trusttoken/truefi-spec"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/13180/thumb/truefi_glyph_color.png?1696512963",
+    "small": "https://coin-images.coingecko.com/coins/images/13180/small/truefi_glyph_color.png?1696512963",
+    "large": "https://coin-images.coingecko.com/coins/images/13180/large/truefi_glyph_color.png?1696512963"
+  },
+  "last_updated": "2025-07-11T09:53:24.124547+00:00"
+}

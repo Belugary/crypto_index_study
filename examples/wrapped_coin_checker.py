@@ -47,86 +47,14 @@ class WrappedCoinChecker:
         categories = metadata.get("categories", [])
         wrapped_categories = []
 
-        # 严格基于 CoinGecko 的官方分类标签进行识别
-        # 只有明确的包装/代表其他资产的代币才算包装币
-        wrapped_category_keywords = [
-            # 包装类代币 - 明确的包装代币
-            "Wrapped-Tokens",
-            "Wrapped Tokens",
-            # 桥接代币 - 跨链包装代币
-            "Bridged-Tokens",
-            "Bridged Tokens",
-            "Bridged WBTC",
-            "Bridged WETH",
-            "Bridged USDC",
-            "Bridged USDT",
-            "Bridged DAI",
-            "Bridged Stablecoin",
-            # 流动性质押代币 - 代表质押资产的代币
-            "Liquid Staking Tokens",
-            "Liquid Staked ETH",
-            "Liquid Staked SOL",
-            "Liquid Staked BTC",
-            # 重新质押代币 - 代表重新质押资产的代币
-            "Liquid Restaking Tokens",
-            "Liquid Restaked ETH",
-            "Liquid Restaked SOL",
-            # 代币化资产 - 代表真实资产的代币
-            "Tokenized BTC",
-            "Tokenized ETH",
-            "Tokenized Assets",
-            "Tokenized Gold",
-            "Tokenized Silver",
-            "Tokenized Commodities",
-            "Tokenized Treasury Bills (T-Bills)",
-            "Tokenized Treasury Bonds (T-Bonds)",
-            # 收益代币 - 代表生息资产的代币
-            "Yield-Bearing Stablecoin",
-            "Yield-Bearing Tokens",
-            # 其他明确的包装类别
-            "Interest Bearing",
-            "Receipt Tokens",
-            "Vault Tokens",
-        ]
+        # 严格按照 CoinGecko 的官方分类判断
+        # 只有明确包含 "Wrapped-Tokens" 分类的才算包装币
+        wrapped_category_keywords = ["Wrapped-Tokens"]
 
-        # 排除的分类 - 这些虽然相关但通常是原生代币
-        excluded_categories = [
-            # 治理代币通常是原生的
-            "Liquid Staking Governance Tokens",
-            "Liquid Restaking Governance Tokens",
-            "Restaking",  # 单独的 Restaking 通常指协议代币
-            "Derivatives",  # 单独的 Derivatives 通常指平台代币
-            "Synthetic Issuer",  # 发行方代币，不是合成资产本身
-        ]
-
-        # 特殊排除规则 - 即使有包装相关分类，也不应视为包装币
-        # 检查是否是meme币 - meme币即使有Bridged-Tokens分类也不是真正的包装币
-        if "Meme" in categories:
-            return {
-                "coin_id": coin_id,
-                "name": metadata.get("name"),
-                "symbol": metadata.get("symbol"),
-                "is_wrapped_coin": False,
-                "confidence": "high",
-                "reason": "meme_coin_excluded",
-                "wrapped_categories": [],
-                "all_categories": categories,
-                "last_updated": metadata.get("last_updated"),
-            }
-
-        # 检查分类中是否包含包装币关键词，但排除治理代币
+        # 检查分类中是否包含包装币关键词
         for category in categories:
-            # 首先检查是否在排除列表中
-            if any(
-                excluded.lower() == category.lower() for excluded in excluded_categories
-            ):
-                continue
-
-            # 然后检查是否匹配包装币关键词
-            for keyword in wrapped_category_keywords:
-                if keyword.lower() == category.lower():
-                    wrapped_categories.append(category)
-                    break
+            if category in wrapped_category_keywords:
+                wrapped_categories.append(category)
 
         is_wrapped = len(wrapped_categories) > 0
 

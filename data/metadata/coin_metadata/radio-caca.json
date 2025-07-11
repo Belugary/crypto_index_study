@@ -1,0 +1,70 @@
+{
+  "id": "radio-caca",
+  "symbol": "raca",
+  "name": "Radio Caca",
+  "categories": [
+    "Gaming (GameFi)",
+    "NFT",
+    "BNB Chain Ecosystem",
+    "Metaverse",
+    "Play To Earn",
+    "Ethereum Ecosystem",
+    "DWF Labs Portfolio",
+    "OKT Chain Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x12bb890508c125661e03b09ec06e404bc9289040",
+    "okex-chain": "0x12bb890508c125661e03b09ec06e404bc9289040",
+    "ethereum": "0x12bb890508c125661e03b09ec06e404bc9289040"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "RACA (USM.WORLD), a web3 ecosystem initiated by Maye Musk NFT Dog community. Over 3.7 million units of BNB Coins (2 billion USD equivalent) of trading volume was recorded in 9 months from Maye Musk NFT and derivative NFTs, including game characters and virtual lands.\r\n\r\nBacked by OKX Ventures and Consensys Mesh Tachyon (parent company of MetaMask), it has one of the biggest web3 communities over 29 fanbase regions, 665k followers on Twitter, 510k on Telegram, and 68k on Discord. USM is also the web3 central for virtual headquarters and social spaces for partners include - BNB Chain, Huobi, Kucoin, Bybit, Bitget, LBank, OKC, Dodo, MEXC, BSC News, Element Market, and Miami NFT Week etc.\r\n\r\nUSM (United States of Mars) is one of the oldest planets in the universe that is iconic to Mars ecology and landscape. It was believed to be forged by the Galaxy Forger - Looki, a celestial creature in existence responsible for the creation of countless stars, constellations, and planets, including Moon and Mars.\r\n\r\nRACAfellers, residents of USM.WORLD, have always valued the ideals of innovation, sustainability, honor, and are fiercely proud of their cultural heritage, and the decentralized community of Maye Musk Dog NFT - Matrix Plus Box. It is a planet whose magical power and influence is on the rise, where art, craftsmanship, good cause, and innovation walk hand in hand, from the engines of forward thinking."
+  },
+  "links": {
+    "homepage": [
+      "https://www.raca3.com/",
+      "https://www.usm.world"
+    ],
+    "whitepaper": null,
+    "blockchain_site": [
+      "https://bscscan.com/token/0x12bb890508c125661e03b09ec06e404bc9289040",
+      "https://platform.arkhamintelligence.com/explorer/token/radio-caca",
+      "https://etherscan.io/token/0x12bb890508c125661e03b09ec06e404bc9289040",
+      "https://ethplorer.io/address/0x12bb890508c125661e03b09ec06e404bc9289040",
+      "https://www.oklink.com/en/okc/token/0x12bb890508c125661e03b09ec06e404bc9289040",
+      "https://binplorer.com/address/0x12bb890508c125661e03b09ec06e404bc9289040",
+      "https://www.oklink.com/cn/oktc/address/0x12bb890508c125661e03b09ec06e404bc9289040"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/qzM796FrDd",
+      "https://twitter.com/USMverse"
+    ],
+    "announcement_url": [
+      "https://raca3.medium.com"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "RACA_3",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "RadioCaca",
+    "subreddit_url": "https://www.reddit.com/r/RadioCacaNFT",
+    "repos_url": {
+      "github": [
+        "https://github.com/radiocaca/radio-caca"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/17841/thumb/ez44_BSs_400x400.jpg?1696517365",
+    "small": "https://coin-images.coingecko.com/coins/images/17841/small/ez44_BSs_400x400.jpg?1696517365",
+    "large": "https://coin-images.coingecko.com/coins/images/17841/large/ez44_BSs_400x400.jpg?1696517365"
+  },
+  "last_updated": "2025-07-11T09:56:08.089218+00:00"
+}

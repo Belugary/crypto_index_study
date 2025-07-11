@@ -1,0 +1,62 @@
+{
+  "id": "zircuit",
+  "symbol": "zrc",
+  "name": "Zircuit",
+  "categories": [
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem",
+    "Layer 2 (L2)",
+    "Zero Knowledge (ZK)",
+    "Restaking",
+    "Zircuit Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xfd418e42783382e86ae91e445406600ba144d162",
+    "zircuit": "0xfd418e42783382e86ae91e445406600ba144d162",
+    "binance-smart-chain": "0xdac991621fd8048d9f235324780abd6c3ad26421"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Zircuit is the AI-powered blockchain for secure, automated finance. As a fully EVM-compatible zero-knowledge rollup, Zircuit combines advanced AI, zero-knowledge proofs, and robust infrastructure to deliver unmatched safety, performance, and scalability. Every transaction is protected at the sequencer level by AI models, creating a highly secure environment for users and developers. Designed for internet-scale applications, Zircuit reduces gas fees and boosts transaction speed, unlocking the full potential of Web3 while remaining fully protected."
+  },
+  "links": {
+    "homepage": [
+      "https://www.zircuit.com/"
+    ],
+    "whitepaper": "https://docs.zircuit.com/",
+    "blockchain_site": [
+      "https://explorer.zircuit.com/tokens/0xfd418e42783382e86ae91e445406600ba144d162",
+      "https://platform.arkhamintelligence.com/explorer/token/zircuit",
+      "https://etherscan.io/token/0xfd418e42783382e86ae91e445406600ba144d162",
+      "https://ethplorer.io/address/0xfd418e42783382e86ae91e445406600ba144d162",
+      "https://bscscan.com/token/0xdac991621fd8048d9f235324780abd6c3ad26421",
+      "https://binplorer.com/address/0xdac991621fd8048d9f235324780abd6c3ad26421"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/zircuit"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ZircuitL2",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/35960/thumb/zircuit_token_icon_2.png?1732502352",
+    "small": "https://coin-images.coingecko.com/coins/images/35960/small/zircuit_token_icon_2.png?1732502352",
+    "large": "https://coin-images.coingecko.com/coins/images/35960/large/zircuit_token_icon_2.png?1732502352"
+  },
+  "last_updated": "2025-07-11T09:51:58.182952+00:00"
+}

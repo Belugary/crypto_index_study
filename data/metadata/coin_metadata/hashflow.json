@@ -1,0 +1,67 @@
+{
+  "id": "hashflow",
+  "symbol": "hft",
+  "name": "Hashflow",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Exchange-based Tokens",
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "Binance Launchpool",
+    "MEV Protection",
+    "Ethereum Ecosystem",
+    "Coinbase Ventures Portfolio",
+    "Alameda Research Portfolio",
+    "DragonFly Capital Portfolio",
+    "Galaxy Digital Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xb3999f658c0391d94a37f7ff328f3fec942bcadc",
+    "binance-smart-chain": "0x44ec807ce2f4a6f2737a92e985f318d035883e47"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Hashflow is a multichain decentralized exchange (DEX) that enables users to trade digital assets on leading blockchains including Ethereum, Arbitrum, Avalanche, BNB Chain, Optimism, Polygon, and Solana in just a matter of seconds. Hashflow leverages an intent-based smart order routing architecture to offer traders the best prices, access to over $8B in liquidity, and the ability to trade every token. Since launching in April 2021, Hashflow has facilitated over $18B in total trade volume, making it a top 10 DEX.\t"
+  },
+  "links": {
+    "homepage": [
+      "https://hashflow.com/",
+      "https://app.hashflow.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xb3999f658c0391d94a37f7ff328f3fec942bcadc",
+      "https://platform.arkhamintelligence.com/explorer/token/hashflow",
+      "https://ethplorer.io/address/0xb3999f658c0391d94a37f7ff328f3fec942bcadc",
+      "https://bscscan.com/token/0x44ec807ce2f4a6f2737a92e985f318d035883e47",
+      "https://binplorer.com/address/0x44ec807ce2f4a6f2737a92e985f318d035883e47"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/hashflow",
+      "https://blog.hashflow.com/",
+      "https://youtube.com/@hashflowdex"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "hashflow",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "hashflowdex",
+    "subreddit_url": "https://www.reddit.com/r/Hashflow",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/26136/thumb/200x200_360.png?1728551257",
+    "small": "https://coin-images.coingecko.com/coins/images/26136/small/200x200_360.png?1728551257",
+    "large": "https://coin-images.coingecko.com/coins/images/26136/large/200x200_360.png?1728551257"
+  },
+  "last_updated": "2025-07-11T09:52:11.420368+00:00"
+}

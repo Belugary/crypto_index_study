@@ -1,0 +1,65 @@
+{
+  "id": "renzo",
+  "symbol": "rez",
+  "name": "Renzo",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Binance Launchpool",
+    "Ethereum Ecosystem",
+    "Base Ecosystem",
+    "Restaking",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "OKX Ventures Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x3b50805453023a91a8bf641e279401a0b23fa6f9",
+    "base": "0xf757c9804cf2ee8d8ed64e0a8936293fe43a7252",
+    "solana": "3DK98MXPz8TRuim7rfQnebSLpA7VSoc79Bgiee1m4Zw5"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Renzo is a restaking protocol that abstracts and manages AVS strategies for Liquid Restaking Tokens (LRTs), making Ethereum and Solana restaking ezpz and accessible to everyone. The products $ezETH, $pzETH, and $ezSOL serve as interfaces to the EigenLayer, Symbiotic, and Jito Network ecosystems, respectively. Renzo's mission is to make restaking easy and accessible to everyone. REZ is the Governance Token for the Renzo Protocol."
+  },
+  "links": {
+    "homepage": [
+      "https://www.renzoprotocol.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x3b50805453023a91a8bf641e279401a0b23fa6f9",
+      "https://platform.arkhamintelligence.com/explorer/token/renzo",
+      "https://ethplorer.io/address/0x3b50805453023a91a8bf641e279401a0b23fa6f9",
+      "https://solscan.io/token/3DK98MXPz8TRuim7rfQnebSLpA7VSoc79Bgiee1m4Zw5",
+      "https://basescan.org/token/0xf757c9804cf2ee8d8ed64e0a8936293fe43a7252"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/renzoprotocol"
+    ],
+    "chat_url": [
+      "https://discord.gg/renzoprotocol"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "RenzoProtocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "RenzoProtocolChat",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Renzo-Protocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/37327/thumb/renzo_200x200.png?1714025012",
+    "small": "https://coin-images.coingecko.com/coins/images/37327/small/renzo_200x200.png?1714025012",
+    "large": "https://coin-images.coingecko.com/coins/images/37327/large/renzo_200x200.png?1714025012"
+  },
+  "last_updated": "2025-07-11T09:53:38.253944+00:00"
+}

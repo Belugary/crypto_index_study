@@ -1,0 +1,69 @@
+{
+  "id": "zentry",
+  "symbol": "zent",
+  "name": "Zentry",
+  "categories": [
+    "Gaming (GameFi)",
+    "Play To Earn",
+    "Guild and Scholarship",
+    "Ethereum Ecosystem",
+    "Animoca Brands Portfolio",
+    "Base Ecosystem",
+    "DWF Labs Portfolio",
+    "Ronin Ecosystem",
+    "Coinbase Ventures Portfolio",
+    "DeFiance Capital Portfolio",
+    "Pantera Capital Portfolio",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "MMO"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xdbb7a34bf10169d6d2d0d02a6cbb436cf4381bfa",
+    "ronin": "0x9f28c9c2da4a833cbfaaacbf7eb62267334d7149",
+    "base": "0xdf49c226ed9cf05be0e38cdb86df4e8a945158b1"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What is Zentry?\r\nZentry is the 'game of games'—a real-life MMORPG that unites the world’s three billion gamers into one unified Play Economy. Powered by a full-stack ecosystem of consumer apps, a multiversal IP world, game publishers, and blockchain infrastructure, we pioneer the Metagame Layer that gamifies activities across games, DeFi, social, entertainment, and lifestyle, integrating them into Zentry: the world’s largest shared adventure.\r\n\r\nZENT is the native utility token that is used for:\r\n- In-world Commodity (Marketplace, Consumable, Trade) \r\n- Decentralized Governance (Proposal and voting)\r\n- Staking - Feature unlocks \r\n- Staking - Airdrop Benefits\r\n\r\nZentry products includes:\r\n- Zentry (the universe, already launched zentry.com )\r\n- Nexus (socialfi metagame for web3 culture, already launched nexus.zentry.com )\r\n- Radiant (web2/web3 gaming metagame, launching in Q3 2024)\r\n- Zigma (gaming+anime IP based NFT collective, launching in Q4 2024)\r\n- Azul (AI agent for gaming, launching in Q1 2025)\r\n- Maxion (web3 game publisher, holding several IPs such as Ragnarok)"
+  },
+  "links": {
+    "homepage": [
+      "https://zentry.com"
+    ],
+    "whitepaper": "https://doc.zentry.com",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xdbb7a34bf10169d6d2d0d02a6cbb436cf4381bfa",
+      "https://platform.arkhamintelligence.com/explorer/token/zentry",
+      "https://ethplorer.io/address/0xdbb7a34bf10169d6d2d0d02a6cbb436cf4381bfa",
+      "https://app.roninchain.com/token/0x9f28c9c2da4a833cbfaaacbf7eb62267334d7149",
+      "https://basescan.org/token/0xdf49c226ed9cf05be0e38cdb86df4e8a945158b1"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/zentry",
+      "https://medium.com/zentry",
+      "https://www.youtube.com/@zentryHQ"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "zentry",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/36979/thumb/Zentry-rebrand-Primary_200px.png?1713743277",
+    "small": "https://coin-images.coingecko.com/coins/images/36979/small/Zentry-rebrand-Primary_200px.png?1713743277",
+    "large": "https://coin-images.coingecko.com/coins/images/36979/large/Zentry-rebrand-Primary_200px.png?1713743277"
+  },
+  "last_updated": "2025-07-11T09:51:42.582217+00:00"
+}

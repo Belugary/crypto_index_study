@@ -1,0 +1,53 @@
+{
+  "id": "roam-token",
+  "symbol": "roam",
+  "name": "ROAM Token",
+  "categories": [
+    "Retail",
+    "BNB Chain Ecosystem",
+    "Solana Ecosystem",
+    "DePIN"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "RoamA1USA8xjvpTJZ6RvvxyDRzNh6GCA1zVGKSiMVkn",
+    "binance-smart-chain": "0x3fefe29da25bea166fb5f6ade7b5976d2b0e586b"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.weroam.xyz/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/RoamA1USA8xjvpTJZ6RvvxyDRzNh6GCA1zVGKSiMVkn",
+      "https://bscscan.com/token/0x3fefe29da25bea166fb5f6ade7b5976d2b0e586b",
+      "https://binplorer.com/address/0x3fefe29da25bea166fb5f6ade7b5976d2b0e586b"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "weRoamxyz",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54737/thumb/roam-logo.jpg?1741262856",
+    "small": "https://coin-images.coingecko.com/coins/images/54737/small/roam-logo.jpg?1741262856",
+    "large": "https://coin-images.coingecko.com/coins/images/54737/large/roam-logo.jpg?1741262856"
+  },
+  "last_updated": "2025-07-11T09:53:55.186847+00:00"
+}

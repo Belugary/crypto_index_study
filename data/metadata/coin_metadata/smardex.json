@@ -1,0 +1,70 @@
+{
+  "id": "smardex",
+  "symbol": "sdex",
+  "name": "SMARDEX",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "Solana Ecosystem",
+    "Polygon Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Base Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x5de8ab7e27f6e7a1fff3e5b337584aa43961beef",
+    "arbitrum-one": "0xabd587f2607542723b17f14d00d99b987c29b074",
+    "base": "0xfd4330b0312fdeec6d4225075b82e00493ff2e3f",
+    "binance-smart-chain": "0xfdc66a08b0d0dc44c17bbd471b88f49f50cdd20f",
+    "polygon-pos": "0x6899face15c14348e1759371049ab64a3a06bfa6",
+    "solana": "9dzSzFvPsKDoY2gdWErsuz2H1o4tbzvgBhrNZ9cvkD2j"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "SDEX is the token from the first DEX on the planet to fix Impermanent Loss. It is explained in a scientific paper here: https://www.academia.edu/98332701/The_SMARDEX_Protocol_A_Novel_Solution_to_Impermanent_Loss_in_Decentralized_Finance"
+  },
+  "links": {
+    "homepage": [
+      "https://smardex.io/"
+    ],
+    "whitepaper": "https://docs.smardex.io/smardex-technology/whitepaper",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x5de8ab7e27f6e7a1fff3e5b337584aa43961beef",
+      "https://platform.arkhamintelligence.com/explorer/token/smardex",
+      "https://ethplorer.io/address/0x5de8ab7e27f6e7a1fff3e5b337584aa43961beef",
+      "https://polygonscan.com/token/0x6899face15c14348e1759371049ab64a3a06bfa6",
+      "https://bscscan.com/token/0xfdc66a08b0d0dc44c17bbd471b88f49f50cdd20f",
+      "https://arbiscan.io/token/0xabd587f2607542723b17f14d00d99b987c29b074",
+      "https://binplorer.com/address/0xfdc66a08b0d0dc44c17bbd471b88f49f50cdd20f",
+      "https://arbitrum.dex.guru/token/0xabd587f2607542723b17f14d00d99b987c29b074",
+      "https://basescan.org/token/0xfd4330b0312fdeec6d4225075b82e00493ff2e3f",
+      "https://solscan.io/token/9dzszfvpskdoy2gdwersuz2h1o4tbzvgbhrnz9cvkd2j"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SmarDex",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "realSmarDex",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/SmarDex-Ecosystem/dex-smart-contracts"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/29470/thumb/SDEX_logo_transparent_outside_240x240.png?1696930070",
+    "small": "https://coin-images.coingecko.com/coins/images/29470/small/SDEX_logo_transparent_outside_240x240.png?1696930070",
+    "large": "https://coin-images.coingecko.com/coins/images/29470/large/SDEX_logo_transparent_outside_240x240.png?1696930070"
+  },
+  "last_updated": "2025-07-11T09:53:08.993224+00:00"
+}

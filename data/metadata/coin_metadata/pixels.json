@@ -1,0 +1,60 @@
+{
+  "id": "pixels",
+  "symbol": "pixel",
+  "name": "Pixels",
+  "categories": [
+    "Gaming (GameFi)",
+    "NFT",
+    "Ethereum Ecosystem",
+    "Animoca Brands Portfolio",
+    "Ronin Ecosystem",
+    "Gaming Utility Token",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x3429d03c6f7521aec737a0bbf2e5ddcef2c3ae31",
+    "ronin": "0x7eae20d11ef8c779433eb24503def900b9d28ad7"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Pixels is a captivating, open-ended world of farming and exploration, built one pixel at a time. Gathering resources, advancing skills, and building relationships while exploring the story and quests woven throughout the Pixels Universe, you’ll be submerged in a mesmerizing blend of managing, creating, and exploring in a world that marries blockchain ownership with your progression and accomplishments."
+  },
+  "links": {
+    "homepage": [
+      "https://www.pixels.xyz/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x3429d03c6f7521aec737a0bbf2e5ddcef2c3ae31",
+      "https://platform.arkhamintelligence.com/explorer/token/pixels",
+      "https://ethplorer.io/address/0x3429d03c6f7521aec737a0bbf2e5ddcef2c3ae31",
+      "https://app.roninchain.com/address/0x7eae20d11ef8c779433eb24503def900b9d28ad7?t=contract",
+      "https://app.roninchain.com/token/0x7eae20d11ef8c779433eb24503def900b9d28ad7"
+    ],
+    "official_forum_url": [
+      "https://medium.com/@pixels_online"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "pixels_online",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/35100/thumb/pixel-icon.png?1708339519",
+    "small": "https://coin-images.coingecko.com/coins/images/35100/small/pixel-icon.png?1708339519",
+    "large": "https://coin-images.coingecko.com/coins/images/35100/large/pixel-icon.png?1708339519"
+  },
+  "last_updated": "2025-07-11T09:54:27.354973+00:00"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "joe-coin",
+  "symbol": "joe",
+  "name": "Joe Coin",
+  "categories": [
+    "Meme",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x76e222b07c53d28b89b0bac18602810fc22b49a8"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Joe is a meme coin created around the internet sensation \"emoti guy\"."
+  },
+  "links": {
+    "homepage": [
+      "https://thejoecoin.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x76e222b07c53d28b89b0bac18602810fc22b49a8",
+      "https://platform.arkhamintelligence.com/explorer/token/joe-coin",
+      "https://ethplorer.io/address/0x76e222b07c53d28b89b0bac18602810fc22b49a8"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "joecoin_",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/32333/thumb/joe.png?1697452551",
+    "small": "https://coin-images.coingecko.com/coins/images/32333/small/joe.png?1697452551",
+    "large": "https://coin-images.coingecko.com/coins/images/32333/large/joe.png?1697452551"
+  },
+  "last_updated": "2025-07-11T09:51:47.721979+00:00"
+}

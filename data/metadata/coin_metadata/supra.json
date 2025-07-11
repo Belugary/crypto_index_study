@@ -1,0 +1,65 @@
+{
+  "id": "supra",
+  "symbol": "supra",
+  "name": "Supra",
+  "categories": [
+    "Infrastructure",
+    "Smart Contract Platform",
+    "Oracle",
+    "Layer 1 (L1)",
+    "Animoca Brands Portfolio",
+    "Coinbase Ventures Portfolio",
+    "Cross-chain Communication",
+    "DeFAI",
+    "Made in USA",
+    "Supra Ecosystem"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": "",
+    "supra": "0x1::supra_coin::SupraCoin"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Supra is the first chain built for Automatic DeFi, or AutoFi; a novel self-operating automated financial system built on its Layer-1 blockchain with built-in high-speed smart contracts, native price oracles, on-chain automation and cross-chain messaging. It unlocks all-new Automatic DeFi primitives that can generate fair recurring protocol revenue and redistribute it across the ecosystem, reducing reliance on inflationary block rewards entirely over time. This also creates a powerful framework for specialized crypto AI Agents across a wide variety of DeFi use cases."
+  },
+  "links": {
+    "homepage": [
+      "https://supra.com/"
+    ],
+    "whitepaper": "https://supra.com/research/#whitepapers",
+    "blockchain_site": [
+      "https://suprascan.io/",
+      "https://suprascan.io/address/0x1::supra_coin::SupraCoin/f"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/supra.labs/",
+      "https://www.linkedin.com/company/supraoracles/mycompany/"
+    ],
+    "chat_url": [
+      "https://discord.gg/supralabs",
+      "https://medium.com/@SupraOracles",
+      "https://www.youtube.com/SupraOfficial"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SUPRA_Labs",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "1",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/35836/thumb/photo_2024-03-09_19-25-08.jpg?1709983533",
+    "small": "https://coin-images.coingecko.com/coins/images/35836/small/photo_2024-03-09_19-25-08.jpg?1709983533",
+    "large": "https://coin-images.coingecko.com/coins/images/35836/large/photo_2024-03-09_19-25-08.jpg?1709983533"
+  },
+  "last_updated": "2025-07-11T09:51:34.922944+00:00"
+}

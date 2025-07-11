@@ -1,0 +1,64 @@
+{
+  "id": "parcl",
+  "symbol": "prcl",
+  "name": "Parcl",
+  "categories": [
+    "Tokenized Real Estate",
+    "Decentralized Finance (DeFi)",
+    "Tokenized Assets",
+    "Derivatives",
+    "Solana Ecosystem",
+    "Real World Assets (RWA)",
+    "Coinbase Ventures Portfolio",
+    "DragonFly Capital Portfolio",
+    "RWA Protocol",
+    "Made in USA"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "4LLbsb5ReP3yEtYzmXewyGjcir5uXtKFURtaEUVC2AHs"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Parcl is a decentralized perpetuals exchange focused on real-world real estate prices. Parcl's primary intention is to create a liquid market around the largest asset class in the world by leveraging world-class real estate data. The Parcl Ecosystem includes the Parcl DEX, Parcl Labs, and Parcl Limited."
+  },
+  "links": {
+    "homepage": [
+      "https://www.parcl.co",
+      "https://www.app.parcl.co",
+      "https://www.parcllimited.com"
+    ],
+    "whitepaper": "https://docs.parcl.co",
+    "blockchain_site": [
+      "https://solscan.io/token/4LLbsb5ReP3yEtYzmXewyGjcir5uXtKFURtaEUVC2AHs",
+      "https://platform.arkhamintelligence.com/explorer/token/parcl",
+      "https://explorer.solana.com/address/4llbsb5rep3yetyzmxewygjcir5uxtkfurtaeuvc2ahs"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/parcl"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Parcl",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/ParclFinance/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/37078/thumb/ParclToken.png?1737478326",
+    "small": "https://coin-images.coingecko.com/coins/images/37078/small/ParclToken.png?1737478326",
+    "large": "https://coin-images.coingecko.com/coins/images/37078/large/ParclToken.png?1737478326"
+  },
+  "last_updated": "2025-07-11T09:53:02.195002+00:00"
+}

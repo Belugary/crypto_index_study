@@ -1,0 +1,56 @@
+{
+  "id": "ong",
+  "symbol": "ong",
+  "name": "Ontology Gas",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)"
+  ],
+  "asset_platform_id": "ontology",
+  "platforms": {
+    "ontology": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2018-06-30",
+  "country_origin": "SG",
+  "description": {
+    "en": "Since the Ontology MainNet went live on June 30th, 2018, MainNet ONT has started to release ONG periodically.\r\n\r\nOntology uses a dual token (ONT and ONG) model. ONT is the coin and can be used for staking in consensus, whereas ONG is the utility token used for on-chain services.\r\n\r\nOntology is a new high-performance public blockchain project & a distributed trust collaboration platform.\r\n\r\nOntology provides new high-performance public blockchains that include a series of complete distributed ledgers and smart contract systems.\r\n\r\nOntology blockchain framework supports public blockchain systems and is able to customize different public blockchains for different applications. Ontology supports collaboration amongst chain networks with its various protocol groups.\r\n\r\nOntology will constantly provide common modules on the underlying infrastructure for different kinds of distributed scenarios, such as those for the distributed digital identity framework, distributed data exchange protocol, and so on. Based on specific scenario requirements, Ontology will continue to develop new common modules."
+  },
+  "links": {
+    "homepage": [
+      "https://ont.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.ont.io/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discordapp.com/invite/4TQujHj",
+      "https://t.me/OntologyNetworkCN"
+    ],
+    "announcement_url": [
+      "https://medium.com/ontologynetwork",
+      "https://www.linkedin.com/company/ontology-network-official/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "OntologyNetwork",
+    "facebook_username": "ONTnetwork",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "OntologyNetwork",
+    "subreddit_url": "https://www.reddit.com/r/OntologyNetwork/",
+    "repos_url": {
+      "github": [
+        "https://github.com/ontio/ontology-compiler"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/5716/thumb/ONG_logo.png?1696506172",
+    "small": "https://coin-images.coingecko.com/coins/images/5716/small/ONG_logo.png?1696506172",
+    "large": "https://coin-images.coingecko.com/coins/images/5716/large/ONG_logo.png?1696506172"
+  },
+  "last_updated": "2025-07-11T09:50:49.809267+00:00"
+}

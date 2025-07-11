@@ -1,0 +1,59 @@
+{
+  "id": "airtor-protocol",
+  "symbol": "anyone",
+  "name": "ANyONe Protocol",
+  "categories": [
+    "Smart Contract Platform",
+    "Ethereum Ecosystem",
+    "DePIN",
+    "Privacy Blockchain"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xfeac2eae96899709a43e252b6b92971d32f9c0f9"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The Anyone Protocol enables any app to instantly and easily run on a decentralized privacy network. Universal privacy, powered by DePIN.\r\n\r\nAnyone is driven by the belief that internet privacy, while growing substantially in public attention, is being compromized at a greater rate than ever. Privacy is a fundamental right, and we need to change expectations around mainstream internet products to get it back.\r\n\r\nJoin the global movement using the power of community to deliver privacy secured through decentralization. Participate in the network, contribute your bandwidth, and earn rewards."
+  },
+  "links": {
+    "homepage": [
+      "https://anyone.io/",
+      "https://educ.ator.io/"
+    ],
+    "whitepaper": "https://docs.ator.io",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xfeac2eae96899709a43e252b6b92971d32f9c0f9",
+      "https://platform.arkhamintelligence.com/explorer/token/airtor-protocol",
+      "https://ethplorer.io/address/0xfeac2eae96899709a43e252b6b92971d32f9c0f9"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/anyoneprotocol",
+      "http://medium.com/@anyone-protocol",
+      "http://youtube.com/@anyoneprotocol"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "AnyoneFDN",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "anyoneprotocol",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/ATOR-Development"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/29690/thumb/AirTor.png?1696528623",
+    "small": "https://coin-images.coingecko.com/coins/images/29690/small/AirTor.png?1696528623",
+    "large": "https://coin-images.coingecko.com/coins/images/29690/large/AirTor.png?1696528623"
+  },
+  "last_updated": "2025-07-11T09:53:39.721545+00:00"
+}
