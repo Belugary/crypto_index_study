@@ -1,0 +1,63 @@
+{
+  "id": "g-token",
+  "symbol": "g",
+  "name": "Gravity (by Galxe)",
+  "categories": [
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "Decentralized Identifier (DID)",
+    "Base Ecosystem",
+    "Gravity Alpha Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x9c7beba8f6ef6643abd725e45a4e8387ef260649",
+    "base": "0x9c7beba8f6ef6643abd725e45a4e8387ef260649",
+    "binance-smart-chain": "0x9c7beba8f6ef6643abd725e45a4e8387ef260649"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "About G, Galxe, and Gravity\r\n\r\nG is the native utility token that powers both the Gravity blockchain and the broader Galxe ecosystem. It functions as the gas token for transactions, enables network security through staking, and plays a central role in governance, payments, and incentivized growth across platforms.\r\n\r\nGalxe is web3’s leading growth platform, empowering millions of users and thousands of projects worldwide. It brings onboarding, identity verification, and engagement together in one seamless experience—built entirely on Gravity, Galxe’s high-performance Layer 1 blockchain.\r\n\r\nDelivering speeds of 1 gigagas per second and subsecond finality, Gravity has served millions of users. Designed to solve web3’s toughest infrastructure challenges, Gravity enhances scalability, performance, security, and cross-chain interoperability.\r\n\r\nTo learn more visit:\r\nhttps://gravity.xyz/\r\nhttps://www.galxe.com/"
+  },
+  "links": {
+    "homepage": [
+      "https://gravity.xyz/"
+    ],
+    "whitepaper": "https://docs.gravity.xyz/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x9c7beba8f6ef6643abd725e45a4e8387ef260649",
+      "https://platform.arkhamintelligence.com/explorer/token/g-token",
+      "https://ethplorer.io/address/0x9c7beba8f6ef6643abd725e45a4e8387ef260649",
+      "https://bscscan.com/token/0x9c7beba8f6ef6643abd725e45a4e8387ef260649",
+      "https://binplorer.com/address/0x9c7beba8f6ef6643abd725e45a4e8387ef260649",
+      "https://basescan.org/token/0x9c7beba8f6ef6643abd725e45a4e8387ef260649",
+      "https://explorer.gravity.xyz/"
+    ],
+    "official_forum_url": [
+      "https://discord.gg/gravitychain"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "gravitychain",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "gravitychain",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39200/thumb/gravity.jpg?1721020647",
+    "small": "https://coin-images.coingecko.com/coins/images/39200/small/gravity.jpg?1721020647",
+    "large": "https://coin-images.coingecko.com/coins/images/39200/large/gravity.jpg?1721020647"
+  },
+  "last_updated": "2025-07-11T06:21:39.457174+00:00"
+}

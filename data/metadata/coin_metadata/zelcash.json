@@ -1,0 +1,66 @@
+{
+  "id": "zelcash",
+  "symbol": "flux",
+  "name": "Flux",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Smart Contract Platform",
+    "Masternodes",
+    "DePIN",
+    "Proof of Work (PoW)",
+    "Made in USA"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 2,
+  "hashing_algorithm": "Equihash",
+  "genesis_date": null,
+  "country_origin": "CH",
+  "description": {
+    "en": "Flux is the cryptocurrency that powers the Flux ecosystem. It has a number of uses including purchasing resources, collateralizing nodes and fuelling transactions on FluxOS, as well as rewarding both miners and FluxNode operators for providing computational resources.\r\n\r\nThe Flux ecosystem is devoted to empowering everyone to develop, deploy and use the decentralized Internet of the future: Web3.\r\n\r\nAt this moment, the Flux ecosystem consists of: a native, mineable PoW cryptocurrency ($FLUX); the powerful decentralized computational Flux Network (FluxNodes); a Linux-based operating system (FluxOS); the Flux blockchain, which enables on-chain governance, economics, and parallel assets for interoperability with other blockchains and DeFi access; and finally, the Flux products — FluxAI, FluxCloud, FluxEdge, Zelcore Wallet, the SSP multisig browser wallet, and FusionX, the ultimate swap aggregator.\r\n\r\nCurrently (2025/5) Flux has a computational network consisting of around 11,500 decentralized nodes, distributed globally with more than 96,000 CPU cores, 230 terabytes of RAM and over 6.1 petabytes of storage. That makes FluxCloud the largest decentralized network in the world!"
+  },
+  "links": {
+    "homepage": [
+      "https://runonflux.com",
+      "https://ai.runonflux.com/",
+      "https://fluxedge.ai/"
+    ],
+    "whitepaper": "https://fluxwhitepaper.app.runonflux.io/",
+    "blockchain_site": [
+      "https://explorer.runonflux.io/"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/influxtechnology/mycompany/",
+      "https://www.instagram.com/runonflux_official/",
+      "https://www.tiktok.com/@runonflux_official"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/runonflux",
+      "https://fluxofficial.medium.com/",
+      "https://www.youtube.com/channel/UCphbdfb1MXYgUPsdhQPcnGw"
+    ],
+    "announcement_url": [
+      "https://fluxofficial.medium.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "runonflux",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": 2853688,
+    "telegram_channel_identifier": "runonflux",
+    "subreddit_url": "https://www.reddit.com/r/Flux_Official/",
+    "repos_url": {
+      "github": [
+        "https://github.com/runonflux"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/5163/thumb/Flux_symbol_blue-white.png?1696505679",
+    "small": "https://coin-images.coingecko.com/coins/images/5163/small/Flux_symbol_blue-white.png?1696505679",
+    "large": "https://coin-images.coingecko.com/coins/images/5163/large/Flux_symbol_blue-white.png?1696505679"
+  },
+  "last_updated": "2025-07-11T06:21:36.672329+00:00"
+}

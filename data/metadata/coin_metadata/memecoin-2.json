@@ -1,0 +1,58 @@
+{
+  "id": "memecoin-2",
+  "symbol": "meme",
+  "name": "Memecoin",
+  "categories": [
+    "NFT",
+    "Binance Launchpool",
+    "Meme",
+    "Ethereum Ecosystem",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "GMCI Meme Index",
+    "GMCI Index"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xb131f4a55907b10d1f0a50d8ab8fa09ec342cd74"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.memecoin.org/",
+      "https://www.memeland.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xb131f4a55907b10d1f0a50d8ab8fa09ec342cd74",
+      "https://platform.arkhamintelligence.com/explorer/token/memecoin-2",
+      "https://ethplorer.io/address/0xb131f4a55907b10d1f0a50d8ab8fa09ec342cd74"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/memeland"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "memecoin",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/32528/thumb/memecoin_%282%29.png?1698912168",
+    "small": "https://coin-images.coingecko.com/coins/images/32528/small/memecoin_%282%29.png?1698912168",
+    "large": "https://coin-images.coingecko.com/coins/images/32528/large/memecoin_%282%29.png?1698912168"
+  },
+  "last_updated": "2025-07-11T06:21:34.299947+00:00"
+}

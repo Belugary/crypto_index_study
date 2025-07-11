@@ -1,0 +1,67 @@
+{
+  "id": "usual",
+  "symbol": "usual",
+  "name": "Usual",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "Base Ecosystem",
+    "Coinbase Ventures Portfolio",
+    "Stablecoin Protocol",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Galaxy Digital Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xc4441c2be5d8fa8126822b9929ca0b81ea0de38e",
+    "base": "0x4acd4d03af6f9cc0fb7c5f0868b7b6287d7969c5",
+    "binance-smart-chain": "0x4acd4d03af6f9cc0fb7c5f0868b7b6287d7969c5"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://usual.money/",
+      "https://app.usual.money/"
+    ],
+    "whitepaper": "https://docs.usual.money/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xc4441c2be5d8fa8126822b9929ca0b81ea0de38e",
+      "https://ethplorer.io/address/0xC4441c2BE5d8fA8126822B9929CA0b81Ea0DE38E",
+      "https://bscscan.com/token/0x4acd4d03af6f9cc0fb7c5f0868b7b6287d7969c5",
+      "https://binplorer.com/address/0x4acd4d03af6f9cc0fb7c5f0868b7b6287d7969c5",
+      "https://basescan.org/token/0x4acd4d03af6f9cc0fb7c5f0868b7b6287d7969c5"
+    ],
+    "official_forum_url": [
+      "https://linkedin.usual.money/"
+    ],
+    "chat_url": [
+      "https://discord.usual.money/",
+      "https://blog.usual.money/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/51091/thumb/USUAL.jpg?1730035787",
+    "small": "https://coin-images.coingecko.com/coins/images/51091/small/USUAL.jpg?1730035787",
+    "large": "https://coin-images.coingecko.com/coins/images/51091/large/USUAL.jpg?1730035787"
+  },
+  "last_updated": "2025-07-11T06:21:35.718329+00:00"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "chaingpt",
+  "symbol": "cgpt",
+  "name": "ChainGPT",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Smart Contract Platform",
+    "Decentralized Finance (DeFi)",
+    "Analytics",
+    "NFT",
+    "BNB Chain Ecosystem",
+    "Solana Ecosystem",
+    "Launchpad",
+    "Ethereum Ecosystem",
+    "Telegram Apps",
+    "Discord Bots",
+    "ChainGPT Launchpad",
+    "Poolz Finance Launchpad",
+    "AI Agents",
+    "AI Applications",
+    "Binance Alpha Spotlight",
+    "AI Framework",
+    "DeFAI"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x9840652dc04fb9db2c43853633f0f62be6f00f98",
+    "solana": "CCDfDXZxzZtkZLuhY48gyKdXc5KywqpR8xEVHHh8ck1G",
+    "ethereum": "0x25931894a86d47441213199621f1f2994e1c39aa"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "ChainGPT is an AI infrastructure platform built for Web3, offering a suite of AI tools tailored to crypto users, developers, and enterprises. These include a smart contract generator, real-time auditor, trading assistant, AI NFT Generator, and a Telegram bot — all powered by large language and vision models trained on blockchain-native data. In parallel, ChainGPT operates two launchpads — ChainGPT Pad and DegenPad — which support token launches and project growth within the ecosystem. \r\nThe platform also includes AIVM, a decentralized virtual machine for running AI workloads on-chain, and AgenticOS, an open-source OS for deploying autonomous agents across Web2 and Web3. All products are unified through the $CGPT token and accessible via web app, SDK, and API.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.chaingpt.org/",
+      "https://app.chaingpt.org/",
+      "https://t.me/ChainGPTAI_bot"
+    ],
+    "whitepaper": "https://docs.chaingpt.org",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x9840652dc04fb9db2c43853633f0f62be6f00f98",
+      "https://platform.arkhamintelligence.com/explorer/token/chaingpt",
+      "https://etherscan.io/token/0x25931894a86d47441213199621f1f2994e1c39aa",
+      "https://ethplorer.io/address/0x25931894a86d47441213199621f1f2994e1c39aa",
+      "https://binplorer.com/address/0x9840652dc04fb9db2c43853633f0f62be6f00f98",
+      "https://solscan.io/token/CCDfDXZxzZtkZLuhY48gyKdXc5KywqpR8xEVHHh8ck1G"
+    ],
+    "official_forum_url": [
+      "https://www.tiktok.com/@chaingpt",
+      "https://www.instagram.com/chaingptai/",
+      "https://www.linkedin.com/company/chaingpt"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/sv2NfqSgVW",
+      "https://medium.com/@chaingpt"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Chain_GPT",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "chain_gpt",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/ChainGPT-org"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/29306/thumb/200x200.png?1696528257",
+    "small": "https://coin-images.coingecko.com/coins/images/29306/small/200x200.png?1696528257",
+    "large": "https://coin-images.coingecko.com/coins/images/29306/large/200x200.png?1696528257"
+  },
+  "last_updated": "2025-07-11T06:21:37.980318+00:00"
+}

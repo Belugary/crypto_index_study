@@ -1,0 +1,57 @@
+{
+  "id": "yu",
+  "symbol": "yu",
+  "name": "YU",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "Solana Ecosystem",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xe868084cf08f3c3db11f4b73a95473762d9463f7",
+    "solana": "YUYAiJo8KVbnc6Fb6h3MnH2VGND4uGWDH4iLnw7DLEu"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "$YU is part of Yala, a native Bitcoin liquidity protocol that channels BTC into yield opportunities across DeFi and RWAs.\r\n\r\nBitcoin holders unlock capital through self-custodial, liquidation-free borrowing by minting $YU, a BTC-backed liquidity asset (stablecoin). In this process, they pay a stability fee directly to $YU depositors, effectively exchanging BTC-backed exposure for portable, capital-efficient liquidity and access to yield without giving up ownership.\r\nYala’s SmartVault module manages system risk and ensures efficient yield distribution."
+  },
+  "links": {
+    "homepage": [
+      "https://yala.org/"
+    ],
+    "whitepaper": "https://yala.org/whitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xe868084cf08f3c3db11f4b73a95473762d9463f7",
+      "https://ethplorer.io/address/0xE868084cf08F3c3db11f4B73a95473762d9463f7",
+      "https://solscan.io/token/YUYAiJo8KVbnc6Fb6h3MnH2VGND4uGWDH4iLnw7DLEu"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/7jyuJeye7a",
+      "https://medium.com/yalabtc",
+      "https://www.youtube.com/@Yalaorg"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "yalaorg",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "yala_org",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/56070/thumb/YU.png?1748275951",
+    "small": "https://coin-images.coingecko.com/coins/images/56070/small/YU.png?1748275951",
+    "large": "https://coin-images.coingecko.com/coins/images/56070/large/YU.png?1748275951"
+  },
+  "last_updated": "2025-07-11T06:21:38.501519+00:00"
+}

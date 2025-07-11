@@ -1,0 +1,56 @@
+{
+  "id": "omni-network",
+  "symbol": "omni",
+  "name": "Omni Network",
+  "categories": [
+    "Smart Contract Platform",
+    "Binance Launchpool",
+    "Layer 1 (L1)",
+    "Interoperability",
+    "Cross-chain Communication",
+    "Pantera Capital Portfolio",
+    "Made in USA"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Omni Network is a platform built to unite Ethereum rollups. It allows developers to launch globally-native applications that work across rollups. Omni is backed by investors like Coinbase Ventures, Jump, Pantera, and Spartan Group."
+  },
+  "links": {
+    "homepage": [
+      "https://omni.network/"
+    ],
+    "whitepaper": "https://docs.omni.network/whitepaper.pdf",
+    "blockchain_site": [],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/bKNXmaX9VD",
+      "https://news.omni.network/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "OmniFDN",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "OmniFDN",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/omni-network/omni"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/36465/thumb/Symbol-Color.png?1711511095",
+    "small": "https://coin-images.coingecko.com/coins/images/36465/small/Symbol-Color.png?1711511095",
+    "large": "https://coin-images.coingecko.com/coins/images/36465/large/Symbol-Color.png?1711511095"
+  },
+  "last_updated": "2025-07-11T06:21:38.980364+00:00"
+}

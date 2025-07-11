@@ -1,0 +1,56 @@
+{
+  "id": "dymension",
+  "symbol": "dym",
+  "name": "Dymension",
+  "categories": [
+    "Smart Contract Platform",
+    "Cosmos Ecosystem",
+    "Modular Blockchain",
+    "Osmosis Ecosystem",
+    "Rollups-as-a-Service (RaaS)"
+  ],
+  "asset_platform_id": "osmosis",
+  "platforms": {
+    "osmosis": "ibc/9A76CDF0CBCEF37923F32518FA15E5DC92B9F56128292BC4D63C4AEA76CBB110",
+    "cosmos": "ibc/9A76CDF0CBCEF37923F32518FA15E5DC92B9F56128292BC4D63C4AEA76CBB110"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://portal.dymension.xyz/"
+    ],
+    "whitepaper": "https://docs.dymension.xyz/",
+    "blockchain_site": [
+      "https://dym.fyi/",
+      "https://www.mintscan.io/osmosis/assets/ibc/aWJjLzlBNzZDREYwQ0JDRUYzNzkyM0YzMjUxOEZBMTVFNURDOTJCOUY1NjEyODI5MkJDNEQ2M0M0QUVBNzZDQkIxMTA="
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/dymension",
+      "https://medium.com/@dymension"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "dymension",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/34182/thumb/dym.png?1704253006",
+    "small": "https://coin-images.coingecko.com/coins/images/34182/small/dym.png?1704253006",
+    "large": "https://coin-images.coingecko.com/coins/images/34182/large/dym.png?1704253006"
+  },
+  "last_updated": "2025-07-11T06:21:35.233227+00:00"
+}

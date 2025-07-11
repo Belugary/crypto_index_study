@@ -1,0 +1,85 @@
+{
+  "id": "yield-guild-games",
+  "symbol": "ygg",
+  "name": "Yield Guild Games",
+  "categories": [
+    "Gaming (GameFi)",
+    "NFT",
+    "BNB Chain Ecosystem",
+    "Metaverse",
+    "Collectibles",
+    "Polygon Ecosystem",
+    "Play To Earn",
+    "Harmony Ecosystem",
+    "Guild and Scholarship",
+    "Ethereum Ecosystem",
+    "Animoca Brands Portfolio",
+    "Base Ecosystem",
+    "DWF Labs Portfolio",
+    "Ronin Ecosystem",
+    "Gaming Governance Token",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "Delphi Ventures Portfolio",
+    "Abstract Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x25f8087ead173b73d6e8b84329989a8eea16cf73",
+    "ronin": "0x1c306872bc82525d72bf3562e8f0aa3f8f26e857",
+    "abstract": "0xa9053dc939d74222f7aa0b3a2be407abbfd56c6a",
+    "base": "0xaac78d1219c08aecc8e37e03858fe885f5ef1799",
+    "harmony-shard-0": "0x63cf309500d8be0b9fdb8f1fb66c821236c0438c",
+    "binance-smart-chain": "0x13ab6739368a4e4abf24695bf52959224367391f",
+    "polygon-pos": "0x82617aa52dddf5ed9bb7b370ed777b3182a30fd1"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "VG",
+  "description": {
+    "en": "Yield Guild Games (YGG) is the world’s first and biggest web3 gaming guild where players can find their community, discover games and level up together. Its mission is to become the leading community-based user acquisition platform in web3 gaming. \r\n\r\nAs a network of gaming guilds focused on web3 games, YGG is committed to providing opportunities for its members to achieve success in web3 gaming through questing initiatives such as Superquests and the Guild Advancement Program (GAP). These enable members to build their on-chain identity through its achievement-based reputation system.\r\n\r\nFrom its roots in the Philippines to its global network of regional guilds and partnerships with over 80 blockchain games and infrastructure projects, YGG caters to an ever-expanding community of gamers and blockchain enthusiasts."
+  },
+  "links": {
+    "homepage": [
+      "https://yieldguild.io/"
+    ],
+    "whitepaper": "https://storage.googleapis.com/external_communication/YGG-GuildProtocol-ConceptPaper-2024Sept.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x25f8087ead173b73d6e8b84329989a8eea16cf73",
+      "https://platform.arkhamintelligence.com/explorer/token/yield-guild-games",
+      "https://ethplorer.io/address/0x25f8087ead173b73d6e8b84329989a8eea16cf73",
+      "https://polygonscan.com/token/0x82617aa52dddf5ed9bb7b370ed777b3182a30fd1",
+      "https://app.roninchain.com/token/0x1c306872bc82525d72bf3562e8f0aa3f8f26e857",
+      "https://bscscan.com/token/0x13Ab6739368a4e4abf24695bf52959224367391f",
+      "https://basescan.org/token/0xaac78d1219c08aecc8e37e03858fe885f5ef1799",
+      "https://binplorer.com/address/0x13Ab6739368a4e4abf24695bf52959224367391f",
+      "https://explorer.harmony.one/token/0x63cf309500d8be0b9fdb8f1fb66c821236c0438c",
+      "https://abscan.org/token/0xa9053dc939d74222f7aa0b3a2be407abbfd56c6a"
+    ],
+    "official_forum_url": [
+      "https://facebook.com/yieldguildgames/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/ygg"
+    ],
+    "announcement_url": [
+      "https://yieldguild.medium.com/"
+    ],
+    "snapshot_url": "https://snapshot.org/#/yieldguild.eth",
+    "twitter_screen_name": "YieldGuild",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "yieldguildgames",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/17358/thumb/Shield_Mark_-_Colored_-_Iridescent.png?1696516909",
+    "small": "https://coin-images.coingecko.com/coins/images/17358/small/Shield_Mark_-_Colored_-_Iridescent.png?1696516909",
+    "large": "https://coin-images.coingecko.com/coins/images/17358/large/Shield_Mark_-_Colored_-_Iridescent.png?1696516909"
+  },
+  "last_updated": "2025-07-11T06:21:36.196514+00:00"
+}

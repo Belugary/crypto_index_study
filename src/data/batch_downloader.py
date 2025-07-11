@@ -651,6 +651,35 @@ class BatchDownloader:
             self.logger.error(f"检查币种元数据更新状态失败 ({coin_id}): {e}")
             return True  # 出错时默认需要更新
 
+    def download_coin_data(
+        self,
+        coin_id: str,
+        days: str,
+        vs_currency: str = "usd",
+        max_retries: int = 3,
+        retry_delay: int = 5,
+    ) -> bool:
+        """
+        下载单个币种的量价数据
+
+        Args:
+            coin_id: 币种ID
+            days: 历史数据天数，可以是数字字符串或 "max"
+            vs_currency: 对比货币，默认为 "usd"
+            max_retries: 最大重试次数
+            retry_delay: 重试延迟（秒）
+
+        Returns:
+            bool: 下载是否成功
+        """
+        return self._download_single_coin(
+            coin_id=coin_id,
+            days=days,
+            vs_currency=vs_currency,
+            max_retries=max_retries,
+            retry_delay=retry_delay,
+        )
+
     def update_coin_metadata(self, coin_id: str, force: bool = False) -> bool:
         """
         更新单个币种的元数据

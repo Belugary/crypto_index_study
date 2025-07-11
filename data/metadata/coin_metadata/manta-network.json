@@ -1,0 +1,66 @@
+{
+  "id": "manta-network",
+  "symbol": "manta",
+  "name": "Manta Network",
+  "categories": [
+    "Smart Contract Platform",
+    "Polkadot Ecosystem",
+    "Binance Launchpool",
+    "Layer 2 (L2)",
+    "Manta Network Ecosystem",
+    "Multicoin Capital Portfolio",
+    "Alameda Research Portfolio",
+    "DeFiance Capital Portfolio",
+    "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "asset_platform_id": "manta-pacific",
+  "platforms": {
+    "manta-pacific": "0x95cef13441be50d20ca4558cc0a27b601ac544e5"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Manta Pacific is the first EVM-equivalent ZK-application platform that is scalable and secure through Celestia DA and Polygon zkEVM."
+  },
+  "links": {
+    "homepage": [
+      "https://manta.network/",
+      "https://pacific-bridge.manta.network/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://manta.subscan.io/",
+      "https://platform.arkhamintelligence.com/explorer/token/manta-network",
+      "https://pacific-explorer.manta.network/token/0x95cef13441be50d20ca4558cc0a27b601ac544e5?tab=token_transfers",
+      "https://pacific-explorer.manta.network/address/0x95cef13441be50d20ca4558cc0a27b601ac544e5",
+      "https://www.oklink.com/manta"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/mantanetwork",
+      "https://mantanetwork.medium.com/",
+      "https://www.youtube.com/@MantaNetwork"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "MantaNetwork",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/manta-network"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/34289/thumb/manta.jpg?1704468717",
+    "small": "https://coin-images.coingecko.com/coins/images/34289/small/manta.jpg?1704468717",
+    "large": "https://coin-images.coingecko.com/coins/images/34289/large/manta.jpg?1704468717"
+  },
+  "last_updated": "2025-07-11T06:21:34.773745+00:00"
+}

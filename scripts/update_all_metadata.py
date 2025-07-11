@@ -18,8 +18,8 @@ from typing import List, Set
 # 添加项目根目录到Python路径
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from src.data.batch_downloader import create_batch_downloader
 from examples.stablecoin_checker import StablecoinChecker
+from src.data.batch_downloader import create_batch_downloader
 
 
 def get_all_coin_ids_from_data() -> List[str]:

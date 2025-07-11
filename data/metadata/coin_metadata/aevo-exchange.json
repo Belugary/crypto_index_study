@@ -1,0 +1,61 @@
+{
+  "id": "aevo-exchange",
+  "symbol": "aevo",
+  "name": "Aevo",
+  "categories": [
+    "Smart Contract Platform",
+    "Decentralized Finance (DeFi)",
+    "Binance Launchpool",
+    "Derivatives",
+    "Perpetuals",
+    "Ethereum Ecosystem",
+    "Layer 2 (L2)",
+    "DragonFly Capital Portfolio",
+    "Pantera Capital Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xb528edbef013aff855ac3c50b381f253af13b997"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.aevo.xyz/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xb528edbef013aff855ac3c50b381f253af13b997",
+      "https://platform.arkhamintelligence.com/explorer/token/aevo-exchange",
+      "https://ethplorer.io/address/0xb528edbef013aff855ac3c50b381f253af13b997"
+    ],
+    "official_forum_url": [
+      "https://discord.com/invite/aevo"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "aevoxyz",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/aevoxyz"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/35893/thumb/aevo.png?1710138340",
+    "small": "https://coin-images.coingecko.com/coins/images/35893/small/aevo.png?1710138340",
+    "large": "https://coin-images.coingecko.com/coins/images/35893/large/aevo.png?1710138340"
+  },
+  "last_updated": "2025-07-11T06:21:37.180917+00:00"
+}
