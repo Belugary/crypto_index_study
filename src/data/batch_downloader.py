@@ -7,7 +7,6 @@
 
 import json
 import logging
-import os
 import time
 from datetime import datetime, timezone
 from pathlib import Path
@@ -38,7 +37,9 @@ class BatchDownloader:
         self.api = api
         self.data_dir = Path(data_dir)
         # 项目根目录，用于存放日志文件
-        self.base_dir = self.data_dir.parent if self.data_dir.name == "data" else Path(".")
+        self.base_dir = (
+            self.data_dir.parent if self.data_dir.name == "data" else Path(".")
+        )
         self.coins_dir = self.data_dir / "coins"
         self.metadata_dir = self.data_dir / "metadata"
         # 日志文件统一放在项目根目录的 logs/ 下
@@ -637,7 +638,7 @@ class BatchDownloader:
                 return True  # 没有更新时间，需要更新
 
             # 解析时间并检查是否过期
-            from datetime import datetime, timezone, timedelta
+            from datetime import datetime, timedelta, timezone
 
             try:
                 last_update_time = datetime.fromisoformat(
