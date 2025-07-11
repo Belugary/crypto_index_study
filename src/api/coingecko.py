@@ -60,6 +60,25 @@ class CoinGeckoAPI:
                 print(f"响应内容: {e.response.text}")
             raise
 
+    def ping(self) -> Dict[str, Any]:
+        """
+        测试与 CoinGecko API 的连接状态
+
+        Returns:
+            Dict[str, Any]: API 原始响应（如 {'gecko_says': '...'}）
+
+        Raises:
+            requests.exceptions.RequestException: 当 API 请求失败时抛出异常
+        """
+        print("正在测试 API 连接...")
+        try:
+            response = self._make_request("ping")
+            print("✅ Ping 成功: ", response)
+            return response
+        except Exception as e:
+            print(f"❌ Ping 失败: {e}")
+            raise
+
     # ===== 🔹 基础 API =====
     def get_coins_list(self, include_platform: bool = False) -> List[Dict[str, Any]]:
         """
@@ -221,6 +240,19 @@ class CoinGeckoAPI:
 
         print(f"正在获取市场数据 (第{page}页)...")
         return self._make_request(endpoint, params)
+
+    def get_coin_categories_list(self) -> Optional[list]:
+        """
+        🔹 获取所有币种分类列表。
+        此端点允许您查询 CoinGecko 上的所有币种分类。
+
+        :return: 包含分类信息的列表，每个元素是一个包含 'category_id' 和 'name' 的字典，或者在失败时返回 None。
+        """
+        print("\n🔹 正在获取所有币种分类列表...")
+        response = self._make_request("coins/categories/list")
+        if response:
+            print(f"✅ 成功获取到 {len(response)} 个币种分类。")
+        return response
 
     def get_coin_by_id(
         self,
