@@ -1,0 +1,49 @@
+{
+  "id": "mimbogamegroup",
+  "symbol": "mgg",
+  "name": "MimboGameGroup",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Meme"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x8db780f5e1238bf3fc0e14c099b98bb63362d16e"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "MGG(MimboGameGroup) Token Launched in 2025 by a team based in South Korea and the United States, MGG is the native token of the MimboNode Web3 gaming ecosystem. The project aims to build a reward-based gaming platform that integrates blockchain infrastructure with real-time gameplay experiences.\r\nIn the MGG ecosystem, all tokens are created solely through node operation rewards. There is no team allocation or external reserve supply, and the distribution mechanism is designed to ensure fair and transparent reward issuance based on smart contract logic.\r\nThe platform supports various game developers and publishers who can integrate blockchain functionality into their games using the MimboNode API and SDK. This enables in-game assets and rewards to be securely issued, stored, and traded via blockchain.\r\nMGG’s tokenomics promote sustainability and community participation through utility in staking, governance, and access to exclusive game content. The team is preparing for listings on decentralized exchanges (DEX), and a smart contract audit is underway to ensure platform security.\r\nAs part of its roadmap, MGG plans to expand into global markets and form strategic partnerships with GameFi platforms, enhancing user engagement and token utility within the gaming space."
+  },
+  "links": {
+    "homepage": [
+      "https://mimbonode.io/"
+    ],
+    "whitepaper": "https://mimbonode.gitbook.io/mgg-paper",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x8db780F5e1238Bf3fc0e14C099b98Bb63362d16E",
+      "https://binplorer.com/address/0x8db780F5e1238Bf3fc0e14C099b98Bb63362d16E"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "MimboNode",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "MimboNode_Announce",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/66393/thumb/mimbo.jpg?1749367847",
+    "small": "https://coin-images.coingecko.com/coins/images/66393/small/mimbo.jpg?1749367847",
+    "large": "https://coin-images.coingecko.com/coins/images/66393/large/mimbo.jpg?1749367847"
+  },
+  "last_updated": "2025-07-11T04:59:28.660890+00:00"
+}

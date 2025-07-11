@@ -1,0 +1,57 @@
+{
+  "id": "metal-blockchain",
+  "symbol": "metal",
+  "name": "Metal Blockchain",
+  "categories": [
+    "Ethereum Ecosystem",
+    "DWF Labs Portfolio",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x294559fa758c88d639fd085751e463fee7806eab"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Metal blockchain ($METAL) is a layer zero blockchain that allows any chain to deploy and find consensus through the Snow protocols (introduced by Avalanche) allowing it to run on a highly efficient model of Proof-of-Stake (PoS), eliminating the need for Proof-of-Work (PoW). Metal Blockchain improves upon the initial work of Avalanche by adding a fourth subchain (A Chain) to offer a more resource efficient layer for payments and decentralized finance: Proton (based on EOSIO protocol, adding WASM)."
+  },
+  "links": {
+    "homepage": [
+      "https://metalblockchain.org/"
+    ],
+    "whitepaper": "https://metalblockchain.org/whitepaper.pdf",
+    "blockchain_site": [
+      "https://explorer.metalblockchain.org",
+      "https://platform.arkhamintelligence.com/explorer/token/metal-blockchain",
+      "https://metaltrace.io",
+      "https://etherscan.io/token/0x294559fa758c88d639fd085751e463fee7806eab",
+      "https://ethplorer.io/address/0x294559fa758c88d639fd085751e463fee7806eab"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/G7E8qggYEQ"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "MetalBlockchain",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "MetalBlockchain",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/metalblockchain"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/27222/thumb/MB-Logo.png?1710514210",
+    "small": "https://coin-images.coingecko.com/coins/images/27222/small/MB-Logo.png?1710514210",
+    "large": "https://coin-images.coingecko.com/coins/images/27222/large/MB-Logo.png?1710514210"
+  },
+  "last_updated": "2025-07-11T04:59:26.818258+00:00"
+}

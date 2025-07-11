@@ -1,0 +1,62 @@
+{
+  "id": "kaspa",
+  "symbol": "kas",
+  "name": "Kaspa",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Proof of Work (PoW)",
+    "Kaspa Ecosystem",
+    "Made in USA",
+    "Directed Acyclic Graph (DAG)"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Kaspa is a proof-of-work cryptocurrency which implements the GHOSTDAG protocol. Unlike traditional blockchains, GHOSTDAG does not orphan blocks created in parallel, rather allows them to coexist and orders them in consensus. Whereby our blockchain is actually a blockDAG; you can see GHOSTDAG in action in a real time blockDAG visualizer). This generalization of Nakamoto consensus allows for secure operation while maintaining very high block rates (currently one block per second, aiming for 10/sec, dreaming of 100/sec) and minuscule confirmation times dominated by internet latency (cf. chapter 6 of the the paper for some initial benchmarks). The Kaspa implementation includes a lot of cool features and subprotocols including Reachability to query the DAG's topology, Block data pruning (with near-future plans for block header pruning), SPV proofs, and later subnetwork support which will make future implementation of layer 2 solutions much easier."
+  },
+  "links": {
+    "homepage": [
+      "https://kaspa.org/"
+    ],
+    "whitepaper": "https://eprint.iacr.org/2018/104.pdf",
+    "blockchain_site": [
+      "https://kas.fyi/",
+      "https://explorer.kaspa.org/"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/kaspa-currency/",
+      "https://www.instagram.com/kaspa_currency/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/kS3SK5F36R",
+      "https://medium.com/kaspa-currency",
+      "https://www.youtube.com/channel/UCsnbLKm_lpCUj63_HPW17og"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "KaspaCurrency",
+    "facebook_username": "KaspaCurrency",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "kaspaenglish",
+    "subreddit_url": "https://www.reddit.com/r/Kaspa",
+    "repos_url": {
+      "github": [
+        "https://github.com/kaspanet/kaspad"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/25751/thumb/kaspa-icon-exchanges.png?1696524837",
+    "small": "https://coin-images.coingecko.com/coins/images/25751/small/kaspa-icon-exchanges.png?1696524837",
+    "large": "https://coin-images.coingecko.com/coins/images/25751/large/kaspa-icon-exchanges.png?1696524837"
+  },
+  "last_updated": "2025-07-11T04:59:01.732918+00:00"
+}

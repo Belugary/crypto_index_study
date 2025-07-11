@@ -1,0 +1,66 @@
+{
+  "id": "swipe",
+  "symbol": "sxp",
+  "name": "Solar",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Harmony Ecosystem",
+    "Ethereum Ecosystem",
+    "Alameda Research Portfolio",
+    "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x8ce9137d39326ad0cd6491fb5cc0cba0e089b6a9",
+    "harmony-shard-0": "0x77d046614710fddf5ca3e3ce85f4f09f7abc283c",
+    "binance-smart-chain": "0x47bead2563dcbf3bf2c9407fea4dc236faba485a"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Solar is a Layer 1 blockchain network secured by 53 Block Producers through Delegated Proof of Stake (DPoS) consensus, with SXP as its native utility coin. The network's security and governance are maintained through a system where coin holders can participate by voting for Block Producers. As an open, community-driven ecosystem, Solar enables collaboration between Block Producers and coin holders, fostering continuous development and enhancing the network's infrastructure.\r\n\r\nTo bridge blockchain technology with traditional business needs, Solar Enterprises, established through funding from the Solar Blockchain Foundation, focuses on developing these consumer-oriented products and services. Current development includes an innovative crypto-first e-SIM solution aimed at international travellers."
+  },
+  "links": {
+    "homepage": [
+      "https://solar.org"
+    ],
+    "whitepaper": "https://solar.org/whitepaper",
+    "blockchain_site": [
+      "https://solarscan.com",
+      "https://platform.arkhamintelligence.com/explorer/token/swipe",
+      "https://ethplorer.io/address/0x8ce9137d39326ad0cd6491fb5cc0cba0e089b6a9",
+      "https://bscscan.com/token/0x47bead2563dcbf3bf2c9407fea4dc236faba485a",
+      "https://etherscan.io/token/0x8ce9137d39326ad0cd6491fb5cc0cba0e089b6a9",
+      "https://binplorer.com/address/0x47bead2563dcbf3bf2c9407fea4dc236faba485a",
+      "https://explorer.harmony.one/token/0x77d046614710fddf5ca3e3ce85f4f09f7abc283c"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://t.me/Solar_Network",
+      "https://discord.solar.org"
+    ],
+    "announcement_url": [
+      "https://blog.solar.org"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "SolarNetwork",
+    "facebook_username": "SwipeWalletOfficial",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Solar",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://GitHub.com/Solar-network"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/9368/thumb/Solar_Blockchain_Foundation_Sun_CG.png?1742975137",
+    "small": "https://coin-images.coingecko.com/coins/images/9368/small/Solar_Blockchain_Foundation_Sun_CG.png?1742975137",
+    "large": "https://coin-images.coingecko.com/coins/images/9368/large/Solar_Blockchain_Foundation_Sun_CG.png?1742975137"
+  },
+  "last_updated": "2025-07-11T05:01:10.021135+00:00"
+}

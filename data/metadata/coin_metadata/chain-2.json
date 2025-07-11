@@ -1,0 +1,65 @@
+{
+  "id": "chain-2",
+  "symbol": "xcn",
+  "name": "Onyxcoin",
+  "categories": [
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "Base Ecosystem",
+    "Proof of Stake (PoS)",
+    "Pantera Capital Portfolio",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xa2cd3d43c775978a96bdbf12d733d5a1ed94fb18",
+    "base": "0x9c632e6aaa3ea73f91554f8a3cb2ed2f29605e0c",
+    "binance-smart-chain": "0x7324c7c0d95cebc73eea7e85cbaac0dbdf88a05b"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Onyx is an infrastructure for a multi-asset, scalable, and cryptographically secure ledger. Onyx functions as a blockchain-based technology that enhances financial ecosystems by enabling a more efficient and interconnected economy, with a mission to develop cryptographic ledgers that optimize security, scalability, and usability. XCN is native to the Onyx XCN Ledger Blockchain and as an ERC-20 token for Staking and Governance."
+  },
+  "links": {
+    "homepage": [
+      "http://www.onyx.org"
+    ],
+    "whitepaper": "https://onyx.org/Whitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xa2cd3d43c775978a96bdbf12d733d5a1ed94fb18",
+      "https://platform.arkhamintelligence.com/explorer/token/chain-2",
+      "https://ethplorer.io/address/0xa2cd3d43c775978a96bdbf12d733d5a1ed94fb18",
+      "https://bscscan.com/token/0x7324c7c0d95cebc73eea7e85cbaac0dbdf88a05b",
+      "https://binplorer.com/address/0x7324c7c0d95cebc73eea7e85cbaac0dbdf88a05b",
+      "https://basescan.org/token/0x9c632e6aaa3ea73f91554f8a3cb2ed2f29605e0c"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/OnyxProtocol"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "OnyxDAO",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "OnyxOrg",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Onyx-Protocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/24210/thumb/onyxlogo.jpg?1696523397",
+    "small": "https://coin-images.coingecko.com/coins/images/24210/small/onyxlogo.jpg?1696523397",
+    "large": "https://coin-images.coingecko.com/coins/images/24210/large/onyxlogo.jpg?1696523397"
+  },
+  "last_updated": "2025-07-11T04:57:38.907836+00:00"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "space-nation-oikos",
+  "symbol": "oik",
+  "name": "Space Nation Oikos",
+  "categories": [
+    "Gaming (GameFi)",
+    "NFT",
+    "BNB Chain Ecosystem",
+    "Immutable zkEVM Ecosystem",
+    "RPG",
+    "MMO"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x6e7f11641c1ec71591828e531334192d622703f7",
+    "binance-smart-chain": "0xb035723d62e0e2ea7499d76355c9d560f13ba404",
+    "immutable": "0xda49591f442b8c7a5292c6aa07655746299d6f4c"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://spacenation.online/"
+    ],
+    "whitepaper": "https://spacenation.online/whitepaper/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x6E7F11641c1EC71591828E531334192d622703F7",
+      "https://ethplorer.io/address/0x6E7F11641c1EC71591828E531334192d622703F7",
+      "https://bscscan.com/token/0xb035723d62e0e2ea7499d76355c9d560f13ba404",
+      "https://binplorer.com/address/0xb035723d62e0e2ea7499d76355c9d560f13ba404",
+      "https://explorer.immutable.com/token/0xda49591f442b8c7a5292c6aa07655746299d6f4c"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/spacenation"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SpaceNationOL",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54823/thumb/oik-logo.jpeg?1741858662",
+    "small": "https://coin-images.coingecko.com/coins/images/54823/small/oik-logo.jpeg?1741858662",
+    "large": "https://coin-images.coingecko.com/coins/images/54823/large/oik-logo.jpeg?1741858662"
+  },
+  "last_updated": "2025-07-11T05:00:49.052685+00:00"
+}

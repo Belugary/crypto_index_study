@@ -1,0 +1,78 @@
+{
+  "id": "bonk",
+  "symbol": "bonk",
+  "name": "Bonk",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Solana Ecosystem",
+    "Polygon Ecosystem",
+    "Meme",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Aptos Ecosystem",
+    "Dog-Themed",
+    "Solana Meme",
+    "Neon Ecosystem",
+    "GMCI Meme Index",
+    "GMCI Index",
+    "Made in USA",
+    "Coinbase 50 Index",
+    "4chan-Themed"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+    "neon-evm": "0xd4b6520f7fb78e1ee75639f3376c581a71bcdb0e",
+    "arbitrum-one": "0x09199d9a5f4448d0848e4395d065e1ad9c4a1f74",
+    "aptos": "0x2a90fae71afc7460ee42b20ee49a9c9b29272905ad71fef92fbd8b3905a24b56",
+    "ethereum": "0x1151cb3d861920e07a38e03eead12c32178567f6",
+    "binance-smart-chain": "0xa697e272a73744b343528c3bc4702f2565b2f422",
+    "polygon-pos": "0xe5b49820e5a1063f6f4ddf851327b5e8b2301048"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Bonk is the first Solana dog coin for the people, by the people with 50% of the total supply airdropped to the Solana community. The Bonk contributors were tired of toxic “Alameda” tokenomics and wanted to make a fun memecoin where everyone gets a fair shot. "
+  },
+  "links": {
+    "homepage": [
+      "https://www.bonkcoin.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+      "https://platform.arkhamintelligence.com/explorer/token/bonk",
+      "https://arbiscan.io/token/0x09199d9a5f4448d0848e4395d065e1ad9c4a1f74",
+      "https://tracemove.io/coin/0x2a90fae71afc7460ee42b20ee49a9c9b29272905ad71fef92fbd8b3905a24b56",
+      "https://bscscan.com/token/0xa697e272a73744b343528c3bc4702f2565b2f422",
+      "https://etherscan.io/token/0x1151cb3d861920e07a38e03eead12c32178567f6",
+      "https://ethplorer.io/address/0x1151cb3d861920e07a38e03eead12c32178567f6",
+      "https://polygonscan.com/token/0xe5b49820e5a1063f6f4ddf851327b5e8b2301048",
+      "https://explorer.injective.network/contract/inj14rry9q6dym3dgcwzq79yay0e9azdz55jr465ch/",
+      "https://binplorer.com/address/0xa697e272a73744b343528c3bc4702f2565b2f422"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/ubqvDDFUhf"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "bonk_inu",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/28600/thumb/bonk.jpg?1696527587",
+    "small": "https://coin-images.coingecko.com/coins/images/28600/small/bonk.jpg?1696527587",
+    "large": "https://coin-images.coingecko.com/coins/images/28600/large/bonk.jpg?1696527587"
+  },
+  "last_updated": "2025-07-11T04:57:30.804037+00:00"
+}

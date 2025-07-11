@@ -1,0 +1,53 @@
+{
+  "id": "berachain-bera",
+  "symbol": "bera",
+  "name": "Berachain",
+  "categories": [
+    "Smart Contract Platform",
+    "Decentralized Finance (DeFi)",
+    "Layer 1 (L1)",
+    "Berachain Ecosystem",
+    "Binance HODLer Airdrops",
+    "Outlier Ventures Portfolio",
+    "Polychain Capital Portfolio"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The gas token of Berachain"
+  },
+  "links": {
+    "homepage": [
+      "https://berachain.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/berachain"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "berachain",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/25235/thumb/BERA.png?1738822008",
+    "small": "https://coin-images.coingecko.com/coins/images/25235/small/BERA.png?1738822008",
+    "large": "https://coin-images.coingecko.com/coins/images/25235/large/BERA.png?1738822008"
+  },
+  "last_updated": "2025-07-11T04:57:12.450546+00:00"
+}

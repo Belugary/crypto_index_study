@@ -1,0 +1,70 @@
+{
+  "id": "solana",
+  "symbol": "sol",
+  "name": "Solana",
+  "categories": [
+    "Smart Contract Platform",
+    "Solana Ecosystem",
+    "Layer 1 (L1)",
+    "Alleged SEC Securities",
+    "FTX Holdings",
+    "Multicoin Capital Portfolio",
+    "Proof of Stake (PoS)",
+    "Alameda Research Portfolio",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "GMCI Layer 1 Index",
+    "GMCI 30 Index",
+    "Delphi Ventures Portfolio",
+    "GMCI Index",
+    "Polychain Capital Portfolio",
+    "Made in USA",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Solana is a highly functional open source project that banks on blockchain technology’s permissionless nature to provide decentralized finance (DeFi) solutions. It is a layer 1 network that offers fast speeds and affordable costs. While the idea and initial work on the project began in 2017, Solana was officially launched in March 2020 by the Solana Foundation with headquarters in Geneva, Switzerland."
+  },
+  "links": {
+    "homepage": [
+      "https://solana.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/",
+      "https://platform.arkhamintelligence.com/explorer/token/solana",
+      "https://xray.helius.xyz/",
+      "https://solana.fm/",
+      "https://solanabeach.io/",
+      "https://www.oklink.com/sol",
+      "https://explorer.solana.com/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "solana",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "solana",
+    "subreddit_url": "https://www.reddit.com/r/solana",
+    "repos_url": {
+      "github": [
+        "https://github.com/solana-labs/solana"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/4128/thumb/solana.png?1718769756",
+    "small": "https://coin-images.coingecko.com/coins/images/4128/small/solana.png?1718769756",
+    "large": "https://coin-images.coingecko.com/coins/images/4128/large/solana.png?1718769756"
+  },
+  "last_updated": "2025-07-11T05:00:42.937784+00:00"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "first-digital-usd",
+  "symbol": "fdusd",
+  "name": "First Digital USD",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "BNB Chain Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Sui Ecosystem",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xc5f0f7b66764f6ec8c8dff7ba683102295e16409",
+    "arbitrum-one": "0x93c9932e4afa59201f0b5e63f7d816516f1669fe",
+    "sui": "0xf16e6b723f242ec745dfd7634ad072c42d5c1d9ac9d62a39c381303eaa57693a::fdusd::FDUSD",
+    "binance-smart-chain": "0xc5f0f7b66764f6ec8c8dff7ba683102295e16409",
+    "solana": "9zNQRsGLjNKwCUU5Gq5LR8beUCPzQMVMqKAi3SSZh54u"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What is the project about? \r\nFirst Digital USD (FDUSD) aim to revolutionize the digital asset landscape. Our mission is to empower users with a transformative financial instrument that combines the stability of cash reserves with the seamless efficiency of advanced blockchain technology. By offering a fully collateralized digital asset, our stablecoin ensures the utmost security, transparency, and transaction reliability. This strategic fusion of traditional stability and cutting-edge innovation allows users to confidently navigate the digital economy, unlocking a world of possibilities while maintaining the utmost trust in their financial interactions.\r\n\r\nWhat makes your project unique?\r\nTransferable: FDUSD enables frictionless and streamlined transactions, rendering it a convenient choice for a wide range of applications and scenarios.\r\n\r\nRedeemable: FDUSD is backed by high-quality reserves- cash and cash equivalents, which enable holders the ability to redeem their FDUSD tokens for their equivalent value in US dollars. Users can trust that FDUSD is always 1:1 backed. \r\n\r\nLow Fees: One notable benefit of FDUSD is its ability to offer cost-effective transactions with minimal fees. Unlike traditional financial transactions, this cost-efficiency makes FDUSD an attractive and economical choice for users.\r\n\r\nOperates on Decentralized Networks. \r\nFDUSD operates on decentralized networks that are distributed across multiple nodes. In so doing, it enhances transparency, security, and resilience. \r\n\r\nBankruptcy Remote \r\nFDUSD is designed to be bankruptcy remote, with the reserves held in segregated accounts on a registered trust company, separated from the issuer’s operational accounts. It ensures the stablecoin remains stable and secure.\r\n\r\nHistory of your project.\r\nEstablished in 2019, First Digital is Asia’s leading multi-faceted trust partner bridging the gap between the traditional and digital financial worlds.\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://firstdigitallabs.com/"
+    ],
+    "whitepaper": "https://firstdigitallabs.com/workspace/uploads/FDUSD-Whitepaper-25216064ca0cc8.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xc5f0f7b66764f6ec8c8dff7ba683102295e16409",
+      "https://platform.arkhamintelligence.com/explorer/token/first-digital-usd",
+      "https://ethplorer.io/address/0xc5f0f7b66764f6ec8c8dff7ba683102295e16409",
+      "https://bscscan.com/token/0xc5f0f7b66764f6ec8c8dff7ba683102295e16409",
+      "https://binplorer.com/address/0xc5f0f7b66764f6ec8c8dff7ba683102295e16409",
+      "https://suivision.xyz/coin/0xf16e6b723f242ec745dfd7634ad072c42d5c1d9ac9d62a39c381303eaa57693a::fdusd::FDUSD",
+      "https://suiscan.xyz/mainnet/coin/0xf16e6b723f242ec745dfd7634ad072c42d5c1d9ac9d62a39c381303eaa57693a::fdusd::FDUSD/txs",
+      "https://solscan.io/token/9zNQRsGLjNKwCUU5Gq5LR8beUCPzQMVMqKAi3SSZh54u",
+      "https://arbiscan.io/token/0x93c9932e4afa59201f0b5e63f7d816516f1669fe"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "FDLabsHQ",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/31079/thumb/FDUSD_icon_black.png?1731097953",
+    "small": "https://coin-images.coingecko.com/coins/images/31079/small/FDUSD_icon_black.png?1731097953",
+    "large": "https://coin-images.coingecko.com/coins/images/31079/large/FDUSD_icon_black.png?1731097953"
+  },
+  "last_updated": "2025-07-11T04:58:25.327642+00:00"
+}

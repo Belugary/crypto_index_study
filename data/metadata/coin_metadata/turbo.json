@@ -1,0 +1,58 @@
+{
+  "id": "turbo",
+  "symbol": "turbo",
+  "name": "Turbo",
+  "categories": [
+    "Meme",
+    "Ethereum Ecosystem",
+    "Frog-Themed",
+    "AI Meme"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xa35923162c49cf95e6bf26623385eb431ad920d3",
+    "solana": "2Dyzu65QA9zdX1UeE7Gx71k7fiwyUK6sZdrvJ7auq5wm"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "This first memecoin ever created completely by AI."
+  },
+  "links": {
+    "homepage": [
+      "https://turbotoken.io"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xa35923162c49cf95e6bf26623385eb431ad920d3",
+      "https://platform.arkhamintelligence.com/explorer/token/turbo",
+      "https://ethplorer.io/address/0xa35923162c49cf95e6bf26623385eb431ad920d3",
+      "https://solscan.io/token/2Dyzu65QA9zdX1UeE7Gx71k7fiwyUK6sZdrvJ7auq5wm"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/turbotoad_token/"
+    ],
+    "chat_url": [
+      "https://discord.gg/GMCHwwsQnY"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "TurboToadToken",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "TurboToadToken",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/30117/thumb/TurboMark-QL_200.png?1708079597",
+    "small": "https://coin-images.coingecko.com/coins/images/30117/small/TurboMark-QL_200.png?1708079597",
+    "large": "https://coin-images.coingecko.com/coins/images/30117/large/TurboMark-QL_200.png?1708079597"
+  },
+  "last_updated": "2025-07-11T05:01:28.133998+00:00"
+}

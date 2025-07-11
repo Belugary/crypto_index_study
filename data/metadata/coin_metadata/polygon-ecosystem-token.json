@@ -1,0 +1,64 @@
+{
+  "id": "polygon-ecosystem-token",
+  "symbol": "pol",
+  "name": "POL (ex-MATIC)",
+  "categories": [
+    "Smart Contract Platform",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem",
+    "Layer 2 (L2)"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x455e53cbb86018ac2b8092fdcd39d8444affc3f6",
+    "polygon-pos": "0x0000000000000000000000000000000000001010"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "IN",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://polygon.technology/",
+      "https://blog.polygon.technology/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x455e53cbb86018ac2b8092fdcd39d8444affc3f6",
+      "https://platform.arkhamintelligence.com/explorer/token/polygon-ecosystem-token",
+      "https://ethplorer.io/address/0x455e53cbb86018ac2b8092fdcd39d8444affc3f6",
+      "https://polygonscan.com/token/0x0000000000000000000000000000000000001010"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/XvpHAxZ",
+      "https://t.me/PolygonAnnouncements"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "0xPolygon",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "polygonofficial",
+    "subreddit_url": "https://www.reddit.com/r/maticnetwork/",
+    "repos_url": {
+      "github": [
+        "https://github.com/maticnetwork/contracts",
+        "https://github.com/maticnetwork/heimdall",
+        "https://github.com/maticnetwork/sol-trace",
+        "https://github.com/maticnetwork/eth-dagger.js",
+        "https://github.com/maticnetwork/matic.js"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/32440/thumb/polygon.png?1698233684",
+    "small": "https://coin-images.coingecko.com/coins/images/32440/small/polygon.png?1698233684",
+    "large": "https://coin-images.coingecko.com/coins/images/32440/large/polygon.png?1698233684"
+  },
+  "last_updated": "2025-07-11T05:00:10.065796+00:00"
+}

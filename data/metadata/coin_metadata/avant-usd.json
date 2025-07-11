@@ -1,0 +1,53 @@
+{
+  "id": "avant-usd",
+  "symbol": "avusd",
+  "name": "Avant USD",
+  "categories": [
+    "Stablecoins",
+    "Avalanche Ecosystem"
+  ],
+  "asset_platform_id": "avalanche",
+  "platforms": {
+    "avalanche": "0x24de8771bc5ddb3362db529fc3358f2df3a0e346"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "Avant is a DeFi platform established in June 2024 with the mission to create a more inclusive financial system through a DeFi-powered stable-value token. The platform introduces avUSD, a stable-value token, and savUSD, its staked, yield-bearing counterpart. \r\n\r\nMission and Vision\r\nAvant's mission is to provide a DeFi-backed stable-value token that aligns with the core principles of decentralization: being accessible 24/7, open to everyone, and offering equal financial opportunities regardless of investment size. Avant seeks to bridge the gap between DeFi and traditional finance (TradFi), becoming a global financial powerhouse that innovates how yield is generated and value is stored across financial markets."
+  },
+  "links": {
+    "homepage": [
+      "https://www.avantprotocol.com/",
+      "https://docs.avantprotocol.com/",
+      "https://docs.avantprotocol.com/overview/core-tokens"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://snowtrace.io/token/0x24dE8771bC5DdB3362Db529Fc3358F2df3A0E346?chainid=43114",
+      "https://avascan.info/blockchain/c/address/0x24dE8771bC5DdB3362Db529Fc3358F2df3A0E346/token"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "avantprotocol",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/Avant-Protocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53527/thumb/token-avusd.png?1736579003",
+    "small": "https://coin-images.coingecko.com/coins/images/53527/small/token-avusd.png?1736579003",
+    "large": "https://coin-images.coingecko.com/coins/images/53527/large/token-avusd.png?1736579003"
+  },
+  "last_updated": "2025-07-11T04:57:01.302448+00:00"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "diamond-launch",
+  "symbol": "dlc",
+  "name": "Diverge Loop",
+  "categories": [
+    "Analytics",
+    "BNB Chain Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xde83180dd1166d4f8e5c2b7de14a2163b1bb4a87"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Diverge Loop is to establish an innovative Web3 ecosystem that manages every aspect from token issuance and fundraising to liquidity provisioning and governance in a transparent and fair manner, enabling project teams, investors, and the community to share in mutual growth."
+  },
+  "links": {
+    "homepage": [],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://www.bscscan.com/",
+      "https://platform.arkhamintelligence.com/explorer/token/diamond-launch",
+      "https://bscscan.com/token/0xde83180dd1166d4f8e5c2b7de14a2163b1bb4a87",
+      "https://binplorer.com/address/0xde83180dd1166d4f8e5c2b7de14a2163b1bb4a87"
+    ],
+    "official_forum_url": [
+      "https://medium.com/@DivergeLoop"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "DivergeLoop",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "DivergeLoop",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/27323/thumb/dlr.png?1745232682",
+    "small": "https://coin-images.coingecko.com/coins/images/27323/small/dlr.png?1745232682",
+    "large": "https://coin-images.coingecko.com/coins/images/27323/large/dlr.png?1745232682"
+  },
+  "last_updated": "2025-07-11T04:58:04.924086+00:00"
+}

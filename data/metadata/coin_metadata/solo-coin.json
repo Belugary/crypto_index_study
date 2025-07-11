@@ -1,0 +1,66 @@
+{
+  "id": "solo-coin",
+  "symbol": "solo",
+  "name": "Sologenic",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "Wallets",
+    "XRP Ledger Ecosystem"
+  ],
+  "asset_platform_id": "xrp",
+  "platforms": {
+    "xrp": "534F4C4F00000000000000000000000000000000.rsoLo2S1kiGeCcn6hCUXVrCpGMWLrRrLZz",
+    "binance-smart-chain": "0xc2c28b58db223da89b567a0a98197fc17c115148"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "EE",
+  "description": {
+    "en": "Sologenic is disrupting the asset trading industry by offering: Tokenized Securities, Crypto Assets and NFT’s in a decentralized ecosystem.\r\n\r\nThe Sologenic Development Foundation is integrated by independent developers, maintaining, building and expanding the Sologenic decentralized ecosystem by actively working on various open-source projects and use cases around the $SOLO token including the SOLODEX, SOLO Launchpad and the Sologenic NFT marketplace.  \r\n\r\nSologenic’s Tokenization of assets facilitates investing and trading between crypto and non-blockchain assets such as stocks, ETFs, and commodities from top 30+ global stock exchanges. All assets are backed 1:1 with the real world stocks and Sologenic also supports stock mergers and dividends."
+  },
+  "links": {
+    "homepage": [
+      "https://www.sologenic.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://xrpscan.com/token/534F4C4F00000000000000000000000000000000.rsoLo2S1kiGeCcn6hCUXVrCpGMWLrRrLZz",
+      "https://livenet.xrpl.org/token/534F4C4F00000000000000000000000000000000.rsoLo2S1kiGeCcn6hCUXVrCpGMWLrRrLZz",
+      "https://bscscan.com/token/0xc2c28b58db223da89b567a0a98197fc17c115148",
+      "https://binplorer.com/address/0xc2c28b58db223da89b567a0a98197fc17c115148"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/realsologenic/",
+      "https://www.youtube.com/c/GoSOLOTV"
+    ],
+    "chat_url": [
+      "https://www.instagram.com/realsologenic/",
+      "https://discord.com/invite/UhUBwPKNdu",
+      "https://www.facebook.com/realsologenic/"
+    ],
+    "announcement_url": [
+      "https://sologenic.medium.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "realSologenic",
+    "facebook_username": "realsologenic",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "SOLOGENICxGoSOLO",
+    "subreddit_url": "https://www.reddit.com/r/Sologenic/",
+    "repos_url": {
+      "github": [
+        "https://github.com/sologenic/sologenic-xrpl-stream-js"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/10771/thumb/solo.png?1696510734",
+    "small": "https://coin-images.coingecko.com/coins/images/10771/small/solo.png?1696510734",
+    "large": "https://coin-images.coingecko.com/coins/images/10771/large/solo.png?1696510734"
+  },
+  "last_updated": "2025-07-11T05:00:45.307903+00:00"
+}

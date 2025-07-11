@@ -1,0 +1,53 @@
+{
+  "id": "sky",
+  "symbol": "sky",
+  "name": "Sky",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Ethereum Ecosystem",
+    "Hydration Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x56072c95faa701256059aa122697b133aded9279",
+    "hydration": "asset_registry%2F1000795"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://sky.money/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x56072c95faa701256059aa122697b133aded9279",
+      "https://platform.arkhamintelligence.com/explorer/token/sky",
+      "https://ethplorer.io/address/0x56072c95faa701256059aa122697b133aded9279",
+      "https://hydration.subscan.io/custom_token?unique_id=asset_registry%2F1000795"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SkyEcosystem",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39925/thumb/sky.jpg?1724827980",
+    "small": "https://coin-images.coingecko.com/coins/images/39925/small/sky.jpg?1724827980",
+    "large": "https://coin-images.coingecko.com/coins/images/39925/large/sky.jpg?1724827980"
+  },
+  "last_updated": "2025-07-11T05:00:41.297078+00:00"
+}

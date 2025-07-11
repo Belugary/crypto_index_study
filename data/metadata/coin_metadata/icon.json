@@ -1,0 +1,61 @@
+{
+  "id": "icon",
+  "symbol": "icx",
+  "name": "ICON",
+  "categories": [
+    "Smart Contract Platform",
+    "Cross-chain Communication",
+    "Pantera Capital Portfolio"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2017-09-19",
+  "country_origin": "KR",
+  "description": {
+    "en": "Founded in August 2017, ICON has spent many years fostering its L1 ecosystem and pushing for sustainable cross-chain development infrastructure. As many apps experience cross-chain difficulties today, ICON recognizes the frustration regarding the complexity involved with security, scaling and speed in cross-chain environments. Apps use ICON to operate cross-chain seamlessly, build momentum and gain a solid reputation. ICON's Cross-Chain Framework helps to simplify cross-chain development with its easy-to-use xCall General Message Passing and connections to secure bridging protocols. Visit the ICON Community website for an up to date overview of connected blockchains. Check out the documentation and see if your favorite application is compatible with the ICON Cross-Chain Framework! What Makes ICON Unique? The ICON Cross-Chain Framework consists of a robust L1 blockchain, xCall General Message Passing and a growing list of connected blockchains and integrated bridging protocols. ICON's native ICX coin fuels this interoperability by acting as the L1 gas token, xCall cross-chain fee token with associated applications. A sizeable percentage of all these fees collected in ICX are burned. Buying ICX (with fiat) is easy on big centralized exchanges, decentralized exchanges and even in-wallet. \r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://icon.community/",
+      "https://www.icon.foundation/"
+    ],
+    "whitepaper": "https://icon.community/assets/btp-litepaper.pdf",
+    "blockchain_site": [
+      "https://tracker.icon.community/",
+      "https://tracker.rhizome.dev/governance/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/b5QvCXJjJM"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "helloiconworld",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": 2115503,
+    "telegram_channel_identifier": "iconblockchain",
+    "subreddit_url": "https://www.reddit.com/r/helloicon",
+    "repos_url": {
+      "github": [
+        "https://github.com/icon-project/goloop",
+        "https://github.com/icon-project/iconex_android",
+        "https://github.com/icon-project/icon-sdk-js",
+        "https://github.com/icon-project",
+        "https://github.com/icon-project/loopchain",
+        "https://github.com/icon-project/icon_sdk_for_python",
+        "https://github.com/icon-project/icon-service"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/1060/thumb/ICON-symbol-coingecko_latest.png?1706638336",
+    "small": "https://coin-images.coingecko.com/coins/images/1060/small/ICON-symbol-coingecko_latest.png?1706638336",
+    "large": "https://coin-images.coingecko.com/coins/images/1060/large/ICON-symbol-coingecko_latest.png?1706638336"
+  },
+  "last_updated": "2025-07-11T04:58:46.575750+00:00"
+}

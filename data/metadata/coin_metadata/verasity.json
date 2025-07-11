@@ -1,0 +1,56 @@
+{
+  "id": "verasity",
+  "symbol": "vra",
+  "name": "Verasity",
+  "categories": [
+    "Entertainment",
+    "Wallets",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xf411903cbc70a74d22900a5de66a2dda66507255"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Proof of Stake",
+  "genesis_date": null,
+  "country_origin": "KY",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://verasity.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xf411903cbc70a74d22900a5de66a2dda66507255",
+      "https://platform.arkhamintelligence.com/explorer/token/verasity",
+      "https://ethplorer.io/address/0xf411903cbc70a74d22900a5de66a2dda66507255"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/verasity"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "verasitytech",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "VRAchannel",
+    "subreddit_url": "https://www.reddit.com/r/Verasity/",
+    "repos_url": {
+      "github": [
+        "https://github.com/verasitytech/SmartContracts",
+        "https://github.com/verasitytech/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/14025/thumb/logo_%281%29.png?1716968890",
+    "small": "https://coin-images.coingecko.com/coins/images/14025/small/logo_%281%29.png?1716968890",
+    "large": "https://coin-images.coingecko.com/coins/images/14025/large/logo_%281%29.png?1716968890"
+  },
+  "last_updated": "2025-07-11T05:01:45.110369+00:00"
+}

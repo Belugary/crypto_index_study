@@ -1,0 +1,60 @@
+{
+  "id": "elixir-deusd",
+  "symbol": "deusd",
+  "name": "Elixir deUSD",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "Avalanche Ecosystem",
+    "Ethereum Ecosystem",
+    "Synthetic Dollar",
+    "Plume Network Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x15700b564ca08d9439c58ca5053166e8317aa138",
+    "avalanche": "0xb57b25851fe2311cc3fe511c8f10e868932e0680",
+    "plume-network": "0x1271656f45e251f588847721ba2c561dd1f0223f"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "deUSD is a fully collateralized, yield-bearing synthetic dollar powered by Elixir. Through Elixir’s native integrations with RWA issuers, deUSD serves as the default currency for BlackRock, Hamilton Lane, Apollo, and others to enter DeFi.\r\n\r\ndeUSD will also be used as the preferred collateral within Elixir's ecosystem, with most Elixir-powered exchanges natively accepting it as yield-bearing collateral."
+  },
+  "links": {
+    "homepage": [
+      "https://elixir.xyz"
+    ],
+    "whitepaper": "https://docs.elixir.xyz/deusd",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x15700b564ca08d9439c58ca5053166e8317aa138",
+      "https://platform.arkhamintelligence.com/explorer/token/elixir-deusd",
+      "https://ethplorer.io/address/0x15700b564ca08d9439c58ca5053166e8317aa138",
+      "https://avascan.info/blockchain/c/address/0xb57b25851fe2311cc3fe511c8f10e868932e0680/token",
+      "https://explorer.plume.org/token/0x1271656f45e251f588847721ba2c561dd1f0223f"
+    ],
+    "official_forum_url": [
+      "https://discord.gg/elixirnetwork"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "elixir",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "elixir_network",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39494/thumb/deUSD_Logo_%281%29.png?1723689002",
+    "small": "https://coin-images.coingecko.com/coins/images/39494/small/deUSD_Logo_%281%29.png?1723689002",
+    "large": "https://coin-images.coingecko.com/coins/images/39494/large/deUSD_Logo_%281%29.png?1723689002"
+  },
+  "last_updated": "2025-07-11T04:58:12.170867+00:00"
+}

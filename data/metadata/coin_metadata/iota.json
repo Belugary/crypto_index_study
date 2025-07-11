@@ -1,0 +1,75 @@
+{
+  "id": "iota",
+  "symbol": "iota",
+  "name": "IOTA",
+  "categories": [
+    "Infrastructure",
+    "Smart Contract Platform",
+    "Decentralized Finance (DeFi)",
+    "Layer 1 (L1)",
+    "DePIN",
+    "DWF Labs Portfolio",
+    "Proof of Stake (PoS)",
+    "IOTA EVM Ecosystem",
+    "Outlier Ventures Portfolio",
+    "Directed Acyclic Graph (DAG)"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Directed Acyclic Graph (DAG)",
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "IOTA is a distributed ledger for the Internet of Things. The first ledger with microtransactions without fees as well as secure data transfer. Quantum proof. IOTA is a ground breaking new open-source distributed ledger that does not use a blockchain. Its innovative new quantum-proof protocol, known as the Tangle, gives rise to unique new features like zero fees, infinite scalability, fast transactions, secure data transfer and many others. IOTA is initially focused on serving as the backbone of the Internet-of-Things (IoT).\r\n\r\nIOTA is a cryptocurrency that has no transaction fees and requires no miners in order to process transactions. It does, however, require some computational power to submit a transaction, making it perfect for machines to use as a currency and distributed communication protocol for the Internet of Things “IoT”. The main purpose of IOTA is to solve some of the major problems with Blockchain technology, the main one being that the bigger the Blockchain (such as Bitcoin), the slower, more expensive, and also more restricting it is to actually transfer funds. Another issue with the Blockchain is size, as more and more Blocks are added, the longer the Blockchain gets, and therefore the less amount of computers are able to mine it. Right now BTC is over 150GB long, and so is ETH. If this size increased tenfold, very few computers would be able to mine it at all. Making them relatively centralized (the top 2 Bitcoin mining pools own about 56% of hashing power).\r\n"
+  },
+  "links": {
+    "homepage": [
+      "http://iota.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.iota.org/mainnet"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.iota.org"
+    ],
+    "announcement_url": [
+      "https://www.youtube.com/c/iotafoundation",
+      "https://www.linkedin.com/company/iotafoundation/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "iota",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": 1216479,
+    "telegram_channel_identifier": "IOTA_Official_Community",
+    "subreddit_url": "https://www.reddit.com/r/Iota",
+    "repos_url": {
+      "github": [
+        "https://github.com/iotaledger",
+        "https://github.com/iotaledger/goshimmer",
+        "https://github.com/iotaledger/iota.c",
+        "https://github.com/iotaledger/documentation",
+        "https://github.com/iotaledger/firefly",
+        "https://github.com/iotaledger/streams",
+        "https://github.com/iotaledger/hornet",
+        "https://github.com/iotaledger/bee",
+        "https://github.com/iotaledger/chronicle.rs",
+        "https://github.com/iotaledger/iota.go",
+        "https://github.com/iotaledger/stronghold.rs",
+        "https://github.com/iotaledger/iota.rs",
+        "https://github.com/iotaledger/iota.js"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/692/thumb/IOTA_Thumbnail_%281%29.png?1743772896",
+    "small": "https://coin-images.coingecko.com/coins/images/692/small/IOTA_Thumbnail_%281%29.png?1743772896",
+    "large": "https://coin-images.coingecko.com/coins/images/692/large/IOTA_Thumbnail_%281%29.png?1743772896"
+  },
+  "last_updated": "2025-07-11T04:58:53.982689+00:00"
+}

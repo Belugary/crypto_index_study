@@ -1,0 +1,52 @@
+{
+  "id": "wbnb",
+  "symbol": "wbnb",
+  "name": "Wrapped BNB",
+  "categories": [
+    "Crypto-Backed Tokens",
+    "BNB Chain Ecosystem",
+    "Wrapped-Tokens"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Wrapped BNB a wrapped version of the BNB native tokens on the BEP-20 standard on the Binance Smart Chain and other EVM-compatible chains. Not to be confused with BNB Native Token on the BSC Chain."
+  },
+  "links": {
+    "homepage": [
+      "https://www.binance.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+      "https://platform.arkhamintelligence.com/explorer/token/wbnb",
+      "https://binplorer.com/address/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+      "https://bnb.dex.guru/token/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/12591/thumb/binance-coin-logo.png?1696512401",
+    "small": "https://coin-images.coingecko.com/coins/images/12591/small/binance-coin-logo.png?1696512401",
+    "large": "https://coin-images.coingecko.com/coins/images/12591/large/binance-coin-logo.png?1696512401"
+  },
+  "last_updated": "2025-07-11T05:01:51.406733+00:00"
+}

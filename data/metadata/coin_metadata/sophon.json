@@ -1,0 +1,69 @@
+{
+  "id": "sophon",
+  "symbol": "soph",
+  "name": "Sophon",
+  "categories": [
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Polygon Ecosystem",
+    "Arbitrum Ecosystem",
+    "Layer 2 (L2)",
+    "Base Ecosystem",
+    "Binance HODLer Airdrops",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x6b7774cb12ed7573a7586e7d0e62a2a563ddd3f0",
+    "binance-smart-chain": "0x31dba3c96481fde3cd81c2aaf51f2d8bf618c742",
+    "base": "0x31dba3c96481fde3cd81c2aaf51f2d8bf618c742",
+    "arbitrum-one": "0x31dba3c96481fde3cd81c2aaf51f2d8bf618c742",
+    "polygon-pos": "0xeb971fd26783f32694dbb392dd7289de23109148",
+    "sophon": "0x000000000000000000000000000000000000800a"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What is Sophon?\r\nSophon is an innovative consumer entertainment platform dedicated to onboarding the next generation of crypto users through everyday useful products that monetize and reward the data we all naturally produce.\r\nBuilt as a modular rollup powered by the ZK Stack, Sophon creates an intuitive ecosystem where users can engage with gaming, social, AI, prediction markets, and more without the typical complexities of blockchain technology. Through zkTLS technology, Sophon transforms everyday online activities into valuable assets that users can control and benefit from while maintaining privacy.\r\nThis consumer-focused platform bridges traditional applications and blockchain benefits, providing both a developer framework and a user hub for crypto-powered consumer experiences.\r\n\r\nWhat is the project about?\r\nSophon differentiates itself through several key innovations:\r\nUser-Centric Design: Sophon prioritizes beautiful, simple, and accessible experiences, making blockchain technology invisible to end users while delivering its benefits.\r\nSocial Oracle: Leveraging zkTLS technology, Sophon's Social Oracle verifies and brings online achievements, reputation, and social influence onchain without revealing personal data. This transforms scattered social signals into collective intelligence that powers applications.\r\nNative Account Abstraction: Users can sign up with familiar methods like Google or Apple accounts, creating self-custodial wallets in the background without the complexities of traditional crypto onboarding.\r\nGasless Experience: Through paymasters from the ZKsync codebase, Sophon offers a seamless platform that eliminates transaction fees for end users, significantly enhancing the overall experience.\r\nEntertainment Focus: Rather than competing solely for existing crypto users, Sophon targets entertainment verticals that already have proven traction, including gaming, gambling, sports betting, ticketing, and consumer AI.\r\n\r\nAbout the SOPH Token\r\nThe SOPH token serves as the foundation of the Sophon Network, playing essential roles in both current and future operations:\r\nGas Fee Payments: All transactions on the Sophon Network require gas paid in SOPH. However, thanks to native paymaster technology, end users don't necessarily need to hold SOPH themselves, as transactions can be subsidized by applications or the network.\r\nNetwork Security: SOPH enables the decentralization of Sophon's sequencer through staking. This mechanism supports the cryptoeconomic security of the network while distributing rewards to participants.\r\nStaking Rewards: Token holders can stake SOPH directly or delegate to Full Nodes (Guardian NFT holders with sufficient delegations). Stakers receive a portion of gas fees and potentially additional ecosystem rewards, with rewards compounding automatically.\r\nDeflationary Model: SOPH staking utilises an inverse square root reward model, inspired by Ethereum, which means that a portion of rewards are unutilised when less than 100% of the total circulating supply is staked. These unutilised rewards are sent to a separate contract where they are either burnt or redistributed as rewards to users. With a portion of unutilized rewards being burned and no ability to mint new tokens, the supply gradually decreases over time.\r\n\r\nSOPH Tokenomics\r\nSOPH has a fixed total supply of 10,000,000,000 SOPH tokens. At TGE 2,000,000,000 tokens will be in circulation, with the remainder subject to vesting schedules.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://sophon.xyz/"
+    ],
+    "whitepaper": "https://docs.sophon.xyz/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x6B7774CB12ed7573a7586E7D0e62a2A563dDd3f0",
+      "https://sophscan.xyz/token/0x000000000000000000000000000000000000800A",
+      "https://bscscan.com/token/0x31DbA3c96481FDe3CD81C2aaF51F2D8bf618C742",
+      "https://basescan.org/token/0x31DbA3c96481FDe3CD81C2aaF51F2D8bf618C742",
+      "https://arbiscan.io/token/0x31DbA3c96481FDe3CD81C2aaF51F2D8bf618C742",
+      "https://polygonscan.com/token/0xEb971Fd26783f32694dbB392dD7289de23109148",
+      "https://ethplorer.io/address/0x6B7774CB12ed7573a7586E7D0e62a2A563dDd3f0",
+      "https://binplorer.com/address/0x31DbA3c96481FDe3CD81C2aaF51F2D8bf618C742",
+      "https://explorer.sophon.xyz/address/0x000000000000000000000000000000000000800A"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "sophon",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/sophon-org"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/38680/thumb/sophon_logo_200.png?1747898236",
+    "small": "https://coin-images.coingecko.com/coins/images/38680/small/sophon_logo_200.png?1747898236",
+    "large": "https://coin-images.coingecko.com/coins/images/38680/large/sophon_logo_200.png?1747898236"
+  },
+  "last_updated": "2025-07-11T05:00:48.434797+00:00"
+}

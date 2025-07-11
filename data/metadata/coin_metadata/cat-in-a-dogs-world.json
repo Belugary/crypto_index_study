@@ -1,0 +1,52 @@
+{
+  "id": "cat-in-a-dogs-world",
+  "symbol": "mew",
+  "name": "cat in a dogs world",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Dog-Themed",
+    "Solana Meme",
+    "Cat-Themed"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "cat in a dogs world (MEW) on Solana"
+  },
+  "links": {
+    "homepage": [
+      "https://mew.xyz/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5",
+      "https://platform.arkhamintelligence.com/explorer/token/cat-in-a-dogs-world"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "mew",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "mewsworld",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/36440/thumb/MEW.png?1711442286",
+    "small": "https://coin-images.coingecko.com/coins/images/36440/small/MEW.png?1711442286",
+    "large": "https://coin-images.coingecko.com/coins/images/36440/large/MEW.png?1711442286"
+  },
+  "last_updated": "2025-07-11T04:57:35.886142+00:00"
+}

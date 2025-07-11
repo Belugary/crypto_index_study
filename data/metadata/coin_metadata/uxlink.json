@@ -1,0 +1,51 @@
+{
+  "id": "uxlink",
+  "symbol": "uxlink",
+  "name": "UXLINK",
+  "categories": [
+    "SocialFi",
+    "Arbitrum Ecosystem"
+  ],
+  "asset_platform_id": "arbitrum-one",
+  "platforms": {
+    "arbitrum-one": "0x1a6b3a62391eccaaa992ade44cd4afe6bec8cff1"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "UXLINK is a leading user-driven web3 social platform for mass adoption, aiming to be a social DEX and social infrastructure. Different from other one-way, following-only relationships, UXLINK forms two-way, friend-type social relationship, and enables real-time interactions by UXGroup usage scenario. In this litepaper, we outline three key elements of UXLINK missions:"
+  },
+  "links": {
+    "homepage": [
+      "https://www.uxlink.io/"
+    ],
+    "whitepaper": "https://docs.uxlink.io/uxuy-labs-api/whitepaper/white-paper",
+    "blockchain_site": [
+      "https://arbiscan.io/token/0x1a6b3a62391eccaaa992ade44cd4afe6bec8cff1",
+      "https://platform.arkhamintelligence.com/explorer/token/uxlink"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://blog.uxlink.io/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "UXLINKofficial",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "uxlinkofficial2",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39229/thumb/uxlink.jpg?1721201390",
+    "small": "https://coin-images.coingecko.com/coins/images/39229/small/uxlink.jpg?1721201390",
+    "large": "https://coin-images.coingecko.com/coins/images/39229/large/uxlink.jpg?1721201390"
+  },
+  "last_updated": "2025-07-11T05:01:40.257733+00:00"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "iotex",
+  "symbol": "iotx",
+  "name": "IoTeX",
+  "categories": [
+    "Internet of Things (IOT)",
+    "Ethereum Ecosystem",
+    "DePIN",
+    "Base Ecosystem",
+    "Account Abstraction",
+    "GMCI DePIN Index",
+    "GMCI Index",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x6fb3e0a217407efff7ca062d46c26e5d60a14d69",
+    "base": "0xbcbaf311cec8a4eac0430193a528d9ff27ae38c1"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "US",
+  "description": {
+    "en": "IoTeX is a modular infrastructure for Decentralized Physical Infrastructure Network (DePIN) applicatoins that offers a comprehensive suite of tools to create fully decentralized, composable, and interoperable DePIN projects. IoTeX provides a flexible array of in-house DePIN Infrastructure Modules (DIMs) and Public Goods, alongside modules contributed by third-party providers, such as Filecoin, Risc0, NearDA, Espresso, and more. \r\n\r\nBy significantly reducing build time, initial capital costs, and the resources needed to launch projects, IoTeX is embarking on a new roadmap to onboard 100 million devices and unlock trillions of dollars in real-world value on-chain within the next 3-5 years. Realizing IoTeX’s mission of “DePIN for Everyone”. "
+  },
+  "links": {
+    "homepage": [
+      "https://iotex.io"
+    ],
+    "whitepaper": "https://github.com/iotexproject/files/blob/main/publications/IoTeX_2_0_Whitepaper_1.1_EN.pdf",
+    "blockchain_site": [
+      "https://iotexscan.io/",
+      "https://platform.arkhamintelligence.com/explorer/token/iotex",
+      "https://explorer.energi.network/token/0x4fffe0168b04f039496ca5189f9596c22693a19c",
+      "https://etherscan.io/token/0x6fb3e0a217407efff7ca062d46c26e5d60a14d69",
+      "https://ethplorer.io/address/0x6fb3e0a217407efff7ca062d46c26e5d60a14d69",
+      "https://basescan.org/token/0xbcbaf311cec8a4eac0430193a528d9ff27ae38c1"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.facebook.com/iotex.io/"
+    ],
+    "announcement_url": [
+      "https://medium.com/@iotex",
+      "https://t.me/iotexchannel"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "iotex_io",
+    "facebook_username": "iotex.io",
+    "bitcointalk_thread_identifier": 3099670,
+    "telegram_channel_identifier": "IoTeXGroup",
+    "subreddit_url": "https://www.reddit.com/r/IoTeX",
+    "repos_url": {
+      "github": [
+        "https://github.com/iotexproject/iotex-core"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/3334/thumb/Group_1142815061.png?1751528330",
+    "small": "https://coin-images.coingecko.com/coins/images/3334/small/Group_1142815061.png?1751528330",
+    "large": "https://coin-images.coingecko.com/coins/images/3334/large/Group_1142815061.png?1751528330"
+  },
+  "last_updated": "2025-07-11T04:58:54.562176+00:00"
+}

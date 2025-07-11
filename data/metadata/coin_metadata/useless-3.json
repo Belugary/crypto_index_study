@@ -1,0 +1,50 @@
+{
+  "id": "useless-3",
+  "symbol": "useless",
+  "name": "Useless Coin",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Solana Meme",
+    "LetsBONK.fun Ecosystem"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://letsbonk.fun/token/Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55684/thumb/useless.png?1746984379",
+    "small": "https://coin-images.coingecko.com/coins/images/55684/small/useless.png?1746984379",
+    "large": "https://coin-images.coingecko.com/coins/images/55684/large/useless.png?1746984379"
+  },
+  "last_updated": "2025-07-11T05:01:39.088955+00:00"
+}

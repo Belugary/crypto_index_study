@@ -1,0 +1,56 @@
+{
+  "id": "tether-gold",
+  "symbol": "xaut",
+  "name": "Tether Gold",
+  "categories": [
+    "Stablecoins",
+    "Tokenized Assets",
+    "Tokenized Gold",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "Tokenized Commodities"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x68749665ff8d2d112fa859aa293f07a622782f38"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Each XAU₮ token represents ownership of one troy fine ounce of physical gold on a specific gold bar. XAU₮, which is available as an ERC-20 token on the Ethereum blockchain and as a TRC20 token on the TRON blockchain, can be transferred to any on-chain address from the purchasers’ Tether wallet. Furthermore, Tether Gold (XAU₮) is the only product among the competition that offers zero custody fees and has direct control over the physical gold storage, safely held in a Switzerland vault, adopting best in class security and anti-threat measures. Today, Tether Gold (XAU₮) is the best way to hold Gold. "
+  },
+  "links": {
+    "homepage": [
+      "https://gold.tether.to/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x68749665ff8d2d112fa859aa293f07a622782f38",
+      "https://platform.arkhamintelligence.com/explorer/token/tether-gold",
+      "https://ethplorer.io/address/0x68749665ff8d2d112fa859aa293f07a622782f38"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.linkedin.com/company/tether"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "tethergold",
+    "facebook_username": "tether.to",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/10481/thumb/Tether_Gold.png?1696510471",
+    "small": "https://coin-images.coingecko.com/coins/images/10481/small/Tether_Gold.png?1696510471",
+    "large": "https://coin-images.coingecko.com/coins/images/10481/large/Tether_Gold.png?1696510471"
+  },
+  "last_updated": "2025-07-11T05:01:16.407896+00:00"
+}

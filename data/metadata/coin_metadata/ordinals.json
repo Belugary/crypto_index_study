@@ -1,0 +1,54 @@
+{
+  "id": "ordinals",
+  "symbol": "ordi",
+  "name": "ORDI",
+  "categories": [
+    "Solana Ecosystem",
+    "BRC-20",
+    "Bitcoin Ecosystem",
+    "Inscriptions"
+  ],
+  "asset_platform_id": "ordinals",
+  "platforms": {
+    "ordinals": "b61b0172d95e266c18aea0c624db987e971a5d6d4ebc2aaed85da4642d635735i0",
+    "solana": "u9nmK5sQovm6ACVCQbbq8xUMpFqdPSYxdxVwXUX4sjY"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://ordiscan.com/inscription/348020",
+      "https://platform.arkhamintelligence.com/explorer/token/ordinals",
+      "https://ordinalswallet.com/inscription/b61b0172d95e266c18aea0c624db987e971a5d6d4ebc2aaed85da4642d635735i0",
+      "https://ordinalscan.net/ranking/ordi/brc20",
+      "https://ordinalscan.net/inscription/b61b0172d95e266c18aea0c624db987e971a5d6d4ebc2aaed85da4642d635735i0",
+      "https://solscan.io/token/u9nmK5sQovm6ACVCQbbq8xUMpFqdPSYxdxVwXUX4sjY"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/30162/thumb/ordi.png?1696529082",
+    "small": "https://coin-images.coingecko.com/coins/images/30162/small/ordi.png?1696529082",
+    "large": "https://coin-images.coingecko.com/coins/images/30162/large/ordi.png?1696529082"
+  },
+  "last_updated": "2025-07-11T04:59:54.569055+00:00"
+}

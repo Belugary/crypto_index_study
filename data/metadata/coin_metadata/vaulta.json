@@ -1,0 +1,53 @@
+{
+  "id": "vaulta",
+  "symbol": "a",
+  "name": "Vaulta",
+  "categories": [
+    "Layer 1 (L1)",
+    "World Liberty Financial Portfolio"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Vaulta is a Web3 banking network designed to power the next generation of decentralized financial services. Built on one of the most reliable Layer 1 infrastructures in the industry, Vaulta combines real-time performance with institutional-grade features to deliver secure, scalable, and composable applications—from consumer payments to Bitcoin-native yield and tokenized assets.\r\nWith one-second finality, advanced on-chain memory via RAM, and integrated Bitcoin infrastructure through exSat, Vaulta serves as a financial operating system for users, developers, and institutions looking to bridge traditional finance and Web3.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.vaulta.com"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://www.unicove.com"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.vaulta.com/resources",
+      "https://www.youtube.com/@vaulta_official"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Vaulta_",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "vaulta",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/VaultaFoundation/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55616/thumb/Vaulta_CEX_Icon_Circle_-_cmc.png?1746859132",
+    "small": "https://coin-images.coingecko.com/coins/images/55616/small/Vaulta_CEX_Icon_Circle_-_cmc.png?1746859132",
+    "large": "https://coin-images.coingecko.com/coins/images/55616/large/Vaulta_CEX_Icon_Circle_-_cmc.png?1746859132"
+  },
+  "last_updated": "2025-07-11T05:01:41.513611+00:00"
+}

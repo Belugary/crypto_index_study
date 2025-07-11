@@ -1,0 +1,66 @@
+{
+  "id": "akash-network",
+  "symbol": "akt",
+  "name": "Akash Network",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Smart Contract Platform",
+    "DePIN",
+    "Osmosis Ecosystem",
+    "Proof of Stake (PoS)",
+    "Archway Ecosystem",
+    "Made in USA"
+  ],
+  "asset_platform_id": "akash",
+  "platforms": {
+    "akash": "uakt",
+    "archway": "ibc/C2CFB1C37C146CF95B0784FD518F8030FEFC76C5800105B1742FB65FFE65F873",
+    "osmosis": "ibc/1480B8FD20AD5FCAE81EA87584D269547DD4D436843C1D20F15E00EB64743EF4"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "US",
+  "description": {
+    "en": "What is Akash Network?\r\n\r\nAkash Network is spearheading a paradigm shift in cloud computing, disrupting conventional cloud services, and pioneering a revolution in access to essential cloud resources. Leveraging the power of blockchain technology, Akash Network has developed an open-source, decentralized, marketplace for cloud computing, offering an unprecedented level of speed, efficiency, and affordability. This innovation is set to transform the way users perceive and utilize cloud services.\r\nWhat are the key features of Akash Network?\r\n\r\n\r\n\r\nDecentralized Cloud Computing: Akash Network, built on a blockchain-based framework, eliminates dependence on centralized cloud providers, offering superior security, transparency for users' data and transactions, and enhanced scalability.\r\n\r\nPermissionless Marketplace: By offering an open marketplace, Akash Network allows anyone with computational resources to become a cloud provider. Users can lease out their unused computing capacities, fostering competition and driving down prices.\r\n\r\nFlexible and Secure: With Akash, developers can effortlessly deploy applications and workloads. Moreover, the platform offers high security by using the native AKT token to ensure the integrity and authenticity of transactions on the network.\r\n\r\nStaking and Incentive Mechanism: Holders of the AKT token can participate in the network by staking their tokens. This not only helps secure the network but also earns them rewards.\r\n\r\nInteroperable Ecosystem: Akash Network is designed to be blockchain agnostic and is built on the Cosmos SDK, allowing for easy integration with other blockchain networks and fostering cross-chain collaborations.\r\n\r\nEco-friendly: Compared to traditional cloud services, Akash Network is more energy-efficient. The network's consensus mechanism is based on Proof-of-Stake, which is considered to be more environmentally friendly than Proof-of-Work used by many other blockchain networks.\r\n\r\n\r\n\r\nHow does GPU Marketplace benefit AI Hosting?\r\n\r\nOne of the unique offerings of Akash Network is its GPU (Graphics Processing Unit) marketplace, which proves to be a game-changer for AI hosting. Leveraging its decentralized cloud, Akash Network provides a platform where individuals and businesses can rent out their idle GPU resources to those in need, particularly AI developers and researchers. Here’s why this is a groundbreaking feature:\r\n\r\nCost-Effectiveness: Traditional cloud services are expensive, especially when renting GPUs for AI processing. Akash Network's open marketplace fosters competition, driving down the costs of GPU rentals and making it more affordable for AI researchers and developers.\r\n\r\nScalability and Performance: With access to a decentralized pool of GPU resources, AI developers can easily scale their operations and computational power without the constraints of traditional cloud infrastructure. This translates to faster training and deployment of AI models.\r\n\r\nSecurity and Privacy: AI applications require processing sensitive data. Akash Network’s blockchain-based framework ensures that data is handled securely and transparently without the vulnerabilities of centralized systems.\r\n\r\nDemocratizing AI: By lowering the barriers to entry in terms of cost and accessibility to GPU resources, Akash Network empowers a wider range of individuals and organizations, even at the early stage, to participate in AI development and hosting, contributing to innovation and technological advancement.\r\n\r\nEco-Friendly Resource Utilization: By efficiently utilizing idle GPU resources through its marketplace, Akash Network dramatically minimizes environmental impact, in stark contrast to the significant ecological footprint associated with constructing and maintaining dedicated data centers. Akash Network's maximized resource efficiency enables it to play a pivotal role in promoting innovation, sustainability, and reducing carbon footprints.\r\n\r\nGlobal Accessibility: Akash Network’s global marketplace ensures that AI developers and researchers worldwide have equal access to GPU resources, irrespective of their geographical location.\r\n\r\nBy providing an efficient, secure, and cost-effective alternative for AI hosting through its GPU marketplace, Akash Network is not only revolutionizing cloud computing but also making a substantial impact on the rapidly growing field of artificial intelligence.\r\nWhat is AKT Token?\r\n\r\n\r\n\r\nAKT is the native cryptocurrency token of Akash Network. It is integral for securing the network, executing transactions and contracts, and incentivizing community participation through staking and rewards. As the ecosystem grows, AKT is anticipated to play an increasingly vital role in enabling and securing decentralized cloud services.\r\nThe AKT 2.0 proposal introduces Take Rate and Provider Incentives to kick-start growth. Join the discussion for updates.\r\n\r\nWhat are the prospects for Akash?\r\n\r\nAkash Network is at the forefront of a paradigm shift in cloud computing. With its decentralized nature, coupled with a growing demand for secure, open, and affordable cloud solutions, Akash Network is well-positioned to become a pivotal player in the cloud computing industry. The ongoing developments and partnerships are expected to contribute significantly to its adoption and utility in the near future.\r\n\r\nJoin Akash Network to be part of this groundbreaking venture in reshaping the cloud computing landscape!\r\n\r\nPlease note: This is not financial advice. It’s always recommended to conduct your own research before making any investments."
+  },
+  "links": {
+    "homepage": [
+      "https://akash.network"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://www.mintscan.io/akash",
+      "https://akash.aneka.io/",
+      "https://akash.ping.pub/",
+      "https://atomscan.com/akash",
+      "https://www.mintscan.io/osmosis/assets/ibc/aWJjLzE0ODBCOEZEMjBBRDVGQ0FFODFFQTg3NTg0RDI2OTU0N0RENEQ0MzY4NDNDMUQyMEYxNUUwMEVCNjQ3NDNFRjQ="
+    ],
+    "official_forum_url": [
+      "https://akash.network/blog"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/akash",
+      "https://www.facebook.com/akashnw"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "akashnet_",
+    "facebook_username": "akashnw",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "akashnw",
+    "subreddit_url": "https://www.reddit.com/r/akashnetwork/",
+    "repos_url": {
+      "github": [
+        "https://github.com/akash-network"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/12785/thumb/akash-logo.png?1696512580",
+    "small": "https://coin-images.coingecko.com/coins/images/12785/small/akash-logo.png?1696512580",
+    "large": "https://coin-images.coingecko.com/coins/images/12785/large/akash-logo.png?1696512580"
+  },
+  "last_updated": "2025-07-11T04:56:46.915973+00:00"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "notcoin",
+  "symbol": "not",
+  "name": "Notcoin",
+  "categories": [
+    "Gaming (GameFi)",
+    "Binance Launchpool",
+    "Meme",
+    "Play To Earn",
+    "TON Ecosystem",
+    "TON Meme",
+    "Tap to Earn"
+  ],
+  "asset_platform_id": "the-open-network",
+  "platforms": {
+    "the-open-network": "EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Notcoin ($NOT) is as a community-driven token aimed at onboarding users into the Web3 ecosystem through a tap-to-earn game."
+  },
+  "links": {
+    "homepage": [
+      "https://t.me/notcoin_bot",
+      "https://notco.in",
+      "https://t.me/notcoin"
+    ],
+    "whitepaper": "https://cdn.joincommunity.xyz/notcoin/Notcoin_Whitepaper.pdf",
+    "blockchain_site": [
+      "https://tonscan.org/address/EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT",
+      "https://platform.arkhamintelligence.com/explorer/token/notcoin",
+      "https://tonviewer.com/EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "thenotcoin",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "notcoin",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33453/thumb/rFmThDiD_400x400.jpg?1701876350",
+    "small": "https://coin-images.coingecko.com/coins/images/33453/small/rFmThDiD_400x400.jpg?1701876350",
+    "large": "https://coin-images.coingecko.com/coins/images/33453/large/rFmThDiD_400x400.jpg?1701876350"
+  },
+  "last_updated": "2025-07-11T04:59:44.635415+00:00"
+}

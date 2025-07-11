@@ -1,0 +1,58 @@
+{
+  "id": "humanity",
+  "symbol": "h",
+  "name": "Humanity",
+  "categories": [
+    "Infrastructure",
+    "Smart Contract Platform",
+    "Ethereum Ecosystem",
+    "Zero Knowledge (ZK)",
+    "Privacy Blockchain",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xcf5104d094e3864cfcbda43b82e1cefd26a016eb"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Humanity Protocol is a blockchain featuring a native Proof of Humanity (PoH) consensus mechanism that verifies users' uniqueness as humans through decentralized identifiers (DID) and verifiable credentials (VC), combining privacy-preserving human recognition, decentralized storage, and zero-knowledge proofs to enable sybil resistance, self-sovereign identity, and user-owned data for innovative and inclusive applications.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.humanity.org/"
+    ],
+    "whitepaper": "https://humanity-protocol.gitbook.io/humanity-protocol",
+    "blockchain_site": [
+      "https://humanity-mainnet.explorer.alchemy.com/",
+      "https://etherscan.io/token/0xcf5104d094e3864cfcbda43b82e1cefd26a016eb",
+      "https://ethplorer.io/address/0xcf5104D094e3864CfCBDa43B82e1cEFD26A016eB"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://Discord.gg/HumanityProt"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Humanityprot",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "HumanityProt",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/humanity-org/hp-basic-token/tree/master"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/66811/thumb/H_tokenLogo_original.png?1750581252",
+    "small": "https://coin-images.coingecko.com/coins/images/66811/small/H_tokenLogo_original.png?1750581252",
+    "large": "https://coin-images.coingecko.com/coins/images/66811/large/H_tokenLogo_original.png?1750581252"
+  },
+  "last_updated": "2025-07-11T04:58:44.769281+00:00"
+}

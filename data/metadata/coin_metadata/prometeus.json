@@ -1,0 +1,64 @@
+{
+  "id": "prometeus",
+  "symbol": "prom",
+  "name": "Prom",
+  "categories": [
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem",
+    "Layer 2 (L2)"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xfc82bb4ba86045af6f327323a46e80412b91b27d",
+    "binance-smart-chain": "0xaf53d56ff99f1322515e54fdde93ff8b3b7dafd5"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Prom is a modular ZkEVM Layer 2 that enables interoperability across various chains, including both EVM and non-EVM compatible networks. Prom submits its proof of transaction to the additional chains on top of the chosen Settlement chain, building the bridge between ecosystems.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://prom.io/"
+    ],
+    "whitepaper": null,
+    "blockchain_site": [
+      "https://etherscan.io/token/0xfc82bb4ba86045af6f327323a46e80412b91b27d",
+      "https://platform.arkhamintelligence.com/explorer/token/prometeus",
+      "https://ethplorer.io/address/0xfc82bb4ba86045af6f327323a46e80412b91b27d",
+      "https://bscscan.com/token/0xaf53d56ff99f1322515e54fdde93ff8b3b7dafd5",
+      "https://binplorer.com/address/0xaf53d56ff99f1322515e54fdde93ff8b3b7dafd5"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/prom_io_official/",
+      "https://discord.gg/prom"
+    ],
+    "chat_url": [
+      "https://t.me/prom_ann",
+      "https://www.linkedin.com/company/prom-io/,"
+    ],
+    "announcement_url": [
+      "https://prom-io.medium.com/",
+      "https://www.youtube.com/channel/UC2mC_ZMPnrivHGgz5CaZnvQ"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "prom_io",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "prom_io",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/8825/thumb/Ticker.png?1696508978",
+    "small": "https://coin-images.coingecko.com/coins/images/8825/small/Ticker.png?1696508978",
+    "large": "https://coin-images.coingecko.com/coins/images/8825/large/Ticker.png?1696508978"
+  },
+  "last_updated": "2025-07-11T05:00:13.674512+00:00"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "altlayer",
+  "symbol": "alt",
+  "name": "AltLayer",
+  "categories": [
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Binance Launchpool",
+    "Ethereum Ecosystem",
+    "Layer 2 (L2)",
+    "Restaking",
+    "Rollups-as-a-Service (RaaS)",
+    "Rollup",
+    "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x8457ca5040ad67fdebbcc8edce889a335bc0fbfb",
+    "binance-smart-chain": "0x8457ca5040ad67fdebbcc8edce889a335bc0fbfb"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "AltLayer is a decentralized protocol that facilitates the launch of native and restaked rollups with both optimistic and zk rollup stacks."
+  },
+  "links": {
+    "homepage": [
+      "https://altlayer.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x8457ca5040ad67fdebbcc8edce889a335bc0fbfb",
+      "https://platform.arkhamintelligence.com/explorer/token/altlayer",
+      "https://ethplorer.io/address/0x8457ca5040ad67fdebbcc8edce889a335bc0fbfb",
+      "https://bscscan.com/token/0x8457ca5040ad67fdebbcc8edce889a335bc0fbfb",
+      "https://binplorer.com/address/0x8457ca5040ad67fdebbcc8edce889a335bc0fbfb"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "alt_layer",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/34608/thumb/Logomark_200x200.png?1715107868",
+    "small": "https://coin-images.coingecko.com/coins/images/34608/small/Logomark_200x200.png?1715107868",
+    "large": "https://coin-images.coingecko.com/coins/images/34608/large/Logomark_200x200.png?1715107868"
+  },
+  "last_updated": "2025-07-11T04:56:49.836361+00:00"
+}

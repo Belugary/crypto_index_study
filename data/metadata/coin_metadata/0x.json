@@ -1,0 +1,79 @@
+{
+  "id": "0x",
+  "symbol": "zrx",
+  "name": "0x Protocol",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Decentralized Finance (DeFi)",
+    "Avalanche Ecosystem",
+    "Harmony Ecosystem",
+    "Ethereum Ecosystem",
+    "Coinbase Ventures Portfolio",
+    "Pantera Capital Portfolio",
+    "Energi Ecosystem",
+    "GMCI DeFi Index",
+    "Blockchain Capital Portfolio",
+    "GMCI Index",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xe41d2489571d322189246dafa5ebde1f4699f498",
+    "harmony-shard-0": "0x8143e2a1085939caa9cef6665c2ff32f7bc08435",
+    "energi": "0x591c19dc0821704bedaa5bbc6a66fee277d9437e",
+    "avalanche": "0x596fa47043f99a4e0f122243b841e55375cde0d2"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2017-08-11",
+  "country_origin": "US",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.0xprotocol.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://0xtracker.com/",
+      "https://platform.arkhamintelligence.com/explorer/token/0x",
+      "https://etherscan.io/token/0xe41d2489571d322189246dafa5ebde1f4699f498",
+      "https://ethplorer.io/address/0xe41d2489571d322189246dafa5ebde1f4699f498",
+      "https://blockchair.com/ethereum/erc-20/token/0xe41d2489571d322189246dafa5ebde1f4699f498",
+      "https://snowtrace.io/token/0x596fa47043f99a4e0f122243b841e55375cde0d2",
+      "https://avascan.info/blockchain/c/address/0x596fa47043f99a4e0f122243b841e55375cde0d2/token",
+      "https://explorer.energi.network/token/0x591c19dc0821704bedaa5bbc6a66fee277d9437e",
+      "https://explorer.0xprotocol.org/",
+      "https://gnosis.dex.guru/token/0x226bcf0e417428a25012d0fa2183d37f92bcedf6"
+    ],
+    "official_forum_url": [
+      "https://mirror.xyz/zeroexprotocol.eth"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/FduK2mE"
+    ],
+    "announcement_url": [],
+    "snapshot_url": "https://snapshot.org/#/0xgov.eth",
+    "twitter_screen_name": "zeroexprotocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "official_0x",
+    "subreddit_url": "https://www.reddit.com/r/0xProject/",
+    "repos_url": {
+      "github": [
+        "https://github.com/0xProject/0x-monorepo",
+        "https://github.com/0xProject/0x-launch-kit",
+        "https://github.com/0xProject/ZEIPs",
+        "https://github.com/0xProject/0x-starter-project"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/863/thumb/0x.png?1696501996",
+    "small": "https://coin-images.coingecko.com/coins/images/863/small/0x.png?1696501996",
+    "large": "https://coin-images.coingecko.com/coins/images/863/large/0x.png?1696501996"
+  },
+  "last_updated": "2025-07-11T04:56:37.292046+00:00"
+}

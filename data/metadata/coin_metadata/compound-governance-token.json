@@ -1,0 +1,87 @@
+{
+  "id": "compound-governance-token",
+  "symbol": "comp",
+  "name": "Compound",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Yield Farming",
+    "BNB Chain Ecosystem",
+    "Lending/Borrowing Protocols",
+    "Avalanche Ecosystem",
+    "Polygon Ecosystem",
+    "Near Protocol Ecosystem",
+    "Harmony Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Base Ecosystem",
+    "Paradigm Portfolio",
+    "Index Coop Defi Index",
+    "Energi Ecosystem",
+    "Sora Ecosystem",
+    "Polychain Capital Portfolio",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+    "near-protocol": "c00e94cb662c3520282e6f5717214004a7f26888.factory.bridge.near",
+    "arbitrum-one": "0x354a6da3fcde098f8389cad84b0182725c6c91de",
+    "base": "0x9e1028f5f1d5ede59748ffcee5532509976840e0",
+    "harmony-shard-0": "0x32137b9275ea35162812883582623cd6f6950958",
+    "energi": "0x66bc411714e16b6f0c68be12bd9c666cc4576063",
+    "sora": "0x00dbd45af9f2ea406746f9025110297469e9d29efc60df8d88efb9b0179d6c2c",
+    "binance-smart-chain": "0x52ce071bd9b1c4b00a0b92d298c512478cad67e8",
+    "avalanche": "0xc3048e19e76cb9a3aa9d77d8c03c29fc906e2437",
+    "polygon-pos": "0x8505b9d2254a7ae468c0e9dd10ccea3a837aef5c"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The Compound Governance Token is a governance token on the Compound Finance lending protocol, COMP allows the owner to delegate voting rights to the address of their choice; the owner’s wallet, another user, an application, or a DeFi expert. Anybody can participate in Compound governance by receiving delegation, without needing to own COMP.\r\n\r\nAnybody with 1% of COMP delegated to their address can propose a governance action; these are simple or complex sets of actions, such as adding support for a new asset, changing an asset’s collateral factor, changing a market’s interest rate model, or changing any other parameter or variable of the protocol that the current administrator can modify."
+  },
+  "links": {
+    "homepage": [
+      "https://compound.finance/governance/comp"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xc00e94cb662c3520282e6f5717214004a7f26888",
+      "https://platform.arkhamintelligence.com/explorer/token/compound-governance-token",
+      "https://ethplorer.io/address/0xc00e94cb662c3520282e6f5717214004a7f26888",
+      "https://arbiscan.io/token/0x354a6da3fcde098f8389cad84b0182725c6c91de",
+      "https://bscscan.com/token/0x52ce071bd9b1c4b00a0b92d298c512478cad67e8",
+      "https://polygonscan.com/token/0x8505b9d2254a7ae468c0e9dd10ccea3a837aef5c",
+      "https://snowtrace.io/token/0xc3048e19e76cb9a3aa9d77d8c03c29fc906e2437",
+      "https://avascan.info/blockchain/c/address/0xc3048e19e76cb9a3aa9d77d8c03c29fc906e2437/token",
+      "https://explorer.energi.network/token/0x66bc411714e16b6f0c68be12bd9c666cc4576063",
+      "https://nearblocks.io/token/c944e90c64b2c07662a292be6244bdf05cda44a7.factory.bridge.near"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://compound.finance/discord"
+    ],
+    "announcement_url": [
+      "https://medium.com/compound-finance"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "compoundfinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/compound-finance/compound-protocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/10775/thumb/COMP.png?1696510737",
+    "small": "https://coin-images.coingecko.com/coins/images/10775/small/COMP.png?1696510737",
+    "large": "https://coin-images.coingecko.com/coins/images/10775/large/COMP.png?1696510737"
+  },
+  "last_updated": "2025-07-11T04:57:47.481793+00:00"
+}

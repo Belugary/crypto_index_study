@@ -1,0 +1,62 @@
+{
+  "id": "coinbase-wrapped-btc",
+  "symbol": "cbbtc",
+  "name": "Coinbase Wrapped BTC",
+  "categories": [
+    "Crypto-Backed Tokens",
+    "Tokenized BTC",
+    "Wrapped-Tokens",
+    "Solana Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Base Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+    "base": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+    "arbitrum-one": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+    "solana": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Coinbase Wrapped BTC (\"cbBTC\") is a token that is backed 1:1 by native Bitcoin (BTC) held by Coinbase, meaning that for all cbBTC in circulation, there is an equivalent amount of BTC held in a secure custody solution (including cold storage) provided by Coinbase. Wrapped assets, like cbBTC, are transferable tokens that are redeemable for the underlying asset. Coinbase customers can unwrap cbBTC and redeem a corresponding amount of the underlying BTC simply by depositing the cbBTC into their Coinbase accounts. cbBTC is built to be seamlessly compatible with DeFi applications, giving customers the option to tap into DeFi and unlock financial utility. cbBTC removes a key point of friction by allowing customers to use Bitcoin they already hold in new ways onchain. cbBTC is built to be seamlessly compatible with DeFi applications, so users can now tap into novel DeFi use cases like providing their Bitcoin as liquidity to DeFi protocols, using it as collateral to borrow other crypto assets, or spending it as a payment method. Wrapped assets like cbBTC are a mature concept in the crypto world, helping to bring more liquid assets onchain and facilitate an expansive financial ecosystem.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.coinbase.com/",
+      "https://coinbase.com/campaigns/cbbtc"
+    ],
+    "whitepaper": "https://coinbase.bynder.com/m/1303c2f4d78fc966/original/cbBTC-White-Paper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+      "https://platform.arkhamintelligence.com/explorer/token/coinbase-wrapped-btc",
+      "https://basescan.org/token/0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+      "https://ethplorer.io/address/0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+      "https://solscan.io/token/cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+      "https://arbiscan.io/token/0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "coinbase",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/40143/thumb/cbbtc.webp?1726136727",
+    "small": "https://coin-images.coingecko.com/coins/images/40143/small/cbbtc.webp?1726136727",
+    "large": "https://coin-images.coingecko.com/coins/images/40143/large/cbbtc.webp?1726136727"
+  },
+  "last_updated": "2025-07-11T04:57:44.145947+00:00"
+}

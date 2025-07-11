@@ -1,0 +1,67 @@
+{
+  "id": "zetachain",
+  "symbol": "zeta",
+  "name": "ZetaChain",
+  "categories": [
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "ZetaChain Ecosystem",
+    "Cross-chain Communication",
+    "Made in USA",
+    "Chain Abstraction"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xf091867ec603a6628ed83d274e835539d82e9cc8",
+    "binance-smart-chain": "0x0000028a2eb8346cd5c0267856ab7594b7a55308"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "1. What Is ZetaChain (ZETA)?\r\nZetaChain is the first Universal Blockchain with native access to Bitcoin, Ethereum, Solana, and more, offering seamless UX and unified liquidity to the next billions of users. With its Universal EVM, ZetaChain empowers developers to build Universal Apps that operate natively across any blockchain, creating a fluid crypto ecosystem from a single platform.\r\n\r\n2. Who Are the Founders of ZetaChain?\r\nZetaChain’s founder was an early Coinbase employee and one of the creators of Basic Attention Token (BAT). Investors include all major market makers, top exchanges, early Coinbase and Binance employees including Dan Romero, Sam Rosenblum, and John Yi, as well as major contributors to some of the industry’s most widely adopted protocols and well known funds, including Polygon’s JD Kanani.\r\n\r\nAdvisors to the project include Coinbase’s first Head of People Nathalie McGrath who scaled the industry leading exchange from 10 employees to over 800, and Juan Suarez, who served as in-house counsel at Coinbase from 2013 to 2022.\r\n\r\n3. What Makes ZetaChain Unique?\r\nZetaChain is the first ever L1 blockchain to enable universal native connection across all blockchain ecosystems. ZetaChain's revolutionary architecture brings programmability to any chains including Bitcoin and Dogecoin, opening up unprecedented possibilities for developers to create truly interoperable applications without sacrificing security or user experience. Applications deployed on ZetaChain can be accessed from any chain and orchestrate data and assets across all connected chains through a single, future-proof Universal Smart Contract."
+  },
+  "links": {
+    "homepage": [
+      "https://www.zetachain.com/"
+    ],
+    "whitepaper": "https://www.zetachain.com/whitepaper.pdf",
+    "blockchain_site": [
+      "https://explorer.zetachain.com/",
+      "https://platform.arkhamintelligence.com/explorer/token/zetachain",
+      "https://etherscan.io/token/0xf091867ec603a6628ed83d274e835539d82e9cc8",
+      "https://ethplorer.io/address/0xf091867ec603a6628ed83d274e835539d82e9cc8",
+      "https://bscscan.com/token/0x0000028a2eb8346cd5c0267856ab7594b7a55308",
+      "https://binplorer.com/address/0x0000028a2eb8346cd5c0267856ab7594b7a55308"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/zetablockchain/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/zetachain",
+      "https://blog.zetachain.com/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "zetablockchain",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "zetachainofficial",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/zeta-chain"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/26718/thumb/Twitter_icon.png?1696525788",
+    "small": "https://coin-images.coingecko.com/coins/images/26718/small/Twitter_icon.png?1696525788",
+    "large": "https://coin-images.coingecko.com/coins/images/26718/large/Twitter_icon.png?1696525788"
+  },
+  "last_updated": "2025-07-11T05:02:07.893337+00:00"
+}

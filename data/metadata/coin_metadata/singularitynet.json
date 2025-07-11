@@ -1,0 +1,67 @@
+{
+  "id": "singularitynet",
+  "symbol": "agix",
+  "name": "SingularityNET",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Cardano Ecosystem",
+    "Ethereum Ecosystem",
+    "AI Agents",
+    "Sora Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x5b7533812759b45c2b44c19e320ba2cd2681b542",
+    "sora": "0x005e152271f8816d76221c7a0b5c6cafcb54fdfb6954dd8812f0158bfeac900d",
+    "cardano": "f43a62fdc3965df486de8a0d32fe800963589c41b38946602a0dc535"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2017-12-21",
+  "country_origin": "CH",
+  "description": {
+    "en": "SingularityNET is a decentralized marketplace for Artificial Intelligence (AI). The business value of AI is becoming clearer each day; however, there’s a significant gap between the people developing AI tools (researchers and academics) and the businesses that want to use them. Most organizations need a more customized solution than what a single AI project can offer, and research projects oftentimes have trouble accessing a large enough data set to build effective machine learning. SingularityNET closes these gaps.\r\n\r\nThe long-term vision of the SingulairtyNET team is to build a network of complex AI Agent interactions primarily using resources from the OpenCog Foundation. To look at this further, let’s check out their in-house built humanoid robot, Sophia. Sophia uses a combination of AI Agents that range from natural language processing to physical motor controls to operate. You tell Sophia to summarize a video that’s embedded in a webpage. To do this, Sophia sends a request to Agent A. Through its AI, Agent A knows that Agent B specializes in analyzing and transcribing video while Agent C specializes in summarizing text. Agent A pays Agent B and Agent C to perform these tasks while Sophia pays Agent A to coordinate. All the while, each Agent has updated their own AI with the network information gained from these tasks and combines it with their previous experiences and knowledge. Therefore, the collective AI of the system grows at a faster rate than any individual Agent.\r\n\r\nSingularityNET wants to build a decentralized protocol for creators and users of AI to interact with each other, to not only help individual projects benefit by leveraging the strengths of other AI systems that might handle certain tasks better, but ultimately to develop SingularityNET into a functioning AI system itself, with nodes on the network making their own decisions about how to connect services and proactively provide solutions to academic and business problems. Tokenizing the network creates an AI marketplace where AI developers and sellers can not only link with others who might assist in building more robust AI solutions, but also allow AI services and products to be bought and sold, creating revenue and establishing price points where none have existed before.\r\n\r\nThe SingularityNET team boasts 50+ AI developers and 10+ PhDs. Dr. Ben Goertzel leads the group as CEO and Chief Scientist. He’s also the Chairman of the OpenCog Foundation and the Artificial General Intelligence Society, as well as the Chief Scientist at Hanson Robotics, the partner company helping bring SingularityNET to life. Dr. David Hanson, founder of Hanson Robotics, serves as the Robotics Lead. Most famously, Hanson Robotics built Sophia, the most expressive humanoid robot to date. Sophia is also a proud member of the SingularityNET team. The team recently released the alpha version of the platform and is planning on launching a public beta sometime in the middle of 2018."
+  },
+  "links": {
+    "homepage": [
+      "https://singularitynet.io/"
+    ],
+    "whitepaper": "https://public.singularitynet.io/whitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x5b7533812759b45c2b44c19e320ba2cd2681b542",
+      "https://platform.arkhamintelligence.com/explorer/token/singularitynet",
+      "https://ethplorer.io/address/0x5b7533812759b45c2b44c19e320ba2cd2681b542",
+      "https://cardanoscan.io/token/f43a62fdc3965df486de8a0d32fe800963589c41b38946602a0dc53541474958",
+      "https://cardanoscan.io/tokenpolicy/f43a62fdc3965df486de8a0d32fe800963589c41b38946602a0dc535"
+    ],
+    "official_forum_url": [
+      "https://tiktok.com/@singularitynet_official",
+      "https://www.linkedin.com/company/singularitynet",
+      "https://instagram.com/singularitynet.io"
+    ],
+    "chat_url": [
+      "https://discord.gg/snet",
+      "https://blog.singularitynet.io/",
+      "https://www.youtube.com/@SingularityNET"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SingularityNET",
+    "facebook_username": "singularityNET.io",
+    "bitcointalk_thread_identifier": 2491147,
+    "telegram_channel_identifier": "singularitynet",
+    "subreddit_url": "https://www.reddit.com/r/SingularityNetsub/",
+    "repos_url": {
+      "github": [
+        "https://github.com/singnet/singnet"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/2138/thumb/singularitynet.png?1696503103",
+    "small": "https://coin-images.coingecko.com/coins/images/2138/small/singularitynet.png?1696503103",
+    "large": "https://coin-images.coingecko.com/coins/images/2138/large/singularitynet.png?1696503103"
+  },
+  "last_updated": "2025-07-11T05:00:39.268826+00:00"
+}

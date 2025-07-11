@@ -1,0 +1,69 @@
+{
+  "id": "uma",
+  "symbol": "uma",
+  "name": "UMA",
+  "categories": [
+    "Business Services",
+    "Decentralized Finance (DeFi)",
+    "Oracle",
+    "Derivatives",
+    "Synthetic Issuer",
+    "Avalanche Ecosystem",
+    "Ethereum Ecosystem",
+    "Blockchain Capital Portfolio",
+    "Synthetic",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x04fa0d235c4abf4bcf4787af4cf447de572ef828",
+    "avalanche": "0x3bd2b1c7ed8d396dbb98ded3aebb41350a5b2339"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "UMA is a decentralized financial contracts platform built to enable Universal Market Access.\r\n\r\nUMA builds infrastructure for “priceless” financial contracts: DeFi contracts that minimize oracle usage, avoiding many of the security and scalability issues that have plagued decentralized finance. The first contracts built with UMA are priceless synthetic tokens: ERC20 tokens that can track anything while minimizing the need for on-chain price data.\r\n\r\nThe UMA project token powers the system in two ways:\r\n\r\nGovernance: UMA token holders govern what types of contracts can access the system, which asset types are supported, and key system parameters and upgrades.\r\n\r\nPrice requests: the priceless methodology minimizes on-chain price requests but doesn’t eliminate them — when contract interactions are disputed, UMA token holders fulfill price requests via the Data Verification Mechanism, or DVM.\r\n\r\nUMA tokens enable the holder to participate in community governance and resolve contract disputes through the DVM. The tokens are not an investment opportunity."
+  },
+  "links": {
+    "homepage": [
+      "https://uma.xyz/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x04fa0d235c4abf4bcf4787af4cf447de572ef828",
+      "https://platform.arkhamintelligence.com/explorer/token/uma",
+      "https://ethplorer.io/address/0x04fa0d235c4abf4bcf4787af4cf447de572ef828",
+      "https://snowtrace.io/token/0x3bd2b1c7ed8d396dbb98ded3aebb41350a5b2339",
+      "https://avascan.info/blockchain/c/address/0x3bd2b1c7ed8d396dbb98ded3aebb41350a5b2339/token",
+      "https://explorer.energi.network/token/0x52af68f0ff7452dadf8694be0af11e52df936fb4"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.linkedin.com/company/umaproject",
+      "https://discord.com/invite/jsb9XQJ"
+    ],
+    "announcement_url": [
+      "https://medium.com/uma-project"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "UMAprotocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/UMAprotocol/protocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/10951/thumb/UMA.png?1696510900",
+    "small": "https://coin-images.coingecko.com/coins/images/10951/small/UMA.png?1696510900",
+    "large": "https://coin-images.coingecko.com/coins/images/10951/large/UMA.png?1696510900"
+  },
+  "last_updated": "2025-07-11T05:01:28.728600+00:00"
+}

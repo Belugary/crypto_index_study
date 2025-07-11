@@ -1,0 +1,59 @@
+{
+  "id": "neo",
+  "symbol": "neo",
+  "name": "NEO",
+  "categories": [
+    "Smart Contract Platform",
+    "Proof of Stake (PoS)",
+    "Made in China"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2016-10-17",
+  "country_origin": "",
+  "description": {
+    "en": "NEO is a next generation smart economy platform (formerly Antshares) and China's first open source blockchain that was founded in 2014, is often known as the “Ethereum of China”. \r\n\r\nWhat is NEO?\r\nNEO uses a smart economy approach to implement its distributed network concept. Its main objective is to digitize assets using the decentralized network of blockchain technology and digital identity.\r\n\r\nNeo’s main aim is to be the distributed network for “smart economy”.  As their website states: \"Digital Assets + Digital Identity + Smart Contract = Smart Economy.\" Neo was developed by Shanghai-based blockchain R&amp;D company “OnChain” and funded by two crowdsales: first crowdsale on October 2015 sold 17.5 million NEO tokens for $550,000 and the second crowdsale sold the remaining 22.5 million NEO tokens for $4.5 million.\r\n\r\nSo why NEO?\r\nAsset digitization and identity on the NEO platform essentially creates a novel way for asset registration, issuance, and circulation. This means that tangible assets like real estate, company shares or even fiat money can be digitized and traded on the NEO network, thus giving rise to a whole new economy.\r\n\r\nIts digital identity system allows for integration between the platform and the real world economy. It has custom digital identity standards that enable the creation of electronic identity data for individuals, organizations and even entities. These electronic systems use multi-layered authentication models that include facial and voice recognition as well as fingerprints.\r\n\r\nAll digital assets on the platform enjoy legal protection thanks to the use of digital certificates on its public blockchain. This, in turn, guarantees trust as the system offers an indelible and unalterable record of all entities’ holdings."
+  },
+  "links": {
+    "homepage": [
+      "https://neo.org/"
+    ],
+    "whitepaper": "https://github.com/AntShares/AntShares/wiki",
+    "blockchain_site": [
+      "https://neo.tokenview.io",
+      "https://scan.nel.group/",
+      "https://neoscan.io/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.io/neo"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "NEO_Blockchain",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": 2057932,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/NEO",
+    "repos_url": {
+      "github": [
+        "https://github.com/neo-project/neo",
+        "https://github.com/neo-project/neo-cli",
+        "https://github.com/neo-project/neo-gui",
+        "https://github.com/CityOfZion/neon-js",
+        "https://github.com/CityOfZion/neo-python"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/480/thumb/NEO_512_512.png?1696501735",
+    "small": "https://coin-images.coingecko.com/coins/images/480/small/NEO_512_512.png?1696501735",
+    "large": "https://coin-images.coingecko.com/coins/images/480/large/NEO_512_512.png?1696501735"
+  },
+  "last_updated": "2025-07-11T04:59:39.300767+00:00"
+}

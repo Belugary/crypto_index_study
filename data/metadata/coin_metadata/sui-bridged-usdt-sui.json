@@ -1,0 +1,49 @@
+{
+  "id": "sui-bridged-usdt-sui",
+  "symbol": "sbusdt",
+  "name": "Sui Bridged USDT (Sui)",
+  "categories": [
+    "Sui Ecosystem",
+    "Bridged USDT",
+    "Bridged-Tokens",
+    "Bridged Stablecoin"
+  ],
+  "asset_platform_id": "sui",
+  "platforms": {
+    "sui": "0x375f70cf2ae4c00bf37117d0c85a2c71545e6ee05c4a5c7d282cd66a4504b068::usdt::USDT"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://suiscan.xyz/mainnet/coin/0x375f70cf2ae4c00bf37117d0c85a2c71545e6ee05c4a5c7d282cd66a4504b068::usdt::USDT/txs",
+      "https://suivision.xyz/coin/0x375f70cf2ae4c00bf37117d0c85a2c71545e6ee05c4a5c7d282cd66a4504b068::usdt::USDT"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/56062/thumb/usdt.jpg?1748225088",
+    "small": "https://coin-images.coingecko.com/coins/images/56062/small/usdt.jpg?1748225088",
+    "large": "https://coin-images.coingecko.com/coins/images/56062/large/usdt.jpg?1748225088"
+  },
+  "last_updated": "2025-07-11T05:01:02.869810+00:00"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "resolv-wstusr",
+  "symbol": "wstusr",
+  "name": "Resolv wstUSR",
+  "categories": [
+    "Crypto-Backed Tokens",
+    "Decentralized Finance (DeFi)",
+    "Wrapped-Tokens",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x1202f5c7b4b9e47a1a484e8b270be34dbbc75055"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What is Resolv?\r\nResolv is a protocol maintaining USR, a stablecoin natively backed by Ether (ETH) and pegged to US Dollar.\r\n\r\nThe protocol's main features include:\r\n\r\nIssuance and redemption of USR against other tokens;\r\n\r\nMaintaining sufficent backing by ETH at all times. This is achieved by hedging ETH price with short perpetual futures positions;\r\n\r\nMaintaining RLP (Resolv Liquidity Pool), a liquid insurance pool designed to keep USR overcollateralized.\r\n\r\nBoth USR and RLP can be minted and redeemed by users in exchange for collateral deposited on 1:1 basis."
+  },
+  "links": {
+    "homepage": [
+      "https://resolv.xyz/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x1202F5C7b4B9E47a1A484E8B270be34dbbC75055",
+      "https://ethplorer.io/address/0x1202F5C7b4B9E47a1A484E8B270be34dbbC75055"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://medium.com/@ResolvLabs/maximizing-returns-a-guide-to-risk-and-yield-calculations-in-resolv-spectra-pool-eef2ec0abdd0"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ResolvLabs",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Resolv_Community",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/51880/thumb/USR_LOGO.png?1732098841",
+    "small": "https://coin-images.coingecko.com/coins/images/51880/small/USR_LOGO.png?1732098841",
+    "large": "https://coin-images.coingecko.com/coins/images/51880/large/USR_LOGO.png?1732098841"
+  },
+  "last_updated": "2025-07-11T05:00:28.193045+00:00"
+}

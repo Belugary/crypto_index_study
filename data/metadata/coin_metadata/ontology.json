@@ -1,0 +1,61 @@
+{
+  "id": "ontology",
+  "symbol": "ont",
+  "name": "Ontology",
+  "categories": [
+    "Smart Contract Platform",
+    "Masternodes",
+    "Proof of Stake (PoS)",
+    "Made in China"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2018-02-26",
+  "country_origin": "",
+  "description": {
+    "en": "Ontology is a new high-performance public blockchain project &amp; a distributed trust collaboration platform.It provides new high-performance public blockchains that include a series of complete distributed ledgers and smart contract systems. Ontology is a blockchain framework supports public blockchain systems and is able to customize different public blockchains for different applications. It also supports collaboration amongst chain networks with its various protocol groups.They will constantly provide common modules on the underlying infrastructure for different kinds of distributed scenarios, such as those for the distributed digital identity framework, distributed data exchange protocol, and so on. \r\n\r\nOntology was created in 2017 by a Chinese company called OnChain, which is led by founders Erik Zhang and Da HongFei. OnChain has had huge success in the cryptocurrency industry, as they were also the founders behind the NEO blockchain, which is now a multi-billion dollar project. Essentially, Ontology was created as a way for businesses of all sizes to install blockchain technology within their company, without having to completely change all of their current systems.\r\n\r\nThe purpose of the Ontology framework is that it is not intended to operate as a single blockchain. Instead, the technology will allow businesses to make full use of both a private and public blockchain. Each and every data transaction is confirmed in a decentralized environment, meaning that no single person or authority can take control of the network."
+  },
+  "links": {
+    "homepage": [
+      "https://ont.io/"
+    ],
+    "whitepaper": "https://ont.io/documents",
+    "blockchain_site": [
+      "https://explorer.ont.io/",
+      "https://ont.tokenview.io/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/4TQujHj",
+      "https://www.facebook.com/ONTnetwork/"
+    ],
+    "announcement_url": [
+      "https://medium.com/ontologynetwork"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "OntologyNetwork",
+    "facebook_username": "ONTnetwork",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "OntologyNetwork",
+    "subreddit_url": "https://www.reddit.com/r/OntologyNetwork/",
+    "repos_url": {
+      "github": [
+        "https://github.com/ontio/ontology",
+        "https://github.com/ontio/ontology-python-sdk",
+        "https://github.com/ontio/ontology-ts-sdk",
+        "https://github.com/ontio/ontology-go-sdk"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/3447/thumb/ONT.png?1696504138",
+    "small": "https://coin-images.coingecko.com/coins/images/3447/small/ONT.png?1696504138",
+    "large": "https://coin-images.coingecko.com/coins/images/3447/large/ONT.png?1696504138"
+  },
+  "last_updated": "2025-07-11T04:59:50.388427+00:00"
+}

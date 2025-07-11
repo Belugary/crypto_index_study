@@ -1,0 +1,61 @@
+{
+  "id": "zebec-network",
+  "symbol": "zbcn",
+  "name": "Zebec Network",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Solana Ecosystem",
+    "Real World Assets (RWA)",
+    "Payment Solutions",
+    "DePIN",
+    "Coinbase Ventures Portfolio",
+    "Alameda Research Portfolio",
+    "Circle Ventures Portfolio",
+    "OKX Ventures Portfolio",
+    "RWA Protocol",
+    "Made in USA"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Zebec's integrated products - real time payroll apps, on-chain payments infrastructure and networked DePIN - serve companies of all sizes, merchants and individuals and help transcend the boundaries of traditional banking and diminish the role of financial intermediaries. "
+  },
+  "links": {
+    "homepage": [
+      "https://zebec.io/"
+    ],
+    "whitepaper": "https://docs.zebec.io/",
+    "blockchain_site": [
+      "https://solscan.io/token/ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU",
+      "https://platform.arkhamintelligence.com/explorer/token/zebec-network"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/fJM9cHuvvB",
+      "https://medium.com/zebec-protocol"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Zebec_HQ",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "zebecprotocol",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/37052/thumb/zbcn.jpeg?1713168241",
+    "small": "https://coin-images.coingecko.com/coins/images/37052/small/zbcn.jpeg?1713168241",
+    "large": "https://coin-images.coingecko.com/coins/images/37052/large/zbcn.jpeg?1713168241"
+  },
+  "last_updated": "2025-07-11T05:02:06.779721+00:00"
+}

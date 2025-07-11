@@ -1,0 +1,70 @@
+{
+  "id": "binancecoin",
+  "symbol": "bnb",
+  "name": "BNB",
+  "categories": [
+    "Smart Contract Platform",
+    "Exchange-based Tokens",
+    "BNB Chain Ecosystem",
+    "Centralized Exchange (CEX) Token",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "Alleged SEC Securities",
+    "FTX Holdings",
+    "Proof of Stake (PoS)",
+    "GMCI Layer 1 Index",
+    "GMCI 30 Index",
+    "GMCI Index"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": "",
+    "ethereum": "0xb8c77482e45f1f44de1745f52c74426c631bdd52"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2017-07-08",
+  "country_origin": "",
+  "description": {
+    "en": "Binance Coin is the cryptocurrency of the Binance platform. It is a trading platform exclusively for cryptocurrencies. The name \"Binance\" is a combination of binary and finance.\r\n\r\nThus, the startup name shows that only cryptocurrencies can be traded against each other. It is not possible to trade crypto currencies against Fiat. The platform achieved an enormous success within a very short time and is focused on worldwide market with Malta headquarters. The cryptocurrency currently has a daily trading volume of 1.5 billion - 2 billion US dollars and is still increasing.\r\n\r\nIn total, there will only be 200 million BNBs. Binance uses the ERC20 token standard from Ethereum and has distributed it as follow: 50% sold on ICO, 40% to the team and 10% to Angel investors. The coin can be used to pay fees on Binance. These include trading fees, transaction fees, listing fees and others. Binance gives you a huge discount when fees are paid in BNB. \r\n\r\nThe schedule of BNB fees discount is as follow: In the first year, 50% discount on all fees, second year 25% discount, third year 12.5% discount, fourth year 6.75 % discount, and from the fifth year onwards there is no discount. This structure is used to incentivize users to buy BNB and do trades within Binance.\r\n\r\nBinance announced in a buyback plan that it would buy back up to 100 million BNB in Q1 2018. The coins are then burned. This means that they are devaluated to increase the value of the remaining coins. This benefits investors. In the future, the cryptocurrency will remain an asset on the trading platform and will be used as gas.\r\n\r\nOther tokens that are issued by exchanges include Bibox Token, OKB, Huobi Token, and more."
+  },
+  "links": {
+    "homepage": [
+      "https://www.binance.com"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com",
+      "https://platform.arkhamintelligence.com/explorer/token/binancecoin",
+      "https://explorer.binance.org/",
+      "https://binance.mintscan.io/",
+      "https://etherscan.io/token/0xb8c77482e45f1f44de1745f52c74426c631bdd52",
+      "https://ethplorer.io/address/0xb8c77482e45f1f44de1745f52c74426c631bdd52",
+      "https://www.oklink.com/bsc",
+      "https://3xpl.com/bnb"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "binance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/binance",
+    "repos_url": {
+      "github": [
+        "https://github.com/binance-exchange/binance-official-api-docs",
+        "https://github.com/binance-exchange/node-binance-api",
+        "https://github.com/binance-exchange/php-binance-api"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/825/thumb/bnb-icon2_2x.png?1696501970",
+    "small": "https://coin-images.coingecko.com/coins/images/825/small/bnb-icon2_2x.png?1696501970",
+    "large": "https://coin-images.coingecko.com/coins/images/825/large/bnb-icon2_2x.png?1696501970"
+  },
+  "last_updated": "2025-07-11T04:57:19.324955+00:00"
+}

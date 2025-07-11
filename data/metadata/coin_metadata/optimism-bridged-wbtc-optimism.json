@@ -1,0 +1,51 @@
+{
+  "id": "optimism-bridged-wbtc-optimism",
+  "symbol": "wbtc",
+  "name": "Optimism Bridged WBTC (Optimism)",
+  "categories": [
+    "Optimism Ecosystem",
+    "Bridged WBTC",
+    "Bridged-Tokens"
+  ],
+  "asset_platform_id": "optimistic-ethereum",
+  "platforms": {
+    "optimistic-ethereum": "0x68f180fcce6836688e9084f035309e29bf0a2095"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.optimism.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://optimistic.etherscan.io/token/0x68f180fcce6836688e9084f035309e29bf0a2095",
+      "https://platform.arkhamintelligence.com/explorer/token/optimism-bridged-wbtc-optimism",
+      "https://optimism.dex.guru/token/0x68f180fcce6836688e9084f035309e29bf0a2095"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39553/thumb/wbtc.png?1722897341",
+    "small": "https://coin-images.coingecko.com/coins/images/39553/small/wbtc.png?1722897341",
+    "large": "https://coin-images.coingecko.com/coins/images/39553/large/wbtc.png?1722897341"
+  },
+  "last_updated": "2025-07-11T04:59:52.856869+00:00"
+}

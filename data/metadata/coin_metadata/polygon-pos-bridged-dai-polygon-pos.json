@@ -1,0 +1,52 @@
+{
+  "id": "polygon-pos-bridged-dai-polygon-pos",
+  "symbol": "dai",
+  "name": "Polygon PoS Bridged DAI (Polygon POS)",
+  "categories": [
+    "Polygon Ecosystem",
+    "Bridged DAI",
+    "Bridged-Tokens",
+    "Bridged Stablecoin"
+  ],
+  "asset_platform_id": "polygon-pos",
+  "platforms": {
+    "polygon-pos": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://polygon.technology/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://polygonscan.com/token/0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+      "https://platform.arkhamintelligence.com/explorer/token/polygon-pos-bridged-dai-polygon-pos",
+      "https://polygon.dex.guru/token/0x8f3cf7ad23cd3cadbd9735aff958023239c6a063"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39787/thumb/dai.png?1724110678",
+    "small": "https://coin-images.coingecko.com/coins/images/39787/small/dai.png?1724110678",
+    "large": "https://coin-images.coingecko.com/coins/images/39787/large/dai.png?1724110678"
+  },
+  "last_updated": "2025-07-11T05:00:10.645071+00:00"
+}

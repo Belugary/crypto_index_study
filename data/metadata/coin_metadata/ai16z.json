@@ -1,0 +1,56 @@
+{
+  "id": "ai16z",
+  "symbol": "ai16z",
+  "name": "ai16z",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Solana Ecosystem",
+    "Meme",
+    "Solana Token-2022",
+    "AI Agents",
+    "Binance Alpha Spotlight",
+    "AI Framework",
+    "Made in USA"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "HeLp6NuQkmYB4pYWo2zYs22mESHXPQYzXbB8n4V98jwC"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "ai16z is the first venture capital DAO led by AI agents. The project is led by an AI agent @pmairca and aims to leverage AI and collective intelligence to make investment decisions. Their goal is to redefine venture capitalism in the age of artificial intelligence."
+  },
+  "links": {
+    "homepage": [
+      "https://elizaos.ai/",
+      "https://www.daos.fun/HeLp6NuQkmYB4pYWo2zYs22mESHXPQYzXbB8n4V98jwC"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/HeLp6NuQkmYB4pYWo2zYs22mESHXPQYzXbB8n4V98jwC",
+      "https://platform.arkhamintelligence.com/explorer/token/ai16z"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "pmairca",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/51090/thumb/AI16Z.jpg?1730027175",
+    "small": "https://coin-images.coingecko.com/coins/images/51090/small/AI16Z.jpg?1730027175",
+    "large": "https://coin-images.coingecko.com/coins/images/51090/large/AI16Z.jpg?1730027175"
+  },
+  "last_updated": "2025-07-11T04:56:44.760793+00:00"
+}

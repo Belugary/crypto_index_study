@@ -1,0 +1,78 @@
+{
+  "id": "vicicoin",
+  "symbol": "vcnt",
+  "name": "ViciCoin",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Avalanche Ecosystem",
+    "Polygon Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Base Ecosystem"
+  ],
+  "asset_platform_id": "polygon-pos",
+  "platforms": {
+    "polygon-pos": "0x8a16d4bf8a0a716017e8d2262c4ac32927797a2f",
+    "optimistic-ethereum": "0xc6bdfc4f2e90196738873e824a9efa03f7c64176",
+    "base": "0xdcf5130274753c8050ab061b1a1dcbf583f5bfd0",
+    "ethereum": "0x3be775b699fee916e7de117994358ff8f48e4569",
+    "binance-smart-chain": "0xc6bdfc4f2e90196738873e824a9efa03f7c64176",
+    "avalanche": "0xc6bdfc4f2e90196738873e824a9efa03f7c64176",
+    "arbitrum-one": "0x60bf4e7cf16ff34513514b968483b54beff42a81"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "ViciCoin (VCNT) is an ERC-20 utility token on Avalanche, Arbitrum, Base, Binance, Ethereum, Optimism, and Polygon networks. The ViciCoin token was created by Vici Network to strictly manage access to digital content and enable a wide range of enterprise applications through authorization, authentication, and intermediary services. For example, VCNT now facilitates ViciSwap, a many-to-many token swapping tool built on leading protocols, including Coinbase and Uniswap. ViciSwap offers a dynamic and engaging solution for everyone to create and manage their own token portfolio (https://viciswap.io). Another application of ViciCoin in the enterprise is VCNT For Zoom, which provides a turnkey solution for small communities across the globe to monetize their own video conferences by selling tokenized tickets and accepting cryptocurrencies as payment. VCNT is also being used to gate access to Discord channels, which helps creators and brand owners authenticate their community to reduce bots and spam, and increase monetization of their offerings. As Web3 products and services become mainstream, so will the utility and serviceability of VCNT."
+  },
+  "links": {
+    "homepage": [
+      "https://vicicoin.io/",
+      "https://vici.network/vici-network/",
+      "https://viciswap.io/"
+    ],
+    "whitepaper": "https://vicimarket.io/static/VicCoin_whitepaper.pdf",
+    "blockchain_site": [
+      "https://polygonscan.com/token/0x8a16d4bf8a0a716017e8d2262c4ac32927797a2f",
+      "https://platform.arkhamintelligence.com/explorer/token/vicicoin",
+      "https://basescan.org/token/0xdcf5130274753c8050ab061b1a1dcbf583f5bfd0",
+      "https://snowscan.xyz/token/0xc6bdfc4f2e90196738873e824a9efa03f7c64176",
+      "https://arbiscan.io/token/0x60bf4e7cf16ff34513514b968483b54beff42a81",
+      "https://optimistic.etherscan.io/token/0xc6bdfc4f2e90196738873e824a9efa03f7c64176",
+      "https://bscscan.com/token/0xc6bdfc4f2e90196738873e824a9efa03f7c64176",
+      "https://avascan.info/blockchain/c/address/0xc6bdfc4f2e90196738873e824a9efa03f7c64176/token",
+      "https://binplorer.com/address/0xc6bdfc4f2e90196738873e824a9efa03f7c64176",
+      "https://etherscan.io/token/0x3be775b699fee916e7de117994358ff8f48e4569"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/vici.network",
+      "https://www.linkedin.com/company/72676995/admin/feed/posts/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/bEQDDxfb2D",
+      "https://www.youtube.com/@vici.network"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ViciNetwork_",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "vicicoinchat",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/ViciNFT/ViciNFT-Token"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/31305/thumb/ViciCoin_-_small.png?1696530124",
+    "small": "https://coin-images.coingecko.com/coins/images/31305/small/ViciCoin_-_small.png?1696530124",
+    "large": "https://coin-images.coingecko.com/coins/images/31305/large/ViciCoin_-_small.png?1696530124"
+  },
+  "last_updated": "2025-07-11T05:01:47.918422+00:00"
+}

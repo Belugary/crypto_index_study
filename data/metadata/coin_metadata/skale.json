@@ -1,0 +1,71 @@
+{
+  "id": "skale",
+  "symbol": "skl",
+  "name": "SKALE",
+  "categories": [
+    "Smart Contract Platform",
+    "Gaming (GameFi)",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "Modular Blockchain",
+    "Account Abstraction",
+    "Multicoin Capital Portfolio",
+    "Gaming Blockchains",
+    "Gaming Utility Token",
+    "Skale Ecosystem",
+    "Consensys Portfolio",
+    "Galaxy Digital Portfolio",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x00c83aecc790e8a4453e5dd3b0b4b3680501a7a7",
+    "skale": "0xe0595a049d02b7674572b0d59cd4880db60edc50"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "LI",
+  "description": {
+    "en": "SKALE is the world's fastest blockchain, designed for secure Ethereum scaling. SKALE Appchains provide ZERO gas fees to end-users and have advanced features such as AI/ML smart contracts, on-chain file storage, interchain messaging, and zero-cost minting. SKALE enables developers to deploy their own configurable EVM blockchain in minutes without sacrificing speed, security, or decentralization."
+  },
+  "links": {
+    "homepage": [
+      "https://skale.space/",
+      "https://skale.space/blog"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x00c83aecc790e8a4453e5dd3b0b4b3680501a7a7",
+      "https://platform.arkhamintelligence.com/explorer/token/skale",
+      "https://ethplorer.io/address/0x00c83aecc790e8a4453e5dd3b0b4b3680501a7a7",
+      "https://elated-tan-skat.explorer.mainnet.skalenodes.com/token/0xe0595a049d02b7674572b0d59cd4880db60edc50"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/gM5XBy6",
+      "https://www.youtube.com/@SKALE"
+    ],
+    "announcement_url": [
+      "https://medium.com/skale"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "SkaleNetwork",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "skaleofficial",
+    "subreddit_url": "https://www.reddit.com/r/SKALEnetwork/",
+    "repos_url": {
+      "github": [
+        "https://github.com/skalenetwork"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/13245/thumb/SKALE_token_300x300.png?1696513021",
+    "small": "https://coin-images.coingecko.com/coins/images/13245/small/SKALE_token_300x300.png?1696513021",
+    "large": "https://coin-images.coingecko.com/coins/images/13245/large/SKALE_token_300x300.png?1696513021"
+  },
+  "last_updated": "2025-07-11T05:00:40.751183+00:00"
+}

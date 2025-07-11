@@ -1,0 +1,51 @@
+{
+  "id": "constitutiondao",
+  "symbol": "people",
+  "name": "ConstitutionDAO",
+  "categories": [
+    "Meme",
+    "Ethereum Ecosystem",
+    "PolitiFi"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x7a58c0be72be218b41c608b7fe7c5bb630736c71"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.constitutiondao.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x7a58c0be72be218b41c608b7fe7c5bb630736c71",
+      "https://platform.arkhamintelligence.com/explorer/token/constitutiondao",
+      "https://ethplorer.io/address/0x7a58c0be72be218b41c608b7fe7c5bb630736c71"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": "https://snapshot.org/#/people-dao.eth",
+    "twitter_screen_name": "constitutiondao",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/20612/thumb/GN_UVm3d_400x400.jpg?1696520017",
+    "small": "https://coin-images.coingecko.com/coins/images/20612/small/GN_UVm3d_400x400.jpg?1696520017",
+    "large": "https://coin-images.coingecko.com/coins/images/20612/large/GN_UVm3d_400x400.jpg?1696520017"
+  },
+  "last_updated": "2025-07-11T04:57:50.952204+00:00"
+}

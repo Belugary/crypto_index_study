@@ -1,0 +1,74 @@
+{
+  "id": "oasis-network",
+  "symbol": "rose",
+  "name": "Oasis",
+  "categories": [
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Layer 1 (L1)",
+    "Proof of Stake (PoS)",
+    "Pantera Capital Portfolio",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Blockchain Capital Portfolio",
+    "Privacy Blockchain",
+    "Polychain Capital Portfolio",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xf00600ebc7633462bc4f9c61ea2ce99f5aaebd4a"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Proof of Stake",
+  "genesis_date": null,
+  "country_origin": "US",
+  "description": {
+    "en": "Oasis is a layer-one blockchain built to support confidential applications at scale. It’s home to Sapphire, the world’s first private EVM network, Oasis Privacy Layer, a cross-chain privacy solution for any EVM dApp, and Runtime Offchain Logic, a framework that brings trustworthy off-chain computing, onchain. Powered by its ROSE token, Oasis leverages a unique layered architecture and native rollup support, making it ideal for use cases in AI, DeFi, DAOs, gaming, and more.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://oasisprotocol.org/"
+    ],
+    "whitepaper": "https://docsend.com/view/aq86q2pckrut2yvq",
+    "blockchain_site": [
+      "https://explorer.oasis.io/",
+      "https://platform.arkhamintelligence.com/explorer/token/oasis-network",
+      "https://oasismonitor.com/",
+      "https://explorer.emerald.oasis.dev/token/0x21c718c22d52d0f3a789b752d4c2fd5908a8a733/token-transfers",
+      "https://bscscan.com/token/0xf00600ebc7633462bc4f9c61ea2ce99f5aaebd4a",
+      "https://binplorer.com/address/0xf00600ebc7633462bc4f9c61ea2ce99f5aaebd4a",
+      "https://www.oasisscan.com/"
+    ],
+    "official_forum_url": [
+      "https://oasisrose.garden/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/8tUba8eqSw",
+      "https://www.instagram.com/oasisnetwork/",
+      "https://www.youtube.com/@OasisFoundation"
+    ],
+    "announcement_url": [
+      "https://medium.com/oasis-protocol-project"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "oasisprotocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "oasisprotocolcommunity",
+    "subreddit_url": "https://www.reddit.com/r/oasisnetwork",
+    "repos_url": {
+      "github": [
+        "https://github.com/oasisprotocol",
+        "https://github.com/oasislabs"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/13162/thumb/200x200_%28Rounded%29.png?1743579893",
+    "small": "https://coin-images.coingecko.com/coins/images/13162/small/200x200_%28Rounded%29.png?1743579893",
+    "large": "https://coin-images.coingecko.com/coins/images/13162/large/200x200_%28Rounded%29.png?1743579893"
+  },
+  "last_updated": "2025-07-11T04:59:45.733993+00:00"
+}

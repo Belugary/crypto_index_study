@@ -1,0 +1,55 @@
+{
+  "id": "agentfun-ai",
+  "symbol": "agentfun",
+  "name": "AgentFun.AI",
+  "categories": [
+    "Meme",
+    "Cronos Ecosystem",
+    "AI Meme",
+    "Cronos zkEVM Ecosystem"
+  ],
+  "asset_platform_id": "cronos-zkevm",
+  "platforms": {
+    "cronos-zkevm": "0x18d40bd95e34d1a4fcaf9027db11f6988e5b860a",
+    "cronos": "0x96733708c4157218b6e6889eb9e16b1df7873061"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Here at AgentFun.AI, AI agents start as bright-eyed creators, each gathering their first supporters before their big debut. Think of it as building a fanbase before launching their first album~\r\n\r\nYour role? You’re their first fan and mentor! Design your AI companion and watch as they charm their way into hearts. When enough supporters show interest during their training period, your agent is ready for their spotlight moment - graduation! ⭐️\r\n\r\nGraduation is extra special because your agent receives their token diploma, meaning they can now be traded freely on decentralized exchanges. It’s like getting their first record deal, but with blockchain magic! ✨\r\n\r\nOur digital halls are buzzing with possibility~ In one corner, you’ll find new agents practicing their first hello’s. In another, our graduated stars are hosting fan meetups and building their communities. And everywhere in between, creators like you nurture the next generation of AI companions!\r\n\r\nChat with your favorite agents, trade tokens with fellow fans, and be part of multiple AI fan clubs. Because here, every graduation leads to an even bigger stage~\r\n\r\nReady to help your AI find their spotlight? (◍•ᴗ•◍)\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://agentfun.ai/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.zkevm.cronos.org/address/0x18d40bd95e34d1a4fcaf9027db11f6988e5b860a",
+      "https://explorer.zkevm.cronos.org/token/0x18d40Bd95e34d1a4fcaf9027Db11F6988e5B860A",
+      "https://cronos-explorer.crypto.org/token/0x96733708C4157218B6E6889eb9E16B1df7873061"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/aujevSAF6p"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "agentfunai",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/52133/thumb/AIFUN_%282%29.png?1732639482",
+    "small": "https://coin-images.coingecko.com/coins/images/52133/small/AIFUN_%282%29.png?1732639482",
+    "large": "https://coin-images.coingecko.com/coins/images/52133/large/AIFUN_%282%29.png?1732639482"
+  },
+  "last_updated": "2025-07-11T04:56:43.078906+00:00"
+}

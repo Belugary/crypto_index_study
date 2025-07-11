@@ -1,0 +1,64 @@
+{
+  "id": "proton",
+  "symbol": "xpr",
+  "name": "XPR Network",
+  "categories": [
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem",
+    "DWF Labs Portfolio",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xd7efb00d12c2c13131fd319336fdf952525da2af",
+    "binance-smart-chain": "0x5de3939b2f811a61d830e6f52d13b066881412ab"
+  },
+  "block_time_in_minutes": 3,
+  "hashing_algorithm": "Delegated Proof-of-Stake",
+  "genesis_date": null,
+  "country_origin": "US",
+  "description": {
+    "en": "Launched in San Francisco, Proton (XPR) is a new public blockchain and smart contract platform designed for both consumer applications and peer-peer payments. It is built around a secure identity and financial settlements layer that allows users to directly link real identity and fiat accounts, pull funds and buy crypto, and use that crypto seamlessly in apps."
+  },
+  "links": {
+    "homepage": [
+      "https://xprnetwork.org"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xd7efb00d12c2c13131fd319336fdf952525da2af",
+      "https://platform.arkhamintelligence.com/explorer/token/proton",
+      "https://ethplorer.io/address/0xd7efb00d12c2c13131fd319336fdf952525da2af",
+      "https://bscscan.com/token/0x5de3939b2f811a61d830e6f52d13b066881412ab",
+      "https://binplorer.com/address/0x5de3939b2f811a61d830e6f52d13b066881412ab"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/a4rhgtc9wH",
+      "https://www.facebook.com/xprnetworkofficial",
+      "https://www.reddit.com/r/XPRNetwork/"
+    ],
+    "announcement_url": [
+      "https://blog.metalpay.com/category/proton/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "XPRNetwork",
+    "facebook_username": "protonxpr",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "XPRNetwork",
+    "subreddit_url": "https://www.reddit.com/r/ProtonChain/",
+    "repos_url": {
+      "github": [
+        "https://github.com/XPRNetwork"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/10941/thumb/XPR.jpg?1696510891",
+    "small": "https://coin-images.coingecko.com/coins/images/10941/small/XPR.jpg?1696510891",
+    "large": "https://coin-images.coingecko.com/coins/images/10941/large/XPR.jpg?1696510891"
+  },
+  "last_updated": "2025-07-11T05:00:14.245771+00:00"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "solv-protocol-solvbtc-jupiter",
+  "symbol": "solvbtc.jup",
+  "name": "Solv Protocol SolvBTC Jupiter",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Solana Ecosystem",
+    "Soneium Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x38a001e57430f781404fff7a81de4bd67d1f6117",
+    "soneium": "0xaffeb8576b927050f5a3b6fba43f360d2883a118",
+    "solana": "SoLvzL3ZVjofmNB5LYFrf94QtNhMUSea4DawFhnAau8"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "SolvBTC.JUP is a liquid staking token for Bitcoin, allowing users to participate in a delta-neutral trading strategy by providing liquidity to the Jupiter Liquidity Provider (JLP) Pool. The JLP Pool is used by traders for leveraged trading, while SolvBTC.JUP minimizes exposure to market fluctuations through hedging on centralized exchanges (CEXes). In return, users earn yields generated from trading fees, borrowing fees, and other pool activities, all while benefiting from active risk management to ensure stability and consistent returns."
+  },
+  "links": {
+    "homepage": [
+      "https://app.solv.finance/jupiter"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x38a001e57430f781404fff7a81de4bd67d1f6117",
+      "https://binplorer.com/address/0x38a001e57430f781404fff7a81de4bd67d1f6117",
+      "https://soneium.blockscout.com/token/0xaffeb8576b927050f5a3b6fba43f360d2883a118",
+      "https://solscan.io/token/SoLvzL3ZVjofmNB5LYFrf94QtNhMUSea4DawFhnAau8"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SolvProtocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "SolvProtocol",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/solv-finance"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54834/thumb/solvBTC_Jupiter.png?1741969449",
+    "small": "https://coin-images.coingecko.com/coins/images/54834/small/solvBTC_Jupiter.png?1741969449",
+    "large": "https://coin-images.coingecko.com/coins/images/54834/large/solvBTC_Jupiter.png?1741969449"
+  },
+  "last_updated": "2025-07-11T05:00:47.189834+00:00"
+}

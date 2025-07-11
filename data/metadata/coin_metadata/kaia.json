@@ -1,0 +1,57 @@
+{
+  "id": "kaia",
+  "symbol": "kaia",
+  "name": "Kaia",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Kaia is an Ethereum-equivalent Layer 1 public blockchain that brings Web3 to the fingertips of hundreds of millions across Asia via their preferred messenger superapps. Kaia utilizes Practical Byzantine Fault Tolerance (pBFT), a highly-optimized version of BFT to achieve 4,000 real-world TPS while delivering 1-second block time with immediate absolute finality, which allows for near-instant transactions."
+  },
+  "links": {
+    "homepage": [
+      "https://kaia.io/"
+    ],
+    "whitepaper": "https://docs.kaia.io/kaiatech/kaia-white-paper/",
+    "blockchain_site": [
+      "https://kaiascan.io/"
+    ],
+    "official_forum_url": [
+      "https://linkedin.com/company/kaiachain",
+      "https://www.instagram.com/kaiachain/"
+    ],
+    "chat_url": [
+      "https://discord.gg/kaiachain",
+      "https://medium.com/kaiachain",
+      "https://www.youtube.com/@kaiachain"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "kaiachain",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "KaiaChain_EN",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/kaiachain"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39901/thumb/KAIA.png?1724734368",
+    "small": "https://coin-images.coingecko.com/coins/images/39901/small/KAIA.png?1724734368",
+    "large": "https://coin-images.coingecko.com/coins/images/39901/large/KAIA.png?1724734368"
+  },
+  "last_updated": "2025-07-11T04:59:00.027093+00:00"
+}

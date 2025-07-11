@@ -1,0 +1,60 @@
+{
+  "id": "memecore",
+  "symbol": "m",
+  "name": "MemeCore",
+  "categories": [
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Layer 1 (L1)",
+    "Meme",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x22b1458e780f8fa71e2f84502cee8b5a3cc731fa"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "MemeCore is the first Layer 1 blockchain, built for Meme 2.0 — a new paradigm where meme coins transcend speculation to become engines of culture, value, and community coordination. In this new era, memes are not just content — they are currency, governance, and creative expression.\r\n\r\nMission\r\nTo structure and sustain the meme viral economy, empowering anyone to launch tokens, earn from cultural contributions, and build openly in a decentralized, meme-native environment.\r\n\r\nVision\r\nMemeCore envisions a world where meme coins are vehicles of shared ownership and viral innovation. Every social post, meme remix, and on-chain action becomes a part of an economic feedback loop — fueling a participatory ecosystem where culture is capital."
+  },
+  "links": {
+    "homepage": [
+      "https://memecore.com/"
+    ],
+    "whitepaper": "https://docs.memecore.com/",
+    "blockchain_site": [
+      "https://memecorescan.io/",
+      "https://web3.okx.com/explorer/memecore",
+      "https://blockscout.memecore.com/",
+      "https://bscscan.com/token/0x22b1458e780f8fa71e2f84502cee8b5a3cc731fa",
+      "https://binplorer.com/address/0x22b1458e780f8fa71e2f84502cee8b5a3cc731fa"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/memecore_labs/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/memecore",
+      "https://www.youtube.com/@MemeCoreLabs"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "MemeCore_ORG",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "MemeCoreLabs",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53247/thumb/image_%288%29.png?1737045234",
+    "small": "https://coin-images.coingecko.com/coins/images/53247/small/image_%288%29.png?1737045234",
+    "large": "https://coin-images.coingecko.com/coins/images/53247/large/image_%288%29.png?1737045234"
+  },
+  "last_updated": "2025-07-11T04:59:26.282840+00:00"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "lagrange",
+  "symbol": "la",
+  "name": "Lagrange",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Ethereum Ecosystem",
+    "Zero Knowledge (ZK)",
+    "Binance HODLer Airdrops",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x0fc2a55d5bd13033f1ee0cdd11f60f7efe66f467"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Today, Lagrange has expanded its ZK Prover Network to power proof generation for ZK rollups, adding onto Lagrange’s existing ZK Coprocessor and State Committee offerings. With this new addition, Lagrange now unlocks proofs for anything – for rollups, apps, coprocessors and interoperability – as an infinite proving layer that enables anyone to prove everything at internet scale. Previously, Lagrange launched the first production-ready ZK prover network in the industry, operated by top operators including Coinbase, Kraken, OKX and more. Now, Lagrange’s ZK Prover Network is expanding to address key challenges faced by rollups and advance ZK adoption and utility.\r\n\r\nThe ZK Coprocessor can generate a proof of correct computation over arbitrary storage slots for arbitrary block ranges. For example, consider an application that wishes to compute the average on Ethereum for ETH / USDC pricing. A developer must first specify the memory slots and block range (~50,400) that they are interested in including in the data set. Next the developer writes the computations that is to be executed across the storage slots over the different blocks in parallel. Once the proof is generated, it will prove both the storage inclusion and the aggregated computation as valid with respect to a block header derived from smart contract information."
+  },
+  "links": {
+    "homepage": [
+      "https://www.lagrangefoundation.org"
+    ],
+    "whitepaper": "https://www.lagrange.dev/blog",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x0fc2a55d5BD13033f1ee0cdd11f60F7eFe66f467",
+      "https://ethplorer.io/address/0x0fc2a55d5BD13033f1ee0cdd11f60F7eFe66f467"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/Hnr52BvWUk"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "lagrangefndn",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Lagrange-Labs"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55550/thumb/Lagrange-logo-png-gradient.png?1746637731",
+    "small": "https://coin-images.coingecko.com/coins/images/55550/small/Lagrange-logo-png-gradient.png?1746637731",
+    "large": "https://coin-images.coingecko.com/coins/images/55550/large/Lagrange-logo-png-gradient.png?1746637731"
+  },
+  "last_updated": "2025-07-11T04:59:09.613904+00:00"
+}

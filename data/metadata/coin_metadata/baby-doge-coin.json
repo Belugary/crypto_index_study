@@ -1,0 +1,64 @@
+{
+  "id": "baby-doge-coin",
+  "symbol": "babydoge",
+  "name": "Baby Doge Coin",
+  "categories": [
+    "Gaming (GameFi)",
+    "BNB Chain Ecosystem",
+    "Solana Ecosystem",
+    "Meme",
+    "Ethereum Ecosystem",
+    "Dog-Themed",
+    "Solana Meme",
+    "Gaming Utility Token"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xc748673057861a797275cd8a068abb95a902e8de",
+    "ethereum": "0xac57de9c1a09fec648e93eb98875b212db0d460b",
+    "solana": "7dUKUopcNWW6CcU4eRxCHh1uiMh32zDrmGf6ufqhxann"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "US",
+  "description": {
+    "en": "Baby Doge Coin is a meme cryptocurrency designed to be deflationary and more scarce over time. All holders of Baby Doge will earn more baby doge that is automatically sent to your wallet by simply holding Baby Doge coins in your wallet. Watch the amount of baby doge grow in your wallet as baby doge coin holders automatically receive a 5% fee from every on chain transaction that happens on the Baby Doge ecosystem. The community receives more baby doge coins from the fees generated each transaction."
+  },
+  "links": {
+    "homepage": [
+      "https://babydoge.com"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0xc748673057861a797275cd8a068abb95a902e8de",
+      "https://platform.arkhamintelligence.com/explorer/token/baby-doge-coin",
+      "https://etherscan.io/token/0xac57de9c1a09fec648e93eb98875b212db0d460b",
+      "https://ethplorer.io/address/0xac57de9c1a09fec648e93eb98875b212db0d460b",
+      "https://binplorer.com/address/0xc748673057861a797275cd8a068abb95a902e8de",
+      "https://solscan.io/token/7dUKUopcNWW6CcU4eRxCHh1uiMh32zDrmGf6ufqhxann"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/babydogecoin1",
+      "https://www.instagram.com/thebabydogecoin/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/16125/thumb/babydoge.jpg?1696515731",
+    "small": "https://coin-images.coingecko.com/coins/images/16125/small/babydoge.jpg?1696515731",
+    "large": "https://coin-images.coingecko.com/coins/images/16125/large/babydoge.jpg?1696515731"
+  },
+  "last_updated": "2025-07-11T04:57:04.206266+00:00"
+}

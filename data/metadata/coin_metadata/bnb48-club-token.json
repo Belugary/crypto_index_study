@@ -1,0 +1,58 @@
+{
+  "id": "bnb48-club-token",
+  "symbol": "koge",
+  "name": "KOGE",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xe6df05ce8c8301223373cf5b969afcb1498c5528"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "HK",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.48.club"
+    ],
+    "whitepaper": "https://drive.google.com/file/d/1RZxJamk3dK2w-4e4TI98uXe1bCLd2Vz1/view",
+    "blockchain_site": [
+      "https://bscscan.com/token/0xe6df05ce8c8301223373cf5b969afcb1498c5528",
+      "https://platform.arkhamintelligence.com/explorer/token/bnb48-club-token",
+      "https://binplorer.com/address/0xe6df05ce8c8301223373cf5b969afcb1498c5528"
+    ],
+    "official_forum_url": [
+      "https://medium.com/48-club-publish"
+    ],
+    "chat_url": [
+      "https://discord.gg/j4hBefGs"
+    ],
+    "announcement_url": [
+      "https://medium.com/bnb48-club-publish"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "48club_official",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "cn_publish_48club",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/48Club"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/13827/thumb/bnb48.png?1696513570",
+    "small": "https://coin-images.coingecko.com/coins/images/13827/small/bnb48.png?1696513570",
+    "large": "https://coin-images.coingecko.com/coins/images/13827/large/bnb48.png?1696513570"
+  },
+  "last_updated": "2025-07-11T04:57:30.244385+00:00"
+}

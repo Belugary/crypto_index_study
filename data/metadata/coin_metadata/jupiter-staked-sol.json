@@ -1,0 +1,49 @@
+{
+  "id": "jupiter-staked-sol",
+  "symbol": "jupsol",
+  "name": "Jupiter Staked SOL",
+  "categories": [
+    "Solana Ecosystem",
+    "Liquid Staking Tokens",
+    "Liquid Staked SOL",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v",
+      "https://platform.arkhamintelligence.com/explorer/token/jupiter-staked-sol"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "JupiterExchange",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/37482/thumb/jupsol.png?1714473916",
+    "small": "https://coin-images.coingecko.com/coins/images/37482/small/jupsol.png?1714473916",
+    "large": "https://coin-images.coingecko.com/coins/images/37482/large/jupsol.png?1714473916"
+  },
+  "last_updated": "2025-07-11T04:58:58.305149+00:00"
+}

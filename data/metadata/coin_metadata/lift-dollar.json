@@ -1,0 +1,56 @@
+{
+  "id": "lift-dollar",
+  "symbol": "usdl",
+  "name": "Lift Dollar",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "Ethereum Ecosystem",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "arbitrum-one",
+  "platforms": {
+    "arbitrum-one": "0x7f850b0ab1988dd17b69ac564c1e2857949e4dee",
+    "ethereum": "0xbdc7c08592ee4aa51d06c27ee23d5087d65adbcd"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://liftdollar.com/"
+    ],
+    "whitepaper": "https://whitepaper.liftdollar.com/index.html",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xbdc7c08592ee4aa51d06c27ee23d5087d65adbcd",
+      "https://platform.arkhamintelligence.com/explorer/token/lift-dollar",
+      "https://ethplorer.io/address/0xbdc7c08592ee4aa51d06c27ee23d5087d65adbcd",
+      "https://arbiscan.io/token/0x7f850b0ab1988dd17b69ac564c1e2857949e4dee"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/lift-dollar-usdl/"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/38484/thumb/USDL-Token-200px.png?1725022887",
+    "small": "https://coin-images.coingecko.com/coins/images/38484/small/USDL-Token-200px.png?1725022887",
+    "large": "https://coin-images.coingecko.com/coins/images/38484/large/USDL-Token-200px.png?1725022887"
+  },
+  "last_updated": "2025-07-11T04:59:14.299571+00:00"
+}

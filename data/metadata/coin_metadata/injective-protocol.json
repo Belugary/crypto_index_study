@@ -1,0 +1,81 @@
+{
+  "id": "injective-protocol",
+  "symbol": "inj",
+  "name": "Injective",
+  "categories": [
+    "Smart Contract Platform",
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "Cosmos Ecosystem",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "Binance Launchpad",
+    "Osmosis Ecosystem",
+    "Proof of Stake (PoS)",
+    "Pantera Capital Portfolio",
+    "Secret Ecosystem",
+    "GMCI Layer 1 Index",
+    "GMCI Index",
+    "Made in USA",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xe28b3b32b6c345a34ff64674606124dd5aceca30",
+    "cosmos": "ibc/64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273",
+    "osmosis": "ibc/64BA6E31FE887D66C6F8F31C7B1A80C7CA179239677B4088BB55F5EA07DBE273",
+    "secret": "secret14706vxakdzkz9a36872cs62vpl5qd84kpwvpew",
+    "binance-smart-chain": "0xa2b726b1145a4773f68593cf171187d8ebe4d495"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://injective.com",
+      "https://hub.injective.network/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.injective.network/",
+      "https://platform.arkhamintelligence.com/explorer/token/injective-protocol",
+      "https://ethplorer.io/address/0xe28b3b32b6c345a34ff64674606124dd5aceca30",
+      "https://etherscan.io/token/0xe28b3b32b6c345a34ff64674606124dd5aceca30",
+      "https://bscscan.com/token/0xa2b726b1145a4773f68593cf171187d8ebe4d495",
+      "https://atomscan.com/injective",
+      "https://binplorer.com/address/0xa2b726b1145a4773f68593cf171187d8ebe4d495",
+      "https://www.mintscan.io/secret/address/secret14706vxakdzkz9a36872cs62vpl5qd84kpwvpew",
+      "https://www.mintscan.io/injective",
+      "https://www.mintscan.io/osmosis/assets/ibc/aWJjLzY0QkE2RTMxRkU4ODdENjZDNkY4RjMxQzdCMUE4MEM3Q0ExNzkyMzk2NzdCNDA4OEJCNTVGNUVBMDdEQkUyNzM="
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/NK4qdbv"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "injective",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "joininjective",
+    "subreddit_url": "https://www.reddit.com/r/injective/",
+    "repos_url": {
+      "github": [
+        "https://github.com/InjectiveLabs/injective-helix-demo",
+        "https://github.com/InjectiveLabs"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/12882/thumb/Other_200x200.png?1738782212",
+    "small": "https://coin-images.coingecko.com/coins/images/12882/small/Other_200x200.png?1738782212",
+    "large": "https://coin-images.coingecko.com/coins/images/12882/large/Other_200x200.png?1738782212"
+  },
+  "last_updated": "2025-07-11T04:58:51.284232+00:00"
+}

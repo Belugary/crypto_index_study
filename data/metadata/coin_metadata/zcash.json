@@ -1,0 +1,64 @@
+{
+  "id": "zcash",
+  "symbol": "zec",
+  "name": "Zcash",
+  "categories": [
+    "Smart Contract Platform",
+    "Privacy",
+    "Layer 1 (L1)",
+    "Zero Knowledge (ZK)",
+    "Proof of Work (PoW)",
+    "Pantera Capital Portfolio",
+    "Made in USA",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Equihash",
+  "genesis_date": "2016-10-28",
+  "country_origin": "",
+  "description": {
+    "en": "Zcash is a decentralized and open-source cryptocurrency that offers privacy and selective transparency of transactions. Zcash payments are published on a public blockchain, but the sender, recipient, and amount of a transaction remain private.\r\n\r\nZcash is based on peer-reviewed cryptographic research, and built by a security-specialized engineering team on an open source platform based on Bitcoin Core's battle-tested codebase. Our improvement over Bitcoin is the addition of privacy. Zcash uses advanced cryptographic techniques, namely zero-knowledge proofs, to guarantee the validity of transactions without revealing additional information about them.\r\n\r\nHow Zcash works\r\n\r\nZcash encrypts the contents of shielded transactions. Since the payment information is encrypted, the protocol uses a novel cryptographic method to verify their validity.\r\n\r\nZcash uses a zero-knowledge proof construction called a zk-SNARK, developed by our team of experienced cryptographers based on recent breakthroughs in cryptography. These constructions allow the network to maintain a secure ledger of balances without disclosing the parties or amounts involved. Instead of publicly demonstrating spend-authority and transaction values, the transaction metadata is encrypted and zk-SNARKs are used to prove that nobody is cheating or stealing.\r\n\r\nZcash also enables users to send public payments which work similarly to Bitcoin. With the support for both shielded and transparent addresses, users can choose to send Zcash privately or publicly. Zcash payments sent from a shielded address to a transparent address reveal the received balance, while payments from a transparent address to a shielded address protect the receiving value. \r\n\r\nCheck out CoinBureau for guide on What is ZCash."
+  },
+  "links": {
+    "homepage": [
+      "https://z.cash/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://blockchair.com/zcash",
+      "https://zecblockexplorer.com/",
+      "https://zcash.tokenview.io/",
+      "https://explorer.zcha.in/",
+      "https://explorer.energi.network/token/0x6b2972207c550964E12c4d30CB87a69dc53ac0D3",
+      "https://3xpl.com/zcash"
+    ],
+    "official_forum_url": [
+      "https://forum.z.cash/"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "zcash",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Zcash_Community",
+    "subreddit_url": "https://www.reddit.com/r/zec",
+    "repos_url": {
+      "github": [
+        "https://github.com/zcash/zcash",
+        "https://github.com/zcash/librustzcash"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/486/thumb/circle-zcash-color.png?1696501740",
+    "small": "https://coin-images.coingecko.com/coins/images/486/small/circle-zcash-color.png?1696501740",
+    "large": "https://coin-images.coingecko.com/coins/images/486/large/circle-zcash-color.png?1696501740"
+  },
+  "last_updated": "2025-07-11T05:02:06.244137+00:00"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "spx6900",
+  "symbol": "spx",
+  "name": "SPX6900",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Ethereum Ecosystem",
+    "Base Ecosystem",
+    "Bridged-Tokens",
+    "Murad Picks",
+    "Stock market-themed",
+    "4chan-Themed"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xe0f63a424a4439cbe457d80e4f4b51ad25b2c56c",
+    "base": "0x50da645f148798f68ef2d7db7c1cb22a6819bb2c",
+    "solana": "J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "SPX6900 is an advanced blockchain cryptography token coin capable of limitless possibilities and scientific utilization."
+  },
+  "links": {
+    "homepage": [
+      "https://www.spx6900.com"
+    ],
+    "whitepaper": "https://www.spx6900.com",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xe0f63a424a4439cbe457d80e4f4b51ad25b2c56c",
+      "https://platform.arkhamintelligence.com/explorer/token/spx6900",
+      "https://ethplorer.io/address/0xe0f63a424a4439cbe457d80e4f4b51ad25b2c56c",
+      "https://solscan.io/token/j3nkxxxzcnnimjkw9hyb2k4luxgwb6t1ftptqvsv3kfr",
+      "https://basescan.org/token/0x50da645f148798f68ef2d7db7c1cb22a6819bb2c"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "spx6900",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "SPX6900Portal",
+    "subreddit_url": "https://www.reddit.com/r/spx6900",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/31401/thumb/centeredcoin_%281%29.png?1737048493",
+    "small": "https://coin-images.coingecko.com/coins/images/31401/small/centeredcoin_%281%29.png?1737048493",
+    "large": "https://coin-images.coingecko.com/coins/images/31401/large/centeredcoin_%281%29.png?1737048493"
+  },
+  "last_updated": "2025-07-11T05:00:50.188371+00:00"
+}

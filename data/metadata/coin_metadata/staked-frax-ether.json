@@ -1,0 +1,74 @@
+{
+  "id": "staked-frax-ether",
+  "symbol": "sfrxeth",
+  "name": "Staked Frax Ether",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "Polygon Ecosystem",
+    "Fantom Ecosystem",
+    "Arbitrum Ecosystem",
+    "Moonbeam Ecosystem",
+    "Liquid Staking Tokens",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Liquid Staked ETH",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xac3e018457b222d93114458476f3e3416abbe38f",
+    "moonbeam": "0xecf91116348af1cffe335e9807f0051332be128d",
+    "optimistic-ethereum": "0x484c2d6e3cdd945a8b2df735e079178c1036578c",
+    "arbitrum-one": "0x95ab45875cffdba1e5f451b950bc2e42c0053f39",
+    "binance-smart-chain": "0x3cd55356433c89e50dc51ab07ee0fa0a95623d53",
+    "fantom": "0xb90ccd563918ff900928dc529aa01046795ccb4a",
+    "polygon-pos": "0x6d1fdbb266fcc09a16a22016369210a15bb95761"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Staked Frax Ether is the vault token that accrues all proof of stake rewards of ETH validators run by Frax Finance protocol. sfrxETH is ERC4626 compliant and a non-rebasing, interest bearing token."
+  },
+  "links": {
+    "homepage": [
+      "https://app.frax.finance/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xac3e018457b222d93114458476f3e3416abbe38f",
+      "https://platform.arkhamintelligence.com/explorer/token/staked-frax-ether",
+      "https://ethplorer.io/address/0xac3e018457b222d93114458476f3e3416abbe38f",
+      "https://bscscan.com/token/0x3cd55356433c89e50dc51ab07ee0fa0a95623d53",
+      "https://arbiscan.io/token/0x95ab45875cffdba1e5f451b950bc2e42c0053f39",
+      "https://ftmscan.com/token/0xb90ccd563918ff900928dc529aa01046795ccb4a",
+      "https://moonscan.io/token/0xecf91116348af1cffe335e9807f0051332be128d",
+      "https://optimistic.etherscan.io/token/0x484c2d6e3cdd945a8b2df735e079178c1036578c",
+      "https://polygonscan.com/token/0x6d1fdbb266fcc09a16a22016369210a15bb95761",
+      "https://binplorer.com/address/0x3cd55356433c89e50dc51ab07ee0fa0a95623d53"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "fraxfinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/fraxfinance"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/28285/thumb/sfrxETH_icon.png?1696527285",
+    "small": "https://coin-images.coingecko.com/coins/images/28285/small/sfrxETH_icon.png?1696527285",
+    "large": "https://coin-images.coingecko.com/coins/images/28285/large/sfrxETH_icon.png?1696527285"
+  },
+  "last_updated": "2025-07-11T05:00:51.914687+00:00"
+}

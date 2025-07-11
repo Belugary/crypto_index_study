@@ -1,0 +1,73 @@
+{
+  "id": "stepn",
+  "symbol": "gmt",
+  "name": "GMT",
+  "categories": [
+    "Gaming (GameFi)",
+    "NFT",
+    "BNB Chain Ecosystem",
+    "Solana Ecosystem",
+    "Polygon Ecosystem",
+    "Play To Earn",
+    "Move To Earn",
+    "Ethereum Ecosystem",
+    "Binance Launchpad",
+    "Gaming Governance Token",
+    "Sports Games",
+    "Alameda Research Portfolio",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Sequoia Capital Portfolio"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "7i5KKsX2weiTkry7jA4ZwSuXGhs5eJBEjY8vVxR4pfRx",
+    "ethereum": "0xe3c408bd53c31c085a1746af401a4042954ff740",
+    "binance-smart-chain": "0x3019bf2a2ef8040c242c9a4c5c4bd4c81678b2a1",
+    "polygon-pos": "0x714db550b574b3e927af3d93e26127d15721d4c2"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What is STEPN (GMT)?\r\nGMT is the governance token of STEPN with a limited supply of 6 billion tokens. \r\n\r\nWhen should I buy STEPN (GMT)?\r\nPlayers buy GMTs to burn in the STEPN app in order to access features provided by STEPN, such as mint high-quality Sneakers, upgrade high-quality Gems and participate governance voting.\r\n\r\nWhat is STEPN?\r\nSTEPN is a Web3 lifestyle app with Social-Fi and Game-Fi elements. Users equipped with NFT Sneakers – walk, jog or run outdoors to earn tokens and NFTs. STEPN has a dual-token system, Users can earn GST\r\n\r\nPlayer can choose to lease or trade their NFT Sneakers on the in-app Marketplace; users’ earnings are stored in the in-app Wallet, which has a built-in Swap function.\r\n\r\nWho is behind STEPN?\r\nSTEPN is created by Find Satoshi Lab, an Australian-based fintech studio. The team won the 2021 Solana Ignition Hackathon Gaming Track and is part of DeFi Alliance Gaming cohort."
+  },
+  "links": {
+    "homepage": [
+      "https://www.stepn.com/"
+    ],
+    "whitepaper": "https://whitepaper.stepn.com/",
+    "blockchain_site": [
+      "https://solscan.io/token/7i5KKsX2weiTkry7jA4ZwSuXGhs5eJBEjY8vVxR4pfRx",
+      "https://platform.arkhamintelligence.com/explorer/token/stepn",
+      "https://bscscan.com/token/0x3019bf2a2ef8040c242c9a4c5c4bd4c81678b2a1",
+      "https://etherscan.io/token/0xe3c408bd53c31c085a1746af401a4042954ff740",
+      "https://ethplorer.io/address/0xe3c408bd53c31c085a1746af401a4042954ff740",
+      "https://binplorer.com/address/0x3019bf2a2ef8040c242c9a4c5c4bd4c81678b2a1",
+      "https://polygonscan.com/token/0x714db550b574b3e927af3d93e26127d15721d4c2"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/stepn"
+    ],
+    "announcement_url": [
+      "https://stepnofficial.medium.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "stepnofficial",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "STEPNofficial",
+    "subreddit_url": "https://www.reddit.com/r/StepN/",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/23597/thumb/token-gmt-200x200.png?1703153841",
+    "small": "https://coin-images.coingecko.com/coins/images/23597/small/token-gmt-200x200.png?1703153841",
+    "large": "https://coin-images.coingecko.com/coins/images/23597/large/token-gmt-200x200.png?1703153841"
+  },
+  "last_updated": "2025-07-11T05:00:58.083318+00:00"
+}

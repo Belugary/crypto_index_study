@@ -1,0 +1,57 @@
+{
+  "id": "polymesh",
+  "symbol": "polyx",
+  "name": "Polymesh",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Real World Assets (RWA)",
+    "RWA Protocol"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Polymesh is an institutional-grade permissioned blockchain built specifically for regulated assets. It streamlines antiquated processes and opens the door to new financial instruments by solving the challenges around governance, identity, compliance, confidentiality, and settlement. Polymesh is built on the Substrate framework and uses a Nominated Proof of Stake Consensus algorithm."
+  },
+  "links": {
+    "homepage": [
+      "https://polymesh.network/"
+    ],
+    "whitepaper": "https://info.polymesh.network/hubfs/Files/Polymesh-Whitepaper.pdf",
+    "blockchain_site": [
+      "https://polymesh.subscan.io/"
+    ],
+    "official_forum_url": [
+      "https://www.youtube.com/channel/UCgxdooZiW0Ktvsf1q-Bmm4A",
+      "https://www.linkedin.com/company/polymeshnetwork/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/Z9MAUtYaG7"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "PolymeshNetwork",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/PolymathNetwork/",
+    "repos_url": {
+      "github": [
+        "https://github.com/PolymathNetwork/Polymesh"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/23496/thumb/Polymesh-symbol.png?1696522706",
+    "small": "https://coin-images.coingecko.com/coins/images/23496/small/Polymesh-symbol.png?1696522706",
+    "large": "https://coin-images.coingecko.com/coins/images/23496/large/Polymesh-symbol.png?1696522706"
+  },
+  "last_updated": "2025-07-11T05:00:11.843875+00:00"
+}

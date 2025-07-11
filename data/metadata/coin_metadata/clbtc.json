@@ -1,0 +1,62 @@
+{
+  "id": "clbtc",
+  "symbol": "clbtc",
+  "name": "clBTC",
+  "categories": [
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Base Ecosystem"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0x8d2757ea27aabf172da4cca4e5474c76016e3dc5",
+    "ethereum": "0xe7ae30c03395d66f30a26c49c91edae151747911",
+    "optimistic-ethereum": "0x1792865d493fe4dfdd504010d3c0f6da11e8046d",
+    "arbitrum-one": "0x1792865d493fe4dfdd504010d3c0f6da11e8046d"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Cygnus is the first modular real yield layer. As the end game of real yield, it combines non-EVM systems such as TON with EVM ecosystem. Its yield-bearing Liquidity Validation System provide services for any system that requires its own distributed validation semantics for verification. Users can participate in ecological liquidity security protection while automatically enjoying staking yield, LVS fees and other systems' incentives."
+  },
+  "links": {
+    "homepage": [
+      "https://www.cygnus.finance/"
+    ],
+    "whitepaper": "https://wiki.cygnus.finance/whitepaper",
+    "blockchain_site": [
+      "https://basescan.org/token/0x8d2757ea27aabf172da4cca4e5474c76016e3dc5",
+      "https://arbiscan.io/token/0x1792865D493FE4DFdD504010D3c0f6da11E8046D",
+      "https://optimistic.etherscan.io/token/0x1792865D493FE4DFdD504010D3c0f6da11E8046D",
+      "https://etherscan.io/token/0xE7ae30C03395D66F30A26C49c91edAe151747911",
+      "https://ethplorer.io/address/0xE7ae30C03395D66F30A26C49c91edAe151747911"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/XgzdFAzB",
+      "https://medium.com/@CygnusFinance"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "CygnusFi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "CygnusFinanceOfficial",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/arks-labs"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54164/thumb/clBTC.png?1738482999",
+    "small": "https://coin-images.coingecko.com/coins/images/54164/small/clBTC.png?1738482999",
+    "large": "https://coin-images.coingecko.com/coins/images/54164/large/clBTC.png?1738482999"
+  },
+  "last_updated": "2025-07-11T04:57:42.820540+00:00"
+}

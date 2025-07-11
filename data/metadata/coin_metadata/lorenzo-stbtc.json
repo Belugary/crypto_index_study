@@ -1,0 +1,65 @@
+{
+  "id": "lorenzo-stbtc",
+  "symbol": "stbtc",
+  "name": "Lorenzo stBTC",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "Liquid Staking Tokens",
+    "Sui Ecosystem",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3",
+    "taiko": "0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3",
+    "swellchain": "0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3",
+    "sui": "0x5f496ed5d9d045c5b788dc1bb85f54100f2ede11e46f6a232c29daada4c5bdb6::coin::COIN"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Lorenzo Protocol is the premier Bitcoin liquidity aggregator, leveraging its global network to provide Bitcoin financial products and yield-bearing tokens support with creation, issuance, trading, and settlement. Through its novel Bitcoin liquidity finance layer, Lorenzo provides anyone with a token and/or structured Bitcoin financial products direct, immediate access to demand through a liquidity ecosystem comprising market makers, trading venues, and other liquidity providers.\r\nA pioneer in Bitcoin liquid staking, Lorenzo introduced a dual Bitcoin staking deposit tokenization system by establishing the liquid principal token (LPT) and yield accruing token (YAT) token standards. This innovation enhances Bitcoin liquidity across the Web3 ecosystem, enabling seamless integration and significant yield generation across networks. The token standards establish a foundation for advanced DeFi products utilizing stBTC (Lorenzo’s LPT) and YATs, unlocking new opportunities in Bitcoin finance."
+  },
+  "links": {
+    "homepage": [
+      "https://www.lorenzo-protocol.xyz/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://scan.lorenzo-protocol.xyz/",
+      "https://platform.arkhamintelligence.com/explorer/token/lorenzo-stbtc",
+      "https://bscscan.com/token/0xf6718b2701D4a6498eF77D7c152b2137Ab28b8A3",
+      "https://binplorer.com/address/0xf6718b2701D4a6498eF77D7c152b2137Ab28b8A3",
+      "https://taikoscan.io/token/0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3",
+      "https://suivision.xyz/coin/0x5f496ed5d9d045c5b788dc1bb85f54100f2ede11e46f6a232c29daada4c5bdb6::coin::COIN",
+      "https://suiscan.xyz/mainnet/coin/0x5f496ed5d9d045c5b788dc1bb85f54100f2ede11e46f6a232c29daada4c5bdb6::coin::COIN/txs",
+      "https://explorer.swellnetwork.io/token/0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.youtube.com/@LorenzoProtocol"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Lorenzo-Protocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/50978/thumb/a.jpg?1730208372",
+    "small": "https://coin-images.coingecko.com/coins/images/50978/small/a.jpg?1730208372",
+    "large": "https://coin-images.coingecko.com/coins/images/50978/large/a.jpg?1730208372"
+  },
+  "last_updated": "2025-07-11T04:59:18.544784+00:00"
+}

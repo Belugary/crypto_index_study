@@ -1,0 +1,51 @@
+{
+  "id": "binance-peg-weth",
+  "symbol": "weth",
+  "name": "Binance-Peg WETH",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Binance-Peg Tokens"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x2170ed0880ac9a755fd29b2688956bd959f933f8"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.bnbchain.org/en"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+      "https://platform.arkhamintelligence.com/explorer/token/binance-peg-weth",
+      "https://binplorer.com/address/0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+      "https://bnb.dex.guru/token/0x2170ed0880ac9a755fd29b2688956bd959f933f8"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "BNBChain",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39580/thumb/weth.png?1723006716",
+    "small": "https://coin-images.coingecko.com/coins/images/39580/small/weth.png?1723006716",
+    "large": "https://coin-images.coingecko.com/coins/images/39580/large/weth.png?1723006716"
+  },
+  "last_updated": "2025-07-11T04:57:18.158043+00:00"
+}

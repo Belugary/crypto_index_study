@@ -1,0 +1,64 @@
+{
+  "id": "movement",
+  "symbol": "move",
+  "name": "Movement",
+  "categories": [
+    "Smart Contract Platform",
+    "Ethereum Ecosystem",
+    "Layer 2 (L2)",
+    "Zero Knowledge (ZK)",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "OKX Ventures Portfolio",
+    "Binance HODLer Airdrops",
+    "World Liberty Financial Portfolio",
+    "Made in USA",
+    "Movement Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x3073f7aaa4db83f95e9fff17424f71d4751a3073",
+    "movement": "0xa"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Movement Network is an ecosystem of Modular Move-Based Blockchains that enables developers to build secure, performant, and interoperable blockchain applications, bridging the gap between Move and EVM ecosystems. Movement Network is first Move-EVM L2 for Ethereum, alongside open-source tooling and protocols to facilitate the adoption of the Move programming language across blockchain ecosystems.\r\n\r\nWith Movement, developers can launch high-performance Move VM rollups with ease. Backed by Polychain Capital, Binance Labs, Hack VC, Placeholder, and Archetype, Movement Labs revolutionizes blockchain interoperability and advance Move-based technologies in the Web3 space."
+  },
+  "links": {
+    "homepage": [
+      "https://www.movementnetwork.xyz/"
+    ],
+    "whitepaper": "https://docs.movementnetwork.xyz/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x3073f7aAA4DB83f95e9FFf17424F71D4751a3073",
+      "https://ethplorer.io/address/0x3073f7aAA4DB83f95e9FFf17424F71D4751a3073",
+      "https://explorer.movementnetwork.xyz/fungible_asset/0xa?network=mainnet"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/movementlabsxyz",
+      "https://www.movementnetwork.xyz/blog"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "movementfdn",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "movementlabsxyz",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/movementlabsxyz/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39345/thumb/movement-testnet-token.png?1721878759",
+    "small": "https://coin-images.coingecko.com/coins/images/39345/small/movement-testnet-token.png?1721878759",
+    "large": "https://coin-images.coingecko.com/coins/images/39345/large/movement-testnet-token.png?1721878759"
+  },
+  "last_updated": "2025-07-11T04:59:35.068150+00:00"
+}

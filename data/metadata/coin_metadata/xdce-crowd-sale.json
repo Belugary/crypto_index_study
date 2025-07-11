@@ -1,0 +1,60 @@
+{
+  "id": "xdce-crowd-sale",
+  "symbol": "xdc",
+  "name": "XDC Network",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Real World Assets (RWA)"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "SG",
+  "description": {
+    "en": "XDC Network is an enterprise-ready hybrid Blockchain technology company optimized for international trade and finance. The XDC Network is powered by the native coin called XDC. The XDC protocol is architected to support smart contracts, 2000TPS, 2seconds transaction time, KYC to Masternodes (Validator Nodes). The XDC Chain (XinFin Digital Contract) uses XinFin Delegated Proof of Stake (XDPoS), with the intending to create a ‘highly-scalable, secure, permission, and commercial grade’ blockchain network. XinFin mainnet token XDC and also creates an opportunity to utilize the XinFin’s real-world use-cases such as TradeFinex.org, helps small and medium businesses or institutions originate their own financial requirements in a digital, fully structured manner so that they can distribute it to the bank or non-bank funders themselves using a common distribution standard. "
+  },
+  "links": {
+    "homepage": [
+      "https://xinfin.org",
+      "https://wallet.xinfin.network/"
+    ],
+    "whitepaper": "https://www.xinfin.io/#white-paper",
+    "blockchain_site": [
+      "https://explorer.xinfin.network",
+      "https://xdc.blocksscan.io/",
+      "https://stats.xdc.org/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://xinfin-public.slack.com/"
+    ],
+    "announcement_url": [
+      "https://www.linkedin.com/company/xinfin",
+      "https://medium.com/xinfin"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "XinFin_Official",
+    "facebook_username": "XinFinHybridBlockchain",
+    "bitcointalk_thread_identifier": 1989818,
+    "telegram_channel_identifier": "xinfintalk",
+    "subreddit_url": "https://www.reddit.com/r/xinfin/",
+    "repos_url": {
+      "github": [
+        "https://github.com/XinFinOrg/XDPoSChain",
+        "https://github.com/xinfinorg/XinFin-Node"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/2912/thumb/xdc-icon.png?1696503661",
+    "small": "https://coin-images.coingecko.com/coins/images/2912/small/xdc-icon.png?1696503661",
+    "large": "https://coin-images.coingecko.com/coins/images/2912/large/xdc-icon.png?1696503661"
+  },
+  "last_updated": "2025-07-11T05:02:03.219741+00:00"
+}

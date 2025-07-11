@@ -1,0 +1,68 @@
+{
+  "id": "decentraland",
+  "symbol": "mana",
+  "name": "Decentraland",
+  "categories": [
+    "Entertainment",
+    "Gaming (GameFi)",
+    "NFT",
+    "Metaverse",
+    "Polygon Ecosystem",
+    "Play To Earn",
+    "Ethereum Ecosystem",
+    "Animoca Brands Portfolio",
+    "Alleged SEC Securities",
+    "Simulation Games",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+    "polygon-pos": "0xa1c57f48f0deb89f569dfbe6e2b7f46d33606fd4"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2017-09-06",
+  "country_origin": "AR",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://decentraland.org/"
+    ],
+    "whitepaper": "https://decentraland.org/whitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+      "https://platform.arkhamintelligence.com/explorer/token/decentraland",
+      "https://ethplorer.io/address/0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+      "https://polygonscan.com/token/0xa1c57f48f0deb89f569dfbe6e2b7f46d33606fd4",
+      "https://explorer.energi.network/token/0xe469960b138abbfd4c82147393e955c537bb6b54"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": "https://snapshot.org/#/snapshot.dcl.eth",
+    "twitter_screen_name": "decentraland",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": 1968414,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/decentraland",
+    "repos_url": {
+      "github": [
+        "https://github.com/decentraland/marketplace",
+        "https://github.com/decentraland/cli",
+        "https://github.com/decentraland/land-auction",
+        "https://github.com/decentraland/mana",
+        "https://github.com/decentraland/decentraland-dapps"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/878/thumb/decentraland-mana.png?1696502010",
+    "small": "https://coin-images.coingecko.com/coins/images/878/small/decentraland-mana.png?1696502010",
+    "large": "https://coin-images.coingecko.com/coins/images/878/large/decentraland-mana.png?1696502010"
+  },
+  "last_updated": "2025-07-11T04:58:01.107321+00:00"
+}

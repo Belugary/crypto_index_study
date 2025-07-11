@@ -1,0 +1,56 @@
+{
+  "id": "pi-network",
+  "symbol": "pi",
+  "name": "Pi Network",
+  "categories": [
+    "Layer 1 (L1)",
+    "Made in USA",
+    "Mobile Mining"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What Is Pi Network?\r\nPi Network is a social cryptocurrency, developer platform, and ecosystem designed for widespread accessibility and real-world utility. It enables users to mine and transact Pi using a mobile-friendly interface while supporting applications built within its blockchain ecosystem.\r\n\r\nSupply Model and Mining Mechanism\r\nThe Maximum Supply of Pi is 100 billion tokens. The Maximum Supply is comprised of the following: 65 Billion tokens (or 65%) are allocated for all community mining rewards; 10 billion (10%) are allocated for foundation reserves; 5 billion (5%) are allocated for liquidity purposes; and 20 billion (20%) are allocated for the Core Team. Each allocation mentioned above tracks the community Migrated Mining Rewards issuance pace, so the proportions of each allocation in the total supply remains the same at any given time. \r\n\r\nThe Effective Total Supply of Pi—the total Pi supply at the current time—allocates Pi proportionally the same as the Maximum Supply. Since every allocation tracks the Migrated Mining Rewards of the community, the Effective Total Supply can be calculated by dividing the current Migrated Mining Rewards of Pi on the Mainnet blockchain by 65%. The other allocations within the Effective Total Supply can then be calculated based on the same proportions as the Maximum Supply, e.g. at most 10% of the Effective Total Supply is available in the foundation reserve, 5% of the Effective Total Supply is available for liquidity purposes, and 20% of the Effective Total Supply is available for the Core Team. This remains true despite the fact that all tokens were minted at the genesis as technically required by the blockchain protocol.\r\n\r\nCirculating Supply includes all Migrated Mining Rewards and all tokens that entered circulation from other buckets of the allocations, which at its maximum could be summed up to equal the Effective Total Supply. \r\n\r\nPi’s mining rewards are distributed based on an issuance formula that follows a declining exponential model defined in the Pi whitepaper. Users can increase the amount of mining rewards they receive based on their individual contributions to the network, like Security Circles, using utility-based Pi apps, running Nodes, etc. For each month, the amount of Pi to be distributed as mobile balance is capped and determined by the model, regardless of how many people or how many types of mining rewards there are during the month. The capping is achieved by the design of a system-wide base mining rate, and each type of mining rewards to each individual are just a multiplier of this base mining rate. As the monthly supplies always diminish, the base mining rate generally decreases over time. \r\n\r\nFewer Pi may also be issued because the real Pi issuance on the blockchain depends on Pioneers passing KYC and completing all steps required for migration to the Mainnet. Despite all efforts to facilitate and remind Pioneers to complete those required steps, there are always dropoffs along the way, resulting in less than all outstanding mobile balances to be issued on the blockchain. Because of this mechanism, the community issued amount (Migrated Mining Rewards) on the blockchain will likely be closer and closer to a line lower than the 65 billion. This is thus the reason for the variable Effective Total Supply which incorporates this effect. Effective Total Supply results from all Migrated Mining Rewards divided by 65%, as opposed to the Maximum Supply of 100 billion.\r\n\r\nEcosystem and Adoption\r\nPi Network has built an integrated ecosystem that facilitates real-world transactions and decentralized applications. Pi can be used as a medium of exchange for goods and services, including online commerce and local brick-and-mortar businesses.\r\n\r\nUsers can engage with Core Team and community-built apps in the Pi ecosystem through the Pi Browser, where integrated features like the Pi Wallet provide a seamless experience. Events like PiFest 2024 showcased Pi’s growing adoption, with over 27,000 active sellers and 28,000 test merchants across 160 countries.\r\n\r\nWho Are the Founders of Pi Network?\r\nPi Network was founded by Dr. Nicolas Kokkalis and Dr. Chengdiao Fan, both of whom have PhDs from Stanford University and a passion for improving human lives through technology.\r\n\r\nDr. Nicolas Kokkalis is a Stanford PhD in EE and postdoc in CS with research on distributed systems and human-computer interaction. His work focuses on combining distributed systems and human computer interaction to bring cryptocurrency to everyday people. As a strong and long-term believer of the technical, financial and social potential of cryptocurrencies, he is determined to move them beyond their current limitations and is committed to bringing the power of blockchain to more people.\r\n\r\nDr. Chengdiao Fan holds a Stanford PhD in Anthropological Sciences, harnessing social computing to unlock human potential on a global scale. Chengdiao is building Pi Network to mobilize individuals all over the world to participate and be rewarded for their contributions, and establish an inclusive ecosystem for global citizens to unleash and capture their own agency, and in turn create utilities and productions for society and the world.\r\n\r\nCompliance and Identity Verification\r\nPi Network follows a one-account-per-person policy through its Know Your Customer (KYC) solution. This system combines machine automation and human verification to authenticate user identities while preserving privacy.\r\n\r\nThe KYC process emphasizes real individuals, combats fraudulent activities and enables fair participation in the mining process of the network. Pi’s identity verification approach balances scalability, security, and accessibility, allowing millions of users worldwide to validate their accounts while maintaining regulatory compliance."
+  },
+  "links": {
+    "homepage": [
+      "https://minepi.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://blockexplorer.minepi.com/mainnet/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.linkedin.com/company/pi-net/",
+      "https://www.instagram.com/pi_network/"
+    ],
+    "announcement_url": [
+      "https://minepi.com/blog"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "PiCoreTeam",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/pi-apps/pi-platform-docs"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54342/thumb/pi_network.jpg?1739347576",
+    "small": "https://coin-images.coingecko.com/coins/images/54342/small/pi_network.jpg?1739347576",
+    "large": "https://coin-images.coingecko.com/coins/images/54342/large/pi_network.jpg?1739347576"
+  },
+  "last_updated": "2025-07-11T05:00:06.431207+00:00"
+}

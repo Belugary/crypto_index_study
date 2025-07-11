@@ -1,0 +1,78 @@
+{
+  "id": "layerzero",
+  "symbol": "zro",
+  "name": "LayerZero",
+  "categories": [
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Avalanche Ecosystem",
+    "Polygon Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Base Ecosystem",
+    "Multicoin Capital Portfolio",
+    "Layer 0 (L0)",
+    "Cross-chain Communication",
+    "Circle Ventures Portfolio",
+    "Sequoia Capital Portfolio",
+    "OKX Ventures Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x6985884c4392d348587b19cb9eaaf157f13271cd",
+    "arbitrum-one": "0x6985884c4392d348587b19cb9eaaf157f13271cd",
+    "optimistic-ethereum": "0x6985884c4392d348587b19cb9eaaf157f13271cd",
+    "base": "0x6985884c4392d348587b19cb9eaaf157f13271cd",
+    "binance-smart-chain": "0x6985884c4392d348587b19cb9eaaf157f13271cd",
+    "avalanche": "0x6985884c4392d348587b19cb9eaaf157f13271cd",
+    "polygon-pos": "0x6985884c4392d348587b19cb9eaaf157f13271cd"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://layerzero.network/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x6985884c4392d348587b19cb9eaaf157f13271cd",
+      "https://platform.arkhamintelligence.com/explorer/token/layerzero",
+      "https://ethplorer.io/address/0x6985884c4392d348587b19cb9eaaf157f13271cd",
+      "https://bscscan.com/token/0x6985884c4392d348587b19cb9eaaf157f13271cd",
+      "https://binplorer.com/address/0x6985884c4392d348587b19cb9eaaf157f13271cd",
+      "https://optimistic.etherscan.io/token/0x6985884c4392d348587b19cb9eaaf157f13271cd",
+      "https://arbiscan.io/token/0x6985884c4392d348587b19cb9eaaf157f13271cd",
+      "https://basescan.org/token/0x6985884c4392d348587b19cb9eaaf157f13271cd",
+      "https://polygonscan.com/token/0x6985884c4392d348587b19cb9eaaf157f13271cd",
+      "https://avascan.info/blockchain/c/address/0x6985884c4392d348587b19cb9eaaf157f13271cd/token"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://layerzero.network/discord",
+      "https://medium.com/layerzero-official"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "LayerZero_Core",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/28206/thumb/ftxG9_TJ_400x400.jpeg?1696527208",
+    "small": "https://coin-images.coingecko.com/coins/images/28206/small/ftxG9_TJ_400x400.jpeg?1696527208",
+    "large": "https://coin-images.coingecko.com/coins/images/28206/large/ftxG9_TJ_400x400.jpeg?1696527208"
+  },
+  "last_updated": "2025-07-11T04:59:10.164689+00:00"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "tdccp",
+  "symbol": "tdccp",
+  "name": "TDCCP",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Solana Meme"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "Hg8bKz4mvs8KNj9zew1cEF9tDw1x2GViB4RFZjVEmfrD"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://tdccpmeme.pw/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/Hg8bKz4mvs8KNj9zew1cEF9tDw1x2GViB4RFZjVEmfrD"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "TDCCPMEME",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "TDCCP_official",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55581/thumb/tdccp-logo.jpg?1746787823",
+    "small": "https://coin-images.coingecko.com/coins/images/55581/small/tdccp-logo.jpg?1746787823",
+    "large": "https://coin-images.coingecko.com/coins/images/55581/large/tdccp-logo.jpg?1746787823"
+  },
+  "last_updated": "2025-07-11T05:01:13.545010+00:00"
+}

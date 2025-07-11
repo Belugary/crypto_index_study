@@ -1,0 +1,72 @@
+{
+  "id": "zignaly",
+  "symbol": "zig",
+  "name": "ZIGChain",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Solana Ecosystem",
+    "Layer 1 (L1)",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem",
+    "DWF Labs Portfolio",
+    "Injective Ecosystem",
+    "OKX Ventures Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xb2617246d0c6c0087f18703d576831899ca94f01",
+    "injective": "peggy0xb2617246d0c6c0087f18703d576831899ca94f01",
+    "binance-smart-chain": "0x8c907e0a72c3d55627e853f4ec6a96b0c8771145",
+    "polygon-pos": "0x7bebd226154e865954a87650faefa8f485d36081",
+    "solana": "26f12PmBk77wQV1TzLe8XKkNBvMFggbuypxdtMLzNLzz"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Zignaly is a social crypto investment platform. Invest in crypto by using signals, copying experts or fully delegated mode with profit sharing (PAMM). Avoid monthly subscriptions and pay only a portion of the profit as success fee."
+  },
+  "links": {
+    "homepage": [
+      "https://zigchain.com/",
+      "https://zignaly.com/"
+    ],
+    "whitepaper": "https://docs.zigchain.com/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xb2617246d0c6c0087f18703d576831899ca94f01",
+      "https://platform.arkhamintelligence.com/explorer/token/zignaly",
+      "https://ethplorer.io/address/0xb2617246d0c6c0087f18703d576831899ca94f01",
+      "https://bscscan.com/token/0x8c907e0a72c3d55627e853f4ec6a96b0c8771145",
+      "https://solscan.io/token/26f12pmbk77wqv1tzle8xkknbvmfggbuypxdtmlznlzz",
+      "https://polygonscan.com/token/0x7bebd226154e865954a87650faefa8f485d36081",
+      "https://explorer.injective.network/asset/?denom=peggy0xb2617246d0c6c0087f18703d576831899ca94f01",
+      "https://binplorer.com/address/0x8c907e0a72c3d55627e853f4ec6a96b0c8771145",
+      "https://explorer.injective.network/asset/?denom=peggy0xb2617246d0c6c0087f18703d576831899ca94f01&tokentype=unknown"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.zignaly.com/",
+      "http://medium.com/zignaly/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ZIGChain",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "ZignalyHQ",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/14796/thumb/zig.jpg?1731990265",
+    "small": "https://coin-images.coingecko.com/coins/images/14796/small/zig.jpg?1731990265",
+    "large": "https://coin-images.coingecko.com/coins/images/14796/large/zig.jpg?1731990265"
+  },
+  "last_updated": "2025-07-11T05:02:08.426885+00:00"
+}

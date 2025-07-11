@@ -1,0 +1,57 @@
+{
+  "id": "tribe-2",
+  "symbol": "tribe",
+  "name": "Tribe",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Ethereum Ecosystem",
+    "Stablecoin Protocol"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xc7283b66eb1eb5fb86327f08e1b5816b0720212b"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "US",
+  "description": {
+    "en": "TRIBE is the governance token which will allow community members to vote on the future direction / upgrades for the platform and control the DAO treasury."
+  },
+  "links": {
+    "homepage": [
+      "https://fei.money/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xc7283b66eb1eb5fb86327f08e1b5816b0720212b",
+      "https://platform.arkhamintelligence.com/explorer/token/tribe-2",
+      "https://ethplorer.io/address/0xc7283b66eb1eb5fb86327f08e1b5816b0720212b"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/2prhYdQ5jP"
+    ],
+    "announcement_url": [
+      "https://medium.com/@fei-protocol"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "feiprotocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "feiprotocol ",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/fei-protocol/fei-protocol-core"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/14575/thumb/tribe.PNG?1696514256",
+    "small": "https://coin-images.coingecko.com/coins/images/14575/small/tribe.PNG?1696514256",
+    "large": "https://coin-images.coingecko.com/coins/images/14575/large/tribe.PNG?1696514256"
+  },
+  "last_updated": "2025-07-11T05:01:25.222571+00:00"
+}

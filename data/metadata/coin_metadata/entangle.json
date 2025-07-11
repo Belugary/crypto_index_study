@@ -1,0 +1,63 @@
+{
+  "id": "entangle",
+  "symbol": "ntgl",
+  "name": "Entangle",
+  "categories": [
+    "Smart Contract Platform",
+    "Oracle",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "Mantle Ecosystem",
+    "Cross-chain Communication",
+    "Consensys Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x12652c6d93fdb6f4f37d48a8687783c782bb0d10",
+    "mantle": "0x8a3ed1f2d15b5015396f494cc1da977da38a6773"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Entangle is the essential infrastructure needed to build the Infinite Web3. As the decentralized digital highway connecting blockchains, data, AI, and real-world applications, it empowers developers to build, scale, and automate the technologies shaping the future of Web3—including AI, robotics, Real World Assets (RWA), and beyond.\r\n\r\nEntangle provides the critical toolkit for those building the most advanced and transformative products in tomorrow’s decentralized, autonomous digital-world. This isn’t just a technology to adopt; it’s the infrastructure every builder will need to lead the next wave of progress.\r\n\r\nKey Features of Entangle\r\n\r\nUniversal Interoperability Protocol (UIP):\r\nThe first fully abstracted communication network bridging EVM and non-EVM blockchains, UIP ensures fast, seamless and decentralised communication. It powers universal applications, assets, data and autonomous agents, fully unifying the blockchain ecosystem.\r\n\r\nUniversal Data Feeds (UDF):\r\nUDF provides secure, verifiable, and ultra-fast data streams for smart contracts with flexible delivery models, including push and pull methods. Supporting both Web2 and Web3 data powered by TEE technology, UDF delivers high-speed data essential for AI, DeFi, GameFi, and other data-driven applications.\r\n\r\nUniversal Token Standard (UTS):\r\nUTS simplifies token creation and allows developers to launch or expand interoperable tokens with universal liquidity and programmable utility. Leveraging secure, reliable cross-chain communication, UTS ensures seamless integration and scalability across blockchain ecosystems.\r\n\r\nUniversal Proof of Compute (UPC):\r\nAn omnichain protocol for verifying complex off-chain programmes and computations on all blockchains. This framework is essential for all AI-driven systems such as truly autonomous agents, enables seamless Web3 user experiences and the bridging of real-world finance on-chain. "
+  },
+  "links": {
+    "homepage": [
+      "https://entangle.fi/"
+    ],
+    "whitepaper": "https://docs.entangle.fi/",
+    "blockchain_site": [
+      "https://etherscan.io/address/0x12652c6d93fdb6f4f37d48a8687783c782bb0d10",
+      "https://platform.arkhamintelligence.com/explorer/token/entangle",
+      "https://explorer.mantle.xyz/token/0x8a3ed1f2d15b5015396f494cc1da977da38a6773",
+      "https://etherscan.io/token/0x12652c6d93fdb6f4f37d48a8687783c782bb0d10",
+      "https://ethplorer.io/address/0x12652c6d93fdb6f4f37d48a8687783c782bb0d10",
+      "https://mantlescan.xyz/token/0x8A3ed1F2D15b5015396F494cc1Da977da38A6773"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/"
+    ],
+    "chat_url": [
+      "https://discord.gg/entangle"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Entanglefi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "entangle_community",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/34522/thumb/Logo_-_Icon_Square.png?1733260911",
+    "small": "https://coin-images.coingecko.com/coins/images/34522/small/Logo_-_Icon_Square.png?1733260911",
+    "large": "https://coin-images.coingecko.com/coins/images/34522/large/Logo_-_Icon_Square.png?1733260911"
+  },
+  "last_updated": "2025-07-11T04:58:13.890845+00:00"
+}

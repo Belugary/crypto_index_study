@@ -1,0 +1,56 @@
+{
+  "id": "wrapped-beacon-eth",
+  "symbol": "wbeth",
+  "name": "Wrapped Beacon ETH",
+  "categories": [
+    "Crypto-Backed Tokens",
+    "BNB Chain Ecosystem",
+    "Wrapped-Tokens",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xa2e3356610840701bdf5611a53974510ae27e2e1",
+    "binance-smart-chain": "0xa2e3356610840701bdf5611a53974510ae27e2e1"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "WBETH is a liquid staking token, where 1 WBETH represents 1 ETH and the total staking rewards accrued by the ETH token on ETH Staking.\r\n\r\nWBETH will allow users to obtain immediate liquidity and participate in DeFi projects, while ensuring their eligibility to receive the corresponding ETH Staking rewards accrued.\r\n\r\nOn-chain users can stake their ETH to obtain WBETH by interacting with the official smart contract provided by Binance.\r\nBinance users can wrap their BETH tokens to WBETH, and unwrap their WBETH to BETH tokens on the Binance ETH Staking page at zero fees."
+  },
+  "links": {
+    "homepage": [
+      "https://www.binance.com/en/wbeth"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xa2e3356610840701bdf5611a53974510ae27e2e1",
+      "https://platform.arkhamintelligence.com/explorer/token/wrapped-beacon-eth",
+      "https://bscscan.com/token/0xa2e3356610840701bdf5611a53974510ae27e2e1",
+      "https://ethplorer.io/address/0xa2e3356610840701bdf5611a53974510ae27e2e1",
+      "https://bnb.dex.guru/token/0xa2e3356610840701bdf5611a53974510ae27e2e1",
+      "https://binplorer.com/address/0xa2e3356610840701bdf5611a53974510ae27e2e1"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "binance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "binance_announcements",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/30061/thumb/wbeth-icon.png?1696528983",
+    "small": "https://coin-images.coingecko.com/coins/images/30061/small/wbeth-icon.png?1696528983",
+    "large": "https://coin-images.coingecko.com/coins/images/30061/large/wbeth-icon.png?1696528983"
+  },
+  "last_updated": "2025-07-11T05:01:57.190874+00:00"
+}

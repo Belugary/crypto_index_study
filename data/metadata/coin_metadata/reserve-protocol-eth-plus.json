@@ -1,0 +1,52 @@
+{
+  "id": "reserve-protocol-eth-plus",
+  "symbol": "eth+",
+  "name": "ETHPlus",
+  "categories": [
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xe72b141df173b999ae7c1adcbf60cc9833ce56a8",
+    "arbitrum-one": "0x18c14c2d707b2212e17d1579789fc06010cfca23"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "ETH+ is a diversified LSD index launched on Reserve Protocol. It's purpose is to be Ethereum's safety yield index, earning from a collateral basket of Lido, Rocket, and staked Frax ETH. "
+  },
+  "links": {
+    "homepage": [
+      "https://app.reserve.org/ethereum/token/0xe72b141df173b999ae7c1adcbf60cc9833ce56a8/overview"
+    ],
+    "whitepaper": "https://forum.reserve.org/t/rfc-introducing-eth/386",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xe72b141df173b999ae7c1adcbf60cc9833ce56a8",
+      "https://platform.arkhamintelligence.com/explorer/token/reserve-protocol-eth-plus",
+      "https://arbiscan.io/token/0x18c14c2d707b2212e17d1579789fc06010cfca23",
+      "https://ethplorer.io/address/0xe72b141df173b999ae7c1adcbf60cc9833ce56a8"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/38061/thumb/ETH__Logo.png?1716440789",
+    "small": "https://coin-images.coingecko.com/coins/images/38061/small/ETH__Logo.png?1716440789",
+    "large": "https://coin-images.coingecko.com/coins/images/38061/large/ETH__Logo.png?1716440789"
+  },
+  "last_updated": "2025-07-11T05:00:25.262812+00:00"
+}

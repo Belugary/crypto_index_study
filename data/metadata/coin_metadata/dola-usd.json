@@ -1,0 +1,76 @@
+{
+  "id": "dola-usd",
+  "symbol": "dola",
+  "name": "DOLA",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "BNB Chain Ecosystem",
+    "Fantom Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Base Ecosystem",
+    "Crypto-backed Stablecoin",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x865377367054516e17014ccded1e7d814edc9ce4",
+    "optimistic-ethereum": "0x8ae125e8653821e851f12a49f7765db9a9ce7384",
+    "arbitrum-one": "0x6a7661795c374c0bfc635934efaddff3a7ee23b6",
+    "base": "0x4621b7a9c75199271f773ebd9a499dbd165c3191",
+    "binance-smart-chain": "0x2f29bc0ffaf9bff337b31cbe6cb5fb3bf12e5840",
+    "fantom": "0x3129662808bec728a27ab6a6b9afd3cbaca8a43c"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "DOLA is the asset and debt backed decentralized stablecoin of Inverse Finance"
+  },
+  "links": {
+    "homepage": [
+      "https://www.inverse.finance/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/address/0x865377367054516e17014ccded1e7d814edc9ce4",
+      "https://platform.arkhamintelligence.com/explorer/token/dola-usd",
+      "https://etherscan.io/token/0x865377367054516e17014ccded1e7d814edc9ce4",
+      "https://ethplorer.io/address/0x865377367054516e17014ccded1e7d814edc9ce4",
+      "https://ftmscan.com/token/0x3129662808bec728a27ab6a6b9afd3cbaca8a43c",
+      "https://bscscan.com/token/0x2f29bc0ffaf9bff337b31cbe6cb5fb3bf12e5840",
+      "https://optimistic.etherscan.io/token/0x8ae125e8653821e851f12a49f7765db9a9ce7384",
+      "https://arbiscan.io/token/0x6a7661795c374c0bfc635934efaddff3a7ee23b6",
+      "https://optimism.dex.guru/token/0x8ae125e8653821e851f12a49f7765db9a9ce7384",
+      "https://binplorer.com/address/0x2f29bc0ffaf9bff337b31cbe6cb5fb3bf12e5840"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/YpYJC7R5nv"
+    ],
+    "announcement_url": [
+      "https://medium.com/inversefinance"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "InverseFinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "InverseFinance",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/InverseFinance"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/14287/thumb/dola.png?1696513984",
+    "small": "https://coin-images.coingecko.com/coins/images/14287/small/dola.png?1696513984",
+    "large": "https://coin-images.coingecko.com/coins/images/14287/large/dola.png?1696513984"
+  },
+  "last_updated": "2025-07-11T04:58:07.969457+00:00"
+}

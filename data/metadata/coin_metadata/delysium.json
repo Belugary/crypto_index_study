@@ -1,0 +1,64 @@
+{
+  "id": "delysium",
+  "symbol": "agi",
+  "name": "Delysium",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "BNB Chain Ecosystem",
+    "Solana Ecosystem",
+    "Ethereum Ecosystem",
+    "AI Agents",
+    "Alameda Research Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x7da2641000cbb407c329310c461b2cb9c70c3046",
+    "binance-smart-chain": "0x818835503f55283cd51a4399f595e295a9338753",
+    "solana": "8bUbe1ujsM1G3JEbBWVVCXa2widmuPdKUB2rGKMYFw7R"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Delysium is building AI-powered virtual society with $AGI. Delysium has been constructing a virtual world where 1 billion individuals and 100 billion AI Virtual Beings coexist on blockchain."
+  },
+  "links": {
+    "homepage": [
+      "https://www.delysium.com"
+    ],
+    "whitepaper": "https://www.delysium.com/whitepaper",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x7da2641000cbb407c329310c461b2cb9c70c3046",
+      "https://platform.arkhamintelligence.com/explorer/token/delysium",
+      "https://ethplorer.io/address/0x7da2641000cbb407c329310c461b2cb9c70c3046",
+      "https://bscscan.com/token/0x818835503f55283cd51a4399f595e295a9338753",
+      "https://binplorer.com/address/0x818835503f55283cd51a4399f595e295a9338753",
+      "https://solscan.io/token/8bUbe1ujsM1G3JEbBWVVCXa2widmuPdKUB2rGKMYFw7R"
+    ],
+    "official_forum_url": [
+      "https://www.youtube.com/channel/UCalVfmQbvDKVZlz8Cypo9xA"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/thedelysium",
+      "https://delysium.medium.com/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "The_Delysium",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/29299/thumb/AGI_logo_200.png?1696528251",
+    "small": "https://coin-images.coingecko.com/coins/images/29299/small/AGI_logo_200.png?1696528251",
+    "large": "https://coin-images.coingecko.com/coins/images/29299/large/AGI_logo_200.png?1696528251"
+  },
+  "last_updated": "2025-07-11T04:58:03.663767+00:00"
+}

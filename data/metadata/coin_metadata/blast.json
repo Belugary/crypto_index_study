@@ -1,0 +1,56 @@
+{
+  "id": "blast",
+  "symbol": "blast",
+  "name": "Blast",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 2 (L2)",
+    "eGirl Capital Portfolio",
+    "Paradigm Portfolio",
+    "Blast Ecosystem"
+  ],
+  "asset_platform_id": "blast",
+  "platforms": {
+    "blast": "0xb1a5700fa2358173fe465e6ea4ff52e36e88e2ad"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Blast is the only Ethereum Layer 2 (L2) with native yield for ETH and stablecoins. Blast's yield comes from ETH staking and Real-World Asset (RWA) protocols, automatically passing the yield back to users. While other L2s have a default interest rate of 0%, Blast offers 3.4% yield for ETH and 8% for stablecoins. Blast is unique in providing builders with new building blocks: native yield and gas revenue sharing. Dapps can use these to build more competitive products and business models than on any other chain."
+  },
+  "links": {
+    "homepage": [
+      "https://blast.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://blastscan.io/token/0xb1a5700fa2358173fe465e6ea4ff52e36e88e2ad",
+      "https://platform.arkhamintelligence.com/explorer/token/blast",
+      "https://blastplorer.info/address/0xb1a5700fa2358173fe465e6ea4ff52e36e88e2ad",
+      "https://blastexplorer.io/token/0xb1a5700fa2358173fe465e6ea4ff52e36e88e2ad"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/blast-l2"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Blast",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/35494/thumb/Blast.jpg?1719385662",
+    "small": "https://coin-images.coingecko.com/coins/images/35494/small/Blast.jpg?1719385662",
+    "large": "https://coin-images.coingecko.com/coins/images/35494/large/Blast.jpg?1719385662"
+  },
+  "last_updated": "2025-07-11T04:57:27.771215+00:00"
+}

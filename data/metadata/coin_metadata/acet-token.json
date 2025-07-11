@@ -1,0 +1,53 @@
+{
+  "id": "acet-token",
+  "symbol": "act",
+  "name": "Acet",
+  "categories": [
+    "BNB Chain Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x9f3bcbe48e8b754f331dfc694a894e8e686ac31d"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "ACT (Acet) is DeFansFi Token. It is initiated on the concept of “Zero Initial Supply”; in the belief that to be a digital asset, the initial amount of supply should start at “0”, and the amount of the token should only be generated based on the holders’ demand."
+  },
+  "links": {
+    "homepage": [
+      "https://acet.finance/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x9f3bcbe48e8b754f331dfc694a894e8e686ac31d",
+      "https://platform.arkhamintelligence.com/explorer/token/acet-token",
+      "https://binplorer.com/address/0x9f3bcbe48e8b754f331dfc694a894e8e686ac31d"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.facebook.com/ACTDeFansFi/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ACTDeFansFi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "acetdefansfi",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/acetdefi/acet-farm"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/18205/thumb/ACET-LOGO.png?1696517703",
+    "small": "https://coin-images.coingecko.com/coins/images/18205/small/ACET-LOGO.png?1696517703",
+    "large": "https://coin-images.coingecko.com/coins/images/18205/large/ACET-LOGO.png?1696517703"
+  },
+  "last_updated": "2025-07-11T04:56:40.843604+00:00"
+}

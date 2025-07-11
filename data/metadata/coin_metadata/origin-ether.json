@@ -1,0 +1,63 @@
+{
+  "id": "origin-ether",
+  "symbol": "oeth",
+  "name": "Origin Ether",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Liquid Staking Tokens",
+    "Ethereum Ecosystem",
+    "Liquid Staked ETH",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x856c4efb76c1d1ae02e20ceb03a2a6a08b0b8dc3"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Origin Ether (OETH) is a pure LST fully backed by reserves of ETH. OETH’s meticulous design and strong peg make it an ideal building block for rewarding yield strategies across DeFi. Thanks to rebasing, OETH holders earn yield directly in their wallets while retaining full capital control. Developed by the professionals at Origin Protocol."
+  },
+  "links": {
+    "homepage": [
+      "https://oeth.com/",
+      "https://originprotocol.com/",
+      "https://ousd.com/"
+    ],
+    "whitepaper": "https://docs.oeth.com/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x856c4efb76c1d1ae02e20ceb03a2a6a08b0b8dc3",
+      "https://platform.arkhamintelligence.com/explorer/token/origin-ether",
+      "https://ethplorer.io/address/0x856c4efb76c1d1ae02e20ceb03a2a6a08b0b8dc3"
+    ],
+    "official_forum_url": [
+      "https://www.tiktok.com/@origin_protocol",
+      "https://instagram.com/originprotocol",
+      "https://www.linkedin.com/company/originprotocol/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/ogn",
+      "https://blog.originprotocol.com/",
+      "https://www.youtube.com/c/originprotocol"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "OriginProtocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "originprotocol",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/29733/thumb/OETH.png?1696528663",
+    "small": "https://coin-images.coingecko.com/coins/images/29733/small/OETH.png?1696528663",
+    "large": "https://coin-images.coingecko.com/coins/images/29733/large/OETH.png?1696528663"
+  },
+  "last_updated": "2025-07-11T04:59:55.131358+00:00"
+}

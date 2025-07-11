@@ -1,0 +1,54 @@
+{
+  "id": "usd1-wlfi",
+  "symbol": "usd1",
+  "name": "USD1",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "Ethereum Ecosystem",
+    "World Liberty Financial Portfolio"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
+    "ethereum": "0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.worldlibertyfinancial.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
+      "https://binplorer.com/address/0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
+      "https://etherscan.io/token/0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
+      "https://ethplorer.io/address/0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "worldlibertyfi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "defiant1s",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54977/thumb/USD1_1000x1000_transparent.png?1749297002",
+    "small": "https://coin-images.coingecko.com/coins/images/54977/small/USD1_1000x1000_transparent.png?1749297002",
+    "large": "https://coin-images.coingecko.com/coins/images/54977/large/USD1_1000x1000_transparent.png?1749297002"
+  },
+  "last_updated": "2025-07-11T05:01:33.147230+00:00"
+}

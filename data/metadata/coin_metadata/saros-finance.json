@@ -1,0 +1,58 @@
+{
+  "id": "saros-finance",
+  "symbol": "saros",
+  "name": "Saros",
+  "categories": [
+    "Solana Ecosystem",
+    "Payment Solutions",
+    "Viction Ecosystem"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "SarosY6Vscao718M4A778z4CGtvcwcGef5M9MEH1LGL",
+    "tomochain": "0xb786d9c8120d311b948cf1e5aa48d8fbacf477e2"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Saros is the ultimate app designed to redefine your Web3 experience on Solana. It provides seamless access to the evolving global, decentralized economy, all conveniently accessible, right at your fingertips. The Saros ecosystem encompasses the Saros Super App, Saros ID, and the Saros token ($SAROS). With Saros, you can elevate your daily financial routine, navigate the Solana network effortlessly, and experience fast and secure transactions. Embracing Solana's innovation, Saros opens up a world of infinite possibilities for your financial future within a comprehensive app. "
+  },
+  "links": {
+    "homepage": [
+      "https://www.saros.xyz/",
+      "https://www.saros.finance/"
+    ],
+    "whitepaper": "https://saros.link/one-page",
+    "blockchain_site": [
+      "https://solscan.io/token/SarosY6Vscao718M4A778z4CGtvcwcGef5M9MEH1LGL",
+      "https://platform.arkhamintelligence.com/explorer/token/saros-finance",
+      "https://tomoscan.io/token/0xb786d9c8120d311b948cf1e5aa48d8fbacf477e2"
+    ],
+    "official_forum_url": [
+      "http://blog.saros.xyz",
+      "http://docs.saros.xyz"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "saros_xyz",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "saros_finance",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Saros-Finance"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/34594/thumb/saros-token-logo.png?1705476813",
+    "small": "https://coin-images.coingecko.com/coins/images/34594/small/saros-token-logo.png?1705476813",
+    "large": "https://coin-images.coingecko.com/coins/images/34594/large/saros-token-logo.png?1705476813"
+  },
+  "last_updated": "2025-07-11T05:00:34.430808+00:00"
+}

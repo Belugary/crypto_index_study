@@ -1,0 +1,62 @@
+{
+  "id": "pumpbtc",
+  "symbol": "pumpbtc",
+  "name": "pumpBTC",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Liquid Staking Tokens",
+    "Ethereum Ecosystem",
+    "Liquid Staking",
+    "Liquid Staked BTC"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xf9c4ff105803a77ecb5dae300871ad76c2794fa4",
+    "ethereum": "0xf469fbd2abcd6b9de8e169d128226c0fc90a012e"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "PumpBTC serves as a Liquid Restaking Solution for Babylon. PumpBTC aims to help BTC holders maximize yields through Babylon's liquid staking - essentially rebuilding WBTC with native yield.\r\nBy abstracting complexities, PumpBTC facilitates effortless collaboration between users and Babylon node operators. Users can stake into Babylon with a single action through PumpBTC, immediately receiving liquidity tokens without waiting periods.\r\nOur mission is to bring DeFi into the Bitcoin ecosystem, driven by an ecosystem-centric approach and supported by seasoned DeFi experts and industry-leading partners."
+  },
+  "links": {
+    "homepage": [
+      "https://pumpbtc.xyz/"
+    ],
+    "whitepaper": "https://pumpbtc.gitbook.io/pumpbtc",
+    "blockchain_site": [
+      "https://bscscan.com/token/0xf9c4ff105803a77ecb5dae300871ad76c2794fa4",
+      "https://platform.arkhamintelligence.com/explorer/token/pumpbtc",
+      "https://binplorer.com/address/0xf9c4ff105803a77ecb5dae300871ad76c2794fa4",
+      "https://etherscan.io/token/0xf469fbd2abcd6b9de8e169d128226c0fc90a012e",
+      "https://ethplorer.io/address/0xf469fbd2abcd6b9de8e169d128226c0fc90a012e"
+    ],
+    "official_forum_url": [
+      "https://discord.com/invite/pumpbtc"
+    ],
+    "chat_url": [
+      "https://medium.com/@Pumpbtcxyz"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/pumpbtc/pumpBTC-contract"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39232/thumb/200pxPumpBTCLogo.png?1721227861",
+    "small": "https://coin-images.coingecko.com/coins/images/39232/small/200pxPumpBTCLogo.png?1721227861",
+    "large": "https://coin-images.coingecko.com/coins/images/39232/large/200pxPumpBTCLogo.png?1721227861"
+  },
+  "last_updated": "2025-07-11T05:00:15.345737+00:00"
+}

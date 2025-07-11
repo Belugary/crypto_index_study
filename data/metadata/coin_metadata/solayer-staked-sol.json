@@ -1,0 +1,58 @@
+{
+  "id": "solayer-staked-sol",
+  "symbol": "ssol",
+  "name": "Solayer Staked SOL",
+  "categories": [
+    "Solana Ecosystem",
+    "Liquid Staking Tokens",
+    "Restaking",
+    "Liquid Restaking Tokens",
+    "Liquid Staked SOL",
+    "Liquid Staking",
+    "Liquid Restaked SOL"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "sSo14endRuUbvQaJS3dq36Q829a3A6BEfoeeRGJywEh"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Solayer is the dominant restaking marketplace on Solana..\r\n\r\nWe aim to empower on-chain decentralized applications (dApps) with improved network bandwidth while securing the L1 at the same time.\r\n\r\nOur goal is to provide dApps on Solana with a greater likelihood of securing block space and prioritizing transaction inclusion.\r\n\r\nsSOL is the universal liquidity layer for delegates [dApps] and LRTs on Solayer. Every unit of SOL can be perceived as a unit of blockspace lent towards dApps, securing network bandwidth and TPS.\r\n\r\nThe stake delegated towards dApps, which derives an AVS SPL token, is built on top of sSOL-SOL liquidity. Similarly, LRTs are built on top of sSOL liquidity interface to generate vault strategies.\r\n\r\nThere are various ways of utilizing sSOL and earning maximum yield as an sSOL holder. You can delegate to dApps to bootstrap network bandwidth or participate in DeFi strategies to earn additional APY, starting with our launch partners.\r\n\r\nThere are various ways of utilizing sSOL and earning maximum yield as an sSOL Holder. You can delegate to dApps to bootstrap network bandwidth or participate in DeFi strategies to earn additional APY, starting with our launch partners.\r\n\r\nNow we will go through a couple of examples on how you can put your sSOL to work in AMMs, lending protocols, perpetual exchanges, and more.\r\n\r\n​\r\nLiquidity Vaults on Kamino\r\nKamino’s liquidity vaults are an automated liquidity solution that allows users to earn yield on their crypto assets by providing liquidity to concentrated liquidity market makers (CLMMs).\r\n\r\nA vault deploys liquidity into an underlying DEX pool, consisting of 2 tokens. When you deposit into a vault, you earn fees from trading volume.\r\n\r\nIn other words, if you deposit into a pool with sSOL and SOL, any token swaps that utilize that pool will incur a small cost to the swapper. As a Kamino depositor, you earn from that swap fee.\r\n\r\nVault Capital Deposit Example\r\n\r\nSituation: You have 100 sSOL worth $10,000 USD. You want to earn yield on your assets without active management.\r\n\r\nUse Case: Deposit your sSOL into a Kamino vault. Your sSOL will provide liquidity to a DEX, earning fees from trading volume. Kamino automates rebalancing and compounding, maximizing your yield.\r\n\r\nBenefit: Earn yield passively while maintaining exposure to sSOL.\r\n\r\n​\r\nLiquidity Provision on Orca\r\nOrca utilizes a Concentrated Liquidity Automated Market Maker (CLAMM) to enhance capital efficiency and yield for liquidity providers. By providing liquidity to Orca’s pools, users can earn yield on their crypto assets through trading fees.\r\n\r\nWhen you provide liquidity to an Orca pool, such as the sSOL-SOL pair, you earn fees from each token swap within that pool. This means if you deposit sSOL and SOL into the pool, any trades that occur between these tokens will generate fees, which are distributed to you as a liquidity provider. Orca automates this process, ensuring optimal capital efficiency and low slippage.\r\n\r\nLP Example\r\n\r\nSituation: You have 100 sSOL worth $10,000 USD. You want to earn yield on your assets without active management.\r\n\r\nUse Case: Deposit your sSOL and an equivalent amount of SOL into an Orca CLAMM pool. Your sSOL and SOL will provide liquidity to the DEX, earning fees from trading volume. Orca’s advanced CLAMM technology will ensure that your assets are utilized efficiently, maximizing your returns.\r\n\r\nBenefit: Earn yield passively from trading fees while maintaining exposure to both sSOL and SOL."
+  },
+  "links": {
+    "homepage": [
+      "https://solayer.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/sSo14endRuUbvQaJS3dq36Q829a3A6BEfoeeRGJywEh",
+      "https://platform.arkhamintelligence.com/explorer/token/solayer-staked-sol"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/solayerlabs"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "solayer_labs",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/solayer-labs/solayer-improvement-proposal/blob/main/solayer-litepaper-v0.pdf"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39933/thumb/Green_Back_01a_%282%29.png?1744950020",
+    "small": "https://coin-images.coingecko.com/coins/images/39933/small/Green_Back_01a_%282%29.png?1744950020",
+    "large": "https://coin-images.coingecko.com/coins/images/39933/large/Green_Back_01a_%282%29.png?1744950020"
+  },
+  "last_updated": "2025-07-11T05:00:44.746418+00:00"
+}

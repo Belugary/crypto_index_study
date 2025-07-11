@@ -1,0 +1,63 @@
+{
+  "id": "usdx-money-usdx",
+  "symbol": "usdx",
+  "name": "Stables Labs USDX",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "BNB Chain Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xf3527ef8de265eaa3716fb312c12847bfba66cef",
+    "arbitrum-one": "0xf3527ef8de265eaa3716fb312c12847bfba66cef",
+    "ethereum": "0xf3527ef8de265eaa3716fb312c12847bfba66cef"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "USDX (Website: usdx.money | Twitter: @StablesLabs) is a synthetic USD stablecoin designed to provide stability without relying on traditional banking infrastructure. Backed by delta-neutral positions across multiple exchanges, USDX seamlessly bridges the gap between DeFi, CeFi, and TradFi. It enables DeFi users to access traditional delta-neutral strategies executed in CeFi platforms. As a crypto-native stablecoin, USDX offers a scalable, censorship-resistant, and highly stable solution for users looking to navigate the world of decentralized finance with confidence."
+  },
+  "links": {
+    "homepage": [
+      "http://stableslabs.com",
+      "https://usdx.money/"
+    ],
+    "whitepaper": "https://docs.usdx.money/",
+    "blockchain_site": [
+      "https://bscscan.com/token/0xf3527ef8de265eaa3716fb312c12847bfba66cef",
+      "https://platform.arkhamintelligence.com/explorer/token/usdx-money-usdx",
+      "https://etherscan.io/token/0xf3527ef8de265eaa3716fb312c12847bfba66cef",
+      "https://arbiscan.io/token/0xf3527ef8de265eaa3716fb312c12847bfba66cef",
+      "https://binplorer.com/address/0xf3527ef8de265eaa3716fb312c12847bfba66cef",
+      "https://ethplorer.io/address/0xf3527ef8de265eaa3716fb312c12847bfba66cef"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/stableslabs",
+      "https://medium.com/@StablesLabs"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "StablesLabs",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "StablesLabsTG",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/50360/thumb/USDX200px.png?1731906044",
+    "small": "https://coin-images.coingecko.com/coins/images/50360/small/USDX200px.png?1731906044",
+    "large": "https://coin-images.coingecko.com/coins/images/50360/large/USDX200px.png?1731906044"
+  },
+  "last_updated": "2025-07-11T05:01:38.402091+00:00"
+}

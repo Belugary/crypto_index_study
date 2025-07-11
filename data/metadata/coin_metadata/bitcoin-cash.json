@@ -1,0 +1,62 @@
+{
+  "id": "bitcoin-cash",
+  "symbol": "bch",
+  "name": "Bitcoin Cash",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Bitcoin Fork",
+    "Proof of Work (PoW)",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "SHA-256",
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Bitcoin Cash is a hard fork of Bitcoin with a protocol upgrade to fix on-chain capacity. Bitcoin Cash intends to be a Bitcoin without Segregated Witness (SegWit) as soft fork, where upgrades of the protocol are done mainly through hard forks and without changing the original economic rules of the Bitcoin.\r\n\r\nBitcoin Cash (BCH) is released on 1st August 2017 as an upgraded version of the original Bitcoin Core software. The main upgrade is the increase in the block size limit from 1MB to 8MB. This effectively allows miners on the BCH chain to process up to 8 times more payments per second in comparison to Bitcoin. This makes for faster, cheaper transactions and a much smoother user experience.\r\n\r\nWhy was Bitcoin Cash Created?\r\n\r\nThe main objective of Bitcoin Cash is to to bring back the essential qualities of money inherent in the original Bitcoin software. Over the years, these qualities were filtered out of Bitcoin Core and progress was stifled by various people, organizations, and companies involved in Bitcoin protocol development. The result is that Bitcoin Core is currently unusable as money due to increasingly high fees per transactions and transfer times taking hours to complete. This is all because of the 1MB limitation of Bitcoin Core’s block size, causing it unable to accommodate to large number of transactions.\r\n\r\nEssentially Bitcoin Cash is a community-activated upgrade (otherwise known as a hard fork) of Bitcoin that increased the block size to 8MB, solving the scaling issues that plague Bitcoin Core today.\r\n\r\nNov 16th 2018: A hashwar resulted in a split between Bitcoin SV and Bitcoin ABC"
+  },
+  "links": {
+    "homepage": [
+      "https://bch.info/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://blockchair.com/bitcoin-cash",
+      "https://bch.btc.com/",
+      "https://explorer.bitcoin.com/bch",
+      "https://bch.tokenview.io/",
+      "https://hecoinfo.com/token/0xef3cebd77e0c52cb6f60875d9306397b5caca375",
+      "https://www.oklink.com/bch",
+      "https://3xpl.com/bitcoin-cash"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "bchchannel",
+    "subreddit_url": "https://www.reddit.com/r/btc",
+    "repos_url": {
+      "github": [
+        "https://github.com/bitcoincashorg/bitcoincash.org",
+        "https://github.com/gcash/bchd",
+        "https://github.com/k-nuth/kth",
+        "https://github.com/softwareverde/bitcoin-verde"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/780/thumb/bitcoin-cash-circle.png?1696501932",
+    "small": "https://coin-images.coingecko.com/coins/images/780/small/bitcoin-cash-circle.png?1696501932",
+    "large": "https://coin-images.coingecko.com/coins/images/780/large/bitcoin-cash-circle.png?1696501932"
+  },
+  "last_updated": "2025-07-11T04:57:21.744850+00:00"
+}

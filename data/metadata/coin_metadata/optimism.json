@@ -1,0 +1,64 @@
+{
+  "id": "optimism",
+  "symbol": "op",
+  "name": "Optimism",
+  "categories": [
+    "Smart Contract Platform",
+    "Optimism Ecosystem",
+    "Layer 2 (L2)",
+    "Paradigm Portfolio",
+    "Rollup",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "GMCI Layer 2 Index",
+    "GMCI Index",
+    "Optimism Superchain Ecosystem",
+    "Made in USA"
+  ],
+  "asset_platform_id": "optimistic-ethereum",
+  "platforms": {
+    "optimistic-ethereum": "0x4200000000000000000000000000000000000042"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Optimism is more than just a single blockchain – it's a growing network of chains called the Superchain, all built on the open-source OP Stack. While OP Mainnet was the first, many prominent chains now run on the Optimism’s OP Stack, including Base (by Coinbase), Unichain (by Uniswap), Ink (by Kraken), and World Chain (by Worldcoin). The OP Stack has become the leading framework for Ethereum Layer 2 chains, powering the majority of L2 activity today.\r\nEvery OP Chain in the Superchain contributes back to the Optimism Collectiv and all chains follow a standardized revenue-sharing model: the greater of 2.5% of total chain revenue or 15% of onchain profit (defined as fees minus L1 gas costs) is paid back to the Optimism.\r\nBy aligning economic incentives across many chains, Optimism transforms Ethereum scaling into a sustainable flywheel by delivering fast, low-cost transactions while reinvesting in the future of the ecosystem. OP holders participate in governance to shape protocol upgrades, funding decisions, and more."
+  },
+  "links": {
+    "homepage": [
+      "https://app.optimism.io/governance",
+      "https://optimism.mirror.xyz/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://optimistic.etherscan.io/token/0x4200000000000000000000000000000000000042",
+      "https://platform.arkhamintelligence.com/explorer/token/optimism",
+      "https://www.oklink.com/optimism",
+      "https://optimism.dex.guru/token/0x4200000000000000000000000000000000000042"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord-gateway.optimism.io/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": "https://snapshot.org/#/opcollective.eth",
+    "twitter_screen_name": "Optimism",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/ethereum-optimism/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/25244/thumb/Optimism.png?1696524385",
+    "small": "https://coin-images.coingecko.com/coins/images/25244/small/Optimism.png?1696524385",
+    "large": "https://coin-images.coingecko.com/coins/images/25244/large/Optimism.png?1696524385"
+  },
+  "last_updated": "2025-07-11T04:59:52.320582+00:00"
+}

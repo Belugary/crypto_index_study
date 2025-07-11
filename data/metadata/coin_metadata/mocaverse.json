@@ -1,0 +1,64 @@
+{
+  "id": "mocaverse",
+  "symbol": "moca",
+  "name": "Moca Network",
+  "categories": [
+    "Gaming (GameFi)",
+    "Ethereum Ecosystem",
+    "Decentralized Identifier (DID)",
+    "Animoca Brands Portfolio",
+    "Base Ecosystem",
+    "OKX Ventures Portfolio",
+    "Outlier Ventures Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xf944e35f95e819e752f3ccb5faf40957d311e8c5",
+    "base": "0x2b11834ed1feaed4b4b3a86a6f571315e25a884d"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Moca Network is building the chain-agnostic digital identity infrastructure for the open internet - one universal account for your assets, identity, and reputation across multiple ecosystems. Moca Network has direct (Animoca Brands) access to a portfolio of 540+ companies to tap into 700M+ addressable users.\r\n\r\nAIR Kit, as the key product built by Moca Network, enables Web2 and Web3 projects to create a universal embedded account for users to own and use assets, identity, and reputation data, while getting access to a suite of DeFi and consumer services. AIR Kit empowers all large user base apps to create a Telegram mini-app like ecosystem within their own apps with embedded blockchain features, while ensuring these users can use the same account, identity, reputation across all consumer apps on any chains adopting the AIR Kit.\r\n\r\nMocaverse, one of the key consumer platforms adopting the AIR Kit, alongside SK Planet, One Football, and more partners, provides curated experiences and rewards to users based on their identity and reputation through Moca ID and products like Mocana, MocaDrop and MocaList.\r\n\r\n$MOCA is the utility token that powers the Moca Network - used as fees for transactions, data generation, storage, verification for users and AI agents, and for DAO governance. It is issued by the Moca Foundation.\r\n\r\nLearn more about Moca Network at https://moca.network/"
+  },
+  "links": {
+    "homepage": [
+      "https://www.moca.network/",
+      "https://www.moca.foundation/",
+      "https://www.mocaverse.xyz/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xf944e35f95e819e752f3ccb5faf40957d311e8c5",
+      "https://platform.arkhamintelligence.com/explorer/token/mocaverse",
+      "https://ethplorer.io/address/0xf944e35f95e819e752f3ccb5faf40957d311e8c5",
+      "https://basescan.org/token/0x2b11834ed1feaed4b4b3a86a6f571315e25a884d"
+    ],
+    "official_forum_url": [
+      "https://x.com/MOCAFoundation"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/MocaverseNFT",
+      "https://medium.com/mocaverse"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Moca_Network",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Mocaverse",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/37812/thumb/moca.jpg?1720693068",
+    "small": "https://coin-images.coingecko.com/coins/images/37812/small/moca.jpg?1720693068",
+    "large": "https://coin-images.coingecko.com/coins/images/37812/large/moca.jpg?1720693068"
+  },
+  "last_updated": "2025-07-11T04:59:29.889297+00:00"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "dexe",
+  "symbol": "dexe",
+  "name": "DeXe",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xde4ee8057785a7e8e800db58f9784845a5c2cbd6",
+    "binance-smart-chain": "0x6e88056e8376ae7709496ba64d37fa2f8015ce3e"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "UA",
+  "description": {
+    "en": "1. Using the DeXe Utility token in the ecosystem:\r\n1.1 Programmed redemption and burning of tokens for a certain % of the traders’ compensation.\r\n1.2 Control over DeXe treasury better. One of the DeXe functionality includes farming rewards with DeXe.network from social trading activity.\r\n1.3 Use of the token by the holders for casting a ballot and settling on choices regarding:\r\na. The timespan and adjustment of the percentage of tokens burned.\r\nb. Effect on the number of remunerations got for farming (increase or decline the percent of accrual)\r\nc. Voting for the date of burning tokens and ascertaining the reward for farming (details below).\r\n1.4 Work of the system for insuring users’ deposits by staking tokens on DEX."
+  },
+  "links": {
+    "homepage": [
+      "https://dexe.network/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xde4ee8057785a7e8e800db58f9784845a5c2cbd6",
+      "https://platform.arkhamintelligence.com/explorer/token/dexe",
+      "https://ethplorer.io/address/0xde4ee8057785a7e8e800db58f9784845a5c2cbd6",
+      "https://bscscan.com/token/0x6e88056e8376ae7709496ba64d37fa2f8015ce3e",
+      "https://binplorer.com/address/0x6e88056e8376ae7709496ba64d37fa2f8015ce3e"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "http://dexenetwork.medium.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/dexe-network/dexe"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/12713/thumb/DEXE_token_logo.png?1696512514",
+    "small": "https://coin-images.coingecko.com/coins/images/12713/small/DEXE_token_logo.png?1696512514",
+    "large": "https://coin-images.coingecko.com/coins/images/12713/large/DEXE_token_logo.png?1696512514"
+  },
+  "last_updated": "2025-07-11T04:58:04.266618+00:00"
+}

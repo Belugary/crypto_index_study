@@ -1,0 +1,53 @@
+{
+  "id": "gatechain-token",
+  "symbol": "gt",
+  "name": "Gate",
+  "categories": [
+    "Smart Contract Platform",
+    "Exchange-based Tokens",
+    "Centralized Exchange (CEX) Token",
+    "Ethereum Ecosystem",
+    "Proof of Stake (PoS)"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xe66747a101bff2dba3697199dcce5b743b454759"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://gatechain.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xe66747a101bff2dba3697199dcce5b743b454759",
+      "https://platform.arkhamintelligence.com/explorer/token/gatechain-token",
+      "https://ethplorer.io/address/0xe66747a101bff2dba3697199dcce5b743b454759"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "gatechain_io",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/8183/thumb/200X200.png?1735246724",
+    "small": "https://coin-images.coingecko.com/coins/images/8183/small/200X200.png?1735246724",
+    "large": "https://coin-images.coingecko.com/coins/images/8183/large/200X200.png?1735246724"
+  },
+  "last_updated": "2025-07-11T04:58:31.867283+00:00"
+}

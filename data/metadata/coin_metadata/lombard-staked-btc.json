@@ -1,0 +1,80 @@
+{
+  "id": "lombard-staked-btc",
+  "symbol": "lbtc",
+  "name": "Lombard Staked BTC",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem",
+    "Sui Ecosystem",
+    "Base Ecosystem",
+    "Restaking",
+    "Berachain Ecosystem",
+    "Liquid Restaking Tokens",
+    "Sonic Ecosystem",
+    "Swellchain Ecosystem",
+    "Corn Ecosystem",
+    "Liquid Staked BTC"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x8236a87084f8b84306f72007f36f2618a5634494",
+    "berachain": "0xecac9c5f704e954931349da37f60e39f515c11c1",
+    "sonic": "0xecac9c5f704e954931349da37f60e39f515c11c1",
+    "sui": "0x3e8e9423d80e1774a7ca128fccd8bf5f1f7753be658c5e645929037f7c819040::lbtc::LBTC",
+    "swellchain": "0xecac9c5f704e954931349da37f60e39f515c11c1",
+    "corn": "0xecac9c5f704e954931349da37f60e39f515c11c1",
+    "base": "0xecac9c5f704e954931349da37f60e39f515c11c1",
+    "binance-smart-chain": "0xecac9c5f704e954931349da37f60e39f515c11c1"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Lombard unlocks Bitcoin’s potential as a dynamic financial tool by connecting it to the world of decentralized finance (DeFi). Its flagship product, LBTC, is the Universal Liquid Bitcoin Standard, which is yield-bearing, natively cross-chain, and backed 1:1 by BTC. LBTC empowers BTC holders to earn Babylon staking yields and actively engage in DeFi activities such as trading, borrowing, lending, yield farming, and more."
+  },
+  "links": {
+    "homepage": [
+      "https://www.lombard.finance/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x8236a87084f8b84306f72007f36f2618a5634494",
+      "https://platform.arkhamintelligence.com/explorer/token/lombard-staked-btc",
+      "https://ethplorer.io/address/0x8236a87084f8b84306f72007f36f2618a5634494",
+      "https://bscscan.com/token/0xecac9c5f704e954931349da37f60e39f515c11c1",
+      "https://binplorer.com/address/0xecAc9C5F704e954931349Da37F60E39f515c11c1",
+      "https://basescan.org/token/0xecac9c5f704e954931349da37f60e39f515c11c1",
+      "https://cornscan.io/token/0xecac9c5f704e954931349da37f60e39f515c11c1",
+      "https://berascan.com/token/0xecAc9C5F704e954931349Da37F60E39f515c11c1",
+      "https://sonicscan.org/token/0xecAc9C5F704e954931349Da37F60E39f515c11c1",
+      "https://suiscan.xyz/mainnet/coin/0x3e8e9423d80e1774a7ca128fccd8bf5f1f7753be658c5e645929037f7c819040::lbtc::LBTC/txs"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/lombardfinance/",
+      "https://www.lombard.finance/blog/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/2HG7G69twc"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "lombard_finance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "+yKL57AkmSg84YTgx",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/lombard-finance"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39969/thumb/LBTC_Logo.png?1724959872",
+    "small": "https://coin-images.coingecko.com/coins/images/39969/small/LBTC_Logo.png?1724959872",
+    "large": "https://coin-images.coingecko.com/coins/images/39969/large/LBTC_Logo.png?1724959872"
+  },
+  "last_updated": "2025-07-11T04:59:17.377394+00:00"
+}

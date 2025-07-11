@@ -1,0 +1,69 @@
+{
+  "id": "usual-usd",
+  "symbol": "usd0",
+  "name": "Usual USD",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "BNB Chain Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Base Ecosystem",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x73a15fed60bf67631dc6cd7bc5b6e8da8190acf5",
+    "base": "0x758a3e0b1f842c9306b783f8a4078c6c8c03a270",
+    "binance-smart-chain": "0x758a3e0b1f842c9306b783f8a4078c6c8c03a270",
+    "arbitrum-one": "0x35f1c5cb7fb977e669fd244c567da99d8a3a6850"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "USD0 is a stablecoin fully backed 1:1 by Real-World Assets (RWA) like US Treasury Bills. It provides users with a stable, secure asset that is independent of traditional banking systems, fully transferable, and accessible within the DeFi ecosystem. As the core stability asset of Usual, USD0 supports transparency and security by maintaining real-time reserves, offering a non-fractional, reliable alternative to stablecoins like USDT and USDC."
+  },
+  "links": {
+    "homepage": [
+      "https://usual.money",
+      "https://app.usual.money"
+    ],
+    "whitepaper": "https://docs.usual.money/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x73a15fed60bf67631dc6cd7bc5b6e8da8190acf5",
+      "https://platform.arkhamintelligence.com/explorer/token/usual-usd",
+      "https://ethplorer.io/address/0x73a15fed60bf67631dc6cd7bc5b6e8da8190acf5",
+      "https://arbiscan.io/token/0x35f1C5cB7Fb977E669fD244C567Da99d8a3a6850",
+      "https://bscscan.com/token/0x758a3e0b1f842c9306b783f8a4078c6c8c03a270",
+      "https://binplorer.com/address/0x758a3e0b1f842c9306b783f8a4078c6c8c03a270",
+      "https://basescan.org/token/0x758a3e0b1f842c9306b783f8a4078c6c8c03a270"
+    ],
+    "official_forum_url": [
+      "https://linktr.ee/usualmoney",
+      "https://linkedin.usual.money/"
+    ],
+    "chat_url": [
+      "https://discord.usual.money/",
+      "https://blog.usual.money/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/38272/thumb/USD0LOGO.png?1716962811",
+    "small": "https://coin-images.coingecko.com/coins/images/38272/small/USD0LOGO.png?1716962811",
+    "large": "https://coin-images.coingecko.com/coins/images/38272/large/USD0LOGO.png?1716962811"
+  },
+  "last_updated": "2025-07-11T05:01:39.645277+00:00"
+}

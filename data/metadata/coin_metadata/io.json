@@ -1,0 +1,59 @@
+{
+  "id": "io",
+  "symbol": "io",
+  "name": "io.net",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Internet of Things (IOT)",
+    "Binance Launchpool",
+    "Solana Ecosystem",
+    "DePIN",
+    "Animoca Brands Portfolio",
+    "Multicoin Capital Portfolio",
+    "Delphi Ventures Portfolio",
+    "OKX Ventures Portfolio",
+    "Made in USA"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "BZLbGTNCSFfoth2GYDtwr7e4imWzpR5jqcUuGEwr646K"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "io.net the world’s largest decentralized computing network that allows machine learning engineers to access scalable distributed clusters at a small fraction of the cost of comparable centralized services.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://io.net"
+    ],
+    "whitepaper": "https://docs.io.net",
+    "blockchain_site": [
+      "https://solscan.io/token/BZLbGTNCSFfoth2GYDtwr7e4imWzpR5jqcUuGEwr646K",
+      "https://platform.arkhamintelligence.com/explorer/token/io"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/ionet-official/"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ionet",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/37754/thumb/io_blackbg.png?1715446363",
+    "small": "https://coin-images.coingecko.com/coins/images/37754/small/io_blackbg.png?1715446363",
+    "large": "https://coin-images.coingecko.com/coins/images/37754/large/io_blackbg.png?1715446363"
+  },
+  "last_updated": "2025-07-11T04:58:52.927413+00:00"
+}

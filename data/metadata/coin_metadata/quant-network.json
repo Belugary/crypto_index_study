@@ -1,0 +1,61 @@
+{
+  "id": "quant-network",
+  "symbol": "qnt",
+  "name": "Quant",
+  "categories": [
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "Energi Ecosystem",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x4a220e6096b25eadb88358cb44068a3248254675",
+    "energi": "0x462b35452e552a66b519ecf70aedb1835d434965"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Ethash",
+  "genesis_date": "2018-06-25",
+  "country_origin": "GB",
+  "description": {
+    "en": "London-based Quant Network is set to revolutionise blockchain technology with the development of their blockchain operating system Overledger. The experienced team are determined to fulfil the original vision of the internet by creating an open trusted network for people, machines, and data to operate securely and safely.\r\n\r\nOverledger -the first interoperable blockchain operating system that facilitates internet-scale development of decentralised, multi-chain applications. Overledger has the ability to unlock and distribute value and applications across current and future blockchains. It is an agnostic platform that connects the world's networks to blockchains and ensures you're not limited to any single a vendor or technology. Overledger is the only platform that facilitates the development of internet-scales development of decentralised, multi-chain applications."
+  },
+  "links": {
+    "homepage": [
+      "https://www.quant.network"
+    ],
+    "whitepaper": "http://files.quant.network/files.quant.network/Quant_Overledger_Whitepaper_v0.1.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x4a220e6096b25eadb88358cb44068a3248254675",
+      "https://platform.arkhamintelligence.com/explorer/token/quant-network",
+      "https://ethplorer.io/address/0x4a220e6096b25eadb88358cb44068a3248254675",
+      "https://explorer.energi.network/token/0x462b35452e552a66b519ecf70aedb1835d434965"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://t.me/QuantOverledger"
+    ],
+    "announcement_url": [
+      "https://quantnetwork.medium.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "quant_network",
+    "facebook_username": "quantnetwork",
+    "bitcointalk_thread_identifier": 3200795,
+    "telegram_channel_identifier": "quantnetworkannouncements",
+    "subreddit_url": "https://www.reddit.com/r/QuantNetwork/",
+    "repos_url": {
+      "github": [
+        "https://github.com/quantnetwork/Overledger-Interfaces",
+        "https://github.com/quantnetwork/eth-contract-metadata"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/3370/thumb/5ZOu7brX_400x400.jpg?1696504070",
+    "small": "https://coin-images.coingecko.com/coins/images/3370/small/5ZOu7brX_400x400.jpg?1696504070",
+    "large": "https://coin-images.coingecko.com/coins/images/3370/large/5ZOu7brX_400x400.jpg?1696504070"
+  },
+  "last_updated": "2025-07-11T05:00:17.811609+00:00"
+}

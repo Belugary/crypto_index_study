@@ -1,0 +1,83 @@
+{
+  "id": "lido-dao",
+  "symbol": "ldo",
+  "name": "Lido DAO",
+  "categories": [
+    "Infrastructure",
+    "Decentralized Finance (DeFi)",
+    "Polygon Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Liquid Staking Governance Tokens",
+    "eGirl Capital Portfolio",
+    "Paradigm Portfolio",
+    "Coinbase Ventures Portfolio",
+    "Multicoin Capital Portfolio",
+    "Index Coop Defi Index",
+    "Alameda Research Portfolio",
+    "DragonFly Capital Portfolio",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "GMCI DeFi Index",
+    "Delphi Ventures Portfolio",
+    "Liquid Staking",
+    "GMCI Index",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+    "arbitrum-one": "0x13ad51ed4f1b7e9dc168d8a00cb3f4ddd85efa60",
+    "optimistic-ethereum": "0xfdb794692724153d1488ccdbe0c56c252596735f",
+    "polygon-pos": "0xc3c7d422809852031b44ab29eec9f1eff2a58756"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://stake.lido.fi/"
+    ],
+    "whitepaper": "https://lido.fi/static/Lido:Ethereum-Liquid-Staking.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+      "https://platform.arkhamintelligence.com/explorer/token/lido-dao",
+      "https://ethplorer.io/address/0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+      "https://polygonscan.com/token/0xc3c7d422809852031b44ab29eec9f1eff2a58756",
+      "https://arbiscan.io/token/0x13ad51ed4f1b7e9dc168d8a00cb3f4ddd85efa60",
+      "https://optimistic.etherscan.io/token/0xfdb794692724153d1488ccdbe0c56c252596735f",
+      "https://ethereum.dex.guru/token/0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+      "https://polygon.dex.guru/token/0xc3c7d422809852031b44ab29eec9f1eff2a58756",
+      "https://optimism.dex.guru/token/0xfdb794692724153d1488ccdbe0c56c252596735f"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/vgdPfhZ"
+    ],
+    "announcement_url": [
+      "https://blog.lido.fi/"
+    ],
+    "snapshot_url": "https://snapshot.org/#/lido-snapshot.eth",
+    "twitter_screen_name": "lidofinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "lidofinance",
+    "subreddit_url": "https://www.reddit.com/r/lidofinance",
+    "repos_url": {
+      "github": [
+        "https://github.com/lidofinance/lido-dao"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/13573/thumb/Lido_DAO.png?1696513326",
+    "small": "https://coin-images.coingecko.com/coins/images/13573/small/Lido_DAO.png?1696513326",
+    "large": "https://coin-images.coingecko.com/coins/images/13573/large/Lido_DAO.png?1696513326"
+  },
+  "last_updated": "2025-07-11T04:59:13.716702+00:00"
+}

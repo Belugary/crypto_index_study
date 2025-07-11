@@ -1,0 +1,64 @@
+{
+  "id": "litecoin",
+  "symbol": "ltc",
+  "name": "Litecoin",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Proof of Work (PoW)",
+    "GMCI 30 Index",
+    "GMCI Index",
+    "Made in USA",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 2,
+  "hashing_algorithm": "Scrypt",
+  "genesis_date": "2011-10-08",
+  "country_origin": "",
+  "description": {
+    "en": "Litecoin is a peer-to-peer cryptocurrency created by Charlie Lee. It was created based on the Bitcoin protocol but differs in terms of the hashing algorithm used. Litecoin uses the memory intensive Scrypt proof of work mining algorithm. Scrypt allows consumer-grade hardware such as GPU to mine those coins.\r\n\r\nWhy Litecoin?\r\nLitecoin is a cryptocurrency that has evolved from Bitcoin after its own popularity in the industry, this alternative, or ‘altcoin’ has emerged to allow investors to diversify their digital currency package, according to Investopedia. Litecoin is one of the most prominent altcoins and was created by former Google employee and Director of Engineering at Coinbase, Charlie Lee. Litecoin was the first to alter Bitcoin and the most significant difference is that it takes 2.5 minutes for Litecoin to generate a block, or transaction, in comparison to Bitcoin's 10 minutes.\r\n\r\n‘While this matters little to traders, miners who use hardware to run Bitcoin's network cannot switch over to Litecoin. This keeps bigger mining conglomerates away from Litecoin because they cannot easily optimize their profits by swapping to another coin, contributing to a more decentralized experience. Litecoin also has bigger blocks, and more coins in circulation, making it more affordable and swift when transacting,’ Investopedia explained.\r\n\r\nAs explained above, Litecoin can transact a lot faster than Bitcoin, but there are also a number of other characteristics that investors need to know before trading. Litecoin can handle higher volumes of transactions because of the capability of transacting faster and if Bitcoin attempted to transact on the scale of its altcoin, a code update would be needed. However, Litecoin’s blocks would be larger, but with more ‘orphaned blocks'. The faster block time of litecoin reduces the risk of double spending attacks - this is theoretical in the case of both networks having the same hashing power.\r\n\r\nLitecoin Technical Details:\r\nThe transaction confirmation time taken for Litecoin is about 2.5 minutes on average (as compared to Bitcoin's 10 minutes). The Litecoin network is scheduled to cap at 84 million currency units. \r\n\r\nLitecoin has inspired many other popular alternative currencies (eg. Dogecoin) because of its Scrypt hashing algorithm in order to prevent ASIC miners from mining those coins. However it is said that by the end of this year, Scrypt ASIC will enter the mass market."
+  },
+  "links": {
+    "homepage": [
+      "http://litecoin.org"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://blockchair.com/litecoin",
+      "https://chainz.cryptoid.info/ltc/",
+      "https://bitupper.com/en/explorer/litecoin",
+      "https://litecoinblockexplorer.net/",
+      "https://ltc.tokenview.io/",
+      "https://explorer.energi.network/token/0x21a5230038c8c849d2ffb0d3ce762228ed245237",
+      "https://www.oklink.com/ltc",
+      "https://3xpl.com/litecoin"
+    ],
+    "official_forum_url": [
+      "https://litecointalk.org/"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "LTCFoundation",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": 47417,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/litecoin/",
+    "repos_url": {
+      "github": [
+        "https://github.com/litecoin-project/litecoin"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/2/thumb/litecoin.png?1696501400",
+    "small": "https://coin-images.coingecko.com/coins/images/2/small/litecoin.png?1696501400",
+    "large": "https://coin-images.coingecko.com/coins/images/2/large/litecoin.png?1696501400"
+  },
+  "last_updated": "2025-07-11T04:59:16.224964+00:00"
+}

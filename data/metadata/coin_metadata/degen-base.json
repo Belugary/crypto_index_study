@@ -1,0 +1,66 @@
+{
+  "id": "degen-base",
+  "symbol": "degen",
+  "name": "Degen",
+  "categories": [
+    "Smart Contract Platform",
+    "Meme",
+    "Base Ecosystem",
+    "Layer 3 (L3)",
+    "Base Meme",
+    "Farcaster Ecosystem",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
+    "arbitrum-one": "0x9f07f8a82cb1af1466252e505b7b7ddee103bc91",
+    "ethereum": "0xfee293840d23b0b2de8c55e1cf7a9f01c157767c",
+    "solana": "A7n89LqW67HJKzJkdWZa2xojuK4N5GBKHz3dfjATCZPz"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "DEGEN is a reward token for Farcaster users, born from meme culture. It features a unique tipping system that allows the community to reward high-quality content creators. DEGEN also powers the Degen Chain, one of the pioneering Layer 3s launched on Base. Known as the “Las Vegas of blockchains,” it provides a platform for building and using Degen apps, offering a space for fun, innovation, and community-driven experiences."
+  },
+  "links": {
+    "homepage": [
+      "https://www.degen.tips/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://basescan.org/address/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
+      "https://platform.arkhamintelligence.com/explorer/token/degen-base",
+      "https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
+      "https://etherscan.io/token/0xfee293840d23b0b2de8c55e1cf7a9f01c157767c",
+      "https://ethplorer.io/address/0xfee293840d23b0b2de8c55e1cf7a9f01c157767c",
+      "https://arbiscan.io/token/0x9f07f8a82cb1af1466252e505b7b7ddee103bc91",
+      "https://solscan.io/token/A7n89LqW67HJKzJkdWZa2xojuK4N5GBKHz3dfjATCZPz"
+    ],
+    "official_forum_url": [
+      "https://warpcast.com/~/channel/degen"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "degentokenbase",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "degentokenbase",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/jacek0x"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/34515/thumb/android-chrome-512x512.png?1706198225",
+    "small": "https://coin-images.coingecko.com/coins/images/34515/small/android-chrome-512x512.png?1706198225",
+    "large": "https://coin-images.coingecko.com/coins/images/34515/large/android-chrome-512x512.png?1706198225"
+  },
+  "last_updated": "2025-07-11T04:58:02.800286+00:00"
+}

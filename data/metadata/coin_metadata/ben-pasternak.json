@@ -1,0 +1,51 @@
+{
+  "id": "ben-pasternak",
+  "symbol": "launchcoin",
+  "name": "Launch Coin on Believe",
+  "categories": [
+    "Solana Ecosystem",
+    "Launchpad",
+    "Meme",
+    "Solana Meme",
+    "Believe.app Ecosystem"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://believe.app/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/Ey59PH7Z4BFU4HjyKnyMdWt5GGN76KazTAwQihoUXRnk"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "launchcoin",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53916/thumb/launchcoin.jpg?1747131421",
+    "small": "https://coin-images.coingecko.com/coins/images/53916/small/launchcoin.jpg?1747131421",
+    "large": "https://coin-images.coingecko.com/coins/images/53916/large/launchcoin.jpg?1747131421"
+  },
+  "last_updated": "2025-07-11T04:57:11.310238+00:00"
+}

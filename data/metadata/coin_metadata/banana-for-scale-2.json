@@ -1,0 +1,51 @@
+{
+  "id": "banana-for-scale-2",
+  "symbol": "bananas31",
+  "name": "Banana For Scale",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Meme",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x3d4f0513e8a29669b960f9dbca61861548a9a760"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "$BANANA is a memecoin inspired by the iconic \"Banana for Scale\" meme that gained popularity on Reddit in 2012, where bananas were humorously used as a universal unit of measurement. Elon Musk also printed the same Banana For Scale on his new SpaceX S31 Starship, making Banana For Scale the first banana launched into space.\r\n\r\nLaunched on the BNB Chain, $BANANAS31 has achieved remarkable traction, attracting 16,623 holders within just over a week. Its community has also experienced rapid expansion, growing to 8,077 members in the same period and continuing to increase at an impressive rate."
+  },
+  "links": {
+    "homepage": [
+      "https://bananabsc.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/address/0x3d4f0513e8a29669b960f9dbca61861548a9a760",
+      "https://bscscan.com/token/0x3d4f0513e8a29669b960f9dbca61861548a9a760",
+      "https://binplorer.com/address/0x3d4f0513e8a29669b960f9dbca61861548a9a760"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "BananaS31_bsc",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "BananaForScale_bsc",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/52230/thumb/Banana_token_image.png?1732801941",
+    "small": "https://coin-images.coingecko.com/coins/images/52230/small/Banana_token_image.png?1732801941",
+    "large": "https://coin-images.coingecko.com/coins/images/52230/large/Banana_token_image.png?1732801941"
+  },
+  "last_updated": "2025-07-11T04:57:05.915524+00:00"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "ronin",
+  "symbol": "ron",
+  "name": "Ronin",
+  "categories": [
+    "Smart Contract Platform",
+    "Gaming (GameFi)",
+    "NFT",
+    "Layer 1 (L1)",
+    "Play To Earn",
+    "Zero Knowledge (ZK)",
+    "FTX Holdings",
+    "Ronin Ecosystem",
+    "Gaming Blockchains",
+    "SideChain",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "asset_platform_id": "ronin",
+  "platforms": {
+    "ronin": "0xe514d9deb7966c8be0ca922de8a064264ea6bcd4"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "RON is the ecosystem token for the Ronin chain. It will eventually be used to pay gas fees and secure the network for both Axie Infinity and future games/products hosted on the chain."
+  },
+  "links": {
+    "homepage": [
+      "https://roninchain.com"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.roninchain.com/",
+      "https://www.oklink.com/ronin",
+      "https://app.roninchain.com/token/0xe514d9deb7966c8be0ca922de8a064264ea6bcd4"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/roninnetwork"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Ronin_Network",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/20009/thumb/photo_2024-04-06_22-52-24.jpg?1712415367",
+    "small": "https://coin-images.coingecko.com/coins/images/20009/small/photo_2024-04-06_22-52-24.jpg?1712415367",
+    "large": "https://coin-images.coingecko.com/coins/images/20009/large/photo_2024-04-06_22-52-24.jpg?1712415367"
+  },
+  "last_updated": "2025-07-11T05:00:32.096935+00:00"
+}

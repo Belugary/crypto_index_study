@@ -1,0 +1,69 @@
+{
+  "id": "wormhole",
+  "symbol": "w",
+  "name": "Wormhole",
+  "categories": [
+    "Solana Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Interoperability",
+    "Base Ecosystem",
+    "Multicoin Capital Portfolio",
+    "Cross-chain Communication",
+    "Made in USA"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
+    "arbitrum-one": "0xb0ffa8000886e57f86dd5264b9582b2ad87b2b91",
+    "base": "0xb0ffa8000886e57f86dd5264b9582b2ad87b2b91",
+    "ethereum": "0xb0ffa8000886e57f86dd5264b9582b2ad87b2b91"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Wormhole is a cross-chain messaging protocol that enables secure transfers of data or tokens across different blockchain networks. It supports a variety of applications, including DeFi, NFTs, and governance, by allowing data to be moved between blockchains efficiently and securely. Wormhole employs multiple verification methods to ensure the integrity and validity of the data transmitted through its network. "
+  },
+  "links": {
+    "homepage": [
+      "https://wormhole.com/",
+      "https://docs.wormhole.com/wormhole/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
+      "https://platform.arkhamintelligence.com/explorer/token/wormhole",
+      "https://etherscan.io/token/0xb0ffa8000886e57f86dd5264b9582b2ad87b2b91",
+      "https://ethplorer.io/address/0xb0ffa8000886e57f86dd5264b9582b2ad87b2b91",
+      "https://arbiscan.io/token/0xb0ffa8000886e57f86dd5264b9582b2ad87b2b91",
+      "https://basescan.org/token/0xb0ffa8000886e57f86dd5264b9582b2ad87b2b91"
+    ],
+    "official_forum_url": [
+      "https://wormhole.com/blog"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/wormholecrypto"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "wormhole",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "wormholecrypto",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/wormhole-foundation/wormhole"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/35087/thumb/womrhole_logo_full_color_rgb_2000px_72ppi_fb766ac85a.png?1708688954",
+    "small": "https://coin-images.coingecko.com/coins/images/35087/small/womrhole_logo_full_color_rgb_2000px_72ppi_fb766ac85a.png?1708688954",
+    "large": "https://coin-images.coingecko.com/coins/images/35087/large/womrhole_logo_full_color_rgb_2000px_72ppi_fb766ac85a.png?1708688954"
+  },
+  "last_updated": "2025-07-11T05:01:56.016440+00:00"
+}

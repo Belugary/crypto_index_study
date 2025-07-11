@@ -1,0 +1,92 @@
+{
+  "id": "frax-share",
+  "symbol": "frax",
+  "name": "Frax (prev. FXS)",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Decentralized Finance (DeFi)",
+    "Yield Farming",
+    "Automated Market Maker (AMM)",
+    "BNB Chain Ecosystem",
+    "Seigniorage",
+    "Solana Ecosystem",
+    "Avalanche Ecosystem",
+    "Polygon Ecosystem",
+    "Fantom Ecosystem",
+    "Harmony Ecosystem",
+    "Arbitrum Ecosystem",
+    "Moonriver Ecosystem",
+    "Ethereum Ecosystem",
+    "Liquid Staking Governance Tokens",
+    "Curve Ecosystem",
+    "Stablecoin Protocol",
+    "Polygon zkEVM Ecosystem",
+    "Evmos Ecosystem",
+    "GMCI DeFi Index",
+    "Liquid Staking",
+    "GMCI Index",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
+    "polygon-zkevm": "0x6b856a14cea1d7dcfaf80fa6936c0b75972ccace",
+    "moonriver": "0x6f1d1ee50846fcbc3de91723e61cb68cfa6d0e98",
+    "arbitrum-one": "0x9d2f299715d94d8a7e6f5eaa8e654e8c74a988a7",
+    "evmos": "0xd8176865dd0d672c6ab4a427572f80a72b4b4a9c",
+    "harmony-shard-0": "0x0767d8e1b05efa8d6a301a65b324b6b66a1cc14c",
+    "binance-smart-chain": "0xe48a3d7d0bc88d552f730b62c006bc925eadb9ee",
+    "fantom": "0x7d016eec9c25232b01f23ef992d98ca97fc2af5a",
+    "avalanche": "0x214db107654ff987ad859f34125307783fc8e387",
+    "polygon-pos": "0x1a3acf6d19267e2d3e7f898f42803e90c9219062",
+    "solana": "6LX8BhMQ4Sy2otmAWj7Y5sKd9YTVVUgfMsBzT6B9W7ct"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "KY",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://frax.finance"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
+      "https://platform.arkhamintelligence.com/explorer/token/frax-share",
+      "https://ethplorer.io/address/0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
+      "https://bscscan.com/token/0xe48a3d7d0bc88d552f730b62c006bc925eadb9ee",
+      "https://ftmscan.com/token/0x7d016eec9c25232b01f23ef992d98ca97fc2af5a",
+      "https://arbiscan.io/token/0x9d2f299715d94d8a7e6f5eaa8e654e8c74a988a7",
+      "https://polygonscan.com/token/0x1a3acf6d19267e2d3e7f898f42803e90c9219062",
+      "https://snowtrace.io/token/0x214db107654ff987ad859f34125307783fc8e387",
+      "https://moonriver.moonscan.io/token/0x6f1d1ee50846fcbc3de91723e61cb68cfa6d0e98",
+      "https://scan.meter.io/address/0x7d016eec9c25232b01f23ef992d98ca97fc2af5a"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/MTZu6Hf57d"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "fraxfinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "fraxfinance",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/fraxfinance/frax-solidity"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/13423/thumb/frax.png?1745921071",
+    "small": "https://coin-images.coingecko.com/coins/images/13423/small/frax.png?1745921071",
+    "large": "https://coin-images.coingecko.com/coins/images/13423/large/frax.png?1745921071"
+  },
+  "last_updated": "2025-07-11T04:58:29.139468+00:00"
+}

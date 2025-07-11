@@ -1,0 +1,56 @@
+{
+  "id": "hyperliquid",
+  "symbol": "hype",
+  "name": "Hyperliquid",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Smart Contract Platform",
+    "Decentralized Finance (DeFi)",
+    "Perpetuals",
+    "Layer 1 (L1)",
+    "Hyperliquid Ecosystem"
+  ],
+  "asset_platform_id": "hyperliquid",
+  "platforms": {
+    "hyperliquid": "0x0d01dc56dcaaca66ad901c959b4011ec"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Hyperliquid is a performant L1 optimized from the ground up. The vision is a fully onchain open financial system with user built applications interfacing with performant native components, all without compromising end user experience. \r\n\r\nThe Hyperliquid L1 is performant enough to operate an entire ecosystem of permissionless financial applications – every order, cancel, trade, and liquidation happens transparently on-chain with block latency <1 second. The chain currently supports 100k orders / second.\r\n\r\nThe Hyperliquid L1 uses a custom consensus algorithm called HyperBFT which is heavily inspired by Hotstuff and its successors. Both the algorithm and networking stack are optimized from the ground up to support the L1. \r\n\r\nThe flagship native application is a fully onchain order book perpetuals exchange, the Hyperliquid DEX. Further developments include a native token standard, spot trading, permissionless liquidity, etc."
+  },
+  "links": {
+    "homepage": [
+      "https://hyperliquid.xyz/"
+    ],
+    "whitepaper": "https://hyperliquid.gitbook.io/hyperliquid-docs",
+    "blockchain_site": [
+      "https://app.hyperliquid.xyz/explorer/token/0x0d01dc56dcaaca66ad901c959b4011ec"
+    ],
+    "official_forum_url": [
+      "https://hyperliquid.xyz/blog/",
+      "https://discord.com/invite/hyperliquid",
+      "https://medium.com/@hyperliquid"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "HyperliquidX",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "hyperliquid_announcements",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/50882/thumb/hyperliquid.jpg?1729431300",
+    "small": "https://coin-images.coingecko.com/coins/images/50882/small/hyperliquid.jpg?1729431300",
+    "large": "https://coin-images.coingecko.com/coins/images/50882/large/hyperliquid.jpg?1729431300"
+  },
+  "last_updated": "2025-07-11T04:58:45.916507+00:00"
+}

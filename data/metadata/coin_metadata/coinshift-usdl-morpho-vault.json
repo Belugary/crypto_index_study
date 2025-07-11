@@ -1,0 +1,49 @@
+{
+  "id": "coinshift-usdl-morpho-vault",
+  "symbol": "csusdl",
+  "name": "Coinshift USDL Morpho Vault",
+  "categories": [
+    "Ethereum Ecosystem",
+    "Morpho Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xbeefc011e94f43b8b7b455ebab290c7ab4e216f1"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Steakhouse vaults aims to optimize yields by lending deposited assets against blue chip crypto and real world asset (RWA) collateral markets, depending on market conditions. We call this the \"dual engine.\" \r\nMorpho Vaults are curated lending vaults that can allocate deposits to any number of Morpho Markets. Each vault is customizable and has a different risk profile. Curators are independent, third-party risk experts who use their expertise to offer various Morpho Vaults."
+  },
+  "links": {
+    "homepage": [
+      "https://www.steakhouse.financial/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xbEeFc011e94f43b8B7b455eBaB290C7Ab4E216f1",
+      "https://ethplorer.io/address/0xbEeFc011e94f43b8B7b455eBaB290C7Ab4E216f1"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/52413/thumb/csUSDL-badge_2_2x.png?1738166925",
+    "small": "https://coin-images.coingecko.com/coins/images/52413/small/csUSDL-badge_2_2x.png?1738166925",
+    "large": "https://coin-images.coingecko.com/coins/images/52413/large/csUSDL-badge_2_2x.png?1738166925"
+  },
+  "last_updated": "2025-07-11T04:57:46.391026+00:00"
+}

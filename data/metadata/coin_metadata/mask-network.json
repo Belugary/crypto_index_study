@@ -1,0 +1,68 @@
+{
+  "id": "mask-network",
+  "symbol": "mask",
+  "name": "Mask Network",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem",
+    "Animoca Brands Portfolio",
+    "DWF Labs Portfolio",
+    "Alameda Research Portfolio",
+    "Energi Ecosystem",
+    "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x69af81e73a73b40adf4f3d4223cd9b1ece623074",
+    "energi": "0x746514e2c7d91e1e84c20c54d1f6f537b28a7d8e",
+    "binance-smart-chain": "0x2ed9a5c8c13b93955103b9a7c167b67ef4d568a3",
+    "polygon-pos": "0x2b9e7ccdf0f4e5b24757c1e1a80e311e34cb10c7"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Mask Network is the core product of Dimension, which is positioned to become the bridge that connects internet users from Web 2.0 to Web 3.0. The foundational technology of Mask Network is a peer-to-peer encrypted messaging application, with new functions continuously being created around this foundation. We at Mask Network are strong believers in the ownership economy. People should own what they produce, people should own their data, their attention and the virtual space they choose to contribute to.\r\n\r\nMask Network integrates decentralized social messaging, borderless payment network, and decentralized file storage and sharing to provide a safe and convenient portal for users to jump right into the continent of decentralized finance and then the new world of Web 3.0."
+  },
+  "links": {
+    "homepage": [
+      "https://mask.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x69af81e73a73b40adf4f3d4223cd9b1ece623074",
+      "https://platform.arkhamintelligence.com/explorer/token/mask-network",
+      "https://ethplorer.io/address/0x69af81e73a73b40adf4f3d4223cd9b1ece623074",
+      "https://bscscan.com/token/0x2ed9a5c8c13b93955103b9a7c167b67ef4d568a3",
+      "https://polygonscan.com/token/0x2b9e7ccdf0f4e5b24757c1e1a80e311e34cb10c7",
+      "https://explorer.energi.network/token/0x746514e2c7d91e1e84c20c54d1f6f537b28a7d8e",
+      "https://gnosis.dex.guru/token/0x4e1a2bffe81000f7be4807faf0315173c817d6f4",
+      "https://binplorer.com/address/0x2ed9a5c8c13b93955103b9a7c167b67ef4d568a3"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/4SVXvj7"
+    ],
+    "announcement_url": [],
+    "snapshot_url": "https://snapshot.org/#/masknetwork.eth",
+    "twitter_screen_name": "realMaskNetwork",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "maskbook_group",
+    "subreddit_url": "https://www.reddit.com/r/MaskNetwork/",
+    "repos_url": {
+      "github": [
+        "https://github.com/DimensionDev"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/14051/thumb/Mask_Network.jpg?1696513776",
+    "small": "https://coin-images.coingecko.com/coins/images/14051/small/Mask_Network.jpg?1696513776",
+    "large": "https://coin-images.coingecko.com/coins/images/14051/large/Mask_Network.jpg?1696513776"
+  },
+  "last_updated": "2025-07-11T04:59:24.421295+00:00"
+}

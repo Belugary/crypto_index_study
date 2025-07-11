@@ -1,0 +1,57 @@
+{
+  "id": "kinesis-gold",
+  "symbol": "kau",
+  "name": "Kinesis Gold",
+  "categories": [
+    "Stablecoins",
+    "Tokenized Assets",
+    "Tokenized Gold",
+    "Real World Assets (RWA)",
+    "Tokenized Commodities"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What is Kinesis gold (KAU)?\r\nKinesis gold (KAU) is a gold-backed cryptocurrency, launched by Kinesis - a global trading and digital asset utility platform. Each Kinesis gold (KAU) token is backed by 1 gram of investment-grade gold bullion, securely stored in Kinesis’ fully insured, audited vaults.\r\nThe mission behind KAU is to reintroduce physical gold backing to money and provide the global community with a stable store of value. Kinesis gold (KAU) has the everyday utility of a fiat currency; the borderless efficiency of a cryptocurrency, and none of the inherent volatility. \r\nKAU enables physical gold bullion to be instantly purchased, traded, spent and sent anywhere in the world, bringing real-world access, value, and utility to physical precious metals. A true stablecoin, KAU allows crypto traders to easily exit volatile markets and enter into the enduring value of physical gold, while earning a monthly yield.\r\n\r\nWhat makes KAU unique?\r\nIn an economic first, KAU holders earned the first debt-free yield on precious metals. All KAU holders receive a passive yield - paid monthly in KAU - simply for holding their metals on the Kinesis platform. The yield is calculated from a 15% share of Kinesis’ global transaction fee revenue which is shared with users who store their gold on the platform. At the time of writing, Kinesis has paid out over $3,000,000 to KAU holders. \r\n\r\nUnlike other gold tokens, KAU can be instantly spent with the Kinesis Virtual Card, worldwide. Accessible via mobile device, the virtual card lets people everywhere instantly convert their KAU holdings into local currency at the point of sale, anywhere Mastercard is accepted. Through digitalising physical gold in the form of KAU, Kinesis has successfully reintroduced gold as a currency.\r\n\r\nCan I redeem my gold? \r\nEvery single gram of gold underpinning KAU is available for redemption, at the click of a button. While other gold-backed cryptos offer redemption, they often set very high minimum withdrawal limits. "
+  },
+  "links": {
+    "homepage": [
+      "https://kinesis.money/"
+    ],
+    "whitepaper": "https://kinesis.money/resources/kinesis-whitepaper-en.pdf",
+    "blockchain_site": [
+      "https://explorer.kinesis.money/"
+    ],
+    "official_forum_url": [
+      "https://forum.kinesis.money/"
+    ],
+    "chat_url": [
+      "https://www.youtube.com/@KinesisMoney"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "KinesisMonetary",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "kinesismoney",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/bullioncapital/nodes"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/29788/thumb/kau-currency-ticker.png?1696528718",
+    "small": "https://coin-images.coingecko.com/coins/images/29788/small/kau-currency-ticker.png?1696528718",
+    "large": "https://coin-images.coingecko.com/coins/images/29788/large/kau-currency-ticker.png?1696528718"
+  },
+  "last_updated": "2025-07-11T04:59:05.985872+00:00"
+}

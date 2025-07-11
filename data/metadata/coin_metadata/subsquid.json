@@ -1,0 +1,63 @@
+{
+  "id": "subsquid",
+  "symbol": "sqd",
+  "name": "SQD",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Big Data",
+    "Analytics",
+    "BNB Chain Ecosystem",
+    "Arbitrum Ecosystem",
+    "Base Ecosystem"
+  ],
+  "asset_platform_id": "arbitrum-one",
+  "platforms": {
+    "arbitrum-one": "0x1337420ded5adb9980cfc35f8f2b054ea86f8ab1",
+    "base": "0xd4554bea546efa83c1e6b389ecac40ea999b3e78",
+    "binance-smart-chain": "0xe50e3d1a46070444f44df911359033f2937fcc13"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Subsquid Network is an innovative decentralized data lake and query engine designed to offer developers performant and permissionless access to data, aiming to build a neutral and open internet rooted in Web3 principles. Secured by ZK proofs, the Subsquid network boasts a modular architecture that enables exceptional scalability and developer convenience optimized for blockchain indexing, dApp development, and analytics.\r\n\r\nSubsquid is a response to unscalable and rigid monolithic indexing frameworks that had previously gained popularity and market traction among Web3 developers. Today, these frameworks are struggling to adapt in a rapidly evolving blockchain environment. Additionally, the network serves as a highly efficient and decentralized alternative to centralized infrastructure firms, including large RPC and API providers."
+  },
+  "links": {
+    "homepage": [
+      "https://sqd.dev"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://arbiscan.io/token/0x1337420dED5ADb9980CFc35f8f2B054ea86f8aB1",
+      "https://basescan.org/token/0xd4554bea546efa83c1e6b389ecac40ea999b3e78",
+      "https://bscscan.com/token/0xe50e3d1a46070444f44df911359033f2937fcc13",
+      "https://binplorer.com/address/0xe50e3d1a46070444f44df911359033f2937fcc13"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/hellosqd",
+      "https://t.me/subsquid"
+    ],
+    "announcement_url": [
+      "https://docs.subsquid.io/",
+      "https://blog.subsquid.io/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "hellosqd",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/37869/thumb/New_Logo_SQD_Icon.png?1720048443",
+    "small": "https://coin-images.coingecko.com/coins/images/37869/small/New_Logo_SQD_Icon.png?1720048443",
+    "large": "https://coin-images.coingecko.com/coins/images/37869/large/New_Logo_SQD_Icon.png?1720048443"
+  },
+  "last_updated": "2025-07-11T05:01:01.122308+00:00"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "astar",
+  "symbol": "astr",
+  "name": "Astar",
+  "categories": [
+    "Smart Contract Platform",
+    "Polkadot Ecosystem",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "Layer 2 (L2)",
+    "Alameda Research Portfolio",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "OKX Ventures Portfolio"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": "",
+    "ethereum": "0xf27441230eadeac85b764610325cc9a0d7859689"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Astar is a collective driving web3 adoption originating from Japan, seamlessly bridging Astar Network and Soneium ecosystems. Soneium, an advanced Layer 2 solution developed by Sony Block Solutions Labs, creates new opportunities for Astar's growth by enabling mainstream Web3.0 adoption through consumer-friendly applications, payment solutions, and decentralized finance. The ASTR token serves as the unifying asset across this collective, powering innovation within Soneium and strengthening its ties to the core functionalities of Astar Network.\r\n\r\nAstar Network operates as the governance & staking layer, providing a secure and scalable multi-VM environment, while Soneium acts as the adoption layer, leveraging Ethereum's OP Stack for high-speed, low-cost transactions tailored to entertainment and consumer applications. The two ecosystems are seamlessly interconnected through the ASTR token, which facilitates interoperability via multiple interoperable solutions. By combining the strengths of Astar Network and Soneium, Astar collective is pioneering a vision of interoperability and accessibility, empowering developers and users alike to unlock Web3.0’s full potential and bring blockchain technology to billions worldwide."
+  },
+  "links": {
+    "homepage": [
+      "https://astar.network/",
+      "https://portal.astar.network/"
+    ],
+    "whitepaper": "https://github.com/AstarNetwork/plasmdocs/blob/master/wp/en.pdf",
+    "blockchain_site": [
+      "https://astar.subscan.io",
+      "https://polkadot.js.org/",
+      "https://astar.blockscout.com/",
+      "https://soneium.blockscout.com/",
+      "https://etherscan.io/token/0xf27441230eadeac85b764610325cc9a0d7859689",
+      "https://ethplorer.io/address/0xf27441230eadeac85b764610325cc9a0d7859689"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/astarnetwork",
+      "https://astar.network/blog/",
+      "https://www.youtube.com/@AstarNetwork"
+    ],
+    "announcement_url": [
+      "https://medium.com/astar-network"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "AstarNetwork",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "PlasmOfficial",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/AstarNetwork/Astar"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/22617/thumb/astr.png?1696521933",
+    "small": "https://coin-images.coingecko.com/coins/images/22617/small/astr.png?1696521933",
+    "large": "https://coin-images.coingecko.com/coins/images/22617/large/astr.png?1696521933"
+  },
+  "last_updated": "2025-07-11T04:56:58.933269+00:00"
+}

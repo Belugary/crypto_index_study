@@ -1,0 +1,67 @@
+{
+  "id": "crypto-com-chain",
+  "symbol": "cro",
+  "name": "Cronos",
+  "categories": [
+    "Smart Contract Platform",
+    "Exchange-based Tokens",
+    "Centralized Exchange (CEX) Token",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "GMCI Layer 1 Index",
+    "GMCI 30 Index",
+    "GMCI Index"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Ethash",
+  "genesis_date": "2018-11-14",
+  "country_origin": "",
+  "description": {
+    "en": "We propose Crypto.com Chain, the next generation decentralized mobile payment protocol, the most efficient and secure way to pay and be paid in crypto, anywhere, any crypto\r\nwithout fees. Crypto.com Chain will deliver on its vision by developing innovative technology components and processes (inc. scalable encryption algorithm to protect users’ privacy, utilizing trusted execution environments, sustainable price stability mechanisms, user protection via PoGSD) catered specifically to cryptocurrency payment, while leveraging proven blockchain technology structural design elements. "
+  },
+  "links": {
+    "homepage": [
+      "https://cronos-pos.org/"
+    ],
+    "whitepaper": "https://whitepaper.cronos.org/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b",
+      "https://platform.arkhamintelligence.com/explorer/token/crypto-com-chain",
+      "https://ethplorer.io/address/0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b",
+      "https://cronos.org/explorer",
+      "https://crypto.org/explorer/",
+      "https://cdoscan.com/",
+      "https://www.mintscan.io/crypto-org"
+    ],
+    "official_forum_url": [
+      "https://blog.cronos-pos.org/"
+    ],
+    "chat_url": [
+      "https://discord.gg/cronos",
+      "https://www.youtube.com/@cronos_chain"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "cronos_chain",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Cronos_POS_Announcements",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/crypto-org-chain/chain-main"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/7310/thumb/cro_token_logo.png?1696507599",
+    "small": "https://coin-images.coingecko.com/coins/images/7310/small/cro_token_logo.png?1696507599",
+    "large": "https://coin-images.coingecko.com/coins/images/7310/large/cro_token_logo.png?1696507599"
+  },
+  "last_updated": "2025-07-11T04:57:58.183508+00:00"
+}

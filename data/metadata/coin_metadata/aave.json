@@ -1,0 +1,97 @@
+{
+  "id": "aave",
+  "symbol": "aave",
+  "name": "Aave",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Yield Farming",
+    "BNB Chain Ecosystem",
+    "Lending/Borrowing Protocols",
+    "Avalanche Ecosystem",
+    "Polygon Ecosystem",
+    "Near Protocol Ecosystem",
+    "Fantom Ecosystem",
+    "Harmony Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Base Ecosystem",
+    "Index Coop Defi Index",
+    "Energi Ecosystem",
+    "Sora Ecosystem",
+    "Huobi ECO Chain Ecosystem",
+    "GMCI DeFi Index",
+    "Blockchain Capital Portfolio",
+    "GMCI Index",
+    "World Liberty Financial Portfolio",
+    "Coinbase 50 Index",
+    "Hydration Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+    "base": "0x63706e401c06ac8513145b7687a14804d17f814b",
+    "hydration": "asset_registry%2F1000624",
+    "near-protocol": "7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9.factory.bridge.near",
+    "optimistic-ethereum": "0x76fb31fb4af56892a25e32cfc43de717950c9278",
+    "arbitrum-one": "0xba5ddd1f9d7f570dc94a51479a000e3bce967196",
+    "huobi-token": "0x202b4936fe1a82a4965220860ae46d7d3939bb25",
+    "harmony-shard-0": "0xcf323aad9e522b93f11c352caa519ad0e14eb40f",
+    "energi": "0xa7f2f790355e0c32cab03f92f6eb7f488e6f049a",
+    "sora": "0x0091bd8d8295b25cab5a7b8b0e44498e678cfc15d872ede3215f7d4c7635ba36",
+    "binance-smart-chain": "0xfb6115445bff7b52feb98650c87f44907e58f802",
+    "fantom": "0x6a07a792ab2965c72a5b8088d3a069a7ac3a993b",
+    "avalanche": "0x63a72806098bd3d9520cc43356dd78afe5d386d9",
+    "polygon-pos": "0xd6df932a45c0f255f85145f286ea0b292b21c90b"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Aave is a decentralized money market protocol where users can lend and borrow cryptocurrency across 20 different assets as collateral. The protocol has a native token called AAVE, which is also a governance token that lets the community decide the direction of the protocol in a collective manner. Lenders can earn interest by providing liquidity to the market, while borrowers can borrow by collateralizing their cryptoassets to take out loans from the liquidity pools.\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://app.aave.com/"
+    ],
+    "whitepaper": "https://github.com/aave/aave-protocol/blob/master/docs/Aave_Protocol_Whitepaper_v1_0.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+      "https://platform.arkhamintelligence.com/explorer/token/aave",
+      "https://ethplorer.io/address/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+      "https://hecoinfo.com/token/0x202b4936fe1a82a4965220860ae46d7d3939bb25",
+      "https://polygonscan.com/token/0xd6df932a45c0f255f85145f286ea0b292b21c90b",
+      "https://snowtrace.io/token/0x63a72806098bd3d9520cc43356dd78afe5d386d9",
+      "https://nearblocks.io/token/7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9.factory.bridge.near",
+      "https://ftmscan.com/token/0x6a07a792ab2965c72a5b8088d3a069a7ac3a993b",
+      "https://scan.meter.io/address/0x6a07a792ab2965c72a5b8088d3a069a7ac3a993b",
+      "https://optimistic.etherscan.io/token/0x76fb31fb4af56892a25e32cfc43de717950c9278"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/aave.aave/"
+    ],
+    "chat_url": [
+      "https://aave.com/discord"
+    ],
+    "announcement_url": [],
+    "snapshot_url": "https://snapshot.org/#/aave.eth",
+    "twitter_screen_name": "aave",
+    "facebook_username": "AaveCom",
+    "bitcointalk_thread_identifier": 2090735,
+    "telegram_channel_identifier": "Aavesome",
+    "subreddit_url": "https://www.reddit.com/r/Aave_Official",
+    "repos_url": {
+      "github": [
+        "https://github.com/aave/aave-protocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/12645/thumb/aave-token-round.png?1720472354",
+    "small": "https://coin-images.coingecko.com/coins/images/12645/small/aave-token-round.png?1720472354",
+    "large": "https://coin-images.coingecko.com/coins/images/12645/large/aave-token-round.png?1720472354"
+  },
+  "last_updated": "2025-07-11T04:56:39.110372+00:00"
+}

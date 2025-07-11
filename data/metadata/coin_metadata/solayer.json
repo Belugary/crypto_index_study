@@ -1,0 +1,62 @@
+{
+  "id": "solayer",
+  "symbol": "layer",
+  "name": "Solayer",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Solana Ecosystem",
+    "LSDFi",
+    "Restaking",
+    "Stablecoin Protocol",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Binance HODLer Airdrops",
+    "Polychain Capital Portfolio"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "LAYER4xPpTCb3QL8S9u41EAhAX7mhBn8Q6xMTwY2Yzc"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Solayer is developing InfiniSVM, a next-generation, hardware-accelerated blockchain network that can achieve unprecedented throughput, near-zero latency, and robust composability. \r\n\r\nInfiniSVM architecture leverages Infiniband RDMA for near-microsecond inter-node communication and advanced concurrency control strategies. It pushes blockchain performance to hardware limits, targeting 1M+ TPS and 100Gbps+ network bandwidth. This design provides a path for next-generation applications that require high throughput, low fees, and a seamless composable environment. "
+  },
+  "links": {
+    "homepage": [
+      "https://solayer.org/network",
+      "https://docs.solayer.org/documentation/get-started/introduction"
+    ],
+    "whitepaper": "https://whitepaper-101797961016.us-central1.run.app/variants/solayer_infinisvm_737.pdf",
+    "blockchain_site": [
+      "https://solscan.io/token/LAYER4xPpTCb3QL8S9u41EAhAX7mhBn8Q6xMTwY2Yzc"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/solayer-labs"
+    ],
+    "chat_url": [
+      "https://discord.gg/solayerlabs",
+      "https://www.youtube.com/@solayer_labs"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "solayer_labs",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "solayer_discussion",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/solayer-labs"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53498/thumb/Layer_Green.png?1744950002",
+    "small": "https://coin-images.coingecko.com/coins/images/53498/small/Layer_Green.png?1744950002",
+    "large": "https://coin-images.coingecko.com/coins/images/53498/large/Layer_Green.png?1744950002"
+  },
+  "last_updated": "2025-07-11T05:00:43.627124+00:00"
+}

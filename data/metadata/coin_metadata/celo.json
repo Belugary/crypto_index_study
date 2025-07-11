@@ -1,0 +1,69 @@
+{
+  "id": "celo",
+  "symbol": "celo",
+  "name": "Celo",
+  "categories": [
+    "Smart Contract Platform",
+    "Celo Ecosystem",
+    "Layer 2 (L2)",
+    "DWF Labs Portfolio",
+    "Coinbase Ventures Portfolio",
+    "Proof of Stake (PoS)",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "Optimism Superchain Ecosystem",
+    "Outlier Ventures Portfolio",
+    "Made in USA"
+  ],
+  "asset_platform_id": "celo",
+  "platforms": {
+    "celo": "0x471ece3750da237f93b8e339c536989b8978a438"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Celo enables participation on the Platform, with the opportunity to earn rewards through network participation. Celo’s stability mechanism and token economics are designed in such a way that demand for cGLD directly increases as demand for Celo Dollars (cUSD) and other stable value assets increases.\r\n\r\ncGLD is a native cryptographic digital asset created at the mainnet release of the Celo Platform. cGLD has no relationship to physical gold.\r\n\r\ncGLD is a utility and governance asset required to participate on the Celo Platform. Some uses include:\r\n\r\nRunning a validator to secure and operate aspects of the Celo Platform\r\nVoting for validators working to secure and operate the Celo Platform\r\nParticipating in governance decisions to influence the future of the Celo Platform\r\nSupporting applications on the platform\r\ncGLD forms part of the overcollateralized reserve that supports the Celo stable value assets (initially Celo Dollar or cUSD).\r\n\r\nThe Celo Protocol automatically adds cGLD to the reserve whenever the Celo stable value asset supply increases."
+  },
+  "links": {
+    "homepage": [
+      "https://celo.org/",
+      "https://www.celocamp.com/"
+    ],
+    "whitepaper": "https://celo.org/papers",
+    "blockchain_site": [
+      "https://explorer.celo.org/tokens/0x471ece3750da237f93b8e339c536989b8978a438/token-transfers",
+      "https://celoscan.io/",
+      "https://explorer.celo.org/mainnet/token/0x471ece3750da237f93b8e339c536989b8978a438",
+      "https://explorer.celo.org/mainnet/"
+    ],
+    "official_forum_url": [
+      "https://forum.celo.org/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/celo"
+    ],
+    "announcement_url": [
+      "https://medium.com/celoOrg"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "celo",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "celoplatform",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/celo-org/celo-blockchain",
+        "https://github.com/celo-org/celo-monorepo"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/11090/thumb/InjXBNx9_400x400.jpg?1696511031",
+    "small": "https://coin-images.coingecko.com/coins/images/11090/small/InjXBNx9_400x400.jpg?1696511031",
+    "large": "https://coin-images.coingecko.com/coins/images/11090/large/InjXBNx9_400x400.jpg?1696511031"
+  },
+  "last_updated": "2025-07-11T04:57:36.983447+00:00"
+}

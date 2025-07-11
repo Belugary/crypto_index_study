@@ -1,0 +1,63 @@
+{
+  "id": "mx-token",
+  "symbol": "mx",
+  "name": "MX",
+  "categories": [
+    "Exchange-based Tokens",
+    "Centralized Exchange (CEX) Token",
+    "Ethereum Ecosystem",
+    "Morph L2 Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x11eef04c884e24d9b7b4760e7476d06ddf797f36",
+    "morph-l2": "0x0beef4b01281d85492713a015d51fec5b6d14687"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "SG",
+  "description": {
+    "en": "MX is the proof of rights and interests of MXC trading platform itself. Its total circulation is 3 billion constantly and never be added. MX holders can enjoy a series of rights and interests including asset appreciation, rebates on platform revenue, supervision, voting, etc. MX can be obtained in two ways: mining and buying."
+  },
+  "links": {
+    "homepage": [
+      "https://www.mexc.com/",
+      "https://www.mexc.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x11eef04c884e24d9b7b4760e7476d06ddf797f36",
+      "https://platform.arkhamintelligence.com/explorer/token/mx-token",
+      "https://ethplorer.io/address/0x11eef04c884e24d9b7b4760e7476d06ddf797f36",
+      "https://explorer.morphl2.io/token/0x0beef4b01281d85492713a015d51fec5b6d14687"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/mexc_official/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/Hs2e93Xav5",
+      "https://t.me/MEXCEnglish",
+      "https://www.youtube.com/@MEXCofficial"
+    ],
+    "announcement_url": [
+      "https://medium.com/mexcglobal"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "MEXC_Official",
+    "facebook_username": "mexcglobal",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "MEXCEnglish",
+    "subreddit_url": "https://www.reddit.com/r/MEXC_official",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/8545/thumb/mexc.jpg?1747142259",
+    "small": "https://coin-images.coingecko.com/coins/images/8545/small/mexc.jpg?1747142259",
+    "large": "https://coin-images.coingecko.com/coins/images/8545/large/mexc.jpg?1747142259"
+  },
+  "last_updated": "2025-07-11T04:59:36.239293+00:00"
+}

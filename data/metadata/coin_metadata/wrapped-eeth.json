@@ -1,0 +1,62 @@
+{
+  "id": "wrapped-eeth",
+  "symbol": "weeth",
+  "name": "Wrapped eETH",
+  "categories": [
+    "Crypto-Backed Tokens",
+    "Wrapped-Tokens",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Restaking",
+    "Liquid Restaking Tokens",
+    "Ether.fi Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee",
+    "arbitrum-one": "0x35751007a407ca6feffe80b3cb397736d2cf4dbe"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Ether.fi's eETH is a decentralized, non-custodial liquid staking token that enables Ethereum holders to earn staking rewards while maintaining full liquidity and control over their assets. eETH along with its wrapped non-rebasing version, weETH, integrates seamlessly with the Ethereum ecosystem, offering users a flexible and secure way to contribute to network validation and participate in the DeFi space. "
+  },
+  "links": {
+    "homepage": [
+      "https://www.ether.fi/"
+    ],
+    "whitepaper": "https://etherfi.gitbook.io/etherfi/ether.fi-whitepaper",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee",
+      "https://platform.arkhamintelligence.com/explorer/token/wrapped-eeth",
+      "https://ethplorer.io/address/0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee",
+      "https://arbiscan.io/token/0x35751007a407ca6feffe80b3cb397736d2cf4dbe",
+      "https://pacific-explorer.manta.network/address/0x77b6f99970f488cfa8bd41892900b6ce881c2300"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/zqGzcuQWvD"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ether_fi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "+C3fpSjmPqzA5NTVh",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/etherfi-protocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33033/thumb/weETH.png?1701438396",
+    "small": "https://coin-images.coingecko.com/coins/images/33033/small/weETH.png?1701438396",
+    "large": "https://coin-images.coingecko.com/coins/images/33033/large/weETH.png?1701438396"
+  },
+  "last_updated": "2025-07-11T05:01:58.840677+00:00"
+}

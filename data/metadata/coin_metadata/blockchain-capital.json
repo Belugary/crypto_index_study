@@ -1,0 +1,54 @@
+{
+  "id": "blockchain-capital",
+  "symbol": "bcap",
+  "name": "Blockchain Capital",
+  "categories": [
+    "ZkSync Ecosystem"
+  ],
+  "asset_platform_id": "zksync",
+  "platforms": {
+    "zksync": "0x57fd71a86522dc06d6255537521886057c1772a3"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "As a sector-specific and stage-agnostic fund managed by BC Manager, BC III DLVF will be a leading investor in the cryptocurrency and blockchain technology industry. BC III DLVF’s core business strategy is to leverage the proprietary resources and experience of BC Manager with the objective of generating growth and income from its investments. BC III DLVF holdings will primarily consist of new and growing blockchain technology and cryptocurrency businesses and ICOs.\r\n\r\nBlockchain Capital continues to be focused on the nexus of the industry where blockchain-based innovations are augmenting and replacing legacy systems and infrastructure. As one of the earliest and most active investors in the blockchain industry, Blockchain Capital has valuable access to information, robust access to proprietary dealflow, and an extensive network that helps guide strategic investment opportunities.\r\n\r\nIn three broad categories, Blockchain Capital’s portfolios include companies that are facilitating the growth of the Bitcoin ecosystem, companies that are providing blockchain-based technology solutions to financial institutions and companies that are enabling non-financial institutions to leverage blockchain technology. The firm sees opportunity to add efficiency and enable new opportunities across each of these major categories.\r\n\r\nAs with any nascent technology, it remains to be seen exactly where blockchain technology will have its biggest impact. As such, Blockchain Capital takes a diversified approach to its portfolio by investing in a wide-range of use cases and applications—often beginning at the seed level. This diversified, early-stage strategy allows the firm to continue investing into successful portfolio companies in subsequent investment rounds while reducing portfolio exposure to less-successful companies and helping them find strategic alternatives.\r\n\r\n\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.blockchaincapital.com/",
+      "https://loop.blockchain.capital/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.zksync.io/token/0x57fD71a86522Dc06D6255537521886057c1772A3",
+      "https://era.zksync.network/token/0x57fD71a86522Dc06D6255537521886057c1772A3",
+      "https://explorer.zksync.io/address/0x57fD71a86522Dc06D6255537521886057c1772A3"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/blockchain-capital-llc/"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "blockchaincap",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/BlockchainCap"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/56040/thumb/bcap_logo_200.png?1748088291",
+    "small": "https://coin-images.coingecko.com/coins/images/56040/small/bcap_logo_200.png?1748088291",
+    "large": "https://coin-images.coingecko.com/coins/images/56040/large/bcap_logo_200.png?1748088291"
+  },
+  "last_updated": "2025-07-11T04:57:28.345598+00:00"
+}

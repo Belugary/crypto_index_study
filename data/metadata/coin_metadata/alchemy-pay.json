@@ -1,0 +1,59 @@
+{
+  "id": "alchemy-pay",
+  "symbol": "ach",
+  "name": "Alchemy Pay",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem",
+    "Payment Solutions",
+    "DWF Labs Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xed04915c23f00a313a544955524eb7dbd823143d",
+    "binance-smart-chain": "0xbc7d6b50616989655afd682fb42743507003056d"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "SG",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://alchemypay.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xed04915c23f00a313a544955524eb7dbd823143d",
+      "https://platform.arkhamintelligence.com/explorer/token/alchemy-pay",
+      "https://ethplorer.io/address/0xed04915c23f00a313a544955524eb7dbd823143d",
+      "https://bscscan.com/token/0xbc7d6b50616989655afd682fb42743507003056d",
+      "https://binplorer.com/address/0xbc7d6b50616989655afd682fb42743507003056d"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.youtube.com/c/AlchemyPay"
+    ],
+    "announcement_url": [
+      "https://medium.com/@alchemyGPS"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "AlchemyPay",
+    "facebook_username": "AlchemyGPS",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Alchemy_official",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/12390/thumb/ACH_%281%29.png?1696512213",
+    "small": "https://coin-images.coingecko.com/coins/images/12390/small/ACH_%281%29.png?1696512213",
+    "large": "https://coin-images.coingecko.com/coins/images/12390/large/ACH_%281%29.png?1696512213"
+  },
+  "last_updated": "2025-07-11T04:56:48.172612+00:00"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "hedera-hashgraph",
+  "symbol": "hbar",
+  "name": "Hedera",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Hedera Ecosystem",
+    "GMCI Layer 1 Index",
+    "GMCI 30 Index",
+    "GMCI Index",
+    "Outlier Ventures Portfolio",
+    "Made in USA",
+    "Directed Acyclic Graph (DAG)"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Directed Acyclic Graph (DAG)",
+  "genesis_date": null,
+  "country_origin": "US",
+  "description": {
+    "en": "Hedera is a decentralized public network where developers can build secure, fair applications with near real-time consensus. The platform is owned and governed by a council of global innovators including Avery Dennison, Boeing, Deutsche Telekom, DLA Piper, FIS (WorldPay), Google, IBM, LG Electronics, Magalu, Nomura, Swirlds, Tata Communications, University College London (UCL), Wipro, and Zain Group. \r\n\r\nThe Hedera Consensus Service (HCS) acts as a trust layer for any application or permissioned network and allows for the creation of an immutable and verifiable log of messages. Application messages are submitted to the Hedera network for consensus, given a trusted timestamp, and fairly ordered. Use HCS to track assets across a supply chain, create auditable logs of events in an advertising platform, or even use it as a decentralized ordering service.\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.hedera.com/",
+      "https://hedera.com/news",
+      "https://hedera.com/blog"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://hashscan.io/",
+      "https://explorer.arkhia.io/mainnet/dashboard",
+      "https://ledger.hashlog.io/",
+      "https://app.dragonglass.me/hedera/home",
+      "https://hederaexplorer.io/",
+      "https://www.lworks.io/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://hedera.com/discord",
+      "https://www.linkedin.com/company/hashgraph",
+      "https://www.youtube.com/hederahashgraph"
+    ],
+    "announcement_url": [
+      "https://medium.com/hashgraph"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "hedera",
+    "facebook_username": "hashgraph",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "hederahashgraph",
+    "subreddit_url": "https://www.reddit.com/r/Hedera/",
+    "repos_url": {
+      "github": [
+        "https://github.com/hashgraph",
+        "https://github.com/hashgraph/hashgraph.github.io"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/3688/thumb/hbar.png?1696504364",
+    "small": "https://coin-images.coingecko.com/coins/images/3688/small/hbar.png?1696504364",
+    "large": "https://coin-images.coingecko.com/coins/images/3688/large/hbar.png?1696504364"
+  },
+  "last_updated": "2025-07-11T04:58:42.000473+00:00"
+}

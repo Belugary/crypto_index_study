@@ -1,0 +1,95 @@
+{
+  "id": "havven",
+  "symbol": "snx",
+  "name": "Synthetix Network",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Exchange-based Tokens",
+    "Decentralized Finance (DeFi)",
+    "Yield Farming",
+    "Derivatives",
+    "Synthetic Issuer",
+    "Avalanche Ecosystem",
+    "Polygon Ecosystem",
+    "Near Protocol Ecosystem",
+    "Fantom Ecosystem",
+    "Harmony Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Base Ecosystem",
+    "DWF Labs Portfolio",
+    "Paradigm Portfolio",
+    "Coinbase Ventures Portfolio",
+    "Index Coop Defi Index",
+    "Energi Ecosystem",
+    "Huobi ECO Chain Ecosystem",
+    "GMCI DeFi Index",
+    "Synthetic",
+    "GMCI Index",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+    "near-protocol": "c011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f.factory.bridge.near",
+    "huobi-token": "0x777850281719d5a96c29812ab72f822e0e09f3da",
+    "base": "0x22e6966b799c4d5b13be962e1d117b56327fda66",
+    "optimistic-ethereum": "0x8700daec35af8ff88c16bdf0418774cb3d7599b4",
+    "harmony-shard-0": "0x7b9c523d59aefd362247bd5601a89722e3774dd2",
+    "energi": "0xa255461ff545d6ece153283f421d67d2de5d0e29",
+    "fantom": "0x56ee926bd8c72b2d5fa1af4d9e4cbb515a1e3adc",
+    "avalanche": "0xbec243c995409e6520d7c41e404da5deba4b209b",
+    "polygon-pos": "0x50b728d8d964fd00c2d0aad81718b71311fef68a"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2018-03-11",
+  "country_origin": "AU",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.synthetix.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+      "https://platform.arkhamintelligence.com/explorer/token/havven",
+      "https://ethplorer.io/address/0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+      "https://blockchair.com/ethereum/erc-20/token/0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+      "https://hecoinfo.com/token/0x777850281719d5a96c29812ab72f822e0e09f3da",
+      "https://polygonscan.com/token/0x50b728d8d964fd00c2d0aad81718b71311fef68a",
+      "https://snowtrace.io/token/0xbec243c995409e6520d7c41e404da5deba4b209b",
+      "https://ftmscan.com/token/0x56ee926bd8c72b2d5fa1af4d9e4cbb515a1e3adc",
+      "https://scan.meter.io/address/0x56ee926bd8c72b2d5fa1af4d9e4cbb515a1e3adc",
+      "https://nearblocks.io/token/c011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f.factory.bridge.near"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/synthetix"
+    ],
+    "announcement_url": [
+      "https://blog.synthetix.io/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "synthetix_io",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/synthetix_io/",
+    "repos_url": {
+      "github": [
+        "https://github.com/Synthetixio/synthetix",
+        "https://github.com/Synthetixio/synthetix-js"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/3406/thumb/SNX.png?1696504103",
+    "small": "https://coin-images.coingecko.com/coins/images/3406/small/SNX.png?1696504103",
+    "large": "https://coin-images.coingecko.com/coins/images/3406/large/SNX.png?1696504103"
+  },
+  "last_updated": "2025-07-11T04:58:40.966401+00:00"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "amp-token",
+  "symbol": "amp",
+  "name": "Amp",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Near Protocol Ecosystem",
+    "Ethereum Ecosystem",
+    "Payment Solutions",
+    "Alleged SEC Securities",
+    "Pantera Capital Portfolio",
+    "Energi Ecosystem",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xff20817765cb7f73d4bde2e66e067e58d11095c2",
+    "near-protocol": "ff20817765cb7f73d4bde2e66e067e58d11095c2.factory.bridge.near",
+    "energi": "0xad7abe6f12f1059bdf48ae67bff92b00438ced95"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "US",
+  "description": {
+    "en": "What is Amp?\r\n\r\nAmp is described as the new digital collateral token offering instant, verifiable assurances for any kind of value transfer. Using Amp, networks like Flexa can quickly and irreversibly secure transactions for a wide variety of asset-related use cases.\r\n\r\nHow does Amp work?\r\n\r\nAmp claims to offer a straightforward but versatile interface for verifiable collateralization through a system of collateral partitions and collateral managers. Where collateral partitions can be designated to collateralize any account, application, or even transaction, and carry balances which are directly verifiable on the Ethereum blockchain, collateral managers are smart contracts that can lock, release, and redirect collateral in these partitions as needed in order to support value transfer activities. Amp supports a wide variety of use cases for collateralization, and also introduces the concept of predefined partition strategies, which can enable special capabilities such as collateral models through which tokens can be staked without ever leaving their original address."
+  },
+  "links": {
+    "homepage": [
+      "https://www.amp.xyz"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xff20817765cb7f73d4bde2e66e067e58d11095c2",
+      "https://platform.arkhamintelligence.com/explorer/token/amp-token",
+      "https://ethplorer.io/address/0xff20817765cb7f73d4bde2e66e067e58d11095c2",
+      "https://explorer.energi.network/token/0xad7abe6f12f1059bdf48ae67bff92b00438ced95",
+      "https://nearblocks.io/token/ff20817765cb7f73d4bde2e66e067e58d11095c2.factory.bridge.near"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/T4EY6yx"
+    ],
+    "announcement_url": [
+      "https://medium.com/amptoken"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "ampdotxyz",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "ampchat",
+    "subreddit_url": "https://www.reddit.com/r/amptoken/",
+    "repos_url": {
+      "github": [
+        "https://github.com/amptoken"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/12409/thumb/amp-200x200.png?1696512231",
+    "small": "https://coin-images.coingecko.com/coins/images/12409/small/amp-200x200.png?1696512231",
+    "large": "https://coin-images.coingecko.com/coins/images/12409/large/amp-200x200.png?1696512231"
+  },
+  "last_updated": "2025-07-11T04:56:50.961210+00:00"
+}

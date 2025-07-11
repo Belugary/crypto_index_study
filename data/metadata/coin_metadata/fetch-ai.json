@@ -1,0 +1,76 @@
+{
+  "id": "fetch-ai",
+  "symbol": "fet",
+  "name": "Artificial Superintelligence Alliance",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "NFT",
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem",
+    "Binance Launchpad",
+    "DWF Labs Portfolio",
+    "Osmosis Ecosystem",
+    "AI Agents",
+    "GMCI DePIN Index",
+    "GMCI Index",
+    "Outlier Ventures Portfolio",
+    "AI Agent Launchpad"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xaea46a60368a7bd060eec7df8cba43b7ef41ad85",
+    "osmosis": "ibc/5D1F516200EE8C6B2354102143B78A2DEDA25EDE771AC0F8DC3C1837C8FD4447",
+    "binance-smart-chain": "0x031b41e504677879370e9dbcf937283a8691fa7f"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2019-02-25",
+  "country_origin": "GB",
+  "description": {
+    "en": "|The Artificial Superintelligence (ASI) Alliance is the world’s largest open-source initiative dedicated to decentralized Artificial General Intelligence (AGI). Formed in April 2024, the ASI Alliance unites SingularityNET, Fetch.ai, and Ocean Protocol, with CUDOS joining as a network member shortly after. The ASI Alliance was established through a community-approved tokenomic merger—combining $AGIX, $FET, and $OCEAN into a single token: $FET. This unified token underpins a collaborative framework designed to scale open-source AI and stand as the largest open-sourced, independent entity in AI research and development. The Alliance is committed to accelerating the advancement of decentralized Artificial General Intelligence (AGI) and, ultimately, Artificial Superintelligence (ASI). It provides a robust, open-source innovation stack, empowering developers, enterprises, and researchers globally to build ethical, scalable, and groundbreaking AI solutions. This ensures that advanced intelligence remains a shared, accessible resource, fostering innovation beyond centralized systems and promoting a future where AI benefits all."
+  },
+  "links": {
+    "homepage": [
+      "https://www.superintelligence.io/",
+      "https://docs.superintelligence.io/artificial-superintelligence-alliance"
+    ],
+    "whitepaper": "https://docs.superintelligence.io/artificial-superintelligence-alliance/vision-paper",
+    "blockchain_site": [
+      "https://explore.fetch.ai/",
+      "https://platform.arkhamintelligence.com/explorer/token/fetch-ai",
+      "https://www.mintscan.io/fetchai/",
+      "https://etherscan.io/token/0xaea46a60368a7bd060eec7df8cba43b7ef41ad85",
+      "https://bscscan.com/token/0x031b41e504677879370e9dbcf937283a8691fa7f",
+      "https://ethplorer.io/address/0xaea46a60368a7bd060eec7df8cba43b7ef41ad85",
+      "https://atomscan.com/fetchai",
+      "https://binplorer.com/address/0x031b41e504677879370e9dbcf937283a8691fa7f"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/fetch-ai"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "ASI_Alliance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "ASI_Alliance",
+    "subreddit_url": "https://www.reddit.com/r/FetchAI_Community/",
+    "repos_url": {
+      "github": [
+        "https://github.com/fetchai/fetchd",
+        "https://github.com/fetchai/cosmos-sdk",
+        "https://github.com/fetchai/cosmos-explorer",
+        "https://github.com/fetchai/agents-aea",
+        "https://github.com/fetchai/ledger"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/5681/thumb/ASI.png?1719827289",
+    "small": "https://coin-images.coingecko.com/coins/images/5681/small/ASI.png?1719827289",
+    "large": "https://coin-images.coingecko.com/coins/images/5681/large/ASI.png?1719827289"
+  },
+  "last_updated": "2025-07-11T04:58:24.254958+00:00"
+}

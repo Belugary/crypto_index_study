@@ -1,0 +1,75 @@
+{
+  "id": "aelf",
+  "symbol": "elf",
+  "name": "aelf",
+  "categories": [
+    "Infrastructure",
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "GMCI Layer 1 Index",
+    "Aelf Ecosystem",
+    "GMCI Index"
+  ],
+  "asset_platform_id": "aelf",
+  "platforms": {
+    "aelf": "ELF_JRmBduh4nXWi1aXgdUsj5gJrzeZb2LxmrAbf7W99faZSvoAaE_AELF",
+    "tdvv-sidechain": "ELF_7RzVGiuVWkvL4VfVHdZfQF2Tri3sgLe9U991bohHFfSRZXuGX_tDVV",
+    "ethereum": "0xbf2179859fc6d5bee9bf9158632dc51678a4100e",
+    "binance-smart-chain": "0xa3f020a5c92e15be13caf0ee5c95cf79585eecc9"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2017-09-13",
+  "country_origin": "",
+  "description": {
+    "en": "aelf, an AI-enhanced Layer 1 blockchain network, leverages the robust C# programming language for efficiency and scalability across its sophisticated multi-layered architecture. Founded in 2017 with its global hub in Singapore, aelf is a pioneer in the industry, leading Asia in evolving blockchain with state-of-the-art AI integration and modular Layer 2 ZK Rollup technology, ensuring an efficient, low-cost, and highly secure platform that is both developer and end-user friendly. Aligned with its progressive vision, aelf is committed to fostering innovation within its ecosystem and advancing Web3 and AI technology adoption. \r\n\r\nThe story of aelf began on 10 December 2017, when aelf's vision and plans were introduced to global investors at a Coindesk conference. aelf successfully completed its fund-raising significantly ahead of schedule, having secured investments from notable institutions such as Arrington Capital, Draper Dragon, Galaxy Digital etc. aelf Testnet was successfully launched in 2018, followed by another successful launch of the Mainnet in 2020. aelf is currently operated and managed by a team of highly experienced Web3 veterans led by its founder and CEO, Auric, who bring a wealth of expertise, innovation and drive to the company. \r\n\r\nFor more information about aelf, please refer to https://www.aelf.com and our Whitepaper V2.0 (https://docs.aelf.com/resources/whitepaper-2/), or visit us on X (https://x.com/aelfblockchain) for the latest updates."
+  },
+  "links": {
+    "homepage": [
+      "https://aelf.com"
+    ],
+    "whitepaper": "https://docs.aelf.com/resources/whitepaper-2/",
+    "blockchain_site": [
+      "https://aelfscan.io/",
+      "https://platform.arkhamintelligence.com/explorer/token/aelf",
+      "https://ethplorer.io/address/0xbf2179859fc6d5bee9bf9158632dc51678a4100e",
+      "https://etherscan.io/token/0xbf2179859fc6d5bee9bf9158632dc51678a4100e",
+      "https://bscscan.com/token/0xa3f020a5c92e15be13caf0ee5c95cf79585eecc9",
+      "https://binplorer.com/address/0xa3f020a5c92e15be13caf0ee5c95cf79585eecc9",
+      "https://tdvv-explorer.aelf.io/address/elf_jrmbduh4nxwi1axgdusj5gjrzezb2lxmrabf7w99fazsvoaae_aelf",
+      "https://tdvv-explorer.aelf.io/address/elf_7rzvgiuvwkvl4vfvhdzfqf2tri3sgle9u991bohhffsrzxugx_tdvv",
+      "https://tdvv-explorer.aelf.io/address/0xbf2179859fc6d5bee9bf9158632dc51678a4100e",
+      "https://tdvv-explorer.aelf.io/address/0x000000000000000000000000000000000000dEaD"
+    ],
+    "official_forum_url": [
+      "https://blog.aelf.com/",
+      "https://www.youtube.com/@aelfblockchain"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/aelfblockchain"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "aelfblockchain",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/aelfofficial",
+    "repos_url": {
+      "github": [
+        "https://github.com/aelfProject/AElf",
+        "https://github.com/AElfProject/aelf-sdk.js",
+        "https://github.com/AElfProject/aelf-web-wallet"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/1371/thumb/aelf-logo.png?1696502429",
+    "small": "https://coin-images.coingecko.com/coins/images/1371/small/aelf-logo.png?1696502429",
+    "large": "https://coin-images.coingecko.com/coins/images/1371/large/aelf-logo.png?1696502429"
+  },
+  "last_updated": "2025-07-11T04:56:41.445325+00:00"
+}

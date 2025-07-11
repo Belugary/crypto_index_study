@@ -1,0 +1,58 @@
+{
+  "id": "wrapped-solana",
+  "symbol": "sol",
+  "name": "Wrapped SOL",
+  "categories": [
+    "Crypto-Backed Tokens",
+    "Wrapped-Tokens",
+    "Solana Ecosystem"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "So11111111111111111111111111111111111111112"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://solana.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/So11111111111111111111111111111111111111112",
+      "https://platform.arkhamintelligence.com/explorer/token/wrapped-solana",
+      "https://bscscan.com/token/0x570a5d26f7765ecb712c0924e4de545b89fd43df",
+      "https://binplorer.com/address/0x570a5d26f7765ecb712c0924e4de545b89fd43df"
+    ],
+    "official_forum_url": [
+      "https://docs.solana.com/"
+    ],
+    "chat_url": [
+      "https://discordapp.com/invite/pquxPsq"
+    ],
+    "announcement_url": [
+      "https://medium.com/solana-labs"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "solana",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/solana",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/21629/thumb/solana.jpg?1696520989",
+    "small": "https://coin-images.coingecko.com/coins/images/21629/small/solana.jpg?1696520989",
+    "large": "https://coin-images.coingecko.com/coins/images/21629/large/solana.jpg?1696520989"
+  },
+  "last_updated": "2025-07-11T05:02:01.150937+00:00"
+}

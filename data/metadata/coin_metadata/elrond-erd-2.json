@@ -1,0 +1,69 @@
+{
+  "id": "elrond-erd-2",
+  "symbol": "egld",
+  "name": "MultiversX",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "MultiversX Ecosystem",
+    "Binance Launchpad",
+    "DWF Labs Portfolio",
+    "Proof of Stake (PoS)",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "GMCI Layer 1 Index",
+    "GMCI Index",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What is MultiversX \r\n\r\nMultiversX is a blockchain protocol that offers true horizontal scalability by using all aspects of sharding (Network, Transaction & State). The project describes itself as a technology ecosystem for the new internet, which includes decentralized finance, real world assets and the Metaverse. Its smart contracts execution platform is reportedly capable of up to 100,000 transactions per second, 6-second latency and a $0.002 transaction cost. MultiversX is governed and secured through the EGLD token. EGLD, or Electronic Gold, is MultiversX's native token. It acts as a store of value currency to pay for network usage. The coin also serves as a medium of exchange between platform users and validators. Users pay transaction fees in EGLD and validators participate in the consensus process. EGLD allows developers to deploy smart contracts, protocols, and dApps on the platform. It empowers participants to perform any network action. Through staking and validation rewards, as well as transaction fees, EGLD manages the MultiversX network. Plus, EGLD is endowed with the functionality of a governance token, so its holders can vote on network decisions. \r\n\r\nHow does MultiversX Work \r\n\r\nAccording to the MultiversX crypto team, the project implements three types of parallelization: state, transactions, and network, using the parallel processing method to speed up the time and increase the number of transactions. MultiversX uses Adaptive State Sharding to scale while sharing infrastructure to support a growing number of applications/transactions on the ledger. A variation of the traditional PoS operational protocol guarantees the connection to the platform of all sections of the network, separated during sharding. Hence, the integrated environment is involved in the development of dApps, which are imitations of products and services. MultiversX combines three sharding methods to create its own unique adaptive one. It divides the network into four shards: three being execution shards that process transactions, validating 30,000 transactions per second, and Metachain is the fourth shard that coordinates and completes transactions. Sharding types include: State sharding where the history of the network, or state, is distributed across different sections of the network, or shards. Segments have their own ledger, nodes store the state of each segment; Transaction sharding where transactions are mapped to segments and processed, segments process transactions in parallel and nodes capture the state of the entire network; Network sharding where the nodes are grouped into segments and then processed. Network slicing contributes to optimizing communications. \r\n\r\nWhat makes MultiversX Unique \r\n\r\nMultiversX describes itself as a blockchain platform for the new internet economy, decentralized applications and enterprise use. Its main selling point is its high scalability, stating that it is the first blockchain network in which state, network and transaction sharding have all been implemented. According to its economics paper, it seeks to build up its ecosystem and establish EGLD as a store-of-value asset. To achieve this goal, the network runs on 3,200 validator nodes split into four shards: three execution shards, capable of up to 100,000 transactions per second in total, and one coordination shard, the \"Metachain.\" MultiversX's adaptive state sharding architecture completely shards state, transactions and network. It can scale by adding additional shards when the throughput demand requires. It was tested to run 263,000 TPS in a public environment with 1,500 nodes from 29 countries grouped in 50 shards. To increase adoption, the blockchain also supports developers building on the platform, allowing them to earn 30% of the smart contract fees as royalties.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://multiversx.com/",
+      "https://multiversx.com/ecosystem",
+      "https://multiversx.com/blog"
+    ],
+    "whitepaper": "https://assets-global.website-files.com/6597cc7be68d63ec0c8ce338/65b22e7c42f65345c285ccb8_multiversx-whitepaper.pdf",
+    "blockchain_site": [
+      "https://explorer.multiversx.com/",
+      "https://egldscan.com/",
+      "https://bigdipper.live/multiversx",
+      "https://elrond.bigdipper.live/"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/multiversxofficial",
+      "https://www.linkedin.com/company/multiversx"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/multiversxbuilders",
+      "https://www.youtube.com/@MultiversXOfficial"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "MultiversX",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "MultiversX",
+    "subreddit_url": "https://www.reddit.com/r/elrondnetwork/",
+    "repos_url": {
+      "github": [
+        "https://github.com/multiversx/mx-chain-go"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/12335/thumb/egld-token-logo.png?1696512162",
+    "small": "https://coin-images.coingecko.com/coins/images/12335/small/egld-token-logo.png?1696512162",
+    "large": "https://coin-images.coingecko.com/coins/images/12335/large/egld-token-logo.png?1696512162"
+  },
+  "last_updated": "2025-07-11T04:58:12.751748+00:00"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "binance-bridged-usdc-bnb-smart-chain",
+  "symbol": "usdc",
+  "name": "Binance Bridged USDC (BNB Smart Chain)",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Bridged USDC",
+    "Bridged-Tokens",
+    "Bridged Stablecoin"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://bscscan.com/token/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+      "https://platform.arkhamintelligence.com/explorer/token/binance-bridged-usdc-bnb-smart-chain",
+      "https://binplorer.com/address/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/35220/thumb/USDC.jpg?1707919050",
+    "small": "https://coin-images.coingecko.com/coins/images/35220/small/USDC.jpg?1707919050",
+    "large": "https://coin-images.coingecko.com/coins/images/35220/large/USDC.jpg?1707919050"
+  },
+  "last_updated": "2025-07-11T04:57:14.775247+00:00"
+}

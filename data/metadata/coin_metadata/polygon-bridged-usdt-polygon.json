@@ -1,0 +1,51 @@
+{
+  "id": "polygon-bridged-usdt-polygon",
+  "symbol": "usdt",
+  "name": "Polygon Bridged USDT (Polygon)",
+  "categories": [
+    "Polygon Ecosystem",
+    "Bridged USDT",
+    "Bridged-Tokens",
+    "Bridged Stablecoin"
+  ],
+  "asset_platform_id": "polygon-pos",
+  "platforms": {
+    "polygon-pos": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://portal.polygon.technology/assets"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://polygonscan.com/token/0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+      "https://platform.arkhamintelligence.com/explorer/token/polygon-bridged-usdt-polygon"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/35023/thumb/USDT.png?1707233644",
+    "small": "https://coin-images.coingecko.com/coins/images/35023/small/USDT.png?1707233644",
+    "large": "https://coin-images.coingecko.com/coins/images/35023/large/USDT.png?1707233644"
+  },
+  "last_updated": "2025-07-11T05:00:08.865259+00:00"
+}

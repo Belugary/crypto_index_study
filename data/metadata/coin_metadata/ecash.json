@@ -1,0 +1,60 @@
+{
+  "id": "ecash",
+  "symbol": "xec",
+  "name": "eCash",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Bitcoin Fork",
+    "Proof of Work (PoW)"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "eCash (XEC) is a Layer-1 digital cash network, developed by Bitcoin ABC. It was created on Nov 15th, 2020, and has since distinguished itself from its predecessors and other Bitcoin clients by integrating the breakthrough Avalanche consensus with its core proof-of-work (PoW) layer, extending its security and fundamental capabilities.\r\n\r\nThis hybrid consensus integration gives it unique properties for a Bitcoin-like chain, such as interoperability, staking rewards, real-time processing, and an improved overall extensibility, which is hard to achieve in a completely trustless manner using only Nakamoto consensus.\r\n\r\nThe development roadmap is set with three main goals:\r\nScaling transaction throughput from ~100 tps to more than 5.000.000 tps\r\nImproving the payment experience with a less than 3 second transaction finality time\r\nExtending the protocol and establishing fork-free upgrade routines, allowing for more rapid, iterative development"
+  },
+  "links": {
+    "homepage": [
+      "https://e.cash/",
+      "https://ecash.community/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.bitcoinabc.org/",
+      "https://blockchair.com/ecash",
+      "https://ecash.coin.dance/",
+      "https://explorer.be.cash/blocks",
+      "https://explorer.viawallet.com/xec",
+      "https://explorer.e.cash/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/HaVRXcST7n"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ecashofficial",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "ecash_official",
+    "subreddit_url": "https://www.reddit.com/r/ecash/",
+    "repos_url": {
+      "github": [
+        "https://github.com/bitcoin-abc"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/16646/thumb/Logo_final-22.png?1696516207",
+    "small": "https://coin-images.coingecko.com/coins/images/16646/small/Logo_final-22.png?1696516207",
+    "large": "https://coin-images.coingecko.com/coins/images/16646/large/Logo_final-22.png?1696516207"
+  },
+  "last_updated": "2025-07-11T04:58:10.380377+00:00"
+}

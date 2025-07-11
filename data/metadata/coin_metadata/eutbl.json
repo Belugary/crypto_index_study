@@ -1,0 +1,69 @@
+{
+  "id": "eutbl",
+  "symbol": "eutbl",
+  "name": "Spiko EU T-Bills Money Market Fund",
+  "categories": [
+    "Tokenized Assets",
+    "Polygon Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "Starknet Ecosystem",
+    "Tokenized Treasury Bills (T-Bills)"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xa0769f7a8fc65e47de93797b4e21c073c117fc80",
+    "starknet": "0x04f5e0de717daa6aa8de63b1bf2e8d7823ec5b21a88461b1519d9dbc956fb7f2",
+    "arbitrum-one": "0xcbeb19549054cc0a6257a77736fc78c367216ce7",
+    "polygon-pos": "0xa0769f7a8fc65e47de93797b4e21c073c117fc80"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Spiko EU T-Bills Money Market Fund is a fully-licensed EUR money market fund operating under the EU regulatory framework. It only invests in Treasury Bills issued by the strongest Eurozone Member States with less than 6 months maturity and keeps its maximum average portfolio maturity under 2 months."
+  },
+  "links": {
+    "homepage": [
+      "https://www.spiko.xyz",
+      "https://docs.spiko.xyz"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xa0769f7a8fc65e47de93797b4e21c073c117fc80",
+      "https://platform.arkhamintelligence.com/explorer/token/eutbl",
+      "https://polygonscan.com/token/0xa0769f7a8fc65e47de93797b4e21c073c117fc80",
+      "https://ethplorer.io/address/0xa0769f7a8fc65e47de93797b4e21c073c117fc80",
+      "https://arbiscan.io/token/0xcbeb19549054cc0a6257a77736fc78c367216ce7",
+      "https://starkscan.co/token/0x04f5e0de717daa6aa8de63b1bf2e8d7823ec5b21a88461b1519d9dbc956fb7f2",
+      "https://voyager.online/token/0x04f5e0de717daa6aa8de63b1bf2e8d7823ec5b21a88461b1519d9dbc956fb7f2"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/spiko-tech/"
+    ],
+    "chat_url": [
+      "https://medium.com/@spiko"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/spiko-tech/contracts"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39657/thumb/EUTBL.png?1723517425",
+    "small": "https://coin-images.coingecko.com/coins/images/39657/small/EUTBL.png?1723517425",
+    "large": "https://coin-images.coingecko.com/coins/images/39657/large/EUTBL.png?1723517425"
+  },
+  "last_updated": "2025-07-11T04:58:21.439901+00:00"
+}

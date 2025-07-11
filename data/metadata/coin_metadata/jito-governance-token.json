@@ -1,0 +1,59 @@
+{
+  "id": "jito-governance-token",
+  "symbol": "jto",
+  "name": "Jito",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Solana Ecosystem",
+    "Liquid Staking Governance Tokens",
+    "Multicoin Capital Portfolio",
+    "Alameda Research Portfolio",
+    "Delphi Ventures Portfolio",
+    "Liquid Staking",
+    "Made in USA"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "JTO is the governance token of the Jito Network. Jito Network is a major contributor to the Solana ecosystem through its JitoSOL liquid staking pool, and its collection of MEV products. Users can exchange their SOL for JitoSOL. In return, holders maintain SOL’s liquidity and DeFi opportunities while earning yield from staking. JitoSOL uniquely provides its holders with additional rewards from transaction revenue associated with MEV extraction on Solana. Maximum extractable value (MEV) describes profit opportunities attributable to the specific order of transaction execution. For example, a large swap on Orca can lower the pool’s price below that of Raydium or Serum. Traders will race to profit from that price difference and this arbitrage is considered MEV. The Jito Foundation was created to minimize the negative impacts of MEV, equitably distribute the profits and increase transparency. Jito published an open source validator client designed to create a competitive market for MEV extraction. The client enables auctions within each block for the opportunity to capture that block’s MEV. Traders submit bids, and the highest bidders within each block can harvest available MEV."
+  },
+  "links": {
+    "homepage": [
+      "https://www.jito.network/",
+      "https://www.jito.network/blog/announcing-jto-the-jito-governance-token/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL",
+      "https://platform.arkhamintelligence.com/explorer/token/jito-governance-token"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/jitocommunity",
+      "https://www.youtube.com/@MidcurveMedia"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "jito_sol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33228/thumb/jto.png?1701137022",
+    "small": "https://coin-images.coingecko.com/coins/images/33228/small/jto.png?1701137022",
+    "large": "https://coin-images.coingecko.com/coins/images/33228/large/jto.png?1701137022"
+  },
+  "last_updated": "2025-07-11T04:58:55.689166+00:00"
+}

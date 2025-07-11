@@ -1,0 +1,61 @@
+{
+  "id": "dai",
+  "symbol": "dai",
+  "name": "Dai",
+  "categories": [
+    "Stablecoins",
+    "Decentralized Finance (DeFi)",
+    "USD Stablecoin",
+    "Ethereum Ecosystem",
+    "Crypto-backed Stablecoin",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x6b175474e89094c44da98b954eedeac495271d0f"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "MakerDAO has launched Multi-collateral DAI (MCD). This token refers to the new DAI that is collaterized by multiple assets.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://makerdao.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x6b175474e89094c44da98b954eedeac495271d0f",
+      "https://platform.arkhamintelligence.com/explorer/token/dai",
+      "https://ethplorer.io/address/0x6b175474e89094c44da98b954eedeac495271d0f",
+      "https://blockchair.com/ethereum/erc-20/token/0x6b175474e89094c44da98b954eedeac495271d0f",
+      "https://explorer.syscoin.org/",
+      "https://explorer-mainnet-cardano-evm.c1.milkomeda.com/token/",
+      "https://blockscout.com/astar/token/<>",
+      "https://andromeda-explorer.metis.io/token/",
+      "https://ethereum.dex.guru/token/0x6b175474e89094c44da98b954eedeac495271d0f",
+      "https://starkscan.co/contract/0xda114221cb83fa859dbdb4c44beeaa0bb37c7537ad5ae66fe5e0efd20e6eb3"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SkyEcosystem",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "makerdaoOfficial",
+    "subreddit_url": "https://www.reddit.com/r/MakerDAO",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/9956/thumb/Badge_Dai.png?1696509996",
+    "small": "https://coin-images.coingecko.com/coins/images/9956/small/Badge_Dai.png?1696509996",
+    "large": "https://coin-images.coingecko.com/coins/images/9956/large/Badge_Dai.png?1696509996"
+  },
+  "last_updated": "2025-07-11T04:57:59.876865+00:00"
+}

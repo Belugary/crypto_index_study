@@ -1,0 +1,70 @@
+{
+  "id": "helium",
+  "symbol": "hnt",
+  "name": "Helium",
+  "categories": [
+    "Communication",
+    "Internet of Things (IOT)",
+    "Smart Contract Platform",
+    "Solana Ecosystem",
+    "DePIN",
+    "Multicoin Capital Portfolio",
+    "Proof of Stake (PoS)",
+    "Alameda Research Portfolio",
+    "Pantera Capital Portfolio",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "Made in USA",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "hntyVP6YFm1Hg25TN9WGLqM12b8TQmcknKrdu1oxWux"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "US",
+  "description": {
+    "en": "Helium is a decentralized machine network powered by a physical blockchain. The network is created by gateways who also double as miners on our network. These gateway operators can earn tokens based on coverage they provide as well as transaction fees gained from machines connecting to their gateway\r\n\r\nHelium is a new cryptocurrency. Hotspots earn for providing and validating wireless coverage and when devices on the network connect to the internet through Hospots\r\n\r\nHelium is mined and distributed to Hotspot Owners, Helium Inc, and investors.\r\nThere is no pre-mine of Helium, and every month approximately 5,000,000 new Helium are minted.\r\n\r\nAt the end of each mining period, roughly every 30 to 60 mins, Helium is distributed according to the allocation shown:"
+  },
+  "links": {
+    "homepage": [
+      "https://www.helium.com/"
+    ],
+    "whitepaper": "http://whitepaper.helium.com/",
+    "blockchain_site": [
+      "https://explorer.helium.com/",
+      "https://platform.arkhamintelligence.com/explorer/token/helium",
+      "https://explorer.energi.network/token/0x77f38fab153fdb599c5983533df0c894c2b7dd76",
+      "https://solscan.io/token/hntyvp6yfm1hg25tn9wglqm12b8tqmcknkrdu1oxwux"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "http://chat.helium.com/",
+      "https://blog.helium.com/",
+      "https://www.facebook.com/heliumsystems"
+    ],
+    "announcement_url": [
+      "https://www.linkedin.com/company/heliuminc",
+      "https://www.instagram.com/join.helium/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "helium",
+    "facebook_username": "heliumsystems",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "helium_network",
+    "subreddit_url": "https://www.reddit.com/r/HeliumNetwork",
+    "repos_url": {
+      "github": [
+        "https://github.com/helium/erlang-hbbft"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/4284/thumb/helium_logo_use.png?1748092589",
+    "small": "https://coin-images.coingecko.com/coins/images/4284/small/helium_logo_use.png?1748092589",
+    "large": "https://coin-images.coingecko.com/coins/images/4284/large/helium_logo_use.png?1748092589"
+  },
+  "last_updated": "2025-07-11T04:58:42.582038+00:00"
+}

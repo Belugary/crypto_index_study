@@ -1,0 +1,63 @@
+{
+  "id": "eigenlayer",
+  "symbol": "eigen",
+  "name": "EigenCloud (prev. EigenLayer)",
+  "categories": [
+    "Infrastructure",
+    "Ethereum Ecosystem",
+    "Data Availability",
+    "Restaking",
+    "Polychain Capital Portfolio",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xec53bf9167f50cdeb3ae105f56099aaab9061f83"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "EigenCloud is a developer platform that makes any app onchain or offchain provably verifiable. A platform for verifiable apps, services, and AI powered by the EIGEN token."
+  },
+  "links": {
+    "homepage": [
+      "https://www.eigencloud.xyz/",
+      "https://www.eigenlayer.xyz/",
+      "https://eigenfoundation.org/"
+    ],
+    "whitepaper": "https://docs.eigenlayer.xyz/eigenlayer/overview/whitepaper",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xec53bF9167f50cDEB3Ae105f56099aaaB9061F83",
+      "https://platform.arkhamintelligence.com/explorer/token/eigenlayer",
+      "https://ethplorer.io/address/0xec53bF9167f50cDEB3Ae105f56099aaaB9061F83"
+    ],
+    "official_forum_url": [
+      "https://blog.eigencloud.xyz/",
+      "https://x.com/eigenfoundation",
+      "https://www.linkedin.com/company/eigenfoundation"
+    ],
+    "chat_url": [
+      "https://discord.gg/eigenlayer",
+      "https://www.youtube.com/@EigenLayer"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "eigenlayer",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/37441/thumb/eigencloud.jpg?1751003565",
+    "small": "https://coin-images.coingecko.com/coins/images/37441/small/eigencloud.jpg?1751003565",
+    "large": "https://coin-images.coingecko.com/coins/images/37441/large/eigencloud.jpg?1751003565"
+  },
+  "last_updated": "2025-07-11T04:58:11.553043+00:00"
+}

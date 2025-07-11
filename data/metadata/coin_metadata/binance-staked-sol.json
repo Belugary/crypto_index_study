@@ -1,0 +1,61 @@
+{
+  "id": "binance-staked-sol",
+  "symbol": "bnsol",
+  "name": "Binance Staked SOL",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Solana Ecosystem",
+    "Liquid Staking Tokens",
+    "Liquid Staked SOL",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "BNso1VUJnh4zcfpZa6986Ea66P6TCp59hvtNJ8b1X85"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Binance Staked SOL (BNSOL) represents your staked SOL plus the staking rewards received, in a tradable and transferable form. Ordinary staking would lock up your staked assets, which means you cannot use them for other purposes – it increases a user's opportunity cost.\r\n\r\nIn contrast, BNSOL provides flexibility to sell, transfer, or use the staked SOL position. You can even move BNSOL to a personal wallet and use it outside the Binance platform whilst still earning rewards. BNSOL accumulates staking rewards through the BNSOL:SOL conversion rate on Binance SOL Staking, even when it is used in other Binance products or external DeFi applications for additional yield opportunities."
+  },
+  "links": {
+    "homepage": [
+      "https://www.binance.com/en/solana-staking",
+      "https://www.binance.com"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.solana.com/address/bnso1vujnh4zcfpza6986ea66p6tcp59hvtnj8b1x85",
+      "https://platform.arkhamintelligence.com/explorer/token/binance-staked-sol",
+      "https://solscan.io/token/bnso1vujnh4zcfpza6986ea66p6tcp59hvtnj8b1x85",
+      "https://solana.fm/address/bnso1vujnh4zcfpza6986ea66p6tcp59hvtnj8b1x85"
+    ],
+    "official_forum_url": [
+      "https://www.tiktok.com/@binance",
+      "https://www.linkedin.com/company/binance",
+      "https://www.instagram.com/binance/"
+    ],
+    "chat_url": [
+      "https://www.youtube.com/binanceyoutube"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "binance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/40132/thumb/bnsol.png?1725968367",
+    "small": "https://coin-images.coingecko.com/coins/images/40132/small/bnsol.png?1725968367",
+    "large": "https://coin-images.coingecko.com/coins/images/40132/large/bnsol.png?1725968367"
+  },
+  "last_updated": "2025-07-11T04:57:18.716148+00:00"
+}

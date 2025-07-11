@@ -1,0 +1,73 @@
+{
+  "id": "true-usd",
+  "symbol": "tusd",
+  "name": "TrueUSD",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "BNB Chain Ecosystem",
+    "Avalanche Ecosystem",
+    "Ethereum Ecosystem",
+    "Tron Ecosystem",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x0000000000085d4780b73119b644ae5ecd22b376",
+    "tron": "TUpMhErZL2fhh4sVNULAbNKLokS4GjC1F4",
+    "binancecoin": "TUSDB-888",
+    "binance-smart-chain": "0x40af3827f39d0eacbf4a168f8d4ee67c121d11c9",
+    "avalanche": "0x1c20e891bab6b1727d14da358fae2984ed9b59eb"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2018-03-05",
+  "country_origin": "",
+  "description": {
+    "en": "TUSD is the first digital asset with live on-chain attestations by independent third-party institutions and is backed 1:1 with the U.S. dollar (USD). So far, it has been listed on more than 100 trading platforms such as Binance and Huobi and is live on 12 mainstream public chains, including Ethereum, TRON, Avalanche, BSC, Fantom, and Polygon. TrueUSD is attested to in real-time by an independent, industry-specialized accounting firm in the U.S., to ensure the 1:1 ratio of its USD reserve to the circulating token supply and the 100% collateral rate. With the integration of Chainlink PoR, TrueUSD becomes the first USD-Backed stablecoin to secure minting and further ensure transparency and reliability. Users can access the relevant data via the official website tusd.io at any time. TUSD is granted statutory status as authorized digital currency and medium of exchange in the Commonwealth of Dominica, a country in the Caribbean, effective on October 7th 2022."
+  },
+  "links": {
+    "homepage": [
+      "https://tusd.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x0000000000085d4780b73119b644ae5ecd22b376",
+      "https://platform.arkhamintelligence.com/explorer/token/true-usd",
+      "https://ethplorer.io/address/0x0000000000085d4780b73119b644ae5ecd22b376",
+      "https://tronscan.org/#/token20/tupmherzl2fhh4svnulabnkloks4gjc1f4",
+      "https://avascan.info/blockchain/c/address/0x1c20e891bab6b1727d14da358fae2984ed9b59eb",
+      "https://polygonscan.com/token/0x2e1ad108ff1d8c782fcbbb89aad783ac49586756",
+      "https://gnosis.dex.guru/token/0xb714654e905edad1ca1940b7790a8239ece5a9ff",
+      "https://snowtrace.io/token/0x1c20e891bab6b1727d14da358fae2984ed9b59eb",
+      "https://arbiscan.io/token/0x4d15a3a2286d883af0aa1b3f21367843fac63e07",
+      "https://ftmscan.com/address/0x9879abdea01a879644185341f7af7d8343556b7a"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/tusdio"
+    ],
+    "announcement_url": [
+      "https://trueusd.medium.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "tusdio",
+    "facebook_username": "TrustToken",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "TUSDofficial_EN",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/trusttoken/trueUSD"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/3449/thumb/tusd.png?1696504140",
+    "small": "https://coin-images.coingecko.com/coins/images/3449/small/tusd.png?1696504140",
+    "large": "https://coin-images.coingecko.com/coins/images/3449/large/tusd.png?1696504140"
+  },
+  "last_updated": "2025-07-11T05:01:27.038746+00:00"
+}

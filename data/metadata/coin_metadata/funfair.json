@@ -1,0 +1,62 @@
+{
+  "id": "funfair",
+  "symbol": "fun",
+  "name": "FUNToken",
+  "categories": [
+    "Gambling (GambleFi)",
+    "Ethereum Ecosystem",
+    "Pantera Capital Portfolio",
+    "Energi Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x419d0d8bdd9af5e606ae2232ed285aff190e711b",
+    "energi": "0x04cd06cf05b816f09395375f0143584b4a95ea9f"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2017-06-23",
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://funtoken.io/",
+      "https://xfun.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x419d0d8bdd9af5e606ae2232ed285aff190e711b",
+      "https://platform.arkhamintelligence.com/explorer/token/funfair",
+      "https://ethplorer.io/address/0x419d0d8bdd9af5e606ae2232ed285aff190e711b",
+      "https://explorer.energi.network/token/0x04cd06cf05b816f09395375f0143584b4a95ea9f"
+    ],
+    "official_forum_url": [
+      "https://www.youtube.com/@funtoken7635/featured"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/e7vfgKbEKU",
+      "https://medium.com/@FUNtoken"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "FUNtoken_io",
+    "facebook_username": "OfficialFUNToken",
+    "bitcointalk_thread_identifier": 1968383,
+    "telegram_channel_identifier": "officialFUNToken",
+    "subreddit_url": "https://www.reddit.com/r/FUN_Token",
+    "repos_url": {
+      "github": [
+        "https://github.com/funtoken/funtoken.github.io"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/761/thumb/FUN.png?1696501914",
+    "small": "https://coin-images.coingecko.com/coins/images/761/small/FUN.png?1696501914",
+    "large": "https://coin-images.coingecko.com/coins/images/761/large/FUN.png?1696501914"
+  },
+  "last_updated": "2025-07-11T04:58:30.207529+00:00"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "ondo-finance",
+  "symbol": "ondo",
+  "name": "Ondo",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "Coinbase Ventures Portfolio",
+    "Pantera Capital Portfolio",
+    "GMCI DeFi Index",
+    "RWA Protocol",
+    "GMCI Index",
+    "World Liberty Financial Portfolio",
+    "Binance Alpha Spotlight",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "ONDO is a DeFi primitive that enables users to originate risk-isolated, fixed yield loans backed by yield-generating crypto-assets. It's unique because it's a permissionless protocol that allows users to interact on a peer-to-pool basis with no intermediaries."
+  },
+  "links": {
+    "homepage": [
+      "https://ondo.finance/",
+      "https://docs.ondo.finance/",
+      "https://fluxfinance.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/address/0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3",
+      "https://platform.arkhamintelligence.com/explorer/token/ondo-finance",
+      "https://etherscan.io/token/0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3",
+      "https://ethplorer.io/address/0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3"
+    ],
+    "official_forum_url": [
+      "https://discord.com/invite/YzhZaFbB92"
+    ],
+    "chat_url": [
+      "https://blog.ondo.finance/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "OndoFinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "ondofinance",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/ondoprotocol/ondo-protocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/26580/thumb/ONDO.png?1696525656",
+    "small": "https://coin-images.coingecko.com/coins/images/26580/small/ONDO.png?1696525656",
+    "large": "https://coin-images.coingecko.com/coins/images/26580/large/ONDO.png?1696525656"
+  },
+  "last_updated": "2025-07-11T04:59:48.628107+00:00"
+}

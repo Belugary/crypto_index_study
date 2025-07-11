@@ -1,0 +1,56 @@
+{
+  "id": "stratis",
+  "symbol": "strax",
+  "name": "Stratis",
+  "categories": [
+    "Smart Contract Platform",
+    "Proof of Stake (PoS)"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "X13",
+  "genesis_date": "2016-08-09",
+  "country_origin": "",
+  "description": {
+    "en": "Stratis is a powerful and flexible Blockchain Development Platform designed for the needs of the real world financial services businesses and other organisations that want to develop, test and deploy apps on the blockchain. Stratis significantly simplifies the development process for creating Blockchain applications and accelerates the lifecycle for Blockchain development projects. Stratis private chain allows businesses to deploy their own customise blockchain without the costs of running their own blockchain network infrastructure.\r\n\r\nThe vision of the Stratis platform is to become a one-stop shop for all blockchain things, mostly becoming a blockchain-as-a-service (BAAS) platform. Technology-wise, it is a clone of Bitcoin’s core code, with a few enhanced features and written in C# language instead of C++.\r\n\r\nThe team is based in the United Kingdom but has a decentralized structure with members spreading across the world. Several people on their management team are well-versed in enterprise software development using .NET and C# – a positive sign considering those are the project’s two primary languages. Chris Trew, the founder and CEO, has over 10 years of experience in enterprise IT and was a volunteer developer for the Blitz project. Stratis is competing against other BaaS projects in an increasingly saturated but gigantic space. Lisk may be the largest direct competitor in offering sidechains for businesses. However, Lisk is written in Javascript (not C#) and has sidechains that are more publicly available. The decreased privacy may be a turnoff to corporations looking to keep their code proprietary. The company held an ICO in June 2016 and manage to raised 915 Bitcoin."
+  },
+  "links": {
+    "homepage": [
+      "http://stratisplatform.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      " https://chainz.cryptoid.info/strax/",
+      "https://strat.tokenview.io/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/9tDyfZs",
+      "https://www.facebook.com/stratisplatform/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "stratisplatform",
+    "facebook_username": "stratisplatform",
+    "bitcointalk_thread_identifier": 1512202,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/stratisplatform/",
+    "repos_url": {
+      "github": [
+        "https://github.com/stratisproject/StratisCore",
+        "https://github.com/stratisproject/Breeze",
+        "https://github.com/stratisproject/FederatedSidechains"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/531/thumb/stratis.png?1696501751",
+    "small": "https://coin-images.coingecko.com/coins/images/531/small/stratis.png?1696501751",
+    "large": "https://coin-images.coingecko.com/coins/images/531/large/stratis.png?1696501751"
+  },
+  "last_updated": "2025-07-11T05:01:00.539397+00:00"
+}

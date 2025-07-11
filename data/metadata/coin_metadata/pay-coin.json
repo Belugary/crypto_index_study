@@ -1,0 +1,54 @@
+{
+  "id": "pay-coin",
+  "symbol": "pci",
+  "name": "Paycoin",
+  "categories": [
+    "E-commerce"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "SHA-256",
+  "genesis_date": null,
+  "country_origin": "KR",
+  "description": {
+    "en": "We are a project that focuses on implementing blockchain into payment. We now have more than 10,000 merchants in Korea that accepts Paycoin, including 7-eleven, Domino's Pizza, KFC, and more. We aim to bring real use cases that can drive user adoption. "
+  },
+  "links": {
+    "homepage": [
+      "https://payprotocol.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://scan.payprotocol.io/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://open.kakao.com/o/gd7c5Pib"
+    ],
+    "announcement_url": [
+      "https://medium.com/payprotocol",
+      "https://blog.naver.com/payprotocol"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "payprotocol",
+    "facebook_username": "payprotocol",
+    "bitcointalk_thread_identifier": 4936189,
+    "telegram_channel_identifier": "payprotocol",
+    "subreddit_url": "https://www.reddit.com/r/payprotocol/",
+    "repos_url": {
+      "github": [
+        "https://github.com/payprotocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/9330/thumb/new_logo_square.png?1696509434",
+    "small": "https://coin-images.coingecko.com/coins/images/9330/small/new_logo_square.png?1696509434",
+    "large": "https://coin-images.coingecko.com/coins/images/9330/large/new_logo_square.png?1696509434"
+  },
+  "last_updated": "2025-07-11T04:59:59.892764+00:00"
+}

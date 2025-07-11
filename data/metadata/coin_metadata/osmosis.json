@@ -1,0 +1,69 @@
+{
+  "id": "osmosis",
+  "symbol": "osmo",
+  "name": "Osmosis",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Decentralized Finance (DeFi)",
+    "Automated Market Maker (AMM)",
+    "Cosmos Ecosystem",
+    "Osmosis Ecosystem",
+    "Paradigm Portfolio",
+    "Proof of Stake (PoS)",
+    "Evmos Ecosystem",
+    "Secret Ecosystem",
+    "GMCI DeFi Index",
+    "GMCI Index",
+    "Made in USA"
+  ],
+  "asset_platform_id": "osmosis",
+  "platforms": {
+    "osmosis": "uosmo",
+    "evmos": "0xfa3c22c069b9556a4b2f7ece1ee3b467909f4864",
+    "cosmos": "ibc/14F9BC3E44B8A9C1BE1FB08980FAB87034C9905EF17CF2F5008FC085218811CC",
+    "secret": "secret150jec8mc2hzyyqak4umv6cfevelr0x9p0mjxgg"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Osmosis (OSMO) is the premier DEX and cross-chain DeFi hub within the Cosmos ecosystem, a network of over 50 sovereign, interoperable blockchains seamlessly connected through the Inter-Blockchain Communication Protocol (IBC). Pioneering in its approach, Osmosis offers a dynamic trading and liquidity provision experience, integrating non-IBC assets from other ecosystems, including Ethereum, Solana, Avalanche, and Polkadot. Initially adopting Balancer-style pools, Osmosis now also features a concentrated liquidity model that is orders of magnitude more capital efficient, meaning that significantly less liquidity is required to handle the same amount of trading volume with minimal slippage."
+  },
+  "links": {
+    "homepage": [
+      "https://osmosis.zone/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://www.mintscan.io/osmosis",
+      "https://atomscan.com/osmosis",
+      "https://osmosis.explorers.guru/",
+      "https://evm.evmos.org/token/0xfa3c22c069b9556a4b2f7ece1ee3b467909f4864",
+      "https://www.mintscan.io/secret/address/secret150jec8mc2hzyyqak4umv6cfevelr0x9p0mjxgg"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://medium.com/osmosis"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "osmosiszone",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "osmosis_chat",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/osmosis-labs/osmosis"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/16724/thumb/osmo.png?1696516298",
+    "small": "https://coin-images.coingecko.com/coins/images/16724/small/osmo.png?1696516298",
+    "large": "https://coin-images.coingecko.com/coins/images/16724/large/osmo.png?1696516298"
+  },
+  "last_updated": "2025-07-11T04:59:56.236299+00:00"
+}

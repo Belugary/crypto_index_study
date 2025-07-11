@@ -1,0 +1,57 @@
+{
+  "id": "apenft",
+  "symbol": "nft",
+  "name": "APENFT",
+  "categories": [
+    "NFT",
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem",
+    "Tron Ecosystem"
+  ],
+  "asset_platform_id": "tron",
+  "platforms": {
+    "tron": "TFczxzPhnThNSqr5by8tvxsdCFRRz6cPNq",
+    "ethereum": "0x198d14f2ad9ce69e76ea330b374de4957c3f850a",
+    "binance-smart-chain": "0x20ee7b720f4e4c4ffcb00c4065cdae55271aecca"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "SG",
+  "description": {
+    "en": "APENFT Fund was born with the mission to register world-class artworks as NFTs on-chain. It is built on top of TRON, one of the world's top three public chains, and is powered by the world's largest distributed data storage system BitTorrent.\r\n\r\nLike how blockchain democratizes finance like never before, APENFT, by turning top artists and art pieces into NFTs, not only upgrades the way artworks are hosted but also transforms them from being elite-exclusive items to something that truly belongs to the people and mirrors their aspirations. APENFT is the art for everyone."
+  },
+  "links": {
+    "homepage": [
+      "https://apenft.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://tronscan.org/#/token20/tfczxzphnthnsqr5by8tvxsdcfrrz6cpnq",
+      "https://platform.arkhamintelligence.com/explorer/token/apenft",
+      "https://binplorer.com/address/0x20ee7b720f4e4c4ffcb00c4065cdae55271aecca",
+      "https://etherscan.io/token/0x198d14f2ad9ce69e76ea330b374de4957c3f850a",
+      "https://ethplorer.io/address/0x198d14f2ad9ce69e76ea330b374de4957c3f850a",
+      "https://bscscan.com/token/0x20ee7b720f4e4c4ffcb00c4065cdae55271aecca"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "apenftorg",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/15687/thumb/apenft.jpg?1696515316",
+    "small": "https://coin-images.coingecko.com/coins/images/15687/small/apenft.jpg?1696515316",
+    "large": "https://coin-images.coingecko.com/coins/images/15687/large/apenft.jpg?1696515316"
+  },
+  "last_updated": "2025-07-11T04:56:53.875603+00:00"
+}

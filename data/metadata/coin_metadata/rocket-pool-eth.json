@@ -1,0 +1,73 @@
+{
+  "id": "rocket-pool-eth",
+  "symbol": "reth",
+  "name": "Rocket Pool ETH",
+  "categories": [
+    "Polygon Ecosystem",
+    "Arbitrum Ecosystem",
+    "Liquid Staking Tokens",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Base Ecosystem",
+    "Liquid Staked ETH",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xae78736cd615f374d3085123a210448e74fc6393",
+    "optimistic-ethereum": "0x9bcef72be871e61ed4fbbc7630889bee758eb81d",
+    "arbitrum-one": "0xec70dcb4a1efa46b8f2d97c310c9c4790ba5ffa8",
+    "base": "0xb6fe221fe9eef5aba221c348ba20a1bf5e73624c",
+    "polygon-pos": "0x0266f4f08d82372cf0fcbccc0ff74309089c74d1"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Rocket Pool is a next generation decentralised staking pool protocol for Ethereum.\r\n\r\nRocket Pool ETH (rETH) is the Rocket Pool protocol's liquid staking token. The rETH token represents an amount of ETH that is being staked and earning rewards within Ethereum Proof-of-Stake. As Rocket Pool node operators, stake Ethereum on Proof-of-Stake the resulting rewards increase the value of rETH  relative to ETH. Rocket Pool's liquid staking token allows holders to benefit from the returns of the Ethereum Proof-of-Stake.\r\n\r\nMore information on Rocket Pool and rETH can be found at https://rocketpool.net."
+  },
+  "links": {
+    "homepage": [
+      "https://rocketpool.net/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xae78736cd615f374d3085123a210448e74fc6393",
+      "https://platform.arkhamintelligence.com/explorer/token/rocket-pool-eth",
+      "https://ethplorer.io/address/0xae78736cd615f374d3085123a210448e74fc6393",
+      "https://arbiscan.io/token/0xec70dcb4a1efa46b8f2d97c310c9c4790ba5ffa8",
+      "https://optimistic.etherscan.io/token/0x9bcef72be871e61ed4fbbc7630889bee758eb81d",
+      "https://polygonscan.com/token/0x0266f4f08d82372cf0fcbccc0ff74309089c74d1",
+      "https://ethereum.dex.guru/token/0xae78736cd615f374d3085123a210448e74fc6393",
+      "https://arbitrum.dex.guru/token/0xec70dcb4a1efa46b8f2d97c310c9c4790ba5ffa8",
+      "https://optimism.dex.guru/token/0x9bcef72be871e61ed4fbbc7630889bee758eb81d",
+      "https://basescan.org/token/0xb6fe221fe9eef5aba221c348ba20a1bf5e73624c"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/rocketpool"
+    ],
+    "announcement_url": [
+      "https://medium.com/rocket-pool"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "rocket_pool",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/rocketpool/",
+    "repos_url": {
+      "github": [
+        "https://github.com/rocket-pool/rocketpool/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/20764/thumb/reth.png?1696520159",
+    "small": "https://coin-images.coingecko.com/coins/images/20764/small/reth.png?1696520159",
+    "large": "https://coin-images.coingecko.com/coins/images/20764/large/reth.png?1696520159"
+  },
+  "last_updated": "2025-07-11T05:00:30.924568+00:00"
+}

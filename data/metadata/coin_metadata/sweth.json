@@ -1,0 +1,61 @@
+{
+  "id": "sweth",
+  "symbol": "sweth",
+  "name": "Swell Ethereum",
+  "categories": [
+    "Arbitrum Ecosystem",
+    "Liquid Staking Tokens",
+    "Ethereum Ecosystem",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xf951e335afb289353dc249e82926178eac7ded78",
+    "arbitrum-one": "0xbc011a12da28e8f0f528d9ee5e7039e22f91cf18"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.swellnetwork.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xf951e335afb289353dc249e82926178eac7ded78",
+      "https://platform.arkhamintelligence.com/explorer/token/sweth",
+      "https://ethplorer.io/address/0xf951e335afb289353dc249e82926178eac7ded78",
+      "https://arbiscan.io/token/0xbc011a12da28e8f0f528d9ee5e7039e22f91cf18"
+    ],
+    "official_forum_url": [
+      "https://forum.swellnetwork.io/"
+    ],
+    "chat_url": [
+      "https://discord.gg/swellnetworkdao",
+      "https://www.linkedin.com/company/swellnetworkio/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "swellnetworkio",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/SwellNetwork/",
+    "repos_url": {
+      "github": [
+        "https://github.com/SwellNetwork"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/30326/thumb/_lB7zEtS_400x400.jpg?1696529227",
+    "small": "https://coin-images.coingecko.com/coins/images/30326/small/_lB7zEtS_400x400.jpg?1696529227",
+    "large": "https://coin-images.coingecko.com/coins/images/30326/large/_lB7zEtS_400x400.jpg?1696529227"
+  },
+  "last_updated": "2025-07-11T05:01:08.298891+00:00"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "moonwell-artemis",
+  "symbol": "well",
+  "name": "Moonwell",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Lending/Borrowing Protocols",
+    "Moonbeam Ecosystem",
+    "Base Ecosystem",
+    "Coinbase Ventures Portfolio",
+    "Made in USA"
+  ],
+  "asset_platform_id": "moonbeam",
+  "platforms": {
+    "moonbeam": "0x511ab53f793683763e5a8829738301368a2411e3",
+    "base": "0xa88594d404727625a9437c3f886c7643872296ae"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Moonwell Artemis uses battle tested code from the Moonwell Apollo protocol to provide an open, non-custodial lending and borrowing DeFi protocol. While Apollo is a community driven protocol with innovative features, Artemis users will enjoy polished features with faster transaction times, while still preserving the same level of security.\r\n\r\nMoonwell’s goal is to be the most user-friendly, fast, and secure DeFi protocol in the ecosystem. With this in mind, an emphasis was placed on having a high standard of security. Multi-signature systems are implemented for all smart contracts used by the protocol, with the expert cyber-security team at Halborn Security auditing all contracts before deployment. Additionally, there is a generous bounty program through a partnership with the trusted team at ImmuneFi, which allows security researchers to submit their findings for review and earn a bounty for discovering security vulnerabilities.\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://moonwell.fi"
+    ],
+    "whitepaper": "https://docs.moonwell.fi/moonwell-finance/overview/what-is-moonwell",
+    "blockchain_site": [
+      "https://basescan.org/token/0xff8adec2221f9f4d8dfbafa6b9a297d17603493d",
+      "https://platform.arkhamintelligence.com/explorer/token/moonwell-artemis",
+      "https://moonscan.io/token/0x511ab53f793683763e5a8829738301368a2411e3",
+      "https://basescan.org/token/0xa88594d404727625a9437c3f886c7643872296ae"
+    ],
+    "official_forum_url": [
+      "https://lunartechfdn.medium.com/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/moonwellfi"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "MoonwellDeFi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "moonwellfichat",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/moonwell-fi/contracts-open-source"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/26133/thumb/WELL.png?1696525221",
+    "small": "https://coin-images.coingecko.com/coins/images/26133/small/WELL.png?1696525221",
+    "large": "https://coin-images.coingecko.com/coins/images/26133/large/WELL.png?1696525221"
+  },
+  "last_updated": "2025-07-11T04:59:32.756903+00:00"
+}

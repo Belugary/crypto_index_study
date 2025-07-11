@@ -1,0 +1,60 @@
+{
+  "id": "stasis-eurs",
+  "symbol": "eurs",
+  "name": "STASIS EURO",
+  "categories": [
+    "Stablecoins",
+    "EUR Stablecoin",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xdb25f211ab05b1c97d595516f45794528a807ad8",
+    "polygon-pos": "0xe111178a87a3bff0c8d18decba5798827539ae99"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "EURS token is a virtual financial asset that is designed to digitally mirror the EURO on the condition that its value is tied to the value of its collateral.\r\n\r\nDownload STASIS Stablecoin wallet: Android: https://play.google.com/store/apps/details?id=com.stasis.stasiswallet iOS: https://itunes.apple.com/app/stasis-wallet/id1371949230"
+  },
+  "links": {
+    "homepage": [
+      "https://stasis.net/",
+      "https://stasis.net/wallet/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xdb25f211ab05b1c97d595516f45794528a807ad8",
+      "https://platform.arkhamintelligence.com/explorer/token/stasis-eurs",
+      "https://ethplorer.io/address/0xdb25f211ab05b1c97d595516f45794528a807ad8",
+      "https://polygonscan.com/token/0xe111178a87a3bff0c8d18decba5798827539ae99",
+      "https://explorer.xinfin.network/tokens/xdc1ebb2c8a71a9ec59bf558886a8adf8f4a565814f"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "stasisnet",
+    "facebook_username": "stasisnet",
+    "bitcointalk_thread_identifier": 4789890,
+    "telegram_channel_identifier": "stasis_community",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/STASISNET/STASIS-EURS-token-smart-contract"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/5164/thumb/EURS_300x300.png?1696505680",
+    "small": "https://coin-images.coingecko.com/coins/images/5164/small/EURS_300x300.png?1696505680",
+    "large": "https://coin-images.coingecko.com/coins/images/5164/large/EURS_300x300.png?1696505680"
+  },
+  "last_updated": "2025-07-11T05:00:54.670379+00:00"
+}

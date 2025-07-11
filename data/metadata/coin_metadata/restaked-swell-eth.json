@@ -1,0 +1,51 @@
+{
+  "id": "restaked-swell-eth",
+  "symbol": "rsweth",
+  "name": "Restaked Swell ETH",
+  "categories": [
+    "Ethereum Ecosystem",
+    "Restaking",
+    "Liquid Restaking Tokens"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xfae103dc9cf190ed75350761e95403b7b8afa6c0"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.swellnetwork.io/post/liquid-restaking"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xfae103dc9cf190ed75350761e95403b7b8afa6c0",
+      "https://platform.arkhamintelligence.com/explorer/token/restaked-swell-eth",
+      "https://ethplorer.io/address/0xfae103dc9cf190ed75350761e95403b7b8afa6c0"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "swellnetworkio",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/34489/thumb/rswETH_Icon.png?1706865484",
+    "small": "https://coin-images.coingecko.com/coins/images/34489/small/rswETH_Icon.png?1706865484",
+    "large": "https://coin-images.coingecko.com/coins/images/34489/large/rswETH_Icon.png?1706865484"
+  },
+  "last_updated": "2025-07-11T05:00:28.735984+00:00"
+}

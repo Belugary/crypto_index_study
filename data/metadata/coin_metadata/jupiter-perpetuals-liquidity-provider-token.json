@@ -1,0 +1,55 @@
+{
+  "id": "jupiter-perpetuals-liquidity-provider-token",
+  "symbol": "jlp",
+  "name": "Jupiter Perpetuals Liquidity Provider Token",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "LP Tokens",
+    "Solana Ecosystem"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://jup.ag/"
+    ],
+    "whitepaper": "https://docs.qubic.world/",
+    "blockchain_site": [
+      "https://solscan.io/token/27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+      "https://platform.arkhamintelligence.com/explorer/token/jupiter-perpetuals-liquidity-provider-token"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/jup",
+      "https://station.jup.ag/blog/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "JupiterExchange",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/qubic-li"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33094/thumb/jlp.png?1700631386",
+    "small": "https://coin-images.coingecko.com/coins/images/33094/small/jlp.png?1700631386",
+    "large": "https://coin-images.coingecko.com/coins/images/33094/large/jlp.png?1700631386"
+  },
+  "last_updated": "2025-07-11T04:58:57.738546+00:00"
+}

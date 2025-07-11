@@ -1,0 +1,52 @@
+{
+  "id": "gigachad-2",
+  "symbol": "giga",
+  "name": "Gigachad",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Solana Meme",
+    "Murad Picks",
+    "4chan-Themed"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "63LfDmNb3MQ8mw9MtZ2To9bEA2M71kZUUGq5tiJxcqj9"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "GIGA is a meme token deployed on the Solana blockchain intended to honor the legend Ernest Khalimov the original “Gigachad”, by utilizing the strength of memes and “Chad” energy.\r\n\r\nGIGA is a community run project."
+  },
+  "links": {
+    "homepage": [
+      "https://www.gigachad.fitness/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/63LfDmNb3MQ8mw9MtZ2To9bEA2M71kZUUGq5tiJxcqj9",
+      "https://platform.arkhamintelligence.com/explorer/token/gigachad-2"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/34755/thumb/IMG_0015.png?1705957165",
+    "small": "https://coin-images.coingecko.com/coins/images/34755/small/IMG_0015.png?1705957165",
+    "large": "https://coin-images.coingecko.com/coins/images/34755/large/IMG_0015.png?1705957165"
+  },
+  "last_updated": "2025-07-11T04:58:33.569504+00:00"
+}

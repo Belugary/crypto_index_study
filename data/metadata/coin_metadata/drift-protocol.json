@@ -1,0 +1,55 @@
+{
+  "id": "drift-protocol",
+  "symbol": "drift",
+  "name": "Drift Protocol",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Derivatives",
+    "Prediction Markets",
+    "Solana Ecosystem"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "DriFtupJYLTosbwoN8koMbEYSx54aFAVLddWsbksjwg7"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://app.drift.trade/"
+    ],
+    "whitepaper": "https://docs.drift.trade/",
+    "blockchain_site": [
+      "https://solscan.io/token/DriFtupJYLTosbwoN8koMbEYSx54aFAVLddWsbksjwg7",
+      "https://platform.arkhamintelligence.com/explorer/token/drift-protocol"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/fMcZBH8ErM"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "DriftProtocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "+G4i0AZcHf6cxNDll",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/drift-labs"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/37509/thumb/DRIFT.png?1715842607",
+    "small": "https://coin-images.coingecko.com/coins/images/37509/small/DRIFT.png?1715842607",
+    "large": "https://coin-images.coingecko.com/coins/images/37509/large/DRIFT.png?1715842607"
+  },
+  "last_updated": "2025-07-11T04:58:08.530008+00:00"
+}

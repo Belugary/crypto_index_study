@@ -1,0 +1,51 @@
+{
+  "id": "magic-eden",
+  "symbol": "me",
+  "name": "Magic Eden",
+  "categories": [
+    "NFT",
+    "Solana Ecosystem",
+    "NFT Marketplace",
+    "Paradigm Portfolio",
+    "Sequoia Capital Portfolio"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "MEFNBXixkEbait3xn9bkm8WsJzXtVsaJEn4c8Sam21u"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Magic Eden is the largest NFT marketplace and Runes platform. Buy, sell and discover Ordinals and NFTs across Solana, Bitcoin, Ethereum, Base, Apechain, Polygon, Arbitrum, Sei, Monad, and Berachain."
+  },
+  "links": {
+    "homepage": [
+      "https://magiceden.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/MEFNBXixkEbait3xn9bkm8WsJzXtVsaJEn4c8Sam21u"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "MeFndn",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39850/thumb/_ME_Profile_Dark_2x.png?1734013082",
+    "small": "https://coin-images.coingecko.com/coins/images/39850/small/_ME_Profile_Dark_2x.png?1734013082",
+    "large": "https://coin-images.coingecko.com/coins/images/39850/large/_ME_Profile_Dark_2x.png?1734013082"
+  },
+  "last_updated": "2025-07-11T04:59:20.878297+00:00"
+}

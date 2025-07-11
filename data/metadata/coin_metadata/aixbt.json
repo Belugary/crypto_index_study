@@ -1,0 +1,58 @@
+{
+  "id": "aixbt",
+  "symbol": "aixbt",
+  "name": "aixbt by Virtuals",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Solana Ecosystem",
+    "Meme",
+    "Base Ecosystem",
+    "AI Meme",
+    "AI Agents",
+    "Virtuals Protocol Ecosystem",
+    "Binance Alpha Spotlight",
+    "DeFAI"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0x4f9fd6be4a90f2620860d680c0d4d5fb53d1a825",
+    "solana": "14zP2ToQ79XWvc7FQpm4bRnp9d6Mp1rFfsUW3gpLcRX"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "AIXBT is an AI agent and driven crypto market intelligence platform designed to provide token holders with a strategic edge in the rapidly evolving crypto space. Leveraging advanced narrative detection and alpha-focused analysis, AIXBT automates the process of tracking and interpreting market trends, helping users gain actionable insights. This project emphasizes integrating various data sources and platforms for comprehensive analysis and decision-making."
+  },
+  "links": {
+    "homepage": [
+      "https://app.virtuals.io/virtuals/1199",
+      "https://x.com/aixbt_agent"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://basescan.org/token/0x4f9fd6be4a90f2620860d680c0d4d5fb53d1a825",
+      "https://solscan.io/token/14zP2ToQ79XWvc7FQpm4bRnp9d6Mp1rFfsUW3gpLcRX"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "aixbt_agent",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "aixbtportal",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/51784/thumb/3.png?1731981138",
+    "small": "https://coin-images.coingecko.com/coins/images/51784/small/3.png?1731981138",
+    "large": "https://coin-images.coingecko.com/coins/images/51784/large/3.png?1731981138"
+  },
+  "last_updated": "2025-07-11T04:56:46.385304+00:00"
+}

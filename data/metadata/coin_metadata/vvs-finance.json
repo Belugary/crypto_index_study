@@ -1,0 +1,62 @@
+{
+  "id": "vvs-finance",
+  "symbol": "vvs",
+  "name": "VVS Finance",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Decentralized Finance (DeFi)",
+    "Automated Market Maker (AMM)",
+    "Ethereum Ecosystem",
+    "Cronos Ecosystem"
+  ],
+  "asset_platform_id": "cronos",
+  "platforms": {
+    "cronos": "0x2d03bece6747adc00e1a131bba1469c15fd11e03",
+    "ethereum": "0x839e71613f9aa06e5701cf6de63e303616b0dde3"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "VVS Finance is a decentralized finance and automated market making platform on the Cronos network by Crypto.com"
+  },
+  "links": {
+    "homepage": [
+      "https://vvs.finance/",
+      "https://docs.vvs.finance/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.cronos.org/address/0x4dda1bb6e378dcef97bff1057b6452615e86373c",
+      "https://platform.arkhamintelligence.com/explorer/token/vvs-finance",
+      "https://cronos-explorer.crypto.org/token/0x2d03bece6747adc00e1a131bba1469c15fd11e03",
+      "https://etherscan.io/token/0x839e71613f9aa06e5701cf6de63e303616b0dde3",
+      "https://ethplorer.io/address/0x839e71613f9aa06e5701cf6de63e303616b0dde3",
+      "https://cronos.crypto.org/explorer/tokens/0x2d03bece6747adc00e1a131bba1469c15fd11e03/token-transfers"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/V2957zMsmg"
+    ],
+    "announcement_url": [
+      "https://medium.com/vvs-finance"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "VVS_finance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "VVSFinance",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/20210/thumb/8glAYOTM_400x400.jpg?1696519620",
+    "small": "https://coin-images.coingecko.com/coins/images/20210/small/8glAYOTM_400x400.jpg?1696519620",
+    "large": "https://coin-images.coingecko.com/coins/images/20210/large/8glAYOTM_400x400.jpg?1696519620"
+  },
+  "last_updated": "2025-07-11T05:01:49.022723+00:00"
+}

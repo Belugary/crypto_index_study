@@ -1,0 +1,50 @@
+{
+  "id": "mori-coin",
+  "symbol": "mori",
+  "name": "MORI COIN",
+  "categories": [
+    "Meme",
+    "Solana Meme"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "8ZHE4ow1a2jjxuoMfyExuNamQNALv5ekZhsBn5nMDf5e"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://morico.in/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/8ZHE4ow1a2jjxuoMfyExuNamQNALv5ekZhsBn5nMDf5e"
+    ],
+    "official_forum_url": [
+      "https://t.me/moricoin_official"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "MoriCoinCrypto",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "moricoineng",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/66886/thumb/jczblkgbpxg0g3pky3uj0clklmzl.?1750931484",
+    "small": "https://coin-images.coingecko.com/coins/images/66886/small/jczblkgbpxg0g3pky3uj0clklmzl.?1750931484",
+    "large": "https://coin-images.coingecko.com/coins/images/66886/large/jczblkgbpxg0g3pky3uj0clklmzl.?1750931484"
+  },
+  "last_updated": "2025-07-11T04:59:33.317006+00:00"
+}

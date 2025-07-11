@@ -1,0 +1,61 @@
+{
+  "id": "legacy-token",
+  "symbol": "lgct",
+  "name": "Legacy Token",
+  "categories": [
+    "Education",
+    "Gaming (GameFi)",
+    "BNB Chain Ecosystem",
+    "Base Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xd38b305cac06990c0887032a02c03d6839f770a8",
+    "base": "0xd38b305cac06990c0887032a02c03d6839f770a8",
+    "ethereum": "0xd38b305cac06990c0887032a02c03d6839f770a8"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Legacy Network AG provides cutting-edge EdTech systems, focused on leveraging new technologies to create effective learning solutions for learners worldwide. Transforming education into an engaging, rewarding, and gamified experience.\r\n\r\nModern Education through artificial intelligence, Legacy Network delivers personalized learning experiences tailored to individual goals and learning styles. The ecosystem integrates Legacy Token $LGCT to gamify the learning journey, incentivizing users to engage with content, reach milestones, and apply their knowledge in real-world contexts.\r\n\r\nLegacy Network stands out through its innovative use of blockchain and its focus on gamified, personalized education.\r\n\r\nKey Features Include:\r\n\t1. Legacy Academy App:\r\n-The flagship product oft he ecosystem. A revolutionary gamified education app that focuses on personal growth. With over 500,000 downloads globally in the first three months after launch the App is becoming the go-to self improvement tool.\r\n-Rewards users with LGCT tokens for completing educational modules, lessons, and mini-games.\r\n-AI-driven personalization to deliver tailored learning experiences that help users improve leadership, self-discipline, and mental clarity.\r\n\r\n\t2.\tLegacy Wallet:\r\n-A non-custodial, multi-chain wallet supporting Ethereum, Binance Smart Chain, Polygon, and VeChain.\r\n-Features token bridging, staking, and gas-fee sponsorship for a seamless user experience, including an on and off ramp to directly send tokens to your bank account.\r\n\t3.\tDeflationary Tokenomics:\r\n-Subscription-Based Buyback and Burn: A percentage of Legacy Academy subscription revenue is used to buy back and burn LGCT tokens, reducing supply and driving scarcity.\r\n-Continuous ecosystem-driven demand ensures value stability, even in volatile markets.\r\n\r\nLegacy Network’s unique combination of education, blockchain, and real-world utility sets it apart as a leader in the Web3 education space.\r\n\r\nLegacy Academy App\r\nThe Legacy Academy app has taken the personal development space by storm, reaching over 500,000 downloads in just a few months. This rapid adoption showcases the app’s appeal to a global audience. By combining gamified learning with blockchain rewards, Legacy Academy has redefined how users engage with educational content.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.legacynetwork.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0xd38b305cac06990c0887032a02c03d6839f770a8",
+      "https://platform.arkhamintelligence.com/explorer/token/legacy-token",
+      "https://binplorer.com/address/0xd38b305cac06990c0887032a02c03d6839f770a8",
+      "https://basescan.org/token/0xd38b305cac06990c0887032a02c03d6839f770a8",
+      "https://etherscan.io/token/0xd38b305cac06990c0887032a02c03d6839f770a8",
+      "https://ethplorer.io/address/0xd38b305cac06990c0887032a02c03d6839f770a8"
+    ],
+    "official_forum_url": [
+      "https://www.tiktok.com/@legacynetwork.io",
+      "https://x.com/LegacyAcademyio",
+      "https://www.instagram.com/legacynetwork.io/"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "LegacyNetworkio",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "legacynetworkofficial",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/50673/thumb/token2d.jpg?1728682508",
+    "small": "https://coin-images.coingecko.com/coins/images/50673/small/token2d.jpg?1728682508",
+    "large": "https://coin-images.coingecko.com/coins/images/50673/large/token2d.jpg?1728682508"
+  },
+  "last_updated": "2025-07-11T04:59:11.514237+00:00"
+}

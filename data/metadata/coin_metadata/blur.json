@@ -1,0 +1,64 @@
+{
+  "id": "blur",
+  "symbol": "blur",
+  "name": "Blur",
+  "categories": [
+    "NFT",
+    "Ethereum Ecosystem",
+    "NFT Marketplace",
+    "FTX Holdings",
+    "NFTFi",
+    "eGirl Capital Portfolio",
+    "Paradigm Portfolio",
+    "GMCI DeFi Index",
+    "GMCI Index",
+    "Made in USA",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x5283d291dbcf85356a21ba090e6db59121208b44"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Blur is an NFT marketplace that  lets nft buyers and sellers to utilise a suite features to facilitate more open and liquid NFT marketplace."
+  },
+  "links": {
+    "homepage": [
+      "https://blur.io/",
+      "https://linktr.ee/blur"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x5283d291dbcf85356a21ba090e6db59121208b44",
+      "https://platform.arkhamintelligence.com/explorer/token/blur",
+      "https://ethplorer.io/address/0x5283d291dbcf85356a21ba090e6db59121208b44"
+    ],
+    "official_forum_url": [
+      "https://mirror.xyz/blurdao.eth"
+    ],
+    "chat_url": [
+      "https://discord.gg/blurdao"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "blur_io",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/28453/thumb/blur.png?1696527448",
+    "small": "https://coin-images.coingecko.com/coins/images/28453/small/blur.png?1696527448",
+    "large": "https://coin-images.coingecko.com/coins/images/28453/large/blur.png?1696527448"
+  },
+  "last_updated": "2025-07-11T04:57:29.465710+00:00"
+}

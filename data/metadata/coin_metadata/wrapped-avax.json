@@ -1,0 +1,56 @@
+{
+  "id": "wrapped-avax",
+  "symbol": "wavax",
+  "name": "Wrapped AVAX",
+  "categories": [
+    "Crypto-Backed Tokens",
+    "Wrapped-Tokens",
+    "Avalanche Ecosystem"
+  ],
+  "asset_platform_id": "avalanche",
+  "platforms": {
+    "avalanche": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.avalabs.org/",
+      "https://info.avax.network/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://snowtrace.io/token/0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+      "https://platform.arkhamintelligence.com/explorer/token/wrapped-avax",
+      "https://avascan.info/blockchain/c/address/0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7/token"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/RwXY7P6"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "AvalancheAVAX",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "avalancheavax",
+    "subreddit_url": "https://www.reddit.com/r/Avax/",
+    "repos_url": {
+      "github": [
+        "https://github.com/ava-labs"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/15075/thumb/wrapped-avax.png?1696514734",
+    "small": "https://coin-images.coingecko.com/coins/images/15075/small/wrapped-avax.png?1696514734",
+    "large": "https://coin-images.coingecko.com/coins/images/15075/large/wrapped-avax.png?1696514734"
+  },
+  "last_updated": "2025-07-11T05:01:56.629374+00:00"
+}

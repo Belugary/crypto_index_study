@@ -1,0 +1,65 @@
+{
+  "id": "gho",
+  "symbol": "gho",
+  "name": "GHO",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Base Ecosystem",
+    "Crypto-backed Stablecoin",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f",
+    "base": "0x6bb7a212910682dcfdbd5bcbb3e28fb4e8da10ee",
+    "arbitrum-one": "0x7dff72693f6a4149b17e7c6314655f6a9f7c8b33"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://gho.xyz/"
+    ],
+    "whitepaper": "https://github.com/aave/gho-core/blob/main/techpaper/GHO_Technical_Paper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f",
+      "https://platform.arkhamintelligence.com/explorer/token/gho",
+      "https://ethplorer.io/address/0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f",
+      "https://ethereum.dex.guru/token/0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f",
+      "https://arbiscan.io/token/0x7dff72693f6a4149b17e7c6314655f6a9f7c8b33",
+      "https://basescan.org/token/0x6bb7a212910682dcfdbd5bcbb3e28fb4e8da10ee",
+      "https://basescan.org/token/0x6bb7a212910682dcfdbd5bcbb3e28fb4e8da10ee"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://lenster.xyz/u/gho"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "GHOAave",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Aavesome",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/aave/gho-core"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/30663/thumb/gho-token-logo.png?1720517092",
+    "small": "https://coin-images.coingecko.com/coins/images/30663/small/gho-token-logo.png?1720517092",
+    "large": "https://coin-images.coingecko.com/coins/images/30663/large/gho-token-logo.png?1720517092"
+  },
+  "last_updated": "2025-07-11T04:58:32.984269+00:00"
+}

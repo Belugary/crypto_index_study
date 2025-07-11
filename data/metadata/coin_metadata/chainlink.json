@@ -1,0 +1,113 @@
+{
+  "id": "chainlink",
+  "symbol": "link",
+  "name": "Chainlink",
+  "categories": [
+    "Business Services",
+    "Infrastructure",
+    "Smart Contract Platform",
+    "Decentralized Finance (DeFi)",
+    "Oracle",
+    "BNB Chain Ecosystem",
+    "Solana Ecosystem",
+    "Avalanche Ecosystem",
+    "Polygon Ecosystem",
+    "Near Protocol Ecosystem",
+    "Gnosis Chain Ecosystem",
+    "Fantom Ecosystem",
+    "Harmony Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Real World Assets (RWA)",
+    "Base Ecosystem",
+    "Osmosis Ecosystem",
+    "Cross-chain Communication",
+    "Energi Ecosystem",
+    "Sora Ecosystem",
+    "Huobi ECO Chain Ecosystem",
+    "Milkomeda (Cardano) Ecosystem",
+    "GMCI DeFi Index",
+    "GMCI 30 Index",
+    "GMCI Index",
+    "World Liberty Financial Portfolio",
+    "Made in USA",
+    "Coinbase 50 Index",
+    "Chain Abstraction",
+    "Hydration Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x514910771af9ca656af840dff83e8264ecf986ca",
+    "solana": "LinkhB3afbBKb2EQQu7s7umdZceV3wcvAUJhQAfQ23L",
+    "hydration": "asset_registry%2F1000794",
+    "near-protocol": "514910771af9ca656af840dff83e8264ecf986ca.factory.bridge.near",
+    "base": "0x88fb150bdc53a65fe94dea0c9ba0a6daf8c6e196",
+    "arbitrum-one": "0xf97f4df75117a78c1a5a0dbb814af92458539fb4",
+    "huobi-token": "0x9e004545c59d359f6b7bfb06a26390b087717b42",
+    "xdai": "0xe2e73a1c69ecf83f464efce6a5be353a37ca09b2",
+    "optimistic-ethereum": "0x350a791bfc2c21f9ed5d10980dad2e2638ffa7f6",
+    "harmony-shard-0": "0x218532a12a389a4a92fc0c5fb22901d1c19198aa",
+    "osmosis": "ibc/D3327A763C23F01EC43D1F0DB3CEFEC390C362569B6FD191F40A5192F8960049",
+    "milkomeda-cardano": "0xf390830df829cf22c53c8840554b98eafc5dcbc2",
+    "energi": "0x68ca48ca2626c415a89756471d4ade2cc9034008",
+    "sora": "0x008484148dcf23d1b48908393e7a00d5fdc3bf81029a73eeca62a15ebfb1205a",
+    "binance-smart-chain": "0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd",
+    "fantom": "0xb3654dc3d10ea7645f8319668e8f54d2574fbdc8",
+    "avalanche": "0x5947bb275c521040051d82396192181b413227a3",
+    "polygon-pos": "0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2017-09-16",
+  "country_origin": "",
+  "description": {
+    "en": "Chainlink is a framework for building Decentralized Oracle Networks (DONs) that bring real-world data onto blockchain networks, enabling the creation of hybrid smart contracts. These DONs provide decentralized services such as Price Feeds, Proof of Reserve, Verifiable Randomness, Keepers, and the ability to connect to any web API. \r\n\r\nIt aims to ensure that the external information (pricing, weather data, event outcomes, etc.) and off-chain computations (randomness, transaction automation, fair ordering, etc.) fed to on-chain smart contracts are reliable and tamper-proof.https://www.instagram.com/chainlinklabs"
+  },
+  "links": {
+    "homepage": [
+      "https://chain.link/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x514910771af9ca656af840dff83e8264ecf986ca",
+      "https://platform.arkhamintelligence.com/explorer/token/chainlink",
+      "https://ethplorer.io/address/0x514910771af9ca656af840dff83e8264ecf986ca",
+      "https://arbiscan.io/token/0xf97f4df75117a78c1a5a0dbb814af92458539fb4",
+      "https://explorer.chain.link",
+      "https://blockscout.com/poa/xdai/tokens/0xe2e73a1c69ecf83f464efce6a5be353a37ca09b2/token-transfers",
+      "https://bscscan.com/token/0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd",
+      "https://polygonscan.com/token/0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39",
+      "https://snowtrace.io/token/0x5947bb275c521040051d82396192181b413227a3",
+      "https://nearblocks.io/token/514910771af9ca656af840dff83e8264ecf986ca.factory.bridge.near"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/chainlink-labs"
+    ],
+    "chat_url": [
+      "https://www.instagram.com/chainlinklabs"
+    ],
+    "announcement_url": [
+      "https://blog.chain.link/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "chainlink",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "chainlinkofficial",
+    "subreddit_url": "https://www.reddit.com/r/Chainlink/",
+    "repos_url": {
+      "github": [
+        "https://github.com/smartcontractkit/chainlink",
+        "https://github.com/smartcontractkit/chainlink-ruby"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/877/thumb/chainlink-new-logo.png?1696502009",
+    "small": "https://coin-images.coingecko.com/coins/images/877/small/chainlink-new-logo.png?1696502009",
+    "large": "https://coin-images.coingecko.com/coins/images/877/large/chainlink-new-logo.png?1696502009"
+  },
+  "last_updated": "2025-07-11T04:57:40.015578+00:00"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "the-grays-currency",
+  "symbol": "ptgc",
+  "name": "The Grays Currency",
+  "categories": [
+    "Meme",
+    "PulseChain Ecosystem"
+  ],
+  "asset_platform_id": "pulsechain",
+  "platforms": {
+    "pulsechain": "0x94534eeee131840b1c0f61847c572228bdfdde93"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "1st truly decentralized DOA on Pulse Chain. Collect rewards simply by holding. Earn double the rewards by Staking with no time lock. Proposals on the DOA can be created by becoming one of the top 100 stakers. All Stakers can partake in voting on active proposals.  The Grays Mission: Buy and Burn LP's."
+  },
+  "links": {
+    "homepage": [
+      "https://www.pulsetgc.com/",
+      "https://thegraysecosystem.com"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://scan.pulsechain.com/token/0x94534eeee131840b1c0f61847c572228bdfdde93",
+      "https://scan.pulsechainfoundation.org/#/token/0x94534eeee131840b1c0f61847c572228bdfdde93"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/XxNH8SFx",
+      "https://youtube.com/@TheGraysCurrency"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "TheGray369",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "thegrayscurrency",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/32933/thumb/IMG_8413.jpeg?1738402400",
+    "small": "https://coin-images.coingecko.com/coins/images/32933/small/IMG_8413.jpeg?1738402400",
+    "large": "https://coin-images.coingecko.com/coins/images/32933/large/IMG_8413.jpeg?1738402400"
+  },
+  "last_updated": "2025-07-11T05:01:18.146997+00:00"
+}

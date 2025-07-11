@@ -1,0 +1,71 @@
+{
+  "id": "ethereum-classic",
+  "symbol": "etc",
+  "name": "Ethereum Classic",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Proof of Work (PoW)",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Ethash",
+  "genesis_date": "2015-07-30",
+  "country_origin": "CH",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "http://ethereumclassic.org"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etc.tokenview.io/",
+      "https://expedition.dev/?network=mainnet",
+      "https://ethereumclassic.org/development/network-resources",
+      "https://blockscout.com/etc/mainnet",
+      "https://www.oklink.com/etc"
+    ],
+    "official_forum_url": [
+      "https://forum.ethereumclassic.org/",
+      "https://x.com/ETC_Network",
+      "https://t.me/ETCnetwork"
+    ],
+    "chat_url": [
+      "https://ethereumclassic.org/discord",
+      "https://www.facebook.com/ethereumclassic/"
+    ],
+    "announcement_url": [
+      "https://ethereumclassic.org/blog"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "ETC_Network",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": 5134923,
+    "telegram_channel_identifier": "ETCnetwork",
+    "subreddit_url": "https://www.reddit.com/r/EthereumClassic",
+    "repos_url": {
+      "github": [
+        "https://github.com/ethereumclassic/ethereumclassic.github.io",
+        "https://github.com/ethereumclassic",
+        "https://github.com/multi-geth/multi-geth",
+        "https://github.com/openethereum/openethereum",
+        "https://github.com/hyperledger/besu",
+        "https://github.com/etclabscore/core-geth",
+        "https://github.com/ethereumclassic/ECIPs"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/453/thumb/ethereum-classic-logo.png?1696501717",
+    "small": "https://coin-images.coingecko.com/coins/images/453/small/ethereum-classic-logo.png?1696501717",
+    "large": "https://coin-images.coingecko.com/coins/images/453/large/ethereum-classic-logo.png?1696501717"
+  },
+  "last_updated": "2025-07-11T04:58:18.713052+00:00"
+}

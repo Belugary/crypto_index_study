@@ -1,0 +1,66 @@
+{
+  "id": "eos",
+  "symbol": "eos",
+  "name": "EOS",
+  "categories": [
+    "Smart Contract Platform",
+    "DWF Labs Portfolio",
+    "GMCI Layer 1 Index",
+    "GMCI Index",
+    "Made in USA",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Delegated Proof-of-Stake",
+  "genesis_date": "2017-07-01",
+  "country_origin": "US",
+  "description": {
+    "en": "Blockchain built and run by the EOS Community.\r\n \r\nThe EOSIO core development is now in the hands of the community:\r\nhttps://medium.com/eos-network-foundation/eosio-coalition-report-april-28th-71d5b77d63cc\r\n \r\nAbout EOS Support:\r\n \r\nhttps://EOSsupport.io is an organisation started by community members that serves as a concierge for providing user and technical support for customers who use the EOS Network.\r\nEOS Support team offers new services such as coordination efforts for the Mandel consensus upgrade, knowledge base, technical support, and many more for the EOS network.\r\nSource: EOS Network Foundation Quarterly Report Q1 2022:\r\nhttps://medium.com/eos-network-foundation/enf-q1-2022-report-5320984367e9\r\nPage 13: https://drive.google.com/file/d/1sL42m5PO-N4BeZUvTa-5w3wU3TQnsp93/view\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://eosnetwork.com/",
+      "https://eossupport.io"
+    ],
+    "whitepaper": "https://eosn.foundation/blog/category/eos-blue-papers/",
+    "blockchain_site": [
+      "https://bloks.io/",
+      "https://eospark.com/",
+      "https://eosflare.io/",
+      "https://eosauthority.com/"
+    ],
+    "official_forum_url": [
+      "https://twitter.com/eossupportio"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/eos-network",
+      "https://www.facebook.com/groups/eosblockchain"
+    ],
+    "announcement_url": [
+      "https://medium.com/eos-network-foundation/eosio-coalition-report-april-28th-71d5b77d63cc"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "eosnetworkfdn",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "EOS_Global",
+    "subreddit_url": "https://www.reddit.com/r/eos",
+    "repos_url": {
+      "github": [
+        "https://github.com/eosnetworkfoundation/eos-evm-contract",
+        "https://github.com/eosnetworkfoundation/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/738/thumb/CG_EOS_Icon.png?1731705232",
+    "small": "https://coin-images.coingecko.com/coins/images/738/small/CG_EOS_Icon.png?1731705232",
+    "large": "https://coin-images.coingecko.com/coins/images/738/large/CG_EOS_Icon.png?1731705232"
+  },
+  "last_updated": "2025-07-11T04:58:14.523261+00:00"
+}

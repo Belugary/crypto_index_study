@@ -1,0 +1,102 @@
+{
+  "id": "uniswap",
+  "symbol": "uni",
+  "name": "Uniswap",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Exchange-based Tokens",
+    "Decentralized Finance (DeFi)",
+    "Yield Farming",
+    "Automated Market Maker (AMM)",
+    "BNB Chain Ecosystem",
+    "Avalanche Ecosystem",
+    "Polygon Ecosystem",
+    "Near Protocol Ecosystem",
+    "Gnosis Chain Ecosystem",
+    "Harmony Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Paradigm Portfolio",
+    "Coinbase Ventures Portfolio",
+    "Index Coop Defi Index",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "Energi Ecosystem",
+    "Sora Ecosystem",
+    "Huobi ECO Chain Ecosystem",
+    "GMCI DeFi Index",
+    "GMCI 30 Index",
+    "Blockchain Capital Portfolio",
+    "GMCI Index",
+    "Polychain Capital Portfolio",
+    "Made in USA",
+    "Unichain Ecosystem",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+    "xdai": "0x4537e328bf7e4efa29d05caea260d7fe26af9d74",
+    "unichain": "0x8f187aa05619a017077f5308904739877ce9ea21",
+    "near-protocol": "1f9840a85d5af5bf1d1762f925bdaddc4201f984.factory.bridge.near",
+    "arbitrum-one": "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0",
+    "huobi-token": "0x22c54ce8321a4015740ee1109d9cbc25815c46e6",
+    "optimistic-ethereum": "0x6fd9d7ad17242c41f7131d257212c54a0e816691",
+    "harmony-shard-0": "0x90d81749da8867962c760414c1c25ec926e889b6",
+    "energi": "0x665b3a802979ec24e076c80025bff33c18eb6007",
+    "sora": "0x009be848df92a400da2f217256c88d1a9b1a0304f9b3e90991a67418e1d3b08c",
+    "binance-smart-chain": "0xbf5140a22578168fd562dccf235e5d43a02ce9b1",
+    "avalanche": "0x8ebaf22b6f053dffeaf46f4dd9efa95d89ba8580",
+    "polygon-pos": "0xb33eaad8d922b1083446dc23f610c2567fb5180f"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "UNI is the governance token for Uniswap, an Automated Market Marker DEX on the Ethereum blockchain. The UNI token allows token holders to participate in the governance of the protocol. Key decisions such as usage of the treasury or future upgrades can be decided through a governance vote."
+  },
+  "links": {
+    "homepage": [
+      "https://uniswap.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+      "https://platform.arkhamintelligence.com/explorer/token/uniswap",
+      "https://ethplorer.io/address/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+      "https://blockscout.com/poa/xdai/tokens/0x4537e328bf7e4efa29d05caea260d7fe26af9d74/token-transfers",
+      "https://nearblocks.io/token/1f9840a85d5af5bf1d1762f925bdaddc4201f984.factory.bridge.near",
+      "https://hecoinfo.com/token/0x22c54ce8321a4015740ee1109d9cbc25815c46e6",
+      "https://bscscan.com/token/0xbf5140a22578168fd562dccf235e5d43a02ce9b1",
+      "https://polygonscan.com/token/0xb33eaad8d922b1083446dc23f610c2567fb5180f",
+      "https://snowtrace.io/token/0x8ebaf22b6f053dffeaf46f4dd9efa95d89ba8580",
+      "https://arbiscan.io/token/0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/FCfyBSbCU5"
+    ],
+    "announcement_url": [
+      "https://uniswap.org/blog/"
+    ],
+    "snapshot_url": "https://snapshot.org/#/uniswap",
+    "twitter_screen_name": "Uniswap",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/Uniswap",
+    "repos_url": {
+      "github": [
+        "https://github.com/Uniswap/uniswap-v3-core"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/12504/thumb/uniswap-logo.png?1720676669",
+    "small": "https://coin-images.coingecko.com/coins/images/12504/small/uniswap-logo.png?1720676669",
+    "large": "https://coin-images.coingecko.com/coins/images/12504/large/uniswap-logo.png?1720676669"
+  },
+  "last_updated": "2025-07-11T05:01:30.352636+00:00"
+}

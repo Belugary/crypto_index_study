@@ -1,0 +1,69 @@
+{
+  "id": "vechain",
+  "symbol": "vet",
+  "name": "VeChain",
+  "categories": [
+    "Internet of Things (IOT)",
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "VeChain Ecosystem",
+    "Made in China"
+  ],
+  "asset_platform_id": "vechain",
+  "platforms": {
+    "vechain": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2017-08-15",
+  "country_origin": "CN",
+  "description": {
+    "en": "Launched in 2015 as a private consortium network, the VeChain Foundation went on to develop the VeChainThor public blockchain, a fully programmable EVM compatible L1 smart contract platform that is adaptable to wide-ranging real-world needs. Supply chain, sustainability, carbon emissions, SDGs, De-Fi, NFTs and more, VeChainThor seamlessly handles it all.\r\n\r\nA unique two-token model ensures low and stable transaction costs while an advanced Proof-Of-Authority consensus mechanism guarantees high throughput, scalability, and security with minimal energy consumption, culminating in zero downtime for the network after 3+ years of continuous operation.\r\n\r\nVeChain Technology continues to pioneer real-world blockchain applications across the globe with offices in China, Singapore, Luxembourg, Japan, France, San Marino and the United States.\r\n\r\nStrong independent development capabilities combined with the professional compliance guidance of strategic partners PwC and DNV GL has enabled VeChain to establish partnerships with leading enterprises including Walmart China, Bayer China, BMW Group, BYD Auto, PICC, H&M Group, Shanghai Gas, LVMH, D.I.G, ASI Group and more.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.vechain.org",
+      "https://www.vebetterdao.org",
+      "https://apps.vechain.org/"
+    ],
+    "whitepaper": "https://vechain.org/assets/whitepaper/VeBetterDAO-whitepaper.pdf",
+    "blockchain_site": [
+      "https://vechainstats.com/",
+      "https://explore.vechain.org",
+      "https://www.veblocks.net",
+      "https://explore.vechain.org/accounts/"
+    ],
+    "official_forum_url": [
+      "https://linktr.ee/vechain_official",
+      "https://www.instagram.com/vechainofficial_",
+      "https://www.tiktok.com/@vechain_official"
+    ],
+    "chat_url": [
+      "https://www.discord.gg/vechain",
+      "https://vechainofficial.medium.com/",
+      "https://www.youtube.com/channel/UCqKEWPu5hkEl4o3sxlj3N5A"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "vechainofficial",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "vechainandfriends",
+    "subreddit_url": "https://www.reddit.com/r/Vechain",
+    "repos_url": {
+      "github": [
+        "https://github.com/vechain/thor",
+        "https://github.com/vechain/web3-gear",
+        "https://github.com/vechain/thor-devkit.js",
+        "https://github.com/vechain/thorify"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/1167/thumb/VET.png?1742383283",
+    "small": "https://coin-images.coingecko.com/coins/images/1167/small/VET.png?1742383283",
+    "large": "https://coin-images.coingecko.com/coins/images/1167/large/VET.png?1742383283"
+  },
+  "last_updated": "2025-07-11T05:01:42.213404+00:00"
+}

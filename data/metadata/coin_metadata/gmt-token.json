@@ -1,0 +1,68 @@
+{
+  "id": "gmt-token",
+  "symbol": "gomining",
+  "name": "GoMining Token",
+  "categories": [
+    "Gaming (GameFi)",
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem",
+    "TON Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x7ddc52c4de30e94be3a6a0a2b259b2850f421989",
+    "the-open-network": "EQD0laik0FgHV8aNfRhebi8GDG2rpDyKGXem0MBfya_Ew1-8",
+    "binance-smart-chain": "0x7ddc52c4de30e94be3a6a0a2b259b2850f421989",
+    "solana": "3KzAE8dPyJRgZ36Eh81v7WPwi6dm7bDhdMb8EAus2RAf"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What is GoMining?\r\nGoMining is a digital mining platform that offers multiple ways to earn Bitcoin and leverage exposure to it via a user-friendly ecosystem powered by the GOMINING utility token. This ecosystem’s key offerings include digital miner collectibles linked to real Bitcoin mining power and a competitive GameFi mining experience in the Miner Wars game.\r\nWhat are Digital Miners?\r\nDigital Miners are GoMining’s flagship product, offering an easy and efficient way to mine Bitcoin. Backed by real-world datacenter hashrate and cutting-edge mining hardware, these digital assets work similarly to a call option in finance: users pay the cost to mine Bitcoin (the ‘strike price’) and keep any profits if Bitcoin’s value exceeds this cost. Thanks to access to advanced equipment and wholesale electricity rates—further reducible by up to 20% with the GOMINING token—production costs rival those of large-scale industrial miners. This accessibility and efficiency make GoMining’s Digital Miners a reliable, scalable, and globally available method to leverage long-term Bitcoin potential.\r\nWhat is Miner Wars?\r\nMiner Wars is a GameFi, blockchain-based game launched by GoMining in September 2024, offering players an engaging and competitive way to compete for Bitcoin (BTC) and GOMINING payouts. GoMinig mimics how blocks are being solved on the actual blockchain, where ‘Clans’ (groups of players pooling their digital miners’ power) compete to solve blocks. Adding to the strategic depth, players can use Boosts to enhance their scores during each round.\r\n##**What is the GOMINING token?**\r\nGOMINING is a utility token that powers the GoMining ecosystem. Directly tied to real mining operations, it also offers a way to leverage Bitcoin. GOMINNG provides up to 20% off digital miner maintenance fees for GoMining users, which boosts token demand as our community grows (currently owning over 1% of global BTC hashrate). With a deflationary model that permanently burns part of maintenance fees paid in GOMINING each week, and over 30% of the supply locked in governance for an average of two years, GOMINING’s scarcity and value are positioned to steadily increase. This makes GOMINING a Bitcoin derivative designed to amplify Bitcoin’s growth within its dynamic ecosystem.\r\nGoMining’s suite of innovative Bitcoin leverage products offers a unique way for both experienced crypto users and newcomers to benefit from Bitcoin’s growth, helping to drive its mainstream adoption."
+  },
+  "links": {
+    "homepage": [
+      "https://gomining.com/"
+    ],
+    "whitepaper": "https://storage.googleapis.com/gmt-public-prod/docs/white-paper-token.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x7ddc52c4de30e94be3a6a0a2b259b2850f421989",
+      "https://platform.arkhamintelligence.com/explorer/token/gmt-token",
+      "https://ethplorer.io/address/0x7ddc52c4de30e94be3a6a0a2b259b2850f421989",
+      "https://bscscan.com/token/0x7ddc52c4de30e94be3a6a0a2b259b2850f421989",
+      "https://binplorer.com/address/0x7ddc52c4de30e94be3a6a0a2b259b2850f421989",
+      "https://tonscan.org/address/EQD0laik0FgHV8aNfRhebi8GDG2rpDyKGXem0MBfya_Ew1-8",
+      "https://tonviewer.com/EQD0laik0FgHV8aNfRhebi8GDG2rpDyKGXem0MBfya_Ew1-8",
+      "https://solscan.io/token/3KzAE8dPyJRgZ36Eh81v7WPwi6dm7bDhdMb8EAus2RAf"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/gomining_token/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/gmt",
+      "https://medium.com/@GoMining",
+      "https://www.youtube.com/@gomining_official"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Gomining_token",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "gmt_token",
+    "subreddit_url": "https://www.reddit.com/r/GoMiningToken/",
+    "repos_url": {
+      "github": [
+        "https://github.com/gomining-token/smart"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/15662/thumb/GoMining_Logo.png?1714757256",
+    "small": "https://coin-images.coingecko.com/coins/images/15662/small/GoMining_Logo.png?1714757256",
+    "large": "https://coin-images.coingecko.com/coins/images/15662/large/GoMining_Logo.png?1714757256"
+  },
+  "last_updated": "2025-07-11T04:58:34.695835+00:00"
+}

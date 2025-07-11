@@ -1,0 +1,62 @@
+{
+  "id": "creditcoin-2",
+  "symbol": "ctc",
+  "name": "Creditcoin",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "DWF Labs Portfolio",
+    "Proof of Stake (PoS)",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xa3ee21c306a700e682abcdfe9baa6a08f3820419"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "CTC (G-CRE) is the Ethereum-bridged version of Creditcoin's native token. CTC (G-CRE) is designed as a vesting token and is the token listed on centralized exchanges. This bridged version allows Ethereum users to participate in the native Creditcoin ecosystem, a layer 1 EVM blockchain that enables developers to build multi-chain applications for real use cases, such as decentralized lending, real-world assets (RWAs), and decentralized physical infrastructure networks (DePIN). "
+  },
+  "links": {
+    "homepage": [
+      "https://creditcoin.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://www.creditcoinexplorer.com/",
+      "https://platform.arkhamintelligence.com/explorer/token/creditcoin-2",
+      "https://etherscan.io/token/0xa3ee21c306a700e682abcdfe9baa6a08f3820419",
+      "https://ethplorer.io/address/0xa3ee21c306a700e682abcdfe9baa6a08f3820419"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/creditcoin"
+    ],
+    "announcement_url": [
+      "https://blog.creditcoin.org/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "Creditcoin",
+    "facebook_username": "gluwa",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "CreditcoinOfficial",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/gluwa/Creditcoin"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/10569/thumb/Creditcoin_Symbol_dark56.png?1737796066",
+    "small": "https://coin-images.coingecko.com/coins/images/10569/small/Creditcoin_Symbol_dark56.png?1737796066",
+    "large": "https://coin-images.coingecko.com/coins/images/10569/large/Creditcoin_Symbol_dark56.png?1737796066"
+  },
+  "last_updated": "2025-07-11T04:57:56.450547+00:00"
+}

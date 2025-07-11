@@ -1,0 +1,67 @@
+{
+  "id": "fasttoken",
+  "symbol": "ftn",
+  "name": "Fasttoken",
+  "categories": [
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Layer 1 (L1)",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Base Ecosystem",
+    "Bahamut Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xaedf386b755465871ff874e3e37af5976e247064",
+    "binance-smart-chain": "0x1045971c168b5294acbc8727a4f1c9e1af99f6d0",
+    "base": "0x1045971c168b5294acbc8727a4f1c9e1af99f6d0",
+    "arbitrum-one": "0x1045971c168b5294acbc8727a4f1c9e1af99f6d0"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What is the project about?\r\nFTN is the native coin of Bahamut - public, layer 1 EVM-based blockchain solution with a novelty consensus - PoSA. PoSA stands for Proof of Stake and Activity, where Activity is represented by the amount of gas spent by users when interacting with a validator-deployed smart contract. The more gas usage the given smart contract has, the more chances for the validator-deployer to become a block producer in future epochs.\r\n\r\nWhat makes your project unique?\r\nThe main unique aspect of Bahamut is the PoSA consensus, which introduces new ways for businesses to monetize their user base, while preserving the integrity and transparency of the web3 space. \r\n\r\nHistory of your project.\r\nFTN was originally an ERC20 token of SoftConstruct and Fastex ecosystems. After Bahamut mainnet launched on May 3, 2023 with FTN as its native coin, the migration process started from Ethereum to Bahamut and is still an ongoing process. \r\n\r\nWhat’s next for your project?\r\nThe infrastructure of Bahamut is constantly growing - users can expect decentralized exchanges, various apps, bridge services, and other essential aspects to be available on Bahamut before the end of the year. Also, Bahamut grant program is under way and will open the doors to everyone who wants to build a better decentralized future together.\r\n\r\nWhat can your token be used for?\r\nFTN is used in a variety of providers as a gaming token, and also the native coin for Bahamut network.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://bahamut.io/"
+    ],
+    "whitepaper": "https://docs.fasttoken.com/fasttoken-official-whitepaper.pdf",
+    "blockchain_site": [
+      "https://sahara.ftnscan.com/",
+      "https://platform.arkhamintelligence.com/explorer/token/fasttoken",
+      "https://etherscan.io/token/0xaedf386b755465871ff874e3e37af5976e247064",
+      "https://ethplorer.io/address/0xaedf386b755465871ff874e3e37af5976e247064",
+      "https://basescan.org/token/0x1045971c168b5294acbc8727a4f1c9e1af99f6d0",
+      "https://bscscan.com/token/0x1045971c168b5294acbc8727a4f1c9e1af99f6d0",
+      "https://binplorer.com/address/0x1045971c168b5294acbc8727a4f1c9e1af99f6d0",
+      "https://arbiscan.io/token/0x1045971c168b5294acbc8727a4f1c9e1af99f6d0"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/fastex",
+      "https://www.instagram.com/fasttoken/",
+      "https://www.facebook.com/fasttoken.official"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "fasttoken_com",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "fasttoken_eng",
+    "subreddit_url": "https://www.reddit.com/r/Fasttoken",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/28478/thumb/lightenicon_200x200.png?1696527472",
+    "small": "https://coin-images.coingecko.com/coins/images/28478/small/lightenicon_200x200.png?1696527472",
+    "large": "https://coin-images.coingecko.com/coins/images/28478/large/lightenicon_200x200.png?1696527472"
+  },
+  "last_updated": "2025-07-11T04:58:23.712775+00:00"
+}

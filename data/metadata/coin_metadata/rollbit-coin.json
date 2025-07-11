@@ -1,0 +1,54 @@
+{
+  "id": "rollbit-coin",
+  "symbol": "rlb",
+  "name": "Rollbit Coin",
+  "categories": [
+    "Gambling (GambleFi)",
+    "Gaming (GameFi)",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x046eee2cc3188071c02bfc1745a6b17c656e3f3d"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The Rollbit token (RLB) will be launched as an integral part of the upcoming Rollbit lottery. There will be no ICO for this token. Instead, Rollbit will airdrop RLB for free. Airdrops have been used throughout the history of cryptocurrencies to bootstrap growth, incentivise community development, and reward early adopters.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://rollbit.com/"
+    ],
+    "whitepaper": "https://whitepaper.rollbot.com/rlb-whitepaper",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x046eee2cc3188071c02bfc1745a6b17c656e3f3d",
+      "https://platform.arkhamintelligence.com/explorer/token/rollbit-coin",
+      "https://ethplorer.io/address/0x046eee2cc3188071c02bfc1745a6b17c656e3f3d",
+      "https://ethereum.dex.guru/token/0x046eee2cc3188071c02bfc1745a6b17c656e3f3d"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/Mwx3zqH"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "rollbit",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/24552/thumb/unziL6wO_400x400.jpg?1696523729",
+    "small": "https://coin-images.coingecko.com/coins/images/24552/small/unziL6wO_400x400.jpg?1696523729",
+    "large": "https://coin-images.coingecko.com/coins/images/24552/large/unziL6wO_400x400.jpg?1696523729"
+  },
+  "last_updated": "2025-07-11T05:00:31.476896+00:00"
+}

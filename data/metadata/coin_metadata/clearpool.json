@@ -1,0 +1,59 @@
+{
+  "id": "clearpool",
+  "symbol": "cpool",
+  "name": "Clearpool",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Solana Ecosystem",
+    "DaoMaker Launchpad",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "Sequoia Capital Portfolio",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x66761fa41377003622aee3c7675fc7b5c1c2fac5",
+    "solana": "AeXrLftu8chuY4ctc6oDeG4dUx6Yr4aqeakUMFNvACdg"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Clearpool is a decentralized capital markets ecosystem, where institutional borrowers can access unsecured loans directly from the DeFi ecosystem. Clearpool introduces a dynamic interest model driven by market supply and demand forces.\r\n\r\nLiquidity providers on Clearpool can earn attractive yields, with pool interest rates enhanced by additional LP rewards paid in CPOOL - Clearpool's utility and governance token.\r\n\r\nClearpool LP tokens, called cpTokens, are the building blocks for a system of tokenized credit that will provide Clearpool LPs with risk management and hedging capabilities.\r\n\r\nAs more institutions begin to realize the benefits that decentralized finance can bring to their organizations, Clearpool will provide the new architecture to facilitate flows between the $120 trillion traditional capital markets, and the burgeoning DeFi ecosystem.\r\n\r\nThe CPOOL Token\r\n\r\n- CPOOL is the utility and governance token for the Clearpool protocol.\r\n- CPOOL holders will vote on the whitelisting of new borrowers, a process that will qualify participants to earn additional CPOOL through an incentive reward scheme.\r\n- Eventually, a full system of decentralized governance will be introduced, allowing CPOOL holders to propose, vote and implement future changes and upgrades to the protocol.\r\n- CPOOL staking will be a required action for borrowers, who must stake an amount of CPOOL to access the area of the protocol where they can make a proposal to be whitelisted.\r\nLiquidity providers earn additional CPOOL rewards, enhancing pool interest rates to attractive levels.\r\n- Clearpool will announce a buyback program, where a share of protocol revenue will be used to buy CPOOL in the open market, to perpetually sustain reward pools."
+  },
+  "links": {
+    "homepage": [
+      "https://clearpool.finance/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x66761fa41377003622aee3c7675fc7b5c1c2fac5",
+      "https://platform.arkhamintelligence.com/explorer/token/clearpool",
+      "https://ethplorer.io/address/0x66761fa41377003622aee3c7675fc7b5c1c2fac5",
+      "https://solscan.io/token/AeXrLftu8chuY4ctc6oDeG4dUx6Yr4aqeakUMFNvACdg"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://clearpool.medium.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "ClearpoolFin",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "clearpoolofficial",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/19252/thumb/photo_2022-08-31_12.45.02.jpeg?1696518697",
+    "small": "https://coin-images.coingecko.com/coins/images/19252/small/photo_2022-08-31_12.45.02.jpeg?1696518697",
+    "large": "https://coin-images.coingecko.com/coins/images/19252/large/photo_2022-08-31_12.45.02.jpeg?1696518697"
+  },
+  "last_updated": "2025-07-11T04:57:43.596128+00:00"
+}

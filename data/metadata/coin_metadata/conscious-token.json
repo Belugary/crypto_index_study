@@ -1,0 +1,49 @@
+{
+  "id": "conscious-token",
+  "symbol": "conscious",
+  "name": "Conscious Token",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Four.meme Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x881025d714c587611e47d89b7929c1cb4ff05b51"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "In a world driven by hype, $Conscious is here to awaken the space, bridging Web3, self awareness, and community-driven vibes. No noise, just pure consciousness.\r\n\r\nThrough the tools, insights, sessions, and discussions within our community, we’re launching our Mental Health-Oriented DeScience Program. This initiative will provide support to those in need through technology, resources, expertise, and funding. Sharing is caring.\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://consciousness.care"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x881025D714C587611E47d89B7929c1cB4FF05B51",
+      "https://binplorer.com/address/0x881025D714C587611E47d89B7929c1cB4FF05B51"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "1conscious_ness",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "OfficialConsciousnessChannel",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55111/thumb/conscious_token_logo.png?1743754945",
+    "small": "https://coin-images.coingecko.com/coins/images/55111/small/conscious_token_logo.png?1743754945",
+    "large": "https://coin-images.coingecko.com/coins/images/55111/large/conscious_token_logo.png?1743754945"
+  },
+  "last_updated": "2025-07-11T04:57:50.415871+00:00"
+}

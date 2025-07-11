@@ -1,0 +1,69 @@
+{
+  "id": "apollo-diversified-credit-securitize-fund",
+  "symbol": "acred",
+  "name": "Apollo Diversified Credit Securitize Fund",
+  "categories": [
+    "Solana Ecosystem",
+    "Avalanche Ecosystem",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem",
+    "Aptos Ecosystem",
+    "Real World Assets (RWA)",
+    "Ink Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x17418038ecf73ba4026c4f428547bf099706f27b",
+    "solana": "FubtUcvhSCr3VPXEcxouoQjKQ7NWTCzXyECe76B7L3f8",
+    "avalanche": "0x7c64925002bfa705834b118a923e9911bee32875",
+    "polygon-pos": "0xfce60bbc52a5705cec5b445501fbaf3274dc43d0",
+    "aptos": "0xe528f4df568eb9fff6398adc514bc9585fab397f478972bcbebf1e75dee40a88",
+    "ink": "0x53ad50d3b6fcacb8965d3a49cb722917c7dae1f3"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "This feeder fund invests in the Apollo Diversified Credit Fund (\"Underlying Fund\") which seeks to generate a return comprised of both current income and capital appreciation, emphasizing current income with low volatility and low correlation to the broader markets.\r\n\r\n✓ Seasoned Asset Manager: Apollo draws on 30+ years of experience, aiming to achieve attractive returns across the risk spectrum through proprietary origination, credit strategies, and a flexible approach to borrower needs.(1)\r\n\r\n✓ Historical Track Record of Outperformance: A diversified, global credit strategy with potential for enhanced income and attractive risk-adjusted returns across various market cycles.\r\n\r\n✓ 0% Performance Fee\r\n\r\n✓ $0 Redemptions\r\n\r\n✓ Pricing Transparency: Daily pricing transparency and daily liquidity.(2)\r\n\r\nThe Underlying Fund takes a multi-asset private and public credit approach centered around five key pillars:\r\n\r\n✓ Corporate Direct Lending: Targets large scale corporate originations and sponsor-backed issuers of first lien, senior secured and unitranche loans, utilizing Apollo’s proprietary sourcing channel.\r\n\r\n✓ Asset-Backed Lending: Focuses on agile deployment of capital into origination and proprietary sourcing channels across a broad mandate of asset-backed investments, with a focus on investments collateralized by tangible investments.\r\n\r\n✓ Performing Credit: Primarily pursues liquid, performing senior secured corporate credits to generate total return.\r\n\r\n✓ Dislocated Credit: Seeks to use contingent capital to tactically pursue “dislocated” credit opportunities such as stressed, performing assets that sell-off due to technical and/or non-fundamental reasons.\r\n\r\n✓ Structured Credit: Focuses on structured credit opportunities across diverse asset types, vintages, maturities, jurisdictions, and capital structure priorities (for example, CLOs, residential, and commercial mortgage backed securities among others).9\r\n\r\n\r\n\r\n(1) Diversification does not ensure profit or protect against loss.\r\n(2) Investment performance is not guaranteed and is subject to market risks."
+  },
+  "links": {
+    "homepage": [
+      "https://securitize.io/primary-market/apollo-diversified-credit-securitize-fund"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x17418038ecF73BA4026c4f428547BF099706F27B",
+      "https://snowtrace.io/token/0x7C64925002BFA705834B118a923E9911BeE32875",
+      "https://polygonscan.com/token/0xFCe60bBc52a5705CeC5B445501FBAf3274Dc43D0",
+      "https://explorer.aptoslabs.com/fungible_asset/0xe528f4df568eb9fff6398adc514bc9585fab397f478972bcbebf1e75dee40a88?network=mainnet",
+      "https://ethplorer.io/address/0x17418038ecF73BA4026c4f428547BF099706F27B",
+      "https://avascan.info/blockchain/c/address/0x7c64925002bfa705834b118a923e9911bee32875/token",
+      "https://aptscan.ai/coins/0xe528f4df568eb9fff6398adc514bc9585fab397f478972bcbebf1e75dee40a88",
+      "https://tracemove.io/coin/0xe528f4df568eb9fff6398adc514bc9585fab397f478972bcbebf1e75dee40a88",
+      "https://solscan.io/token/FubtUcvhSCr3VPXEcxouoQjKQ7NWTCzXyECe76B7L3f8",
+      "https://explorer.inkonchain.com/token/0x53Ad50D3B6FCaCB8965d3A49cB722917C7DAE1F3"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/securitize/"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Securitize",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54809/thumb/ACRED.png?1741801356",
+    "small": "https://coin-images.coingecko.com/coins/images/54809/small/ACRED.png?1741801356",
+    "large": "https://coin-images.coingecko.com/coins/images/54809/large/ACRED.png?1741801356"
+  },
+  "last_updated": "2025-07-11T04:56:54.425727+00:00"
+}

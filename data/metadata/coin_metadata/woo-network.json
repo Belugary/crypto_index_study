@@ -1,0 +1,89 @@
+{
+  "id": "woo-network",
+  "symbol": "woo",
+  "name": "WOO",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Exchange-based Tokens",
+    "Decentralized Finance (DeFi)",
+    "Automated Market Maker (AMM)",
+    "BNB Chain Ecosystem",
+    "Derivatives",
+    "Perpetuals",
+    "Centralized Exchange (CEX) Token",
+    "Solana Ecosystem",
+    "Avalanche Ecosystem",
+    "Polygon Ecosystem",
+    "Near Protocol Ecosystem",
+    "Fantom Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "ZkSync Ecosystem",
+    "Mantle Ecosystem",
+    "Linea Ecosystem",
+    "Base Ecosystem",
+    "DragonFly Capital Portfolio",
+    "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x4691937a7508860f876c9c0a2a617e7d9e945d4b",
+    "linea": "0xf3df0a31ec5ea438150987805e841f960b9471b6",
+    "mantle": "0xf3df0a31ec5ea438150987805e841f960b9471b6",
+    "arbitrum-one": "0xcafcd85d8ca7ad1e1c6f82f651fa15e33aefd07b",
+    "zksync": "0x9e22d758629761fc5708c171d06c2fabb60b5159",
+    "base": "0xf3df0a31ec5ea438150987805e841f960b9471b6",
+    "near-protocol": "4691937a7508860f876c9c0a2a617e7d9e945d4b.factory.bridge.near",
+    "binance-smart-chain": "0x4691937a7508860f876c9c0a2a617e7d9e945d4b",
+    "fantom": "0x6626c47c00f1d87902fc13eecfac3ed06d5e8d8a",
+    "avalanche": "0xabc9547b534519ff73921b1fba6e672b5f58d083",
+    "polygon-pos": "0x1b815d120b3ef02039ee11dc2d33de7aa4a8c603",
+    "solana": "Dz8VutERqbHR2aFL5A3s1Ky4dG1unJT1jUFXXPaY9ytX"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "VG",
+  "description": {
+    "en": "WOO Network is a deep liquidity network connecting traders, exchanges, institutions, and DeFi platforms with democratized access to the best-in-class liquidity and trading execution at lower or zero cost. WOO Token is used in the network’s CeFi and DeFi products for staking and fee discounts."
+  },
+  "links": {
+    "homepage": [
+      "https://woo.org",
+      "https://learn.woo.org/wooooo-the-token/what-is-woo"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x4691937a7508860f876c9c0a2a617e7d9e945d4b",
+      "https://platform.arkhamintelligence.com/explorer/token/woo-network",
+      "https://ethplorer.io/address/0x4691937a7508860f876c9c0a2a617e7d9e945d4b",
+      "https://solscan.io/token/Dz8VutERqbHR2aFL5A3s1Ky4dG1unJT1jUFXXPaY9ytX",
+      "https://polygonscan.com/token/0x1b815d120b3ef02039ee11dc2d33de7aa4a8c603",
+      "https://bscscan.com/token/0x4691937a7508860f876c9c0a2a617e7d9e945d4b",
+      "https://snowtrace.io/token/0xabc9547b534519ff73921b1fba6e672b5f58d083",
+      "https://nearblocks.io/token/4691937a7508860f876c9c0a2a617e7d9e945d4b.factory.bridge.near",
+      "https://arbiscan.io/token/0xcafcd85d8ca7ad1e1c6f82f651fa15e33aefd07b"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/woonetwork"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "WOO_ecosystem",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "woo_english",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/12921/thumb/WOO_Logos_2023_Profile_Pic_WOO.png?1696512709",
+    "small": "https://coin-images.coingecko.com/coins/images/12921/small/WOO_Logos_2023_Profile_Pic_WOO.png?1696512709",
+    "large": "https://coin-images.coingecko.com/coins/images/12921/large/WOO_Logos_2023_Profile_Pic_WOO.png?1696512709"
+  },
+  "last_updated": "2025-07-11T05:01:54.287415+00:00"
+}

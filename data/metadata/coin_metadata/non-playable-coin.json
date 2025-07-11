@@ -1,0 +1,66 @@
+{
+  "id": "non-playable-coin",
+  "symbol": "npc",
+  "name": "Non-Playable Coin",
+  "categories": [
+    "NFT",
+    "BNB Chain Ecosystem",
+    "Solana Ecosystem",
+    "Meme",
+    "Ethereum Ecosystem",
+    "Base Ecosystem",
+    "Hybrid Token Standards",
+    "Wojak-Themed",
+    "4chan-Themed"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x8ed97a637a790be1feff5e888d43629dc05408f6",
+    "base": "0xb166e8b140d35d9d8226e40c09f757bac5a4d87d",
+    "binance-smart-chain": "0xfebfa339e44c28e2aa9e62ea1027c9cb4e378605",
+    "solana": "BeGY8KqKxboEwRbJd1q9H2K829jS4Rc5dEyNMYXCbV5p"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What is the project about?\r\nNon-Playable Coin (NPC) is a meme coin and NFT-hybrid for all 8+ billion humans on Earth. \"I support the current coin\" is the motto, a homage to the meme that first gained in popularity in 2018.\r\n\r\nWhat makes your project unique?\r\nInspired by the non-playable character meme, NPC leans into the joke by creating an ERC20 token whose supply is the total human population as recorded on July 26, 2023. Each token is also convertible into an NFT at a rate of 1:1. Hence, it is a token with JPEG metadata that is designed to be traded both on decentralized exchanges like Uniswap (as an ERC20) and on NFT marketplaces (as an ERC1155). \r\n\r\nThis unique design—an NFT that can also be traded as an ERC20—is called a meme fungible token (MFT). An MFT like Non-Playable Coin (NPC) links two often-separated liquidity markets, while also allowing more people than ever to own a \"part of the culture\" as NFTs. \r\n\r\nOn the home page, users can switch between the two formats using the dApp. Users can \"respawn\" as an NFT or \"transform\" into a meme coin. The most liquid form for trading, however, is as an ERC20.\r\n\r\nHistory of your project.\r\nThe project started by playing with NFT AMMs like Sudoswap and realizing that ERC1155s were not being used to explore new avenues. We also felt that the 10k+ pfp NFT collection has hit a wall because it is limited both by exclusivity and gas cost. This project seeks to demonstrate that it is possible to scale communities to millions using the ERC1155 standard, and that it is possible to unlock liquidity for such tokens by making them fungible as an ERC20. \r\n\r\nWhat’s next for your project?\r\nUsers will soon be able to accessorize their NPCs using a built-in customization tool and export their creations to be used as profile photos. Additionally, we are constructing new supporting infrastructure to better link the liquidity of ERC20 tokens with ERC1155 tokens, with NPC as the main showcase.\r\n\r\nWhat can your token be used for?\r\nAt its core, it is purely a meme coin with no utility and is for entertainment purposes only. "
+  },
+  "links": {
+    "homepage": [
+      "https://www.npc.com/",
+      "https://www.nonplayablecoin.io"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x8ed97a637a790be1feff5e888d43629dc05408f6",
+      "https://platform.arkhamintelligence.com/explorer/token/non-playable-coin",
+      "https://basescan.org/address/0xb166e8b140d35d9d8226e40c09f757bac5a4d87d",
+      "https://ethplorer.io/address/0x8ed97a637a790be1feff5e888d43629dc05408f6",
+      "https://basescan.org/token/0xb166e8b140d35d9d8226e40c09f757bac5a4d87d",
+      "https://solscan.io/token/begy8kqkxboewrbjd1q9h2k829js4rc5deynmyxcbv5p",
+      "https://bscscan.com/token/0xfebfa339e44c28e2aa9e62ea1027c9cb4e378605",
+      "https://binplorer.com/address/0xFEbfA339E44c28E2aa9E62Ea1027C9CB4e378605"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "NonPlayableCoin",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "nonplayablecoin",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/31193/thumb/NPC_200x200.png?1696530021",
+    "small": "https://coin-images.coingecko.com/coins/images/31193/small/NPC_200x200.png?1696530021",
+    "large": "https://coin-images.coingecko.com/coins/images/31193/large/NPC_200x200.png?1696530021"
+  },
+  "last_updated": "2025-07-11T04:59:44.023186+00:00"
+}

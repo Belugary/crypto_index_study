@@ -1,0 +1,67 @@
+{
+  "id": "golem",
+  "symbol": "glm",
+  "name": "Golem",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Ethereum Ecosystem",
+    "DePIN",
+    "Energi Ecosystem",
+    "GMCI DePIN Index",
+    "GMCI Index"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x7dd9c5cba05e151c895fde1cf355c9a1d5da6429",
+    "energi": "0xf3ff3bf1d1afcbebd98a304482c4099dc953e9a8"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "PL",
+  "description": {
+    "en": "What Is Golem Network?\r\n\r\nGolem Network is an open-source, decentralized computing platform that is building an ecosystem to provide computing power to the AI industry. A peer-to-peer marketplace for distributed computing resources. Users engage directly on the Golem platform, exchanging GLM tokens for the utilization of their idle computing resources.\r\n\r\nGolem allows to break down tasks into smaller subtasks and distribute them across multiple providers, enabling parallel processing. This approach boosts efficiency and speeds up the completion of complex computations.\r\n\r\nWhat is GLM?\r\n\r\nGLM or Golem Network Token is needed to pay for computations on the network and is the currency that drives the marketplace. As a Requestor, you set a bid for an amount of GLM you are willing to pay to have your task completed. As a Provider, you earn GLM by computing tasks for Requestors.\r\n\r\nHow can I get involved?\r\n\r\nIf you want to stay up to date with the latest developments and updates, join the Golem Network Discord community here: https://chat.golem.network/\r\n\r\nOn Discord you can also find support to become a Provider or a Requestor in the Golem platform."
+  },
+  "links": {
+    "homepage": [
+      "https://golem.network/"
+    ],
+    "whitepaper": "https://golem.network/doc/Golemwhitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x7dd9c5cba05e151c895fde1cf355c9a1d5da6429",
+      "https://platform.arkhamintelligence.com/explorer/token/golem",
+      "https://ethplorer.io/address/0x7dd9c5cba05e151c895fde1cf355c9a1d5da6429",
+      "https://explorer.energi.network/token/0xf3ff3bf1d1afcbebd98a304482c4099dc953e9a8"
+    ],
+    "official_forum_url": [
+      "https://blog.golemproject.net/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/golem",
+      "https://www.youtube.com/c/golemnetwork"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "golemproject",
+    "facebook_username": "golemproject",
+    "bitcointalk_thread_identifier": 1655002,
+    "telegram_channel_identifier": "golemnetworkproject",
+    "subreddit_url": "https://www.reddit.com/r/GolemProject",
+    "repos_url": {
+      "github": [
+        "https://github.com/golemfactory/golem",
+        "https://github.com/golemfactory/golem-unlimited",
+        "https://github.com/golemfactory/golem-messages",
+        "https://github.com/golemfactory/concent-deployment",
+        "https://github.com/golemfactory/golem-electron"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/542/thumb/Golem_Submark_Positive_RGB.png?1696501761",
+    "small": "https://coin-images.coingecko.com/coins/images/542/small/Golem_Submark_Positive_RGB.png?1696501761",
+    "large": "https://coin-images.coingecko.com/coins/images/542/large/Golem_Submark_Positive_RGB.png?1696501761"
+  },
+  "last_updated": "2025-07-11T04:58:37.632850+00:00"
+}

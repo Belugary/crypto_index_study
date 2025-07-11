@@ -1,0 +1,55 @@
+{
+  "id": "incrypt",
+  "symbol": "inc",
+  "name": "Incrypt",
+  "categories": [
+    "Gaming (GameFi)",
+    "Solana Ecosystem"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "Fe5c469ADZyvnZrB8gdDsYt5eLKodaVYhYJCdunVr1nA"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "INC is the main currency of the Incrypt ecosystem, used to buy NFT card packs, and purchase in-game items in upcoming RPG/MMO game. It also grants entries into weekly BTC giveaways and is tradable on the open market. When used within the Incrypt platform, INC gives users 3x value compared to its external price, rewarding active participation and fueling long-term engagement. The NFT aspect of this project makes it one of a kind and adds a new level of gaming, not only to the gaming space, but to the crypto space as well."
+  },
+  "links": {
+    "homepage": [
+      "https://incrypt.com.au"
+    ],
+    "whitepaper": "https://www.incrypt.com.au/member-portal/white-paper",
+    "blockchain_site": [
+      "https://explorer.solana.com/address/Fe5c469ADZyvnZrB8gdDsYt5eLKodaVYhYJCdunVr1nA",
+      "https://solscan.io/token/Fe5c469ADZyvnZrB8gdDsYt5eLKodaVYhYJCdunVr1nA"
+    ],
+    "official_forum_url": [
+      "https://www.tiktok.com/@incryptofficial",
+      "https://www.instagram.com/incryptau/"
+    ],
+    "chat_url": [
+      "https://discord.gg/incrypt",
+      "https://www.youtube.com/@incryptofficial"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "incryptofficial",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Incrypt_Official",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55966/thumb/Incrypt_Token_Logo_%281%29.png?1747887506",
+    "small": "https://coin-images.coingecko.com/coins/images/55966/small/Incrypt_Token_Logo_%281%29.png?1747887506",
+    "large": "https://coin-images.coingecko.com/coins/images/55966/large/Incrypt_Token_Logo_%281%29.png?1747887506"
+  },
+  "last_updated": "2025-07-11T04:58:49.546561+00:00"
+}

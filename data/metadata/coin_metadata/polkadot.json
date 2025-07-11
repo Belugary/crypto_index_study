@@ -1,0 +1,66 @@
+{
+  "id": "polkadot",
+  "symbol": "dot",
+  "name": "Polkadot",
+  "categories": [
+    "Smart Contract Platform",
+    "Polkadot Ecosystem",
+    "Proof of Stake (PoS)",
+    "Layer 0 (L0)",
+    "Pantera Capital Portfolio",
+    "GMCI 30 Index",
+    "GMCI Index",
+    "Made in USA",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Polkadot is a platform that allows diverse blockchains to transfer messages, including value, in a trust-free fashion; sharing their unique features while pooling their security. In brief, Polkadot is a scalable heterogeneous multi-chain technology.\r\n\r\nPolkadot is heterogeneous because it is entirely flexible and makes no assumption about the nature or structure of the chains in the network. Even non-blockchain systems or data structures can become parachains if they fulfill a set of criteria.\r\n\r\nPolkadot may be considered equivalent to a set of independent chains (e.g. a set containing Ethereum, Ethereum Classic, Namecoin and Bitcoin) except with important additions: pooled security and trust-free interchain transactability.\r\n\r\nMany of the native parachains of Polkadot will be written using a Polkadot Runtime Environment SDK (e.g. Parity Technologies' Substrate)."
+  },
+  "links": {
+    "homepage": [
+      "https://polkadot.com/",
+      "https://forum.polkadot.network/"
+    ],
+    "whitepaper": "https://polkadot.com/papers/Polkadot-whitepaper.pdf",
+    "blockchain_site": [
+      "http://polkascan.io/",
+      "https://polkadot.subscan.io/",
+      "https://hubble.figment.io/polkadot/chains/polkadot",
+      "https://3xpl.com/polkadot",
+      "https://www.mintscan.io/secret/address/secret1h5d3555tz37crrgl5rppu2np2fhaugq3q8yvv9"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/polkadot",
+      "https://medium.com/polkadot-network",
+      "https://www.youtube.com/channel/UCB7PbjuZLEba_znc7mEGNgw"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Polkadot",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "PolkadotOfficial",
+    "subreddit_url": "https://www.reddit.com/r/Polkadot",
+    "repos_url": {
+      "github": [
+        "https://github.com/paritytech/polkadot-sdk"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/12171/thumb/polkadot.png?1696512008",
+    "small": "https://coin-images.coingecko.com/coins/images/12171/small/polkadot.png?1696512008",
+    "large": "https://coin-images.coingecko.com/coins/images/12171/large/polkadot.png?1696512008"
+  },
+  "last_updated": "2025-07-11T05:00:08.066426+00:00"
+}

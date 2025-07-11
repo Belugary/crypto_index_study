@@ -1,0 +1,64 @@
+{
+  "id": "terra-luna-2",
+  "symbol": "luna",
+  "name": "Terra",
+  "categories": [
+    "Alleged SEC Securities",
+    "Osmosis Ecosystem",
+    "DeFiance Capital Portfolio",
+    "Pantera Capital Portfolio",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Delphi Ventures Portfolio",
+    "Galaxy Digital Portfolio",
+    "OKX Ventures Portfolio"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": "",
+    "osmosis": "ibc/785AFEC6B3741100D15E7AF01374E3C4C36F24888E96479B1C33F5C71F364EF9"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Delegated Proof-of-Stake",
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Terra 2.0 which will assume the Terra name is a new blockchain launched by Terraform Labs as part of the passing of governance proposal 1623.\r\n\r\nThe Terra protocol is a decentralized and open-source public blockchain protocol. Luna is the Terra protocol’s native staking token used for governance and mining. \r\nUsers stake Luna to validators who record and verify transactions on the blockchain in exchange for rewards from transaction fees.\r\n\r\nThe Terra 2.0 chain will not have a stablecoin and holders of the old Terra Classic chain will be airdropped new Luna native coins.\r\nIn the plan, developers of the Terra ecosystem are to migrate and deploy their dapps on the new blockchain."
+  },
+  "links": {
+    "homepage": [
+      "https://www.terra.money/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://finder.terra.money/",
+      "https://atomscan.com/terra",
+      "https://terra.explorers.guru/",
+      "https://www.mintscan.io/terra"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://terra.sc/discord"
+    ],
+    "announcement_url": [
+      "https://medium.com/terra-money"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "terra_money",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "terranetworklobby",
+    "subreddit_url": "https://www.reddit.com/r/terraluna/",
+    "repos_url": {
+      "github": [
+        "https://github.com/terra-money/core"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/25767/thumb/01_Luna_color.png?1696524851",
+    "small": "https://coin-images.coingecko.com/coins/images/25767/small/01_Luna_color.png?1696524851",
+    "large": "https://coin-images.coingecko.com/coins/images/25767/large/01_Luna_color.png?1696524851"
+  },
+  "last_updated": "2025-07-11T05:01:15.851845+00:00"
+}

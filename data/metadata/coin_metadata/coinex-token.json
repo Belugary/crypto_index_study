@@ -1,0 +1,59 @@
+{
+  "id": "coinex-token",
+  "symbol": "cet",
+  "name": "CoinEx",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Smart Contract Platform",
+    "Exchange-based Tokens",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x081f67afa0ccf8c7b17540767bbe95df2ba8d97f"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "HK",
+  "description": {
+    "en": "Issued in January 2018，CoinEx Token（CET）is the native token of CoinEx Chain. CoinEx Chain presents a public chain dedicated for the decentralized exchange (DEX) with the mainnet launched in November 2019 officially."
+  },
+  "links": {
+    "homepage": [
+      "https://www.coinex.org/",
+      "https://www.coinex.com/token"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x081f67afa0ccf8c7b17540767bbe95df2ba8d97f",
+      "https://platform.arkhamintelligence.com/explorer/token/coinex-token",
+      "https://ethplorer.io/address/0x081f67afa0ccf8c7b17540767bbe95df2ba8d97f",
+      "https://www.coinex.net/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://announcement.coinex.com/hc/en-us"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "coinexcom",
+    "facebook_username": "TheCoinEx",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "CoinExOfficialEN",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/coinexchain/dex-manual"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/4817/thumb/coinex-token.png?1696505367",
+    "small": "https://coin-images.coingecko.com/coins/images/4817/small/coinex-token.png?1696505367",
+    "large": "https://coin-images.coingecko.com/coins/images/4817/large/coinex-token.png?1696505367"
+  },
+  "last_updated": "2025-07-11T04:57:45.867089+00:00"
+}

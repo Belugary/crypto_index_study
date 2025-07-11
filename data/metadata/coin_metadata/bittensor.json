@@ -1,0 +1,57 @@
+{
+  "id": "bittensor",
+  "symbol": "tao",
+  "name": "Bittensor",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "DePIN",
+    "Bittensor Ecosystem",
+    "Polychain Capital Portfolio"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Bittensor is an open-source protocol that powers a decentralized, blockchain-based machine learning network. Machine learning models train collaboratively and are rewarded in TAO according to the informational value they offer the collective. TAO also grants external access, allowing users to extract information from the network while tuning its activities to their needs.\r\n\r\nUltimately, BitTensors vision is to create a pure market for artificial intelligence, an incentivized arena in which consumers and producers of this valuable commodity can interact in a trustless, open and transparent context.\r\n\r\nBittensor enables:\r\n\r\n-A novel, optimized strategy for the development and distribution of artificial intelligence technology by leveraging the possibilities of a distributed ledger. Specifically, its facilitation of open access/ownership, decentralized governance, and the ability to harness globally-distributed resources of computing power and innovation within an incentivized framework.\r\n\r\n-An open-source repository of machine intelligence, accessible to anyone, anywhere, thus creating the conditions for open and permission-less innovation on a global internet scale.\r\n\r\n-Distribution of rewards and network ownership to users in direct proportion to the value they have added."
+  },
+  "links": {
+    "homepage": [
+      "https://bittensor.com/",
+      "https://docs.bittensor.com/"
+    ],
+    "whitepaper": "https://bittensor.com/whitepaper",
+    "blockchain_site": [
+      "https://taostats.io/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/bittensor"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "opentensor",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "taobittensor",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/opentensor/BitTensor"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/28452/thumb/ARUsPeNQ_400x400.jpeg?1696527447",
+    "small": "https://coin-images.coingecko.com/coins/images/28452/small/ARUsPeNQ_400x400.jpeg?1696527447",
+    "large": "https://coin-images.coingecko.com/coins/images/28452/large/ARUsPeNQ_400x400.jpeg?1696527447"
+  },
+  "last_updated": "2025-07-11T04:57:26.108247+00:00"
+}

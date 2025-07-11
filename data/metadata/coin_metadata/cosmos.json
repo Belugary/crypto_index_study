@@ -1,0 +1,90 @@
+{
+  "id": "cosmos",
+  "symbol": "atom",
+  "name": "Cosmos Hub",
+  "categories": [
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Cosmos Ecosystem",
+    "Canto Ecosystem",
+    "Alleged SEC Securities",
+    "Osmosis Ecosystem",
+    "Paradigm Portfolio",
+    "Proof of Stake (PoS)",
+    "Kava Ecosystem",
+    "Layer 0 (L0)",
+    "DragonFly Capital Portfolio",
+    "Pantera Capital Portfolio",
+    "Archway Ecosystem",
+    "Evmos Ecosystem",
+    "GMCI 30 Index",
+    "GMCI Index",
+    "Outlier Ventures Portfolio",
+    "Polychain Capital Portfolio",
+    "Mantra Ecosystem",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": "cosmos",
+  "platforms": {
+    "cosmos": "uatom",
+    "evmos": "0xc5e00d3b04563950941f7137b5afa3a534f0d6d6",
+    "mantra": "ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701",
+    "osmosis": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "canto": "0xeceeefcee421d8062ef8d6b4d814efe4dc898265",
+    "kava": "0x15932e26f5bd4923d46a2b205191c4b5d5f43fe3",
+    "archway": "ibc/27394fb092d2eccd56123c74f36e4c1f926001ceada9ca97ea622b25f41e5eb2",
+    "binance-smart-chain": "0x0eb3a705fc54725037cc9e008bdede697f62f335"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The Cosmos network consists of many independent, parallel blockchains, called zones, each powered by classical Byzantine fault-tolerant (BFT) consensus protocols like Tendermint (already used by platforms like ErisDB). Some zones act as hubs with respect to other zones, allowing many zones to interoperate through a shared hub. The architecture is a more general application of the Bitcoin sidechains concept, using classic BFT and Proof-of-Stake algorithms, instead of Proof-of-Work.Cosmos can interoperate with multiple other applications and cryptocurrencies, something other blockchains can’t do well. By creating a new zone, you can plug any blockchain system into the Cosmos hub and pass tokens back and forth between those zones, without the need for an intermediary.\r\n\r\nWhile the Cosmos Hub is a multi-asset distributed ledger, there is a special native token called the atom. Atoms have three use cases: as a spam-prevention mechanism, as staking tokens, and as a voting mechanism in governance.\r\n\r\nAs a spam prevention mechanism, Atoms are used to pay fees. The fee may be proportional to the amount of computation required by the transaction, similar to Ethereum’s concept of “gas”. Fee distribution is done in-protocol and a protocol specification is described here.\r\n\r\nAs staking tokens, Atoms can be “bonded” in order to earn block rewards. The economic security of the Cosmos Hub is a function of the amount of Atoms staked. The more Atoms that are collateralized, the more “skin” there is at stake and the higher the cost of attacking the network. Thus, the more Atoms there are bonded, the greater the economic security of the network.\r\n\r\nAtom holders may govern the Cosmos Hub by voting on proposals with their staked Atoms."
+  },
+  "links": {
+    "homepage": [
+      "http://cosmos.network/"
+    ],
+    "whitepaper": "http://cosmos.network/whitepaper",
+    "blockchain_site": [
+      "https://www.mintscan.io/cosmos",
+      "https://platform.arkhamintelligence.com/explorer/token/cosmos",
+      "https://cosmos.bigdipper.live/",
+      "https://hubble.figment.io/cosmos/chains/cosmoshub-4",
+      "https://atomscan.com/",
+      "https://bscscan.com/token/0x0eb3a705fc54725037cc9e008bdede697f62f335",
+      "https://explorer.energi.network/token/0xd821db2439ecf24e5a623079c783e951646da449",
+      "https://evm.explorer.canto.io/token/0xeceeefcee421d8062ef8d6b4d814efe4dc898265",
+      "https://evm.evmos.org/token/0xc5e00d3b04563950941f7137b5afa3a534f0d6d6",
+      "https://atom.tokenview.io/en"
+    ],
+    "official_forum_url": [
+      "https://forum.cosmos.network/"
+    ],
+    "chat_url": [],
+    "announcement_url": [
+      "https://blog.cosmos.network/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "cosmos",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "cosmosproject",
+    "subreddit_url": "https://www.reddit.com/r/cosmosnetwork",
+    "repos_url": {
+      "github": [
+        "https://github.com/cosmos/cosmos",
+        "https://github.com/cosmos/cosmos-sdk",
+        "https://github.com/cosmos/voyager"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/1481/thumb/cosmos_hub.png?1696502525",
+    "small": "https://coin-images.coingecko.com/coins/images/1481/small/cosmos_hub.png?1696502525",
+    "large": "https://coin-images.coingecko.com/coins/images/1481/large/cosmos_hub.png?1696502525"
+  },
+  "last_updated": "2025-07-11T04:57:53.533574+00:00"
+}

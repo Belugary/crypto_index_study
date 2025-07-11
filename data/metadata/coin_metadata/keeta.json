@@ -1,0 +1,57 @@
+{
+  "id": "keeta",
+  "symbol": "kta",
+  "name": "Keeta",
+  "categories": [
+    "Layer 1 (L1)",
+    "Real World Assets (RWA)",
+    "Payment Solutions",
+    "Base Ecosystem",
+    "Stablecoin Protocol"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0xc0634090f2fe6c6d75e61be2b949464abb498973"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Keeta is a high-performance layer-1 blockchain designed to unify transactions across different blockchains and fiat payment systems, eliminating the need for costly intermediaries, reducing fees, and enabling near-instant settlements. With 400-millisecond transaction finality and the ability to process 10 million transactions per second, Keeta sets a new industry benchmark for speed and scalability.\r\n\r\nFounded in 2022 and backed by Eric Schmidt, the former CEO of Google, Keeta has been engineered to meet the stringent regulatory and operational requirements of financial institutions. Its advanced on-chain compliance protocols, including KYC and AML, ensure security and regulatory adherence. Keeta’s architecture natively supports asset tokenization and digital identity, making it an ideal platform for stablecoins and real-world asset transfers.\r\n\r\nBy facilitating cross-chain transactions and interoperability with existing payment systems, Keeta bridges the gap between cryptocurrencies and fiat, enabling a secure, efficient, and compliant global financial ecosystem."
+  },
+  "links": {
+    "homepage": [
+      "https://keeta.com"
+    ],
+    "whitepaper": "https://keeta.com/keetanet-whitepaper-20250312.pdf",
+    "blockchain_site": [
+      "https://basescan.org/address/0xc0634090F2Fe6c6d75e61Be2b949464aBB498973",
+      "https://basescan.org/token/0xc0634090F2Fe6c6d75e61Be2b949464aBB498973"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/keeta",
+      "https://www.youtube.com/@keetanetwork"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "keetanetwork",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/keeta",
+    "repos_url": {
+      "github": [
+        "https://github.com/keetanetwork"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54723/thumb/2025-03-05_22.53.06.jpg?1741234207",
+    "small": "https://coin-images.coingecko.com/coins/images/54723/small/2025-03-05_22.53.06.jpg?1741234207",
+    "large": "https://coin-images.coingecko.com/coins/images/54723/large/2025-03-05_22.53.06.jpg?1741234207"
+  },
+  "last_updated": "2025-07-11T04:59:03.573531+00:00"
+}

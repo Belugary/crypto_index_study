@@ -1,0 +1,82 @@
+{
+  "id": "celestia",
+  "symbol": "tia",
+  "name": "Celestia",
+  "categories": [
+    "Smart Contract Platform",
+    "Cosmos Ecosystem",
+    "Layer 1 (L1)",
+    "Data Availability",
+    "Modular Blockchain",
+    "Osmosis Ecosystem",
+    "eGirl Capital Portfolio",
+    "Coinbase Ventures Portfolio",
+    "Proof of Stake (PoS)",
+    "Secret Ecosystem",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Delphi Ventures Portfolio",
+    "Galaxy Digital Portfolio",
+    "Blockchain Capital Portfolio",
+    "OKX Ventures Portfolio",
+    "Polychain Capital Portfolio"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": "",
+    "secret": "secret1s9h6mrp4k9gll4zfv5h78ll68hdq8ml7jrnn20",
+    "cosmos": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877",
+    "osmosis": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Celestia is a data availability network that allows developers to easily create a new blockchain."
+  },
+  "links": {
+    "homepage": [
+      "https://celestia.org/",
+      "https://blog.celestia.org/",
+      "https://celestia.org/developer-portal/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://celenium.io/",
+      "https://celestiascan.com",
+      "https://celestia.explorers.guru/",
+      "https://explorer.modular.cloud/",
+      "https://www.mintscan.io/celestia",
+      "https://www.mintscan.io/secret/address/secret1s9h6mrp4k9gll4zfv5h78ll68hdq8ml7jrnn20",
+      "https://www.mintscan.io/osmosis/assets/ibc/aWJjL0Q3OUU3RDgzQUIzOTlCRkZGOTM0MzNFNTRGQUE0ODBDMTkxMjQ4RkM1NTY5MjRBMkE4MzUxQUUyNjM4QjM4Nzc="
+    ],
+    "official_forum_url": [
+      "https://forum.celestia.org/",
+      "https://www.linkedin.com/company/celestiaorg/",
+      "https://www.youtube.com/channel/UCLlvAEzXBFZ-P3zS6BF2Bjg"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/YsnTPcSfWQ"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "CelestiaOrg",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "CelestiaCommunity",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/celestiaorg/celestia-node",
+        "https://github.com/celestiaorg"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/31967/thumb/tia.jpg?1696530772",
+    "small": "https://coin-images.coingecko.com/coins/images/31967/small/tia.jpg?1696530772",
+    "large": "https://coin-images.coingecko.com/coins/images/31967/large/tia.jpg?1696530772"
+  },
+  "last_updated": "2025-07-11T04:57:36.457701+00:00"
+}

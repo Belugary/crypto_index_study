@@ -1,0 +1,59 @@
+{
+  "id": "whitebit",
+  "symbol": "wbt",
+  "name": "WhiteBIT Coin",
+  "categories": [
+    "Exchange-based Tokens",
+    "Centralized Exchange (CEX) Token",
+    "Ethereum Ecosystem",
+    "Tron Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x925206b8a707096ed26ae47c84747fe0bb734f59",
+    "tron": "TFptbWaARrWTX5Yvy3gNG5Lm8BmhPx82Bt"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What is WhiteBIT Token?\r\n\r\nWBT is a utility token of the largest European cryptocurrency exchange, WhiteBIT. The platform was established in 2018 and has already become one of the leading crypto exchanges with 3+ mln users worldwide. WhiteBIT’s goal is to contribute to the mass adoption and popularization of blockchain technologies by implementing the most effective trading and staking tools on the most convenient terms. The most popular and efficient trading orders for spot and margin trading, up to 20x leverage for margin and perpetual Bitcoin futures trading, unique passive income tools, a referral program, and the lowest trading fees on the market are only part of the functionality available on WhiteBIT. Discover the full potential of the platform at the link: https://whitebit.com/.\r\n\r\nWBT is a full-fledged product of the whole WhiteBIT ecosystem that is integrated into all WhiteBIT services, making it easier for the users to interact on the platform. WBT is a solid base for dozens of blockchain startups, new projects, and fruitful trading. Moreover, WhiteBIT Token is a reliable asset that can be used for staking on its native platform, which provides numerous perks to its holders and owners. \r\n\r\nKey advantages:\r\n\r\nincreased referral interest rate (up to 50%);\r\ndecreased trading fees; \r\nfree daily ERC-20/ETH withdrawals;\r\nfree daily AML checks; \r\nintegration with the current and future products of WhiteBIT and much more.\r\n\r\nWBT tokenomics\r\n\r\nThe token supply is limited to 400 000 000 WBT, with no new tokens to be created in the future. 200M of this amount is treasury tokens that are backing the total amount and will be unlocked within the next three months after the launch. \r\n\r\nTrading competitions, airdrops, bounties, beneficial holding programs, and access to the token from other exchange platforms are part of activities associated with the WBT cryptocurrency available on WhiteBIT. \r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://whitebit.com/wbt",
+      "https://blog.whitebit.com/"
+    ],
+    "whitepaper": "https://cdn.whitebit.com/wbt/whitepaper-en.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x925206b8a707096ed26ae47c84747fe0bb734f59",
+      "https://platform.arkhamintelligence.com/explorer/token/whitebit",
+      "https://tronscan.org/#/token20/tfptbwaarrwtx5yvy3gng5lm8bmhpx82bt",
+      "https://explorer.whitebit.network/",
+      "https://ethplorer.io/address/0x925206b8a707096ed26ae47c84747fe0bb734f59"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://blog.whitebit.com/",
+      "https://medium.com/whitebit"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "WhiteBit",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "White_Bit",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/27045/thumb/wbt_token.png?1696526096",
+    "small": "https://coin-images.coingecko.com/coins/images/27045/small/wbt_token.png?1696526096",
+    "large": "https://coin-images.coingecko.com/coins/images/27045/large/wbt_token.png?1696526096"
+  },
+  "last_updated": "2025-07-11T05:01:53.188479+00:00"
+}

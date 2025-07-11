@@ -1,0 +1,64 @@
+{
+  "id": "euro-coin",
+  "symbol": "eurc",
+  "name": "EURC",
+  "categories": [
+    "Stablecoins",
+    "EUR Stablecoin",
+    "Solana Ecosystem",
+    "Avalanche Ecosystem",
+    "Ethereum Ecosystem",
+    "Base Ecosystem",
+    "Stellar Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x1abaea1f7c830bd89acc67ec4af516284b1bc33c",
+    "base": "0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42",
+    "stellar": "EURC-GDHU6WRG4IEQXM5NZ4BMPKOXHW76MZM4Y2IEMFDVXBSDP6SJY4ITNPP2",
+    "avalanche": "0xc891eb4cbdeff6e073e859e987815ed1505c2acd",
+    "solana": "HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Euro Coin is a stablecoin issued by Circle under the same reserve model as USD Coin (USDC). It is designed to be stable and 100% backed by euros held in euro denominated banking accounts. An Euro Coin (EUROC) will be redeemable 1:1 for the euro currency."
+  },
+  "links": {
+    "homepage": [
+      "https://www.circle.com"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x1abaea1f7c830bd89acc67ec4af516284b1bc33c",
+      "https://platform.arkhamintelligence.com/explorer/token/euro-coin",
+      "https://ethplorer.io/address/0x1abaea1f7c830bd89acc67ec4af516284b1bc33c",
+      "https://snowtrace.io/token/0xc891eb4cbdeff6e073e859e987815ed1505c2acd",
+      "https://avascan.info/blockchain/c/address/0xc891eb4cbdeff6e073e859e987815ed1505c2acd/token",
+      "https://solscan.io/token/hzwqbkzw8hxmn6bf2yfznrht3c2ixxzpkcfu7ubedktr",
+      "https://stellar.expert/explorer/public/asset/eurc-gdhu6wrg4ieqxm5nz4bmpkoxhw76mzm4y2iemfdvxbsdp6sjy4itnpp2",
+      "https://basescan.org/token/0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "circlepay",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/26045/thumb/euro.png?1696525125",
+    "small": "https://coin-images.coingecko.com/coins/images/26045/small/euro.png?1696525125",
+    "large": "https://coin-images.coingecko.com/coins/images/26045/large/euro.png?1696525125"
+  },
+  "last_updated": "2025-07-11T04:58:20.886489+00:00"
+}

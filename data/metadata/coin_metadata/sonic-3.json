@@ -1,0 +1,54 @@
+{
+  "id": "sonic-3",
+  "symbol": "s",
+  "name": "Sonic",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Galaxy Digital Portfolio",
+    "Sonic Ecosystem"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Sonic is the highest-performing EVM L1, combining speed, incentives, and world-class infrastructure, powering the next generation of DeFi applications. The chain provides 400,000 TPS and sub-second finality.\r\n\r\nSonic's Fee Monetization (FeeM) program rewards developers with up to 90% of the fees their apps generate, adapting the Web2 ad-revenue model to a decentralized framework. Developers now directly profit from their app's traffic and user engagement.\r\n\r\nFurthermore, the Sonic Gateway provides developers and users with seamless access to vast liquidity through a native, secure bridge connected to Ethereum. With a unique fail-safe mechanism, it ensures your assets are protected in all circumstances."
+  },
+  "links": {
+    "homepage": [
+      "https://soniclabs.com",
+      "https://docs.soniclabs.com/"
+    ],
+    "whitepaper": "https://www.soniclabs.com/litepaper",
+    "blockchain_site": [
+      "https://sonicscan.org/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/3Ynr2QDSnB",
+      "https://www.linkedin.com/company/OfficialSonicLabs/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SonicLabs",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "SonicAnnouncements",
+    "subreddit_url": "https://www.reddit.com/r/0xSonic",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/38108/thumb/200x200_Sonic_Logo.png?1734679256",
+    "small": "https://coin-images.coingecko.com/coins/images/38108/small/200x200_Sonic_Logo.png?1734679256",
+    "large": "https://coin-images.coingecko.com/coins/images/38108/large/200x200_Sonic_Logo.png?1734679256"
+  },
+  "last_updated": "2025-07-11T05:00:47.818333+00:00"
+}

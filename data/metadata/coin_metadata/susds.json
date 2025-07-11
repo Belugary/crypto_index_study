@@ -1,0 +1,56 @@
+{
+  "id": "susds",
+  "symbol": "susds",
+  "name": "sUSDS",
+  "categories": [
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Yield-Bearing Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xa3931d71877c0e7a3148cb7eb4463524fec27fbd",
+    "arbitrum-one": "0xddb46999f8891663a8f2828d25298f70416d7610",
+    "base": "0x5875eee11cf8398102fdad704c9e96607675467a"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "sUSDS is the new version of sDAI, offered by Sky which offers a higher yield. sUSDS represents USDS deposited into and earning the Sky Savings Rate. \r\n\r\nThe Sky Protocol is a decentralised protocol developed around the USDS stablecoin. It is managed by Sky ecosystem governance. The Sky Protocol features Sky tokens (USDS, SKY, DAI, MKR), the Sky Savings Rate, Sky Token Rewards and, soon, Activation Token Rewards and SkyLink."
+  },
+  "links": {
+    "homepage": [
+      "https://sky.money/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD",
+      "https://basescan.org/token/0x5875eee11cf8398102fdad704c9e96607675467a",
+      "https://ethplorer.io/address/0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD",
+      "https://arbiscan.io/token/0xddb46999f8891663a8f2828d25298f70416d7610"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/skyecosystem"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SkyEcosystem",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/52721/thumb/sUSDS_Coin.png?1734086971",
+    "small": "https://coin-images.coingecko.com/coins/images/52721/small/sUSDS_Coin.png?1734086971",
+    "large": "https://coin-images.coingecko.com/coins/images/52721/large/sUSDS_Coin.png?1734086971"
+  },
+  "last_updated": "2025-07-11T05:01:06.660225+00:00"
+}

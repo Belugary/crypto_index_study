@@ -1,0 +1,49 @@
+{
+  "id": "aave-usdc-sonic",
+  "symbol": "asonusdc",
+  "name": "Aave USDC (Sonic)",
+  "categories": [
+    "USD Stablecoin",
+    "Aave Tokens",
+    "Sonic Ecosystem"
+  ],
+  "asset_platform_id": "sonic",
+  "platforms": {
+    "sonic": "0x578ee1ca3a8e1b54554da1bf7c583506c4cd11c6"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "aSonUSDC is the interest-bearing token users receive when they deposit USDC into the Aave protocol on Sonic. It represents the user's share in the liquidity pool and accrues interest over time. The value of aUSDC increases as borrowers pay interest, which is then distributed to lenders. This mechanism allows users to earn passive income while maintaining liquidity, as aUSDC can be redeemed for the underlying USDC at any time. For more detailed information, you can refer to the Aave documentation @ aave.com"
+  },
+  "links": {
+    "homepage": [
+      "https://aave.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://sonicscan.org/token/0x578Ee1ca3a8E1b54554Da1Bf7C583506C4CD11c6"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": null,
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55659/thumb/aSonUSDC_200x200.png?1746866473",
+    "small": "https://coin-images.coingecko.com/coins/images/55659/small/aSonUSDC_200x200.png?1746866473",
+    "large": "https://coin-images.coingecko.com/coins/images/55659/large/aSonUSDC_200x200.png?1746866473"
+  },
+  "last_updated": "2025-07-11T04:56:39.663474+00:00"
+}

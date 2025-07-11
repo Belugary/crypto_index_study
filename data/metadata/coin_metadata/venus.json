@@ -1,0 +1,81 @@
+{
+  "id": "venus",
+  "symbol": "xvs",
+  "name": "Venus",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Yield Farming",
+    "BNB Chain Ecosystem",
+    "Binance Launchpool",
+    "Lending/Borrowing Protocols",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "ZkSync Ecosystem",
+    "opBNB Ecosystem",
+    "Unichain Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63",
+    "opbnb": "0x3e2e61f1c075881f3fb8dd568043d8c221fd5c61",
+    "unichain": "0x81908bbaad3f6fc74093540ab2e9b749bb62aa0d",
+    "base": "0xebb7873213c8d1d9913d8ea39aa12d74cb107995",
+    "optimistic-ethereum": "0x4a971e87ad1f61f7f3081645f52a99277ae917cf",
+    "arbitrum-one": "0xc1eb7689147c81ac840d4ff0d298489fc7986d52",
+    "zksync": "0xd78abd81a3d57712a3af080dc4185b698fe9ac5a",
+    "ethereum": "0xd3cc9d8f3689b83c91b7b59cab4946b063eb894a"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://venus.io/"
+    ],
+    "whitepaper": "https://github.com/VenusProtocol/venus-protocol-documentation/tree/main/whitepapers",
+    "blockchain_site": [
+      "https://binplorer.com/address/0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63",
+      "https://platform.arkhamintelligence.com/explorer/token/venus",
+      "https://bscscan.com/token/0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63",
+      "https://etherscan.io/token/0xd3cc9d8f3689b83c91b7b59cab4946b063eb894a",
+      "https://ethplorer.io/address/0xd3cc9d8f3689b83c91b7b59cab4946b063eb894a",
+      "https://arbiscan.io/token/0xc1eb7689147c81ac840d4ff0d298489fc7986d52",
+      "https://opbnb.bscscan.com/token/0x3e2e61f1c075881f3fb8dd568043d8c221fd5c61",
+      "https://mainnet.opbnbscan.com/token/0x3e2e61f1c075881f3fb8dd568043d8c221fd5c61",
+      "https://explorer.zksync.io/address/0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63",
+      "https://zksync-era.l2scan.co/token/0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63"
+    ],
+    "official_forum_url": [
+      "https://community.venus.io/",
+      "https://snapshot.org/#/s:venus-xvs.eth"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/venus-protocol-912811548651708448",
+      "https://www.youtube.com/@venusprotocolofficial"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "VenusProtocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "VenusProtocol",
+    "subreddit_url": "https://www.reddit.com/r/venusprotocol",
+    "repos_url": {
+      "github": [
+        "https://github.com/VenusProtocol/Venus-Protocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/12677/thumb/XVS_Token.jpg?1727454303",
+    "small": "https://coin-images.coingecko.com/coins/images/12677/small/XVS_Token.jpg?1727454303",
+    "large": "https://coin-images.coingecko.com/coins/images/12677/large/XVS_Token.jpg?1727454303"
+  },
+  "last_updated": "2025-07-11T05:01:44.545191+00:00"
+}

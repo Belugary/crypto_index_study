@@ -1,0 +1,59 @@
+{
+  "id": "msol",
+  "symbol": "msol",
+  "name": "Marinade Staked SOL",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Solana Ecosystem",
+    "Liquid Staking Tokens",
+    "Liquid Staked SOL",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Marinade.finance is the first Liquid staking protocol built on Solana, and is supported by the Solana Foundation. The users stake their SOL tokens with Marinade-, which is using automatic staking strategies to delegate the SOL to validators, -and the user receive \"staked SOL\" tokens called mSOL that they can use in the world of DeFi or to swap any time back to original SOL tokens to unstake."
+  },
+  "links": {
+    "homepage": [
+      "https://marinade.finance/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.solana.com/address/msolzycxhdygdzu16g5qsh3i5k3z3kzk7ytfqcjm7so",
+      "https://platform.arkhamintelligence.com/explorer/token/msol",
+      "https://solscan.io/token/msolzycxhdygdzu16g5qsh3i5k3z3kzk7ytfqcjm7so"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/6EtUf4Euu6"
+    ],
+    "announcement_url": [
+      "https://medium.com/marinade-finance"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "MarinadeFinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/marinade-finance/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/17752/thumb/mSOL.png?1696517278",
+    "small": "https://coin-images.coingecko.com/coins/images/17752/small/mSOL.png?1696517278",
+    "large": "https://coin-images.coingecko.com/coins/images/17752/large/mSOL.png?1696517278"
+  },
+  "last_updated": "2025-07-11T04:59:35.625376+00:00"
+}

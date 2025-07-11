@@ -1,0 +1,56 @@
+{
+  "id": "wrapped-ether-mantle-bridge",
+  "symbol": "weth",
+  "name": "Wrapped Ether (Mantle Bridge)",
+  "categories": [
+    "Smart Contract Platform",
+    "Crypto-Backed Tokens",
+    "Wrapped-Tokens",
+    "Layer 2 (L2)",
+    "Mantle Ecosystem"
+  ],
+  "asset_platform_id": "mantle",
+  "platforms": {
+    "mantle": "0xdeaddeaddeaddeaddeaddeaddeaddeaddead1111"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.mantle.xyz/"
+    ],
+    "whitepaper": "https://docs.mantle.xyz/network/introduction/overview",
+    "blockchain_site": [
+      "https://explorer.mantle.xyz/token/0xdeaddeaddeaddeaddeaddeaddeaddeaddead1111",
+      "https://mantlescan.xyz/token/0xdeaddeaddeaddeaddeaddeaddeaddeaddead1111"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/0xMantle"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "0xMantle",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "mantlenetwork",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/mantlenetworkio"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/31013/thumb/wrapped-eth-mantle-bridge.png?1696529850",
+    "small": "https://coin-images.coingecko.com/coins/images/31013/small/wrapped-eth-mantle-bridge.png?1696529850",
+    "large": "https://coin-images.coingecko.com/coins/images/31013/large/wrapped-eth-mantle-bridge.png?1696529850"
+  },
+  "last_updated": "2025-07-11T05:01:59.391824+00:00"
+}

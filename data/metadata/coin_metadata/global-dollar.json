@@ -1,0 +1,58 @@
+{
+  "id": "global-dollar",
+  "symbol": "usdg",
+  "name": "Global Dollar",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "Solana Ecosystem",
+    "Fiat-backed Stablecoin",
+    "Ink Ecosystem"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH",
+    "ink": "0xe343167631d89b6ffc58b88d6b7fb0228795491d"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Global Dollar (USDG) is a single currency stablecoin pegged to the US dollar that is regulated under the Monetary Authority of Singapore (MAS). USDG is issued by Paxos Digital Singapore (PDS) and will always be fully redeemable from Paxos on a one- to-one basis for US dollars. \r\n\r\nUSDG combines the stability and reach of US dollars with the added security and efficiency of blockchain technology. USDG is always available and accessible, offering high transfer speeds and programmability. USDG is always available for 1:1 redemption for US dollars, 24/7.\r\n\r\nPaxos Digital Singapore Pte. Ltd. (PDS), the issuer of USDG, has secured full approval from the Monetary Authority of Singapore (MAS) as a Major Payments Institution (MPI) to offer digital payment token services. This approval aligns USDG with MAS' forthcoming stablecoin framework, positioning it at the forefront of regulatory compliance. MAS, a globally recognized prudential regulator, is known for its robust oversight of stablecoins and commitment to stringent consumer protection standards.\r\n\r\nUSDG's issuance will adhere to strict regulatory standards, including requirements for value stability, capital adequacy, redemption and par and comprehensive disclosure. Specific regulatory obligations include substantial capital reserve requirements, frequent regulatory examinations, monthly independent attestations of reserve assets, monitoring of operating procedures and annual audits of reserve assets. It also provides protection from bankruptcy by holding stablecoin reserve assets in segregated accounts held on trust by PDS for the benefit of USDG holders.  \r\n\r\nUSDG represents the pinnacle of regulated stablecoins, offering unparalleled stability, security and compliance in the rapidly evolving world of digital finance."
+  },
+  "links": {
+    "homepage": [
+      "https://globaldollar.com"
+    ],
+    "whitepaper": "https://424565.fs1.hubspotusercontent-na1.net/hubfs/424565/USDGWhitePaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xe343167631d89B6Ffc58B88d6b7fB0228795491D",
+      "https://solscan.io/token/2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH",
+      "https://explorer.inkonchain.com/token/0xe343167631d89b6ffc58b88d6b7fb0228795491d"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/globaldollar"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "global_dollar",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/paxosglobal/usdg-contract"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/51281/thumb/GDN_USDG_Token_200x200.png?1730484111",
+    "small": "https://coin-images.coingecko.com/coins/images/51281/small/GDN_USDG_Token_200x200.png?1730484111",
+    "large": "https://coin-images.coingecko.com/coins/images/51281/large/GDN_USDG_Token_200x200.png?1730484111"
+  },
+  "last_updated": "2025-07-11T04:58:34.100969+00:00"
+}

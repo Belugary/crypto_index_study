@@ -1,0 +1,66 @@
+{
+  "id": "flow",
+  "symbol": "flow",
+  "name": "Flow",
+  "categories": [
+    "Smart Contract Platform",
+    "Sports",
+    "NFT",
+    "Layer 1 (L1)",
+    "Animoca Brands Portfolio",
+    "Alleged SEC Securities",
+    "Multicoin Capital Portfolio",
+    "Proof of Stake (PoS)",
+    "Flow Ecosystem",
+    "Andreessen Horowitz (a16z) Portfolio"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Flow is a layer one blockchain designed from the ground up for consumer apps and the digital assets that power them. The network runs on a Proof of Stake consensus mechanism with a unique \"multi-role\" architecture that solves the blockchain trilemma, balancing scalability, efficiency, and cost. \r\n\r\nFlow tools include: \r\n* Cadence, a purpose-built smart contract programming language designed for consumer-grade applications \r\n* Full EVM equivalence, allowing anything from Ethereum to work on Flow \r\n* Protocol-level account abstraction and mobile support for onboarding new users \r\n* Cross-chain interoperability with the wider web3 ecosystem \r\n* Developer hub with comprehensive documentation and tools"
+  },
+  "links": {
+    "homepage": [
+      "https://flow.com",
+      "https://developers.flow.com/",
+      "https://cadence-lang.org/"
+    ],
+    "whitepaper": "https://www.flow.com/technical-paper",
+    "blockchain_site": [
+      "https://www.flowscan.io/",
+      "https://www.flowdiver.io"
+    ],
+    "official_forum_url": [
+      "https://www.flowverse.co/"
+    ],
+    "chat_url": [
+      "https://discord.gg/flow",
+      "https://www.youtube.com/@FlowBlockchain"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "flow_blockchain",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "flow_blockchain",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/onflow"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/13446/thumb/5f6294c0c7a8cda55cb1c936_Flow_Wordmark.png?1696513210",
+    "small": "https://coin-images.coingecko.com/coins/images/13446/small/5f6294c0c7a8cda55cb1c936_Flow_Wordmark.png?1696513210",
+    "large": "https://coin-images.coingecko.com/coins/images/13446/large/5f6294c0c7a8cda55cb1c936_Flow_Wordmark.png?1696513210"
+  },
+  "last_updated": "2025-07-11T04:58:27.530268+00:00"
+}

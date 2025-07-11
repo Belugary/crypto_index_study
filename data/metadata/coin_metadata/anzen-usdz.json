@@ -1,0 +1,60 @@
+{
+  "id": "anzen-usdz",
+  "symbol": "usdz",
+  "name": "Anzen USDz",
+  "categories": [
+    "Stablecoins",
+    "Ethereum Ecosystem",
+    "Base Ecosystem",
+    "Blast Ecosystem",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xa469b7ee9ee773642b3e93e842e5d9b5baa10067",
+    "blast": "0x52056ed29fe015f4ba2e3b079d10c0b87f46e8c6",
+    "base": "0x04d5ddf5f3a8939889f11e97f8c4bb48317f1938"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "USDz is an RWA-backed stablecoin. The underlying assets are a portfolio of tokenized private credit assets underwritten by finance professionals with industry experience at institutions including Blackrock, UBS, Goldman Sachs, and JP Morgan."
+  },
+  "links": {
+    "homepage": [
+      "https://anzen.finance/",
+      "https://docs.anzen.finance/"
+    ],
+    "whitepaper": "https://docs.anzen.finance/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xa469b7ee9ee773642b3e93e842e5d9b5baa10067",
+      "https://platform.arkhamintelligence.com/explorer/token/anzen-usdz",
+      "https://basescan.org/token/0x04d5ddf5f3a8939889f11e97f8c4bb48317f1938",
+      "https://ethplorer.io/address/0xa469b7ee9ee773642b3e93e842e5d9b5baa10067",
+      "https://blastscan.io/token/0x52056ed29fe015f4ba2e3b079d10c0b87f46e8c6",
+      "https://blastplorer.info/address/0x52056ed29fe015f4ba2e3b079d10c0b87f46e8c6",
+      "https://blastexplorer.io/token/0x52056ed29fe015f4ba2e3b079d10c0b87f46e8c6"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/38039/thumb/usdz-image-200x200.png?1716334412",
+    "small": "https://coin-images.coingecko.com/coins/images/38039/small/usdz-image-200x200.png?1716334412",
+    "large": "https://coin-images.coingecko.com/coins/images/38039/large/usdz-image-200x200.png?1716334412"
+  },
+  "last_updated": "2025-07-11T04:56:52.745652+00:00"
+}

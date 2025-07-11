@@ -1,0 +1,68 @@
+{
+  "id": "thorchain",
+  "symbol": "rune",
+  "name": "THORChain",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Infrastructure",
+    "Smart Contract Platform",
+    "Exchange-based Tokens",
+    "Decentralized Finance (DeFi)",
+    "Bridge Governance Tokens",
+    "Multicoin Capital Portfolio",
+    "Proof of Stake (PoS)",
+    "Delphi Ventures Portfolio"
+  ],
+  "asset_platform_id": "thorchain",
+  "platforms": {
+    "thorchain": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "CH",
+  "description": {
+    "en": "THORChain is building a chain-agnostic bridging protocol that will allow trustless and secure value-transfer connections with most other chains (such as Bitcoin, Ethereum, Monero and all of Binance Chain). Users will be able to instantly swap any asset at fair market prices and deep liquidity. Token holders will be able to stake any asset and earn on liquidity fees. Projects will be able to access manipulation resistant price feeds and accept payments in any currencies, no matter the type or liquidity."
+  },
+  "links": {
+    "homepage": [
+      "https://thorchain.org/",
+      "https://thorchain.com/"
+    ],
+    "whitepaper": "https://github.com/thorchain/Resources/blob/master/Whitepapers/",
+    "blockchain_site": [
+      "https://runescan.io/",
+      "https://thorchain.net/",
+      "https://explorer.energi.network/token/0x7f3c85ab5d87f8eb8f19b545ac09a7fdd49e2b6c",
+      "https://gnosis.dex.guru/token/0x4c68041898bfefbfcc4253fbe8ed30830e6eb767"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/thorchaincommunity",
+      "https://medium.com/@thorchain"
+    ],
+    "announcement_url": [
+      "https://medium.com/thorchain"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "thorchain",
+    "facebook_username": "thorchain.org",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "thorchain_org",
+    "subreddit_url": "https://www.reddit.com/r/thorchain",
+    "repos_url": {
+      "github": [
+        "https://github.com/thorchain/Resources",
+        "https://github.com/thorchain/instaswap-sdk",
+        "https://github.com/thorchain/THORChain"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/6595/thumb/Rune200x200.png?1696506946",
+    "small": "https://coin-images.coingecko.com/coins/images/6595/small/Rune200x200.png?1696506946",
+    "large": "https://coin-images.coingecko.com/coins/images/6595/large/Rune200x200.png?1696506946"
+  },
+  "last_updated": "2025-07-11T05:01:21.074044+00:00"
+}

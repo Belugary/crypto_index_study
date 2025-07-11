@@ -1,0 +1,66 @@
+{
+  "id": "immutable-x",
+  "symbol": "imx",
+  "name": "Immutable",
+  "categories": [
+    "Smart Contract Platform",
+    "Gaming (GameFi)",
+    "NFT",
+    "Play To Earn",
+    "Ethereum Ecosystem",
+    "Layer 2 (L2)",
+    "Zero Knowledge (ZK)",
+    "Animoca Brands Portfolio",
+    "Immutable zkEVM Ecosystem",
+    "Coinbase Ventures Portfolio",
+    "Rollup",
+    "Gaming Blockchains",
+    "GMCI 30 Index",
+    "GMCI Index",
+    "Gaming Marketplace",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xf57e7e7c23978c3caec3c3548e3d615c346e79ff"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "IMX is the native token for the Immutable X network, the first zk-rollup for NFT on Ethereum."
+  },
+  "links": {
+    "homepage": [
+      "https://imx.community/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xf57e7e7c23978c3caec3c3548e3d615c346e79ff",
+      "https://platform.arkhamintelligence.com/explorer/token/immutable-x",
+      "https://ethplorer.io/address/0xf57e7e7c23978c3caec3c3548e3d615c346e79ff"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/channels/765480457256042496/765871633990287390"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Immutable",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "immutablex",
+    "subreddit_url": "https://www.reddit.com/r/ImmutableX/",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/17233/thumb/immutableX-symbol-BLK-RGB.png?1696516787",
+    "small": "https://coin-images.coingecko.com/coins/images/17233/small/immutableX-symbol-BLK-RGB.png?1696516787",
+    "large": "https://coin-images.coingecko.com/coins/images/17233/large/immutableX-symbol-BLK-RGB.png?1696516787"
+  },
+  "last_updated": "2025-07-11T04:58:48.416667+00:00"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "tradable-na-rent-financing-platform-sstn",
+  "symbol": "pc0000031",
+  "name": "Tradable NA Rent Financing Platform SSTN",
+  "categories": [
+    "ZkSync Ecosystem",
+    "Real World Assets (RWA)",
+    "Tradable Ecosystem"
+  ],
+  "asset_platform_id": "zksync",
+  "platforms": {
+    "zksync": "0xac4de1e9a9e83524f24af77972dd39d588de8164"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "This project, facilitated by Tradable.xyz on ZKsync Era, tokenizes the North America Rent Financing Platform Senior Secured Term Notes issued by Victory Park Capital Advisors. This initiative focuses on a flexible rent financing platform with significant equity raised, forming part of Tradable’s $1.7 billion in tokenized private credit assets. It provides institutional-grade private credit exposure with targeted yields of 8-15.5%. Tradable integrates traditional and decentralized finance, employing smart contracts for AML/KYC compliance to ensure regulatory standards. The platform enhances liquidity and investor access to the $1.4 trillion RWA private credit market, streamlining asset management and due diligence via a user-friendly interface. By leveraging ZKsync’s scalable and secure infrastructure, the project connects existing financial systems to blockchain, enabling broader participation in high-quality rent financing credit investments."
+  },
+  "links": {
+    "homepage": [
+      "https://www.tradable.xyz/",
+      "https://app.tradable.xyz/investor/deals/861cce9e-08ae-45a0-aca8-9fa229a0189d"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://era.zksync.network/token/0xac4de1e9a9e83524f24af77972dd39d588de8164",
+      "https://explorer.zksync.io/address/0xac4de1e9a9e83524f24af77972dd39d588de8164"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "tradable_xyz",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/66150/thumb/tradable.jpg?1748488921",
+    "small": "https://coin-images.coingecko.com/coins/images/66150/small/tradable.jpg?1748488921",
+    "large": "https://coin-images.coingecko.com/coins/images/66150/large/tradable.jpg?1748488921"
+  },
+  "last_updated": "2025-07-11T05:01:23.498718+00:00"
+}

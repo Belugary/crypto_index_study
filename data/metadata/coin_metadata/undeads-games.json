@@ -1,0 +1,53 @@
+{
+  "id": "undeads-games",
+  "symbol": "uds",
+  "name": "Undeads Games",
+  "categories": [
+    "Gaming (GameFi)",
+    "NFT",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x712bd4beb54c6b958267d9db0259abdbb0bff606"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Open-world survival MMORPG for Web3 space. Bringing feature-rich & exciting gameplay from traditional gaming to Web3 space."
+  },
+  "links": {
+    "homepage": [
+      "https://undeads.com/"
+    ],
+    "whitepaper": "https://undeads.gitbook.io/undeads.com/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x712bd4beb54c6b958267d9db0259abdbb0bff606",
+      "https://platform.arkhamintelligence.com/explorer/token/undeads-games",
+      "https://ethplorer.io/address/0x712bd4beb54c6b958267d9db0259abdbb0bff606"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.youtube.com/@undeads?sub_confirmation=1"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "undeadscom",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "undeadscom",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/36308/thumb/01_avatar.jpg?1711090303",
+    "small": "https://coin-images.coingecko.com/coins/images/36308/small/01_avatar.jpg?1711090303",
+    "large": "https://coin-images.coingecko.com/coins/images/36308/large/01_avatar.jpg?1711090303"
+  },
+  "last_updated": "2025-07-11T05:01:29.261593+00:00"
+}

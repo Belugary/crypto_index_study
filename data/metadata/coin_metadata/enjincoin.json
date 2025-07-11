@@ -1,0 +1,68 @@
+{
+  "id": "enjincoin",
+  "symbol": "enj",
+  "name": "Enjin Coin",
+  "categories": [
+    "Entertainment",
+    "Smart Contract Platform",
+    "Gaming (GameFi)",
+    "NFT",
+    "Metaverse",
+    "Layer 1 (L1)",
+    "Harmony Ecosystem",
+    "Ethereum Ecosystem",
+    "Gaming Blockchains",
+    "Energi Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c",
+    "harmony-shard-0": "0xadbd41bfb4389de499535c14a8a3a12fead8f66a",
+    "energi": "0x204a90b57d15417864080df1cd6e907831c206a6"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2017-10-02",
+  "country_origin": "",
+  "description": {
+    "en": "Enjin\r\nEnjin is a leading blockchain ecosystem dedicated to revolutionizing the gaming industry by integrating blockchain technology into games, applications, and businesses.\r\nFounded in 2009 by Maxim Blagov and Witek Radomski, Enjin began as a community gaming platform of 20 million gamers. Pivoting to blockchain in 2017 and kickstarting the NFT movement, Enjin pioneered the advanced ERC-1155 token standard on Ethereum. Building upon this foundation, Enjin launched the Enjin Platform, the world's first NFT integration platform, allowing developers to seamlessly incorporate blockchain assets into their applications in less than 24 hours.\r\nEnjin has since evolved into a comprehensive suite of blockchain products, with the Enjin Blockchain platform now powering billions of digital assets.\r\nThe Enjin Ecosystem\r\nEnjin is a feature-rich ecosystem that covers a wide range of blockchain software products. Enjin’s tools enable developers, businesses, and individuals to create, manage, trade, distribute, and integrate NFTs with ease. Enjin's technology is used to power digital assets by millions of users world-wide.\r\nEnjin Blockchain: A Substrate-based Proof-of-Stake (PoS) blockchain custom-built for Non-Fungible-Tokens (NFTs) and other digital assets. Optimized for gaming, it offers high transaction throughput, low fees, and eco-friendly transactions.\r\nEnjin Wallet: A secure, multi-functional mobile wallet supporting various cryptocurrencies and NFTs, enabling users to manage their digital assets with ease.\r\nNFT.io Marketplace: An intuitive platform for creating, trading, and distributing NFTs, fully integrated with the Enjin Blockchain to provide a seamless user experience.\r\nEnjin Platform API and SDKs: Developer toolkit that facilitate the integration of blockchain assets into games and applications, supporting multiple programming languages and platforms.\r\nEnjin Beam: A QR code-based distribution system that allows for the effortless dissemination of NFTs, enhancing user engagement and marketing strategies.\r\nEnjin Coin (ENJ)\r\nAt the core of the Enjin ecosystem is Enjin Coin (ENJ), the native governance and utility token of Enjin Blockchain. ENJ underpins all transactions, asset creation, and economic activity within the ecosystem, playing a crucial role in securing the network and empowering users to create and trade digital assets with real-world value. Key functions:\r\nGovernance & Staking: ENJ holders can stake Enjin Coin (ENJ) to participate in network governance, securing the blockchain while earning rewards for their contributions. This decentralized model ensures a fair and community-driven ecosystem.\r\nTransaction Fees: ENJ is used to pay for all transactions on Enjin Blockchain, ensuring a seamless and unified economic model.\r\nSecurity & Network Validation: ENJ is used in the nominated proof-of-stake (NPoS) consensus mechanism to secure Enjin Blockchain and allows participants to nominate reliable nodes.\r\nNFT Minting & Creation: ENJ is used to mint NFTs and other digital assets, enabling the creation of unique, blockchain-powered items for games, applications, and virtual economies. These NFTs are verifiable, tradeable, and interoperable, allowing seamless integration across multiple platforms.\r\nENJ-Backed NFTs: Enjin Coin (ENJ) can be used to back NFTs, giving them a provable, on-chain reserve value. When an NFT is created using the Enjin ecosystem, developers can choose to embed ENJ within the asset, ensuring it always holds a base level of value. Holders of these NFTs have the option to melt (destroy) them at any time to recover the underlying ENJ, providing liquidity and tangible worth to digital collectibles, game items, and virtual goods.\r\nStrategic Partnerships and Adoption\r\nEnjin has established meaningful partnerships with leading industry players such as Microsoft, Square Enix, Samsung, and Entropia Universe, in addition to collaborating with over 150 game and app developers. These collaborations span a wide range of genres, including rewards programs, open-world fantasy RPGs, trading card games, augmented reality apps, and Minecraft servers.\r\nRecent Developments\r\nIn September 2023, Enjin Blockchain was launched, marking a significant milestone in the ecosystem’s mission to decentralize digital asset ownership. This launch included a \"triple migration\" of tokens and NFTs across Ethereum, Polkadot, and the new Enjin Blockchain, streamlining operations and enhancing the ecosystem's efficiency.\r\nAs of May 31, 2024, 95% of Enjin Coin's total supply has been unlocked, reflecting the ecosystem's maturity and widespread adoption.\r\nVision for the Future\r\nEnjin is committed to making blockchain-powered gaming accessible to everyone. By providing user-friendly tools and services, Enjin empowers developers to create immersive, player-driven economies where digital assets hold real-world value. With a focus on innovation and collaboration, Enjin aims to bring NFTs and blockchain technology to a global audience, transforming the digital landscape.\r\nFor more information, visit the official Enjin website: https://enjin.io/\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://enjin.io/"
+    ],
+    "whitepaper": "https://enjin.io/whitepaper",
+    "blockchain_site": [
+      "https://enjin.subscan.io",
+      "https://platform.arkhamintelligence.com/explorer/token/enjincoin",
+      "https://matrix.subscan.io",
+      "https://explorer.energi.network/token/0x204a90b57d15417864080df1cd6e907831c206a6",
+      "https://etherscan.io/token/0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c",
+      "https://ethplorer.io/address/0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c",
+      "https://explorer.harmony.one/token/0xadbd41bfb4389de499535c14a8a3a12fead8f66a"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/qVA6uDr2f8"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "enjin",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "enjin",
+    "subreddit_url": "https://www.reddit.com/r/EnjinCoin",
+    "repos_url": {
+      "github": [
+        "https://github.com/enjin/erc-1155"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/1102/thumb/Symbol_Only_-_Purple.png?1709725966",
+    "small": "https://coin-images.coingecko.com/coins/images/1102/small/Symbol_Only_-_Purple.png?1709725966",
+    "large": "https://coin-images.coingecko.com/coins/images/1102/large/Symbol_Only_-_Purple.png?1709725966"
+  },
+  "last_updated": "2025-07-11T04:58:13.325356+00:00"
+}

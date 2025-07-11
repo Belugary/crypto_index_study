@@ -1,0 +1,50 @@
+{
+  "id": "infrared-bera",
+  "symbol": "ibera",
+  "name": "Infrared Bera",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Liquid Staking Tokens",
+    "Berachain Ecosystem",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "berachain",
+  "platforms": {
+    "berachain": "0x9b6761bf2397bb5a6624a856cc84a3a14dcd3fe5"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://infrared.finance/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://berascan.com/token/0x9b6761bf2397Bb5a6624a856cC84A3A14Dcd3fe5"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "infraredfinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54671/thumb/ibera.jpg?1740966414",
+    "small": "https://coin-images.coingecko.com/coins/images/54671/small/ibera.jpg?1740966414",
+    "large": "https://coin-images.coingecko.com/coins/images/54671/large/ibera.jpg?1740966414"
+  },
+  "last_updated": "2025-07-11T04:58:50.775887+00:00"
+}

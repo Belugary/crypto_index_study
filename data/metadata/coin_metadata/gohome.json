@@ -1,0 +1,48 @@
+{
+  "id": "gohome",
+  "symbol": "gohome",
+  "name": "GOHOME",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "2Wu1g2ft7qZHfTpfzP3wLdfPeV1is4EwQ3CXBfRYAciD"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "$GOHOME is a meme-inspired cryptocurrency that emerged from a humorous incident involving the White House website in January 2025. On January 22, 2025, the White House removed its Spanish-language page, replacing it with a \"go home\" button beneath a 404 error message, which was later updated to \"go to home page.\" This event sparked the creation of the $GOHOME meme, symbolizing a lighthearted take on personal boundaries and societal norms.\r\n$GOHOME is a community-driven token built on the Solana blockchain, known for its fast transaction speeds and low fees. The project aims to foster a fun, inclusive space where individuals can unite around a common symbol without financial expectations or political agendas. It emphasizes the importance of personal and societal boundaries, celebrating freedom of expression through humor.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://gohometoken.com/"
+    ],
+    "whitepaper": "https://gohometoken.notion.site/GOHOME-WHITE-PAPER-18e67f91d57b80199a8bdcdd8c1f9490",
+    "blockchain_site": [
+      "https://solscan.io/token/2Wu1g2ft7qZHfTpfzP3wLdfPeV1is4EwQ3CXBfRYAciD"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "GoHome_Token",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "GoHomeTokenGroup",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54909/thumb/20250314_132950.png?1742455637",
+    "small": "https://coin-images.coingecko.com/coins/images/54909/small/20250314_132950.png?1742455637",
+    "large": "https://coin-images.coingecko.com/coins/images/54909/large/20250314_132950.png?1742455637"
+  },
+  "last_updated": "2025-07-11T04:58:37.058283+00:00"
+}

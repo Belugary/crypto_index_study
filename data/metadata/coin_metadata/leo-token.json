@@ -1,0 +1,57 @@
+{
+  "id": "leo-token",
+  "symbol": "leo",
+  "name": "LEO Token",
+  "categories": [
+    "Exchange-based Tokens",
+    "Centralized Exchange (CEX) Token",
+    "Ethereum Ecosystem",
+    "Sora Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x2af5d2ad76741191d15dfe7bf6ac92d4bd912ca3",
+    "sora": "0x009e199267a6a2c8ae075bb8d4c40ee8d05c1b769085ee59ce98e50c2b2d8756"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2019-05-20",
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.bitfinex.com/"
+    ],
+    "whitepaper": "https://www.bitfinex.com/wp-2019-05.pdf",
+    "blockchain_site": [
+      "https://eosflare.io/account/bitfinexleo1",
+      "https://platform.arkhamintelligence.com/explorer/token/leo-token",
+      "https://etherscan.io/token/0x2af5d2ad76741191d15dfe7bf6ac92d4bd912ca3",
+      "https://ethplorer.io/address/0x2af5d2ad76741191d15dfe7bf6ac92d4bd912ca3",
+      "https://blockchair.com/ethereum/erc-20/token/0x2af5d2ad76741191d15dfe7bf6ac92d4bd912ca3"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.facebook.com/bitfinex1"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "bitfinex",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "bitfinex",
+    "subreddit_url": "https://www.reddit.com/r/bitfinex/",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/8418/thumb/leo-token.png?1696508607",
+    "small": "https://coin-images.coingecko.com/coins/images/8418/small/leo-token.png?1696508607",
+    "large": "https://coin-images.coingecko.com/coins/images/8418/large/leo-token.png?1696508607"
+  },
+  "last_updated": "2025-07-11T04:59:12.059743+00:00"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "based-brett",
+  "symbol": "brett",
+  "name": "Brett",
+  "categories": [
+    "Meme",
+    "Base Ecosystem",
+    "Frog-Themed",
+    "Base Meme",
+    "The Boy’s Club"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0x532f27101965dd16442e59d40670faf5ebb142e4"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "BRETT the dancer, gamer, and cultural icon of BASE chain (some like to call me the PEPE of BASE)."
+  },
+  "links": {
+    "homepage": [
+      "https://www.basedbrett.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://basescan.org/token/0x532f27101965dd16442e59d40670faf5ebb142e4",
+      "https://platform.arkhamintelligence.com/explorer/token/based-brett"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "BasedBrett",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "basedbrett",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/35529/thumb/1000050750.png?1709031995",
+    "small": "https://coin-images.coingecko.com/coins/images/35529/small/1000050750.png?1709031995",
+    "large": "https://coin-images.coingecko.com/coins/images/35529/large/1000050750.png?1709031995"
+  },
+  "last_updated": "2025-07-11T04:57:07.761744+00:00"
+}

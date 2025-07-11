@@ -1,0 +1,63 @@
+{
+  "id": "pepe",
+  "symbol": "pepe",
+  "name": "Pepe",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Meme",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Frog-Themed",
+    "GMCI Meme Index",
+    "GMCI Index",
+    "The Boy’s Club",
+    "4chan-Themed"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x6982508145454ce325ddbe47a25d4ec3d2311933",
+    "arbitrum-one": "0x25d887ce7a35172c62febfd67a1856f20faebb00",
+    "binance-smart-chain": "0x25d887ce7a35172c62febfd67a1856f20faebb00"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What is the project about?\r\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \r\n\r\nWhat makes your project unique?\r\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxes, liquidity locked forever, and contract immutable, Pepe is for the people, forever. Pepe is about culture, rallying together a community to have fun and enjoy memes, fueled purely by memetic power. \r\n\r\nHistory of your project.\r\nPepe was stealth launched on Friday, April 14th, 2023. \r\n\r\nWhat’s next for your project?\r\nPepe will focus on developing a tight-knit community around the token and building resources to enrich the communities knowledge and success in crypto through a token gated group, newsletter, and more tools. \r\n\r\nWhat can your token be used for?\r\nPepe can be used to speculate on the power of memes, and does not pretend to be anything more. \r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.pepe.vip/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x6982508145454ce325ddbe47a25d4ec3d2311933",
+      "https://platform.arkhamintelligence.com/explorer/token/pepe",
+      "https://ethplorer.io/address/0x6982508145454ce325ddbe47a25d4ec3d2311933",
+      "https://bscscan.com/token/0x25d887ce7a35172c62febfd67a1856f20faebb00",
+      "https://arbiscan.io/token/0x25d887ce7a35172c62febfd67a1856f20faebb00",
+      "https://ethereum.dex.guru/token/0x6982508145454ce325ddbe47a25d4ec3d2311933",
+      "https://binplorer.com/address/0x25d887ce7a35172c62febfd67a1856f20faebb00"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "pepecoineth",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/29850/thumb/pepe-token.jpeg?1696528776",
+    "small": "https://coin-images.coingecko.com/coins/images/29850/small/pepe-token.jpeg?1696528776",
+    "large": "https://coin-images.coingecko.com/coins/images/29850/large/pepe-token.jpeg?1696528776"
+  },
+  "last_updated": "2025-07-11T05:00:05.907019+00:00"
+}

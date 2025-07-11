@@ -1,0 +1,51 @@
+{
+  "id": "steakhouse-usdc-morpho-vault",
+  "symbol": "steakusdc",
+  "name": "Steakhouse USDC Morpho Vault",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Ethereum Ecosystem",
+    "Morpho Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xbeef01735c132ada46aa9aa4c54623caa92a64cb"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The Steakhouse USDC vault aims to optimize yields by lending USDC against blue chip crypto and real world asset (RWA) collateral markets, depending on market conditions. We call this the \"dual engine.\" \r\nMorpho Vaults are curated lending vaults that can allocate deposits to any number of Morpho Markets. Each vault is customizable and has a different risk profile. Curators are independent, third-party risk experts who use their expertise to offer various Morpho Vaults."
+  },
+  "links": {
+    "homepage": [
+      "https://www.steakhouse.financial/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xBEEF01735c132Ada46AA9aA4c54623cAA92A64CB",
+      "https://platform.arkhamintelligence.com/explorer/token/steakhouse-usdc-morpho-vault",
+      "https://ethplorer.io/address/0xBEEF01735c132Ada46AA9aA4c54623cAA92A64CB"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SteakhouseFi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/51473/thumb/steakUSDC.png?1731396462",
+    "small": "https://coin-images.coingecko.com/coins/images/51473/small/steakUSDC.png?1731396462",
+    "large": "https://coin-images.coingecko.com/coins/images/51473/large/steakUSDC.png?1731396462"
+  },
+  "last_updated": "2025-07-11T05:00:56.416002+00:00"
+}

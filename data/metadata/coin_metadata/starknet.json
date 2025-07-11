@@ -1,0 +1,77 @@
+{
+  "id": "starknet",
+  "symbol": "strk",
+  "name": "Starknet",
+  "categories": [
+    "Infrastructure",
+    "Smart Contract Platform",
+    "Ethereum Ecosystem",
+    "Layer 2 (L2)",
+    "Zero Knowledge (ZK)",
+    "Starknet Ecosystem",
+    "Paradigm Portfolio",
+    "Coinbase Ventures Portfolio",
+    "Rollup",
+    "Multicoin Capital Portfolio",
+    "Alameda Research Portfolio",
+    "Pantera Capital Portfolio",
+    "GMCI Layer 2 Index",
+    "Consensys Portfolio",
+    "Sequoia Capital Portfolio",
+    "GMCI Index",
+    "Polychain Capital Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xca14007eff0db1f8135f4c25b34de49ab0d42766",
+    "starknet": "0x4718f5a0fc34cc1af16a1cdee98ffb20c31f5cd61d6ab07201858f4287c938d"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "StarkNet is a permissionless decentralized Layer 2 (L2) validity rollup, built to allow Ethereum to scale via cryptographic protocols called STARKs, without compromising Ethereum’s core principles of decentralization, transparency, inclusivity and security. The StarkNet Token is needed to operate the ecosystem, maintain and secure it, decide on its values and strategic goals, and direct its evolution. This token will be required for (i) governance, (ii) payment of transaction fees on StarkNet, and (iii) participation in StarkNet’s consensus mechanism."
+  },
+  "links": {
+    "homepage": [
+      "https://starknet.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://starkscan.co/",
+      "https://platform.arkhamintelligence.com/explorer/token/starknet",
+      "https://voyager.online/",
+      "https://etherscan.io/token/0xca14007eff0db1f8135f4c25b34de49ab0d42766",
+      "https://ethplorer.io/address/0xca14007eff0db1f8135f4c25b34de49ab0d42766",
+      "https://starkscan.co/token/0x04718f5a0fc34cc1af16a1cdee98ffb20c31f5cd61d6ab07201858f4287c938d",
+      "https://voyager.online/token/0x04718f5a0fc34cc1af16a1cdee98ffb20c31f5cd61d6ab07201858f4287c938d",
+      "https://starkscan.co/token/0x4718f5a0fc34cc1af16a1cdee98ffb20c31f5cd61d6ab07201858f4287c938d",
+      "https://voyager.online/token/0x4718f5a0fc34cc1af16a1cdee98ffb20c31f5cd61d6ab07201858f4287c938d"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "http://starknet.io/discord",
+      "https://starkware.medium.com/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Starknet",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/starkware-libs/starknet-specs"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/26433/thumb/starknet.png?1696525507",
+    "small": "https://coin-images.coingecko.com/coins/images/26433/small/starknet.png?1696525507",
+    "large": "https://coin-images.coingecko.com/coins/images/26433/large/starknet.png?1696525507"
+  },
+  "last_updated": "2025-07-11T05:00:54.122869+00:00"
+}

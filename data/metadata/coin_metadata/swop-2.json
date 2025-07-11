@@ -1,0 +1,56 @@
+{
+  "id": "swop-2",
+  "symbol": "swop",
+  "name": "Swop",
+  "categories": [
+    "SocialFi",
+    "Solana Ecosystem",
+    "Decentralized Identifier (DID)",
+    "Payment Solutions"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "GAehkgN1ZDNvavX81FmzCcwRnzekKMkSyUNq8WkMsjX1"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "The $SWOP token is the native utility and incentive layer of the Swop ecosystem.\r\n\r\nIt powers and rewards the protocol through:\r\n\r\n-Staking for Discoverability: Stake $SWOP to boost visibility of posts, products, or profiles\r\n\r\n-Fee Discounts: Reduced fees on mints, redemptions, and swaps\r\n\r\n-Access Control: Gate premium templates, analytics, or advanced SmartSite tools\r\n\r\n-Governance (future): Vote on protocol upgrades, partner templates, and funding rounds\r\n\r\n$SWOP aligns creators, users, and developers through shared ownership of the interaction layer itself.\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://swopme.co",
+      "https://support.swop.id"
+    ],
+    "whitepaper": "https://swopple.gitbook.io/swop",
+    "blockchain_site": [
+      "https://solscan.io/token/GAehkgN1ZDNvavX81FmzCcwRnzekKMkSyUNq8WkMsjX1"
+    ],
+    "official_forum_url": [
+      "https://instagram.com/swop.labs",
+      "https://Support.swop.id"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "swoplabs",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/Travisswop"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/66773/thumb/Group_1000007182_copy.png?1750487480",
+    "small": "https://coin-images.coingecko.com/coins/images/66773/small/Group_1000007182_copy.png?1750487480",
+    "large": "https://coin-images.coingecko.com/coins/images/66773/large/Group_1000007182_copy.png?1750487480"
+  },
+  "last_updated": "2025-07-11T05:01:11.191975+00:00"
+}

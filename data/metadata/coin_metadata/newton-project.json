@@ -1,0 +1,56 @@
+{
+  "id": "newton-project",
+  "symbol": "ab",
+  "name": "AB",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x95034f653d5d161890836ad2b6b8cc49d14e029a"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2018-12-18",
+  "country_origin": "SG",
+  "description": {
+    "en": "AB (prev. Newton) is an advanced blockchain ecosystem evolving from the Newton Project, designed for decentralization, interoperability, and real-world asset (RWA) integration. It features a high-performance mainnet, industry-specific sidechains, and cross-chain compatibility with Ethereum, Solana, and other networks."
+  },
+  "links": {
+    "homepage": [
+      "https://ab.org/"
+    ],
+    "whitepaper": "https://ab.org/files/AB%20Litepaper.pdf",
+    "blockchain_site": [
+      "https://explorer.newtonproject.org/",
+      "https://bscscan.com/token/0x95034f653d5d161890836ad2b6b8cc49d14e029a",
+      "https://binplorer.com/address/0x95034f653d5d161890836ad2b6b8cc49d14e029a"
+    ],
+    "official_forum_url": [
+      "https://t.me/AB202528",
+      "https://explorer.ab.org/"
+    ],
+    "chat_url": [
+      "https://newtonproject.slack.com/",
+      "https://medium.com/@AB.org"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ABDAO_Global",
+    "facebook_username": "newtonproject",
+    "bitcointalk_thread_identifier": 5048173,
+    "telegram_channel_identifier": "Newtonproject",
+    "subreddit_url": "https://www.reddit.com/r/Newton_project/",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/4376/thumb/400%E6%96%B9.png?1740377493",
+    "small": "https://coin-images.coingecko.com/coins/images/4376/small/400%E6%96%B9.png?1740377493",
+    "large": "https://coin-images.coingecko.com/coins/images/4376/large/400%E6%96%B9.png?1740377493"
+  },
+  "last_updated": "2025-07-11T04:59:40.497511+00:00"
+}

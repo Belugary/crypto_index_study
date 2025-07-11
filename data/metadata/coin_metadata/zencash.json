@@ -1,0 +1,68 @@
+{
+  "id": "zencash",
+  "symbol": "zen",
+  "name": "Horizen",
+  "categories": [
+    "Smart Contract Platform",
+    "Masternodes",
+    "Zero Knowledge (ZK)",
+    "Proof of Work (PoW)",
+    "Made in USA"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 2,
+  "hashing_algorithm": "Equihash",
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "ZEN is the governance and utility token for Horizen, a zero-knowledge-enabled network of blockchains powered by the largest node infrastructure in the industry. Blockchain interoperability is enabled by the Zendoo protocol, which uses SNARK-verification and allows for complete flexibility in sidechain type, consensus, and speed. Cryptographic verification of networked chains offers massive scale, and the network currently supports up to 10,000 sidechains with a throughput limit of 10,000,000 TPS.\r\n\r\nZendoo makes Horizen a permissionless network of blockchains. Developers can deploy their blockchains within the ecosystem using a variety of SDKs. In 2023, the ecosystem team launched Horizen EON, a public proof-of-stake sidechain and an EVM-compatible smart contracting platform that allows developers to efficiently build and deploy dapps on the Horizen ecosystem, while benefiting from the Ethereum ecosystem. Since going live with Horizen EON, DeFi projects including SpookySwap, Ascent Exchange, and Yuzu have successfully integrated into the Horizen ecosystem. Get started on Horizen EON today!\r\n\r\nHorizen's native cryptocurrency, ZEN, is a mineable PoW coin currently trading on major exchanges, including Coinbase, Bittrex, and Binance. ZEN can be staked to participate in Horizen's nearly 50,000 full node network.\r\n\r\nWhile ZEN was previously a privacy token, following ZenIP 42204 in June of 2023, the network removed its existing privacy features in favor of moving towards a vision of adaptability and responsible, scalable growth."
+  },
+  "links": {
+    "homepage": [
+      "https://www.horizen.io",
+      "https://eon.horizen.io"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.horizen.io",
+      "https://eon-explorer.horizenlabs.io",
+      "https://explorer.energi.network/token/0xe2b7ed0b29c445f701b5954d71463beb8a77c085"
+    ],
+    "official_forum_url": [
+      "https://www.horizen.io/community",
+      "https://academy.horizen.global/",
+      "https://heap.horizen.global/"
+    ],
+    "chat_url": [
+      "https://www.facebook.com/horizenglobal/"
+    ],
+    "announcement_url": [
+      "https://hde.horizen.global/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "horizenglobal",
+    "facebook_username": "zencash",
+    "bitcointalk_thread_identifier": 2047435,
+    "telegram_channel_identifier": "horizencommunity",
+    "subreddit_url": "https://www.reddit.com/r/Horizen",
+    "repos_url": {
+      "github": [
+        "https://github.com/HorizenOfficial",
+        "https://github.com/HorizenOfficial/ginger-lib",
+        "https://github.com/HorizenOfficial/HorizenAcademy",
+        "https://github.com/HorizenOfficial/Sidechains-SDK",
+        "https://github.com/HorizenOfficial/zen"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/691/thumb/Horizen2.0-logo_icon-on-yellow_%281%29.png?1751696763",
+    "small": "https://coin-images.coingecko.com/coins/images/691/small/Horizen2.0-logo_icon-on-yellow_%281%29.png?1751696763",
+    "large": "https://coin-images.coingecko.com/coins/images/691/large/Horizen2.0-logo_icon-on-yellow_%281%29.png?1751696763"
+  },
+  "last_updated": "2025-07-11T05:02:07.307981+00:00"
+}

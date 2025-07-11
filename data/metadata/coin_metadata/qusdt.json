@@ -1,0 +1,48 @@
+{
+  "id": "qusdt",
+  "symbol": "qusdt",
+  "name": "QL1 Bridged USDT (QL1)",
+  "categories": [
+    "Bridged USDT",
+    "QL1 Ecosystem",
+    "Bridged-Tokens",
+    "Bridged Stablecoin"
+  ],
+  "asset_platform_id": "ql1",
+  "platforms": {
+    "ql1": "0xc276b91c0e8d10260af7b67009d2683bb7776308"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://scan.qom.one/token/0xC276b91c0e8D10260af7b67009d2683bB7776308"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/52913/thumb/usdt.jpg?1734677175",
+    "small": "https://coin-images.coingecko.com/coins/images/52913/small/usdt.jpg?1734677175",
+    "large": "https://coin-images.coingecko.com/coins/images/52913/large/usdt.jpg?1734677175"
+  },
+  "last_updated": "2025-07-11T05:00:20.140132+00:00"
+}

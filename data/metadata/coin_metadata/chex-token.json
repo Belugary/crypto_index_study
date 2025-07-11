@@ -1,0 +1,72 @@
+{
+  "id": "chex-token",
+  "symbol": "chex",
+  "name": "Chintai",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "Solana Ecosystem",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "Base Ecosystem",
+    "RWA Protocol"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x9ce84f6a69986a83d92c324df10bc8e64771030f",
+    "base": "0xc43f3ae305a92043bd9b62ebd2fe14f7547ee485",
+    "binance-smart-chain": "0x9ce84f6a69986a83d92c324df10bc8e64771030f",
+    "solana": "6dKCoWjpj5MFU5gWDEFdpUUeBasBLK3wLEwhUzQPAa1e"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "KY",
+  "description": {
+    "en": "Chintai: The Licensed Tokenization Platform for Financial Institutions\r\nChintai is a fully licensed and regulated tokenization platform tailored specifically for financial institutions. Harnessing the power of the $CHEX token, Chintai provides an end-to-end, compliant white-label solution for seamlessly tokenizing a diverse range of real-world assets (RWAs) on its custom-built, permissioned Layer 1 blockchain. The $CHEX Token: The Backbone of Chintai's Ecosystem\r\n$CHEX is the native utility token of the Chintai network, driving liquidity incentives and resource management. Fully distributed and inherently deflationary, $CHEX features flywheel tokenomics, becoming increasingly scarce as the demand for Chintai's platform grows. The key attributes here are: fully distributed, flywheel tokenomics, scarcity & real utility. The token is multi-chain, available on Ethereum, Solana, EOS, Binance Smart Chain, and, of course, the Chintai Network."
+  },
+  "links": {
+    "homepage": [
+      "https://chintai.io/",
+      "https://chintainexus.com/"
+    ],
+    "whitepaper": "https://chintai.io/group/chexroadmap.pdf",
+    "blockchain_site": [
+      "https://bloks.io/tokens/chex-eos-chexchexchex",
+      "https://platform.arkhamintelligence.com/explorer/token/chex-token",
+      "https://bscscan.com/token/0x9ce84f6a69986a83d92c324df10bc8e64771030f",
+      "https://etherscan.io/token/0x9ce84f6a69986a83d92c324df10bc8e64771030f",
+      "https://ethplorer.io/address/0x9ce84f6a69986a83d92c324df10bc8e64771030f",
+      "https://binplorer.com/address/0x9ce84f6a69986a83d92c324df10bc8e64771030f",
+      "https://solscan.io/token/6dkcowjpj5mfu5gwdefdpuuebasblk3wlewhuzqpaa1e",
+      "https://basescan.org/token/0xc43f3ae305a92043bd9b62ebd2fe14f7547ee485"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.linkedin.com/company/chintai-eos/",
+      "https://www.youtube.com/@chintainetwork"
+    ],
+    "announcement_url": [
+      "https://medium.com/@ChintaiEOS"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "ChintaiNexus",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "chex_token",
+    "subreddit_url": "https://www.reddit.com/r/chintai/",
+    "repos_url": {
+      "github": [
+        "https://github.com/chintai-platform/chexchexchex"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/10349/thumb/logo-white-bg-dark.png?1733475849",
+    "small": "https://coin-images.coingecko.com/coins/images/10349/small/logo-white-bg-dark.png?1733475849",
+    "large": "https://coin-images.coingecko.com/coins/images/10349/large/logo-white-bg-dark.png?1733475849"
+  },
+  "last_updated": "2025-07-11T04:57:41.117572+00:00"
+}

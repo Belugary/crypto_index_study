@@ -1,0 +1,102 @@
+{
+  "id": "solv-btc",
+  "symbol": "solvbtc",
+  "name": "Solv Protocol BTC",
+  "categories": [
+    "Crypto-Backed Tokens",
+    "BNB Chain Ecosystem",
+    "Solana Ecosystem",
+    "Avalanche Ecosystem",
+    "Polygon Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "ZkSync Ecosystem",
+    "Mantle Ecosystem",
+    "Base Ecosystem",
+    "Berachain Ecosystem",
+    "Merlin Chain Ecosystem",
+    "Mode Ecosystem",
+    "Rootstock Ecosystem",
+    "Sonic Ecosystem",
+    "Sei Network Ecosystem",
+    "Ink Ecosystem",
+    "Soneium Ecosystem",
+    "HyperEVM Ecosystem",
+    "Corn Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x7a56e1c57c7475ccf742a1832b028f0456652f97",
+    "rootstock": "0x541fd749419ca806a8bc7da8ac23d346f2df8b77",
+    "solana": "SoLvHDFVstC74Jr9eNLTDoG4goSUsn1RENmjNtFKZvW",
+    "taiko": "0x541fd749419ca806a8bc7da8ac23d346f2df8b77",
+    "mode": "0x541fd749419ca806a8bc7da8ac23d346f2df8b77",
+    "sonic": "0x541fd749419ca806a8bc7da8ac23d346f2df8b77",
+    "soneium": "0x541fd749419ca806a8bc7da8ac23d346f2df8b77",
+    "berachain": "0x541fd749419ca806a8bc7da8ac23d346f2df8b77",
+    "sei-v2": "0x541fd749419ca806a8bc7da8ac23d346f2df8b77",
+    "corn": "0x541fd749419ca806a8bc7da8ac23d346f2df8b77",
+    "ink": "0xae4efbc7736f963982aacb17efa37fcbab924cb3",
+    "polygon-pos": "0xae4efbc7736f963982aacb17efa37fcbab924cb3",
+    "zksync": "0x74ed17608cc2b5f30a59d6af07c9ad1b1ab3a5b1",
+    "arbitrum-one": "0x3647c54c4c2c65bc7a2d63c0da2809b399dbbdc0",
+    "merlin-chain": "0x41d9036454be47d3745a823c4aacd0e29cfb0f71",
+    "hyperevm": "0xae4efbc7736f963982aacb17efa37fcbab924cb3",
+    "base": "0x3b86ad95859b6ab773f55f8d94b4b9d443ee931f",
+    "mantle": "0xa68d25fc2af7278db4bcdcaabce31814252642a9",
+    "bob-network": "0x541fd749419ca806a8bc7da8ac23d346f2df8b77",
+    "binance-smart-chain": "0x4aae823a6a0b376de6a78e74ecc5b079d38cbcf7",
+    "avalanche": "0xbc78d84ba0c46dfe32cf2895a19939c86b81a777"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "SolvBTC addresses the significant gap in the Bitcoin ecosystem by providing a native yield solution. It fosters an inclusive and efficient BTCFi ecosystem, offering Bitcoin holders unprecedented opportunities for growth and participation."
+  },
+  "links": {
+    "homepage": [
+      "https://app.solv.finance/solvbtc"
+    ],
+    "whitepaper": "https://docs.solv.finance/solv-documentation",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x7a56e1c57c7475ccf742a1832b028f0456652f97",
+      "https://platform.arkhamintelligence.com/explorer/token/solv-btc",
+      "https://ethplorer.io/address/0x7a56e1c57c7475ccf742a1832b028f0456652f97",
+      "https://bscscan.com/token/0x4aae823a6a0b376de6a78e74ecc5b079d38cbcf7",
+      "https://binplorer.com/address/0x4aae823a6a0b376de6a78e74ecc5b079d38cbcf7",
+      "https://arbiscan.io/token/0x41d9036454be47d3745a823c4aacd0e29cfb0f71",
+      "https://arbiscan.io/token/0x3647c54c4c2c65bc7a2d63c0da2809b399dbbdc0",
+      "https://explorer.zklink.io/address/0xbeaf16cfd8efe0fc97c2a07e349b9411f5dc272c",
+      "https://explorer.mantle.xyz/token/0xa68d25fc2af7278db4bcdcaabce31814252642a9",
+      "https://mantlescan.xyz/token/0xa68d25fc2af7278db4bcdcaabce31814252642a9"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/74689652/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/UF26MVSgbZ",
+      "https://solvprotocol.medium.com/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SolvProtocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "SolvProtocol",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/solv-finance"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/36800/thumb/solvBTC.png?1719810684",
+    "small": "https://coin-images.coingecko.com/coins/images/36800/small/solvBTC.png?1719810684",
+    "large": "https://coin-images.coingecko.com/coins/images/36800/large/solvBTC.png?1719810684"
+  },
+  "last_updated": "2025-07-11T05:00:45.972155+00:00"
+}

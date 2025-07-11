@@ -1,0 +1,89 @@
+{
+  "id": "axelar",
+  "symbol": "axl",
+  "name": "Axelar",
+  "categories": [
+    "Infrastructure",
+    "BNB Chain Ecosystem",
+    "Avalanche Ecosystem",
+    "Polygon Ecosystem",
+    "Fantom Ecosystem",
+    "Arbitrum Ecosystem",
+    "Moonbeam Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Interoperability",
+    "Bridge Governance Tokens",
+    "Base Ecosystem",
+    "Osmosis Ecosystem",
+    "Cross-chain Communication",
+    "Secret Ecosystem",
+    "Galaxy Digital Portfolio",
+    "Polychain Capital Portfolio",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x467719ad09025fcc6cf6f8311755809d45a5e5f3",
+    "arbitrum-one": "0x23ee2343b892b1bb63503a4fabc840e0e2c6810f",
+    "optimistic-ethereum": "0x23ee2343b892b1bb63503a4fabc840e0e2c6810f",
+    "base": "0x23ee2343b892b1bb63503a4fabc840e0e2c6810f",
+    "secret": "secret1vcau4rkn7mvfwl8hf0dqa9p0jr59983e3qqe3z",
+    "moonbeam": "0x467719ad09025fcc6cf6f8311755809d45a5e5f3",
+    "osmosis": "ibc/903A61A498756EA560B85A85132D3AEE21B5DEDD41213725D22ABF276EA6945E",
+    "binance-smart-chain": "0x8b1f4432f943c465a973fedc6d7aa50fc96f1f65",
+    "fantom": "0x8b1f4432f943c465a973fedc6d7aa50fc96f1f65",
+    "avalanche": "0x44c784266cf024a60e8acf2427b9857ace194c5d",
+    "polygon-pos": "0x6e4e624106cb12e168e6533f8ec7c82263358940"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Axelar delivers secure interchain communication. That means dApp users can interact with any asset, any application, on any chain, with one click. You can think of it as Stripe for Web3. Developers interact with a simple API atop a permissionless network that routes messages and ensures network security via proof-of-stake consensus.\r\n\r\nAxelar is a blockchain that connects blockchains. To do this securely, Axelar network uses proof-of-stake consensus. Network validators produce new blocks, participate in multiparty signing and vote on external chain states. Tokenholders stake the AXL token, delegating tokens to a validator’s staking pool and receiving rewards, minus the validator’s commission.\r\n\r\nThe AXL token is used for governance and to pay network transaction fees to validators and tokenholders. However, users of the Axelar network do not need to hold the token. Conversions into AXL tokens and destination-chain tokens are handled on the back end, so that users need only pay gas once, in the source-chain token.\r\n\r\nAxelar network rewards are “inflationary” — they increase the total supply of AXL — but there is potential for supply to become deflationary based on the transaction fee mechanic described above. "
+  },
+  "links": {
+    "homepage": [
+      "https://axelar.network/",
+      "https://satellite.money/",
+      "https://github.com/axelarnetwork/audits"
+    ],
+    "whitepaper": "https://axelar.network/axelar_whitepaper.pdf",
+    "blockchain_site": [
+      "https://axelarscan.io/",
+      "https://platform.arkhamintelligence.com/explorer/token/axelar",
+      "https://ethplorer.io/address/0x467719ad09025fcc6cf6f8311755809d45a5e5f3",
+      "https://bscscan.com/token/0x8b1f4432f943c465a973fedc6d7aa50fc96f1f65",
+      "https://snowtrace.io/token/0x44c784266cf024a60e8acf2427b9857ace194c5d",
+      "https://avascan.info/blockchain/c/address/0x44c784266cf024a60e8acf2427b9857ace194c5d/token",
+      "https://polygonscan.com/token/0x6e4e624106cb12e168e6533f8ec7c82263358940",
+      "https://ftmscan.com/token/0x8b1f4432f943c465a973fedc6d7aa50fc96f1f65",
+      "https://etherscan.io/token/0x467719ad09025fcc6cf6f8311755809d45a5e5f3",
+      "https://arbiscan.io/token/0x23ee2343b892b1bb63503a4fabc840e0e2c6810f"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/aRZ3Ra6f7D"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "axelarnetwork",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "axelarcommunity",
+    "subreddit_url": "https://www.reddit.com/r/axelar/",
+    "repos_url": {
+      "github": [
+        "https://github.com/axelarnetwork"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/27277/thumb/V-65_xQ1_400x400.jpeg?1696526329",
+    "small": "https://coin-images.coingecko.com/coins/images/27277/small/V-65_xQ1_400x400.jpeg?1696526329",
+    "large": "https://coin-images.coingecko.com/coins/images/27277/large/V-65_xQ1_400x400.jpeg?1696526329"
+  },
+  "last_updated": "2025-07-11T04:57:02.536155+00:00"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "kamino",
+  "symbol": "kmno",
+  "name": "Kamino",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Lending/Borrowing Protocols",
+    "Solana Ecosystem",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "KMNo3nJsBXfcpJTVhZcXLW7RmTwTt4GVFE7suUBo9sS"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Kamino Finance was originally created to offer users the easiest possible way of providing liquidity and earning yield on-chain.\r\n\r\nThe protocol's one-click, auto-compounding concentrated liquidity strategies quickly became the most popular LP products on Solana, and laid the foundation for what Kamino is now.\r\n\r\nToday, Kamino is a first-of-its-kind DeFi protocol that unifies Lending, Liquidity, and Leverage into a single, secure DeFi product suite."
+  },
+  "links": {
+    "homepage": [
+      "https://app.kamino.finance/"
+    ],
+    "whitepaper": "https://docs.kamino.finance/",
+    "blockchain_site": [
+      "https://solscan.io/token/KMNo3nJsBXfcpJTVhZcXLW7RmTwTt4GVFE7suUBo9sS",
+      "https://platform.arkhamintelligence.com/explorer/token/kamino"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "KaminoFinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "+z4XqPSCki-hhMDc0",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/35801/thumb/tP0Lcgwp_400x400.jpg?1709824189",
+    "small": "https://coin-images.coingecko.com/coins/images/35801/small/tP0Lcgwp_400x400.jpg?1709824189",
+    "large": "https://coin-images.coingecko.com/coins/images/35801/large/tP0Lcgwp_400x400.jpg?1709824189"
+  },
+  "last_updated": "2025-07-11T04:59:01.103513+00:00"
+}

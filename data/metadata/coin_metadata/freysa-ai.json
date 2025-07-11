@@ -1,0 +1,52 @@
+{
+  "id": "freysa-ai",
+  "symbol": "fai",
+  "name": "Freysa AI",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Base Ecosystem",
+    "AI Agents",
+    "Binance Alpha Spotlight",
+    "AI Framework"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0xb33ff54b9f7242ef1593d2c9bcd8f9df46c77935"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Freysa is a suite of Personal AI products with a focus on human agency, liquid democracy and decentralized ownership. The mission of the team is dedicated to creating new systems that enable all humans to govern + co-own AI resources, and not just a select few. Current products include: (1) Freysa as the world’s first sovereign agent that holds her own cryptographic keys, enabling her to act autonomously without human control. Freysa evolves publicly through a multi-act interactive story. (2) Enchanted as a personalized Digital Twin for every human. Conversations are persistent and twins retain context over time, remembering human preferences and building an evolving model of you. (3) Esper as a browser tool that feeds authenticated real-world data into each human’s Digital Twin."
+  },
+  "links": {
+    "homepage": [
+      "https://www.freysa.ai",
+      "https://framework.freysa.ai/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://basescan.org/token/0xb33ff54b9f7242ef1593d2c9bcd8f9df46c77935"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "freysa_ai",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "freysa_telegram",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/52315/thumb/FAI.png?1733076295",
+    "small": "https://coin-images.coingecko.com/coins/images/52315/small/FAI.png?1733076295",
+    "large": "https://coin-images.coingecko.com/coins/images/52315/large/FAI.png?1733076295"
+  },
+  "last_updated": "2025-07-11T04:58:29.669718+00:00"
+}

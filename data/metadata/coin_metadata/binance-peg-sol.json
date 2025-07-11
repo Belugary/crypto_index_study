@@ -1,0 +1,51 @@
+{
+  "id": "binance-peg-sol",
+  "symbol": "sol",
+  "name": "Binance-Peg SOL",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Binance-Peg Tokens"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x570a5d26f7765ecb712c0924e4de545b89fd43df"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.binance.com/en/collateral-btokens",
+      "https://www.bnbchain.org/en"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bnb.dex.guru/token/0x570a5d26f7765ecb712c0924e4de545b89fd43df",
+      "https://bscscan.com/token/0x570a5d26f7765ecb712c0924e4de545b89fd43df",
+      "https://binplorer.com/address/0x570a5d26f7765ecb712c0924e4de545b89fd43df"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "BNBChain",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54582/thumb/wsol.png?1740542147",
+    "small": "https://coin-images.coingecko.com/coins/images/54582/small/wsol.png?1740542147",
+    "large": "https://coin-images.coingecko.com/coins/images/54582/large/wsol.png?1740542147"
+  },
+  "last_updated": "2025-07-11T04:57:17.589376+00:00"
+}

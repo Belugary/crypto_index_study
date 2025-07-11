@@ -1,0 +1,54 @@
+{
+  "id": "binance-bridged-usdt-bnb-smart-chain",
+  "symbol": "bsc-usd",
+  "name": "Binance Bridged USDT (BNB Smart Chain)",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "BNB Chain Ecosystem",
+    "Bridged USDT",
+    "Bridged-Tokens",
+    "Bridged Stablecoin"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x55d398326f99059ff775485246999027b3197955"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://bscscan.com/token/0x55d398326f99059ff775485246999027b3197955"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x55d398326f99059ff775485246999027b3197955",
+      "https://platform.arkhamintelligence.com/explorer/token/binance-bridged-usdt-bnb-smart-chain",
+      "https://binplorer.com/address/0x55d398326f99059ff775485246999027b3197955"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/35021/thumb/USDT.png?1707233575",
+    "small": "https://coin-images.coingecko.com/coins/images/35021/small/USDT.png?1707233575",
+    "large": "https://coin-images.coingecko.com/coins/images/35021/large/USDT.png?1707233575"
+  },
+  "last_updated": "2025-07-11T04:57:15.340336+00:00"
+}

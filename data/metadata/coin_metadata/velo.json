@@ -1,0 +1,63 @@
+{
+  "id": "velo",
+  "symbol": "velo",
+  "name": "Velo",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "Real World Assets (RWA)",
+    "DWF Labs Portfolio",
+    "Stellar Ecosystem",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "stellar",
+  "platforms": {
+    "stellar": "GDM4RQUQQUVSKQA7S6EM7XBZP3FCGH4Q7CL6TABQ7B2BEJ5ERARM2M5M",
+    "binance-smart-chain": "0xf486ad071f3bee968384d2e39e2d8af0fcf6fd46"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "VG",
+  "description": {
+    "en": "Velo Labs is building a unique federated credit exchange network. This network is powered by the Velo Protocol, which is a blockchain financial protocol enabling digital credit issuance and borderless asset transfers for businesses using a smart contract system. The project's core mission is to enable partners to safely and securely transfer value between each other in a timely and transparent way. To do this, the Velo Protocol enables its partners to issue digital credits via a smart contract layer, using the Stellar Consensus Protocol to process and settle transactions. Within its ecosystem, the Velo Protocol enables multiple business use cases that are all based on its core function: issuing collateral-backed digital credits, which correspond to any fiat currency that can be used for frictionless value transfer."
+  },
+  "links": {
+    "homepage": [
+      "https://velo.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://stellar.expert/explorer/public/asset/velo-gdm4rquqquvskqa7s6em7xbzp3fcgh4q7cl6tabq7b2bej5erarm2m5m-1",
+      "https://platform.arkhamintelligence.com/explorer/token/velo",
+      "https://bscscan.com/token/0xf486ad071f3bee968384d2e39e2d8af0fcf6fd46",
+      "https://binplorer.com/address/0xf486ad071f3bee968384d2e39e2d8af0fcf6fd46"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.linkedin.com/company/velolabs/",
+      "https://open.kakao.com/o/gjWs24nc"
+    ],
+    "announcement_url": [
+      "https://medium.com/@VeloProtocol"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "veloprotocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "veloprotocol",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/velo-protocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/12538/thumb/Logo_200x_200.png?1696512350",
+    "small": "https://coin-images.coingecko.com/coins/images/12538/small/Logo_200x_200.png?1696512350",
+    "large": "https://coin-images.coingecko.com/coins/images/12538/large/Logo_200x_200.png?1696512350"
+  },
+  "last_updated": "2025-07-11T05:01:42.793423+00:00"
+}

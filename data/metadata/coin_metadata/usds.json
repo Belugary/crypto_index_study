@@ -1,0 +1,60 @@
+{
+  "id": "usds",
+  "symbol": "usds",
+  "name": "USDS",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "Solana Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xdc035d45d973e3ec169d2276ddab16f1e407384f",
+    "arbitrum-one": "0x6491c05a82219b8d1479057361ff1654749b876b",
+    "base": "0x820c137fa70c8691f0e44dc420a5e53c168921dc",
+    "solana": "USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://sky.money/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xdc035d45d973e3ec169d2276ddab16f1e407384f",
+      "https://platform.arkhamintelligence.com/explorer/token/usds",
+      "https://ethplorer.io/address/0xdc035d45d973e3ec169d2276ddab16f1e407384f",
+      "https://solscan.io/token/USDSwr9ApdHk5bvJKMjzff41FfuX8bSxdKcR81vTwcA",
+      "https://basescan.org/token/0x820c137fa70c8691f0e44dc420a5e53c168921dc",
+      "https://arbiscan.io/token/0x6491c05a82219b8d1479057361ff1654749b876b"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SkyEcosystem",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39926/thumb/usds.webp?1726666683",
+    "small": "https://coin-images.coingecko.com/coins/images/39926/small/usds.webp?1726666683",
+    "large": "https://coin-images.coingecko.com/coins/images/39926/large/usds.webp?1726666683"
+  },
+  "last_updated": "2025-07-11T05:01:36.032168+00:00"
+}

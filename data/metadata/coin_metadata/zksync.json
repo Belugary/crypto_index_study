@@ -1,0 +1,62 @@
+{
+  "id": "zksync",
+  "symbol": "zk",
+  "name": "ZKsync",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 2 (L2)",
+    "Zero Knowledge (ZK)",
+    "ZkSync Ecosystem",
+    "Consensys Portfolio",
+    "Blockchain Capital Portfolio",
+    "OKX Ventures Portfolio"
+  ],
+  "asset_platform_id": "zksync",
+  "platforms": {
+    "zksync": "0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://zksync.io/"
+    ],
+    "whitepaper": "https://docs.zksync.io/",
+    "blockchain_site": [
+      "https://zksync.io/explore#explorers",
+      "https://era.zksync.network/token/0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e",
+      "https://explorer.zksync.io/address/0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e",
+      "https://zksync-era.l2scan.co/token/0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e"
+    ],
+    "official_forum_url": [
+      "https://zksync.mirror.xyz/",
+      "https://join.zksync.dev/"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "zksync",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/matter-labs/zksync-era",
+        "https://github.com/matter-labs/zksync-web-era-docs"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/38043/thumb/ZKTokenBlack.png?1718614502",
+    "small": "https://coin-images.coingecko.com/coins/images/38043/small/ZKTokenBlack.png?1718614502",
+    "large": "https://coin-images.coingecko.com/coins/images/38043/large/ZKTokenBlack.png?1718614502"
+  },
+  "last_updated": "2025-07-11T05:02:10.386460+00:00"
+}

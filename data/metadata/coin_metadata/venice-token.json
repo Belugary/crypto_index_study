@@ -1,0 +1,58 @@
+{
+  "id": "venice-token",
+  "symbol": "vvv",
+  "name": "Venice Token",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Base Ecosystem",
+    "AI Agents",
+    "AI Applications",
+    "Made in USA"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Venice boasts an innovative approach to generative AI with its unique privacy architecture, access to competitive features including multiple leading open-source LLM models such as DeepSeek R1, PDFs analysis, and image and code generation. An unrestricted AI Characters feature is available with its Pro version, Venice Pro. \r\n\r\nVVV is designed to minimize friction and reduce costs for AI agents and developers to access private, reliable, on-demand and perpetual AI inference via Venice.ai's API."
+  },
+  "links": {
+    "homepage": [
+      "https://venice.ai/home"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://basescan.org/token/0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/venice-ai/",
+      "https://www.instagram.com/tryvenice.ai/",
+      "https://warpcast.com/venice-ai"
+    ],
+    "chat_url": [
+      "https://discord.gg/BgmZpK2Tt9",
+      "https://www.youtube.com/@askvenice"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "AskVenice",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54023/thumb/VVV_Token_Transparent.png?1741856877",
+    "small": "https://coin-images.coingecko.com/coins/images/54023/small/VVV_Token_Transparent.png?1741856877",
+    "large": "https://coin-images.coingecko.com/coins/images/54023/large/VVV_Token_Transparent.png?1741856877"
+  },
+  "last_updated": "2025-07-11T05:01:43.349636+00:00"
+}

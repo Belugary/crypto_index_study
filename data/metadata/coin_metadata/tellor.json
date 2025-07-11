@@ -1,0 +1,82 @@
+{
+  "id": "tellor",
+  "symbol": "trb",
+  "name": "Tellor Tributes",
+  "categories": [
+    "Business Services",
+    "Decentralized Finance (DeFi)",
+    "Oracle",
+    "Polygon Ecosystem",
+    "Gnosis Chain Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Manta Network Ecosystem",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Lisk Ecosystem",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0",
+    "manta-pacific": "0x8d7090ddda057f48fdbbb2abcea22d1113ab566a",
+    "optimistic-ethereum": "0xaf8ca653fa2772d58f4368b0a71980e9e3ceb888",
+    "xdai": "0xaad66432d27737ecf6ed183160adc5ef36ab99f2",
+    "arbitrum-one": "0xd58d345fd9c82262e087d2d0607624b410d88242",
+    "lisk": "0x665060707c3ea3c31b3eabad7f409072446e1d50",
+    "polygon-pos": "0xe3322702bedaaed36cddab233360b939775ae5f1"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Smart contracts on Ethereum are fully self contained and any information or access to off-chain data is restricted.  Tellor solves this problem by creating a system where parties can request the value of an off-chain data point (e.g. ETH/USD) and miners compete to add this value to an on-chain data bank, accessible by all Ethereum smart contracts.  Inputs to a data series are secured by a network of staked miners. The main Tellor smart contract creates a time series of each requested data series and aims to become the standard source of high value data for decentralized applications. This oracle, “Tellor”,  utilizes similar incentive mechanisms to other cryptocurrency systems through the issuance of Tellor’s token, Tributes, that are used to request a particular data series from miners.  "
+  },
+  "links": {
+    "homepage": [
+      "http://www.tellor.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0",
+      "https://platform.arkhamintelligence.com/explorer/token/tellor",
+      "https://ethplorer.io/address/0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0",
+      "https://arbiscan.io/token/0xd58d345fd9c82262e087d2d0607624b410d88242",
+      "https://optimistic.etherscan.io/token/0xaf8ca653fa2772d58f4368b0a71980e9e3ceb888",
+      "https://polygonscan.com/token/0xe3322702bedaaed36cddab233360b939775ae5f1",
+      "https://gnosisscan.io/address/0xaad66432d27737ecf6ed183160adc5ef36ab99f2",
+      "https://filfox.info/en/address/0x045ce60839d108b43df9e703d4b25402a6a28a0d",
+      "https://pacific-explorer.manta.network/address/0x8d7090ddda057f48fdbbb2abcea22d1113ab566a",
+      "https://gnosisscan.io/token/0xaad66432d27737ecf6ed183160adc5ef36ab99f2"
+    ],
+    "official_forum_url": [
+      "https://www.youtube.com/@Tellor"
+    ],
+    "chat_url": [
+      "https://discord.gg/n7drGjh"
+    ],
+    "announcement_url": [
+      "https://medium.com/tellor"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "WeAreTellor",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/tellor-io",
+        "https://github.com/tellor-io/TellorCore"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/9644/thumb/TRB-New_Logo.png?1737722143",
+    "small": "https://coin-images.coingecko.com/coins/images/9644/small/TRB-New_Logo.png?1737722143",
+    "large": "https://coin-images.coingecko.com/coins/images/9644/large/TRB-New_Logo.png?1737722143"
+  },
+  "last_updated": "2025-07-11T05:01:14.748471+00:00"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "morpho",
+  "symbol": "morpho",
+  "name": "Morpho",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Lending/Borrowing Protocols",
+    "Ethereum Ecosystem",
+    "Base Ecosystem",
+    "Coinbase Ventures Portfolio",
+    "Pantera Capital Portfolio",
+    "Morpho Ecosystem",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x58d97b57bb95320f9a05dc918aef65434969c2b2",
+    "base": "0xbaa5cc21fd487b8fcc2f632f3f4e8d37262a0842"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Morpho is an open, efficient, and resilient platform that allows anyone to earn yield and borrow assets.\r\nLenders can earn on Morpho using Morpho Vaults, noncustodial simple to use lending vaults that optimize yields for depositors. Borrowers can borrow any assets directly from Morpho Markets.\r\n\r\nAt the same time, developers or businesses can create markets, curate vaults, and build a range of applications on its flexible, permissionless infrastructure.\r\n\r\nMorpho is really trustless, with immutable contracts, and governance minimized operations allowed by its simplicity.\r\nMorpho is efficient, it provides higher collateralization factors with its isolated lending markets, Improved interest rates and low gas consumption.\r\nMorpho is flexible with its permissionless market creation, permissionless risk management and has been designed to be developer-friendly.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://morpho.org/",
+      "https://app.morpho.org"
+    ],
+    "whitepaper": "https://github.com/morpho-org/morpho-blue/blob/main/morpho-blue-whitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x58D97B57BB95320F9a05dC918Aef65434969c2B2",
+      "https://platform.arkhamintelligence.com/explorer/token/morpho",
+      "https://basescan.org/token/0xbaa5cc21fd487b8fcc2f632f3f4e8d37262a0842",
+      "https://ethplorer.io/address/0x58D97B57BB95320F9a05dC918Aef65434969c2B2"
+    ],
+    "official_forum_url": [
+      "https://blog.morpho.org/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/BWXbJMHMdz/",
+      "https://medium.com/morpho-labs",
+      "https://www.youtube.com/@Morpho-Labs"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "MorphoLabs",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/morpho-org"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/29837/thumb/Morpho-token-icon.png?1726771230",
+    "small": "https://coin-images.coingecko.com/coins/images/29837/small/Morpho-token-icon.png?1726771230",
+    "large": "https://coin-images.coingecko.com/coins/images/29837/large/Morpho-token-icon.png?1726771230"
+  },
+  "last_updated": "2025-07-11T04:59:34.415033+00:00"
+}

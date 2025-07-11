@@ -1,0 +1,64 @@
+{
+  "id": "monero",
+  "symbol": "xmr",
+  "name": "Monero",
+  "categories": [
+    "Smart Contract Platform",
+    "Privacy",
+    "Layer 1 (L1)",
+    "Proof of Work (PoW)",
+    "Galaxy Digital Portfolio"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 2,
+  "hashing_algorithm": "RandomX",
+  "genesis_date": "2014-04-18",
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://getmonero.org"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://monero.com/explorer",
+      "http://moneroblocks.info",
+      "http://monerovision.com/",
+      "https://blockchair.com/monero",
+      "https://xmr.tokenview.io/",
+      "https://kryfi.com/explorer/monero",
+      "https://explorer.energi.network/token/0xb69708ffd2699fedd7e62a4e26055a117e7369f0",
+      "https://xmrchain.net/"
+    ],
+    "official_forum_url": [
+      "https://forum.monero.space/"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "monero",
+    "facebook_username": "monerocurrency",
+    "bitcointalk_thread_identifier": 583449,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/monero",
+    "repos_url": {
+      "github": [
+        "https://github.com/monero-project/monero",
+        "https://github.com/monero-project/monero-gui",
+        "https://github.com/monero-project/kastelo"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/69/thumb/monero_logo.png?1696501460",
+    "small": "https://coin-images.coingecko.com/coins/images/69/small/monero_logo.png?1696501460",
+    "large": "https://coin-images.coingecko.com/coins/images/69/large/monero_logo.png?1696501460"
+  },
+  "last_updated": "2025-07-11T04:59:31.117519+00:00"
+}

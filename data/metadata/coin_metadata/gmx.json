@@ -1,0 +1,62 @@
+{
+  "id": "gmx",
+  "symbol": "gmx",
+  "name": "GMX",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Derivatives",
+    "Perpetuals",
+    "Avalanche Ecosystem",
+    "Arbitrum Ecosystem"
+  ],
+  "asset_platform_id": "arbitrum-one",
+  "platforms": {
+    "arbitrum-one": "0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a",
+    "avalanche": "0x62edc0692bd897d2295872a9ffcac5425011c661"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "GMX is a leading permissionless onchain exchange, enabling you to trade 70+ assets with up to 100x leverage from your self-custody wallet. The DEX is live on Arbitrum, Avalanche, and Solana, and in the process of enabling multichain access from all popular EVM blockchains. Trading on GMX is facilitated by isolated GM pools and capital-efficient GLV vaults, enabling anyone to provide liquidity and earn fees. "
+  },
+  "links": {
+    "homepage": [
+      "https://gmx.io/"
+    ],
+    "whitepaper": "https://docs.gmx.io/",
+    "blockchain_site": [
+      "https://arbiscan.io/token/0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a",
+      "https://platform.arkhamintelligence.com/explorer/token/gmx",
+      "https://snowtrace.io/token/0x62edc0692bd897d2295872a9ffcac5425011c661",
+      "https://avascan.info/blockchain/c/address/0x62edc0692bd897d2295872a9ffcac5425011c661/token",
+      "https://arbitrum.dex.guru/token/0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a"
+    ],
+    "official_forum_url": [
+      "https://gmxio.substack.com/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/H5PeQru3Aa"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "GMX_IO",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "GMX_IO",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/xvi10/gambit-contracts"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/18323/thumb/arbit.png?1696517814",
+    "small": "https://coin-images.coingecko.com/coins/images/18323/small/arbit.png?1696517814",
+    "large": "https://coin-images.coingecko.com/coins/images/18323/large/arbit.png?1696517814"
+  },
+  "last_updated": "2025-07-11T04:58:35.314286+00:00"
+}

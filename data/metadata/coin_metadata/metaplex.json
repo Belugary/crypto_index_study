@@ -1,0 +1,67 @@
+{
+  "id": "metaplex",
+  "symbol": "mplx",
+  "name": "Metaplex",
+  "categories": [
+    "Gaming (GameFi)",
+    "NFT",
+    "BNB Chain Ecosystem",
+    "Solana Ecosystem",
+    "Launchpad",
+    "Animoca Brands Portfolio",
+    "FTX Holdings",
+    "Multicoin Capital Portfolio",
+    "Alameda Research Portfolio",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "METAewgxyPbgwsseH8T16a39CQ5VyVxZi9zXiDPY18m",
+    "binance-smart-chain": "0x75a5863a19af60ec0098d62ed8c34cc594fb470f"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Metaplex (MPLX) powers one of the largest blockchain developer ecosystems in the world by providing the onchain infrastructure used to create nearly every token and NFT on Solana and the Solana Virtual Machine (SVM). Used by leading launchpads, marketplaces, games, wallets, and other apps, Metaplex has generated over $36mm in revenue through the creation of over 900 million assets and over $10 billion in transaction value."
+  },
+  "links": {
+    "homepage": [
+      "https://www.metaplex.com/",
+      "https://www.metaplex.com/blog"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/METAewgxyPbgwsseH8T16a39CQ5VyVxZi9zXiDPY18m",
+      "https://platform.arkhamintelligence.com/explorer/token/metaplex",
+      "https://bscscan.com/token/0x75a5863a19af60ec0098d62ed8c34cc594fb470f",
+      "https://binplorer.com/address/0x75a5863a19af60ec0098d62ed8c34cc594fb470f"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/metaplex/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/metaplex"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "metaplex",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/metaplex-foundation/metaplex"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/27344/thumb/mplx.png?1696526391",
+    "small": "https://coin-images.coingecko.com/coins/images/27344/small/mplx.png?1696526391",
+    "large": "https://coin-images.coingecko.com/coins/images/27344/large/mplx.png?1696526391"
+  },
+  "last_updated": "2025-07-11T04:59:27.414449+00:00"
+}

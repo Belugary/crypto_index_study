@@ -1,0 +1,64 @@
+{
+  "id": "cgeth-hashkey-cloud",
+  "symbol": "cgeth.hashkey",
+  "name": "cgETH Hashkey Cloud",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Arbitrum Ecosystem",
+    "Liquid Staking Tokens",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Base Ecosystem"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0xf587b7116879a529353cc71ee959cd69fd5cae48",
+    "ethereum": "0xc60a9145d9e9f1152218e7da6df634b7a74ae444",
+    "optimistic-ethereum": "0x0ce45dd53affbb011884ef1866e0738f58ab7969",
+    "arbitrum-one": "0x0ce45dd53affbb011884ef1866e0738f58ab7969"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Cygnus is the first modular real yield layer. As the end game of real yield, it combines non-EVM systems such as TON with EVM ecosystem. Its yield-bearing Liquidity Validation System provide services for any system that requires its own distributed validation semantics for verification. Users can participate in ecological liquidity security protection while automatically enjoying staking yield, LVS fees and other systems' incentives."
+  },
+  "links": {
+    "homepage": [
+      "https://www.cygnus.finance/",
+      "https://app.cygnus.finance/"
+    ],
+    "whitepaper": "https://wiki.cygnus.finance/whitepaper",
+    "blockchain_site": [
+      "https://basescan.org/token/0xf587B7116879a529353Cc71eE959cD69FD5CAE48",
+      "https://arbiscan.io/token/0x0Ce45dd53affbb011884EF1866E0738f58AB7969",
+      "https://optimistic.etherscan.io/token/0x0Ce45dd53affbb011884EF1866E0738f58AB7969",
+      "https://etherscan.io/token/0xc60a9145D9e9f1152218e7da6df634b7a74aE444",
+      "https://ethplorer.io/address/0xc60a9145D9e9f1152218e7da6df634b7a74aE444"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://medium.com/@CygnusFinance"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "CygnusFi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "CygnusFinanceOfficial",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/arks-labs"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54162/thumb/Cgeth_Hashkey.png?1738482570",
+    "small": "https://coin-images.coingecko.com/coins/images/54162/small/Cgeth_Hashkey.png?1738482570",
+    "large": "https://coin-images.coingecko.com/coins/images/54162/large/Cgeth_Hashkey.png?1738482570"
+  },
+  "last_updated": "2025-07-11T04:57:38.174947+00:00"
+}

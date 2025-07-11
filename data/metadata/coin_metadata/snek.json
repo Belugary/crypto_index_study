@@ -1,0 +1,54 @@
+{
+  "id": "snek",
+  "symbol": "snek",
+  "name": "Snek",
+  "categories": [
+    "Meme",
+    "Cardano Ecosystem"
+  ],
+  "asset_platform_id": "cardano",
+  "platforms": {
+    "cardano": "279c909f348e533da5808898f87f9a14bb2c3dfbbacccd631d927a3f"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Snek is a cultural movement and leading currency for meme creators worldwide."
+  },
+  "links": {
+    "homepage": [
+      "https://www.snek.com/",
+      "https://t.co/z6YAqQXofk"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://cardanoscan.io/tokenpolicy/279c909f348e533da5808898f87f9a14bb2c3dfbbacccd631d927a3f",
+      "https://cardanoscan.io/token/279c909f348e533da5808898f87f9a14bb2c3dfbbacccd631d927a3f"
+    ],
+    "official_forum_url": [
+      "https://www.tiktok.com/@snekcoinada"
+    ],
+    "chat_url": [
+      "https://discord.gg/snekcoin"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "snek",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "snekcoinada",
+    "subreddit_url": "https://www.reddit.com/r/snekcoinada",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/30496/thumb/snek_icon_200_v2.png?1737994261",
+    "small": "https://coin-images.coingecko.com/coins/images/30496/small/snek_icon_200_v2.png?1737994261",
+    "large": "https://coin-images.coingecko.com/coins/images/30496/large/snek_icon_200_v2.png?1737994261"
+  },
+  "last_updated": "2025-07-11T05:00:42.387361+00:00"
+}

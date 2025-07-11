@@ -1,0 +1,70 @@
+{
+  "id": "instadapp",
+  "symbol": "fluid",
+  "name": "Fluid",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Polygon Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Base Ecosystem",
+    "Coinbase Ventures Portfolio",
+    "Pantera Capital Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x6f40d4a6237c257fff2db00fa0510deeecd303eb",
+    "base": "0x61e030a56d33e8260fdd81f03b162a79fe3449cd",
+    "arbitrum-one": "0x61e030a56d33e8260fdd81f03b162a79fe3449cd",
+    "polygon-pos": "0xf50d05a1402d0adafa880d36050736f9f6ee7dee"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "On Instadapp, users and developers manage and build their DeFi portfolio - the world's most advanced platform to start leveraging the full potential of Decentralized Finance."
+  },
+  "links": {
+    "homepage": [
+      "https://fluid.io/",
+      "https://instadapp.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x6f40d4a6237c257fff2db00fa0510deeecd303eb",
+      "https://platform.arkhamintelligence.com/explorer/token/instadapp",
+      "https://ethplorer.io/address/0x6f40d4a6237c257fff2db00fa0510deeecd303eb",
+      "https://polygonscan.com/token/0xf50d05a1402d0adafa880d36050736f9f6ee7dee",
+      "https://arbiscan.io/token/0xae7d4bf2bb00a2f4ade1c726819fcaca0e517a5b",
+      "https://basescan.org/token/0x61e030a56d33e8260fdd81f03b162a79fe3449cd",
+      "https://arbiscan.io/token/0x61e030a56d33e8260fdd81f03b162a79fe3449cd"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/C76CeZc"
+    ],
+    "announcement_url": [
+      "https://blog.instadapp.io/",
+      "https://discuss.instadapp.io/"
+    ],
+    "snapshot_url": "https://snapshot.org/#/instadapp-gov.eth",
+    "twitter_screen_name": "0xfluid",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/instadapp/dsa-connect"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/14688/thumb/Logo_1_%28brighter%29.png?1734430693",
+    "small": "https://coin-images.coingecko.com/coins/images/14688/small/Logo_1_%28brighter%29.png?1734430693",
+    "large": "https://coin-images.coingecko.com/coins/images/14688/large/Logo_1_%28brighter%29.png?1734430693"
+  },
+  "last_updated": "2025-07-11T04:58:51.831671+00:00"
+}

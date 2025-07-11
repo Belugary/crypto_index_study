@@ -1,0 +1,76 @@
+{
+  "id": "frax-ether",
+  "symbol": "frxeth",
+  "name": "Frax Ether",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "Polygon Ecosystem",
+    "Fantom Ecosystem",
+    "Arbitrum Ecosystem",
+    "Moonbeam Ecosystem",
+    "Liquid Staking Tokens",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Polygon zkEVM Ecosystem",
+    "Liquid Staking",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x5e8422345238f34275888049021821e8e08caa1f",
+    "polygon-zkevm": "0xcf7ecee185f19e2e970a301ee37f93536ed66179",
+    "moonbeam": "0x82bbd1b6f6de2b7bb63d3e1546e6b1553508be99",
+    "optimistic-ethereum": "0x6806411765af15bddd26f8f544a34cc40cb9838b",
+    "arbitrum-one": "0x178412e79c25968a32e89b11f63b33f733770c2a",
+    "binance-smart-chain": "0x64048a7eecf3a2f1ba9e144aac3d7db6e58f555e",
+    "fantom": "0x9e73f99ee061c8807f69f9c6ccc44ea3d8c373ee",
+    "polygon-pos": "0xee327f889d5947c1dc1934bb208a1e792f953e96"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "frxETH is a liquid staking derivative issued by Frax Finance protocol. Each frxETH is backed by at least 1 ETH in validator nodes at all times."
+  },
+  "links": {
+    "homepage": [
+      "https://app.frax.finance/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x5e8422345238f34275888049021821e8e08caa1f",
+      "https://platform.arkhamintelligence.com/explorer/token/frax-ether",
+      "https://ethplorer.io/address/0x5e8422345238f34275888049021821e8e08caa1f",
+      "https://polygonscan.com/token/0xee327f889d5947c1dc1934bb208a1e792f953e96",
+      "https://bscscan.com/token/0x64048a7eecf3a2f1ba9e144aac3d7db6e58f555e",
+      "https://arbiscan.io/token/0x178412e79c25968a32e89b11f63b33f733770c2a",
+      "https://ftmscan.com/token/0x9e73f99ee061c8807f69f9c6ccc44ea3d8c373ee",
+      "https://moonscan.io/token/0x82bbd1b6f6de2b7bb63d3e1546e6b1553508be99",
+      "https://optimistic.etherscan.io/token/0x6806411765af15bddd26f8f544a34cc40cb9838b",
+      "https://binplorer.com/address/0x64048a7eecf3a2f1ba9e144aac3d7db6e58f555e"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "fraxfinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/fraxfinance"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/28284/thumb/frxETH_icon.png?1696527284",
+    "small": "https://coin-images.coingecko.com/coins/images/28284/small/frxETH_icon.png?1696527284",
+    "large": "https://coin-images.coingecko.com/coins/images/28284/large/frxETH_icon.png?1696527284"
+  },
+  "last_updated": "2025-07-11T04:58:28.598102+00:00"
+}

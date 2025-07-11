@@ -1,0 +1,61 @@
+{
+  "id": "echelon-prime",
+  "symbol": "prime",
+  "name": "Echelon Prime",
+  "categories": [
+    "Smart Contract Platform",
+    "Gaming (GameFi)",
+    "Ethereum Ecosystem",
+    "Base Ecosystem",
+    "Card Games",
+    "Paradigm Portfolio",
+    "Gaming Blockchains",
+    "Gaming Utility Token"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xb23d80f5fefcddaa212212f028021b41ded428cf",
+    "base": "0xfa980ced6895ac314e7de34ef1bfae90a5add21b"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "PRIME is the native token of the Echelon Prime Foundation, a Web3 ecosystem advancing the next generation of gaming. Echelon creates and distributes tools to encourage innovation in, and promote the growth of, novel gaming models and economies. The first game to adopt and utilize PRIME is Parallel, a sci-fi trading card game. "
+  },
+  "links": {
+    "homepage": [
+      "https://echelon.io/"
+    ],
+    "whitepaper": "https://docs.echelon.io/echelon-prime-foundation/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xb23d80f5fefcddaa212212f028021b41ded428cf",
+      "https://platform.arkhamintelligence.com/explorer/token/echelon-prime",
+      "https://ethplorer.io/address/0xb23d80f5fefcddaa212212f028021b41ded428cf",
+      "https://basescan.org/token/0xfa980ced6895ac314e7de34ef1bfae90a5add21b"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/echelonfnd",
+      "https://medium.com/@EchelonFND"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "EchelonFND",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/29053/thumb/prime-logo-small-border_%282%29.png?1696528020",
+    "small": "https://coin-images.coingecko.com/coins/images/29053/small/prime-logo-small-border_%282%29.png?1696528020",
+    "large": "https://coin-images.coingecko.com/coins/images/29053/large/prime-logo-small-border_%282%29.png?1696528020"
+  },
+  "last_updated": "2025-07-11T04:58:10.953063+00:00"
+}

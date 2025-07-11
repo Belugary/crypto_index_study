@@ -1,0 +1,56 @@
+{
+  "id": "stader-ethx",
+  "symbol": "ethx",
+  "name": "Stader ETHx",
+  "categories": [
+    "Liquid Staking Tokens",
+    "Ethereum Ecosystem",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xa35b1b31ce002fbf2058d22f30f95d405200a15b"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What is the project about?\r\nStader liquid staking token ETHx is a new decentralized liquid staked ETH. Stader enables anyone to operate and become a node operator with 4 ETH. More details can be found at https://www.staderlabs.com/docs/eth/Stader%20ETH%20Litepaper.pdf\r\n\r\nWhat makes your project unique?\r\nWe are a multi-chain liquid staking protocol with ~$100M in assets across MATIC, BNB, FTM, HBAR, etc.\r\n\r\n\r\nHistory of your project.\r\nStader started as a staking protocol on Terra 1.0, attaining a $1B TVL before expanding onto other chains. Stader's team is located across the world and operates as a DAO.\r\n\r\nWhat’s next for your project?\r\n\r\n\r\nWhat can your token be used for?\r\nETHx can be used across Balancer, AAVE, Curve, CIAN and many other DeFi protocols.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://staderlabs.com/",
+      "https://www.staderlabs.com/eth/"
+    ],
+    "whitepaper": "https://www.staderlabs.com/docs/ETHx%20Litepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xa35b1b31ce002fbf2058d22f30f95d405200a15b",
+      "https://platform.arkhamintelligence.com/explorer/token/stader-ethx",
+      "https://ethplorer.io/address/0xa35b1b31ce002fbf2058d22f30f95d405200a15b"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/xJURAhSmav"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "staderlabs",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "staderlabs",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/stader-labs"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/30870/thumb/staderx.png?1696529717",
+    "small": "https://coin-images.coingecko.com/coins/images/30870/small/staderx.png?1696529717",
+    "large": "https://coin-images.coingecko.com/coins/images/30870/large/staderx.png?1696529717"
+  },
+  "last_updated": "2025-07-11T05:00:50.785585+00:00"
+}

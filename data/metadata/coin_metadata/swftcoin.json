@@ -1,0 +1,69 @@
+{
+  "id": "swftcoin",
+  "symbol": "swftc",
+  "name": "SWFTCOIN",
+  "categories": [
+    "Exchange-based Tokens",
+    "NFT",
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x0bb217e40f8a5cb79adf04e1aab60e5abd0dfc1e",
+    "binance-smart-chain": "0xe64e30276c2f826febd3784958d6da7b55dfbad3"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2017-10-05",
+  "country_origin": "",
+  "description": {
+    "en": "English version\r\nIntroducing SWFTCoin (SWFTC)\r\n$SWFTC: Powering SWFT Blockchain and AI Services (SWFTGPT) \r\nSwftCoin ($SWFTC) is the native utility token driving SWFT Blockchain's AI-powered ecosystem, SWFTGPT, and the first ever AI token featured on Coinbase. SWFTGPT is also the first domain-specific LLM for crypto. \r\nSwftCoin key features include:\r\n50% Reduced Transaction Fees: Lower costs on all transactions.\r\nAI Service Payments: Use $SWFTC to access SWFTGPT. Tools include expert market analysis,  predictions, and intelligent trading solutions. \r\nMembership Benefits: Unlock premium features and AI agent services within SWFTGPT.\r\nAI-Powered Swaps: Enable precise, fast cross-chain transactions and analytics.\r\nSWFT Blockchain combines AI innovation with blockchain infrastructure, simplifying crypto trading while enhancing functionality through $SWFTC.\r\n\r\n\r\nChinese version\r\n$SWFTC：驱动 SWFT Blockchain 和 AI 服务（SWFTGPT）\r\nSwftCoin ($SWFTC) 是 SWFT Blockchain 的原生实用代币，为其 AI 驱动的生态系统 SWFTGPT 提供支持，同时也是 Coinbase 上首个 AI 代币。SWFTGPT 也是首个专注于加密领域的特定领域大型语言模型 (LLM)。\r\nSwftCoin 的主要功能包括：\r\n1、50% 交易费减免：降低所有交易成本。\r\n2、AI 服务支付：使用 $SWFTC 访问 SWFTGPT 工具，包括专家市场分析、预测以及智能交易解决方案。\r\n3、会员权益：解锁 SWFTGPT 的高级功能和 AI 代理服务。\r\n4、AI 驱动的闪兑：实现精准快速的跨链交易和数据分析。\r\nSWFT Blockchain 将 AI 创新与区块链基础设施结合，通过 $SWFTC 简化加密交易，并提升其功能性。\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.swftblockchain.ai",
+      "https://defi.swft.pro/",
+      "https://www.bridgers.xyz/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x0bb217e40f8a5cb79adf04e1aab60e5abd0dfc1e",
+      "https://platform.arkhamintelligence.com/explorer/token/swftcoin",
+      "https://ethplorer.io/address/0x0bb217e40f8a5cb79adf04e1aab60e5abd0dfc1e",
+      "https://www.hecoinfo.com/en-us/token/0x329dda64cbc4dfd5fa5072b447b3941ce054ebb3?tab=transfers",
+      "https://bscscan.com/token/0xe64e30276c2f826febd3784958d6da7b55dfbad3",
+      "https://binplorer.com/address/0xe64e30276c2f826febd3784958d6da7b55dfbad3"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/swftcoin/",
+      "https://www.linkedin.com/company/swftcoin/"
+    ],
+    "chat_url": [
+      "http://discord.gg/AHtTqrPKtC",
+      "https://t.me/swftswap_CN",
+      "https://twitter.com/SWFTBridge"
+    ],
+    "announcement_url": [
+      "https://medium.com/@swftcoin_37344"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "SwftCoin",
+    "facebook_username": "SWFTBlockchain",
+    "bitcointalk_thread_identifier": 2317306,
+    "telegram_channel_identifier": "swfcoin",
+    "subreddit_url": "https://www.reddit.com/r/SwftCoin",
+    "repos_url": {
+      "github": [
+        "https://github.com/SwftCoins/SwftCoin"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/2346/thumb/SWFTCoin.jpg?1696503223",
+    "small": "https://coin-images.coingecko.com/coins/images/2346/small/SWFTCoin.jpg?1696503223",
+    "large": "https://coin-images.coingecko.com/coins/images/2346/large/SWFTCoin.jpg?1696503223"
+  },
+  "last_updated": "2025-07-11T05:01:08.911403+00:00"
+}

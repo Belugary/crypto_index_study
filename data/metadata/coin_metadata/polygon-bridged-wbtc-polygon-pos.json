@@ -1,0 +1,51 @@
+{
+  "id": "polygon-bridged-wbtc-polygon-pos",
+  "symbol": "wbtc",
+  "name": "Polygon Bridged WBTC (Polygon POS)",
+  "categories": [
+    "Polygon Ecosystem",
+    "Bridged WBTC",
+    "Bridged-Tokens"
+  ],
+  "asset_platform_id": "polygon-pos",
+  "platforms": {
+    "polygon-pos": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://polygon.technology/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://polygonscan.com/token/0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
+      "https://platform.arkhamintelligence.com/explorer/token/polygon-bridged-wbtc-polygon-pos",
+      "https://polygon.dex.guru/token/0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39530/thumb/wbtc.png?1722809402",
+    "small": "https://coin-images.coingecko.com/coins/images/39530/small/wbtc.png?1722809402",
+    "large": "https://coin-images.coingecko.com/coins/images/39530/large/wbtc.png?1722809402"
+  },
+  "last_updated": "2025-07-11T05:00:09.477681+00:00"
+}

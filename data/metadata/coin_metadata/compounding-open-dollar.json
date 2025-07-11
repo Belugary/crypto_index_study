@@ -1,0 +1,53 @@
+{
+  "id": "compounding-open-dollar",
+  "symbol": "cusdo",
+  "name": "Compounding OpenDollar",
+  "categories": [
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "Base Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xad55aebc9b8c03fc43cd9f62260391c13c23e7c0",
+    "base": "0x83db73ef5192de4b6a4c92bd0141ba1a0dc87c65"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "The OpenEden Compounding Open Dollar (“cUSDO\") is a rebasing yield-bearing stablecoin issued by OpenEden Digital (\"OED\"), a Bermuda Monetary Authority (\"BMA\") licensed digital asset issuer. cUSDO is backed by high-quality, liquid reserves, primarily consisting of U.S. Treasury bills and reverse repurchase agreements.                                                                                   "
+  },
+  "links": {
+    "homepage": [
+      "https://openeden.com"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/address/0xaD55aebc9b8c03FC43cd9f62260391c13c23e7c0",
+      "https://etherscan.io/token/0xaD55aebc9b8c03FC43cd9f62260391c13c23e7c0",
+      "https://ethplorer.io/address/0xaD55aebc9b8c03FC43cd9f62260391c13c23e7c0",
+      "https://basescan.org/token/0x83db73ef5192de4b6a4c92bd0141ba1a0dc87c65"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "OpenEden_Labs",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53751/thumb/cUSDO_logo_white.png?1737182014",
+    "small": "https://coin-images.coingecko.com/coins/images/53751/small/cUSDO_logo_white.png?1737182014",
+    "large": "https://coin-images.coingecko.com/coins/images/53751/large/cUSDO_logo_white.png?1737182014"
+  },
+  "last_updated": "2025-07-11T04:57:48.718657+00:00"
+}

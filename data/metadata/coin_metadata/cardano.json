@@ -1,0 +1,70 @@
+{
+  "id": "cardano",
+  "symbol": "ada",
+  "name": "Cardano",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Cardano Ecosystem",
+    "Alleged SEC Securities",
+    "Proof of Stake (PoS)",
+    "GMCI Layer 1 Index",
+    "GMCI 30 Index",
+    "GMCI Index",
+    "Made in USA",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Cardano is a proof-of-stake blockchain platform designed to support decentralized applications (dApps), featuring a multi-asset ledger and smart contract functionality. Unlike many other blockchains, Cardano is built from the ground up based on original academic research, with proposed solutions undergoing peer review and presentation at international conferences before development. The platform emphasizes a research-driven and formal methods approach to design and implementation."
+  },
+  "links": {
+    "homepage": [
+      "https://cardano.org/"
+    ],
+    "whitepaper": "https://docs.cardano.org/introduction",
+    "blockchain_site": [
+      "https://cardanoscan.io/",
+      "https://cardanoexplorer.com/",
+      "https://blockchair.com/cardano",
+      "https://adaex.org/",
+      "https://adastat.net/",
+      "https://ada.tokenview.io/",
+      "https://3xpl.com/cardano"
+    ],
+    "official_forum_url": [
+      "https://forum.cardano.org/"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Cardano_CF",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Cardano",
+    "subreddit_url": "https://www.reddit.com/r/cardano",
+    "repos_url": {
+      "github": [
+        "https://github.com/input-output-hk/cardano-sl",
+        "https://github.com/input-output-hk/js-cardano-wasm",
+        "https://github.com/input-output-hk/plutus",
+        "https://github.com/input-output-hk/rust-cardano",
+        "https://github.com/input-output-hk/cardano-chain"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/975/thumb/cardano.png?1696502090",
+    "small": "https://coin-images.coingecko.com/coins/images/975/small/cardano.png?1696502090",
+    "large": "https://coin-images.coingecko.com/coins/images/975/large/cardano.png?1696502090"
+  },
+  "last_updated": "2025-07-11T04:57:34.796739+00:00"
+}

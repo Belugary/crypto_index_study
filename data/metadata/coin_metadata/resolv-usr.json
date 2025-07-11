@@ -1,0 +1,62 @@
+{
+  "id": "resolv-usr",
+  "symbol": "usr",
+  "name": "Resolv USR",
+  "categories": [
+    "Stablecoins",
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem",
+    "Base Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x66a1e37c9b0eaddca17d3662d6c05f4decf3e110",
+    "base": "0x35e5db674d8e93a03d814fa0ada70731efe8a4b9",
+    "binance-smart-chain": "0x2492d0006411af6c8bbb1c8afc1b0197350a79e9"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Resolv is a protocol that maintains USR, an overcollateralized stablecoin natively backed by Ether (ETH). USR achieves its peg by hedging its collateral pool and maintaining a tokenized insurance fund called RLP. Users can stake USR to obtain the yield-bearing version called stUSR. USR is minted by depositing liquid assets, such as USDC or USDT, on 1:1 value basis. When USR is redeemed, a user receives a 1:1 equivalent to the notional amount."
+  },
+  "links": {
+    "homepage": [
+      "https://www.resolv.xyz/"
+    ],
+    "whitepaper": "https://docs.resolv.xyz/litepaper",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x66a1e37c9b0eaddca17d3662d6c05f4decf3e110",
+      "https://platform.arkhamintelligence.com/explorer/token/resolv-usr",
+      "https://ethplorer.io/address/0x66a1e37c9b0eaddca17d3662d6c05f4decf3e110",
+      "https://bscscan.com/token/0x2492D0006411Af6C8bbb1c8afc1B0197350a79e9",
+      "https://binplorer.com/address/0x2492D0006411Af6C8bbb1c8afc1B0197350a79e9",
+      "https://basescan.org/token/0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/HwPhyC4hZt",
+      "https://medium.com/@ResolvLabs"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ResolvLabs",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "resolvlabs",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/resolv-im/resolv-contracts-public"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/40008/thumb/USR_LOGO.png?1725222638",
+    "small": "https://coin-images.coingecko.com/coins/images/40008/small/USR_LOGO.png?1725222638",
+    "large": "https://coin-images.coingecko.com/coins/images/40008/large/USR_LOGO.png?1725222638"
+  },
+  "last_updated": "2025-07-11T05:00:27.641118+00:00"
+}

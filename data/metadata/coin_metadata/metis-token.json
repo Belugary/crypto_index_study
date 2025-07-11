@@ -1,0 +1,77 @@
+{
+  "id": "metis-token",
+  "symbol": "metis",
+  "name": "Metis",
+  "categories": [
+    "Smart Contract Platform",
+    "Ethereum Ecosystem",
+    "Metis Ecosystem",
+    "Layer 2 (L2)",
+    "DWF Labs Portfolio",
+    "Rollup",
+    "GMCI Layer 2 Index",
+    "OKX Ventures Portfolio",
+    "GMCI Index"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x9e32b13ce7f2e80a01932b42553652e053d6ed8e",
+    "metis-andromeda": "0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "CA",
+  "description": {
+    "en": "What Is Metisl2 (METIS)?\r\nMetis: A Multi-Network Ecosystem Redefining Decentralized Infrastructure​\r\nMetis is more than a Layer 2 - it is a multi-network ecosystem powered by the groundbreaking MetisSDK. Metis is building the future of decentralized infrastructure with a dual-network architecture: Andromeda for secure, general-purpose dApps and Hyperion for high-performance, AI-optimized execution. Both chains interoperate seamlessly, enabling builders to deploy scalable, efficient, and intelligent Web3 applications across sectors such as DeFi, gaming, DEPIN and AI.\r\n\r\nWhat Is Andromeda ?\r\nAndromeda​​ serves as the foundational optimistic rollup network within the Metis ecosystem, delivering scalable decentralized infrastructure with Ethereum-level security and enhanced throughput. Optimized for DeFi, gaming, and general-purpose applications, it leverages a decentralized sequencer network and fraud-proof mechanisms to prioritize reliability and proven execution over extreme performance. Its battle-tested architecture supports a growing ecosystem of protocols requiring robust security models.\r\n\r\nAndromeda will evolve alongside Hyperion, maintaining its core focus on secure general-purpose infrastructure. Key upgrades like on-chain data availability and fraud-proof refinements will advance its capabilities, with a roadmap targeting Stage 0 deployment soon and Stage 1 completion by year-end. As Metis’ cornerstone network, it remains the go-to solution for projects valuing decentralization (via full DSEQ nodes) and time-tested security frameworks.\r\n\r\n\r\nWhat Is Hyperion ?\r\nHyperion：The First Layer 2 Bringing On-Chain LLMs to Life\r\nHyperion is a high-performance, AI-optimized Layer 2 solution designed to scale AI, DeFi, Depin and gaming applications. It enhances Metis' ecosystem by introducing parallel execution, AI-native infrastructure and decentralized sequencing, while maintaining Ethereum security and METIS as the gas token.\r\n\r\nHyperion, developed with the powerful MetisSDK and LazAI’s Alith AI framework, is the first Layer 2 Ethereum-compatible solution designed explicitly for on-chain AI execution, notably supporting Large Language Models (LLMs). It combines blockchain’s decentralized trust and transparency with AI's analytical and predictive powers, delivering an unparalleled user and developer experience.\r\n\r\nThis architecture optimizes the execution efficiency of AI processes within blockchain ecosystems, reducing computational overhead while maintaining network integrity. By embedding Alith’s modular framework for seamless AI/blockchain interoperability, Hyperion establishes a robust technical bridge between artificial intelligence and distributed ledger technologies.\r\n\r\nThis advancement fundamentally enhances decentralized application (dApp) capabilities, unlocking new possibilities for complex AI-driven functionalities in Web3 environments.\r\n\r\n✅ Key Features of Hyperion (HYPE):\r\n\r\nParallelized Transactions for Hyper-Scalability\r\nHyperion’s Parallel Execution Engine, paired with an Optimistic Rollup model, processes multiple transactions simultaneously, delivering sub-second finality. Optimized fraud-proof mechanisms ensure security without sacrificing speed, making Hyperion perfect for real-time AI, gaming, and DeFi applications.\r\n\r\nHigh Performance On-chain LLMS Inference\r\nBy leveraging Rust's performance advantages and quick model inference technologies, Alith ensures that AI tasks in MetisSDK are executed efficiently, even under high transaction volumes.\r\nRevolutionizing Storage\r\nMetisDB eliminates storage bottlenecks with memory-mapped Merkle Trees, multi-version concurrency control, and asynchronous I/O processing. This ensures lightning-fast data access and cost-efficient state management, critical for data-intensive AI applications.\r\nAI-Optimized Powerhouse\r\nHyperion’s Metis Virtual Machine (MetisVM) is custom-built for on-chain AI inference and high-throughput dApps. With dynamic opcode optimization, speculative parallel execution, and state-aware caching, MetisVM slashes gas fees and boosts processing speeds, enabling developers to run machine learning models directly on-chain.\r\nSeamless Ethereum and Cross-Chain Integration\r\nHyperion commits state changes to Ethereum for battle-tested security while enabling cross-chain liquidity through a shared bridge framework. Integration with off-chain compute networks allows AI developers to leverage distributed processing power, creating scalable, interoperable dApps.\r\n\r\nWhy Choose Hyperion?\r\nHyperion isn’t just another Layer 2 solution - it’s a revolutionary leap forward in how blockchain and AI interact. By placing high-performance, secure AI processes directly onto the blockchain, Hyperion reduces reliance on centralized systems, enhances transparency, and empowers developers and users alike.\r\n\r\nThis combination of scalability, efficiency, and high-performance inference positions Hyperion as the optimal choice for developers aiming to build next-generation decentralized applications.\r\n\r\nThe Hyperion Testnet Launch: Experience the Future Today\r\nHyperion testnet launch invites AI developers, blockchain enthusiasts, Web3 developers, and tech innovators to explore, test, and innovate. Join us in pioneering a smarter, more intelligent blockchain ecosystem.\r\n\r\nHyperion is more than just an upgrade - it's the future of blockchain intelligence.\r\n\r\nAccess the Testnet: Visit https://hyperion.metis.io dive into Hyperion’s AI-optimized infrastructure.\r\nExplore Documentation: Find technical specs and developer resources at http://docs.metis.io/hyperion\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.metis.io/",
+      "https://hyperion.metis.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x9e32b13ce7f2e80a01932b42553652e053d6ed8e",
+      "https://platform.arkhamintelligence.com/explorer/token/metis-token",
+      "https://ethplorer.io/address/0x9e32b13ce7f2e80a01932b42553652e053d6ed8e",
+      "https://bscscan.com/token/0xe552fb52a4f19e44ef5a967632dbc320b0820639",
+      "https://andromeda-explorer.metis.io/token/",
+      "https://metis.tokenview.io",
+      "https://binplorer.com/address/0xe552fb52a4f19e44ef5a967632dbc320b0820639",
+      "https://andromeda-explorer.metis.io/token/0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000",
+      "https://explorer.metis.io/token/0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000"
+    ],
+    "official_forum_url": [
+      "https://metisl2.medium.com/",
+      "https://www.linkedin.com/company/metisl2/"
+    ],
+    "chat_url": [
+      "https://www.youtube.com/@Metis_L2",
+      "https://github.com/MetisProtocol/metis-sdk",
+      "https://alith.lazai.network/docs/get-started"
+    ],
+    "announcement_url": [
+      "https://metisdao.medium.com/",
+      "https://projects.invisionapp.com/boards/P941VA2WATD/"
+    ],
+    "snapshot_url": "https://snapshot.org/#/metislayer2.eth",
+    "twitter_screen_name": "MetisL2",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "MetisL2",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/MetisProtoco"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/15595/thumb/Metis_Black_Bg.png?1702968192",
+    "small": "https://coin-images.coingecko.com/coins/images/15595/small/Metis_Black_Bg.png?1702968192",
+    "large": "https://coin-images.coingecko.com/coins/images/15595/large/Metis_Black_Bg.png?1702968192"
+  },
+  "last_updated": "2025-07-11T04:59:28.090226+00:00"
+}

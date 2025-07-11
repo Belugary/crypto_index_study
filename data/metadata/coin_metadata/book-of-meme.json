@@ -1,0 +1,52 @@
+{
+  "id": "book-of-meme",
+  "symbol": "bome",
+  "name": "BOOK OF MEME",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Frog-Themed",
+    "Solana Meme",
+    "GMCI Meme Index",
+    "GMCI Index"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "ukHH6c7mMyiWCf1b9pnWe25TSpkDDt3H5pQZgZ74J82"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The Book of Meme (BOME) is a memecoin built on the Solana blockchain. Created by an artist known as Darkfarms, BOME is designed to serve as a digital archive for memes, aiming to preserve meme culture by storing these digital creations on blockchain technology, ensuring they are never lost and remain accessible indefinitely."
+  },
+  "links": {
+    "homepage": [],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/address/ukhh6c7mmyiwcf1b9pnwe25tspkddt3h5pqzgz74j82",
+      "https://platform.arkhamintelligence.com/explorer/token/book-of-meme",
+      "https://solscan.io/token/ukhh6c7mmyiwcf1b9pnwe25tspkddt3h5pqzgz74j82"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Darkfarms1",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "BOOK_OF_MEME",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/36071/thumb/bome.png?1710407255",
+    "small": "https://coin-images.coingecko.com/coins/images/36071/small/bome.png?1710407255",
+    "large": "https://coin-images.coingecko.com/coins/images/36071/large/bome.png?1710407255"
+  },
+  "last_updated": "2025-07-11T04:57:31.349044+00:00"
+}

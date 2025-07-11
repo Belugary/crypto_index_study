@@ -1,0 +1,64 @@
+{
+  "id": "zano",
+  "symbol": "zano",
+  "name": "Zano",
+  "categories": [
+    "Smart Contract Platform",
+    "Privacy",
+    "Layer 1 (L1)",
+    "Proof of Stake (PoS)",
+    "Proof of Work (PoW)",
+    "Zano Ecosystem",
+    "Privacy Blockchain"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": "",
+    "zano": "d6329b5b1f7c0805b5c345f4957554002a2f557845f64d7645dae0e051a6498a"
+  },
+  "block_time_in_minutes": 1,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What is Zano?\r\nZano is an open-source cryptocurrency (layer-1) and ecosystem with enterprise-grade\r\nprivacy, security, and scalability that operates as a robust platform for confidential\r\nassets and decentralized applications (dApps). \r\n\r\nConfidential Assets\r\nAnyone can easily issue user-creatable privacy tokens on the Zano chain; assets\r\nsecured by the same mechanisms that make Zano so much more secure than\r\nfirst-generation cryptocurrencies, namely because of hidden addresses and hidden\r\namounts. This unique technology can be used to create private stablecoins, shielded\r\nversions of existing assets, and much more, without the overhead of having to create,\r\nmanage, and secure your own blockchain. \r\n\r\nUntraceable Transactions with hidden amounts\r\nThe transactions between Zano network members are made untraceable with the help of several technologies, most importantly d/v-CLSAG Ring Signatures and Stealth Addresses. Also, the way transaction data is stored on the blockchain allows access by parties who authorized the transactions only, and none of the private data is ever publicly published. A secure scheme with a set of proofs allows for the concealment of the amount of coins\r\ntransferred. The Bulletproofs+ technology is used for these proofs, enabling the\r\ncreation of both performance-eective and size-eective proofs. \r\n\r\nBurning of all fees\r\nOn Zano, all network fees are being burned. With enough network usage, the daily fee\r\nburning could surpass the emission from block rewards, resulting in supply becoming\r\ndeflationary over time. This combination of small, minimalistic daily emissions, together with daily burns, results in little to no sell pressure on the exchanges.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://zano.org",
+      "https://explorer.zano.org/",
+      "https://blog.zano.org/"
+    ],
+    "whitepaper": "https://github.com/hyle-team/docs/blob/master/zano/Zano_WP_1.1.pdf",
+    "blockchain_site": [
+      "https://explorer.zano.org/",
+      "https://explorer.zano.org/assets?asset_id=d6329b5b1f7c0805b5c345f4957554002a2f557845f64d7645dae0e051a6498a"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/zano",
+      "https://www.youtube.com/@zanoproject"
+    ],
+    "announcement_url": [
+      "https://blog.zano.org/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "zano_project",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": 5090272,
+    "telegram_channel_identifier": "zanocoin",
+    "subreddit_url": "https://www.reddit.com/r/Zano",
+    "repos_url": {
+      "github": [
+        "https://github.com/hyle-team/zano"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/8370/thumb/zano.png?1696508563",
+    "small": "https://coin-images.coingecko.com/coins/images/8370/small/zano.png?1696508563",
+    "large": "https://coin-images.coingecko.com/coins/images/8370/large/zano.png?1696508563"
+  },
+  "last_updated": "2025-07-11T05:02:05.482694+00:00"
+}

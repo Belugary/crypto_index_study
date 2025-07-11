@@ -1,0 +1,90 @@
+{
+  "id": "frax",
+  "symbol": "frax",
+  "name": "Legacy Frax Dollar",
+  "categories": [
+    "Stablecoins",
+    "Decentralized Finance (DeFi)",
+    "USD Stablecoin",
+    "BNB Chain Ecosystem",
+    "Seigniorage",
+    "Avalanche Ecosystem",
+    "Polygon Ecosystem",
+    "Fantom Ecosystem",
+    "Harmony Ecosystem",
+    "Arbitrum Ecosystem",
+    "Moonriver Ecosystem",
+    "Moonbeam Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Aurora Ecosystem",
+    "Polygon zkEVM Ecosystem",
+    "Evmos Ecosystem",
+    "Boba Network Ecosystem",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x853d955acef822db058eb8505911ed77f175b99e",
+    "moonbeam": "0x322e86852e492a7ee17f28a78c663da38fb33bfb",
+    "polygon-zkevm": "0xff8544fed5379d9ffa8d47a74ce6b91e632ac44d",
+    "optimistic-ethereum": "0x2e3d870790dc77a83dd1d18184acc7439a53f475",
+    "boba": "0x7562f525106f5d54e891e005867bf489b5988cd9",
+    "aurora": "0xe4b9e004389d91e4134a28f19bd833cba1d994b6",
+    "arbitrum-one": "0x17fc002b466eec40dae837fc4be5c67993ddbd6f",
+    "moonriver": "0x1a93b23281cc1cde4c4741353f3064709a16197d",
+    "evmos": "0xe03494d0033687543a80c9b1ca7d6237f2ea8bd8",
+    "harmony-shard-0": "0xfa7191d292d5633f702b0bd7e3e3bccc0e633200",
+    "binance-smart-chain": "0x90c97f71e18723b0cf0dfa30ee176ab653e89f40",
+    "fantom": "0xdc301622e621166bd8e82f2ca0a26c13ad0be355",
+    "avalanche": "0xd24c2ad096400b6fbcd2ad8b24e7acbc21a1da64",
+    "polygon-pos": "0x45c32fa6df82ead1e2ef74d17b76547eddfaff89"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "KY",
+  "description": {
+    "en": "The first fractional-algorithmic stablecoin"
+  },
+  "links": {
+    "homepage": [
+      "https://frax.finance"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x853d955acef822db058eb8505911ed77f175b99e",
+      "https://platform.arkhamintelligence.com/explorer/token/frax",
+      "https://ethplorer.io/address/0x853d955acef822db058eb8505911ed77f175b99e",
+      "https://polygonscan.com/token/0x45c32fa6df82ead1e2ef74d17b76547eddfaff89",
+      "https://bscscan.com/token/0x90c97f71e18723b0cf0dfa30ee176ab653e89f40",
+      "https://avascan.info/blockchain/c/address/0xd24c2ad096400b6fbcd2ad8b24e7acbc21a1da64",
+      "https://snowtrace.io/token/0xd24c2ad096400b6fbcd2ad8b24e7acbc21a1da64",
+      "https://moonriver.moonscan.io/token/0x1a93b23281cc1cde4c4741353f3064709a16197d",
+      "https://arbiscan.io/token/0x17fc002b466eec40dae837fc4be5c67993ddbd6f"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/MTZu6Hf57d"
+    ],
+    "announcement_url": [],
+    "snapshot_url": "https://snapshot.org/#/frax.eth",
+    "twitter_screen_name": "fraxfinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "fraxfinance",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/fraxfinance/frax-solidity"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/13422/thumb/LFRAX.png?1751911193",
+    "small": "https://coin-images.coingecko.com/coins/images/13422/small/LFRAX.png?1751911193",
+    "large": "https://coin-images.coingecko.com/coins/images/13422/large/LFRAX.png?1751911193"
+  },
+  "last_updated": "2025-07-11T04:58:28.058283+00:00"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "trip",
+  "symbol": "trip",
+  "name": "Trip",
+  "categories": [
+    "Tourism",
+    "BNB Chain Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xc9bfb93d75645c4681bb63794abf1acad44725e7"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "Trip Token is a blockchain-powered platform aiming to revolutionize the travel and tourism industry by providing a seamless, secure, and rewarding experience for travelers and stakeholders.\r\n\r\nKey Features:\r\nUtilizes DeFi principles to ensure accessible, secure, and transparent transactions within the platform.\r\nFacilitates financial transactions both within the Trip Token ecosystem and beyond, promoting a comprehensive tourism experience.\r\nActs as a smart assistant for travelers, guiding them through all stages of their journey and offering personalized experiences based on user preferences.\r\nSeamless Integration: Integrates services from diverse providers within a single platform, enhancing convenience for users."
+  },
+  "links": {
+    "homepage": [
+      "https://trip.game/"
+    ],
+    "whitepaper": "https://trip.game/whitepaper",
+    "blockchain_site": [
+      "https://bscscan.com/token/0xc9bfb93d75645c4681bb63794abf1acad44725e7",
+      "https://binplorer.com/address/0xC9Bfb93d75645c4681BB63794ABf1acAD44725e7"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "trip_token1",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "trip_token",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54717/thumb/IMG-20250120-184423-846.png?1741186152",
+    "small": "https://coin-images.coingecko.com/coins/images/54717/small/IMG-20250120-184423-846.png?1741186152",
+    "large": "https://coin-images.coingecko.com/coins/images/54717/large/IMG-20250120-184423-846.png?1741186152"
+  },
+  "last_updated": "2025-07-11T05:01:25.880546+00:00"
+}

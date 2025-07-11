@@ -1,0 +1,83 @@
+{
+  "id": "tbtc",
+  "symbol": "tbtc",
+  "name": "tBTC",
+  "categories": [
+    "Crypto-Backed Tokens",
+    "Decentralized Finance (DeFi)",
+    "Tokenized BTC",
+    "Solana Ecosystem",
+    "Polygon Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Base Ecosystem",
+    "Starknet Ecosystem",
+    "Hydration Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x18084fba666a33d37592fa2633fd49a74dd93a88",
+    "bob-network": "0xbba2ef945d523c4e2608c9e1214c2cc64d4fc2e2",
+    "hydration": "asset_registry%2F1000765",
+    "optimistic-ethereum": "0x6c84a8f1c29108f47a79964b5fe888d4f4d0de40",
+    "arbitrum-one": "0x6c84a8f1c29108f47a79964b5fe888d4f4d0de40",
+    "starknet": "0x04daa17763b286d1e59b97c283c0b8c949994c361e426a28f743c67bdfe9a32f",
+    "base": "0x236aa50979d5f3de3bd1eeb40e81137f22ab794b",
+    "polygon-pos": "0x236aa50979d5f3de3bd1eeb40e81137f22ab794b",
+    "solana": "6DNSN2BJsaPFdFFc1zP37kkeNe4Usc1Sqkzr9C9vPWcU"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What is tBTC?\r\ntBTC allows you to unlock your Bitcoin’s value to borrow and lend, mint stablecoins, provide liquidity, and much more.\r\n\r\ntBTC is a decentralized wrapped Bitcoin that is 1:1 backed by main-net BTC. Existing solutions bringing Bitcoin to Ethereum require you to send your Bitcoin to an intermediary, who then issues you an Ethereum token representing your original asset. \r\n\r\nThis centralized model requires you to trust a third party and is prone to censorship, sacrificing Bitcoin's promise of secure, permissionless decentralization.\r\n\r\nHow does tBTC solve this issue?\r\nInstead of centralized intermediaries, tBTC uses a randomly selected group of operators running nodes on the Threshold Network to secure deposited Bitcoin through threshold cryptography. \r\n\r\nThat means tBTC requires a threshold majority agreement before operators perform any action with your Bitcoin. By rotating the selection of operators weekly, tBTC protects against any individual or group of operators colluding to fraudulently seize the underlying deposits. \r\n\r\nBy relying on an honest-majority-assumption, we can calculate the likelihood any wallet comprised of a quorum of dishonest operators. An insurance backstop (the coverage pools), serves as an emergency fallback in the event a wallet is compromised.\r\n\r\nWhat is Threshold Network?\r\nThreshold.network stems from the merger of NuCypher and Keep networks into a single decentralized network — it delivers a suite of threshold cryptography services for web3 applications through a decentralized network of staking nodes. The whole community is governed by a DAO.\r\n\r\nFlagship services of Threshold Network include Threshold Access Control (TACo) – which enables end-to-end encrypted data sharing and communication without the need to trust a centralized authority, tBTC v2 - the only decentralized and permissionless Bitcoin-to-Ethereum asset bridge and thUSD - an overcollateralized and decentralized USD stablecoin that uses both ETH and tBTC as collateral."
+  },
+  "links": {
+    "homepage": [
+      "https://threshold.network/",
+      "https://threshold.network/earn/btc",
+      "https://linktr.ee/thresholdnetwork"
+    ],
+    "whitepaper": "https://docs.threshold.network/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x18084fba666a33d37592fa2633fd49a74dd93a88",
+      "https://platform.arkhamintelligence.com/explorer/token/tbtc",
+      "https://ethplorer.io/address/0x18084fba666a33d37592fa2633fd49a74dd93a88",
+      "https://base.dex.guru/token/0x236aa50979d5f3de3bd1eeb40e81137f22ab794b",
+      "https://basescan.org/token/0x236aa50979d5f3de3bd1eeb40e81137f22ab794b",
+      "https://ethereum.dex.guru/token/0x18084fba666a33d37592fa2633fd49a74dd93a88",
+      "https://arbiscan.io/token/0x6c84a8f1c29108f47a79964b5fe888d4f4d0de40",
+      "https://optimistic.etherscan.io/token/0x6c84a8f1c29108f47a79964b5fe888d4f4d0de40",
+      "https://solscan.io/token/6dnsn2bjsapfdffc1zp37kkene4usc1sqkzr9c9vpwcu",
+      "https://polygonscan.com/token/0x236aa50979d5f3de3bd1eeb40e81137f22ab794b"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/threshold-network/"
+    ],
+    "chat_url": [
+      "https://discord.gg/threshold",
+      "https://blog.threshold.network/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "TheTNetwork",
+    "facebook_username": "ThresholdNetwork",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "thresholdnetwork",
+    "subreddit_url": "https://www.reddit.com/r/thresholdnetwork",
+    "repos_url": {
+      "github": [
+        "https://github.com/keep-network/tbtc"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/11224/thumb/0x18084fba666a33d37592fa2633fd49a74dd93a88.png?1696511155",
+    "small": "https://coin-images.coingecko.com/coins/images/11224/small/0x18084fba666a33d37592fa2633fd49a74dd93a88.png?1696511155",
+    "large": "https://coin-images.coingecko.com/coins/images/11224/large/0x18084fba666a33d37592fa2633fd49a74dd93a88.png?1696511155"
+  },
+  "last_updated": "2025-07-11T05:01:13.010868+00:00"
+}

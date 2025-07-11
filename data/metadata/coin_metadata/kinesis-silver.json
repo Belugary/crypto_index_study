@@ -1,0 +1,57 @@
+{
+  "id": "kinesis-silver",
+  "symbol": "kag",
+  "name": "Kinesis Silver",
+  "categories": [
+    "Stablecoins",
+    "Tokenized Assets",
+    "Real World Assets (RWA)",
+    "Tokenized Silver",
+    "Tokenized Commodities"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What is Kinesis silver (KAG)?\r\nKinesis silver (KAG) is a silver-backed cryptocurrency, launched by Kinesis - a global trading and digital asset utility platform. Each Kinesis silver (KAG) token is backed by 1 ounce of investment-grade silver bullion, securely stored in Kinesis’ fully insured, audited vaults.\r\nThe mission behind KAG is to reintroduce physical silver backing to money and provide the global community with a stable store of value. Kinesis silver (KAG) has the everyday utility of a fiat currency; the borderless efficiency of a cryptocurrency, and none of the inherent volatility.\r\nKAG enables physical silver bullion to be instantly purchased, traded, spent and sent anywhere in the world, bringing real-world access, value, and utility to physical precious metals. A true stablecoin, KAG allows crypto traders to easily exit volatile markets and enter into the enduring value of physical silver, while earning a monthly yield.\r\nWhat makes KAG unique?\r\nIn an economic first, KAG holders earned the first debt-free yield on precious metals. All KAG holders receive a passive yield - paid monthly in KAG - simply for holding their metals on the Kinesis platform. The yield is calculated from a 15% share of Kinesis’ global transaction fee revenue which is shared with users who store their silver on the platform.\r\nUnlike other silver tokens, KAG can be instantly spent with the Kinesis Virtual Card, worldwide. Accessible via mobile device, the virtual card lets people everywhere instantly convert their KAG holdings into local currency at the point of sale, anywhere Mastercard is accepted. Through digitalising physical gold in the form of KAG, Kinesis has successfully reintroduced silver as a currency.\r\nCan I redeem my silver?\r\nEvery single ounce of silver underpinning KAG is available for redemption, at the click of a button. While other silver-backed cryptos offer redemption, they often set very high minimum withdrawal limits, making redemption unfeasible for everyday investors."
+  },
+  "links": {
+    "homepage": [
+      "https://kinesis.money/"
+    ],
+    "whitepaper": "https://kinesis.money/resources/kinesis-whitepaper-en.pdf",
+    "blockchain_site": [
+      "https://explorer.kinesis.money/"
+    ],
+    "official_forum_url": [
+      "https://forum.kinesis.money/"
+    ],
+    "chat_url": [
+      "https://www.youtube.com/@KinesisMoney"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "KinesisMonetary",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "kinesismoney",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/bullioncapital/nodes"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/29789/thumb/kag-currency-ticker.png?1696528719",
+    "small": "https://coin-images.coingecko.com/coins/images/29789/small/kag-currency-ticker.png?1696528719",
+    "large": "https://coin-images.coingecko.com/coins/images/29789/large/kag-currency-ticker.png?1696528719"
+  },
+  "last_updated": "2025-07-11T04:59:06.646586+00:00"
+}

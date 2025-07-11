@@ -1,0 +1,55 @@
+{
+  "id": "venom",
+  "symbol": "venom",
+  "name": "Venom",
+  "categories": [
+    "Infrastructure",
+    "Smart Contract Platform",
+    "Venom Ecosystem"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Venom is a layer-0 non-EVM blockchain with dynamic sharding algorithm and Mesh technology, which enhances blockchain interoperability by setting communication standards for TVM-compatible networks, ensuring faster transaction speeds, robust decentralization, and reliable message delivery for cross-chain transactions. Venom provides developers with a Threaded Virtual Machine (TVM) for asynchronous smart-contacts and a T-SOL, a Solidity-like programming language, allowing blockchain network throughput of 100,000+ TPS for building highly scalable Web3 applications across various domains:\r\n\r\n\r\nCBDC and Fiat-backed stablecoins\r\nAsset Tokenization \r\nTrade Finance\r\nProof of Reserve (PoR) mechanisms\r\nMicrotransactions\r\nDecentralised Identity\r\n\r\nVenom aims to build the blockchain infrastructure worldwide to bring simple, reliable and affordable payment methods to billions of non-crypto users and unbanked population."
+  },
+  "links": {
+    "homepage": [
+      "https://venom.foundation/",
+      "https://venom.network/"
+    ],
+    "whitepaper": "https://venom.foundation/Venom_Whitepaper.pdf",
+    "blockchain_site": [
+      "https://venomscan.com/",
+      "https://etherscan.io/address/0x46f84dc6564cdd93922f7bfb88b03d35308d87c9"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/E5JdCbFFW7",
+      "https://medium.com/@venom.foundation",
+      "https://www.youtube.com/channel/UC_Cm7m1WQnalNJ2nXZSCM4g"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "VenomFoundation",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "VenomFoundationOfficial",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/28660/thumb/Venom_Icon.png?1696527645",
+    "small": "https://coin-images.coingecko.com/coins/images/28660/small/Venom_Icon.png?1696527645",
+    "large": "https://coin-images.coingecko.com/coins/images/28660/large/Venom_Icon.png?1696527645"
+  },
+  "last_updated": "2025-07-11T05:01:43.934253+00:00"
+}

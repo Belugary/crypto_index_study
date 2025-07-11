@@ -1,0 +1,56 @@
+{
+  "id": "mag7-ssi",
+  "symbol": "mag7.ssi",
+  "name": "MAG7.ssi",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Analytics",
+    "DeFi Index",
+    "Base Ecosystem"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0x9e6a46f294bb67c20f1d1e7afb0bbef614403b55"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The SoSoValue Index Protocol is a cutting-edge spot index solution designed to make crypto investments simple and secured. SSI Protocol leverages on-chain smart contracts to repackage multi-chain, multi-asset portfolios into Wrapped Tokens (SSI). These tokens represent a basket of underlying assets, enabling Wrapped Tokens to track the value fluctuations of the spots basket, effectively achieving the effects of passive index investing.\r\n\r\nMAG7.ssi carefully selected top 7 projects by market cap, with strong social consensus and ample liquidity. This product offers enhanced systematic beta returns from the crypto industry while providing high risk resistance.\r\nThe initial 10% equal weighting allocation provides sufficient weight to second-tier leaders outside of Bitcoin and Ethereum. Assuming the emergence of more $100 billion market cap tokens over the next 4 years, this structure helps investors secure foundational returns from the crypto industry while also offering the opportunity to capture excess returns from the rise of new industry leaders.\r\nMonthly rebalance with a buffer setting ensures timely inclusion of emerging leaders while minimizing the transaction friction caused by frequent rebalancing. "
+  },
+  "links": {
+    "homepage": [
+      "https://sosovalue.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://basescan.org/token/0x9e6a46f294bb67c20f1d1e7afb0bbef614403b55"
+    ],
+    "official_forum_url": [
+      "https://www.tiktok.com/@sosovalue",
+      "https://www.instagram.com/sosovalue/",
+      "https://www.linkedin.com/company/sosovalue"
+    ],
+    "chat_url": [
+      "https://www.youtube.com/@sosovalue"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SoSoValueCrypto",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "SoSoValueCommunity",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/52962/thumb/mag7.png?1734863745",
+    "small": "https://coin-images.coingecko.com/coins/images/52962/small/mag7.png?1734863745",
+    "large": "https://coin-images.coingecko.com/coins/images/52962/large/mag7.png?1734863745"
+  },
+  "last_updated": "2025-07-11T04:59:19.085236+00:00"
+}

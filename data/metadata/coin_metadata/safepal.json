@@ -1,0 +1,65 @@
+{
+  "id": "safepal",
+  "symbol": "sfp",
+  "name": "SafePal",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Wallets",
+    "Ethereum Ecosystem",
+    "Animoca Brands Portfolio",
+    "Binance Launchpad",
+    "Energi Ecosystem",
+    "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x12e2b8033420270db2f3b328e32370cb5b2ca134",
+    "energi": "0x12490d720747e312be64029dfd475837ed285cfe",
+    "binance-smart-chain": "0xd41fdb03ba84762dd66a0af1a6c8540ff1ba5dfb"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "SafePal is a cryptocurrency wallet that aims to provide a secure and user-friendly crypto management platform for the masses. SafePal provides hardware wallet and software wallet product lines, all paired and managed through the SafePal App, where users can easily store, manage, swap, trade, and grow their crypto wealth."
+  },
+  "links": {
+    "homepage": [
+      "https://www.safepal.com/",
+      "https://store.safepal.com/safepal-s1-hardware-wallet.html"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0xd41fdb03ba84762dd66a0af1a6c8540ff1ba5dfb",
+      "https://platform.arkhamintelligence.com/explorer/token/safepal",
+      "https://explorer.energi.network/token/0x12490d720747e312be64029dfd475837ed285cfe",
+      "https://binplorer.com/address/0xd41fdb03ba84762dd66a0af1a6c8540ff1ba5dfb",
+      "https://etherscan.io/token/0x12e2b8033420270db2f3b328e32370cb5b2ca134",
+      "https://ethplorer.io/address/0x12e2b8033420270db2f3b328e32370cb5b2ca134"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/BuKynZqRNj"
+    ],
+    "announcement_url": [
+      "https://blog.safepal.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "iSafePal",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "SafePalwallet",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/13905/thumb/sfp.png?1696513647",
+    "small": "https://coin-images.coingecko.com/coins/images/13905/small/sfp.png?1696513647",
+    "large": "https://coin-images.coingecko.com/coins/images/13905/large/sfp.png?1696513647"
+  },
+  "last_updated": "2025-07-11T05:00:33.318597+00:00"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "render-token",
+  "symbol": "render",
+  "name": "Render",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "NFT",
+    "Metaverse",
+    "Solana Ecosystem",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem",
+    "DePIN",
+    "Multicoin Capital Portfolio",
+    "Alameda Research Portfolio",
+    "GMCI DePIN Index",
+    "GMCI 30 Index",
+    "GMCI Index",
+    "Made in USA",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x6de037ef9ad2725eb40118bb1702ebb27e4aeb24",
+    "polygon-pos": "0x61299774020da444af134c82fa83e3810b309991",
+    "solana": "rndrizKT3MK1iimdxRdWabcF7Zg7AR5T4nud4EkHBof"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The Render Network is a leading decentralized GPU compute platform for applications ranging from 3D rendering to machine learning and generative AI.  The network connects node operators looking to monetize their idle GPU compute power with artists and developers looking to scale intensive 3D rendering work and machine learning applications in the cloud. Through a decentralized peer-to-peer network, the Render Network achieves unprecedented levels of scale, speed, and economic efficiency. Facilitated by the Render Network Foundation, the ecosystem empowers artists and developers to build services and applications for the emerging digital economy."
+  },
+  "links": {
+    "homepage": [
+      "http://renderfoundation.com",
+      "http://rendernetwork.com"
+    ],
+    "whitepaper": "http://renderfoundation.com/whitepaper",
+    "blockchain_site": [
+      "https://solscan.io/token/rndrizkt3mk1iimdxrdwabcf7zg7ar5t4nud4ekhbof",
+      "https://platform.arkhamintelligence.com/explorer/token/render-token",
+      "https://polygonscan.com/token/0x61299774020da444af134c82fa83e3810b309991",
+      "https://etherscan.io/token/0x6de037ef9ad2725eb40118bb1702ebb27e4aeb24",
+      "https://polygon.dex.guru/token/0x61299774020da444af134c82fa83e3810b309991",
+      "https://ethplorer.io/address/0x6de037ef9ad2725eb40118bb1702ebb27e4aeb24"
+    ],
+    "official_forum_url": [
+      "https://rendernetwork.medium.com/"
+    ],
+    "chat_url": [
+      "https://discord.gg/rendernetwork",
+      "https://rendernetwork.medium.com/"
+    ],
+    "announcement_url": [
+      "https://medium.com/render-token"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "rendernetwork",
+    "facebook_username": "OTOY",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "rendernetwork",
+    "subreddit_url": "https://www.reddit.com/r/Rendernetwork",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/11636/thumb/rndr.png?1696511529",
+    "small": "https://coin-images.coingecko.com/coins/images/11636/small/rndr.png?1696511529",
+    "large": "https://coin-images.coingecko.com/coins/images/11636/large/rndr.png?1696511529"
+  },
+  "last_updated": "2025-07-11T05:00:23.547530+00:00"
+}

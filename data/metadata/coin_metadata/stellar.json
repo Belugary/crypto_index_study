@@ -1,0 +1,71 @@
+{
+  "id": "stellar",
+  "symbol": "xlm",
+  "name": "Stellar",
+  "categories": [
+    "Smart Contract Platform",
+    "Real World Assets (RWA)",
+    "Stellar Ecosystem",
+    "GMCI 30 Index",
+    "GMCI Index",
+    "Made in USA",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The Stellar network is an open source, distributed, and community owned network used to facilitate cross-asset transfers of value. Stellar aims to help facilitate cross-asset transfer of value at a fraction of a penny while aiming to be an open financial system that gives people of all income levels access to low-cost financial services. Stellar can handle exchanges between fiat-based currencies and between cryptocurrencies. Stellar.org, the organization that supports Stellar, is centralized like XRP and meant to handle cross platform transactions and micro transactions like XRP. However, unlike Ripple, Stellar.org is non-profit and their platform itself is open source and decentralized. \r\n\r\nStellar was founded by Jed McCaleb in 2014. Jed McCaleb is also the founder of Mt. Gox and co-founder of Ripple, launched the network system Stellar with former lawyer Joyce Kim. Stellar is also a payment technology that aims to connect financial institutions and drastically reduce the cost and time required for cross-border transfers. In fact, both payment networks used the same protocol initially.\r\n\r\nDistributed Exchange\r\nThrough the use of its intermediary currency Lumens (XLM), a user can send any currency that they own to anyone else in a different currency.\r\n\r\nFor instance, if Joe wanted to send USD to Mary using her EUR, an offer is submitted to the distributed exchange selling USD for EUR. This submitted offer forms is known as an order book. The network will use the order book to find the best exchange rate for the transaction in-order to minimize the fee paid by a user.\r\n\r\nThis multi-currency transaction is possible because of \"Anchors\". Anchors are trusted entities that hold people’s deposits and can issue credit. In essence, Anchors serves as the bridge between different currencies and the Stellar network.\r\n\r\nLumens (XLM)\r\nLumens are the native asset (digital currency) that exist on the Stellar network that helps to facilitate multi-currency transactions and prevent spams. For multi-currency transactions, XLM is the digital intermediary that allows for such a transaction to occur at a low cost.\r\n\r\nIn-order to prevent DoS attacks (aka spams) that would inevitably occur on the Stellar network, a small fee of 0.00001 XLM is associated with every transaction that occurs on the network. This fee is small enough so it does not significantly affect the cost of transaction, but large enough so it dissuades bad actors from spamming the network. \r\n\r\nPrior to Protocol 12, Stellar had a built-in inflation mechanism conceived to allow account holders to collectively direct inflation-generated lumens toward projects built on Stellar.\r\n\r\nAs the network evolved and grew, it became increasingly clear that inflation wasn’t working as intended — account holders either didn’t set their inflation destination or joined inflation pools to claim the inflation themselves, and the operational costs associated with inflation payments continued to rise — and so a protocol change to disable inflation was proposed, implemented, voted on by validators, and ultimately adopted as part of a network upgrade.\r\n\r\nThe inflation operation is now deprecated.\r\nhttps://developers.stellar.org/docs/glossary/inflation/\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.stellar.org/",
+      "https://medium.com/stellar-community"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://dashboard.stellar.org/",
+      "https://stellar.expert/explorer/public/",
+      "https://steexp.com/",
+      "https://blockchair.com/stellar",
+      "https://explorer.energi.network/token/0xc0cd560393a3fad67486b10bbb461ed2a42dd882"
+    ],
+    "official_forum_url": [
+      "https://galactictalk.org/"
+    ],
+    "chat_url": [
+      "http://slack.stellar.org/",
+      "https://www.facebook.com/stellarfoundation/"
+    ],
+    "announcement_url": [
+      "https://stellarcommunity.org/",
+      "https://bitcointalk.org/index.php?topic=1428573.0"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "stellarorg",
+    "facebook_username": "stellarfoundation",
+    "bitcointalk_thread_identifier": 1428573,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/stellar",
+    "repos_url": {
+      "github": [
+        "https://github.com/stellar/stellar-core",
+        "https://github.com/stellar/js-stellar-sdk",
+        "https://github.com/stellar/go",
+        "https://github.com/stellar/stellar-protocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/100/thumb/fmpFRHHQ_400x400.jpg?1735231350",
+    "small": "https://coin-images.coingecko.com/coins/images/100/small/fmpFRHHQ_400x400.jpg?1735231350",
+    "large": "https://coin-images.coingecko.com/coins/images/100/large/fmpFRHHQ_400x400.jpg?1735231350"
+  },
+  "last_updated": "2025-07-11T05:00:57.547032+00:00"
+}

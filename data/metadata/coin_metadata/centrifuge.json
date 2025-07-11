@@ -1,0 +1,56 @@
+{
+  "id": "centrifuge",
+  "symbol": "cfg",
+  "name": "Centrifuge [OLD]",
+  "categories": [
+    "Polkadot Ecosystem",
+    "Real World Assets (RWA)",
+    "Coinbase Ventures Portfolio",
+    "Circle Ventures Portfolio",
+    "Galaxy Digital Portfolio",
+    "RWA Protocol"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The centrifuge token model powers centrifuge, providing the framework needed to run the platform without reliance on a single point of failure, including the centrifuge team or\r\nCompany, and to accelerate its utility. To accomplish this, centrifuge leverages the cryptoeconomic primitives of a native token called the centrifuge token (cfg), a nominated-proof-of-stake consensus algorithm that employs centrifuge to stake value, rewards for centrifuge adoption, and an on-chain governance mechanism that empowers centrifuge holders to guide the development of centrifuge."
+  },
+  "links": {
+    "homepage": [
+      "https://centrifuge.io/",
+      "https://app.centrifuge.io/",
+      "https://centrifuge.mirror.xyz/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/yEzyUq5gxF"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "centrifuge",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "centrifuge_chat",
+    "subreddit_url": "https://www.reddit.com/r/Centrifuge/",
+    "repos_url": {
+      "github": [
+        "https://github.com/centrifuge/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/15380/thumb/centrifuge.PNG?1696515027",
+    "small": "https://coin-images.coingecko.com/coins/images/15380/small/centrifuge.PNG?1696515027",
+    "large": "https://coin-images.coingecko.com/coins/images/15380/large/centrifuge.PNG?1696515027"
+  },
+  "last_updated": "2025-07-11T04:57:37.555698+00:00"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "pax-gold",
+  "symbol": "paxg",
+  "name": "PAX Gold",
+  "categories": [
+    "Stablecoins",
+    "Tokenized Assets",
+    "Tokenized Gold",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "Tokenized Commodities"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x45804880de22913dafe09f4980848ece6ecbaf78"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "PAX Gold (PAXG) is an asset-backed token where one token should represent one fine troy ounce of a London Good Delivery gold bar, stored in professional vault facilities. Anyone who owns PAXG has ownership rights to that gold under the custody of Paxos Trust Company. Since PAXG represents physical gold, its value is tied directly to the real-time market value of that physical gold.\r\n\r\nPAXG gives customers the benefits of actual physical ownership of specific gold bars with the speed and mobility of a digital asset. Customers are able to have fractional ownership of physical bars. On the Paxos platform, customers can convert their tokens to allocated gold, unallocated gold, or fiat currency (and vice versa) quickly and efficiently, reducing their exposure to settlement risk. PAXG is also available for trading on Paxos’ itBit exchange. PAXG will also be available on other crypto-asset exchanges, wallets, lending platforms and elsewhere within the crypto ecosystem. \r\n\r\nAt any time, PAXG holders can lookup the serial number, value and physical characteristics of their vaulted gold just by entering their Ethereum wallet address on the PAXG lookup tool on Paxos.com/paxgold."
+  },
+  "links": {
+    "homepage": [
+      "https://www.paxos.com/paxgold/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x45804880de22913dafe09f4980848ece6ecbaf78",
+      "https://platform.arkhamintelligence.com/explorer/token/pax-gold",
+      "https://ethplorer.io/address/0x45804880de22913dafe09f4980848ece6ecbaf78",
+      "https://explorer.energi.network/token/0xbf8afa4663b30c621a5f7497a972fc63c1a06c66"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.linkedin.com/company/paxos/"
+    ],
+    "announcement_url": [
+      "https://medium.com/paxos"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "paxosglobal",
+    "facebook_username": "paxosglobal",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/paxosglobal/paxos-gold-contract"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/9519/thumb/paxgold.png?1696509604",
+    "small": "https://coin-images.coingecko.com/coins/images/9519/small/paxgold.png?1696509604",
+    "large": "https://coin-images.coingecko.com/coins/images/9519/large/paxgold.png?1696509604"
+  },
+  "last_updated": "2025-07-11T04:59:59.328686+00:00"
+}

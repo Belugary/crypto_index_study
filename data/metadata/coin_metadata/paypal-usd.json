@@ -1,0 +1,57 @@
+{
+  "id": "paypal-usd",
+  "symbol": "pyusd",
+  "name": "PayPal USD",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "Solana Ecosystem",
+    "Ethereum Ecosystem",
+    "Fiat-backed Stablecoin",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x6c3ea9036406852006290770bedfcaba0e23a0e8",
+    "solana": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "PayPal USD is designed to contribute to the opportunity stablecoins offer for payments and is 100% backed by U.S. dollar deposits, short-term U.S Treasuries and similar cash equivalents. PayPal USD is redeemable 1:1 for U.S. dollars and is issued by Paxos Trust Company."
+  },
+  "links": {
+    "homepage": [
+      "https://www.paypal.com/us/digital-wallet/manage-money/crypto/pyusd"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x6c3ea9036406852006290770bedfcaba0e23a0e8",
+      "https://platform.arkhamintelligence.com/explorer/token/paypal-usd",
+      "https://ethplorer.io/address/0x6c3ea9036406852006290770bedfcaba0e23a0e8",
+      "https://stablecoin.tokenview.io/en/pyusd",
+      "https://solscan.io/token/2b1kv6dkpanxd5ixfnxcpjxmkwqjjaymczfhsfu24gxo"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "PayPal",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/31212/thumb/PYUSD_Logo_%282%29.png?1696530039",
+    "small": "https://coin-images.coingecko.com/coins/images/31212/small/PYUSD_Logo_%282%29.png?1696530039",
+    "large": "https://coin-images.coingecko.com/coins/images/31212/large/PYUSD_Logo_%282%29.png?1696530039"
+  },
+  "last_updated": "2025-07-11T05:00:00.495657+00:00"
+}

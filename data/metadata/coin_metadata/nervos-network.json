@@ -1,0 +1,69 @@
+{
+  "id": "nervos-network",
+  "symbol": "ckb",
+  "name": "Nervos Network",
+  "categories": [
+    "Smart Contract Platform",
+    "Interoperability",
+    "Layer 2 (L2)",
+    "Rollup",
+    "Multicoin Capital Portfolio",
+    "Proof of Work (PoW)",
+    "DragonFly Capital Portfolio",
+    "Sequoia Capital Portfolio",
+    "Blockchain Capital Portfolio",
+    "Polychain Capital Portfolio",
+    "Made in China"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2019-11-15",
+  "country_origin": "",
+  "description": {
+    "en": "Nervos is a layered crypto-economy network. Nervos separates the infrastructure of a crypto-economy into two layers: a verification layer (layer 1) that serves as a trust root and smart custodian, and a generation layer (layer 2) for high-performance transactions and privacy protection.\r\n\r\nThis document provides an overview of the Nervos Common Knowledge Base (CKB), a public permissionless blockchain and layer 1 of Nervos. CKB generates trust and extends this trust to upper layers, making Nervos a trust network. It's also the value store of the Nervos network, providing public, secure and censorship-resistant custody services for assets, identities and other common knowledge created in the network.\r\n\r\nThe Nervos Common Knowledge Base (Nervos CKB for short) is a preservation focused, \"Store of Assets\" blockchain. Architecturally, it's designed to best support on-chain state and off-chain computation; economically, it's designed to provide sustainable security and decentralization. Nervos CKB is the base layer of the overall Nervos Network."
+  },
+  "links": {
+    "homepage": [
+      "http://nervos.org"
+    ],
+    "whitepaper": "https://github.com/nervosnetwork/rfcs/blob/master/rfcs/0002-ckb/0002-ckb.md",
+    "blockchain_site": [
+      "https://explorer.nervos.org/",
+      "https://ckb.tokenview.io/"
+    ],
+    "official_forum_url": [
+      "https://talk.nervos.org/"
+    ],
+    "chat_url": [
+      "https://www.facebook.com/theNervosNetwork/"
+    ],
+    "announcement_url": [
+      "https://medium.com/nervosnetwork",
+      "https://talk.nervos.org/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "nervosnetwork",
+    "facebook_username": "theNervosNetwork",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "nervosnetwork",
+    "subreddit_url": "https://www.reddit.com/r/NervosNetwork/",
+    "repos_url": {
+      "github": [
+        "https://github.com/nervosnetwork/ckb",
+        "https://github.com/nervosnetwork/ckb-vm",
+        "https://github.com/nervosnetwork/rfcs"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/9566/thumb/Nervos_White.png?1696509646",
+    "small": "https://coin-images.coingecko.com/coins/images/9566/small/Nervos_White.png?1696509646",
+    "large": "https://coin-images.coingecko.com/coins/images/9566/large/Nervos_White.png?1696509646"
+  },
+  "last_updated": "2025-07-11T04:59:39.862390+00:00"
+}

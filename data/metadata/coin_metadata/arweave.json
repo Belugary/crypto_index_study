@@ -1,0 +1,62 @@
+{
+  "id": "arweave",
+  "symbol": "ar",
+  "name": "Arweave",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Smart Contract Platform",
+    "Storage",
+    "Layer 1 (L1)",
+    "DePIN",
+    "Coinbase Ventures Portfolio",
+    "Multicoin Capital Portfolio",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "Blockchain Capital Portfolio"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "GB",
+  "description": {
+    "en": "Welcome to the future of data storage\r\nA new data storage blockchain protocol based on a novel proof of access consensus mechanism that creates truly permanent data storage for the first time. Now data is finally permanent, low-cost, and truly censorship free.\r\n\r\nArweave has solved the millennia old problem of decentralised data availability.\r\nPay Once, Store Forever.\r\nArweave makes permanent data storage a reality for the very first time. As the $3 trillion data-storage industry is growing, the need for cheap, distributed, permanent data-storage on the blockchain has become an urgent necessity."
+  },
+  "links": {
+    "homepage": [
+      "https://arweave.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://viewblock.io/arweave"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discordapp.com/invite/DjAFMJc",
+      "https://www.facebook.com/ArweaveTeam/"
+    ],
+    "announcement_url": [
+      "https://medium.com/@arweave"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "arweaveeco",
+    "facebook_username": "ArweaveTeam",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/ArweaveTeam/arweave"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/4343/thumb/oRt6SiEN_400x400.jpg?1696504946",
+    "small": "https://coin-images.coingecko.com/coins/images/4343/small/oRt6SiEN_400x400.jpg?1696504946",
+    "large": "https://coin-images.coingecko.com/coins/images/4343/large/oRt6SiEN_400x400.jpg?1696504946"
+  },
+  "last_updated": "2025-07-11T04:56:58.384858+00:00"
+}

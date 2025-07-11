@@ -1,0 +1,63 @@
+{
+  "id": "ousg",
+  "symbol": "ousg",
+  "name": "OUSG",
+  "categories": [
+    "Tokenized Assets",
+    "Solana Ecosystem",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "Tokenized Treasury Bonds (T-Bonds)"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x1b19c19393e2d034d8ff31ff34c81252fcbbee92",
+    "polygon-pos": "0xba11c5effa33c4d6f8f593cfa394241cfe925811",
+    "solana": "i7u4r16TcsJTgq1kAG8opmVZyVnAKBwLKu6ZPMwzxNc"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "OUSG is a tokenized short-term US Treasury bills ETF, overseen and managed by Ondo Capital Management, a subsidiary of Ondo Finance. The significant majority of this portfolio is held in the iShares Short Treasury Bond ETF (NASDAQ: SHV). There is also a small portion of USDC and USD for liquidity purposes.\r\nOUSG brings exposure to the ‘risk-free’ US Treasury rate on-chain for the first time. OUSG is an investment option that delivers a stable and predictable return while offering deep liquidity. Ondo funds such as OUSG only ever invest into ETFs backed by secure, stable, and liquid securities; these are the same assets in which trillions of dollars are invested every day by the world's largest institutions.\r\nOUSG was developed alongside two other fund tokens, OSTB and OHYG, by Ondo Finance, a software development firm in DeFi. Ondo launched in August 2021. Its first product was Ondo Vaults, a structured finance protocol on Ethereum. Later that year, Ondo launched Liquidity-as-a-Service (LaaS), facilitating over $210M in total liquidity provided.\r\n\r\nAs DeFi yields compressed in 2022, the Ondo team decided to sunset Vaults and LaaS (together, \"Ondo V1\") to focus on next-generation protocols. Ondo V2, including Ondo’s tokenized funds, were announced by Nathan Allman in January 2023. Ondo funds subsequently opened to subscriptions soon after. \r\n\r\nWhat can OUSG be Used For?\r\nFor investors who pass KYC and AML screening and sign subscription documents, OUSG tokens represent ownership in the fund. Investors can transfer these tokens between each other to effect changes in fund ownership. Investors can also use smart contracts to facilitate their financial arrangements such as by engaging in lending and trading activities with each other. \r\n\r\nThe tokens themselves have transfer restrictions that will ensure they do not end up in the hands of anyone not appropriately qualified as an investor in the fund."
+  },
+  "links": {
+    "homepage": [
+      "https://ondo.finance/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x1b19c19393e2d034d8ff31ff34c81252fcbbee92",
+      "https://platform.arkhamintelligence.com/explorer/token/ousg",
+      "https://ethplorer.io/address/0x1b19c19393e2d034d8ff31ff34c81252fcbbee92",
+      "https://polygonscan.com/token/0xba11c5effa33c4d6f8f593cfa394241cfe925811",
+      "https://solscan.io/token/i7u4r16tcsjtgq1kag8opmvzyvnakbwlku6zpmwzxnc"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/YzhZaFbB92",
+      "https://blog.ondo.finance/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ondofinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/ondoprotocol/tokenized-funds"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/29023/thumb/OUSG.png?1696527993",
+    "small": "https://coin-images.coingecko.com/coins/images/29023/small/OUSG.png?1696527993",
+    "large": "https://coin-images.coingecko.com/coins/images/29023/large/OUSG.png?1696527993"
+  },
+  "last_updated": "2025-07-11T04:59:56.823978+00:00"
+}

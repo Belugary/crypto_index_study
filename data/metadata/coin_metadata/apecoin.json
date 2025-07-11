@@ -1,0 +1,65 @@
+{
+  "id": "apecoin",
+  "symbol": "ape",
+  "name": "ApeCoin",
+  "categories": [
+    "Gaming (GameFi)",
+    "NFT",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem",
+    "Animoca Brands Portfolio",
+    "Gaming Blockchains",
+    "Gaming Governance Token",
+    "Gaming Utility Token",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "ApeChain Ecosystem",
+    "Airdropped Tokens by NFT Projects",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x4d224452801aced8b2f0aebe155379bb5d594381",
+    "polygon-pos": "0xb7b31a6bc18e48888545ce79e83e06003be70930"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "ApeCoin is an ERC-20 governance and utility token used within the APE ecosystem to empower a decentralized community building at the forefront of web3.\r\n\r\nAs the open-source protocol layer of the ecosystem, ApeCoin serves several purposes:\r\n\r\nGovernance - ApeCoin is the ecosystem’s governance token, allowing ApeCoin holders to participate in ApeCoin DAO.\r\nUnification of Spend - ApeCoin is the ecosystem’s utility token, giving all its participants a shared and open currency that can be used without centralized intermediaries.\r\nAccess - ApeCoin provides access to certain parts of the ecosystem that are otherwise unavailable, such as exclusive games, merch, events, and services.\r\nIncentivization - ApeCoin is a tool for third-party developers to participate in the ecosystem by incorporating APE into services, games, and other projects.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://apecoin.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x4d224452801aced8b2f0aebe155379bb5d594381",
+      "https://platform.arkhamintelligence.com/explorer/token/apecoin",
+      "https://ethplorer.io/address/0x4d224452801aced8b2f0aebe155379bb5d594381",
+      "https://polygonscan.com/token/0xb7b31a6bc18e48888545ce79e83e06003be70930",
+      "https://ethereum.dex.guru/token/0x4d224452801aced8b2f0aebe155379bb5d594381"
+    ],
+    "official_forum_url": [
+      "https://forum.apecoin.com/"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": "https://snapshot.org/#/apecoin.eth",
+    "twitter_screen_name": "apecoin",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/24383/thumb/apecoin.jpg?1696523566",
+    "small": "https://coin-images.coingecko.com/coins/images/24383/small/apecoin.jpg?1696523566",
+    "large": "https://coin-images.coingecko.com/coins/images/24383/large/apecoin.jpg?1696523566"
+  },
+  "last_updated": "2025-07-11T04:56:53.312630+00:00"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "safe",
+  "symbol": "safe",
+  "name": "Safe",
+  "categories": [
+    "Infrastructure",
+    "Wallets",
+    "Gnosis Chain Ecosystem",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x5afe3855358e112b5647b952709e6165e1c1eeee",
+    "xdai": "0x4d18815d14fe5c3304e87b3fa18318baa5c23820"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Safe is the ownership layer of web3 securing >$100B+. It includes Safe{Core} a full stack of account abstraction infrastructure and the industry-standard multi-sig, Safe{Wallet}. The project is focused on making every Ethereum account, a smart account and enabling new use cases like AI, Staking, Gaming, SocialFi, DeFi, and Payments to flourish with  gasless transaction, easy face-ID like logins, onramps, recovery and more. Safe currently has a large ecosystem of 200+ projects including Gnosis Pay and Worldcoin, deployed in over 15 networks, building on the Safe smart account standard. Safe{Wallet} is also used widely by individuals like Vitalik Buterin, Punk6529 as well as web2 giants like Shopify and Reddit for self-custody of assets and high value NFTs.\r\n\r\nAs of April 2023, over 8M Safe accounts have been created, making >40 million transactions. The open-source contracts are battle-tested and have been formally verified and audited multiple times. There have been no critical security incidents since Safe was deployed in 2018 and Safe remains the benchmark of security in the industry.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://safe.global/"
+    ],
+    "whitepaper": "https://docs.safe.global/home/what-is-safe",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x5afe3855358e112b5647b952709e6165e1c1eeee",
+      "https://platform.arkhamintelligence.com/explorer/token/safe",
+      "https://etherscan.io/accounts/label/gnosis-safe",
+      "https://ethplorer.io/address/0x5afe3855358e112b5647b952709e6165e1c1eeee",
+      "https://gnosisscan.io/token/0x4d18815d14fe5c3304e87b3fa18318baa5c23820"
+    ],
+    "official_forum_url": [
+      "https://safe.mirror.xyz/",
+      "https://github.com/safe-global"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "safe",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/safe-global"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/27032/thumb/Artboard_1_copy_8circle-1.png?1696526084",
+    "small": "https://coin-images.coingecko.com/coins/images/27032/small/Artboard_1_copy_8circle-1.png?1696526084",
+    "large": "https://coin-images.coingecko.com/coins/images/27032/large/Artboard_1_copy_8circle-1.png?1696526084"
+  },
+  "last_updated": "2025-07-11T05:00:32.642658+00:00"
+}

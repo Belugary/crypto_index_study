@@ -1,0 +1,51 @@
+{
+  "id": "bitcoin-cash-sv",
+  "symbol": "bsv",
+  "name": "Bitcoin SV",
+  "categories": [
+    "Smart Contract Platform",
+    "Bitcoin Fork",
+    "Proof of Work (PoW)"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "SHA-256",
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Bitcoin SV (BSV) emerged following a hard fork of the Bitcoin Cash (BCH) blockchain in 2018, which had in turn forked from the BTC blockchain a year earlier. The goal of Bitcoin SV is to fulfil the original vision of the Bitcoin protocol and design as described in Satoshi Nakamoto’s white paper, early Bitcoin client software and known Satoshi writings. BSV aims to offer scalability and stability in line with the original description of Bitcoin as a peer-to-peer electronic cash system, as well as deliver a distributed data network that can support enterprise-level advanced blockchain applications. To this end, it has removed artificial block size limits and re-enabled Script commands and other technical capabilities which had been historically disabled or restricted by the protocol developers of the BTC blockchain. This allows the network to process tens of thousands of transactions per second while maintaining extremely low transaction fees for micropayments, in addition to offering advanced capabilities such as tokens, smart contracts, computation and other data use cases. The BSV network is unique in its capacity for unbounded on-chain scaling while also being more aligned with the original design of Bitcoin than any other blockchain."
+  },
+  "links": {
+    "homepage": [
+      "https://bitcoinsv.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "http://whatsonchain.com"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "BSVBlockchain",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/bitcoin-sv/bitcoin-sv"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/6799/thumb/BSV.png?1696507128",
+    "small": "https://coin-images.coingecko.com/coins/images/6799/small/BSV.png?1696507128",
+    "large": "https://coin-images.coingecko.com/coins/images/6799/large/BSV.png?1696507128"
+  },
+  "last_updated": "2025-07-11T04:57:22.808183+00:00"
+}

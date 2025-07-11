@@ -1,0 +1,71 @@
+{
+  "id": "pyth-network",
+  "symbol": "pyth",
+  "name": "Pyth Network",
+  "categories": [
+    "Business Services",
+    "Infrastructure",
+    "Decentralized Finance (DeFi)",
+    "Oracle",
+    "Solana Ecosystem",
+    "Neon Ecosystem",
+    "Manta Network Ecosystem",
+    "Multicoin Capital Portfolio",
+    "GMCI DeFi Index",
+    "Delphi Ventures Portfolio",
+    "GMCI Index"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3",
+    "manta-pacific": "0x90e95735378a31bfad2dcd87128fbb80ffeb6917",
+    "neon-evm": "0x0575dd4afd93b7522fee4e0179f243eca3856137"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Pyth Network is a decentralised oracle network designed to provide real-time financial market data to decentralised applications (dApps) across multiple blockchains.\r\nIt allows developer to secure smart contracts with reliable, low-latency market data from institutional sources, and build apps with high-fidelity oracle feeds designed for mission-critical systems."
+  },
+  "links": {
+    "homepage": [
+      "https://pyth.network/"
+    ],
+    "whitepaper": "https://pyth.network/whitepaper_v2.pdf",
+    "blockchain_site": [
+      "https://explorer.solana.com/address/hz1jovnivvgrgniiyveozevgz58xau3rkwx8eacqbct3",
+      "https://platform.arkhamintelligence.com/explorer/token/pyth-network",
+      "https://solscan.io/token/hz1jovnivvgrgniiyveozevgz58xau3rkwx8eacqbct3",
+      "https://neonscan.org/token/0x0575dd4afd93b7522fee4e0179f243eca3856137",
+      "https://pacific-explorer.manta.network/address/0x90e95735378a31bfad2dcd87128fbb80ffeb6917"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/pyth-network"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/PythNetwork",
+      "https://pyth.network/blog",
+      "https://www.youtube.com/@pythnetwork"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "PythNetwork",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Pyth_Network",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/pyth-network/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/31924/thumb/pyth.png?1701245725",
+    "small": "https://coin-images.coingecko.com/coins/images/31924/small/pyth.png?1701245725",
+    "large": "https://coin-images.coingecko.com/coins/images/31924/large/pyth.png?1701245725"
+  },
+  "last_updated": "2025-07-11T05:00:16.698687+00:00"
+}

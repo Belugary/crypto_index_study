@@ -1,0 +1,81 @@
+{
+  "id": "stargate-finance",
+  "symbol": "stg",
+  "name": "Stargate Finance",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Yield Farming",
+    "BNB Chain Ecosystem",
+    "Avalanche Ecosystem",
+    "Polygon Ecosystem",
+    "Fantom Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Linea Ecosystem",
+    "Bridge Governance Tokens",
+    "Base Ecosystem",
+    "FTX Holdings"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6",
+    "arbitrum-one": "0x6694340fc020c5e6b96567843da2df01b2ce1eb6",
+    "optimistic-ethereum": "0x296f55f8fb28e498b858d0bcda06d955b2cb3f97",
+    "base": "0xe3b53af74a4bf62ae5511055290838050bf764df",
+    "linea": "0x808d7c71ad2ba3fa531b068a2417c63106bc0949",
+    "binance-smart-chain": "0xb0d502e938ed5f4df2e681fe6e419ff29631d62b",
+    "fantom": "0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590",
+    "avalanche": "0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590",
+    "polygon-pos": "0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "A composable native asset bridge with unified liquidity and instant guaranteed finality"
+  },
+  "links": {
+    "homepage": [
+      "https://stargate.finance/",
+      "https://stargateprotocol.gitbook.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6",
+      "https://platform.arkhamintelligence.com/explorer/token/stargate-finance",
+      "https://ethplorer.io/address/0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6",
+      "https://bscscan.com/token/0xb0d502e938ed5f4df2e681fe6e419ff29631d62b",
+      "https://snowtrace.io/token/0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590",
+      "https://polygonscan.com/token/0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590",
+      "https://arbiscan.io/token/0x6694340fc020c5e6b96567843da2df01b2ce1eb6",
+      "https://ftmscan.com/token/0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590",
+      "https://avascan.info/blockchain/c/address/0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590/token",
+      "https://optimistic.etherscan.io/token/0x296f55f8fb28e498b858d0bcda06d955b2cb3f97"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://stargate.finance/discord"
+    ],
+    "announcement_url": [
+      "https://medium.com/stargate-official"
+    ],
+    "snapshot_url": "https://snapshot.org/#/stgdao.eth",
+    "twitter_screen_name": "StargateFinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/24413/thumb/STG_LOGO.png?1696523595",
+    "small": "https://coin-images.coingecko.com/coins/images/24413/small/STG_LOGO.png?1696523595",
+    "large": "https://coin-images.coingecko.com/coins/images/24413/large/STG_LOGO.png?1696523595"
+  },
+  "last_updated": "2025-07-11T05:00:53.550397+00:00"
+}

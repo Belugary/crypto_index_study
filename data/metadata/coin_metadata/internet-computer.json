@@ -1,0 +1,68 @@
+{
+  "id": "internet-computer",
+  "symbol": "icp",
+  "name": "Internet Computer",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Infrastructure",
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Internet Computer Ecosystem",
+    "Alleged SEC Securities",
+    "Multicoin Capital Portfolio",
+    "Layer 0 (L0)",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "GMCI Layer 1 Index",
+    "GMCI 30 Index",
+    "Blockchain Capital Portfolio",
+    "GMCI Index",
+    "Polychain Capital Portfolio",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": "internet-computer",
+  "platforms": {
+    "internet-computer": "ryjl3-tyaaa-aaaaa-aaaba-cai"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Internet Computer (IC) is the world’s first blockchain that is capable of running at web speed at unrestrictive capacities. Built by the DFINITY Foundation, IC aims to recreate the web by supporting smart contract development at scale and changing the way people can interact using web services. Internet Computer aims to extend the public internet, so that it can be the world’s computing platform, in a decentralized manner. Internet Computer sets to revolutionalize the design of the crypto economy, with an aim to overhaul traditional software services. \r\n\r\nThe project was founded in October 2016 by Dominic WIllams and have raised a total of $121 million from investors such as Adreessen Horowitz, Polychain Capital, Multicoin Capital and such. On May 10, 2021, DFINITY launched the Internet Computer into the public domain, marking it a major milestone for ICP as it means the internet now functions as a decentralised global computer. This is marked by the release of all of the Internet Computer’s source code into the public domain, as well as ICP utility token that allows tens of thousands of community members to govern the Internet Computer network.\r\n\r\nICP is Internet Computer's native token. It plays three prominent roles:\r\n\r\n1. Network Governance: Users that participate in the governance will be rewarded with ICPI\r\n2. Production of Cycles for Compute: ICP can be converted into cycles where it is used as the transaction fee to access the network. Cycles are burned after used.\r\n3. Rewarding Users: ICP is used as the rewards to incentivize users to participate in the network such as securing the network."
+  },
+  "links": {
+    "homepage": [
+      "https://internetcomputer.org/"
+    ],
+    "whitepaper": "https://internetcomputer.org/whitepaper.pdf",
+    "blockchain_site": [
+      "https://dashboard.internetcomputer.org/canister/ryjl3-tyaaa-aaaaa-aaaba-cai"
+    ],
+    "official_forum_url": [
+      "https://forum.dfinity.org/",
+      "https://wiki.internetcomputer.org/wiki/Internet_Computer_wiki"
+    ],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/dfinity"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "dfinity",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "+m8tiEFaaNR8xNjNl",
+    "subreddit_url": "https://www.reddit.com/r/dfinity/",
+    "repos_url": {
+      "github": [
+        "https://github.com/dfinity/ic"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/14495/thumb/Internet_Computer_logo.png?1696514180",
+    "small": "https://coin-images.coingecko.com/coins/images/14495/small/Internet_Computer_logo.png?1696514180",
+    "large": "https://coin-images.coingecko.com/coins/images/14495/large/Internet_Computer_logo.png?1696514180"
+  },
+  "last_updated": "2025-07-11T04:58:52.361653+00:00"
+}

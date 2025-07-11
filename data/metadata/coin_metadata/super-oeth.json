@@ -1,0 +1,67 @@
+{
+  "id": "super-oeth",
+  "symbol": "superoeth",
+  "name": "Super OETH",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Liquid Staking Tokens",
+    "Base Ecosystem",
+    "Liquid Staked ETH",
+    "Liquid Staking",
+    "Plume Network Ecosystem"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0xdbfefd2e8460a6ee4955a68582f85708baea60a3",
+    "plume-network": "0xfcbe50dbe43bf7e5c88c6f6fb9ef432d4165406e"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Origin’s expansion to Base introduces a new class of supercharged LSTs to accrue value to OGN. Super OETH will be the first token of its kind to offer a high yield on ETH with minimal risk.\r\n\r\nInstead of simply bridging Origin Ether to Base, we’ve designed a new supercharged LST that uses OETH as a building block for higher yields. Super OETH uses L2 incentives to enhance LST yield, earning far higher APYs than traditional LSTs. Our new product is the first supercharged LST, slated to launch on Base with additional L2s in the pipeline for this year."
+  },
+  "links": {
+    "homepage": [
+      "https://www.originprotocol.com/super-oeth",
+      "https://originprotocol.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://basescan.org/token/0xdbfefd2e8460a6ee4955a68582f85708baea60a3",
+      "https://platform.arkhamintelligence.com/explorer/token/super-oeth",
+      "https://phoenix-explorer.plumenetwork.xyz/token/0xFCbe50DbE43bF7E5C88C6F6Fb9ef432D4165406E",
+      "https://explorer.plume.org/token/0xfcbe50dbe43bf7e5c88c6f6fb9ef432d4165406e"
+    ],
+    "official_forum_url": [
+      "https://www.tiktok.com/@origin_protocol",
+      "https://instagram.com/originprotocol",
+      "https://x.com/origin_intern"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/ogn",
+      "https://www.originprotocol.com/blog#press",
+      "https://www.youtube.com/c/originprotocol"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": null,
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/originprotocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39828/thumb/Super_OETH.png?1724208268",
+    "small": "https://coin-images.coingecko.com/coins/images/39828/small/Super_OETH.png?1724208268",
+    "large": "https://coin-images.coingecko.com/coins/images/39828/large/Super_OETH.png?1724208268"
+  },
+  "last_updated": "2025-07-11T05:01:04.292504+00:00"
+}

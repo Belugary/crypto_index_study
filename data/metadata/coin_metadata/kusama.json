@@ -1,0 +1,65 @@
+{
+  "id": "kusama",
+  "symbol": "ksm",
+  "name": "Kusama",
+  "categories": [
+    "Smart Contract Platform",
+    "Polkadot Ecosystem",
+    "Proof of Stake (PoS)",
+    "Pantera Capital Portfolio",
+    "Made in USA",
+    "Coinbase 50 Index",
+    "Hydration Ecosystem"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": "",
+    "hydration": "asset_registry%2F1000771"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Kusama is a public blockchain network that is running the exact same codebase as Polkadot. It is aimed to be a canary build for the Polkadot network which is an experimental and development environment for new features that will eventually be deployed to Polkadot. Because of the experimental nature of Kusama, the developmental speed is much faster and it has seen significant traction since launched in 2019.\r\n\r\nKusama is an early, highly experimental version of Polkadot presenting real economic conditions. The community will own the network – there will be no central kill switch. Kusama will exist as long as its community maintains it and we envision it will cater to new, early functionality and projects preparing to develop and deploy on Polkadot."
+  },
+  "links": {
+    "homepage": [
+      "https://kusama.network/",
+      "https://kusama.polkastats.io/",
+      "https://www.subwallet.app/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://polkascan.io/pre/kusama-cc3",
+      "https://kusama.subscan.io/",
+      "https://explorer.energi.network/token/0xdf46057212dc0476c845fad421aac683608458a2",
+      "https://hydration.subscan.io/custom_token?unique_id=asset_registry%2F1000771"
+    ],
+    "official_forum_url": [
+      "https://forum.kusama.network/"
+    ],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/polkadot-network/kusama-network-7446706b8f4c"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "kusamanetwork",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/paritytech/polkadot-sdk"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/9568/thumb/m4zRhP5e_400x400.jpg?1696509648",
+    "small": "https://coin-images.coingecko.com/coins/images/9568/small/m4zRhP5e_400x400.jpg?1696509648",
+    "large": "https://coin-images.coingecko.com/coins/images/9568/large/m4zRhP5e_400x400.jpg?1696509648"
+  },
+  "last_updated": "2025-07-11T04:59:07.769653+00:00"
+}

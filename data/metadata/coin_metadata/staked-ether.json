@@ -1,0 +1,60 @@
+{
+  "id": "staked-ether",
+  "symbol": "steth",
+  "name": "Lido Staked Ether",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Liquid Staking Tokens",
+    "Ethereum Ecosystem",
+    "Liquid Staked ETH",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Lido Staked Ether (stETH) is a token that represents your staked ether in Lido, combining the value of initial deposit and staking rewards. stETH tokens are minted upon deposit and burned when redeemed. stETH token balances are pegged 1:1 to the ethers that are staked by Lido and the token’s balances are updated daily to reflect earnings and rewards. stETH tokens can be used as one would use ether, allowing you to earn ETH 2.0 staking rewards whilst benefiting from e.g. yields across decentralised finance products."
+  },
+  "links": {
+    "homepage": [
+      "https://www.lido.fi"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+      "https://platform.arkhamintelligence.com/explorer/token/staked-ether",
+      "https://ethplorer.io/address/0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+      "https://ethereum.dex.guru/token/0xae7ab96520de3a18e5e111b5eaab095312d7fe84"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/vgdPfhZ"
+    ],
+    "announcement_url": [
+      "https://blog.lido.fi"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "lidofinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "lidofinance",
+    "subreddit_url": "https://www.reddit.com/r/lidofinance/",
+    "repos_url": {
+      "github": [
+        "https://github.com/lidofinance"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/13442/thumb/steth_logo.png?1696513206",
+    "small": "https://coin-images.coingecko.com/coins/images/13442/small/steth_logo.png?1696513206",
+    "large": "https://coin-images.coingecko.com/coins/images/13442/large/steth_logo.png?1696513206"
+  },
+  "last_updated": "2025-07-11T05:00:51.347607+00:00"
+}

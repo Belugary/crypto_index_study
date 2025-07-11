@@ -1,0 +1,58 @@
+{
+  "id": "nano",
+  "symbol": "xno",
+  "name": "Nano",
+  "categories": [
+    "Layer 1 (L1)",
+    "Payment Solutions",
+    "Made in USA",
+    "Directed Acyclic Graph (DAG)"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Directed Acyclic Graph (DAG)",
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Nano, a low-latency cryptocurrency built on an innovative block-lattice data structure offering unlimited scalability and no transaction fees. Nano by design is a simple protocol with the sole purpose of being a high-performance cryptocurrency. The Nano protocol can run on low-power hardware, allowing it to be a practical, decentralized cryptocurrency for everyday use. It uses an ORV (Open Representative Voting) consensus algorithm, which is similar to PoS (Proof of Stake) but without inflationary rewards not locking of the native coin XNO.\r\n\r\nThe original Nano (RailBlocks) paper and first beta implementation were published in December, 2014, making it one of the first Directed Acyclic Graph (DAG) based cryptocurrencies [6]. Soon after, other DAG cryptocurrencies began to develop, most notably DagCoin/Byteball and IOTA. These DAG-based cryptocurrencies broke the blockchain mold, improving system performance and security. Byteball achieves consensus by relying on a “main-chain” comprised of honest, reputable and user-trusted “witnesses”, while IOTA achieves consensus via the cumulative PoW of stacked transactions. Nano achieves consensus via a balance-weighted vote on conflicting transactions. This consensus system provides quicker, more deterministic transactions while still maintaining a strong, decentralized system. Nano continues this development and has positioned itself as one of the highest performing cryptocurrencies.\r\n\r\nNano is a trustless, feeless, low-latency cryptocurrency that utilizes a novel blocklattice structure and delegated Proof of Stake voting. The network requires minimal resources, no high-power mining hardware, and can process high transaction throughput. All of this is achieved by having individual blockchains for each account, eliminating access issues and inefficiencies of a global data-structure. We identified possible attack vectors on the system and presented arguments on how Nano is resistant to these forms of attacks.\r\n\r\nCheck out CoinBureau for the complete review of Nano."
+  },
+  "links": {
+    "homepage": [
+      "https://nano.org"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://blocklattice.io/"
+    ],
+    "official_forum_url": [
+      "https://medium.com/nanocurrency"
+    ],
+    "chat_url": [
+      "https://chat.nano.org/"
+    ],
+    "announcement_url": [
+      "https://nault.cc/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "nano",
+    "facebook_username": "nanofoundation",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "nanocurrency",
+    "subreddit_url": "https://www.reddit.com/r/nanocurrency",
+    "repos_url": {
+      "github": [
+        "https://github.com/nanocurrency/raiblocks"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/756/thumb/nano.png?1696501910",
+    "small": "https://coin-images.coingecko.com/coins/images/756/small/nano.png?1696501910",
+    "large": "https://coin-images.coingecko.com/coins/images/756/large/nano.png?1696501910"
+  },
+  "last_updated": "2025-07-11T04:59:36.862434+00:00"
+}

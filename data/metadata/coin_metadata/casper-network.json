@@ -1,0 +1,61 @@
+{
+  "id": "casper-network",
+  "symbol": "cspr",
+  "name": "Casper Network",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Real World Assets (RWA)",
+    "Proof of Stake (PoS)",
+    "GMCI Layer 1 Index",
+    "GMCI Index",
+    "Made in USA"
+  ],
+  "asset_platform_id": "casper-network",
+  "platforms": {
+    "casper-network": "40bd4a45c414df61be3832e28ff6dcedc479744707c611fd97fea0d90619146f"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Casper is a Proof-of-Stake Layer-1 blockchain designed to bring real-world assets on-chain. Launched on mainnet in March 2021, Casper provides infrastructure for tokenized assets, featuring upgradable smart contracts, protocol-level access control, and native support for multiple virtual machines (VMs).\r\n\r\nThe network runs on Zug Consensus, a deterministic protocol offering instant finality that is crucial for financial transactions, regulated assets, and enterprise workflows. Casper is also among the first Layer-1 networks to support multiple VMs running in parallel, allowing applications with different technical needs to operate natively on the same chain without relying on rollups or Layer-2 solutions.\r\n\r\nOffering a familiar and modern development environment, Casper prioritizes developer accessibility. Supporting Rust, WebAssembly (WASM), and SDKs in mainstream languages like JavaScript, Python, and Go, Casper enables millions of developers, not just Web3 specialists, to build production-grade blockchain applications without learning obscure or domain-specific tools."
+  },
+  "links": {
+    "homepage": [
+      "https://casper.network/",
+      "https://CSPR.live",
+      "https://github.com/casper-network"
+    ],
+    "whitepaper": "https://www.casper.network/core-features-casper-network",
+    "blockchain_site": [
+      "https://casperstats.io/",
+      "https://cspr.live/contract/40bd4a45c414df61be3832e28ff6dcedc479744707c611fd97fea0d90619146f"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/caspernetwork"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Casper_Network",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "casperblockchain",
+    "subreddit_url": "https://www.reddit.com/r/CasperProtocol/",
+    "repos_url": {
+      "github": [
+        "https://github.com/casper-ecosystem",
+        "https://github.com/casper-network"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/15279/thumb/Casper_Monogram_Favicon_White_on_Red_Circle_RGB_200px.png?1749832573",
+    "small": "https://coin-images.coingecko.com/coins/images/15279/small/Casper_Monogram_Favicon_White_on_Red_Circle_RGB_200px.png?1749832573",
+    "large": "https://coin-images.coingecko.com/coins/images/15279/large/Casper_Monogram_Favicon_White_on_Red_Circle_RGB_200px.png?1749832573"
+  },
+  "last_updated": "2025-07-11T04:57:35.332027+00:00"
+}

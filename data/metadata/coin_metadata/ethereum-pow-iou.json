@@ -1,0 +1,57 @@
+{
+  "id": "ethereum-pow-iou",
+  "symbol": "ethw",
+  "name": "EthereumPoW",
+  "categories": [
+    "Smart Contract Platform",
+    "EthereumPoW Ecosystem",
+    "Proof of Work (PoW)"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "This page refers to the Ethereum Proof of Work (ETHW or ETHPOW) which tracks the spot and derivative prices of IOU markets across a growing number of exchange as the chain forks away from the original Ethereum chain that has migrated to proof of stake."
+  },
+  "links": {
+    "homepage": [
+      "https://ethereumpow.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://ethwscan.com",
+      "https://www.oklink.com/ethw"
+    ],
+    "official_forum_url": [
+      "https://medium.com/@ETHW",
+      "https://airtable.com/shrKYVn7tsDcXnLXk/tblF9Hl9jQsCqtD09"
+    ],
+    "chat_url": [
+      "https://discord.gg/apcxzJdZaU"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "EthereumPoW",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "ethereumpow_official",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/ethereumpow"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/26997/thumb/logo-clear.png?1696526049",
+    "small": "https://coin-images.coingecko.com/coins/images/26997/small/logo-clear.png?1696526049",
+    "large": "https://coin-images.coingecko.com/coins/images/26997/large/logo-clear.png?1696526049"
+  },
+  "last_updated": "2025-07-11T04:58:19.792173+00:00"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "neiro-on-eth",
+  "symbol": "neiro",
+  "name": "Neiro on ETH",
+  "categories": [
+    "Meme",
+    "Ethereum Ecosystem",
+    "Dog-Themed"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xee2a03aa6dacf51c18679c516ad5283d8e7c2637"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The sister of the OG $DOGE, Kabosu, here to make history on the Ethereum chain! \r\n\r\nNeiro is a decentralized meme token on the ETH blockchain.\r\n\r\nNeiro Token is a very fun meme token project , Zero tax, pure simplicity, growing stronger by the day.\r\nWe’re here to add a splash of color to the blockchain scene and create memorable experiences for our community.\r\n\r\nLaunched stealth with presale, zero taxes, LP burnt and contract renounced - TAX: 0/0\r\nThis narrative has its roots in a fascinating story."
+  },
+  "links": {
+    "homepage": [
+      "https://www.neirocoin.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xee2a03aa6dacf51c18679c516ad5283d8e7c2637",
+      "https://platform.arkhamintelligence.com/explorer/token/neiro-on-eth",
+      "https://ethplorer.io/address/0xee2a03aa6dacf51c18679c516ad5283d8e7c2637"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": null,
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39438/thumb/Neiro.png?1722915026",
+    "small": "https://coin-images.coingecko.com/coins/images/39438/small/Neiro.png?1722915026",
+    "large": "https://coin-images.coingecko.com/coins/images/39438/large/Neiro.png?1722915026"
+  },
+  "last_updated": "2025-07-11T04:59:38.594240+00:00"
+}

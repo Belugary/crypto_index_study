@@ -1,0 +1,89 @@
+{
+  "id": "the-graph",
+  "symbol": "grt",
+  "name": "The Graph",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Business Services",
+    "Infrastructure",
+    "Smart Contract Platform",
+    "Analytics",
+    "Avalanche Ecosystem",
+    "Polygon Ecosystem",
+    "Near Protocol Ecosystem",
+    "Harmony Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "DePIN",
+    "Coinbase Ventures Portfolio",
+    "Multicoin Capital Portfolio",
+    "Proof of Stake (PoS)",
+    "Energi Ecosystem",
+    "Sora Ecosystem",
+    "Made in USA",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
+    "near-protocol": "c944e90c64b2c07662a292be6244bdf05cda44a7.factory.bridge.near",
+    "arbitrum-one": "0x9623063377ad1b27544c965ccd7342f7ea7e88c7",
+    "harmony-shard-0": "0x002fa662f2e09de7c306d2bab0085ee9509488ff",
+    "energi": "0x771513ba693d457df3678c951c448701f2eaaad5",
+    "sora": "0x00d1fb79bbd1005a678fbf2de9256b3afe260e8eead49bb07bd3a566f9fe8355",
+    "avalanche": "0x8a0cac13c7da965a312f08ea4229c37869e85cb9",
+    "polygon-pos": "0x5fe2b58c013d7601147dcdd68c143a77499f5531"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The Graph is an indexing protocol and global API for organizing blockchain data and making it easily accessible with GraphQL. Developers can use Graph Explorer to search, find, and publish all the public data they need to build decentralized applications. The Graph Network makes it possible to build serverless dApps that run entirely on public infrastructure.\r\n\r\nGRT is the native token of the network that’s used to coordinate work. GRT is an ERC20 token. Node operators, called Indexers, stake and earn GRT for processing queries. Anyone can delegate GRT to Indexers to secure the network and earn rewards. Curators organize data on The Graph by signaling GRT on useful APIs, called subgraphs. Indexers, Delegators, and Curators work together to organize the data for the crypto economy and maintain a useful global API for DeFi and Web3.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://thegraph.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xc944e90c64b2c07662a292be6244bdf05cda44a7",
+      "https://platform.arkhamintelligence.com/explorer/token/the-graph",
+      "https://ethplorer.io/address/0xc944e90c64b2c07662a292be6244bdf05cda44a7",
+      "https://polygonscan.com/token/0x5fe2b58c013d7601147dcdd68c143a77499f5531",
+      "https://arbiscan.io/token/0x9623063377ad1b27544c965ccd7342f7ea7e88c7",
+      "https://snowtrace.io/token/0x8a0cac13c7da965a312f08ea4229c37869e85cb9",
+      "https://avascan.info/blockchain/c/address/0x8a0cac13c7da965a312f08ea4229c37869e85cb9/token",
+      "https://explorer.energi.network/token/0x771513ba693d457df3678c951c448701f2eaaad5",
+      "https://nearblocks.io/token/c944e90c64b2c07662a292be6244bdf05cda44a7.factory.bridge.near",
+      "https://explorer.harmony.one/token/0x002fa662f2e09de7c306d2bab0085ee9509488ff"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/vtvv7FP"
+    ],
+    "announcement_url": [
+      "https://thegraph.com/blog/"
+    ],
+    "snapshot_url": "https://snapshot.org/#/graphprotocol.eth",
+    "twitter_screen_name": "graphprotocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "graphprotocol",
+    "subreddit_url": "https://www.reddit.com/r/thegraph",
+    "repos_url": {
+      "github": [
+        "https://github.com/graphprotocol/graph-node",
+        "https://github.com/graphprotocol/graph-ts",
+        "https://github.com/graphprotocol/graph-cli"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/13397/thumb/Graph_Token.png?1696513159",
+    "small": "https://coin-images.coingecko.com/coins/images/13397/small/Graph_Token.png?1696513159",
+    "large": "https://coin-images.coingecko.com/coins/images/13397/large/Graph_Token.png?1696513159"
+  },
+  "last_updated": "2025-07-11T05:01:17.615170+00:00"
+}

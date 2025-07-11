@@ -1,0 +1,66 @@
+{
+  "id": "waves",
+  "symbol": "waves",
+  "name": "Waves",
+  "categories": [
+    "Smart Contract Platform",
+    "DWF Labs Portfolio",
+    "Proof of Stake (PoS)"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x1cf4592ebffd730c7dc92c1bdffdfc3b9efcf29a"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Proof of Stake",
+  "genesis_date": "2016-06-12",
+  "country_origin": "CH",
+  "description": {
+    "en": "Waves is an open blockchain protocol and development toolset for Web 3.0 applications and decentralized solutions, aiming to raise security, reliability and speed of IT systems. It enables anyone to build their apps, fostering mass adoption of blockchain."
+  },
+  "links": {
+    "homepage": [
+      "https://waves.tech/"
+    ],
+    "whitepaper": null,
+    "blockchain_site": [
+      "http://wavesexplorer.com/",
+      "https://platform.arkhamintelligence.com/explorer/token/waves",
+      "http://wavesgo.com/",
+      "https://wavesdesk.com",
+      "https://etherscan.io/token/0x1cf4592ebffd730c7dc92c1bdffdfc3b9efcf29a",
+      "https://ethplorer.io/address/0x1cf4592ebffd730c7dc92c1bdffdfc3b9efcf29a",
+      "https://wscan.io/",
+      "https://wavescap.com/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://www.linkedin.cn/company/waves-platform",
+      "https://medium.com/wavesprotocol"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "wavesprotocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": 3223136,
+    "telegram_channel_identifier": "wavesnews",
+    "subreddit_url": "https://www.reddit.com/r/Wavesplatform/",
+    "repos_url": {
+      "github": [
+        "https://github.com/wavesplatform/",
+        "https://github.com/waves-enterprise/WE-releases",
+        "https://github.com/wavesplatform/WavesWallet-iOS",
+        "https://github.com/wavesplatform/WavesCS",
+        "https://github.com/wavesplatform/WavesGUI",
+        "https://github.com/wavesplatform/Waves"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/425/thumb/waves.png?1696501700",
+    "small": "https://coin-images.coingecko.com/coins/images/425/small/waves.png?1696501700",
+    "large": "https://coin-images.coingecko.com/coins/images/425/large/waves.png?1696501700"
+  },
+  "last_updated": "2025-07-11T05:01:50.792806+00:00"
+}

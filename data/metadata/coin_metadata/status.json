@@ -1,0 +1,60 @@
+{
+  "id": "status",
+  "symbol": "snt",
+  "name": "Status",
+  "categories": [
+    "Software as a service",
+    "Ethereum Ecosystem",
+    "Energi Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x744d70fdbe2ba4cf95131626614a1763df805b9e",
+    "energi": "0x6bb14afedc740dce4904b7a65807fe3b967f4c94"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2017-06-19",
+  "country_origin": "CH",
+  "description": {
+    "en": "Status is a mobile operating system that will completely change the way the world interacts with the Ethereum network.  Designed as a decentralized browser and private messenger, Status allows you to connect to the entire Ethereum network right in the palm of your hand. Status provides you access to all of Ethereum’s decentralized applications (dapps) through an app on your smartphone. It opens the door to mass adoption of Ethereum dapps by targeting the fastest growing computer segment in the world – smartphone users.\r\n\r\nThe creators behind Status are working towards bringing a decentralized world to life. Status essentially combines a messenger and a browser that allows everyday smartphone users to use decentralized applications, also known as dapps. Status is available on both Android and iOS. Status users can safely send, receive, and store Ether and other Ethereum crypto assets on their phone. They can also discover nearby Status users to exchange currency, services, and ideas locally.\r\n\r\nThe first time the world heard about the idea of Status was September 2016, at DevCon2, an annual conference for developers on the Ethereum blockchain. Co-founders Carl Bennetts and Jarrad Hope gave a presentation revealing the plans for their Ethereum light client.\r\n\r\nSNT is currently available for trade on many online exchanges, including Huobi, Binance, and Bittrex."
+  },
+  "links": {
+    "homepage": [
+      "https://status.im/",
+      "https://our.status.im/"
+    ],
+    "whitepaper": "https://status.im/whitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x744d70fdbe2ba4cf95131626614a1763df805b9e",
+      "https://platform.arkhamintelligence.com/explorer/token/status",
+      "https://ethplorer.io/address/0x744d70fdbe2ba4cf95131626614a1763df805b9e",
+      "https://explorer.energi.network/token/0x6bb14afedc740dce4904b7a65807fe3b967f4c94"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ethstatus",
+    "facebook_username": "ethstatus",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/statusim/",
+    "repos_url": {
+      "github": [
+        "https://github.com/status-im/status-react",
+        "https://github.com/status-im/status.im",
+        "https://github.com/status-im/status-go",
+        "https://github.com/status-im/swarms",
+        "https://github.com/status-im/react-native-desktop"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/779/thumb/status.png?1696501931",
+    "small": "https://coin-images.coingecko.com/coins/images/779/small/status.png?1696501931",
+    "large": "https://coin-images.coingecko.com/coins/images/779/large/status.png?1696501931"
+  },
+  "last_updated": "2025-07-11T05:00:55.211384+00:00"
+}

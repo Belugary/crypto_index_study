@@ -1,0 +1,57 @@
+{
+  "id": "openeden-open-dollar",
+  "symbol": "usdo",
+  "name": "OpenEden OpenDollar",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "Base Ecosystem",
+    "Yield-Bearing Stablecoin",
+    "US Treasury-backed Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x8238884ec9668ef77b90c6dff4d1a9f4f4823bfe",
+    "base": "0xad55aebc9b8c03fc43cd9f62260391c13c23e7c0"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The OpenEden Open Dollar (\"USDO\") is a rebasing yield-bearing stablecoin issued by OpenEden Digital (\"OED\"), a Bermuda Monetary Authority (\"BMA\") licensed digital asset issuer. USDO is backed by high-quality, liquid reserves, primarily consisting of U.S. Treasury bills and reverse repurchase agreements.                                                                                                  "
+  },
+  "links": {
+    "homepage": [
+      "https://openeden.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/address/0x8238884ec9668ef77b90c6dff4d1a9f4f4823bfe",
+      "https://etherscan.io/token/0x8238884Ec9668Ef77B90C6dfF4D1a9F4F4823BFe",
+      "https://ethplorer.io/address/0x8238884Ec9668Ef77B90C6dfF4D1a9F4F4823BFe",
+      "https://basescan.org/token/0xad55aebc9b8c03fc43cd9f62260391c13c23e7c0"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "OpenEden_Labs",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53750/thumb/USDO_LOGO-white.png?1737181887",
+    "small": "https://coin-images.coingecko.com/coins/images/53750/small/USDO_LOGO-white.png?1737181887",
+    "large": "https://coin-images.coingecko.com/coins/images/53750/large/USDO_LOGO-white.png?1737181887"
+  },
+  "last_updated": "2025-07-11T04:59:51.775294+00:00"
+}

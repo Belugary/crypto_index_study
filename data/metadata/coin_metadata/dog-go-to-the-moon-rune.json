@@ -1,0 +1,65 @@
+{
+  "id": "dog-go-to-the-moon-rune",
+  "symbol": "dog",
+  "name": "Dog (Bitcoin)",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Dog-Themed",
+    "Solana Meme",
+    "Starknet Ecosystem",
+    "Bitcoin Ecosystem",
+    "Runes"
+  ],
+  "asset_platform_id": "ordinals",
+  "platforms": {
+    "ordinals": "840000:3",
+    "starknet": "0x040e81cfeb176bfdbc5047bbc55eb471cfab20a6b221f38d8fda134e1bfffca4",
+    "solana": "dog1viwbb2vWDpER5FrJ4YFG6gq6XuyFohUe9TXN65u"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Dog (Bitcoin) is a fully decentralized memecoin on the Bitcoin blockchain, backed by a community dedicated to onboarding millions of people to Bitcoin.\r\n\r\nDog is secured by the Bitcoin blockchain and exists on Bitcoin L1, marking a significant innovation compared to Bitcoin with just BTC. Dog is a Bitcoin Runes token with a minimal on-chain footprint, native to Bitcoin, and stored in UTXOs, just like Bitcoin.\r\n\r\n\r\nWhat is the project about?\r\n\r\nDog does not do any paid promotion and is fully decentralized just like Bitcoin. Every influencer who chooses to post about Dog either received the airdrop or bought on secondary. Dog leverages the CC0 license to ensure that Dog is not owned by any single entity but rather by everyone. This had lead to the \"DOG Army\" independently creating art, apps, lotteries, plushies, websites, podcast, magazines, X account, IRL meetups, clothing lines, PFP collections, Telegram groups, and TikTok/Instagram about Dog.\r\n\r\nWhat makes your project unique?\r\n\r\nDog was airdropped in the fairest memecoin launch ever. In early 2024, the Bitcoin Ordinals ecosystem came together in a full volunteer initiative that rewarded early adopters of the Ordinals Protocol. There was no team allocation, and 100% of the supply was airdropped for free. The airdrop algorithm favored neither whales nor influencers; it was determined by the community and made open-source for maximum transparency."
+  },
+  "links": {
+    "homepage": [
+      "https://dogofbitcoin.com/",
+      "https://doggotothemoon.io"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://www.ord.io/DOGGOTOTHEMOON",
+      "https://platform.arkhamintelligence.com/explorer/token/dog-go-to-the-moon-rune",
+      "https://solscan.io/token/dog1viwbb2vWDpER5FrJ4YFG6gq6XuyFohUe9TXN65u",
+      "https://starkscan.co/token/0x040e81cfeb176bfdbc5047bbc55eb471cfab20a6b221f38d8fda134e1bfffca4",
+      "https://voyager.online/token/0x040e81cfeb176bfdbc5047bbc55eb471cfab20a6b221f38d8fda134e1bfffca4"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/dogofbitcoin",
+      "https://www.tiktok.com/@dogofbitcoin"
+    ],
+    "chat_url": [
+      "https://www.youtube.com/@DOGOFBITCOIN"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "DogOfBitcoin",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/37352/thumb/DOGGOTOTHEMOON.png?1714096969",
+    "small": "https://coin-images.coingecko.com/coins/images/37352/small/DOGGOTOTHEMOON.png?1714096969",
+    "large": "https://coin-images.coingecko.com/coins/images/37352/large/DOGGOTOTHEMOON.png?1714096969"
+  },
+  "last_updated": "2025-07-11T04:58:06.127425+00:00"
+}

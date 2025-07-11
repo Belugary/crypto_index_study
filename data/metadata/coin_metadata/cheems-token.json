@@ -1,0 +1,50 @@
+{
+  "id": "cheems-token",
+  "symbol": "cheems",
+  "name": "Cheems Token",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Meme"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x0df0587216a4a1bb7d5082fdc491d93d2dd4b413"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "【What is the project about?】\r\n\r\n“Cheems” is the lord of memes, a small, pitiful, helpless Shiba Inu.\r\n\r\nWe pay respect to everyone who love Cheems, who has undergone various market dumps, project rugs and collapses in crypto market. \r\n\r\nCheems is here for y’all, whether you have lost your house, risked your health, or got fucked by Doge, come to Cheems and gather a crowd, together, we can generate more wealth.\r\n\r\n\r\n【What makes your project unique?】\r\n\r\nCheems ain’t about pump and dump, Cheems is purely here to remind you people who is the Lord of Memes.\r\n\r\n$Cheems will give up the permission to control the contract, have no tax income, no team reserves, absolutely no sources of income in anyway, 100% dedicated to the market.\r\n\r\n\r\n【History of your project.】\r\nNo\r\n\r\n\r\n【What’s next for your project?】\r\nkeep meme and keep building on BNB Chain\r\n\r\n【What can your token be used for?】\r\nswap, invest, and any ecosystem project"
+  },
+  "links": {
+    "homepage": [
+      "https://www.cheems.pet/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x0DF0587216a4a1bB7d5082fdc491d93d2dD4B413",
+      "https://platform.arkhamintelligence.com/explorer/token/cheems-token",
+      "https://binplorer.com/address/0x0DF0587216a4a1bB7d5082fdc491d93d2dD4B413"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "LordCheems_bsc",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "LordCheems_Bsc",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/30376/thumb/Hg4_Lhbg_400x400.jpg?1696529270",
+    "small": "https://coin-images.coingecko.com/coins/images/30376/small/Hg4_Lhbg_400x400.jpg?1696529270",
+    "large": "https://coin-images.coingecko.com/coins/images/30376/large/Hg4_Lhbg_400x400.jpg?1696529270"
+  },
+  "last_updated": "2025-07-11T04:57:40.567860+00:00"
+}

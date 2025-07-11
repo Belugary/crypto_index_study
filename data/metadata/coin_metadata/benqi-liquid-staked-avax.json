@@ -1,0 +1,55 @@
+{
+  "id": "benqi-liquid-staked-avax",
+  "symbol": "savax",
+  "name": "BENQI Liquid Staked AVAX",
+  "categories": [
+    "Avalanche Ecosystem",
+    "Liquid Staking Tokens",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "avalanche",
+  "platforms": {
+    "avalanche": "0x2b2c81e08f1af8835a78bb2a90ae924ace0ea4be"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "BENQI Liquid Staking is the first liquid staking protocol for Avalanche. Users stake AVAX with BENQI, and receive sAVAX, an interest bearing version of AVAX. This allows users to earn both the rewards for securing the Avalanche network and from the world of DeFi."
+  },
+  "links": {
+    "homepage": [
+      "https://staking.benqi.fi"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://snowtrace.io/token/0x2b2c81e08f1af8835a78bb2a90ae924ace0ea4be",
+      "https://platform.arkhamintelligence.com/explorer/token/benqi-liquid-staked-avax",
+      "https://avascan.info/blockchain/c/address/0x2b2c81e08f1af8835a78bb2a90ae924ace0ea4be/token"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/kNfnqcgj2H"
+    ],
+    "announcement_url": [
+      "https://benqifinance.medium.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "BenqiFinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "BENQIFinance",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/23657/thumb/savax_blue.png?1696522860",
+    "small": "https://coin-images.coingecko.com/coins/images/23657/small/savax_blue.png?1696522860",
+    "large": "https://coin-images.coingecko.com/coins/images/23657/large/savax_blue.png?1696522860"
+  },
+  "last_updated": "2025-07-11T04:57:11.850265+00:00"
+}

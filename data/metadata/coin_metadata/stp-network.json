@@ -1,0 +1,59 @@
+{
+  "id": "stp-network",
+  "symbol": "awe",
+  "name": "AWE Network",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Infrastructure",
+    "Decentralized Finance (DeFi)",
+    "Derivatives",
+    "Synthetic Issuer",
+    "Base Ecosystem",
+    "AI Agents",
+    "Synthetic",
+    "AI Agent Launchpad"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0x1b4617734c43f6159f3a70b7e06d883647512778"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "STP (Becoming AWE Network) is opening the portal to Autonomous Worlds where AI Agents collaborate, adapt and evolve. The Autonomous Worlds Engine (AWE) is a modular framework enabling the creation of self-sustaining worlds for scalable agent-agent and human-agent collaboration.\r\n\r\nAWE scales interactions between thousands of autonomous agents using parallel processing, dependency management and GPU-optimized workloads. World.Fun is an autonomous worlds launcher that supports 1,000 agent AI-driven Autonomous Worlds powered by AWE. Users can create and customize agents to be deployed into these autonomous worlds using STPT.\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.awenetwork.ai/"
+    ],
+    "whitepaper": "https://docs.awenetwork.ai/",
+    "blockchain_site": [
+      "https://basescan.org/token/0x1B4617734C43F6159F3a70b7E06d883647512778"
+    ],
+    "official_forum_url": [
+      "https://www.awenetwork.ai/blog"
+    ],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/@StandardTokenizationProtocol"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "awenetwork_ai",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "STPofficial",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/8713/thumb/awe-network.jpg?1747816016",
+    "small": "https://coin-images.coingecko.com/coins/images/8713/small/awe-network.jpg?1747816016",
+    "large": "https://coin-images.coingecko.com/coins/images/8713/large/awe-network.jpg?1747816016"
+  },
+  "last_updated": "2025-07-11T05:00:59.991476+00:00"
+}

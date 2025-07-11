@@ -1,0 +1,68 @@
+{
+  "id": "olympus",
+  "symbol": "ohm",
+  "name": "Olympus",
+  "categories": [
+    "Crypto-Backed Tokens",
+    "Decentralized Finance (DeFi)",
+    "Rebase Tokens",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Berachain Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5",
+    "berachain": "0x18878df23e2a36f81e820e4b47b4a40576d3159c",
+    "arbitrum-one": "0xf0cb2dc0db5e6c66b9a70ac27b06b878da017028",
+    "base": "0x060cb087a9730e13aa191f31a6d86bff8dfcdcc0"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://olympusdao.finance/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5",
+      "https://platform.arkhamintelligence.com/explorer/token/olympus",
+      "https://ethplorer.io/address/0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5",
+      "https://nova.arbiscan.io/token/0xf0cb2dc0db5e6c66b9a70ac27b06b878da017028",
+      "https://arbiscan.io/token/0xf0cb2dc0db5e6c66b9a70ac27b06b878da017028",
+      "https://basescan.org/token/0x060cb087a9730e13aa191f31a6d86bff8dfcdcc0",
+      "https://berascan.com/token/0x18878Df23e2a36f81e820e4b47b4A40576D3159C"
+    ],
+    "official_forum_url": [
+      "https://olympusdao.medium.com/",
+      "https://www.youtube.com/c/olympusdao"
+    ],
+    "chat_url": [
+      "https://discord.gg/olympusdao"
+    ],
+    "announcement_url": [],
+    "snapshot_url": "https://snapshot.org/#/olympusdao.eth",
+    "twitter_screen_name": "OlympusDAO",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "OlympusTG",
+    "subreddit_url": "https://www.reddit.com/r/olympusdao/",
+    "repos_url": {
+      "github": [
+        "https://github.com/OlympusDAO"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/14483/thumb/token_OHM_%281%29.png?1696514169",
+    "small": "https://coin-images.coingecko.com/coins/images/14483/small/token_OHM_%281%29.png?1696514169",
+    "large": "https://coin-images.coingecko.com/coins/images/14483/large/token_OHM_%281%29.png?1696514169"
+  },
+  "last_updated": "2025-07-11T04:59:48.057363+00:00"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "ethena",
+  "symbol": "ena",
+  "name": "Ethena",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Binance Launchpool",
+    "Ethereum Ecosystem",
+    "Stablecoin Protocol",
+    "DragonFly Capital Portfolio",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Delphi Ventures Portfolio",
+    "OKX Ventures Portfolio",
+    "World Liberty Financial Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x57e114b691db790c35207b2e685d4a43181e6061"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.ethena.fi/"
+    ],
+    "whitepaper": "https://ethena-labs.gitbook.io/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x57e114b691db790c35207b2e685d4a43181e6061",
+      "https://platform.arkhamintelligence.com/explorer/token/ethena",
+      "https://ethplorer.io/address/0x57e114b691db790c35207b2e685d4a43181e6061"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ethena_labs",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "ethena_labs",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/36530/thumb/ethena.png?1711701436",
+    "small": "https://coin-images.coingecko.com/coins/images/36530/small/ethena.png?1711701436",
+    "large": "https://coin-images.coingecko.com/coins/images/36530/large/ethena.png?1711701436"
+  },
+  "last_updated": "2025-07-11T04:58:15.083900+00:00"
+}

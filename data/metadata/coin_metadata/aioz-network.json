@@ -1,0 +1,67 @@
+{
+  "id": "aioz-network",
+  "symbol": "aioz",
+  "name": "AIOZ Network",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Smart Contract Platform",
+    "Storage",
+    "BNB Chain Ecosystem",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "DePIN",
+    "DWF Labs Portfolio",
+    "Osmosis Ecosystem",
+    "GMCI DePIN Index",
+    "GMCI Index"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x626e8036deb333b408be468f951bdb42433cbf18",
+    "osmosis": "ibc/BB0AFE2AFBD6E883690DAE4B9168EAC2B306BCC9C9292DACBB4152BBB08DB25F",
+    "binance-smart-chain": "0x33d08d8c7a168333a85285a68c0042b39fc3741d"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "SG",
+  "description": {
+    "en": "AIOZ Network is a DePIN for Web3 AI, Storage and Streaming.\r\n\r\nAIOZ empowers a faster, secure and decentralized future. \r\n\r\nPowered by a global network of DePINs,  AIOZ rewards you for sharing your computational resources for storing, transcoding, and streaming digital media content and powering decentralized AI computation."
+  },
+  "links": {
+    "homepage": [
+      "https://aioz.network",
+      "https://blog.aioz.network"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.aioz.network",
+      "https://platform.arkhamintelligence.com/explorer/token/aioz-network",
+      "https://etherscan.io/token/0x626e8036deb333b408be468f951bdb42433cbf18",
+      "https://bscscan.com/token/0x33d08d8c7a168333a85285a68c0042b39fc3741d",
+      "https://explorer.aioz.network/",
+      "https://binplorer.com/address/0x33d08d8c7a168333a85285a68c0042b39fc3741d",
+      "https://ethplorer.io/address/0x626e8036deb333b408be468f951bdb42433cbf18",
+      "https://www.mintscan.io/osmosis/assets/ibc/aWJjL0JCMEFGRTJBRkJENkU4ODM2OTBEQUU0QjkxNjhFQUMyQjMwNkJDQzlDOTI5MkRBQ0JCNDE1MkJCQjA4REIyNUY="
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "aioznetwork",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "aioznetwork",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/14631/thumb/aioz-logo-200.png?1696514309",
+    "small": "https://coin-images.coingecko.com/coins/images/14631/small/aioz-logo-200.png?1696514309",
+    "large": "https://coin-images.coingecko.com/coins/images/14631/large/aioz-logo-200.png?1696514309"
+  },
+  "last_updated": "2025-07-11T04:56:45.324295+00:00"
+}

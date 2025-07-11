@@ -1,0 +1,63 @@
+{
+  "id": "trust-wallet-token",
+  "symbol": "twt",
+  "name": "Trust Wallet",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Wallets",
+    "Account Abstraction",
+    "Energi Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x4b0f1812e5df2a09796481ff14017e6005508003",
+    "energi": "0xfaa02b262130431b44c929fdd960e202ffeabfe3",
+    "binancecoin": "TWT-8C2"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Trust Wallet Token (TWT) 511 is a utility token that can only be used within the app. This will be used to incentivize all Trust Wallet users.\r\n\r\nWhat are the Incentives of (TWT)?\r\nGovernance token that will be used by anyone who wants to take part in making decisions for adding new blockchain support, tokens and product features. Will also be collected as fees for submissions to the Trust Wallet repository 59.\r\n\r\nDiscounts on DEX services and purchasing crypto within the app.\r\n\r\nCollectible Marketplace, anyone interested in trading, selling or buying digital collectibles can utilize the token in a user-friendly environment.\r\n\r\nDApp reviews and promotions to incentivize developers to work on DApps that contribute to further adoption of Web 3.0 on mobile devices.\r\n\r\nAffiliate and bounty rewards, the token can be converted to BNB or ETH, that can be used for Network Fees.\r\n\r\nVouching and User reputation, users will be able to vouch for developers of products they enjoy to show the quality of the product to the rest of the Trust Ecosystem."
+  },
+  "links": {
+    "homepage": [
+      "https://trustwallet.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.binance.org/asset/twt-8c2",
+      "https://platform.arkhamintelligence.com/explorer/token/trust-wallet-token",
+      "https://bscscan.com/token/0x4b0f1812e5df2a09796481ff14017e6005508003",
+      "https://explorer.energi.network/token/0xfaa02b262130431b44c929fdd960e202ffeabfe3",
+      "https://bnb.dex.guru/token/0x4b0f1812e5df2a09796481ff14017e6005508003",
+      "https://binplorer.com/address/0x4b0f1812e5df2a09796481ff14017e6005508003"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.facebook.com/trustwalletapp/"
+    ],
+    "announcement_url": [
+      "https://t.me/trust_announcements"
+    ],
+    "snapshot_url": "https://snapshot.org/#/trustwallet",
+    "twitter_screen_name": "trustwallet",
+    "facebook_username": "trustwalletapp",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "trust_announcements",
+    "subreddit_url": "https://www.reddit.com/r/trustapp/",
+    "repos_url": {
+      "github": [
+        "https://github.com/trustwallet/wallet-core"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/11085/thumb/Trust.png?1696511026",
+    "small": "https://coin-images.coingecko.com/coins/images/11085/small/Trust.png?1696511026",
+    "large": "https://coin-images.coingecko.com/coins/images/11085/large/Trust.png?1696511026"
+  },
+  "last_updated": "2025-07-11T05:01:27.583071+00:00"
+}

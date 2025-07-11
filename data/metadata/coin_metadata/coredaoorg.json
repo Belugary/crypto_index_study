@@ -1,0 +1,57 @@
+{
+  "id": "coredaoorg",
+  "symbol": "core",
+  "name": "Core",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Bitcoin Sidechains",
+    "SideChain"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": "",
+    "core": "0x191e94fa59739e188dce837f7f6978d84727ad01"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Powered by a new consensus mechanism, Satoshi Plus, Core is a Turing-complete blockchain leveraging the Bitcoin mining hashrate and the Ethereum Virtual Machine (EVM). Satoshi Plus applies a protocol-driven validator election mechanism to combine the optimal features of Proof of Work (PoW) and Delegated Proof of Stake (DPoS) in order to ensure the maximization of security, scalability, and decentralization."
+  },
+  "links": {
+    "homepage": [
+      "https://coredao.org"
+    ],
+    "whitepaper": "https://docs.coredao.org/core-white-paper-v1.0.5/",
+    "blockchain_site": [
+      "https://scan.coredao.org",
+      "https://scan.coredao.org/token/0x191e94fa59739e188dce837f7f6978d84727ad01"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/coredaoofficial",
+      "https://medium.com/@core_dao"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "coredao_org",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "CoreDAOTelegram",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/coredao-org"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/28938/thumb/file_589.jpg?1701868471",
+    "small": "https://coin-images.coingecko.com/coins/images/28938/small/file_589.jpg?1701868471",
+    "large": "https://coin-images.coingecko.com/coins/images/28938/large/file_589.jpg?1701868471"
+  },
+  "last_updated": "2025-07-11T04:57:52.871069+00:00"
+}

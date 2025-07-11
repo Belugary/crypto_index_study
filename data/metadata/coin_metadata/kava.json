@@ -1,0 +1,65 @@
+{
+  "id": "kava",
+  "symbol": "kava",
+  "name": "Kava",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Binance Launchpad",
+    "DWF Labs Portfolio",
+    "Osmosis Ecosystem",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Made in USA"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": "",
+    "osmosis": "ibc/57AA1A70A4BC9769C525EBF6386F7A21536E04A79D62E1981EFCEF9428EBB205"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Kava is a cross-chain DeFi Hub for decentralized financial services and applications. The Kava DeFi Hub operates like a decentralized bank for digital assets connecting users with products like stablecoins, loans, and interest-bearing accounts so that they can do more and earn more with their digital assets.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.kava.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://www.mintscan.io/kava",
+      "https://kava.bigdipper.live/",
+      "https://hubble.figment.network/kava/chains/kava-2",
+      "https://kavascan.com/",
+      "https://www.mintscan.io/osmosis/assets/ibc/aWJjLzU3QUExQTcwQTRCQzk3NjlDNTI1RUJGNjM4NkY3QTIxNTM2RTA0QTc5RDYyRTE5ODFFRkNFRjk0MjhFQkIyMDU="
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "http://bit.ly/33NRUzZ"
+    ],
+    "announcement_url": [
+      "https://medium.com/kava-labs"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "KAVA_CHAIN",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "kavalabs",
+    "subreddit_url": "https://www.reddit.com/r/kava_platform/",
+    "repos_url": {
+      "github": [
+        "https://github.com/Kava-Labs/kava",
+        "https://github.com/Kava-Labs/kava-devnet"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/9761/thumb/kava.png?1696509822",
+    "small": "https://coin-images.coingecko.com/coins/images/9761/small/kava.png?1696509822",
+    "large": "https://coin-images.coingecko.com/coins/images/9761/large/kava.png?1696509822"
+  },
+  "last_updated": "2025-07-11T04:59:02.384015+00:00"
+}

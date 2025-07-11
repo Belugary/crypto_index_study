@@ -1,0 +1,71 @@
+{
+  "id": "ethena-usde",
+  "symbol": "usde",
+  "name": "Ethena USDe",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "Solana Ecosystem",
+    "Ethereum Ecosystem",
+    "Aptos Ecosystem",
+    "ZkSync Ecosystem",
+    "TON Ecosystem",
+    "Fiat-backed Stablecoin",
+    "Zircuit Ecosystem",
+    "Synthetic Dollar"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+    "the-open-network": "EQAIb6KmdfdDR7CN1GBqVJuP25iCnLKCvBlJ07Evuu2dzP5f",
+    "aptos": "0xf37a8864fe737eb8ec2c2931047047cbaed1beed3fb0e5b7c5526dafd3b9c2e9",
+    "zircuit": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+    "zksync": "0x39fe7a0dacce31bd90418e3e659fb0b5f0b3db0d",
+    "solana": "DEkqHyPN7GMRJ5cArtQFAWefqbZb33Hyf6s5iCwjEonT"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Ethena is a delta-hedged synthetic dollar with native crypto yield derived from staking and perpetual funding rate"
+  },
+  "links": {
+    "homepage": [
+      "https://app.ethena.fi/",
+      "https://ethena-labs.gitbook.io/"
+    ],
+    "whitepaper": "https://ethena-labs.gitbook.io/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+      "https://platform.arkhamintelligence.com/explorer/token/ethena-usde",
+      "https://ethplorer.io/address/0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+      "https://solscan.io/token/dekqhypn7gmrj5cartqfawefqbzb33hyf6s5icwjeont",
+      "https://era.zksync.network/token/0x39Fe7a0DACcE31Bd90418e3e659fb0b5f0B3Db0d",
+      "https://explorer.zksync.io/address/0x39Fe7a0DACcE31Bd90418e3e659fb0b5f0B3Db0d",
+      "https://tonscan.org/address/EQAIb6KmdfdDR7CN1GBqVJuP25iCnLKCvBlJ07Evuu2dzP5f",
+      "https://tonviewer.com/EQAIb6KmdfdDR7CN1GBqVJuP25iCnLKCvBlJ07Evuu2dzP5f",
+      "https://aptscan.ai/coins/0xf37a8864fe737eb8ec2c2931047047cbaed1beed3fb0e5b7c5526dafd3b9c2e9",
+      "https://tracemove.io/coin/0xf37a8864fe737eb8ec2c2931047047cbaed1beed3fb0e5b7c5526dafd3b9c2e9"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ethena_labs",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33613/thumb/usde.png?1733810059",
+    "small": "https://coin-images.coingecko.com/coins/images/33613/small/usde.png?1733810059",
+    "large": "https://coin-images.coingecko.com/coins/images/33613/large/usde.png?1733810059"
+  },
+  "last_updated": "2025-07-11T04:58:16.190109+00:00"
+}

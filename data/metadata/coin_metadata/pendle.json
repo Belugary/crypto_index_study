@@ -1,0 +1,89 @@
+{
+  "id": "pendle",
+  "symbol": "pendle",
+  "name": "Pendle",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Decentralized Finance (DeFi)",
+    "Yield Farming",
+    "Automated Market Maker (AMM)",
+    "BNB Chain Ecosystem",
+    "Derivatives",
+    "Lending/Borrowing Protocols",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Fixed Interest",
+    "LSDFi",
+    "Base Ecosystem",
+    "Restaking",
+    "LRTfi",
+    "Liquid Restaking Governance Tokens",
+    "Yield Tokenization Protocol",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "GMCI DeFi Index",
+    "Sonic Ecosystem",
+    "Liquid Staking",
+    "GMCI Index",
+    "BTCfi Protocol"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x808507121b80c02388fad14726482e061b8da827",
+    "sonic": "0xf1ef7d2d4c0c881cd634481e0586ed5d2871a74b",
+    "optimistic-ethereum": "0xbc7b1ff1c6989f006a1185318ed4e7b5796e66e1",
+    "arbitrum-one": "0x0c880f6761f1af8d9aa9c466984b80dab9a8c9e8",
+    "base": "0xa99f6e6785da0f5d6fb42495fe424bce029eeb3e",
+    "binance-smart-chain": "0xb3ed0a426155b79b898849803e3b36552f7ed507"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Pendle is a protocol that enables the tokenization and trading of future yield. With the creation of a novel AMM that supports assets with time decay, Pendle gives users more control over future yield by providing optionality and opportunities for its utilization. "
+  },
+  "links": {
+    "homepage": [
+      "https://pendle.finance/"
+    ],
+    "whitepaper": "https://github.com/pendle-finance/pendle-v2-resources/tree/main/whitepapers",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x808507121b80c02388fad14726482e061b8da827",
+      "https://platform.arkhamintelligence.com/explorer/token/pendle",
+      "https://ethplorer.io/address/0x808507121b80c02388fad14726482e061b8da827",
+      "https://optimistic.etherscan.io/token/0xbc7b1ff1c6989f006a1185318ed4e7b5796e66e1",
+      "https://arbiscan.io/token/0x0c880f6761f1af8d9aa9c466984b80dab9a8c9e8",
+      "https://bscscan.com/token/0xb3ed0a426155b79b898849803e3b36552f7ed507",
+      "https://binplorer.com/address/0xb3ed0a426155b79b898849803e3b36552f7ed507",
+      "https://basescan.org/token/0xa99f6e6785da0f5d6fb42495fe424bce029eeb3e",
+      "https://sonicscan.org/token/0xf1ef7d2d4c0c881cd634481e0586ed5d2871a74b"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/EAujvncY2R"
+    ],
+    "announcement_url": [
+      "https://medium.com/pendle"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "pendle_fi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "pendlefinance",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/pendle-finance/pendle-core-v2-public",
+        "https://github.com/pendle-finance"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/15069/thumb/Pendle_Logo_Normal-03.png?1696514728",
+    "small": "https://coin-images.coingecko.com/coins/images/15069/small/Pendle_Logo_Normal-03.png?1696514728",
+    "large": "https://coin-images.coingecko.com/coins/images/15069/large/Pendle_Logo_Normal-03.png?1696514728"
+  },
+  "last_updated": "2025-07-11T05:00:01.737902+00:00"
+}

@@ -1,0 +1,79 @@
+{
+  "id": "crvusd",
+  "symbol": "crvusd",
+  "name": "crvUSD",
+  "categories": [
+    "Stablecoins",
+    "Decentralized Finance (DeFi)",
+    "USD Stablecoin",
+    "BNB Chain Ecosystem",
+    "Polygon Ecosystem",
+    "Gnosis Chain Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Base Ecosystem",
+    "Crypto-backed Stablecoin",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xf939e0a03fb07f59a73314e73794be0e57ac1b4e",
+    "xdai": "0xabef652195f98a91e490f047a5006b71c85f058d",
+    "arbitrum-one": "0x498bf2b1e120fed3ad3d42ea2165e9b73f99c1e5",
+    "optimistic-ethereum": "0xc52d7f23a2e460248db6ee192cb23dd12bddcbf6",
+    "taiko": "0xc8f4518ed4bab9a972808a493107926ce8237068",
+    "base": "0x417ac0e078398c154edfadd9ef675d30be60af93",
+    "binance-smart-chain": "0xe2fb3f127f5450dee44afe054385d74c392bdef4",
+    "polygon-pos": "0xc4ce1d6f5d98d65ee25cf85e9f2e9dcfee6cb5d6"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "crvUSD is a collateralized-debt-position (CDP) stablecoin pegged to the US Dollar"
+  },
+  "links": {
+    "homepage": [
+      "https://curve.finance"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xf939e0a03fb07f59a73314e73794be0e57ac1b4e",
+      "https://platform.arkhamintelligence.com/explorer/token/crvusd",
+      "https://ethplorer.io/address/0xf939e0a03fb07f59a73314e73794be0e57ac1b4e",
+      "https://ethereum.dex.guru/token/0xf939e0a03fb07f59a73314e73794be0e57ac1b4e",
+      "https://arbiscan.io/token/0x498bf2b1e120fed3ad3d42ea2165e9b73f99c1e5",
+      "https://optimistic.etherscan.io/token/0xc52d7f23a2e460248db6ee192cb23dd12bddcbf6",
+      "https://basescan.org/token/0x417ac0e078398c154edfadd9ef675d30be60af93",
+      "https://polygonscan.com/token/0xc4ce1d6f5d98d65ee25cf85e9f2e9dcfee6cb5d6",
+      "https://bscscan.com/token/0xe2fb3f127f5450dee44afe054385d74c392bdef4",
+      "https://binplorer.com/address/0xe2fb3f127f5450dee44afe054385d74c392bdef4"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/9uEHakc"
+    ],
+    "announcement_url": [],
+    "snapshot_url": "https://snapshot.org/#/curve.eth",
+    "twitter_screen_name": "curvefinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "curvefi",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/curvefi/curve-contract",
+        "https://github.com/curvefi/curve-vue"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/30118/thumb/crvusd.jpg?1746670973",
+    "small": "https://coin-images.coingecko.com/coins/images/30118/small/crvusd.jpg?1746670973",
+    "large": "https://coin-images.coingecko.com/coins/images/30118/large/crvusd.jpg?1746670973"
+  },
+  "last_updated": "2025-07-11T04:57:57.627306+00:00"
+}

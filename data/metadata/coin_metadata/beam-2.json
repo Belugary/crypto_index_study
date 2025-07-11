@@ -1,0 +1,70 @@
+{
+  "id": "beam-2",
+  "symbol": "beam",
+  "name": "Beam",
+  "categories": [
+    "Smart Contract Platform",
+    "Gaming (GameFi)",
+    "NFT",
+    "BNB Chain Ecosystem",
+    "Binance Launchpool",
+    "Avalanche Ecosystem",
+    "Ethereum Ecosystem",
+    "DWF Labs Portfolio",
+    "Gaming Blockchains",
+    "Avalanche L1"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x62d0a8458ed7719fdaf978fe5929c6d342b0bfce",
+    "binance-smart-chain": "0x62d0a8458ed7719fdaf978fe5929c6d342b0bfce",
+    "avalanche": "0x62d0a8458ed7719fdaf978fe5929c6d342b0bfce"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "BEAM is the native cryptographic token that powers the Beam ecosystem. As an ERC-20 token, BEAM serves as the fundamental infrastructure layer that enables transactions on the Beam Network. The Beam ecosystem creates an environment where developers, creators, and users collaborate to build innovative digital experiences across multiple sectors such as gaming, artificial intelligence, NFTs, RWAs. \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://onbeam.com"
+    ],
+    "whitepaper": "https://docs.onbeam.com",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x62d0a8458ed7719fdaf978fe5929c6d342b0bfce",
+      "https://platform.arkhamintelligence.com/explorer/token/beam-2",
+      "https://ethplorer.io/address/0x62d0a8458ed7719fdaf978fe5929c6d342b0bfce",
+      "https://bscscan.com/token/0x62d0a8458ed7719fdaf978fe5929c6d342b0bfce",
+      "https://binplorer.com/address/0x62d0a8458ed7719fdaf978fe5929c6d342b0bfce",
+      "https://avascan.info/blockchain/c/address/0x62d0a8458ed7719fdaf978fe5929c6d342b0bfce/token",
+      "https://snowtrace.io/token/0x62d0a8458ed7719fdaf978fe5929c6d342b0bfce"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/beamgamers",
+      "https://medium.com/@onbeam",
+      "https://www.youtube.com/@onbeam"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "buildonbeam",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "buildonbeam",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Merit-Circle/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/32417/thumb/cgicon.png?1747892021",
+    "small": "https://coin-images.coingecko.com/coins/images/32417/small/cgicon.png?1747892021",
+    "large": "https://coin-images.coingecko.com/coins/images/32417/large/cgicon.png?1747892021"
+  },
+  "last_updated": "2025-07-11T04:57:08.911511+00:00"
+}

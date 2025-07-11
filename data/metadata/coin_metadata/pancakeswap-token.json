@@ -1,0 +1,89 @@
+{
+  "id": "pancakeswap-token",
+  "symbol": "cake",
+  "name": "PancakeSwap",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Exchange-based Tokens",
+    "Decentralized Finance (DeFi)",
+    "Yield Farming",
+    "Automated Market Maker (AMM)",
+    "BNB Chain Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Aptos Ecosystem",
+    "ZkSync Ecosystem",
+    "Linea Ecosystem",
+    "Base Ecosystem",
+    "Polygon zkEVM Ecosystem",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "opBNB Ecosystem",
+    "GMCI DeFi Index",
+    "GMCI Index"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
+    "arbitrum-one": "0x1b896893dfc86bb67cf57767298b9073d2c1ba2c",
+    "polygon-zkevm": "0x0d1e753a25ebda689453309112904807625befbe",
+    "opbnb": "0x2779106e4f4a8a28d77a24c18283651a2ae22d1c",
+    "zksync": "0x3a287a06c66f9e95a56327185ca2bdf5f031cecd",
+    "base": "0x3055913c90fcc1a6ce9a358911721eeb942013a1",
+    "aptos": "0x159df6b7689437016108a019fd5bef736bac692b6d4a1f10c941f6fbb9a74ca6::oft::CakeOFT",
+    "linea": "0x0d1e753a25ebda689453309112904807625befbe",
+    "ethereum": "0x152649ea73beab28c5b49b26eb48f7ead6d4c898"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "PancakeSwap is an automated market maker (“AMM”) that allows two tokens to be exchanged on the Binance Smart Chain. It is fast, cheap, and allows anyone to participate."
+  },
+  "links": {
+    "homepage": [
+      "https://pancakeswap.finance/affiliates-program",
+      "https://blog.pancakeswap.finance/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
+      "https://platform.arkhamintelligence.com/explorer/token/pancakeswap-token",
+      "https://aptscan.ai/coins/0x159df6b7689437016108a019fd5bef736bac692b6d4a1f10c941f6fbb9a74ca6::oft::cakeoft",
+      "https://tracemove.io/coin/0x159df6b7689437016108a019fd5bef736bac692b6d4a1f10c941f6fbb9a74ca6::oft::cakeoft",
+      "https://etherscan.io/token/0x152649ea73beab28c5b49b26eb48f7ead6d4c898",
+      "https://ethplorer.io/address/0x152649ea73beab28c5b49b26eb48f7ead6d4c898",
+      "https://bnb.dex.guru/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
+      "https://binplorer.com/address/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
+      "https://arbiscan.io/token/0x1b896893dfc86bb67cf57767298b9073d2c1ba2c",
+      "https://basescan.org/token/0x3055913c90fcc1a6ce9a358911721eeb942013a1"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/pancakeswap_official",
+      "https://docs.pancakeswap.finance/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/pancakeswap",
+      "https://www.youtube.com/@pancakeswap_official"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "pancakeswap",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "PancakeSwap",
+    "subreddit_url": "https://www.reddit.com/r/pancakeswap",
+    "repos_url": {
+      "github": [
+        "https://github.com/pancakeswap"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/12632/thumb/pancakeswap-cake-logo_%281%29.png?1696512440",
+    "small": "https://coin-images.coingecko.com/coins/images/12632/small/pancakeswap-cake-logo_%281%29.png?1696512440",
+    "large": "https://coin-images.coingecko.com/coins/images/12632/large/pancakeswap-cake-logo_%281%29.png?1696512440"
+  },
+  "last_updated": "2025-07-11T04:59:58.780164+00:00"
+}

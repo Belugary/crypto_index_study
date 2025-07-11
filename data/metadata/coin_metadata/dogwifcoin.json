@@ -1,0 +1,54 @@
+{
+  "id": "dogwifcoin",
+  "symbol": "wif",
+  "name": "dogwifhat",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Dog-Themed",
+    "Solana Meme",
+    "GMCI Meme Index",
+    "GMCI Index"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Literally a dog wif a hat, dogwifhat (WIF) is a meme coin that's part of the ever-growing ecosystem of digital currencies on the Solana blockchain. This token brings a lighthearted twist to cryptocurrency, featuring a playful dog with a hat as its mascot, symbolising a more whimsical approach to the often serious domain of digital finance."
+  },
+  "links": {
+    "homepage": [
+      "https://dogwifcoin.org",
+      "https://dogwifhat.us/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+      "https://platform.arkhamintelligence.com/explorer/token/dogwifcoin"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "dogwifcoin",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "dogwifcoin",
+    "subreddit_url": "https://www.reddit.com/r/dogwifhat",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33566/thumb/dogwifhat.jpg?1702499428",
+    "small": "https://coin-images.coingecko.com/coins/images/33566/small/dogwifhat.jpg?1702499428",
+    "large": "https://coin-images.coingecko.com/coins/images/33566/large/dogwifhat.jpg?1702499428"
+  },
+  "last_updated": "2025-07-11T04:58:07.257705+00:00"
+}

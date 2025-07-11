@@ -1,0 +1,52 @@
+{
+  "id": "tradable-singapore-fintech-ssl-2",
+  "symbol": "pc0000023",
+  "name": "Tradable Singapore Fintech SSL",
+  "categories": [
+    "ZkSync Ecosystem",
+    "Real World Assets (RWA)",
+    "Tradable Ecosystem"
+  ],
+  "asset_platform_id": "zksync",
+  "platforms": {
+    "zksync": "0x5c8c39e167c604b036afd3fbb65426f9fe78ce6d"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "This project, facilitated by Tradable.xyz on ZKsync Era, tokenizes singapore-based fintech senior delayed draw term loan. The notes are issued by Victory Park Capital Advisors under the \"Singapore Fintech Senior Secured Loan \" deal, giving on-chain exposure to the underlying cash flows. Tradable integrates traditional and decentralized finance, employing smart contracts for AML/KYC compliance to ensure regulatory standards. The platform enhances liquidity and investor access to the multi‑trillion‑dollar private credit market, streamlining asset management and due diligence via a user‑friendly interface. By leveraging ZKsync Era's scalable and secure infrastructure, the project connects existing financial systems to blockchain rails while preserving data privacy and reducing settlement costs."
+  },
+  "links": {
+    "homepage": [
+      "https://www.tradable.xyz/",
+      "https://app.tradable.xyz/investor/deals/f564d566-bf0d-4c09-a28e-d165fcbd6e27"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://era.zksync.network/address/0x5c8c39e167c604b036afd3fbb65426f9fe78ce6d",
+      "https://era.zksync.network/token/0x5c8c39e167c604b036afd3fbb65426f9fe78ce6d",
+      "https://explorer.zksync.io/address/0x5c8c39e167c604b036afd3fbb65426f9fe78ce6d"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "tradable_xyz",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/66954/thumb/tradable.jpg?1751254449",
+    "small": "https://coin-images.coingecko.com/coins/images/66954/small/tradable.jpg?1751254449",
+    "large": "https://coin-images.coingecko.com/coins/images/66954/large/tradable.jpg?1751254449"
+  },
+  "last_updated": "2025-07-11T05:01:24.101694+00:00"
+}

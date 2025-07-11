@@ -1,0 +1,59 @@
+{
+  "id": "bora",
+  "symbol": "bora",
+  "name": "BORA",
+  "categories": [
+    "Gaming (GameFi)",
+    "NFT",
+    "Kaia Ecosystem",
+    "Gaming Blockchains"
+  ],
+  "asset_platform_id": "klay-token",
+  "platforms": {
+    "klay-token": "0x02cbe46fb8a1f579254a9b485788f2d86cad51aa"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "BORA is a decentralized entertainment platform focused to distribute digital contents and provide incentives to participants"
+  },
+  "links": {
+    "homepage": [
+      "https://www.boraecosystem.com/",
+      "https://boraportal.com/"
+    ],
+    "whitepaper": "https://boraecosystem.com/doc/BORA_Whitepaper_1.3_EN.pdf",
+    "blockchain_site": [
+      "https://kaiascan.io/token/0x02cbe46fb8a1f579254a9b485788f2d86cad51aa"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://t.me/BORAofficial_kr",
+      "https://medium.com/boraecosystem",
+      "https://bit.ly/BORAYoutube"
+    ],
+    "announcement_url": [
+      "https://medium.com/boraecosystem"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "bora_ecosystem",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "BORAofficialANN",
+    "subreddit_url": "https://www.reddit.com/r/Bora_Ecosystem/",
+    "repos_url": {
+      "github": [
+        "https://github.com/boraecosystem/bora-tools"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/7646/thumb/mqFw8hxm_400x400.jpeg?1696507900",
+    "small": "https://coin-images.coingecko.com/coins/images/7646/small/mqFw8hxm_400x400.jpeg?1696507900",
+    "large": "https://coin-images.coingecko.com/coins/images/7646/large/mqFw8hxm_400x400.jpeg?1696507900"
+  },
+  "last_updated": "2025-07-11T04:57:31.905966+00:00"
+}

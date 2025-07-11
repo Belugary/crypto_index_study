@@ -1,0 +1,50 @@
+{
+  "id": "quq",
+  "symbol": "quq",
+  "name": "Quq",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Meme",
+    "Four.meme Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x4fa7c69a7b69f8bc48233024d546bc299d6b03bf"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://quq.finance"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x4fa7C69a7B69f8Bc48233024D546bc299d6B03bf",
+      "https://binplorer.com/address/0x4fa7C69a7B69f8Bc48233024D546bc299d6B03bf"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "quqTOKEN",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "BSCquq",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54945/thumb/quq.jpg?1742635780",
+    "small": "https://coin-images.coingecko.com/coins/images/54945/small/quq.jpg?1742635780",
+    "large": "https://coin-images.coingecko.com/coins/images/54945/large/quq.jpg?1742635780"
+  },
+  "last_updated": "2025-07-11T05:00:19.553667+00:00"
+}

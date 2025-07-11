@@ -1,0 +1,51 @@
+{
+  "id": "peanut-the-squirrel",
+  "symbol": "pnut",
+  "name": "Peanut the Squirrel",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Solana Meme",
+    "Pump.fun Ecosystem",
+    "Zoo-Themed",
+    "Memorial Themed"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "2qEHjDLDLbuBgRYvsxhc5D6uDWAivNFZGan56P1tpump"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/2qEHjDLDLbuBgRYvsxhc5D6uDWAivNFZGan56P1tpump",
+      "https://platform.arkhamintelligence.com/explorer/token/peanut-the-squirrel"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "pnutsolana",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "pnutportal",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/51301/thumb/Peanut_the_Squirrel.png?1734941241",
+    "small": "https://coin-images.coingecko.com/coins/images/51301/small/Peanut_the_Squirrel.png?1734941241",
+    "large": "https://coin-images.coingecko.com/coins/images/51301/large/Peanut_the_Squirrel.png?1734941241"
+  },
+  "last_updated": "2025-07-11T05:00:01.066847+00:00"
+}

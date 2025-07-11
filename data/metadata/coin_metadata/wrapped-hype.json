@@ -1,0 +1,50 @@
+{
+  "id": "wrapped-hype",
+  "symbol": "whype",
+  "name": "Wrapped HYPE",
+  "categories": [
+    "Wrapped-Tokens",
+    "HyperEVM Ecosystem"
+  ],
+  "asset_platform_id": "hyperevm",
+  "platforms": {
+    "hyperevm": "0x5555555555555555555555555555555555555555"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://hyperfoundation.org/"
+    ],
+    "whitepaper": "https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/evm/wrapped-hype",
+    "blockchain_site": [
+      "https://hyperliquid.cloud.blockscout.com/token/0x5555555555555555555555555555555555555555",
+      "https://app.hyperliquid.xyz/explorer/token/0x5555555555555555555555555555555555555555",
+      "https://hyperevmscan.io/token/0x5555555555555555555555555555555555555555"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "HyperFND",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54469/thumb/_UP3jBsi_400x400.jpg?1739905920",
+    "small": "https://coin-images.coingecko.com/coins/images/54469/small/_UP3jBsi_400x400.jpg?1739905920",
+    "large": "https://coin-images.coingecko.com/coins/images/54469/large/_UP3jBsi_400x400.jpg?1739905920"
+  },
+  "last_updated": "2025-07-11T05:02:00.587467+00:00"
+}

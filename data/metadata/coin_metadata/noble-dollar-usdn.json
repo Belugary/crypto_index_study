@@ -1,0 +1,57 @@
+{
+  "id": "noble-dollar-usdn",
+  "symbol": "usdn",
+  "name": "Noble Dollar (USDN)",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "Real World Assets (RWA)",
+    "Bridged-Tokens",
+    "Bridged Stablecoin",
+    "Yield-Bearing Stablecoin",
+    "US Treasury-backed Stablecoin"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Noble is an issuance platform for stablecoins and other real world assets (RWA). Noble’s infrastructure proliferates stablecoin and RWA liquidity and functionality by unlocking fast, easy and secure interoperability between blockchains. \r\n\r\nNoble is built to service the multichain ecosystem and has facilitated over $6.5 billion of transfers over the last year, with connections to over 80 blockchain applications, including dYdX, Osmosis, Celestia, Sei, Injective and Neutron.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://dollar.noble.xyz"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://www.mintscan.io/noble/assets/native/dXVzZG4="
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/noblexyz"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "noble_xyz",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "+5mCog0PAWCRmOWYx",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/noble-assets/dollar"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55257/thumb/USDN.png?1745046774",
+    "small": "https://coin-images.coingecko.com/coins/images/55257/small/USDN.png?1745046774",
+    "large": "https://coin-images.coingecko.com/coins/images/55257/large/USDN.png?1745046774"
+  },
+  "last_updated": "2025-07-11T04:59:43.403424+00:00"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "hyperlane",
+  "symbol": "hyper",
+  "name": "Hyperlane",
+  "categories": [
+    "Infrastructure",
+    "BNB Chain Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Interoperability",
+    "Base Ecosystem",
+    "Cross-chain Communication",
+    "Binance HODLer Airdrops",
+    "Binance Wallet IDO"
+  ],
+  "asset_platform_id": "arbitrum-one",
+  "platforms": {
+    "arbitrum-one": "0xc9d23ed2adb0f551369946bd377f8644ce1ca5c4",
+    "ethereum": "0x93a2db22b7c736b341c32ff666307f4a9ed910f5",
+    "binance-smart-chain": "0xc9d23ed2adb0f551369946bd377f8644ce1ca5c4",
+    "optimistic-ethereum": "0x9923db8d7fbacc2e69e87fad19b886c81cd74979",
+    "base": "0xc9d23ed2adb0f551369946bd377f8644ce1ca5c4"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Hyperlane is an open-source, permissionless framework for blockchain interoperability. Today, it connects over 170 blockchains and supports 5+ virtual machines, powering hundreds of interchain applications on a daily basis—from asset bridges and cross-chain governance to emerging DeFi use cases. But beyond its current role as an interchain messaging protocol, we see Hyperlane evolving into a global network for transferring value—a decentralized infrastructure layer that would serve as the technical backbone of a modern digital payment network."
+  },
+  "links": {
+    "homepage": [
+      "https://hyperlane.xyz/",
+      "https://www.hyperlane.foundation/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://arbiscan.io/token/0xc9d23ed2adb0f551369946bd377f8644ce1ca5c4",
+      "https://etherscan.io/token/0x93a2db22b7c736b341c32ff666307f4a9ed910f5",
+      "https://basescan.org/token/0xc9d23ed2adb0f551369946bd377f8644ce1ca5c4",
+      "https://bscscan.com/token/0xc9d23ed2adb0f551369946bd377f8644ce1ca5c4",
+      "https://optimistic.etherscan.io/token/0x9923db8d7fbacc2e69e87fad19b886c81cd74979",
+      "https://binplorer.com/address/0xc9d23ed2adb0f551369946bd377f8644ce1ca5c4",
+      "https://ethplorer.io/address/0x93a2db22b7c736b341c32ff666307f4a9ed910f5"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/VK9ZUy3aTV",
+      "https://medium.com/hyperlane"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "hyperlane",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/hyperlane-xyz"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55298/thumb/Hyperlane.png?1745248900",
+    "small": "https://coin-images.coingecko.com/coins/images/55298/small/Hyperlane.png?1745248900",
+    "large": "https://coin-images.coingecko.com/coins/images/55298/large/Hyperlane.png?1745248900"
+  },
+  "last_updated": "2025-07-11T04:58:45.348439+00:00"
+}

@@ -1,0 +1,96 @@
+{
+  "id": "yearn-finance",
+  "symbol": "yfi",
+  "name": "yearn.finance",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Yield Farming",
+    "Yield Aggregator",
+    "Yearn Ecosystem",
+    "Avalanche Ecosystem",
+    "Polygon Ecosystem",
+    "Near Protocol Ecosystem",
+    "Gnosis Chain Ecosystem",
+    "Fantom Ecosystem",
+    "Harmony Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Base Ecosystem",
+    "Index Coop Defi Index",
+    "Alameda Research Portfolio",
+    "Energi Ecosystem",
+    "Sora Ecosystem",
+    "Huobi ECO Chain Ecosystem",
+    "Blockchain Capital Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
+    "xdai": "0xbf65bfcb5da067446cee6a706ba3fe2fb1a9fdfd",
+    "optimistic-ethereum": "0x9046d36440290ffde54fe0dd84db8b1cfee9107b",
+    "near-protocol": "0bc529c00c6401aef6d220be8c6ea1667f6ad93e.factory.bridge.near",
+    "energi": "0x2726dd5efb3a209a54c512e9562a2045b8f45dbc",
+    "arbitrum-one": "0x82e3a8f066a6989666b031d916c43672085b1582",
+    "huobi-token": "0xb4f019beac758abbee2f906033aaa2f0f6dacb35",
+    "base": "0x9eaf8c1e34f05a589eda6bafdf391cf6ad3cb239",
+    "harmony-shard-0": "0xa0dc05f84a27fccbd341305839019ab86576bc07",
+    "sora": "0x002676c3edea5b08bc0f9b6809a91aa313b7da35e28b190222e9dc032bf1e662",
+    "fantom": "0x29b0da86e484e1c0029b56e817912d778ac0ec69",
+    "avalanche": "0x9eaac1b23d935365bd7b542fe22ceee2922f52dc",
+    "polygon-pos": "0xda537104d6a5edd53c6fbba9a898708e465260b6"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "ZA",
+  "description": {
+    "en": "Yearn Finance is a suite of products in Decentralized Finance (DeFi) that provides lending aggregation, yield generation, and insurance on the Ethereum blockchain. The protocol is maintained by various independent developers and is governed by YFI holders.\r\n\r\nIt started out as a passion project by Andre Cronje to automate the process of switching capital between lending platforms in search of the best yield offered, as the lending yield is a floating rate rather than fixed rate. Funds are shifted between dYdX, AAVE, and Compound automatically as interest rates change between these protocols. \r\n\r\nThe service offered includes major USD tokens such as DAI, USDT, USDC, and TUSD. For example, if a user deposits DAI into yearn.finance, the user will receive yDAI token in return, which is a yield-bearing DAI token. \r\n\r\nLater on, it collaborated with Curve Finance to release a yield-bearing USD tokens pool that includes four y-tokens: yDAI, yUSDT, yUSDC and yTUSD, it is named as yUSD. \r\n\r\nYearn Finance debuted the vault feature after its token launch, igniting a frenzy on automated yield farming and is considered the initiator of the category of yield farming aggregator. Basically, the vault will help users to claim yield farming rewards and sell it for the underlying assets. \r\n\r\nVaults benefit users by socializing gas costs, automating the yield generation and rebalancing process, and automatically shifting capital as opportunities arise. End users also do not need to have proficient knowledge of the underlying protocols involved or DeFi, thus the Vaults represent a passive-investing strategy. It is akin to a crypto hedge fund where the aim is to increase the amount of assets that users deposited.\r\n\r\n\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://yearn.fi/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
+      "https://platform.arkhamintelligence.com/explorer/token/yearn-finance",
+      "https://ethplorer.io/address/0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
+      "https://blockscout.com/poa/xdai/tokens/0xbf65bfcb5da067446cee6a706ba3fe2fb1a9fdfd/token-transfers",
+      "https://arbiscan.io/token/0x82e3a8f066a6989666b031d916c43672085b1582",
+      "https://polygonscan.com/token/0xda537104d6a5edd53c6fbba9a898708e465260b6",
+      "https://snowtrace.io/token/0x9eaac1b23d935365bd7b542fe22ceee2922f52dc",
+      "https://ftmscan.com/token/0x29b0da86e484e1c0029b56e817912d778ac0ec69",
+      "https://scan.meter.io/address/0x29b0da86e484e1c0029b56e817912d778ac0ec69",
+      "https://nearblocks.io/token/0bc529c00c6401aef6d220be8c6ea1667f6ad93e.factory.bridge.near"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/93PHbB4"
+    ],
+    "announcement_url": [
+      "https://medium.com/iearn"
+    ],
+    "snapshot_url": "https://snapshot.org/#/ybaby.eth",
+    "twitter_screen_name": "yearnfi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "yearnfinance",
+    "subreddit_url": "https://www.reddit.com/r/yearn_finance/",
+    "repos_url": {
+      "github": [
+        "https://github.com/iearn-finance/ygov-finance",
+        "https://github.com/iearn-finance/itoken",
+        "https://github.com/iearn-finance/iearn-finance",
+        "https://github.com/iearn-finance/yswap-finance"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/11849/thumb/yearn.jpg?1696511720",
+    "small": "https://coin-images.coingecko.com/coins/images/11849/small/yearn.jpg?1696511720",
+    "large": "https://coin-images.coingecko.com/coins/images/11849/large/yearn.jpg?1696511720"
+  },
+  "last_updated": "2025-07-11T05:02:04.924019+00:00"
+}

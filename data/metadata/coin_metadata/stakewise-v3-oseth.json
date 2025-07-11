@@ -1,0 +1,58 @@
+{
+  "id": "stakewise-v3-oseth",
+  "symbol": "oseth",
+  "name": "StakeWise Staked ETH",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Liquid Staking Tokens",
+    "Ethereum Ecosystem",
+    "Liquid Staked ETH",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xf1c9acdc66974dfb6decb12aa385b9cd01190e38"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Staked ETH (osETH) is the liquid staking token of StakeWise V3, a second-generation liquid staking protocol. "
+  },
+  "links": {
+    "homepage": [
+      "https://stakewise.io"
+    ],
+    "whitepaper": "https://stakewise.io/stakewise-v3.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xf1c9acdc66974dfb6decb12aa385b9cd01190e38",
+      "https://platform.arkhamintelligence.com/explorer/token/stakewise-v3-oseth",
+      "https://ethplorer.io/address/0xf1c9acdc66974dfb6decb12aa385b9cd01190e38"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/stakewise",
+      "https://stakewise.medium.com/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "stakewise_io",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "stakewise_io",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/stakewise/v3-core"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33117/thumb/Frame_27513839.png?1700732599",
+    "small": "https://coin-images.coingecko.com/coins/images/33117/small/Frame_27513839.png?1700732599",
+    "large": "https://coin-images.coingecko.com/coins/images/33117/large/Frame_27513839.png?1700732599"
+  },
+  "last_updated": "2025-07-11T05:00:52.999729+00:00"
+}

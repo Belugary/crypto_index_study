@@ -1,0 +1,58 @@
+{
+  "id": "plume",
+  "symbol": "plume",
+  "name": "Plume",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "RWA Protocol",
+    "Made in USA",
+    "Plume Network Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x4c1746a800d224393fe2470c70a35717ed4ea5f1"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Plume is the first RWAfi L1 network focused on crypto natives. We build infrastructure to make it easy to connect the real world and the crypto markets. We go against the traditional view of RWAs by changing its definition – it’s not just TradFi onchain but instead building net new crypto-first RWA use cases to the market including things like RWA derivatives/speculation, borrow/lend, yield farming, and more.\r\n\r\nWe are a permissionless EVM chain and ecosystem that is redefining and driving the RWA market forward. We do this through novel technologies that vertically integrate all the elements of RWAs into a single stack and ecosystem. Our tokenization engine, an EVM chain, compliance & regulatory tooling, RWA data normalization, etc are all first class objects so that they work seamlessly together to make it easy to bring anything in the real world (assets, data, etc.) onchain."
+  },
+  "links": {
+    "homepage": [
+      "https://plume.org/"
+    ],
+    "whitepaper": "https://docs.plume.org/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x4C1746A800D224393fE2470C70A35717eD4eA5F1",
+      "https://ethplorer.io/address/0x4C1746A800D224393fE2470C70A35717eD4eA5F1"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/plume-network"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "plumenetwork",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "plumenetwork_community",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/plumenetwork"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53623/thumb/plume-token.png?1736896935",
+    "small": "https://coin-images.coingecko.com/coins/images/53623/small/plume-token.png?1736896935",
+    "large": "https://coin-images.coingecko.com/coins/images/53623/large/plume-token.png?1736896935"
+  },
+  "last_updated": "2025-07-11T05:00:06.960705+00:00"
+}

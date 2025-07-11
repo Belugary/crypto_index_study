@@ -1,0 +1,79 @@
+{
+  "id": "renzo-restaked-eth",
+  "symbol": "ezeth",
+  "name": "Renzo Restaked ETH",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Arbitrum Ecosystem",
+    "Liquid Staking Tokens",
+    "Linea Ecosystem",
+    "Base Ecosystem",
+    "Restaking",
+    "Liquid Restaking Tokens",
+    "Blast Ecosystem",
+    "Mode Ecosystem",
+    "Liquid Staking",
+    "Unichain Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xbf5495efe5db9ce00f80364c8b423567e58d2110",
+    "linea": "0x2416092f143378750bb29b79ed961ab195cceea5",
+    "unichain": "0x2416092f143378750bb29b79ed961ab195cceea5",
+    "arbitrum-one": "0x2416092f143378750bb29b79ed961ab195cceea5",
+    "blast": "0x2416092f143378750bb29b79ed961ab195cceea5",
+    "base": "0x2416092f143378750bb29b79ed961ab195cceea5",
+    "mode": "0x2416092f143378750bb29b79ed961ab195cceea5",
+    "binance-smart-chain": "0x2416092f143378750bb29b79ed961ab195cceea5"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "EigenLayer Liquid Restaking Hub"
+  },
+  "links": {
+    "homepage": [
+      "https://www.renzoprotocol.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xbf5495efe5db9ce00f80364c8b423567e58d2110",
+      "https://platform.arkhamintelligence.com/explorer/token/renzo-restaked-eth",
+      "https://bscscan.com/token/0x2416092f143378750bb29b79ed961ab195cceea5",
+      "https://arbiscan.io/token/0x2416092f143378750bb29b79ed961ab195cceea5",
+      "https://lineascan.build/token/0x2416092f143378750bb29b79ed961ab195cceea5",
+      "https://explorer.mode.network/address/0x2416092f143378750bb29b79ed961ab195cceea5",
+      "https://basescan.org/token/0x2416092f143378750bb29b79ed961ab195cceea5",
+      "https://modescan.io/token/0x2416092f143378750bb29b79ed961ab195cceea5",
+      "https://binplorer.com/address/0x2416092f143378750bb29b79ed961ab195cceea5",
+      "https://ethplorer.io/address/0xbf5495efe5db9ce00f80364c8b423567e58d2110"
+    ],
+    "official_forum_url": [
+      "https://discord.com/invite/FMwGPDXXtf"
+    ],
+    "chat_url": [
+      "https://discord.gg/renzoprotocol"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "RenzoProtocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Renzo-Protocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/34753/thumb/Ezeth_logo_circle.png?1713496404",
+    "small": "https://coin-images.coingecko.com/coins/images/34753/small/Ezeth_logo_circle.png?1713496404",
+    "large": "https://coin-images.coingecko.com/coins/images/34753/large/Ezeth_logo_circle.png?1713496404"
+  },
+  "last_updated": "2025-07-11T05:00:24.098050+00:00"
+}

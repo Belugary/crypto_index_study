@@ -1,0 +1,91 @@
+{
+  "id": "universal-btc",
+  "symbol": "unibtc",
+  "name": "Universal BTC",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Arbitrum Ecosystem",
+    "IoTeX Ecosystem",
+    "Liquid Staking Tokens",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Mantle Ecosystem",
+    "Berachain Ecosystem",
+    "ZetaChain Ecosystem",
+    "Merlin Chain Ecosystem",
+    "Mode Ecosystem",
+    "Bitlayer Ecosystem",
+    "Sonic Ecosystem",
+    "Liquid Staking",
+    "BSquared Network Ecosystem",
+    "Corn Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568",
+    "zetachain": "0x6b2a01a5f79deb4c2f3c0eda7b01df456fbd726a",
+    "taiko": "0x93919784c523f39cacaa98ee0a9d96c3f32b593e",
+    "iotex": "0x93919784c523f39cacaa98ee0a9d96c3f32b593e",
+    "bob-network": "0x236f8c0a61da474db21b693fb2ea7aab0c803894",
+    "mantle": "0x93919784c523f39cacaa98ee0a9d96c3f32b593e",
+    "mode": "0x6b2a01a5f79deb4c2f3c0eda7b01df456fbd726a",
+    "merlin-chain": "0x93919784c523f39cacaa98ee0a9d96c3f32b593e",
+    "berachain": "0xc3827a4bc8224ee2d116637023b124ced6db6e90",
+    "sonic": "0xc3827a4bc8224ee2d116637023b124ced6db6e90",
+    "corn": "0x93919784c523f39cacaa98ee0a9d96c3f32b593e",
+    "bitlayer": "0x93919784c523f39cacaa98ee0a9d96c3f32b593e",
+    "arbitrum-one": "0x6b2a01a5f79deb4c2f3c0eda7b01df456fbd726a",
+    "optimistic-ethereum": "0x93919784c523f39cacaa98ee0a9d96c3f32b593e",
+    "bsquared-network": "0x93919784c523f39cacaa98ee0a9d96c3f32b593e",
+    "binance-smart-chain": "0x6b2a01a5f79deb4c2f3c0eda7b01df456fbd726a"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "A brand new restaking protocol that accepts wrapped BTC tokens in partnership with the BTC staking protocol Babylon chain. The wBTC token on the Ethereum blockchain is supported, allowing all wBTC token holders to enjoy both yield on staking BTC tokens and the security of the Ethereum network.\r\n\r\nThe need for BTC holders to earn yield while safely holding their BTC tokens has been long recognized. The market is anticipating Babylon's Bitcoin Staking Protocol as a prominent solution. While Babylon is designed for restaking on top of the BTC blockchain network, there is also interest in solutions for BTC-pegged tokens like wBTC, BTCB, or other wrapped BTC tokens, rather than just native BTC tokens.\r\n\r\nBedrock's uniBTC provides an innovative restaking solution for wBTC holders to earn BTC restaking rewards without redeeming wBTC. It maintains the high security standards of the Ethereum blockchain, with the entire staking/unstaking process protected by multiple rounds of audited smart contracts.\r\n\r\nWith Bedrock's extensive experience in developing various liquid staking and liquid restaking products, uniBTC offers a viable option for users of wrapped BTC tokens to earn multiple rewards by simply minting their wrapped BTC tokens into uniBTC."
+  },
+  "links": {
+    "homepage": [
+      "https://www.bedrock.technology/"
+    ],
+    "whitepaper": "https://docs.bedrock.technology/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568",
+      "https://platform.arkhamintelligence.com/explorer/token/universal-btc",
+      "https://www.btrscan.com/token/0x93919784c523f39cacaa98ee0a9d96c3f32b593e",
+      "https://scan.merlinchain.io/token/0x93919784c523f39cacaa98ee0a9d96c3f32b593e",
+      "https://explorer.bsquared.network/token/0x93919784c523f39cacaa98ee0a9d96c3f32b593e",
+      "https://optimistic.etherscan.io/token/0x93919784c523f39cacaa98ee0a9d96c3f32b593e",
+      "https://ethplorer.io/address/0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568",
+      "https://explorer.bsquared.network/address/0x93919784c523f39cacaa98ee0a9d96c3f32b593e",
+      "https://scan.merlinchain.io/address/0x93919784c523f39cacaa98ee0a9d96c3f32b593e",
+      "https://arbiscan.io/token/0x6b2a01a5f79deb4c2f3c0eda7b01df456fbd726a"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/ctXrm6wfeg",
+      "https://medium.com/@bedrock_defi"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Bedrock_DeFi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Bedrock_Official",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Bedrock-Technology/uniBTC"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39599/thumb/uniBTC_200px.png?1723064455",
+    "small": "https://coin-images.coingecko.com/coins/images/39599/small/uniBTC_200px.png?1723064455",
+    "large": "https://coin-images.coingecko.com/coins/images/39599/large/uniBTC_200px.png?1723064455"
+  },
+  "last_updated": "2025-07-11T05:01:32.056422+00:00"
+}

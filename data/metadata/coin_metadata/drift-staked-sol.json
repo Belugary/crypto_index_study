@@ -1,0 +1,51 @@
+{
+  "id": "drift-staked-sol",
+  "symbol": "dsol",
+  "name": "Drift Staked SOL",
+  "categories": [
+    "Solana Ecosystem",
+    "Liquid Staking Tokens",
+    "Liquid Staked SOL",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "Dso1bDeDjCQxTrWHqUUi63oBvV7Mdm6WaobLbQ7gnPQ"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://app.drift.trade/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/Dso1bDeDjCQxTrWHqUUi63oBvV7Mdm6WaobLbQ7gnPQ",
+      "https://platform.arkhamintelligence.com/explorer/token/drift-staked-sol"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "driftprotocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/37479/thumb/solana.png?1714471411",
+    "small": "https://coin-images.coingecko.com/coins/images/37479/small/solana.png?1714471411",
+    "large": "https://coin-images.coingecko.com/coins/images/37479/large/solana.png?1714471411"
+  },
+  "last_updated": "2025-07-11T04:58:09.101715+00:00"
+}

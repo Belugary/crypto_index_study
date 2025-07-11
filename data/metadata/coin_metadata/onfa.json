@@ -1,0 +1,50 @@
+{
+  "id": "onfa",
+  "symbol": "oft",
+  "name": "ONFA",
+  "categories": [
+    "Software as a service",
+    "BNB Chain Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x297c6470cc7a3fe5cf8e5d977c33a2d4b4d9b126"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Onfa is a versatile and convenient cryptocurrency wallet that allows users to store, manage, and trade various cryptocurrencies with ease."
+  },
+  "links": {
+    "homepage": [
+      "https://onfa.io"
+    ],
+    "whitepaper": "https://drive.google.com/file/d/1B5myQk8TRo6saTMsA47raZmw7pZCVzBU/view",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x297c6470cc7a3fe5cf8e5d977c33a2d4b4d9b126",
+      "https://platform.arkhamintelligence.com/explorer/token/onfa",
+      "https://binplorer.com/address/0x297c6470cc7a3fe5cf8e5d977c33a2d4b4d9b126"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "onfaofficial",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Onfa_Channel",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39159/thumb/logo-onfa-circle-green.png?1720776070",
+    "small": "https://coin-images.coingecko.com/coins/images/39159/small/logo-onfa-circle-green.png?1720776070",
+    "large": "https://coin-images.coingecko.com/coins/images/39159/large/logo-onfa-circle-green.png?1720776070"
+  },
+  "last_updated": "2025-07-11T04:59:49.840544+00:00"
+}

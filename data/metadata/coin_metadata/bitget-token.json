@@ -1,0 +1,60 @@
+{
+  "id": "bitget-token",
+  "symbol": "bgb",
+  "name": "Bitget Token",
+  "categories": [
+    "Exchange-based Tokens",
+    "Centralized Exchange (CEX) Token",
+    "Ethereum Ecosystem",
+    "DragonFly Capital Portfolio",
+    "Morph L2 Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x54d2252757e1672eead234d27b1270728ff90581",
+    "morph-l2": "0x55d1f1879969bdbb9960d269974564c58dbc3238"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Bitget Token (BGB) is the exclusive platform token for the centralized exchange Bitget and the decentralized Bitget Wallet ecosystem. As a utility token, it can be used for trading, paying transaction fees, participating in platform activities, and accessing perks. \r\n\r\nThe initial supply of BGB is fixed at 2 billion tokens, but 800 million BGB (40% of the total supply) were proactively burned by the Bitget team on December 30, 2024, reducing the total supply to 1.2 billion tokens, all of which are now in full circulation. Starting in 2025, Bitget plans to introduce a quarterly buyback and burn mechanism, transitioning BGB into a deflationary model.\r\n\r\nBitget Token (BGB) stands out by unlocking access to a wide range of benefits across Bitget's centralized and decentralized ecosystems. Current perks include token farming, earning passive income through staking, early access to high-potential projects on Bitget Launchpad and Launchpool, fee discounts, and exclusive VIP privileges. \r\n\r\nFuture use cases include on-chain trading, DeFi applications, gas fees, and project airdrop eligibility. Additionally, BGB enables payments with discounts via Bitget Pay and Card, offering premium benefits and expanded services. With its versatile applications, BGB enhances user experience and boosts adoption across Bitget's ecosystem.\r\nBitget Token (BGB) can be purchased directly on the Bitget exchange. BGB is also available for trading on Bitfinex and MEXC. "
+  },
+  "links": {
+    "homepage": [
+      "https://partner.bitget.com/bg/2LAE9K"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x54d2252757e1672eead234d27b1270728ff90581",
+      "https://platform.arkhamintelligence.com/explorer/token/bitget-token",
+      "https://ethplorer.io/address/0x54d2252757e1672eead234d27b1270728ff90581",
+      "https://explorer.morphl2.io/token/0x55d1f1879969bdbB9960d269974564C58DBc3238"
+    ],
+    "official_forum_url": [
+      "https://www.tiktok.com/@bitgetofficial",
+      "https://www.instagram.com/bitget__official/"
+    ],
+    "chat_url": [
+      "https://www.youtube.com/@Bitget"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "bitgetglobal",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Bitget_NewMarket_Bot",
+    "subreddit_url": "https://www.reddit.com/r/BitgetReddit",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/11610/thumb/Bitget_logo.png?1736925727",
+    "small": "https://coin-images.coingecko.com/coins/images/11610/small/Bitget_logo.png?1736925727",
+    "large": "https://coin-images.coingecko.com/coins/images/11610/large/Bitget_logo.png?1736925727"
+  },
+  "last_updated": "2025-07-11T04:57:23.897702+00:00"
+}

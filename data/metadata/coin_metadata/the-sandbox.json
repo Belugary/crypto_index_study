@@ -1,0 +1,75 @@
+{
+  "id": "the-sandbox",
+  "symbol": "sand",
+  "name": "The Sandbox",
+  "categories": [
+    "Gaming (GameFi)",
+    "NFT",
+    "Metaverse",
+    "Polygon Ecosystem",
+    "Play To Earn",
+    "Harmony Ecosystem",
+    "Ethereum Ecosystem",
+    "Animoca Brands Portfolio",
+    "Alleged SEC Securities",
+    "Binance Launchpad",
+    "Gaming Utility Token",
+    "Simulation Games",
+    "Energi Ecosystem",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x3845badade8e6dff049820680d1f14bd3903a5d0",
+    "harmony-shard-0": "0x35de8649e1e4fd1a7bd3b14f7e24e5e7887174ed",
+    "energi": "0x73a4ac88c12d66ad08c1cfc891bf47883919ba74",
+    "polygon-pos": "0xbbba073c31bf03b8acf7c28ef0738decf3695683"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The Sandbox is a community-driven platform where creators can monetize voxel ASSETS and gaming experiences on the blockchain.\r\n\r\nSAND is the utility token used throughout The Sandbox ecosystem as the basis of transactions and interactions. It is an ERC-20 utility token built on the Ethereum blockchain. There is a finite supply of 3,000,000,000 SAND."
+  },
+  "links": {
+    "homepage": [
+      "https://www.sandbox.game/en/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x3845badade8e6dff049820680d1f14bd3903a5d0",
+      "https://platform.arkhamintelligence.com/explorer/token/the-sandbox",
+      "https://ethplorer.io/address/0x3845badade8e6dff049820680d1f14bd3903a5d0",
+      "https://polygon.dex.guru/token/0xbbba073c31bf03b8acf7c28ef0738decf3695683",
+      "https://polygonscan.com/token/0xbbba073c31bf03b8acf7c28ef0738decf3695683",
+      "https://explorer.energi.network/token/0x73a4ac88c12d66ad08c1cfc891bf47883919ba74",
+      "https://ethereum.dex.guru/token/0x3845badade8e6dff049820680d1f14bd3903a5d0",
+      "https://explorer.harmony.one/token/0x35de8649e1e4fd1a7bd3b14f7e24e5e7887174ed"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/sandbox-game"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "TheSandboxGame",
+    "facebook_username": "TheSandboxGame",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "sandboxgame",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/thesandboxgame/sandbox-smart-contracts"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/12129/thumb/sandbox_logo.jpg?1696511971",
+    "small": "https://coin-images.coingecko.com/coins/images/12129/small/sandbox_logo.jpg?1696511971",
+    "large": "https://coin-images.coingecko.com/coins/images/12129/large/sandbox_logo.jpg?1696511971"
+  },
+  "last_updated": "2025-07-11T05:01:19.339409+00:00"
+}

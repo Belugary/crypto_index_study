@@ -1,0 +1,51 @@
+{
+  "id": "usdtb",
+  "symbol": "usdtb",
+  "name": "USDtb",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "Ethereum Ecosystem",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xc139190f447e929f090edeb554d95abb8b18ac1c"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "USDtb shares characteristics with existing fiat stablecoins such as USDC or USDT, seeking to maintain a stable value pegged to the US dollar by utilizing cash or cash-equivalent reserves. Users are able to transfer USDtb freely and without restriction. USDtb is able to scale without practical constraints given the use of Blackrock’s BUIDL as the primary reserve  asset, representing the vast majority (90%) of the overall reserves - the highest BUIDL allocation of any stablecoin.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://usdtb.money/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xc139190f447e929f090edeb554d95abb8b18ac1c",
+      "https://ethplorer.io/address/0xc139190f447e929f090edeb554d95abb8b18ac1c"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/52804/thumb/USDtbSmall.png?1734344946",
+    "small": "https://coin-images.coingecko.com/coins/images/52804/small/USDtbSmall.png?1734344946",
+    "large": "https://coin-images.coingecko.com/coins/images/52804/large/USDtbSmall.png?1734344946"
+  },
+  "last_updated": "2025-07-11T05:01:37.682882+00:00"
+}

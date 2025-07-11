@@ -1,0 +1,48 @@
+{
+  "id": "unichain-bridged-wbtc-unichain",
+  "symbol": "wbtc",
+  "name": "LayerZero Bridged WBTC (Unichain)",
+  "categories": [
+    "Bridged WBTC",
+    "Bridged-Tokens"
+  ],
+  "asset_platform_id": "unichain",
+  "platforms": {
+    "unichain": "0x0555e30da8f98308edb960aa94c0db47230d2b9c"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://uniscan.xyz/token/0x0555e30da8f98308edb960aa94c0db47230d2b9c",
+      "https://uniscan.xyz/token/0x927B51f251480a681271180DA4de28D44EC4AfB8",
+      "https://uniscan.xyz/token/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/66720/thumb/wbtc.jpg?1750312819",
+    "small": "https://coin-images.coingecko.com/coins/images/66720/small/wbtc.jpg?1750312819",
+    "large": "https://coin-images.coingecko.com/coins/images/66720/large/wbtc.jpg?1750312819"
+  },
+  "last_updated": "2025-07-11T05:01:29.795633+00:00"
+}

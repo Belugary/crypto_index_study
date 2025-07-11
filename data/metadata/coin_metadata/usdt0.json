@@ -1,0 +1,77 @@
+{
+  "id": "usdt0",
+  "symbol": "usdt0",
+  "name": "USDT0",
+  "categories": [
+    "Arbitrum Ecosystem",
+    "Optimism Ecosystem",
+    "Berachain Ecosystem",
+    "Bridged USDT",
+    "Flare Network Ecosystem",
+    "Hyperliquid Ecosystem",
+    "Sei Network Ecosystem",
+    "Bridged-Tokens",
+    "Ink Ecosystem",
+    "Bridged Stablecoin",
+    "Unichain Ecosystem",
+    "HyperEVM Ecosystem",
+    "Corn Ecosystem"
+  ],
+  "asset_platform_id": "ink",
+  "platforms": {
+    "ink": "0x0200c29006150606b650577bbe7b6248f58470c1",
+    "hyperliquid": "0x25faedc3f054130dbb4e4203aca63567",
+    "berachain": "0x779ded0c9e1022225f8e0630b35a9b54be713736",
+    "flare-network": "0xe7cd86e13ac4309349f30b3435a9d337750fc82d",
+    "corn": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+    "sei-v2": "0x9151434b16b9763660705744891fa906f660ecc5",
+    "unichain": "0x9151434b16b9763660705744891fa906f660ecc5",
+    "arbitrum-one": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+    "hyperevm": "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+    "optimistic-ethereum": "0x01bff41798a0bcf287b996046ca68b395dbc1071"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "USDT0 ensures fast, secure, and cost-efficient cross-chain transfers all while maintaining a strict 1:1 backing with USDT."
+  },
+  "links": {
+    "homepage": [
+      "https://usdt0.to/"
+    ],
+    "whitepaper": "https://docs.usdt0.to/",
+    "blockchain_site": [
+      "https://explorer.inkonchain.com/token/0x0200C29006150606B650577BBE7B6248F58470c1",
+      "https://berascan.com/token/0x779ded0c9e1022225f8e0630b35a9b54be713736",
+      "https://arbitrum.dex.guru/token/0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+      "https://arbiscan.io/token/0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+      "https://optimistic.etherscan.io/token/0x01bff41798a0bcf287b996046ca68b395dbc1071",
+      "https://uniscan.xyz/token/0x9151434b16b9763660705744891fa906f660ecc5",
+      "https://cornscan.io/token/0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb",
+      "https://seitrace.com/token/0x9151434b16b9763660705744891fa906f660ecc5",
+      "https://hyperliquid.cloud.blockscout.com/token/0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+      "https://hyperevmscan.io/token/0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "USDT0_to",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53705/thumb/usdt0.jpg?1737086183",
+    "small": "https://coin-images.coingecko.com/coins/images/53705/small/usdt0.jpg?1737086183",
+    "large": "https://coin-images.coingecko.com/coins/images/53705/large/usdt0.jpg?1737086183"
+  },
+  "last_updated": "2025-07-11T05:01:37.090532+00:00"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "theta-token",
+  "symbol": "theta",
+  "name": "Theta Network",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "DePIN",
+    "Theta Ecosystem",
+    "Blockchain Capital Portfolio",
+    "Made in USA"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2017-12-14",
+  "country_origin": "US",
+  "description": {
+    "en": "Theta Network is the leading blockchain-powered decentralized cloud for AI, media and entertainment. It can be viewed as a \"dual network\" consisting of two complementary subsystems, the Theta Edge Network and the Theta Blockchain. The edge network provides vast amounts of GPU compute power for AI, video, rendering and other tasks, while the Theta blockchain provides payment, reward, and smart contract capabilities. Below we provide more details for the two components.\r\n\r\nTheta's Edge Network is a decentralized network consisting of over 10,000 active global nodes with 80 PetaFLOPS of always available distributed GPU compute power, equivalent to 250 Nvidia A100s. Theta Edge Network powers the Theta EdgeCloud, a leading hybrid cloud-edge AI computing platform launched on May 1, 2024. Leveraging Theta's recently approved patent on ‘Edge Computing Platform supported by Smart Contract Enabled Blockchain Network’ and the upcoming release of Elite+ Booster edge nodes, all Theta community members will be able to participate and share in the rewards from EdgeCloud AI, video, 3D rendering and gaming compute jobs. While chatbots like ChatGPT and others utilize GPUs, new generative AI models such as text-to-video, text-to-3D and sketch-to-3D will require 10-100x the amount of computational power. The combined GPU compute power of Theta's decentralized edge network and its preferred cloud partners is 20-30x more than other comparable networks in the industry today, holding the keys to global GPU compute, arguably the most valuable and most disruptive asset in history.\r\n\r\nTheta blockchain is an EVM compatible multi-blockchain network which supports Turing complete smart contracts. This EVM support enables a wide range of interesting Web3 applications to be built on the Theta Network. Examples include non-fungible tokens (NFT), decentralized exchanges (DEX/DeFi), and decentralized autonomous organizations (DAO), which could become indispensable building blocks of the next generation AI, media and entertainment platforms. Theta’s enterprise validator and governance council is led by Google, Samsung, Sony, Creative Artists Agency (CAA), Binance, Blockchain Ventures, DHVC, gumi and other global leaders. Theta has partnered with leading entertainment brands including Lionsgate, MGM, Katy Perry, American Idol, The Price is Right, Taste of Home, and more. Popular platforms utilizing Theta’s Web3 infrastructure include MetaCannes Film3 Festival, FuseTV, CONtv Anime, WPT, PetCollective, FailArmy, and other OTT streaming services. Strategic corporate investors include Samsung NEXT, Sony Innovation Fund, Bertelsmann Digital Media Investments (BDMI), CAA and Silicon Valley VCs including DCM and Sierra Ventures."
+  },
+  "links": {
+    "homepage": [
+      "https://www.thetatoken.org/",
+      "https://www.thetaedgecloud.com/"
+    ],
+    "whitepaper": "https://s3.us-east-2.amazonaws.com/assets.thetatoken.org/Theta-white-paper-latest.pdf",
+    "blockchain_site": [
+      "https://explorer.thetatoken.org",
+      "https://explorer.energi.network/token/0x65622f8e8b569ade3f684b5f2a189f78f98a75b0"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/nC8mCkgEmV",
+      "https://www.facebook.com/ThetaNetwork/"
+    ],
+    "announcement_url": [
+      "https://medium.com/theta-network"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "Theta_Network",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": 2451089,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/theta_network/",
+    "repos_url": {
+      "github": [
+        "https://github.com/thetatoken/theta-protocol-ledger",
+        "https://github.com/thetatoken/theta-protocol-delivery-lib",
+        "https://github.com/thetatoken/theta-infrastructure-ledger-explorer",
+        "https://github.com/thetatoken/theta-infrastructure-vault"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/2538/thumb/theta-token-logo.png?1696503349",
+    "small": "https://coin-images.coingecko.com/coins/images/2538/small/theta-token-logo.png?1696503349",
+    "large": "https://coin-images.coingecko.com/coins/images/2538/large/theta-token-logo.png?1696503349"
+  },
+  "last_updated": "2025-07-11T05:01:20.511495+00:00"
+}

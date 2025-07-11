@@ -1,0 +1,68 @@
+{
+  "id": "blockstack",
+  "symbol": "stx",
+  "name": "Stacks",
+  "categories": [
+    "Infrastructure",
+    "Smart Contract Platform",
+    "Layer 2 (L2)",
+    "Bitcoin Sidechains",
+    "Stacks Ecosystem",
+    "SideChain",
+    "GMCI Layer 2 Index",
+    "GMCI 30 Index",
+    "Blockchain Capital Portfolio",
+    "GMCI Index",
+    "Made in USA",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "US",
+  "description": {
+    "en": "Stacks brings Apps and Smart Contracts to Bitcoin. Apps built on Stacks inherit all of Bitcoin’s powers. They run their logic on the blockchain with smart contracts, are controlled by code instead of companies, and are accessible to anyone. This enables decentralized apps to do things that regular apps can’t."
+  },
+  "links": {
+    "homepage": [
+      "http://stacks.co/"
+    ],
+    "whitepaper": "https://gaia.blockstack.org/hub/1AxyPunHHAHiEffXWESKfbvmBpGQv138Fp/stacks.pdf",
+    "blockchain_site": [
+      "https://explorer.stacks.co/",
+      "https://stxtools.io/)"
+    ],
+    "official_forum_url": [
+      "https://forum.stacks.org/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/5DJaBrf",
+      "https://www.stacks.co/blog"
+    ],
+    "announcement_url": [
+      "https://www.stacks.co/blog"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "Stacks",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "StacksChat",
+    "subreddit_url": "https://www.reddit.com/r/stacks",
+    "repos_url": {
+      "github": [
+        "https://github.com/stacks-network"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/2069/thumb/Stacks_Logo_png.png?1709979332",
+    "small": "https://coin-images.coingecko.com/coins/images/2069/small/Stacks_Logo_png.png?1709979332",
+    "large": "https://coin-images.coingecko.com/coins/images/2069/large/Stacks_Logo_png.png?1709979332"
+  },
+  "last_updated": "2025-07-11T04:57:28.882791+00:00"
+}

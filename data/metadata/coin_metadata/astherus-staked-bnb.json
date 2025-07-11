@@ -1,0 +1,52 @@
+{
+  "id": "astherus-staked-bnb",
+  "symbol": "asbnb",
+  "name": "Aster Staked BNB",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Liquid Staking Tokens"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x77734e70b6e88b4d82fe632a168edf6e700912b6"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "Aster is a decentralized perpetual exchange built for everyone. It offers MEV-free, one-click trading with up to 1001x leverage in Simple Mode, and full-featured, pro-grade tools in Pro Mode. Backed by YZi Labs, Aster is building the future of DeFi: fast, flexible, and community-first. \r\n\r\nAster's asBNB is a BNB liquid staking derivative that accrue rewards from Binance Launchpools, HODLer airdrops and Megadrops."
+  },
+  "links": {
+    "homepage": [
+      "https://www.asterdex.com/en/earn"
+    ],
+    "whitepaper": "https://docs.asterdex.com/product/aster-earn/earn/mint-asbnb",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x77734e70b6e88b4d82fe632a168edf6e700912b6",
+      "https://binplorer.com/address/0x77734e70b6E88b4d82fE632a168EDf6e700912b6"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "http://discord.gg/invite/HzrgVv7n64",
+      "https://medium.com/asterdex"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Aster_DEX",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "AsterDEX",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54129/thumb/asBNB.png?1744789305",
+    "small": "https://coin-images.coingecko.com/coins/images/54129/small/asBNB.png?1744789305",
+    "large": "https://coin-images.coingecko.com/coins/images/54129/large/asBNB.png?1744789305"
+  },
+  "last_updated": "2025-07-11T04:56:59.491275+00:00"
+}

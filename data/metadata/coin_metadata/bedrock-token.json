@@ -1,0 +1,57 @@
+{
+  "id": "bedrock-token",
+  "symbol": "br",
+  "name": "Bedrock",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "Liquid Staking Governance Tokens",
+    "Berachain Ecosystem",
+    "BTCfi Protocol",
+    "Binance Wallet IDO"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xff7d6a96ae471bbcd7713af9cb1feeb16cf56b41",
+    "berachain": "0xd352dc6e5f0c45e2f2b38eb5565eb286a1ea4087"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Bedrock DAO is a governance framework for managing decisions within the Bedrock ecosystem. It enables BR token holders to participate in governance by converting BR into veBR, a voting escrow token. Governance decisions include protocol parameters, incentive structures, and liquidity allocation.\r\nThe governance system is based on veBR, which is obtained by locking BR tokens at a 1:1 ratio. The longer the lock duration, the greater the voting power. veBR holders vote on governance proposals, including gauge allocations that determine incentive distribution across liquidity pools."
+  },
+  "links": {
+    "homepage": [
+      "https://bedrockdao.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0xff7d6a96ae471bbcd7713af9cb1feeb16cf56b41",
+      "https://binplorer.com/address/0xff7d6a96ae471bbcd7713af9cb1feeb16cf56b41",
+      "https://berascan.com/token/0xd352dc6e5f0c45e2f2b38eb5565eb286a1ea4087"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Bedrock_DeFi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "Bedrock_Official",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Bedrock-Technology"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54908/thumb/BR_200px.png?1742453499",
+    "small": "https://coin-images.coingecko.com/coins/images/54908/small/BR_200px.png?1742453499",
+    "large": "https://coin-images.coingecko.com/coins/images/54908/large/BR_200px.png?1742453499"
+  },
+  "last_updated": "2025-07-11T04:57:09.601442+00:00"
+}

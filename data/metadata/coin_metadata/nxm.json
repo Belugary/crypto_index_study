@@ -1,0 +1,55 @@
+{
+  "id": "nxm",
+  "symbol": "nxm",
+  "name": "Nexus Mutual",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Insurance",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xd7c49cee7e9188cca6ad8ff264c1da2e69d4cf3b"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Nexus Mutual is a decentralized insurance protocol built on Ethereum that currently offers cover for smart contracts on the Ethereum blockchain, currently covering all the main defi protocols. Nexus Mutual offers coverage against smart contract failures, which protects against potential bugs in smart contract code. \r\n\r\nThe coverage intends to provide protection against financial losses that may be incurred due to hacks or exploits in the smart contract code. Note that smart contract cover only protects against “unintended uses” of smart contracts, so security events such as the loss of private keys or centralized exchange hacks are not covered. In December 2020, it released custody cover covering centralised custodians and lenders such as Celsius, Blockfi, and Nexo. "
+  },
+  "links": {
+    "homepage": [
+      "https://nexusmutual.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xd7c49cee7e9188cca6ad8ff264c1da2e69d4cf3b",
+      "https://platform.arkhamintelligence.com/explorer/token/nxm",
+      "https://ethplorer.io/address/0xd7c49cee7e9188cca6ad8ff264c1da2e69d4cf3b"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/xxFaAEn"
+    ],
+    "announcement_url": [
+      "https://medium.com/nexus-mutual"
+    ],
+    "snapshot_url": "https://snapshot.org/#/community.nexusmutual.eth",
+    "twitter_screen_name": "NexusMutual",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/11810/thumb/NXMmain.png?1696511684",
+    "small": "https://coin-images.coingecko.com/coins/images/11810/small/NXMmain.png?1696511684",
+    "large": "https://coin-images.coingecko.com/coins/images/11810/large/NXMmain.png?1696511684"
+  },
+  "last_updated": "2025-07-11T04:59:45.178001+00:00"
+}

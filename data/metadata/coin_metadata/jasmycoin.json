@@ -1,0 +1,57 @@
+{
+  "id": "jasmycoin",
+  "symbol": "jasmy",
+  "name": "JasmyCoin",
+  "categories": [
+    "Internet of Things (IOT)",
+    "Ethereum Ecosystem",
+    "DePIN",
+    "DWF Labs Portfolio",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x7420b4b9a0110cdc71fb720908340c03f9bc03ec"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "JP",
+  "description": {
+    "en": "JasmyCoin is based on the ERC 20 standard. The token can also be used by an unspecified number of individuals and businesses to transfer tokens using digital devices as proof of value exchange or payment for services. By not limiting its usability, the token can have a wide range of purposes."
+  },
+  "links": {
+    "homepage": [
+      "https://www.jasmy.co.jp/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x7420b4b9a0110cdc71fb720908340c03f9bc03ec",
+      "https://platform.arkhamintelligence.com/explorer/token/jasmycoin",
+      "https://ethplorer.io/address/0x7420b4b9a0110cdc71fb720908340c03f9bc03ec"
+    ],
+    "official_forum_url": [
+      "https://jasmy-global.medium.com/"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "JasmyMGT",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "jasmyofficial",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/TokyoToken/JasmyCoin"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/13876/thumb/JASMY200x200.jpg?1696513620",
+    "small": "https://coin-images.coingecko.com/coins/images/13876/small/JASMY200x200.jpg?1696513620",
+    "large": "https://coin-images.coingecko.com/coins/images/13876/large/JASMY200x200.jpg?1696513620"
+  },
+  "last_updated": "2025-07-11T04:58:55.163368+00:00"
+}

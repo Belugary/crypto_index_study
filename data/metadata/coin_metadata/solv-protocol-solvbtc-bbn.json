@@ -1,0 +1,100 @@
+{
+  "id": "solv-protocol-solvbtc-bbn",
+  "symbol": "xsolvbtc",
+  "name": "Solv Protocol Staked BTC",
+  "categories": [
+    "Crypto-Backed Tokens",
+    "BNB Chain Ecosystem",
+    "Solana Ecosystem",
+    "Avalanche Ecosystem",
+    "Polygon Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Mantle Ecosystem",
+    "Linea Ecosystem",
+    "Base Ecosystem",
+    "Restaking",
+    "Berachain Ecosystem",
+    "Merlin Chain Ecosystem",
+    "Rootstock Ecosystem",
+    "Sonic Ecosystem",
+    "Sei Network Ecosystem",
+    "Ink Ecosystem",
+    "Soneium Ecosystem",
+    "HyperEVM Ecosystem",
+    "Corn Ecosystem",
+    "Liquid Staked BTC"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x1346b618dc92810ec74163e4c27004c921d446a5",
+    "mantle": "0x1d40bafc49c37cda49f2a5427e2fb95e1e3fcf20",
+    "solana": "SoLvAiHLF7LGEaiTN5KGZt1bNnraoWTi5mjcvRoDAX4",
+    "taiko": "0xcc0966d8418d412c599a6421b760a847eb169a8c",
+    "sonic": "0xcc0966d8418d412c599a6421b760a847eb169a8c",
+    "sei-v2": "0xcc0966d8418d412c599a6421b760a847eb169a8c",
+    "soneium": "0xcc0966d8418d412c599a6421b760a847eb169a8c",
+    "berachain": "0xcc0966d8418d412c599a6421b760a847eb169a8c",
+    "corn": "0xcc0966d8418d412c599a6421b760a847eb169a8c",
+    "linea": "0xcc0966d8418d412c599a6421b760a847eb169a8c",
+    "rootstock": "0xcc0966d8418d412c599a6421b760a847eb169a8c",
+    "polygon-pos": "0xc99f5c922dae05b6e2ff83463ce705ef7c91f077",
+    "ink": "0xc99f5c922dae05b6e2ff83463ce705ef7c91f077",
+    "arbitrum-one": "0x346c574c56e1a4aaa8dc88cda8f7eb12b39947ab",
+    "merlin-chain": "0x1760900aca15b90fa2eca70ce4b4ec441c2cf6c5",
+    "hyperevm": "0xc99f5c922dae05b6e2ff83463ce705ef7c91f077",
+    "base": "0xc26c9099bd3789107888c35bb41178079b282561",
+    "bob-network": "0xcc0966d8418d412c599a6421b760a847eb169a8c",
+    "ethereum": "0xd9d920aa40f578ab794426f5c90f6c731d159def",
+    "avalanche": "0xcc0966d8418d412c599a6421b760a847eb169a8c"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "SolvBTC.BBN is a yield-bearing token that represents staked SolvBTC plus all future Babylon staking rewards and Solv Points. As a liquid token, SolvBTC.BBN stays accessible across multiple networks and unlocks more DeFi yield opportunities.\r\nSolv Protocol is a Unified Bitcoin Liquidity Matrix, aimed at bridging Bitcoin's trillion-dollar economy to DeFi by unifying its fragmented liquidity through SolvBTC. SolvBTC provides Bitcoin holders with access to Liquid Staking Tokens, offering a simple and efficient way to earn yields on their Bitcoin across any chain. By staking with Solv, your Bitcoin remains liquid, allowing you to leverage a wide range of DeFi applications."
+  },
+  "links": {
+    "homepage": [
+      "https://app.solv.finance/babylon"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x1346b618dc92810ec74163e4c27004c921d446a5",
+      "https://platform.arkhamintelligence.com/explorer/token/solv-protocol-solvbtc-bbn",
+      "https://binplorer.com/address/0x1346b618dc92810ec74163e4c27004c921d446a5",
+      "https://etherscan.io/token/0xd9d920aa40f578ab794426f5c90f6c731d159def",
+      "https://arbiscan.io/token/0x346c574c56e1a4aaa8dc88cda8f7eb12b39947ab",
+      "https://explorer.mantle.xyz/token/0x1d40bafc49c37cda49f2a5427e2fb95e1e3fcf20",
+      "https://scan.merlinchain.io/token/0x1760900aca15b90fa2eca70ce4b4ec441c2cf6c5",
+      "https://ethplorer.io/address/0xd9d920aa40f578ab794426f5c90f6c731d159def",
+      "https://mantlescan.xyz/token/0x1d40bafc49c37cda49f2a5427e2fb95e1e3fcf20",
+      "https://scan.merlinchain.io/address/0x1760900aca15b90fa2eca70ce4b4ec441c2cf6c5"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/UF26MVSgbZ",
+      "https://solvprotocol.medium.com/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SolvProtocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "SolvProtocol",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/solv-finance"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39384/thumb/xSolvBTC.png?1744170824",
+    "small": "https://coin-images.coingecko.com/coins/images/39384/small/xSolvBTC.png?1744170824",
+    "large": "https://coin-images.coingecko.com/coins/images/39384/large/xSolvBTC.png?1744170824"
+  },
+  "last_updated": "2025-07-11T05:00:46.587265+00:00"
+}

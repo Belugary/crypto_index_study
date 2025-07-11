@@ -1,0 +1,69 @@
+{
+  "id": "decred",
+  "symbol": "dcr",
+  "name": "Decred",
+  "categories": [
+    "Smart Contract Platform",
+    "Privacy",
+    "Layer 1 (L1)",
+    "Proof of Stake (PoS)",
+    "Proof of Work (PoW)",
+    "Blockchain Capital Portfolio",
+    "Made in USA"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 5,
+  "hashing_algorithm": "Blake-256",
+  "genesis_date": "2016-02-08",
+  "country_origin": "",
+  "description": {
+    "en": "Decred aims to build a community-directed digital currency whose security, adaptability, and sustainability make it a superior long-term store of value. It is achieving this aim by building the world's first truly decentralized autonomous organization."
+  },
+  "links": {
+    "homepage": [
+      "https://www.decred.org/",
+      "https://docs.decred.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://dcrdata.decred.org/",
+      "https://dcr.tokenview.io/",
+      "https://explorer.energi.network/token/0x4bdac5441c79de6709839dd06ba407d5b386f2fb"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://chat.decred.org/",
+      "https://decred.org/community/",
+      "https://www.facebook.com/decredproject/"
+    ],
+    "announcement_url": [
+      "https://medium.com/decred"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "decredproject",
+    "facebook_username": "https://www.facebook.com/decredproject",
+    "bitcointalk_thread_identifier": 1290358,
+    "telegram_channel_identifier": "Decred",
+    "subreddit_url": "https://www.reddit.com/r/decred",
+    "repos_url": {
+      "github": [
+        "https://github.com/decred/dcrd",
+        "https://github.com/decred/dcrandroid",
+        "https://github.com/decred/politeiagui",
+        "https://github.com/decred/decrediton",
+        "https://github.com/decred/dcrwallet",
+        "https://github.com/decred/dcrdata"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/329/thumb/decred.png?1696501665",
+    "small": "https://coin-images.coingecko.com/coins/images/329/small/decred.png?1696501665",
+    "large": "https://coin-images.coingecko.com/coins/images/329/large/decred.png?1696501665"
+  },
+  "last_updated": "2025-07-11T04:58:01.648665+00:00"
+}

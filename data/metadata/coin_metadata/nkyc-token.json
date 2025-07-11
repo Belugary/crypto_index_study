@@ -1,0 +1,51 @@
+{
+  "id": "nkyc-token",
+  "symbol": "nkyc",
+  "name": "NKYC Token",
+  "categories": [
+    "Exchange-based Tokens",
+    "BNB Chain Ecosystem",
+    "Centralized Exchange (CEX) Token"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x59769630b236398c2471eb26e6a529448030d94f"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Pay trade fees with NonKYC Token (NKYC) on Nonkyc.io Exchange and get a 25% discount. \r\n\r\nFounded in 2023, NonKYC.io strives to provide its users with the best trading experience and give small and medium market cap assets a reliable trading hub. Our goal is to maintain a fast and user friendly system while also concentrating on security to keep users, data, and assets safe. Security of our users' data & assets is always our top priority and we are focused on building an easy to use digital asset trading platform for everyone to enjoy.\r\n\r\nThe NonKYC platform system is NOT from some predesigned script package or preexisting codebase. It has been created from the ground up by professional developers who are well experienced in Cryptocurrency. NonKYC has been designed to scale horizontally as we grow to become a top tier exchange.\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://nonkyc.io"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x59769630b236398c2471eb26e6a529448030d94f",
+      "https://platform.arkhamintelligence.com/explorer/token/nkyc-token",
+      "https://binplorer.com/address/0x59769630b236398c2471eb26e6a529448030d94f"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "nonkyc_exchange",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "nonkyc",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/30337/thumb/NKYC-Logo.png?1696529238",
+    "small": "https://coin-images.coingecko.com/coins/images/30337/small/NKYC-Logo.png?1696529238",
+    "large": "https://coin-images.coingecko.com/coins/images/30337/large/NKYC-Logo.png?1696529238"
+  },
+  "last_updated": "2025-07-11T04:59:42.326733+00:00"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "neiro-3",
+  "symbol": "neiro",
+  "name": "Neiro",
+  "categories": [
+    "Meme",
+    "Ethereum Ecosystem",
+    "Dog-Themed"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "Neiro is an ERC-20 token deployed on Ethereum. It is a memecoin dedicated to the newly-adopted Shiba Inu dog from the woman who previously owned the famous Kabosu, face of the Doge meme.\r\n\r\nAfter being rugged by its developer, a powerful community has come together to support this legendary dog. Neiro is 100% owned and by a community of hard-working and passionate holders.\r\n\r\nNeiro is a meme coin with no intrinsic value or expectation of financial return. There is no formal team or roadmap. the coin is completely useless and for entertainment purposes only."
+  },
+  "links": {
+    "homepage": [
+      "https://www.neiroeth.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee",
+      "https://platform.arkhamintelligence.com/explorer/token/neiro-3",
+      "https://ethplorer.io/address/0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "neiro",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "ethneirocto",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39488/thumb/neiro.jpg?1731449567",
+    "small": "https://coin-images.coingecko.com/coins/images/39488/small/neiro.jpg?1731449567",
+    "large": "https://coin-images.coingecko.com/coins/images/39488/large/neiro.jpg?1731449567"
+  },
+  "last_updated": "2025-07-11T04:59:37.963774+00:00"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "kadena",
+  "symbol": "kda",
+  "name": "Kadena",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Kadena Ecosystem",
+    "Multicoin Capital Portfolio",
+    "Proof of Work (PoW)",
+    "Made in USA"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Kadena is launching one of the world’s first true scalable blockchains ready for applications.\r\n \r\nKadena’s public blockchain is a braided, high-throughput Proof of Work system that runs Chainweb, a protocol that delivers security and throughput. The Kadena network will unite public applications, private blockchains, and other interoperable chains in one place, driving traffic to the high-bandwidth computer at the heart of the Kadena public chain.\r\n\r\nKadena enterprise software is in use today by major companies in finance, healthcare, and insurance while allowing builders with a vision to skip straight from idea to product. With the launch of Kadena’s public chain, this system will support blockchain application development, from private to public and everywhere in between.\r\n  \r\nKadena is solving the problems of Ethereum and is delivering features today that other blockchains have only begun to include on their roadmaps, including Formal Verification, interoperability, scalability, and more.\r\n\r\nKadena is live and ready for immediate deployment of production blockchain applications.\r\n\r\nThe Kadena token (KDA) is a digital currency that is used to pay for computation on the Kadena public chain. Similar to ETH on Ethereum, KDA on Kadena is the token in which miners are compensated for mining blocks on the network and is the transaction fee that users pay in order to have their transactions included in a block.\r\n\r\nApplications processing volumes of transactions on the high-throughput, scalable Kadena network will execute their smart contract code using the native Kadena token. As more applications join or interoperate with the Kadena network, the number of smart contracts executed grows, as does the utility of the Kadena token."
+  },
+  "links": {
+    "homepage": [
+      "https://kadena.io",
+      "https://docs.kadena.io",
+      "https://explorer.chainweb.com"
+    ],
+    "whitepaper": "https://www.kadena.io/whitepapers",
+    "blockchain_site": [
+      "https://kdaexplorer.com/",
+      "https://explorer.chainweb.com/mainnet"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/kadena-llc/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/kadena",
+      "https://www.youtube.com/@KadenaBlockchain"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "kadena_io",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "kadena_io",
+    "subreddit_url": "https://www.reddit.com/r/kadena",
+    "repos_url": {
+      "github": [
+        "https://github.com/kadena-io/chainweb-node",
+        "https://github.com/kadena-io/pact",
+        "https://github.com/kadena-io/chainweaver"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/3693/thumb/Social_-_Profile_Picture.png?1723001308",
+    "small": "https://coin-images.coingecko.com/coins/images/3693/small/Social_-_Profile_Picture.png?1723001308",
+    "large": "https://coin-images.coingecko.com/coins/images/3693/large/Social_-_Profile_Picture.png?1723001308"
+  },
+  "last_updated": "2025-07-11T04:58:59.478639+00:00"
+}

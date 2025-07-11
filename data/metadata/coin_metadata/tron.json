@@ -1,0 +1,72 @@
+{
+  "id": "tron",
+  "symbol": "trx",
+  "name": "TRON",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Alleged SEC Securities",
+    "FTX Holdings",
+    "DWF Labs Portfolio",
+    "Tron Ecosystem",
+    "Proof of Stake (PoS)",
+    "GMCI Layer 1 Index",
+    "GMCI 30 Index",
+    "GMCI Index",
+    "World Liberty Financial Portfolio",
+    "Made in China"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Delegated Proof-of-Stake",
+  "genesis_date": "2017-08-28",
+  "country_origin": "CN",
+  "description": {
+    "en": "What is Tron?\r\nTron's mission is to build a truly decentralized internet and aims to be the largest blockchain-based operating system in the world, known as the TRON protocol. The TRON protocol will offer high scalability, high availability, and high throughput computing to serve decentralized applications via smart contracts. Ethereum EVM-based smart contracts will be compatible and deployable on the TRON network as such Solidity developers do not have to rewrite their applications.\r\n\r\nWhy Tron?\r\nSince TRON protocol does not rely on proof of work or mining, instead governed by nodes located around the world, it is decentralized while providing high throughput for transactions on the blockchain. This is suitable for dapps that require high speed transactions especially games. There are a number of tokens already issued on the TRON network and the decentralized exchanges TRX.market has launched.\r\n\r\nOn July 24th 2018, TRON acquired BitTorrent, one of the largest P2P file sharing protocol. As a result of the acquisition, BitTorrent Token (BTT) was launched as the cryptocurrency to power the economics on the BitTorrent network. The Token will be used to inceltivize file sharing and storage within the network.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://tron.network",
+      "https://trondao.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://tronscan.org/",
+      "https://platform.arkhamintelligence.com/explorer/token/tron",
+      "https://trx.tokenview.io",
+      "https://www.oklink.com/trx"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/hqKvyAM"
+    ],
+    "announcement_url": [
+      "https://medium.com/tron-foundation"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "trondao",
+    "facebook_username": "tronfoundation",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "tronnetworkEN",
+    "subreddit_url": "https://www.reddit.com/r/Tronix",
+    "repos_url": {
+      "github": [
+        "https://github.com/tronprotocol/java-tron",
+        "https://github.com/tronprotocol/grpc-gateway",
+        "https://github.com/tronprotocol/protocol",
+        "https://github.com/tronprotocol/tron-contracts",
+        "https://github.com/tronprotocol/wallet-cli"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/1094/thumb/tron-logo.png?1696502193",
+    "small": "https://coin-images.coingecko.com/coins/images/1094/small/tron-logo.png?1696502193",
+    "large": "https://coin-images.coingecko.com/coins/images/1094/large/tron-logo.png?1696502193"
+  },
+  "last_updated": "2025-07-11T05:01:26.436062+00:00"
+}

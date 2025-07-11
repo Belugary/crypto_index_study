@@ -1,0 +1,65 @@
+{
+  "id": "mantle",
+  "symbol": "mnt",
+  "name": "Mantle",
+  "categories": [
+    "Smart Contract Platform",
+    "Ethereum Ecosystem",
+    "Layer 2 (L2)",
+    "Mantle Ecosystem",
+    "DWF Labs Portfolio",
+    "DragonFly Capital Portfolio",
+    "GMCI Layer 2 Index",
+    "GMCI 30 Index",
+    "GMCI Index",
+    "World Liberty Financial Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x3c3a81e81dc49a522a592e7622a7e711c06bf354",
+    "mantle": "0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Mantle is a pioneering on-chain ecosystem dedicated to revolutionizing the future of finance and blockchain scalability, seamlessly bridging traditional finance (TradFi) and decentralized finance (DeFi). Through innovative products like Mantle Network, mETH Protocol, Function (FBTC), and Mantle Index Four (MI4), Mantle empowers users and institutions with a unified financial services platform, redefining how the world spends, saves, and invests in the Web 3.0 era.\r\n\r\nWhat is MNT?\r\n$MNT powers Mantle’s ecosystem, serving as the cornerstone for governance, staking, and driving innovation across the decentralized economy."
+  },
+  "links": {
+    "homepage": [
+      "https://group.mantle.xyz/"
+    ],
+    "whitepaper": "https://docs.mantle.xyz/network/introduction/overview",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x3c3a81e81dc49a522a592e7622a7e711c06bf354",
+      "https://platform.arkhamintelligence.com/explorer/token/mantle",
+      "https://ethplorer.io/address/0x3c3a81e81dc49a522a592e7622a7e711c06bf354",
+      "https://explorer.mantle.xyz/token/0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000",
+      "https://mantlescan.xyz/token/0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/0xMantle"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Mantle_Official",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "mantlenetwork",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/mantlenetworkio"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/30980/thumb/Mantle-Logo-mark.png?1739213200",
+    "small": "https://coin-images.coingecko.com/coins/images/30980/small/Mantle-Logo-mark.png?1739213200",
+    "large": "https://coin-images.coingecko.com/coins/images/30980/large/Mantle-Logo-mark.png?1739213200"
+  },
+  "last_updated": "2025-07-11T04:59:21.445430+00:00"
+}

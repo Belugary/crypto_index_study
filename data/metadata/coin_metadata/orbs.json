@@ -1,0 +1,82 @@
+{
+  "id": "orbs",
+  "symbol": "orbs",
+  "name": "Orbs",
+  "categories": [
+    "Infrastructure",
+    "Smart Contract Platform",
+    "Decentralized Finance (DeFi)",
+    "BNB Chain Ecosystem",
+    "Avalanche Ecosystem",
+    "Polygon Ecosystem",
+    "Fantom Ecosystem",
+    "Harmony Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "DWF Labs Portfolio",
+    "Layer 3 (L3)",
+    "Outlier Ventures Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xff56cc6b1e6ded347aa0b7676c85ab0b3d08b0fa",
+    "arbitrum-one": "0xf3c091ed43de9c270593445163a41a876a0bb3dd",
+    "harmony-shard-0": "0xaad96d04f00b718b9ed43e39db8e73de61cef8b7",
+    "binance-smart-chain": "0x43a8cab15d06d3a5fe5854d714c37e7e9246f170",
+    "fantom": "0x43a8cab15d06d3a5fe5854d714c37e7e9246f170",
+    "avalanche": "0x3ab1c9adb065f3fca0059652cd7a52b05c98f9a9",
+    "polygon-pos": "0x614389eaae0a6821dc49062d56bda3d9d45fa2ff"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Proof of Stake",
+  "genesis_date": null,
+  "country_origin": "IL",
+  "description": {
+    "en": "Orbs was built to bridge the unoccupied gap between the functionality of a public blockchain with the ironclad security of a private one.\r\n\r\nIn a time where people are trusting major companies less than ever before, those enterprises can, at best, ask users to trust them. By empowering those enterprises with the option of operating on a public blockchain safely, Orbs grants them a major competitive edge in the form of digital guarantees to users: No need to trust when users can simply verify."
+  },
+  "links": {
+    "homepage": [
+      "https://www.orbs.com/"
+    ],
+    "whitepaper": "https://www.orbs.com/orbs-position-paper",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xff56cc6b1e6ded347aa0b7676c85ab0b3d08b0fa",
+      "https://platform.arkhamintelligence.com/explorer/token/orbs",
+      "https://prism.orbs.network",
+      "https://ethplorer.io/address/0xff56cc6b1e6ded347aa0b7676c85ab0b3d08b0fa",
+      "https://bscscan.com/token/0x43a8cab15d06d3a5fe5854d714c37e7e9246f170",
+      "https://polygonscan.com/token/0x614389eaae0a6821dc49062d56bda3d9d45fa2ff",
+      "https://ftmscan.com/token/0x43a8cab15d06d3a5fe5854d714c37e7e9246f170",
+      "https://snowtrace.io/token/0x3ab1c9adb065f3fca0059652cd7a52b05c98f9a9",
+      "https://arbiscan.io/token/0xf3c091ed43de9c270593445163a41a876a0bb3dd",
+      "https://binplorer.com/address/0x43a8cab15d06d3a5fe5854d714c37e7e9246f170"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.linkedin.com/company/27118944/"
+    ],
+    "announcement_url": [
+      "https://www.orbs.com/blog/",
+      "https://medium.com/orbs-network"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "orbs_network",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "OrbsNetwork",
+    "subreddit_url": "https://www.reddit.com/r/ORBS_Network/",
+    "repos_url": {
+      "github": [
+        "https://github.com/orbs-network/orbs-spec",
+        "https://github.com/orbs-network/nebula"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/4630/thumb/Orbs.jpg?1696505200",
+    "small": "https://coin-images.coingecko.com/coins/images/4630/small/Orbs.jpg?1696505200",
+    "large": "https://coin-images.coingecko.com/coins/images/4630/large/Orbs.jpg?1696505200"
+  },
+  "last_updated": "2025-07-11T04:59:53.440042+00:00"
+}

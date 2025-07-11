@@ -1,0 +1,63 @@
+{
+  "id": "superfarm",
+  "symbol": "super",
+  "name": "SuperVerse",
+  "categories": [
+    "Gaming (GameFi)",
+    "NFT",
+    "Collectibles",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem",
+    "Animoca Brands Portfolio",
+    "Gaming Blockchains",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55",
+    "polygon-pos": "0xa1428174f516f527fafdd146b883bb4428682737"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What is the SuperVerse ($SUPER)?\r\n\r\nThe SuperVerse is building and delivering Web3 products that empower crypto natives with next-generation NFT functionality, and onboard Web2 users through immersive blockchain gaming experiences.\r\n\r\nThe SuperVerse comprises two core verticals: NFT marketplace technology and video games. This wide array of Web3 tools and features is supported and governed by a single protocol and token: $SUPER ERC20 (formerly known as SuperFarm).\r\n\r\nThe SuperVerse harbors two central products: GigaMart, a next-gen NFT marketplace with advanced analytics tools and unique social features, and Impostors, a social-gaming metaverse.\"\r\n\r\n\r\nWhat makes them unique?\r\n\r\nBy creating fun and inclusive games that appeal to modern gaming culture, the SuperVerse aims to overcome the current limitations of the Web3 space and take blockchain technology and NFTs mainstream. The SuperVerseDAO is dedicated to creating a user experience that bridges the gap between Web2 users and Web3 natives.\r\n\r\nThe SuperVerse is enabled by cutting-edge Web3 technology. By adopting and refining the latest Web3 functionality, the SuperVerse aims to be a pioneer in this industry and bring NFT marketplace technology and Web3 gaming to a new level. The use of the latest scaling technologies and ingenious in-house engineering make the SuperVerseDAO a leader in Web3 innovation."
+  },
+  "links": {
+    "homepage": [
+      "https://superverse.co/"
+    ],
+    "whitepaper": "https://docs.superverse.cool/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55",
+      "https://platform.arkhamintelligence.com/explorer/token/superfarm",
+      "https://ethplorer.io/address/0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55",
+      "https://polygonscan.com/token/0xa1428174f516f527fafdd146b883bb4428682737",
+      "https://bscscan.com/token/0x51ba0b044d96c3abfca52b64d733603ccc4f0d4d",
+      "https://binplorer.com/address/0x51ba0b044d96c3abfca52b64d733603ccc4f0d4d",
+      "https://explorer.energi.network/token/0x8b2ed0247a3fd9706ac033dd7e926161e5c4753b"
+    ],
+    "official_forum_url": [
+      "https://medium.com/superfarm"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": "https://snapshot.org/#/superversedao.eth",
+    "twitter_screen_name": "SuperVerse",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "SuperVerseDAO",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/14040/thumb/SV-Logo-200x200.png?1706880312",
+    "small": "https://coin-images.coingecko.com/coins/images/14040/small/SV-Logo-200x200.png?1706880312",
+    "large": "https://coin-images.coingecko.com/coins/images/14040/large/SV-Logo-200x200.png?1706880312"
+  },
+  "last_updated": "2025-07-11T05:01:05.449009+00:00"
+}

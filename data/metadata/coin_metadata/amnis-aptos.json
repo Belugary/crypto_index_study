@@ -1,0 +1,54 @@
+{
+  "id": "amnis-aptos",
+  "symbol": "amapt",
+  "name": "Amnis Aptos",
+  "categories": [
+    "Liquid Staking Tokens",
+    "Aptos Ecosystem",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "aptos",
+  "platforms": {
+    "aptos": "0x111ae3e5bc816a5e63c2da97d0aa3886519e0cd5e4b046659fa35796bd11542a::amapt_token::AmnisApt"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Amnis Finance - a Pioneering Liquidity Staking on Aptos. As a foundational component of the Aptos ecosystem, Amnis Finance introduces a secure, user-friendly and innovative liquid staking protocol that empowers users to effortlessly maximize returns on their APT tokens while unlocking their liquidity. amAPT acts as a stablecoin loosely pegged to APT, so that 1 amAPT always represents 1 APT and the amount of amAPT in circulation matches the amount of APT in the Amnis Finance. When APT is sent to the Amnis Finance, an equivalent amount of amATP is minted.\t"
+  },
+  "links": {
+    "homepage": [
+      "https://amnis.finance/"
+    ],
+    "whitepaper": "https://docs.amnis.finance/",
+    "blockchain_site": [
+      "https://aptscan.ai/coins/0x111ae3e5bc816a5e63c2da97d0aa3886519e0cd5e4b046659fa35796bd11542a::amapt_token::AmnisApt",
+      "https://tracemove.io/coin/0x111ae3e5bc816a5e63c2da97d0aa3886519e0cd5e4b046659fa35796bd11542a::amapt_token::AmnisApt"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/HWEMh88UcJ"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "AmnisFinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "AmnisChannel",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/amnis-finance"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/32567/thumb/amAPT.png?1730240666",
+    "small": "https://coin-images.coingecko.com/coins/images/32567/small/amAPT.png?1730240666",
+    "large": "https://coin-images.coingecko.com/coins/images/32567/large/amAPT.png?1730240666"
+  },
+  "last_updated": "2025-07-11T04:56:50.417459+00:00"
+}

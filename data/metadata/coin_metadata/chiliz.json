@@ -1,0 +1,65 @@
+{
+  "id": "chiliz",
+  "symbol": "chz",
+  "name": "Chiliz",
+  "categories": [
+    "Smart Contract Platform",
+    "Sports",
+    "NFT",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "Alleged SEC Securities",
+    "Chiliz Ecosystem",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x3506424f91fd33084466f402d5d97f05f8e3b4af"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Chiliz is a fintech platform for the sports industry to allow global fans to get closer to their favorite sports teams and clubs."
+  },
+  "links": {
+    "homepage": [
+      "https://www.chiliz.com/",
+      "https://www.socios.com/"
+    ],
+    "whitepaper": "https://www.chiliz.com/docs/CHZ_whitepaper.pdf",
+    "blockchain_site": [
+      "https://platform.arkhamintelligence.com/explorer/token/chiliz",
+      "https://etherscan.io/token/0x3506424f91fd33084466f402d5d97f05f8e3b4af",
+      "https://ethplorer.io/address/0x3506424f91fd33084466f402d5d97f05f8e3b4af"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/chilizdotcom"
+    ],
+    "chat_url": [
+      "https://www.facebook.com/Chilizdotcom/",
+      "https://medium.com/chiliz"
+    ],
+    "announcement_url": [
+      "https://medium.com/chiliz"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "chiliz",
+    "facebook_username": "chilizdotcom",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "chiliz_io",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/8834/thumb/CHZ_Token_updated.png?1696508986",
+    "small": "https://coin-images.coingecko.com/coins/images/8834/small/CHZ_Token_updated.png?1696508986",
+    "large": "https://coin-images.coingecko.com/coins/images/8834/large/CHZ_Token_updated.png?1696508986"
+  },
+  "last_updated": "2025-07-11T04:57:42.294266+00:00"
+}

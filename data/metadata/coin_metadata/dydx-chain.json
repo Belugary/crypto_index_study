@@ -1,0 +1,71 @@
+{
+  "id": "dydx-chain",
+  "symbol": "dydx",
+  "name": "dYdX",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Smart Contract Platform",
+    "Decentralized Finance (DeFi)",
+    "Cosmos Ecosystem",
+    "Perpetuals",
+    "Layer 1 (L1)",
+    "Osmosis Ecosystem",
+    "Appchains",
+    "DragonFly Capital Portfolio",
+    "DeFiance Capital Portfolio",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "GMCI DeFi Index",
+    "Delphi Ventures Portfolio",
+    "GMCI Index",
+    "Polychain Capital Portfolio",
+    "Made in USA"
+  ],
+  "asset_platform_id": "cosmos",
+  "platforms": {
+    "cosmos": "ibc/831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C",
+    "osmosis": "ibc/831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "US",
+  "description": {
+    "en": "dYdX is DeFi’s pro trading platform and a pioneer in decentralized finance, known for being the first to offer decentralized margin trading and derivatives, as well as inventing flash loans and DEX aggregators in 2018. Built on a custom Layer-1 blockchain using the Cosmos SDK, dYdX provides a professional-grade, decentralized trading experience with high leverage, deep liquidity, and low fees. Governed by the community through the DYDX token, dYdX is focused on delivering a transparent and user-driven financial system. This November, dYdX Unlimited launches, bringing instant market listings, the MegaVault liquidity engine, revamped trading rewards, and lifetime affiliate commissions, setting a new standard for decentralized trading\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://dydx.trade",
+      "https://www.dydx.foundation/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://www.mintscan.io/osmosis/assets/ibc/aWJjLzgzMUYwQjFCQkIxRDA4QTJCNzUzMTE4OTI4NzZENzE1NjU0NzhDNTMyOTY3NTQ1NDc2REY0QzJENzQ5MkU0OEM="
+    ],
+    "official_forum_url": [
+      "https://www.dydx.foundation/blog",
+      "https://dydx.forum/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/dydx"
+    ],
+    "announcement_url": [],
+    "snapshot_url": "https://snapshot.org/#/dydxgov.eth",
+    "twitter_screen_name": "dydxfoundation",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/dydxprotocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/32594/thumb/dydx.png?1698673495",
+    "small": "https://coin-images.coingecko.com/coins/images/32594/small/dydx.png?1698673495",
+    "large": "https://coin-images.coingecko.com/coins/images/32594/large/dydx.png?1698673495"
+  },
+  "last_updated": "2025-07-11T04:58:09.711062+00:00"
+}

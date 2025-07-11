@@ -1,0 +1,75 @@
+{
+  "id": "cow-protocol",
+  "symbol": "cow",
+  "name": "CoW Protocol",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Decentralized Finance (DeFi)",
+    "Polygon Ecosystem",
+    "Gnosis Chain Ecosystem",
+    "MEV Protection",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Base Ecosystem",
+    "Intent",
+    "Delphi Ventures Portfolio",
+    "Blockchain Capital Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab",
+    "polygon-pos": "0x2f4efd3aa42e15a1ec6114547151b63ee5d39958",
+    "base": "0xc694a91e6b071bf030a18bd3053a7fe09b6dae69",
+    "arbitrum-one": "0xcb8b5cd20bdcaea9a010ac1f8d835824f5c87a04",
+    "xdai": "0x177127622c4a00f3d409b75571e12cb3c8973d3c"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "COW token allows its holders the right to govern and curate the infrastructure of the CoW Protocol ecosystem through the CowDAO. Additionally, COW token holders receive fee discounts when trading on CowSwap & some other perks."
+  },
+  "links": {
+    "homepage": [
+      "https://cow.fi"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab",
+      "https://platform.arkhamintelligence.com/explorer/token/cow-protocol",
+      "https://ethplorer.io/address/0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab",
+      "https://blockscout.com/xdai/mainnet/token/0x177127622c4a00f3d409b75571e12cb3c8973d3c/token-transfers",
+      "https://gnosis.dex.guru/token/0x177127622c4a00f3d409b75571e12cb3c8973d3c",
+      "https://arbiscan.io/token/0xcb8b5cd20bdcaea9a010ac1f8d835824f5c87a04",
+      "https://gnosisscan.io/token/0x177127622c4a00f3d409b75571e12cb3c8973d3c",
+      "https://polygonscan.com/token/0x2f4efd3aa42e15a1ec6114547151b63ee5d39958",
+      "https://basescan.org/token/0xc694a91e6b071bf030a18bd3053a7fe09b6dae69"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/cowprotocol"
+    ],
+    "announcement_url": [
+      "https://medium.com/@cow-protocol"
+    ],
+    "snapshot_url": "https://snapshot.org/#/cow.eth",
+    "twitter_screen_name": "CoWSwap",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/gnosis/cow-token/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/24384/thumb/CoW-token_logo.png?1719524382",
+    "small": "https://coin-images.coingecko.com/coins/images/24384/small/CoW-token_logo.png?1719524382",
+    "large": "https://coin-images.coingecko.com/coins/images/24384/large/CoW-token_logo.png?1719524382"
+  },
+  "last_updated": "2025-07-11T04:57:55.278413+00:00"
+}

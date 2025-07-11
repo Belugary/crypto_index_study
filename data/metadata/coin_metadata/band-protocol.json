@@ -1,0 +1,75 @@
+{
+  "id": "band-protocol",
+  "symbol": "band",
+  "name": "Band Protocol",
+  "categories": [
+    "Business Services",
+    "Decentralized Finance (DeFi)",
+    "Oracle",
+    "Fantom Ecosystem",
+    "Ethereum Ecosystem",
+    "Binance Launchpad",
+    "Osmosis Ecosystem",
+    "Energi Ecosystem",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Sequoia Capital Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xba11d00c5f74255f56a5e366f4f77f5a186d7f55",
+    "osmosis": "ibc/F867AE2112EFE646EC71A25CD2DFABB8927126AC1E19F1BBF0FF693A4ECA05DE",
+    "energi": "0xb2ef65460bf71a05d59fdf5e8f114a32d445d164",
+    "fantom": "0x46e7628e8b4350b2716ab470ee0ba1fa9e76c6c5"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://bandprotocol.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xba11d00c5f74255f56a5e366f4f77f5a186d7f55",
+      "https://platform.arkhamintelligence.com/explorer/token/band-protocol",
+      "https://cosmoscan.io/",
+      "https://band.bigdipper.live/",
+      "https://ethplorer.io/address/0xba11d00c5f74255f56a5e366f4f77f5a186d7f55",
+      "https://ftmscan.com/token/0x46e7628e8b4350b2716ab470ee0ba1fa9e76c6c5",
+      "https://scan.meter.io/address/0x46e7628e8b4350b2716ab470ee0ba1fa9e76c6c5",
+      "https://ftmscan.com/address/0x46e7628e8b4350b2716ab470ee0ba1fa9e76c6c5",
+      "https://explorer.energi.network/token/0xb2ef65460bf71a05d59fdf5e8f114a32d445d164",
+      "https://atomscan.com/band-protocol"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/3t4bsY7"
+    ],
+    "announcement_url": [
+      "https://medium.com/bandprotocol",
+      "https://docs.bandchain.org/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "bandprotocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "bandprotocol",
+    "subreddit_url": "https://www.reddit.com/r/bandprotocol",
+    "repos_url": {
+      "github": [
+        "https://github.com/bandprotocol/bandchain"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/9545/thumb/Band_token_blue_violet_token.png?1696509627",
+    "small": "https://coin-images.coingecko.com/coins/images/9545/small/Band_token_blue_violet_token.png?1696509627",
+    "large": "https://coin-images.coingecko.com/coins/images/9545/large/Band_token_blue_violet_token.png?1696509627"
+  },
+  "last_updated": "2025-07-11T04:57:07.093365+00:00"
+}

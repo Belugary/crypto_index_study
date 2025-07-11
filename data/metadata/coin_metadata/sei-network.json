@@ -1,0 +1,68 @@
+{
+  "id": "sei-network",
+  "symbol": "sei",
+  "name": "Sei",
+  "categories": [
+    "Smart Contract Platform",
+    "Decentralized Finance (DeFi)",
+    "Layer 1 (L1)",
+    "Parallelized EVM",
+    "Coinbase Ventures Portfolio",
+    "Multicoin Capital Portfolio",
+    "GMCI Layer 1 Index",
+    "Delphi Ventures Portfolio",
+    "Circle Ventures Portfolio",
+    "OKX Ventures Portfolio",
+    "GMCI Index",
+    "Sei Network Ecosystem",
+    "World Liberty Financial Portfolio",
+    "Made in USA"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Sei is a high-performance Layer 1 blockchain that scales the EVM with parallelized execution, enabling faster transactions, low fees, and seamless smart contract deployment. Sei removes traditional blockchain bottlenecks while maintaining full Ethereum compatibility. The upcoming Giga upgrade will deliver 50x improvements in EVM throughput, optimizing execution, consensus, and storage to push blockchain performance to web2 levels."
+  },
+  "links": {
+    "homepage": [
+      "https://www.sei.io",
+      "https://blog.seinetwork.io/"
+    ],
+    "whitepaper": "https://github.com/sei-protocol/sei-chain/blob/main/whitepaper/Sei_Whitepaper.pdf",
+    "blockchain_site": [
+      "https://seitrace.com",
+      "https://seistream.app",
+      "https://sei.explorers.guru",
+      "https://www.seiscan.app/pacific-1"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/Sei"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SeiNetwork",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "seinetwork",
+    "subreddit_url": "https://www.reddit.com/r/Sei_Network/",
+    "repos_url": {
+      "github": [
+        "https://github.com/sei-protocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/28205/thumb/Sei_Logo_-_Transparent.png?1696527207",
+    "small": "https://coin-images.coingecko.com/coins/images/28205/small/Sei_Logo_-_Transparent.png?1696527207",
+    "large": "https://coin-images.coingecko.com/coins/images/28205/large/Sei_Logo_-_Transparent.png?1696527207"
+  },
+  "last_updated": "2025-07-11T05:00:36.799151+00:00"
+}

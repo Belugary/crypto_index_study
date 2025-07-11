@@ -1,0 +1,67 @@
+{
+  "id": "coinbase-wrapped-staked-eth",
+  "symbol": "cbeth",
+  "name": "Coinbase Wrapped Staked ETH",
+  "categories": [
+    "Crypto-Backed Tokens",
+    "Wrapped-Tokens",
+    "Polygon Ecosystem",
+    "Arbitrum Ecosystem",
+    "Liquid Staking Tokens",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Base Ecosystem",
+    "Liquid Staked ETH",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xbe9895146f7af43049ca1c1ae358b0541ea49704",
+    "optimistic-ethereum": "0xaddb6a0412de1ba0f936dcaeb8aaa24578dcf3b2",
+    "arbitrum-one": "0x1debd73e752beaf79865fd6446b0c970eae7732f",
+    "base": "0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22",
+    "polygon-pos": "0x4b4327db1600b8b1440163f667e199cef35385f5"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.coinbase.com/cbeth"
+    ],
+    "whitepaper": "https://www.coinbase.com/cbeth/whitepaper",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xbe9895146f7af43049ca1c1ae358b0541ea49704",
+      "https://platform.arkhamintelligence.com/explorer/token/coinbase-wrapped-staked-eth",
+      "https://ethplorer.io/address/0xbe9895146f7af43049ca1c1ae358b0541ea49704",
+      "https://optimistic.etherscan.io/token/0xaddb6a0412de1ba0f936dcaeb8aaa24578dcf3b2",
+      "https://polygonscan.com/token/0x4b4327db1600b8b1440163f667e199cef35385f5",
+      "https://arbiscan.io/token/0x1debd73e752beaf79865fd6446b0c970eae7732f",
+      "https://basescan.org/token/0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22",
+      "https://base.dex.guru/token/0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "CoinbaseAssets",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/27008/thumb/cbeth.png?1709186989",
+    "small": "https://coin-images.coingecko.com/coins/images/27008/small/cbeth.png?1709186989",
+    "large": "https://coin-images.coingecko.com/coins/images/27008/large/cbeth.png?1709186989"
+  },
+  "last_updated": "2025-07-11T04:57:45.292278+00:00"
+}

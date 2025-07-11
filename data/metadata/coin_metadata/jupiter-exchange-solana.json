@@ -1,0 +1,59 @@
+{
+  "id": "jupiter-exchange-solana",
+  "symbol": "jup",
+  "name": "Jupiter",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Decentralized Finance (DeFi)",
+    "Solana Ecosystem",
+    "GMCI DeFi Index",
+    "Dex Aggregator",
+    "GMCI Index",
+    "Made in USA"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "\r\nJupiter is a cryptocurrency exchange platform on the Solana blockchain, offering features such as token swapping, limit orders, dollar-cost averaging, and a bridge for asset transfers to Solana. It provides users with tools to find the best trading prices and includes a beta version for perpetual futures trading. Jupiter finds the best price route for your swap by aggregating all the major liquidity sources on Solana."
+  },
+  "links": {
+    "homepage": [
+      "https://jup.ag/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+      "https://platform.arkhamintelligence.com/explorer/token/jupiter-exchange-solana"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/jup",
+      "https://station.jup.ag/blog/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "JupiterExchange",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/jup-ag"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/34188/thumb/jup.png?1704266489",
+    "small": "https://coin-images.coingecko.com/coins/images/34188/small/jup.png?1704266489",
+    "large": "https://coin-images.coingecko.com/coins/images/34188/large/jup.png?1704266489"
+  },
+  "last_updated": "2025-07-11T04:58:57.118783+00:00"
+}

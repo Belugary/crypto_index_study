@@ -1,0 +1,75 @@
+{
+  "id": "algorand",
+  "symbol": "algo",
+  "name": "Algorand",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Algorand Ecosystem",
+    "Real World Assets (RWA)",
+    "Alleged SEC Securities",
+    "DWF Labs Portfolio",
+    "Multicoin Capital Portfolio",
+    "Proof of Stake (PoS)",
+    "GMCI Layer 1 Index",
+    "GMCI Index",
+    "Made in USA",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Algorand is a scalable, secure, and decentralized digital currency and smart contract platform. Its protocol uses a variation of Proof-of-Stake (PoS) called Pure PoS (PPoS) to secure the network and reach consensus on block production. Developers can build decentralized applications (dApps) using familiar programming languages, including Python, which Algorand supports natively. Its infrastructure enables various use cases, including payment systems, digital identity solutions, supply-chain tracking, and financial services. The protocol's architecture allows for tokenization of assets and the development of smart contracts, while its technical specifications support both retail users seeking basic transaction capabilities and enterprises requiring more, complex, blockchain solutions."
+  },
+  "links": {
+    "homepage": [
+      "https://algorand.foundation/",
+      "https://www.algorand.com/",
+      "https://www.algorand.com/resources"
+    ],
+    "whitepaper": "https://www.algorand.com/technology/white-papers",
+    "blockchain_site": [
+      "https://allo.info/",
+      "https://explorer.perawallet.app/",
+      "https://explorer.bitquery.io/algorand",
+      "https://lora.algokit.io/mainnet",
+      "https://algo.surf/",
+      "https://algogazer.app/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/QBYp7Y2"
+    ],
+    "announcement_url": [
+      "https://medium.com/algorand",
+      "https://forum.algorand.org/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "algorand",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "algorand",
+    "subreddit_url": "https://www.reddit.com/r/AlgorandOfficial/",
+    "repos_url": {
+      "github": [
+        "https://github.com/algorand/go-algorand",
+        "https://github.com/algorand/java-algorand-sdk",
+        "https://github.com/algorand/js-algorand-sdk",
+        "https://github.com/algorand/go-algorand-sdk"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/4380/thumb/download.png?1696504978",
+    "small": "https://coin-images.coingecko.com/coins/images/4380/small/download.png?1696504978",
+    "large": "https://coin-images.coingecko.com/coins/images/4380/large/download.png?1696504978"
+  },
+  "last_updated": "2025-07-11T04:56:49.266926+00:00"
+}

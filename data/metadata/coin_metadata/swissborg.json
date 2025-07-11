@@ -1,0 +1,61 @@
+{
+  "id": "swissborg",
+  "symbol": "borg",
+  "name": "SwissBorg",
+  "categories": [
+    "Solana Ecosystem",
+    "Ethereum Ecosystem",
+    "Energi Ecosystem",
+    "CeFi"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x64d0f55cd8c7133a9d7102b13987235f486f2224",
+    "energi": "0x5666444647f4fd66decf411d69f994b8244ebee3",
+    "solana": "3dQTr7ror2QPKQ3GbBCokJUmjErGg8kTJzdnYjNfvi3Z"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2017-11-01",
+  "country_origin": "CH",
+  "description": {
+    "en": "What is SwissBorg?\r\nSwissBorg’s flagship product is an all-encompassing crypto management app for retail users. It enables them to on & off ramp, exchange crypto and fiat, earn yield, buy bundles of crypto and access its launchpad investment opportunities. SwissBorg started in the ICO era of 2017 and has over 1 million registered users as of 2024. \r\n\r\nThe app’s products range from on/off ramp, CEX & DEX aggregator (MEX), staking and other passive income opportunities (Earn), cryptocurrency bundles (Thematics), and a launchpad & one-time opportunities (Alpha Early Deals) and more. SwissBorg users are also entitled to airdrops if they happen as it’s one the few centralised entities redistributing them directly to their users.\r\n\r\nWhat is BORG?\r\nBORG is essential to the SwissBorg experience as it unlocks additional utilities in the app. The more BORG users hold in the app, the more benefits they can unlock either through Premium Tiers or ad-hoc campaigns. Benefits include lower exchange fees, higher allocation in launchpads, higher yield on Earn strategies and increased voting power in referendums proposed by SwissBorg. \r\n\r\nWhen was SwissBorg Founded?\r\nThe project was launched in Switzerland in 2017 and the ICO lasted from Dec 7th, 2017 to January 10th, 2018 where $50 million was raised to kickstart the project. In Q1 2023 SwissBorg performed a Series A, where 16,660 big and small individual investors raised a total of over 21 million Swiss Francs (CHF). "
+  },
+  "links": {
+    "homepage": [
+      "https://swissborg.com/en/"
+    ],
+    "whitepaper": "https://docs.swissborg.com/whitepaper/whitepaper",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x64d0f55cd8c7133a9d7102b13987235f486f2224",
+      "https://platform.arkhamintelligence.com/explorer/token/swissborg",
+      "https://ethplorer.io/address/0x64d0f55cd8c7133a9d7102b13987235f486f2224",
+      "https://explorer.energi.network/token/0x5666444647f4fd66decf411d69f994b8244ebee3",
+      "https://solscan.io/token/3dqtr7ror2qpkq3gbbcokjumjergg8ktjzdnyjnfvi3z"
+    ],
+    "official_forum_url": [
+      "https://swissborg.com/blog",
+      "https://www.instagram.com/swissborg/?hl=en"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "swissborg",
+    "facebook_username": "swissborg",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "swissborg",
+    "subreddit_url": "https://www.reddit.com/r/swissborg/",
+    "repos_url": {
+      "github": [
+        "https://github.com/SwissBorg/sbci-token"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/2117/thumb/YJUrRy7r_400x400.png?1696503083",
+    "small": "https://coin-images.coingecko.com/coins/images/2117/small/YJUrRy7r_400x400.png?1696503083",
+    "large": "https://coin-images.coingecko.com/coins/images/2117/large/YJUrRy7r_400x400.png?1696503083"
+  },
+  "last_updated": "2025-07-11T05:01:10.652301+00:00"
+}

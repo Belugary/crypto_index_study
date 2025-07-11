@@ -1,0 +1,53 @@
+{
+  "id": "alchemist-ai",
+  "symbol": "alch",
+  "name": "Alchemist AI",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Solana Ecosystem",
+    "Pump.fun Ecosystem",
+    "AI Applications",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Alchemist AI is a no-code development platform (NCDP) that enables users to create software applications with just a simple description. By eliminating the need for coding expertise, our AI enables anyone from beginners to professionals to generate bespoke applications on the fly - ranging from simple utilities to games.\r\n\r\nOur system involves Natural Language Processing (NLP), Code Generation, Web Framework Integration, and access to a Limited OS API. The Large Language Model (LLM) plays a pivotal role throughout the process, handling everything from parsing user input to generating executable code.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.alchemistai.app/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://docs.alchemistai.app/docs"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "alchemistAIapp",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/52302/thumb/small-logo.png?1733053544",
+    "small": "https://coin-images.coingecko.com/coins/images/52302/small/small-logo.png?1733053544",
+    "large": "https://coin-images.coingecko.com/coins/images/52302/large/small-logo.png?1733053544"
+  },
+  "last_updated": "2025-07-11T04:56:47.584172+00:00"
+}

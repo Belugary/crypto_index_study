@@ -1,0 +1,63 @@
+{
+  "id": "wrapped-steth",
+  "symbol": "wsteth",
+  "name": "Wrapped stETH",
+  "categories": [
+    "Crypto-Backed Tokens",
+    "Decentralized Finance (DeFi)",
+    "Wrapped-Tokens",
+    "Ethereum Ecosystem",
+    "Liquid Staking",
+    "Unichain Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+    "unichain": "0xc02fe7317d4eb8753a02c35fe019786854a92001"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "wstETH is a wrapped version of stETH.  Instead of rebasing, or changing account holdings daily it is similar to a c-token.  It represents a pro-rata ownership of the staked ETH (stETH). When someone exits wstETH they are returned principal stETH + stETH earnings.\r\n\r\nLido is a liquid staking protocol for POS blockchains.  It gives you a liquid token that represents your staked collateral and earnings over time.  Lido removes the need to run infrastructure and enabling continued participation in DeFi.\r\n\r\nwstETH is minted and burned as stETH is wrapped and unwrapped."
+  },
+  "links": {
+    "homepage": [
+      "https://lido.fi/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+      "https://platform.arkhamintelligence.com/explorer/token/wrapped-steth",
+      "https://ethplorer.io/address/0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+      "https://ethereum.dex.guru/token/0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+      "https://uniscan.xyz/token/0xc02fe7317d4eb8753a02c35fe019786854a92001"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/dMqN4GYq"
+    ],
+    "announcement_url": [
+      "https://blog.lido.fi/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "LidoFinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "lidofinance",
+    "subreddit_url": "https://www.reddit.com/r/LidoFinance/",
+    "repos_url": {
+      "github": [
+        "https://github.com/lidofinance"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/18834/thumb/wstETH.png?1696518295",
+    "small": "https://coin-images.coingecko.com/coins/images/18834/small/wstETH.png?1696518295",
+    "large": "https://coin-images.coingecko.com/coins/images/18834/large/wstETH.png?1696518295"
+  },
+  "last_updated": "2025-07-11T05:02:01.853302+00:00"
+}

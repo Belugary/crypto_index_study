@@ -1,0 +1,54 @@
+{
+  "id": "bitkub-coin",
+  "symbol": "kub",
+  "name": "KUB Coin",
+  "categories": [
+    "Smart Contract Platform"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Keccak",
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The KUB Coin (KUB) is the native utility coin powering the KUB Chain, serving as a cornerstone of its growing ecosystem. It facilitates on-chain gas fee payments, can be converted into fee credits on the Bitkub Exchange, and enables staking for Validators and Delegators to actively secure and govern the network. KUB also supports seamless exchanges with various digital assets and unlocks exclusive services and benefits from KUB Chain's partners, driving innovation and collaboration within the blockchain ecosystem. Additionally, KUB is listed on Thailand’s leading Bitkub Exchange and other international cryptocurrency exchanges, ensuring accessibility and global reach."
+  },
+  "links": {
+    "homepage": [
+      "https://bitkubchain.com/"
+    ],
+    "whitepaper": "https://www.bitkubchain.com/docs/EN_Bitkub_Chain_WhitePaper_V3.3.pdf",
+    "blockchain_site": [
+      "https://bkcscan.com/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/ANAsPxSGqb",
+      "https://www.facebook.com/bitkubchainofficial"
+    ],
+    "announcement_url": [
+      "https://medium.com/bitkubchain"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "bitkubchain",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "BitkubChainOfficial_EN",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/bitkub-blockchain"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/15760/thumb/KUB_Coin_2025.png?1741751451",
+    "small": "https://coin-images.coingecko.com/coins/images/15760/small/KUB_Coin_2025.png?1741751451",
+    "large": "https://coin-images.coingecko.com/coins/images/15760/large/KUB_Coin_2025.png?1741751451"
+  },
+  "last_updated": "2025-07-11T04:57:24.439566+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "bybit-staked-sol",
+  "symbol": "bbsol",
+  "name": "Bybit Staked SOL",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Solana Ecosystem",
+    "Liquid Staking Tokens",
+    "Liquid Staked SOL",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "Bybit2vBJGhPF52GBdNaQfUJ6ZpThSgHBobjWZpLPb4B"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "BybitSOL is Bybit's gateway into the Solana DeFi ecosystem, giving users multiple options to earn from multiple off and on-chain yield sources.\r\nKey Takeaways:\r\n\r\nbbSOL allows users to earn staking rewards on Solana while retaining liquidity, making it a versatile tool in the realm of DeFi.\r\n\r\nBybit's liquid staking protocol automatically reflects rewards in bbSOL's value, enabling seamless participation in DeFi activities without manual intervention.\r\n\r\nDespite potential risks, such as slashing and value fluctuations, bbSOL's security, fee structure and multiple use cases make it a strong option for maximizing crypto assets."
+  },
+  "links": {
+    "homepage": [
+      "https://www.bybit.com/en/web3/staking/BybitSOL"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solana.fm/address/bybit2vbjghpf52gbdnaqfuj6zpthsghbobjwzplpb4b/transactions?cluster=mainnet-alpha",
+      "https://platform.arkhamintelligence.com/explorer/token/bybit-staked-sol",
+      "https://solscan.io/token/bybit2vbjghpf52gbdnaqfuj6zpthsghbobjwzplpb4b"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/bybit"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Bybit_Web3",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "BybitEnglish",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/40095/thumb/400x400.png?1725628094",
+    "small": "https://coin-images.coingecko.com/coins/images/40095/small/400x400.png?1725628094",
+    "large": "https://coin-images.coingecko.com/coins/images/40095/large/400x400.png?1725628094"
+  },
+  "last_updated": "2025-07-11T04:57:34.178594+00:00"
+}

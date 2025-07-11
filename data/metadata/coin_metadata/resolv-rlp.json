@@ -1,0 +1,54 @@
+{
+  "id": "resolv-rlp",
+  "symbol": "rlp",
+  "name": "Resolv RLP",
+  "categories": [
+    "LP Tokens",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x4956b52ae2ff65d74ca2d61207523288e4528f96"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Resolv is a protocol that maintains USR, an overcollateralized stablecoin natively backed by Ether (ETH). USR achieves its peg by hedging its collateral pool and maintaining a tokenized insurance fund called RLP. Users can stake USR to obtain the yield-bearing version called stUSR. USR is minted by depositing liquid assets, such as USDC or USDT, on 1:1 value basis. When USR is redeemed, a user receives a 1:1 equivalent to the notional amount.\r\n\r\nRLP:\r\nETH portfolio backs USR with a more than 100% ratio. Excess part of collateral acts as a backing for RLP - Resolv Liquidity Pool. Key features of RLP:\r\nRLP is designed to protect USR from market and counterparty risks. In exchange, RLP users receive higher portion of profits of the collateral pool.\r\nRLP has a price, representing value of ETH backing a single unit of RLP token;\r\nRLP price can vary. Collateral required for minting or redemption is based on the latest price;"
+  },
+  "links": {
+    "homepage": [
+      "https://www.resolv.xyz/"
+    ],
+    "whitepaper": "https://docs.resolv.xyz/litepaper",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x4956b52ae2ff65d74ca2d61207523288e4528f96",
+      "https://platform.arkhamintelligence.com/explorer/token/resolv-rlp",
+      "https://ethplorer.io/address/0x4956b52ae2ff65d74ca2d61207523288e4528f96"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://medium.com/@ResolvLabs"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ResolvLabs",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "resolvlabs",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/resolv-im/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/40017/thumb/orangeLogo..png?1725344586",
+    "small": "https://coin-images.coingecko.com/coins/images/40017/small/orangeLogo..png?1725344586",
+    "large": "https://coin-images.coingecko.com/coins/images/40017/large/orangeLogo..png?1725344586"
+  },
+  "last_updated": "2025-07-11T05:00:26.504340+00:00"
+}

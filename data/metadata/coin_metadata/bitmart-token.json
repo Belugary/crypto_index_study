@@ -1,0 +1,53 @@
+{
+  "id": "bitmart-token",
+  "symbol": "bmx",
+  "name": "BitMart",
+  "categories": [
+    "Exchange-based Tokens",
+    "Centralized Exchange (CEX) Token",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x986ee2b944c42d017f52af21c4c69b84dbea35d8"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "KY",
+  "description": {
+    "en": "BMX is an ERC20 based token issued by BitMart Exchange with total volume of 1,000,000,000. First issued as BMC in December 2017, BitMart changed the name of the token in January 2018 as BMX. You may find that the symbol name displayed in the smart contract and block explorer as BMC, but the actual symbol name we use is BMX. The reason is: our toke was named BMC, but then we find that  \"BMC\" has been used by another project, so we have to change the symbol name of our token to \"BMX\". "
+  },
+  "links": {
+    "homepage": [
+      "https://www.bitmart.com/trade/en"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x986ee2b944c42d017f52af21c4c69b84dbea35d8",
+      "https://platform.arkhamintelligence.com/explorer/token/bitmart-token",
+      "https://ethplorer.io/address/0x986ee2b944c42d017f52af21c4c69b84dbea35d8"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/@bitmart.exchange"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "BitMartExchange",
+    "facebook_username": "bitmartexchange",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "BitMartExchange",
+    "subreddit_url": "https://www.reddit.com/r/BitMartExchange/",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/5236/thumb/bitmart-token.png?1696505741",
+    "small": "https://coin-images.coingecko.com/coins/images/5236/small/bitmart-token.png?1696505741",
+    "large": "https://coin-images.coingecko.com/coins/images/5236/large/bitmart-token.png?1696505741"
+  },
+  "last_updated": "2025-07-11T04:57:25.579735+00:00"
+}

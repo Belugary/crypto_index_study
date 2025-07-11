@@ -1,0 +1,56 @@
+{
+  "id": "compound-wrapped-btc",
+  "symbol": "cwbtc",
+  "name": "cWBTC",
+  "categories": [
+    "Crypto-Backed Tokens",
+    "Decentralized Finance (DeFi)",
+    "cToken",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xccf4429db6322d5c611ee964527d42e5d685dd6a"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://compound.finance/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xccf4429db6322d5c611ee964527d42e5d685dd6a",
+      "https://platform.arkhamintelligence.com/explorer/token/compound-wrapped-btc",
+      "https://ethplorer.io/address/0xccf4429db6322d5c611ee964527d42e5d685dd6a"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discordapp.com/invite/874ntdw"
+    ],
+    "announcement_url": [
+      "https://medium.com/compound-finance"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "compoundfinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/Compound/",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/10823/thumb/cwbtc.png?1696510780",
+    "small": "https://coin-images.coingecko.com/coins/images/10823/small/cwbtc.png?1696510780",
+    "large": "https://coin-images.coingecko.com/coins/images/10823/large/cwbtc.png?1696510780"
+  },
+  "last_updated": "2025-07-11T04:57:48.106264+00:00"
+}

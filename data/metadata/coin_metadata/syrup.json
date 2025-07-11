@@ -1,0 +1,62 @@
+{
+  "id": "syrup",
+  "symbol": "syrup",
+  "name": "Maple Finance",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Yield Farming",
+    "Lending/Borrowing Protocols",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "Base Ecosystem",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x643c4e15d7d62ad0abec4a9bd4b001aa3ef52d66",
+    "base": "0x688aee022aa544f150678b8e5720b6b96a9e9a2f"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "- Maple is 'DeFi's Institutional Lender'. Maple Finance lending engine powers institutional yield for both Maple and Syrup; providing lenders with institutional quality yield overcollateralized by digital assets. The protocol combines the best of institutional lending and DeFi. Syrup is the team's newest product, offering permissionless access to Maple's lending engine whilst also integrated with the broader DeFi ecosystem including Balancer and Pendle Finance."
+  },
+  "links": {
+    "homepage": [
+      "https://maple.finance/",
+      "https://syrup.fi/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x643C4E15d7d62Ad0aBeC4a9BD4b001aA3Ef52d66",
+      "https://platform.arkhamintelligence.com/explorer/token/syrup",
+      "https://ethplorer.io/address/0x643C4E15d7d62Ad0aBeC4a9BD4b001aA3Ef52d66",
+      "https://basescan.org/token/0x688aee022aa544f150678b8e5720b6b96a9e9a2f"
+    ],
+    "official_forum_url": [
+      "https://maple.finance/category/all"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "maplefinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "maplefinance",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/maple-labs"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/51232/thumb/_syrup_token_logo.png?1747292046",
+    "small": "https://coin-images.coingecko.com/coins/images/51232/small/_syrup_token_logo.png?1747292046",
+    "large": "https://coin-images.coingecko.com/coins/images/51232/large/_syrup_token_logo.png?1747292046"
+  },
+  "last_updated": "2025-07-11T05:01:11.733325+00:00"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "jito-staked-sol",
+  "symbol": "jitosol",
+  "name": "Jito Staked SOL",
+  "categories": [
+    "Solana Ecosystem",
+    "Liquid Staking Tokens",
+    "Neon Ecosystem",
+    "Liquid Staked SOL",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+    "neon-evm": "0xfa8fb7e3bd299b2a9693b1bfdcf5dd13ab57007e"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The first liquid staking derivative on Solana to include MEV rewards. Tracks the price of SOL while accruing staking and MEV rewards. Yield is accrued in the price so it will steadily appreciate vs. SOL."
+  },
+  "links": {
+    "homepage": [
+      "https://www.jito.network/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+      "https://platform.arkhamintelligence.com/explorer/token/jito-staked-sol",
+      "https://neonscan.org/token/0xfa8fb7e3bd299b2a9693b1bfdcf5dd13ab57007e"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/jitocommunity",
+      "https://medium.com/@Jito-Foundation",
+      "https://www.youtube.com/@MidcurveMedia"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "jito_sol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/jito-foundation"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/28046/thumb/JitoSOL-200.png?1696527060",
+    "small": "https://coin-images.coingecko.com/coins/images/28046/small/JitoSOL-200.png?1696527060",
+    "large": "https://coin-images.coingecko.com/coins/images/28046/large/JitoSOL-200.png?1696527060"
+  },
+  "last_updated": "2025-07-11T04:58:56.303056+00:00"
+}

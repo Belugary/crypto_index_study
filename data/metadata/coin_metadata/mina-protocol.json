@@ -1,0 +1,69 @@
+{
+  "id": "mina-protocol",
+  "symbol": "mina",
+  "name": "Mina Protocol",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Zero Knowledge (ZK)",
+    "FTX Holdings",
+    "Paradigm Portfolio",
+    "Coinbase Ventures Portfolio",
+    "Multicoin Capital Portfolio",
+    "Proof of Stake (PoS)",
+    "Pantera Capital Portfolio",
+    "Circle Ventures Portfolio",
+    "Privacy Blockchain",
+    "Polychain Capital Portfolio",
+    "Made in USA",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The world's lightest blockchain, powered by participants. Mina is building a privacy-preserving gateway between the real world and crypto — and the infrastructure for the secure, democratic future we all deserve."
+  },
+  "links": {
+    "homepage": [
+      "https://minaprotocol.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://minaexplorer.com/",
+      "https://hubble.figment.io/mina/chains/mainnet",
+      "https://minascan.io/",
+      "https://minataur.net/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/Vexf4ED"
+    ],
+    "announcement_url": [
+      "https://medium.com/@minaprotocol"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "minaprotocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "minaprotocol",
+    "subreddit_url": "https://www.reddit.com/r/MinaProtocol/",
+    "repos_url": {
+      "github": [
+        "https://github.com/MinaProtocol/mina"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/15628/thumb/JM4_vQ34_400x400.png?1696515261",
+    "small": "https://coin-images.coingecko.com/coins/images/15628/small/JM4_vQ34_400x400.png?1696515261",
+    "large": "https://coin-images.coingecko.com/coins/images/15628/large/JM4_vQ34_400x400.png?1696515261"
+  },
+  "last_updated": "2025-07-11T04:59:29.228762+00:00"
+}

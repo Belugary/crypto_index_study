@@ -1,0 +1,65 @@
+{
+  "id": "gemini-dollar",
+  "symbol": "gusd",
+  "name": "Gemini Dollar",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "Near Protocol Ecosystem",
+    "Ethereum Ecosystem",
+    "Pantera Capital Portfolio",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd",
+    "near-protocol": "056fd409e1d7a124bd7017459dfea2f387b6d5cd.factory.bridge.near"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The Gemini dollar — the world’s first regulated stablecoin — combines the creditworthiness and price stability of the U.S. dollar with blockchain technology and the oversight of U.S. regulators.\r\n\r\nGet Gemini dollars 1-to-1 for U.S. dollars on Gemini.\r\nGemini dollars can be used on the Ethereum network.\r\n\r\nISSUER\r\nThe Gemini dollar is issued by Gemini Trust Company, LLC, a New York trust company.\r\n\r\nBANK\r\nU.S. dollars that correspond to the Gemini dollars issued and in circulation are held at a U.S. bank and eligible for FDIC “pass-through” deposit insurance, subject to applicable limitations.\r\n\r\nEXAMINATION\r\nThe U.S. dollar deposit balance is examined monthly by an independent registered public accounting firm to verify the 1:1 peg. All Independent Accountants’ Reports are published and available here.\r\n\r\nSECURITY AUDIT\r\nThe Gemini dollar is a cryptographic token built on the Ethereum Network according to the ERC20 standard for tokens. The code of the Gemini dollar smart contracts has been audited by Trail of Bits, Inc., an information security research &amp; development firm, whose report is publicly available here.\r\n\r\nGemini was founded four years ago with a mission: build a bridge to the future of money. Gemini dollar aims to combine creditworthiness and price stability of the U.S. dollar with blockchain and the oversight of U.S. regulators, the New York State Department of Financial Service.\r\n\r\nGemini dollar is a stable value coin that is:\r\n\r\n1. issued by Gemini, a New York trust company\r\n2. strictly pegged 1:1 to the U.S. dollar\r\n3. built on Ethereum network according to ERC20 token standards\r\n\r\nStarting 10th September 2018, you will be able to convert U.S. dollars in your Gemini account into Gemini dollars and withdraw them to an Ethereum address. You will also be able to automatically convert GUSD back as USD into your Gemini account. GUSD is expected to be listed on Bibox soon."
+  },
+  "links": {
+    "homepage": [
+      "https://gemini.com/dollar/",
+      "https://www.gemini.com/cryptopedia/gusd-stablecoin-gemini-dollar",
+      "https://www.gemini.com/static/dollar/gemini-dollar-trailofbits-audit.pdf"
+    ],
+    "whitepaper": "https://www.gemini.com/static/dollar/gemini-dollar-whitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x056fd409e1d7a124bd7017459dfea2f387b6d5cd",
+      "https://platform.arkhamintelligence.com/explorer/token/gemini-dollar",
+      "https://ethplorer.io/address/0x056fd409e1d7a124bd7017459dfea2f387b6d5cd",
+      "https://blockchair.com/ethereum/erc-20/token/0x056fd409e1d7a124bd7017459dfea2f387b6d5cd",
+      "https://nearblocks.io/token/056fd409e1d7a124bd7017459dfea2f387b6d5cd.factory.bridge.near"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/gemini/",
+      "https://t.me/geminiofficial_APAC",
+      "https://www.instagram.com/gemini/?hl=en"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Gemini",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "geminiofficial_APAC",
+    "subreddit_url": "https://www.reddit.com/r/Gemini",
+    "repos_url": {
+      "github": [
+        "https://github.com/gemini/dollar"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/5992/thumb/gemini-dollar-gusd.png?1696506408",
+    "small": "https://coin-images.coingecko.com/coins/images/5992/small/gemini-dollar-gusd.png?1696506408",
+    "large": "https://coin-images.coingecko.com/coins/images/5992/large/gemini-dollar-gusd.png?1696506408"
+  },
+  "last_updated": "2025-07-11T04:58:32.446715+00:00"
+}

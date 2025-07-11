@@ -1,0 +1,62 @@
+{
+  "id": "mantle-staked-ether",
+  "symbol": "meth",
+  "name": "Mantle Staked Ether",
+  "categories": [
+    "Liquid Staking Tokens",
+    "Ethereum Ecosystem",
+    "Mantle Ecosystem",
+    "Liquid Staked ETH",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xd5f7838f5c461feff7fe49ea5ebaf7728bb0adfa",
+    "mantle": "0xcda86a272531e8640cd7f1a92c01839911b90bb0"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Mantle Liquid Staking Protocol (LSP) is a permissionless, non-custodial ETH liquid staking protocol deployed on Ethereum L1 and governed by Mantle. Mantle Staked Ether (mETH) serves as the value-accumulating receipt token."
+  },
+  "links": {
+    "homepage": [
+      "https://www.mantle.xyz/meth",
+      "https://docs.mantle.xyz/meth"
+    ],
+    "whitepaper": "https://docs.mantle.xyz/meth",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xd5f7838f5c461feff7fe49ea5ebaf7728bb0adfa",
+      "https://platform.arkhamintelligence.com/explorer/token/mantle-staked-ether",
+      "https://ethplorer.io/address/0xd5f7838f5c461feff7fe49ea5ebaf7728bb0adfa",
+      "https://explorer.mantle.xyz/token/0xcda86a272531e8640cd7f1a92c01839911b90bb0",
+      "https://mantlescan.xyz/token/0xcda86a272531e8640cd7f1a92c01839911b90bb0"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/0xMantle",
+      "https://www.youtube.com/@0xMantle"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "0xMantle",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "mantlenetwork",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/mantle-lsp"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33345/thumb/symbol_transparent_bg.png?1701697066",
+    "small": "https://coin-images.coingecko.com/coins/images/33345/small/symbol_transparent_bg.png?1701697066",
+    "large": "https://coin-images.coingecko.com/coins/images/33345/large/symbol_transparent_bg.png?1701697066"
+  },
+  "last_updated": "2025-07-11T04:59:23.233798+00:00"
+}

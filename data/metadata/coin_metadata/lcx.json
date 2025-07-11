@@ -1,0 +1,59 @@
+{
+  "id": "lcx",
+  "symbol": "lcx",
+  "name": "LCX",
+  "categories": [
+    "Exchange-based Tokens",
+    "Decentralized Finance (DeFi)",
+    "Centralized Exchange (CEX) Token",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "Alleged SEC Securities"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x037a54aab062628c9bbae1fdb1583c195585fe41"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "LI",
+  "description": {
+    "en": "LCX.com - Innovating Capital Markets. Solutions for compliant digital assets and security tokens. LCX is a secure and compliant platform for buying, selling, transferring, and storing digital currency. \r\n\r\nLCX, the Liechtenstein Cryptoassets Exchange, was founded in 2018 with headquarters in Vaduz (Liechtenstein) and offices in Crypto-Valley Zug (Switzerland), New Delhi (India) and Chicago (USA). LCX has obtained 8 crypto-related registrations by the Financial Market Authority Liechtenstein, operates in accordance with the new blockchain laws and has introduced a comprehensive crypto compliance suite. LCX AG, the legal entity behind LCX.com, has a registered share capital of 1 Million CHF.\r\n\r\nLCX is a proud member of the World Economic Forum's Centre for the Fourth Industrial Revolution and has been named Blockchain Pioneer by the Blockchain Research Institute Canada. The advisory board of LCX includes leading thought leader Don Tapscott (Author of Blockchain Revolution), Jimmy Wales (Founder of Wikipedia), Yat Siu (Chairman at Animoca Brands), and others.\r\n\r\nIn addition to LCX Exchange, LCX.com has launched a second layer DeFi protocol enabling limit orders at Uniswap (LCX DeFi Terminal), an advanced trading terminal for all major cryptocurrency exchanges (LCX Terminal), regulated price oracles and crypto reference prices, an  end to end tokenization platform for security tokens and a token sale manager for compliant initial coin offerings (ICO's and IEO's). \r\n\r\nThe LCX Token ($LCX) is the fuel of the LCX.com platform and LCX Cryptocurrency Exchange. LCX Token works as a long-term sustainable incentive mechanism to motivate various stakeholders to participate in the ecosystem. LCX Token is an exchange based utility token which grants all users a reduction of up to 50% trading fees at LCX’s compliant digital asset exchange and many more benefits.\r\n\r\nMore Information available at \r\nwww.LCX.com\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.LCX.com"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x037a54aab062628c9bbae1fdb1583c195585fe41",
+      "https://platform.arkhamintelligence.com/explorer/token/lcx",
+      "https://ethplorer.io/address/0x037a54aab062628c9bbae1fdb1583c195585fe41"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.instagram.com/lcx.exchange/",
+      "https://www.linkedin.com/company/lcx"
+    ],
+    "announcement_url": [
+      "https://www.lcx.com/insights/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "lcx",
+    "facebook_username": "lcx.exchange",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "JoinLCX",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/9985/thumb/zRPSu_0o_400x400.jpg?1696510023",
+    "small": "https://coin-images.coingecko.com/coins/images/9985/small/zRPSu_0o_400x400.jpg?1696510023",
+    "large": "https://coin-images.coingecko.com/coins/images/9985/large/zRPSu_0o_400x400.jpg?1696510023"
+  },
+  "last_updated": "2025-07-11T04:59:10.845513+00:00"
+}

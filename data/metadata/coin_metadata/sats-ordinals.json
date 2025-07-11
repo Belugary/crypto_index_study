@@ -1,0 +1,52 @@
+{
+  "id": "sats-ordinals",
+  "symbol": "sats",
+  "name": "SATS (Ordinals)",
+  "categories": [
+    "BRC-20",
+    "Bitcoin Ecosystem",
+    "Inscriptions"
+  ],
+  "asset_platform_id": "ordinals",
+  "platforms": {
+    "ordinals": "9b664bdd6f5ed80d8d88957b63364c41f3ad4efb8eee11366aa16435974d9333i0"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "SATS is short for Satoshis, the smallest unit of Bitcoin, each bitcoin is divisible into 100,000,000 satoshis. One Satoshi (SATS) is equal to 0.00000001 BTC."
+  },
+  "links": {
+    "homepage": [
+      "https://satscoin.vip/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://ordinalscan.net/inscription/9b664bdd6f5ed80d8d88957b63364c41f3ad4efb8eee11366aa16435974d9333i0",
+      "https://platform.arkhamintelligence.com/explorer/token/sats-ordinals",
+      "https://unisat.io/inscription/9b664bdd6f5ed80d8d88957b63364c41f3ad4efb8eee11366aa16435974d9333i0",
+      "https://mempool.space/tx/9b664bdd6f5ed80d8d88957b63364c41f3ad4efb8eee11366aa16435974d9333"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "satsvipordinal",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "satsbrc20_community",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/30666/thumb/_dD8qr3M_400x400.png?1702913020",
+    "small": "https://coin-images.coingecko.com/coins/images/30666/small/_dD8qr3M_400x400.png?1702913020",
+    "large": "https://coin-images.coingecko.com/coins/images/30666/large/_dD8qr3M_400x400.png?1702913020"
+  },
+  "last_updated": "2025-07-11T05:00:34.980234+00:00"
+}

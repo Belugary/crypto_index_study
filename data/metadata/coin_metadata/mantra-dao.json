@@ -1,0 +1,82 @@
+{
+  "id": "mantra-dao",
+  "symbol": "om",
+  "name": "MANTRA",
+  "categories": [
+    "Infrastructure",
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Cosmos Ecosystem",
+    "Layer 1 (L1)",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "Base Ecosystem",
+    "Osmosis Ecosystem",
+    "Mantra Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x3593d125a4f7849a1b059e64f4517a86dd60c95d",
+    "mantra": "uom",
+    "cosmos": "ibc/30DE434D61B6C6F0E3132FE1F2413C76D2EBA63B3E18A211C4CD192A5F5580F1",
+    "base": "0x3992b27da26848c2b19cea6fd25ad5568b68ab98",
+    "stargaze": "ibc/3BD86E80E000B52DA57C474A6A44E37F73D34E38A1FA79EE678E08D119FC555B",
+    "osmosis": "ibc/164807F6226F91990F358C6467EEE8B162E437BDCD3DADEC3F0CE20693720795",
+    "binance-smart-chain": "0xf78d2e7936f5fe18308a3b2951a93b6c4a41f5e2",
+    "polygon-pos": "0xc3ec80343d2bae2f8e680fdadde7c17e71e114ea"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "MANTRA is a Security first RWA Layer 1 Blockchain, capable of adherence and enforcement of real world regulatory requirements. Built for Institutions and Developers, MANTRA offers a Permissionless Blockchain for Permissioned applications.\r\n\r\nKey Features:\r\n• Built using Cosmos SDK, IBC compatible, with CosmWasm supported\r\n• Secured via a sovereign PoS validator set\r\n• Scalable up to 10k TPS\r\n• Built-in Modules, SDKs and APIs to create, trade and manage regulatory compliant RWAs\r\n• Improved User Experience to onboard non-native users and institutions to Web3"
+  },
+  "links": {
+    "homepage": [
+      "https://www.mantrachain.io/"
+    ],
+    "whitepaper": "https://docs.mantrachain.io/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x3593d125a4f7849a1b059e64f4517a86dd60c95d",
+      "https://platform.arkhamintelligence.com/explorer/token/mantra-dao",
+      "https://ethplorer.io/address/0x3593d125a4f7849a1b059e64f4517a86dd60c95d",
+      "https://polygonscan.com/token/0xc3ec80343d2bae2f8e680fdadde7c17e71e114ea",
+      "https://bscscan.com/token/0xf78d2e7936f5fe18308a3b2951a93b6c4a41f5e2",
+      "https://binplorer.com/address/0xf78d2e7936f5fe18308a3b2951a93b6c4a41f5e2",
+      "https://basescan.org/token/0x3992b27da26848c2b19cea6fd25ad5568b68ab98",
+      "https://www.mintscan.io/mantra",
+      "https://www.mintscan.io/stargaze/assets/ibc/3BD86E80E000B52DA57C474A6A44E37F73D34E38A1FA79EE678E08D119FC555B",
+      "https://www.mintscan.io/mantra/address/uom"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/mantra_chain",
+      "https://www.linkedin.com/company/mantrachain/"
+    ],
+    "chat_url": [
+      "https://discord.gg/mantrachain",
+      "https://mantrachain.medium.com/",
+      "https://www.youtube.com/@MANTRAChain"
+    ],
+    "announcement_url": [],
+    "snapshot_url": "https://snapshot.org/#/mantra-dao.eth",
+    "twitter_screen_name": "MANTRA_Chain",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "MANTRA_Chain",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/mantra-chain"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/12151/thumb/OM_Token.png?1696511991",
+    "small": "https://coin-images.coingecko.com/coins/images/12151/small/OM_Token.png?1696511991",
+    "large": "https://coin-images.coingecko.com/coins/images/12151/large/OM_Token.png?1696511991"
+  },
+  "last_updated": "2025-07-11T04:59:23.786846+00:00"
+}

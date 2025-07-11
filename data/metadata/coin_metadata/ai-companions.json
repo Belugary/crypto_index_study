@@ -1,0 +1,51 @@
+{
+  "id": "ai-companions",
+  "symbol": "aic",
+  "name": "AI Companions",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Meme",
+    "AI Meme"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xbe6ad1eb9876cf3d3f9b85feecfb400298e80143"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "AI Virtual Companions\r\n\r\nOur vision is to revolutionize companionship with AI Virtual Companions—highly customizable, interactive, and immersive virtual partners designed to meet your unique desires.\r\n\r\nAI Companions ($AIC) is pioneering the next generation of digital relationships by combining AI, VR, AR, and blockchain technologies. Our platform allows users to create deeply personalized, immersive virtual companions that evolve and grow with them. \r\n\r\nBacked by a robust ecosystem and $AIC token, AI Companions is set to redefine how people connect in the digital age, offering a transformative experience in virtual companions.\r\n\r\nWhy AI Virtual Companions?\r\n\r\nThe market for digital companions is growing, with users increasingly seeking personalized and interactive experiences. This trend underscores the growing acceptance and integration of these technologies into everyday life, paving the way for platforms like AI Virtual Companions."
+  },
+  "links": {
+    "homepage": [
+      "https://aivcompanions.com/"
+    ],
+    "whitepaper": "http://aivcompanions.com/wp-content/uploads/2024/09/Ai-Virtual-update-Sep.pdf",
+    "blockchain_site": [
+      "https://bscscan.com/token/0xbe6ad1eb9876cf3d3f9b85feecfb400298e80143",
+      "https://platform.arkhamintelligence.com/explorer/token/ai-companions",
+      "https://binplorer.com/address/0xbe6ad1eb9876cf3d3f9b85feecfb400298e80143"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "AIV_Companions",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "AIV_Companions",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/40130/thumb/AI_Companions.png?1725942702",
+    "small": "https://coin-images.coingecko.com/coins/images/40130/small/AI_Companions.png?1725942702",
+    "large": "https://coin-images.coingecko.com/coins/images/40130/large/AI_Companions.png?1725942702"
+  },
+  "last_updated": "2025-07-11T04:56:44.226878+00:00"
+}

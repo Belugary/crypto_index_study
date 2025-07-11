@@ -1,0 +1,58 @@
+{
+  "id": "ozone-chain",
+  "symbol": "ozo",
+  "name": "Ozone Chain",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Zero Knowledge (ZK)"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What is Ozone Chain\r\n\r\nOzone Chain is the world’s first Quantum Resistant Blockchain that has integrated bleeding edge quantum security technologies in its design. Ozone Chain believes in Quantum Secured Blockchain for solving the real-world concerns faced by Quantum Computers. Ozone Chain is a decentralized platform that enables developers to build scalable user-friendly dApps with low transactions fees without ever sacrificing on security.\r\n\r\nThe most secured Blockchain which is EVM compatible and runs on proof of authority and IBFT protocols.\r\n\r\nQuantum Random Numbers from a laser source\r\nLattice-based Post Quantum Cryptography\r\nQuantum tech tested and certified by TUV\r\nEVM Compatible\r\nProof of Authority & QBFT\r\nBlock time – 5 seconds\r\nDeploy Smart Contracts and Create Dapps\r\nGovernance by voting\t\r\n\r\n\r\nUniqueness of Ozone Chain\r\n\r\nOzone chain uses quantum random numbers (QRN) and post-quantum cryptography (PQC) to make the blockchain quantum secure and quantum resistant.\r\n\r\nQuantum key distribution (QKD), in its current implementations has geographical limitations that constrain its usage within a few hundred kilometres. This is a huge drawback for a blockchain, where nodes need to be distributed globally and inter-node communications must span thousands of kilometres.\r\n\r\nThus, an architectural decision has been made to use PQC for inter-node communications, while being quantum-resistant at the same time.\r\n\r\nTests and Results\r\n\r\nThe quantum security technologies used in ozone chain have undergone various standardized tests and have passed all of them. The tests have been conducted by TÜV Rheinland which is an agency that provides testing and certification services to ensure the safety, quality, and performance of cybersecurity products and services, including quantum security solutions.\r\n\r\nEntropy test\r\nDiehard tests\r\nNIST tests\r\n\r\nOzone's QRNG has also passed the NIST SP 800-22 tests, which is a test suite standards by National Institute of Standards and Technology. NIST SP 800-22 is a statistical test suite for random and pseudorandom number generators for cryptographic applications. \r\n•\tFrequency (monobit) test\r\n•\tFrequency test within a block\r\n•\tRuns test\r\n•\tLongest run of ones in a block\r\n•\tBinary matrix rank test\r\n•\tDiscrete Fourier Transform (Spectral) test\r\n•\tNon-overlapping template matching test\r\n•\tOverlapping template matching test\r\n•\tMaurer's \"Universal Statistical\" test\r\n•\tLinear complexity test\r\n•\tSerial test\r\n•\tApproximate entropy test\r\n•\tCumulative sums (Cusums) test\r\n•\tRandom excursions test\r\n•\tRandom excursions variant test\r\n\r\nHow many OZO coins are there in Circulation?\r\n\r\nThe total and maximum supply is 1 billion OZO. 300 million OZO is in circulation already. The locked OZO supply is distributed over 36 months.\r\n\r\n\r\n\r\nOzone Chain - A Future Ready Quantum Blockchain\r\nBuilding resilience against future threats is key to ensure that vital parts of the blockchain and cryptocurrency economy keep thriving. The issue is that investments for protection from medium to long-term risks are somewhat natural to overlook or dismiss, given more pressing present issues, and the costs may not seem immediately justified. It often takes some bad incidents to incentivise the necessary proactive steps.\r\n\r\nWhile blockchain technology prides itself in providing a trustless system upon which the economy of digital currencies and assets operate, the underlying security mechanisms still rely on classical cryptographically processes, thus necessitating a certain level of trust in them. Ozone chain has assimilated quantum mechanical properties into its system, thus removing the trustful component of the security subsystem in blockchain, with ambitions of migrating towards of a truly trustless blockchain."
+  },
+  "links": {
+    "homepage": [
+      "https://ozonechain.io/"
+    ],
+    "whitepaper": "https://whitepaper.ozonechain.io/",
+    "blockchain_site": [
+      "https://ozonescan.io/",
+      "https://etherscan.io/token/0x4948A9DeeD1A3dC918ac98DE615E268A3702a214",
+      "https://ethplorer.io/address/0x4948A9DeeD1A3dC918ac98DE615E268A3702a214"
+    ],
+    "official_forum_url": [
+      "https://t.me/ozonechain_announcement",
+      "https://www.instagram.com/ozone_chain/"
+    ],
+    "chat_url": [
+      "https://discord.gg/xfG5rgQps3",
+      "https://medium.com/@Ozone_chain",
+      "https://www.youtube.com/channel/UC2uK6abt6W17CgsUFvnkYpQ"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Ozone_chain",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "ozonechainlabs",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/31385/thumb/ozonechain-momogram-200x200.png?1696530201",
+    "small": "https://coin-images.coingecko.com/coins/images/31385/small/ozonechain-momogram-200x200.png?1696530201",
+    "large": "https://coin-images.coingecko.com/coins/images/31385/large/ozonechain-momogram-200x200.png?1696530201"
+  },
+  "last_updated": "2025-07-11T04:59:57.504146+00:00"
+}

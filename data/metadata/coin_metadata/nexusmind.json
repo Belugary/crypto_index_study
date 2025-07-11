@@ -1,0 +1,53 @@
+{
+  "id": "nexusmind",
+  "symbol": "nmd",
+  "name": "NexusMind",
+  "categories": [
+    "SocialFi",
+    "BNB Chain Ecosystem"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xa67ed14c65e7b717674f0d66570c13e77583a68f"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "\"NexusMind is a revolutionary decentralized social software that has been dubbed the \"\"Twitter Killer\"\". The app is built on the cutting-edge decentralized network Nostr, which provides users with greater control over their social media experience. With NexusMind, users can enjoy a more secure and private social networking experience that is not controlled by a central authority. Unlike traditional social media platforms, NexusMind allows users to connect with others in a completely decentralized and transparent manner, ensuring that users remain in control of their data at all times. Additionally, NexusMind offers a wide range of innovative features and tools that enable users to customize their experience to their liking, including customizable profiles, real-time messaging, and advanced privacy settings. With its\r\nuser-centric design and state-of-the-art technology, NexusMind is poised to revolutionize the world of social media and usher in a new era of decentralized networking.\""
+  },
+  "links": {
+    "homepage": [
+      "https://nexusmind.io/index"
+    ],
+    "whitepaper": "https://nexusmind.io/file/white_paper.pdf",
+    "blockchain_site": [
+      "https://www.bscscan.com/",
+      "https://platform.arkhamintelligence.com/explorer/token/nexusmind",
+      "https://bscscan.com/token/0xa67ed14c65e7b717674f0d66570c13e77583a68f",
+      "https://binplorer.com/address/0xa67ed14c65e7b717674f0d66570c13e77583a68f"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://medium.com/@MyNexusMind"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "MyNexusMind",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "MyNexusMind",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/35449/thumb/nmd-cg.jpg?1708664539",
+    "small": "https://coin-images.coingecko.com/coins/images/35449/small/nmd-cg.jpg?1708664539",
+    "large": "https://coin-images.coingecko.com/coins/images/35449/large/nmd-cg.jpg?1708664539"
+  },
+  "last_updated": "2025-07-11T04:59:41.769586+00:00"
+}

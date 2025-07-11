@@ -1,0 +1,63 @@
+{
+  "id": "aethir",
+  "symbol": "ath",
+  "name": "Aethir",
+  "categories": [
+    "Solana Ecosystem",
+    "Arbitrum Ecosystem",
+    "Impossible Finance Launchpad",
+    "Ethereum Ecosystem",
+    "DePIN",
+    "Animoca Brands Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xbe0ed4138121ecfc5c0e56b40517da27e6c5226b",
+    "solana": "Dm5BxyMetG3Aq5PaG1BrG7rBYqEMtnkjvPNMExfacVk7",
+    "arbitrum-one": "0xc87b37a581ec3257b734886d9d3a581f5a9d056c"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Aethir is the only Enterprise-grade AI-focused GPU-as-a-service provider in the market. It’s a decentralized cloud computing infrastructure allows GPU providers (containers) to meet Enterprise clients who need powerful H100’s chips for professional AI/ML tasks. \r\n\r\nAethir also support cloud gaming clients with their virtual computing phones and GPU's with contracts with the world’s largest telecommunication company. Everything within Aethir ecosystem will be decentralized and community-owned."
+  },
+  "links": {
+    "homepage": [
+      "https://www.aethir.com/"
+    ],
+    "whitepaper": "https://aethir.gitbook.io/aethir/ljvx8d8ee4ElPliP31K1/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xbe0ed4138121ecfc5c0e56b40517da27e6c5226b",
+      "https://platform.arkhamintelligence.com/explorer/token/aethir",
+      "https://ethplorer.io/address/0xbe0ed4138121ecfc5c0e56b40517da27e6c5226b",
+      "https://arbiscan.io/token/0xc87b37a581ec3257b734886d9d3a581f5a9d056c",
+      "https://solscan.io/token/Dm5BxyMetG3Aq5PaG1BrG7rBYqEMtnkjvPNMExfacVk7"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/aethir-limited/",
+      "https://www.youtube.com/@AethirCloud"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/aethircloud"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "AethirCloud",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "aethir_cloud",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/36179/thumb/logogram_circle_dark_green_vb_green_%281%29.png?1718232706",
+    "small": "https://coin-images.coingecko.com/coins/images/36179/small/logogram_circle_dark_green_vb_green_%281%29.png?1718232706",
+    "large": "https://coin-images.coingecko.com/coins/images/36179/large/logogram_circle_dark_green_vb_green_%281%29.png?1718232706"
+  },
+  "last_updated": "2025-07-11T04:56:42.518451+00:00"
+}

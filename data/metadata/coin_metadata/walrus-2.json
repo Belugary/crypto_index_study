@@ -1,0 +1,57 @@
+{
+  "id": "walrus-2",
+  "symbol": "wal",
+  "name": "Walrus",
+  "categories": [
+    "Infrastructure",
+    "Storage",
+    "Sui Ecosystem"
+  ],
+  "asset_platform_id": "sui",
+  "platforms": {
+    "sui": "0x356a26eb9e012a68958082340d4c4116e7f55615cf27affcff209cf0ae544f59::wal::WAL"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "Walrus is a decentralized data storage protocol and application development platform that allows apps to publish, read, and program large data files and rich media content such as videos, images, and audio. Built on Sui, apps on Walrus can manage stored on- and offchain data via Move-based smart contracts. Originally developed by Web3 infrastructure builders Mysten Labs, Walrus represents an evolution in how decentralized data storage works.\r\n\r\nhttps://www.walrus.xyz/about\r\nWalrus is the first storage network to let you store any size of data on chain and at scale. Web3 projects can do more with their data through smart contracts, allowing a broader set of businesses to be built onchain.\r\n-Robust & reliable network: Data remains accessible, frictionless, and secure even in a catastrophe\r\n-Cost-efficient storage: Builders experience performance and cost dynamics almost on par with web2 solutions\r\n-Programmable storage: New use cases unlocked with a native tie between storage and smart contract programmability"
+  },
+  "links": {
+    "homepage": [
+      "https://www.walrus.xyz/"
+    ],
+    "whitepaper": "https://docs.wal.app/walrus.pdf",
+    "blockchain_site": [
+      "https://suiscan.xyz/mainnet/coin/0x356a26eb9e012a68958082340d4c4116e7f55615cf27affcff209cf0ae544f59::wal::WAL",
+      "https://suivision.xyz/coin/0x356a26eb9e012a68958082340d4c4116e7f55615cf27affcff209cf0ae544f59::wal::WAL",
+      "https://suiscan.xyz/mainnet/coin/0x356a26eb9e012a68958082340d4c4116e7f55615cf27affcff209cf0ae544f59::wal::WAL/txs"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/walrus-foundation/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/walrusprotocol"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "WalrusProtocol",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/MystenLabs/walrus-docs"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54914/thumb/WAL_logo.png?1742494301",
+    "small": "https://coin-images.coingecko.com/coins/images/54914/small/WAL_logo.png?1742494301",
+    "large": "https://coin-images.coingecko.com/coins/images/54914/large/WAL_logo.png?1742494301"
+  },
+  "last_updated": "2025-07-11T05:01:49.587935+00:00"
+}

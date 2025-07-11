@@ -1,0 +1,54 @@
+{
+  "id": "reallink",
+  "symbol": "real",
+  "name": "RealLink",
+  "categories": [
+    "Tron Ecosystem"
+  ],
+  "asset_platform_id": "tron",
+  "platforms": {
+    "tron": "TGBfBt6Y2Dm3RHdNpZAdqywBsvfdysf834"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "RealLink is a revolutionary Web3 social finance ecosystem that innovatively integrates three core functions - content creation, social interaction, and crypto payments - through its native REAL token, pioneering a groundbreaking \"Social-to-Earn\" digital economic paradigm.\r\n\r\nCore Product Ecosystem: BuzzCast: A global phenomenon in video social platforms, consistently ranking in the TOP20 best-selling social apps on Google Play across 100+ countries/regions\r\n\r\nTada: One of the world's most active real-time voice social platforms\r\n\r\nDPay: An integrated multi-chain crypto payment gateway enabling seamless cross-chain digital asset transfers\r\n\r\nSeven Competitive Advantages: Authentic User Economy: Rigorous anti-fraud mechanisms ensure ecosystem vitality stems from genuine user engagement\r\n\r\nInnovative Incentive Model: Creates win-win dynamics between creators and users through REAL token rewards\r\n\r\nCross-Chain Payment Network: DPay supports major public chain assets with dramatically improved transaction speeds\r\n\r\nLimitless Scalability: Modular architecture allows rapid integration with diverse Web3 applications\r\n\r\nDual-Anchor Value System: Each REAL token is backed by actual platform consumption scenarios, ensuring stable value foundation\r\n\r\nZero-Barrier Participation: Tens of millions of BuzzCast and TADA users can instantly engage without specialized equipment\r\n\r\nHalving Mechanism: Advanced 29-phase halving protocol with final mining difficulty reaching 210,000x initial level - this sophisticated economic model guarantees long-term REAL token value"
+  },
+  "links": {
+    "homepage": [
+      "https://www.reallink.vip/"
+    ],
+    "whitepaper": null,
+    "blockchain_site": [
+      "https://tronscan.org/#/token20/tgbfbt6y2dm3rhdnpzadqywbsvfdysf834",
+      "https://platform.arkhamintelligence.com/explorer/token/reallink"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.facebook.com/RealLinkcrypto"
+    ],
+    "announcement_url": [
+      "https://medium.com/@RealLinkOfficial"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "RealLink001",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "joinRealLink",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/RealLinkOfficial"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/20665/thumb/TGBfBt6Y2Dm3RHdNpZAdqywBsvfdysf834.jpeg?1749135788",
+    "small": "https://coin-images.coingecko.com/coins/images/20665/small/TGBfBt6Y2Dm3RHdNpZAdqywBsvfdysf834.jpeg?1749135788",
+    "large": "https://coin-images.coingecko.com/coins/images/20665/large/TGBfBt6Y2Dm3RHdNpZAdqywBsvfdysf834.jpeg?1749135788"
+  },
+  "last_updated": "2025-07-11T05:00:21.878389+00:00"
+}

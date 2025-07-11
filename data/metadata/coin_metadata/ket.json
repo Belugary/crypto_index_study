@@ -1,0 +1,55 @@
+{
+  "id": "ket",
+  "symbol": "ket",
+  "name": "Ket",
+  "categories": [
+    "Avalanche Ecosystem",
+    "Meme",
+    "Cat-Themed",
+    "Made in USA"
+  ],
+  "asset_platform_id": "avalanche",
+  "platforms": {
+    "avalanche": "0xffff003a6bad9b743d658048742935fffe2b6ed7"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "YellowCatDAO sets itself apart by integrating cutting-edge AI-driven trading mechanisms with a community-centered governance model. At its core, the project leverages an AI agent capable of executing trades across multiple blockchain networks, making it a pioneer in cross-chain AI trading. Unlike typical trading bots, this AI agent not only focuses on profitability but also strategically reinvests gains into the project’s treasury to ensure sustainable growth and support ongoing initiatives.\r\n\r\nOne of YellowCatDAO’s standout features is its innovative ShameFi mechanic, introduced during its presale. This mechanism brings a new level of accountability to the crypto space by publicly exposing the actions of presale participants. It ensures transparency and discourages harmful practices such as early dumping by presalers, thereby fostering a fairer and more stable ecosystem. This unique approach aligns with the project’s ethos of transparency and trust, making it one of the few projects actively addressing the challenges of launch-stage tokenomics.\r\n\r\nThe project also offers a real-time transparency dashboard, which allows community members to monitor key activities such as token movements, and sell-offs by major wallets. This feature empowers the community with actionable insights, helping investors make informed decisions while keeping the project’s operations in check. This level of openness is rare in the crypto space and is a testament to YellowCatDAO’s commitment to building trust within its community.\r\n\r\nAdditionally, YellowCatDAO seamlessly blends entertainment with functionality by introducing elements of EntertainmentFi. Through creative community engagement, such as raffles and interactive events, the project adds a layer of fun and inclusivity to its otherwise utility-driven model. These activities not only strengthen community bonds but also contribute to the project’s treasury, creating a self-reinforcing growth cycle.\r\n\r\nYellowCatDAO’s ability to integrate transparency, innovative tokenomics, AI-driven trading, and community interaction into one cohesive ecosystem makes it a truly unique project. By addressing pain points such as presale accountability, lack of transparency, and uninspired utility, it sets a new standard for decentralized autonomous organizations. With its bold vision and practical solutions, YellowCatDAO offers a fresh perspective on how blockchain technology can be leveraged for innovation, sustainability, and community empowerment."
+  },
+  "links": {
+    "homepage": [
+      "https://www.ketboard.xyz/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://snowscan.xyz/address/0xFFFF003a6BAD9b743d658048742935fFFE2b6ED7",
+      "https://snowscan.xyz/token/0xFFFF003a6BAD9b743d658048742935fFFE2b6ED7",
+      "https://snowtrace.io/token/0xFFFF003a6BAD9b743d658048742935fFFE2b6ED7?chainid=43114",
+      "https://avascan.info/blockchain/c/address/0xFFFF003a6BAD9b743d658048742935fFFE2b6ED7/token"
+    ],
+    "official_forum_url": [
+      "https://x.com/ketfromwyoming"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "yellowcatdao",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53789/thumb/edfw.jpg?1737381234",
+    "small": "https://coin-images.coingecko.com/coins/images/53789/small/edfw.jpg?1737381234",
+    "large": "https://coin-images.coingecko.com/coins/images/53789/large/edfw.jpg?1737381234"
+  },
+  "last_updated": "2025-07-11T04:59:05.252669+00:00"
+}

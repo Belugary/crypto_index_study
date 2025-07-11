@@ -1,0 +1,62 @@
+{
+  "id": "orca",
+  "symbol": "orca",
+  "name": "Orca",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Decentralized Finance (DeFi)",
+    "Yield Farming",
+    "Automated Market Maker (AMM)",
+    "Solana Ecosystem",
+    "Coinbase Ventures Portfolio",
+    "DeFiance Capital Portfolio",
+    "Made in USA"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "US",
+  "description": {
+    "en": "Orca is the most user-friendly DEX on Solana.\r\n\r\nOrca is one of the first general-purpose AMMs launched on Solana. Users can swap assets, provide liquidity, and earn yield through an easy-to-use interface. Projects can use Orca as a money-lego to easily integrate swapping, farming, or on-chain data into their dApp.\r\n\r\nOrca strives to provide easy and effective financial tools for everyone, bringing DeFi to the masses."
+  },
+  "links": {
+    "homepage": [
+      "https://www.orca.so/",
+      "https://learn.orca.so/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE",
+      "https://platform.arkhamintelligence.com/explorer/token/orca"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/nSwGWn5KSG"
+    ],
+    "announcement_url": [
+      "https://orca-so.medium.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "orca_so",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/orca_so/",
+    "repos_url": {
+      "github": [
+        "https://github.com/orca-so"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/17547/thumb/Orca_Logo.png?1696517083",
+    "small": "https://coin-images.coingecko.com/coins/images/17547/small/Orca_Logo.png?1696517083",
+    "large": "https://coin-images.coingecko.com/coins/images/17547/large/Orca_Logo.png?1696517083"
+  },
+  "last_updated": "2025-07-11T04:59:53.993837+00:00"
+}

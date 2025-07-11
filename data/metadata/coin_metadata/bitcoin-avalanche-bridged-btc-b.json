@@ -1,0 +1,55 @@
+{
+  "id": "bitcoin-avalanche-bridged-btc-b",
+  "symbol": "btc.b",
+  "name": "Avalanche Bridged BTC (Avalanche)",
+  "categories": [
+    "Tokenized BTC",
+    "Avalanche Ecosystem",
+    "Bridged-Tokens"
+  ],
+  "asset_platform_id": "avalanche",
+  "platforms": {
+    "avalanche": "0x152b9d0fdc40c096757f570a51e494bd4b943e50"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The Avalanche Bridge, launched last August, has facilitated over $50B in transfers between Avalanche and Ethereum. Today, the Ava Labs team has added support for the Bitcoin network. Users are now able to transfer Bitcoin to Avalanche C-Chain with in a cheap, seamless manner without having to go through Ethereum. We plan to enable wide adoption of BTC.b across the Avalanche and other ecosystems. \r\n\r\nFull press release: https://medium.com/avalancheavax/avalanche-bridge-adds-native-bitcoin-support-6306236fb506\r\nSupport articles: https://support.avax.network/en/articles/6081464-core-extension-how-do-i-bridge-bitcoin-btc"
+  },
+  "links": {
+    "homepage": [
+      "https://core.app/en/bridge/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://snowtrace.io/token/0x152b9d0fdc40c096757f570a51e494bd4b943e50",
+      "https://platform.arkhamintelligence.com/explorer/token/bitcoin-avalanche-bridged-btc-b",
+      "https://avascan.info/blockchain/c/address/0x152b9d0fdc40c096757f570a51e494bd4b943e50/token"
+    ],
+    "official_forum_url": [
+      "https://support.avax.network/en/articles/6081464-core-extension-how-do-i-bridge-bitcoin-btc"
+    ],
+    "chat_url": [
+      "https://medium.com/avalancheavax/avalanche-bridge-adds-native-bitcoin-support-6306236fb506"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "avalancheavax",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/26115/thumb/btcb.png?1696525205",
+    "small": "https://coin-images.coingecko.com/coins/images/26115/small/btcb.png?1696525205",
+    "large": "https://coin-images.coingecko.com/coins/images/26115/large/btcb.png?1696525205"
+  },
+  "last_updated": "2025-07-11T04:57:21.189490+00:00"
+}

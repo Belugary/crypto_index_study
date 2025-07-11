@@ -1,0 +1,63 @@
+{
+  "id": "shiba-inu",
+  "symbol": "shib",
+  "name": "Shiba Inu",
+  "categories": [
+    "Meme",
+    "Ethereum Ecosystem",
+    "Animoca Brands Portfolio",
+    "Dog-Themed",
+    "GMCI Meme Index",
+    "GMCI 30 Index",
+    "GMCI Index",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Shiba Inu (SHIB) is a meme token which began as a fun currency and has now transformed into a decentralized ecosystem. During the initial launch, 50% of the supply was allocated into Vitalik Buterin's ethereum wallet. \r\n\r\nAs a result of that, Vitalik proceeded to donate 10% of his SHIB holdings to a COVID-19 relief effort in India and the remaining 40% is burnt forever. That donation was worth about $1 billion at that time, which makes it one of the largest donation ever in the world.\r\n\r\nWhat is the Shiba Inu community working on right now? The Shiba Inu team launched a decentralized exchange called Shibaswap with 2 new tokens, LEASH and BONE. LEASH is a scarce supply token that is used to offer incentives on Shibaswap. BONE is the governance token for holders to vote on proposals on Doggy DAO."
+  },
+  "links": {
+    "homepage": [
+      "https://shibatoken.com/",
+      "https://shib.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
+      "https://platform.arkhamintelligence.com/explorer/token/shiba-inu",
+      "https://ethplorer.io/address/0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
+      "https://explorer.energi.network/token/0x7fdb933327aa6989ae706001c2ea54ba5e046e79",
+      "https://ethereum.dex.guru/token/0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/shibatoken"
+    ],
+    "announcement_url": [
+      "https://blog.shibaswap.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "shibarium_",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "ShibaInu_Dogecoinkiller",
+    "subreddit_url": "https://www.reddit.com/r/SHIBArmy/",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/11939/thumb/shiba.png?1696511800",
+    "small": "https://coin-images.coingecko.com/coins/images/11939/small/shiba.png?1696511800",
+    "large": "https://coin-images.coingecko.com/coins/images/11939/large/shiba.png?1696511800"
+  },
+  "last_updated": "2025-07-11T05:00:38.079846+00:00"
+}

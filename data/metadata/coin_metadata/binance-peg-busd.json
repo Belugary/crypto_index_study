@@ -1,0 +1,65 @@
+{
+  "id": "binance-peg-busd",
+  "symbol": "busd",
+  "name": "Binance-Peg BUSD",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "BNB Chain Ecosystem",
+    "Avalanche Ecosystem",
+    "Polygon Ecosystem",
+    "Optimism Ecosystem",
+    "Fiat-backed Stablecoin",
+    "Binance-Peg Tokens"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+    "optimistic-ethereum": "0x9c9e5fd8bbc25984b178fdce6117defa39d2db39",
+    "avalanche": "0x9c9e5fd8bbc25984b178fdce6117defa39d2db39",
+    "polygon-pos": "0x9c9e5fd8bbc25984b178fdce6117defa39d2db39"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.binance.com/en"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "https://platform.arkhamintelligence.com/explorer/token/binance-peg-busd",
+      "https://binplorer.com/address/0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "https://snowtrace.io/token/0x9c9e5fd8bbc25984b178fdce6117defa39d2db39",
+      "https://avascan.info/blockchain/c/address/0x9c9e5fd8bbc25984b178fdce6117defa39d2db39/token",
+      "https://polygonscan.com/token/0x9c9e5fd8bbc25984b178fdce6117defa39d2db39",
+      "https://optimistic.etherscan.io/token/0x9c9e5fd8bbc25984b178fdce6117defa39d2db39"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/jE4wt8g2H2"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "binance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/31273/thumb/new_binance-peg-busd.png?1696530096",
+    "small": "https://coin-images.coingecko.com/coins/images/31273/small/new_binance-peg-busd.png?1696530096",
+    "large": "https://coin-images.coingecko.com/coins/images/31273/large/new_binance-peg-busd.png?1696530096"
+  },
+  "last_updated": "2025-07-11T04:57:15.896902+00:00"
+}

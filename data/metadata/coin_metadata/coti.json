@@ -1,0 +1,65 @@
+{
+  "id": "coti",
+  "symbol": "coti",
+  "name": "COTI",
+  "categories": [
+    "Smart Contract Platform",
+    "Ethereum Ecosystem",
+    "Layer 2 (L2)",
+    "Zero Knowledge (ZK)",
+    "Alleged SEC Securities",
+    "Privacy Blockchain"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xddb3422497e61e13543bea06989c0789117555c5"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "GI",
+  "description": {
+    "en": "COTI is a fast and light confidentiality layer on Ethereum. Powered by the breakthrough cryptographic protocol Garbled Circuits and secured by Ethereum, COTI introduces the most advanced and compliant solution for data protection on the public blockchain. Paving the way for the next wave of Web3 innovation and adoption, COTI unlocks a whole new world of use cases, including confidential transactions, Artificial Intelligence, DeFi, decentralized identification, and more.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://coti.io/"
+    ],
+    "whitepaper": "https://coti.io/files/coti_v2_whitepaper.pdf",
+    "blockchain_site": [
+      "https://explorer.coti.io/",
+      "https://platform.arkhamintelligence.com/explorer/token/coti",
+      "https://etherscan.io/token/0xddb3422497e61e13543bea06989c0789117555c5",
+      "https://ethplorer.io/address/0xddb3422497e61e13543bea06989c0789117555c5",
+      "https://explorer.energi.network/token/0xa34146187bf01b368017ab3555d1078380aadb4b"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.me/coti",
+      "https://www.facebook.com/COTInetwork"
+    ],
+    "announcement_url": [
+      "https://medium.com/cotinetwork",
+      "https://steemit.com/@cotinetwork"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "COTInetwork",
+    "facebook_username": "COTInetwork",
+    "bitcointalk_thread_identifier": 1364597,
+    "telegram_channel_identifier": "COTInetwork",
+    "subreddit_url": "https://www.reddit.com/r/cotinetwork",
+    "repos_url": {
+      "github": [
+        "https://github.com/coti-io/confidentiality-contracts",
+        "https://github.com/coti-io"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/2962/thumb/Coti.png?1696503705",
+    "small": "https://coin-images.coingecko.com/coins/images/2962/small/Coti.png?1696503705",
+    "large": "https://coin-images.coingecko.com/coins/images/2962/large/Coti.png?1696503705"
+  },
+  "last_updated": "2025-07-11T04:57:54.709329+00:00"
+}

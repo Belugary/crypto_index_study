@@ -1,0 +1,78 @@
+{
+  "id": "loopring",
+  "symbol": "lrc",
+  "name": "Loopring",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Smart Contract Platform",
+    "Exchange-based Tokens",
+    "Decentralized Finance (DeFi)",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Layer 2 (L2)",
+    "Zero Knowledge (ZK)",
+    "Loopring Ecosystem",
+    "Rollup",
+    "Energi Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xbbbbca6a901c926f240b89eacb641d8aec7aeafd",
+    "arbitrum-one": "0x46d0ce7de6247b0a95f67b43b589b4041bae7fbe",
+    "energi": "0x193da10f8a969d4c081b9097b15337b1488cbbec"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2017-08-01",
+  "country_origin": "CN",
+  "description": {
+    "en": "Loopring is a Decentralized Exchange (DEX) built on an Ethereum Layer-2 (L2) solution called zkRollup. It has both Automated Market Maker (AMM)-based and orderbook-based exchanges. \r\n\r\nzkRollup is an Ethereum L2 scaling solution that migrates computations off the blockchain. Loopring protocol only uses the underlying Ethereum blockchain as a data layer and a verification layer. As a result, Loopring's throughput is as high as 2,025 trades per second compared to Ethereum’s current throughput of 15 transactions per second. The result is that the cost per trade settlement is as small as $0.00015.\r\n\r\nLoopring's performance is sufficient for professional traders and market makers to deploy algorithmic strategies and other automated trading bots. This was not previously possible on any DEX as it was prohibitively slow and expensive. By building on top of Loopring 3.0, orderbook-based DEXs can be commercially viable for the first time. Loopring expects non-custodial exchanges can begin to outcompete and displace many centralized counterparts."
+  },
+  "links": {
+    "homepage": [
+      "https://loopring.io",
+      "https://defi.loopring.io/",
+      "https://loopring.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xbbbbca6a901c926f240b89eacb641d8aec7aeafd",
+      "https://platform.arkhamintelligence.com/explorer/token/loopring",
+      "https://ethplorer.io/address/0xbbbbca6a901c926f240b89eacb641d8aec7aeafd",
+      "https://arbiscan.io/token/0x46d0ce7de6247b0a95f67b43b589b4041bae7fbe",
+      "https://explorer.energi.network/token/0x193da10f8a969d4c081b9097b15337b1488cbbec"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/loopring.eth/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/KkYccYp",
+      "https://medium.com/loopring-protocol"
+    ],
+    "announcement_url": [
+      "https://medium.com/loopring-protocol"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "loopringorg",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "loopring_en",
+    "subreddit_url": "https://www.reddit.com/r/loopringorg/",
+    "repos_url": {
+      "github": [
+        "https://github.com/Loopring/protocols",
+        "https://github.com/Loopring/relay",
+        "https://github.com/Loopring/lightcone",
+        "https://github.com/Loopring/loopr",
+        "https://github.com/Loopring/protocol2"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/913/thumb/LRC.png?1696502034",
+    "small": "https://coin-images.coingecko.com/coins/images/913/small/LRC.png?1696502034",
+    "large": "https://coin-images.coingecko.com/coins/images/913/large/LRC.png?1696502034"
+  },
+  "last_updated": "2025-07-11T04:59:17.954426+00:00"
+}

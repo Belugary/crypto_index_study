@@ -1,0 +1,70 @@
+{
+  "id": "telcoin",
+  "symbol": "tel",
+  "name": "Telcoin",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Wallets",
+    "Polygon Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Payment Solutions",
+    "Base Ecosystem",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x467bccd9d29f223bce8043b84e8c8b282827790f",
+    "base": "0x09be1692ca16e06f536f0038ff11d1da8524adb1",
+    "arbitrum-one": "0x0419e8bfbbb2623728c3a6129090da4ff4e48113",
+    "polygon-pos": "0xdf7837de1f2fa4631d716cf2502f8b230f1dcc32"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2017-12-11",
+  "country_origin": "JP",
+  "description": {
+    "en": "Telcoin is a multi-national fintech company  integrating blockchain technology, telecommunications, and digital banking to revolutionize global finance. It aims to provide borderless, instant, and affordable financial services to mobile phone users worldwide. Telcoin offers the Telcoin Wallet, a multi-signature DeFi wallet supporting more than 100 digital assets and remittances to eWallets and bank accounts globally. Telcoin is regulated as a Virtual Asset Service Provider in the EU (Lithuania) and Argentina, a Major Payment Institution in Singapore, and a Money Services Business in the US, Canada, and Australia. \r\n\r\nThe Telcoin Association is a Swiss non-profit organization domiciled in Lugano, Switzerland and is governed by a decentralized group of Miner Councils that run the various aspects of the Telcoin Platform, including the management of the Telcoin (TEL) token. Read more about the Telcoin Association [here](https://www.telcoin.org)."
+  },
+  "links": {
+    "homepage": [
+      "http://www.telco.in",
+      "https://www.telcoin.org/"
+    ],
+    "whitepaper": "https://forum.telcoin.org/t/tgip1-establishing-the-telcoin-platform-and-association/135",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x467bccd9d29f223bce8043b84e8c8b282827790f",
+      "https://platform.arkhamintelligence.com/explorer/token/telcoin",
+      "https://ethplorer.io/address/0x467bccd9d29f223bce8043b84e8c8b282827790f",
+      "https://polygonscan.com/token/0xdf7837de1f2fa4631d716cf2502f8b230f1dcc32",
+      "https://polygon.dex.guru/token/0xdf7837de1f2fa4631d716cf2502f8b230f1dcc32",
+      "https://basescan.org/token/0x09be1692ca16e06f536f0038ff11d1da8524adb1",
+      "https://arbiscan.io/token/0x0419E8bfBBB2623728c3A6129090DA4Ff4e48113"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/PMcuZRntNa",
+      "https://telcoin.medium.com/",
+      "https://www.youtube.com/channel/UCBEKBh64cZy7U3O7VtKsLOg"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "telcoin",
+    "facebook_username": "telcoin",
+    "bitcointalk_thread_identifier": 2387659,
+    "telegram_channel_identifier": "Telcoin_Announcements",
+    "subreddit_url": "https://www.reddit.com/r/Telcoin/",
+    "repos_url": {
+      "github": [
+        "https://github.com/telcoin/ico"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/1899/thumb/tel.png?1696502892",
+    "small": "https://coin-images.coingecko.com/coins/images/1899/small/tel.png?1696502892",
+    "large": "https://coin-images.coingecko.com/coins/images/1899/large/tel.png?1696502892"
+  },
+  "last_updated": "2025-07-11T05:01:14.119991+00:00"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "big-time",
+  "symbol": "bigtime",
+  "name": "Big Time",
+  "categories": [
+    "Gaming (GameFi)",
+    "Play To Earn",
+    "Ethereum Ecosystem",
+    "RPG",
+    "Alameda Research Portfolio",
+    "Circle Ventures Portfolio",
+    "OKX Ventures Portfolio",
+    "MMO"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x64bc2ca1be492be7185faa2c8835d9b824c8a194"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Big Time is a free-to-play, multiplayer action RPG game that combines fast-action combat and an adventure through time and space.\r\n \r\nExplore ancient mysteries and futuristic civilizations as you battle your way through history. Pick up rare collectibles Loot, Cosmetics and Tokens as you fight and defeat enemies. Collect and trade your Collectibles to decorate your avatar and personal metaverse, where you can hang out with your friends.\r\n\r\nExpand your personal metaverse and production capabilities with SPACE to join our in-game creator economy. \r\n\r\nPlay for free, collect in-game items and tokens, produce Collectibles, or hang out with friends...  Limitless environments and Adventure Instances give you INFINITE possibilities. The gameplay options are endless. "
+  },
+  "links": {
+    "homepage": [
+      "https://bigtime.gg/"
+    ],
+    "whitepaper": "https://wiki.bigtime.gg/big-time-getting-started/welcome-to-big-time-wiki",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x64bc2ca1be492be7185faa2c8835d9b824c8a194",
+      "https://platform.arkhamintelligence.com/explorer/token/big-time",
+      "https://ethplorer.io/address/0x64bc2ca1be492be7185faa2c8835d9b824c8a194"
+    ],
+    "official_forum_url": [
+      "https://www.tiktok.com/@playbigtime",
+      "https://www.instagram.com/playbigtime/",
+      "https://www.twitch.tv/bigtimestudios"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/bigtime",
+      "https://medium.com/playbigtime",
+      "https://www.youtube.com/@playbigtime"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "playbigtime",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "playbigtime",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/32251/thumb/-6136155493475923781_121.jpg?1696998691",
+    "small": "https://coin-images.coingecko.com/coins/images/32251/small/-6136155493475923781_121.jpg?1696998691",
+    "large": "https://coin-images.coingecko.com/coins/images/32251/large/-6136155493475923781_121.jpg?1696998691"
+  },
+  "last_updated": "2025-07-11T04:57:14.210972+00:00"
+}

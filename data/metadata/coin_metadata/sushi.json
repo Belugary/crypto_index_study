@@ -1,0 +1,97 @@
+{
+  "id": "sushi",
+  "symbol": "sushi",
+  "name": "Sushi",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Exchange-based Tokens",
+    "Decentralized Finance (DeFi)",
+    "Yield Farming",
+    "Automated Market Maker (AMM)",
+    "BNB Chain Ecosystem",
+    "Yearn Ecosystem",
+    "Solana Ecosystem",
+    "Avalanche Ecosystem",
+    "Polygon Ecosystem",
+    "Near Protocol Ecosystem",
+    "Fantom Ecosystem",
+    "Harmony Ecosystem",
+    "Arbitrum Ecosystem",
+    "Celo Ecosystem",
+    "Ethereum Ecosystem",
+    "Base Ecosystem",
+    "Alameda Research Portfolio",
+    "Pantera Capital Portfolio",
+    "Energi Ecosystem",
+    "Sora Ecosystem",
+    "Blockchain Capital Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
+    "near-protocol": "6b3595068778dd592e39a122f4f5a5cf09c90fe2.factory.bridge.near",
+    "arbitrum-one": "0xd4d42f0b6def4ce0383636770ef773390d85c61a",
+    "base": "0x7d49a065d17d6d4a55dc13649901fdbb98b2afba",
+    "harmony-shard-0": "0xbec775cb42abfa4288de81f387a9b1a3c4bc552a",
+    "celo": "0xd15ec721c2a896512ad29c671997dd68f9593226",
+    "energi": "0x32aff6adc46331dac93e608a9cd4b0332d93a23a",
+    "sora": "0x0078f4e6c5113b3d8c954dff62ece8fc36a8411f86f1cbb48a52527e22e73be2",
+    "binance-smart-chain": "0x947950bcc74888a40ffa2593c5798f11fc9124c4",
+    "fantom": "0xae75a438b2e0cb8bb01ec1e1e376de11d44477cc",
+    "avalanche": "0x37b608519f91f70f2eeb0e5ed9af4061722e4f76",
+    "polygon-pos": "0x0b3f868e0be5597d5db7feb59e1cadbb0fdda50a",
+    "solana": "ChVzxWRmrTeSgwd3Ui3UumcN8KX7VK3WaD4KGeSKpypj"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "SushiSwap is a decentralized, multi-chain DEX that allows users to swap a wide range of assets across 40+ blockchain networks. It is powered by the industry's most advanced swap and aggregation stack, providing access to superior liquidity and competitive pricing. SushiSwap also offers smart liquidity solutions for liquidity providers including Smart Pools and no-IL AMM.\r\n\r\nSushi Labs, the development arm of Sushi DAO, continues to innovate by building a multi-DEX ecosystem with projects like Susa, Saru, and Wara with various blockchain networks.\r\n\r\nFor more information, visit https://sushi.com/"
+  },
+  "links": {
+    "homepage": [
+      "https://sushi.com/",
+      "https://forum.sushi.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
+      "https://platform.arkhamintelligence.com/explorer/token/sushi",
+      "https://ethplorer.io/address/0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
+      "https://bscscan.com/token/0x947950bcc74888a40ffa2593c5798f11fc9124c4",
+      "https://polygonscan.com/token/0x0b3f868e0be5597d5db7feb59e1cadbb0fdda50a",
+      "https://snowtrace.io/token/0x37b608519f91f70f2eeb0e5ed9af4061722e4f76",
+      "https://solscan.io/token/chvzxwrmrtesgwd3ui3uumcn8kx7vk3wad4kgeskpypj",
+      "https://arbiscan.io/token/0xd4d42f0b6def4ce0383636770ef773390d85c61a",
+      "https://ftmscan.com/token/0xae75a438b2e0cb8bb01ec1e1e376de11d44477cc",
+      "https://scan.meter.io/address/0xae75a438b2e0cb8bb01ec1e1e376de11d44477cc"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/MsVBwEc",
+      "https://www.youtube.com/channel/UC7Mm_8m8C2sxbgxbQIDJJdQ"
+    ],
+    "announcement_url": [
+      "https://medium.com/sushiswap-org"
+    ],
+    "snapshot_url": "https://snapshot.org/#/sushigov.eth",
+    "twitter_screen_name": "sushiswap",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/sushiswap/sushiswap"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/12271/thumb/512x512_Logo_no_chop.png?1696512101",
+    "small": "https://coin-images.coingecko.com/coins/images/12271/small/512x512_Logo_no_chop.png?1696512101",
+    "large": "https://coin-images.coingecko.com/coins/images/12271/large/512x512_Logo_no_chop.png?1696512101"
+  },
+  "last_updated": "2025-07-11T05:01:07.222806+00:00"
+}

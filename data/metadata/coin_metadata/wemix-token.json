@@ -1,0 +1,60 @@
+{
+  "id": "wemix-token",
+  "symbol": "wemix",
+  "name": "WEMIX",
+  "categories": [
+    "Smart Contract Platform",
+    "Gaming (GameFi)",
+    "NFT",
+    "Layer 1 (L1)",
+    "Play To Earn",
+    "Gaming Blockchains",
+    "WEMIX Ecosystem"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "SG",
+  "description": {
+    "en": "Global gaming platform with popular game titles"
+  },
+  "links": {
+    "homepage": [
+      "https://www.wemix.com/en",
+      "https://medium.com/wemix-communication"
+    ],
+    "whitepaper": "https://www.wemix.com/download/WEMIX3.0_Whitepaper.pdf",
+    "blockchain_site": [
+      "https://explorer.wemix.com/address/0x7D72b22a74A216Af4a002a1095C8C707d6eC1C5f/txs",
+      "https://explorer.test.wemix.com/",
+      "https://explorer.wemix.com/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://t.me/WEMIX_Global"
+    ],
+    "announcement_url": [
+      "https://docs.wemix.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "WemixNetwork",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "WEMIX_ANNouncement",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/12998/thumb/wemixcoin_color_200.png?1696512788",
+    "small": "https://coin-images.coingecko.com/coins/images/12998/small/wemixcoin_color_200.png?1696512788",
+    "large": "https://coin-images.coingecko.com/coins/images/12998/large/wemixcoin_color_200.png?1696512788"
+  },
+  "last_updated": "2025-07-11T05:01:52.024703+00:00"
+}

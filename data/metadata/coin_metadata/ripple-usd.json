@@ -1,0 +1,60 @@
+{
+  "id": "ripple-usd",
+  "symbol": "rlusd",
+  "name": "Ripple USD",
+  "categories": [
+    "Stablecoins",
+    "Ethereum Ecosystem",
+    "XRP Ledger Ecosystem",
+    "Fiat-backed Stablecoin",
+    "Made in USA"
+  ],
+  "asset_platform_id": "xrp",
+  "platforms": {
+    "xrp": "524C555344000000000000000000000000000000.rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De",
+    "ethereum": "0x8292bb45bf1ee4d140127049757c2e0ff06317ed"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Ripple USD (“RLUSD”), issued by Standard Custody & Trust Company, LLC, a wholly owned subsidiary of Ripple Labs, is a USD denominated stablecoin created with trust, liquidity, and compliance at its core. Each RLUSD is backed by at least an equivalent amount of U.S. dollars and other cash equivalents. RLUSD is purpose-built for cross-border payments and delivers reliable access to digital dollars.\r\n\r\nAs an industry leader for over a decade, Ripple has a proven track record of delivering breakthrough blockchain solutions at scale. Strong ecosystem relationships built over a decade facilitates RLUSD’s broad accessibility for use by financial institutions, enterprises and developers. Ripple’s commitment to regulatory compliance, combined with its global license portfolio, enables RLUSD users to transact with confidence.\r\n\r\nRLUSD delivers the reliability of USD combined with the efficiencies of blockchain technology in a trusted, liquid, and compliant manner."
+  },
+  "links": {
+    "homepage": [
+      "https://ripple.com/solutions/stablecoin/",
+      "https://xrpl.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://xrpscan.com/token/524C555344000000000000000000000000000000.rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De",
+      "https://livenet.xrpl.org/token/524C555344000000000000000000000000000000.rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De",
+      "https://etherscan.io/token/0x8292bb45bf1ee4d140127049757c2e0ff06317ed",
+      "https://ethplorer.io/address/0x8292bb45bf1ee4d140127049757c2e0ff06317ed"
+    ],
+    "official_forum_url": [
+      "https://www.facebook.com/rippleofficial",
+      "https://www.linkedin.com/company/rippleofficial",
+      "https://www.youtube.com/channel/UCjok1uTSBUgvRYQaASz6YWw"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Ripple",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39651/thumb/RLUSD_200x200_%281%29.png?1727376633",
+    "small": "https://coin-images.coingecko.com/coins/images/39651/small/RLUSD_200x200_%281%29.png?1727376633",
+    "large": "https://coin-images.coingecko.com/coins/images/39651/large/RLUSD_200x200_%281%29.png?1727376633"
+  },
+  "last_updated": "2025-07-11T05:00:29.837110+00:00"
+}

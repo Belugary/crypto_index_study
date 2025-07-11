@@ -1,0 +1,65 @@
+{
+  "id": "seraph",
+  "symbol": "seraph",
+  "name": "Seraph",
+  "categories": [
+    "Gaming (GameFi)",
+    "BNB Chain Ecosystem",
+    "Play To Earn",
+    "Ethereum Ecosystem",
+    "RPG",
+    "Gaming Utility Token",
+    "Action Games"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xd6b48ccf41a62eb3891e58d0f006b19b01d50cca",
+    "ethereum": "0xd6b48ccf41a62eb3891e58d0f006b19b01d50cca"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Seraph is a next-gen AAA blockchain game combining AI and blockchain technology to deliver an immersive and rewarding ARPG experience. Developed by Seraph Studio and governed by Seraph Foundation, Seraph is built on Ethereum and BNB Chain, integrating NFTs, GameFi mechanics, and AI-driven features to create a decentralized and engaging gaming universe. Available on both PC and mobile platforms, Seraph also supports gameplay interoperability, enabling seamless play across multiple platforms."
+  },
+  "links": {
+    "homepage": [
+      "https://www.seraph.game/",
+      "https://foundation.seraph.game/"
+    ],
+    "whitepaper": "https://whitepaper.seraph.game/",
+    "blockchain_site": [
+      "https://bscscan.com/token/0xd6B48CCF41a62EB3891e58D0F006B19B01d50cCa",
+      "https://binplorer.com/address/0xd6B48CCF41a62EB3891e58D0F006B19B01d50cCa",
+      "https://etherscan.io/token/0xd6B48CCF41a62EB3891e58D0F006B19B01d50cCa",
+      "https://ethplorer.io/address/0xd6B48CCF41a62EB3891e58D0F006B19B01d50cCa"
+    ],
+    "official_forum_url": [
+      "https://coinmarketcap.com/community/profile/Seraph_global/",
+      "https://x.com/Seraph_Fdn"
+    ],
+    "chat_url": [
+      "http://discord.gg/seraphgame",
+      "https://medium.com/@seraph_cryptogame",
+      "https://www.youtube.com/channel/UCEFjkGyRsc57u5P4VCS9yIA"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Seraph_global",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53325/thumb/o39aNcS6_400x400.jpg?1736092811",
+    "small": "https://coin-images.coingecko.com/coins/images/53325/small/o39aNcS6_400x400.jpg?1736092811",
+    "large": "https://coin-images.coingecko.com/coins/images/53325/large/o39aNcS6_400x400.jpg?1736092811"
+  },
+  "last_updated": "2025-07-11T05:00:37.417875+00:00"
+}

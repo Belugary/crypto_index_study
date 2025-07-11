@@ -1,0 +1,69 @@
+{
+  "id": "cookie",
+  "symbol": "cookie",
+  "name": "Cookie DAO",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Marketing",
+    "Analytics",
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem",
+    "Animoca Brands Portfolio",
+    "Base Ecosystem",
+    "AI Agents",
+    "Binance Alpha Spotlight",
+    "InfoFi"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xc0041ef357b183448b235a8ea73ce4e4ec8c265f",
+    "base": "0xc0041ef357b183448b235a8ea73ce4e4ec8c265f",
+    "ethereum": "0xc0041ef357b183448b235a8ea73ce4e4ec8c265f"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Cookie DAO is the largest AI agents index and a data layer for AI and humans. It created crypto’s first AI Agents index, [cookie.fun](http://cookie.fun/), giving investors and traders a top-level overview of the AI agents market. It eliminates the need to blindly invest in hundreds of new AI agents by providing data that allows for informed and targeted investments. Real-time analytics make powerful decision-making easier and safer for traders to laser-pick the most promising agents to invest in or spot market and sentiment shifts in real time.\r\n\r\nBased on 7TB of live data feeds, Cookie DAO is building the primary infrastructure for AI agents-driven reality. Cookie DAO is the first project on the market to aggregate and index live data of all AI agents, presenting it in human—and AI-friendly formats—index dashboards and agent APIs.\r\n\r\nCookie DAO is powered by the COOKIE token, which guarantees that Cookie DAO keeps gathering and indexing the growing amount of AI agent data. It is a utility token that that grants access to the token-gated sections of the [cookie.fun](http://cookie.fun) index and is required for AI agents that plug into the Cookie DAO APIs."
+  },
+  "links": {
+    "homepage": [
+      "https://www.cookie.fun/",
+      "https://www.cookie.community/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0xc0041ef357b183448b235a8ea73ce4e4ec8c265f",
+      "https://platform.arkhamintelligence.com/explorer/token/cookie",
+      "https://etherscan.io/token/0xc0041ef357b183448b235a8ea73ce4e4ec8c265f",
+      "https://ethplorer.io/address/0xc0041ef357b183448b235a8ea73ce4e4ec8c265f",
+      "https://basescan.org/token/0xc0041ef357b183448b235a8ea73ce4e4ec8c265f",
+      "https://binplorer.com/address/0xc0041ef357b183448b235a8ea73ce4e4ec8c265f"
+    ],
+    "official_forum_url": [
+      "https://t.me/cookiedaoannouncements"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/cookiedao",
+      "https://docs.cookie.community/cookie-dao"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "cookiedotfun",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "cookie_dao",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/38450/thumb/cookie_token_logo_200x200.png?1733194528",
+    "small": "https://coin-images.coingecko.com/coins/images/38450/small/cookie_token_logo_200x200.png?1733194528",
+    "large": "https://coin-images.coingecko.com/coins/images/38450/large/cookie_token_logo_200x200.png?1733194528"
+  },
+  "last_updated": "2025-07-11T04:57:52.203722+00:00"
+}

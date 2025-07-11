@@ -1,0 +1,58 @@
+{
+  "id": "verus-coin",
+  "symbol": "vrsc",
+  "name": "Verus",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "MEV Protection",
+    "Proof of Work (PoW)",
+    "Privacy Blockchain",
+    "Mobile Mining"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 1,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "PA",
+  "description": {
+    "en": "Verus Coin aims to be the world's most advanced technology, zero knowledge privacy-enabling blockchain, Verus Coin brings Sapling performance and zero knowledge features to an intelligent system with a completely unique, combined proof of stake/proof of work consensus algorithm that solves the nothing at stake problem. With this and its approach towards CPU mining and ASICs, Verus Coin may also be the most naturally decentralizing and attack resistant blockchain to exist.\r\nOver and above its leading privacy, interchain contracts, and security features, Verus Coin's next steps include automated provisioning of public blockchains as a service, using the same technology that Verus developers created and used to solve the \"\"nothing at stake\"\" problem. At that point, the first applications that will allow provisioning of chains on their behalf will be polls and elections.\r\n\r\nVerus introduces a new consensus algorithm called Proof of Power, a 50% PoW / 50% PoS algorithm, which solves theoretical weaknesses in other PoS systems, and is provably immune to 51% hash attacks, making Verus one of, if not the most, double-spend resistant public blockchain(s) running. With its groundbreaking consensus protocol, Verus also uses a unique hash algorithm, VerusHash, a quantum secure hash algorithm that is near-equally mineable on both CPUs and GPUs.  The Verus Coin’s project vision includes automatically provisioned public blockchains as a service.  Verus was a no-ICO, no-premine, 100% fairly launched community project."
+  },
+  "links": {
+    "homepage": [
+      "https://verus.io"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://explorer.verus.io"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://verus.io/discord"
+    ],
+    "announcement_url": [
+      "https://medium.com/veruscoin"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "veruscoin",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": 4070404,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/VerusCoin/",
+    "repos_url": {
+      "github": [
+        "https://github.com/VerusCoin/VerusCoin"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/6769/thumb/Screenshot_33.png?1696507103",
+    "small": "https://coin-images.coingecko.com/coins/images/6769/small/Screenshot_33.png?1696507103",
+    "large": "https://coin-images.coingecko.com/coins/images/6769/large/Screenshot_33.png?1696507103"
+  },
+  "last_updated": "2025-07-11T05:01:46.245154+00:00"
+}

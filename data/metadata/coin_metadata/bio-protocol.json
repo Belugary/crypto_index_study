@@ -1,0 +1,59 @@
+{
+  "id": "bio-protocol",
+  "symbol": "bio",
+  "name": "Bio Protocol",
+  "categories": [
+    "Binance Launchpool",
+    "Solana Ecosystem",
+    "Ethereum Ecosystem",
+    "Base Ecosystem",
+    "Decentralized Science (DeSci)"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xcb1592591996765ec0efc1f92599a19767ee5ffa",
+    "base": "0x226a2fa2556c48245e57cd1cba4c6c9e67077dd2",
+    "solana": "bioJ9JTqW62MLz7UKHU69gtKhPpGi1BQhccj2kmSvUJ"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "BIO is a curation and liquidity protocol for Decentralized Science (DeSci). Our mission is to accelerate biotechnology by giving global communities of patients, scientists and biotech professionals the ability to collectively fund, build and own tokenized biotech projects and intellectual property (IP). \r\n\r\nThe team behind BIO helped create Molecule, a tokenization platform for early-stage biomedicine, and VitaDAO, the largest decentralized community for longevity science. Building on these successes, BIO is designed to catalyze an onchain scientific economy through decentralized funding, incentives and liquidity.\r\n\r\nThe BIO token gives holders access to BIO's network of scientific communities and IP, enabling broad exposure to the DeSci economy."
+  },
+  "links": {
+    "homepage": [
+      "https://www.bio.xyz/"
+    ],
+    "whitepaper": "https://docs.bio.xyz/bio",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xcb1592591996765Ec0eFc1f92599A19767ee5ffA",
+      "https://ethplorer.io/address/0xcb1592591996765Ec0eFc1f92599A19767ee5ffA",
+      "https://solscan.io/token/bioJ9JTqW62MLz7UKHU69gtKhPpGi1BQhccj2kmSvUJ",
+      "https://basescan.org/token/0x226A2FA2556C48245E57cd1cbA4C6c9e67077DD2"
+    ],
+    "official_forum_url": [
+      "https://warpcast.com/bioxyz",
+      "https://www.youtube.com/@bio_acc"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "bioprotocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "bio_protocol",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53022/thumb/bio.jpg?1735011002",
+    "small": "https://coin-images.coingecko.com/coins/images/53022/small/bio.jpg?1735011002",
+    "large": "https://coin-images.coingecko.com/coins/images/53022/large/bio.jpg?1735011002"
+  },
+  "last_updated": "2025-07-11T04:57:19.946511+00:00"
+}

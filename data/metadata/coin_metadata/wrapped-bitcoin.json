@@ -1,0 +1,65 @@
+{
+  "id": "wrapped-bitcoin",
+  "symbol": "wbtc",
+  "name": "Wrapped Bitcoin",
+  "categories": [
+    "Crypto-Backed Tokens",
+    "Tokenized BTC",
+    "Wrapped-Tokens",
+    "Solana Ecosystem",
+    "Ethereum Ecosystem",
+    "FTX Holdings",
+    "Osmosis Ecosystem",
+    "World Liberty Financial Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+    "osmosis": "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc",
+    "solana": "5XZw2LKTyrfvfiskJ78AMpackRjPcyCif1WhUsPDuVqQ"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.wbtc.network/"
+    ],
+    "whitepaper": "https://www.wbtc.network/assets/wrapped-tokens-whitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+      "https://platform.arkhamintelligence.com/explorer/token/wrapped-bitcoin",
+      "https://ethplorer.io/address/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+      "https://ethereum.dex.guru/token/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+      "https://explorer.celo.org/mainnet/token/0xd629eb00deced2a080b7ec630ef6ac117e614f1b",
+      "https://www.mintscan.io/osmosis/assets/native/ZmFjdG9yeS9vc21vMXowcXJxNjA1c2pnY3FweWxmbDRhYTZzOTB4NzM4ajdtNTh3eWF0dDB0ZHpmbGcyaGEyNnE2N2s3NDMvd2J0Yw==",
+      "https://solscan.io/token/5XZw2LKTyrfvfiskJ78AMpackRjPcyCif1WhUsPDuVqQ"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "WrappedBTC",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/WrappedBTC/bitcoin-token-smart-contracts",
+        "https://github.com/WrappedBTC/DAO"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/7598/thumb/wrapped_bitcoin_wbtc.png?1696507857",
+    "small": "https://coin-images.coingecko.com/coins/images/7598/small/wrapped_bitcoin_wbtc.png?1696507857",
+    "large": "https://coin-images.coingecko.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png?1696507857"
+  },
+  "last_updated": "2025-07-11T05:01:57.791281+00:00"
+}

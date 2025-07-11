@@ -1,0 +1,55 @@
+{
+  "id": "btse-token",
+  "symbol": "btse",
+  "name": "BTSE Token",
+  "categories": [
+    "Exchange-based Tokens",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x666d875c600aa06ac1cf15641361dec3b00432ef"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "VG",
+  "description": {
+    "en": "The BTSE token powers the BTSE ecosystem and enhances your trading experience.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.btse.com/en/ref"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://blockstream.info/liquid/asset/b00b0ff0b11ebd47f7c6f57614c046dbbd204e84bf01178baf2be3713a206eb7",
+      "https://platform.arkhamintelligence.com/explorer/token/btse-token",
+      "https://etherscan.io/token/0x666d875c600aa06ac1cf15641361dec3b00432ef",
+      "https://ethplorer.io/address/0x666d875c600aa06ac1cf15641361dec3b00432ef"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.linkedin.com/company/btsecom",
+      "https://www.facebook.com/btsecom",
+      "https://www.instagram.com/btse_exchange/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "BTSE_Official",
+    "facebook_username": "btsecom",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "btsecom",
+    "subreddit_url": "https://www.reddit.com/r/btsecom/",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/10807/thumb/BTSE_logo_Square.jpeg?1696510765",
+    "small": "https://coin-images.coingecko.com/coins/images/10807/small/BTSE_logo_Square.jpeg?1696510765",
+    "large": "https://coin-images.coingecko.com/coins/images/10807/large/BTSE_logo_Square.jpeg?1696510765"
+  },
+  "last_updated": "2025-07-11T04:57:33.086643+00:00"
+}

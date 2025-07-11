@@ -1,0 +1,54 @@
+{
+  "id": "onyc",
+  "symbol": "onyc",
+  "name": "Onchain Yield Coin",
+  "categories": [
+    "Stablecoins",
+    "Solana Ecosystem",
+    "Yield-Bearing Stablecoin"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "5Y8NV33Vv7WbnLfq3zBcKSdYPrk7g2KoiQoe7M2tcxp5"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "Licensed to deploy digital assets as insurance collateral, OnRe provides a new class of investors with direct access consistent real-world returns. Through structured products designed to generate yield in both rising and falling markets, OnRe offers a return profile not achievable in traditional finance. With an emphasis on transparency, scalability, and capital efficiency, OnRe is redefining how capital supports reinsurance, creating access to an industry that has historically remained out of reach.\r\n\r\nThe first product, ONyc, is a multi-collateral, yield-bearing asset backed by stablecoins and used to underwrite real world private placements and accrue yield from reinsurance premiums. ONyc targets a base yield exceeding 16%, driven by reinsurance performance that remains uncorrelated across market cycles. Alongside this base return, the collateral assets themselves contribute additional yield, resulting in a compound, multi-source return designed to deliver steady performance and capture upside as markets evolve.\r\n\r\nCurrently collateralized in sUSDe, ONyc combines uncorrelated real-world yield with crypto-native yield opportunities. Through this approach, OnRe aims to connect digital asset allocators to the $750 billion reinsurance market."
+  },
+  "links": {
+    "homepage": [
+      "https://onre.finance",
+      "https://app.onre.finance"
+    ],
+    "whitepaper": "https://docs.onre.finance/getting-started/the-onyc-token/onyc-token-whitepaper",
+    "blockchain_site": [
+      "https://solscan.io/token/5Y8NV33Vv7WbnLfq3zBcKSdYPrk7g2KoiQoe7M2tcxp5"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/onrefinance/"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "onrefinance",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "+mW8VqpLlFIExMmMx",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/onre-finance"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/67072/thumb/Untitled_design_-_2025-07-03T145053.707.png?1751635515",
+    "small": "https://coin-images.coingecko.com/coins/images/67072/small/Untitled_design_-_2025-07-03T145053.707.png?1751635515",
+    "large": "https://coin-images.coingecko.com/coins/images/67072/large/Untitled_design_-_2025-07-03T145053.707.png?1751635515"
+  },
+  "last_updated": "2025-07-11T04:59:51.010435+00:00"
+}

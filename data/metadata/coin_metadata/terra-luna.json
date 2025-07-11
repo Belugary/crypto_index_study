@@ -1,0 +1,61 @@
+{
+  "id": "terra-luna",
+  "symbol": "lunc",
+  "name": "Terra Luna Classic",
+  "categories": [
+    "Smart Contract Platform",
+    "Decentralized Finance (DeFi)",
+    "Coinbase Ventures Portfolio",
+    "DeFiance Capital Portfolio",
+    "Pantera Capital Portfolio",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Galaxy Digital Portfolio"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Terra is a decentralized financial payment network that rebuilds the traditional payment stack on the blockchain. Luna is the reserve currency of the Terra platform. It has three core functions: i) mine Terra transactions through staking, ii) ensure the price stability of Terra stablecoins and iii) provide incentives for the platform’s blockchain validators."
+  },
+  "links": {
+    "homepage": [
+      "https://www.terra-classic.money"
+    ],
+    "whitepaper": "https://terra.money/static/Terra_White_Paper.pdf",
+    "blockchain_site": [
+      "https://finder.terraclassic.community/",
+      "https://finder.terra.money/classic/",
+      "https://finder.terraport.finance/",
+      "https://luncscan.com/",
+      "https://moon-runners.net/finder"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://terra.sc/classicdiscord"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "terra_money",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "TerraLunaChat",
+    "subreddit_url": "https://www.reddit.com/r/terraluna/",
+    "repos_url": {
+      "github": [
+        "https://github.com/terra-project/core"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/8284/thumb/01_LunaClassic_color.png?1696508486",
+    "small": "https://coin-images.coingecko.com/coins/images/8284/small/01_LunaClassic_color.png?1696508486",
+    "large": "https://coin-images.coingecko.com/coins/images/8284/large/01_LunaClassic_color.png?1696508486"
+  },
+  "last_updated": "2025-07-11T05:01:15.284941+00:00"
+}

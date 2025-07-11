@@ -1,0 +1,55 @@
+{
+  "id": "binance-peg-dogecoin",
+  "symbol": "doge",
+  "name": "Binance-Peg Dogecoin",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Meme",
+    "Binance-Peg Tokens"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xba2ae424d960c26247dd6c32edc70b295c744c43"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Tokens that are wrapped and pegged by Binance on a 1:1 ratio to the corresponding native token. Also supports BEP20 token deposits and withdrawals at Binance.com"
+  },
+  "links": {
+    "homepage": [
+      "http://dogecoin.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/address/0xba2ae424d960c26247dd6c32edc70b295c744c43",
+      "https://platform.arkhamintelligence.com/explorer/token/binance-peg-dogecoin",
+      "https://bscscan.com/token/0xba2ae424d960c26247dd6c32edc70b295c744c43",
+      "https://bnb.dex.guru/token/0xba2ae424d960c26247dd6c32edc70b295c744c43",
+      "https://binplorer.com/address/0xba2ae424d960c26247dd6c32edc70b295c744c43"
+    ],
+    "official_forum_url": [
+      "http://discuss.dogecoin.com/"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "dogecoin",
+    "facebook_username": "738700972824847",
+    "bitcointalk_thread_identifier": 361813,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/dogecoin/",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/15768/thumb/dogecoin.png?1696515392",
+    "small": "https://coin-images.coingecko.com/coins/images/15768/small/dogecoin.png?1696515392",
+    "large": "https://coin-images.coingecko.com/coins/images/15768/large/dogecoin.png?1696515392"
+  },
+  "last_updated": "2025-07-11T04:57:16.985872+00:00"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "popcat",
+  "symbol": "popcat",
+  "name": "Popcat",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Solana Meme",
+    "Cat-Themed",
+    "Murad Picks"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Pop Cat refers to a series of videos in which using an image of a cat named Oatmeal, the cat is photoshopped as if it's opening its mouth wide in an O shape."
+  },
+  "links": {
+    "homepage": [
+      "https://popcatsolana.xyz/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr",
+      "https://platform.arkhamintelligence.com/explorer/token/popcat"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Popcatsolana",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "popcatsolana",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33760/thumb/image.jpg?1702964227",
+    "small": "https://coin-images.coingecko.com/coins/images/33760/small/image.jpg?1702964227",
+    "large": "https://coin-images.coingecko.com/coins/images/33760/large/image.jpg?1702964227"
+  },
+  "last_updated": "2025-07-11T05:00:12.549073+00:00"
+}

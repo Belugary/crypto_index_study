@@ -1,0 +1,50 @@
+{
+  "id": "just",
+  "symbol": "jst",
+  "name": "JUST",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Tron Ecosystem"
+  ],
+  "asset_platform_id": "tron",
+  "platforms": {
+    "tron": "TCFLL5dx5ZJdKnWuesXxi1VPwjLVmWZZy9"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.just.network/",
+      "https://just.tronscan.org/"
+    ],
+    "whitepaper": "https://www.just.network/docs/white_paper_en.pdf",
+    "blockchain_site": [
+      "https://tronscan.org/#/token20/tcfll5dx5zjdknwuesxxi1vpwjlvmwzzy9",
+      "https://platform.arkhamintelligence.com/explorer/token/just"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "DeFi_JUST",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "just_defi",
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/11095/thumb/JUST.jpg?1696511035",
+    "small": "https://coin-images.coingecko.com/coins/images/11095/small/JUST.jpg?1696511035",
+    "large": "https://coin-images.coingecko.com/coins/images/11095/large/JUST.jpg?1696511035"
+  },
+  "last_updated": "2025-07-11T04:58:58.861911+00:00"
+}

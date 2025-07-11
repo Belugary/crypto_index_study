@@ -1,0 +1,59 @@
+{
+  "id": "kelp-dao-restaked-eth",
+  "symbol": "rseth",
+  "name": "Kelp DAO Restaked ETH",
+  "categories": [
+    "Liquid Staking Tokens",
+    "Ethereum Ecosystem",
+    "Restaking",
+    "Liquid Restaking Tokens",
+    "Liquid Staked ETH",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xa1290d69c65a6fe4df752f95823fae25cb99e5a7"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "rsETH is a Liquid Restaked Token (LRT) issued by Kelp DAO designed to offer liquidity to illiquid assets deposited into restaking platforms, such as EigenLayer. It aims to address the risks and challenges posed by the current offering of restaking"
+  },
+  "links": {
+    "homepage": [
+      "https://kelpdao.xyz/restake/"
+    ],
+    "whitepaper": "https://kelpdao.xyz/litepapers/rsETHLitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xa1290d69c65a6fe4df752f95823fae25cb99e5a7",
+      "https://platform.arkhamintelligence.com/explorer/token/kelp-dao-restaked-eth",
+      "https://ethplorer.io/address/0xa1290d69c65a6fe4df752f95823fae25cb99e5a7"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/tVcq3CsyDt",
+      "https://kelpdao.medium.com/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "KelpDAO",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "KelpDAOxyz",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Kelp-DAO"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33800/thumb/Icon___Dark.png?1702991855",
+    "small": "https://coin-images.coingecko.com/coins/images/33800/small/Icon___Dark.png?1702991855",
+    "large": "https://coin-images.coingecko.com/coins/images/33800/large/Icon___Dark.png?1702991855"
+  },
+  "last_updated": "2025-07-11T04:59:04.687371+00:00"
+}

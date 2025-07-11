@@ -1,0 +1,48 @@
+{
+  "id": "staked-hype",
+  "symbol": "sthype",
+  "name": "Staked HYPE",
+  "categories": [
+    "Liquid Staking Tokens",
+    "HyperEVM Ecosystem"
+  ],
+  "asset_platform_id": "hyperevm",
+  "platforms": {
+    "hyperevm": "0xffaa4a3d97fe9107cef8a3f48c069f577ff76cc1"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://hyperliquid.cloud.blockscout.com/token/0xfFaa4a3D97fE9107Cef8a3F48c069F577Ff76cC1",
+      "https://app.hyperliquid.xyz/explorer/token/0xffaa4a3d97fe9107cef8a3f48c069f577ff76cc1",
+      "https://hyperevmscan.io/token/0xffaa4a3d97fe9107cef8a3f48c069f577ff76cc1"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54509/thumb/hyperliquid.jpg?1740065301",
+    "small": "https://coin-images.coingecko.com/coins/images/54509/small/hyperliquid.jpg?1740065301",
+    "large": "https://coin-images.coingecko.com/coins/images/54509/large/hyperliquid.jpg?1740065301"
+  },
+  "last_updated": "2025-07-11T05:00:52.455355+00:00"
+}

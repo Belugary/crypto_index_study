@@ -1,0 +1,53 @@
+{
+  "id": "abtc",
+  "symbol": "abtc",
+  "name": "aBTC",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Aptos Ecosystem"
+  ],
+  "asset_platform_id": "aptos",
+  "platforms": {
+    "aptos": "0x4e1854f6d332c9525e258fb6e66f84b6af8aba687bbcb832a24768c4e175feec::abtc::ABTC"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Echo is a multifaceted protocol specializing in bridging, liquid staking and restacking, and yield solutions. It seamlessly interoperates within the Move ecosystem. Echo aims to introduce BTC liquidity and restaking solutions for BTC assets within Move.\r\n\r\nUsers can earn rewards on the Echo protocol through the following methods:\r\n\r\n1) Bridge BTC assets to Echo to earn Echo points\r\n2) Deposit aBTC on Echo Lend to receive boosted APT yield up to 10%\r\n3) Stake APT earned on Echo to receive additional Echo Points and earn 7% staking rewards\r\n\r\nUsers can begin earning Echo rewards immediately upon bridging BTC and receiving aBTC on Echo. Echo points are awarded based on the amount of BTC bridged over, which users can convert into APT rewards by depositing aBTC on Echo Lend.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://www.echo-protocol.xyz"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://aptscan.ai/coins/0x4e1854f6d332c9525e258fb6e66f84b6af8aba687bbcb832a24768c4e175feec::abtc::ABTC",
+      "https://tracemove.io/coin/0x4e1854f6d332c9525e258fb6e66f84b6af8aba687bbcb832a24768c4e175feec::abtc::ABTC"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/echoprotocol"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "EchoProtocol_",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "+A-4noJ54900xNmI9",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/echo-proto"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/50837/thumb/aBTC_512.png?1729260701",
+    "small": "https://coin-images.coingecko.com/coins/images/50837/small/aBTC_512.png?1729260701",
+    "large": "https://coin-images.coingecko.com/coins/images/50837/large/aBTC_512.png?1729260701"
+  },
+  "last_updated": "2025-07-11T04:56:40.317325+00:00"
+}

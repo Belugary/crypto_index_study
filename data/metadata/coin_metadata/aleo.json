@@ -1,0 +1,57 @@
+{
+  "id": "aleo",
+  "symbol": "aleo",
+  "name": "ALEO",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Zero Knowledge (ZK)",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "Privacy Blockchain",
+    "Made in USA"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Aleo was born from a desire to achieve the impossible - to build a user experience on the web that is both truly personal and truly private.\r\n\r\nAleo is the first platform to offer fully private applications.\r\n\r\nAleo achieves this by leveraging decentralized systems and zero-knowledge cryptography to protect user data on the web. At its core, Aleo offers users and application developers unbounded compute with absolute privacy.\r\n\r\nBy architecting Aleo as a blockchain that is private-by-default, open-source, and built for the web, we believe Aleo is uniquely positioned to address the shortcomings of blockchain adoption. With Aleo, users have access to a world of truly personalized web services without giving up control of their private data. \r\n\r\nAleo will reshape the role decentralized systems play in our society and introduce new experiences never before seen on the web."
+  },
+  "links": {
+    "homepage": [
+      "https://www.aleo.org/"
+    ],
+    "whitepaper": "https://developer.aleo.org/getting_started/",
+    "blockchain_site": [
+      "https://aleoscan.io/",
+      "https://explorer.provable.com/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/aleo"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "AleoHQ",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/AleoHQ"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/27916/thumb/secondary-icon-dark.png?1726770428",
+    "small": "https://coin-images.coingecko.com/coins/images/27916/small/secondary-icon-dark.png?1726770428",
+    "large": "https://coin-images.coingecko.com/coins/images/27916/large/secondary-icon-dark.png?1726770428"
+  },
+  "last_updated": "2025-07-11T04:56:48.723082+00:00"
+}

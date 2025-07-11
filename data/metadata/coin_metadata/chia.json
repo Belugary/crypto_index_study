@@ -1,0 +1,58 @@
+{
+  "id": "chia",
+  "symbol": "xch",
+  "name": "Chia",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "DePIN",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "Made in USA"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "US",
+  "description": {
+    "en": "Founded by Bram Cohen, the inventor of the BitTorrent network, Chia Network is building a better blockchain and smart transaction platform which is more decentralized, more efficient, and more secure.\r\n\r\nChialisp is Chia’s new smart transaction programming language that is powerful, easy to audit, and secure. The blockchain is powered by the first new Nakamoto style consensus algorithm since Bitcoin launched in 2008. Proofs of Space and Time replace energy intensive “proofs of work” by utilizing unused disk space.\r\n\r\nChia Network supports the development and deployment of the Chia blockchain globally. Chia Network supports chia developers and supports the enterprise use of chia with software support and chia lending."
+  },
+  "links": {
+    "homepage": [
+      "https://www.chia.net/"
+    ],
+    "whitepaper": "https://www.chia.net/assets/ChiaGreenPaper.pdf",
+    "blockchain_site": [
+      "https://www.spacescan.io/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://keybase.io/team/chia_network.public",
+      "https://discord.com/invite/chia"
+    ],
+    "announcement_url": [
+      "https://medium.com/@chia.net"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "chia_project",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/chia/",
+    "repos_url": {
+      "github": [
+        "https://github.com/Chia-Network"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/15174/thumb/zV5K5y9f_400x400.png?1696514829",
+    "small": "https://coin-images.coingecko.com/coins/images/15174/small/zV5K5y9f_400x400.png?1696514829",
+    "large": "https://coin-images.coingecko.com/coins/images/15174/large/zV5K5y9f_400x400.png?1696514829"
+  },
+  "last_updated": "2025-07-11T04:57:41.716786+00:00"
+}

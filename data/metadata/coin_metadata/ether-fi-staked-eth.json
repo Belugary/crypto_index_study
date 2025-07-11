@@ -1,0 +1,60 @@
+{
+  "id": "ether-fi-staked-eth",
+  "symbol": "eeth",
+  "name": "ether.fi Staked ETH",
+  "categories": [
+    "Liquid Staking Tokens",
+    "Ethereum Ecosystem",
+    "Restaking",
+    "Liquid Restaking Tokens",
+    "Ether.fi Ecosystem",
+    "Liquid Staked ETH",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x35fa164735182de50811e8e2e824cfb9b6118ac2"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Ether.fi's eETH is a decentralized, non-custodial liquid staking token that enables Ethereum holders to earn staking rewards while maintaining full liquidity and control over their assets. eETH integrates seamlessly with the Ethereum ecosystem, offering users a flexible and secure way to contribute to network validation and participate in the DeFi space"
+  },
+  "links": {
+    "homepage": [
+      "https://www.ether.fi/"
+    ],
+    "whitepaper": "https://etherfi.gitbook.io/etherfi/ether.fi-whitepaper",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x35fa164735182de50811e8e2e824cfb9b6118ac2",
+      "https://platform.arkhamintelligence.com/explorer/token/ether-fi-staked-eth",
+      "https://ethplorer.io/address/0x35fa164735182de50811e8e2e824cfb9b6118ac2"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/zqGzcuQWvD",
+      "https://medium.com/etherfi"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ether_fi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "+C3fpSjmPqzA5NTVh",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/etherfi-protocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33049/thumb/ether.fi_eETH.png?1700473063",
+    "small": "https://coin-images.coingecko.com/coins/images/33049/small/ether.fi_eETH.png?1700473063",
+    "large": "https://coin-images.coingecko.com/coins/images/33049/large/ether.fi_eETH.png?1700473063"
+  },
+  "last_updated": "2025-07-11T04:58:18.129500+00:00"
+}

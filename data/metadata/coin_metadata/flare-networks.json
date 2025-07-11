@@ -1,0 +1,59 @@
+{
+  "id": "flare-networks",
+  "symbol": "flr",
+  "name": "Flare",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "DWF Labs Portfolio"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Flare is a blockchain for building applications that are interoperable with other blockchains and the internet.\r\n\r\n## What is Flare (FLR)?\r\n\r\nFlare is an EVM-based Layer 1 blockchain designed to allow developers to build applications that are interoperable with blockchains and the internet. By providing decentralized access to high-integrity data, Flare enables new use cases and monetisation models.\r\n\r\n\r\n## What makes Flare unique?\r\n\r\nFlare's native interoperability protocols, the State Connector and the FTSO are secured by the network itself, allowing it to reliably deliver data from a wide variety of off-chain sources in a decentralized way. \r\n\r\nThe Flare Time Series Oracle delivers highly-decentralized price and data feeds to dapps on Flare, without relying on centralized providers. \r\n\r\nThe State Connector protocols enable information, both from other blockchains and the internet to be used securely, scalably and trustlessly with smart contracts on Flare.\r\n\r\nRisk is minimized by building this decentralized data infrastructure natively into the blockchain, powered by a large number of independent data providers.\r\n\r\nBy incentivizing sets of independent providers to query, acquire, and process data without relying on single, centralized sources, Flare’s core protocols can facilitate the development of interoperable dapps with a broad range of potential innovative use cases.\r\n\r\n\r\n## What is the Flare (FLR) token used for?\r\n\r\nFLR is the native token used for payments, transaction fees to prevent spam attacks and staking in validator nodes. FLR can also be wrapped into an ERC-20 variant, WFLR. WFLR tokens serve various functions; they can be delegated to FTSO data providers, for example, or staked to participate in governance. These two uses are not mutually exclusive and do not prevent the tokens from being used in other EVM-compatible dapps and smart contracts on Flare.\r\n\r\nWrapped FLR (WFLR) can be minted by depositing native FLR tokens into a smart contract and withdrawing the newly minted"
+  },
+  "links": {
+    "homepage": [
+      "https://flare.network/",
+      "https://docs.flare.network/",
+      "https://portal.flare.network/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://flarescan.com/",
+      "https://platform.arkhamintelligence.com/explorer/token/flare-networks",
+      "https://flare-explorer.flare.network/"
+    ],
+    "official_forum_url": [
+      "https://t.me/Flare_China",
+      "https://t.me/FlareNetworks_Korea"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/flarenetwork",
+      "https://medium.com/flarenetwork"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "FlareNetworks",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "FlareNetwork",
+    "subreddit_url": "https://www.reddit.com/r/FlareNetworks",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/28624/thumb/FLR-icon200x200.png?1696527609",
+    "small": "https://coin-images.coingecko.com/coins/images/28624/small/FLR-icon200x200.png?1696527609",
+    "large": "https://coin-images.coingecko.com/coins/images/28624/large/FLR-icon200x200.png?1696527609"
+  },
+  "last_updated": "2025-07-11T04:58:26.400330+00:00"
+}

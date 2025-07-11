@@ -1,0 +1,60 @@
+{
+  "id": "ether-fi-staked-btc",
+  "symbol": "ebtc",
+  "name": "Ether.fi Staked BTC",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Ethereum Ecosystem",
+    "Restaking",
+    "Liquid Restaking Tokens",
+    "Liquid Staking",
+    "Liquid Staked BTC"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x657e8c867d8b37dcc18fa4caead9c45eb088c642"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "eBTC is ether.fi's flagship Bitcoin-backed liquid restaking token. Created to service the growing demands for alternative collateral within restaking, eBTC simplifies yield optimization and expands utility. \r\n\r\nIt is backed by LBTC through a partnership with Lombard, bringing the first dual-yielding (staking and restaking) Bitcoin product to the market. Staking is conducted through Babylon, with restaking services provided by a combination of Eigen Layer, Symbiotic, and Karak. Users are able to deposit LBTC and WBTC."
+  },
+  "links": {
+    "homepage": [
+      "https://www.ether.fi/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x657e8c867d8b37dcc18fa4caead9c45eb088c642",
+      "https://platform.arkhamintelligence.com/explorer/token/ether-fi-staked-btc",
+      "https://ethplorer.io/address/0x657e8c867d8b37dcc18fa4caead9c45eb088c642"
+    ],
+    "official_forum_url": [
+      "https://github.com/etherfi-protocol"
+    ],
+    "chat_url": [
+      "https://medium.com/etherfi"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ether_fi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "+C3fpSjmPqzA5NTVh",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/etherfi-protocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/50411/thumb/eBTC.png?1727664788",
+    "small": "https://coin-images.coingecko.com/coins/images/50411/small/eBTC.png?1727664788",
+    "large": "https://coin-images.coingecko.com/coins/images/50411/large/eBTC.png?1727664788"
+  },
+  "last_updated": "2025-07-11T04:58:17.282258+00:00"
+}

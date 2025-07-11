@@ -1,0 +1,54 @@
+{
+  "id": "goatseus-maximus",
+  "symbol": "goat",
+  "name": "Goatseus Maximus",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Solana Meme",
+    "AI Meme",
+    "Pump.fun Ecosystem",
+    "Terminal of Truths",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "CzLSujWBLFsSjncfkh59rUFqvafWcY5tzedWJSuypump"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://goatchan.xyz/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/CzLSujWBLFsSjncfkh59rUFqvafWcY5tzedWJSuypump",
+      "https://platform.arkhamintelligence.com/explorer/token/goatseus-maximus"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "gospelofgoatse",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "GoatseusMaximusSolanaPortal",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/50717/thumb/GOAT_LOGO_NEW.jpg?1731292759",
+    "small": "https://coin-images.coingecko.com/coins/images/50717/small/GOAT_LOGO_NEW.jpg?1731292759",
+    "large": "https://coin-images.coingecko.com/coins/images/50717/large/GOAT_LOGO_NEW.jpg?1731292759"
+  },
+  "last_updated": "2025-07-11T04:58:36.540295+00:00"
+}

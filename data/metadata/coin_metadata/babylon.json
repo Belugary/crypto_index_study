@@ -1,0 +1,59 @@
+{
+  "id": "babylon",
+  "symbol": "baby",
+  "name": "Babylon",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "LSDFi",
+    "Paradigm Portfolio",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Galaxy Digital Portfolio",
+    "OKX Ventures Portfolio",
+    "Liquid Staking",
+    "BTCfi Protocol",
+    "Polychain Capital Portfolio"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://babylon.foundation/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://www.mintscan.io/babylon",
+      "https://babylon.explorers.guru/",
+      "https://babylon-explorer.xangle.io/mainnet/home"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/babylonlabs-io/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55092/thumb/Baby-Symbol-Mint_%281%29.png?1744788866",
+    "small": "https://coin-images.coingecko.com/coins/images/55092/small/Baby-Symbol-Mint_%281%29.png?1744788866",
+    "large": "https://coin-images.coingecko.com/coins/images/55092/large/Baby-Symbol-Mint_%281%29.png?1744788866"
+  },
+  "last_updated": "2025-07-11T04:57:04.758600+00:00"
+}

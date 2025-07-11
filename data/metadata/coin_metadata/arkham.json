@@ -1,0 +1,63 @@
+{
+  "id": "arkham",
+  "symbol": "arkm",
+  "name": "Arkham",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Exchange-based Tokens",
+    "Analytics",
+    "Derivatives",
+    "Perpetuals",
+    "Centralized Exchange (CEX) Token",
+    "Ethereum Ecosystem",
+    "Binance Launchpad",
+    "Coinbase Ventures Portfolio",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x6e2a43be0b1d33b726f0ca3b8de60b3482b8b050"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Arkham is a blockchain analysis platform that uses artificial intelligence (AI) to deanonymize the blockchain and on-chain data.\r\n\r\nThe platform’s two main components are the Analytics Platform and Intel Exchange. The Analytics Platform covers analytics on various entities, exchanges, funds, whales and tokens. The Intel Exchange allows anyone to buy and sell address labels and other intelligence, either through bounties, auctions or the DATA Program.\r\n\r\nUnlike many other platforms that focus on specific blockchains or limited data sources, Arkham aims to provide total coverage of the blockchain by collecting and aggregating data from various chains. This is done leveraging its proprietary AI system, ULTRA. It allows users to analyze and gain insights from a comprehensive view of the crypto ecosystem.\r\n\r\n The Arkham Intel Exchange is a decentralized marketplace where users can buy and sell crypto intelligence using the native currency, ARKM. This unique feature enables individuals and organizations to monetize their intelligence by offering bounties and conducting auctions. The exchange connects buyers and sellers, fostering a vibrant community of on-chain sleuths and ensuring the availability of valuable intelligence for market participants.\r\n\r\nArkham Intelligence was founded by Miguel Morel in 2020. Miguel is a veteran entrepreneur in cryptocurrency markets. Miguel’s experience navigating new crypto markets makes him familiar with the intelligence needs of decision makers in government, venture capital, and trading. He is also an investor in a number of technology startups.\r\n\r\nArkham Intelligence has also attracted some of the most prominent investors in the crypto space and beyond. Among them are an undisclosed OpenAI Co-Founder, Palantir Co-Founder Joe Lonsdale (8VC), Tim Draper (Draper Associates), Wintermute, GSR, and Geoff Lewis (Bedrock). The company raised over $10 million in two rounds of equity financing, and was valued at $150 million in its last round."
+  },
+  "links": {
+    "homepage": [
+      "http://arkm.com/"
+    ],
+    "whitepaper": "https://info.arkm.com/whitepaper",
+    "blockchain_site": [
+      "https://platform.arkhamintelligence.com/explorer/token/arkham",
+      "https://etherscan.io/token/0x6e2a43be0b1d33b726f0ca3b8de60b3482b8b050",
+      "https://ethplorer.io/address/0x6e2a43be0b1d33b726f0ca3b8de60b3482b8b050"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/arkham",
+      "https://www.linkedin.com/company/arkhamintelligence/",
+      "https://www.youtube.com/@arkhamintel"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "arkham",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "arkhamintelligence",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/30929/thumb/Arkham_Logo_CG.png?1696529771",
+    "small": "https://coin-images.coingecko.com/coins/images/30929/small/Arkham_Logo_CG.png?1696529771",
+    "large": "https://coin-images.coingecko.com/coins/images/30929/large/Arkham_Logo_CG.png?1696529771"
+  },
+  "last_updated": "2025-07-11T04:56:57.831449+00:00"
+}

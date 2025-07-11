@@ -1,0 +1,53 @@
+{
+  "id": "six",
+  "symbol": "six",
+  "name": "Six Sigma",
+  "categories": [
+    "Gambling (GambleFi)",
+    "Solana Ecosystem"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "8GobyUWTAhePKa5Pxrn8qivvRXq1pjtBzRNERRtDpkin"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Six Sigma Sports is a smart contract-based betting platform that redefines online sports betting and casino gaming through transparency, user empowerment, and financial innovation like never before. Six Sigma Sports is revolutionizing the world of sports betting and casino by democratizing the traditional model, where it empower users to not just play the game, but to be the game. The mission is to disrupt the status quo of sports betting and casino by providing a platform where transparency and user empowerment are not just ideals, but the foundation of the user community. Through leveraging block chain technology, Six Sigma Sports enables users to participate as the house, bringing a new uniquely engaging experience to the world of sports betting.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://home.sixsigmasports.app/"
+    ],
+    "whitepaper": "https://docs.sixsigmasports.app/",
+    "blockchain_site": [
+      "https://solscan.io/token/8GobyUWTAhePKa5Pxrn8qivvRXq1pjtBzRNERRtDpkin"
+    ],
+    "official_forum_url": [
+      "http://instagram.com/sixsigmasports"
+    ],
+    "chat_url": [
+      "http://sixsigmasports.medium.com/",
+      "http://youtube.com/@SixSigmaSports"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SixSigmaSports",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "SixSigmaSportsOfficial",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/66898/thumb/sixsigma_green_logo_trans_1.png?1750950326",
+    "small": "https://coin-images.coingecko.com/coins/images/66898/small/sixsigma_green_logo_trans_1.png?1750950326",
+    "large": "https://coin-images.coingecko.com/coins/images/66898/large/sixsigma_green_logo_trans_1.png?1750950326"
+  },
+  "last_updated": "2025-07-11T05:00:40.151969+00:00"
+}

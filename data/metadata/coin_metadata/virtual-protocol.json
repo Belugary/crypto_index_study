@@ -1,0 +1,61 @@
+{
+  "id": "virtual-protocol",
+  "symbol": "virtual",
+  "name": "Virtuals Protocol",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Solana Ecosystem",
+    "Ethereum Ecosystem",
+    "Base Ecosystem",
+    "AI Agents",
+    "Virtuals Protocol Ecosystem",
+    "AI Agent Launchpad",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x44ff8620b8ca30902395a7bd3f2407e1a091bf73",
+    "solana": "3iQL8BFS2vE7mww4ehAqQHAsbmRNCrPxizWAT2Zfyr9y",
+    "base": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "An AI x Metaverse Protocol that is building the future of virtual interactions."
+  },
+  "links": {
+    "homepage": [
+      "https://www.virtuals.io/"
+    ],
+    "whitepaper": "https://whitepaper.virtuals.io/",
+    "blockchain_site": [
+      "https://etherscan.io/address/0x44ff8620b8ca30902395a7bd3f2407e1a091bf73",
+      "https://platform.arkhamintelligence.com/explorer/token/virtual-protocol",
+      "https://etherscan.io/token/0x44ff8620b8ca30902395a7bd3f2407e1a091bf73",
+      "https://ethplorer.io/address/0x44ff8620b8ca30902395a7bd3f2407e1a091bf73",
+      "https://basescan.org/token/0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+      "https://solscan.io/token/3iQL8BFS2vE7mww4ehAqQHAsbmRNCrPxizWAT2Zfyr9y"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "virtuals_io",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "virtuals",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/34057/thumb/LOGOMARK.png?1708356054",
+    "small": "https://coin-images.coingecko.com/coins/images/34057/small/LOGOMARK.png?1708356054",
+    "large": "https://coin-images.coingecko.com/coins/images/34057/large/LOGOMARK.png?1708356054"
+  },
+  "last_updated": "2025-07-11T05:01:48.471963+00:00"
+}

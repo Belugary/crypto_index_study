@@ -1,0 +1,85 @@
+{
+  "id": "near",
+  "symbol": "near",
+  "name": "NEAR Protocol",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Near Protocol Ecosystem",
+    "Ethereum Ecosystem",
+    "Alleged SEC Securities",
+    "FTX Holdings",
+    "Data Availability",
+    "Coinbase Ventures Portfolio",
+    "Multicoin Capital Portfolio",
+    "Proof of Stake (PoS)",
+    "Alameda Research Portfolio",
+    "DragonFly Capital Portfolio",
+    "Pantera Capital Portfolio",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "GMCI Layer 1 Index",
+    "GMCI 30 Index",
+    "Circle Ventures Portfolio",
+    "GMCI Index",
+    "Made in USA",
+    "Coinbase 50 Index",
+    "Chain Abstraction"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": "",
+    "ethereum": "0x85f17cf997934a597031b2e18a9ab6ebd4b9f6a4"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "NEAR Protocol is the blockchain for AI. A high-performance, AI-native platform built to power the next generation of decentralized applications and intelligent agents. It provides the infrastructure AI needs to transact, operate, and interact across Web2 and Web3. NEAR combines three core elements: User-Owned AI, which ensures agents act in users’ best interests; Intents and Chain Abstraction, which eliminate blockchain complexity for seamless, goal-driven transactions across chains; and a sharded blockchain architecture that delivers the scalability, speed, and low-cost execution needed for real-world AI and Web3 use. This integrated stack makes NEAR the foundation for building secure, user-owned, AI-native applications at internet scale."
+  },
+  "links": {
+    "homepage": [
+      "https://near.org/"
+    ],
+    "whitepaper": "https://near.org/papers/the-official-near-white-paper/",
+    "blockchain_site": [
+      "https://nearblocks.io",
+      "https://platform.arkhamintelligence.com/explorer/token/near",
+      "https://explorer.near.org/",
+      "https://etherscan.io/token/0x85f17cf997934a597031b2e18a9ab6ebd4b9f6a4",
+      "https://ethplorer.io/address/0x85f17cf997934a597031b2e18a9ab6ebd4b9f6a4"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/zfhfRpaM4m",
+      "https://www.facebook.com/NEARProtocol/",
+      "https://subscribe.nearweek.com/"
+    ],
+    "announcement_url": [
+      "https://near.org/blog/",
+      "https://medium.com/nearprotocol"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "nearprotocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "cryptonear",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/nearprotocol/nearcore",
+        "https://github.com/near",
+        "https://github.com/nearprotocol/near-wallet",
+        "https://github.com/nearprotocol/nearlib"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/10365/thumb/near.jpg?1696510367",
+    "small": "https://coin-images.coingecko.com/coins/images/10365/small/near.jpg?1696510367",
+    "large": "https://coin-images.coingecko.com/coins/images/10365/large/near.jpg?1696510367"
+  },
+  "last_updated": "2025-07-11T04:59:37.432164+00:00"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "axie-infinity",
+  "symbol": "axs",
+  "name": "Axie Infinity",
+  "categories": [
+    "Gaming (GameFi)",
+    "NFT",
+    "BNB Chain Ecosystem",
+    "Axie Infinity Ecosystem",
+    "Metaverse",
+    "Play To Earn",
+    "Harmony Ecosystem",
+    "Ethereum Ecosystem",
+    "Animoca Brands Portfolio",
+    "Alleged SEC Securities",
+    "Binance Launchpad",
+    "Ronin Ecosystem",
+    "Card Games",
+    "Breeding",
+    "Paradigm Portfolio",
+    "Gaming Governance Token",
+    "Gaming Utility Token",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "Energi Ecosystem",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Consensys Portfolio",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xbb0e17ef65f82ab018d8edd776e8dd940327b28b",
+    "ronin": "0x97a9107c1793bc407d6f527b77e7fff4d812bece",
+    "energi": "0x7cd3d51bee45434dd80822c5d58b999333b69ffb",
+    "harmony-shard-0": "0x14a7b318fed66ffdcc80c1517c172c13852865de",
+    "binance-smart-chain": "0x715d400f88c167884bbcc41c5fea407ed4d2f8a0"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "AXS is the governance token for the Axie Infinity game. Token holders will be able to shape and vote for the direction of the game universe. This is unlike traditional games where all decisions are made by the game developers. AXS holders will be able to stake their tokens to earn more AXS and even vote for governance proposals."
+  },
+  "links": {
+    "homepage": [
+      "https://axieinfinity.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xbb0e17ef65f82ab018d8edd776e8dd940327b28b",
+      "https://platform.arkhamintelligence.com/explorer/token/axie-infinity",
+      "https://ethplorer.io/address/0xbb0e17ef65f82ab018d8edd776e8dd940327b28b",
+      "https://bscscan.com/token/0x715d400f88c167884bbcc41c5fea407ed4d2f8a0",
+      "https://explorer.roninchain.com/token/ronin:97a9107c1793bc407d6f527b77e7fff4d812bece",
+      "https://explorer.energi.network/token/0x7cd3d51bee45434dd80822c5d58b999333b69ffb",
+      "https://binplorer.com/address/0x715d400f88c167884bbcc41c5fea407ed4d2f8a0",
+      "https://app.roninchain.com/token/0x97a9107c1793bc407d6f527b77e7fff4d812bece",
+      "https://explorer.harmony.one/token/0x14a7b318fed66ffdcc80c1517c172c13852865de"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/axie"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "axieinfinity",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "axieinfinity",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/13029/thumb/axie_infinity_logo.png?1696512817",
+    "small": "https://coin-images.coingecko.com/coins/images/13029/small/axie_infinity_logo.png?1696512817",
+    "large": "https://coin-images.coingecko.com/coins/images/13029/large/axie_infinity_logo.png?1696512817"
+  },
+  "last_updated": "2025-07-11T04:57:03.620930+00:00"
+}

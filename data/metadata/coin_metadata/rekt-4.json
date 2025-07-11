@@ -1,0 +1,64 @@
+{
+  "id": "rekt-4",
+  "symbol": "rekt",
+  "name": "Rekt",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Solana Ecosystem",
+    "Meme",
+    "Ethereum Ecosystem",
+    "Binance Alpha Spotlight",
+    "Abstract Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xdd3b11ef34cd511a2da159034a05fcb94d806686",
+    "solana": "vQoYWru2pbUdcVkUrRH74ktQDJgVjRcDvsoDbUzM5n9",
+    "abstract": "0xd63b0e99303d51713f947195bf37188a943255a1",
+    "binance-smart-chain": "0x20482b0b4d9d8f60d3ab432b92f4c4b901a0d10c",
+    "base": "0xb3e3c89b8d9c88b1fe96856e382959ee6291ebba"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Rekt Brands Inc. encompasses several different verticals spanning art, culture, media, NFTs, and physical goods:\r\n\r\n\r\nRekt Drinks - Rekt Drinks is considered the official drink of web3.  It boasts one of the largest web2 product launches from a web3 brand with 222,456 drinks (flavoured sparkling water) sold out at public launch across 32 different countries in under 48 hours. \r\n\r\n\r\nRektguy NFT collection - a FREE mint launched in 2022 with over $120M of trading volume and a cult-like community, including holders such as Snoop Dogg, Steve Aoki, Bassjackers and Gary Vaynerchuk.\r\n\r\n\r\nRekt Art - OSF is a former trader turned artist who has collaborated with Red Bull, Bybit, Ledger, Sotheby’s, Saatchi Gallery, House of Fine Art & more.\r\nRekt Events - events held throughout the year including NYC, London, Paris, Miami, Lisbon, Dubai, Singapore, Las Vegas, Marfa & Taipei.\r\nRekt Radio - a top crypto podcast produced by Rekt and Rug Radio, hosted by OSF, Mando and Keyboard Monkey. It features the biggest names in crypto including Raoul Pal, Beeple, Bitboy, Su Zhu, Ansem, RookieXBT, TraderMayne, Alex Wice, DCInvestor and more.\r\n\r\n$REKT will be the token that underpins this entire ecosystem, staying true to the project’s memetic routes, while allowing for holders to gain exclusive access to parts of the ecosystem as well as significantly expanding its membership.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://rektcoin.com"
+    ],
+    "whitepaper": "https://rekt.com/pages/rektpaper",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xdd3b11ef34cd511a2da159034a05fcb94d806686",
+      "https://ethplorer.io/address/0xdd3b11ef34cd511a2da159034a05fcb94d806686",
+      "https://basescan.org/token/0xb3e3c89b8d9c88b1fe96856e382959ee6291ebba",
+      "https://solscan.io/token/vQoYWru2pbUdcVkUrRH74ktQDJgVjRcDvsoDbUzM5n9",
+      "https://abscan.org/token/0xd63b0e99303d51713f947195bf37188a943255a1",
+      "https://bscscan.com/token/0x20482b0b4d9d8f60d3AB432b92F4c4B901a0D10C",
+      "https://binplorer.com/address/0x20482b0b4d9d8f60d3AB432b92F4c4B901a0D10C"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/rektguynft"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "rektcoin",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "rektbrands",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/51727/thumb/rektcion_trans_200px.png?1731910587",
+    "small": "https://coin-images.coingecko.com/coins/images/51727/small/rektcion_trans_200px.png?1731910587",
+    "large": "https://coin-images.coingecko.com/coins/images/51727/large/rektcion_trans_200px.png?1731910587"
+  },
+  "last_updated": "2025-07-11T05:00:22.919849+00:00"
+}

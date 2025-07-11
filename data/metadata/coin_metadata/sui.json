@@ -1,0 +1,67 @@
+{
+  "id": "sui",
+  "symbol": "sui",
+  "name": "Sui",
+  "categories": [
+    "Smart Contract Platform",
+    "Binance Launchpool",
+    "Layer 1 (L1)",
+    "Sui Ecosystem",
+    "Coinbase Ventures Portfolio",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "GMCI Layer 1 Index",
+    "Circle Ventures Portfolio",
+    "GMCI Index",
+    "Made in USA"
+  ],
+  "asset_platform_id": "sui",
+  "platforms": {
+    "sui": "0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Sui is an innovative layer-1 blockchain platform crafted to meet the demands of global adoption, providing a secure, robust, and scalable development environment. Rooted in a unique object-centric data model and fortified by the trusted Move programming language, Sui is engineered to tackle the inefficiencies found in current blockchain frameworks.\r\n\r\nIn addition to its solid technical underpinnings, Sui places a strong emphasis on user experience, aiming to remove common barriers encountered in blockchain interactions. Through groundbreaking features such as zkLogin, sponsored transactions, and programmable transaction blocks, Sui sets a new standard for user accessibility and friendliness within Web3 applications.\r\n\r\nUnique elements of Sui\r\nSui’s innovative architecture ensures swift transactions with stable fees and high throughput through horizontal scaling. Its object-oriented design offers deep composability for developers, enabling tailored object types with network-wide compatibility. This revolutionizes asset and protocol collaboration, fostering product innovation.\r\n\r\nThe platform's object-oriented approach dramatically improves transaction processing, enabling parallel execution and faster completion times. Additionally, unique consensus requirements expedite transaction finalization while maintaining stability. Sui prioritizes overcoming Web3 adoption barriers, offering native tools like zkLogin and sponsored transactions for wallet onboarding and fee management.\r\n\r\nMove integration into Sui's data model combines innovation with security, mitigating common exploits found in smart contract languages. This empowers developers and users with a secure and intuitive platform, accelerating the evolution of Web3 applications.\r\n\r\nAbout the Sui token\r\nThe SUI token serves four primary functions within the Sui ecosystem:\r\nProof-of-stake participation - Sui implements a delegated proof-of-stake mechanism, rewarding honest behavior by validators and SUI token holders who stake with them.\r\nGas fee payments - SUI tokens cover gas fees for executing transactions and storing data onchain.\r\nApplication utility - SUI is a versatile asset, integral to various applications within Sui’s ecosystem, including decentralized exchanges, lending platforms, gaming, and more.\r\nGovernance - The SUI token empowers holders to participate in on-chain voting on significant matters like protocol upgrades and platform changes, shaping the future of Sui.\r\n\r\nAdditionally, the Sui storage fund ensures fair compensation for validators by distributing stake rewards over time and covering storage costs for previously stored on-chain data. This tokenomic strategy promotes indefinite data storage while maintaining fair compensation for validators, fostering long-term sustainability.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://sui.io/"
+    ],
+    "whitepaper": "https://github.com/MystenLabs/sui/blob/main/doc/paper/sui.pdf",
+    "blockchain_site": [
+      "https://suiscan.xyz/mainnet/home",
+      "https://www.oklink.com/sui",
+      "https://suivision.xyz/coin/0x0000000000000000000000000000000000000000000000000000000000000002::sui::sui",
+      "https://suiscan.xyz/mainnet/coin/0x0000000000000000000000000000000000000000000000000000000000000002::sui::sui/txs",
+      "https://suiscan.xyz/mainnet/coin/0x2::sui::sui/txs",
+      "https://suivision.xyz/coin/0x2::sui::sui"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://medium.com/mysten-labs",
+      "https://discord.gg/sui"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SuiNetwork",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/MystenLabs/sui"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/26375/thumb/sui-ocean-square.png?1727791290",
+    "small": "https://coin-images.coingecko.com/coins/images/26375/small/sui-ocean-square.png?1727791290",
+    "large": "https://coin-images.coingecko.com/coins/images/26375/large/sui-ocean-square.png?1727791290"
+  },
+  "last_updated": "2025-07-11T05:01:01.742535+00:00"
+}

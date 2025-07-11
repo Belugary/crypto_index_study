@@ -1,0 +1,59 @@
+{
+  "id": "ethereum-name-service",
+  "symbol": "ens",
+  "name": "Ethereum Name Service",
+  "categories": [
+    "NFT",
+    "Ethereum Ecosystem",
+    "Decentralized Identifier (DID)",
+    "Name Service"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The Ethereum Name Service (ENS) is a distributed, open, and extensible naming system based on the Ethereum blockchain.\r\n\r\nENS’s job is to map human-readable names like ‘alice.eth’ to machine-readable identifiers such as Ethereum addresses, other cryptocurrency addresses, content hashes, and metadata. ENS also supports ‘reverse resolution’, making it possible to associate metadata such as canonical names or interface descriptions with Ethereum addresses.\r\n\r\nENS has similar goals to DNS, the Internet’s Domain Name Service, but has significantly different architecture due to the capabilities and constraints provided by the Ethereum blockchain. Like DNS, ENS operates on a system of dot-separated hierarchical names called domains, with the owner of a domain having full control over subdomains.\r\n\r\nTop-level domains, like ‘.eth’ and ‘.test’, are owned by smart contracts called registrars, which specify rules governing the allocation of their subdomains. Anyone may, by following the rules imposed by these registrar contracts, obtain ownership of a domain for their own use. ENS also supports importing in DNS names already owned by the user for use on ENS.\r\n\r\nBecause of the hierarchal nature of ENS, anyone who owns a domain at any level may configure subdomains - for themselves or others - as desired. For instance, if Alice owns 'alice.eth', she can create 'pay.alice.eth' and configure it as she wishes.\r\n\r\nENS is deployed on the Ethereum main network and on several test networks. If you use a library such as the ensjs Javascript library, or an end-user application, it will automatically detect the network you are interacting with and use the ENS deployment on that network."
+  },
+  "links": {
+    "homepage": [
+      "https://ens.domains/",
+      "https://app.ens.domains/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
+      "https://platform.arkhamintelligence.com/explorer/token/ethereum-name-service",
+      "https://ethplorer.io/address/0xc18360217d8f7ab5e7c516566761ea12ce7f9d72"
+    ],
+    "official_forum_url": [
+      "https://discuss.ens.domains/"
+    ],
+    "chat_url": [
+      "https://chat.ens.domains/"
+    ],
+    "announcement_url": [
+      "https://ens.mirror.xyz/"
+    ],
+    "snapshot_url": "https://snapshot.org/#/ens.eth",
+    "twitter_screen_name": "ensdomains",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/19785/thumb/ENS.jpg?1727872989",
+    "small": "https://coin-images.coingecko.com/coins/images/19785/small/ENS.jpg?1727872989",
+    "large": "https://coin-images.coingecko.com/coins/images/19785/large/ENS.jpg?1727872989"
+  },
+  "last_updated": "2025-07-11T04:58:19.228507+00:00"
+}

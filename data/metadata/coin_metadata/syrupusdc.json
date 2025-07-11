@@ -1,0 +1,55 @@
+{
+  "id": "syrupusdc",
+  "symbol": "syrupusdc",
+  "name": "SyrupUSDC",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Lending/Borrowing Protocols",
+    "Solana Ecosystem",
+    "Ethereum Ecosystem",
+    "Yield-Bearing Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x80ac24aa929eaf5013f6436cda2a7ba190f5cc0b",
+    "solana": "AvZZF1YaZDziPY2RCK4oJrRVrbN3mTD9NL24hPeaZeUj"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "SyrupUSDC is Maple Finance's yield-bearing stablecoin. It is powered by Syrup and allows DeFi lenders to leverage their capital to earn yield. Maple yield is generated from fixed rate, overcollateralised loans to institutional borrowers. These short duration loans enable Maple to provide consistent high yield and short term liquidity for users.\r\nSyrup is Maple's DeFi platform offering decentralized access to Maple's yield generation opportunities."
+  },
+  "links": {
+    "homepage": [
+      "https://maple.finance/",
+      "https://syrup.fi/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x80ac24aa929eaf5013f6436cda2a7ba190f5cc0b",
+      "https://ethplorer.io/address/0x80ac24aa929eaf5013f6436cda2a7ba190f5cc0b",
+      "https://solscan.io/token/AvZZF1YaZDziPY2RCK4oJrRVrbN3mTD9NL24hPeaZeUj"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "maplefinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54658/thumb/SyrupUSDCO.png?1748850129",
+    "small": "https://coin-images.coingecko.com/coins/images/54658/small/SyrupUSDCO.png?1748850129",
+    "large": "https://coin-images.coingecko.com/coins/images/54658/large/SyrupUSDCO.png?1748850129"
+  },
+  "last_updated": "2025-07-11T05:01:12.288270+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "usdb",
+  "symbol": "usdb",
+  "name": "USDB",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "Blast Ecosystem",
+    "Crypto-backed Stablecoin",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "blast",
+  "platforms": {
+    "blast": "0x4300000000000000000000000000000000000003"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://blast.io/en",
+      "https://docs.blast.io/about-blast"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://blastscan.io/token/0x4300000000000000000000000000000000000003",
+      "https://platform.arkhamintelligence.com/explorer/token/usdb",
+      "https://blastplorer.info/address/0x4300000000000000000000000000000000000003",
+      "https://blastexplorer.io/token/0x4300000000000000000000000000000000000003"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Blast_L2",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/35595/thumb/65c67f0ebf2f6a1bd0feb13c_usdb-icon-yellow.png?1709255427",
+    "small": "https://coin-images.coingecko.com/coins/images/35595/small/65c67f0ebf2f6a1bd0feb13c_usdb-icon-yellow.png?1709255427",
+    "large": "https://coin-images.coingecko.com/coins/images/35595/large/65c67f0ebf2f6a1bd0feb13c_usdb-icon-yellow.png?1709255427"
+  },
+  "last_updated": "2025-07-11T05:01:34.322135+00:00"
+}

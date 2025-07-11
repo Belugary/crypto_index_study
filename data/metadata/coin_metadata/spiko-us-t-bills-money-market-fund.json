@@ -1,0 +1,69 @@
+{
+  "id": "spiko-us-t-bills-money-market-fund",
+  "symbol": "ustbl",
+  "name": "Spiko US T-Bills Money Market Fund",
+  "categories": [
+    "Tokenized Assets",
+    "Polygon Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "Starknet Ecosystem",
+    "Tokenized Treasury Bills (T-Bills)"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xe4880249745eac5f1ed9d8f7df844792d560e750",
+    "starknet": "0x020ff2f6021ada9edbceaf31b96f9f67b746662a6e6b2bc9d30c0d3e290a71f6",
+    "arbitrum-one": "0x021289588cd81dc1ac87ea91e91607eef68303f5",
+    "polygon-pos": "0xe4880249745eac5f1ed9d8f7df844792d560e750"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The Spiko US T-Bills Money Market Fund is a fully licensed USD money market fund operating under the EU regulatory framework. The fund exclusively invests in United States Treasury Bills with maturities of less than six months, maintaining an average portfolio maturity of no more than two months. Approved by the French Financial Markets Authority, the Spiko US T-Bills Money Market Fund is accessible to all types of investors, both professional and non-professional."
+  },
+  "links": {
+    "homepage": [
+      "https://www.spiko.xyz",
+      "https://docs.spiko.xyz"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xe4880249745eac5f1ed9d8f7df844792d560e750",
+      "https://platform.arkhamintelligence.com/explorer/token/spiko-us-t-bills-money-market-fund",
+      "https://polygonscan.com/token/0xe4880249745eac5f1ed9d8f7df844792d560e750",
+      "https://ethplorer.io/address/0xe4880249745eac5f1ed9d8f7df844792d560e750",
+      "https://arbiscan.io/token/0x021289588cd81dC1AC87ea91e91607eEF68303F5",
+      "https://starkscan.co/token/0x020ff2f6021ada9edbceaf31b96f9f67b746662a6e6b2bc9d30c0d3e290a71f6",
+      "https://voyager.online/token/0x020ff2f6021ada9edbceaf31b96f9f67b746662a6e6b2bc9d30c0d3e290a71f6"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/spiko-tech"
+    ],
+    "chat_url": [
+      "https://medium.com/@spiko"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/spiko-tech/contracts"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39666/thumb/USTB.png?1723541269",
+    "small": "https://coin-images.coingecko.com/coins/images/39666/small/USTB.png?1723541269",
+    "large": "https://coin-images.coingecko.com/coins/images/39666/large/USTB.png?1723541269"
+  },
+  "last_updated": "2025-07-11T05:00:49.628411+00:00"
+}

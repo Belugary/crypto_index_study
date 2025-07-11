@@ -1,0 +1,63 @@
+{
+  "id": "beldex",
+  "symbol": "bdx",
+  "name": "Beldex",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Smart Contract Platform",
+    "Privacy",
+    "Masternodes",
+    "DePIN",
+    "DWF Labs Portfolio",
+    "Proof of Stake (PoS)",
+    "Proof of Work (PoW)",
+    "Name Service",
+    "Privacy Blockchain"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 2,
+  "hashing_algorithm": "Cryptonight",
+  "genesis_date": null,
+  "country_origin": "HK",
+  "description": {
+    "en": "Beldex building a decentralized confidential ecosystem in Web3 for secure digital interactions.. The concept of the project was developed in 2018, and launched in the same year. The Beldex project is committed to enhancing user data protection and their confidentiality online. BDX is an ecosystem coin that facilitates confidential transactions. \r\nBeldex's mission is to provide a confidential environment where data can be exchanged securely. The project is focused on individual safety and true data confidentiality with systematic research to ensure the confidentiality of individual transactions, and thus the safety of users and the security of their funds. \r\nBDX operates on the Beldex decentralized blockchain for performing secure transactions, while the ecosystem supports secure and confidential dApps, among them: BChat, BelNet, Beldex Browser, the Beldex protocol, and the Beldex bridge. Initially, Beldex was developed on a PoW architecture followed by a transition to the PoS consensus model in order to increase the scalability of the BDX token, lower fees and reduce transaction times."
+  },
+  "links": {
+    "homepage": [
+      "https://beldex.io/"
+    ],
+    "whitepaper": "https://beldex.io/whitepaper.pdf",
+    "blockchain_site": [
+      "https://explorer.beldex.io/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/Hj4MAmA5gs",
+      "https://beldex-coin.slack.com/#"
+    ],
+    "announcement_url": [
+      "https://beldexcoin.medium.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "BeldexCoin",
+    "facebook_username": "beldexofficial",
+    "bitcointalk_thread_identifier": 5050775,
+    "telegram_channel_identifier": "beldexcoin",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/Beldex-Coin/beldex"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/5111/thumb/Beldex.png?1696505631",
+    "small": "https://coin-images.coingecko.com/coins/images/5111/small/Beldex.png?1696505631",
+    "large": "https://coin-images.coingecko.com/coins/images/5111/large/Beldex.png?1696505631"
+  },
+  "last_updated": "2025-07-11T04:57:10.753640+00:00"
+}

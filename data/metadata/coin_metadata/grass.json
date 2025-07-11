@@ -1,0 +1,54 @@
+{
+  "id": "grass",
+  "symbol": "grass",
+  "name": "Grass",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Solana Ecosystem",
+    "DePIN",
+    "Polychain Capital Portfolio"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "Grass7B4RdKfBCjTKgSqnXkqjwiGvQyFbuSCUJr3XXjs"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://grass.io/",
+      "https://www.getgrass.io/"
+    ],
+    "whitepaper": "https://wynd-network.gitbook.io/grass-docs",
+    "blockchain_site": [
+      "https://solscan.io/token/Grass7B4RdKfBCjTKgSqnXkqjwiGvQyFbuSCUJr3XXjs",
+      "https://platform.arkhamintelligence.com/explorer/token/grass"
+    ],
+    "official_forum_url": [
+      "https://discord.gg/getgrass"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "grass",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/40094/thumb/Grass.jpg?1725697048",
+    "small": "https://coin-images.coingecko.com/coins/images/40094/small/Grass.jpg?1725697048",
+    "large": "https://coin-images.coingecko.com/coins/images/40094/large/Grass.jpg?1725697048"
+  },
+  "last_updated": "2025-07-11T04:58:38.167065+00:00"
+}

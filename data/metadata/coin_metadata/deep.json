@@ -1,0 +1,52 @@
+{
+  "id": "deep",
+  "symbol": "deep",
+  "name": "DeepBook",
+  "categories": [
+    "Infrastructure",
+    "Decentralized Finance (DeFi)",
+    "Sui Ecosystem"
+  ],
+  "asset_platform_id": "sui",
+  "platforms": {
+    "sui": "0xdeeb7a4662eec9f2f3def03fb937a663dddaa2e215b8078a284d026b7946c270::deep::DEEP"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "DeepBook was built from the ground up to power the Sui ecosystem with unparalleled liquidity. From its inception, it has provided developers with reliable, composable on-chain applications, and enabled market makers and liquidity pools to operate seamlessly within the blockchain world.\r\n\r\nAs a community-driven public good, DeepBook has integrated with top DEXs and aggregators since Sui's mainnet launch, enhancing dApps with efficient, censorship-free liquidity. This synergy of orderbook efficiency and blockchain transparency positions DeepBook as the premier liquidity venue in web3.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://deepbook.tech/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://suiscan.xyz/mainnet/coin/0xdeeb7a4662eec9f2f3def03fb937a663dddaa2e215b8078a284d026b7946c270::deep::DEEP/txs",
+      "https://suivision.xyz/coin/0xdeeb7a4662eec9f2f3def03fb937a663dddaa2e215b8078a284d026b7946c270::deep::DEEP"
+    ],
+    "official_forum_url": [
+      "https://discord.com/invite/deepbook"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "DeepBookonSui",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/50648/thumb/DEEP_Logo_256x256_px_%282%29.png?1728612340",
+    "small": "https://coin-images.coingecko.com/coins/images/50648/small/DEEP_Logo_256x256_px_%282%29.png?1728612340",
+    "large": "https://coin-images.coingecko.com/coins/images/50648/large/DEEP_Logo_256x256_px_%282%29.png?1728612340"
+  },
+  "last_updated": "2025-07-11T04:58:02.236292+00:00"
+}

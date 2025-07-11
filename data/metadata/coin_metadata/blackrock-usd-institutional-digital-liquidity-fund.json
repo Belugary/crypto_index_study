@@ -1,0 +1,69 @@
+{
+  "id": "blackrock-usd-institutional-digital-liquidity-fund",
+  "symbol": "buidl",
+  "name": "BlackRock USD Institutional Digital Liquidity Fund",
+  "categories": [
+    "Solana Ecosystem",
+    "Avalanche Ecosystem",
+    "Polygon Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Aptos Ecosystem",
+    "Real World Assets (RWA)"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x7712c34205737192402172409a8f7ccef8aa2aec",
+    "avalanche": "0x53fc82f14f009009b440a706e31c9021e1196a2f",
+    "polygon-pos": "0x2893ef551b6dd69f661ac00f11d93e5dc5dc0e99",
+    "aptos": "0x50038be55be5b964cfa32cf128b5cf05f123959f286b4cc02b86cafd48945f89",
+    "solana": "GyWgeqpy5GueU2YbkE8xqUeVEokCMMCEeUrfbtMw6phr",
+    "optimistic-ethereum": "0xa1cdab15bba75a80df4089cafba013e376957cf5",
+    "arbitrum-one": "0xa6525ae43edcd03dc08e775774dcabd3bb925872"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.blackrock.com/corporate"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x7712c34205737192402172409a8f7ccef8aa2aec",
+      "https://platform.arkhamintelligence.com/explorer/token/blackrock-usd-institutional-digital-liquidity-fund",
+      "https://ethplorer.io/address/0x7712c34205737192402172409a8f7ccef8aa2aec",
+      "https://avascan.info/blockchain/c/address/0x53FC82f14F009009b440a706e31c9021E1196A2F/token",
+      "https://polygonscan.com/token/0x2893Ef551B6dD69F661Ac00F11D93E5Dc5Dc0e99",
+      "https://aptscan.ai/coins/0x50038be55be5b964cfa32cf128b5cf05f123959f286b4cc02b86cafd48945f89",
+      "https://tracemove.io/coin/0x50038be55be5b964cfa32cf128b5cf05f123959f286b4cc02b86cafd48945f89",
+      "https://arbiscan.io/token/0xA6525Ae43eDCd03dC08E775774dCAbd3bb925872",
+      "https://optimistic.etherscan.io/token/0xa1CDAb15bBA75a80dF4089CaFbA013e376957cF5",
+      "https://solscan.io/token/GyWgeqpy5GueU2YbkE8xqUeVEokCMMCEeUrfbtMw6phr"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "BlackRock",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/36291/thumb/blackrock.png?1711013223",
+    "small": "https://coin-images.coingecko.com/coins/images/36291/small/blackrock.png?1711013223",
+    "large": "https://coin-images.coingecko.com/coins/images/36291/large/blackrock.png?1711013223"
+  },
+  "last_updated": "2025-07-11T04:57:27.215543+00:00"
+}

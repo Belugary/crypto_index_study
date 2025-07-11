@@ -1,0 +1,53 @@
+{
+  "id": "toshi",
+  "symbol": "toshi",
+  "name": "Toshi",
+  "categories": [
+    "Launchpad",
+    "Meme",
+    "Base Ecosystem",
+    "Cat-Themed",
+    "Base Meme"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0xac1bd2486aaf3b5c0fc3fd868558b082a531b2b4"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.toshithecat.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://basescan.org/token/0xac1bd2486aaf3b5c0fc3fd868558b082a531b2b4",
+      "https://platform.arkhamintelligence.com/explorer/token/toshi",
+      "https://base.dex.guru/token/0xac1bd2486aaf3b5c0fc3fd868558b082a531b2b4"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/31126/thumb/Toshi_Logo_-_Circular.png?1721677476",
+    "small": "https://coin-images.coingecko.com/coins/images/31126/small/Toshi_Logo_-_Circular.png?1721677476",
+    "large": "https://coin-images.coingecko.com/coins/images/31126/large/Toshi_Logo_-_Circular.png?1721677476"
+  },
+  "last_updated": "2025-07-11T05:01:22.936456+00:00"
+}

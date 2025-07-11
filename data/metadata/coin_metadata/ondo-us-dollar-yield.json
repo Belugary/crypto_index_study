@@ -1,0 +1,80 @@
+{
+  "id": "ondo-us-dollar-yield",
+  "symbol": "usdy",
+  "name": "Ondo US Dollar Yield",
+  "categories": [
+    "Solana Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Aptos Ecosystem",
+    "Sui Ecosystem",
+    "Mantle Ecosystem",
+    "Osmosis Ecosystem",
+    "Fiat-backed Stablecoin",
+    "Mantra Ecosystem",
+    "Yield-Bearing Stablecoin",
+    "US Treasury-backed Stablecoin",
+    "Yield-Bearing"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x96f6ef951840721adbf46ac996b59e0235cb985c",
+    "noble": "ausdy",
+    "osmosis": "ibc/23104D411A6EB6031FA92FB75F227422B84989969E91DCAD56A535DD7FF0A373",
+    "mantra": "ibc/6749D16BC09F419C090C330FC751FFF1C96143DB7A4D2FCAEC2F348A3E17618A",
+    "arbitrum-one": "0x35e050d3c0ec2d29d269a8ecea763a183bdf9a9d",
+    "mantle": "0x5be26527e817998a7206475496fde1e68957c5a6",
+    "aptos": "0xcfea864b32833f157f042618bd845145256b1bf4c0da34a7013b76e42daa53cc",
+    "sui": "0x960b531667636f39e85867775f52f6b1f220a058c4de786905bdf761e06a56bb::usdy::USDY",
+    "solana": "A1KLoBrKBde8Ty9qtNQUtq3C2ortoC3u7twggz7sEto6"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://ondo.finance/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x96f6ef951840721adbf46ac996b59e0235cb985c",
+      "https://platform.arkhamintelligence.com/explorer/token/ondo-us-dollar-yield",
+      "https://ethplorer.io/address/0x96f6ef951840721adbf46ac996b59e0235cb985c",
+      "https://explorer.mantle.xyz/token/0x5be26527e817998a7206475496fde1e68957c5a6",
+      "https://solscan.io/token/a1klobrkbde8ty9qtnqutq3c2ortoc3u7twggz7seto6",
+      "https://suiscan.xyz/mainnet/coin/0x960b531667636f39e85867775f52f6b1f220a058c4de786905bdf761e06a56bb::usdy::usdy/txs",
+      "https://aptscan.ai/coins/0xcfea864b32833f157f042618bd845145256b1bf4c0da34a7013b76e42daa53cc",
+      "https://tracemove.io/coin/0xcfea864b32833f157f042618bd845145256b1bf4c0da34a7013b76e42daa53cc",
+      "https://mantlescan.xyz/token/0x5be26527e817998a7206475496fde1e68957c5a6",
+      "https://www.mintscan.io/osmosis/assets/ibc/aWJjLzIzMTA0RDQxMUE2RUI2MDMxRkE5MkZCNzVGMjI3NDIyQjg0OTg5OTY5RTkxRENBRDU2QTUzNUREN0ZGMEEzNzM="
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/YzhZaFbB92",
+      "https://blog.ondo.finance/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ondofinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/ondoprotocol/tokenized-funds"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/31700/thumb/usdy_%281%29.png?1696530524",
+    "small": "https://coin-images.coingecko.com/coins/images/31700/small/usdy_%281%29.png?1696530524",
+    "large": "https://coin-images.coingecko.com/coins/images/31700/large/usdy_%281%29.png?1696530524"
+  },
+  "last_updated": "2025-07-11T04:59:49.246934+00:00"
+}

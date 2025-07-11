@@ -1,0 +1,55 @@
+{
+  "id": "purr-2",
+  "symbol": "purr",
+  "name": "Purr",
+  "categories": [
+    "Meme",
+    "Cat-Themed",
+    "Hyperliquid Ecosystem",
+    "HyperEVM Ecosystem"
+  ],
+  "asset_platform_id": "hyperliquid",
+  "platforms": {
+    "hyperliquid": "0xc1fb593aeffbeb02f85e0308e9956a90",
+    "hyperevm": "0x9b498c3c8a0b8cd8ba1d9851d40d186f1872b44e"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "$PURR is the first spot launch on the Hyperliquid L1. There is no sale and no planned utility for $PURR. The max supply of $PURR was 1 billion. 500 million $PURR were distributed proportionally to points holders. 400 million $PURR initially deployed as Hyperliquidity (HIP-2) were burned. $PURR is deflationary, as trading fees paid in $PURR are burned."
+  },
+  "links": {
+    "homepage": [
+      "https://app.hyperliquid.xyz/trade/PURR/USDC"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://app.hyperliquid.xyz/explorer/token/0xc1fb593aeffbeb02f85e0308e9956a90",
+      "https://hyperliquid.cloud.blockscout.com/token/0x9b498C3c8A0b8CD8BA1D9851d40D186F1872b44E",
+      "https://hyperevmscan.io/token/0x9b498c3c8a0b8cd8ba1d9851d40d186f1872b44e"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.purrburn.fun/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Hyperintern",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/37125/thumb/PURR_CG.png?1713368828",
+    "small": "https://coin-images.coingecko.com/coins/images/37125/small/PURR_CG.png?1713368828",
+    "large": "https://coin-images.coingecko.com/coins/images/37125/large/PURR_CG.png?1713368828"
+  },
+  "last_updated": "2025-07-11T05:00:16.176773+00:00"
+}

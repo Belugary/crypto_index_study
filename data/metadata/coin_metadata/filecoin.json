@@ -1,0 +1,70 @@
+{
+  "id": "filecoin",
+  "symbol": "fil",
+  "name": "Filecoin",
+  "categories": [
+    "Infrastructure",
+    "Smart Contract Platform",
+    "Storage",
+    "Layer 1 (L1)",
+    "DePIN",
+    "Alleged SEC Securities",
+    "Pantera Capital Portfolio",
+    "GMCI DePIN Index",
+    "GMCI 30 Index",
+    "Sequoia Capital Portfolio",
+    "Blockchain Capital Portfolio",
+    "GMCI Index",
+    "Made in USA"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "The Filecoin network achieves staggering economies of scale by allowing anyone worldwide to participate as storage providers. It also makes storage resemble a commodity or utility by decoupling hard-drive space from additional services. On this robust global market the price of storage will be driven by supply and demand, not corporate pricing departments, and miners will compete on factors like reputation for reliability as well as price."
+  },
+  "links": {
+    "homepage": [
+      "https://filecoin.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://filfox.info/en",
+      "https://filscan.io/#/tipset/chain",
+      "https://hecoinfo.com/token/0xae3a768f9ab104c69a7cd6041fe16ffa235d1810",
+      "https://explorer.energi.network/token/0xf8a425e39af1976e1826f0c8843149afa5e9ec04"
+    ],
+    "official_forum_url": [
+      "https://filecoin.io/blog/",
+      "https://discuss.filecoin.io/"
+    ],
+    "chat_url": [],
+    "announcement_url": [
+      "https://liftoff.filecoin.io/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "Filecoin",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/filecoin-project/lotus",
+        "https://github.com/filecoin-project/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/12817/thumb/filecoin.png?1696512609",
+    "small": "https://coin-images.coingecko.com/coins/images/12817/small/filecoin.png?1696512609",
+    "large": "https://coin-images.coingecko.com/coins/images/12817/large/filecoin.png?1696512609"
+  },
+  "last_updated": "2025-07-11T04:58:24.783532+00:00"
+}

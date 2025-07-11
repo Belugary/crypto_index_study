@@ -1,0 +1,66 @@
+{
+  "id": "threshold-network-token",
+  "symbol": "t",
+  "name": "Threshold Network",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Solana Ecosystem",
+    "Ethereum Ecosystem",
+    "Optimism Ecosystem",
+    "Base Ecosystem",
+    "Cross-chain Communication",
+    "BTCfi Protocol"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xcdf7028ceab81fa0c6971208e83fa7872994bee5",
+    "base": "0x26f3901ac8a79c50fb0d8289c74f0d09adc42e29",
+    "optimistic-ethereum": "0x747e42eb0591547a0ab429b3627816208c734ea7",
+    "solana": "4Njvi3928U3figEF5tf8xvjLC5GqUN33oe4XTJNe7xXC"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Threshold is a project merged from the NuCypher and Keep networks, which strives to provide different threshold cryptography solutions in a fully decentralized manner to the web3 community. Threshold cryptography is a technology that uses cryptography to unlock greater utility and usability for digital assets without needing to trust a centralized party. Threshold cryptography distributes sensitive operations across multiple independent entities – like nodes in a network – and requires a threshold, or minimum number of those entities to cooperate for the operation to be successful."
+  },
+  "links": {
+    "homepage": [
+      "https://threshold.network/",
+      "https://blog.threshold.network/"
+    ],
+    "whitepaper": "https://docs.threshold.network/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xcdf7028ceab81fa0c6971208e83fa7872994bee5",
+      "https://platform.arkhamintelligence.com/explorer/token/threshold-network-token",
+      "https://ethplorer.io/address/0xcdf7028ceab81fa0c6971208e83fa7872994bee5",
+      "https://optimistic.etherscan.io/token/0x747e42eb0591547a0ab429b3627816208c734ea7",
+      "https://basescan.org/token/0x26f3901ac8a79c50fb0d8289c74f0d09adc42e29",
+      "https://solscan.io/token/4Njvi3928U3figEF5tf8xvjLC5GqUN33oe4XTJNe7xXC"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/threshold"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "TheTNetwork",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/threshold-network"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/22228/thumb/nFPNiSbL_400x400.jpg?1696521570",
+    "small": "https://coin-images.coingecko.com/coins/images/22228/small/nFPNiSbL_400x400.jpg?1696521570",
+    "large": "https://coin-images.coingecko.com/coins/images/22228/large/nFPNiSbL_400x400.jpg?1696521570"
+  },
+  "last_updated": "2025-07-11T05:01:21.772644+00:00"
+}

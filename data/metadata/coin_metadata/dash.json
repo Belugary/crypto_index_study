@@ -1,0 +1,70 @@
+{
+  "id": "dash",
+  "symbol": "dash",
+  "name": "Dash",
+  "categories": [
+    "Smart Contract Platform",
+    "Privacy",
+    "Masternodes",
+    "Alleged SEC Securities",
+    "Proof of Stake (PoS)",
+    "Proof of Work (PoW)",
+    "Made in USA"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 2,
+  "hashing_algorithm": "X11",
+  "genesis_date": "2014-01-19",
+  "country_origin": "",
+  "description": {
+    "en": "Dash (DASH) is digital cash designed to offer financial freedom to everyone. Payments are instant, easy and secure, with near-zero fees.\r\nBuilt to support real life use cases, Dash is the leading decentralized payment solution. Users can purchase goods at thousands of merchants and trade it at major exchanges and brokers around the globe.\r\nSince its creation in 2014, Dash has demonstrated leadership in innovation and pioneered groundbreaking features such as:\r\n-Two-tier network with incentivized nodes and decentralized project governance (Masternodes)\r\n-Instantly settled payments (InstantSend)\r\n-Instantly immutable blockchain (ChainLocks)\r\n-Optional privacy (PrivateSend)"
+  },
+  "links": {
+    "homepage": [
+      "https://www.dash.org"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://chainz.cryptoid.info/dash/",
+      "https://blockchair.com/dash",
+      "https://www.coinexplorer.net/DASH",
+      "https://dashblockexplorer.com/",
+      "https://dash.tokenview.io/",
+      "https://explorer.mydashwallet.org/insight",
+      "https://insight.dash.org",
+      "https://explorer.energi.network/token/0x132e2cd6a9bb3c53e3b0de1c4eb005ed1be01417",
+      "https://www.oklink.com/dash",
+      "https://3xpl.com/dash"
+    ],
+    "official_forum_url": [
+      "https://www.dash.org/forum/"
+    ],
+    "chat_url": [
+      "https://discordapp.com/invite/PXbUxJB"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "dashpay",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": 421615,
+    "telegram_channel_identifier": "dash_chat",
+    "subreddit_url": "https://www.reddit.com/r/dashpay",
+    "repos_url": {
+      "github": [
+        "https://github.com/dashpay/tenderdash",
+        "https://github.com/dashpay/dash",
+        "https://github.com/dashpay/platform"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/19/thumb/dash-logo.png?1696501423",
+    "small": "https://coin-images.coingecko.com/coins/images/19/small/dash-logo.png?1696501423",
+    "large": "https://coin-images.coingecko.com/coins/images/19/large/dash-logo.png?1696501423"
+  },
+  "last_updated": "2025-07-11T04:58:00.439636+00:00"
+}

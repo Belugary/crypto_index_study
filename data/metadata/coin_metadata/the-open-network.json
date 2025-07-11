@@ -1,0 +1,77 @@
+{
+  "id": "the-open-network",
+  "symbol": "ton",
+  "name": "Toncoin",
+  "categories": [
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "Animoca Brands Portfolio",
+    "Alleged SEC Securities",
+    "DWF Labs Portfolio",
+    "TON Ecosystem",
+    "Proof of Stake (PoS)",
+    "Pantera Capital Portfolio",
+    "GMCI Layer 1 Index",
+    "GMCI 30 Index",
+    "GMCI Index"
+  ],
+  "asset_platform_id": "the-open-network",
+  "platforms": {
+    "the-open-network": "EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c",
+    "ethereum": "0x582d872a1b094fc48f5de31d3b73f2d9be47def1",
+    "binance-smart-chain": "0x76a797a59ba2c17726896976b7b3747bfd1d220f"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "TON (The Open Network) is a general-purpose blockchain that allows developers to build decentralized apps and tokens."
+  },
+  "links": {
+    "homepage": [
+      "https://ton.org/",
+      "https://blog.ton.org/",
+      "https://jobs.ton.org/jobs"
+    ],
+    "whitepaper": "https://ton.org/whitepaper.pdf",
+    "blockchain_site": [
+      "https://tonviewer.com/EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c",
+      "https://platform.arkhamintelligence.com/explorer/token/the-open-network",
+      "https://tonmoon.org/explorer/",
+      "https://youton.org/",
+      "https://3xpl.com/ton",
+      "https://tonapi.io/",
+      "https://etherscan.io/token/0x582d872a1b094fc48f5de31d3b73f2d9be47def1",
+      "https://ethplorer.io/address/0x582d872a1b094fc48f5de31d3b73f2d9be47def1",
+      "https://bscscan.com/token/0x76a797a59ba2c17726896976b7b3747bfd1d220f",
+      "https://binplorer.com/address/0x76a797a59ba2c17726896976b7b3747bfd1d220f"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/ton-blockchain/"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ton_blockchain",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "toncoin",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/ton-blockchain/ton",
+        "https://github.com/ton-blockchain"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/17980/thumb/photo_2024-09-10_17.09.00.jpeg?1725963446",
+    "small": "https://coin-images.coingecko.com/coins/images/17980/small/photo_2024-09-10_17.09.00.jpeg?1725963446",
+    "large": "https://coin-images.coingecko.com/coins/images/17980/large/photo_2024-09-10_17.09.00.jpeg?1725963446"
+  },
+  "last_updated": "2025-07-11T05:01:18.751951+00:00"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "sbtc-2",
+  "symbol": "sbtc",
+  "name": "sBTC",
+  "categories": [
+    "Smart Contract Platform",
+    "Bitcoin Sidechains",
+    "Stacks Ecosystem",
+    "SideChain"
+  ],
+  "asset_platform_id": "stacks",
+  "platforms": {
+    "stacks": "SM3VDXK3WZZSA84XXFKAFAF15NNZX32CTSG82JFQ4.sbtc-token"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "sBTC allows users to peg-in BTC from Bitcoin L1 to Stacks L2, where it can be used in DeFi protocols, lending platforms, or AMMs (Automated Market Makers).\r\n\r\nStacks is a Bitcoin Layer 2 (L2) that brings smart contracts, DeFi, and scalable applications to Bitcoin while inheriting its security. It uses Proof of Transfer (PoX) to settle transactions on Bitcoin without modifying its base layer. Stacks enables Clarity smart contracts, allowing decentralized applications (dApps) to interact with Bitcoin natively. With sBTC, a decentralized, 1:1 Bitcoin-backed asset, users can move BTC into Stacks to access DeFi and smart contracts while maintaining Bitcoin’s security. Stacks expands Bitcoin’s utility beyond a store of value, enabling it to be used for lending, yield generation, and trading in a trust-minimized way."
+  },
+  "links": {
+    "homepage": [
+      "https://www.stacks.co/sbtc",
+      "https://stacks.org/best-and-brightest-sbtc",
+      "https://www.stacks.co/"
+    ],
+    "whitepaper": "https://stacks-network.github.io/stacks/sbtc.pdf",
+    "blockchain_site": [
+      "https://explorer.hiro.so/token/SM3VDXK3WZZSA84XXFKAFAF15NNZX32CTSG82JFQ4.sbtc-token?chain=mainnet",
+      "https://explorer.hiro.so/txid/SM3VDXK3WZZSA84XXFKAFAF15NNZX32CTSG82JFQ4.sbtc-token"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://www.youtube.com/@Stacks-btc"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Stacks",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "StacksChat",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/stacks-network"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54285/thumb/sbtc-logo-orange-bg-white-circle-1000px_2.png?1739000556",
+    "small": "https://coin-images.coingecko.com/coins/images/54285/small/sbtc-logo-orange-bg-white-circle-1000px_2.png?1739000556",
+    "large": "https://coin-images.coingecko.com/coins/images/54285/large/sbtc-logo-orange-bg-white-circle-1000px_2.png?1739000556"
+  },
+  "last_updated": "2025-07-11T05:00:36.259503+00:00"
+}

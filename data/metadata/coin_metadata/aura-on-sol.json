@@ -1,0 +1,52 @@
+{
+  "id": "aura-on-sol",
+  "symbol": "aura",
+  "name": "aura",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Solana Meme",
+    "Cat-Themed",
+    "Pump.fun Ecosystem"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "get your aura up not your funny up."
+  },
+  "links": {
+    "homepage": [
+      "https://infiniteaura.com"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2",
+      "https://platform.arkhamintelligence.com/explorer/token/aura-on-sol"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "auracoinsolana",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "auracoinsol",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/38376/thumb/aura_logo_200x200-01-01.png?1751114135",
+    "small": "https://coin-images.coingecko.com/coins/images/38376/small/aura_logo_200x200-01-01.png?1751114135",
+    "large": "https://coin-images.coingecko.com/coins/images/38376/large/aura_logo_200x200-01-01.png?1751114135"
+  },
+  "last_updated": "2025-07-11T04:57:00.059623+00:00"
+}

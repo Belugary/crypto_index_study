@@ -1,0 +1,51 @@
+{
+  "id": "arbitrum-bridged-weth-arbitrum-one",
+  "symbol": "weth",
+  "name": "Arbitrum Bridged WETH (Arbitrum One)",
+  "categories": [
+    "Arbitrum Ecosystem",
+    "Bridged WETH",
+    "Bridged-Tokens"
+  ],
+  "asset_platform_id": "arbitrum-one",
+  "platforms": {
+    "arbitrum-one": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://arbitrum.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://arbiscan.io/token/0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+      "https://platform.arkhamintelligence.com/explorer/token/arbitrum-bridged-weth-arbitrum-one",
+      "https://arbitrum.dex.guru/token/0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39713/thumb/WETH.PNG?1723731496",
+    "small": "https://coin-images.coingecko.com/coins/images/39713/small/WETH.PNG?1723731496",
+    "large": "https://coin-images.coingecko.com/coins/images/39713/large/WETH.PNG?1723731496"
+  },
+  "last_updated": "2025-07-11T04:56:57.282239+00:00"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "hashkey-ecopoints",
+  "symbol": "hsk",
+  "name": "HashKey Platform Token",
+  "categories": [
+    "Exchange-based Tokens",
+    "Centralized Exchange (CEX) Token",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xe7c6bf469e97eeb0bfb74c8dbff5bd47d4c1c98a"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "HSK is the HashKey platform token based on the ERC-20 standard. HSK encourages all contributors within the HashKey ecosystem, supporting and driving the development of the external ecosystem as well, to achieve seamless collaboration between internal and external entities."
+  },
+  "links": {
+    "homepage": [
+      "https://hsk.xyz/"
+    ],
+    "whitepaper": "https://e9bfc29f-9778-4595-845d-eeaa28f4cd68.usrfiles.com/ugd/e9bfc2_9247a755877c4468b64ed0a2059fb386.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xe7c6bf469e97eeb0bfb74c8dbff5bd47d4c1c98a",
+      "https://ethplorer.io/address/0xe7c6bf469e97eeb0bfb74c8dbff5bd47d4c1c98a"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/hashkey-digital-asset-group/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/hashkeychain"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "hashkeyhsk",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/29779/thumb/HSKlogo.jpg?1719445510",
+    "small": "https://coin-images.coingecko.com/coins/images/29779/small/HSKlogo.jpg?1719445510",
+    "large": "https://coin-images.coingecko.com/coins/images/29779/large/HSKlogo.jpg?1719445510"
+  },
+  "last_updated": "2025-07-11T04:58:39.864531+00:00"
+}

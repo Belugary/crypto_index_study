@@ -1,0 +1,51 @@
+{
+  "id": "ethena-staked-usde",
+  "symbol": "susde",
+  "name": "Ethena Staked USDe",
+  "categories": [
+    "Liquid Staking Tokens",
+    "Ethereum Ecosystem",
+    "Yield-Bearing Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://app.ethena.fi/"
+    ],
+    "whitepaper": "https://ethena-labs.gitbook.io/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "https://platform.arkhamintelligence.com/explorer/token/ethena-staked-usde",
+      "https://ethplorer.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ethena_labs",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33669/thumb/sUSDe-Symbol-Color.png?1716307680",
+    "small": "https://coin-images.coingecko.com/coins/images/33669/small/sUSDe-Symbol-Color.png?1716307680",
+    "large": "https://coin-images.coingecko.com/coins/images/33669/large/sUSDe-Symbol-Color.png?1716307680"
+  },
+  "last_updated": "2025-07-11T04:58:15.651010+00:00"
+}

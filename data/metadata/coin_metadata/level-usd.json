@@ -1,0 +1,49 @@
+{
+  "id": "level-usd",
+  "symbol": "lvlusd",
+  "name": "Level USD",
+  "categories": [
+    "Stablecoins",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x7c1156e515aa1a2e851674120074968c905aaf37"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Level USD (lvlUSD) is a liquid restaked dollar: a yield-bearing, cross-chain dollar token that's fully collateralized by restaked stablecoins.\r\n\r\nBefore, stablecoin users couldn't earn restaking yields. lvlUSD offers a solution for those who want to earn restaking yields without being exposed to the price of ETH or BTC.\r\n\r\nIn addition to earning multiple yields from decentralized networks at the same time, lvlUSD can be used across DeFi for trading, lending, collateral, and speculation."
+  },
+  "links": {
+    "homepage": [
+      "https://level.money/"
+    ],
+    "whitepaper": "https://level-money.gitbook.io/docs/level-usd/level-usd-a-new-primitive",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x7C1156E515aA1A2E851674120074968C905aAF37",
+      "https://ethplorer.io/address/0x7c1156e515aa1a2e851674120074968c905aaf37"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "levelusd",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "level_en",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/53150/thumb/lvlusd-logo.png?1735406507",
+    "small": "https://coin-images.coingecko.com/coins/images/53150/small/lvlusd-logo.png?1735406507",
+    "large": "https://coin-images.coingecko.com/coins/images/53150/large/lvlusd-logo.png?1735406507"
+  },
+  "last_updated": "2025-07-11T04:59:12.613769+00:00"
+}

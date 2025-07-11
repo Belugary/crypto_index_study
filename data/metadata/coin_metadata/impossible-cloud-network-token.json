@@ -1,0 +1,58 @@
+{
+  "id": "impossible-cloud-network-token",
+  "symbol": "icnt",
+  "name": "Impossible Cloud Network Token",
+  "categories": [
+    "Ethereum Ecosystem",
+    "DePIN",
+    "Base Ecosystem",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xe5e0b73380181273abcfd88695f52c4d0c825661",
+    "base": "0xe0cd4cacddcbf4f36e845407ce53e87717b6601d"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Impossible Cloud Network (ICN) is a decentralized infrastructure protocol that provides enterprise-grade cloud services including storage, compute, and networking. Built as a multi-service DePIN platform, ICN enables hardware providers to contribute resources and service providers to access them using the native token ICNT. The network supports real-world enterprise use cases and is designed to offer high performance, security, and censorship resistance. ICNT is used for collateral by node operators, access to resources by service providers, and staking by the community to secure and participate in the protocol."
+  },
+  "links": {
+    "homepage": [
+      "https://www.icn.global/"
+    ],
+    "whitepaper": "https://console.impossiblecloud.com/static/icn/whitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xe5e0b73380181273abCfD88695F52C4D0C825661",
+      "https://basescan.org/address/0x0570b3Bd42eb104B3ef669643B68eB4B4B7185BC#code",
+      "https://basescan.org/address/0xd39DC81249D20C35a1122Ea46BF0E4BB2456f58A#code",
+      "https://sepolia.etherscan.io/token/0x806ABB5db920aF053530e81E12cB7569c117B6e1",
+      "https://ethplorer.io/address/0xe5e0b73380181273abCfD88695F52C4D0C825661",
+      "https://basescan.org/token/0xe0cd4cacddcbf4f36e845407ce53e87717b6601d"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/icn-protocol"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ICN_Protocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "ICN_Protocol",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55484/thumb/ICNT_token_%281%29_%281%29.png?1751614146",
+    "small": "https://coin-images.coingecko.com/coins/images/55484/small/ICNT_token_%281%29_%281%29.png?1751614146",
+    "large": "https://coin-images.coingecko.com/coins/images/55484/large/ICNT_token_%281%29_%281%29.png?1751614146"
+  },
+  "last_updated": "2025-07-11T04:58:48.964423+00:00"
+}

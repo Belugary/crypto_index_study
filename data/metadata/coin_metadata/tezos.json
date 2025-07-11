@@ -1,0 +1,69 @@
+{
+  "id": "tezos",
+  "symbol": "xtz",
+  "name": "Tezos",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Tezos Ecosystem",
+    "Proof of Stake (PoS)",
+    "GMCI Layer 1 Index",
+    "GMCI Index",
+    "Polychain Capital Portfolio",
+    "Made in USA",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Proof of Stake",
+  "genesis_date": null,
+  "country_origin": "US",
+  "description": {
+    "en": "What Is Tezos (XTZ)?\r\n\r\n\r\nTezos is a high-performing blockchain and open-source platform for assets and applications, with a strong focus on code security, on-chain governance, and decentralization. Tezos 2.0, the upcoming step in the evolution of Tezos, aims to improve scalability (via layer 2s), composability, and to implement support to mainstream programming languages (like Javascript, Typescript, Python, and many others).\r\n\r\n\r\nInitially built with formal verification in mind, the Tezos protocol enables builders to avoid bugs when developing smart contracts, making it particularly suited to applications that require a high degree of security and certainty.\r\n\r\n\r\nTezos’ LPoS (Liquid Proof-of-Stake) consensus mechanism enables any stakeholder to take part, directly or by delegation, in the consensus process, and to be rewarded for securing the network. Rather uniquely, Tezos’ on-chain governance system also enables stakeholders to create and vote on protocol upgrade proposals. This pioneering system allows the protocol to self-amend and upgrade itself without leading to a split (or fork) in the blockchain, empowering the community without slowing down innovation.\r\n\r\n\r\nFirst proposed in 2014 and launched in 2018, the Tezos Mainnet has a proven track record of running uninterrupted ever since, having earned a strong reputation for technical excellence and a supportive community. \r\n\r\n\r\nWho Are the Founders of Tezos?\r\nTezos was conceived by Arthur and Kathleen Breitman in a 2014 white paper under the pseudonym L.M. Goodman in a nod to Satoshi Nakamoto, referencing a journalist who had misidentified the creator of Bitcoin.\r\n\r\n\r\nIn a previous paper, the Breitmans had argued that Bitcoin's biggest shortcomings were the lack of a governance process that invited contributions from its community of users, cost and centralization issues raised by its proof-of-work system, the limited expressiveness of its programming language which didn’t allow for smart contracts, and security "
+  },
+  "links": {
+    "homepage": [
+      "https://www.tezos.com/",
+      "https://tezos.foundation/",
+      "https://wallet.kukai.app/"
+    ],
+    "whitepaper": "https://tezos.com/whitepaper.pdf",
+    "blockchain_site": [
+      "https://tzstats.com/",
+      "https://teztracker.com/en/mainnet/",
+      "https://tezblock.io",
+      "https://tzkt.io"
+    ],
+    "official_forum_url": [
+      "https://forum.tezosagora.org/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/yXaPy6s5Nr"
+    ],
+    "announcement_url": [
+      "https://templewallet.com/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "tezos",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/tezos",
+    "repos_url": {
+      "github": [
+        "https://github.com/tezos/tezos-mirror",
+        "https://github.com/tezos/tezos"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/976/thumb/Tezos-logo.png?1696502091",
+    "small": "https://coin-images.coingecko.com/coins/images/976/small/Tezos-logo.png?1696502091",
+    "large": "https://coin-images.coingecko.com/coins/images/976/large/Tezos-logo.png?1696502091"
+  },
+  "last_updated": "2025-07-11T05:01:17.003433+00:00"
+}

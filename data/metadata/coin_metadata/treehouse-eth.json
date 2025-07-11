@@ -1,0 +1,60 @@
+{
+  "id": "treehouse-eth",
+  "symbol": "teth",
+  "name": "Treehouse ETH",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Arbitrum Ecosystem",
+    "Liquid Staking Tokens",
+    "Ethereum Ecosystem",
+    "Liquid Staked ETH",
+    "Liquid Staking"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xd11c452fc99cf405034ee446803b6f6c1f6d5ed8",
+    "arbitrum-one": "0xd09acb80c1e8f2291862c4978a008791c9167003"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "tETH is a liquid staking token (LST) that converges the fragmented on-chain ETH interest rates market. Holders of tETH earn real yield in excess of Ethereum’s Proof-of-Stake (PoS) rewards through interest rate arbitrage while still being able to use tETH for DeFi activities. tETH is also foundational to supporting the eventual implementation of Treehouse’s Decentralized Offered Rates (DOR) consensus mechanism as well as the Treehouse Actively Validated Service (AVS)."
+  },
+  "links": {
+    "homepage": [
+      "https://www.treehouse.finance/",
+      "https://docs.treehouse.finance/protocol"
+    ],
+    "whitepaper": "https://www.treehouse.finance/tAsset_Whitepaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xd11c452fc99cf405034ee446803b6f6c1f6d5ed8",
+      "https://platform.arkhamintelligence.com/explorer/token/treehouse-eth",
+      "https://ethplorer.io/address/0xd11c452fc99cf405034ee446803b6f6c1f6d5ed8",
+      "https://arbiscan.io/token/0xd09acb80c1e8f2291862c4978a008791c9167003"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/treehousefi",
+      "https://treehouse.finance/blog"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "TreehouseFi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/40155/thumb/tETH_Logo_%28Color__No_Background%29.png?1748368386",
+    "small": "https://coin-images.coingecko.com/coins/images/40155/small/tETH_Logo_%28Color__No_Background%29.png?1748368386",
+    "large": "https://coin-images.coingecko.com/coins/images/40155/large/tETH_Logo_%28Color__No_Background%29.png?1748368386"
+  },
+  "last_updated": "2025-07-11T05:01:24.680102+00:00"
+}

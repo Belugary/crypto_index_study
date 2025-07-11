@@ -1,0 +1,68 @@
+{
+  "id": "ignition-fbtc",
+  "symbol": "fbtc",
+  "name": "Function ƒBTC",
+  "categories": [
+    "Crypto-Backed Tokens",
+    "BNB Chain Ecosystem",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Mantle Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xc96de26018a54d51c097160568752c4e3bd6c364",
+    "mantle": "0xc96de26018a54d51c097160568752c4e3bd6c364",
+    "bob-network": "0xc96de26018a54d51c097160568752c4e3bd6c364",
+    "arbitrum-one": "0xc96de26018a54d51c097160568752c4e3bd6c364",
+    "binance-smart-chain": "0xc96de26018a54d51c097160568752c4e3bd6c364"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Ignition — Liberating the Growth Power of Bitcoin\r\nIgnition is dedicated to liberating the growth power of Bitcoin, allowing it to thrive across all blockchains. Supported by core contributors Mantle and Antalpha Prime, Ignition is paving the way for a low-friction and interoperable future. It extends Bitcoin’s functionality beyond its traditional role as a store of value, and transforms it into a reliable asset for cross-chain integrations and diverse yield opportunities.\r\n\r\nFBTC — Earn more yield than ever on your idle Bitcoin\r\nIgnition introduces $FBTC, an omnichain Bitcoin asset pegged 1:1 to $BTC, aimed at elevating Bitcoin’s accessibility and utility. As a secure, decentralized, and composable liquid Bitcoin asset with deep liquidity, $FBTC can be used at scale and easily integrated into various yield enhancement strategies like liquidity pooling, collateral, and staking.\r\n\r\nUnder Ignition, $FBTC's growth will be driven by a comprehensive roadmap and strong developer support, ensuring its long-term success and sustainable growth."
+  },
+  "links": {
+    "homepage": [
+      "https://www.fxn.xyz/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xc96de26018a54d51c097160568752c4e3bd6c364",
+      "https://platform.arkhamintelligence.com/explorer/token/ignition-fbtc",
+      "https://ethplorer.io/address/0xc96de26018a54d51c097160568752c4e3bd6c364",
+      "https://explorer.mantle.xyz/token/0xc96de26018a54d51c097160568752c4e3bd6c364",
+      "https://mantlescan.xyz/token/0xc96de26018a54d51c097160568752c4e3bd6c364",
+      "https://bscscan.com/token/0xc96de26018a54d51c097160568752c4e3bd6c364",
+      "https://binplorer.com/address/0xc96de26018a54d51c097160568752c4e3bd6c364",
+      "https://arbiscan.io/token/0xc96de26018a54d51c097160568752c4e3bd6c364",
+      "https://explorer.gobob.xyz/token/0xC96dE26018A54D51c097160568752c4E3BD6C364"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/functionbtc",
+      "https://medium.com/@FunctionBTC"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "FunctionBTC",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/fbtc-xyz/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39182/thumb/fbtc.png?1740123952",
+    "small": "https://coin-images.coingecko.com/coins/images/39182/small/fbtc.png?1740123952",
+    "large": "https://coin-images.coingecko.com/coins/images/39182/large/fbtc.png?1740123952"
+  },
+  "last_updated": "2025-07-11T04:58:47.325790+00:00"
+}

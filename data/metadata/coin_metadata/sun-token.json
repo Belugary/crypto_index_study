@@ -1,0 +1,49 @@
+{
+  "id": "sun-token",
+  "symbol": "sun",
+  "name": "Sun Token",
+  "categories": [
+    "Decentralized Finance (DeFi)",
+    "Tron Ecosystem"
+  ],
+  "asset_platform_id": "tron",
+  "platforms": {
+    "tron": "TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "US",
+  "description": {
+    "en": "The SUN.io platform is TRON's first one-stop platform that supports stablecoin swap, token mining and self-governance. After the redenomination, the new SUN token, as a multifunctional governance token on the SUN platform (similar to the CRV token of Curve DAO and the EPS token of Ellipsis), will grant token holders various rights and benefits such as the voting and governance right in the community, value capture, staking rewards, etc.."
+  },
+  "links": {
+    "homepage": [
+      "https://sun.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://tronscan.org/#/token20/tssmhyev2ue9qyh95dqyocunczel1nvu3s",
+      "https://platform.arkhamintelligence.com/explorer/token/sun-token"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "defi_sunio",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "SunIO_Defi",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/12424/thumb/RSFOmQ.png?1696512245",
+    "small": "https://coin-images.coingecko.com/coins/images/12424/small/RSFOmQ.png?1696512245",
+    "large": "https://coin-images.coingecko.com/coins/images/12424/large/RSFOmQ.png?1696512245"
+  },
+  "last_updated": "2025-07-11T05:01:03.755832+00:00"
+}

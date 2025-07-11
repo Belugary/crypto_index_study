@@ -1,0 +1,58 @@
+{
+  "id": "vana",
+  "symbol": "vana",
+  "name": "Vana",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Paradigm Portfolio",
+    "Coinbase Ventures Portfolio",
+    "DeFiance Capital Portfolio",
+    "Polychain Capital Portfolio",
+    "Vana Ecosystem"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Vana is an EVM-compatible Layer 1 blockchain network that enables users to transform personal data into financial assets by aggregating private datasets for AI model training. This approach allows individuals to tokenize and monetize their data through Data Decentralized Autonomous Organizations (Data DAOs), granting them ownership and control over their digital footprints. \r\nVANA DOCS\r\n\r\nKey Features of Vana:\r\n\r\nData Liquidity Pools (DLPs): Vana introduces Data Liquidity Pools, where users can contribute data, which is then validated and tokenized. These pools facilitate the creation of data tokens, representing ownership and value of the contributed data. \r\nVANA DOCS\r\n\r\nProof of Contribution: To ensure data quality and integrity, Vana employs a Proof-of-Contribution system. This mechanism validates data submissions, ensuring they meet the standards required by the network. \r\nVANA DOCS\r\n\r\nIncentive Structures: Participants in the Vana ecosystem, including data contributors, validators, and DLP creators, are rewarded with $VANA tokens. This incentivizes active participation and the provision of high-quality data. \r\nVANA DOCS"
+  },
+  "links": {
+    "homepage": [
+      "https://www.vana.org/"
+    ],
+    "whitepaper": "https://docs.vana.org/docs/home",
+    "blockchain_site": [
+      "https://vanascan.io/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/withvan"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "vana",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/vana-com"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/51404/thumb/logo.png?1731086679",
+    "small": "https://coin-images.coingecko.com/coins/images/51404/small/logo.png?1731086679",
+    "large": "https://coin-images.coingecko.com/coins/images/51404/large/logo.png?1731086679"
+  },
+  "last_updated": "2025-07-11T05:01:40.859913+00:00"
+}

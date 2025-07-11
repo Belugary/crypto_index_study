@@ -1,0 +1,57 @@
+{
+  "id": "superstate-short-duration-us-government-securities-fund-ustb",
+  "symbol": "ustb",
+  "name": "Superstate Short Duration U.S. Government Securities Fund (USTB)",
+  "categories": [
+    "Tokenized Assets",
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "Tokenized Treasury Bills (T-Bills)",
+    "Plume Network Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x43415eb6ff9db7e26a15b704e7a3edce97d31c4e",
+    "plume-network": "0xe4fa682f94610ccd170680cc3b045d77d9e528a8"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "USTB’s innovative structure and partnership with established service providers breaks new ground in the private funds space.\r\n\r\nThe fund invests in short duration U.S. Treasury and U.S. Agency securities, targeting the federal funds rate, with a 0.15% management fee.1\r\n\r\nAccepted U.S. Qualified Purchasers are able to subscribe to and redeem from the Fund using USDC2 at a daily NAV which is calculated by NAV Consulting. USTB’s Ethereum-based Allowlist enables on-chain ownership, transfer, and compliance. Additionally in the future, it is likely that peer-to-peer transactions will be possible, subject to applicable restrictions.\r\n\r\nThe Fund’s flexibility carries through to custody; investors can self-custody USTB in the on-chain addresses of their choice, such as an EOA, multi-sig, or MPC wallet. Additionally, investors can choose to utilize Anchorage Digital Bank National Association, a custodian and federally chartered bank, or BitGo, a qualified custodian and New York state chartered trust.\r\n\r\nSuperstate, an Exempt Reporting Adviser, serves as the Fund’s investment manager, with Federated Hermes serving as the Fund’s sub-advisor. USTB is a series of a Delaware Trust, which is legally separate from Superstate. For more Fund details, please consult the USTB information page.\r\n\r\nUSTB marks the start of our mission to tokenize the world’s assets. We’re committed to developing regulated, modern investing products that enhance investment opportunities for institutions, and, ultimately, all investors."
+  },
+  "links": {
+    "homepage": [
+      "https://superstate.co/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x43415eb6ff9db7e26a15b704e7a3edce97d31c4e",
+      "https://platform.arkhamintelligence.com/explorer/token/superstate-short-duration-us-government-securities-fund-ustb",
+      "https://ethplorer.io/address/0x43415eb6ff9db7e26a15b704e7a3edce97d31c4e",
+      "https://explorer.plume.org/token/0xe4fa682f94610ccd170680cc3b045d77d9e528a8"
+    ],
+    "official_forum_url": [
+      "https://superstate.co/blog"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "superstatefunds",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/35012/thumb/ustb.jpeg?1707102680",
+    "small": "https://coin-images.coingecko.com/coins/images/35012/small/ustb.jpeg?1707102680",
+    "large": "https://coin-images.coingecko.com/coins/images/35012/large/ustb.jpeg?1707102680"
+  },
+  "last_updated": "2025-07-11T05:01:05.997279+00:00"
+}

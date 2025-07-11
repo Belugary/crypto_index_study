@@ -1,0 +1,58 @@
+{
+  "id": "wrapped-fragsol",
+  "symbol": "wfragsol",
+  "name": "Wrapped fragSOL",
+  "categories": [
+    "Wrapped-Tokens",
+    "Solana Ecosystem"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "WFRGSWjaz8tbAxsJitmbfRuFV2mSNwy7BMWcCwaA28U"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "Fragmetric is a native liquid (re)staking station on Solana that aims to improve the economic potential and security of the Solana ecosystem. Fragmetric succeeded in carrying out NCN reward distribution by utilizing Solana's token extension. Additionally, Fragmetric created useful solutions, such as the Normalized Token Program, for utilizing various LSTs in restaking platforms. The goal of Fragmetric is to create a safe, open, and incredibly effective restaking system that empowers users and supports the stability of the Solana restaking ecosystem."
+  },
+  "links": {
+    "homepage": [
+      "https://fragmetric.xyz",
+      "https://app.fragmetric.xyz",
+      "https://blog.fragmetric.xyz"
+    ],
+    "whitepaper": "https://docs.fragmetric.xyz",
+    "blockchain_site": [
+      "https://solscan.io/token/WFRGSWjaz8tbAxsJitmbfRuFV2mSNwy7BMWcCwaA28U",
+      "https://explorer.solana.com/address/WFRGSWjaz8tbAxsJitmbfRuFV2mSNwy7BMWcCwaA28U",
+      "https://solana.fm/address/WFRGSWjaz8tbAxsJitmbfRuFV2mSNwy7BMWcCwaA28U/transactions?cluster=mainnet-alpha",
+      "https://solanabeach.io/address/WFRGSWjaz8tbAxsJitmbfRuFV2mSNwy7BMWcCwaA28U",
+      "https://xray.helius.dev/address/WFRGSWjaz8tbAxsJitmbfRuFV2mSNwy7BMWcCwaA28U/history?cluster=mainnet-beta&page=1"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/fragmetric"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "fragmetric",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [
+        "https://github.com/fragmetric-labs"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54574/thumb/wfragSOL.png?1740494202",
+    "small": "https://coin-images.coingecko.com/coins/images/54574/small/wfragSOL.png?1740494202",
+    "large": "https://coin-images.coingecko.com/coins/images/54574/large/wfragSOL.png?1740494202"
+  },
+  "last_updated": "2025-07-11T05:02:00.021170+00:00"
+}

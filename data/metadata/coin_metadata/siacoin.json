@@ -1,0 +1,58 @@
+{
+  "id": "siacoin",
+  "symbol": "sc",
+  "name": "Siacoin",
+  "categories": [
+    "Smart Contract Platform",
+    "Storage",
+    "DePIN",
+    "Paradigm Portfolio",
+    "Proof of Work (PoW)",
+    "DragonFly Capital Portfolio",
+    "Made in USA"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 10,
+  "hashing_algorithm": "Blake2b",
+  "genesis_date": "2015-06-06",
+  "country_origin": "US",
+  "description": {
+    "en": "Sia is a decentralized cloud storage platform similar in concept to Dropbox and other centralized storage provider where instead of renting storage space from a centralized entity, clients rent storage space from other peers. The only difference is Sia uses blockchain to facilitate transactions Nodes provide storage to clients using the Sia blockchain as contracts. Before storing the data, the data is encrypted into many pieces and uploaded to different hosts. \r\n\r\nSiacoin is created by David Vorick and Luke Champine of Nebulous Inc. As the traditional storage platforms are higher in cost, more expensive and data is not well protected. Siacoin promises to offer secured storage transactions with smart contracts which is more affordable and reliable. Moreover, it is completely open source which means many individuals have contributed to Siacoin’s software hence there will be an active community building innovative applications on top if the Sia API. \r\n\r\nIn 2018, Siacoin aims to introduce file sharing and be the go-to cloud storage platform for companies. Their goal is divided into 3 time frames which are short-term, medium-term and long-term development. Short-term development focuses on file sharing between Sia users. This allows Sia users to share files in the platform without having to take it off the cloud while increasing network utilization. Medium-term development’s goal is to enhance partnerships. This means reaching out to large companies like Netflix and Dropbox to hopefully be able to be their storage and distribution framework. Lastly, long-term development aims to expand its horizon to share files with non-Sia users and support mobile wallets. "
+  },
+  "links": {
+    "homepage": [
+      "https://sia.tech/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://siascan.com/",
+      "https://sc.tokenview.io/"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://twitter.com/sia__foundation"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "sia__foundation",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": 1060294,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/siacoin",
+    "repos_url": {
+      "github": [
+        "https://github.com/SiaFoundation"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/289/thumb/siacoin.png?1696501638",
+    "small": "https://coin-images.coingecko.com/coins/images/289/small/siacoin.png?1696501638",
+    "large": "https://coin-images.coingecko.com/coins/images/289/large/siacoin.png?1696501638"
+  },
+  "last_updated": "2025-07-11T05:00:38.703358+00:00"
+}

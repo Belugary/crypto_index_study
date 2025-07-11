@@ -1,0 +1,59 @@
+{
+  "id": "origintrail",
+  "symbol": "trac",
+  "name": "OriginTrail",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Polkadot Ecosystem",
+    "Metaverse",
+    "Ethereum Ecosystem",
+    "Interoperability",
+    "Real World Assets (RWA)",
+    "DePIN",
+    "Decentralized Science (DeSci)",
+    "AI Agents"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2018-01-24",
+  "country_origin": "SI",
+  "description": {
+    "en": "What is OriginTrail (TRAC)?\r\nOriginTrail is an ecosystem building a trusted knowledge infrastructure for artificial intelligence (AI). It addresses the challenge of misinformation in the AI era by ensuring the origin of information and enabling discoverability of the world's most important knowledge and real-world assets (RWAs).\r\nOriginTrail is creating a verifiable Internet for decentralized AI by empowering world-class brands and builders. It utilizes its unique Decentralized Knowledge Graph and  NeuroWeb blockchain to deliver AI-powered search and solutions for enterprises and individuals worldwide.\r\nOriginTrail has gained support and partnerships with world-class organizations such as British Standards Institution, SCAN, Polkadot, Parity, Walmart, World Federation of Hemophilia, Oracle, the EU Commission's Next Generation Internet, and Microsoft Entrepreneurship for Positive Impact. These partnerships contribute to advancing OriginTrail's trusted knowledge foundation and its applicability in trillion-dollar industries, while providing a verifiable Internet of knowledge important in particular to drive the economies of RWAs.\r\nThe best way to see the technology in action is by checking ChatDKG,  an experimental, question-answering bot on X (Twitter) based on trusted Knowledge Assets in OriginTrail Decentralized Knowledge Graph (DKG). The ChatDKG provides answers based on OriginTrail trusted AI.\r\nThe Metcalfe phase of OriginTrail’s roadmap pursues an ambitious goal of creating the world’s largest verifiable Internet for AI, consisting of 100 billion Knowledge Assets, bringing a 100,000x scalability increase. As the name of the phase suggests, it seeks to produce network effects across the OriginTrail DKG and use novel techniques to pursue autonomous DKG growth based on the Genesis knowledge foundation being created by organizations and individuals alike. The Genesis part of the Metcalfe’s phase also introduces knowledge mining and knowledge signaling capabilities to drive constant growth of the verifiable Internet.\r\nFollowing the Genesis stage and the transition to an AI-native V8, further capabilities will become available in the Convergence stage. By leveraging the advancements in AI and the DKG, we will unlock autonomous knowledge mining which in turn leads to an autonomous DKG. At that stage, new knowledge gets added to the DKG with very limited human involvement. Services such as AI agents will be performing knowledge inferencing directly on the DKG to find any “blind spots” in the knowledge they can fill as well as search for new knowledge and bring it to the DKG in accordance with knowledge signaling.\r\n\r\nWho are the founders of OriginTrail?\r\nThe founders of OriginTrail, Žiga Drev, Tomaž Levak, and Branimir Rakić, established OriginTrail with a vision to build and implement a Decentralized Knowledge Graph (DKG)—an infrastructure designed to bring trusted knowledge sharing to enterprises and individuals across the globe. Their mission was to address the growing need for verifiable, transparent, and decentralized data in an increasingly complex digital world. This vision has led to adoption by major institutions, including the British Standards Institution (BSI), the Supplier Compliance Audit Network (SCAN), Swiss Federal Railways (SBB), World Federation of Hemophilia (WFH), and numerous EU and UK government-backed projects.\r\nGuided by principles of neutrality, inclusiveness, and usability, the founders spearheaded partnerships with leading technology companies and initiated a grant program to minimize development risks and foster community growth within the OriginTrail ecosystem.\r\nAs part of their ongoing mission to tackle AI-era challenges—such as misinformation, deepfakes, and data manipulation—Trace Labs, the core developers behind OriginTrail, became a founding shareholder in Umanitek. Umanitek builds on the symbolic-AI foundation of the DKG to ensure information trust, defend data ownership, and uphold censorship-resistant digital infrastructure"
+  },
+  "links": {
+    "homepage": [
+      "https://origintrail.io/"
+    ],
+    "whitepaper": "https://origintrail.io/ecosystem/whitepaper",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f",
+      "https://platform.arkhamintelligence.com/explorer/token/origintrail",
+      "https://ethplorer.io/address/0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "origin_trail",
+    "facebook_username": "origintrail",
+    "bitcointalk_thread_identifier": 2436140,
+    "telegram_channel_identifier": "origintrail",
+    "subreddit_url": "https://www.reddit.com/r/origintrail",
+    "repos_url": {
+      "github": [
+        "https://github.com/OriginTrail/ot-node"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/1877/thumb/TRAC.jpg?1696502873",
+    "small": "https://coin-images.coingecko.com/coins/images/1877/small/TRAC.jpg?1696502873",
+    "large": "https://coin-images.coingecko.com/coins/images/1877/large/TRAC.jpg?1696502873"
+  },
+  "last_updated": "2025-07-11T04:59:55.696036+00:00"
+}

@@ -1,0 +1,97 @@
+{
+  "id": "matic-network",
+  "symbol": "matic",
+  "name": "Polygon",
+  "categories": [
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Polygon Ecosystem",
+    "Harmony Ecosystem",
+    "Moonriver Ecosystem",
+    "Moonbeam Ecosystem",
+    "Ethereum Ecosystem",
+    "Layer 2 (L2)",
+    "Zero Knowledge (ZK)",
+    "Animoca Brands Portfolio",
+    "Alleged SEC Securities",
+    "Binance Launchpad",
+    "FTX Holdings",
+    "Coinbase Ventures Portfolio",
+    "Rollup",
+    "Proof of Stake (PoS)",
+    "Alameda Research Portfolio",
+    "DragonFly Capital Portfolio",
+    "Energi Ecosystem",
+    "Sora Ecosystem",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "GMCI Layer 2 Index",
+    "GMCI 30 Index",
+    "Galaxy Digital Portfolio",
+    "GMCI Index",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
+    "moonriver": "0x682f81e57eaa716504090c3ecba8595fb54561d8",
+    "harmony-shard-0": "0x301259f392b551ca8c592c9f676fcd2f9a0a84c5",
+    "moonbeam": "0x3405a1bd46b85c5c029483fbecf2f3e611026e45",
+    "energi": "0x98997e1651919faeacee7b96afbb3dfd96cb6036",
+    "sora": "0x009134d5c7b7fda8863985531f456f89bef5fbd76684a8acdb737b3e451d0877",
+    "binance-smart-chain": "0xcc42724c6683b7e57334c4e856f4c9965ed682bd"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "IN",
+  "description": {
+    "en": "Polygon (Previously Matic Network) is the first well-structured, easy-to-use platform for Ethereum scaling and infrastructure development. Its core component is Polygon SDK, a modular, flexible framework that supports building multiple types of applications.\r\n\r\nUsing Polygon, one can create Optimistic Rollup chains, ZK Rollup chains, stand alone chains or any other kind of infra required by the developer. \r\n\r\nPolygon effectively transforms Ethereum into a full-fledged multi-chain system (aka Internet of Blockchains). This multi-chain system is akin to other ones such as Polkadot, Cosmos, Avalanche etc with the advantages of Ethereum’s security, vibrant ecosystem and openness.\r\n\r\nNothing will change for the existing ecosystem built on the Plasma-POS chain. With Polygon, new features are being built around the existing proven technology to expand the ability to cater to diverse needs from the developer ecosystem. Polygon will continue to develop the core technology so that it can scale to a larger ecosystem. \r\n\r\nThe $MATIC token will continue to exist and will play an increasingly important role, securing the system and enabling governance."
+  },
+  "links": {
+    "homepage": [
+      "https://polygon.technology/",
+      "https://blog.polygon.technology/"
+    ],
+    "whitepaper": "https://polygon.technology/lightpaper-polygon.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
+      "https://platform.arkhamintelligence.com/explorer/token/matic-network",
+      "https://ethplorer.io/address/0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
+      "https://polygonscan.com/token/0x0000000000000000000000000000000000001010",
+      "https://bscscan.com/token/0xcc42724c6683b7e57334c4e856f4c9965ed682bd",
+      "https://moonriver.moonscan.io/token/0x682f81e57eaa716504090c3ecba8595fb54561d8",
+      "https://moonbeam.moonscan.io/token/0x3405a1bd46b85c5c029483fbecf2f3e611026e45",
+      "https://explorer.energi.network/token/0x98997e1651919faeacee7b96afbb3dfd96cb6036",
+      "https://www.oklink.com/polygon",
+      "https://3xpl.com/polygon"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/XvpHAxZ",
+      "https://t.me/PolygonAnnouncements"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "0xPolygon",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "polygonofficial",
+    "subreddit_url": "https://www.reddit.com/r/maticnetwork/",
+    "repos_url": {
+      "github": [
+        "https://github.com/maticnetwork/contracts",
+        "https://github.com/maticnetwork/heimdall",
+        "https://github.com/maticnetwork/matic.js",
+        "https://github.com/maticnetwork/eth-dagger.js",
+        "https://github.com/maticnetwork/sol-trace"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/4713/thumb/polygon.png?1698233745",
+    "small": "https://coin-images.coingecko.com/coins/images/4713/small/polygon.png?1698233745",
+    "large": "https://coin-images.coingecko.com/coins/images/4713/large/polygon.png?1698233745"
+  },
+  "last_updated": "2025-07-11T04:59:24.977487+00:00"
+}

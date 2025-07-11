@@ -1,0 +1,52 @@
+{
+  "id": "moo-deng",
+  "symbol": "moodeng",
+  "name": "Moo Deng",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Solana Meme",
+    "Pump.fun Ecosystem",
+    "Zoo-Themed",
+    "Binance Alpha Spotlight",
+    "TikTok Meme"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "ED5nyyWEzpPPiWimP8vYm7sD7TD3LAt3Q3gRTWHzPJBY"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/ED5nyyWEzpPPiWimP8vYm7sD7TD3LAt3Q3gRTWHzPJBY",
+      "https://platform.arkhamintelligence.com/explorer/token/moo-deng"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "MooDengSOL",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/50264/thumb/MOODENG.jpg?1726726975",
+    "small": "https://coin-images.coingecko.com/coins/images/50264/small/MOODENG.jpg?1726726975",
+    "large": "https://coin-images.coingecko.com/coins/images/50264/large/MOODENG.jpg?1726726975"
+  },
+  "last_updated": "2025-07-11T04:59:32.167020+00:00"
+}

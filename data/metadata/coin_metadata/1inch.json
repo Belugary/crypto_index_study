@@ -1,0 +1,92 @@
+{
+  "id": "1inch",
+  "symbol": "1inch",
+  "name": "1inch",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Exchange-based Tokens",
+    "Decentralized Finance (DeFi)",
+    "Automated Market Maker (AMM)",
+    "BNB Chain Ecosystem",
+    "Avalanche Ecosystem",
+    "Polygon Ecosystem",
+    "Near Protocol Ecosystem",
+    "Harmony Ecosystem",
+    "Ethereum Ecosystem",
+    "FTX Holdings",
+    "Alameda Research Portfolio",
+    "DragonFly Capital Portfolio",
+    "Pantera Capital Portfolio",
+    "Energi Ecosystem",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "GMCI DeFi Index",
+    "Galaxy Digital Portfolio",
+    "Blockchain Capital Portfolio",
+    "Dex Aggregator",
+    "GMCI Index",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x111111111117dc0aa78b770fa6a738034120c302",
+    "near-protocol": "111111111117dc0aa78b770fa6a738034120c302.factory.bridge.near",
+    "harmony-shard-0": "0x58f1b044d8308812881a1433d9bbeff99975e70c",
+    "energi": "0xdda6205dc3f47e5280eb726613b27374eee9d130",
+    "binance-smart-chain": "0x111111111117dc0aa78b770fa6a738034120c302",
+    "avalanche": "0xd501281565bf7789224523144fe5d98e8b28f267",
+    "polygon-pos": "0x9c2c5fd7b07e95ee044ddeba0e97a665f142394f"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "\"What is 1inch Network?\r\n1inch Network is a decentralized exchange (DEX) aggregator to help users discover the best trade prices for tokens. Instead of swapping tokens from a single liquidity pool of a DEX, 1inch will aggregate across different pools and suggest the most efficient way to trade tokens.\r\n\r\nWhy use 1inch?\r\nIf you are a trader trading large amount of tokens, you may not be aware of all the availability liquidity across different DEXes in order to get the best price quote. Price quote offered by DEX fluctuates according to the liquidity pool at any given time. Also, when you are trading large size, every percentage of savings can be magnified with an optimal trading path. 1inch aims to solve all that in a single user friendly interface.\r\n\r\nWhat is Pathfinder?\r\nPathfinder is the discovery and routing algorithm developed by the 1inch team. It is the algorithm the powers the backend to finding the most efficient route to swap a token. For example, if a user wants to sell ETH for WBTC, Pathfinder will explore all DEXes such as Uniswap, Curve, Balancer, DODO, Sushiswap, and more. The result is a recommended route that optimizes fees and liquidity in order to give users the best rate. Users no longer need to check each individual services in order to find the best price.\r\n\r\nWho are the creators of 1inch?\r\n1inch was founded by Sergej Kunz and Anton Bukov. The idea for 1inch was developed at a hackathon in just over 60 hours at New York City. Fast forward today, it is one of the fastest growing DeFi product.\""
+  },
+  "links": {
+    "homepage": [
+      "https://1inch.io/",
+      "https://app.1inch.io/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x111111111117dc0aa78b770fa6a738034120c302",
+      "https://platform.arkhamintelligence.com/explorer/token/1inch",
+      "https://ethplorer.io/address/0x111111111117dc0aa78b770fa6a738034120c302",
+      "https://bscscan.com/token/0x111111111117dc0aa78b770fa6a738034120c302",
+      "https://polygonscan.com/token/0x9c2c5fd7b07e95ee044ddeba0e97a665f142394f",
+      "https://snowtrace.io/token/0xd501281565bf7789224523144fe5d98e8b28f267",
+      "https://avascan.info/blockchain/c/address/0xd501281565bf7789224523144fe5d98e8b28f267/token",
+      "https://explorer.energi.network/token/0xdda6205dc3f47e5280eb726613b27374eee9d130",
+      "https://nearblocks.io/token/111111111117dc0aa78b770fa6a738034120c302.factory.bridge.near",
+      "https://binplorer.com/address/0x111111111117dc0aa78b770fa6a738034120c302"
+    ],
+    "official_forum_url": [
+      "https://www.youtube.com/channel/UCk0nvK4bHpteQXZKv7lkq5w"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/1inch"
+    ],
+    "announcement_url": [
+      "https://blog.1inch.io/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "1inch",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "OneInchNetwork",
+    "subreddit_url": "https://www.reddit.com/r/1inch/",
+    "repos_url": {
+      "github": [
+        "https://github.com/1inch"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/13469/thumb/1inch-token.png?1696513230",
+    "small": "https://coin-images.coingecko.com/coins/images/13469/small/1inch-token.png?1696513230",
+    "large": "https://coin-images.coingecko.com/coins/images/13469/large/1inch-token.png?1696513230"
+  },
+  "last_updated": "2025-07-11T04:56:38.430125+00:00"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "fartcoin",
+  "symbol": "fartcoin",
+  "name": "Fartcoin",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Solana Meme",
+    "AI Meme",
+    "Pump.fun Ecosystem",
+    "Terminal of Truths",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Fartcoin is a meme-driven cryptocurrency where users can submit their best fart jokes or memes to earn initial tokens. Each transaction triggers a hilarious 'Gas Fee' effect, complete with a digital fart sound for maximum comedic impact."
+  },
+  "links": {
+    "homepage": [
+      "https://www.infinitebackrooms.com/dreams/conversation-1721540624-scenario-terminal-of-truths-txt"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+      "https://platform.arkhamintelligence.com/explorer/token/fartcoin"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "FartCoinOfSOL",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/50891/thumb/fart.jpg?1729503972",
+    "small": "https://coin-images.coingecko.com/coins/images/50891/small/fart.jpg?1729503972",
+    "large": "https://coin-images.coingecko.com/coins/images/50891/large/fart.jpg?1729503972"
+  },
+  "last_updated": "2025-07-11T04:58:23.126214+00:00"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "hashnote-usyc",
+  "symbol": "usyc",
+  "name": "Circle USYC",
+  "categories": [
+    "Ethereum Ecosystem",
+    "Real World Assets (RWA)",
+    "US Treasury-backed Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x136471a34f6ef19fe571effc1ca711fdb8e49f2b"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": null,
+  "description": {
+    "en": "USYC: Tokenized Money Market Fund\r\n\r\nHashnote International Short Duration Yield Fund Ltd. invests in short-term U.S. Treasury Bills and performs repo/reverse repo activities as the underlying asset of the USYC token.\r\n\r\nUSYC earns short-term Fed rate returns. Tokenization enables the fund to deliver rapid transactions, onchain transparency, and seamless composability—while maintaining strong controls across regulatory and credit dimensions.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://usyc.hashnote.com/",
+      "https://www.circle.com/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x136471a34f6ef19fe571effc1ca711fdb8e49f2b",
+      "https://platform.arkhamintelligence.com/explorer/token/hashnote-usyc",
+      "https://ethplorer.io/address/0x136471a34f6ef19fE571EFFC1CA711fdb8E49f2b"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Hashnote_Labs",
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": null,
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/51054/thumb/Hashnote_SDYC_200x200.png?1730370965",
+    "small": "https://coin-images.coingecko.com/coins/images/51054/small/Hashnote_SDYC_200x200.png?1730370965",
+    "large": "https://coin-images.coingecko.com/coins/images/51054/large/Hashnote_SDYC_200x200.png?1730370965"
+  },
+  "last_updated": "2025-07-11T04:58:40.411455+00:00"
+}

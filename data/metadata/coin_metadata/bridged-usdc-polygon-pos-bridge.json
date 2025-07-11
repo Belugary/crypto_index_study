@@ -1,0 +1,59 @@
+{
+  "id": "bridged-usdc-polygon-pos-bridge",
+  "symbol": "usdc.e",
+  "name": "Bridged USDC (Polygon PoS Bridge)",
+  "categories": [
+    "USD Stablecoin",
+    "Polygon Ecosystem",
+    "Bridged USDC",
+    "Fiat-backed Stablecoin",
+    "Bridged-Tokens",
+    "Bridged Stablecoin"
+  ],
+  "asset_platform_id": "polygon-pos",
+  "platforms": {
+    "polygon-pos": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "US",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.circle.com/en/usdc"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://polygonscan.com/token/0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+      "https://platform.arkhamintelligence.com/explorer/token/bridged-usdc-polygon-pos-bridge"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/buildoncircle"
+    ],
+    "announcement_url": [
+      "https://medium.com/centre-blog"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "circle",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/centrehq/centre-tokens"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/33000/thumb/usdc.png?1700119918",
+    "small": "https://coin-images.coingecko.com/coins/images/33000/small/usdc.png?1700119918",
+    "large": "https://coin-images.coingecko.com/coins/images/33000/large/usdc.png?1700119918"
+  },
+  "last_updated": "2025-07-11T04:57:32.539626+00:00"
+}

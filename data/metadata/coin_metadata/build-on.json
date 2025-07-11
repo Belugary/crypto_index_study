@@ -1,0 +1,50 @@
+{
+  "id": "build-on",
+  "symbol": "b",
+  "name": "BUILDon",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "Meme",
+    "World Liberty Financial Portfolio"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x6bdcce4a559076e37755a78ce0c06214e59e4444"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://buildon.online/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x6bdcCe4A559076e37755a78Ce0c06214E59e4444",
+      "https://binplorer.com/address/0x6bdcCe4A559076e37755a78Ce0c06214E59e4444"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "BUILDonBsc_AI",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "BUILDonBsc_AI",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55974/thumb/T7asvmCb_400x400.jpg?1747902862",
+    "small": "https://coin-images.coingecko.com/coins/images/55974/small/T7asvmCb_400x400.jpg?1747902862",
+    "large": "https://coin-images.coingecko.com/coins/images/55974/large/T7asvmCb_400x400.jpg?1747902862"
+  },
+  "last_updated": "2025-07-11T04:57:33.637333+00:00"
+}

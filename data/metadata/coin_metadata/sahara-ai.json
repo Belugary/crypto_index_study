@@ -1,0 +1,57 @@
+{
+  "id": "sahara-ai",
+  "symbol": "sahara",
+  "name": "Sahara AI",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xfdffb411c4a70aa7c95d5c981a6fb4da867e1111",
+    "binance-smart-chain": "0xfdffb411c4a70aa7c95d5c981a6fb4da867e1111"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Sahara AI is the first full-stack, AI-native blockchain platform where anyone can create, contribute to, and monetize AI development, making the future of AI more accessible, equitable, and open to all. \r\n\r\nBuilt on the Sahara blockchain, Sahara AI’s comprehensive platform consists of a Data Services Platform for data collection, labeling and refinement, an AI Developer Platform for model creation, deployment, and orchestration, and a decentralized AI Marketplace where you can buy and sell datasets, models, agents, and compute. \r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://saharaai.com"
+    ],
+    "whitepaper": "https://saharaai.com/learn/litepaper",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xFDFfB411C4A70AA7C95D5C981a6Fb4Da867e1111",
+      "https://ethplorer.io/address/0xFDFfB411C4A70AA7C95D5C981a6Fb4Da867e1111",
+      "https://bscscan.com/token/0xfdffb411c4a70aa7c95d5c981a6fb4da867e1111",
+      "https://binplorer.com/address/0xfdffb411c4a70aa7c95d5c981a6fb4da867e1111"
+    ],
+    "official_forum_url": [
+      "https://saharaai.com/blog"
+    ],
+    "chat_url": [
+      "https://discord.gg/sahara-ai"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "SaharaLabsAI",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "saharaaiofficial",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/66681/thumb/Token_Logo_3x.png?1750362133",
+    "small": "https://coin-images.coingecko.com/coins/images/66681/small/Token_Logo_3x.png?1750362133",
+    "large": "https://coin-images.coingecko.com/coins/images/66681/large/Token_Logo_3x.png?1750362133"
+  },
+  "last_updated": "2025-07-11T05:00:33.864661+00:00"
+}

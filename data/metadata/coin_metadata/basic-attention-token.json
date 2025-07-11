@@ -1,0 +1,77 @@
+{
+  "id": "basic-attention-token",
+  "symbol": "bat",
+  "name": "Basic Attention",
+  "categories": [
+    "Solana Ecosystem",
+    "Avalanche Ecosystem",
+    "Polygon Ecosystem",
+    "Near Protocol Ecosystem",
+    "Harmony Ecosystem",
+    "Ethereum Ecosystem",
+    "Pantera Capital Portfolio",
+    "Energi Ecosystem",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x0d8775f648430679a709e98d2b0cb6250d2887ef",
+    "near-protocol": "0d8775f648430679a709e98d2b0cb6250d2887ef.factory.bridge.near",
+    "harmony-shard-0": "0x2875b4cfab0a4cc4bdc7fbdf94b6e376826a4332",
+    "energi": "0xe8ba8d7765bd33ba7ff3b19b9020c15bf14123b6",
+    "avalanche": "0x98443b96ea4b0858fdf3219cd13e98c7a4690588",
+    "polygon-pos": "0x3cef98bb43d732e2f285ee605a8158cde967d219",
+    "solana": "EPeUFDgHRxs9xxEPVaL6kfGQvCon7jmAWKVUHuux1Tpz"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": "2017-05-29",
+  "country_origin": "",
+  "description": {
+    "en": "Basic Attention Token (BAT) is an open-source, decentralized ad exchange platform built on Ethereum platform. Basic Attention Token held an initial coin offering on May 31, 2017 for its eponymous ERC-20 utility token, raising approximately $35M USD at the time in less than 30 seconds. The Basic Attention Token aims to fix digital advertising, which is broken, fraudulent and opaque. \r\n\r\nBasic Attention Token work by having advertisers pay BAT to website publishers for the attention of users. The BAT token is designed to correctly value and price user attention within the platform. The Basic Attention Token comprises various components, including attention measurement systems, analytics dashboards and machine learning algorithms. Integration of BAT into a given host application involves implementing BAT Ads, a system that matches and displays ads to users based on locally stored data. Ad targeting is performed wholly on-device, removing the need for third-party tracking. BAT is focused on the Brave browser. Brave is an open-source, privacy-centered browser designed to block trackers and malware. It utilizes blockchain technology to anonymously and securely track user attention, which translates into rewards for publishers.\r\n\r\nA user's attention, meaning his or her focused mental engagement on digital content like advertisements, is logged through Brave. The makers of BAT indicate that the user's private data and tracking information is stored only on the user's device, ensuring that it is anonymous and private.\r\n\r\nCreated back in 2016, the Basic Attention Token has one of the biggest names behind it, that of Brendan Eich, the creator of JavaScript and the legendary co-founder of Mozilla. Other noteworthy team members include Brian Bondy, lead developer and co-founder of Brave and Scott Locklin, senior engineer, and co-founder of Kerf Software.\"\r\n\r\nBasic Attention Token is created by the team that built the Brave browser, an open-source, privacy-focused browser that blocks ads and trackers. The browser measures user attention and rewards publishers for users attention. \r\n\r\nUse the Brave browser to protect your privacy and support CoinGecko at the same time: https://brave.com/coi600"
+  },
+  "links": {
+    "homepage": [
+      "https://basicattentiontoken.org/",
+      "https://brave.com/"
+    ],
+    "whitepaper": "https://basicattentiontoken.org/wp-content/uploads/2017/05/BasicAttentionTokenWhitePaper-4.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x0d8775f648430679a709e98d2b0cb6250d2887ef",
+      "https://platform.arkhamintelligence.com/explorer/token/basic-attention-token",
+      "https://ethplorer.io/address/0x0d8775f648430679a709e98d2b0cb6250d2887ef",
+      "https://blockchair.com/ethereum/erc-20/token/0x0d8775f648430679a709e98d2b0cb6250d2887ef",
+      "https://polygonscan.com/token/0x3cef98bb43d732e2f285ee605a8158cde967d219",
+      "https://snowtrace.io/token/0x98443b96ea4b0858fdf3219cd13e98c7a4690588",
+      "https://avascan.info/blockchain/c/address/0x98443b96ea4b0858fdf3219cd13e98c7a4690588/token",
+      "https://explorer.energi.network/token/0xe8ba8d7765bd33ba7ff3b19b9020c15bf14123b6",
+      "https://nearblocks.io/token/0d8775f648430679a709e98d2b0cb6250d2887ef.factory.bridge.near",
+      "https://solscan.io/token/epeufdghrxs9xxepval6kfgqvcon7jmawkvuhuux1tpz"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/batbrigade"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "AttentionToken",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/BATProject",
+    "repos_url": {
+      "github": [
+        "https://github.com/brave-intl/publishers",
+        "https://github.com/brave-intl/bat-native-ledger",
+        "https://github.com/brave-intl/bat-ledger"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/677/thumb/basic-attention-token.png?1696501867",
+    "small": "https://coin-images.coingecko.com/coins/images/677/small/basic-attention-token.png?1696501867",
+    "large": "https://coin-images.coingecko.com/coins/images/677/large/basic-attention-token.png?1696501867"
+  },
+  "last_updated": "2025-07-11T04:57:08.301196+00:00"
+}

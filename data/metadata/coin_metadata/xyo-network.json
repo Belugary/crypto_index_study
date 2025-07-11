@@ -1,0 +1,70 @@
+{
+  "id": "xyo-network",
+  "symbol": "xyo",
+  "name": "XYO Network",
+  "categories": [
+    "Internet of Things (IOT)",
+    "Oracle",
+    "NFT",
+    "Metaverse",
+    "Ethereum Ecosystem",
+    "DePIN",
+    "Alleged SEC Securities",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x55296f69f40ea6d20e478533c15a6b08b654e758"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "US",
+  "description": {
+    "en": "XYO is the original and one of the largest Decentralized Physical Infrastructure Networks (DePIN), boasting over 10 million nodes and consistently leading DePIN in both scale and revenue generation. Launching its Mainnet ahead of any other DePIN, XYO specializes in collecting and validating real-world data, bridging it seamlessly to Web3 and Web2 companies across AI, geolocation, and other critical data sectors.\r\nAt the core of XYO are Proof of Location and Proof of Origin technologies, enabling accurate validation of real-world data for innovative use cases such as Real-World Asset (RWA) tracking, DePIN applications, real-world gaming, and treasure hunts. Recently, XYO expanded its ecosystem by launching the XYO Layer One blockchain, purpose-built to support the intensive data demands of DePIN, RWA, AI, and similar data-driven industries.\r\nXYO employs a unique dual-token model:\r\nXYO Token: An externally traded token supporting the DePIN ecosystem, rewards, staking, and governance, enhancing overall ecosystem value and scarcity.\r\n\r\n\r\nXL1 Token: Internal to the XYO Layer One blockchain, facilitating transactions, gas fees, and other blockchain-specific use cases.\r\nThe dual-token economics are strategically designed to increase scarcity and promote sustainable growth. The XYO token is available on major exchanges, including Coinbase. The XL1 token will launch publicly later in 2025.\r\nTo accelerate network adoption and growth, XYO created the popular COIN app. Beyond the XYO Foundation, the team founded the U.S.-based, for-profit entity XY Labs Inc., notable as the first U.S. crypto company qualified by the SEC for a Regulation A offering, permitting share sales to both accredited and non-accredited investors. XY Labs further stands out as one of the pioneering U.S. companies to tokenize and publicly list its shares. These tokenized shares trade as $XYLB on the tZERO ATS, positioning XY Labs prominently in the growing wave of Real-World Asset (RWA) tokenization.\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://xyo.network/"
+    ],
+    "whitepaper": "https://docs.xyo.network/XYO-White-Paper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x55296f69f40ea6d20e478533c15a6b08b654e758",
+      "https://platform.arkhamintelligence.com/explorer/token/xyo-network",
+      "https://ethplorer.io/address/0x55296f69f40ea6d20e478533c15a6b08b654e758"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.gg/officialxyo",
+      "https://www.youtube.com/channel/UCyZDqb9pgntVHJVt1pxXtsw"
+    ],
+    "announcement_url": [
+      "https://medium.com/xyonetwork"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "officialxyo",
+    "facebook_username": "xyonetwork",
+    "bitcointalk_thread_identifier": 3040825,
+    "telegram_channel_identifier": "official_xyo",
+    "subreddit_url": "https://www.reddit.com/r/XYONetwork/",
+    "repos_url": {
+      "github": [
+        "https://github.com/XYOracleNetwork/papers-xyonetwork",
+        "https://github.com/XYOracleNetwork/sdk-xyo-client-android",
+        "https://github.com/XYOracleNetwork/sdk-xyo-react-js",
+        "https://github.com/XYOracleNetwork/sdk-xyo-client-js",
+        "https://github.com/XYOracleNetwork/sdk-xyo-client-swift",
+        "https://github.com/XYOracleNetwork/sdk-xyo-js",
+        "https://github.com/XYOracleNetwork/xyo-solidity",
+        "https://github.com/XYOracleNetwork/api-archivist-nodejs"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/4519/thumb/XYO_Network-logo.png?1696505103",
+    "small": "https://coin-images.coingecko.com/coins/images/4519/small/XYO_Network-logo.png?1696505103",
+    "large": "https://coin-images.coingecko.com/coins/images/4519/large/XYO_Network-logo.png?1696505103"
+  },
+  "last_updated": "2025-07-11T05:02:03.764238+00:00"
+}

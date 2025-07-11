@@ -1,0 +1,82 @@
+{
+  "id": "agora-dollar",
+  "symbol": "ausd",
+  "name": "AUSD",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "BNB Chain Ecosystem",
+    "Solana Ecosystem",
+    "Avalanche Ecosystem",
+    "Polygon Ecosystem",
+    "Ethereum Ecosystem",
+    "Sui Ecosystem",
+    "Immutable zkEVM Ecosystem",
+    "Injective Ecosystem",
+    "Core Ecosystem",
+    "Fraxtal Ecosystem",
+    "Fiat-backed Stablecoin"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x00000000efe302beaa2b3e6e1b18d08d69a9012a",
+    "mantle": "0x00000000efe302beaa2b3e6e1b18d08d69a9012a",
+    "solana": "AUSD1jCcCyPLybk1YnvPWsHQSrZ46dxwoMniN4N2UEB9",
+    "injective": "factory/inj1n636d9gzrqggdk66n2f97th0x8yuhfrtx520e7/ausd",
+    "polygon-pos": "0x00000000efe302beaa2b3e6e1b18d08d69a9012a",
+    "immutable": "0x00000000efe302beaa2b3e6e1b18d08d69a9012a",
+    "fraxtal": "0x00000000efe302beaa2b3e6e1b18d08d69a9012a",
+    "binance-smart-chain": "0x00000000efe302beaa2b3e6e1b18d08d69a9012a",
+    "core": "0x00000000efe302beaa2b3e6e1b18d08d69a9012a",
+    "sui": "0x2053d08c1e2bd02791056171aab0fd12bd7cd7efad2ab8f6b9c8902f14df2ff2::ausd::AUSD",
+    "avalanche": "0x00000000efe302beaa2b3e6e1b18d08d69a9012a"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "AUSD, a digital dollar minted 1:1 with USD fiat. AUSD is designed to be a secure digital currency, utilizing one of the world’s largest custodian banks to safeguard assets, a big 4 auditor and a top tier fund manager. AUSD enables users to participate in trading, lending and payments. It is the most cost-efficient stablecoin to transact with due to its gas-optimized smart contract, making it ideal for traders and payments."
+  },
+  "links": {
+    "homepage": [
+      "https://agora.finance/"
+    ],
+    "whitepaper": "https://developer.agora.finance/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x00000000efe302beaa2b3e6e1b18d08d69a9012a",
+      "https://platform.arkhamintelligence.com/explorer/token/agora-dollar",
+      "https://ethplorer.io/address/0x00000000efe302beaa2b3e6e1b18d08d69a9012a",
+      "https://snowtrace.io/token/0x00000000efe302beaa2b3e6e1b18d08d69a9012a?chainid=43114",
+      "https://avascan.info/blockchain/c/address/0x00000000efe302beaa2b3e6e1b18d08d69a9012a/token",
+      "https://suiscan.xyz/mainnet/coin/0x2053d08c1e2bd02791056171aab0fd12bd7cd7efad2ab8f6b9c8902f14df2ff2::ausd::/txs",
+      "https://suivision.xyz/coin/0x2053d08c1e2bd02791056171aab0fd12bd7cd7efad2ab8f6b9c8902f14df2ff2::ausd::",
+      "https://explorer.mantle.xyz/token/0x00000000efe302beaa2b3e6e1b18d08d69a9012a",
+      "https://mantlescan.xyz/token/0x00000000efe302beaa2b3e6e1b18d08d69a9012a",
+      "https://solscan.io/token/AUSD1jCcCyPLybk1YnvPWsHQSrZ46dxwoMniN4N2UEB9"
+    ],
+    "official_forum_url": [
+      "https://www.bloomberg.com/news/articles/2024-04-02/van-eck-scion-launches-stablecoin-with-investment-firm-s-support"
+    ],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/agora-finance/agora-dollar-evm"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/39284/thumb/Circle_Agora_White_on_Olive_1080px.png?1722961274",
+    "small": "https://coin-images.coingecko.com/coins/images/39284/small/Circle_Agora_White_on_Olive_1080px.png?1722961274",
+    "large": "https://coin-images.coingecko.com/coins/images/39284/large/Circle_Agora_White_on_Olive_1080px.png?1722961274"
+  },
+  "last_updated": "2025-07-11T04:56:43.694305+00:00"
+}

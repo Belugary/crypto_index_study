@@ -1,0 +1,59 @@
+{
+  "id": "compound-ether",
+  "symbol": "ceth",
+  "name": "cETH",
+  "categories": [
+    "Crypto-Backed Tokens",
+    "Decentralized Finance (DeFi)",
+    "Compound Tokens",
+    "cToken",
+    "Ethereum Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x4ddc2d193948926d02f9b1fe9e1daa0718270ed5"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "US",
+  "description": {
+    "en": "Compound protocol balance token"
+  },
+  "links": {
+    "homepage": [
+      "https://compound.finance/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x4ddc2d193948926d02f9b1fe9e1daa0718270ed5",
+      "https://platform.arkhamintelligence.com/explorer/token/compound-ether",
+      "https://ethplorer.io/address/0x4ddc2d193948926d02f9b1fe9e1daa0718270ed5"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/fq6JSPkpJn"
+    ],
+    "announcement_url": [
+      "https://medium.com/compound-finance"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "compoundfinance",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/compound/",
+    "repos_url": {
+      "github": [
+        "https://github.com/compound-finance/compound-protocol"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/10643/thumb/ceth.png?1696510617",
+    "small": "https://coin-images.coingecko.com/coins/images/10643/small/ceth.png?1696510617",
+    "large": "https://coin-images.coingecko.com/coins/images/10643/large/ceth.png?1696510617"
+  },
+  "last_updated": "2025-07-11T04:57:46.933716+00:00"
+}

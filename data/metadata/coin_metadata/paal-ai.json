@@ -1,0 +1,72 @@
+{
+  "id": "paal-ai",
+  "symbol": "paal",
+  "name": "PAAL AI",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Virtual Reality",
+    "BNB Chain Ecosystem",
+    "Launchpad",
+    "Ethereum Ecosystem",
+    "Telegram Apps",
+    "Discord Bots",
+    "Base Ecosystem",
+    "PAAL AI Launchpad",
+    "AI Agents",
+    "AI Applications",
+    "AI Agent Launchpad",
+    "Binance Alpha Spotlight",
+    "AI Framework",
+    "DeFAI",
+    "Made in USA"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x14fee680690900ba0cccfc76ad70fd1b95d10e16",
+    "binance-smart-chain": "0xbb1b031c591235408755ff4e0739cb88c5cf2507",
+    "base": "0xd52333441c0553facb259600fa833a69186893a5"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "PAAL IS AN ADVANCED CHATBOT BUILT ON AI AND ML TECHNOLOGIES, DESIGNED TO STREAMLINE TASKS THAT TYPICALLY REQUIRE HUMAN INTELLECT, SUCH AS NATURAL LANGUAGE UNDERSTANDING, IMAGE RECOGNITION, DECISION-MAKING, AND PROBLEM-SOLVING.BETA LEGEND MARKETING HAS TAKEN CARE OF THE PROJECT FROM BEGINNING.\r\n\r\nPAAL IS A POWERFUL AI ECOSYSTEM, PREDICATED ON PRINCIPLES OF CONTINUOUS LEARNING AND ADAPTATION.\r\n\r\nPAAL AI, A TOKEN ON ETHEREUM, INCENTIVIZES HOLDERS WITH PROFIT SHARING AND TOKEN BUYBACKS TO DRIVE TOKEN DEMAND AND PRICE.\r\nUSERS CAN EARN TOKENS THROUGH\r\nINTERACTIONS WITH OUR AI SERVICE, MAKING REFERRALS, AND CONTRIBUTING TO THE COMMUNITY.\r\nFINALLY, TOKENS ENABLE GOVERNANCE VOTING AND CAN BE STAKED FOR INTEREST, UNLOCKING PREMIUM FEATURES. WE ALSO ACCEPT ETHEREUM FOR SERVICE PURCHASES, OFFERING ENTICING DISCOUNTS.\r\n\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://paalai.io/",
+      "https://t.me/MyPaalBot"
+    ],
+    "whitepaper": "https://docs.paalai.io/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x14fee680690900ba0cccfc76ad70fd1b95d10e16",
+      "https://platform.arkhamintelligence.com/explorer/token/paal-ai",
+      "https://ethplorer.io/address/0x14fee680690900ba0cccfc76ad70fd1b95d10e16",
+      "https://basescan.org/token/0xd52333441c0553fACb259600FA833a69186893A5",
+      "https://bscscan.com/token/0xbb1B031c591235408755ff4E0739cb88C5cF2507",
+      "https://binplorer.com/address/0xbb1B031c591235408755ff4E0739cb88C5cF2507"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "PaalMind",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "paal_ai",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/paal-ai"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/30815/thumb/Paal_New_Logo_%281%29.png?1718160584",
+    "small": "https://coin-images.coingecko.com/coins/images/30815/small/Paal_New_Logo_%281%29.png?1718160584",
+    "large": "https://coin-images.coingecko.com/coins/images/30815/large/Paal_New_Logo_%281%29.png?1718160584"
+  },
+  "last_updated": "2025-07-11T04:59:58.156318+00:00"
+}

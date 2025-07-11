@@ -1,0 +1,76 @@
+{
+  "id": "illuvium",
+  "symbol": "ilv",
+  "name": "Illuvium",
+  "categories": [
+    "Gaming (GameFi)",
+    "NFT",
+    "Metaverse",
+    "Play To Earn",
+    "Ethereum Ecosystem",
+    "Animoca Brands Portfolio",
+    "RPG",
+    "Gaming Governance Token",
+    "Adventure Games",
+    "Energi Ecosystem",
+    "Delphi Ventures Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x767fe9edc9e0df98e07454847909b5e959d7ca0e",
+    "energi": "0xa4ecf6d10b8d61d4a022821a6ff8b9536a47c70d"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Welcome to the world of Illuvium. A shattered land of beauty and wonder. Travel the vast and varied landscape hunting dangerous beasts, then capture them to battle in the Arenas or trade via the exchange. Illuvium utilizes mechanics whereby users can stake collateral and receive access to governance, yield farming, and weekly distributions as a reward. A fully decentralized protocol, Illuvium represents a new age in gaming. It has been engineered from the ground-up to increase the value of the underlying $ILV token while providing players with a AAA experience. What makes Illuvium unique is that stakers receive regular distributions and can vote on everything from tokenomics related issues to the features in the game itself. With Illuvium, the power to define the project into the future is purposefully left to those who stake in the protocol."
+  },
+  "links": {
+    "homepage": [
+      "https://illuvium.io/",
+      "https://illuvium.io/news",
+      "https://illuvidex.illuvium.io/"
+    ],
+    "whitepaper": "https://docs.illuvium.io/",
+    "blockchain_site": [
+      "https://etherscan.io/token/0x767fe9edc9e0df98e07454847909b5e959d7ca0e",
+      "https://platform.arkhamintelligence.com/explorer/token/illuvium",
+      "https://ethplorer.io/address/0x767fe9edc9e0df98e07454847909b5e959d7ca0e",
+      "https://explorer.energi.network/token/0xa4ecf6d10b8d61d4a022821a6ff8b9536a47c70d",
+      "https://ethereum.dex.guru/token/0x767fe9edc9e0df98e07454847909b5e959d7ca0e"
+    ],
+    "official_forum_url": [
+      "https://tiktok.com/@illuviumio",
+      "https://www.instagram.com/illuviumio/",
+      "https://www.linkedin.com/company/illuvium-io/"
+    ],
+    "chat_url": [
+      "https://discord.gg/illuvium",
+      "https://illuvium.io/news",
+      "https://www.youtube.com/@Illuvium"
+    ],
+    "announcement_url": [
+      "https://illuvium.medium.com/"
+    ],
+    "snapshot_url": "https://snapshot.org/#/ilv.eth",
+    "twitter_screen_name": "illuviumio",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "illuvium",
+    "subreddit_url": "https://www.reddit.com/r/illuviumio",
+    "repos_url": {
+      "github": [
+        "https://github.com/IlluviumGame"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/14468/thumb/logo-200x200.png?1696514154",
+    "small": "https://coin-images.coingecko.com/coins/images/14468/small/logo-200x200.png?1696514154",
+    "large": "https://coin-images.coingecko.com/coins/images/14468/large/logo-200x200.png?1696514154"
+  },
+  "last_updated": "2025-07-11T04:58:47.886084+00:00"
+}

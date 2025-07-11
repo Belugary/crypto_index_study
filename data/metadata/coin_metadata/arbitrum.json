@@ -1,0 +1,79 @@
+{
+  "id": "arbitrum",
+  "symbol": "arb",
+  "name": "Arbitrum",
+  "categories": [
+    "Smart Contract Platform",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Arbitrum Nova Ecosystem",
+    "Layer 2 (L2)",
+    "eGirl Capital Portfolio",
+    "Rollup",
+    "Alameda Research Portfolio",
+    "Pantera Capital Portfolio",
+    "GMCI Layer 2 Index",
+    "GMCI 30 Index",
+    "GMCI Index",
+    "Polychain Capital Portfolio",
+    "Made in USA"
+  ],
+  "asset_platform_id": "arbitrum-one",
+  "platforms": {
+    "arbitrum-one": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+    "arbitrum-nova": "0xf823c3cd3cebe0a1fa952ba88dc9eef8e0bf46ad",
+    "ethereum": "0xb50721bcf8d664c30412cfbc6cf7a15145234ad1"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Arbitrum is one of the leading Ethereum scaling solutions bringing cheap transactions to tens of thousands of users in an environment that feels very similar to Ethereum. It is an optimistic rollup and the leading L2 in terms of TVL. Some of the largest dApps live on Arbitrum include GMX, Radiant, Uniswap V3, and Gains Network."
+  },
+  "links": {
+    "homepage": [
+      "https://arbitrum.io/",
+      "http://arbitrum.foundation"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://arbiscan.io/token/0x912ce59144191c1204e64559fe8253a0e49e6548",
+      "https://platform.arkhamintelligence.com/explorer/token/arbitrum",
+      "https://etherscan.io/token/0xb50721bcf8d664c30412cfbc6cf7a15145234ad1",
+      "https://ethplorer.io/address/0xb50721bcf8d664c30412cfbc6cf7a15145234ad1",
+      "https://nova.arbiscan.io/token/0xf823c3cd3cebe0a1fa952ba88dc9eef8e0bf46ad",
+      "https://www.oklink.com/arbitrum",
+      "https://3xpl.com/arbitrum-one",
+      "https://nova.dex.guru/token/0xf823c3cd3cebe0a1fa952ba88dc9eef8e0bf46ad",
+      "https://arbitrum.dex.guru/token/0x912ce59144191c1204e64559fe8253a0e49e6548"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/Arbitrum"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "arbitrum",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "arbitrum",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/ArbitrumFoundation/docs",
+        "https://github.com/ArbitrumFoundation",
+        "https://github.com/ArbitrumFoundation/governance-seatbelt",
+        "https://github.com/ArbitrumFoundation/sybil-detection",
+        "https://github.com/ArbitrumFoundation/governance"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/16547/thumb/arb.jpg?1721358242",
+    "small": "https://coin-images.coingecko.com/coins/images/16547/small/arb.jpg?1721358242",
+    "large": "https://coin-images.coingecko.com/coins/images/16547/large/arb.jpg?1721358242"
+  },
+  "last_updated": "2025-07-11T04:56:56.187287+00:00"
+}

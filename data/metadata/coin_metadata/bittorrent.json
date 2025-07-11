@@ -1,0 +1,75 @@
+{
+  "id": "bittorrent",
+  "symbol": "btt",
+  "name": "BitTorrent",
+  "categories": [
+    "Storage",
+    "BNB Chain Ecosystem",
+    "Ethereum Ecosystem",
+    "DePIN",
+    "Alleged SEC Securities",
+    "Binance Launchpad",
+    "Tron Ecosystem",
+    "Energi Ecosystem",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "BitTorrent Ecosystem",
+    "GMCI DePIN Index",
+    "GMCI Index"
+  ],
+  "asset_platform_id": "tron",
+  "platforms": {
+    "tron": "TAFjULxiVgT4qWk6UZwjqwZXTSaGaqnVp4",
+    "bittorrent": "0x0000000000000000000000000000000000001010",
+    "energi": "0xf1bdcf2d4163adf9554111439dabdd6f18ff9ba7",
+    "ethereum": "0xc669928185dbce49d2230cc9b0979be6dc797957",
+    "binance-smart-chain": "0x352cb5e19b12fc216548a2677bd0fce83bae434b"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "BitTorrent was initially conceived by Bram Cohen, a peer-to-peer protocol for users to transfer files around the world. The BitTorrent Token (BTT), a TRC-10 token is created on top of the TRON blockchain platform as a way to extend the capability of BitTorrent. The token is added to introduce some economics feature on BitTorrent for networking, bandwidth, and storage resources to be shared and tradeed.\r\n\r\nSome of the other feature that BitTorrent Token (BTT) offers would be BitTorrent Speed. This is whereby BTT tokens can be big in exchange for faster download speed.\r\n\r\nList of exchanges trading BTT token can be found at https://www.coingecko.com/en/coins/bittorrent/trading_exchanges"
+  },
+  "links": {
+    "homepage": [
+      "https://www.bittorrent.com/btt/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://tronscan.org/#/token20/tafjulxivgt4qwk6uzwjqwzxtsagaqnvp4",
+      "https://platform.arkhamintelligence.com/explorer/token/bittorrent",
+      "https://etherscan.io/token/0xc669928185dbce49d2230cc9b0979be6dc797957",
+      "https://ethplorer.io/address/0xc669928185dbce49d2230cc9b0979be6dc797957",
+      "https://explorer.energi.network/token/0xf1bdcf2d4163adf9554111439dabdd6f18ff9ba7",
+      "https://bttcscan.com/token/0x0000000000000000000000000000000000001010",
+      "https://bscscan.com/token/0x352cb5e19b12fc216548a2677bd0fce83bae434b",
+      "https://binplorer.com/address/0x352cb5e19b12fc216548a2677bd0fce83bae434b"
+    ],
+    "official_forum_url": [
+      "https://medium.com/bittorrent"
+    ],
+    "chat_url": [
+      "https://discordapp.com/invite/JPUTmw2"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "bittorrent",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "BTTBitTorrent",
+    "subreddit_url": "https://www.reddit.com/r/Bittorrent/",
+    "repos_url": {
+      "github": [
+        "https://github.com/bittorrent/bittorrent.org"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/22457/thumb/btt_logo.png?1696521780",
+    "small": "https://coin-images.coingecko.com/coins/images/22457/small/btt_logo.png?1696521780",
+    "large": "https://coin-images.coingecko.com/coins/images/22457/large/btt_logo.png?1696521780"
+  },
+  "last_updated": "2025-07-11T04:57:26.650396+00:00"
+}

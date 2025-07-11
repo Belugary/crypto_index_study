@@ -1,0 +1,68 @@
+{
+  "id": "nexo",
+  "symbol": "nexo",
+  "name": "NEXO",
+  "categories": [
+    "Polygon Ecosystem",
+    "Fantom Ecosystem",
+    "Ethereum Ecosystem",
+    "Alleged SEC Securities",
+    "Energi Ecosystem",
+    "Sora Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206",
+    "energi": "0x04640dc771edd73cbeb934fb5461674830baea11",
+    "sora": "0x003005b2417b5046455e73f7fc39779a013f1a33b4518bcd83a790900dca49ff",
+    "fantom": "0x7c598c96d02398d89fbcb9d41eab3df0c16f227d",
+    "polygon-pos": "0x41b3966b4ff7b427969ddf5da3627d6aeae9a48e"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "CH",
+  "description": {
+    "en": "What is Nexo?\r\n\r\nNexo (https:/nexo.com) is a premier digital assets wealth platform empowering clients to grow, manage, and preserve their crypto holdings. Our mission is to drive the next generation of wealth by prioritizing customer prosperity and delivering tailored solutions for building long-term value, supported by 24/7 client care. \r\n\r\nSince 2018, Nexo has been delivering unmatched opportunities to forward-thinking clients across more than 200 jurisdictions. Our all-in-one platform combines cutting-edge technology with a client-centric approach, offering high yields on flexible and fixed-term savings, crypto-backed loans, advanced trading tools, and liquidity solutions through the first debit/credit crypto card. Backed by deep industry expertise, a sustainable business model, robust infrastructure, security, and global licensing, Nexo champions innovation and long-lasting prosperity.\r\n\r\n\r\n\r\nWhat is the NEXO Token?\r\n\r\nThe NEXO Token, is Nexo’s native cryptocurrency, offering a wide range of benefits on the platform. NEXO Token holders can earn up to 12% annual interest on tokens held within both the Savings and Credit Line Wallets in their Nexo accounts. Additionally, owning NEXO Tokens grants entry into the Nexo Loyalty Program (https://nexo.com/loyalty), providing valuable benefits such as higher yields on digital assets, up to 0.5% crypto cashback on purchases or swaps made via the Nexo Exchange, borrowing rates starting from 2.9% annual interest, and up to 2% crypto cashback when using the Nexo crypto credit/debit card.\r\n\r\n\r\n\r\nWhere can you buy NEXO?\r\n\r\nNEXO tokens can be traded on well-established centralized crypto exchanges. The most popular exchange to buy and trade NEXO is Binance, where the most active trading pair NEXO/USDT has a trading volume of $1,398,440 in the last 24 hours. Other popular options are Bitget, Bybit, Bitstamp, Bitfinex, Gate.io, and many others."
+  },
+  "links": {
+    "homepage": [
+      "https://nexo.com/"
+    ],
+    "whitepaper": "https://nexo.io/assets/downloads/Nexo-Whitepaper.pdf?=1",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206",
+      "https://platform.arkhamintelligence.com/explorer/token/nexo",
+      "https://ethplorer.io/address/0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206",
+      "https://blockchair.com/ethereum/erc-20/token/0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206",
+      "https://ftmscan.com/token/0x7c598c96d02398d89fbcb9d41eab3df0c16f227d",
+      "https://scan.meter.io/address/0x7c598c96d02398d89fbcb9d41eab3df0c16f227d",
+      "https://ftmscan.com/address/0x7c598c96d02398d89fbcb9d41eab3df0c16f227d",
+      "https://explorer.energi.network/token/0x04640dc771edd73cbeb934fb5461674830baea11",
+      "https://polygonscan.com/token/0x41b3966b4ff7b427969ddf5da3627d6aeae9a48e"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://nexo.com/media-center"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "Nexo",
+    "facebook_username": "NexoFinance",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "nexofinance",
+    "subreddit_url": "https://www.reddit.com/r/Nexo/",
+    "repos_url": {
+      "github": [
+        "https://github.com/nexofinance/NEXO-Token/"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/3695/thumb/CG-nexo-token-200x200_2x.png?1730414360",
+    "small": "https://coin-images.coingecko.com/coins/images/3695/small/CG-nexo-token-200x200_2x.png?1730414360",
+    "large": "https://coin-images.coingecko.com/coins/images/3695/large/CG-nexo-token-200x200_2x.png?1730414360"
+  },
+  "last_updated": "2025-07-11T04:59:41.088994+00:00"
+}

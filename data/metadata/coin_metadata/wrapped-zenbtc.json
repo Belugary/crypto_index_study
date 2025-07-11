@@ -1,0 +1,50 @@
+{
+  "id": "wrapped-zenbtc",
+  "symbol": "zenbtc",
+  "name": "Zenrock BTC",
+  "categories": [
+    "Wrapped-Tokens",
+    "Solana Ecosystem"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "9hX59xHHnaZXLU6quvm5uGY2iDiT3jczaReHy6A6TYKw"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "zenBTC is a fully decentralized wrapped Bitcoin product with built-in native yield, that launched in early 2025. Positioned at the crossroads of two major ecosystems—wrapped Bitcoin solutions and liquid restaking tokens—zenBTC redefines Bitcoin interoperability and utility in DeFi.  zenBTC leverages Zenrock’s proprietary distributed MPC (dMPC) technology to eliminate centralized control over locked Bitcoin. dMPC is an advanced security layer that gives users direct, permissionless control over their digital assets. While traditional MPC is a proven, institutional-grade cryptographic standard, dMPC represents the next evolution of this technology. It is fully decentralized and operates on-chain. With dMPC, key shards are distributed across a network of independent third-party node operators, ensuring that no single entity ever holds the complete private key. Only the initial user can make a key request and complete transaction signings. This eliminates risks associated with centralized custody and the need for institutional trust. When minting zenBTC tokens, deposited Bitcoin remains locked on the Bitcoin blockchain, untouched until zenBTC is redeemed.\r\nzenBTC’s dMPC security is underpinned by Zenrock’s native utility and governance token, $ROCK, which serves as the foundation of the entire Zenrock ecosystem."
+  },
+  "links": {
+    "homepage": [
+      "https://www.zenbtc.io",
+      "https://www.zenrockfoundation.io",
+      "https://www.zenbtc.io/"
+    ],
+    "whitepaper": "https://www.zenrockfoundation.io/documents",
+    "blockchain_site": [
+      "https://solscan.io/token/9hX59xHHnaZXLU6quvm5uGY2iDiT3jczaReHy6A6TYKw"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "zenBTC_Official",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "zenbtc",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55147/thumb/zen_brandmark_%28blue%29_%281%29.png?1745550508",
+    "small": "https://coin-images.coingecko.com/coins/images/55147/small/zen_brandmark_%28blue%29_%281%29.png?1745550508",
+    "large": "https://coin-images.coingecko.com/coins/images/55147/large/zen_brandmark_%28blue%29_%281%29.png?1745550508"
+  },
+  "last_updated": "2025-07-11T05:02:02.675870+00:00"
+}

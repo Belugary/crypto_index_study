@@ -1,0 +1,58 @@
+{
+  "id": "pudgy-penguins",
+  "symbol": "pengu",
+  "name": "Pudgy Penguins",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Solana Meme",
+    "Binance HODLer Airdrops",
+    "Airdropped Tokens by NFT Projects",
+    "Made in USA"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "PENGU is the official coin of Pudgy Penguins.\r\n\r\nPudgy Penguins has become the face of crypto with one of the most influential communities in the industry. From large companies wearing the Penguin, to being featured in ETF commercials, to garnering millions of followers and over 100 billion views, the Pengu has become a cultural icon making PENGU the world’s social currency.\r\n\r\nPENGU allows for the ever-expanding Pudgy Penguin fanbase and the hundreds of millions of people outside of crypto that see and share the Pudgy Penguin everyday, to join The Huddle. PENGU is a symbol for community, memes, and good vibes.\r\n\r\nBelieve in Pengu. Believe in the Prophecy."
+  },
+  "links": {
+    "homepage": [
+      "https://pudgypenguins.com"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://solscan.io/token/2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv"
+    ],
+    "official_forum_url": [
+      "https://www.tiktok.com/@kindpengu",
+      "https://instagram.com/pudgypenguins"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/pudgypenguins",
+      "https://www.youtube.com/@pudgypenguinsofficial"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "pudgypenguins",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "pengutg",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/52622/thumb/PUDGY_PENGUINS_PENGU_PFP.png?1733809110",
+    "small": "https://coin-images.coingecko.com/coins/images/52622/small/PUDGY_PENGUINS_PENGU_PFP.png?1733809110",
+    "large": "https://coin-images.coingecko.com/coins/images/52622/large/PUDGY_PENGUINS_PENGU_PFP.png?1733809110"
+  },
+  "last_updated": "2025-07-11T05:00:14.820074+00:00"
+}

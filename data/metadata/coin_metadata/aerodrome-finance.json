@@ -1,0 +1,59 @@
+{
+  "id": "aerodrome-finance",
+  "symbol": "aero",
+  "name": "Aerodrome Finance",
+  "categories": [
+    "Decentralized Exchange (DEX)",
+    "Decentralized Finance (DeFi)",
+    "Automated Market Maker (AMM)",
+    "Base Ecosystem",
+    "Binance Alpha Spotlight",
+    "Made in USA"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0x940181a94a35a4569e4529a3cdfb74e38fd98631"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Aerodrome Finance is a next-generation AMM designed to serve as Base's central liquidity hub, combining a powerful liquidity incentive engine, vote-lock governance model, and friendly user experience. Aerodrome inherits the latest features from Velodrome V2."
+  },
+  "links": {
+    "homepage": [
+      "https://aerodrome.finance/"
+    ],
+    "whitepaper": "https://aerodrome.finance/docs",
+    "blockchain_site": [
+      "https://basescan.org/token/0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+      "https://platform.arkhamintelligence.com/explorer/token/aerodrome-finance"
+    ],
+    "official_forum_url": [
+      "https://medium.com/@aerodromefi"
+    ],
+    "chat_url": [
+      "https://discord.gg/aerodrome"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "aerodromefi",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/aerodrome-finance"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/31745/thumb/token.png?1696530564",
+    "small": "https://coin-images.coingecko.com/coins/images/31745/small/token.png?1696530564",
+    "large": "https://coin-images.coingecko.com/coins/images/31745/large/token.png?1696530564"
+  },
+  "last_updated": "2025-07-11T04:56:41.978766+00:00"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "aptos",
+  "symbol": "apt",
+  "name": "Aptos",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Aptos Ecosystem",
+    "FTX Holdings",
+    "Coinbase Ventures Portfolio",
+    "Multicoin Capital Portfolio",
+    "Proof of Stake (PoS)",
+    "DragonFly Capital Portfolio",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "GMCI Layer 1 Index",
+    "GMCI 30 Index",
+    "Circle Ventures Portfolio",
+    "GMCI Index",
+    "Made in USA"
+  ],
+  "asset_platform_id": "aptos",
+  "platforms": {
+    "aptos": "0x1::aptos_coin::AptosCoin"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Aptos is a new, independent high-performance PoS Layer 1 project focused on delivering the safest and most scalable Layer 1 blockchain in the world. The Aptos blockchain leverages the Move programming language and the Move VM for application development, which are created and optimized for blockchain use cases.The team is comprised of the original creators, researchers, designers, and builders of Diem, the blockchain that was first built to serve this purpose. Aptos raised $200m from a16z, Multicoin, Binance and others. Aptos launched Devnet in mid March, incentivized testnet in late May and targets Q3 for mainnet launch. "
+  },
+  "links": {
+    "homepage": [
+      "https://aptosfoundation.org"
+    ],
+    "whitepaper": "https://github.com/aptos-labs/developer-docs/blob/main/static/papers/Aptos-Whitepaper.pdf",
+    "blockchain_site": [
+      "https://aptscan.ai/",
+      "https://explorer.aptoslabs.com/",
+      "https://aptoscan.com/",
+      "https://aptos-explorer.xangle.io/",
+      "https://www.oklink.com/aptos",
+      "https://tracemove.io/coin/0x1::aptos_coin::aptoscoin",
+      "https://aptscan.ai/coins/0x1::aptos_coin::aptoscoin"
+    ],
+    "official_forum_url": [
+      "https://www.linkedin.com/company/aptos-foundation/"
+    ],
+    "chat_url": [
+      "https://discord.com/invite/aptosnetwork",
+      "https://aptoslabs.medium.com/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Aptos_Network",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "AptosTG",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/aptos-labs"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/26455/thumb/aptos_round.png?1696525528",
+    "small": "https://coin-images.coingecko.com/coins/images/26455/small/aptos_round.png?1696525528",
+    "large": "https://coin-images.coingecko.com/coins/images/26455/large/aptos_round.png?1696525528"
+  },
+  "last_updated": "2025-07-11T04:56:55.061926+00:00"
+}

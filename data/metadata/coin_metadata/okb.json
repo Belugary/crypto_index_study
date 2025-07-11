@@ -1,0 +1,67 @@
+{
+  "id": "okb",
+  "symbol": "okb",
+  "name": "OKB",
+  "categories": [
+    "Exchange-based Tokens",
+    "Centralized Exchange (CEX) Token",
+    "Ethereum Ecosystem",
+    "Sora Ecosystem",
+    "OKT Chain Ecosystem",
+    "GMCI 30 Index",
+    "GMCI Index",
+    "Made in China"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0x75231f58b43240c9718dd58b4967c5114342a86c",
+    "okex-chain": "0xdf54b6c6195ea4d948d03bfd818d365cf175cfc2",
+    "sora": "0x0080edc40a944d29562b2dea2de42ed27b9047d16eeea27c5bc1b2e02786abe9"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "OKEx, the 2nd most popular cryptocurrency exchange by trading volume, launched its platform token ‘OKB‘ today with 10 trading pairs. On its official support page, OKEx describes OKB is a global utility token issued by the OK Blockchain Foundation. The total available supply of OKB will be one billion tokens (1,000,000,000), with a distribution model that allocates 60% of the supply will be given out to OKEx customers for community building and during marketing campaigns. According to OKEx, the company had officially issued OKB on ERC20 protocol earlier this month. \r\n\r\nThe company denied ICO (initial coin offering) and public fundraising. Reportedly the company had stated that it would be soon shifting the token to its official OK chain and subsequently it will be applied not only on OKEx’s platform but also on other related projects. There will be in total 1 billion tokens supplied globally out of which 600 million coins will be distributed to OKEx customers for community building and marketing campaigns. Rest will be locked up for a period of 1 year to 3 years.\r\n\r\nAccording to OKEx, the company had officially issued OKB on ERC20 protocol earlier this month. The company denied ICO (initial coin offering) and public fundraising. Reportedly the company had stated that it would be soon shifting the token to its official OK chain and subsequently it will be applied not only on OKEx’s platform but also on other related projects. There will be in total 1 billion tokens supplied globally out of which 600 million coins will be distributed to OKEx customers for community building and marketing campaigns. Rest will be locked up for a period of 1 year to 3 years."
+  },
+  "links": {
+    "homepage": [
+      "https://www.okx.com/okb"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://www.oklink.com/en/okc/token/0xdf54b6c6195ea4d948d03bfd818d365cf175cfc2",
+      "https://platform.arkhamintelligence.com/explorer/token/okb",
+      "https://ethplorer.io/address/0x75231f58b43240c9718dd58b4967c5114342a86c",
+      "https://blockchair.com/ethereum/erc-20/token/0x75231f58b43240c9718dd58b4967c5114342a86c",
+      "https://etherscan.io/token/0x75231f58b43240c9718dd58b4967c5114342a86c",
+      "https://www.oklink.com/cn/oktc/address/0xdf54b6c6195ea4d948d03bfd818d365cf175cfc2"
+    ],
+    "official_forum_url": [
+      "https://t.me/OKXAnnouncements",
+      "https://medium.com/okex-blog"
+    ],
+    "chat_url": [
+      "https://www.youtube.com/@OKXCryptoExchange",
+      "https://www.linkedin.com/company/okxofficial/"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "okx",
+    "facebook_username": "okexofficial",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "OKXOfficial_English",
+    "subreddit_url": "https://www.reddit.com/r/OKX/",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/4463/thumb/WeChat_Image_20220118095654.png?1696505053",
+    "small": "https://coin-images.coingecko.com/coins/images/4463/small/WeChat_Image_20220118095654.png?1696505053",
+    "large": "https://coin-images.coingecko.com/coins/images/4463/large/WeChat_Image_20220118095654.png?1696505053"
+  },
+  "last_updated": "2025-07-11T04:59:46.954719+00:00"
+}

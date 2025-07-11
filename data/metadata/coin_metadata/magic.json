@@ -1,0 +1,66 @@
+{
+  "id": "magic",
+  "symbol": "magic",
+  "name": "Treasure",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Gaming (GameFi)",
+    "NFT",
+    "Metaverse",
+    "Arbitrum Ecosystem",
+    "Ethereum Ecosystem",
+    "Layer 2 (L2)",
+    "Zero Knowledge (ZK)",
+    "Gaming Blockchains",
+    "Gaming Governance Token",
+    "Gaming Utility Token",
+    "AI Agents",
+    "AI Agent Launchpad"
+  ],
+  "asset_platform_id": "arbitrum-one",
+  "platforms": {
+    "arbitrum-one": "0x539bde0d7dbd336b79148aa742883198bbf60342",
+    "ethereum": "0xb0c7a3ba49c7a6eaba6cd4a96c55a1391070ac9a"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "What is Magic?\r\n\r\nMAGIC is the native token of Treasure. Treasure creates AI-powered entertainment experiences using MAGIC."
+  },
+  "links": {
+    "homepage": [
+      "https://treasure.lol/"
+    ],
+    "whitepaper": "https://treasure.lol/",
+    "blockchain_site": [
+      "https://arbiscan.io/token/0x539bde0d7dbd336b79148aa742883198bbf60342",
+      "https://etherscan.io/token/0xb0c7a3ba49c7a6eaba6cd4a96c55a1391070ac9a",
+      "https://ethplorer.io/address/0xb0c7a3ba49c7a6eaba6cd4a96c55a1391070ac9a"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [
+      "https://medium.com/@Treasure_DAO"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/TreasureProject"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/18623/thumb/magic.png?1696518095",
+    "small": "https://coin-images.coingecko.com/coins/images/18623/small/magic.png?1696518095",
+    "large": "https://coin-images.coingecko.com/coins/images/18623/large/magic.png?1696518095"
+  },
+  "last_updated": "2025-07-11T04:59:20.268626+00:00"
+}
