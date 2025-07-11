@@ -366,6 +366,7 @@ class BatchDownloader:
             self.data_dir,
             self.coins_dir,
             self.metadata_dir,
+            self.metadata_dir / "coin_metadata",  # 新增：币种元数据目录
             self.logs_dir,
         ]:
             directory.mkdir(parents=True, exist_ok=True)
@@ -571,6 +572,178 @@ class BatchDownloader:
         except Exception as e:
             self.logger.error(f"读取失败记录时出错: {e}")
             return []
+
+    def _load_coin_metadata(self, coin_id: str) -> Optional[Dict[str, Any]]:
+        """
+        加载单个币种的元数据
+
+        Args:
+            coin_id: 币种ID
+
+        Returns:
+            币种元数据字典，如果文件不存在则返回None
+        """
+        try:
+            metadata_file = self.metadata_dir / "coin_metadata" / f"{coin_id}.json"
+            if metadata_file.exists():
+                with open(metadata_file, "r", encoding="utf-8") as f:
+                    return json.load(f)
+            return None
+        except Exception as e:
+            self.logger.error(f"加载币种元数据失败 ({coin_id}): {e}")
+            return None
+
+    def _save_coin_metadata(self, coin_id: str, metadata: Dict[str, Any]) -> bool:
+        """
+        保存单个币种的元数据
+
+        Args:
+            coin_id: 币种ID
+            metadata: 元数据字典
+
+        Returns:
+            bool: 保存是否成功
+        """
+        try:
+            metadata_file = self.metadata_dir / "coin_metadata" / f"{coin_id}.json"
+            with open(metadata_file, "w", encoding="utf-8") as f:
+                json.dump(metadata, f, indent=2, ensure_ascii=False)
+            return True
+        except Exception as e:
+            self.logger.error(f"保存币种元数据失败 ({coin_id}): {e}")
+            return False
+
+    def _need_coin_metadata_update(self, coin_id: str, max_age_days: int = 7) -> bool:
+        """
+        检查币种元数据是否需要更新
+
+        Args:
+            coin_id: 币种ID
+            max_age_days: 最大缓存天数
+
+        Returns:
+            bool: 是否需要更新
+        """
+        try:
+            metadata = self._load_coin_metadata(coin_id)
+            if not metadata:
+                return True  # 没有元数据，需要更新
+
+            last_updated = metadata.get("last_updated")
+            if not last_updated:
+                return True  # 没有更新时间，需要更新
+
+            # 解析时间并检查是否过期
+            from datetime import datetime, timezone, timedelta
+
+            try:
+                last_update_time = datetime.fromisoformat(
+                    last_updated.replace("Z", "+00:00")
+                )
+                now = datetime.now(timezone.utc)
+                age = now - last_update_time
+
+                return age.days >= max_age_days
+            except (ValueError, AttributeError):
+                return True  # 时间格式错误，需要更新
+
+        except Exception as e:
+            self.logger.error(f"检查币种元数据更新状态失败 ({coin_id}): {e}")
+            return True  # 出错时默认需要更新
+
+    def update_coin_metadata(self, coin_id: str, force: bool = False) -> bool:
+        """
+        更新单个币种的元数据
+
+        Args:
+            coin_id: 币种ID
+            force: 是否强制更新
+
+        Returns:
+            bool: 更新是否成功
+        """
+        try:
+            # 检查是否需要更新
+            if not force and not self._need_coin_metadata_update(coin_id):
+                self.logger.info(f"币种元数据无需更新 ({coin_id})")
+                return True
+
+            self.logger.info(f"开始更新币种元数据 ({coin_id})")
+
+            # 调用API获取完整的币种信息
+            coin_data = self.api.get_coin_by_id(
+                coin_id=coin_id,
+                localization=False,  # 不需要本地化
+                tickers=False,  # 不需要交易行情
+                market_data=False,  # 不需要市场数据
+                community_data=True,  # 需要社区数据
+                developer_data=True,  # 需要开发者数据
+                sparkline=False,  # 不需要走势图
+            )
+
+            # 提取需要保存的字段
+            metadata = {
+                "id": coin_data.get("id"),
+                "symbol": coin_data.get("symbol"),
+                "name": coin_data.get("name"),
+                "categories": coin_data.get("categories", []),
+                "asset_platform_id": coin_data.get("asset_platform_id"),
+                "platforms": coin_data.get("platforms", {}),
+                "block_time_in_minutes": coin_data.get("block_time_in_minutes"),
+                "hashing_algorithm": coin_data.get("hashing_algorithm"),
+                "genesis_date": coin_data.get("genesis_date"),
+                "country_origin": coin_data.get("country_origin"),
+                "description": coin_data.get("description", {}),
+                "links": coin_data.get("links", {}),
+                "image": coin_data.get("image", {}),
+                "last_updated": datetime.now(timezone.utc).isoformat(),
+            }
+
+            # 保存元数据
+            if self._save_coin_metadata(coin_id, metadata):
+                self.logger.info(f"币种元数据更新成功 ({coin_id})")
+                return True
+            else:
+                self.logger.error(f"币种元数据保存失败 ({coin_id})")
+                return False
+
+        except Exception as e:
+            self.logger.error(f"更新币种元数据失败 ({coin_id}): {e}")
+            return False
+
+    def batch_update_coin_metadata(
+        self, coin_ids: List[str], force: bool = False, delay_seconds: float = 0.2
+    ) -> Dict[str, bool]:
+        """
+        批量更新币种元数据
+
+        Args:
+            coin_ids: 币种ID列表
+            force: 是否强制更新
+            delay_seconds: 每次API调用之间的延迟(秒)
+
+        Returns:
+            Dict[str, bool]: 每个币种的更新结果
+        """
+        results = {}
+
+        self.logger.info(f"开始批量更新币种元数据，共 {len(coin_ids)} 个币种")
+
+        for i, coin_id in enumerate(coin_ids):
+            self.logger.info(f"正在更新 ({i+1}/{len(coin_ids)}): {coin_id}")
+
+            # 更新单个币种
+            results[coin_id] = self.update_coin_metadata(coin_id, force)
+
+            # 添加延迟避免API限制
+            if i < len(coin_ids) - 1:  # 最后一个不需要延迟
+                time.sleep(delay_seconds)
+
+        # 统计结果
+        success_count = sum(1 for success in results.values() if success)
+        self.logger.info(f"批量更新完成: {success_count}/{len(coin_ids)} 成功")
+
+        return results
 
 
 def create_batch_downloader(

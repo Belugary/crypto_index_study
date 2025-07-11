@@ -1,0 +1,76 @@
+{
+  "id": "ethereum",
+  "symbol": "eth",
+  "name": "Ethereum",
+  "categories": [
+    "Smart Contract Platform",
+    "Layer 1 (L1)",
+    "Ethereum Ecosystem",
+    "FTX Holdings",
+    "Multicoin Capital Portfolio",
+    "Proof of Stake (PoS)",
+    "Alameda Research Portfolio",
+    "Andreessen Horowitz (a16z) Portfolio",
+    "GMCI Layer 1 Index",
+    "GMCI 30 Index",
+    "Delphi Ventures Portfolio",
+    "Galaxy Digital Portfolio",
+    "GMCI Index",
+    "World Liberty Financial Portfolio",
+    "Coinbase 50 Index"
+  ],
+  "asset_platform_id": null,
+  "platforms": {
+    "": ""
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": "Ethash",
+  "genesis_date": "2015-07-30",
+  "country_origin": "",
+  "description": {
+    "en": "Ethereum is a global, open-source platform for decentralized applications. In other words, the vision is to create a world computer that anyone can build applications in a decentralized manner; while all states and data are distributed and publicly accessible. Ethereum supports smart contracts in which developers can write code in order to program digital value. Examples of decentralized apps (dapps) that are built on Ethereum includes tokens, non-fungible tokens, decentralized finance apps, lending protocol, decentralized exchanges, and much more.\r\n\r\nOn Ethereum, all transactions and smart contract executions require a small fee to be paid. This fee is called Gas. In technical terms, Gas refers to the unit of measure on the amount of computational effort required to execute an operation or a smart contract. The more complex the execution operation is, the more gas is required to fulfill that operation. Gas fees are paid entirely in Ether (ETH), which is the native coin of the blockchain. The price of gas can fluctuate from time to time depending on the network demand."
+  },
+  "links": {
+    "homepage": [
+      "https://www.ethereum.org/"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/",
+      "https://platform.arkhamintelligence.com/explorer/token/ethereum",
+      "https://ethplorer.io/",
+      "https://blockchair.com/ethereum",
+      "https://eth.tokenview.io/",
+      "https://www.oklink.com/eth",
+      "https://3xpl.com/ethereum"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "ethereum",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com/r/ethereum",
+    "repos_url": {
+      "github": [
+        "https://github.com/ethereum/go-ethereum",
+        "https://github.com/ethereum/py-evm",
+        "https://github.com/ethereum/aleth",
+        "https://github.com/ethereum/web3.py",
+        "https://github.com/ethereum/solidity",
+        "https://github.com/ethereum/sharding",
+        "https://github.com/ethereum/casper",
+        "https://github.com/paritytech/parity"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/279/thumb/ethereum.png?1696501628",
+    "small": "https://coin-images.coingecko.com/coins/images/279/small/ethereum.png?1696501628",
+    "large": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
+  },
+  "last_updated": "2025-07-11T04:27:44.731407+00:00"
+}

@@ -1,0 +1,2 @@
+﻿coin_id,name,symbol,is_stablecoin,stablecoin_categories,all_categories,last_updated
+tether,Tether,usdt,True,Stablecoins;USD Stablecoin;Fiat-backed Stablecoin,Stablecoins;USD Stablecoin;Solana Ecosystem;Avalanche Ecosystem;Near Protocol Ecosystem;Celo Ecosystem;Ethereum Ecosystem;Kaia Ecosystem;Aptos Ecosystem;FTX Holdings;TON Ecosystem;Tron Ecosystem;Kava Ecosystem;Fiat-backed Stablecoin;World Liberty Financial Portfolio,2025-07-11T04:27:45.747625+00:00

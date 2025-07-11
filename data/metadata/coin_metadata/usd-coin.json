@@ -1,0 +1,107 @@
+{
+  "id": "usd-coin",
+  "symbol": "usdc",
+  "name": "USDC",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "Solana Ecosystem",
+    "Avalanche Ecosystem",
+    "Polygon Ecosystem",
+    "Near Protocol Ecosystem",
+    "Arbitrum Ecosystem",
+    "Celo Ecosystem",
+    "Ethereum Ecosystem",
+    "Algorand Ecosystem",
+    "Optimism Ecosystem",
+    "Aptos Ecosystem",
+    "ZkSync Ecosystem",
+    "Sui Ecosystem",
+    "Base Ecosystem",
+    "Tron Ecosystem",
+    "Hedera Ecosystem",
+    "Stellar Ecosystem",
+    "XRP Ledger Ecosystem",
+    "Sonic Ecosystem",
+    "Fiat-backed Stablecoin",
+    "World Chain Ecosystem",
+    "World Liberty Financial Portfolio",
+    "Made in USA",
+    "Unichain Ecosystem"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "sonic": "0x29219dd400f2bf60e5a23d13be72b486d4038894",
+    "unichain": "0x078d782b760474a361dda0af3839290b0ef57ad6",
+    "polkadot": "1337",
+    "world-chain": "0x79a02482a880bce3f13e09da970dc34db4cd24d1",
+    "xrp": "5553444300000000000000000000000000000000.rGm7WCVp9gb4jZHWTEtGUr4dd74z2XuWhE",
+    "tron": "TEkxiTehnzSmSe2XqrBj4w32RUN966rdz8",
+    "near-protocol": "17208628f84f5d6ad33f0da3bbbeb27ffcb398eac501a31bd6ad2011e36133a1",
+    "hedera-hashgraph": "0.0.456858",
+    "arbitrum-one": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+    "optimistic-ethereum": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+    "zksync": "0x1d17cbcf0d6d143135ae902365d2e5e2a16538d4",
+    "aptos": "0xbae207659db88bea0cbead6da0ed00aac12edcdda169e591cd41c94180b46f3b",
+    "base": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+    "algorand": "31566704",
+    "stellar": "USDC-GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN",
+    "celo": "0xceba9300f2b948710d2653dd7b07f33a8b32118c",
+    "sui": "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC",
+    "avalanche": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+    "polygon-pos": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+    "solana": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "US",
+  "description": {
+    "en": "USDC is a fully collateralized US dollar stablecoin. USDC is the bridge between dollars and trading on cryptocurrency exchanges. The technology behind CENTRE makes it possible to exchange value between people, businesses and financial institutions just like email between mail services and texts between SMS providers. We believe by removing artificial economic borders, we can create a more inclusive global economy."
+  },
+  "links": {
+    "homepage": [
+      "https://www.circle.com/en/usdc"
+    ],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "https://platform.arkhamintelligence.com/explorer/token/usd-coin",
+      "https://bscscan.com/token/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+      "https://nearblocks.io/token/17208628f84f5d6ad33f0da3bbbeb27ffcb398eac501a31bd6ad2011e36133a1",
+      "https://ethplorer.io/address/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "https://basescan.org/token/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+      "https://arbiscan.io/token/0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "https://binplorer.com/address/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+      "https://explorer.kava.io/token/0xfa9343c3897324496a05fc75abed6bac29f8a40f",
+      "https://ftmscan.com/token/0x04068da6c83afcfa0e13ba15a6696662335d5b75"
+    ],
+    "official_forum_url": [],
+    "chat_url": [
+      "https://discord.com/invite/buildoncircle"
+    ],
+    "announcement_url": [
+      "https://medium.com/centre-blog",
+      "https://blog.circle.com/2018/09/26/introducing-usd-coin/"
+    ],
+    "snapshot_url": null,
+    "twitter_screen_name": null,
+    "facebook_username": null,
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": null,
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/centrehq/centre-tokens"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/6319/thumb/usdc.png?1696506694",
+    "small": "https://coin-images.coingecko.com/coins/images/6319/small/usdc.png?1696506694",
+    "large": "https://coin-images.coingecko.com/coins/images/6319/large/usdc.png?1696506694"
+  },
+  "last_updated": "2025-07-11T04:47:16.926895+00:00"
+}

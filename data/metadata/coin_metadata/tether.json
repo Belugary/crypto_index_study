@@ -1,0 +1,79 @@
+{
+  "id": "tether",
+  "symbol": "usdt",
+  "name": "Tether",
+  "categories": [
+    "Stablecoins",
+    "USD Stablecoin",
+    "Solana Ecosystem",
+    "Avalanche Ecosystem",
+    "Near Protocol Ecosystem",
+    "Celo Ecosystem",
+    "Ethereum Ecosystem",
+    "Kaia Ecosystem",
+    "Aptos Ecosystem",
+    "FTX Holdings",
+    "TON Ecosystem",
+    "Tron Ecosystem",
+    "Kava Ecosystem",
+    "Fiat-backed Stablecoin",
+    "World Liberty Financial Portfolio"
+  ],
+  "asset_platform_id": "ethereum",
+  "platforms": {
+    "ethereum": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "klay-token": "0xd077a400968890eacc75cdc901f0356c943e4fdb",
+    "aptos": "0x357b0b74bc833e95a115ad22604854d6b0fca151cecd94111770e5d6ffc9dc2b",
+    "tron": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+    "near-protocol": "usdt.tether-token.near",
+    "kava": "0x919c1c267bc06a7039e03fcc2ef738525769109c",
+    "celo": "0x48065fbbe25f71c9282ddf5e1cd6d6a887483d5e",
+    "the-open-network": "EQCxE6mUtQJKFnGfaROTKOt1lZbDiiX1kCixRv7Nw2Id_sDs",
+    "avalanche": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
+    "solana": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Tether (USDT) is a cryptocurrency with a value meant to mirror the value of the U.S. dollar. The idea was to create a stable cryptocurrency that can be used like digital dollars. Coins that serve this purpose of being a stable dollar substitute are called “stable coins.” Tether is the most popular stable coin and even acts as a dollar replacement on many popular exchanges! According to their site, Tether converts cash into digital currency, to anchor or “tether” the value of the coin to the price of national currencies like the US dollar, the Euro, and the Yen. Like other cryptos it uses blockchain. Unlike other cryptos, it is [according to the official Tether site] “100% backed by USD” (USD is held in reserve). The primary use of Tether is that it offers some stability to the otherwise volatile crypto space and offers liquidity to exchanges who can’t deal in dollars and with banks (for example to the sometimes controversial but leading exchange Bitfinex).\r\n\r\nThe digital coins are issued by a company called Tether Limited that is governed by the laws of the British Virgin Islands, according to the legal part of its website. It is incorporated in Hong Kong. It has emerged that Jan Ludovicus van der Velde is the CEO of cryptocurrency exchange Bitfinex, which has been accused of being involved in the price manipulation of bitcoin, as well as tether. Many people trading on exchanges, including Bitfinex, will use tether to buy other cryptocurrencies like bitcoin. Tether Limited argues that using this method to buy virtual currencies allows users to move fiat in and out of an exchange more quickly and cheaply. Also, exchanges typically have rocky relationships with banks, and using Tether is a way to circumvent that.\r\n\r\nUSDT is fairly simple to use. Once on exchanges like Poloniex or Bittrex, it can be used to purchase Bitcoin and other cryptocurrencies. It can be easily transferred from an exchange to any Omni Layer enabled wallet. Tether has no transaction fees, although external wallets and exchanges may charge one. In order to convert USDT to USD and vise versa through the Tether.to Platform, users must pay a small fee. Buying and selling Tether for Bitcoin can be done through a variety of exchanges like the ones mentioned previously or through the Tether.to platform, which also allows the conversion between USD to and from your bank account.\r\n\r\n"
+  },
+  "links": {
+    "homepage": [
+      "https://tether.to/"
+    ],
+    "whitepaper": "https://tether.to/wp-content/uploads/2016/06/TetherWhitePaper.pdf",
+    "blockchain_site": [
+      "https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "https://platform.arkhamintelligence.com/explorer/token/tether",
+      "https://ethplorer.io/address/0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "https://explorer.kava.io/token/0x919c1c267bc06a7039e03fcc2ef738525769109c",
+      "https://avascan.info/blockchain/c/address/0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7/token",
+      "https://solscan.io/token/es9vmfrzacermjfrf4h2fyd4kconky11mcce8benwnyb",
+      "https://nearblocks.io/token/usdt.tether-token.near",
+      "https://tonscan.org/address/EQCxE6mUtQJKFnGfaROTKOt1lZbDiiX1kCixRv7Nw2Id_sDs",
+      "https://celoscan.io/token/0x48065fbbe25f71c9282ddf5e1cd6d6a887483d5e",
+      "https://explorer.celo.org/mainnet/token/0x48065fbbe25f71c9282ddf5e1cd6d6a887483d5e"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Tether_to",
+    "facebook_username": "tether.to",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/325/thumb/Tether.png?1696501661",
+    "small": "https://coin-images.coingecko.com/coins/images/325/small/Tether.png?1696501661",
+    "large": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png?1696501661"
+  },
+  "last_updated": "2025-07-11T04:27:45.747625+00:00"
+}
