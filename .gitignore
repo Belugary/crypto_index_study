@@ -56,7 +56,13 @@ logs/
 tests/test_coingecko_api_local.py
 
 # GitHub configuration and workflows (may contain sensitive info)
-.github/
+.github/workflows/
+.github/secrets/
+.github/ISSUE_TEMPLATE/
+.github/PULL_REQUEST_TEMPLATE/
+
+# 但保留重要的开发文档
+!.github/copilot-instructions.md
 
 # Personal application scripts
 examples/download_top*_max_history.py
