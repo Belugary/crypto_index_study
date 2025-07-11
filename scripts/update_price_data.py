@@ -55,12 +55,25 @@ logger = logging.getLogger(__name__)
 class PriceDataUpdater:
     """量价数据更新器"""
 
-    def __init__(self):
-        self.api = CoinGeckoAPI()
-        self.downloader = create_batch_downloader()
+    def __init__(self, api=None, downloader=None, checker=None):
+        """
+        初始化量价数据更新器
+
+        Args:
+            api: CoinGeckoAPI 实例
+            downloader: BatchDownloader 实例
+            checker: StablecoinChecker 实例
+        """
+        self.api = api or CoinGeckoAPI()
+        self.downloader = downloader or create_batch_downloader()
+        self.checker = checker or StablecoinChecker()
         self.coins_dir = Path("data/coins")
         self.metadata_dir = Path("data/metadata")
+
         self.errors = []
+        self.updated_coins = []
+        self.new_coins = []
+
         self.stats = {
             "total_coins": 0,
             "new_coins": 0,
@@ -74,7 +87,7 @@ class PriceDataUpdater:
         # 确保日志目录存在
         Path("logs").mkdir(exist_ok=True)
 
-    def get_top_n_coins_by_market_cap(self, n: int = 300) -> List[Dict]:
+    def get_top_n_coins_by_market_cap(self, n: int = 500) -> List[Dict]:
         """
         获取市值前N名的加密货币
 
@@ -445,7 +458,7 @@ class PriceDataUpdater:
             logger.error(error_msg)
             self.errors.append(error_msg)
 
-    def run(self, top_n: int = 300) -> None:
+    def run(self, top_n: int = 500) -> None:
         """
         执行完整的量价数据更新流程
 
@@ -500,6 +513,12 @@ class PriceDataUpdater:
             ) as pbar:
                 for coin_id, coin_info in all_target_coins.items():
                     try:
+                        # 检查是否是稳定币
+                        if self.checker.is_stablecoin(coin_info.get("symbol", "")):
+                            pbar.update(1)
+                            pbar.set_postfix({"状态": "跳过稳定币"})
+                            continue
+
                         # 检查是否需要更新
                         is_new_coin = coin_id in [c["id"] for c in new_coins]
                         needs_update, last_date = self.needs_update(coin_id)
@@ -513,6 +532,10 @@ class PriceDataUpdater:
 
                             if success:
                                 updated_count += 1
+                                if is_new_coin:
+                                    self.new_coins.append(coin_id)
+                                else:
+                                    self.updated_coins.append(coin_id)
                             else:
                                 failed_count += 1
 
@@ -575,7 +598,7 @@ def main():
     import argparse
 
     parser = argparse.ArgumentParser(description="更新加密货币量价数据")
-    parser.add_argument("--top-n", type=int, default=300, help="市值前N名 (默认: 300)")
+    parser.add_argument("--top-n", type=int, default=500, help="市值前N名 (默认: 500)")
     parser.add_argument(
         "--batch-size", type=int, default=50, help="批处理大小 (默认: 50)"
     )

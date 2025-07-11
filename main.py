@@ -42,19 +42,25 @@ def show_basic_info():
 
 
 def run_tests():
-    """运行API测试"""
-    print("🧪 运行API测试...")
+    """运行所有单元测试"""
+    print("🧪 运行所有单元测试...")
     import subprocess
 
     try:
+        # 使用 unittest discover 自动发现并运行 tests/ 目录下的所有测试
         result = subprocess.run(
-            [sys.executable, "tests/test_coingecko_api.py"],
+            [sys.executable, "-m", "unittest", "discover", "tests"],
             capture_output=True,
             text=True,
+            check=True,  # 如果测试失败，则引发异常
         )
         print(result.stdout)
         if result.stderr:
-            print("错误信息:", result.stderr)
+            print("--- 标准错误输出 ---\n", result.stderr)
+    except subprocess.CalledProcessError as e:
+        print("❌ 部分测试未通过:")
+        print(e.stdout)
+        print(e.stderr)
     except Exception as e:
         print(f"❌ 测试运行失败: {e}")
 
