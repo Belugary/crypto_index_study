@@ -48,19 +48,22 @@ class TestPriceDataUpdaterLogic(unittest.TestCase):
     @patch("scripts.update_price_data.CoinGeckoAPI")
     @patch("scripts.update_price_data.create_batch_downloader")
     @patch("scripts.update_price_data.StablecoinChecker")
+    @patch("scripts.update_price_data.WrappedCoinChecker")
     def setUp(
-        self, MockStablecoinChecker, mock_create_batch_downloader, MockCoinGeckoAPI
+        self, MockWrappedCoinChecker, MockStablecoinChecker, mock_create_batch_downloader, MockCoinGeckoAPI
     ):
         """初始化测试环境和 mock 对象"""
         self.mock_api = MockCoinGeckoAPI.return_value
         self.mock_downloader = MagicMock()
         mock_create_batch_downloader.return_value = self.mock_downloader
         self.mock_checker = MockStablecoinChecker.return_value
+        self.mock_wrapped_checker = MockWrappedCoinChecker.return_value
 
         self.updater = PriceDataUpdater(
             api=self.mock_api,
             downloader=self.mock_downloader,
             checker=self.mock_checker,
+            wrapped_checker=self.mock_wrapped_checker,
         )
         # 为测试目的，手动添加在 run() 方法中才会创建的属性
         self.updater.updated_coins = []
@@ -93,6 +96,9 @@ class TestPriceDataUpdaterLogic(unittest.TestCase):
 
         # 模拟稳定币检查器
         self.mock_checker.is_stablecoin.side_effect = lambda symbol: symbol == "usdt"
+
+        # 模拟包装币检查器
+        self.mock_wrapped_checker.is_wrapped_coin.side_effect = lambda coin_id: {"is_wrapped_coin": coin_id == "wrapped-bitcoin"}
 
         # 模拟 get_coin_last_date
         # bitcoin 最新, ethereum 过时, tether 是稳定币应跳过
@@ -386,6 +392,55 @@ class TestUpdateMetadataScript(unittest.TestCase):
         mock_checker.export_stablecoins_csv.assert_called_once()
 
         print("✅ generate_complete_stablecoin_list 测试成功")
+
+    @patch("scripts.update_all_metadata.WrappedCoinChecker")
+    def test_generate_complete_wrapped_coin_list(self, mock_checker_class):
+        """测试生成完整包装币列表"""
+        from scripts.update_all_metadata import generate_complete_wrapped_coin_list
+
+        print("\n--- 测试 generate_complete_wrapped_coin_list ---")
+
+        # 模拟 WrappedCoinChecker
+        mock_checker = MagicMock()
+        mock_checker_class.return_value = mock_checker
+
+        # 模拟包装币数据
+        mock_wrapped_coins = [
+            {
+                "coin_id": "wrapped-bitcoin",
+                "name": "Wrapped Bitcoin",
+                "symbol": "wbtc",
+                "is_wrapped_coin": True,
+                "confidence": "high",
+                "wrapped_categories": ["Wrapped-Tokens"],
+                "name_indicators": ["wrapped"],
+                "symbol_patterns": ["prefix_w"],
+                "special_patterns": [],
+            },
+            {
+                "coin_id": "staked-ether",
+                "name": "Staked Ether",
+                "symbol": "steth",
+                "is_wrapped_coin": True,
+                "confidence": "very_high",
+                "wrapped_categories": ["Liquid Staking Tokens"],
+                "name_indicators": ["staked"],
+                "symbol_patterns": ["prefix_st"],
+                "special_patterns": [],
+            },
+        ]
+        mock_checker.get_all_wrapped_coins.return_value = mock_wrapped_coins
+        mock_checker.export_wrapped_coins_csv.return_value = True
+
+        # 执行函数
+        generate_complete_wrapped_coin_list()
+
+        # 验证调用
+        mock_checker_class.assert_called_once()
+        mock_checker.get_all_wrapped_coins.assert_called_once()
+        mock_checker.export_wrapped_coins_csv.assert_called_once()
+
+        print("✅ generate_complete_wrapped_coin_list 测试成功")
 
     @patch("scripts.update_all_metadata.StablecoinChecker")
     def test_generate_complete_stablecoin_list_no_stablecoins(self, mock_checker_class):

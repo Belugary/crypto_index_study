@@ -6,17 +6,18 @@
 2. 与现有coins目录对比，发现新币种
 3. 检测每个币种的最新数据日期
 4. 增量下载缺失的量价数据
-5. 更新稳定币元数据
+5. 更新稳定币和包装币元数据
 6. 生成更新报告并更新README
 """
 
+import logging
 import os
 import sys
 import time
-import logging
 from datetime import datetime, timedelta
 from pathlib import Path
-from typing import List, Dict, Set, Optional, Tuple
+from typing import Dict, List, Optional, Set, Tuple
+
 import pandas as pd
 from pandas.errors import OutOfBoundsDatetime
 from tqdm import tqdm
@@ -24,10 +25,10 @@ from tqdm import tqdm
 # 添加项目根目录到Python路径
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+from examples.stablecoin_checker import StablecoinChecker
+from examples.wrapped_coin_checker import WrappedCoinChecker
 from src.api.coingecko import CoinGeckoAPI
 from src.data.batch_downloader import create_batch_downloader
-from examples.stablecoin_checker import StablecoinChecker
-
 
 # API限流配置 (CoinGecko Analyst计划)
 RATE_LIMIT_CONFIG = {
@@ -55,7 +56,7 @@ logger = logging.getLogger(__name__)
 class PriceDataUpdater:
     """量价数据更新器"""
 
-    def __init__(self, api=None, downloader=None, checker=None):
+    def __init__(self, api=None, downloader=None, checker=None, wrapped_checker=None):
         """
         初始化量价数据更新器
 
@@ -63,10 +64,12 @@ class PriceDataUpdater:
             api: CoinGeckoAPI 实例
             downloader: BatchDownloader 实例
             checker: StablecoinChecker 实例
+            wrapped_checker: WrappedCoinChecker 实例
         """
         self.api = api or CoinGeckoAPI()
         self.downloader = downloader or create_batch_downloader()
         self.checker = checker or StablecoinChecker()
+        self.wrapped_checker = wrapped_checker or WrappedCoinChecker()
         self.coins_dir = Path("data/coins")
         self.metadata_dir = Path("data/metadata")
 
@@ -343,9 +346,9 @@ class PriceDataUpdater:
 
     def update_stablecoin_metadata(self):
         """
-        更新稳定币元数据 (复用已有数据)
+        更新稳定币和包装币元数据 (复用已有数据)
         """
-        logger.info("💰 更新稳定币元数据...")
+        logger.info("💰 更新稳定币和包装币元数据...")
 
         try:
             # 获取所有需要元数据的币种
@@ -388,8 +391,17 @@ class PriceDataUpdater:
             else:
                 logger.error("❌ 稳定币列表更新失败")
 
+            # 重新生成包装币列表
+            wrapped_checker = WrappedCoinChecker()
+            success = wrapped_checker.export_wrapped_coins_csv()
+
+            if success:
+                logger.info("✅ 包装币列表更新成功")
+            else:
+                logger.error("❌ 包装币列表更新失败")
+
         except Exception as e:
-            error_msg = f"更新稳定币元数据时发生异常: {e}"
+            error_msg = f"更新稳定币和包装币元数据时发生异常: {e}"
             logger.error(error_msg)
             self.errors.append(error_msg)
 
@@ -519,6 +531,14 @@ class PriceDataUpdater:
                             pbar.set_postfix({"状态": "跳过稳定币"})
                             continue
 
+                        # 检查是否是包装币
+                        if self.wrapped_checker.is_wrapped_coin(coin_id)[
+                            "is_wrapped_coin"
+                        ]:
+                            pbar.update(1)
+                            pbar.set_postfix({"状态": "跳过包装币"})
+                            continue
+
                         # 检查是否需要更新
                         is_new_coin = coin_id in [c["id"] for c in new_coins]
                         needs_update, last_date = self.needs_update(coin_id)
@@ -564,7 +584,7 @@ class PriceDataUpdater:
             self.stats["updated_coins"] = updated_count
             self.stats["failed_coins"] = failed_count
 
-            # 6. 更新稳定币元数据
+            # 6. 更新稳定币和包装币元数据
             self.update_stablecoin_metadata()
 
             # 7. 更新README时间戳

@@ -1,5 +1,5 @@
 """
-批量更新所有币种元数据并生成稳定币列表
+批量更新所有币种元数据并生成稳定币和包装币列表
 
 该脚本会：
 1. 扫描 data/coins/ 目录下的所有 CSV 文件
@@ -7,6 +7,8 @@
 3. 批量调用 API 获取元数据
 4. 存储到 data/metadata/coin_metadata/
 5. 生成完整的稳定币列表
+6. 生成完整的包装币列表
+7. 生成完整的原生币列表
 """
 
 import os
@@ -19,6 +21,7 @@ from typing import List, Set
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from examples.stablecoin_checker import StablecoinChecker
+from examples.wrapped_coin_checker import WrappedCoinChecker
 from src.data.batch_downloader import create_batch_downloader
 
 
@@ -191,6 +194,154 @@ def generate_complete_stablecoin_list() -> None:
         print(f"     - {category}: {count} 个")
 
 
+def generate_complete_native_coin_list() -> None:
+    """
+    生成完整的原生币列表（排除稳定币和包装币）
+    
+    该函数会：
+    1. 获取所有币种列表
+    2. 使用稳定币检查器识别稳定币
+    3. 使用包装币检查器识别包装币
+    4. 生成原生币列表并导出到CSV
+    """
+    print(f"\n🔍 生成完整的原生币列表...")
+    
+    # 获取所有币种ID
+    coin_ids = get_all_coin_ids_from_data()
+    
+    if not coin_ids:
+        print("❌ 没有找到任何币种数据")
+        return
+    
+    # 创建检查器
+    stablecoin_checker = StablecoinChecker()
+    wrapped_checker = WrappedCoinChecker()
+    
+    # 获取稳定币列表
+    stablecoin_results = []
+    for coin_id in coin_ids:
+        result = stablecoin_checker.is_stablecoin(coin_id)
+        if result["is_stablecoin"]:
+            stablecoin_results.append(coin_id)
+    
+    # 获取包装币列表
+    wrapped_results = []
+    for coin_id in coin_ids:
+        result = wrapped_checker.is_wrapped_coin(coin_id)
+        if result["is_wrapped_coin"]:
+            wrapped_results.append(coin_id)
+    
+    # 生成原生币列表（排除稳定币和包装币）
+    excluded_coins = set(stablecoin_results + wrapped_results)
+    native_coins = [coin_id for coin_id in coin_ids if coin_id not in excluded_coins]
+    
+    print(f"📊 原生币统计:")
+    print(f"   总币种数: {len(coin_ids)}")
+    print(f"   稳定币数: {len(stablecoin_results)}")
+    print(f"   包装币数: {len(wrapped_results)}")
+    print(f"   原生币数: {len(native_coins)}")
+    
+    # 导出到CSV
+    try:
+        import pandas as pd
+        from src.data.batch_downloader import create_batch_downloader
+        
+        downloader = create_batch_downloader()
+        
+        # 准备数据
+        csv_data = []
+        for coin_id in native_coins:
+            metadata = downloader._load_coin_metadata(coin_id)
+            if metadata:
+                csv_data.append({
+                    "coin_id": coin_id,
+                    "name": metadata.get("name", ""),
+                    "symbol": metadata.get("symbol", ""),
+                    "categories": ";".join(metadata.get("categories", [])),
+                    "last_updated": metadata.get("last_updated", "")
+                })
+        
+        # 创建DataFrame并保存
+        df = pd.DataFrame(csv_data)
+        df = df.sort_values("coin_id")
+        
+        output_path = "data/metadata/native_coins.csv"
+        df.to_csv(output_path, index=False, encoding="utf-8-sig")
+        
+        print(f"\n💾 原生币列表已导出到: {output_path}")
+        print(f"   共导出 {len(csv_data)} 个原生币")
+        
+    except Exception as e:
+        print(f"❌ 导出原生币列表失败: {e}")
+
+
+def generate_complete_wrapped_coin_list() -> None:
+    """
+    生成完整的包装币列表
+    """
+    print(f"\n📦 生成包装币列表")
+    print("=" * 40)
+
+    checker = WrappedCoinChecker()
+
+    # 获取所有包装币
+    wrapped_coins = checker.get_all_wrapped_coins()
+
+    if not wrapped_coins:
+        print("❌ 未找到任何包装币")
+        return
+
+    print(f"✅ 发现 {len(wrapped_coins)} 个包装币:")
+
+    # 按市值排名或名称排序显示
+    for i, coin in enumerate(wrapped_coins, 1):
+        symbol = coin["symbol"].upper()
+        name = coin["name"]
+        confidence = coin["confidence"]
+        indicators = []
+        if coin["wrapped_categories"]:
+            indicators.extend(coin["wrapped_categories"])
+        if coin["name_indicators"]:
+            indicators.extend([f"名称:{ind}" for ind in coin["name_indicators"]])
+        if coin["symbol_patterns"]:
+            indicators.extend([f"符号:{ind}" for ind in coin["symbol_patterns"]])
+
+        print(f"  {i:2d}. {name} ({symbol}) - 置信度: {confidence}")
+        if indicators:
+            print(f"      识别依据: {', '.join(indicators[:3])}")
+
+    # 导出到 CSV
+    success = checker.export_wrapped_coins_csv()
+    if success:
+        print(f"\n💾 包装币列表已导出到: data/metadata/wrapped_coins.csv")
+
+    # 额外分析
+    print(f"\n📊 包装币分析:")
+
+    # 按置信度统计
+    confidence_counts = {}
+    for coin in wrapped_coins:
+        conf = coin["confidence"]
+        confidence_counts[conf] = confidence_counts.get(conf, 0) + 1
+
+    print("   置信度分布:")
+    for conf, count in sorted(confidence_counts.items(), key=lambda x: x[1], reverse=True):
+        print(f"     - {conf}: {count} 个")
+
+    # 按分类统计
+    category_counts = {}
+    for coin in wrapped_coins:
+        for category in coin["wrapped_categories"]:
+            category_counts[category] = category_counts.get(category, 0) + 1
+
+    if category_counts:
+        print("   主要分类:")
+        for category, count in sorted(
+            category_counts.items(), key=lambda x: x[1], reverse=True
+        ):
+            print(f"     - {category}: {count} 个")
+
+
 def main():
     """主函数"""
     print("🔍 批量币种元数据更新与稳定币分析")
@@ -223,11 +374,19 @@ def main():
         # 2. 生成稳定币列表
         generate_complete_stablecoin_list()
 
+        # 3. 生成包装币列表
+        generate_complete_wrapped_coin_list()
+
+        # 4. 生成原生币列表
+        generate_complete_native_coin_list()
+
         print(f"\n{'='*70}")
         print("✅ 所有任务完成!")
         print("\n📁 生成的文件:")
         print("   - data/metadata/coin_metadata/*.json  (单个币种元数据)")
         print("   - data/metadata/stablecoins.csv       (稳定币汇总列表)")
+        print("   - data/metadata/wrapped_coins.csv     (包装币汇总列表)")
+        print("   - data/metadata/native_coins.csv      (原生币汇总列表)")
 
     except KeyboardInterrupt:
         print("\n⚠️  用户中断操作")
