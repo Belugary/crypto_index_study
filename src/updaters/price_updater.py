@@ -179,98 +179,105 @@ class PriceDataUpdater:
 
         self.errors = []
 
-    def needs_update(self, coin_id: str) -> Tuple[bool, Optional[str]]:
-        """检查币种是否需要更新"""
-        csv_file = self.coins_dir / f"{coin_id}.csv"
+    def download_coin_data(self, coin_id: str) -> Tuple[bool, bool]:
+        """
+        下载币种数据
 
-        if not csv_file.exists():
-            return True, None
+        重要设计原则：
+        对于 CoinGecko API，全量更新和增量更新的 API 权重消耗一致，
+        因此始终使用全量更新 (days="max") 来确保数据完整性，
+        避免增量更新可能导致的历史数据丢失问题。
 
+        智能跳过策略：
+        1. 检查文件是否存在且修改时间是今天
+        2. 检查数据行数是否充足（>500行）
+        3. 检查是否有今日的数据
+
+        Returns:
+            Tuple[bool, bool]: (success, api_called)
+            - success: 是否成功（包括跳过的情况）
+            - api_called: 是否实际调用了API
+        """
         try:
-            # 读取最后一行获取最新时间戳
-            with open(csv_file, "r", encoding="utf-8") as f:
-                lines = f.readlines()
-                if len(lines) <= 1:  # 只有表头
-                    return True, None
+            # 检查文件是否需要更新（使用改进的数据质量检查）
+            csv_file = self.coins_dir / f"{coin_id}.csv"
+            if csv_file.exists():
+                if self._check_data_quality(csv_file):
+                    logger.info(f"⏭️ {coin_id} 数据质量良好，跳过下载")
+                    return True, False  # 成功但没有API调用
+                else:
+                    logger.info(f"⚠️ {coin_id} 数据质量需要改善，重新下载")
 
-                last_line = lines[-1].strip()
-                if not last_line:
-                    return True, None
-
-                # 获取时间戳并转换为日期
-                timestamp_str = last_line.split(",")[0]
-                try:
-                    timestamp = int(float(timestamp_str))
-                    # 转换为UTC日期进行比较
-                    last_date = datetime.fromtimestamp(
-                        timestamp / 1000, tz=timezone.utc
-                    )
-                    today_utc = datetime.now(tz=timezone.utc)
-
-                    # 比较日期部分
-                    last_date_str = last_date.strftime("%Y-%m-%d")
-                    today_str = today_utc.strftime("%Y-%m-%d")
-
-                    if last_date_str < today_str:
-                        logger.debug(
-                            f"{coin_id}: 数据过期 (最新: {last_date_str}, 今天: {today_str})"
-                        )
-                        return True, last_date_str
-                    else:
-                        logger.debug(
-                            f"{coin_id}: 数据最新 (最新: {last_date_str}, 今天: {today_str})"
-                        )
-                        return False, last_date_str
-                except (ValueError, TypeError) as e:
-                    logger.warning(f"{coin_id}: 时间戳格式错误 {timestamp_str}: {e}")
-                    return True, None
-
-        except Exception as e:
-            logger.error(f"检查 {coin_id} 更新状态时出错: {e}")
-            return True, None
-
-    def download_coin_data(
-        self, coin_id: str, is_new_coin: bool, from_date: Optional[str]
-    ) -> bool:
-        """下载币种数据"""
-        try:
-            if is_new_coin:
-                logger.info(f"📥 新币种 {coin_id}，下载完整历史数据...")
-                success = self.downloader.download_coin_data(coin_id, days="max")
-            else:
-                days_to_update = (
-                    self._calculate_days_since(from_date) if from_date else 1
-                )
-                logger.info(
-                    f"📥 增量更新 {coin_id}，从 {from_date} 开始，共 {days_to_update} 天..."
-                )
-                success = self.downloader.download_coin_data(
-                    coin_id, days=str(days_to_update)
-                )
+            # 统一使用全量更新策略
+            logger.info(f"📥 下载 {coin_id} 完整历史数据 (全量更新)...")
+            success = self.downloader.download_coin_data(coin_id, days="max")
 
             if success:
                 logger.info(f"✅ {coin_id} 数据下载成功")
-                return True
+                return True, True  # 成功且有API调用
             else:
                 logger.error(f"❌ {coin_id} 数据下载失败")
-                return False
+                return False, True  # 失败但有API调用
 
         except Exception as e:
             logger.error(f"下载 {coin_id} 数据时出错: {e}")
-            return False
+            return False, True  # 失败但有API调用
 
-    def _calculate_days_since(self, date_str: str) -> int:
-        """计算从指定日期到今天的天数"""
+    def _check_data_quality(self, csv_file: Path) -> bool:
+        """
+        检查数据质量
+
+        Args:
+            csv_file: CSV文件路径
+
+        Returns:
+            bool: 数据质量是否良好
+        """
         try:
+            import os
+            import pandas as pd
             from datetime import date
 
-            target_date = datetime.strptime(date_str, "%Y-%m-%d").date()
-            today = datetime.now(tz=timezone.utc).date()
-            days_diff = (today - target_date).days + 1  # +1 确保包含今天
-            return max(1, days_diff)  # 至少返回1天
-        except Exception as e:
-            logger.warning(f"计算日期差异失败: {e}, 默认返回1天")
-            return 1
+            # 1. 检查文件修改时间
+            mtime = os.path.getmtime(csv_file)
+            file_date = date.fromtimestamp(mtime)
+            today = date.today()
+
+            # 如果不是今天修改的，需要更新
+            if file_date != today:
+                return False
+
+            # 2. 检查数据内容
+            try:
+                df = pd.read_csv(csv_file)
+            except Exception:
+                return False  # 读取失败，需要重新下载
+
+            # 3. 检查数据行数（至少500行）
+            if len(df) < 500:
+                return False
+
+            # 4. 检查是否有必要的列
+            if "timestamp" not in df.columns:
+                return False
+
+            # 5. 检查最新数据日期
+            try:
+                # 转换timestamp（毫秒时间戳）为日期
+                df["timestamp"] = pd.to_datetime(df["timestamp"], unit="ms")
+                latest_date = df["timestamp"].dt.date.max()
+
+                # 最新数据应该是今天或昨天（考虑时区差异）
+                days_diff = (today - latest_date).days
+                if days_diff > 1:
+                    return False
+            except Exception:
+                return False  # 日期解析失败
+
+            return True  # 所有检查都通过
+
+        except Exception:
+            return False  # 任何异常都认为需要重新下载
 
     def get_existing_coin_ids(self) -> Set[str]:
         """获取已存在的币种ID"""
@@ -335,41 +342,37 @@ class PriceDataUpdater:
                             coin_type = self.classifier.classify_coin(coin_id)
 
                             # 检查是否需要更新
-                            is_new_coin = coin_id not in existing_ids
-                            needs_update, last_date = self.needs_update(coin_id)
+                            # 每个币种都直接下载全量数据，简单直接
+                            success, api_called = self.download_coin_data(coin_id)
 
-                            if needs_update:
-                                # 下载数据
-                                success = self.download_coin_data(
-                                    coin_id, is_new_coin, last_date
-                                )
-
-                                if success:
-                                    # 更新统计
-                                    if coin_type == "native":
-                                        native_coins_updated += 1
-                                        self.stats["native_updated"] += 1
-                                    elif coin_type == "stable":
-                                        self.stats["stable_updated"] += 1
-                                    elif coin_type == "wrapped":
-                                        self.stats["wrapped_updated"] += 1
-
-                                    if is_new_coin:
-                                        self.stats["new_coins"] += 1
-                                        existing_ids.add(coin_id)
-
-                                    self.stats["api_calls"] += 1
-
-                                    # API限流延迟
-                                    time.sleep(RATE_LIMIT_CONFIG["delay_seconds"])
-                                else:
-                                    self.stats["failed_updates"] += 1
-                                    self.errors.append(f"{coin_id}: 下载失败")
-                            else:
-                                # 数据已是最新，但如果是原生币仍计入统计
+                            if success:
+                                # 更新统计
                                 if coin_type == "native":
                                     native_coins_updated += 1
                                     self.stats["native_updated"] += 1
+                                elif coin_type == "stable":
+                                    self.stats["stable_updated"] += 1
+                                elif coin_type == "wrapped":
+                                    self.stats["wrapped_updated"] += 1
+
+                                # 检查是否是新币种
+                                if coin_id not in existing_ids:
+                                    self.stats["new_coins"] += 1
+                                    existing_ids.add(coin_id)
+
+                                # 只在实际调用API时计数
+                                if api_called:
+                                    self.stats["api_calls"] += 1
+
+                                # API限流延迟（只在实际调用API时延迟）
+                                if api_called:
+                                    time.sleep(RATE_LIMIT_CONFIG["delay_seconds"])
+                            else:
+                                # 失败的情况也要统计API调用
+                                if api_called:
+                                    self.stats["api_calls"] += 1
+                                self.stats["failed_updates"] += 1
+                                self.errors.append(f"{coin_id}: 下载失败")
 
                             self.stats["total_processed"] += 1
 
