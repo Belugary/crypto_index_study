@@ -216,3 +216,104 @@
 
 - **复杂性告警**: 一个函数或方法中的 `if/else` 嵌套超过 3 层，或条件判断超过 5 个，应被视为“代码异味”，需要重构。
 - **依赖检查**: 代码审查时，必须检查是否优先依赖了官方或权威的字段/接口。
+
+---
+
+## 6. 技术实现重要提醒
+
+### 6.1. 数据源架构 (关键)
+
+#### 指数计算数据源
+
+- **核心数据源**: `data/daily/daily_files/` 目录下的每日汇总数据
+- **数据格式**: CSV 文件包含表头 `timestamp,price,volume,market_cap,date,coin_id,rank`
+- **时间戳处理**:
+  - ✅ **已修复**: CSV 文件包含表头行，pandas `read_csv()` 会自动正确处理
+  - ❌ **过去错误**: 尝试将表头 "timestamp" 转换为时间戳导致错误
+  - 📝 **解决方案**: 使用 `DailyDataAggregator` 统一处理数据访问
+
+#### 数据读取最佳实践
+
+```python
+# ✅ 正确方式：使用每日数据聚合器
+from src.downloaders.daily_aggregator import DailyDataAggregator
+aggregator = DailyDataAggregator(output_dir="data/daily")
+daily_data = aggregator.get_daily_data("2025-07-12")
+
+# ❌ 错误方式：直接读取CSV并手动处理时间戳
+df = pd.read_csv("data/coins/bitcoin.csv", header=None)  # 会导致表头问题
+df['date'] = pd.to_datetime(df['timestamp'], unit='ms')  # 表头非数值
+```
+
+#### 指数计算器架构更新
+
+- **MarketCapWeightedIndexCalculator**: 已更新为使用 `DailyDataAggregator`
+- **向后兼容**: 保留原有构造函数参数，但实际使用每日汇总数据
+- **性能优化**: 避免逐一读取数百个币种文件，改用预汇总数据
+
+### 6.2. 错误诊断模式
+
+#### 时间戳相关错误
+
+```
+ValueError: could not convert string to float: 'timestamp'
+```
+
+**根因**: CSV 文件包含表头，直接使用 `unit='ms'` 转换时间戳失败
+
+**解决方案**:
+
+1. 使用 `pd.read_csv()` 而非 `pd.read_csv(header=None)`
+2. 通过 `DailyDataAggregator` 统一数据访问
+3. 避免直接操作原始 CSV 文件
+
+#### 分类器集成错误模式
+
+**症状**: 分类器返回正确结果，但过滤逻辑不生效
+
+**案例**: `wrapped-bitcoin` 检查器返回 `is_wrapped_coin: True`，但仍出现在指数成分中
+
+**根因分析**:
+
+1. **字段名不匹配**: 过滤代码使用 `is_wrapped` 而检查器返回 `is_wrapped_coin`
+2. **分类不完整**: 液体质押代币 (`staked-ether`) 未被包装币检查器识别
+3. **异常处理过宽**: `except Exception` 导致所有错误都被静默忽略
+
+**解决方案**:
+
+```python
+# ❌ 错误方式
+is_wrapped = wrapped_result.get("is_wrapped", False)  # 字段名错误
+
+# ✅ 正确方式
+is_wrapped = wrapped_result.get("is_wrapped_coin", False)  # 正确字段名
+
+# 扩展包装币分类包含液体质押代币
+wrapped_category_keywords = [
+    "Wrapped-Tokens",
+    "Liquid Staking Tokens",
+    "Liquid Staked ETH",
+    "Tokenized BTC"
+]
+```
+
+**防范措施**:
+
+1. **单元测试覆盖**: 测试已知的包装币/液体质押币是否被正确过滤
+2. **字段名验证**: 确保分类器返回字段与过滤逻辑一致
+3. **分类完整性**: 定期审查新出现的衍生品分类
+
+### 6.3. 开发流程提醒
+
+#### 数据相关变更
+
+1. **测试数据访问**: 变更后立即运行指数计算测试
+2. **更新文档**: 在本指南中记录数据格式变更
+3. **向后兼容**: 确保现有脚本和示例正常工作
+
+#### 错误处理模式
+
+- **预防**: 优先使用已验证的数据访问类
+- **诊断**: 错误发生时检查数据格式假设
+- **修复**: 更新架构而非修补症状
+- **记录**: 在指南中记录解决方案防止重复
