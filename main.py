@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""":
+"""
 CoinGecko API 项目主入口文件
 
 使用方式:
@@ -10,6 +10,11 @@ CoinGecko API 项目主入口文件
 数据更新:
     python scripts/update_price_data.py                     # 智能更新510个原生币
     python scripts/update_price_data.py --native-coins 700  # 智能更新700个原生币
+    python scripts/update_all_metadata.py                   # 批量更新元数据
+    python scripts/update_all_metadata.py --fast            # 快速模式
+
+核心模块使用:
+    from src.updaters import PriceDataUpdater, MetadataUpdater
 """
 
 import argparse

@@ -53,13 +53,44 @@ for i, coin in enumerate(markets, 1):
     print(f"{i}. {coin['name']}: ${coin['current_price']} ({coin['price_change_percentage_24h']:.2f}%)")
 ```
 
-5. 批量下载示例
+5. 使用核心更新模块
 
 ```python
-from src.data.batch_downloader import create_batch_downloader
+# 价格数据智能更新
+from src.updaters.price_updater import PriceDataUpdater
+updater = PriceDataUpdater()
+updater.update_with_smart_strategy(target_native_coins=510)
+
+# 元数据批量管理
+from src.updaters.metadata_updater import MetadataUpdater
+meta_updater = MetadataUpdater()
+meta_updater.batch_update_all_metadata()
+meta_updater.update_all_classification_lists()
+```
+
+6. 批量下载示例
+
+```python
+from src.downloaders.batch_downloader import create_batch_downloader
 downloader = create_batch_downloader()
 results = downloader.download_batch(top_n=20, days="30")
 print(f"已下载 {len(downloader.list_downloaded_coins())} 个币种")
+```
+
+7. 币种分类示例
+
+```python
+from src.classification import StablecoinChecker, WrappedCoinChecker
+stable_checker = StablecoinChecker()
+wrapped_checker = WrappedCoinChecker()
+
+# 检查是否为稳定币
+result = stable_checker.is_stablecoin("tether")
+print(f"Tether 是稳定币: {result['is_stablecoin']}")
+
+# 检查是否为包装币
+result = wrapped_checker.is_wrapped_coin("wrapped-bitcoin")
+print(f"WBTC 是包装币: {result['is_wrapped_coin']}")
 ```
 
 ## 如何运行测试
@@ -82,12 +113,23 @@ python -m unittest discover tests
 ## 目录结构
 
 ```
-src/         # 核心功能代码
-scripts/     # 自动化脚本
-examples/    # 使用示例
-tests/       # 测试代码
-data/        # 数据资产 (coins/, metadata/)
-logs/        # 日志文件
+src/                         # 核心功能代码
+├── api/                     # API 接口封装
+├── classification/          # 币种分类器（稳定币、包装币识别）
+├── downloaders/             # 数据下载器（批量下载、日度聚合等）
+├── updaters/                # 数据更新核心逻辑 🆕
+│   ├── price_updater.py     # 价格数据智能更新策略
+│   └── metadata_updater.py  # 元数据批量管理功能
+├── analysis/                # 数据分析模块
+└── utils.py                 # 工具函数
+scripts/                     # 自动化脚本（薄封装层）
+├── update_price_data.py     # 量价数据更新脚本
+├── update_all_metadata.py   # 元数据批量更新脚本
+└── build_daily_summary.py   # 日度市场摘要构建脚本
+examples/                    # 使用示例
+tests/                       # 测试代码
+data/                        # 数据资产 (coins/, metadata/)
+logs/                        # 日志文件
 ```
 
 ## 许可证
