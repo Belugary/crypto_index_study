@@ -3738,5 +3738,95 @@
     "last_update": "2025-07-12T09:51:25.300549+00:00",
     "days": "max",
     "version": "1.0"
+  },
+  "savings-crvusd": {
+    "last_update": "2025-07-12T13:39:22.419335+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "web-3-dollar": {
+    "last_update": "2025-07-12T13:39:23.088905+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "m2-global-wealth-limited-mmx": {
+    "last_update": "2025-07-12T13:39:23.488189+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "magic-internet-money": {
+    "last_update": "2025-07-12T13:39:23.538781+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "rings-scbtc": {
+    "last_update": "2025-07-12T13:39:23.806446+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "societe-generale-forge-eurcv": {
+    "last_update": "2025-07-12T13:39:24.239183+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "astherus-usdf": {
+    "last_update": "2025-07-12T13:39:24.251060+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "susda": {
+    "last_update": "2025-07-12T13:39:24.723635+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "bridged-wrapped-steth-gnosis": {
+    "last_update": "2025-07-12T13:39:25.343475+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "wrapped-centrifuge": {
+    "last_update": "2025-07-12T13:39:26.775886+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "wrapped-xrp": {
+    "last_update": "2025-07-12T13:39:26.974540+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "straitsx-xusd": {
+    "last_update": "2025-07-12T13:39:27.131404+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "binance-usd": {
+    "last_update": "2025-07-12T13:39:27.365893+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "sui-bridged-wbtc-sui": {
+    "last_update": "2025-07-12T13:39:27.495967+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "altcoin-2": {
+    "last_update": "2025-07-12T13:39:27.791568+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "sygnum-fiusd-liquidity-fund": {
+    "last_update": "2025-07-12T13:39:27.911346+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "wmatic": {
+    "last_update": "2025-07-12T13:39:29.237839+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "phantom-staked-sol": {
+    "last_update": "2025-07-12T13:39:29.265139+00:00",
+    "days": "max",
+    "version": "1.0"
   }
 }
