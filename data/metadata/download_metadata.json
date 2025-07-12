@@ -1,22 +1,22 @@
 {
   "tether": {
-    "last_update": "2025-07-12T04:22:11.002155+00:00",
-    "days": "1",
+    "last_update": "2025-07-12T06:27:52.561322+00:00",
+    "days": "max",
     "version": "1.0"
   },
   "bitcoin": {
-    "last_update": "2025-07-12T04:22:10.034925+00:00",
-    "days": "1",
+    "last_update": "2025-07-12T06:27:43.106297+00:00",
+    "days": "max",
     "version": "1.0"
   },
   "ethereum": {
-    "last_update": "2025-07-12T04:22:10.248967+00:00",
-    "days": "1",
+    "last_update": "2025-07-12T06:27:45.940470+00:00",
+    "days": "max",
     "version": "1.0"
   },
   "usd-coin": {
-    "last_update": "2025-07-12T04:22:11.732813+00:00",
-    "days": "1",
+    "last_update": "2025-07-12T06:27:35.816741+00:00",
+    "days": "30",
     "version": "1.0"
   },
   "first-digital-usd": {
@@ -25,8 +25,8 @@
     "version": "1.0"
   },
   "solana": {
-    "last_update": "2025-07-12T04:22:11.510384+00:00",
-    "days": "1",
+    "last_update": "2025-07-12T06:27:34.380210+00:00",
+    "days": "30",
     "version": "1.0"
   },
   "binance-bridged-usdt-bnb-smart-chain": {
@@ -35,13 +35,13 @@
     "version": "1.0"
   },
   "ripple": {
-    "last_update": "2025-07-12T04:22:10.738329+00:00",
-    "days": "1",
+    "last_update": "2025-07-12T06:27:49.946943+00:00",
+    "days": "max",
     "version": "1.0"
   },
   "dogecoin": {
-    "last_update": "2025-07-12T04:22:11.958884+00:00",
-    "days": "1",
+    "last_update": "2025-07-12T06:27:37.206029+00:00",
+    "days": "30",
     "version": "1.0"
   },
   "bnb48-club-token": {
@@ -70,8 +70,8 @@
     "version": "1.0"
   },
   "binancecoin": {
-    "last_update": "2025-07-12T04:22:11.259769+00:00",
-    "days": "1",
+    "last_update": "2025-07-12T06:27:55.169850+00:00",
+    "days": "max",
     "version": "1.0"
   },
   "stellar": {
@@ -105,8 +105,8 @@
     "version": "1.0"
   },
   "tron": {
-    "last_update": "2025-07-12T04:22:12.221175+00:00",
-    "days": "1",
+    "last_update": "2025-07-12T06:27:38.932708+00:00",
+    "days": "30",
     "version": "1.0"
   },
   "pudgy-penguins": {
@@ -490,8 +490,8 @@
     "version": "1.0"
   },
   "staked-ether": {
-    "last_update": "2025-07-12T04:22:12.480060+00:00",
-    "days": "1",
+    "last_update": "2025-07-12T06:27:40.528632+00:00",
+    "days": "30",
     "version": "1.0"
   },
   "wrapped-steth": {
