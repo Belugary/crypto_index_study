@@ -160,12 +160,12 @@
     "version": "1.0"
   },
   "coinbase-wrapped-btc": {
-    "last_update": "2025-07-12T11:13:12.066987+00:00",
+    "last_update": "2025-07-12T12:14:35.671371+00:00",
     "days": "max",
     "version": "1.0"
   },
   "hyperliquid": {
-    "last_update": "2025-07-12T09:44:36.384657+00:00",
+    "last_update": "2025-07-12T12:14:34.605389+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -510,7 +510,7 @@
     "version": "1.0"
   },
   "usds": {
-    "last_update": "2025-07-12T11:14:23.034806+00:00",
+    "last_update": "2025-07-12T12:14:35.206893+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -520,12 +520,12 @@
     "version": "1.0"
   },
   "pi-network": {
-    "last_update": "2025-07-12T11:14:04.905051+00:00",
+    "last_update": "2025-07-12T12:14:36.165329+00:00",
     "days": "max",
     "version": "1.0"
   },
   "ethena-staked-usde": {
-    "last_update": "2025-07-12T09:43:20.720977+00:00",
+    "last_update": "2025-07-12T12:14:36.706046+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -540,7 +540,7 @@
     "version": "1.0"
   },
   "blackrock-usd-institutional-digital-liquidity-fund": {
-    "last_update": "2025-07-12T09:41:08.620119+00:00",
+    "last_update": "2025-07-12T12:14:37.337841+00:00",
     "days": "max",
     "version": "1.0"
   },

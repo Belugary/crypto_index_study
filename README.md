@@ -77,6 +77,12 @@ from src.updaters.metadata_updater import MetadataUpdater
 meta_updater = MetadataUpdater()
 meta_updater.batch_update_all_metadata()
 meta_updater.update_all_classification_lists()
+
+# 增量每日数据更新器示例
+from src.updaters.incremental_daily_updater import IncrementalDailyUpdater
+inc_updater = IncrementalDailyUpdater()
+results = inc_updater.update_with_new_coins(top_n=1000, max_workers=3, dry_run=True)
+print(results.get('summary'))
 ```
 
 7. 批量下载示例
