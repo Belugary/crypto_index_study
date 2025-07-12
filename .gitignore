@@ -79,7 +79,7 @@ tests/test_coingecko_api_local.py
 examples/download_top*_max_history.py
 download_top*_max_history.py
 
-# 临时文件和调试文件
+# 临时文件和调试文件 (统一命名规范)
 debug_*.py
 test_*_fix.py
 temp_*.py
@@ -88,9 +88,24 @@ tmp_*.py
 *_temp.py
 *_tmp.py
 *_test_*.py
+*_testing.py
 fix_*.py
 verify_*.py
 check_*.py
+validate_*.py
+inspect_*.py
+analyze_*.py
+explore_*.py
+
+# 调试和测试相关目录
+debug/
+debug_*/
+temp/
+tmp/
+testing/
+scratch/
+playground/
+sandbox/
 
 # 备份文件
 *.bak
@@ -98,12 +113,17 @@ check_*.py
 *.orig
 *.save
 *~
+*.old
 
 # 临时数据和文档文件
 DATA_README.md
 TEMP_*.md
 *_TEMP.md
 *_DEBUG.md
+*_NOTES.md
+*_TODO.md
+scratch_*.md
+notes_*.md
 
 # 实验和原型文件
 experiment_*.py
@@ -112,8 +132,31 @@ poc_*.py
 *_experiment.py
 *_prototype.py
 *_poc.py
+*_draft.py
+draft_*.py
+*_wip.py
+wip_*.py
 
 # 临时工具脚本（根目录不应该有临时脚本）
 restructure_*.py
-validate_*.py
 migrate_*.py
+refactor_*.py
+cleanup_*.py
+
+# 开发过程中的临时输出文件
+output_*.txt
+result_*.txt
+*_output.txt
+*_result.txt
+*.tmp
+*.temporary
+
+# Jupyter Notebook检查点
+.ipynb_checkpoints/
+
+# 编辑器临时文件
+*~
+*.swp
+*.swo
+.#*
+\#*\#
