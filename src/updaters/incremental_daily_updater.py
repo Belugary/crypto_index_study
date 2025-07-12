@@ -2,27 +2,17 @@
 """
 增量每日数据更新器
 
-核心功能：
-1. 检测新币种 (对比已有数据 vs 当前市值排名)
-2. 下载新币种完整历史数据
-3. 智能插入到现有每日汇总文件中
-4. 维护数据完整性和一致性
-
-设计原则：
-- 最小影响：只更新必要的文件
-- 数据完整性：确保所有插入操作的原子性
-- 性能优化：并行处理和智能缓存
-- 错误恢复：支持回滚和重试机制
+功能：检测新币种、下载历史数据、集成到每日文件
+特性：并行处理、错误恢复、自动排序
 """
 
-import logging
 import json
-from datetime import date, datetime, timedelta
-from pathlib import Path
-from typing import Dict, List, Set, Optional, Tuple
-from concurrent.futures import ThreadPoolExecutor, as_completed
-import tempfile
+import logging
 import shutil
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from datetime import date, datetime
+from pathlib import Path
+from typing import Dict, List, Optional, Set, Tuple
 
 import pandas as pd
 
@@ -34,14 +24,7 @@ logger = logging.getLogger(__name__)
 
 
 class IncrementalDailyUpdater:
-    """增量每日数据更新器
-
-    职责：
-    1. 新币种检测
-    2. 历史数据下载
-    3. 每日文件更新
-    4. 操作日志记录
-    """
+    """增量每日数据更新器"""
 
     def __init__(
         self,
@@ -51,11 +34,6 @@ class IncrementalDailyUpdater:
     ):
         """
         初始化增量更新器
-
-        Args:
-            coins_dir: 币种数据目录
-            daily_dir: 每日汇总数据目录
-            backup_enabled: 是否启用备份功能
         """
         self.coins_dir = Path(coins_dir)
         self.daily_dir = Path(daily_dir)
@@ -73,7 +51,7 @@ class IncrementalDailyUpdater:
         self.operation_log = Path("logs/incremental_daily_operations.jsonl")
         self.operation_log.parent.mkdir(exist_ok=True)
 
-        logger.info("增量每日数据更新器初始化完成")
+        logger.info("增量更新器初始化完成")
 
     def get_existing_coins(self) -> Set[str]:
         """获取已有的币种列表"""
@@ -113,11 +91,11 @@ class IncrementalDailyUpdater:
         new_coins = current - existing
 
         if new_coins:
-            logger.info(f"🆕 发现 {len(new_coins)} 个新币种:")
+            logger.info(f"发现 {len(new_coins)} 个新币种")
             for coin in sorted(new_coins):
-                logger.info(f"   - {coin}")
+                logger.info(f"  - {coin}")
         else:
-            logger.info("✅ 没有发现新币种")
+            logger.info("没有发现新币种")
 
         return list(new_coins)
 
@@ -130,18 +108,18 @@ class IncrementalDailyUpdater:
         Returns:
             是否下载成功
         """
-        logger.info(f"📥 开始下载 {coin_id} 的完整历史数据...")
+        logger.info(f"开始下载 {coin_id} 的历史数据")
 
         try:
             # 使用 max days 获取完整历史
             success = self.downloader.download_coin_data(coin_id, days="max")
 
             if success:
-                logger.info(f"✅ {coin_id} 历史数据下载成功")
+                logger.info(f"{coin_id} 历史数据下载成功")
                 # 记录操作日志
                 self._log_operation("download", coin_id, success=True)
             else:
-                logger.error(f"❌ {coin_id} 历史数据下载失败")
+                logger.error(f"{coin_id} 历史数据下载失败")
                 self._log_operation(
                     "download", coin_id, success=False, error="下载失败"
                 )
@@ -301,7 +279,7 @@ class IncrementalDailyUpdater:
                 df.to_csv(filepath, index=False, float_format="%.6f")
 
                 logger.info(
-                    f"✅ 已将 {coin_data['coin_id']} 插入到 {target_date} (排名: {df[df['coin_id'] == coin_data['coin_id']]['rank'].iloc[0]})"
+                    f"已将 {coin_data['coin_id']} 插入到 {target_date} (排名: {df[df['coin_id'] == coin_data['coin_id']]['rank'].iloc[0]})"
                 )
 
                 # 记录操作日志
@@ -347,7 +325,7 @@ class IncrementalDailyUpdater:
         Returns:
             (成功插入天数, 总尝试天数)
         """
-        logger.info(f"🔄 开始集成 {coin_id} 到每日文件...")
+        logger.info(f"开始集成 {coin_id} 到每日文件")
 
         # 加载币种数据
         coin_df = self.load_coin_data(coin_id)
@@ -415,7 +393,7 @@ class IncrementalDailyUpdater:
             (successful_insertions / total_attempts * 100) if total_attempts > 0 else 0
         )
         logger.info(
-            f"✅ {coin_id} 集成完成: {successful_insertions}/{total_attempts} 天成功 ({success_rate:.1f}%)"
+            f"{coin_id} 集成完成: {successful_insertions}/{total_attempts} 天成功 ({success_rate:.1f}%)"
         )
 
         return successful_insertions, total_attempts
@@ -459,7 +437,7 @@ class IncrementalDailyUpdater:
         """
         start_time = datetime.now()
         logger.info("=" * 60)
-        logger.info("🚀 开始增量每日数据更新")
+        logger.info("开始增量每日数据更新")
         logger.info(f"监控范围: 前 {top_n} 名")
         logger.info(f"并行线程: {max_workers}")
         logger.info(f"试运行模式: {'是' if dry_run else '否'}")
@@ -482,19 +460,19 @@ class IncrementalDailyUpdater:
             results["new_coins"] = new_coins
 
             if not new_coins:
-                logger.info("✅ 没有发现新币种，无需更新")
+                logger.info("没有发现新币种，无需更新")
                 results["summary"]["status"] = "no_new_coins"
                 return results
 
             if dry_run:
                 logger.info(
-                    f"🔍 试运行模式：发现 {len(new_coins)} 个新币种，实际运行时将会下载并集成"
+                    f"试运行模式：发现 {len(new_coins)} 个新币种，实际运行时将会下载并集成"
                 )
                 results["summary"]["status"] = "dry_run_complete"
                 return results
 
             # 2. 下载新币种历史数据
-            logger.info(f"📥 开始下载 {len(new_coins)} 个新币种的历史数据...")
+            logger.info(f"开始下载 {len(new_coins)} 个新币种的历史数据")
 
             with ThreadPoolExecutor(max_workers=max_workers) as executor:
                 future_to_coin = {
@@ -518,7 +496,7 @@ class IncrementalDailyUpdater:
                         }
 
             # 3. 集成到每日文件
-            logger.info("🔄 开始集成新币种数据到每日文件...")
+            logger.info("开始集成新币种数据到每日文件")
 
             for coin in new_coins:
                 download_result = results["download_results"][coin]
@@ -583,13 +561,30 @@ class IncrementalDailyUpdater:
             )
 
             logger.info("=" * 60)
-            logger.info("📊 增量更新完成")
-            logger.info(f"⏱️  执行时间: {duration:.1f} 秒")
-            logger.info(f"🆕 新币种数量: {len(new_coins)}")
-            logger.info(f"📥 成功下载: {successful_downloads}/{len(new_coins)}")
-            logger.info(f"🔄 成功集成: {successful_integrations}/{len(new_coins)}")
-            logger.info(f"📊 总插入次数: {total_insertions}")
+            logger.info("增量更新完成")
+            logger.info(f"执行时间: {duration:.1f} 秒")
+            logger.info(f"新币种数量: {len(new_coins)}")
+            logger.info(f"成功下载: {successful_downloads}/{len(new_coins)}")
+            logger.info(f"成功集成: {successful_integrations}/{len(new_coins)}")
+            logger.info(f"总插入次数: {total_insertions}")
             logger.info("=" * 60)
+
+            # 收集所有受影响的日期
+            affected_dates = set()
+            for result in results["integration_results"].values():
+                if result.get("success", False) and "inserted_days" in result:
+                    affected_dates.update(result["inserted_days"])
+
+            # 自动重排序（如果有数据更新）
+            if successful_integrations > 0:
+                logger.info("开始自动重排序每日文件")
+                reorder_success = self.auto_reorder_after_update(
+                    dry_run=False, affected_dates=affected_dates
+                )
+                if reorder_success:
+                    logger.info("每日文件重排序完成")
+                else:
+                    logger.warning("重排序过程出现问题，请检查日志")
 
             return results
 
@@ -598,6 +593,75 @@ class IncrementalDailyUpdater:
             results["summary"]["status"] = "error"
             results["summary"]["error"] = str(e)
             return results
+
+    def auto_reorder_after_update(
+        self, dry_run: bool = False, affected_dates: Optional[Set[str]] = None
+    ) -> bool:
+        """
+        更新完成后自动重排序每日文件
+
+        Args:
+            dry_run: 是否为试运行模式
+            affected_dates: 受影响的日期集合（YYYY-MM-DD格式），如果为None则处理所有文件
+
+        Returns:
+            bool: 是否成功
+        """
+        try:
+            # 动态导入以避免循环依赖
+            import importlib.util
+            import sys
+            from pathlib import Path
+
+            # 获取脚本文件路径
+            scripts_path = Path(__file__).parent.parent.parent / "scripts"
+            reorder_script = scripts_path / "reorder_daily_files_by_market_cap.py"
+
+            # 动态加载模块
+            spec = importlib.util.spec_from_file_location(
+                "reorder_daily_files_by_market_cap", reorder_script
+            )
+            if spec is None or spec.loader is None:
+                raise ImportError(f"无法加载脚本: {reorder_script}")
+
+            reorder_module = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(reorder_module)
+
+            logger.info("开始自动重排序每日文件")
+
+            # 如果指定了受影响的日期，使用优化的范围重排序
+            if affected_dates:
+                sorted_dates = sorted(affected_dates)
+                start_date = sorted_dates[0]
+                end_date = sorted_dates[-1]
+
+                logger.info(f"针对性重排序: {start_date} 到 {end_date}")
+                successful, total = reorder_module.reorder_files_by_date_range(
+                    start_date=start_date,
+                    end_date=end_date,
+                    dry_run=dry_run,
+                    max_workers=8,
+                )
+            else:
+                # 处理所有文件
+                logger.info("全量重排序所有每日文件")
+                successful, total = reorder_module.reorder_all_daily_files(
+                    dry_run=dry_run, max_workers=8
+                )
+
+            if successful == total and total > 0:
+                logger.info("每日文件重排序完成")
+                return True
+            else:
+                logger.warning(f"重排序部分完成: {successful}/{total}")
+                return False
+
+        except Exception as e:
+            logger.error(f"自动重排序失败: {e}")
+            return False
+        finally:
+            # 清理导入路径（如果使用了sys.path方式）
+            pass
 
 
 def create_incremental_updater(
