@@ -9,6 +9,7 @@
 - 可选自动过滤稳定币和包装币，专注原生资产
 - 一键批量下载、自动增量更新，数据始终保持最新
 - 完整 API 封装，支持币种列表、市场数据、历史行情等常用查询
+- 支持增量每日数据更新脚本，便于新币种检测与历史数据集成
 - 中文文档和示例，快速上手
 
 ## 快速开始
@@ -43,7 +44,17 @@ python scripts/update_price_data.py
 python scripts/update_price_data.py --native-coins 700
 ```
 
-4. 使用 API 查询
+4. 增量每日数据更新
+
+```bash
+# 监控前1000名并更新历史数据
+python scripts/incremental_daily_update.py
+
+# 自定义监控范围（如前800名）并试运行
+python scripts/incremental_daily_update.py --top-n 800 --dry-run
+```
+
+5. 使用 API 查询
 
 ```python
 from src.api.coingecko import CoinGeckoAPI
@@ -53,7 +64,7 @@ for i, coin in enumerate(markets, 1):
     print(f"{i}. {coin['name']}: ${coin['current_price']} ({coin['price_change_percentage_24h']:.2f}%)")
 ```
 
-5. 使用核心更新模块
+6. 使用核心更新模块
 
 ```python
 # 价格数据智能更新
@@ -68,7 +79,7 @@ meta_updater.batch_update_all_metadata()
 meta_updater.update_all_classification_lists()
 ```
 
-6. 批量下载示例
+7. 批量下载示例
 
 ```python
 from src.downloaders.batch_downloader import create_batch_downloader
@@ -77,7 +88,7 @@ results = downloader.download_batch(top_n=20, days="30")
 print(f"已下载 {len(downloader.list_downloaded_coins())} 个币种")
 ```
 
-7. 币种分类示例
+8. 币种分类示例
 
 ```python
 from src.classification import StablecoinChecker, WrappedCoinChecker
@@ -93,7 +104,7 @@ result = wrapped_checker.is_wrapped_coin("wrapped-bitcoin")
 print(f"WBTC 是包装币: {result['is_wrapped_coin']}")
 ```
 
-8. 指数计算示例
+9. 指数计算示例
 
 ```python
 from src.index import MarketCapWeightedIndexCalculator
@@ -176,7 +187,8 @@ src/                         # 核心功能代码
 scripts/                     # 自动化脚本（薄封装层）
 ├── update_price_data.py     # 量价数据更新脚本
 ├── update_all_metadata.py   # 元数据批量更新脚本
-└── build_daily_summary.py   # 日度市场摘要构建脚本
+├── build_daily_summary.py   # 日度市场摘要构建脚本
+└── incremental_daily_update.py # 增量每日数据更新脚本
 examples/                    # 使用示例
 tests/                       # 测试代码
 data/                        # 数据资产 (coins/, metadata/)
