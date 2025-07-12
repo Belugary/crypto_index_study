@@ -4,7 +4,6 @@
 基于 CoinGecko 官方分类标签进行精确识别，避免误判
 """
 
-import json
 import os
 import sys
 from pathlib import Path

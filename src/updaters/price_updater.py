@@ -24,9 +24,9 @@ from typing import Dict, List, Optional, Set, Tuple
 
 from tqdm import tqdm
 
+from ..api.coingecko import CoinGeckoAPI
 from ..classification.stablecoin_checker import StablecoinChecker
 from ..classification.wrapped_coin_checker import WrappedCoinChecker
-from ..api.coingecko import CoinGeckoAPI
 from ..downloaders.batch_downloader import create_batch_downloader
 
 # API限流配置

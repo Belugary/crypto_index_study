@@ -4,11 +4,10 @@
 基于存储的币种元数据快速查询稳定币信息
 """
 
-import json
 import os
 import sys
 from pathlib import Path
-from typing import List, Dict, Any
+from typing import Any, Dict, List
 
 # 添加项目根目录到Python路径
 sys.path.insert(

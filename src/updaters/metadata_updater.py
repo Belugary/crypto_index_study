@@ -13,7 +13,7 @@
 import logging
 import time
 from pathlib import Path
-from typing import List, Set, Dict, Optional
+from typing import Dict, List, Optional, Set
 
 from ..classification.stablecoin_checker import StablecoinChecker
 from ..classification.wrapped_coin_checker import WrappedCoinChecker
