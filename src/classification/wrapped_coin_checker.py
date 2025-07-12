@@ -49,8 +49,15 @@ class WrappedCoinChecker:
         wrapped_categories = []
 
         # 严格按照 CoinGecko 的官方分类判断
-        # 只有明确包含 "Wrapped-Tokens" 分类的才算包装币
-        wrapped_category_keywords = ["Wrapped-Tokens"]
+        # 包装币和衍生品分类（包括液体质押代币）
+        wrapped_category_keywords = [
+            "Wrapped-Tokens",  # 包装代币
+            "Liquid Staking Tokens",  # 液体质押代币
+            "Liquid Staked ETH",  # 液体质押ETH
+            "Liquid Staking",  # 液体质押
+            "Tokenized BTC",  # 代币化BTC
+            "Crypto-Backed Tokens",  # 加密货币支持的代币
+        ]
 
         # 检查分类中是否包含包装币关键词
         for category in categories:
@@ -68,6 +75,7 @@ class WrappedCoinChecker:
             "wrapped_categories": wrapped_categories,
             "all_categories": categories,
             "last_updated": metadata.get("last_updated"),
+            "note": "包括包装代币、液体质押代币等衍生品" if is_wrapped else "原生资产",
         }
 
     def get_all_wrapped_coins(self) -> List[Dict[str, Any]]:
