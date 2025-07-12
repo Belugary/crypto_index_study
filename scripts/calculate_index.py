@@ -69,8 +69,9 @@ def main():
         "--data-dir", default="data/coins", help="价格数据目录, 默认: data/coins"
     )
     parser.add_argument(
-        "--force-rebuild", action="store_true", 
-        help="强制重建每日数据文件，确保使用最新的原始数据计算指数"
+        "--force-rebuild",
+        action="store_true",
+        help="强制重建每日数据文件，确保使用最新的原始数据计算指数",
     )
 
     args = parser.parse_args()

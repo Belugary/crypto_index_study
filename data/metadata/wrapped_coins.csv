@@ -1,10 +1,85 @@
 coin_id,symbol,name
+,amapt,Amnis Aptos
+,ankr,Ankr Network
+,ankreth,Ankr Staked ETH
+,asbnb,Aster Staked BNB
+,asusdf,Aster Staked USDF
+,btc.b,Avalanche Bridged BTC (Avalanche)
+,qi,BENQI
+,savax,BENQI Liquid Staked AVAX
+,baby,Babylon
+,sts,Beets Staked Sonic
+,bfc,Bifrost
+,bnsol,Binance Staked SOL
 ,wsteth,Bridged Wrapped stETH (Gnosis)
+,bbsol,Bybit Staked SOL
 ,ckbtc,Chain-key Bitcoin
+,cloud,Cloud
 ,cbbtc,Coinbase Wrapped BTC
 ,cbeth,Coinbase Wrapped Staked ETH
+,dsol,Drift Staked SOL
+,susde,Ethena Staked USDe
+,ebtc,Ether.fi Staked BTC
+,eva,EverValue Coin
+,frax,Frax (prev. FXS)
+,frxeth,Frax Ether
+,fbtc,Function ƒBTC
+,haedal,Haedal Protocol
+,stavax,Hypha Staked AVAX
+,ibgt,Infrared BGT
+,ibera,Infrared Bera
+,jto,Jito
+,jitosol,Jito Staked SOL
+,jupsol,Jupiter Staked SOL
+,rseth,Kelp DAO Restaked ETH
+,kapt,Kofi Aptos
+,lainesol,Laine Staked SOL
+,ldo,Lido DAO
+,steth,Lido Staked Ether
+,lseth,Liquid Staked ETH
+,lista,Lista DAO
+,lhype,Looped Hype
+,stbtc,Lorenzo stBTC
+,meth,Mantle Staked Ether
+,mnde,Marinade
+,msol,Marinade Staked SOL
+,ohm,Olympus
+,oeth,Origin Ether
+,pendle,Pendle
+,psol,Phantom Staked SOL
+,puffer,Puffer
+,ezeth,Renzo Restaked ETH
 ,wstusr,Resolv wstUSR
 ,scbtc,Rings scBTC
+,rpl,Rocket Pool
+,reth,Rocket Pool ETH
+,ssv,SSV Network
+,inf,Sanctum Infinity
+,sflr,Sceptre Staked FLR
+,sb,Snowbank
+,ssol,Solayer Staked SOL
+,solvbtc,Solv Protocol BTC
+,solvbtc.core,Solv Protocol SolvBTC.CORE
+,xsolvbtc,Solv Protocol Staked BTC
+,ssui,Spring Staked SUI
+,sd,Stader
+,ethx,Stader ETHx
+,maticx,Stader MaticX
+,oseth,StakeWise Staked ETH
+,sfrax,Staked FRAX
+,sfrxeth,Staked Frax Ether
+,sfrxusd,Staked Frax USD
+,sthype,Staked HYPE
+,slvlusd,Staked Level USD
+,superoeth,Super OETH
+,sweth,Swell Ethereum
+,temple,TempleDAO
+,thapt,Thala APT
+,teth,Treehouse ETH
+,truapt,TruFin Staked APT
+,trumatic,TruFin Staked MATIC
+,usualx,USUALx
+,unibtc,Universal BTC
 ,weth,WETH
 ,wavax,Wrapped AVAX
 ,wbnb,Wrapped BNB
@@ -23,3 +98,14 @@ coin_id,symbol,name
 ,wfragsol,Wrapped fragSOL
 ,wsteth,Wrapped stETH
 ,zenbtc,Zenrock BTC
+,cdai,cDAI
+,ceth,cETH
+,cusdc,cUSDC
+,cwbtc,cWBTC
+,cgeth.hashkey,cgETH Hashkey Cloud
+,eeth,ether.fi Staked ETH
+,pumpbtc,pumpBTC
+,seth,sETH
+,susd,sUSD
+,sdl,stake.link
+,tbtc,tBTC

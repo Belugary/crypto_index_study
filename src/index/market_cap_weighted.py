@@ -128,26 +128,28 @@ class MarketCapWeightedIndexCalculator:
     def _get_daily_data_cached(self, target_date: date) -> pd.DataFrame:
         """
         获取指定日期的每日数据（带缓存）
-        
+
         Args:
             target_date: 目标日期
-            
+
         Returns:
             当日所有币种数据的DataFrame
         """
         # 检查是否已经在缓存中
         cache_key = target_date.isoformat()
-        if hasattr(self, '_daily_cache') and cache_key in self._daily_cache:
+        if hasattr(self, "_daily_cache") and cache_key in self._daily_cache:
             return self._daily_cache[cache_key]
-        
+
         # 初始化缓存
-        if not hasattr(self, '_daily_cache'):
+        if not hasattr(self, "_daily_cache"):
             self._daily_cache = {}
-        
+
         # 从数据源获取（只有第一次会强制刷新）
         force_refresh = self.force_rebuild and cache_key not in self._daily_cache
-        daily_df = self.daily_aggregator.get_daily_data(target_date, force_refresh=force_refresh)
-        
+        daily_df = self.daily_aggregator.get_daily_data(
+            target_date, force_refresh=force_refresh
+        )
+
         # 缓存结果
         self._daily_cache[cache_key] = daily_df
         return daily_df
@@ -342,7 +344,9 @@ class MarketCapWeightedIndexCalculator:
             f"排除稳定币: {self.exclude_stablecoins}, 排除包装币: {self.exclude_wrapped_coins}"
         )
         if self.force_rebuild:
-            self.logger.info("已启用强制重建每日数据功能，将使用最新的原始数据生成每日汇总")
+            self.logger.info(
+                "已启用强制重建每日数据功能，将使用最新的原始数据生成每日汇总"
+            )
 
         # 转换日期字符串为date对象
         start_dt = datetime.strptime(start_date, "%Y-%m-%d").date()

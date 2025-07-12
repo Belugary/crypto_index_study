@@ -236,8 +236,11 @@ class DailyDataAggregator:
             return False
 
     def rebuild_all_daily_files(
-        self, start_date: Optional[str] = None, end_date: Optional[str] = None,
-        parallel: bool = True, max_workers: Optional[int] = None
+        self,
+        start_date: Optional[str] = None,
+        end_date: Optional[str] = None,
+        parallel: bool = True,
+        max_workers: Optional[int] = None,
     ) -> None:
         """
         重建所有每日文件
@@ -278,44 +281,50 @@ class DailyDataAggregator:
         while current_date <= actual_end:
             date_list.append(current_date)
             current_date += timedelta(days=1)
-            
+
         total_days = len(date_list)
         self.logger.info(f"将处理 {total_days} 天的数据")
-        
+
         successful_days = 0
-        
+
         if parallel and total_days > 10:  # 只有天数足够多时才使用并行
             # 设置工作进程数
             if max_workers is None:
                 max_workers = max(1, multiprocessing.cpu_count() - 1)
-            
+
             self.logger.info(f"使用 {max_workers} 个工作进程并行处理")
-            
+
             # 使用并行处理
             with ProcessPoolExecutor(max_workers=max_workers) as executor:
                 # 创建任务
                 futures = []
                 for process_date in date_list:
-                    futures.append(executor.submit(
-                        self._process_single_day, process_date, coin_ids
-                    ))
-                
+                    futures.append(
+                        executor.submit(
+                            self._process_single_day, process_date, coin_ids
+                        )
+                    )
+
                 # 收集结果
                 completed = 0
                 for future in as_completed(futures):
                     completed += 1
                     if future.result():
                         successful_days += 1
-                    
+
                     if completed % 10 == 0 or completed == total_days:
-                        self.logger.info(f"进度: {completed}/{total_days} ({completed/total_days*100:.1f}%)")
+                        self.logger.info(
+                            f"进度: {completed}/{total_days} ({completed/total_days*100:.1f}%)"
+                        )
         else:
             # 使用单线程处理
             self.logger.info("使用单线程处理")
             for i, process_date in enumerate(date_list):
                 if i % 10 == 0 or i == total_days - 1:
-                    self.logger.info(f"进度: {i+1}/{total_days} ({(i+1)/total_days*100:.1f}%)")
-                
+                    self.logger.info(
+                        f"进度: {i+1}/{total_days} ({(i+1)/total_days*100:.1f}%)"
+                    )
+
                 if self._process_single_day(process_date, coin_ids):
                     successful_days += 1
 
@@ -323,22 +332,22 @@ class DailyDataAggregator:
         self.logger.info(f"总处理天数: {total_days}")
         self.logger.info(f"成功生成文件: {successful_days}")
         self.logger.info(f"成功率: {successful_days/total_days*100:.1f}%")
-    
+
     def _process_single_day(self, target_date: date, coin_ids: List[str]) -> bool:
         """
         处理单一天的数据，用于并行执行
-        
+
         Args:
             target_date: 目标日期
             coin_ids: 币种ID列表
-            
+
         Returns:
             是否成功处理
         """
         try:
             # 汇总当日数据
             daily_df = self._aggregate_daily_data(target_date, coin_ids)
-            
+
             if not daily_df.empty:
                 # 保存文件
                 return self._save_daily_file(daily_df, target_date)
@@ -348,8 +357,11 @@ class DailyDataAggregator:
             return False
 
     def rebuild_date_range(
-        self, start_date: str, end_date: str, 
-        parallel: bool = True, max_workers: Optional[int] = None
+        self,
+        start_date: str,
+        end_date: str,
+        parallel: bool = True,
+        max_workers: Optional[int] = None,
     ) -> None:
         """
         重建指定日期范围的文件
@@ -363,8 +375,7 @@ class DailyDataAggregator:
         self.rebuild_all_daily_files(start_date, end_date, parallel, max_workers)
 
     def update_recent_days(
-        self, days: int = 30, 
-        parallel: bool = True, max_workers: Optional[int] = None
+        self, days: int = 30, parallel: bool = True, max_workers: Optional[int] = None
     ) -> None:
         """
         更新最近N天的数据
@@ -379,10 +390,10 @@ class DailyDataAggregator:
 
         self.logger.info(f"更新最近 {days} 天的数据")
         self.rebuild_all_daily_files(
-            start_date.strftime("%Y-%m-%d"), 
+            start_date.strftime("%Y-%m-%d"),
             end_date.strftime("%Y-%m-%d"),
             parallel,
-            max_workers
+            max_workers,
         )
 
 
@@ -398,9 +409,7 @@ def main():
     parser.add_argument(
         "--output-dir", default="data/daily/daily_files", help="输出目录"
     )
-    parser.add_argument(
-        "--no-parallel", action="store_true", help="禁用并行处理"
-    )
+    parser.add_argument("--no-parallel", action="store_true", help="禁用并行处理")
     parser.add_argument(
         "--max-workers", type=int, help="最大工作进程数，默认为(CPU核心数-1)"
     )
@@ -420,17 +429,26 @@ def main():
         # 并行处理配置
         parallel = not args.no_parallel
         max_workers = args.max_workers
-        
+
         logger.info(f"并行处理: {'禁用' if args.no_parallel else '启用'}")
         if max_workers:
             logger.info(f"最大工作进程数: {max_workers}")
 
         if args.recent_days:
-            aggregator.update_recent_days(args.recent_days, parallel=parallel, max_workers=max_workers)
+            aggregator.update_recent_days(
+                args.recent_days, parallel=parallel, max_workers=max_workers
+            )
         elif args.start_date and args.end_date:
-            aggregator.rebuild_date_range(args.start_date, args.end_date, parallel=parallel, max_workers=max_workers)
+            aggregator.rebuild_date_range(
+                args.start_date,
+                args.end_date,
+                parallel=parallel,
+                max_workers=max_workers,
+            )
         elif args.rebuild_all:
-            aggregator.rebuild_all_daily_files(parallel=parallel, max_workers=max_workers)
+            aggregator.rebuild_all_daily_files(
+                parallel=parallel, max_workers=max_workers
+            )
         else:
             # 默认更新最近7天
             aggregator.update_recent_days(7, parallel=parallel, max_workers=max_workers)
