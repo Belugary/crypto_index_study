@@ -37,6 +37,7 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .cache
+tests/htmlcov/
 
 # Virtual Environment
 .venv/
