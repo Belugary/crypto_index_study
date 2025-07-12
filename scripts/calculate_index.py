@@ -9,8 +9,10 @@ import os
 import sys
 import argparse
 import logging
+import multiprocessing
 from datetime import datetime, date
 from pathlib import Path
+from concurrent.futures import ProcessPoolExecutor, as_completed
 
 # 添加项目根目录到Python路径
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -66,6 +68,10 @@ def main():
     parser.add_argument(
         "--data-dir", default="data/coins", help="价格数据目录, 默认: data/coins"
     )
+    parser.add_argument(
+        "--force-rebuild", action="store_true", 
+        help="强制重建每日数据文件，确保使用最新的原始数据计算指数"
+    )
 
     args = parser.parse_args()
 
@@ -93,12 +99,14 @@ def main():
         logger.info(f"排除包装币: {not args.include_wrapped_coins}")
         logger.info(f"数据目录: {args.data_dir}")
         logger.info(f"输出文件: {args.output}")
+        logger.info(f"强制重建每日数据: {'是' if args.force_rebuild else '否'}")
 
         # 创建指数计算器
         calculator = MarketCapWeightedIndexCalculator(
             data_dir=args.data_dir,
             exclude_stablecoins=not args.include_stablecoins,
             exclude_wrapped_coins=not args.include_wrapped_coins,
+            force_rebuild=args.force_rebuild,
         )
 
         # 计算指数
