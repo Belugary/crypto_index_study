@@ -1,25 +1,25 @@
-﻿coin_id,name,symbol,is_wrapped_coin,confidence,wrapped_categories,all_categories,last_updated
-bridged-wrapped-steth-gnosis,Bridged Wrapped stETH (Gnosis),wsteth,True,high,Wrapped-Tokens,Crypto-Backed Tokens;Wrapped-Tokens;Gnosis Chain Ecosystem;Bridged-Tokens,2025-07-11T09:50:48.145791+00:00
-chain-key-bitcoin,Chain-key Bitcoin,ckbtc,True,high,Wrapped-Tokens,Tokenized BTC;Wrapped-Tokens;Internet Computer Ecosystem,2025-07-11T09:53:13.479949+00:00
-coinbase-wrapped-btc,Coinbase Wrapped BTC,cbbtc,True,high,Wrapped-Tokens,Crypto-Backed Tokens;Tokenized BTC;Wrapped-Tokens;Solana Ecosystem;Arbitrum Ecosystem;Ethereum Ecosystem;Base Ecosystem,2025-07-11T04:57:44.145947+00:00
-coinbase-wrapped-staked-eth,Coinbase Wrapped Staked ETH,cbeth,True,high,Wrapped-Tokens,Crypto-Backed Tokens;Wrapped-Tokens;Polygon Ecosystem;Arbitrum Ecosystem;Liquid Staking Tokens;Ethereum Ecosystem;Optimism Ecosystem;Base Ecosystem;Liquid Staked ETH;Liquid Staking,2025-07-11T04:57:45.292278+00:00
-resolv-wstusr,Resolv wstUSR,wstusr,True,high,Wrapped-Tokens,Crypto-Backed Tokens;Decentralized Finance (DeFi);Wrapped-Tokens;Ethereum Ecosystem,2025-07-11T05:00:28.193045+00:00
-rings-scbtc,Rings scBTC,scbtc,True,high,Wrapped-Tokens,Wrapped-Tokens;Sonic Ecosystem,2025-07-11T09:50:58.980390+00:00
-weth,WETH,weth,True,high,Wrapped-Tokens,Crypto-Backed Tokens;Wrapped-Tokens;Ethereum Ecosystem;FTX Holdings;Tron Ecosystem;Index Coop Defi Index,2025-07-11T05:01:52.635148+00:00
-wrapped-avax,Wrapped AVAX,wavax,True,high,Wrapped-Tokens,Crypto-Backed Tokens;Wrapped-Tokens;Avalanche Ecosystem,2025-07-11T05:01:56.629374+00:00
-wbnb,Wrapped BNB,wbnb,True,high,Wrapped-Tokens,Crypto-Backed Tokens;BNB Chain Ecosystem;Wrapped-Tokens,2025-07-11T05:01:51.406733+00:00
-wrapped-beacon-eth,Wrapped Beacon ETH,wbeth,True,high,Wrapped-Tokens,Crypto-Backed Tokens;BNB Chain Ecosystem;Wrapped-Tokens;Ethereum Ecosystem,2025-07-11T05:01:57.190874+00:00
-wrapped-bitcoin,Wrapped Bitcoin,wbtc,True,high,Wrapped-Tokens,Crypto-Backed Tokens;Tokenized BTC;Wrapped-Tokens;Solana Ecosystem;Ethereum Ecosystem;FTX Holdings;Osmosis Ecosystem;World Liberty Financial Portfolio,2025-07-11T05:01:57.791281+00:00
-wrapped-centrifuge,Wrapped Centrifuge,wcfg,True,high,Wrapped-Tokens,Crypto-Backed Tokens;Wrapped-Tokens;Ethereum Ecosystem,2025-07-11T09:51:33.004182+00:00
-wrapped-ether-mantle-bridge,Wrapped Ether (Mantle Bridge),weth,True,high,Wrapped-Tokens,Smart Contract Platform;Crypto-Backed Tokens;Wrapped-Tokens;Layer 2 (L2);Mantle Ecosystem,2025-07-11T05:01:59.391824+00:00
-wrapped-hype,Wrapped HYPE,whype,True,high,Wrapped-Tokens,Wrapped-Tokens;HyperEVM Ecosystem,2025-07-11T05:02:00.587467+00:00
-wrapped-nxm,Wrapped NXM,wnxm,True,high,Wrapped-Tokens,Crypto-Backed Tokens;Decentralized Finance (DeFi);Insurance;Wrapped-Tokens;Ethereum Ecosystem;Blockchain Capital Portfolio,2025-07-11T09:52:56.701228+00:00
-wmatic,Wrapped POL,wpol,True,high,Wrapped-Tokens,Crypto-Backed Tokens;Wrapped-Tokens;Polygon Ecosystem;Fantom Ecosystem;IoTeX Ecosystem;Velas Ecosystem;Linea Ecosystem;Polygon zkEVM Ecosystem;Astar Ecosystem;Telos Ecosystem,2025-07-11T09:52:03.022554+00:00
-wrapped-quil,Wrapped QUIL,quil,True,high,Wrapped-Tokens,Smart Contract Platform;Wrapped-Tokens;Layer 1 (L1);Ethereum Ecosystem;Made in USA,2025-07-11T09:53:18.138616+00:00
-wrapped-rbnt,Wrapped RBNT,wrbnt,True,high,Wrapped-Tokens,Wrapped-Tokens;Redbelly Network Ecosystem,2025-07-11T09:55:37.359297+00:00
-wrapped-solana,Wrapped SOL,sol,True,high,Wrapped-Tokens,Crypto-Backed Tokens;Wrapped-Tokens;Solana Ecosystem,2025-07-11T05:02:01.150937+00:00
-wrapped-xrp,Wrapped XRP,wxrp,True,high,Wrapped-Tokens,Crypto-Backed Tokens;Wrapped-Tokens;Ethereum Ecosystem,2025-07-11T09:52:42.324264+00:00
-wrapped-eeth,Wrapped eETH,weeth,True,high,Wrapped-Tokens,Crypto-Backed Tokens;Wrapped-Tokens;Arbitrum Ecosystem;Ethereum Ecosystem;Restaking;Liquid Restaking Tokens;Ether.fi Ecosystem,2025-07-11T05:01:58.840677+00:00
-wrapped-fragsol,Wrapped fragSOL,wfragsol,True,high,Wrapped-Tokens,Wrapped-Tokens;Solana Ecosystem,2025-07-11T05:02:00.021170+00:00
-wrapped-steth,Wrapped stETH,wsteth,True,high,Wrapped-Tokens,Crypto-Backed Tokens;Decentralized Finance (DeFi);Wrapped-Tokens;Ethereum Ecosystem;Liquid Staking;Unichain Ecosystem,2025-07-11T05:02:01.853302+00:00
-wrapped-zenbtc,Zenrock BTC,zenbtc,True,high,Wrapped-Tokens,Wrapped-Tokens;Solana Ecosystem,2025-07-11T05:02:02.675870+00:00
+coin_id,symbol,name
+,wsteth,Bridged Wrapped stETH (Gnosis)
+,ckbtc,Chain-key Bitcoin
+,cbbtc,Coinbase Wrapped BTC
+,cbeth,Coinbase Wrapped Staked ETH
+,wstusr,Resolv wstUSR
+,scbtc,Rings scBTC
+,weth,WETH
+,wavax,Wrapped AVAX
+,wbnb,Wrapped BNB
+,wbeth,Wrapped Beacon ETH
+,wbtc,Wrapped Bitcoin
+,wcfg,Wrapped Centrifuge
+,weth,Wrapped Ether (Mantle Bridge)
+,whype,Wrapped HYPE
+,wnxm,Wrapped NXM
+,wpol,Wrapped POL
+,quil,Wrapped QUIL
+,wrbnt,Wrapped RBNT
+,sol,Wrapped SOL
+,wxrp,Wrapped XRP
+,weeth,Wrapped eETH
+,wfragsol,Wrapped fragSOL
+,wsteth,Wrapped stETH
+,zenbtc,Zenrock BTC
