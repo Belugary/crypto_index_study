@@ -72,6 +72,7 @@
   - 信任权威数据源：基于 CoinGecko 官方分类，无复杂自定义逻辑
   - 用户导向设计：确保原生币达到目标数量，同时更新遇到的非原生币
 - **智能搜索范围扩展**: 系统自动调整搜索范围，确保达到 510 个原生币种目标
+- **增量每日数据更新**: 新增脚本 `scripts/incremental_daily_update.py` 与模块 `src/updaters/incremental_daily_updater.py`，支持新币种检测与历史数据集成；新增测试 `tests/test_incremental_daily_updater.py` 覆盖核心逻辑。
 
 ### 🔧 架构重构
 
