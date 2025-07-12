@@ -1,231 +1,233 @@
 #!/usr/bin/env python3
 """
-更新所有现有币种脚本
+智能更新所有现有币种数据
 
-该脚本更新 data/coins 目录中所有现有的币种数据文件。
-使用智能跳过机制，只更新今天尚未更新的文件。
+该脚本使用更新日志来高效地更新 `data/coins` 目录中的所有币种数据文件。
+它会跳过今天已经更新过的币种，并为整个过程提供进度条。
 
 使用方式:
-    python scripts/update_all_existing_coins.py              # 更新所有现有币种
-    python scripts/update_all_existing_coins.py --batch-size 50  # 设置批处理大小
+    python scripts/update_all_existing_coins.py
 """
 
 import argparse
 import logging
 import os
 import sys
+from datetime import date, datetime
 from pathlib import Path
-from datetime import date
-from typing import List, Tuple
+from typing import Dict, List, Optional, Tuple
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
+import pandas as pd
+from tqdm import tqdm
 
 # 添加项目根目录到Python路径
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.updaters.price_updater import PriceDataUpdater
 
-# 配置日志
+# --- 配置 ---
+LOG_FILE = "logs/update_all_existing_coins.log"
+COINS_DIR = Path("data/coins")
+METADATA_DIR = Path("data/metadata")
+UPDATE_LOG_PATH = METADATA_DIR / "update_log.csv"
+
+# --- 日志配置 ---
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-    handlers=[
-        logging.FileHandler("logs/update_all_existing_coins.log"),
-        logging.StreamHandler(),
-    ],
+    handlers=[logging.FileHandler(LOG_FILE), logging.StreamHandler()],
 )
-
 logger = logging.getLogger(__name__)
 
 
-def get_existing_coin_files(coins_dir: Path) -> List[str]:
-    """获取所有现有的币种文件列表"""
-    coin_files = list(coins_dir.glob("*.csv"))
-    coin_ids = [f.stem for f in coin_files]
-    return sorted(coin_ids)
+class UpdateLogger:
+    """
+    管理更新日志 (update_log.csv)
+    """
+
+    def __init__(self, log_path: Path):
+        self.log_path = log_path
+        self.log_df = self._load_or_create_log()
+
+    def _load_or_create_log(self) -> pd.DataFrame:
+        """加载或创建更新日志"""
+        self.log_path.parent.mkdir(parents=True, exist_ok=True)
+        if self.log_path.exists():
+            logger.info(f"从 {self.log_path} 加载更新日志")
+            return pd.read_csv(self.log_path)
+        else:
+            logger.info(f"创建新的更新日志: {self.log_path}")
+            df = pd.DataFrame(columns=["coin_id", "last_updated"])
+            df.to_csv(self.log_path, index=False)
+            return df
+
+    def get_last_update_date(self, coin_id: str) -> Optional[date]:
+        """获取币种的最后更新日期"""
+        record = self.log_df[self.log_df["coin_id"] == coin_id]
+        if not record.empty:
+            try:
+                return datetime.strptime(
+                    record.iloc[0]["last_updated"], "%Y-%m-%d"
+                ).date()
+            except (ValueError, TypeError):
+                return None
+        return None
+
+    def log_update(self, coin_id: str):
+        """记录币种的更新时间"""
+        today_str = date.today().strftime("%Y-%m-%d")
+        if coin_id in self.log_df["coin_id"].values:
+            self.log_df.loc[self.log_df["coin_id"] == coin_id, "last_updated"] = (
+                today_str
+            )
+        else:
+            new_record = pd.DataFrame([{"coin_id": coin_id, "last_updated": today_str}])
+            self.log_df = pd.concat([self.log_df, new_record], ignore_index=True)
+
+    def save_log(self):
+        """保存更新日志"""
+        self.log_df.to_csv(self.log_path, index=False)
+        logger.info(f"更新日志已保存到 {self.log_path}")
 
 
-def filter_coins_needing_update(
-    coin_ids: List[str], coins_dir: Path
+def get_coins_to_update(
+    all_coins: List[str], update_logger: UpdateLogger
 ) -> Tuple[List[str], List[str]]:
-    """筛选需要更新的币种和已经是今日更新的币种（基于数据质量检查）"""
-    import pandas as pd
-
+    """
+    根据更新日志筛选需要更新的币种
+    """
     today = date.today()
     needs_update = []
     already_updated = []
 
-    for coin_id in coin_ids:
-        csv_file = coins_dir / f"{coin_id}.csv"
-
-        if not csv_file.exists():
+    for coin_id in tqdm(all_coins, desc="检查更新状态"):
+        last_update = update_logger.get_last_update_date(coin_id)
+        if last_update != today:
             needs_update.append(coin_id)
-            continue
-
-        try:
-            # 读取数据进行质量检查
-            df = pd.read_csv(csv_file)
-
-            # 检查1: 数据行数是否足够（至少500行表示有充足历史数据）
-            if len(df) < 500:
-                logger.warning(f"⚠️  {coin_id}: 数据行数不足({len(df)}行)，需要重新下载")
-                needs_update.append(coin_id)
-                continue
-
-            # 检查2: 是否有timestamp列
-            if "timestamp" not in df.columns:
-                logger.warning(f"⚠️  {coin_id}: 缺少timestamp列，需要重新下载")
-                needs_update.append(coin_id)
-                continue
-
-            # 检查3: 最新数据是否是今日的
-            df["timestamp"] = pd.to_datetime(
-                df["timestamp"], unit="ms", errors="coerce"
-            ).dt.date
-            latest_date = df["timestamp"].max()
-
-            if pd.isna(latest_date):
-                logger.warning(f"⚠️  {coin_id}: 日期数据无效，需要重新下载")
-                needs_update.append(coin_id)
-            elif latest_date < today:
-                logger.info(f"📅 {coin_id}: 最新数据 {latest_date}，需要更新到今日")
-                needs_update.append(coin_id)
-            else:
-                logger.debug(
-                    f"✅ {coin_id}: 数据质量良好，{len(df)}行，最新:{latest_date}"
-                )
-                already_updated.append(coin_id)
-
-        except Exception as e:
-            # 文件损坏或无法读取，需要重新下载
-            logger.warning(f"⚠️  {coin_id}: 文件读取失败，需要重新下载 - {e}")
-            needs_update.append(coin_id)
+        else:
+            already_updated.append(coin_id)
 
     return needs_update, already_updated
 
 
-def update_coin_batch(
-    updater: PriceDataUpdater, coin_ids: List[str]
-) -> Tuple[int, int, int]:
-    """更新一批币种"""
+def run_update(
+    updater: PriceDataUpdater,
+    coins_to_update: List[str],
+    update_logger: UpdateLogger,
+    max_workers: int,
+) -> Tuple[int, int]:
+    """
+    使用并行处理更新所有需要更新的币种
+    """
     success_count = 0
-    skip_count = 0
     fail_count = 0
 
-    for coin_id in coin_ids:
-        try:
-            logger.info(f"处理币种: {coin_id}")
-            success, api_called = updater.download_coin_data(coin_id)
+    with tqdm(total=len(coins_to_update), desc="更新币种数据") as pbar:
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            future_to_coin = {
+                executor.submit(updater.download_coin_data, coin_id): coin_id
+                for coin_id in coins_to_update
+            }
 
-            if success:
-                if api_called:
-                    success_count += 1
-                    logger.info(f"✅ {coin_id} 更新成功")
-                else:
-                    skip_count += 1
-                    logger.info(f"⏭️ {coin_id} 跳过（今日已更新）")
-            else:
-                fail_count += 1
-                logger.error(f"❌ {coin_id} 更新失败")
+            for future in as_completed(future_to_coin):
+                coin_id = future_to_coin[future]
+                try:
+                    success, _ = future.result()
+                    if success:
+                        success_count += 1
+                        update_logger.log_update(coin_id)
+                    else:
+                        fail_count += 1
+                except Exception as e:
+                    logger.error(f"更新 {coin_id} 时发生异常: {e}")
+                    fail_count += 1
+                pbar.update(1)
 
-        except Exception as e:
-            fail_count += 1
-            logger.error(f"❌ {coin_id} 处理异常: {e}")
-
-    return success_count, skip_count, fail_count
+    return success_count, fail_count
 
 
 def main():
     """主函数"""
-    parser = argparse.ArgumentParser(description="更新所有现有币种数据")
+    parser = argparse.ArgumentParser(description="智能更新所有现有币种数据")
     parser.add_argument(
-        "--batch-size", type=int, default=100, help="批处理大小 (默认: 100)"
+        "--max-workers",
+        type=int,
+        default=10,
+        help="并行下载的最大工作线程数 (默认: 10)",
     )
     parser.add_argument(
-        "--dry-run", action="store_true", help="仅显示需要更新的币种，不执行实际更新"
+        "--force-all",
+        action="store_true",
+        help="强制更新所有币种，忽略更新日志",
     )
-
     args = parser.parse_args()
 
-    print("🔄 更新所有现有币种工具")
+    print("🔄 智能更新所有现有币种工具")
     print("=" * 50)
 
-    # 设置路径
-    coins_dir = Path("data/coins")
-    if not coins_dir.exists():
-        print("❌ data/coins 目录不存在")
+    if not COINS_DIR.exists():
+        logger.error(f"❌ 币种数据目录不存在: {COINS_DIR}")
         sys.exit(1)
 
     try:
-        # 获取所有现有币种
-        print("📊 扫描现有币种文件...")
-        all_coin_ids = get_existing_coin_files(coins_dir)
+        # 1. 初始化
+        all_coin_ids = sorted([f.stem for f in COINS_DIR.glob("*.csv")])
+        update_logger = UpdateLogger(UPDATE_LOG_PATH)
+        updater = PriceDataUpdater()
+
         print(f"发现 {len(all_coin_ids)} 个现有币种")
 
-        # 筛选需要更新的币种
-        needs_update, already_updated = filter_coins_needing_update(
-            all_coin_ids, coins_dir
-        )
+        # 2. 筛选需要更新的币种
+        if args.force_all:
+            print("⚡️ 强制模式：将更新所有币种")
+            needs_update = all_coin_ids
+            already_updated = []
+        else:
+            needs_update, already_updated = get_coins_to_update(
+                all_coin_ids, update_logger
+            )
 
         print(f"\n📈 统计信息:")
         print(f"   - 总币种数: {len(all_coin_ids)}")
-        print(f"   - 今日已更新: {len(already_updated)}")
+        print(f"   - 今日已更新 (跳过): {len(already_updated)}")
         print(f"   - 需要更新: {len(needs_update)}")
-
-        if args.dry_run:
-            print(f"\n🔍 需要更新的币种 ({len(needs_update)} 个):")
-            for i, coin_id in enumerate(needs_update, 1):
-                print(f"   {i:3d}. {coin_id}")
-            return
 
         if not needs_update:
             print("\n✅ 所有币种都是今日最新数据，无需更新！")
             return
 
-        print(f"\n🚀 开始更新 {len(needs_update)} 个币种...")
-        print(f"批处理大小: {args.batch_size}")
+        # 3. 执行更新
+        print(
+            f"\n🚀 开始更新 {len(needs_update)} 个币种 (并行数: {args.max_workers})..."
+        )
+        success_count, fail_count = run_update(
+            updater, needs_update, update_logger, args.max_workers
+        )
 
-        # 创建更新器
-        updater = PriceDataUpdater()
+        # 4. 保存日志并报告结果
+        update_logger.save_log()
 
-        # 分批处理
-        total_success = 0
-        total_skip = 0
-        total_fail = 0
-
-        for i in range(0, len(needs_update), args.batch_size):
-            batch = needs_update[i : i + args.batch_size]
-            batch_num = i // args.batch_size + 1
-            total_batches = (len(needs_update) + args.batch_size - 1) // args.batch_size
-
-            print(f"\n📦 处理批次 {batch_num}/{total_batches} ({len(batch)} 个币种)")
-
-            success, skip, fail = update_coin_batch(updater, batch)
-            total_success += success
-            total_skip += skip
-            total_fail += fail
-
-            print(f"批次结果: 成功={success}, 跳过={skip}, 失败={fail}")
-
-        # 最终统计
         print(f"\n🎯 更新完成！")
         print(f"📊 最终统计:")
-        print(f"   - 成功更新: {total_success}")
-        print(f"   - 智能跳过: {total_skip}")
-        print(f"   - 更新失败: {total_fail}")
-        print(f"   - 处理总数: {total_success + total_skip + total_fail}")
+        print(f"   - 成功更新: {success_count}")
+        print(f"   - 更新失败: {fail_count}")
 
-        if total_fail > 0:
-            print(f"\n⚠️  有 {total_fail} 个币种更新失败，请检查日志")
+        if fail_count > 0:
+            print(f"\n⚠️  有 {fail_count} 个币种更新失败，请检查日志: {LOG_FILE}")
         else:
-            print(f"\n✅ 所有币种处理完成，无失败！")
+            print(f"\n✅ 所有需要更新的币种都已成功处理！")
 
     except KeyboardInterrupt:
         print("\n⚠️  用户中断操作")
+        # 确保在中断时也能保存已完成的日志
+        if "update_logger" in locals():
+            update_logger.save_log()
         sys.exit(1)
     except Exception as e:
-        print(f"\n❌ 脚本执行失败: {e}")
-        import traceback
-
-        traceback.print_exc()
+        logger.error(f"❌ 脚本执行失败: {e}", exc_info=True)
+        if "update_logger" in locals():
+            update_logger.save_log()
         sys.exit(1)
 
 
