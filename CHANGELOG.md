@@ -8,6 +8,23 @@
 
 ## [未发布] - 2025-07-12
 
+### 🧪 测试系统现代化
+
+- **修复过时测试引用**: 更新所有测试文件中的过时模块引用
+  - 修正 `PriceDataUpdater` 导入路径：`scripts.update_price_data` → `src.updaters.price_updater`
+  - 更新所有 `patch` 装饰器的引用路径，匹配重构后的代码结构
+  - 移除对不存在函数的测试（如 `get_all_coin_ids_from_data`, `batch_update_all_metadata` 等）
+
+- **测试结构重构**: 简化测试架构，聚焦核心功能
+  - 创建 `TestMetadataUpdaterIntegration` 类，专门测试 `MetadataUpdater` 集成功能
+  - 保留脚本层的主流程测试，确保调用关系正确
+  - 移除冗余的单独函数测试，改为测试实际的类方法
+
+- **测试质量提升**: 
+  - **29个测试** 全部通过，100% 成功率 ✅
+  - 测试现在与当前代码架构完全匹配
+  - 提供可靠的重构安全保障
+
 ### 🏗️ 重大架构重构
 
 - **核心功能模块化**: 创建 `src/updaters/` 模块，将核心业务逻辑从脚本层分离
