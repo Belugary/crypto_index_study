@@ -110,8 +110,9 @@ class TestPriceDataUpdaterLogic(unittest.TestCase):
         updater = PriceDataUpdater()
 
         # Mock updater的方法
-        updater.needs_update = MagicMock(return_value=(True, None))
-        updater.download_coin_data = MagicMock(return_value=True)
+        updater.download_coin_data = MagicMock(
+            return_value=(True, True)
+        )  # 返回 (success, api_called)
         updater.get_existing_coin_ids = MagicMock(return_value=set())
         updater.update_metadata = MagicMock()
         updater.generate_final_report = MagicMock()

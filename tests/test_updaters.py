@@ -141,15 +141,21 @@ class TestPriceDataUpdater(unittest.TestCase):
         ):
             self.updater = PriceDataUpdater()
 
-    def test_needs_update_new_coin(self):
-        """测试新币种是否需要更新"""
-        print("\n--- 测试新币种更新检查 ---")
+    def test_download_coin_data_new_coin(self):
+        """测试新币种数据下载"""
+        print("\n--- 测试新币种数据下载 ---")
 
-        # 测试不存在的币种
-        needs_update, last_date = self.updater.needs_update("nonexistent-coin")
-        self.assertTrue(needs_update)
-        self.assertIsNone(last_date)
-        print("✅ 新币种检查测试通过")
+        # 模拟不存在的币种文件
+        with patch("pathlib.Path.exists", return_value=False):
+            with patch.object(
+                self.updater.downloader, "download_coin_data", return_value=True
+            ):
+                success, api_called = self.updater.download_coin_data(
+                    "nonexistent-coin"
+                )
+                self.assertTrue(success)
+                self.assertTrue(api_called)  # 新币种应该会调用API
+        print("✅ 新币种数据下载测试通过")
 
     def test_get_existing_coin_ids(self):
         """测试获取已存在的币种ID"""
