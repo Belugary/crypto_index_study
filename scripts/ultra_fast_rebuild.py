@@ -11,14 +11,14 @@
 
 import argparse
 import logging
+import math
+import multiprocessing
 import os
 import sys
-import multiprocessing
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Dict, List, Optional
-from concurrent.futures import ThreadPoolExecutor, as_completed
-import math
 
 import pandas as pd
 from tqdm import tqdm
