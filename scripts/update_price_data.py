@@ -1,50 +1,49 @@
+#!/usr/bin/env python3
 """
-批量更新加密货币量价数据
+重构的量价数据更新器
 
-该脚本会：
-1. 获取市值前N名的加密货币
-2. 与现有coins目录对比，发现新币种
-3. 检测每个币种的最新数据日期
-4. 增量下载缺失的量价数据
-5. 更新稳定币和包装币元数据
-6. 生成更新报告并更新README
+设计哲学：
+1. 简单胜于复杂 - 每个方法职责单一
+2. 信任权威数据源 - 基于CoinGecko官方分类
+3. 用户导向设计 - 确保用户需求得到满足
+
+核心策略：
+1. 按市值顺序获取币种
+2. 基于CoinGecko category简单分类：非包装币且非稳定币 = 原生币
+3. 按顺序更新，确保原生币达到目标数量
+4. 同时更新遇到的非原生币（为未来研究准备）
 """
 
 import logging
+import math
 import os
 import sys
 import time
-from datetime import datetime, timedelta
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Optional, Set, Tuple
 
-import pandas as pd
-from pandas.errors import OutOfBoundsDatetime
 from tqdm import tqdm
 
-# 添加项目根目录到Python路径
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from examples.stablecoin_checker import StablecoinChecker
 from examples.wrapped_coin_checker import WrappedCoinChecker
+
+# 导入依赖
 from src.api.coingecko import CoinGeckoAPI
 from src.data.batch_downloader import create_batch_downloader
 
-# API限流配置 (CoinGecko Analyst计划)
+# API限流配置
 RATE_LIMIT_CONFIG = {
-    "calls_per_minute": 500,
-    "delay_seconds": 0.13,  # 500/min = 8.33/sec ≈ 0.12s间隔，保险起见用0.13s
-    "batch_size": 50,  # 每批处理币种数
-    "max_retries": 3,  # 最大重试次数
+    "delay_seconds": 0.13,
+    "calls_per_minute": 461.5,
 }
 
-# 确保日志目录存在
-Path("logs").mkdir(exist_ok=True)
-
-# 日志配置
+# 配置日志
 logging.basicConfig(
     level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
     handlers=[
         logging.FileHandler("logs/price_data_update.log"),
         logging.StreamHandler(),
@@ -53,397 +52,215 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-class PriceDataUpdater:
-    """量价数据更新器"""
+class CoinClassifier:
+    """币种分类器 - 职责单一：基于CoinGecko分类币种"""
 
-    def __init__(self, api=None, downloader=None, checker=None, wrapped_checker=None):
+    def __init__(self):
+        self.stablecoin_checker = StablecoinChecker()
+        self.wrapped_checker = WrappedCoinChecker()
+
+    def classify_coin(self, coin_id: str) -> str:
         """
-        初始化量价数据更新器
+        分类单个币种
 
         Args:
-            api: CoinGeckoAPI 实例
-            downloader: BatchDownloader 实例
-            checker: StablecoinChecker 实例
-            wrapped_checker: WrappedCoinChecker 实例
-        """
-        self.api = api or CoinGeckoAPI()
-        self.downloader = downloader or create_batch_downloader()
-        self.checker = checker or StablecoinChecker()
-        self.wrapped_checker = wrapped_checker or WrappedCoinChecker()
-        self.coins_dir = Path("data/coins")
-        self.metadata_dir = Path("data/metadata")
-
-        self.errors = []
-        self.updated_coins = []
-        self.new_coins = []
-
-        self.stats = {
-            "total_coins": 0,
-            "native_coins": 0,
-            "stablecoins": 0,
-            "wrapped_coins": 0,
-            "searched_coins": 0,
-            "target_native_coins": 0,
-            "new_coins": 0,
-            "updated_coins": 0,
-            "failed_coins": 0,
-            "total_api_calls": 0,
-            "start_time": None,
-            "end_time": None,
-        }
-
-        # 确保日志目录存在
-        Path("logs").mkdir(exist_ok=True)
-
-    def get_top_n_coins_by_market_cap(self, n: int = 500) -> List[Dict]:
-        """
-        获取市值前N名的加密货币
-
-        Args:
-            n: 获取前N名
+            coin_id: 币种ID
 
         Returns:
-            币种列表
+            'stable' | 'wrapped' | 'native'
+        """
+        # 检查是否为稳定币
+        stable_result = self.stablecoin_checker.is_stablecoin(coin_id)
+        if isinstance(stable_result, dict):
+            is_stable = stable_result.get("is_stablecoin", False)
+        else:
+            is_stable = stable_result
+
+        if is_stable:
+            return "stable"
+
+        # 检查是否为包装币
+        wrapped_result = self.wrapped_checker.is_wrapped_coin(coin_id)
+        if isinstance(wrapped_result, dict):
+            is_wrapped = wrapped_result.get("is_wrapped_coin", False)
+        else:
+            is_wrapped = wrapped_result
+
+        if is_wrapped:
+            return "wrapped"
+
+        # 既不是稳定币也不是包装币，就是原生币
+        return "native"
+
+
+class MarketDataFetcher:
+    """市场数据获取器 - 职责单一：获取市值排名数据"""
+
+    def __init__(self, api: CoinGeckoAPI):
+        self.api = api
+
+    def get_top_coins(self, n: int) -> List[Dict]:
+        """
+        获取市值前N名币种
+
+        Args:
+            n: 目标币种数量
+
+        Returns:
+            币种列表，按市值排序
         """
         logger.info(f"🔍 获取市值前 {n} 名加密货币")
 
-        all_coins = []
-        page = 1
-        per_page = 250  # CoinGecko单页最大值
+        coins = []
+        pages = math.ceil(n / 250)  # 每页最多250个
 
-        with tqdm(desc="获取市值排名", unit="页", leave=True) as pbar:
-            while len(all_coins) < n:
+        with tqdm(
+            total=pages,
+            desc="获取市值排名",
+            bar_format="{l_bar}{bar}| {n_fmt}/{total_fmt} [{elapsed}<{remaining}]",
+            leave=False,
+        ) as pbar:
+            for page in range(1, pages + 1):
                 try:
-                    logger.info(f"正在获取第 {page} 页市场数据...")
-
-                    # 计算本页需要获取的数量
-                    remaining = n - len(all_coins)
-                    current_per_page = min(per_page, remaining)
-
-                    coins = self.api.get_coins_markets(
+                    # 计算这一页应该获取多少个币种
+                    per_page = min(250, n - len(coins))
+                    market_data = self.api.get_coins_markets(
                         vs_currency="usd",
                         order="market_cap_desc",
-                        per_page=current_per_page,
+                        per_page=per_page,
                         page=page,
+                        sparkline=False,
                     )
 
-                    if not coins:
+                    if not market_data:
                         logger.warning(f"第 {page} 页未获取到数据，停止获取")
                         break
 
-                    all_coins.extend(coins)
-                    self.stats["total_api_calls"] += 1
+                    for coin in market_data:
+                        if len(coins) >= n:
+                            break
+                        coins.append(
+                            {
+                                "id": coin["id"],
+                                "symbol": coin["symbol"],
+                                "name": coin["name"],
+                                "market_cap_rank": coin.get("market_cap_rank", 0),
+                            }
+                        )
 
+                    pbar.set_postfix({"已获取": len(coins), "目标": n, "当前页": page})
                     pbar.update(1)
-                    pbar.set_postfix(
-                        {"已获取": len(all_coins), "目标": n, "当前页": page}
-                    )
 
-                    page += 1
-
-                    # API限流延迟
-                    time.sleep(RATE_LIMIT_CONFIG["delay_seconds"])
-
-                except Exception as e:
-                    error_msg = f"获取第 {page} 页市场数据失败: {e}"
-                    logger.error(error_msg)
-                    self.errors.append(error_msg)
-                    break
-
-        # 确保只返回前N名
-        result = all_coins[:n]
-        logger.info(f"✅ 成功获取 {len(result)} 个币种的市值排名")
-
-        return result
-
-    def get_top_n_native_coins_by_market_cap(
-        self, target_native_coins: int = 510, max_search_range: int = 3000
-    ) -> List[Dict]:
-        """
-        获取市值前N名的原生币种，自动扩大搜索范围直到找到足够的原生币
-
-        Args:
-            target_native_coins: 目标原生币种数量
-            max_search_range: 最大搜索范围（默认3000，确保能覆盖足够的币种）
-
-        Returns:
-            原生币种列表
-        """
-        logger.info(f"🔍 获取市值前 {target_native_coins} 名原生币种")
-
-        native_coins = []
-        # 智能设定初始搜索范围：目标数量 + 预估的稳定币/包装币数量
-        estimated_non_native = int(target_native_coins * 0.3)  # 预估30%为非原生币
-        search_range = min(target_native_coins + estimated_non_native, max_search_range)
-
-        while (
-            len(native_coins) < target_native_coins and search_range <= max_search_range
-        ):
-            logger.info(
-                f"搜索市值前 {search_range} 名币种以找到 {target_native_coins} 个原生币..."
-            )
-
-            # 获取市值排名
-            all_coins = self.get_top_n_coins_by_market_cap(search_range)
-            if not all_coins:
-                break
-
-            # 过滤出原生币种
-            native_coins = []
-            stable_count = 0
-            wrapped_count = 0
-
-            for coin in all_coins:
-                try:
-                    # 检查是否为稳定币或包装币
-                    stable_result = self.checker.is_stablecoin(coin["id"])
-                    wrapped_result = self.wrapped_checker.is_wrapped_coin(coin["id"])
-
-                    # 提取实际的布尔值
-                    is_stable = (
-                        stable_result.get("is_stablecoin", False)
-                        if isinstance(stable_result, dict)
-                        else stable_result
-                    )
-                    is_wrapped = (
-                        wrapped_result.get("is_wrapped_coin", False)
-                        if isinstance(wrapped_result, dict)
-                        else wrapped_result
-                    )
-
-                    if is_stable:
-                        stable_count += 1
-                    elif is_wrapped:
-                        wrapped_count += 1
-                    else:
-                        native_coins.append(coin)
-
-                    if len(native_coins) >= target_native_coins:
-                        break
-                except Exception as e:
-                    logger.warning(f"检查币种 {coin['id']} 时出错: {e}")
-                    # 如果检查失败，暂时认为是原生币种
-                    native_coins.append(coin)
-                    if len(native_coins) >= target_native_coins:
+                    if len(coins) >= n:
                         break
 
-            # 更新统计信息
-            self.stats["searched_coins"] = len(all_coins)
-            self.stats["stablecoins"] = stable_count
-            self.stats["wrapped_coins"] = wrapped_count
-            self.stats["native_coins"] = len(native_coins)
-
-            if len(native_coins) >= target_native_coins:
-                break
-            else:
-                # 如果原生币种不足，智能扩大搜索范围
-                old_range = search_range
-                # 根据缺口大小决定扩大幅度
-                shortage = target_native_coins - len(native_coins)
-                if shortage > 200:
-                    increment = 500  # 缺口大时大幅扩大
-                elif shortage > 100:
-                    increment = 300  # 中等缺口中等扩大
-                else:
-                    increment = 200  # 小缺口小幅扩大
-
-                search_range = min(search_range + increment, max_search_range)
-
-                if search_range == old_range:
-                    # 达到最大搜索范围，停止
-                    logger.warning(
-                        f"达到最大搜索范围 {max_search_range}，但只找到 {len(native_coins)} 个原生币种"
-                    )
+                except Exception as e:
+                    logger.error(f"获取第 {page} 页数据时出错: {e}")
                     break
-                logger.info(
-                    f"原生币种不足 ({len(native_coins)}/{target_native_coins})，扩大搜索范围到 {search_range}"
-                )
 
-        result = native_coins[:target_native_coins]
-        self.stats["target_native_coins"] = len(result)
-        logger.info(f"✅ 成功获取 {len(result)} 个原生币种")
+                # API限流延迟
+                time.sleep(RATE_LIMIT_CONFIG["delay_seconds"])
 
-        return result
+        logger.info(f"✅ 成功获取 {len(coins)} 个币种的市值排名")
+        return coins[:n]
 
-    def get_existing_coin_ids(self) -> Set[str]:
-        """
-        获取现有coins目录中的币种ID
 
-        Returns:
-            币种ID集合
-        """
-        existing_ids = set()
+class PriceDataUpdater:
+    """价格数据更新器 - 主要逻辑协调者"""
 
-        if self.coins_dir.exists():
-            for csv_file in self.coins_dir.glob("*.csv"):
-                coin_id = csv_file.stem
-                existing_ids.add(coin_id)
+    def __init__(self):
+        self.api = CoinGeckoAPI()
+        self.downloader = create_batch_downloader()
+        self.classifier = CoinClassifier()
+        self.market_fetcher = MarketDataFetcher(self.api)
 
-        logger.info(f"📋 现有币种数量: {len(existing_ids)}")
-        return existing_ids
+        # 目录设置
+        self.coins_dir = Path("data/coins")
+        self.metadata_dir = Path("data/metadata")
 
-    def find_new_coins(
-        self, top_coins: List[Dict], existing_ids: Set[str]
-    ) -> List[Dict]:
-        """
-        找出新的币种
+        # 统计信息
+        self.stats = {
+            "start_time": None,
+            "end_time": None,
+            "total_processed": 0,
+            "native_updated": 0,
+            "stable_updated": 0,
+            "wrapped_updated": 0,
+            "failed_updates": 0,
+            "new_coins": 0,
+            "api_calls": 0,
+        }
 
-        Args:
-            top_coins: 市值前N名币种
-            existing_ids: 现有币种ID集合
+        self.errors = []
 
-        Returns:
-            新币种列表
-        """
-        new_coins = []
-
-        for coin in top_coins:
-            coin_id = coin["id"]
-            if coin_id not in existing_ids:
-                new_coins.append(coin)
-
-        logger.info(f"🆕 发现新币种: {len(new_coins)} 个")
-        for coin in new_coins:
-            logger.info(
-                f"   - {coin['name']} ({coin['symbol'].upper()}) - 市值排名: {coin['market_cap_rank']}"
-            )
-
-        return new_coins
-
-    def get_coin_last_date(self, coin_id: str) -> Optional[str]:
-        """
-        获取币种的最新数据日期
-
-        Args:
-            coin_id: 币种ID
-
-        Returns:
-            最新日期字符串 (YYYY-MM-DD) 或 None
-        """
+    def needs_update(self, coin_id: str) -> Tuple[bool, Optional[str]]:
+        """检查币种是否需要更新"""
         csv_file = self.coins_dir / f"{coin_id}.csv"
 
         if not csv_file.exists():
-            logger.debug(f"📄 {coin_id}: CSV文件不存在")
-            return None
+            return True, None
 
         try:
-            df = pd.read_csv(csv_file)
+            # 读取最后一行获取最新时间戳
+            with open(csv_file, "r", encoding="utf-8") as f:
+                lines = f.readlines()
+                if len(lines) <= 1:  # 只有表头
+                    return True, None
 
-            # 检查是否有时间列（可能是timestamp或date）
-            time_column = None
-            if "date" in df.columns:
-                time_column = "date"
-            elif "timestamp" in df.columns:
-                time_column = "timestamp"
-            else:
-                logger.warning(f"📄 {coin_id}: CSV文件缺少时间列（date或timestamp）")
-                return None
+                last_line = lines[-1].strip()
+                if not last_line:
+                    return True, None
 
-            if len(df) == 0:
-                logger.warning(f"📄 {coin_id}: CSV文件为空")
-                return None
-
-            # 获取最新日期
-            if time_column == "timestamp":
-                # 如果是timestamp，需要正确处理单位
+                # 获取时间戳并转换为日期
+                timestamp_str = last_line.split(",")[0]
                 try:
-                    # 尝试毫秒单位
-                    df["date"] = pd.to_datetime(df["timestamp"], unit="ms").dt.strftime(
-                        "%Y-%m-%d"
+                    timestamp = int(float(timestamp_str))
+                    # 转换为UTC日期进行比较
+                    last_date = datetime.fromtimestamp(
+                        timestamp / 1000, tz=timezone.utc
                     )
-                    last_date = df["date"].max()
-                except (ValueError, OutOfBoundsDatetime):
-                    try:
-                        # 尝试秒单位
-                        df["date"] = pd.to_datetime(
-                            df["timestamp"], unit="s"
-                        ).dt.strftime("%Y-%m-%d")
-                        last_date = df["date"].max()
-                    except (ValueError, OutOfBoundsDatetime):
-                        logger.warning(f"📄 {coin_id}: 无法解析timestamp格式")
-                        return None
-            else:
-                last_date = df[time_column].max()
+                    today_utc = datetime.now(tz=timezone.utc)
 
-            logger.debug(f"📄 {coin_id}: 最新数据日期 {last_date}")
-            return last_date
+                    # 比较日期部分
+                    last_date_str = last_date.strftime("%Y-%m-%d")
+                    today_str = today_utc.strftime("%Y-%m-%d")
+
+                    if last_date_str < today_str:
+                        logger.debug(
+                            f"{coin_id}: 数据过期 (最新: {last_date_str}, 今天: {today_str})"
+                        )
+                        return True, last_date_str
+                    else:
+                        logger.debug(
+                            f"{coin_id}: 数据最新 (最新: {last_date_str}, 今天: {today_str})"
+                        )
+                        return False, last_date_str
+                except (ValueError, TypeError) as e:
+                    logger.warning(f"{coin_id}: 时间戳格式错误 {timestamp_str}: {e}")
+                    return True, None
 
         except Exception as e:
-            logger.warning(f"📄 {coin_id}: 读取CSV文件失败 - {e}")
-            return None
-
-    def needs_update(self, coin_id: str) -> Tuple[bool, Optional[str]]:
-        """
-        检查币种是否需要更新
-
-        Args:
-            coin_id: 币种ID
-
-        Returns:
-            (是否需要更新, 最新日期)
-        """
-        last_date = self.get_coin_last_date(coin_id)
-
-        if last_date is None:
-            return True, None  # 新币种，需要下载全部数据
-
-        try:
-            last_datetime = datetime.strptime(last_date, "%Y-%m-%d")
-            today = datetime.now()
-
-            # 如果最新数据不是今天，则需要更新
-            if last_datetime.date() < today.date():
-                return True, last_date
-
-        except ValueError:
-            logger.warning(f"解析日期失败: {last_date}")
-            return True, last_date
-
-        return False, last_date
+            logger.error(f"检查 {coin_id} 更新状态时出错: {e}")
+            return True, None
 
     def download_coin_data(
-        self, coin_id: str, is_new_coin: bool = False, from_date: Optional[str] = None
+        self, coin_id: str, is_new_coin: bool, from_date: Optional[str]
     ) -> bool:
-        """
-        下载币种的量价数据
-
-        Args:
-            coin_id: 币种ID
-            is_new_coin: 是否为新币种
-            from_date: 起始日期 (增量更新时使用)
-
-        Returns:
-            是否下载成功
-        """
+        """下载币种数据"""
         try:
             if is_new_coin:
-                # 新币种，下载最大天数的历史数据
-                logger.info(f"📥 下载新币种 {coin_id} 的完整历史数据...")
-                success = self.downloader.download_coin_data(
-                    coin_id=coin_id, days="max", vs_currency="usd"
-                )
+                logger.info(f"📥 新币种 {coin_id}，下载完整历史数据...")
+                success = self.downloader.download_coin_data(coin_id, days="max")
             else:
-                # 现有币种，增量更新
-                if from_date:
-                    # 计算需要更新的天数
-                    from_datetime = datetime.strptime(from_date, "%Y-%m-%d")
-                    today = datetime.now()
-                    days_to_update = (today - from_datetime).days + 1
-
-                    logger.info(
-                        f"📥 增量更新 {coin_id}，从 {from_date} 开始，共 {days_to_update} 天..."
-                    )
-                    success = self.downloader.download_coin_data(
-                        coin_id=coin_id, days=str(days_to_update), vs_currency="usd"
-                    )
-                else:
-                    # 无法确定起始日期，重新下载全部数据
-                    logger.info(
-                        f"📥 重新下载 {coin_id} 的完整历史数据（无法确定增量起始点）..."
-                    )
-                    success = self.downloader.download_coin_data(
-                        coin_id=coin_id, days="max", vs_currency="usd"
-                    )
+                days_to_update = (
+                    self._calculate_days_since(from_date) if from_date else 1
+                )
+                logger.info(
+                    f"📥 增量更新 {coin_id}，从 {from_date} 开始，共 {days_to_update} 天..."
+                )
+                success = self.downloader.download_coin_data(
+                    coin_id, days=str(days_to_update)
+                )
 
             if success:
                 logger.info(f"✅ {coin_id} 数据下载成功")
@@ -453,330 +270,291 @@ class PriceDataUpdater:
                 return False
 
         except Exception as e:
-            error_msg = f"下载 {coin_id} 数据时发生异常: {e}"
-            logger.error(error_msg)
-            self.errors.append(error_msg)
+            logger.error(f"下载 {coin_id} 数据时出错: {e}")
             return False
 
-    def update_stablecoin_metadata(self):
+    def _calculate_days_since(self, date_str: str) -> int:
+        """计算从指定日期到今天的天数"""
+        try:
+            from datetime import date
+
+            target_date = datetime.strptime(date_str, "%Y-%m-%d").date()
+            today = datetime.now(tz=timezone.utc).date()
+            days_diff = (today - target_date).days + 1  # +1 确保包含今天
+            return max(1, days_diff)  # 至少返回1天
+        except Exception as e:
+            logger.warning(f"计算日期差异失败: {e}, 默认返回1天")
+            return 1
+
+    def get_existing_coin_ids(self) -> Set[str]:
+        """获取已存在的币种ID"""
+        existing_ids = set()
+        if self.coins_dir.exists():
+            for csv_file in self.coins_dir.glob("*.csv"):
+                coin_id = csv_file.stem
+                existing_ids.add(coin_id)
+        return existing_ids
+
+    def update_with_smart_strategy(
+        self, target_native_coins: int = 510, max_search_range: int = 1000
+    ):
         """
-        更新稳定币和包装币元数据 (复用已有数据)
+        智能更新策略
+
+        Args:
+            target_native_coins: 目标原生币种数量
+            max_search_range: 最大搜索范围
         """
-        logger.info("💰 更新稳定币和包装币元数据...")
+        logger.info(f"🚀 开始智能量价数据更新")
+        logger.info(f"📋 目标: 确保至少 {target_native_coins} 个原生币种数据最新")
+        logger.info(f"🔍 最大搜索范围: {max_search_range} 个币种")
+        logger.info("=" * 60)
+
+        self.stats["start_time"] = datetime.now()
 
         try:
-            # 获取所有需要元数据的币种
-            coin_ids = [f.stem for f in self.coins_dir.glob("*.csv")]
+            # 1. 获取现有币种ID
+            existing_ids = self.get_existing_coin_ids()
+            logger.info(f"📋 现有币种数量: {len(existing_ids)}")
 
-            # 检查哪些币种缺少元数据
-            missing_metadata = []
-            for coin_id in coin_ids:
-                metadata_file = self.metadata_dir / "coin_metadata" / f"{coin_id}.json"
-                if not metadata_file.exists():
-                    missing_metadata.append(coin_id)
+            # 2. 按市值顺序获取币种并逐个处理
+            native_coins_updated = 0
+            search_range = min(
+                max_search_range, target_native_coins * 2
+            )  # 开始搜索范围
 
-            if missing_metadata:
+            while (
+                native_coins_updated < target_native_coins
+                and search_range <= max_search_range
+            ):
+                logger.info(f"🔍 搜索市值前 {search_range} 名币种...")
+
+                # 获取市值排名数据
+                all_coins = self.market_fetcher.get_top_coins(search_range)
+
+                # 按顺序处理每个币种
+                with tqdm(
+                    total=len(all_coins),
+                    desc="处理币种数据",
+                    bar_format="{l_bar}{bar}| {n_fmt}/{total_fmt} [{elapsed}<{remaining}, {rate_fmt}{postfix}]",
+                    ncols=120,
+                    leave=False,
+                ) as pbar:
+                    for coin_info in all_coins:
+                        coin_id = coin_info["id"]
+                        coin_symbol = coin_info["symbol"].upper()
+
+                        try:
+                            # 分类币种
+                            coin_type = self.classifier.classify_coin(coin_id)
+
+                            # 检查是否需要更新
+                            is_new_coin = coin_id not in existing_ids
+                            needs_update, last_date = self.needs_update(coin_id)
+
+                            if needs_update:
+                                # 下载数据
+                                success = self.download_coin_data(
+                                    coin_id, is_new_coin, last_date
+                                )
+
+                                if success:
+                                    # 更新统计
+                                    if coin_type == "native":
+                                        native_coins_updated += 1
+                                        self.stats["native_updated"] += 1
+                                    elif coin_type == "stable":
+                                        self.stats["stable_updated"] += 1
+                                    elif coin_type == "wrapped":
+                                        self.stats["wrapped_updated"] += 1
+
+                                    if is_new_coin:
+                                        self.stats["new_coins"] += 1
+                                        existing_ids.add(coin_id)
+
+                                    self.stats["api_calls"] += 1
+
+                                    # API限流延迟
+                                    time.sleep(RATE_LIMIT_CONFIG["delay_seconds"])
+                                else:
+                                    self.stats["failed_updates"] += 1
+                                    self.errors.append(f"{coin_id}: 下载失败")
+                            else:
+                                # 数据已是最新，但如果是原生币仍计入统计
+                                if coin_type == "native":
+                                    native_coins_updated += 1
+                                    self.stats["native_updated"] += 1
+
+                            self.stats["total_processed"] += 1
+
+                            # 更新进度条
+                            pbar.set_postfix(
+                                {
+                                    "原生币": native_coins_updated,
+                                    "目标": target_native_coins,
+                                    "类型": coin_type,
+                                    "当前": coin_symbol[:10],
+                                }
+                            )
+                            pbar.update(1)
+
+                            # 如果已达到目标，提前结束
+                            if native_coins_updated >= target_native_coins:
+                                logger.info(
+                                    f"🎯 已达到目标！成功处理 {native_coins_updated} 个原生币种"
+                                )
+                                break
+
+                        except Exception as e:
+                            logger.error(f"处理 {coin_id} 时出错: {e}")
+                            self.errors.append(f"{coin_id}: {str(e)}")
+                            self.stats["failed_updates"] += 1
+                            pbar.update(1)
+
+                # 检查是否需要扩大搜索范围
+                if native_coins_updated < target_native_coins:
+                    if search_range >= max_search_range:
+                        logger.warning(
+                            f"⚠️ 已达到最大搜索范围 {max_search_range}，但只找到 {native_coins_updated} 个原生币种"
+                        )
+                        break
+                    else:
+                        search_range = min(search_range + 200, max_search_range)
+                        logger.info(f"🔄 扩大搜索范围到 {search_range}...")
+                else:
+                    break
+
+            # 更新元数据
+            logger.info("💰 更新稳定币和包装币元数据...")
+            self.update_metadata()
+
+            # 验证结果
+            if native_coins_updated >= target_native_coins:
                 logger.info(
-                    f"🔄 发现 {len(missing_metadata)} 个币种缺少元数据，开始更新..."
+                    f"✅ 成功达成目标！处理了 {native_coins_updated} 个原生币种"
                 )
-
-                # 批量更新缺失的元数据
-                results = self.downloader.batch_update_coin_metadata(
-                    coin_ids=missing_metadata,
-                    force=False,
-                    delay_seconds=RATE_LIMIT_CONFIG["delay_seconds"],
+            else:
+                logger.warning(
+                    f"⚠️ 未完全达成目标，只处理了 {native_coins_updated}/{target_native_coins} 个原生币种"
                 )
-
-                success_count = sum(1 for success in results.values() if success)
-                logger.info(
-                    f"✅ 元数据更新完成: {success_count}/{len(missing_metadata)} 成功"
-                )
-
-                self.stats["total_api_calls"] += len(missing_metadata)
-            else:
-                logger.info("✅ 所有币种元数据都是最新的")
-
-            # 重新生成稳定币列表
-            checker = StablecoinChecker()
-            success = checker.export_stablecoins_csv()
-
-            if success:
-                logger.info("✅ 稳定币列表更新成功")
-            else:
-                logger.error("❌ 稳定币列表更新失败")
-
-            # 重新生成包装币列表
-            wrapped_checker = WrappedCoinChecker()
-            success = wrapped_checker.export_wrapped_coins_csv()
-
-            if success:
-                logger.info("✅ 包装币列表更新成功")
-            else:
-                logger.error("❌ 包装币列表更新失败")
 
         except Exception as e:
-            error_msg = f"更新稳定币和包装币元数据时发生异常: {e}"
-            logger.error(error_msg)
-            self.errors.append(error_msg)
+            logger.error(f"更新过程中发生异常: {e}")
+            self.errors.append(f"更新异常: {str(e)}")
 
-    def generate_update_report(self) -> str:
-        """
-        生成更新报告
+        finally:
+            self.stats["end_time"] = datetime.now()
+            duration = self.stats["end_time"] - self.stats["start_time"]
 
-        Returns:
-            报告内容
-        """
-        duration = self.stats["end_time"] - self.stats["start_time"]
+            # 生成报告
+            self.generate_final_report(duration)
 
+    def update_metadata(self):
+        """更新稳定币和包装币元数据"""
+        try:
+            # 更新稳定币元数据
+            from examples.stablecoin_checker import StablecoinChecker
+
+            stablecoin_checker = StablecoinChecker()
+            # 导出稳定币列表 (基于现有方法)
+            stablecoins = stablecoin_checker.get_all_stablecoins()
+            stable_file = self.metadata_dir / "stablecoins.csv"
+
+            with open(stable_file, "w", encoding="utf-8") as f:
+                f.write("coin_id,symbol,name\n")
+                for coin_info in stablecoins:
+                    f.write(
+                        f"{coin_info.get('id', '')},{coin_info.get('symbol', '')},{coin_info.get('name', '')}\n"
+                    )
+
+            print(f"✅ 稳定币列表已导出到: {stable_file}")
+            print(f"   共导出 {len(stablecoins)} 个稳定币")
+
+            # 更新包装币元数据
+            from examples.wrapped_coin_checker import WrappedCoinChecker
+
+            wrapped_checker = WrappedCoinChecker()
+            # 导出包装币列表 (基于现有方法)
+            wrapped_coins = wrapped_checker.get_all_wrapped_coins()
+            wrapped_file = self.metadata_dir / "wrapped_coins.csv"
+
+            with open(wrapped_file, "w", encoding="utf-8") as f:
+                f.write("coin_id,symbol,name\n")
+                for coin_info in wrapped_coins:
+                    f.write(
+                        f"{coin_info.get('id', '')},{coin_info.get('symbol', '')},{coin_info.get('name', '')}\n"
+                    )
+
+            print(f"✅ 包装币列表已导出到: {wrapped_file}")
+            print(f"   共导出 {len(wrapped_coins)} 个包装币")
+
+            logger.info("✅ 元数据更新完成")
+        except Exception as e:
+            logger.error(f"更新元数据时出错: {e}")
+            self.errors.append(f"元数据更新错误: {str(e)}")
+
+    def generate_final_report(self, duration):
+        """生成最终报告"""
         report = f"""
-🔍 量价数据更新报告
-{'='*60}
-📊 币种分类统计:
-   - 搜索范围: 前{self.stats['searched_coins']}名
-   - 目标原生币种数: {self.stats['target_native_coins']}
-   - 发现原生币种: {self.stats['native_coins']}个
-   - 发现稳定币: {self.stats['stablecoins']}个
-   - 发现包装币: {self.stats['wrapped_coins']}个
-
-📈 处理统计:
-   - 实际处理币种数: {self.stats['total_coins']}
+🔍 智能量价数据更新报告
+============================================================
+📊 处理统计:
+   - 总处理币种数: {self.stats['total_processed']}
+   - 原生币更新数: {self.stats['native_updated']}
+   - 稳定币更新数: {self.stats['stable_updated']}
+   - 包装币更新数: {self.stats['wrapped_updated']}
    - 新币种数: {self.stats['new_coins']}
-   - 更新币种数: {self.stats['updated_coins']}
-   - 失败币种数: {self.stats['failed_coins']}
+   - 失败更新数: {self.stats['failed_updates']}
 
 ⚡ 性能统计:
-   - API调用次数: {self.stats['total_api_calls']}
+   - API调用次数: {self.stats['api_calls']}
    - 总耗时: {duration}
 
 🕐 时间信息:
    - 开始时间: {self.stats['start_time'].strftime('%Y-%m-%d %H:%M:%S')}
    - 结束时间: {self.stats['end_time'].strftime('%Y-%m-%d %H:%M:%S')}
 
-{'❌ 错误信息:' if self.errors else '✅ 无错误'}
+{'✅ 无错误' if not self.errors else f'❌ 错误列表:'}
+{chr(10).join(f'   - {error}' for error in self.errors[:10]) if self.errors else ''}
 """
 
-        if self.errors:
-            for i, error in enumerate(self.errors, 1):
-                report += f"   {i}. {error}\n"
+        logger.info(report)
 
-        return report
+        # 保存报告到文件
+        report_file = (
+            Path("logs")
+            / f"smart_update_report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
+        )
+        report_file.write_text(report, encoding="utf-8")
 
-    def update_readme_timestamp(self):
-        """
-        更新README.md中的最近更新时间
-        """
-        readme_path = Path("README.md")
-
-        if not readme_path.exists():
-            logger.warning("README.md 文件不存在，跳过时间戳更新")
-            return
-
-        try:
-            content = readme_path.read_text(encoding="utf-8")
-            today = datetime.now().strftime("%Y-%m-%d")
-
-            # 查找并替换更新时间
-            import re
-
-            pattern = r"\(最近更新: \d{4}-\d{2}-\d{2}\)"
-            replacement = f"(最近更新: {today})"
-
-            if re.search(pattern, content):
-                new_content = re.sub(pattern, replacement, content)
-                readme_path.write_text(new_content, encoding="utf-8")
-                logger.info(f"✅ README.md 更新时间已更新为: {today}")
-            else:
-                logger.warning("README.md 中未找到更新时间格式，跳过更新")
-
-        except Exception as e:
-            error_msg = f"更新README.md时发生异常: {e}"
-            logger.error(error_msg)
-            self.errors.append(error_msg)
-
-    def run(self, top_n: int = 600, native_coins: int = 510) -> None:
-        """
-        执行完整的量价数据更新流程
-
-        Args:
-            top_n: 初始搜索范围建议值 (已弃用，现在会自动计算)
-            native_coins: 目标原生币种数量
-        """
-        logger.info(f"🚀 开始量价数据更新流程 (前{native_coins}名原生币)")
-        logger.info("=" * 60)
-
-        self.stats["start_time"] = datetime.now()
-
-        try:
-            # 1. 获取市值前N名原生币种 (自动计算合适的搜索范围)
-            max_search_range = max(native_coins * 2, 2000)  # 确保搜索范围足够大
-            native_coins_list = self.get_top_n_native_coins_by_market_cap(
-                native_coins, max_search_range
-            )
-            if not native_coins_list:
-                logger.error("❌ 无法获取原生币种数据")
-                return
-
-            # 2. 获取现有币种ID
-            existing_ids = self.get_existing_coin_ids()
-
-            # 3. 找出新币种
-            new_coins = self.find_new_coins(native_coins_list, existing_ids)
-            self.stats["new_coins"] = len(new_coins)
-
-            # 4. 所有需要处理的币种就是这些原生币种
-            all_target_coins = {coin["id"]: coin for coin in native_coins_list}
-
-            self.stats["total_coins"] = len(all_target_coins)
-
-            # 5. 批量更新量价数据
-            logger.info(f"📥 开始批量更新 {len(all_target_coins)} 个币种的量价数据")
-
-            updated_count = 0
-            failed_count = 0
-
-            with tqdm(
-                total=len(all_target_coins),
-                desc="更新量价数据",
-                bar_format="{l_bar}{bar}| {n_fmt}/{total_fmt} [{elapsed}<{remaining}, {rate_fmt}{postfix}]",
-                ncols=100,
-                leave=False,
-                position=0,
-            ) as pbar:
-                for coin_id, coin_info in all_target_coins.items():
-                    try:
-                        # 检查是否是稳定币
-                        stable_result = self.checker.is_stablecoin(
-                            coin_info.get("symbol", "")
-                        )
-                        is_stable = (
-                            stable_result.get("is_stablecoin", False)
-                            if isinstance(stable_result, dict)
-                            else stable_result
-                        )
-
-                        if is_stable:
-                            pbar.update(1)
-                            pbar.set_postfix({"状态": "跳过稳定币"})
-                            continue
-
-                        # 检查是否是包装币
-                        if self.wrapped_checker.is_wrapped_coin(coin_id)[
-                            "is_wrapped_coin"
-                        ]:
-                            pbar.update(1)
-                            pbar.set_postfix({"状态": "跳过包装币"})
-                            continue
-
-                        # 检查是否需要更新
-                        is_new_coin = coin_id in [c["id"] for c in new_coins]
-                        needs_update, last_date = self.needs_update(coin_id)
-
-                        if needs_update:
-                            success = self.download_coin_data(
-                                coin_id=coin_id,
-                                is_new_coin=is_new_coin,
-                                from_date=last_date,
-                            )
-
-                            if success:
-                                updated_count += 1
-                                if is_new_coin:
-                                    self.new_coins.append(coin_id)
-                                else:
-                                    self.updated_coins.append(coin_id)
-                            else:
-                                failed_count += 1
-
-                            self.stats["total_api_calls"] += 1
-
-                            # API限流延迟
-                            time.sleep(RATE_LIMIT_CONFIG["delay_seconds"])
-
-                        pbar.update(1)
-                        pbar.set_postfix(
-                            {
-                                "更新": updated_count,
-                                "失败": failed_count,
-                                "当前": coin_id[:20],
-                            }
-                        )
-
-                    except Exception as e:
-                        error_msg = f"处理币种 {coin_id} 时发生异常: {e}"
-                        logger.error(error_msg)
-                        self.errors.append(error_msg)
-                        failed_count += 1
-
-                        pbar.update(1)
-
-            self.stats["updated_coins"] = updated_count
-            self.stats["failed_coins"] = failed_count
-
-            # 6. 更新稳定币和包装币元数据
-            self.update_stablecoin_metadata()
-
-            # 7. 更新README时间戳
-            self.update_readme_timestamp()
-
-        except Exception as e:
-            error_msg = f"更新流程中发生异常: {e}"
-            logger.error(error_msg)
-            self.errors.append(error_msg)
-
-        finally:
-            self.stats["end_time"] = datetime.now()
-
-            # 8. 生成更新报告
-            report = self.generate_update_report()
-            logger.info(report)
-
-            # 保存报告到文件
-            report_file = (
-                Path("logs")
-                / f"price_update_report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
-            )
-            report_file.write_text(report, encoding="utf-8")
-
-            logger.info(f"📋 更新报告已保存至: {report_file}")
-            logger.info("🎉 量价数据更新流程完成！")
+        logger.info(f"📋 更新报告已保存至: {report_file}")
+        logger.info("🎉 智能量价数据更新流程完成！")
 
 
 def main():
     """主函数"""
     import argparse
 
-    parser = argparse.ArgumentParser(description="更新加密货币量价数据")
-    parser.add_argument(
-        "--top-n", type=int, default=600, help="市值前N名搜索范围 (默认: 600)"
-    )
+    parser = argparse.ArgumentParser(description="智能量价数据更新工具")
     parser.add_argument(
         "--native-coins", type=int, default=510, help="目标原生币种数量 (默认: 510)"
     )
     parser.add_argument(
-        "--batch-size", type=int, default=50, help="批处理大小 (默认: 50)"
-    )
-    parser.add_argument(
-        "--delay", type=float, default=0.13, help="API调用延迟秒数 (默认: 0.13)"
+        "--max-range", type=int, default=1000, help="最大搜索范围 (默认: 1000)"
     )
 
     args = parser.parse_args()
 
-    # 更新配置
-    RATE_LIMIT_CONFIG["batch_size"] = args.batch_size
-    RATE_LIMIT_CONFIG["delay_seconds"] = args.delay
-
-    print(f"🔍 量价数据更新工具")
+    print("🔍 智能量价数据更新工具")
     print(f"📊 配置信息:")
     print(f"   - 目标原生币种数: {args.native_coins}")
-    print(f"   - 搜索范围: 动态扩展（自动调整直到找到足够的原生币）")
-    print(f"   - 批处理大小: {args.batch_size}")
-    print(f"   - API调用延迟: {args.delay}秒")
-    print(f"   - 预估API调用频率: {60/args.delay:.1f}次/分钟")
-    print("")
+    print(f"   - 最大搜索范围: {args.max_range}")
+    print(f"   - API调用延迟: {RATE_LIMIT_CONFIG['delay_seconds']}秒")
+    print(f"   - 预估API调用频率: {RATE_LIMIT_CONFIG['calls_per_minute']}次/分钟")
+    print()
 
-    # 创建更新器并运行
     updater = PriceDataUpdater()
-    updater.run(top_n=args.top_n, native_coins=args.native_coins)
+    updater.update_with_smart_strategy(args.native_coins, args.max_range)
 
 
 if __name__ == "__main__":
