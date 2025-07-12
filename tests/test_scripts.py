@@ -5,10 +5,11 @@
 import os
 import sys
 import unittest
-from unittest.mock import MagicMock, patch
 from datetime import datetime, timedelta
-import pandas as pd
 from pathlib import Path
+from unittest.mock import MagicMock, patch
+
+import pandas as pd
 
 # 添加项目根目录到Python路径
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -36,107 +37,99 @@ class TestUpdatePriceDataScript(unittest.TestCase):
         # 断言 PriceDataUpdater 被实例化了一次
         MockPriceDataUpdater.assert_called_once()
 
-        # 断言 run 方法被调用了一次
-        mock_updater_instance.run.assert_called_once()
+        # 断言 update_with_smart_strategy 方法被调用了一次
+        mock_updater_instance.update_with_smart_strategy.assert_called_once()
 
-        print("✅ 主函数成功调用了 PriceDataUpdater.run()")
+        print("✅ 主函数成功调用了 PriceDataUpdater.update_with_smart_strategy()")
 
 
 class TestPriceDataUpdaterLogic(unittest.TestCase):
     """测试 PriceDataUpdater 类的内部逻辑"""
 
-    @patch("scripts.update_price_data.CoinGeckoAPI")
-    @patch("scripts.update_price_data.create_batch_downloader")
-    @patch("scripts.update_price_data.StablecoinChecker")
-    @patch("scripts.update_price_data.WrappedCoinChecker")
-    def setUp(
-        self,
-        MockWrappedCoinChecker,
-        MockStablecoinChecker,
-        mock_create_batch_downloader,
-        MockCoinGeckoAPI,
-    ):
-        """初始化测试环境和 mock 对象"""
-        self.mock_api = MockCoinGeckoAPI.return_value
-        self.mock_downloader = MagicMock()
-        mock_create_batch_downloader.return_value = self.mock_downloader
-        self.mock_checker = MockStablecoinChecker.return_value
-        self.mock_wrapped_checker = MockWrappedCoinChecker.return_value
-
-        self.updater = PriceDataUpdater(
-            api=self.mock_api,
-            downloader=self.mock_downloader,
-            checker=self.mock_checker,
-            wrapped_checker=self.mock_wrapped_checker,
-        )
-        # 为测试目的，手动添加在 run() 方法中才会创建的属性
-        self.updater.updated_coins = []
-        self.updater.new_coins = []
-
     def test_initialization(self):
         """测试 PriceDataUpdater 是否正确初始化"""
         print("\n--- 测试 PriceDataUpdater 初始化 ---")
-        self.assertIsNotNone(self.updater.api)
-        self.assertIsNotNone(self.updater.downloader)
-        self.assertIsNotNone(self.updater.checker)
-        self.assertEqual(self.updater.updated_coins, [])
-        self.assertEqual(self.updater.new_coins, [])
+
+        with patch("scripts.update_price_data.CoinGeckoAPI"), patch(
+            "scripts.update_price_data.create_batch_downloader"
+        ), patch("scripts.update_price_data.CoinClassifier"), patch(
+            "scripts.update_price_data.MarketDataFetcher"
+        ):
+
+            updater = PriceDataUpdater()
+            self.assertIsNotNone(updater.api)
+            self.assertIsNotNone(updater.downloader)
+            self.assertIsNotNone(updater.classifier)
+            self.assertIsNotNone(updater.market_fetcher)
+            self.assertEqual(updater.stats["total_processed"], 0)
+            self.assertEqual(updater.stats["native_updated"], 0)
+
         print("✅ PriceDataUpdater 初始化成功")
 
+    @patch("scripts.update_price_data.CoinGeckoAPI")
+    @patch("scripts.update_price_data.create_batch_downloader")
+    @patch("scripts.update_price_data.CoinClassifier")
+    @patch("scripts.update_price_data.MarketDataFetcher")
     @patch("scripts.update_price_data.tqdm")
-    def test_run_workflow(self, mock_tqdm):
-        """测试完整的 run 工作流"""
-        print("\n--- 测试 PriceDataUpdater.run() 工作流 ---")
+    @patch("time.sleep")
+    def test_update_workflow(
+        self,
+        mock_sleep,
+        mock_tqdm,
+        MockMarketDataFetcher,
+        MockCoinClassifier,
+        mock_create_batch_downloader,
+        MockCoinGeckoAPI,
+    ):
+        """测试完整的 update_with_smart_strategy 工作流"""
+        print("\n--- 测试 PriceDataUpdater.update_with_smart_strategy() 工作流 ---")
 
-        # 模拟 API 返回
-        self.mock_api.get_coins_markets.side_effect = [
-            [
-                {"id": "bitcoin", "symbol": "btc"},
-                {"id": "ethereum", "symbol": "eth"},
-                {"id": "tether", "symbol": "usdt"},  # 稳定币
-            ],
-            [],  # 第二页为空
+        # 设置 mock 对象
+        mock_api = MockCoinGeckoAPI.return_value
+        mock_downloader = MagicMock()
+        mock_create_batch_downloader.return_value = mock_downloader
+        mock_classifier = MockCoinClassifier.return_value
+        mock_market_fetcher = MockMarketDataFetcher.return_value
+
+        # 模拟市值排名数据
+        mock_coins_data = [
+            {"id": "bitcoin", "symbol": "btc", "name": "Bitcoin", "market_cap_rank": 1},
+            {
+                "id": "ethereum",
+                "symbol": "eth",
+                "name": "Ethereum",
+                "market_cap_rank": 2,
+            },
         ]
+        mock_market_fetcher.get_top_coins.return_value = mock_coins_data
 
-        # 模拟稳定币检查器
-        self.mock_checker.is_stablecoin.side_effect = lambda symbol: {
-            "is_stablecoin": symbol == "usdt"
-        }
+        # 模拟币种分类 - 都是原生币
+        mock_classifier.classify_coin.return_value = "native"
 
-        # 模拟包装币检查器
-        self.mock_wrapped_checker.is_wrapped_coin.side_effect = lambda coin_id: {
-            "is_wrapped_coin": coin_id == "wrapped-bitcoin"
-        }
+        # 创建updater实例
+        updater = PriceDataUpdater()
 
-        # 模拟 get_coin_last_date
-        # bitcoin 最新, ethereum 过时, tether 是稳定币应跳过
-        with patch.object(self.updater, "get_coin_last_date") as mock_get_last_date:
-            mock_get_last_date.side_effect = [
-                datetime.now().strftime("%Y-%m-%d"),  # bitcoin, 最新
-                (datetime.now() - timedelta(days=5)).strftime(
-                    "%Y-%m-%d"
-                ),  # ethereum, 过时
-            ]
+        # Mock updater的方法
+        updater.needs_update = MagicMock(return_value=(True, None))
+        updater.download_coin_data = MagicMock(return_value=True)
+        updater.get_existing_coin_ids = MagicMock(return_value=set())
+        updater.update_metadata = MagicMock()
+        updater.generate_final_report = MagicMock()
 
-            # 运行
-            self.updater.run(top_n=3)
+        # 运行测试（目标2个原生币）
+        updater.update_with_smart_strategy(target_native_coins=2, max_search_range=10)
 
-            # 断言
-            # get_coins_markets 被调用
-            self.mock_api.get_coins_markets.assert_called()
-            # is_stablecoin 被调用
-            self.mock_checker.is_stablecoin.assert_called()
-            # downloader.download_coin_data 只为 ethereum 调用
-            self.mock_downloader.download_coin_data.assert_called_once()
-            # 检查调用参数
-            call_args = self.mock_downloader.download_coin_data.call_args
-            self.assertEqual(call_args[1]["coin_id"], "ethereum")
+        # 断言关键方法被调用
+        mock_market_fetcher.get_top_coins.assert_called()
+        mock_classifier.classify_coin.assert_called()
+        updater.download_coin_data.assert_called()
+        updater.update_metadata.assert_called_once()
+        updater.generate_final_report.assert_called_once()
 
-            # 检查更新列表
-            self.assertIn("ethereum", self.updater.updated_coins)
-            self.assertNotIn("bitcoin", self.updater.updated_coins)
+        # 检查统计信息
+        self.assertGreaterEqual(updater.stats["native_updated"], 2)
 
-            print("✅ run() 工作流测试成功")
+        print("✅ update_with_smart_strategy() 工作流测试成功")
 
 
 class TestUpdateMetadataScript(unittest.TestCase):
