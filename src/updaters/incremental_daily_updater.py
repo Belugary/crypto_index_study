@@ -15,6 +15,7 @@ from pathlib import Path
 from typing import Dict, List, Optional, Set, Tuple
 
 import pandas as pd
+from tqdm import tqdm
 
 from ..api.coingecko import CoinGeckoAPI
 from ..downloaders.batch_downloader import create_batch_downloader
@@ -227,12 +228,15 @@ class IncrementalDailyUpdater:
             logger.warning(f"备份文件失败 {filepath}: {e}")
             return None
 
-    def insert_coin_into_daily_file(self, target_date: date, coin_data: Dict) -> bool:
+    def insert_coin_into_daily_file(
+        self, target_date: date, coin_data: Dict, pbar: Optional[tqdm] = None
+    ) -> bool:
         """将币种数据插入到指定日期的每日文件中
 
         Args:
             target_date: 目标日期
             coin_data: 币种数据字典
+            pbar: tqdm 进度条实例 (可选)
 
         Returns:
             是否插入成功
@@ -278,9 +282,15 @@ class IncrementalDailyUpdater:
                 # 保存文件
                 df.to_csv(filepath, index=False, float_format="%.6f")
 
-                logger.info(
-                    f"已将 {coin_data['coin_id']} 插入到 {target_date} (排名: {df[df['coin_id'] == coin_data['coin_id']]['rank'].iloc[0]})"
-                )
+                # 更新日志，但不使用 f-string 以提高性能
+                if pbar:
+                    pbar.set_description(
+                        f"已集成 {coin_data['coin_id']} 到 {target_date}"
+                    )
+                else:
+                    logger.info(
+                        f"已将 {coin_data['coin_id']} 插入到 {target_date} (排名: {df[df['coin_id'] == coin_data['coin_id']]['rank'].iloc[0]})"
+                    )
 
                 # 记录操作日志
                 self._log_operation(
@@ -325,7 +335,7 @@ class IncrementalDailyUpdater:
         Returns:
             (成功插入天数, 总尝试天数)
         """
-        logger.info(f"开始集成 {coin_id} 到每日文件")
+        # logger.info(f"开始集成 {coin_id} 到每日文件") # 在并行模式下过于嘈杂
 
         # 加载币种数据
         coin_df = self.load_coin_data(coin_id)
@@ -342,12 +352,12 @@ class IncrementalDailyUpdater:
 
         total_attempts = len(relevant_dates)
         if total_attempts == 0:
-            logger.warning(f"{coin_id} 数据与现有每日文件无交集")
+            # logger.warning(f"{coin_id} 数据与现有每日文件无交集") # 在并行模式下过于嘈杂
             return 0, 0
 
-        logger.info(
-            f"{coin_id} 有 {len(coin_dates)} 天数据，其中 {total_attempts} 天与已有文件重叠"
-        )
+        # logger.info(
+        #     f"{coin_id} 有 {len(coin_dates)} 天数据，其中 {total_attempts} 天与已有文件重叠"
+        # )
 
         # 逐日插入
         successful_insertions = 0
@@ -424,7 +434,7 @@ class IncrementalDailyUpdater:
 
     def update_with_new_coins(
         self, top_n: int = 1000, max_workers: int = 3, dry_run: bool = False
-    ) -> Dict[str, Dict]:
+    ) -> Dict:
         """检测并集成新币种的完整流程
 
         Args:
@@ -474,58 +484,77 @@ class IncrementalDailyUpdater:
             # 2. 下载新币种历史数据
             logger.info(f"开始下载 {len(new_coins)} 个新币种的历史数据")
 
-            with ThreadPoolExecutor(max_workers=max_workers) as executor:
-                future_to_coin = {
-                    executor.submit(self.download_new_coin_history, coin): coin
-                    for coin in new_coins
-                }
+            with tqdm(total=len(new_coins), desc="下载新币种数据") as pbar:
+                with ThreadPoolExecutor(max_workers=max_workers) as executor:
+                    future_to_coin = {
+                        executor.submit(self.download_new_coin_history, coin): coin
+                        for coin in new_coins
+                    }
 
-                for future in as_completed(future_to_coin):
-                    coin = future_to_coin[future]
-                    try:
-                        success = future.result()
-                        results["download_results"][coin] = {
-                            "success": success,
-                            "error": None,
-                        }
-                    except Exception as e:
-                        logger.error(f"下载 {coin} 时出错: {e}")
-                        results["download_results"][coin] = {
-                            "success": False,
-                            "error": str(e),
-                        }
+                    for future in as_completed(future_to_coin):
+                        coin = future_to_coin[future]
+                        pbar.set_description(f"下载 {coin}")
+                        try:
+                            success = future.result()
+                            results["download_results"][coin] = {
+                                "success": success,
+                                "error": None,
+                            }
+                        except Exception as e:
+                            logger.error(f"下载 {coin} 时出错: {e}")
+                            results["download_results"][coin] = {
+                                "success": False,
+                                "error": str(e),
+                            }
+                        pbar.update(1)
 
-            # 3. 集成到每日文件
-            logger.info("开始集成新币种数据到每日文件")
+            # 3. 集成到每日文件 (并行化)
+            logger.info("开始并行集成新币种数据到每日文件")
+            successful_coins = [
+                coin
+                for coin, res in results["download_results"].items()
+                if res["success"]
+            ]
 
+            with tqdm(total=len(successful_coins), desc="集成新币种") as pbar:
+                with ThreadPoolExecutor(max_workers=max_workers) as executor:
+                    future_to_coin = {
+                        executor.submit(
+                            self.integrate_new_coin_into_daily_files, coin
+                        ): coin
+                        for coin in successful_coins
+                    }
+
+                    for future in as_completed(future_to_coin):
+                        coin = future_to_coin[future]
+                        pbar.set_description(f"集成 {coin}")
+                        try:
+                            inserted_count, total_attempts = future.result()
+                            results["integration_results"][coin] = {
+                                "success": inserted_count > 0,
+                                "inserted_days": inserted_count,
+                                "total_attempts": total_attempts,
+                                "success_rate": (
+                                    (inserted_count / total_attempts * 100)
+                                    if total_attempts > 0
+                                    else 0
+                                ),
+                                "error": None,
+                            }
+                        except Exception as e:
+                            logger.error(f"集成 {coin} 时出错: {e}")
+                            results["integration_results"][coin] = {
+                                "success": False,
+                                "inserted_days": 0,
+                                "total_attempts": 0,
+                                "success_rate": 0,
+                                "error": str(e),
+                            }
+                        pbar.update(1)
+
+            # 标记下载失败的币种
             for coin in new_coins:
-                download_result = results["download_results"][coin]
-                if download_result["success"]:
-                    try:
-                        inserted_count, total_attempts = (
-                            self.integrate_new_coin_into_daily_files(coin)
-                        )
-                        results["integration_results"][coin] = {
-                            "success": inserted_count > 0,
-                            "inserted_days": inserted_count,
-                            "total_attempts": total_attempts,
-                            "success_rate": (
-                                (inserted_count / total_attempts * 100)
-                                if total_attempts > 0
-                                else 0
-                            ),
-                            "error": None,
-                        }
-                    except Exception as e:
-                        logger.error(f"集成 {coin} 时出错: {e}")
-                        results["integration_results"][coin] = {
-                            "success": False,
-                            "inserted_days": 0,
-                            "total_attempts": 0,
-                            "success_rate": 0,
-                            "error": str(e),
-                        }
-                else:
+                if coin not in successful_coins:
                     results["integration_results"][coin] = {
                         "success": False,
                         "inserted_days": 0,
@@ -545,14 +574,14 @@ class IncrementalDailyUpdater:
                 1 for r in results["integration_results"].values() if r["success"]
             )
             total_insertions = sum(
-                r["inserted_days"] for r in results["integration_results"].values()
+                r.get("inserted_days", 0)
+                for r in results["integration_results"].values()
             )
 
             results["summary"].update(
                 {
                     "end_time": end_time.isoformat(),
                     "duration_seconds": duration,
-                    "new_coins_count": len(new_coins),
                     "successful_downloads": successful_downloads,
                     "successful_integrations": successful_integrations,
                     "total_insertions": total_insertions,
@@ -560,108 +589,64 @@ class IncrementalDailyUpdater:
                 }
             )
 
-            logger.info("=" * 60)
-            logger.info("增量更新完成")
-            logger.info(f"执行时间: {duration:.1f} 秒")
-            logger.info(f"新币种数量: {len(new_coins)}")
-            logger.info(f"成功下载: {successful_downloads}/{len(new_coins)}")
-            logger.info(f"成功集成: {successful_integrations}/{len(new_coins)}")
-            logger.info(f"总插入次数: {total_insertions}")
-            logger.info("=" * 60)
-
-            # 收集所有受影响的日期
-            affected_dates = set()
-            for result in results["integration_results"].values():
-                if result.get("success", False) and "inserted_days" in result:
-                    affected_dates.update(result["inserted_days"])
-
-            # 自动重排序（如果有数据更新）
-            if successful_integrations > 0:
-                logger.info("开始自动重排序每日文件")
-                reorder_success = self.auto_reorder_after_update(
-                    dry_run=False, affected_dates=affected_dates
-                )
-                if reorder_success:
-                    logger.info("每日文件重排序完成")
-                else:
-                    logger.warning("重排序过程出现问题，请检查日志")
-
+            logger.info(
+                f"增量更新完成：{successful_downloads} 个新币种历史数据下载成功，{successful_integrations} 个币种数据成功集成"
+            )
+        except KeyboardInterrupt:
+            logger.warning("用户中断了增量更新操作")
+            results["summary"]["status"] = "interrupted"
+            results["summary"]["error"] = "User interrupted the process"
             return results
-
         except Exception as e:
             logger.error(f"增量更新过程中发生错误: {e}")
             results["summary"]["status"] = "error"
             results["summary"]["error"] = str(e)
             return results
 
-    def auto_reorder_after_update(
-        self, dry_run: bool = False, affected_dates: Optional[Set[str]] = None
-    ) -> bool:
-        """
-        更新完成后自动重排序每日文件
-
-        Args:
-            dry_run: 是否为试运行模式
-            affected_dates: 受影响的日期集合（YYYY-MM-DD格式），如果为None则处理所有文件
-
-        Returns:
-            bool: 是否成功
-        """
+        # 自动重排序
         try:
-            # 动态导入以避免循环依赖
-            import importlib.util
-            import sys
-            from pathlib import Path
+            logger.info("尝试对每日文件进行自动重排序...")
+            # 获取所有每日文件
+            daily_files = [
+                f for f in self.daily_dir.glob("*/*/*.csv") if f.stem != f.parent.name
+            ]
 
-            # 获取脚本文件路径
-            scripts_path = Path(__file__).parent.parent.parent / "scripts"
-            reorder_script = scripts_path / "reorder_daily_files_by_market_cap.py"
-
-            # 动态加载模块
-            spec = importlib.util.spec_from_file_location(
-                "reorder_daily_files_by_market_cap", reorder_script
-            )
-            if spec is None or spec.loader is None:
-                raise ImportError(f"无法加载脚本: {reorder_script}")
-
-            reorder_module = importlib.util.module_from_spec(spec)
-            spec.loader.exec_module(reorder_module)
-
-            logger.info("开始自动重排序每日文件")
-
-            # 如果指定了受影响的日期，使用优化的范围重排序
-            if affected_dates:
-                sorted_dates = sorted(affected_dates)
-                start_date = sorted_dates[0]
-                end_date = sorted_dates[-1]
-
-                logger.info(f"针对性重排序: {start_date} 到 {end_date}")
-                successful, total = reorder_module.reorder_files_by_date_range(
-                    start_date=start_date,
-                    end_date=end_date,
-                    dry_run=dry_run,
-                    max_workers=8,
-                )
+            if not daily_files:
+                logger.info("没有找到需要重排序的每日文件。")
             else:
-                # 处理所有文件
-                logger.info("全量重排序所有每日文件")
-                successful, total = reorder_module.reorder_all_daily_files(
-                    dry_run=dry_run, max_workers=8
-                )
+                logger.info(f"找到 {len(daily_files)} 个文件需要检查和重排序。")
 
-            if successful == total and total > 0:
-                logger.info("每日文件重排序完成")
-                return True
-            else:
-                logger.warning(f"重排序部分完成: {successful}/{total}")
-                return False
+            for target_file in tqdm(daily_files, desc="重排序每日文件"):
+                try:
+                    # 备份现有文件
+                    self._backup_daily_file(target_file)
+
+                    # 执行排序
+                    df = pd.read_csv(target_file)
+                    df = df.sort_values("market_cap", ascending=False).reset_index(
+                        drop=True
+                    )
+                    df["rank"] = range(1, len(df) + 1)
+                    df.to_csv(target_file, index=False, float_format="%.6f")
+
+                    logger.debug(f"已对 {target_file} 进行重排序")
+                except Exception as sort_e:
+                    logger.error(f"重排序文件 {target_file} 失败: {sort_e}")
+                    # 记录到结果中，但不中断整个流程
+                    if "resorting_errors" not in results["summary"]:
+                        results["summary"]["resorting_errors"] = []
+                    results["summary"]["resorting_errors"].append(
+                        f"File: {target_file}, Error: {str(sort_e)}"
+                    )
+
+            logger.info("自动重排序完成。")
 
         except Exception as e:
-            logger.error(f"自动重排序失败: {e}")
-            return False
-        finally:
-            # 清理导入路径（如果使用了sys.path方式）
-            pass
+            logger.error(f"自动重排序过程中发生意外错误: {e}")
+            results["summary"]["status"] = "completed_with_resorting_error"
+            results["summary"]["resorting_error"] = str(e)
+
+        return results
 
 
 def create_incremental_updater(
@@ -669,5 +654,14 @@ def create_incremental_updater(
     daily_dir: str = "data/daily/daily_files",
     backup_enabled: bool = True,
 ) -> IncrementalDailyUpdater:
-    """便捷函数：创建增量更新器实例"""
+    """创建增量每日数据更新器实例
+
+    Args:
+        coins_dir: 币种数据目录
+        daily_dir: 每日数据目录
+        backup_enabled: 是否启用备份
+
+    Returns:
+        IncrementalDailyUpdater 实例
+    """
     return IncrementalDailyUpdater(coins_dir, daily_dir, backup_enabled)

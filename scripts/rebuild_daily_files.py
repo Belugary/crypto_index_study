@@ -7,13 +7,13 @@
 
 import argparse
 import logging
+import multiprocessing
 import os
 import sys
-import multiprocessing
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Dict, List, Optional
-from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import pandas as pd
 from tqdm import tqdm
@@ -297,7 +297,9 @@ class DailyDataAggregator:
         if parallel and total_days > 1:
             # 设置工作线程数 - 对于强劲系统，可以超过CPU核心数
             if max_workers is None:
-                max_workers = max(1, multiprocessing.cpu_count() * 2)  # 使用2倍CPU核心数
+                max_workers = max(
+                    1, multiprocessing.cpu_count() * 2
+                )  # 使用2倍CPU核心数
 
             self.logger.info(f"使用 {max_workers} 个工作线程并行处理")
 
