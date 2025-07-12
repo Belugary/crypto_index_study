@@ -31,6 +31,7 @@ class MarketCapWeightedIndexCalculator:
         data_dir: str = "data/coins",
         exclude_stablecoins: bool = True,
         exclude_wrapped_coins: bool = True,
+        force_rebuild: bool = False,
     ):
         """
         初始化指数计算器
@@ -39,6 +40,7 @@ class MarketCapWeightedIndexCalculator:
             data_dir: 价格数据目录路径 (兼容性保留，实际使用每日汇总数据)
             exclude_stablecoins: 是否排除稳定币
             exclude_wrapped_coins: 是否排除包装币
+            force_rebuild: 是否强制重建每日数据文件
 
         注意：
         - 实际数据来源：data/daily/daily_files/ 目录下的每日汇总数据
@@ -48,6 +50,7 @@ class MarketCapWeightedIndexCalculator:
         self.data_dir = Path(data_dir)
         self.exclude_stablecoins = exclude_stablecoins
         self.exclude_wrapped_coins = exclude_wrapped_coins
+        self.force_rebuild = force_rebuild
 
         # 初始化每日数据聚合器 - 核心数据源
         self.daily_aggregator = DailyDataAggregator(
@@ -122,6 +125,33 @@ class MarketCapWeightedIndexCalculator:
 
         return coins
 
+    def _get_daily_data_cached(self, target_date: date) -> pd.DataFrame:
+        """
+        获取指定日期的每日数据（带缓存）
+        
+        Args:
+            target_date: 目标日期
+            
+        Returns:
+            当日所有币种数据的DataFrame
+        """
+        # 检查是否已经在缓存中
+        cache_key = target_date.isoformat()
+        if hasattr(self, '_daily_cache') and cache_key in self._daily_cache:
+            return self._daily_cache[cache_key]
+        
+        # 初始化缓存
+        if not hasattr(self, '_daily_cache'):
+            self._daily_cache = {}
+        
+        # 从数据源获取（只有第一次会强制刷新）
+        force_refresh = self.force_rebuild and cache_key not in self._daily_cache
+        daily_df = self.daily_aggregator.get_daily_data(target_date, force_refresh=force_refresh)
+        
+        # 缓存结果
+        self._daily_cache[cache_key] = daily_df
+        return daily_df
+
     def _get_daily_market_caps(self, target_date: date) -> Dict[str, float]:
         """
         获取指定日期所有币种的市值
@@ -135,8 +165,8 @@ class MarketCapWeightedIndexCalculator:
             币种ID到市值的映射字典
         """
         try:
-            # 从每日汇总数据获取
-            daily_df = self.daily_aggregator.get_daily_data(target_date)
+            # 使用缓存的数据获取方法
+            daily_df = self._get_daily_data_cached(target_date)
 
             if daily_df.empty:
                 self.logger.warning(f"日期 {target_date} 没有可用的每日汇总数据")
@@ -218,7 +248,8 @@ class MarketCapWeightedIndexCalculator:
             价格，如果无数据返回None
         """
         try:
-            daily_df = self.daily_aggregator.get_daily_data(target_date)
+            # 使用缓存的数据获取方法
+            daily_df = self._get_daily_data_cached(target_date)
 
             if daily_df.empty:
                 return None
@@ -310,6 +341,8 @@ class MarketCapWeightedIndexCalculator:
         self.logger.info(
             f"排除稳定币: {self.exclude_stablecoins}, 排除包装币: {self.exclude_wrapped_coins}"
         )
+        if self.force_rebuild:
+            self.logger.info("已启用强制重建每日数据功能，将使用最新的原始数据生成每日汇总")
 
         # 转换日期字符串为date对象
         start_dt = datetime.strptime(start_date, "%Y-%m-%d").date()

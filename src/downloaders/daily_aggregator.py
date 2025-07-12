@@ -7,9 +7,12 @@
 """
 
 import logging
+import os
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Dict, List, Optional, Union
+from concurrent.futures import ProcessPoolExecutor, as_completed
+import multiprocessing
 
 import pandas as pd
 
@@ -118,6 +121,13 @@ class DailyDataAggregator:
         获取指定日期的聚合市场数据
 
         支持从缓存、文件或重新计算获取。
+        
+        Args:
+            target_date: 目标日期，支持字符串、datetime或date类型
+            force_refresh: 是否强制刷新，忽略缓存
+        
+        Returns:
+            包含指定日期所有币种数据的DataFrame
         """
         if isinstance(target_date, str):
             try:
@@ -185,6 +195,7 @@ class DailyDataAggregator:
             return
 
         # 确定日期范围
+        self._calculate_date_range()
         start_date = self.min_date
         end_date = self.max_date
 
@@ -194,19 +205,41 @@ class DailyDataAggregator:
             return
 
         logger.info(f"构建每日数据表: {start_date} 到 {end_date}")
-
-        # 创建每日数据
-        current_date = start_date
-        all_daily_data = []
-
+        
+        # 生成需要处理的日期列表
+        date_list = []
+        current_date = datetime.strptime(start_date, "%Y-%m-%d").date() if isinstance(start_date, str) else start_date.date()
+        end_date = datetime.strptime(end_date, "%Y-%m-%d").date() if isinstance(end_date, str) else end_date.date()
+        
         while current_date <= end_date:
-            logger.info(f"正在处理 {current_date.strftime('%Y-%m-%d')}...")
-            daily_data = self.get_daily_data(
-                current_date, force_refresh=force_recalculate
-            )
-            if not daily_data.empty:
-                all_daily_data.append(daily_data)
+            date_list.append(current_date)
             current_date += timedelta(days=1)
+            
+        logger.info(f"将处理 {len(date_list)} 天的数据")
+        
+        # 使用并行处理
+        all_daily_data = []
+        with ProcessPoolExecutor(max_workers=max(1, multiprocessing.cpu_count() - 1)) as executor:
+            # 提交所有任务
+            future_to_date = {
+                executor.submit(self.get_daily_data, date, force_recalculate): date 
+                for date in date_list
+            }
+            
+            # 收集结果
+            completed = 0
+            for future in as_completed(future_to_date):
+                date = future_to_date[future]
+                try:
+                    daily_data = future.result()
+                    if not daily_data.empty:
+                        all_daily_data.append(daily_data)
+                except Exception as e:
+                    logger.error(f"处理日期 {date} 时出错: {e}")
+                
+                completed += 1
+                if completed % 10 == 0:
+                    logger.info(f"已完成 {completed}/{len(date_list)} 天的数据处理")
 
         logger.info(f"成功处理 {len(all_daily_data)} 天的数据")
 
@@ -369,24 +402,50 @@ class DailyDataAggregator:
         """在内存中计算指定日期的聚合数据"""
         daily_records = []
         target_date_str = target_date.strftime("%Y-%m-%d")
-        logger.debug(
+        logger.info(
             f"开始计算 {target_date_str} 的数据，遍历 {len(self.coin_data)} 个已加载的币种..."
         )
 
-        for coin_id, df in self.coin_data.items():
-            if df.empty:
-                continue
+        # 如果币种数量足够多，使用并行处理
+        if len(self.coin_data) > 100:
+            # 使用并行处理，每个进程处理一部分币种
+            with ProcessPoolExecutor(max_workers=max(1, multiprocessing.cpu_count() - 1)) as executor:
+                # 准备任务，每个任务处理一批币种
+                coin_batches = self._split_coins_into_batches(list(self.coin_data.items()), 10)
+                futures = []
+                
+                for batch in coin_batches:
+                    futures.append(
+                        executor.submit(
+                            self._process_coin_batch,
+                            batch,
+                            target_date_str
+                        )
+                    )
+                
+                # 收集结果
+                for future in as_completed(futures):
+                    try:
+                        batch_results = future.result()
+                        daily_records.extend(batch_results)
+                    except Exception as e:
+                        logger.error(f"处理币种批次时出错: {e}")
+        else:
+            # 币种数量较少，使用单线程处理
+            for coin_id, df in self.coin_data.items():
+                if df.empty:
+                    continue
 
-            # 筛选特定日期的数据
-            day_data = df[df["date"] == target_date_str]
+                # 筛选特定日期的数据
+                day_data = df[df["date"] == target_date_str]
 
-            if not day_data.empty:
-                # 通常每天只有一个记录，但为防万一，取第一个
-                record = day_data.iloc[0].to_dict()
-                daily_records.append(record)
-                logger.debug(f"找到 {coin_id} 在 {target_date_str} 的数据。")
-            else:
-                logger.debug(f"未找到 {coin_id} 在 {target_date_str} 的数据。")
+                if not day_data.empty:
+                    # 通常每天只有一个记录，但为防万一，取第一个
+                    record = day_data.iloc[0].to_dict()
+                    daily_records.append(record)
+                    logger.debug(f"找到 {coin_id} 在 {target_date_str} 的数据。")
+                else:
+                    logger.debug(f"未找到 {coin_id} 在 {target_date_str} 的数据。")
 
         if not daily_records:
             logger.warning(f"在 {target_date_str} 未找到任何币种的数据。")
@@ -403,6 +462,29 @@ class DailyDataAggregator:
             final_df["rank"] = final_df.index + 1
 
         return final_df
+        
+    @staticmethod
+    def _split_coins_into_batches(coins, batch_size):
+        """将币种列表分割成多个批次进行并行处理"""
+        for i in range(0, len(coins), batch_size):
+            yield coins[i:i + batch_size]
+            
+    @staticmethod
+    def _process_coin_batch(coin_batch, target_date_str):
+        """处理一批币种的数据，用于并行执行"""
+        batch_results = []
+        for coin_id, df in coin_batch:
+            if df.empty:
+                continue
+                
+            # 筛选特定日期的数据
+            day_data = df[df["date"] == target_date_str]
+            
+            if not day_data.empty:
+                record = day_data.iloc[0].to_dict()
+                batch_results.append(record)
+                
+        return batch_results
 
 
 def create_daily_aggregator(
