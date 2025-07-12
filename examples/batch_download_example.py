@@ -10,7 +10,7 @@ import sys
 # 添加项目根目录到Python路径
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from src.data.batch_downloader import create_batch_downloader
+from src.downloaders.batch_downloader import create_batch_downloader
 
 
 def main():

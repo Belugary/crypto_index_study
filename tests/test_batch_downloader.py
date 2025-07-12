@@ -13,7 +13,7 @@ from unittest.mock import Mock
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.api.coingecko import CoinGeckoAPI
-from src.data.batch_downloader import BatchDownloader, create_batch_downloader
+from src.downloaders.batch_downloader import BatchDownloader, create_batch_downloader
 
 
 def test_batch_downloader_init():
