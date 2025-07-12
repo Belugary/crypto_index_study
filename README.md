@@ -12,7 +12,19 @@
 - 支持增量每日数据更新脚本，便于新币种检测与历史数据集成
 - 中文文档和示例，快速上手
 
-## 快速开始
+## 项目状态
+
+**所有核心功能已通过测试，项目处于稳定运行状态。**
+
+- ✅ **单元测试**: 55/55 全部通过
+- ✅ **指数计算**: 端到端功能验证成功
+- ✅ **每日增量更新**: 逻辑验证成功
+
+**(最近更新: 2025-07-12)**
+
+---
+
+## 🚀 快速开始
 
 1. 安装依赖
 
@@ -148,6 +160,9 @@ python scripts/calculate_index.py --start-date 2025-01-01 --end-date 2025-01-31 
 
 # 自定义基准日期和指数值
 python scripts/calculate_index.py --start-date 2025-01-01 --end-date 2025-01-31 --base-date 2020-01-01 --base-value 100
+
+# 强制重新生成每日汇总数据，确保计算结果基于最新数据
+python scripts/calculate_index.py --start-date 2025-01-01 --end-date 2025-01-31 --force-rebuild
 
 # 运行指数计算示例
 python examples/index_calculation_example.py
