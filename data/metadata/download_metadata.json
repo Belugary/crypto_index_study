@@ -1,6 +1,6 @@
 {
   "tether": {
-    "last_update": "2025-07-12T09:50:42.336308+00:00",
+    "last_update": "2025-07-12T16:20:59.766170+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -45,7 +45,7 @@
     "version": "1.0"
   },
   "bnb48-club-token": {
-    "last_update": "2025-07-12T09:41:17.407108+00:00",
+    "last_update": "2025-07-12T16:21:07.324508+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -90,7 +90,7 @@
     "version": "1.0"
   },
   "l2-standard-bridged-weth-base": {
-    "last_update": "2025-07-12T11:13:21.182533+00:00",
+    "last_update": "2025-07-12T15:19:21.705184+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -100,7 +100,7 @@
     "version": "1.0"
   },
   "quq": {
-    "last_update": "2025-07-12T09:48:17.588367+00:00",
+    "last_update": "2025-07-12T15:19:24.639869+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -110,7 +110,7 @@
     "version": "1.0"
   },
   "pudgy-penguins": {
-    "last_update": "2025-07-12T11:14:22.603466+00:00",
+    "last_update": "2025-07-12T15:19:24.275876+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -130,12 +130,12 @@
     "version": "1.0"
   },
   "official-trump": {
-    "last_update": "2025-07-12T09:47:06.730225+00:00",
+    "last_update": "2025-07-12T15:19:23.455720+00:00",
     "days": "max",
     "version": "1.0"
   },
   "arbitrum-bridged-weth-arbitrum-one": {
-    "last_update": "2025-07-12T11:13:10.633746+00:00",
+    "last_update": "2025-07-12T15:09:05.962331+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -145,12 +145,12 @@
     "version": "1.0"
   },
   "usd1-wlfi": {
-    "last_update": "2025-07-12T11:28:49.036731+00:00",
+    "last_update": "2025-07-12T16:20:45.915782+00:00",
     "days": "max",
     "version": "1.0"
   },
   "usdt0": {
-    "last_update": "2025-07-12T11:13:44.634339+00:00",
+    "last_update": "2025-07-12T15:19:28.495413+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -160,12 +160,12 @@
     "version": "1.0"
   },
   "coinbase-wrapped-btc": {
-    "last_update": "2025-07-12T12:14:35.671371+00:00",
+    "last_update": "2025-07-12T15:19:18.131580+00:00",
     "days": "max",
     "version": "1.0"
   },
   "hyperliquid": {
-    "last_update": "2025-07-12T12:14:34.605389+00:00",
+    "last_update": "2025-07-12T15:19:20.889337+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -180,7 +180,7 @@
     "version": "1.0"
   },
   "sahara-ai": {
-    "last_update": "2025-07-12T09:48:55.683767+00:00",
+    "last_update": "2025-07-12T15:11:27.021349+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -190,7 +190,7 @@
     "version": "1.0"
   },
   "fartcoin": {
-    "last_update": "2025-07-12T09:43:32.741413+00:00",
+    "last_update": "2025-07-12T15:19:19.572454+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -205,7 +205,7 @@
     "version": "1.0"
   },
   "ethena": {
-    "last_update": "2025-07-12T11:13:20.061064+00:00",
+    "last_update": "2025-07-12T15:19:19.430536+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -235,7 +235,7 @@
     "version": "1.0"
   },
   "bedrock-token": {
-    "last_update": "2025-07-12T11:14:15.776718+00:00",
+    "last_update": "2025-07-12T15:19:17.047030+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -250,12 +250,12 @@
     "version": "1.0"
   },
   "peanut-the-squirrel": {
-    "last_update": "2025-07-12T09:47:39.178260+00:00",
+    "last_update": "2025-07-12T15:19:23.903555+00:00",
     "days": "max",
     "version": "1.0"
   },
   "ether-fi": {
-    "last_update": "2025-07-12T11:13:26.092241+00:00",
+    "last_update": "2025-07-12T15:19:19.461081+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -265,7 +265,7 @@
     "version": "1.0"
   },
   "banana-for-scale-2": {
-    "last_update": "2025-07-12T09:40:36.661625+00:00",
+    "last_update": "2025-07-12T15:19:16.971091+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -320,7 +320,7 @@
     "version": "1.0"
   },
   "arbitrum-bridged-wbtc-arbitrum-one": {
-    "last_update": "2025-07-12T11:14:22.273729+00:00",
+    "last_update": "2025-07-12T15:19:16.202680+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -360,17 +360,17 @@
     "version": "1.0"
   },
   "neiro-3": {
-    "last_update": "2025-07-12T09:46:43.306703+00:00",
+    "last_update": "2025-07-12T15:19:23.255944+00:00",
     "days": "max",
     "version": "1.0"
   },
   "bitget-token": {
-    "last_update": "2025-07-12T09:41:01.132920+00:00",
+    "last_update": "2025-07-12T16:20:48.297714+00:00",
     "days": "max",
     "version": "1.0"
   },
   "aixbt": {
-    "last_update": "2025-07-12T09:39:41.127235+00:00",
+    "last_update": "2025-07-12T15:08:39.812280+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -380,7 +380,7 @@
     "version": "1.0"
   },
   "seraph": {
-    "last_update": "2025-07-12T09:49:03.720831+00:00",
+    "last_update": "2025-07-12T15:19:26.729221+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -395,17 +395,17 @@
     "version": "1.0"
   },
   "space-nation-oikos": {
-    "last_update": "2025-07-12T11:13:33.009404+00:00",
+    "last_update": "2025-07-12T15:11:42.594610+00:00",
     "days": "max",
     "version": "1.0"
   },
   "moo-deng": {
-    "last_update": "2025-07-12T09:46:28.987942+00:00",
+    "last_update": "2025-07-12T15:19:22.946719+00:00",
     "days": "max",
     "version": "1.0"
   },
   "agora-dollar": {
-    "last_update": "2025-07-12T11:13:35.437005+00:00",
+    "last_update": "2025-07-12T15:08:27.529023+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -430,17 +430,17 @@
     "version": "1.0"
   },
   "humanity": {
-    "last_update": "2025-07-12T11:13:38.751227+00:00",
+    "last_update": "2025-07-12T15:19:20.800350+00:00",
     "days": "max",
     "version": "1.0"
   },
   "sonic-3": {
-    "last_update": "2025-07-12T11:14:17.912902+00:00",
+    "last_update": "2025-07-12T15:19:26.801578+00:00",
     "days": "max",
     "version": "1.0"
   },
   "impossible-cloud-network-token": {
-    "last_update": "2025-07-12T11:13:49.325607+00:00",
+    "last_update": "2025-07-12T15:19:21.011628+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -475,7 +475,7 @@
     "version": "1.0"
   },
   "babylon": {
-    "last_update": "2025-07-12T11:28:48.662702+00:00",
+    "last_update": "2025-07-12T16:20:36.398252+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -485,7 +485,7 @@
     "version": "1.0"
   },
   "ai16z": {
-    "last_update": "2025-07-12T11:13:57.943595+00:00",
+    "last_update": "2025-07-12T15:19:15.415032+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -505,27 +505,27 @@
     "version": "1.0"
   },
   "wrapped-eeth": {
-    "last_update": "2025-07-12T09:52:13.193744+00:00",
+    "last_update": "2025-07-12T16:21:02.892813+00:00",
     "days": "max",
     "version": "1.0"
   },
   "usds": {
-    "last_update": "2025-07-12T12:14:35.206893+00:00",
+    "last_update": "2025-07-12T15:19:28.512808+00:00",
     "days": "max",
     "version": "1.0"
   },
   "whitebit": {
-    "last_update": "2025-07-12T09:52:04.160017+00:00",
+    "last_update": "2025-07-12T16:21:10.824770+00:00",
     "days": "max",
     "version": "1.0"
   },
   "pi-network": {
-    "last_update": "2025-07-12T12:14:36.165329+00:00",
+    "last_update": "2025-07-12T15:11:03.160981+00:00",
     "days": "max",
     "version": "1.0"
   },
   "ethena-staked-usde": {
-    "last_update": "2025-07-12T12:14:36.706046+00:00",
+    "last_update": "2025-07-12T15:19:20.179382+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -540,7 +540,7 @@
     "version": "1.0"
   },
   "blackrock-usd-institutional-digital-liquidity-fund": {
-    "last_update": "2025-07-12T12:14:37.337841+00:00",
+    "last_update": "2025-07-12T15:19:17.614053+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -560,7 +560,7 @@
     "version": "1.0"
   },
   "susds": {
-    "last_update": "2025-07-12T09:50:18.521127+00:00",
+    "last_update": "2025-07-12T15:19:27.595260+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -585,7 +585,7 @@
     "version": "1.0"
   },
   "sky": {
-    "last_update": "2025-07-12T11:14:12.183512+00:00",
+    "last_update": "2025-07-12T15:11:34.041485+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -595,12 +595,12 @@
     "version": "1.0"
   },
   "binance-peg-weth": {
-    "last_update": "2025-07-12T09:40:53.669075+00:00",
+    "last_update": "2025-07-12T15:19:17.510118+00:00",
     "days": "max",
     "version": "1.0"
   },
   "lombard-staked-btc": {
-    "last_update": "2025-07-12T09:45:53.743857+00:00",
+    "last_update": "2025-07-12T15:19:22.257669+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -615,12 +615,12 @@
     "version": "1.0"
   },
   "binance-staked-sol": {
-    "last_update": "2025-07-12T09:40:54.179788+00:00",
+    "last_update": "2025-07-12T15:19:17.542510+00:00",
     "days": "max",
     "version": "1.0"
   },
   "usdtb": {
-    "last_update": "2025-07-12T11:14:10.848039+00:00",
+    "last_update": "2025-07-12T15:19:29.048389+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -680,17 +680,17 @@
     "version": "1.0"
   },
   "solv-btc": {
-    "last_update": "2025-07-12T11:13:23.461486+00:00",
+    "last_update": "2025-07-12T15:11:38.018393+00:00",
     "days": "max",
     "version": "1.0"
   },
   "tokenize-xchange": {
-    "last_update": "2025-07-12T09:50:55.625333+00:00",
+    "last_update": "2025-07-12T16:20:39.994958+00:00",
     "days": "max",
     "version": "1.0"
   },
   "syrupusdc": {
-    "last_update": "2025-07-12T09:50:27.350652+00:00",
+    "last_update": "2025-07-12T15:19:28.168062+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -705,7 +705,7 @@
     "version": "1.0"
   },
   "story-2": {
-    "last_update": "2025-07-12T09:49:55.563737+00:00",
+    "last_update": "2025-07-12T15:19:27.055487+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -720,12 +720,12 @@
     "version": "1.0"
   },
   "kaia": {
-    "last_update": "2025-07-12T11:13:53.280190+00:00",
+    "last_update": "2025-07-12T15:19:21.264348+00:00",
     "days": "max",
     "version": "1.0"
   },
   "clbtc": {
-    "last_update": "2025-07-12T09:41:56.851979+00:00",
+    "last_update": "2025-07-12T15:19:18.085102+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -745,7 +745,7 @@
     "version": "1.0"
   },
   "jupiter-staked-sol": {
-    "last_update": "2025-07-12T09:45:16.693855+00:00",
+    "last_update": "2025-07-12T15:19:21.257458+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -760,7 +760,7 @@
     "version": "1.0"
   },
   "msol": {
-    "last_update": "2025-07-12T09:46:35.967314+00:00",
+    "last_update": "2025-07-12T16:20:40.399055+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -770,12 +770,12 @@
     "version": "1.0"
   },
   "ousg": {
-    "last_update": "2025-07-12T09:47:30.857239+00:00",
+    "last_update": "2025-07-12T16:20:45.514973+00:00",
     "days": "max",
     "version": "1.0"
   },
   "superstate-short-duration-us-government-securities-fund-ustb": {
-    "last_update": "2025-07-12T11:13:55.388621+00:00",
+    "last_update": "2025-07-12T15:19:27.391318+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -790,7 +790,7 @@
     "version": "1.0"
   },
   "usdx-money-usdx": {
-    "last_update": "2025-07-12T09:51:25.996377+00:00",
+    "last_update": "2025-07-12T15:19:28.672588+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -805,7 +805,7 @@
     "version": "1.0"
   },
   "jasmycoin": {
-    "last_update": "2025-07-12T09:45:09.251497+00:00",
+    "last_update": "2025-07-12T16:20:58.449238+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -825,12 +825,12 @@
     "version": "1.0"
   },
   "super-oeth": {
-    "last_update": "2025-07-12T11:13:20.777594+00:00",
+    "last_update": "2025-07-12T15:19:27.325230+00:00",
     "days": "max",
     "version": "1.0"
   },
   "wrapped-hype": {
-    "last_update": "2025-07-12T11:13:45.730954+00:00",
+    "last_update": "2025-07-12T15:19:29.434056+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -845,7 +845,7 @@
     "version": "1.0"
   },
   "mantle-restaked-eth": {
-    "last_update": "2025-07-12T11:14:00.648522+00:00",
+    "last_update": "2025-07-12T15:19:22.585350+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -860,17 +860,17 @@
     "version": "1.0"
   },
   "solv-protocol-solvbtc-bbn": {
-    "last_update": "2025-07-12T11:13:14.328361+00:00",
+    "last_update": "2025-07-12T15:11:38.902689+00:00",
     "days": "max",
     "version": "1.0"
   },
   "cgeth-hashkey-cloud": {
-    "last_update": "2025-07-12T11:13:27.391772+00:00",
+    "last_update": "2025-07-12T15:19:18.028251+00:00",
     "days": "max",
     "version": "1.0"
   },
   "usual-usd": {
-    "last_update": "2025-07-12T11:14:01.017355+00:00",
+    "last_update": "2025-07-12T15:19:28.694442+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -880,7 +880,7 @@
     "version": "1.0"
   },
   "walrus-2": {
-    "last_update": "2025-07-12T09:51:59.797988+00:00",
+    "last_update": "2025-07-12T15:19:29.341706+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -890,7 +890,7 @@
     "version": "1.0"
   },
   "memecore": {
-    "last_update": "2025-07-12T11:14:02.042772+00:00",
+    "last_update": "2025-07-12T15:19:22.667731+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -900,7 +900,7 @@
     "version": "1.0"
   },
   "falcon-finance": {
-    "last_update": "2025-07-12T11:13:59.175560+00:00",
+    "last_update": "2025-07-12T15:19:19.565007+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -910,7 +910,7 @@
     "version": "1.0"
   },
   "syrup": {
-    "last_update": "2025-07-12T11:13:24.664834+00:00",
+    "last_update": "2025-07-12T15:19:27.667124+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -920,7 +920,7 @@
     "version": "1.0"
   },
   "morpho": {
-    "last_update": "2025-07-12T11:13:58.259777+00:00",
+    "last_update": "2025-07-12T15:19:23.004103+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -935,7 +935,7 @@
     "version": "1.0"
   },
   "ripple-usd": {
-    "last_update": "2025-07-12T09:48:45.852878+00:00",
+    "last_update": "2025-07-12T15:19:25.528741+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -960,12 +960,12 @@
     "version": "1.0"
   },
   "staked-hype": {
-    "last_update": "2025-07-12T09:49:40.018302+00:00",
+    "last_update": "2025-07-12T15:19:26.985784+00:00",
     "days": "max",
     "version": "1.0"
   },
   "venom": {
-    "last_update": "2025-07-12T09:51:43.437619+00:00",
+    "last_update": "2025-07-12T15:19:29.120230+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1000,7 +1000,7 @@
     "version": "1.0"
   },
   "dog-go-to-the-moon-rune": {
-    "last_update": "2025-07-12T11:13:59.687999+00:00",
+    "last_update": "2025-07-12T15:19:18.844490+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1040,7 +1040,7 @@
     "version": "1.0"
   },
   "hashnote-usyc": {
-    "last_update": "2025-07-12T09:44:18.685500+00:00",
+    "last_update": "2025-07-12T15:19:20.596226+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1055,7 +1055,7 @@
     "version": "1.0"
   },
   "deep": {
-    "last_update": "2025-07-12T09:42:43.048161+00:00",
+    "last_update": "2025-07-12T15:19:18.572654+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1065,7 +1065,7 @@
     "version": "1.0"
   },
   "eigenlayer": {
-    "last_update": "2025-07-12T11:13:31.346164+00:00",
+    "last_update": "2025-07-12T15:19:19.067753+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1095,7 +1095,7 @@
     "version": "1.0"
   },
   "movement": {
-    "last_update": "2025-07-12T11:14:19.301064+00:00",
+    "last_update": "2025-07-12T15:19:23.116084+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1120,7 +1120,7 @@
     "version": "1.0"
   },
   "ether-fi-staked-btc": {
-    "last_update": "2025-07-12T11:13:13.267860+00:00",
+    "last_update": "2025-07-12T15:19:19.490485+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1135,12 +1135,12 @@
     "version": "1.0"
   },
   "polygon-pos-bridged-dai-polygon-pos": {
-    "last_update": "2025-07-12T11:14:21.035386+00:00",
+    "last_update": "2025-07-12T15:19:24.805722+00:00",
     "days": "max",
     "version": "1.0"
   },
   "kaito": {
-    "last_update": "2025-07-12T11:13:12.397641+00:00",
+    "last_update": "2025-07-12T15:19:21.345105+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1150,12 +1150,12 @@
     "version": "1.0"
   },
   "zksync": {
-    "last_update": "2025-07-12T09:52:52.024766+00:00",
+    "last_update": "2025-07-12T15:19:29.877892+00:00",
     "days": "max",
     "version": "1.0"
   },
   "polygon-pos-bridged-weth-polygon-pos": {
-    "last_update": "2025-07-12T11:13:43.605368+00:00",
+    "last_update": "2025-07-12T15:19:24.123254+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1180,7 +1180,7 @@
     "version": "1.0"
   },
   "polygon-bridged-wbtc-polygon-pos": {
-    "last_update": "2025-07-12T11:13:18.753113+00:00",
+    "last_update": "2025-07-12T15:19:24.030369+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1200,12 +1200,12 @@
     "version": "1.0"
   },
   "bybit-staked-sol": {
-    "last_update": "2025-07-12T09:41:33.811978+00:00",
+    "last_update": "2025-07-12T15:19:17.909368+00:00",
     "days": "max",
     "version": "1.0"
   },
   "grass": {
-    "last_update": "2025-07-12T11:13:53.615946+00:00",
+    "last_update": "2025-07-12T15:19:20.344280+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1220,17 +1220,17 @@
     "version": "1.0"
   },
   "global-dollar": {
-    "last_update": "2025-07-12T09:44:02.309948+00:00",
+    "last_update": "2025-07-12T15:10:12.286607+00:00",
     "days": "max",
     "version": "1.0"
   },
   "keeta": {
-    "last_update": "2025-07-12T11:14:11.767880+00:00",
+    "last_update": "2025-07-12T15:19:21.584643+00:00",
     "days": "max",
     "version": "1.0"
   },
   "wormhole": {
-    "last_update": "2025-07-12T11:13:31.735059+00:00",
+    "last_update": "2025-07-12T15:19:29.377819+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1255,7 +1255,7 @@
     "version": "1.0"
   },
   "treehouse-eth": {
-    "last_update": "2025-07-12T11:14:10.338971+00:00",
+    "last_update": "2025-07-12T15:19:28.034153+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1270,17 +1270,17 @@
     "version": "1.0"
   },
   "trip": {
-    "last_update": "2025-07-12T11:14:14.235317+00:00",
+    "last_update": "2025-07-12T15:19:28.093405+00:00",
     "days": "max",
     "version": "1.0"
   },
   "zebec-network": {
-    "last_update": "2025-07-12T11:14:08.990510+00:00",
+    "last_update": "2025-07-12T15:19:29.659793+00:00",
     "days": "max",
     "version": "1.0"
   },
   "ket": {
-    "last_update": "2025-07-12T11:13:17.474939+00:00",
+    "last_update": "2025-07-12T15:10:27.627226+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1310,12 +1310,12 @@
     "version": "1.0"
   },
   "openeden-open-dollar": {
-    "last_update": "2025-07-12T11:14:02.386128+00:00",
+    "last_update": "2025-07-12T15:19:23.599605+00:00",
     "days": "max",
     "version": "1.0"
   },
   "compounding-open-dollar": {
-    "last_update": "2025-07-12T11:28:52.307575+00:00",
+    "last_update": "2025-07-12T16:21:09.468987+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1330,12 +1330,12 @@
     "version": "1.0"
   },
   "eutbl": {
-    "last_update": "2025-07-12T11:13:45.388932+00:00",
+    "last_update": "2025-07-12T15:19:19.503918+00:00",
     "days": "max",
     "version": "1.0"
   },
   "abtc": {
-    "last_update": "2025-07-12T09:39:26.015172+00:00",
+    "last_update": "2025-07-12T15:08:20.556468+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1370,7 +1370,7 @@
     "version": "1.0"
   },
   "aethir": {
-    "last_update": "2025-07-12T09:39:38.266770+00:00",
+    "last_update": "2025-07-12T15:19:16.106142+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1380,7 +1380,7 @@
     "version": "1.0"
   },
   "reserve-protocol-eth-plus": {
-    "last_update": "2025-07-12T09:48:34.940070+00:00",
+    "last_update": "2025-07-12T15:19:24.993129+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1390,37 +1390,37 @@
     "version": "1.0"
   },
   "pumpbtc": {
-    "last_update": "2025-07-12T09:48:06.943842+00:00",
+    "last_update": "2025-07-12T15:19:24.353873+00:00",
     "days": "max",
     "version": "1.0"
   },
   "btse-token": {
-    "last_update": "2025-07-12T09:41:28.694277+00:00",
+    "last_update": "2025-07-12T16:21:00.672053+00:00",
     "days": "max",
     "version": "1.0"
   },
   "cat-in-a-dogs-world": {
-    "last_update": "2025-07-12T09:41:36.919949+00:00",
+    "last_update": "2025-07-12T15:19:17.935168+00:00",
     "days": "max",
     "version": "1.0"
   },
   "plume": {
-    "last_update": "2025-07-12T09:47:43.401406+00:00",
+    "last_update": "2025-07-12T15:19:23.996463+00:00",
     "days": "max",
     "version": "1.0"
   },
   "safe": {
-    "last_update": "2025-07-12T11:14:18.939700+00:00",
+    "last_update": "2025-07-12T15:19:25.703962+00:00",
     "days": "max",
     "version": "1.0"
   },
   "staked-frax-ether": {
-    "last_update": "2025-07-12T09:49:39.579275+00:00",
+    "last_update": "2025-07-12T16:21:06.726062+00:00",
     "days": "max",
     "version": "1.0"
   },
   "drift-staked-sol": {
-    "last_update": "2025-07-12T11:13:24.277701+00:00",
+    "last_update": "2025-07-12T15:19:18.904986+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1430,12 +1430,12 @@
     "version": "1.0"
   },
   "universal-btc": {
-    "last_update": "2025-07-12T09:51:18.090843+00:00",
+    "last_update": "2025-07-12T15:19:28.352780+00:00",
     "days": "max",
     "version": "1.0"
   },
   "mocaverse": {
-    "last_update": "2025-07-12T09:46:26.893044+00:00",
+    "last_update": "2025-07-12T15:19:23.661859+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1465,7 +1465,7 @@
     "version": "1.0"
   },
   "resolv-usr": {
-    "last_update": "2025-07-12T09:48:38.614433+00:00",
+    "last_update": "2025-07-12T15:19:25.279422+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1485,7 +1485,7 @@
     "version": "1.0"
   },
   "berachain-bera": {
-    "last_update": "2025-07-12T09:40:45.790587+00:00",
+    "last_update": "2025-07-12T15:19:17.217173+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1505,7 +1505,7 @@
     "version": "1.0"
   },
   "layerzero": {
-    "last_update": "2025-07-12T09:45:38.475901+00:00",
+    "last_update": "2025-07-12T15:19:21.975621+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1540,7 +1540,7 @@
     "version": "1.0"
   },
   "notcoin": {
-    "last_update": "2025-07-12T09:46:56.907900+00:00",
+    "last_update": "2025-07-12T15:19:23.338500+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1570,7 +1570,7 @@
     "version": "1.0"
   },
   "usda-2": {
-    "last_update": "2025-07-12T11:13:57.593028+00:00",
+    "last_update": "2025-07-12T15:19:28.428941+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1590,12 +1590,12 @@
     "version": "1.0"
   },
   "legacy-token": {
-    "last_update": "2025-07-12T11:13:23.944441+00:00",
+    "last_update": "2025-07-12T15:19:22.015024+00:00",
     "days": "max",
     "version": "1.0"
   },
   "astherus-staked-bnb": {
-    "last_update": "2025-07-12T09:40:25.857232+00:00",
+    "last_update": "2025-07-12T15:19:16.197476+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1670,7 +1670,7 @@
     "version": "1.0"
   },
   "binance-peg-sol": {
-    "last_update": "2025-07-12T11:13:48.927596+00:00",
+    "last_update": "2025-07-12T15:19:17.404180+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1680,7 +1680,7 @@
     "version": "1.0"
   },
   "agentfun-ai": {
-    "last_update": "2025-07-12T09:39:39.118742+00:00",
+    "last_update": "2025-07-12T15:08:23.112780+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1690,7 +1690,7 @@
     "version": "1.0"
   },
   "steakhouse-usdc-morpho-vault": {
-    "last_update": "2025-07-12T11:13:23.128041+00:00",
+    "last_update": "2025-07-12T15:19:26.981256+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1705,7 +1705,7 @@
     "version": "1.0"
   },
   "wrapped-fragsol": {
-    "last_update": "2025-07-12T09:52:14.418428+00:00",
+    "last_update": "2025-07-12T15:19:29.386925+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1720,7 +1720,7 @@
     "version": "1.0"
   },
   "elixir-deusd": {
-    "last_update": "2025-07-12T11:13:28.418767+00:00",
+    "last_update": "2025-07-12T15:19:19.168721+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1735,7 +1735,7 @@
     "version": "1.0"
   },
   "infrared-bera": {
-    "last_update": "2025-07-12T11:13:36.683408+00:00",
+    "last_update": "2025-07-12T15:19:21.113026+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1770,7 +1770,7 @@
     "version": "1.0"
   },
   "rekt-4": {
-    "last_update": "2025-07-12T11:13:08.055773+00:00",
+    "last_update": "2025-07-12T15:19:24.684279+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1820,7 +1820,7 @@
     "version": "1.0"
   },
   "mori-coin": {
-    "last_update": "2025-07-12T09:46:32.391832+00:00",
+    "last_update": "2025-07-12T15:19:22.986146+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1840,7 +1840,7 @@
     "version": "1.0"
   },
   "ai-companions": {
-    "last_update": "2025-07-12T09:39:39.837906+00:00",
+    "last_update": "2025-07-12T15:08:28.233736+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1850,12 +1850,12 @@
     "version": "1.0"
   },
   "ignition-fbtc": {
-    "last_update": "2025-07-12T11:13:16.987896+00:00",
+    "last_update": "2025-07-12T15:19:20.912398+00:00",
     "days": "max",
     "version": "1.0"
   },
   "mag7-ssi": {
-    "last_update": "2025-07-12T11:14:15.356852+00:00",
+    "last_update": "2025-07-12T15:19:22.404053+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1870,17 +1870,17 @@
     "version": "1.0"
   },
   "uxlink": {
-    "last_update": "2025-07-12T11:13:44.231667+00:00",
+    "last_update": "2025-07-12T15:19:28.757151+00:00",
     "days": "max",
     "version": "1.0"
   },
   "resolv-rlp": {
-    "last_update": "2025-07-12T09:48:38.116856+00:00",
+    "last_update": "2025-07-12T15:19:25.902873+00:00",
     "days": "max",
     "version": "1.0"
   },
   "resolv-wstusr": {
-    "last_update": "2025-07-12T11:28:51.461777+00:00",
+    "last_update": "2025-07-12T16:21:05.560912+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1895,12 +1895,12 @@
     "version": "1.0"
   },
   "vana": {
-    "last_update": "2025-07-12T09:51:30.410211+00:00",
+    "last_update": "2025-07-12T15:19:28.828256+00:00",
     "days": "max",
     "version": "1.0"
   },
   "ben-pasternak": {
-    "last_update": "2025-07-12T09:40:44.127839+00:00",
+    "last_update": "2025-07-12T15:19:17.191027+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1920,7 +1920,7 @@
     "version": "1.0"
   },
   "drift-protocol": {
-    "last_update": "2025-07-12T11:14:06.953411+00:00",
+    "last_update": "2025-07-12T15:19:18.932369+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1930,7 +1930,7 @@
     "version": "1.0"
   },
   "kamino": {
-    "last_update": "2025-07-12T11:13:32.668445+00:00",
+    "last_update": "2025-07-12T15:19:21.622871+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1945,7 +1945,7 @@
     "version": "1.0"
   },
   "conscious-token": {
-    "last_update": "2025-07-12T11:13:12.752114+00:00",
+    "last_update": "2025-07-12T15:19:18.257440+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1955,7 +1955,7 @@
     "version": "1.0"
   },
   "solayer": {
-    "last_update": "2025-07-12T11:14:19.654792+00:00",
+    "last_update": "2025-07-12T15:19:26.457880+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1975,12 +1975,12 @@
     "version": "1.0"
   },
   "freysa-ai": {
-    "last_update": "2025-07-12T09:43:43.768400+00:00",
+    "last_update": "2025-07-12T15:19:19.800498+00:00",
     "days": "max",
     "version": "1.0"
   },
   "gohome": {
-    "last_update": "2025-07-12T11:13:37.973265+00:00",
+    "last_update": "2025-07-12T15:19:20.250082+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2005,17 +2005,17 @@
     "version": "1.0"
   },
   "io": {
-    "last_update": "2025-07-12T09:45:02.358902+00:00",
+    "last_update": "2025-07-12T15:19:21.240132+00:00",
     "days": "max",
     "version": "1.0"
   },
   "melania-meme": {
-    "last_update": "2025-07-12T11:13:38.305190+00:00",
+    "last_update": "2025-07-12T15:19:22.642569+00:00",
     "days": "max",
     "version": "1.0"
   },
   "coinshift-usdl-morpho-vault": {
-    "last_update": "2025-07-12T11:13:29.288343+00:00",
+    "last_update": "2025-07-12T15:19:18.151319+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2025,7 +2025,7 @@
     "version": "1.0"
   },
   "alchemist-ai": {
-    "last_update": "2025-07-12T11:13:20.385110+00:00",
+    "last_update": "2025-07-12T15:19:15.819316+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2040,27 +2040,27 @@
     "version": "1.0"
   },
   "anzen-usdz": {
-    "last_update": "2025-07-12T11:13:16.580928+00:00",
+    "last_update": "2025-07-12T15:09:03.211928+00:00",
     "days": "max",
     "version": "1.0"
   },
   "subsquid": {
-    "last_update": "2025-07-12T09:50:08.180961+00:00",
+    "last_update": "2025-07-12T15:11:45.395565+00:00",
     "days": "max",
     "version": "1.0"
   },
   "aura-on-sol": {
-    "last_update": "2025-07-12T09:40:29.002346+00:00",
+    "last_update": "2025-07-12T15:19:16.517363+00:00",
     "days": "max",
     "version": "1.0"
   },
   "purr-2": {
-    "last_update": "2025-07-12T09:48:08.578920+00:00",
+    "last_update": "2025-07-12T15:19:25.228832+00:00",
     "days": "max",
     "version": "1.0"
   },
   "book-of-meme": {
-    "last_update": "2025-07-12T11:13:30.416970+00:00",
+    "last_update": "2025-07-12T15:19:17.739571+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2095,12 +2095,12 @@
     "version": "1.0"
   },
   "solayer-staked-sol": {
-    "last_update": "2025-07-12T11:13:56.494585+00:00",
+    "last_update": "2025-07-12T15:19:26.600819+00:00",
     "days": "max",
     "version": "1.0"
   },
   "undeads-games": {
-    "last_update": "2025-07-12T11:14:01.645670+00:00",
+    "last_update": "2025-07-12T15:19:28.339378+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2110,7 +2110,7 @@
     "version": "1.0"
   },
   "spiko-us-t-bills-money-market-fund": {
-    "last_update": "2025-07-12T11:13:50.710942+00:00",
+    "last_update": "2025-07-12T15:19:26.956970+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2125,7 +2125,7 @@
     "version": "1.0"
   },
   "unit-00-rei": {
-    "last_update": "2025-07-12T11:14:13.140518+00:00",
+    "last_update": "2025-07-12T15:19:29.034654+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2135,12 +2135,12 @@
     "version": "1.0"
   },
   "rocket-pool": {
-    "last_update": "2025-07-12T09:48:46.274791+00:00",
+    "last_update": "2025-07-12T16:21:07.849770+00:00",
     "days": "max",
     "version": "1.0"
   },
   "magic-eden": {
-    "last_update": "2025-07-12T11:14:03.681033+00:00",
+    "last_update": "2025-07-12T15:19:22.350962+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2150,12 +2150,12 @@
     "version": "1.0"
   },
   "lorenzo-stbtc": {
-    "last_update": "2025-07-12T09:45:55.082672+00:00",
+    "last_update": "2025-07-12T15:19:22.310143+00:00",
     "days": "max",
     "version": "1.0"
   },
   "sbtc-2": {
-    "last_update": "2025-07-12T09:48:59.677745+00:00",
+    "last_update": "2025-07-12T15:19:25.935029+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2200,12 +2200,12 @@
     "version": "1.0"
   },
   "apollo-diversified-credit-securitize-fund": {
-    "last_update": "2025-07-12T09:39:58.470358+00:00",
+    "last_update": "2025-07-12T15:19:16.668359+00:00",
     "days": "max",
     "version": "1.0"
   },
   "goatseus-maximus": {
-    "last_update": "2025-07-12T09:44:08.367173+00:00",
+    "last_update": "2025-07-12T15:19:20.218386+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2225,7 +2225,7 @@
     "version": "1.0"
   },
   "acet-token": {
-    "last_update": "2025-07-12T09:39:28.367688+00:00",
+    "last_update": "2025-07-12T16:20:52.138120+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2245,7 +2245,7 @@
     "version": "1.0"
   },
   "reallink": {
-    "last_update": "2025-07-12T09:48:30.163504+00:00",
+    "last_update": "2025-07-12T16:20:54.837803+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2280,12 +2280,12 @@
     "version": "1.0"
   },
   "entangle": {
-    "last_update": "2025-07-12T11:28:51.071591+00:00",
+    "last_update": "2025-07-12T16:21:03.940066+00:00",
     "days": "max",
     "version": "1.0"
   },
   "bio-protocol": {
-    "last_update": "2025-07-12T09:40:55.543567+00:00",
+    "last_update": "2025-07-12T15:19:17.590352+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2325,17 +2325,17 @@
     "version": "1.0"
   },
   "tradable-singapore-fintech-ssl-2": {
-    "last_update": "2025-07-12T11:13:16.158151+00:00",
+    "last_update": "2025-07-12T15:19:28.006311+00:00",
     "days": "max",
     "version": "1.0"
   },
   "onyc": {
-    "last_update": "2025-07-12T11:13:37.452210+00:00",
+    "last_update": "2025-07-12T15:19:23.586779+00:00",
     "days": "max",
     "version": "1.0"
   },
   "qusdt": {
-    "last_update": "2025-07-12T09:48:18.440998+00:00",
+    "last_update": "2025-07-12T15:19:25.187827+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2345,17 +2345,17 @@
     "version": "1.0"
   },
   "level-usd": {
-    "last_update": "2025-07-12T11:13:19.647566+00:00",
+    "last_update": "2025-07-12T15:19:22.577470+00:00",
     "days": "max",
     "version": "1.0"
   },
   "onfa": {
-    "last_update": "2025-07-12T11:14:03.281387+00:00",
+    "last_update": "2025-07-12T15:19:23.572000+00:00",
     "days": "max",
     "version": "1.0"
   },
   "optimism-bridged-wbtc-optimism": {
-    "last_update": "2025-07-12T11:13:25.694368+00:00",
+    "last_update": "2025-07-12T15:11:00.396059+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2380,7 +2380,7 @@
     "version": "1.0"
   },
   "cookie": {
-    "last_update": "2025-07-12T11:14:20.535389+00:00",
+    "last_update": "2025-07-12T15:19:18.975086+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2390,7 +2390,7 @@
     "version": "1.0"
   },
   "neiro-on-eth": {
-    "last_update": "2025-07-12T09:46:43.690679+00:00",
+    "last_update": "2025-07-12T15:19:23.279915+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2415,7 +2415,7 @@
     "version": "1.0"
   },
   "l2-standard-bridged-frxusd": {
-    "last_update": "2025-07-12T11:13:42.105648+00:00",
+    "last_update": "2025-07-12T15:19:21.655896+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2425,12 +2425,12 @@
     "version": "1.0"
   },
   "lift-dollar": {
-    "last_update": "2025-07-12T09:45:43.782234+00:00",
+    "last_update": "2025-07-12T15:19:22.127712+00:00",
     "days": "max",
     "version": "1.0"
   },
   "verge": {
-    "last_update": "2025-07-12T09:51:51.610935+00:00",
+    "last_update": "2025-07-12T16:21:03.351951+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2455,7 +2455,7 @@
     "version": "1.0"
   },
   "solv-protocol-solvbtc-jupiter": {
-    "last_update": "2025-07-12T11:13:49.855074+00:00",
+    "last_update": "2025-07-12T15:19:26.630790+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2475,12 +2475,12 @@
     "version": "1.0"
   },
   "anime": {
-    "last_update": "2025-07-12T11:13:26.967151+00:00",
+    "last_update": "2025-07-12T15:09:02.344800+00:00",
     "days": "max",
     "version": "1.0"
   },
   "venice-token": {
-    "last_update": "2025-07-12T11:14:04.523617+00:00",
+    "last_update": "2025-07-12T15:12:07.876602+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2500,12 +2500,12 @@
     "version": "1.0"
   },
   "swop-2": {
-    "last_update": "2025-07-12T09:50:26.509140+00:00",
+    "last_update": "2025-07-12T15:19:27.650965+00:00",
     "days": "max",
     "version": "1.0"
   },
   "aleo": {
-    "last_update": "2025-07-12T11:13:58.662366+00:00",
+    "last_update": "2025-07-12T15:08:42.341123+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2530,17 +2530,17 @@
     "version": "1.0"
   },
   "blast": {
-    "last_update": "2025-07-12T09:41:09.142986+00:00",
+    "last_update": "2025-07-12T15:19:17.682494+00:00",
     "days": "max",
     "version": "1.0"
   },
   "avant-usd": {
-    "last_update": "2025-07-12T09:40:31.563125+00:00",
+    "last_update": "2025-07-12T15:19:16.725830+00:00",
     "days": "max",
     "version": "1.0"
   },
   "six": {
-    "last_update": "2025-07-12T09:49:13.119945+00:00",
+    "last_update": "2025-07-12T15:19:26.257334+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2550,12 +2550,12 @@
     "version": "1.0"
   },
   "hashkey-ecopoints": {
-    "last_update": "2025-07-12T09:44:18.334679+00:00",
+    "last_update": "2025-07-12T15:10:17.647251+00:00",
     "days": "max",
     "version": "1.0"
   },
   "omni-network": {
-    "last_update": "2025-07-12T09:47:09.588470+00:00",
+    "last_update": "2025-07-12T15:19:24.331798+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2565,7 +2565,7 @@
     "version": "1.0"
   },
   "aevo-exchange": {
-    "last_update": "2025-07-12T11:14:21.710255+00:00",
+    "last_update": "2025-07-12T15:08:22.398833+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2595,12 +2595,12 @@
     "version": "1.0"
   },
   "usual": {
-    "last_update": "2025-07-12T11:13:46.777781+00:00",
+    "last_update": "2025-07-12T15:19:28.683028+00:00",
     "days": "max",
     "version": "1.0"
   },
   "g-token": {
-    "last_update": "2025-07-12T09:43:47.713130+00:00",
+    "last_update": "2025-07-12T15:19:19.933477+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2610,12 +2610,12 @@
     "version": "1.0"
   },
   "promptale-ai": {
-    "last_update": "2025-07-12T11:28:51.867409+00:00",
+    "last_update": "2025-07-12T16:21:09.060098+00:00",
     "days": "max",
     "version": "1.0"
   },
   "redstone-oracles": {
-    "last_update": "2025-07-12T11:14:18.241132+00:00",
+    "last_update": "2025-07-12T15:19:24.652284+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2635,17 +2635,17 @@
     "version": "1.0"
   },
   "beets-staked-sonic": {
-    "last_update": "2025-07-12T09:40:43.265360+00:00",
+    "last_update": "2025-07-12T15:19:17.738833+00:00",
     "days": "max",
     "version": "1.0"
   },
   "l2-standard-bridged-weth-optimism": {
-    "last_update": "2025-07-12T11:14:17.481219+00:00",
+    "last_update": "2025-07-12T15:19:21.904671+00:00",
     "days": "max",
     "version": "1.0"
   },
   "renzo-restaked-lst": {
-    "last_update": "2025-07-12T11:14:16.366610+00:00",
+    "last_update": "2025-07-12T15:19:24.952558+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2675,7 +2675,7 @@
     "version": "1.0"
   },
   "moonwell-flagship-eth-morpho-vault": {
-    "last_update": "2025-07-12T11:13:36.252850+00:00",
+    "last_update": "2025-07-12T15:19:22.979247+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2700,7 +2700,7 @@
     "version": "1.0"
   },
   "vaultbridge-bridged-eth-katana": {
-    "last_update": "2025-07-12T09:51:35.118754+00:00",
+    "last_update": "2025-07-12T15:19:29.022422+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2725,12 +2725,12 @@
     "version": "1.0"
   },
   "ribbita-by-virtuals": {
-    "last_update": "2025-07-12T11:13:43.049663+00:00",
+    "last_update": "2025-07-12T15:19:25.893698+00:00",
     "days": "max",
     "version": "1.0"
   },
   "quantixai": {
-    "last_update": "2025-07-12T11:14:06.579389+00:00",
+    "last_update": "2025-07-12T15:19:24.598349+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2740,7 +2740,7 @@
     "version": "1.0"
   },
   "saga-2": {
-    "last_update": "2025-07-12T11:13:15.659042+00:00",
+    "last_update": "2025-07-12T15:19:25.867869+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2750,7 +2750,7 @@
     "version": "1.0"
   },
   "peaq-2": {
-    "last_update": "2025-07-12T09:47:39.670060+00:00",
+    "last_update": "2025-07-12T15:19:23.911787+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2760,12 +2760,12 @@
     "version": "1.0"
   },
   "elixir-staked-deusd": {
-    "last_update": "2025-07-12T11:13:32.248116+00:00",
+    "last_update": "2025-07-12T15:19:19.243783+00:00",
     "days": "max",
     "version": "1.0"
   },
   "avant-staked-usd": {
-    "last_update": "2025-07-12T09:40:31.037919+00:00",
+    "last_update": "2025-07-12T15:19:16.691670+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2780,7 +2780,7 @@
     "version": "1.0"
   },
   "lisk": {
-    "last_update": "2025-07-12T09:45:51.525110+00:00",
+    "last_update": "2025-07-12T16:20:53.361531+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2815,17 +2815,17 @@
     "version": "1.0"
   },
   "merlin-chain": {
-    "last_update": "2025-07-12T11:13:51.703990+00:00",
+    "last_update": "2025-07-12T15:19:22.745520+00:00",
     "days": "max",
     "version": "1.0"
   },
   "vaultbridge-bridged-usdc-katana": {
-    "last_update": "2025-07-12T11:13:22.697270+00:00",
+    "last_update": "2025-07-12T15:19:29.023565+00:00",
     "days": "max",
     "version": "1.0"
   },
   "sonic-svm": {
-    "last_update": "2025-07-12T09:49:28.384808+00:00",
+    "last_update": "2025-07-12T15:19:27.418040+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2835,7 +2835,7 @@
     "version": "1.0"
   },
   "solv-protocol-solvbtc-core": {
-    "last_update": "2025-07-12T11:13:31.007165+00:00",
+    "last_update": "2025-07-12T15:11:39.416219+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2855,12 +2855,12 @@
     "version": "1.0"
   },
   "b3": {
-    "last_update": "2025-07-12T11:13:35.820677+00:00",
+    "last_update": "2025-07-12T15:19:16.922757+00:00",
     "days": "max",
     "version": "1.0"
   },
   "dogs-2": {
-    "last_update": "2025-07-12T11:14:21.370179+00:00",
+    "last_update": "2025-07-12T15:19:19.129072+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2870,12 +2870,12 @@
     "version": "1.0"
   },
   "relend-usdc": {
-    "last_update": "2025-07-12T09:48:31.397576+00:00",
+    "last_update": "2025-07-12T15:19:25.178620+00:00",
     "days": "max",
     "version": "1.0"
   },
   "ardor": {
-    "last_update": "2025-07-12T09:40:15.553643+00:00",
+    "last_update": "2025-07-12T16:20:38.041364+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2885,7 +2885,7 @@
     "version": "1.0"
   },
   "ronin-bridged-weth-ronin": {
-    "last_update": "2025-07-12T09:48:51.040676+00:00",
+    "last_update": "2025-07-12T15:19:25.617494+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2920,7 +2920,7 @@
     "version": "1.0"
   },
   "infinitar-governance-token": {
-    "last_update": "2025-07-12T11:14:12.789013+00:00",
+    "last_update": "2025-07-12T15:19:21.777994+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2930,7 +2930,7 @@
     "version": "1.0"
   },
   "ong": {
-    "last_update": "2025-07-12T09:47:15.352881+00:00",
+    "last_update": "2025-07-12T16:20:52.933686+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2940,7 +2940,7 @@
     "version": "1.0"
   },
   "kelp-gain": {
-    "last_update": "2025-07-12T11:13:11.184449+00:00",
+    "last_update": "2025-07-12T15:10:27.082891+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2950,27 +2950,27 @@
     "version": "1.0"
   },
   "btu-protocol": {
-    "last_update": "2025-07-12T09:41:31.576968+00:00",
+    "last_update": "2025-07-12T16:21:01.463963+00:00",
     "days": "max",
     "version": "1.0"
   },
   "minidoge-5": {
-    "last_update": "2025-07-12T11:28:49.834525+00:00",
+    "last_update": "2025-07-12T16:20:55.714425+00:00",
     "days": "max",
     "version": "1.0"
   },
   "f-x-protocol-fxusd": {
-    "last_update": "2025-07-12T09:43:31.284460+00:00",
+    "last_update": "2025-07-12T15:19:19.608100+00:00",
     "days": "max",
     "version": "1.0"
   },
   "layerzero-bridged-weeth-swellchain": {
-    "last_update": "2025-07-12T09:45:38.967666+00:00",
+    "last_update": "2025-07-12T15:19:21.944934+00:00",
     "days": "max",
     "version": "1.0"
   },
   "temple": {
-    "last_update": "2025-07-12T09:50:37.185959+00:00",
+    "last_update": "2025-07-12T16:21:02.415093+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2985,17 +2985,17 @@
     "version": "1.0"
   },
   "felix-feusd": {
-    "last_update": "2025-07-12T09:43:33.385354+00:00",
+    "last_update": "2025-07-12T15:19:19.703916+00:00",
     "days": "max",
     "version": "1.0"
   },
   "l2-standard-bridged-weth-blast": {
-    "last_update": "2025-07-12T11:14:02.754784+00:00",
+    "last_update": "2025-07-12T15:19:21.696023+00:00",
     "days": "max",
     "version": "1.0"
   },
   "bitdca": {
-    "last_update": "2025-07-12T11:13:47.601139+00:00",
+    "last_update": "2025-07-12T15:19:17.595557+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3010,12 +3010,12 @@
     "version": "1.0"
   },
   "newton-protocol": {
-    "last_update": "2025-07-12T09:46:49.516096+00:00",
+    "last_update": "2025-07-12T15:19:23.334085+00:00",
     "days": "max",
     "version": "1.0"
   },
   "satoshi-stablecoin": {
-    "last_update": "2025-07-12T11:13:46.384895+00:00",
+    "last_update": "2025-07-12T15:19:25.887596+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3025,7 +3025,7 @@
     "version": "1.0"
   },
   "zeus-network": {
-    "last_update": "2025-07-12T11:13:51.034246+00:00",
+    "last_update": "2025-07-12T15:12:16.679439+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3035,7 +3035,7 @@
     "version": "1.0"
   },
   "resupply-usd": {
-    "last_update": "2025-07-12T11:28:49.449773+00:00",
+    "last_update": "2025-07-12T16:20:52.508764+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3070,17 +3070,17 @@
     "version": "1.0"
   },
   "chill-guy": {
-    "last_update": "2025-07-12T09:41:51.633045+00:00",
+    "last_update": "2025-07-12T15:19:18.833805+00:00",
     "days": "max",
     "version": "1.0"
   },
   "apu-s-club": {
-    "last_update": "2025-07-12T11:13:40.056333+00:00",
+    "last_update": "2025-07-12T15:19:16.361645+00:00",
     "days": "max",
     "version": "1.0"
   },
   "andy-the-wisguy": {
-    "last_update": "2025-07-12T11:13:14.729392+00:00",
+    "last_update": "2025-07-12T15:19:15.846350+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3090,7 +3090,7 @@
     "version": "1.0"
   },
   "hyperbeat-ultra-hype": {
-    "last_update": "2025-07-12T11:13:53.985173+00:00",
+    "last_update": "2025-07-12T15:19:21.332649+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3105,22 +3105,22 @@
     "version": "1.0"
   },
   "bugscoin": {
-    "last_update": "2025-07-12T09:41:32.595459+00:00",
+    "last_update": "2025-07-12T15:19:17.832307+00:00",
     "days": "max",
     "version": "1.0"
   },
   "usualx": {
-    "last_update": "2025-07-12T09:51:29.179506+00:00",
+    "last_update": "2025-07-12T15:19:29.310099+00:00",
     "days": "max",
     "version": "1.0"
   },
   "ski-mask-dog": {
-    "last_update": "2025-07-12T11:13:47.111878+00:00",
+    "last_update": "2025-07-12T15:11:33.670923+00:00",
     "days": "max",
     "version": "1.0"
   },
   "sosovalue": {
-    "last_update": "2025-07-12T11:13:33.470051+00:00",
+    "last_update": "2025-07-12T15:19:26.934909+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3135,7 +3135,7 @@
     "version": "1.0"
   },
   "reservoir-rusd": {
-    "last_update": "2025-07-12T11:13:54.936774+00:00",
+    "last_update": "2025-07-12T15:19:25.538451+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3145,7 +3145,7 @@
     "version": "1.0"
   },
   "shuffle-2": {
-    "last_update": "2025-07-12T09:49:05.717690+00:00",
+    "last_update": "2025-07-12T15:19:26.497132+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3155,12 +3155,12 @@
     "version": "1.0"
   },
   "carv": {
-    "last_update": "2025-07-12T09:41:35.130705+00:00",
+    "last_update": "2025-07-12T15:19:17.938301+00:00",
     "days": "max",
     "version": "1.0"
   },
   "debridge": {
-    "last_update": "2025-07-12T09:42:36.112978+00:00",
+    "last_update": "2025-07-12T15:19:18.560254+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3170,7 +3170,7 @@
     "version": "1.0"
   },
   "taiko": {
-    "last_update": "2025-07-12T11:13:15.143961+00:00",
+    "last_update": "2025-07-12T15:19:27.855603+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3185,7 +3185,7 @@
     "version": "1.0"
   },
   "comedian": {
-    "last_update": "2025-07-12T11:14:20.169125+00:00",
+    "last_update": "2025-07-12T15:19:18.237716+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3215,7 +3215,7 @@
     "version": "1.0"
   },
   "international-meme-fund": {
-    "last_update": "2025-07-12T11:13:52.214690+00:00",
+    "last_update": "2025-07-12T15:19:21.231186+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3225,7 +3225,7 @@
     "version": "1.0"
   },
   "game-by-virtuals": {
-    "last_update": "2025-07-12T11:14:07.879602+00:00",
+    "last_update": "2025-07-12T15:19:19.944059+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3240,12 +3240,12 @@
     "version": "1.0"
   },
   "solv-protocol": {
-    "last_update": "2025-07-12T11:14:05.825413+00:00",
+    "last_update": "2025-07-12T15:19:26.615258+00:00",
     "days": "max",
     "version": "1.0"
   },
   "ekubo-protocol": {
-    "last_update": "2025-07-12T09:43:06.825968+00:00",
+    "last_update": "2025-07-12T15:19:19.162597+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3255,7 +3255,7 @@
     "version": "1.0"
   },
   "puff-the-dragon": {
-    "last_update": "2025-07-12T09:48:05.704715+00:00",
+    "last_update": "2025-07-12T15:19:25.066794+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3270,17 +3270,17 @@
     "version": "1.0"
   },
   "looped-hype": {
-    "last_update": "2025-07-12T09:45:54.070378+00:00",
+    "last_update": "2025-07-12T15:19:22.272824+00:00",
     "days": "max",
     "version": "1.0"
   },
   "nillion": {
-    "last_update": "2025-07-12T09:46:52.696579+00:00",
+    "last_update": "2025-07-12T15:19:23.320957+00:00",
     "days": "max",
     "version": "1.0"
   },
   "scroll": {
-    "last_update": "2025-07-12T11:13:35.104958+00:00",
+    "last_update": "2025-07-12T15:19:25.972104+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3290,12 +3290,12 @@
     "version": "1.0"
   },
   "sundog": {
-    "last_update": "2025-07-12T09:50:14.019833+00:00",
+    "last_update": "2025-07-12T15:19:27.314287+00:00",
     "days": "max",
     "version": "1.0"
   },
   "ao-computer": {
-    "last_update": "2025-07-12T09:39:53.748532+00:00",
+    "last_update": "2025-07-12T15:19:16.165955+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3305,17 +3305,17 @@
     "version": "1.0"
   },
   "cross-2": {
-    "last_update": "2025-07-12T11:14:04.195341+00:00",
+    "last_update": "2025-07-12T15:19:18.386416+00:00",
     "days": "max",
     "version": "1.0"
   },
   "global-commercial-business": {
-    "last_update": "2025-07-12T11:13:34.702277+00:00",
+    "last_update": "2025-07-12T15:19:20.187785+00:00",
     "days": "max",
     "version": "1.0"
   },
   "bc-token": {
-    "last_update": "2025-07-12T09:40:41.041256+00:00",
+    "last_update": "2025-07-12T15:19:17.009547+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3330,7 +3330,7 @@
     "version": "1.0"
   },
   "polyhedra-network": {
-    "last_update": "2025-07-12T11:13:11.721571+00:00",
+    "last_update": "2025-07-12T15:19:24.254543+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3350,17 +3350,17 @@
     "version": "1.0"
   },
   "qanplatform": {
-    "last_update": "2025-07-12T09:48:11.447290+00:00",
+    "last_update": "2025-07-12T16:21:05.245988+00:00",
     "days": "max",
     "version": "1.0"
   },
   "zentry": {
-    "last_update": "2025-07-12T11:13:37.059727+00:00",
+    "last_update": "2025-07-12T15:19:29.778954+00:00",
     "days": "max",
     "version": "1.0"
   },
   "supra": {
-    "last_update": "2025-07-12T11:14:09.722758+00:00",
+    "last_update": "2025-07-12T15:19:27.474762+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3375,7 +3375,7 @@
     "version": "1.0"
   },
   "gamebuild": {
-    "last_update": "2025-07-12T11:14:07.511407+00:00",
+    "last_update": "2025-07-12T15:19:20.037214+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3385,7 +3385,7 @@
     "version": "1.0"
   },
   "cronos-bridged-wbtc-cronos": {
-    "last_update": "2025-07-12T11:14:14.844270+00:00",
+    "last_update": "2025-07-12T15:19:18.478981+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3395,7 +3395,7 @@
     "version": "1.0"
   },
   "tagger": {
-    "last_update": "2025-07-12T11:13:21.591774+00:00",
+    "last_update": "2025-07-12T15:19:27.657340+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3410,7 +3410,7 @@
     "version": "1.0"
   },
   "griffain": {
-    "last_update": "2025-07-12T11:13:17.907426+00:00",
+    "last_update": "2025-07-12T15:19:20.437001+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3455,22 +3455,22 @@
     "version": "1.0"
   },
   "sui-bridged-ether-sui": {
-    "last_update": "2025-07-12T09:50:09.775048+00:00",
+    "last_update": "2025-07-12T15:19:27.294807+00:00",
     "days": "max",
     "version": "1.0"
   },
   "zircuit": {
-    "last_update": "2025-07-12T09:52:51.366401+00:00",
+    "last_update": "2025-07-12T15:19:29.761909+00:00",
     "days": "max",
     "version": "1.0"
   },
   "pundi-aifx": {
-    "last_update": "2025-07-12T09:48:07.292205+00:00",
+    "last_update": "2025-07-12T15:19:24.336827+00:00",
     "days": "max",
     "version": "1.0"
   },
   "bim-2": {
-    "last_update": "2025-07-12T11:13:50.264178+00:00",
+    "last_update": "2025-07-12T15:19:17.331908+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3480,7 +3480,7 @@
     "version": "1.0"
   },
   "anvil": {
-    "last_update": "2025-07-12T11:13:41.145521+00:00",
+    "last_update": "2025-07-12T15:19:16.268801+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3515,17 +3515,17 @@
     "version": "1.0"
   },
   "hashai": {
-    "last_update": "2025-07-12T11:13:39.722117+00:00",
+    "last_update": "2025-07-12T15:10:16.774372+00:00",
     "days": "max",
     "version": "1.0"
   },
   "kyber-network-crystal": {
-    "last_update": "2025-07-12T09:45:33.721426+00:00",
+    "last_update": "2025-07-12T16:21:01.059516+00:00",
     "days": "max",
     "version": "1.0"
   },
   "level-staked-usd": {
-    "last_update": "2025-07-12T09:45:42.114359+00:00",
+    "last_update": "2025-07-12T15:19:22.029039+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3545,7 +3545,7 @@
     "version": "1.0"
   },
   "tars-protocol": {
-    "last_update": "2025-07-12T11:13:09.505895+00:00",
+    "last_update": "2025-07-12T15:19:27.836543+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3555,7 +3555,7 @@
     "version": "1.0"
   },
   "simon-s-cat": {
-    "last_update": "2025-07-12T09:49:11.147762+00:00",
+    "last_update": "2025-07-12T15:19:26.271467+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3575,7 +3575,7 @@
     "version": "1.0"
   },
   "heyanon": {
-    "last_update": "2025-07-12T11:13:25.073253+00:00",
+    "last_update": "2025-07-12T15:19:20.759681+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3615,7 +3615,7 @@
     "version": "1.0"
   },
   "liqwid-finance": {
-    "last_update": "2025-07-12T09:45:47.272341+00:00",
+    "last_update": "2025-07-12T16:20:49.910879+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3625,7 +3625,7 @@
     "version": "1.0"
   },
   "tutorial": {
-    "last_update": "2025-07-12T09:51:12.309164+00:00",
+    "last_update": "2025-07-12T15:19:28.189803+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3655,7 +3655,7 @@
     "version": "1.0"
   },
   "hamster-kombat": {
-    "last_update": "2025-07-12T11:13:48.523495+00:00",
+    "last_update": "2025-07-12T15:19:20.525722+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3675,12 +3675,12 @@
     "version": "1.0"
   },
   "landwolf-0x67": {
-    "last_update": "2025-07-12T11:13:54.614532+00:00",
+    "last_update": "2025-07-12T15:19:21.919682+00:00",
     "days": "max",
     "version": "1.0"
   },
   "avail": {
-    "last_update": "2025-07-12T09:40:29.379105+00:00",
+    "last_update": "2025-07-12T15:19:16.559188+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3695,22 +3695,22 @@
     "version": "1.0"
   },
   "avalanche-bridged-weth-avalanche": {
-    "last_update": "2025-07-12T11:13:34.033353+00:00",
+    "last_update": "2025-07-12T15:19:16.547796+00:00",
     "days": "max",
     "version": "1.0"
   },
   "pythia": {
-    "last_update": "2025-07-12T11:13:39.219283+00:00",
+    "last_update": "2025-07-12T15:19:24.593250+00:00",
     "days": "max",
     "version": "1.0"
   },
   "avalanche-old-bridged-wbtc-avalanche": {
-    "last_update": "2025-07-12T11:14:13.821352+00:00",
+    "last_update": "2025-07-12T15:19:17.265586+00:00",
     "days": "max",
     "version": "1.0"
   },
   "renzo-restaked-sol": {
-    "last_update": "2025-07-12T09:48:33.666785+00:00",
+    "last_update": "2025-07-12T15:19:24.978543+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3725,7 +3725,7 @@
     "version": "1.0"
   },
   "trufin-staked-apt": {
-    "last_update": "2025-07-12T09:51:10.485877+00:00",
+    "last_update": "2025-07-12T15:19:28.175616+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3740,12 +3740,12 @@
     "version": "1.0"
   },
   "savings-crvusd": {
-    "last_update": "2025-07-12T13:39:22.419335+00:00",
+    "last_update": "2025-07-12T15:11:27.938478+00:00",
     "days": "max",
     "version": "1.0"
   },
   "web-3-dollar": {
-    "last_update": "2025-07-12T13:39:23.088905+00:00",
+    "last_update": "2025-07-12T16:20:48.685677+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3760,22 +3760,22 @@
     "version": "1.0"
   },
   "rings-scbtc": {
-    "last_update": "2025-07-12T13:39:23.806446+00:00",
+    "last_update": "2025-07-12T15:11:23.780171+00:00",
     "days": "max",
     "version": "1.0"
   },
   "societe-generale-forge-eurcv": {
-    "last_update": "2025-07-12T13:39:24.239183+00:00",
+    "last_update": "2025-07-12T16:20:56.068856+00:00",
     "days": "max",
     "version": "1.0"
   },
   "astherus-usdf": {
-    "last_update": "2025-07-12T13:39:24.251060+00:00",
+    "last_update": "2025-07-12T15:19:16.414111+00:00",
     "days": "max",
     "version": "1.0"
   },
   "susda": {
-    "last_update": "2025-07-12T13:39:24.723635+00:00",
+    "last_update": "2025-07-12T16:21:01.963111+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3795,7 +3795,7 @@
     "version": "1.0"
   },
   "straitsx-xusd": {
-    "last_update": "2025-07-12T13:39:27.131404+00:00",
+    "last_update": "2025-07-12T15:19:27.134659+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3805,17 +3805,17 @@
     "version": "1.0"
   },
   "sui-bridged-wbtc-sui": {
-    "last_update": "2025-07-12T13:39:27.495967+00:00",
+    "last_update": "2025-07-12T16:20:46.783747+00:00",
     "days": "max",
     "version": "1.0"
   },
   "altcoin-2": {
-    "last_update": "2025-07-12T13:39:27.791568+00:00",
+    "last_update": "2025-07-12T16:20:44.800728+00:00",
     "days": "max",
     "version": "1.0"
   },
   "sygnum-fiusd-liquidity-fund": {
-    "last_update": "2025-07-12T13:39:27.911346+00:00",
+    "last_update": "2025-07-12T15:11:51.178446+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3826,6 +3826,1216 @@
   },
   "phantom-staked-sol": {
     "last_update": "2025-07-12T13:39:29.265139+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "gems-vip": {
+    "last_update": "2025-07-12T15:19:20.109224+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "honey-3": {
+    "last_update": "2025-07-12T15:19:20.682783+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "stargate-bridged-usdc-plume": {
+    "last_update": "2025-07-12T14:28:15.508849+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "kyros-restaked-sol": {
+    "last_update": "2025-07-12T15:19:21.611395+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "parcl": {
+    "last_update": "2025-07-12T15:19:23.711776+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "compound-usd-coin": {
+    "last_update": "2025-07-12T14:28:15.981473+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "everybody": {
+    "last_update": "2025-07-12T14:28:16.422066+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "gods-unchained": {
+    "last_update": "2025-07-12T14:28:16.550935+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "masha-and-the-bear": {
+    "last_update": "2025-07-12T14:28:17.091228+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "pepecoin-2": {
+    "last_update": "2025-07-12T14:28:17.604217+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "deapcoin": {
+    "last_update": "2025-07-12T14:28:17.914330+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "xion-2": {
+    "last_update": "2025-07-12T15:19:29.643877+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "big-dog-fink": {
+    "last_update": "2025-07-12T15:19:17.288534+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "aurora-near": {
+    "last_update": "2025-07-12T14:28:18.598233+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "usd-coin-avalanche-bridged-usdc-e": {
+    "last_update": "2025-07-12T14:28:18.684937+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "austin-capitals": {
+    "last_update": "2025-07-12T16:20:57.216039+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "lofi-2": {
+    "last_update": "2025-07-12T15:19:22.244786+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "law-blocks": {
+    "last_update": "2025-07-12T14:28:20.162003+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "tree-capital": {
+    "last_update": "2025-07-12T14:28:20.532797+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "stader-maticx": {
+    "last_update": "2025-07-12T14:28:20.536617+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "optio": {
+    "last_update": "2025-07-12T15:19:23.677948+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "degecoin": {
+    "last_update": "2025-07-12T16:21:11.210330+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "revox": {
+    "last_update": "2025-07-12T15:19:25.316093+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "liquity-usd": {
+    "last_update": "2025-07-12T14:28:21.974921+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "acala": {
+    "last_update": "2025-07-12T14:28:22.050145+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "goplus-security": {
+    "last_update": "2025-07-12T15:19:20.269366+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "suilend": {
+    "last_update": "2025-07-12T15:19:27.301922+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "torus": {
+    "last_update": "2025-07-12T15:19:28.026610+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "veraone": {
+    "last_update": "2025-07-12T16:21:06.099639+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "ancient8": {
+    "last_update": "2025-07-12T15:19:15.836878+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "ice": {
+    "last_update": "2025-07-12T14:28:23.954317+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "superrare": {
+    "last_update": "2025-07-12T14:28:24.390646+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "smardex": {
+    "last_update": "2025-07-12T14:28:24.394228+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "agi-alpha-agent": {
+    "last_update": "2025-07-12T15:08:24.740249+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "hooked-protocol": {
+    "last_update": "2025-07-12T14:28:24.986750+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "helio-protocol-hay": {
+    "last_update": "2025-07-12T14:28:25.906870+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "roam-token": {
+    "last_update": "2025-07-12T15:19:25.583353+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "marblex": {
+    "last_update": "2025-07-12T14:28:26.572549+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "strike": {
+    "last_update": "2025-07-12T14:28:26.676341+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "wojak": {
+    "last_update": "2025-07-12T14:28:27.763308+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "benqi": {
+    "last_update": "2025-07-12T14:28:28.202457+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "matrixdock-gold": {
+    "last_update": "2025-07-12T15:19:22.608988+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "bobo-coin": {
+    "last_update": "2025-07-12T14:28:28.822480+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "haedal": {
+    "last_update": "2025-07-12T14:28:29.036400+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "spring-staked-sui": {
+    "last_update": "2025-07-12T15:11:43.501437+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "firmachain": {
+    "last_update": "2025-07-12T14:28:29.552427+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "kofi-aptos": {
+    "last_update": "2025-07-12T14:28:30.718385+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "seth": {
+    "last_update": "2025-07-12T14:28:30.964227+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "zeus-netwok-zbtc": {
+    "last_update": "2025-07-12T15:19:29.718899+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "xpla": {
+    "last_update": "2025-07-12T14:28:31.523157+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "plume-usd": {
+    "last_update": "2025-07-12T14:28:33.178467+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "alpha-quark-token": {
+    "last_update": "2025-07-12T14:28:33.374021+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "dusk-network": {
+    "last_update": "2025-07-12T14:28:33.569329+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "doginme": {
+    "last_update": "2025-07-12T14:28:33.991129+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "moviebloc": {
+    "last_update": "2025-07-12T14:28:34.235947+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "milady-meme-coin": {
+    "last_update": "2025-07-12T14:28:34.395766+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "siren-2": {
+    "last_update": "2025-07-12T15:19:26.241938+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "miu-2": {
+    "last_update": "2025-07-12T15:19:22.910613+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "gamebitcoin-power": {
+    "last_update": "2025-07-12T16:20:47.907593+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "spark-2": {
+    "last_update": "2025-07-12T14:28:35.084176+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "devve": {
+    "last_update": "2025-07-12T14:28:35.290124+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "alien-worlds": {
+    "last_update": "2025-07-12T14:28:35.340372+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "fractal-bitcoin": {
+    "last_update": "2025-07-12T15:19:19.689635+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "nfprompt-token": {
+    "last_update": "2025-07-12T14:28:36.654866+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "socean-staked-sol": {
+    "last_update": "2025-07-12T16:20:36.817488+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "mnee-usd-stablecoin": {
+    "last_update": "2025-07-12T15:19:23.007068+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "hive_dollar": {
+    "last_update": "2025-07-12T14:28:37.489020+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "astherus-staked-usdf": {
+    "last_update": "2025-07-12T15:09:07.498274+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "storj": {
+    "last_update": "2025-07-12T14:28:38.431581+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "tornado-cash": {
+    "last_update": "2025-07-12T14:28:38.955383+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "kokok-the-roach": {
+    "last_update": "2025-07-12T14:28:39.296845+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "magic-internet-money-runes": {
+    "last_update": "2025-07-12T15:19:22.495489+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "nusd": {
+    "last_update": "2025-07-12T14:28:39.774976+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "crypto-trading-fund": {
+    "last_update": "2025-07-12T15:19:19.250368+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "marcopolo": {
+    "last_update": "2025-07-12T14:28:41.201925+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "mossland": {
+    "last_update": "2025-07-12T14:28:41.272077+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "radiant-capital": {
+    "last_update": "2025-07-12T14:28:41.677345+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "bouncebit": {
+    "last_update": "2025-07-12T15:19:17.751009+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "league-of-kingdoms": {
+    "last_update": "2025-07-12T14:28:42.073274+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "whiteheart": {
+    "last_update": "2025-07-12T16:21:00.263618+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "ai-rig-complex": {
+    "last_update": "2025-07-12T15:08:35.307307+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "wayfinder": {
+    "last_update": "2025-07-12T16:20:37.578809+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "trufin-staked-matic": {
+    "last_update": "2025-07-12T16:21:08.242381+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "frax-usd": {
+    "last_update": "2025-07-12T15:19:19.756683+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "tokenfi": {
+    "last_update": "2025-07-12T14:28:42.993747+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "hegic": {
+    "last_update": "2025-07-12T14:28:43.371827+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "polyswarm": {
+    "last_update": "2025-07-12T14:28:43.375140+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "yneth-max": {
+    "last_update": "2025-07-12T16:20:51.756148+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "rss3": {
+    "last_update": "2025-07-12T14:28:43.757002+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "fuzzybear": {
+    "last_update": "2025-07-12T15:19:19.886292+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "pangolin": {
+    "last_update": "2025-07-12T14:28:44.242466+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "gunz": {
+    "last_update": "2025-07-12T15:19:20.496104+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "act-i-the-ai-prophecy": {
+    "last_update": "2025-07-12T15:08:20.921174+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "pinlink": {
+    "last_update": "2025-07-12T15:19:23.983553+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "gradients": {
+    "last_update": "2025-07-12T14:28:45.188384+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "bit2me": {
+    "last_update": "2025-07-12T14:28:45.570235+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "layer3": {
+    "last_update": "2025-07-12T15:19:21.953455+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "autonolas": {
+    "last_update": "2025-07-12T14:28:46.075767+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "hyperbeat-usdt": {
+    "last_update": "2025-07-12T15:19:20.884337+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "celium": {
+    "last_update": "2025-07-12T14:28:46.519370+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "thala-apt": {
+    "last_update": "2025-07-12T14:28:46.933627+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "certik": {
+    "last_update": "2025-07-12T14:28:47.147464+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "truefi": {
+    "last_update": "2025-07-12T14:28:47.439089+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "lista": {
+    "last_update": "2025-07-12T15:19:22.265108+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "elastos": {
+    "last_update": "2025-07-12T14:28:48.241170+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "maxi-payfi-strategy-token": {
+    "last_update": "2025-07-12T14:28:48.420196+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "mobox": {
+    "last_update": "2025-07-12T14:28:48.711354+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "saucerswap": {
+    "last_update": "2025-07-12T14:28:48.810906+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "hosico-cat": {
+    "last_update": "2025-07-12T14:28:49.227372+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "maverick-protocol": {
+    "last_update": "2025-07-12T14:28:49.759758+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "bonk-level-saviour-2": {
+    "last_update": "2025-07-12T15:19:17.730856+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "dodo": {
+    "last_update": "2025-07-12T14:28:50.131959+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "mubarak": {
+    "last_update": "2025-07-12T15:19:23.228630+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "radicle": {
+    "last_update": "2025-07-12T14:28:50.565273+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "axondao-governance-token": {
+    "last_update": "2025-07-12T14:28:50.943305+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "tether-rainbow-bridge": {
+    "last_update": "2025-07-12T16:20:43.404649+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "snowbank": {
+    "last_update": "2025-07-12T16:20:47.586437+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "ampleforth-governance-token": {
+    "last_update": "2025-07-12T14:28:52.330301+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "slash-vision-labs": {
+    "last_update": "2025-07-12T15:19:26.306154+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "automata": {
+    "last_update": "2025-07-12T14:28:52.738543+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "bridged-usd-coin-starkgate": {
+    "last_update": "2025-07-12T14:28:53.026021+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "unity-2": {
+    "last_update": "2025-07-12T14:28:53.789867+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "forta": {
+    "last_update": "2025-07-12T14:28:53.969415+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "orbiter-finance": {
+    "last_update": "2025-07-12T15:19:23.673902+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "myshell": {
+    "last_update": "2025-07-12T15:19:23.203744+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "peapods-finance": {
+    "last_update": "2025-07-12T14:28:55.064432+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "huobi-token": {
+    "last_update": "2025-07-12T14:28:55.375260+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "zksync-bridged-usdc-zksync": {
+    "last_update": "2025-07-12T14:28:55.529342+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "keyboard-cat-base": {
+    "last_update": "2025-07-12T15:19:21.884743+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "endurance": {
+    "last_update": "2025-07-12T14:28:57.070547+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "liquidlaunch": {
+    "last_update": "2025-07-12T15:19:22.227921+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "tensor": {
+    "last_update": "2025-07-12T15:19:27.837050+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "dforce-token": {
+    "last_update": "2025-07-12T16:20:39.550455+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "test-3": {
+    "last_update": "2025-07-12T15:19:28.437005+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "fwog": {
+    "last_update": "2025-07-12T15:19:20.562080+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "my-neighbor-alice": {
+    "last_update": "2025-07-12T14:28:59.371929+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "token-pocket": {
+    "last_update": "2025-07-12T14:28:59.545302+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "bitmex-token": {
+    "last_update": "2025-07-12T14:28:59.765984+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "standx-dusd": {
+    "last_update": "2025-07-12T14:29:00.162200+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "hex-trust-usdx": {
+    "last_update": "2025-07-12T15:19:21.348668+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "fuel-network": {
+    "last_update": "2025-07-12T15:19:19.877872+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "particle-network": {
+    "last_update": "2025-07-12T15:19:23.799007+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "seda-2": {
+    "last_update": "2025-07-12T15:19:26.050896+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "build-on-bnb": {
+    "last_update": "2025-07-12T15:19:17.902306+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "alephium": {
+    "last_update": "2025-07-12T14:29:01.675610+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "sx-network-2": {
+    "last_update": "2025-07-12T14:29:01.761695+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "imagen-ai": {
+    "last_update": "2025-07-12T15:19:20.940148+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "bertram-the-pomeranian": {
+    "last_update": "2025-07-12T15:19:17.238181+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "concierge-io": {
+    "last_update": "2025-07-12T14:29:02.366410+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "superwalk": {
+    "last_update": "2025-07-12T14:29:02.529921+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "mamo": {
+    "last_update": "2025-07-12T14:29:02.705187+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "minswap": {
+    "last_update": "2025-07-12T16:20:56.881594+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "phoenix-global": {
+    "last_update": "2025-07-12T14:29:02.972094+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "boba-network": {
+    "last_update": "2025-07-12T14:29:03.397473+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "paraswap": {
+    "last_update": "2025-07-12T14:29:04.137806+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "vine": {
+    "last_update": "2025-07-12T15:19:29.172496+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "puffer-finance": {
+    "last_update": "2025-07-12T15:19:24.318540+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "kori": {
+    "last_update": "2025-07-12T14:29:05.226350+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "orchid-protocol": {
+    "last_update": "2025-07-12T14:29:05.410021+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "advertise-coin": {
+    "last_update": "2025-07-12T16:20:42.336719+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "enkryptedai": {
+    "last_update": "2025-07-12T15:19:19.259227+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "tokenbot-2": {
+    "last_update": "2025-07-12T15:11:55.472740+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "lorenzo-protocol": {
+    "last_update": "2025-07-12T14:29:07.790038+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "wrapped-quil": {
+    "last_update": "2025-07-12T15:12:11.969203+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "thunder-token": {
+    "last_update": "2025-07-12T14:29:08.617138+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "metadium": {
+    "last_update": "2025-07-12T14:29:08.918533+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "ava-ai": {
+    "last_update": "2025-07-12T15:19:16.532233+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "manyu-2": {
+    "last_update": "2025-07-12T15:19:22.596652+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "nodeai": {
+    "last_update": "2025-07-12T14:29:10.177212+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "elysia": {
+    "last_update": "2025-07-12T14:29:10.547231+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "nym": {
+    "last_update": "2025-07-12T14:29:10.594739+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "green": {
+    "last_update": "2025-07-12T15:19:20.358063+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "uquid-coin": {
+    "last_update": "2025-07-12T14:29:11.390799+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "pixels": {
+    "last_update": "2025-07-12T14:29:11.689093+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "universal-eth": {
+    "last_update": "2025-07-12T16:20:36.002932+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "bedrock-btc": {
+    "last_update": "2025-07-12T16:20:47.210501+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "mountain-protocol-usdm": {
+    "last_update": "2025-07-12T14:29:12.599570+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "cudos": {
+    "last_update": "2025-07-12T14:29:13.495771+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "airtor-protocol": {
+    "last_update": "2025-07-12T14:29:13.930682+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "targon": {
+    "last_update": "2025-07-12T14:29:14.126152+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "cargox": {
+    "last_update": "2025-07-12T16:20:57.715423+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "ankreth": {
+    "last_update": "2025-07-12T14:29:14.477533+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "babyboomtoken": {
+    "last_update": "2025-07-12T15:19:16.850995+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "gearbox": {
+    "last_update": "2025-07-12T14:29:15.328659+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "mister-miggles": {
+    "last_update": "2025-07-12T15:19:22.893494+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "based-fartcoin": {
+    "last_update": "2025-07-12T15:09:17.594773+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "apollox-2": {
+    "last_update": "2025-07-12T14:29:15.850221+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "zerebro": {
+    "last_update": "2025-07-12T15:19:30.553060+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "auki-labs": {
+    "last_update": "2025-07-12T15:19:16.525959+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "edu-coin": {
+    "last_update": "2025-07-12T14:29:16.219319+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "saasgo": {
+    "last_update": "2025-07-12T15:19:25.612699+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "defiway": {
+    "last_update": "2025-07-12T16:20:58.837915+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "ecoin-2": {
+    "last_update": "2025-07-12T16:20:59.240853+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "dao-maker": {
+    "last_update": "2025-07-12T14:29:18.904833+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "t-mac-dao": {
+    "last_update": "2025-07-12T14:29:19.101506+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "coinshift-usdc": {
+    "last_update": "2025-07-12T16:20:44.479132+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "derive": {
+    "last_update": "2025-07-12T15:19:18.727958+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "liquity-bold-2": {
+    "last_update": "2025-07-12T14:29:19.589719+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "w-coin": {
+    "last_update": "2025-07-12T15:19:29.301857+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "myria": {
+    "last_update": "2025-07-12T14:29:20.429257+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "renzo": {
+    "last_update": "2025-07-12T15:19:24.959348+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "verse-world": {
+    "last_update": "2025-07-12T14:29:21.097864+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "nobody-sausage": {
+    "last_update": "2025-07-12T14:29:21.348578+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "eth0": {
+    "last_update": "2025-07-12T14:29:21.704382+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "czs-dog": {
+    "last_update": "2025-07-12T15:19:18.492073+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "usd": {
+    "last_update": "2025-07-12T14:29:21.943314+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "kujira": {
+    "last_update": "2025-07-12T16:20:58.075053+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "vaderai-by-virtuals": {
+    "last_update": "2025-07-12T15:19:29.526275+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "sai": {
+    "last_update": "2025-07-12T16:20:37.248534+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "a-hunters-dream": {
+    "last_update": "2025-07-12T14:29:23.790365+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "shardus": {
+    "last_update": "2025-07-12T16:20:56.486643+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "ampleforth": {
+    "last_update": "2025-07-12T14:29:24.641944+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "chain-key-bitcoin": {
+    "last_update": "2025-07-12T14:29:25.191734+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "aintivirus": {
+    "last_update": "2025-07-12T15:19:15.818675+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "aquarius": {
+    "last_update": "2025-07-12T14:29:26.613921+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "binance-peg-dai": {
+    "last_update": "2025-07-12T15:19:17.368020+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "metamui": {
+    "last_update": "2025-07-12T14:29:27.698208+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "keep-network": {
+    "last_update": "2025-07-12T14:29:27.812409+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "ai-analysis-token": {
+    "last_update": "2025-07-12T14:29:28.006789+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "slerf": {
+    "last_update": "2025-07-12T15:19:27.148162+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "binance-peg-avalanche": {
+    "last_update": "2025-07-12T14:29:29.657338+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "oho-blockchain": {
+    "last_update": "2025-07-12T14:29:29.761090+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "neuralai": {
+    "last_update": "2025-07-12T15:19:23.361687+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "xtusd": {
+    "last_update": "2025-07-12T14:29:31.193528+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "syscoin": {
+    "last_update": "2025-07-12T14:29:31.728050+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "seedify-fund": {
+    "last_update": "2025-07-12T14:29:32.059136+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "wrapped-nxm": {
+    "last_update": "2025-07-12T14:29:32.141776+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "coinmetro": {
+    "last_update": "2025-07-12T16:21:08.671106+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "mansory-token": {
+    "last_update": "2025-07-12T15:19:22.558669+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "mavryk-network": {
+    "last_update": "2025-07-12T16:20:44.094473+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "polygon-hermez-bridged-usdt-x-layer": {
+    "last_update": "2025-07-12T15:19:24.024989+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "coq-inu": {
+    "last_update": "2025-07-12T14:29:33.883109+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "creatorbid": {
+    "last_update": "2025-07-12T15:19:18.374060+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "celo-dollar": {
+    "last_update": "2025-07-12T14:29:34.337207+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "dacxi": {
+    "last_update": "2025-07-12T16:20:51.265920+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "corgiai": {
+    "last_update": "2025-07-12T14:29:35.328701+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "deso": {
+    "last_update": "2025-07-12T14:29:36.657382+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "tao-bot": {
+    "last_update": "2025-07-12T15:19:27.771416+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "matchain": {
+    "last_update": "2025-07-12T14:42:01.085258+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "bankercoin-2": {
+    "last_update": "2025-07-12T15:19:16.889311+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "fair-and-free": {
+    "last_update": "2025-07-12T16:21:22.888115+00:00",
+    "days": "max",
+    "version": "1.0"
+  },
+  "gxchain": {
+    "last_update": "2025-07-12T16:21:22.911946+00:00",
     "days": "max",
     "version": "1.0"
   }
