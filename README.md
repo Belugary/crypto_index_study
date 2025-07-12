@@ -93,6 +93,57 @@ result = wrapped_checker.is_wrapped_coin("wrapped-bitcoin")
 print(f"WBTC 是包装币: {result['is_wrapped_coin']}")
 ```
 
+8. 指数计算示例
+
+```python
+from src.index import MarketCapWeightedIndexCalculator
+
+# 创建市值加权指数计算器
+calculator = MarketCapWeightedIndexCalculator(
+    exclude_stablecoins=True,  # 排除稳定币
+    exclude_wrapped_coins=True  # 排除包装币
+)
+
+# 计算指数
+index_df = calculator.calculate_index(
+    start_date="2025-01-01",
+    end_date="2025-01-31",
+    base_date="2025-01-01",
+    base_value=1000.0,
+    top_n=30  # 前30名币种
+)
+
+# 保存结果
+calculator.save_index(index_df, "data/indices/my_index.csv")
+print(f"指数期间收益率: {(index_df.iloc[-1]['index_value'] / index_df.iloc[0]['index_value'] - 1) * 100:.2f}%")
+```
+
+## 指数计算功能
+
+### 快速计算指数
+
+```bash
+# 计算前30名币种的市值加权指数
+python scripts/calculate_index.py --start-date 2025-01-01 --end-date 2025-01-31 --top-n 30
+
+# 包含稳定币和包装币
+python scripts/calculate_index.py --start-date 2025-01-01 --end-date 2025-01-31 --include-stablecoins --include-wrapped-coins
+
+# 自定义基准日期和指数值
+python scripts/calculate_index.py --start-date 2025-01-01 --end-date 2025-01-31 --base-date 2020-01-01 --base-value 100
+
+# 运行指数计算示例
+python examples/index_calculation_example.py
+```
+
+### 指数特点
+
+- **市值加权**: 根据每日市值动态调整权重
+- **成分动态**: 每日重新选择前 N 名币种作为成分
+- **分类过滤**: 支持排除稳定币和包装币，专注原生资产
+- **时间灵活**: 支持任意时间范围和基准日期
+- **精度保证**: 缺失数据时报错提示，确保计算准确性
+
 ## 如何运行测试
 
 ```bash
