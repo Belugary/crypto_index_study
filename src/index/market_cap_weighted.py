@@ -29,6 +29,7 @@ class MarketCapWeightedIndexCalculator:
     def __init__(
         self,
         data_dir: str = "data/coins",
+        daily_output_dir: str = "data/daily",
         exclude_stablecoins: bool = True,
         exclude_wrapped_coins: bool = True,
         force_rebuild: bool = False,
@@ -37,24 +38,24 @@ class MarketCapWeightedIndexCalculator:
         初始化指数计算器
 
         Args:
-            data_dir: 价格数据目录路径 (兼容性保留，实际使用每日汇总数据)
+            data_dir: 原始价格数据目录路径
+            daily_output_dir: 每日汇总数据的输出目录
             exclude_stablecoins: 是否排除稳定币
             exclude_wrapped_coins: 是否排除包装币
             force_rebuild: 是否强制重建每日数据文件
 
         注意：
-        - 实际数据来源：data/daily/daily_files/ 目录下的每日汇总数据
-        - 数据格式：timestamp,price,volume,market_cap,date,coin_id,rank
-        - 时间戳处理：已正确处理CSV表头，无需特殊处理
+        - 核心数据来源：{daily_output_dir}/daily_files/
         """
         self.data_dir = Path(data_dir)
+        self.daily_output_dir = Path(daily_output_dir)
         self.exclude_stablecoins = exclude_stablecoins
         self.exclude_wrapped_coins = exclude_wrapped_coins
         self.force_rebuild = force_rebuild
 
         # 初始化每日数据聚合器 - 核心数据源
         self.daily_aggregator = DailyDataAggregator(
-            data_dir="data/coins", output_dir="data/daily"  # 原始数据源（备用）
+            data_dir=str(self.data_dir), output_dir=str(self.daily_output_dir)
         )
 
         # 初始化分类器
@@ -362,14 +363,10 @@ class MarketCapWeightedIndexCalculator:
         actual_base_count = len(base_constituents)
 
         if actual_base_count < top_n:
-            self.logger.warning(
-                f"基准日期只找到 {actual_base_count} 个币种，少于目标 {top_n} 个"
+            raise ValueError(
+                f"基准日期 {base_date} 只有 {actual_base_count} 个可用币种，"
+                f"不足以满足 top_n={top_n} 的要求。"
             )
-            self.logger.info(f"将使用所有可用的 {actual_base_count} 个币种作为基准成分")
-            # 更新top_n为实际可用数量，确保后续计算的一致性
-            effective_top_n = actual_base_count
-        else:
-            effective_top_n = top_n
 
         base_weights = self._calculate_weights(base_constituents, base_market_caps)
 
@@ -401,9 +398,7 @@ class MarketCapWeightedIndexCalculator:
                 self.logger.warning(f"日期 {current_date} 没有可用的市值数据，跳过")
                 continue
 
-            current_constituents = self._select_top_coins(
-                current_market_caps, effective_top_n
-            )
+            current_constituents = self._select_top_coins(current_market_caps, top_n)
             if not current_constituents:
                 self.logger.warning(f"日期 {current_date} 没有找到成分币种，跳过")
                 continue
