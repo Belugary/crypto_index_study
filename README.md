@@ -6,7 +6,7 @@
 
 5. 增量每日数据更新
 
-```bash
+````bash
 # 监控前1000名并更新历史数据
 python scripts/increm9. 币种分类示例
 
@@ -22,13 +22,15 @@ print(f"Tether 是稳定币: {result['is_stablecoin']}")
 # 检查是否为包装币
 result = wrapped_checker.is_wrapped_coin("wrapped-bitcoin")
 print(f"WBTC 是包装币: {result['is_wrapped_coin']}")
-```
+````
 
-10. 指数计算示例e.py
+10. 指数计算示例 e.py
 
-# 自定义监控范围（如前800名）并试运行
+# 自定义监控范围（如前 800 名）并试运行
+
 python scripts/incremental_daily_update.py --top-n 800 --dry-run
-```
+
+````
 
 6. 使用 API 查询加密货币的日级别历史数据（价格、交易量、市值等，最近更新: 2025-07-13）
 - 支持自定义原生币目标数量（默认 510 个），系统自动扩展搜索范围，确保目标达成
@@ -61,7 +63,7 @@ cd crypto_index_study
 python -m venv .venv
 source .venv/bin/activate  # Linux/Mac
 pip install -r requirements.txt
-```
+````
 
 2. 配置 API Key（可选）
 
@@ -325,3 +327,32 @@ MIT License：可自由使用、修改、分发和私有化。软件按现状提
 ## 免责声明
 
 本项目仅供学习和研究，不构成投资建议。投资有风险，盈亏自负。
+
+## 实际应用示例 (Examples)
+
+`examples/` 文件夹包含了完整的投资分析和应用示例：
+
+### Crypto30 指数投资分析
+
+```bash
+# 分析Crypto30指数投资表现
+python examples/crypto30_investment_analysis.py
+
+# 自定义投资金额和起始日期
+python examples/crypto30_investment_analysis.py --investment 50000 --start-date 2024-01-01
+
+# 保存详细指数数据
+python examples/crypto30_investment_analysis.py --save-index
+
+# 快速查看投资回报
+python examples/calculate_returns.py
+```
+
+**功能特点**：
+
+- 基于前 30 名原生币的市值加权指数
+- 每日自动调仓，动态成分配置
+- 自动排除稳定币和包装币
+- 提供详细的投资回报分析和风险提示
+
+详细说明请参考：[应用示例说明](examples/README.md)
