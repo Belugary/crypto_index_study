@@ -1,4 +1,4 @@
-# 区块链资产指数研究项目
+# 区::资产指数研究项目
 
 本项目帮助你快速获取、管理和分析主流区块链资产的历史量价数据，适用于量化分析、投资研究和学术用途。
 
@@ -10,7 +10,7 @@
 - 一键批量下载、自动增量更新，数据始终保持最新
 - 完整 API 封装，支持币种列表、市场数据、历史行情等常用查询
 - 支持增量每日数据更新脚本，便于新币种检测与历史数据集成
-- **🚀 超高性能重建脚本**：支持预加载内存、批量处理和智能线程分配，大幅提升数据重建速度
+- 支持历史数据重建，可处理大量数据文件
 - 中文文档和示例，快速上手
 
 ## 项目状态
@@ -179,39 +179,22 @@ python examples/index_calculation_example.py
 
 ## 数据重建功能
 
-### 超高性能历史数据重建
-
-当需要重建完整的历史每日汇总数据时，可以使用超高性能重建脚本：
+当需要重建历史每日汇总数据时：
 
 ```bash
-# 重建所有历史数据（2013年至今）
-python scripts/ultra_fast_rebuild.py --full-rebuild
+# 重建所有历史数据
+python scripts/ultra_fast_rebuild.py
 
 # 重建指定日期范围
 python scripts/ultra_fast_rebuild.py --start-date 2024-01-01 --end-date 2024-12-31
 
-# 自定义线程数以充分利用高性能硬件
-python scripts/ultra_fast_rebuild.py --full-rebuild --max-workers 48
-
-# 自定义批处理大小
-python scripts/ultra_fast_rebuild.py --full-rebuild --batch-size 200
+# 调整线程数
+python scripts/ultra_fast_rebuild.py --max-workers 16
 ```
 
-### 超高性能特性
+该脚本支持并行处理、内存优化等技术，提升重建效率。
 
-- **内存预加载**: 一次性将所有币种数据加载到内存，避免重复磁盘I/O
-- **智能批处理**: 将多个日期合并处理，减少线程创建开销
-- **动态线程池**: 根据CPU核心数智能分配线程（支持2-3倍CPU核心数的线程）
-- **进度监控**: 实时显示处理进度和性能指标
-- **完整性保证**: 自动验证生成的数据文件，确保数据质量
-
-### 性能对比
-
-| 配置 | 处理速度 | 4459天预计耗时 |
-|------|----------|----------------|
-| 标准版本 | 1.3 it/s | ~58小时 |
-| 优化版本 | 10-15 it/s | ~5-7小时 |
-| **超高性能版本** | **8.5+ it/s** | **~8.7小时** |
+性能较标准版本有显著提升。
 
 ## 如何运行测试
 
@@ -219,10 +202,6 @@ python scripts/ultra_fast_rebuild.py --full-rebuild --batch-size 200
 # 运行所有单元测试
 python -m unittest discover tests
 ```
-
-## 更新日志
-
-查看完整的更新历史，请参考 [CHANGELOG.md](CHANGELOG.md)。
 
 ## 常见问题
 
@@ -247,7 +226,7 @@ scripts/                     # 自动化脚本（薄封装层）
 ├── update_all_metadata.py   # 元数据批量更新脚本
 ├── build_daily_summary.py   # 日度市场摘要构建脚本
 ├── incremental_daily_update.py # 增量每日数据更新脚本
-├── ultra_fast_rebuild.py    # 🚀 超高性能历史数据重建脚本
+├── ultra_fast_rebuild.py    # 历史数据重建脚本
 └── rebuild_daily_files.py   # 标准版历史数据重建脚本
 examples/                    # 使用示例
 tests/                       # 测试代码

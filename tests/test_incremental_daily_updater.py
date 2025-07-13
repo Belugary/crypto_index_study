@@ -65,7 +65,7 @@ class TestIncrementalDailyUpdater(unittest.TestCase):
 
             self.assertEqual(updater.coins_dir, self.coins_dir)
             self.assertEqual(updater.daily_dir, self.daily_dir)
-            self.assertTrue(updater.backup_enabled)
+            self.assertFalse(updater.backup_enabled)  # 现在默认关闭备份
 
         print("✅ 初始化测试通过")
 

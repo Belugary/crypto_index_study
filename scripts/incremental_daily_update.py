@@ -122,8 +122,8 @@ def main():
     parser.add_argument(
         "--backup",
         action="store_true",
-        default=True,
-        help="启用文件备份功能 (默认: 启用)",
+        default=False,
+        help="启用文件备份功能 (默认: 禁用，避免产生大量备份文件)",
     )
     parser.add_argument("--no-backup", action="store_true", help="禁用文件备份功能")
     parser.add_argument(

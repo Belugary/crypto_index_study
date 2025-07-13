@@ -31,7 +31,7 @@ class IncrementalDailyUpdater:
         self,
         coins_dir: str = "data/coins",
         daily_dir: str = "data/daily/daily_files",
-        backup_enabled: bool = True,
+        backup_enabled: bool = False,  # 默认禁用备份，避免产生大量文件
     ):
         """
         初始化增量更新器
@@ -198,7 +198,7 @@ class IncrementalDailyUpdater:
         return dates
 
     def _backup_daily_file(self, filepath: Path) -> Optional[Path]:
-        """备份每日数据文件
+        """备份每日数据文件（智能备份）
 
         Args:
             filepath: 要备份的文件路径
@@ -213,6 +213,21 @@ class IncrementalDailyUpdater:
             # 创建备份目录
             backup_dir = filepath.parent / ".backup"
             backup_dir.mkdir(exist_ok=True)
+
+            # 智能备份：只保留最新的3个备份
+            existing_backups = sorted(
+                backup_dir.glob(f"{filepath.stem}_*.csv"),
+                key=lambda x: x.stat().st_mtime,
+                reverse=True,
+            )
+
+            # 删除超过3个的旧备份
+            for old_backup in existing_backups[2:]:  # 保留最新2个，第3个开始删除
+                try:
+                    old_backup.unlink()
+                    logger.debug(f"删除旧备份: {old_backup}")
+                except Exception as e:
+                    logger.warning(f"删除旧备份失败: {e}")
 
             # 生成备份文件名（包含时间戳）
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -652,7 +667,7 @@ class IncrementalDailyUpdater:
 def create_incremental_updater(
     coins_dir: str = "data/coins",
     daily_dir: str = "data/daily/daily_files",
-    backup_enabled: bool = True,
+    backup_enabled: bool = False,  # 默认禁用备份
 ) -> IncrementalDailyUpdater:
     """创建增量每日数据更新器实例
 
