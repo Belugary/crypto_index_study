@@ -81,6 +81,13 @@ ValueError: could not convert string to float: 'timestamp'
 - 确保分类器覆盖所有衍生品类型
 - 避免过宽的异常处理
 
+**备份系统存储爆炸**:
+
+- 默认关闭自动备份功能 (`backup_enabled=False`)
+- 实现智能备份管理，限制保留数量（如最近 3 个）
+- 用户按需启用，避免无意识的存储消耗
+- 大数据集操作特别注意备份策略
+
 ### 测试管理
 
 - 重构后必须运行 `python -m pytest tests/ -v`
