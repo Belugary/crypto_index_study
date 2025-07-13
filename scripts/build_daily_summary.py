@@ -2,6 +2,8 @@
 该脚本用于根据 data/daily/daily_files/ 目录下的所有日度数据文件，
 重新生成一个完整的每日市场摘要文件 (daily_summary.csv)。
 
+**重要用途**: 为快速计算每日指数提供预聚合数据，避免每次都重新扫描所有原始文件。
+
 摘要文件包含以下字段：
 - date: 日期
 - coin_count: 当日币种数量
@@ -9,6 +11,11 @@
 - total_volume: 当日总交易量
 - avg_market_cap: 当日平均市值
 - avg_volume: 当日平均交易量
+
+使用场景:
+- 指数计算的快速数据源
+- 市场概览和分析
+- 历史趋势统计
 """
 
 from pathlib import Path

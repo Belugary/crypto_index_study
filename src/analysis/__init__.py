@@ -1,13 +1,14 @@
 """
 数据分析模块
 
-提供指数计算、回测分析等功能。
+提供指数计算、回测分析、数据质量检查等功能。
 为未来的量化分析功能预留模块。
 """
 
-# 未来可以在这里导入指数计算器等分析工具
-# from .index_calculator import IndexCalculator
+# 数据质量检查功能
+from .data_quality import DataQualityAnalyzer, DataQualityRepairer
 
 __all__ = [
-    # "IndexCalculator"
+    "DataQualityAnalyzer",
+    "DataQualityRepairer",
 ]
