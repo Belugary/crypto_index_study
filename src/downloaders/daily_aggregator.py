@@ -8,9 +8,10 @@
 
 import logging
 import os
+import glob
 from datetime import date, datetime, timedelta
 from pathlib import Path
-from typing import Dict, List, Optional, Union
+from typing import Dict, List, Optional, Union, Tuple
 from concurrent.futures import ProcessPoolExecutor, as_completed
 import multiprocessing
 
@@ -41,6 +42,9 @@ class DailyDataAggregator:
         self.data_dir = Path(data_dir)
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(parents=True, exist_ok=True)
+
+        # 初始化logger
+        self.logger = logging.getLogger(f"{__name__}.{self.__class__.__name__}")
 
         # 创建子目录用于存储不同类型的数据
         self.daily_files_dir = self.output_dir / "daily_files"
@@ -502,45 +506,271 @@ class DailyDataAggregator:
 
         return batch_results
 
+    def build_daily_market_summary(
+        self, output_path: Optional[str] = None
+    ) -> pd.DataFrame:
+        """
+        生成每日市场摘要数据
+
+        遍历所有每日数据文件，计算市场摘要统计数据
+
+        Args:
+            output_path: 可选的输出文件路径，如果提供则保存CSV文件
+
+        Returns:
+            包含每日市场摘要的DataFrame
+        """
+        if output_path is None:
+            output_file = self.output_dir / "daily_summary.csv"
+        else:
+            output_file = Path(output_path)
+
+        daily_files_dir = self.output_dir / "daily_files"
+
+        if not daily_files_dir.exists():
+            logger.error(f"每日数据目录不存在: {daily_files_dir}")
+            return pd.DataFrame()
+
+        # 查找所有日度数据文件
+        daily_files = sorted(list(daily_files_dir.glob("*/*/*.csv")))
+
+        if not daily_files:
+            logger.warning(f"在 {daily_files_dir} 中没有找到任何日度数据文件")
+            return pd.DataFrame()
+
+        logger.info(f"找到 {len(daily_files)} 个日度数据文件，开始生成摘要...")
+
+        summary_data = []
+
+        for file_path in daily_files:
+            try:
+                # 从文件名中提取日期
+                date_str = file_path.stem
+
+                df = pd.read_csv(file_path)
+
+                # 跳过空文件
+                if df.empty:
+                    continue
+
+                coin_count = len(df)
+                total_market_cap = df["market_cap"].sum()
+                total_volume = df["volume"].sum()
+
+                # 计算平均值，避免除以零
+                avg_market_cap = total_market_cap / coin_count if coin_count > 0 else 0
+                avg_volume = total_volume / coin_count if coin_count > 0 else 0
+
+                summary_data.append(
+                    {
+                        "date": date_str,
+                        "coin_count": coin_count,
+                        "total_market_cap": total_market_cap,
+                        "total_volume": total_volume,
+                        "avg_market_cap": avg_market_cap,
+                        "avg_volume": avg_volume,
+                    }
+                )
+
+            except Exception as e:
+                logger.warning(f"处理文件 {file_path} 时出错: {e}")
+                continue
+
+        if not summary_data:
+            logger.warning("没有生成任何摘要数据")
+            return pd.DataFrame()
+
+        # 创建DataFrame并按日期排序
+        summary_df = pd.DataFrame(summary_data)
+        summary_df["date"] = pd.to_datetime(summary_df["date"])
+        summary_df = summary_df.sort_values(by="date").reset_index(drop=True)
+
+        # 格式化日期列
+        summary_df["date"] = summary_df["date"].dt.strftime("%Y-%m-%d")
+
+        # 保存到CSV文件
+        summary_df.to_csv(output_file, index=False)
+        logger.info(f"每日市场摘要已保存到: {output_file}")
+        logger.info(f"总共处理了 {len(summary_df)} 天的数据")
+
+        return summary_df
+
+    def reorder_daily_files_by_market_cap(
+        self,
+        dry_run: bool = False,
+        max_workers: int = 8,
+        start_date: Optional[str] = None,
+        end_date: Optional[str] = None,
+    ) -> Tuple[int, int]:
+        """
+        按市值重排序每日文件并重新分配rank字段
+
+        Args:
+            dry_run: 是否为试运行模式
+            max_workers: 最大并发线程数
+            start_date: 开始日期 (YYYY-MM-DD，可选)
+            end_date: 结束日期 (YYYY-MM-DD，可选)
+
+        Returns:
+            Tuple[int, int]: (成功处理数量, 总文件数量)
+        """
+        from concurrent.futures import ThreadPoolExecutor, as_completed
+        from datetime import datetime
+        import glob
+
+        self.logger.info(f"开始重排序每日文件，dry_run={dry_run}")
+
+        # 获取目标文件列表
+        if start_date and end_date:
+            target_files = self._find_files_by_date_range(start_date, end_date)
+            self.logger.info(
+                f"按日期范围筛选：{start_date} 到 {end_date}，找到 {len(target_files)} 个文件"
+            )
+        else:
+            target_files = self._find_all_daily_files()
+            self.logger.info(f"处理所有每日文件，找到 {len(target_files)} 个文件")
+
+        if not target_files:
+            self.logger.warning("没有找到需要处理的文件")
+            return 0, 0
+
+        successful = 0
+        failed = 0
+
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            # 提交所有任务
+            future_to_file = {
+                executor.submit(
+                    self._process_single_file_reorder, file_path, dry_run
+                ): file_path
+                for file_path in target_files
+            }
+
+            # 等待完成并收集结果
+            for future in as_completed(future_to_file):
+                file_path = future_to_file[future]
+                try:
+                    success = future.result()
+                    if success:
+                        successful += 1
+                        if not dry_run:
+                            self.logger.debug(
+                                f"已重排序: {os.path.basename(file_path)}"
+                            )
+                    else:
+                        failed += 1
+                        self.logger.warning(
+                            f"重排序失败: {os.path.basename(file_path)}"
+                        )
+                except Exception as e:
+                    failed += 1
+                    self.logger.error(f"处理文件 {file_path} 时发生异常: {e}")
+
+        self.logger.info(
+            f"重排序完成: 成功 {successful}, 失败 {failed}, 总计 {len(target_files)}"
+        )
+        return successful, len(target_files)
+
+    def _process_single_file_reorder(
+        self, file_path: str, dry_run: bool = False
+    ) -> bool:
+        """
+        处理单个文件的重排序
+
+        Args:
+            file_path: 文件路径
+            dry_run: 是否为试运行模式
+
+        Returns:
+            bool: 是否成功
+        """
+        try:
+            df = pd.read_csv(file_path)
+
+            # 检查必要字段是否存在
+            if "market_cap" not in df.columns or "rank" not in df.columns:
+                self.logger.warning(
+                    f"文件 {file_path} 缺少必要字段 (market_cap 或 rank)"
+                )
+                return False
+
+            # 市值字段降序排序
+            df_sorted = df.sort_values(by="market_cap", ascending=False)
+            # 重新赋值排名
+            df_sorted["rank"] = range(1, len(df_sorted) + 1)
+
+            if dry_run:
+                self.logger.info(
+                    f"[DRY-RUN] {os.path.basename(file_path)} 重排序预览 (前3行):"
+                )
+                self.logger.info(f"\n{df_sorted.head(3).to_string()}")
+            else:
+                df_sorted.to_csv(file_path, index=False)
+
+            return True
+
+        except Exception as e:
+            self.logger.error(f"处理文件 {file_path} 时出错: {e}")
+            return False
+
+    def _find_all_daily_files(self) -> List[str]:
+        """查找所有每日汇总文件"""
+        files = []
+        daily_files_dir = self.daily_files_dir
+
+        if not os.path.exists(daily_files_dir):
+            self.logger.warning(f"每日文件目录不存在: {daily_files_dir}")
+            return files
+
+        # 使用glob模式匹配所有CSV文件
+        pattern = os.path.join(daily_files_dir, "*", "*", "*.csv")
+        files = glob.glob(pattern)
+
+        return sorted(files)
+
+    def _find_files_by_date_range(self, start_date: str, end_date: str) -> List[str]:
+        """
+        根据日期范围查找文件
+
+        Args:
+            start_date: 开始日期 (YYYY-MM-DD)
+            end_date: 结束日期 (YYYY-MM-DD)
+
+        Returns:
+            List[str]: 符合日期范围的文件路径列表
+        """
+        from datetime import datetime, timedelta
+
+        try:
+            start_dt = datetime.strptime(start_date, "%Y-%m-%d")
+            end_dt = datetime.strptime(end_date, "%Y-%m-%d")
+        except ValueError as e:
+            self.logger.error(f"日期格式错误: {e}")
+            return []
+
+        files = []
+        current_dt = start_dt
+
+        while current_dt <= end_dt:
+            date_str = current_dt.strftime("%Y-%m-%d")
+            year = current_dt.strftime("%Y")
+            month = current_dt.strftime("%m")
+
+            file_path = os.path.join(
+                self.daily_files_dir, year, month, f"{date_str}.csv"
+            )
+
+            if os.path.exists(file_path):
+                files.append(file_path)
+
+            current_dt += timedelta(days=1)
+
+        return files
+
 
 def create_daily_aggregator(
     data_dir: str = "data/coins", output_dir: str = "data/daily"
 ) -> DailyDataAggregator:
-    """创建每日数据聚合器实例
-
-    Args:
-        data_dir: 原始数据目录
-        output_dir: 输出目录
-
-    Returns:
-        DailyDataAggregator实例
-    """
+    """创建每日数据聚合器实例"""
+    logger.info(f"每日数据聚合器初始化, 数据源: '{data_dir}', 输出到: '{output_dir}'")
     return DailyDataAggregator(data_dir, output_dir)
-
-
-if __name__ == "__main__":
-    # 测试代码
-    aggregator = create_daily_aggregator()
-
-    # 加载数据
-    aggregator.load_coin_data()
-
-    # 分析数据覆盖情况
-    coverage = aggregator.get_data_coverage_analysis()
-    print(f"数据覆盖分析:")
-    print(f"- 总币种数: {coverage['total_coins']}")
-    print(
-        f"- 日期范围: {coverage['date_range']['start']} 到 {coverage['date_range']['end']}"
-    )
-    print(f"- 总天数: {coverage['date_range']['total_days']}")
-
-    # 找到Bitcoin开始日期
-    btc_start_str = aggregator.find_bitcoin_start_date()
-    print(f"- Bitcoin最早日期: {btc_start_str}")
-
-    # 测试获取某一天的数据
-    if btc_start_str:
-        test_data = aggregator.get_daily_data(btc_start_str)
-        print(f"- {btc_start_str} 当天有 {len(test_data)} 个币种有数据")
-        if not test_data.empty:
-            print(f"- 前3名币种: {test_data.head(3)['coin_id'].tolist()}")
