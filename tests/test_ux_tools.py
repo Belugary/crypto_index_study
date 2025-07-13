@@ -24,14 +24,14 @@ def test_progress_tracker():
                 tracker.update(1, f"处理项目_{i}")
 
         print("✅ 进度跟踪器测试成功")
-        return True
+        assert True
 
     except Exception as e:
         print(f"❌ 进度跟踪器测试失败: {e}")
         import traceback
 
         traceback.print_exc()
-        return False
+        assert False, f"进度跟踪器测试失败: {e}"
 
 
 def test_concurrent_processor():
@@ -55,14 +55,14 @@ def test_concurrent_processor():
 
         print(f"结果: {results}")
         print("✅ 并发处理器测试成功")
-        return True
+        assert True
 
     except Exception as e:
         print(f"❌ 并发处理器测试失败: {e}")
         import traceback
 
         traceback.print_exc()
-        return False
+        assert False, f"并发处理器测试失败: {e}"
 
 
 def test_auto_concurrent():
@@ -89,14 +89,14 @@ def test_auto_concurrent():
         print(f"结果: {results2}")
 
         print("✅ 自动并发选择测试成功")
-        return True
+        assert True
 
     except Exception as e:
         print(f"❌ 自动并发选择测试失败: {e}")
         import traceback
 
         traceback.print_exc()
-        return False
+        assert False, f"自动并发选择测试失败: {e}"
 
 
 if __name__ == "__main__":
