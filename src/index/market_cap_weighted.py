@@ -10,8 +10,9 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, date
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple, Any
+from typing import Dict, List, Optional, Tuple, Any, Union
 import logging
+from tqdm import tqdm
 
 # 添加项目根目录到Python路径
 sys.path.insert(
@@ -319,11 +320,11 @@ class MarketCapWeightedIndexCalculator:
 
     def calculate_index(
         self,
-        start_date: str,
-        end_date: str,
-        base_date: str = "2020-01-01",
+        start_date: Union[str, date],
+        end_date: Union[str, date],
+        top_n: int = 510,
+        base_date: Optional[Union[str, date]] = None,
         base_value: float = 1000.0,
-        top_n: int = 30,
     ) -> pd.DataFrame:
         """
         计算市值加权指数
@@ -350,9 +351,22 @@ class MarketCapWeightedIndexCalculator:
             )
 
         # 转换日期字符串为date对象
-        start_dt = datetime.strptime(start_date, "%Y-%m-%d").date()
-        end_dt = datetime.strptime(end_date, "%Y-%m-%d").date()
-        base_dt = datetime.strptime(base_date, "%Y-%m-%d").date()
+        if isinstance(start_date, str):
+            start_dt = datetime.strptime(start_date, "%Y-%m-%d").date()
+        else:
+            start_dt = start_date
+
+        if isinstance(end_date, str):
+            end_dt = datetime.strptime(end_date, "%Y-%m-%d").date()
+        else:
+            end_dt = end_date
+
+        if base_date is None:
+            base_dt = start_dt
+        elif isinstance(base_date, str):
+            base_dt = datetime.strptime(base_date, "%Y-%m-%d").date()
+        else:
+            base_dt = base_date
 
         # 获取基准日期的市值数据和成分币种
         base_market_caps = self._get_daily_market_caps(base_dt)
@@ -389,63 +403,88 @@ class MarketCapWeightedIndexCalculator:
 
         index_data = []
 
-        for current_dt in date_range:
-            current_date = current_dt.date()
+        # 使用进度条显示计算进度
+        with tqdm(
+            total=len(date_range),
+            desc=f"计算市值加权指数 (前{top_n}名)",
+            unit="天",
+            ncols=100,
+        ) as pbar:
+            for i, current_dt in enumerate(date_range):
+                current_date = current_dt.date()
 
-            # 获取当日市值数据和成分币种
-            current_market_caps = self._get_daily_market_caps(current_date)
-            if not current_market_caps:
-                self.logger.warning(f"日期 {current_date} 没有可用的市值数据，跳过")
-                continue
-
-            current_constituents = self._select_top_coins(current_market_caps, top_n)
-            if not current_constituents:
-                self.logger.warning(f"日期 {current_date} 没有找到成分币种，跳过")
-                continue
-
-            current_weights = self._calculate_weights(
-                current_constituents, current_market_caps
-            )
-
-            # 获取当日各币种价格
-            current_prices = {}
-            missing_prices = []
-
-            for coin_id in current_constituents:
-                price = self._get_coin_price(coin_id, current_date)
-                if price is None:
-                    missing_prices.append(coin_id)
-                else:
-                    current_prices[coin_id] = price
-
-            # 如果有缺失价格，报错并显示详情
-            if missing_prices:
-                error_msg = (
-                    f"日期 {current_date} 缺少以下币种的价格数据: "
-                    f"{', '.join(missing_prices)}"
+                # 更新进度条显示当前日期
+                pbar.set_description(
+                    f"计算市值加权指数 - {current_date} ({i+1}/{len(date_range)})"
                 )
-                self.logger.error(error_msg)
-                raise ValueError(error_msg)
 
-            # 计算当日加权价格
-            current_weighted_price = sum(
-                current_weights[coin_id] * current_prices[coin_id]
-                for coin_id in current_constituents
-            )
+                # 获取当日市值数据和成分币种
+                current_market_caps = self._get_daily_market_caps(current_date)
+                if not current_market_caps:
+                    self.logger.warning(f"日期 {current_date} 没有可用的市值数据，跳过")
+                    pbar.set_postfix_str(f"跳过: {current_date}")
+                    pbar.update(1)
+                    continue
 
-            # 计算指数值
-            index_value = base_value * (current_weighted_price / base_weighted_price)
+                current_constituents = self._select_top_coins(
+                    current_market_caps, top_n
+                )
+                if not current_constituents:
+                    self.logger.warning(f"日期 {current_date} 没有找到成分币种，跳过")
+                    pbar.set_postfix_str(f"跳过: {current_date}")
+                    pbar.update(1)
+                    continue
 
-            index_data.append(
-                {
-                    "date": current_date,
-                    "index_value": index_value,
-                    "constituent_count": len(current_constituents),
-                }
-            )
+                current_weights = self._calculate_weights(
+                    current_constituents, current_market_caps
+                )
 
-            if len(index_data) % 100 == 0:
-                self.logger.info(f"已处理 {len(index_data)} 个交易日")
+                # 获取当日各币种价格
+                current_prices = {}
+                missing_prices = []
+
+                for coin_id in current_constituents:
+                    price = self._get_coin_price(coin_id, current_date)
+                    if price is None:
+                        missing_prices.append(coin_id)
+                    else:
+                        current_prices[coin_id] = price
+
+                # 如果有缺失价格，报错并显示详情
+                if missing_prices:
+                    error_msg = (
+                        f"日期 {current_date} 缺少以下币种的价格数据: "
+                        f"{', '.join(missing_prices)}"
+                    )
+                    self.logger.error(error_msg)
+                    pbar.set_description("计算中断 - 缺少价格数据")
+                    raise ValueError(error_msg)
+
+                # 计算当日加权价格
+                current_weighted_price = sum(
+                    current_weights[coin_id] * current_prices[coin_id]
+                    for coin_id in current_constituents
+                )
+
+                # 计算指数值
+                index_value = base_value * (
+                    current_weighted_price / base_weighted_price
+                )
+
+                index_data.append(
+                    {
+                        "date": current_date,
+                        "index_value": index_value,
+                        "constituent_count": len(current_constituents),
+                    }
+                )
+
+                # 更新进度条
+                pbar.set_postfix_str(f"指数值: {index_value:.2f}")
+                pbar.update(1)
+
+                if len(index_data) % 100 == 0:
+                    self.logger.info(f"已处理 {len(index_data)} 个交易日")
 
         if not index_data:
             raise ValueError(
