@@ -15,6 +15,8 @@ import time
 from pathlib import Path
 from typing import Dict, List, Optional, Set
 
+from tqdm import tqdm
+
 from ..classification.stablecoin_checker import StablecoinChecker
 from ..classification.wrapped_coin_checker import WrappedCoinChecker
 from ..downloaders.batch_downloader import create_batch_downloader
@@ -136,36 +138,51 @@ class MetadataUpdater:
         success_count = 0
         all_results = {}
 
-        for batch_idx in range(total_batches):
-            start_idx = batch_idx * batch_size
-            end_idx = min(start_idx + batch_size, len(coins_to_update))
-            batch_coins = coins_to_update[start_idx:end_idx]
+        logger.info(f"开始分批更新，共 {total_batches} 批")
 
-            logger.info(
-                f"\n📦 处理第 {batch_idx + 1}/{total_batches} 批 ({len(batch_coins)} 个币种)"
-            )
-            logger.info(
-                f"   币种: {', '.join(batch_coins[:5])}{'...' if len(batch_coins) > 5 else ''}"
-            )
+        # 使用进度条显示批次进度
+        with tqdm(total=total_batches, desc="批量更新元数据", unit="批") as batch_pbar:
+            for batch_idx in range(total_batches):
+                start_idx = batch_idx * batch_size
+                end_idx = min(start_idx + batch_size, len(coins_to_update))
+                batch_coins = coins_to_update[start_idx:end_idx]
 
-            # 批量更新这一批币种
-            results = self.downloader.batch_update_coin_metadata(
-                coin_ids=batch_coins, force=force_update, delay_seconds=delay_seconds
-            )
+                batch_info = (
+                    f"第 {batch_idx + 1}/{total_batches} 批 ({len(batch_coins)} 个币种)"
+                )
+                batch_pbar.set_description(f"处理 {batch_info}")
 
-            # 合并结果
-            all_results.update(results)
+                logger.info(f"\n📦 处理{batch_info}")
+                logger.info(
+                    f"   币种: {', '.join(batch_coins[:5])}{'...' if len(batch_coins) > 5 else ''}"
+                )
 
-            # 统计结果
-            batch_success = sum(1 for success in results.values() if success)
-            success_count += batch_success
+                # 批量更新这一批币种
+                results = self.downloader.batch_update_coin_metadata(
+                    coin_ids=batch_coins,
+                    force=force_update,
+                    delay_seconds=delay_seconds,
+                )
 
-            logger.info(f"   结果: {batch_success}/{len(batch_coins)} 成功")
+                # 合并结果
+                all_results.update(results)
 
-            # 批次间延迟
-            if batch_idx < total_batches - 1:
-                logger.info(f"   等待 {delay_seconds * 2:.1f} 秒后继续...")
-                time.sleep(delay_seconds * 2)
+                # 统计结果
+                batch_success = sum(1 for success in results.values() if success)
+                success_count += batch_success
+
+                # 更新进度条
+                batch_pbar.set_postfix_str(f"成功: {batch_success}/{len(batch_coins)}")
+                batch_pbar.update(1)
+
+                logger.info(f"   批次结果: {batch_success}/{len(batch_coins)} 成功")
+
+                # 展示失败的币种（如果有）
+                failed_coins = [
+                    coin_id for coin_id, success in results.items() if not success
+                ]
+                if failed_coins:
+                    logger.warning(f"   失败币种: {', '.join(failed_coins)}")
 
         logger.info(f"\n🎉 批量更新完成!")
         logger.info(f"   总计: {success_count}/{len(coins_to_update)} 成功")
