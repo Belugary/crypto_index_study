@@ -104,8 +104,12 @@ class DailyDataAggregator:
             all_dates.extend(df["date"].tolist())
 
         if all_dates:
-            self.min_date = min(all_dates)
-            self.max_date = max(all_dates)
+            # 将字符串日期转换为 datetime 对象以支持日期运算
+            from datetime import datetime
+
+            date_objects = [datetime.strptime(d, "%Y-%m-%d") for d in all_dates]
+            self.min_date = min(date_objects)
+            self.max_date = max(date_objects)
 
             logger.info(f"数据日期范围: {self.min_date} 到 {self.max_date}")
 
