@@ -126,6 +126,11 @@ TEMP_*.md
 scratch_*.md
 notes_*.md
 
+# 临时计划跟踪文件
+.temp_plan_tracker.md
+.temp_*.md
+*_temp_plan.md
+
 # 实验和原型文件
 experiment_*.py
 prototype_*.py
