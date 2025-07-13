@@ -121,13 +121,13 @@ def progress_wrapper(iterable, desc: str = "处理中", unit: str = "item"):
         total = len(iterable)
 
     return tqdm(
-        iterable, 
-        desc=desc, 
-        unit=unit, 
-        total=total, 
+        iterable,
+        desc=desc,
+        unit=unit,
+        total=total,
         ncols=80,
         leave=False,
-        dynamic_ncols=True
+        dynamic_ncols=True,
     )
 
 
