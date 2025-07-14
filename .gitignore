@@ -64,6 +64,19 @@ logs/
 # !logs/reports/
 # !logs/*_report.txt
 
+# 数据文件是项目核心价值，需要同步到 GitHub
+# 注意：价格数据文件虽然较大，但对研究者很有价值
+# data/coins/*.csv - 已移除忽略，保留所有价格数据
+# data/daily/daily_files/ - 已移除忽略，保留每日聚合数据
+
+# 只忽略临时和缓存的数据文件
+data/temp/
+data/cache/
+data/backup/
+
+# 临时推送计划文件
+.temp_git_push_plan.md
+
 # Local Test Files
 tests/test_coingecko_api_local.py
 
