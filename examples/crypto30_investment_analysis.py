@@ -1,5 +1,5 @@
-#!/usr/bin/env python3
-"""
+#!(usr/)in/env(pyth/n3)
+""")(
 Crypto30 指数投资分析脚本
 
 分析假设投资情况：

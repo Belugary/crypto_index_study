@@ -71,10 +71,12 @@ index_df = calculator.calculate_index(
 ### 币种分类
 
 ```python
-from src.classification import StablecoinChecker, WrappedCoinChecker
+from src.classification import UnifiedClassifier
 
-stable_checker = StablecoinChecker()
-result = stable_checker.is_stablecoin("tether")
+classifier = UnifiedClassifier()
+result = classifier.classify_coin("tether")
+print(f"是稳定币: {result.is_stablecoin}")
+print(f"是包装币: {result.is_wrapped_coin}")
 ```
 
 ## 实际应用示例

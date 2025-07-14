@@ -77,25 +77,6 @@ def run_tests():
         print(f"❌ 测试运行失败: {e}")
 
 
-def run_examples():
-    """运行指数计算示例"""
-    print("� 运行指数计算示例...")
-    import subprocess
-
-    try:
-        result = subprocess.run(
-            [sys.executable, "examples/index_calculation_example.py"],
-            capture_output=True,
-            text=True,
-        )
-        print(result.stdout)
-        if result.stderr:
-            print("错误信息:", result.stderr)
-    except Exception as e:
-        print(f"❌ 指数计算示例运行失败: {e}")
-
-
-
 def main():
     """项目主入口函数
 

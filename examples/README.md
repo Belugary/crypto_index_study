@@ -27,22 +27,6 @@ python examples/crypto30_investment_analysis.py --investment 50000 --start-date 
 python examples/crypto30_investment_analysis.py --save-index
 ```
 
-### `calculate_returns.py`
-
-- **功能**: 简化的投资回报计算脚本
-- **用途**: 基于已保存的指数数据快速计算投资回报
-- **特点**:
-  - 轻量级，快速执行
-  - 清晰的格式化输出
-  - 包含年化收益率计算
-  - 提供风险提示
-
-**使用示例**:
-
-```bash
-python examples/calculate_returns.py
-```
-
 ## 核心功能
 
 ### Crypto30 指数特点
