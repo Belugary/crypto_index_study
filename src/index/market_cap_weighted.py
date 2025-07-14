@@ -231,7 +231,10 @@ class MarketCapWeightedIndexCalculator:
         self, coin_ids: List[str], market_caps: Dict[str, float]
     ) -> Dict[str, float]:
         """
-        计算各币种的权重
+        ⚠️ 已废弃：计算各币种的权重
+
+        这个方法在旧的价格加权算法中使用，现在的正确算法直接比较市值，无需权重计算。
+        保留此方法仅为向后兼容，但新代码不应使用。
 
         Args:
             coin_ids: 成分币种ID列表
@@ -326,7 +329,10 @@ class MarketCapWeightedIndexCalculator:
         base_value: float = 1000.0,
     ) -> pd.DataFrame:
         """
-        计算市值加权指数
+        计算市值加权指数 - 修正版
+
+        ✅ 正确算法：直接比较每日前N名总市值，无需价格加权计算
+        公式：Index(t) = Base_Value × [当日前N名总市值 / 基准日前N名总市值]
 
         Args:
             start_date: 指数计算开始日期 (YYYY-MM-DD)
@@ -344,6 +350,7 @@ class MarketCapWeightedIndexCalculator:
         self.logger.info(
             f"排除稳定币: {self.exclude_stablecoins}, 排除包装币: {self.exclude_wrapped_coins}"
         )
+        self.logger.info("✅ 使用修正后的算法：直接市值比较法")
         if self.force_rebuild:
             self.logger.info(
                 "已启用强制重建每日数据功能，将使用最新的原始数据生成每日汇总"
@@ -381,21 +388,14 @@ class MarketCapWeightedIndexCalculator:
                 f"不足以满足 top_n={top_n} 的要求。"
             )
 
-        base_weights = self._calculate_weights(base_constituents, base_market_caps)
-
-        # 获取基准日期各币种价格
-        base_prices = {}
-        for coin_id in base_constituents:
-            price = self._get_coin_price(coin_id, base_dt)
-            if price is None:
-                raise ValueError(f"基准日期 {base_date} 缺少币种 {coin_id} 的价格数据")
-            base_prices[coin_id] = price
-
-        # 计算基准日期的加权价格
-        base_weighted_price = sum(
-            base_weights[coin_id] * base_prices[coin_id]
-            for coin_id in base_constituents
+        # ✅ 关键修正：直接计算基准日前N名总市值
+        base_total_market_cap = sum(
+            base_market_caps[coin_id] for coin_id in base_constituents
         )
+
+        self.logger.info(f"✅ 基准日期 {base_dt} 前{top_n}名币种")
+        self.logger.info(f"前5名: {base_constituents[:5]}")
+        self.logger.info(f"✅ 基准日总市值: ${base_total_market_cap:,.0f}")
 
         # 生成日期范围
         date_range = pd.date_range(start=start_dt, end=end_dt, freq="D")
@@ -405,7 +405,7 @@ class MarketCapWeightedIndexCalculator:
         # 使用进度条显示计算进度
         with tqdm(
             total=len(date_range),
-            desc=f"计算市值加权指数 (前{top_n}名)",
+            desc=f"计算正确的市值加权指数 (前{top_n}名)",
             unit="天",
             ncols=100,
         ) as pbar:
@@ -414,7 +414,7 @@ class MarketCapWeightedIndexCalculator:
 
                 # 更新进度条显示当前日期
                 pbar.set_description(
-                    f"计算市值加权指数 - {current_date} ({i+1}/{len(date_range)})"
+                    f"计算正确的市值加权指数 - {current_date} ({i+1}/{len(date_range)})"
                 )
 
                 # 获取当日市值数据和成分币种
@@ -434,40 +434,14 @@ class MarketCapWeightedIndexCalculator:
                     pbar.update(1)
                     continue
 
-                current_weights = self._calculate_weights(
-                    current_constituents, current_market_caps
+                # ✅ 关键修正：直接计算当日前N名总市值，无需价格计算
+                current_total_market_cap = sum(
+                    current_market_caps[coin_id] for coin_id in current_constituents
                 )
 
-                # 获取当日各币种价格
-                current_prices = {}
-                missing_prices = []
-
-                for coin_id in current_constituents:
-                    price = self._get_coin_price(coin_id, current_date)
-                    if price is None:
-                        missing_prices.append(coin_id)
-                    else:
-                        current_prices[coin_id] = price
-
-                # 如果有缺失价格，报错并显示详情
-                if missing_prices:
-                    error_msg = (
-                        f"日期 {current_date} 缺少以下币种的价格数据: "
-                        f"{', '.join(missing_prices)}"
-                    )
-                    self.logger.error(error_msg)
-                    pbar.set_description("计算中断 - 缺少价格数据")
-                    raise ValueError(error_msg)
-
-                # 计算当日加权价格
-                current_weighted_price = sum(
-                    current_weights[coin_id] * current_prices[coin_id]
-                    for coin_id in current_constituents
-                )
-
-                # 计算指数值
+                # ✅ 正确的指数计算公式：直接市值比较
                 index_value = base_value * (
-                    current_weighted_price / base_weighted_price
+                    current_total_market_cap / base_total_market_cap
                 )
 
                 index_data.append(
@@ -492,7 +466,7 @@ class MarketCapWeightedIndexCalculator:
 
         result_df = pd.DataFrame(index_data)
 
-        self.logger.info(f"指数计算完成，共生成 {len(result_df)} 个数据点")
+        self.logger.info(f"✅ 指数计算完成，共生成 {len(result_df)} 个数据点")
         self.logger.info(
             f"指数范围: {result_df['index_value'].min():.2f} - {result_df['index_value'].max():.2f}"
         )

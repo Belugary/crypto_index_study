@@ -132,6 +132,19 @@ class UnifiedClassifier:
 
         return result
 
+    def is_native_coin(self, coin_id: str, use_cache: bool = True) -> bool:
+        """判断一个币种是否为原生币（非稳定币且非包装币）
+
+        Args:
+            coin_id: 币种ID
+            use_cache: 是否使用缓存
+
+        Returns:
+            如果是原生币则返回True，否则返回False
+        """
+        result = self.classify_coin(coin_id, use_cache)
+        return not result.is_stablecoin and not result.is_wrapped_coin
+
     def classify_coins_batch(
         self, coin_ids: List[str], use_cache: bool = True
     ) -> Dict[str, ClassificationResult]:
