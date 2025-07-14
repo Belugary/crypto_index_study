@@ -42,15 +42,68 @@ def normalize_timestamp(ts):
     return ts
 ```
 
+### 现象 3：实时数据时间戳 ℹ️ **系统正常行为**
+
+**现象描述**：
+
+```text
+正常: 2025-07-13 00:00:00 UTC  (24小时间隔)
+临时: 2025-07-13 07:08:54 UTC  (7.15小时间隔) ← 实时数据
+```
+
+**出现原因**：
+
+- 增量更新时，当日 `00:00:00 UTC` 数据尚未生成（T+1 逻辑）
+- CoinGecko API 返回当前时间的实时价格数据
+- 这是系统的正常行为，不是错误
+
+**✅ 自动校正机制**：
+
+价格更新器使用**覆盖模式**，会自动校正：
+
+1. `update_with_smart_strategy()` 重新下载完整历史数据
+2. 完全替换整个 CSV 文件，临时记录自动被正确数据替换
+3. 符合"简单胜于复杂"原则
+
+**验证机制**：
+
+```bash
+python scripts/update_price_data.py
+```
+
 ### 错误 3：时区混乱
 
-**问题**：UTC 时间与本地时间混用
+**项目状态**: 🟡 **部分解决，仍有改进空间**
+
+**已正确处理**：
+
+- ✅ 所有 CoinGecko API 数据统一使用 UTC
+- ✅ 批量下载器元数据使用 `datetime.now(timezone.utc)`
+- ✅ API 文档明确标注 `00:00:00 UTC`
+
+**仍存在的问题**：
+
+- ⚠️ 统计时间记录使用本地时间 (`price_updater.py` 第 311, 440 行)
+- ⚠️ 报告文件命名使用本地时间 (`price_updater.py` 第 516 行)
+- ⚠️ 增量更新器操作日志使用本地时间
+
+**影响评估**：
+
+- 🟢 **数据质量**: 无影响，所有币种价格数据时间戳正确
+- 🟡 **用户体验**: 轻微影响，日志和报告时间可能与用户期望不一致
 
 **解决方案**：
 
-- 所有 API 数据统一使用 UTC
-- 显示给用户时再转换本地时间
-- 明确标注时区信息
+```python
+# 推荐：统一使用 UTC
+self.stats["start_time"] = datetime.now(timezone.utc)
+self.stats["end_time"] = datetime.now(timezone.utc)
+
+# 文件命名也使用 UTC
+report_name = f"smart_update_report_{datetime.now(timezone.utc).strftime('%Y%m%d_%H%M%S')}.txt"
+```
+
+**修复优先级**: 低 (不影响核心功能，可在未来版本中改进)
 
 ## 项目中的时间戳使用模式
 
@@ -118,7 +171,7 @@ update_note = f"(最近更新: {date_str})"
 
 ### daily_files 目录结构
 
-```
+```text
 data/daily/daily_files/
 ├── 2024-01-01_crypto_data.csv  # 包含表头
 ├── 2024-01-02_crypto_data.csv  # 包含表头
@@ -155,4 +208,4 @@ df['timestamp'] = df['timestamp'].astype(float)  # 可能失败
 **更新记录**：
 
 - 创建日期: 2025-01-13
-- 最近更新: 2025-01-13
+- 最近更新: 2025-07-14 (新增实时数据时间戳异常处理)

@@ -13,6 +13,11 @@
 2. 基于CoinGecko category简单分类：非包装币且非稳定币 = 原生币
 3. 按顺序更新，确保原生币达到目标数量
 4. 同时更新遇到的非原生币（为未来研究准备）
+
+⚠️ 重要提醒：
+- 本更新器使用覆盖模式，会完全重新生成CSV文件
+- 自动解决实时数据时间戳异常问题（如07:08:54格式的非标准时间戳）
+- 详见：docs/timestamp_handling_memo.md
 """
 
 import logging
@@ -235,8 +240,9 @@ class PriceDataUpdater:
         """
         try:
             import os
-            import pandas as pd
             from datetime import date
+
+            import pandas as pd
 
             # 1. 检查文件修改时间
             mtime = os.path.getmtime(csv_file)
