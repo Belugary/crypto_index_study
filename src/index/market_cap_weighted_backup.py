@@ -4,14 +4,15 @@
 基于市值加权方式计算区块链资产指数
 """
 
+import logging
 import os
 import sys
-import pandas as pd
-import numpy as np
-from datetime import datetime, date
+from datetime import date, datetime
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple, Any
-import logging
+from typing import Any, Dict, List, Optional, Tuple
+
+import numpy as np
+import pandas as pd
 
 # 添加项目根目录到Python路径
 sys.path.insert(
@@ -25,7 +26,7 @@ from src.downloaders.daily_aggregator import DailyDataAggregator
 
 class MarketCapWeightedIndexCalculator:
     """市值加权指数计算器
-    
+
     重要说明：
     - 使用 data/daily/daily_files/ 目录下的每日汇总数据
     - 每日数据文件格式：timestamp,price,volume,market_cap,date,coin_id,rank
@@ -54,7 +55,7 @@ class MarketCapWeightedIndexCalculator:
         # 初始化每日数据聚合器
         self.daily_aggregator = DailyDataAggregator(
             data_dir="data/coins",  # 原始数据源（备用）
-            output_dir=str(self.daily_data_dir)
+            output_dir=str(self.daily_data_dir),
         )
 
         # 初始化分类器
@@ -69,34 +70,39 @@ class MarketCapWeightedIndexCalculator:
     def _get_daily_market_caps(self, target_date: date) -> Dict[str, float]:
         """
         获取指定日期的所有币种市值数据
-        
+
         Args:
             target_date: 目标日期
-            
+
         Returns:
             币种ID到市值的映射字典
         """
         try:
             # 从每日汇总数据获取
             daily_df = self.daily_aggregator.get_daily_data(target_date)
-            
+
             if daily_df.empty:
                 return {}
-            
+
             # 确保数据格式正确
-            if 'coin_id' not in daily_df.columns or 'market_cap' not in daily_df.columns:
+            if (
+                "coin_id" not in daily_df.columns
+                or "market_cap" not in daily_df.columns
+            ):
                 self.logger.error(f"日期 {target_date} 的数据格式不正确，缺少必要列")
                 return {}
-            
+
             # 过滤稳定币和包装币
             filtered_df = self._filter_coins(daily_df)
-            
+
             # 转换为字典
-            market_caps = filtered_df.set_index('coin_id')['market_cap'].to_dict()
-            
-            self.logger.debug(f"日期 {target_date}: 获取到 {len(market_caps)} 个币种的市值数据")
+            market_caps = filtered_df.set_index("coin_id")["market_cap"].to_dict()
+
+            self.logger.debug(
+                f"日期 {target_date}: 获取到 {len(market_caps)} 个币种的市值数据"
+            )
             return market_caps
-            
+
         except Exception as e:
             self.logger.error(f"获取日期 {target_date} 的市值数据失败: {e}")
             return {}
@@ -104,47 +110,47 @@ class MarketCapWeightedIndexCalculator:
     def _filter_coins(self, df: pd.DataFrame) -> pd.DataFrame:
         """
         过滤稳定币和包装币
-        
+
         Args:
             df: 包含币种数据的DataFrame
-            
+
         Returns:
             过滤后的DataFrame
         """
-        if df.empty or 'coin_id' not in df.columns:
+        if df.empty or "coin_id" not in df.columns:
             return df
-            
+
         filtered_df = df.copy()
-        
+
         # 过滤稳定币
         if self.exclude_stablecoins:
             stable_mask = []
-            for coin_id in df['coin_id']:
+            for coin_id in df["coin_id"]:
                 try:
                     stablecoin_result = self.stablecoin_checker.is_stablecoin(coin_id)
                     is_stable = stablecoin_result.get("is_stablecoin", False)
                     stable_mask.append(not is_stable)  # 保留非稳定币
                 except Exception:
                     stable_mask.append(True)  # 检查失败时保留
-            
+
             filtered_df = filtered_df[stable_mask]
             self.logger.debug(f"稳定币过滤: {len(df)} -> {len(filtered_df)}")
 
         # 过滤包装币
         if self.exclude_wrapped_coins:
             wrapped_mask = []
-            for coin_id in filtered_df['coin_id']:
+            for coin_id in filtered_df["coin_id"]:
                 try:
                     wrapped_result = self.wrapped_coin_checker.is_wrapped_coin(coin_id)
-                    is_wrapped = wrapped_result.get("is_wrapped", False)
+                    is_wrapped = wrapped_result.get("is_wrapped_coin", False)
                     wrapped_mask.append(not is_wrapped)  # 保留非包装币
                 except Exception:
                     wrapped_mask.append(True)  # 检查失败时保留
-            
+
             final_df = filtered_df[wrapped_mask]
             self.logger.debug(f"包装币过滤: {len(filtered_df)} -> {len(final_df)}")
             filtered_df = final_df
-        
+
         return filtered_df
 
     def _select_top_coins(self, market_caps: Dict[str, float], top_n: int) -> List[str]:
@@ -164,10 +170,12 @@ class MarketCapWeightedIndexCalculator:
         # 按市值排序并选择前N名
         sorted_coins = sorted(market_caps.items(), key=lambda x: x[1], reverse=True)
         top_coins = [coin_id for coin_id, _ in sorted_coins[:top_n]]
-        
+
         return top_coins
 
-    def _calculate_weights(self, coin_ids: List[str], market_caps: Dict[str, float]) -> Dict[str, float]:
+    def _calculate_weights(
+        self, coin_ids: List[str], market_caps: Dict[str, float]
+    ) -> Dict[str, float]:
         """
         计算市值权重
 
@@ -179,15 +187,14 @@ class MarketCapWeightedIndexCalculator:
             币种权重映射
         """
         total_market_cap = sum(market_caps[coin_id] for coin_id in coin_ids)
-        
+
         if total_market_cap == 0:
             return {}
-        
+
         weights = {
-            coin_id: market_caps[coin_id] / total_market_cap 
-            for coin_id in coin_ids
+            coin_id: market_caps[coin_id] / total_market_cap for coin_id in coin_ids
         }
-        
+
         return weights
 
     def _get_coin_price(self, coin_id: str, target_date: date) -> Optional[float]:
@@ -203,17 +210,17 @@ class MarketCapWeightedIndexCalculator:
         """
         try:
             daily_df = self.daily_aggregator.get_daily_data(target_date)
-            
+
             if daily_df.empty:
                 return None
-                
-            coin_data = daily_df[daily_df['coin_id'] == coin_id]
-            
+
+            coin_data = daily_df[daily_df["coin_id"] == coin_id]
+
             if coin_data.empty:
                 return None
-                
-            return float(coin_data.iloc[0]['price'])
-            
+
+            return float(coin_data.iloc[0]["price"])
+
         except Exception as e:
             self.logger.warning(f"获取 {coin_id} 在 {target_date} 的价格失败: {e}")
             return None

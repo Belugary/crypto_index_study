@@ -13,85 +13,13 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.updaters.metadata_updater import MetadataUpdater
 from src.updaters.price_updater import (
-    CoinClassifier,
     MarketDataFetcher,
     PriceDataUpdater,
 )
 
 
-class TestCoinClassifier(unittest.TestCase):
-    """测试币种分类器"""
-
-    def setUp(self):
-        """设置测试环境"""
-        self.classifier = CoinClassifier()
-
-    @patch("src.updaters.price_updater.StablecoinChecker")
-    @patch("src.updaters.price_updater.WrappedCoinChecker")
-    def test_classify_stable_coin(self, mock_wrapped_checker, mock_stable_checker):
-        """测试稳定币分类"""
-        print("\n--- 测试稳定币分类 ---")
-
-        # 模拟稳定币检查器返回 True
-        mock_stable_instance = Mock()
-        mock_stable_instance.is_stablecoin.return_value = {"is_stablecoin": True}
-        mock_stable_checker.return_value = mock_stable_instance
-
-        # 模拟包装币检查器
-        mock_wrapped_instance = Mock()
-        mock_wrapped_checker.return_value = mock_wrapped_instance
-
-        # 重新创建分类器以使用 mock
-        classifier = CoinClassifier()
-
-        result = classifier.classify_coin("tether")
-        self.assertEqual(result, "stable")
-        print(f"✅ 稳定币分类测试通过: {result}")
-
-    @patch("src.updaters.price_updater.StablecoinChecker")
-    @patch("src.updaters.price_updater.WrappedCoinChecker")
-    def test_classify_wrapped_coin(self, mock_wrapped_checker, mock_stable_checker):
-        """测试包装币分类"""
-        print("\n--- 测试包装币分类 ---")
-
-        # 模拟稳定币检查器返回 False
-        mock_stable_instance = Mock()
-        mock_stable_instance.is_stablecoin.return_value = {"is_stablecoin": False}
-        mock_stable_checker.return_value = mock_stable_instance
-
-        # 模拟包装币检查器返回 True
-        mock_wrapped_instance = Mock()
-        mock_wrapped_instance.is_wrapped_coin.return_value = {"is_wrapped_coin": True}
-        mock_wrapped_checker.return_value = mock_wrapped_instance
-
-        # 重新创建分类器以使用 mock
-        classifier = CoinClassifier()
-
-        result = classifier.classify_coin("wrapped-bitcoin")
-        self.assertEqual(result, "wrapped")
-        print(f"✅ 包装币分类测试通过: {result}")
-
-    @patch("src.updaters.price_updater.StablecoinChecker")
-    @patch("src.updaters.price_updater.WrappedCoinChecker")
-    def test_classify_native_coin(self, mock_wrapped_checker, mock_stable_checker):
-        """测试原生币分类"""
-        print("\n--- 测试原生币分类 ---")
-
-        # 模拟两个检查器都返回 False
-        mock_stable_instance = Mock()
-        mock_stable_instance.is_stablecoin.return_value = {"is_stablecoin": False}
-        mock_stable_checker.return_value = mock_stable_instance
-
-        mock_wrapped_instance = Mock()
-        mock_wrapped_instance.is_wrapped_coin.return_value = {"is_wrapped_coin": False}
-        mock_wrapped_checker.return_value = mock_wrapped_instance
-
-        # 重新创建分类器以使用 mock
-        classifier = CoinClassifier()
-
-        result = classifier.classify_coin("bitcoin")
-        self.assertEqual(result, "native")
-        print(f"✅ 原生币分类测试通过: {result}")
+# TODO: CoinClassifier 已被移除，其功能由 UnifiedClassifier 提供
+# 如需测试分类功能，请使用 tests/test_classification.py
 
 
 class TestMarketDataFetcher(unittest.TestCase):
@@ -136,9 +64,7 @@ class TestPriceDataUpdater(unittest.TestCase):
         """设置测试环境"""
         with patch("src.updaters.price_updater.CoinGeckoAPI"), patch(
             "src.updaters.price_updater.create_batch_downloader"
-        ), patch("src.updaters.price_updater.CoinClassifier"), patch(
-            "src.updaters.price_updater.MarketDataFetcher"
-        ):
+        ), patch("src.updaters.price_updater.MarketDataFetcher"):
             self.updater = PriceDataUpdater()
 
     def test_download_coin_data_new_coin(self):
@@ -180,9 +106,9 @@ class TestMetadataUpdater(unittest.TestCase):
 
     def setUp(self):
         """设置测试环境"""
-        with patch("src.updaters.metadata_updater.StablecoinChecker"), patch(
-            "src.updaters.metadata_updater.WrappedCoinChecker"
-        ), patch("src.updaters.metadata_updater.create_batch_downloader"):
+        with patch("src.updaters.metadata_updater.UnifiedClassifier"), patch(
+            "src.updaters.metadata_updater.create_batch_downloader"
+        ):
             self.updater = MetadataUpdater()
 
     def test_get_all_coin_ids_from_data(self):

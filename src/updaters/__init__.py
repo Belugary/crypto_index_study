@@ -7,12 +7,11 @@
 - 智能更新策略
 """
 
-from .price_updater import PriceDataUpdater, CoinClassifier, MarketDataFetcher
+from .price_updater import PriceDataUpdater, MarketDataFetcher
 from .metadata_updater import MetadataUpdater
 
 __all__ = [
     "PriceDataUpdater",
-    "CoinClassifier",
     "MarketDataFetcher",
     "MetadataUpdater",
 ]

@@ -52,9 +52,7 @@ class TestPriceDataUpdaterLogic(unittest.TestCase):
 
         with patch("src.updaters.price_updater.CoinGeckoAPI"), patch(
             "src.updaters.price_updater.create_batch_downloader"
-        ), patch("src.updaters.price_updater.CoinClassifier"), patch(
-            "src.updaters.price_updater.MarketDataFetcher"
-        ):
+        ), patch("src.updaters.price_updater.MarketDataFetcher"):
 
             updater = PriceDataUpdater()
             self.assertIsNotNone(updater.api)
@@ -68,7 +66,6 @@ class TestPriceDataUpdaterLogic(unittest.TestCase):
 
     @patch("src.updaters.price_updater.CoinGeckoAPI")
     @patch("src.updaters.price_updater.create_batch_downloader")
-    @patch("src.updaters.price_updater.CoinClassifier")
     @patch("src.updaters.price_updater.MarketDataFetcher")
     @patch("src.updaters.price_updater.tqdm")
     @patch("time.sleep")
@@ -77,7 +74,6 @@ class TestPriceDataUpdaterLogic(unittest.TestCase):
         mock_sleep,
         mock_tqdm,
         MockMarketDataFetcher,
-        MockCoinClassifier,
         mock_create_batch_downloader,
         MockCoinGeckoAPI,
     ):
@@ -88,7 +84,6 @@ class TestPriceDataUpdaterLogic(unittest.TestCase):
         mock_api = MockCoinGeckoAPI.return_value
         mock_downloader = MagicMock()
         mock_create_batch_downloader.return_value = mock_downloader
-        mock_classifier = MockCoinClassifier.return_value
         mock_market_fetcher = MockMarketDataFetcher.return_value
 
         # 模拟市值排名数据
@@ -102,9 +97,6 @@ class TestPriceDataUpdaterLogic(unittest.TestCase):
             },
         ]
         mock_market_fetcher.get_top_coins.return_value = mock_coins_data
-
-        # 模拟币种分类 - 都是原生币
-        mock_classifier.classify_coin.return_value = "native"
 
         # 创建updater实例
         updater = PriceDataUpdater()
@@ -122,7 +114,6 @@ class TestPriceDataUpdaterLogic(unittest.TestCase):
 
         # 断言关键方法被调用
         mock_market_fetcher.get_top_coins.assert_called()
-        mock_classifier.classify_coin.assert_called()
         updater.download_coin_data.assert_called()
         updater.update_metadata.assert_called_once()
         updater.generate_final_report.assert_called_once()
@@ -167,9 +158,9 @@ class TestMetadataUpdaterIntegration(unittest.TestCase):
 
     def setUp(self):
         """设置测试环境"""
-        with patch("src.updaters.metadata_updater.StablecoinChecker"), patch(
-            "src.updaters.metadata_updater.WrappedCoinChecker"
-        ), patch("src.updaters.metadata_updater.create_batch_downloader"):
+        with patch("src.updaters.metadata_updater.UnifiedClassifier"), patch(
+            "src.updaters.metadata_updater.create_batch_downloader"
+        ):
             from src.updaters.metadata_updater import MetadataUpdater
 
             self.updater = MetadataUpdater()

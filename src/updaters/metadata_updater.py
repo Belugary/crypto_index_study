@@ -17,8 +17,7 @@ from typing import Dict, List, Optional, Set
 
 from tqdm import tqdm
 
-from ..classification.stablecoin_checker import StablecoinChecker
-from ..classification.wrapped_coin_checker import WrappedCoinChecker
+from ..classification.unified_classifier import UnifiedClassifier
 from ..downloaders.batch_downloader import create_batch_downloader
 
 logger = logging.getLogger(__name__)
@@ -43,9 +42,8 @@ class MetadataUpdater:
         self.coins_dir = self.project_root / "data" / "coins"
         self.metadata_dir = self.project_root / "data" / "metadata"
 
-        # 初始化检查器和下载器
-        self.stablecoin_checker = StablecoinChecker()
-        self.wrapped_checker = WrappedCoinChecker()
+        # 初始化统一分类器和下载器
+        self.classifier = UnifiedClassifier()
         self.downloader = create_batch_downloader()
 
     def get_all_coin_ids_from_data(self) -> List[str]:
@@ -201,8 +199,31 @@ class MetadataUpdater:
         logger.info("=" * 40)
 
         try:
-            # 获取所有稳定币
-            stablecoins = self.stablecoin_checker.get_all_stablecoins()
+            # 获取所有币种ID
+            all_coin_ids = self.get_all_coin_ids_from_data()
+            if not all_coin_ids:
+                logger.warning("❌ 未找到任何币种数据")
+                return False
+
+            # 使用统一分类器批量分类
+            logger.info("🔍 正在分析所有币种...")
+            classification_results = self.classifier.classify_coins_batch(all_coin_ids)
+
+            # 筛选稳定币
+            stablecoins = []
+            for coin_id, result in classification_results.items():
+                if result.is_stablecoin:
+                    stablecoins.append(
+                        {
+                            "coin_id": result.coin_id,
+                            "name": result.name,
+                            "symbol": result.symbol,
+                            "is_stablecoin": result.is_stablecoin,
+                            "stablecoin_categories": result.stablecoin_categories,
+                            "all_categories": result.all_categories,
+                            "last_updated": result.last_updated,
+                        }
+                    )
 
             if not stablecoins:
                 logger.warning("❌ 未找到任何稳定币")
@@ -210,16 +231,20 @@ class MetadataUpdater:
 
             logger.info(f"✅ 发现 {len(stablecoins)} 个稳定币:")
 
-            # 按市值排名或名称排序显示
+            # 按名称排序显示
+            stablecoins.sort(key=lambda x: x["name"] or "")
             for i, coin in enumerate(stablecoins, 1):
-                symbol = coin["symbol"].upper()
-                name = coin["name"]
-                categories = coin["stablecoin_categories"]
+                symbol = (coin["symbol"] or "").upper()
+                name = coin["name"] or coin["coin_id"]
+                categories = coin["stablecoin_categories"] or []
                 logger.info(f"  {i:2d}. {name} ({symbol})")
                 logger.info(f"      分类: {', '.join(categories)}")
 
-            # 导出到 CSV
-            success = self.stablecoin_checker.export_stablecoins_csv()
+            # 使用统一分类器的导出功能
+            stablecoin_ids = [coin["coin_id"] for coin in stablecoins]
+            success = self.classifier.export_classification_csv(
+                stablecoin_ids, "data/metadata/stablecoins.csv"
+            )
             if success:
                 logger.info(f"\n💾 稳定币列表已导出到: data/metadata/stablecoins.csv")
 
@@ -255,8 +280,32 @@ class MetadataUpdater:
         logger.info("=" * 40)
 
         try:
-            # 获取所有包装币
-            wrapped_coins = self.wrapped_checker.get_all_wrapped_coins()
+            # 获取所有币种ID
+            all_coin_ids = self.get_all_coin_ids_from_data()
+            if not all_coin_ids:
+                logger.warning("❌ 未找到任何币种数据")
+                return False
+
+            # 使用统一分类器批量分类
+            logger.info("🔍 正在分析所有币种...")
+            classification_results = self.classifier.classify_coins_batch(all_coin_ids)
+
+            # 筛选包装币
+            wrapped_coins = []
+            for coin_id, result in classification_results.items():
+                if result.is_wrapped_coin:
+                    wrapped_coins.append(
+                        {
+                            "coin_id": result.coin_id,
+                            "name": result.name,
+                            "symbol": result.symbol,
+                            "is_wrapped_coin": result.is_wrapped_coin,
+                            "confidence": result.confidence,
+                            "wrapped_categories": result.wrapped_categories,
+                            "all_categories": result.all_categories,
+                            "last_updated": result.last_updated,
+                        }
+                    )
 
             if not wrapped_coins:
                 logger.warning("❌ 未找到任何包装币")
@@ -264,29 +313,23 @@ class MetadataUpdater:
 
             logger.info(f"✅ 发现 {len(wrapped_coins)} 个包装币:")
 
-            # 按市值排名或名称排序显示
+            # 按名称排序显示
+            wrapped_coins.sort(key=lambda x: x["name"] or "")
             for i, coin in enumerate(wrapped_coins, 1):
-                symbol = coin["symbol"].upper()
-                name = coin["name"]
+                symbol = (coin["symbol"] or "").upper()
+                name = coin["name"] or coin["coin_id"]
                 confidence = coin["confidence"]
-                indicators = []
-                if coin["wrapped_categories"]:
-                    indicators.extend(coin["wrapped_categories"])
-                if coin["name_indicators"]:
-                    indicators.extend(
-                        [f"名称:{ind}" for ind in coin["name_indicators"]]
-                    )
-                if coin["symbol_patterns"]:
-                    indicators.extend(
-                        [f"符号:{ind}" for ind in coin["symbol_patterns"]]
-                    )
+                categories = coin["wrapped_categories"] or []
 
                 logger.info(f"  {i:2d}. {name} ({symbol}) - 置信度: {confidence}")
-                if indicators:
-                    logger.info(f"      识别依据: {', '.join(indicators[:3])}")
+                if categories:
+                    logger.info(f"      分类: {', '.join(categories[:3])}")
 
-            # 导出到 CSV
-            success = self.wrapped_checker.export_wrapped_coins_csv()
+            # 使用统一分类器的导出功能
+            wrapped_coin_ids = [coin["coin_id"] for coin in wrapped_coins]
+            success = self.classifier.export_classification_csv(
+                wrapped_coin_ids, "data/metadata/wrapped_coins.csv"
+            )
             if success:
                 logger.info(f"\n💾 包装币列表已导出到: data/metadata/wrapped_coins.csv")
 
@@ -347,18 +390,18 @@ class MetadataUpdater:
                 logger.error("❌ 没有找到任何币种数据")
                 return False
 
-            # 获取稳定币列表
-            stablecoin_results = []
-            for coin_id in coin_ids:
-                result = self.stablecoin_checker.is_stablecoin(coin_id)
-                if result["is_stablecoin"]:
-                    stablecoin_results.append(coin_id)
+            # 使用统一分类器批量分类所有币种
+            logger.info("🔍 正在分析所有币种...")
+            classification_results = self.classifier.classify_coins_batch(coin_ids)
 
-            # 获取包装币列表
+            # 分类汇总
+            stablecoin_results = []
             wrapped_results = []
-            for coin_id in coin_ids:
-                result = self.wrapped_checker.is_wrapped_coin(coin_id)
-                if result["is_wrapped_coin"]:
+
+            for coin_id, result in classification_results.items():
+                if result.is_stablecoin:
+                    stablecoin_results.append(coin_id)
+                if result.is_wrapped_coin:
                     wrapped_results.append(coin_id)
 
             # 生成原生币列表（排除稳定币和包装币）

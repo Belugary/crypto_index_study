@@ -30,8 +30,7 @@ from typing import Dict, List, Optional, Set, Tuple
 from tqdm import tqdm
 
 from ..api.coingecko import CoinGeckoAPI
-from ..classification.stablecoin_checker import StablecoinChecker
-from ..classification.wrapped_coin_checker import WrappedCoinChecker
+from ..classification.unified_classifier import UnifiedClassifier
 from ..downloaders.batch_downloader import create_batch_downloader
 
 # API限流配置
@@ -41,47 +40,6 @@ RATE_LIMIT_CONFIG = {
 }
 
 logger = logging.getLogger(__name__)
-
-
-class CoinClassifier:
-    """币种分类器 - 职责单一：基于CoinGecko分类币种"""
-
-    def __init__(self):
-        self.stablecoin_checker = StablecoinChecker()
-        self.wrapped_checker = WrappedCoinChecker()
-
-    def classify_coin(self, coin_id: str) -> str:
-        """
-        分类单个币种
-
-        Args:
-            coin_id: 币种ID
-
-        Returns:
-            'stable' | 'wrapped' | 'native'
-        """
-        # 检查是否为稳定币
-        stable_result = self.stablecoin_checker.is_stablecoin(coin_id)
-        if isinstance(stable_result, dict):
-            is_stable = stable_result.get("is_stablecoin", False)
-        else:
-            is_stable = stable_result
-
-        if is_stable:
-            return "stable"
-
-        # 检查是否为包装币
-        wrapped_result = self.wrapped_checker.is_wrapped_coin(coin_id)
-        if isinstance(wrapped_result, dict):
-            is_wrapped = wrapped_result.get("is_wrapped_coin", False)
-        else:
-            is_wrapped = wrapped_result
-
-        if is_wrapped:
-            return "wrapped"
-
-        # 既不是稳定币也不是包装币，就是原生币
-        return "native"
 
 
 class MarketDataFetcher:
@@ -162,7 +120,7 @@ class PriceDataUpdater:
     def __init__(self):
         self.api = CoinGeckoAPI()
         self.downloader = create_batch_downloader()
-        self.classifier = CoinClassifier()
+        self.classifier = UnifiedClassifier()  # 直接使用统一分类器
         self.market_fetcher = MarketDataFetcher(self.api)
 
         # 目录设置
@@ -344,8 +302,18 @@ class PriceDataUpdater:
                         coin_symbol = coin_info["symbol"].upper()
 
                         try:
-                            # 分类币种
-                            coin_type = self.classifier.classify_coin(coin_id)
+                            # 使用统一分类器进行分类
+                            classification_result = self.classifier.classify_coin(
+                                coin_id
+                            )
+
+                            # 确定币种类型
+                            if classification_result.is_stablecoin:
+                                coin_type = "stable"
+                            elif classification_result.is_wrapped_coin:
+                                coin_type = "wrapped"
+                            else:
+                                coin_type = "native"
 
                             # 检查是否需要更新
                             # 每个币种都直接下载全量数据，简单直接
@@ -447,37 +415,64 @@ class PriceDataUpdater:
     def update_metadata(self):
         """更新稳定币和包装币元数据"""
         try:
-            # 更新稳定币元数据
-            stablecoin_checker = StablecoinChecker()
-            # 导出稳定币列表 (基于现有方法)
-            stablecoins = stablecoin_checker.get_all_stablecoins()
+            # 使用统一分类器更新元数据
+            classifier = UnifiedClassifier()
+
+            # 获取所有币种数据
+            from ..downloaders.batch_downloader import create_batch_downloader
+
+            downloader = create_batch_downloader()
+            metadata_dir = Path(downloader.data_dir) / "metadata" / "coin_metadata"
+
+            if not metadata_dir.exists():
+                logger.warning("❌ 元数据目录不存在")
+                return
+
+            coin_ids = [f.stem for f in metadata_dir.glob("*.json")]
+            if not coin_ids:
+                logger.warning("❌ 未找到任何币种元数据")
+                return
+
+            logger.info(f"🔍 正在分析 {len(coin_ids)} 个币种...")
+
+            # 批量分类
+            classification_results = classifier.classify_coins_batch(coin_ids)
+
+            # 导出稳定币列表
+            stablecoins = [
+                result
+                for result in classification_results.values()
+                if result.is_stablecoin
+            ]
             stable_file = self.metadata_dir / "stablecoins.csv"
 
             with open(stable_file, "w", encoding="utf-8") as f:
                 f.write("coin_id,symbol,name\n")
-                for coin_info in stablecoins:
+                for result in stablecoins:
                     f.write(
-                        f"{coin_info.get('id', '')},{coin_info.get('symbol', '')},{coin_info.get('name', '')}\n"
+                        f"{result.coin_id},{result.symbol or ''},{result.name or ''}\n"
                     )
 
-            print(f"✅ 稳定币列表已导出到: {stable_file}")
-            print(f"   共导出 {len(stablecoins)} 个稳定币")
+            logger.info(f"✅ 稳定币列表已导出到: {stable_file}")
+            logger.info(f"   共导出 {len(stablecoins)} 个稳定币")
 
-            # 更新包装币元数据
-            wrapped_checker = WrappedCoinChecker()
-            # 导出包装币列表 (基于现有方法)
-            wrapped_coins = wrapped_checker.get_all_wrapped_coins()
+            # 导出包装币列表
+            wrapped_coins = [
+                result
+                for result in classification_results.values()
+                if result.is_wrapped_coin
+            ]
             wrapped_file = self.metadata_dir / "wrapped_coins.csv"
 
             with open(wrapped_file, "w", encoding="utf-8") as f:
                 f.write("coin_id,symbol,name\n")
-                for coin_info in wrapped_coins:
+                for result in wrapped_coins:
                     f.write(
-                        f"{coin_info.get('id', '')},{coin_info.get('symbol', '')},{coin_info.get('name', '')}\n"
+                        f"{result.coin_id},{result.symbol or ''},{result.name or ''}\n"
                     )
 
-            print(f"✅ 包装币列表已导出到: {wrapped_file}")
-            print(f"   共导出 {len(wrapped_coins)} 个包装币")
+            logger.info(f"✅ 包装币列表已导出到: {wrapped_file}")
+            logger.info(f"   共导出 {len(wrapped_coins)} 个包装币")
 
             logger.info("✅ 元数据更新完成")
         except Exception as e:

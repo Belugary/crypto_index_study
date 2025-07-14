@@ -4,14 +4,15 @@
 基于市值加权方式计算区块链资产指数
 """
 
+import logging
 import os
 import sys
-import pandas as pd
-import numpy as np
-from datetime import datetime, date
+from datetime import date, datetime
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple, Any, Union
-import logging
+from typing import Any, Dict, List, Optional, Tuple, Union
+
+import numpy as np
+import pandas as pd
 from tqdm import tqdm
 
 # 添加项目根目录到Python路径
@@ -19,8 +20,7 @@ sys.path.insert(
     0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 )
 
-from src.classification.stablecoin_checker import StablecoinChecker
-from src.classification.wrapped_coin_checker import WrappedCoinChecker
+from src.classification.unified_classifier import UnifiedClassifier
 from src.downloaders.daily_aggregator import DailyDataAggregator
 
 
@@ -59,11 +59,12 @@ class MarketCapWeightedIndexCalculator:
             data_dir=str(self.data_dir), output_dir=str(self.daily_output_dir)
         )
 
-        # 初始化分类器
-        if exclude_stablecoins:
-            self.stablecoin_checker = StablecoinChecker()
-        if exclude_wrapped_coins:
-            self.wrapped_coin_checker = WrappedCoinChecker()
+        # 初始化统一分类器 (替代原有的两个分离分类器)
+        self.classifier = UnifiedClassifier()
+
+        # 保持向后兼容：记录过滤设置
+        self.exclude_stablecoins = exclude_stablecoins
+        self.exclude_wrapped_coins = exclude_wrapped_coins
 
         # 设置日志
         self.logger = logging.getLogger(__name__)
@@ -103,21 +104,20 @@ class MarketCapWeightedIndexCalculator:
         for csv_file in self.data_dir.glob("*.csv"):
             coin_id = csv_file.stem
 
-            # 检查是否需要排除稳定币
-            if self.exclude_stablecoins:
+            # 使用统一分类器进行过滤 (性能优化：一次调用获取所有分类信息)
+            if self.exclude_stablecoins or self.exclude_wrapped_coins:
                 try:
-                    stablecoin_result = self.stablecoin_checker.is_stablecoin(coin_id)
-                    if stablecoin_result.get("is_stablecoin", False):
-                        continue
-                except Exception:
-                    # 如果检查失败，保守处理，不排除
-                    pass
+                    classification_result = self.classifier.classify_coin(coin_id)
 
-            # 检查是否需要排除包装币
-            if self.exclude_wrapped_coins:
-                try:
-                    wrapped_result = self.wrapped_coin_checker.is_wrapped_coin(coin_id)
-                    if wrapped_result.get("is_wrapped_coin", False):
+                    # 检查是否需要排除稳定币
+                    if self.exclude_stablecoins and classification_result.is_stablecoin:
+                        continue
+
+                    # 检查是否需要排除包装币
+                    if (
+                        self.exclude_wrapped_coins
+                        and classification_result.is_wrapped_coin
+                    ):
                         continue
                 except Exception:
                     # 如果检查失败，保守处理，不排除
@@ -285,36 +285,25 @@ class MarketCapWeightedIndexCalculator:
 
         filtered_df = df.copy()
 
-        # 过滤稳定币
-        if self.exclude_stablecoins:
-            stable_mask = []
-            for coin_id in df["coin_id"]:
-                try:
-                    stablecoin_result = self.stablecoin_checker.is_stablecoin(coin_id)
-                    is_stable = stablecoin_result.get("is_stablecoin", False)
-                    stable_mask.append(not is_stable)  # 保留非稳定币
-                except Exception:
-                    stable_mask.append(True)  # 检查失败时保留
+        # 使用统一分类器进行批量过滤 (性能优化)
+        if self.exclude_stablecoins or self.exclude_wrapped_coins:
+            coin_ids = df["coin_id"].tolist()
 
-            filtered_df = filtered_df[stable_mask]
-            self.logger.debug(f"稳定币过滤: {len(df)} -> {len(filtered_df)}")
+            # 批量过滤，一次调用处理所有币种
+            filtered_coin_ids = self.classifier.filter_coins(
+                coin_ids=coin_ids,
+                exclude_stablecoins=self.exclude_stablecoins,
+                exclude_wrapped_coins=self.exclude_wrapped_coins,
+                use_cache=True,
+            )
 
-        # 过滤包装币
-        if self.exclude_wrapped_coins:
-            wrapped_mask = []
-            for coin_id in filtered_df["coin_id"]:
-                try:
-                    wrapped_result = self.wrapped_coin_checker.is_wrapped_coin(coin_id)
-                    is_wrapped = wrapped_result.get(
-                        "is_wrapped_coin", False
-                    )  # 修复字段名
-                    wrapped_mask.append(not is_wrapped)  # 保留非包装币
-                except Exception:
-                    wrapped_mask.append(True)  # 检查失败时保留
+            # 只保留过滤后的币种
+            filtered_df = filtered_df[filtered_df["coin_id"].isin(filtered_coin_ids)]
 
-            final_df = filtered_df[wrapped_mask]
-            self.logger.debug(f"包装币过滤: {len(filtered_df)} -> {len(final_df)}")
-            filtered_df = final_df
+            self.logger.debug(
+                f"分类过滤: {len(df)} -> {len(filtered_df)} "
+                f"(排除稳定币: {self.exclude_stablecoins}, 排除包装币: {self.exclude_wrapped_coins})"
+            )
 
         return filtered_df
 
