@@ -291,12 +291,21 @@ class BatchDownloader:
         """
         将市场数据保存为 CSV 文件
 
+        保存的字段说明:
+        - timestamp: Unix时间戳 (毫秒)
+        - price: 价格 (USD)
+        - volume: 24小时交易量 (USD)
+        - market_cap: 流通市值 (USD) 
+          ⚠️ 重要: 这是流通市值 (Circulating Market Cap)，不是完全稀释市值
+          计算公式: market_cap = 当前价格 × 流通供应量
+          数据来源: CoinGecko API get_coin_market_chart 端点的 market_caps 字段
+
         "应该有一种-- 最好只有一种 --明显的方法来做一件事"
         """
         try:
             # 提取数据
             prices = data.get("prices", [])
-            market_caps = data.get("market_caps", [])
+            market_caps = data.get("market_caps", [])  # 流通市值，非完全稀释市值
             total_volumes = data.get("total_volumes", [])
 
             if not prices:
@@ -313,13 +322,13 @@ class BatchDownloader:
 
                 market_cap = None
                 if i < len(market_caps) and market_caps[i][1] is not None:
-                    market_cap = float(market_caps[i][1])
+                    market_cap = float(market_caps[i][1])  # 流通市值 (Circulating Market Cap)
 
                 row = {
                     "timestamp": int(timestamp),
                     "price": float(price) if price is not None else None,
                     "volume": volume,
-                    "market_cap": market_cap,
+                    "market_cap": market_cap,  # 流通市值，用于指数计算和排名
                 }
                 df_data.append(row)
 

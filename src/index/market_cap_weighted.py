@@ -2,6 +2,12 @@
 市值加权指数计算器
 
 基于市值加权方式计算区块链资产指数
+
+⚠️ 重要数据说明:
+- 使用的市值为流通市值 (Circulating Market Cap)，非完全稀释市值
+- 流通市值 = 当前价格 × 流通供应量
+- 这是金融市场和指数编制的标准做法，更能反映真实可交易价值
+- 数据来源: CoinGecko API 的历史图表数据
 """
 
 import logging
@@ -167,6 +173,11 @@ class MarketCapWeightedIndexCalculator:
 
         Returns:
             币种ID到市值的映射字典
+            
+        ⚠️ 重要: 返回的是流通市值 (Circulating Market Cap)
+        - 流通市值 = 当前价格 × 流通供应量  
+        - 用于指数权重计算和排名筛选
+        - 符合传统金融指数编制标准
         """
         try:
             # 使用缓存的数据获取方法
