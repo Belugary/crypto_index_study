@@ -64,10 +64,8 @@ logs/
 # !logs/reports/
 # !logs/*_report.txt
 
-# 数据文件是项目核心价值，需要同步到 GitHub
-# 注意：价格数据文件虽然较大，但对研究者很有价值
-# data/coins/*.csv - 已移除忽略，保留所有价格数据
-# data/daily/daily_files/ - 已移除忽略，保留每日聚合数据
+# 数据文件是项目核心价值，所有数据都需要同步到 GitHub
+# ✅ 保留所有数据文件：data/coins/*.csv, data/daily/, data/metadata/
 
 # 只忽略临时和缓存的数据文件
 data/temp/
