@@ -7,20 +7,20 @@
 
 ⚠️ 数据字段说明:
 - price: 当日价格 (USD)
-- volume: 当日24小时交易量 (USD)  
+- volume: 当日24小时交易量 (USD)
 - market_cap: 当日流通市值 (USD)
   重要: 这是流通市值 (Circulating Market Cap)，计算公式为价格×流通供应量
   这是金融指数编制的标准做法，更准确反映可交易价值
 """
 
-import logging
-import os
 import glob
+import logging
+import multiprocessing
+import os
+from concurrent.futures import ProcessPoolExecutor, as_completed
 from datetime import date, datetime, timedelta
 from pathlib import Path
-from typing import Dict, List, Optional, Union, Tuple
-from concurrent.futures import ProcessPoolExecutor, as_completed
-import multiprocessing
+from typing import Dict, List, Optional, Tuple, Union
 
 import pandas as pd
 
@@ -621,9 +621,9 @@ class DailyDataAggregator:
         Returns:
             Tuple[int, int]: (成功处理数量, 总文件数量)
         """
+        import glob
         from concurrent.futures import ThreadPoolExecutor, as_completed
         from datetime import datetime
-        import glob
 
         self.logger.info(f"开始重排序每日文件，dry_run={dry_run}")
 

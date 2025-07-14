@@ -295,7 +295,7 @@ class BatchDownloader:
         - timestamp: Unix时间戳 (毫秒)
         - price: 价格 (USD)
         - volume: 24小时交易量 (USD)
-        - market_cap: 流通市值 (USD) 
+        - market_cap: 流通市值 (USD)
           ⚠️ 重要: 这是流通市值 (Circulating Market Cap)，不是完全稀释市值
           计算公式: market_cap = 当前价格 × 流通供应量
           数据来源: CoinGecko API get_coin_market_chart 端点的 market_caps 字段
@@ -322,7 +322,9 @@ class BatchDownloader:
 
                 market_cap = None
                 if i < len(market_caps) and market_caps[i][1] is not None:
-                    market_cap = float(market_caps[i][1])  # 流通市值 (Circulating Market Cap)
+                    market_cap = float(
+                        market_caps[i][1]
+                    )  # 流通市值 (Circulating Market Cap)
 
                 row = {
                     "timestamp": int(timestamp),

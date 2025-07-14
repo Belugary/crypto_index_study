@@ -15,9 +15,8 @@ import os
 import sys
 from datetime import date, datetime
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple, Union
+from typing import Dict, List, Optional, Union
 
-import numpy as np
 import pandas as pd
 from tqdm import tqdm
 
@@ -173,9 +172,9 @@ class MarketCapWeightedIndexCalculator:
 
         Returns:
             币种ID到市值的映射字典
-            
+
         ⚠️ 重要: 返回的是流通市值 (Circulating Market Cap)
-        - 流通市值 = 当前价格 × 流通供应量  
+        - 流通市值 = 当前价格 × 流通供应量
         - 用于指数权重计算和排名筛选
         - 符合传统金融指数编制标准
         """
