@@ -142,6 +142,9 @@ notes_*.md
 .temp_*.md
 *_temp_plan.md
 
+# 本地测试文件夹
+local_test/
+
 # 实验和原型文件
 experiment_*.py
 prototype_*.py
