@@ -194,8 +194,9 @@ def main():
             )
 
         # 保存指数数据（如果请求）
+
         if args.save_index:
-            output_dir = Path("data/indices")
+            output_dir = Path(__file__).parent / "outputs"
             output_dir.mkdir(exist_ok=True)
 
             # 保存一年期数据

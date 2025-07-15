@@ -42,9 +42,6 @@ python examples/crypto30_investment_analysis.py --save-index
 - 多时期投资回报计算
 - 年化收益率计算
 - 风险和波动性分析
-- 详细的投资报告生成
-
-## 注意事项
 
 ⚠️ **风险提示**:
 
@@ -62,6 +59,8 @@ python examples/crypto30_investment_analysis.py --save-index
 - 测试不同的权重策略
 - 研究不同时期的市场表现
 - 开发更复杂的投资策略分析工具
+  请运行 `crypto30_investment_analysis.py` 查看详细分析过程和结果。
+  所有输出文件都在本目录的 outputs 子文件夹内。
 
 ## 技术要求
 
