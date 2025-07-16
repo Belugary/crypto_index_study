@@ -39,6 +39,27 @@ class DailyDataAggregator:
     4. 分析数据覆盖范围和质量
     """
 
+    @staticmethod
+    def read_daily_snapshot(date_str: str, daily_dir: str = "data/daily/daily_files") -> pd.DataFrame:
+        """
+        读取已聚合的每日市场快照 CSV（不依赖实例化和 coin_data 加载）
+
+        Args:
+            date_str: 日期字符串，格式为 'YYYY-MM-DD'
+            daily_dir: 每日快照文件夹路径，默认 'data/daily/daily_files'
+
+        Returns:
+            指定日期的市场快照 DataFrame，若文件不存在则返回空 DataFrame
+        """
+        file_path = Path(daily_dir) / f"{date_str}.csv"
+        if not file_path.exists():
+            return pd.DataFrame()
+        
+        df = pd.read_csv(file_path)
+        if "date" in df.columns:
+            df["date"] = pd.to_datetime(df["date"]).dt.date
+        return df
+
     def __init__(self, data_dir: str = "data/coins", output_dir: str = "data/daily"):
         """初始化聚合器
 

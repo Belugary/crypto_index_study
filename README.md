@@ -17,7 +17,13 @@
 ```bash
 cd crypto_index_study
 python -m venv .venv
-source .venv/bin/activate  # Linux/Mac
+
+# 激活虚拟环境
+source .venv/bin/activate      # Linux/Mac
+# 或者在Windows上使用：
+.venv\Scripts\activate.bat     # Windows CMD
+.venv\Scripts\Activate.ps1     # Windows PowerShell
+
 pip install -r requirements.txt
 ```
 
