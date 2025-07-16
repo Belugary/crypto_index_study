@@ -40,14 +40,14 @@ class DailyDataAggregator:
     """
 
     @staticmethod
-    def read_daily_snapshot(date_str: str, daily_dir: str = "data/daily/daily_files", only_native: bool = True) -> pd.DataFrame:
+    def read_daily_snapshot(date_str: str, daily_dir: str = "data/daily/daily_files", result_include_all: bool = False) -> pd.DataFrame:
         """
         读取已聚合的每日市场快照 CSV（不依赖实例化和 coin_data 加载）
 
         Args:
             date_str: 日期字符串，格式为 'YYYY-MM-DD'
             daily_dir: 每日快照文件夹路径，默认 'data/daily/daily_files'
-            only_native: 是否只返回原生币种（排除稳定币和包装币），默认True
+            result_include_all: 结果是否包含所有币种（稳定币和包装币），默认False
 
         Returns:
             指定日期的市场快照 DataFrame，若文件不存在则返回空 DataFrame
@@ -61,7 +61,7 @@ class DailyDataAggregator:
             df["date"] = pd.to_datetime(df["date"]).dt.date
         
         # 如果需要，过滤出原生币种
-        if only_native and not df.empty:
+        if not result_include_all and not df.empty:
             from src.classification.unified_classifier import UnifiedClassifier
             
             # 推断数据根目录
@@ -80,13 +80,13 @@ class DailyDataAggregator:
             
         return df
 
-    def __init__(self, data_dir: Optional[str] = None, output_dir: Optional[str] = None, only_native: bool = True):
+    def __init__(self, data_dir: Optional[str] = None, output_dir: Optional[str] = None, result_include_all: bool = False):
         """初始化聚合器，自动定位项目根目录，始终以主目录下的data为基准，无论在哪调用都不会在子目录创建错误的data文件夹。
 
         Args:
             data_dir: 原始CSV数据目录（可选，默认自动定位项目根目录下的data/coins）
             output_dir: 聚合后数据输出目录（可选，默认自动定位项目根目录下的data/daily）
-            only_native: 是否只处理原生币种（排除稳定币和包装币），默认True
+            result_include_all: 结果是否包含所有币种（稳定币和包装币），默认False
         """
         # 自动查找项目根目录（包含.git的目录）
         cur = Path.cwd()
@@ -106,8 +106,8 @@ class DailyDataAggregator:
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(parents=True, exist_ok=True)
         
-        # 保存 only_native 设置
-        self.only_native = only_native
+        # 保存 result_include_all 设置
+        self.result_include_all = result_include_all
         
         # 设置日志目录
         self.log_folder = self.project_root / "logs"
@@ -193,7 +193,7 @@ class DailyDataAggregator:
                 logger.info(f"总共 {total_days} 天的数据")
 
     def get_daily_data(
-        self, target_date: Union[str, datetime, date], force_refresh: bool = False, only_native: bool = True
+        self, target_date: Union[str, datetime, date], force_refresh: bool = False, result_include_all: bool = False
     ) -> pd.DataFrame:
         """
         获取指定日期的聚合市场数据
@@ -203,7 +203,7 @@ class DailyDataAggregator:
         Args:
             target_date: 目标日期，支持字符串、datetime或date类型
             force_refresh: 是否强制刷新，忽略缓存
-            only_native: 是否只返回原生币种（排除稳定币和包装币），默认True
+            result_include_all: 结果是否包含所有币种（稳定币和包装币），默认False
 
         Returns:
             包含指定日期所有币种数据的DataFrame
@@ -262,7 +262,7 @@ class DailyDataAggregator:
             self.daily_cache[target_date_str] = daily_df
 
         # 如果需要，过滤出原生币种
-        if only_native and not daily_df.empty:
+        if not result_include_all:
             from src.classification.unified_classifier import UnifiedClassifier
             
             classifier = UnifiedClassifier(data_dir=str(self.data_dir.parent))
