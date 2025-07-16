@@ -105,8 +105,38 @@ class TestDailyDataAggregator(unittest.TestCase):
         self.assertEqual(aggregator.output_dir, self.output_dir)
         self.assertEqual(len(aggregator.coin_data), 0)  # 初始化时为空
         self.assertEqual(len(aggregator.daily_cache), 0)
+        
+        # 测试新增属性
+        self.assertTrue(hasattr(aggregator, 'only_native'))
+        self.assertEqual(aggregator.only_native, True)  # 默认值
+        self.assertTrue(hasattr(aggregator, 'project_root'))
+        self.assertTrue(hasattr(aggregator, 'log_folder'))
 
         print("✅ 初始化测试通过")
+
+    def test_01b_only_native_parameter(self):
+        """测试 only_native 参数功能"""
+        print("\n--- 测试 1b: only_native 参数 ---")
+
+        # 测试默认值
+        aggregator_default = DailyDataAggregator(
+            data_dir=str(self.data_dir), output_dir=str(self.output_dir)
+        )
+        self.assertEqual(aggregator_default.only_native, True)
+        
+        # 测试显式设置为 False
+        aggregator_false = DailyDataAggregator(
+            data_dir=str(self.data_dir), output_dir=str(self.output_dir), only_native=False
+        )
+        self.assertEqual(aggregator_false.only_native, False)
+        
+        # 测试显式设置为 True
+        aggregator_true = DailyDataAggregator(
+            data_dir=str(self.data_dir), output_dir=str(self.output_dir), only_native=True
+        )
+        self.assertEqual(aggregator_true.only_native, True)
+        
+        print("✅ only_native 参数测试通过")
 
     def test_02_load_coin_data(self):
         """测试币种数据加载"""
