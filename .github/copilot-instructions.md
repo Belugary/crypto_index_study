@@ -1,6 +1,6 @@
 # 区块链资产指数研究项目开发指南
 
-> **📖 文档分层架构**: 请先阅读 [`docs/documentation_guide.md`](../docs/documentation_guide.md) 了解本项目的文档受众分层和写作原则。本文档专为 AI Agent 设计。
+> **📖 文档分层架构**: 请先阅读 [`docs/documentation_guide.md`](../docs/documentation_guide.md) 了解本项目的文档受众分层和写作原则。本文档专为 AI Agent 设计。docs文件夹下的其他文档也是特定情况的指导或备忘录，用于编程时的参考。
 
 ## 核心原则
 
