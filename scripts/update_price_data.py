@@ -120,14 +120,12 @@ def main():
                 print("\n🔄 开始传统每日汇总数据更新...")
 
                 # 导入每日汇总功能
-                from scripts.rebuild_daily_files import DailyDataAggregator
+                from src.downloaders.daily_aggregator import DailyDataAggregator
 
                 aggregator = DailyDataAggregator()
-                aggregator.update_recent_days(
-                    days=args.daily_days,
-                    parallel=True,  # 自动使用并行处理提升效率
-                    max_workers=None,  # 自动设置工作进程数
-                )
+                # 使用 build_daily_tables 方法来更新数据
+                aggregator.build_daily_tables(force_recalculate=True)
+                print("✅ 每日汇总数据更新完成")
                 print("✅ 传统每日汇总数据更新完成!")
 
         print("\n✅ 价格数据更新完成!")

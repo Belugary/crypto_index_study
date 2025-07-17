@@ -36,8 +36,12 @@ class IncrementalDailyUpdater:
         """
         初始化增量更新器
         """
-        self.coins_dir = Path(coins_dir)
-        self.daily_dir = Path(daily_dir)
+        # 查找项目根目录
+        self.project_root = self._find_project_root()
+        
+        # 解析路径：相对路径基于项目根目录，绝对路径保持不变
+        self.coins_dir = self._resolve_path(coins_dir)
+        self.daily_dir = self._resolve_path(daily_dir)
         self.backup_enabled = backup_enabled
 
         # 初始化依赖组件
@@ -49,10 +53,50 @@ class IncrementalDailyUpdater:
         self.daily_dir.mkdir(parents=True, exist_ok=True)
 
         # 操作日志文件
-        self.operation_log = Path("logs/incremental_daily_operations.jsonl")
+        operation_log_path = "logs/incremental_daily_operations.jsonl"
+        self.operation_log = self._resolve_path(operation_log_path)
         self.operation_log.parent.mkdir(exist_ok=True)
 
         logger.info("增量更新器初始化完成")
+
+    @staticmethod
+    def _find_project_root() -> Path:
+        """查找项目根目录
+        
+        Returns:
+            Path: 项目根目录路径
+        """
+        current_path = Path(__file__).parent
+        
+        # 向上查找，直到找到项目根目录标志
+        while current_path != current_path.parent:
+            # 检查是否存在 .git 目录
+            if (current_path / ".git").exists():
+                return current_path
+            
+            # 检查是否同时存在 src 目录和 requirements.txt
+            if (current_path / "src").exists() and (current_path / "requirements.txt").exists():
+                return current_path
+            
+            current_path = current_path.parent
+        
+        # 如果找不到，返回当前文件所在目录的上两级（假设是项目根目录）
+        return Path(__file__).parent.parent.parent
+
+    def _resolve_path(self, path_str: str) -> Path:
+        """解析路径：相对路径基于项目根目录，绝对路径保持不变
+        
+        Args:
+            path_str: 路径字符串
+            
+        Returns:
+            Path: 解析后的路径对象
+        """
+        path = Path(path_str)
+        if path.is_absolute():
+            return path
+        else:
+            return self.project_root / path
 
     def get_existing_coins(self) -> Set[str]:
         """获取已有的币种列表"""

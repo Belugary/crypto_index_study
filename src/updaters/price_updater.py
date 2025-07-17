@@ -123,9 +123,10 @@ class PriceDataUpdater:
         self.classifier = UnifiedClassifier()  # 直接使用统一分类器
         self.market_fetcher = MarketDataFetcher(self.api)
 
-        # 目录设置
-        self.coins_dir = Path("data/coins")
-        self.metadata_dir = Path("data/metadata")
+        # 查找项目根目录并设置路径
+        self.project_root = self._find_project_root()
+        self.coins_dir = self.project_root / "data" / "coins"
+        self.metadata_dir = self.project_root / "data" / "metadata"
 
         # 统计信息
         self.stats = {
@@ -141,6 +142,30 @@ class PriceDataUpdater:
         }
 
         self.errors = []
+
+    @staticmethod
+    def _find_project_root() -> Path:
+        """查找项目根目录
+        
+        Returns:
+            Path: 项目根目录路径
+        """
+        current_path = Path(__file__).parent
+        
+        # 向上查找，直到找到项目根目录标志
+        while current_path != current_path.parent:
+            # 检查是否存在 .git 目录
+            if (current_path / ".git").exists():
+                return current_path
+            
+            # 检查是否同时存在 src 目录和 requirements.txt
+            if (current_path / "src").exists() and (current_path / "requirements.txt").exists():
+                return current_path
+            
+            current_path = current_path.parent
+        
+        # 如果找不到，返回当前文件所在目录的上两级（假设是项目根目录）
+        return Path(__file__).parent.parent.parent
 
     def download_coin_data(self, coin_id: str) -> Tuple[bool, bool]:
         """
