@@ -40,15 +40,20 @@ class BatchDownloader:
             data_dir: 数据存储根目录
         """
         self.api = api
-        self.data_dir = Path(data_dir)
-        # 项目根目录，用于存放日志文件
-        self.base_dir = (
-            self.data_dir.parent if self.data_dir.name == "data" else Path(".")
-        )
+        
+        # 查找项目根目录
+        self.project_root = self._find_project_root()
+        
+        # 如果是相对路径，基于项目根目录解析
+        if Path(data_dir).is_absolute():
+            self.data_dir = Path(data_dir)
+        else:
+            self.data_dir = self.project_root / data_dir
+            
         self.coins_dir = self.data_dir / "coins"
         self.metadata_dir = self.data_dir / "metadata"
         # 日志文件统一放在项目根目录的 logs/ 下
-        self.logs_dir = self.base_dir / "logs"
+        self.logs_dir = self.project_root / "logs"
 
         # 创建必要的目录结构
         self._ensure_directories()
@@ -57,6 +62,24 @@ class BatchDownloader:
         self.logger = self._setup_logger()
 
         self.logger.info("批量下载器初始化完成")
+
+    @staticmethod
+    def _find_project_root() -> Path:
+        """查找项目根目录（包含.git目录或同时包含src和requirements.txt的目录）"""
+        cur = Path.cwd()
+        project_root = cur
+        
+        # 查找包含项目标志的目录
+        while project_root.parent != project_root:
+            # 最可靠的标志是.git目录
+            if (project_root / ".git").exists():
+                break
+            # 或者同时包含src目录和requirements.txt文件（更严格的项目根目录判断）
+            elif (project_root / "src").exists() and (project_root / "requirements.txt").exists():
+                break
+            project_root = project_root.parent
+        
+        return project_root
 
     def download_batch(
         self,

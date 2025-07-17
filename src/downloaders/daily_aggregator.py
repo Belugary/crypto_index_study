@@ -40,6 +40,24 @@ class DailyDataAggregator:
     """
 
     @staticmethod
+    def _find_project_root() -> Path:
+        """查找项目根目录（包含.git目录或同时包含src和requirements.txt的目录）"""
+        cur = Path.cwd()
+        project_root = cur
+        
+        # 查找包含项目标志的目录
+        while project_root.parent != project_root:
+            # 最可靠的标志是.git目录
+            if (project_root / ".git").exists():
+                break
+            # 或者同时包含src目录和requirements.txt文件（更严格的项目根目录判断）
+            elif (project_root / "src").exists() and (project_root / "requirements.txt").exists():
+                break
+            project_root = project_root.parent
+        
+        return project_root
+
+    @staticmethod
     def read_daily_snapshot(date_str: str, daily_dir: str = "data/daily/daily_files", result_include_all: bool = False) -> pd.DataFrame:
         """
         读取已聚合的每日市场快照 CSV（不依赖实例化和 coin_data 加载）
@@ -88,28 +106,26 @@ class DailyDataAggregator:
             output_dir: 聚合后数据输出目录（可选，默认自动定位项目根目录下的data/daily）
             result_include_all: 结果是否包含所有币种（稳定币和包装币），默认False
         """
-        # 自动查找项目根目录（包含.git的目录）
-        cur = Path.cwd()
-        project_root = cur
-        while not (project_root / ".git").exists() and project_root.parent != project_root:
-            project_root = project_root.parent
+        # 自动查找项目根目录（包含.git、README.md或src目录的目录）
+        self.project_root = self._find_project_root()
         
-        # 保存项目根目录
-        self.project_root = project_root
-        
-        # 默认路径
+        # 默认路径：始终基于项目根目录，避免在子目录创建文件夹
         if data_dir is None:
-            data_dir = str(project_root / "data" / "coins")
+            data_dir = str(self.project_root / "data" / "coins")
         if output_dir is None:
-            output_dir = str(project_root / "data" / "daily")
-        self.data_dir = Path(data_dir)
-        self.output_dir = Path(output_dir)
+            output_dir = str(self.project_root / "data" / "daily")
+        
+        # 路径解析：如果是相对路径，基于项目根目录解析
+        self.data_dir = Path(data_dir) if Path(data_dir).is_absolute() else self.project_root / data_dir
+        self.output_dir = Path(output_dir) if Path(output_dir).is_absolute() else self.project_root / output_dir
+        
+        # 只在项目根目录创建文件夹（除非显式指定绝对路径）
         self.output_dir.mkdir(parents=True, exist_ok=True)
         
         # 保存 result_include_all 设置
         self.result_include_all = result_include_all
         
-        # 设置日志目录
+        # 设置日志目录：始终在项目根目录
         self.log_folder = self.project_root / "logs"
         self.log_folder.mkdir(parents=True, exist_ok=True)
 

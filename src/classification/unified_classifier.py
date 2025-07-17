@@ -67,9 +67,36 @@ class UnifiedClassifier:
         Args:
             data_dir: 数据目录路径
         """
-        self.metadata_dir = Path(data_dir) / "metadata" / "coin_metadata"
-        self.downloader = create_batch_downloader(data_dir=data_dir)
+        # 查找项目根目录
+        self.project_root = self._find_project_root()
+        
+        # 如果是相对路径，基于项目根目录解析
+        if Path(data_dir).is_absolute():
+            self.data_dir = Path(data_dir)
+        else:
+            self.data_dir = self.project_root / data_dir
+            
+        self.metadata_dir = self.data_dir / "metadata" / "coin_metadata"
+        self.downloader = create_batch_downloader(data_dir=str(self.data_dir))
         self._cache: Dict[str, ClassificationResult] = {}
+
+    @staticmethod
+    def _find_project_root() -> Path:
+        """查找项目根目录（包含.git目录或同时包含src和requirements.txt的目录）"""
+        cur = Path.cwd()
+        project_root = cur
+        
+        # 查找包含项目标志的目录
+        while project_root.parent != project_root:
+            # 最可靠的标志是.git目录
+            if (project_root / ".git").exists():
+                break
+            # 或者同时包含src目录和requirements.txt文件（更严格的项目根目录判断）
+            elif (project_root / "src").exists() and (project_root / "requirements.txt").exists():
+                break
+            project_root = project_root.parent
+        
+        return project_root
 
     def classify_coin(
         self, coin_id: str, use_cache: bool = True
