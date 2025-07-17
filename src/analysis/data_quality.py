@@ -8,6 +8,7 @@ scripts/data_quality_checker.py 是此模块的用户接口封装。
 import logging
 import os
 from datetime import datetime, timedelta
+from pathlib import Path
 from typing import Dict, List, Tuple, Optional
 
 import pandas as pd
@@ -19,10 +20,27 @@ class DataQualityAnalyzer:
     """数据质量分析器核心类"""
 
     def __init__(self, data_dir: str = "data/coins"):
-        self.data_dir = data_dir
+        self.project_root = self._find_project_root()
+        # 解析数据目录路径
+        if Path(data_dir).is_absolute():
+            self.data_dir = Path(data_dir)
+        else:
+            self.data_dir = self.project_root / data_dir
         self.min_rows = 100
         self.max_days_old = 2
         self.min_data_span_days = 30
+
+    @staticmethod
+    def _find_project_root() -> Path:
+        """查找项目根目录"""
+        current = Path(__file__).parent
+        while current != current.parent:
+            if (current / ".git").exists() or (
+                (current / "src").exists() and (current / "requirements.txt").exists()
+            ):
+                return current
+            current = current.parent
+        return Path.cwd()
 
     def _is_data_recent(self, data_span_days: int, days_since_latest: int) -> bool:
         """判断数据是否"最新"

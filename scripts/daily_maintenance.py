@@ -51,9 +51,22 @@ class DailyMaintenanceManager:
     """每日维护管理器 - 统一管理所有维护任务"""
 
     def __init__(self):
-        self.daily_files_dir = Path("data/daily/daily_files")
-        self.coins_dir = Path("data/coins")
+        self.project_root = self._find_project_root()
+        self.daily_files_dir = self.project_root / "data/daily/daily_files"
+        self.coins_dir = self.project_root / "data/coins"
         self.today = date.today()
+
+    @staticmethod
+    def _find_project_root() -> Path:
+        """查找项目根目录"""
+        current = Path(__file__).parent.parent
+        while current != current.parent:
+            if (current / ".git").exists() or (
+                (current / "src").exists() and (current / "requirements.txt").exists()
+            ):
+                return current
+            current = current.parent
+        return Path.cwd()
 
     def print_banner(self):
         """显示脚本横幅"""

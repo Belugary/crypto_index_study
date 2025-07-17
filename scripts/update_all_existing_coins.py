@@ -26,10 +26,24 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.updaters.price_updater import PriceDataUpdater
 
+
+def _find_project_root() -> Path:
+    """查找项目根目录"""
+    current = Path(__file__).parent.parent
+    while current != current.parent:
+        if (current / ".git").exists() or (
+            (current / "src").exists() and (current / "requirements.txt").exists()
+        ):
+            return current
+        current = current.parent
+    return Path.cwd()
+
+
 # --- 配置 ---
-LOG_FILE = "logs/update_all_existing_coins.log"
-COINS_DIR = Path("data/coins")
-METADATA_DIR = Path("data/metadata")
+PROJECT_ROOT = _find_project_root()
+LOG_FILE = PROJECT_ROOT / "logs/update_all_existing_coins.log"
+COINS_DIR = PROJECT_ROOT / "data/coins"
+METADATA_DIR = PROJECT_ROOT / "data/metadata"
 UPDATE_LOG_PATH = METADATA_DIR / "update_log.csv"
 
 # --- 日志配置 ---

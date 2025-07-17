@@ -21,8 +21,27 @@ class StablecoinChecker:
     """稳定币检查器 - 基于本地元数据"""
 
     def __init__(self, data_dir: str = "data"):
-        self.metadata_dir = Path(data_dir) / "metadata" / "coin_metadata"
-        self.downloader = create_batch_downloader(data_dir=data_dir)
+        self.project_root = self._find_project_root()
+        # 解析数据目录路径
+        if Path(data_dir).is_absolute():
+            base_data_dir = Path(data_dir)
+        else:
+            base_data_dir = self.project_root / data_dir
+        
+        self.metadata_dir = base_data_dir / "metadata" / "coin_metadata"
+        self.downloader = create_batch_downloader(data_dir=str(base_data_dir))
+
+    @staticmethod
+    def _find_project_root() -> Path:
+        """查找项目根目录"""
+        current = Path(__file__).parent.parent.parent.parent
+        while current != current.parent:
+            if (current / ".git").exists() or (
+                (current / "src").exists() and (current / "requirements.txt").exists()
+            ):
+                return current
+            current = current.parent
+        return Path.cwd()
 
     def is_stablecoin(self, coin_id: str) -> Dict[str, Any]:
         """
