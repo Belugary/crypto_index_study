@@ -39,6 +39,7 @@ def __init__(self, data_dir: str = "data"):
 ## 检查清单
 
 新增类时检查：
+
 - [ ] 是否使用了相对路径（如 `"data"`, `"logs"`）？
 - [ ] 是否添加了 `_find_project_root()` 方法？
 - [ ] 是否使用项目根目录解析路径？
