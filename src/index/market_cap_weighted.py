@@ -153,8 +153,11 @@ class MarketCapWeightedIndexCalculator:
 
         # 从数据源获取（只有第一次会强制刷新）
         force_refresh = self.force_rebuild and cache_key not in self._daily_cache
+        
+        # 总是获取所有数据，让调用方根据需要进行过滤
+        # 这避免了在缓存层面进行过滤导致的配置不一致问题
         daily_df = self.daily_aggregator.get_daily_data(
-            target_date, force_refresh=force_refresh
+            target_date, force_refresh=force_refresh, result_include_all=True
         )
 
         # 缓存结果
