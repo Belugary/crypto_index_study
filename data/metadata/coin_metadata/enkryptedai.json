@@ -1,0 +1,61 @@
+{
+  "id": "enkryptedai",
+  "symbol": "krai",
+  "name": "EnKryptedAI",
+  "categories": [
+    "Solana Ecosystem",
+    "Meme",
+    "Dog-Themed",
+    "AI Meme"
+  ],
+  "asset_platform_id": "solana",
+  "platforms": {
+    "solana": "Kruj63Qx9EQX9QzukLCBgx5g9AGW69gPDsSK25FRZAi"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "EnKryptedAI isn’t just another crypto project—it’s a next-gen AI-powered watchdog designed to keep investors safe in an increasingly complex blockchain landscape. Unlike traditional security tools, EnKryptedAI leverages machine learning, blockchain forensics, and real-time threat intelligence to detect scams, fraudulent transactions, and high-risk projects before they cause damage. By continuously scanning the blockchain, monitoring smart contract vulnerabilities, and analyzing transaction patterns, EnKryptedAI acts as a real-time security layer for crypto enthusiasts, traders, and developers.\r\n\r\nWhat truly sets EnKryptedAI apart is its adaptive AI engine, which evolves with emerging threats. Instead of relying on outdated blacklists or manual reporting, EnKryptedAI’s AI models learn from historical fraud data, anomaly detection, and decentralized risk scoring to provide proactive alerts. Whether it's identifying rug pulls, phishing schemes, or pump-and-dump tactics, EnKryptedAI delivers instant, AI-driven risk assessments to ensure users make informed decisions. Integrated with trading platforms, wallets, and DeFi applications, EnKryptedAI becomes a seamless guardian, empowering users to trade with confidence."
+  },
+  "links": {
+    "homepage": [
+      "https://www.enkrypted.ai"
+    ],
+    "whitepaper": "https://www.enkrypted.ai/assets/EnKryptedAI%20WhitePaper%20-%20$KRAI.pdf",
+    "blockchain_site": [
+      "https://solscan.io/token/Kruj63Qx9EQX9QzukLCBgx5g9AGW69gPDsSK25FRZAi",
+      "https://solana.fm/address/Kruj63Qx9EQX9QzukLCBgx5g9AGW69gPDsSK25FRZAi/transactions?cluster=mainnet-alpha",
+      "https://explorer.solana.com/address/Kruj63Qx9EQX9QzukLCBgx5g9AGW69gPDsSK25FRZAi",
+      "https://solanabeach.io/address/Kruj63Qx9EQX9QzukLCBgx5g9AGW69gPDsSK25FRZAi"
+    ],
+    "official_forum_url": [
+      "https://www.instagram.com/enkryptedai/",
+      "https://www.tiktok.com/@enkryptedai"
+    ],
+    "chat_url": [
+      "https://discord.gg/GZXYk5ZP",
+      "https://www.youtube.com/channel/UCAwV2aTEje9iOtr1mkPRMaQ"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "EnKryptedAI",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "EnKryptedAI",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/EnKrypted-Ventures"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/54845/thumb/Logo_without_emblem.jpg?1742019959",
+    "small": "https://coin-images.coingecko.com/coins/images/54845/small/Logo_without_emblem.jpg?1742019959",
+    "large": "https://coin-images.coingecko.com/coins/images/54845/large/Logo_without_emblem.jpg?1742019959"
+  },
+  "last_updated": "2025-07-18T11:48:40.279281+00:00"
+}

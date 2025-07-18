@@ -1,111 +1,101 @@
-coin_id,symbol,name
-,amapt,Amnis Aptos
-,ankr,Ankr Network
-,ankreth,Ankr Staked ETH
-,asbnb,Aster Staked BNB
-,asusdf,Aster Staked USDF
-,btc.b,Avalanche Bridged BTC (Avalanche)
-,qi,BENQI
-,savax,BENQI Liquid Staked AVAX
-,baby,Babylon
-,sts,Beets Staked Sonic
-,bfc,Bifrost
-,bnsol,Binance Staked SOL
-,wsteth,Bridged Wrapped stETH (Gnosis)
-,bbsol,Bybit Staked SOL
-,ckbtc,Chain-key Bitcoin
-,cloud,Cloud
-,cbbtc,Coinbase Wrapped BTC
-,cbeth,Coinbase Wrapped Staked ETH
-,dsol,Drift Staked SOL
-,susde,Ethena Staked USDe
-,ebtc,Ether.fi Staked BTC
-,eva,EverValue Coin
-,frax,Frax (prev. FXS)
-,frxeth,Frax Ether
-,fbtc,Function ƒBTC
-,haedal,Haedal Protocol
-,stavax,Hypha Staked AVAX
-,ibgt,Infrared BGT
-,ibera,Infrared Bera
-,jto,Jito
-,jitosol,Jito Staked SOL
-,jupsol,Jupiter Staked SOL
-,rseth,Kelp DAO Restaked ETH
-,kapt,Kofi Aptos
-,lainesol,Laine Staked SOL
-,ldo,Lido DAO
-,steth,Lido Staked Ether
-,lseth,Liquid Staked ETH
-,lista,Lista DAO
-,lhype,Looped Hype
-,stbtc,Lorenzo stBTC
-,meth,Mantle Staked Ether
-,mnde,Marinade
-,msol,Marinade Staked SOL
-,ohm,Olympus
-,oeth,Origin Ether
-,pendle,Pendle
-,psol,Phantom Staked SOL
-,puffer,Puffer
-,ezeth,Renzo Restaked ETH
-,wstusr,Resolv wstUSR
-,scbtc,Rings scBTC
-,rpl,Rocket Pool
-,reth,Rocket Pool ETH
-,ssv,SSV Network
-,inf,Sanctum Infinity
-,sflr,Sceptre Staked FLR
-,sb,Snowbank
-,ssol,Solayer Staked SOL
-,solvbtc,Solv Protocol BTC
-,solvbtc.core,Solv Protocol SolvBTC.CORE
-,xsolvbtc,Solv Protocol Staked BTC
-,ssui,Spring Staked SUI
-,sd,Stader
-,ethx,Stader ETHx
-,maticx,Stader MaticX
-,oseth,StakeWise Staked ETH
-,sfrax,Staked FRAX
-,sfrxeth,Staked Frax Ether
-,sfrxusd,Staked Frax USD
-,sthype,Staked HYPE
-,slvlusd,Staked Level USD
-,superoeth,Super OETH
-,sweth,Swell Ethereum
-,temple,TempleDAO
-,thapt,Thala APT
-,teth,Treehouse ETH
-,truapt,TruFin Staked APT
-,trumatic,TruFin Staked MATIC
-,usualx,USUALx
-,unibtc,Universal BTC
-,weth,WETH
-,wavax,Wrapped AVAX
-,wbnb,Wrapped BNB
-,wbeth,Wrapped Beacon ETH
-,wbtc,Wrapped Bitcoin
-,wcfg,Wrapped Centrifuge
-,weth,Wrapped Ether (Mantle Bridge)
-,whype,Wrapped HYPE
-,wnxm,Wrapped NXM
-,wpol,Wrapped POL
-,quil,Wrapped QUIL
-,wrbnt,Wrapped RBNT
-,sol,Wrapped SOL
-,wxrp,Wrapped XRP
-,weeth,Wrapped eETH
-,wfragsol,Wrapped fragSOL
-,wsteth,Wrapped stETH
-,zenbtc,Zenrock BTC
-,cdai,cDAI
-,ceth,cETH
-,cusdc,cUSDC
-,cwbtc,cWBTC
-,cgeth.hashkey,cgETH Hashkey Cloud
-,eeth,ether.fi Staked ETH
-,pumpbtc,pumpBTC
-,seth,sETH
-,susd,sUSD
-,sdl,stake.link
-,tbtc,tBTC
+﻿coin_id,name,symbol,is_stablecoin,is_wrapped_coin,confidence,stablecoin_categories,wrapped_categories,all_categories,last_updated
+amnis-aptos,Amnis Aptos,amapt,False,True,high,,Liquid Staking Tokens;Liquid Staking,Liquid Staking Tokens;Aptos Ecosystem;Liquid Staking,2025-07-11T04:56:50.417459+00:00
+ankr,Ankr Network,ankr,False,True,high,,Liquid Staking,BNB Chain Ecosystem;Avalanche Ecosystem;Polygon Ecosystem;Fantom Ecosystem;Arbitrum Ecosystem;Ethereum Ecosystem;Optimism Ecosystem;Liquid Staking Governance Tokens;Linea Ecosystem;DePIN;Scroll Ecosystem;Rollups-as-a-Service (RaaS);Blast Ecosystem;Mode Ecosystem;Pantera Capital Portfolio;Polygon zkEVM Ecosystem;YZi Labs (Prev. Binance Labs) Portfolio;Liquid Staking;Made in USA,2025-07-11T04:56:52.196203+00:00
+ankreth,Ankr Staked ETH,ankreth,False,True,high,,Liquid Staking Tokens;Liquid Staked ETH;Liquid Staking,BNB Chain Ecosystem;Avalanche Ecosystem;Fantom Ecosystem;Arbitrum Ecosystem;Liquid Staking Tokens;Ethereum Ecosystem;Optimism Ecosystem;Linea Ecosystem;Scroll Ecosystem;Blast Ecosystem;Mode Ecosystem;Polygon zkEVM Ecosystem;Liquid Staked ETH;Liquid Staking,2025-07-11T09:54:29.981511+00:00
+astherus-staked-bnb,Aster Staked BNB,asbnb,False,True,high,,Liquid Staking Tokens,BNB Chain Ecosystem;Liquid Staking Tokens,2025-07-11T04:56:59.491275+00:00
+astherus-staked-usdf,Aster Staked USDF,asusdf,False,True,high,,Liquid Staking Tokens,BNB Chain Ecosystem;Liquid Staking Tokens,2025-07-11T09:54:56.602773+00:00
+bitcoin-avalanche-bridged-btc-b,Avalanche Bridged BTC (Avalanche),btc.b,False,True,high,,Tokenized BTC,Tokenized BTC;Avalanche Ecosystem;Bridged-Tokens,2025-07-11T04:57:21.189490+00:00
+benqi,BENQI,qi,False,True,high,,Liquid Staking,Decentralized Finance (DeFi);Yield Farming;Binance Launchpool;Lending/Borrowing Protocols;Avalanche Ecosystem;Liquid Staking Governance Tokens;DragonFly Capital Portfolio;Liquid Staking,2025-07-11T09:52:42.849929+00:00
+benqi-liquid-staked-avax,BENQI Liquid Staked AVAX,savax,False,True,high,,Liquid Staking Tokens;Liquid Staking,Avalanche Ecosystem;Liquid Staking Tokens;Liquid Staking,2025-07-11T04:57:11.850265+00:00
+babylon,Babylon,baby,False,True,high,,Liquid Staking,Decentralized Finance (DeFi);LSDFi;Paradigm Portfolio;YZi Labs (Prev. Binance Labs) Portfolio;Galaxy Digital Portfolio;OKX Ventures Portfolio;Liquid Staking;BTCfi Protocol;Polychain Capital Portfolio,2025-07-11T04:57:04.758600+00:00
+beets-staked-sonic,Beets Staked Sonic,sts,False,True,high,,Liquid Staking Tokens,Liquid Staking Tokens;Sonic Ecosystem,2025-07-11T09:50:06.540949+00:00
+bifrost,Bifrost,bfc,False,True,high,,Liquid Staking,Fantom Ecosystem;Ethereum Ecosystem;Liquid Staking Governance Tokens;DWF Labs Portfolio;Liquid Staking,2025-07-11T09:51:38.973417+00:00
+binance-staked-sol,Binance Staked SOL,bnsol,False,True,high,,Liquid Staking Tokens;Liquid Staking,Decentralized Finance (DeFi);Solana Ecosystem;Liquid Staking Tokens;Liquid Staked SOL;Liquid Staking,2025-07-11T04:57:18.716148+00:00
+bridged-wrapped-steth-gnosis,Bridged Wrapped stETH (Gnosis),wsteth,False,True,high,,Crypto-Backed Tokens;Wrapped-Tokens,Crypto-Backed Tokens;Wrapped-Tokens;Gnosis Chain Ecosystem;Bridged-Tokens,2025-07-11T09:50:48.145791+00:00
+bybit-staked-sol,Bybit Staked SOL,bbsol,False,True,high,,Liquid Staking Tokens;Liquid Staking,Decentralized Finance (DeFi);Solana Ecosystem;Liquid Staking Tokens;Liquid Staked SOL;Liquid Staking,2025-07-11T04:57:34.178594+00:00
+chain-key-bitcoin,Chain-key Bitcoin,ckbtc,False,True,high,,Tokenized BTC;Wrapped-Tokens,Tokenized BTC;Wrapped-Tokens;Internet Computer Ecosystem,2025-07-11T09:53:13.479949+00:00
+coinbase-wrapped-btc,Coinbase Wrapped BTC,cbbtc,False,True,high,,Crypto-Backed Tokens;Tokenized BTC;Wrapped-Tokens,Crypto-Backed Tokens;Tokenized BTC;Wrapped-Tokens;Solana Ecosystem;Arbitrum Ecosystem;Ethereum Ecosystem;Base Ecosystem,2025-07-11T04:57:44.145947+00:00
+coinbase-wrapped-staked-eth,Coinbase Wrapped Staked ETH,cbeth,False,True,high,,Crypto-Backed Tokens;Wrapped-Tokens;Liquid Staking Tokens;Liquid Staked ETH;Liquid Staking,Crypto-Backed Tokens;Wrapped-Tokens;Polygon Ecosystem;Arbitrum Ecosystem;Liquid Staking Tokens;Ethereum Ecosystem;Optimism Ecosystem;Base Ecosystem;Liquid Staked ETH;Liquid Staking,2025-07-11T04:57:45.292278+00:00
+drift-staked-sol,Drift Staked SOL,dsol,False,True,high,,Liquid Staking Tokens;Liquid Staking,Solana Ecosystem;Liquid Staking Tokens;Liquid Staked SOL;Liquid Staking,2025-07-11T04:58:09.101715+00:00
+ethena-staked-usde,Ethena Staked USDe,susde,False,True,high,,Liquid Staking Tokens,Liquid Staking Tokens;Ethereum Ecosystem;Yield-Bearing Stablecoin,2025-07-11T04:58:15.651010+00:00
+ether-fi-staked-btc,Ether.fi Staked BTC,ebtc,False,True,high,,Liquid Staking,Decentralized Finance (DeFi);Ethereum Ecosystem;Restaking;Liquid Restaking Tokens;Liquid Staking;Liquid Staked BTC,2025-07-11T04:58:17.282258+00:00
+frax-share,Frax (prev. FXS),frax,False,True,high,,Liquid Staking,Decentralized Exchange (DEX);Decentralized Finance (DeFi);Yield Farming;Automated Market Maker (AMM);BNB Chain Ecosystem;Seigniorage;Solana Ecosystem;Avalanche Ecosystem;Polygon Ecosystem;Fantom Ecosystem;Harmony Ecosystem;Arbitrum Ecosystem;Moonriver Ecosystem;Ethereum Ecosystem;Liquid Staking Governance Tokens;Curve Ecosystem;Stablecoin Protocol;Polygon zkEVM Ecosystem;Evmos Ecosystem;GMCI DeFi Index;Liquid Staking;GMCI Index;Made in USA,2025-07-11T04:58:29.139468+00:00
+frax-ether,Frax Ether,frxeth,False,True,high,,Liquid Staking Tokens;Liquid Staking,Decentralized Finance (DeFi);BNB Chain Ecosystem;Polygon Ecosystem;Fantom Ecosystem;Arbitrum Ecosystem;Moonbeam Ecosystem;Liquid Staking Tokens;Ethereum Ecosystem;Optimism Ecosystem;Polygon zkEVM Ecosystem;Liquid Staking;Made in USA,2025-07-11T04:58:28.598102+00:00
+ignition-fbtc,Function ƒBTC,fbtc,False,True,high,,Crypto-Backed Tokens,Crypto-Backed Tokens;BNB Chain Ecosystem;Arbitrum Ecosystem;Ethereum Ecosystem;Mantle Ecosystem,2025-07-11T04:58:47.325790+00:00
+haedal,Haedal Protocol,haedal,False,True,high,,Liquid Staking,Decentralized Finance (DeFi);BNB Chain Ecosystem;Liquid Staking Governance Tokens;Liquid Staking;Binance Alpha Spotlight,2025-07-11T09:54:14.029344+00:00
+infrared-bera,Infrared Bera,ibera,False,True,high,,Liquid Staking Tokens;Liquid Staking,Decentralized Finance (DeFi);Liquid Staking Tokens;Berachain Ecosystem;Liquid Staking,2025-07-11T04:58:50.775887+00:00
+jito-governance-token,Jito,jto,False,True,high,,Liquid Staking,Decentralized Finance (DeFi);Solana Ecosystem;Liquid Staking Governance Tokens;Multicoin Capital Portfolio;Alameda Research Portfolio;Delphi Ventures Portfolio;Liquid Staking;Made in USA,2025-07-11T04:58:55.689166+00:00
+jito-staked-sol,Jito Staked SOL,jitosol,False,True,high,,Liquid Staking Tokens;Liquid Staking,Solana Ecosystem;Liquid Staking Tokens;Neon Ecosystem;Liquid Staked SOL;Liquid Staking,2025-07-11T04:58:56.303056+00:00
+jupiter-staked-sol,Jupiter Staked SOL,jupsol,False,True,high,,Liquid Staking Tokens;Liquid Staking,Solana Ecosystem;Liquid Staking Tokens;Liquid Staked SOL;Liquid Staking,2025-07-11T04:58:58.305149+00:00
+kelp-dao-restaked-eth,Kelp DAO Restaked ETH,rseth,False,True,high,,Liquid Staking Tokens;Liquid Staked ETH;Liquid Staking,Liquid Staking Tokens;Ethereum Ecosystem;Restaking;Liquid Restaking Tokens;Liquid Staked ETH;Liquid Staking,2025-07-11T04:59:04.687371+00:00
+kofi-aptos,Kofi Aptos,kapt,False,True,high,,Liquid Staking Tokens,Liquid Staking Tokens;Aptos Ecosystem;Liquid Staked APT	,2025-07-11T09:54:43.920601+00:00
+lido-dao,Lido DAO,ldo,False,True,high,,Liquid Staking,Infrastructure;Decentralized Finance (DeFi);Polygon Ecosystem;Arbitrum Ecosystem;Ethereum Ecosystem;Optimism Ecosystem;Liquid Staking Governance Tokens;eGirl Capital Portfolio;Paradigm Portfolio;Coinbase Ventures Portfolio;Multicoin Capital Portfolio;Index Coop Defi Index;Alameda Research Portfolio;DragonFly Capital Portfolio;Andreessen Horowitz (a16z) Portfolio;GMCI DeFi Index;Delphi Ventures Portfolio;Liquid Staking;GMCI Index;Coinbase 50 Index,2025-07-11T04:59:13.716702+00:00
+staked-ether,Lido Staked Ether,steth,False,True,high,,Liquid Staking Tokens;Liquid Staked ETH;Liquid Staking,Decentralized Finance (DeFi);Liquid Staking Tokens;Ethereum Ecosystem;Liquid Staked ETH;Liquid Staking,2025-07-11T05:00:51.347607+00:00
+liquid-staked-ethereum,Liquid Staked ETH,lseth,False,True,high,,Liquid Staking Tokens;Liquid Staked ETH;Liquid Staking,Liquid Staking Tokens;Ethereum Ecosystem;Base Ecosystem;Liquid Staked ETH;Liquid Staking,2025-07-11T04:59:14.977013+00:00
+lista,Lista DAO,lista,False,True,high,,Liquid Staking Tokens;Liquid Staking,Decentralized Finance (DeFi);BNB Chain Ecosystem;Lending/Borrowing Protocols;Liquid Staking Tokens;Binance Megadrop;Liquid Staking,2025-07-11T09:52:53.638730+00:00
+looped-hype,Looped Hype,lhype,False,True,high,,Liquid Staking,Liquid Staking;HyperEVM Ecosystem,2025-07-11T09:51:31.510593+00:00
+lorenzo-protocol,Lorenzo Protocol,bank,False,True,high,,Liquid Staking,BNB Chain Ecosystem;YZi Labs (Prev. Binance Labs) Portfolio;Liquid Staking;BTCfi Protocol,2025-07-18T11:48:41.174758+00:00
+lorenzo-stbtc,Lorenzo stBTC,stbtc,False,True,high,,Liquid Staking Tokens;Liquid Staking,Decentralized Finance (DeFi);BNB Chain Ecosystem;Liquid Staking Tokens;Sui Ecosystem;Liquid Staking,2025-07-11T04:59:18.544784+00:00
+mantle-staked-ether,Mantle Staked Ether,meth,False,True,high,,Liquid Staking Tokens;Liquid Staked ETH;Liquid Staking,Liquid Staking Tokens;Ethereum Ecosystem;Mantle Ecosystem;Liquid Staked ETH;Liquid Staking,2025-07-11T04:59:23.233798+00:00
+marinade,Marinade,mnde,False,True,high,,Liquid Staking,Solana Ecosystem;Liquid Staking Governance Tokens;Liquid Staking,2025-07-11T09:52:19.942552+00:00
+msol,Marinade Staked SOL,msol,False,True,high,,Liquid Staking Tokens;Liquid Staking,Decentralized Finance (DeFi);Solana Ecosystem;Liquid Staking Tokens;Liquid Staked SOL;Liquid Staking,2025-07-11T04:59:35.625376+00:00
+olympus,Olympus,ohm,False,True,high,,Crypto-Backed Tokens,Crypto-Backed Tokens;Decentralized Finance (DeFi);Rebase Tokens;Arbitrum Ecosystem;Ethereum Ecosystem;Berachain Ecosystem,2025-07-11T04:59:48.057363+00:00
+origin-ether,Origin Ether,oeth,False,True,high,,Liquid Staking Tokens;Liquid Staked ETH;Liquid Staking,Decentralized Finance (DeFi);Liquid Staking Tokens;Ethereum Ecosystem;Liquid Staked ETH;Liquid Staking,2025-07-11T04:59:55.131358+00:00
+pendle,Pendle,pendle,False,True,high,,Liquid Staking,Decentralized Exchange (DEX);Decentralized Finance (DeFi);Yield Farming;Automated Market Maker (AMM);BNB Chain Ecosystem;Derivatives;Lending/Borrowing Protocols;Arbitrum Ecosystem;Ethereum Ecosystem;Optimism Ecosystem;Fixed Interest;LSDFi;Base Ecosystem;Restaking;LRTfi;Liquid Restaking Governance Tokens;Yield Tokenization Protocol;YZi Labs (Prev. Binance Labs) Portfolio;GMCI DeFi Index;Sonic Ecosystem;Liquid Staking;GMCI Index;BTCfi Protocol,2025-07-11T05:00:01.737902+00:00
+phantom-staked-sol,Phantom Staked SOL,psol,False,True,high,,Liquid Staking,Solana Ecosystem;Liquid Staked SOL;Liquid Staking,2025-07-11T09:52:31.002012+00:00
+puffer-finance,Puffer,puffer,False,True,high,,Liquid Staking,Smart Contract Platform;BNB Chain Ecosystem;Ethereum Ecosystem;Layer 2 (L2);Restaking;Liquid Restaking Governance Tokens;Rollup;Liquid Staking;Made in USA,2025-07-11T09:54:08.878927+00:00
+renzo-restaked-eth,Renzo Restaked ETH,ezeth,False,True,high,,Liquid Staking Tokens;Liquid Staking,BNB Chain Ecosystem;Arbitrum Ecosystem;Liquid Staking Tokens;Linea Ecosystem;Base Ecosystem;Restaking;Liquid Restaking Tokens;Blast Ecosystem;Mode Ecosystem;Liquid Staking;Unichain Ecosystem,2025-07-11T05:00:24.098050+00:00
+resolv-wstusr,Resolv wstUSR,wstusr,False,True,high,,Crypto-Backed Tokens;Wrapped-Tokens,Crypto-Backed Tokens;Decentralized Finance (DeFi);Wrapped-Tokens;Ethereum Ecosystem,2025-07-11T05:00:28.193045+00:00
+rings-scbtc,Rings scBTC,scbtc,False,True,high,,Wrapped-Tokens,Wrapped-Tokens;Sonic Ecosystem,2025-07-11T09:50:58.980390+00:00
+rocket-pool,Rocket Pool,rpl,False,True,high,,Liquid Staking,Business Services;Infrastructure;Smart Contract Platform;Decentralized Finance (DeFi);Polygon Ecosystem;Arbitrum Ecosystem;Ethereum Ecosystem;Liquid Staking Governance Tokens;Coinbase Ventures Portfolio;Proof of Stake (PoS);Index Coop Defi Index;Consensys Portfolio;Liquid Staking,2025-07-11T05:00:30.376478+00:00
+rocket-pool-eth,Rocket Pool ETH,reth,False,True,high,,Liquid Staking Tokens;Liquid Staked ETH;Liquid Staking,Polygon Ecosystem;Arbitrum Ecosystem;Liquid Staking Tokens;Ethereum Ecosystem;Optimism Ecosystem;Base Ecosystem;Liquid Staked ETH;Liquid Staking,2025-07-11T05:00:30.924568+00:00
+ssv-network,SSV Network,ssv,False,True,high,,Liquid Staking,Decentralized Finance (DeFi);Ethereum Ecosystem;Restaking;Coinbase Ventures Portfolio;OKX Ventures Portfolio;Liquid Staking,2025-07-11T09:51:27.475099+00:00
+socean-staked-sol,Sanctum Infinity,inf,False,True,high,,Liquid Staking Tokens;Liquid Staking,Solana Ecosystem;Liquid Staking Tokens;Liquid Staking,2025-07-11T09:52:39.741922+00:00
+snowbank,Snowbank,sb,False,True,high,,Crypto-Backed Tokens,Crypto-Backed Tokens;Rebase Tokens;Avalanche Ecosystem;Ohm Fork,2025-07-11T09:53:33.777965+00:00
+solayer-staked-sol,Solayer Staked SOL,ssol,False,True,high,,Liquid Staking Tokens;Liquid Staking,Solana Ecosystem;Liquid Staking Tokens;Restaking;Liquid Restaking Tokens;Liquid Staked SOL;Liquid Staking;Liquid Restaked SOL,2025-07-11T05:00:44.746418+00:00
+solv-btc,Solv Protocol BTC,solvbtc,False,True,high,,Crypto-Backed Tokens,Crypto-Backed Tokens;BNB Chain Ecosystem;Solana Ecosystem;Avalanche Ecosystem;Polygon Ecosystem;Arbitrum Ecosystem;Ethereum Ecosystem;ZkSync Ecosystem;Mantle Ecosystem;Base Ecosystem;Berachain Ecosystem;Merlin Chain Ecosystem;Mode Ecosystem;Rootstock Ecosystem;Sonic Ecosystem;Sei Network Ecosystem;Ink Ecosystem;Soneium Ecosystem;HyperEVM Ecosystem;Corn Ecosystem,2025-07-11T05:00:45.972155+00:00
+solv-protocol-solvbtc-core,Solv Protocol SolvBTC.CORE,solvbtc.core,False,True,high,,Liquid Staking Tokens;Liquid Staking,Decentralized Finance (DeFi);Liquid Staking Tokens;Core Ecosystem;Liquid Staking,2025-07-11T09:50:37.174694+00:00
+solv-protocol-solvbtc-bbn,Solv Protocol Staked BTC,xsolvbtc,False,True,high,,Crypto-Backed Tokens,Crypto-Backed Tokens;BNB Chain Ecosystem;Solana Ecosystem;Avalanche Ecosystem;Polygon Ecosystem;Arbitrum Ecosystem;Ethereum Ecosystem;Mantle Ecosystem;Linea Ecosystem;Base Ecosystem;Restaking;Berachain Ecosystem;Merlin Chain Ecosystem;Rootstock Ecosystem;Sonic Ecosystem;Sei Network Ecosystem;Ink Ecosystem;Soneium Ecosystem;HyperEVM Ecosystem;Corn Ecosystem;Liquid Staked BTC,2025-07-11T05:00:46.587265+00:00
+spring-staked-sui,Spring Staked SUI,ssui,False,True,high,,Liquid Staking Tokens;Liquid Staking,Liquid Staking Tokens;Sui Ecosystem;Liquid Staking;Liquid Staked SUI,2025-07-11T09:54:52.047711+00:00
+stader-ethx,Stader ETHx,ethx,False,True,high,,Liquid Staking Tokens;Liquid Staking,Liquid Staking Tokens;Ethereum Ecosystem;Liquid Staking,2025-07-11T05:00:50.785585+00:00
+stader-maticx,Stader MaticX,maticx,False,True,high,,Liquid Staking Tokens;Liquid Staking,Polygon Ecosystem;Liquid Staking Tokens;Ethereum Ecosystem;Manta Network Ecosystem;Liquid Staking,2025-07-11T09:53:53.229640+00:00
+stakewise-v3-oseth,StakeWise Staked ETH,oseth,False,True,high,,Liquid Staking Tokens;Liquid Staked ETH;Liquid Staking,Decentralized Finance (DeFi);Liquid Staking Tokens;Ethereum Ecosystem;Liquid Staked ETH;Liquid Staking,2025-07-11T05:00:52.999729+00:00
+staked-frax,Staked FRAX,sfrax,False,True,high,,Liquid Staking Tokens,Decentralized Finance (DeFi);USD Stablecoin;BNB Chain Ecosystem;Avalanche Ecosystem;Arbitrum Ecosystem;Liquid Staking Tokens;Ethereum Ecosystem;Optimism Ecosystem;Fiat-backed Stablecoin,2025-07-11T09:51:09.389353+00:00
+staked-frax-ether,Staked Frax Ether,sfrxeth,False,True,high,,Liquid Staking Tokens;Liquid Staked ETH;Liquid Staking,Decentralized Finance (DeFi);BNB Chain Ecosystem;Polygon Ecosystem;Fantom Ecosystem;Arbitrum Ecosystem;Moonbeam Ecosystem;Liquid Staking Tokens;Ethereum Ecosystem;Optimism Ecosystem;Liquid Staked ETH;Liquid Staking,2025-07-11T05:00:51.914687+00:00
+staked-hype,Staked HYPE,sthype,False,True,high,,Liquid Staking Tokens,Liquid Staking Tokens;HyperEVM Ecosystem,2025-07-11T05:00:52.455355+00:00
+level-staked-usd,Staked Level USD,slvlusd,False,True,high,,Liquid Staking Tokens,Decentralized Finance (DeFi);Liquid Staking Tokens;Ethereum Ecosystem;Yield-Bearing Stablecoin,2025-07-11T09:52:03.632654+00:00
+super-oeth,Super OETH,superoeth,False,True,high,,Liquid Staking Tokens;Liquid Staked ETH;Liquid Staking,Decentralized Finance (DeFi);Liquid Staking Tokens;Base Ecosystem;Liquid Staked ETH;Liquid Staking;Plume Network Ecosystem,2025-07-11T05:01:04.292504+00:00
+sweth,Swell Ethereum,sweth,False,True,high,,Liquid Staking Tokens;Liquid Staking,Arbitrum Ecosystem;Liquid Staking Tokens;Ethereum Ecosystem;Liquid Staking,2025-07-11T05:01:08.298891+00:00
+temple,TempleDAO,temple,False,True,high,,Crypto-Backed Tokens,Crypto-Backed Tokens;Ethereum Ecosystem,2025-07-11T09:50:56.378830+00:00
+thala-apt,Thala APT,thapt,False,True,high,,Liquid Staking Tokens,Decentralized Finance (DeFi);Liquid Staking Tokens;Aptos Ecosystem;Liquid Staked APT	,2025-07-11T09:54:01.736681+00:00
+treehouse-eth,Treehouse ETH,teth,False,True,high,,Liquid Staking Tokens;Liquid Staked ETH;Liquid Staking,Decentralized Finance (DeFi);Arbitrum Ecosystem;Liquid Staking Tokens;Ethereum Ecosystem;Liquid Staked ETH;Liquid Staking,2025-07-11T05:01:24.680102+00:00
+trufin-staked-apt,TruFin Staked APT,truapt,False,True,high,,Liquid Staking Tokens;Liquid Staking,Decentralized Finance (DeFi);Liquid Staking Tokens;Aptos Ecosystem;Liquid Staking;Liquid Staked APT	,2025-07-11T09:52:27.566647+00:00
+trufin-staked-matic,TruFin Staked MATIC,trumatic,False,True,high,,Liquid Staking Tokens;Liquid Staking,Polygon Ecosystem;Liquid Staking Tokens;Ethereum Ecosystem;Liquid Staking,2025-07-11T09:53:14.485051+00:00
+usualx,USUALx,usualx,False,True,high,,Liquid Staking,Decentralized Finance (DeFi);Ethereum Ecosystem;Liquid Staking,2025-07-11T09:51:21.024873+00:00
+universal-btc,Universal BTC,unibtc,False,True,high,,Liquid Staking Tokens;Liquid Staking,BNB Chain Ecosystem;Arbitrum Ecosystem;IoTeX Ecosystem;Liquid Staking Tokens;Ethereum Ecosystem;Optimism Ecosystem;Mantle Ecosystem;Berachain Ecosystem;ZetaChain Ecosystem;Merlin Chain Ecosystem;Mode Ecosystem;Bitlayer Ecosystem;Sonic Ecosystem;Liquid Staking;BSquared Network Ecosystem;Corn Ecosystem,2025-07-11T05:01:32.056422+00:00
+weth,WETH,weth,False,True,high,,Crypto-Backed Tokens;Wrapped-Tokens,Crypto-Backed Tokens;Wrapped-Tokens;Ethereum Ecosystem;FTX Holdings;Tron Ecosystem;Index Coop Defi Index,2025-07-11T05:01:52.635148+00:00
+wrapped-avax,Wrapped AVAX,wavax,False,True,high,,Crypto-Backed Tokens;Wrapped-Tokens,Crypto-Backed Tokens;Wrapped-Tokens;Avalanche Ecosystem,2025-07-11T05:01:56.629374+00:00
+wbnb,Wrapped BNB,wbnb,False,True,high,,Crypto-Backed Tokens;Wrapped-Tokens,Crypto-Backed Tokens;BNB Chain Ecosystem;Wrapped-Tokens,2025-07-11T05:01:51.406733+00:00
+wrapped-beacon-eth,Wrapped Beacon ETH,wbeth,False,True,high,,Crypto-Backed Tokens;Wrapped-Tokens,Crypto-Backed Tokens;BNB Chain Ecosystem;Wrapped-Tokens;Ethereum Ecosystem,2025-07-11T05:01:57.190874+00:00
+wrapped-bitcoin,Wrapped Bitcoin,wbtc,False,True,high,,Crypto-Backed Tokens;Tokenized BTC;Wrapped-Tokens,Crypto-Backed Tokens;Tokenized BTC;Wrapped-Tokens;Solana Ecosystem;Ethereum Ecosystem;FTX Holdings;Osmosis Ecosystem;World Liberty Financial Portfolio,2025-07-11T05:01:57.791281+00:00
+wrapped-centrifuge,Wrapped Centrifuge,wcfg,False,True,high,,Crypto-Backed Tokens;Wrapped-Tokens,Crypto-Backed Tokens;Wrapped-Tokens;Ethereum Ecosystem,2025-07-11T09:51:33.004182+00:00
+wrapped-ether-mantle-bridge,Wrapped Ether (Mantle Bridge),weth,False,True,high,,Crypto-Backed Tokens;Wrapped-Tokens,Smart Contract Platform;Crypto-Backed Tokens;Wrapped-Tokens;Layer 2 (L2);Mantle Ecosystem,2025-07-11T05:01:59.391824+00:00
+wrapped-hype,Wrapped HYPE,whype,False,True,high,,Wrapped-Tokens,Wrapped-Tokens;HyperEVM Ecosystem,2025-07-11T05:02:00.587467+00:00
+wrapped-nxm,Wrapped NXM,wnxm,False,True,high,,Crypto-Backed Tokens;Wrapped-Tokens,Crypto-Backed Tokens;Decentralized Finance (DeFi);Insurance;Wrapped-Tokens;Ethereum Ecosystem;Blockchain Capital Portfolio,2025-07-11T09:52:56.701228+00:00
+wmatic,Wrapped POL,wpol,False,True,high,,Crypto-Backed Tokens;Wrapped-Tokens,Crypto-Backed Tokens;Wrapped-Tokens;Polygon Ecosystem;Fantom Ecosystem;IoTeX Ecosystem;Velas Ecosystem;Linea Ecosystem;Polygon zkEVM Ecosystem;Astar Ecosystem;Telos Ecosystem,2025-07-11T09:52:03.022554+00:00
+wrapped-quil,Wrapped QUIL,quil,False,True,high,,Wrapped-Tokens,Smart Contract Platform;Wrapped-Tokens;Layer 1 (L1);Ethereum Ecosystem;Made in USA,2025-07-11T09:53:18.138616+00:00
+wrapped-solana,Wrapped SOL,sol,False,True,high,,Crypto-Backed Tokens;Wrapped-Tokens,Crypto-Backed Tokens;Wrapped-Tokens;Solana Ecosystem,2025-07-11T05:02:01.150937+00:00
+wrapped-xrp,Wrapped XRP,wxrp,False,True,high,,Crypto-Backed Tokens;Wrapped-Tokens,Crypto-Backed Tokens;Wrapped-Tokens;Ethereum Ecosystem,2025-07-11T09:52:42.324264+00:00
+wrapped-eeth,Wrapped eETH,weeth,False,True,high,,Crypto-Backed Tokens;Wrapped-Tokens,Crypto-Backed Tokens;Wrapped-Tokens;Arbitrum Ecosystem;Ethereum Ecosystem;Restaking;Liquid Restaking Tokens;Ether.fi Ecosystem,2025-07-11T05:01:58.840677+00:00
+wrapped-fragsol,Wrapped fragSOL,wfragsol,False,True,high,,Wrapped-Tokens,Wrapped-Tokens;Solana Ecosystem,2025-07-11T05:02:00.021170+00:00
+wrapped-steth,Wrapped stETH,wsteth,False,True,high,,Crypto-Backed Tokens;Wrapped-Tokens;Liquid Staking,Crypto-Backed Tokens;Decentralized Finance (DeFi);Wrapped-Tokens;Ethereum Ecosystem;Liquid Staking;Unichain Ecosystem,2025-07-11T05:02:01.853302+00:00
+wrapped-zenbtc,Zenrock BTC,zenbtc,False,True,high,,Wrapped-Tokens,Wrapped-Tokens;Solana Ecosystem,2025-07-11T05:02:02.675870+00:00
+compound-ether,cETH,ceth,False,True,high,,Crypto-Backed Tokens,Crypto-Backed Tokens;Decentralized Finance (DeFi);Compound Tokens;cToken;Ethereum Ecosystem,2025-07-11T04:57:46.933716+00:00
+compound-usd-coin,cUSDC,cusdc,False,True,high,,Crypto-Backed Tokens,Crypto-Backed Tokens;Decentralized Finance (DeFi);Compound Tokens;Ethereum Ecosystem,2025-07-11T09:53:53.729158+00:00
+compound-wrapped-btc,cWBTC,cwbtc,False,True,high,,Crypto-Backed Tokens,Crypto-Backed Tokens;Decentralized Finance (DeFi);cToken;Ethereum Ecosystem,2025-07-11T04:57:48.106264+00:00
+cgeth-hashkey-cloud,cgETH Hashkey Cloud,cgeth.hashkey,False,True,high,,Liquid Staking Tokens,Decentralized Finance (DeFi);Arbitrum Ecosystem;Liquid Staking Tokens;Ethereum Ecosystem;Optimism Ecosystem;Base Ecosystem,2025-07-11T04:57:38.174947+00:00
+ether-fi-staked-eth,ether.fi Staked ETH,eeth,False,True,high,,Liquid Staking Tokens;Liquid Staked ETH;Liquid Staking,Liquid Staking Tokens;Ethereum Ecosystem;Restaking;Liquid Restaking Tokens;Ether.fi Ecosystem;Liquid Staked ETH;Liquid Staking,2025-07-11T04:58:18.129500+00:00
+pumpbtc,pumpBTC,pumpbtc,False,True,high,,Liquid Staking Tokens;Liquid Staking,BNB Chain Ecosystem;Liquid Staking Tokens;Ethereum Ecosystem;Liquid Staking;Liquid Staked BTC,2025-07-11T05:00:15.345737+00:00
+seth,sETH,seth,False,True,high,,Crypto-Backed Tokens,Crypto-Backed Tokens;Decentralized Finance (DeFi);Synthetic Asset;Derivatives;Ethereum Ecosystem;Optimism Ecosystem;Synthetic,2025-07-11T09:54:15.539583+00:00
+nusd,sUSD,susd,True,True,high,Stablecoins,Crypto-Backed Tokens,Crypto-Backed Tokens;Stablecoins;Decentralized Finance (DeFi);USD Stablecoin;Synthetic Asset;Derivatives;Fantom Ecosystem;Arbitrum Ecosystem;Ethereum Ecosystem;Crypto-backed Stablecoin;Fiat-backed Stablecoin;Synthetic,2025-07-11T09:53:48.621389+00:00
+tbtc,tBTC,tbtc,False,True,high,,Crypto-Backed Tokens;Tokenized BTC,Crypto-Backed Tokens;Decentralized Finance (DeFi);Tokenized BTC;Solana Ecosystem;Polygon Ecosystem;Arbitrum Ecosystem;Ethereum Ecosystem;Optimism Ecosystem;Base Ecosystem;Starknet Ecosystem;Hydration Ecosystem,2025-07-11T05:01:13.010868+00:00

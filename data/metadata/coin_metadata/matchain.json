@@ -1,0 +1,62 @@
+{
+  "id": "matchain",
+  "symbol": "mat",
+  "name": "Matchain",
+  "categories": [
+    "Smart Contract Platform",
+    "BNB Chain Ecosystem",
+    "Layer 2 (L2)",
+    "ChainGPT Launchpad",
+    "Binance Alpha Spotlight"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0xfe2dd2d57a05f89438f3aec94eafa4070396bab0"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://www.matchain.io/"
+    ],
+    "whitepaper": "https://docs.matchain.io/",
+    "blockchain_site": [
+      "https://matchscan.io/",
+      "https://bscscan.com/token/0xFE2DD2d57a05F89438F3AEC94EaFA4070396bab0",
+      "https://binplorer.com/address/0xFE2DD2d57a05F89438F3AEC94EaFA4070396bab0"
+    ],
+    "official_forum_url": [
+      "https://www.matchain.io/blog",
+      "https://www.youtube.com/@MatchChain",
+      "https://discord.com/invite/matchain"
+    ],
+    "chat_url": [
+      "https://www.linkedin.com/company/matchainio/",
+      "https://www.instagram.com/matchain_io/#"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "matchain_io",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "matchain_fam",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/matchain"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/66648/thumb/matchain_2.jpg?1750129785",
+    "small": "https://coin-images.coingecko.com/coins/images/66648/small/matchain_2.jpg?1750129785",
+    "large": "https://coin-images.coingecko.com/coins/images/66648/large/matchain_2.jpg?1750129785"
+  },
+  "last_updated": "2025-07-18T11:48:42.827753+00:00"
+}
