@@ -64,15 +64,32 @@ def get_daily_data_aggregator():
 
 def load_market_data(date_str: str, force_refresh: bool = False, include_all_coins: bool = False):
     """
-    加载指定日期的市场数据
+    📊 Notebook 便捷函数：加载指定日期的市场数据
+    
+    🎯 用途: 简化 Jupyter Notebook 中的数据加载过程
+    📌 参数映射: include_all_coins → result_include_all (保持接口友好)
     
     Args:
         date_str: 日期字符串，格式为 'YYYY-MM-DD'
-        force_refresh: 是否强制刷新缓存，默认False
-        include_all_coins: 是否包含所有币种(稳定币、包装币等)，默认False(只包含原生币种)
+        force_refresh: 是否强制刷新所有缓存 (内存+文件)
+                      - True: 重新计算数据，忽略所有缓存
+                      - False: 优先使用缓存 (内存 → 文件 → 重新计算)
+        include_all_coins: 是否包含所有币种类型
+                          - True: 包含稳定币、包装币、衍生品等所有币种
+                          - False: 只包含原生币种，排除稳定币和包装币
         
     Returns:
-        pandas.DataFrame: 市场数据，根据 include_all_coins 参数决定是否包含稳定币和包装币
+        pandas.DataFrame: 市场数据，已根据 include_all_coins 参数过滤
+        
+    Example:
+        # 获取原生币种数据 (默认)
+        native_data = load_market_data("2023-10-01")
+        
+        # 获取所有币种数据 (包括稳定币)
+        all_data = load_market_data("2023-10-01", include_all_coins=True)
+        
+        # 强制刷新获取最新数据
+        fresh_data = load_market_data("2023-10-01", force_refresh=True)
     """
     from src.downloaders.daily_aggregator import DailyDataAggregator
     
@@ -82,5 +99,5 @@ def load_market_data(date_str: str, force_refresh: bool = False, include_all_coi
     output_dir = str(project_root / "data" / "daily")
     
     aggregator = DailyDataAggregator(data_dir=data_dir, output_dir=output_dir)
-    # 参数转换：include_all_coins 直接对应 result_include_all
+    # 🔄 参数转换：用户友好的 include_all_coins → 内部的 result_include_all
     return aggregator.get_daily_data(date_str, force_refresh=force_refresh, result_include_all=include_all_coins)

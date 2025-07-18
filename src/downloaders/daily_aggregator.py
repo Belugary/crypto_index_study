@@ -60,15 +60,21 @@ class DailyDataAggregator:
     @staticmethod
     def read_daily_snapshot(date_str: str, daily_dir: str = "data/daily/daily_files", result_include_all: bool = False) -> pd.DataFrame:
         """
-        读取已聚合的每日市场快照 CSV（不依赖实例化和 coin_data 加载）
-
+        📁 静态方法：读取已聚合的每日市场快照 CSV
+        
+        🎯 优势: 不需要实例化 DailyDataAggregator，直接读取文件
+        📌 用途: 适合快速获取历史数据，避免重复加载所有币种数据
+        
         Args:
             date_str: 日期字符串，格式为 'YYYY-MM-DD'
             daily_dir: 每日快照文件夹路径，默认 'data/daily/daily_files'
-            result_include_all: 结果是否包含所有币种（稳定币和包装币），默认False
+            result_include_all: 是否包含所有币种
+                              - True: 返回全部币种 (包括稳定币、包装币)
+                              - False: 只返回原生币种 (排除稳定币、包装币)
 
         Returns:
-            指定日期的市场快照 DataFrame，若文件不存在则返回空 DataFrame
+            指定日期的市场快照 DataFrame，根据result_include_all参数过滤
+            若文件不存在则返回空 DataFrame
         """
         file_path = Path(daily_dir) / f"{date_str}.csv"
         if not file_path.exists():
@@ -99,12 +105,17 @@ class DailyDataAggregator:
         return df
 
     def __init__(self, data_dir: Optional[str] = None, output_dir: Optional[str] = None, result_include_all: bool = False):
-        """初始化聚合器，自动定位项目根目录，始终以主目录下的data为基准，无论在哪调用都不会在子目录创建错误的data文件夹。
+        """
+        初始化每日数据聚合器
+        
+        📁 路径管理: 自动定位项目根目录，避免在子目录创建错误的data文件夹
+        ⚠️ 废弃参数: result_include_all 在构造函数中已废弃，请在 get_daily_data() 方法中使用
 
         Args:
             data_dir: 原始CSV数据目录（可选，默认自动定位项目根目录下的data/coins）
             output_dir: 聚合后数据输出目录（可选，默认自动定位项目根目录下的data/daily）
-            result_include_all: 结果是否包含所有币种（稳定币和包装币），默认False
+            result_include_all: [已废弃] 此参数在构造函数中无效，请在调用 get_daily_data() 时指定
+                              保留此参数仅为向后兼容，建议使用方法级别的参数控制
         """
         # 自动查找项目根目录（包含.git、README.md或src目录的目录）
         self.project_root = self._find_project_root()
@@ -214,15 +225,27 @@ class DailyDataAggregator:
         """
         获取指定日期的聚合市场数据
 
-        支持从缓存、文件或重新计算获取。
+        ⭐ 核心参数说明（最近修复重点）:
+        - force_refresh: 控制数据来源 (缓存 vs 重新计算)
+        - result_include_all: 控制过滤逻辑 (原生币 vs 全部币种)
+        
+        📊 数据获取优先级:
+        1. 内存缓存 (force_refresh=False 且存在)
+        2. 文件缓存 (force_refresh=False 且文件存在) 
+        3. 重新计算 (force_refresh=True 或无缓存)
+        
+        🔍 过滤逻辑应用:
+        - result_include_all=True: 包含稳定币、包装币等所有币种
+        - result_include_all=False: 只包含原生币种，排除稳定币和包装币
+        - ⚠️ 过滤在所有数据获取路径后统一应用
 
         Args:
             target_date: 目标日期，支持字符串、datetime或date类型
-            force_refresh: 是否强制刷新，忽略缓存
-            result_include_all: 结果是否包含所有币种（稳定币和包装币），默认False
+            force_refresh: 是否强制刷新，忽略所有缓存 (内存+文件)
+            result_include_all: 结果是否包含所有币种，False时只返回原生币种
 
         Returns:
-            包含指定日期所有币种数据的DataFrame
+            包含指定日期市场数据的DataFrame，根据result_include_all参数过滤
         """
         if isinstance(target_date, str):
             try:
@@ -241,13 +264,15 @@ class DailyDataAggregator:
 
         target_date_str = target_date_dt.strftime("%Y-%m-%d")
 
-        # 检查内存缓存
+        # 🧠 步骤1: 检查内存缓存 (最快)
+        # ✅ 修复后: 缓存数据也会应用 result_include_all 过滤
         if not force_refresh and target_date_str in self.daily_cache:
             logger.info(f"从内存缓存加载 {target_date_str} 的数据")
             cached_df = self.daily_cache[target_date_str]
             return self._apply_result_filter(cached_df, result_include_all)
 
-        # 检查是否有缓存文件
+        # 📁 步骤2: 检查文件缓存 (中等速度)
+        # ✅ 修复后: 文件缓存数据也会应用 result_include_all 过滤
         daily_file_path = self._get_daily_file_path(target_date_dt.date())
 
         if not force_refresh and daily_file_path.exists():
@@ -262,7 +287,8 @@ class DailyDataAggregator:
             except Exception as e:
                 logger.warning(f"读取缓存文件 {daily_file_path} 失败，将重新计算: {e}")
 
-        # 如果需要，加载币种数据
+        # 💾 步骤3: 重新计算数据 (最慢，但数据最新)
+        # 当 force_refresh=True 或无缓存时执行
         if not self.coin_data:
             logger.info("内存中无币种数据，开始加载...")
             self.load_coin_data()
@@ -278,19 +304,25 @@ class DailyDataAggregator:
             logger.info(f"已将 {target_date_str} 的数据保存到 {daily_file_path}")
             self.daily_cache[target_date_str] = daily_df
 
-        # 应用过滤逻辑
+        # 🔍 步骤4: 应用过滤逻辑 (统一在此处处理)
+        # ✅ 修复重点: 确保所有数据获取路径都会应用此过滤
         return self._apply_result_filter(daily_df, result_include_all)
 
     def _apply_result_filter(self, df: pd.DataFrame, result_include_all: bool) -> pd.DataFrame:
         """
-        根据 result_include_all 参数应用过滤逻辑
+        🔍 核心过滤方法：根据 result_include_all 参数统一应用过滤逻辑
+        
+        📌 修复说明: 此方法确保所有数据获取路径(内存缓存/文件缓存/重新计算)
+                   都会统一应用 result_include_all 过滤，解决之前缓存忽略过滤的Bug
         
         Args:
-            df: 待过滤的 DataFrame
-            result_include_all: 是否包含所有币种（稳定币和包装币）
+            df: 待过滤的 DataFrame (包含所有币种数据)
+            result_include_all: 是否包含所有币种
+                              - True: 返回全部币种 (包括稳定币、包装币)
+                              - False: 只返回原生币种 (排除稳定币、包装币)
             
         Returns:
-            过滤后的 DataFrame
+            根据参数过滤后的 DataFrame
         """
         if result_include_all or df.empty:
             return df

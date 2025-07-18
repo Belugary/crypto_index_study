@@ -151,16 +151,18 @@ class MarketCapWeightedIndexCalculator:
         if not hasattr(self, "_daily_cache"):
             self._daily_cache = {}
 
-        # 从数据源获取（只有第一次会强制刷新）
+        # 🔧 确定是否需要强制刷新
+        # force_rebuild 只在第一次获取特定日期数据时生效
         force_refresh = self.force_rebuild and cache_key not in self._daily_cache
         
-        # 总是获取所有数据，让调用方根据需要进行过滤
-        # 这避免了在缓存层面进行过滤导致的配置不一致问题
+        # 🎯 关键修复: 总是获取所有数据 (result_include_all=True)
+        # 原因: 指数计算器自己负责过滤，避免在缓存层面的配置不一致
+        # 好处: 确保不同配置的计算器实例能获得一致的基础数据
         daily_df = self.daily_aggregator.get_daily_data(
             target_date, force_refresh=force_refresh, result_include_all=True
         )
 
-        # 缓存结果
+        # 缓存结果 (缓存的是完整数据，过滤由计算器负责)
         self._daily_cache[cache_key] = daily_df
         return daily_df
 
