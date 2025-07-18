@@ -75,6 +75,27 @@ with ProgressTracker(len(items), "批量下载", "文件") as tracker:
         tracker.update(1, f"当前: {item[:20]}")
 ```
 
+#### 工具类设计模式
+
+```python
+# 立即重构原则：发现重复代码时立即提取工具类
+# 示例：CryptoDataDisplayer 替代重复的格式化代码
+
+# ❌ 重复的手动格式化（应该避免）
+display_data['价格($)'] = display_data['价格($)'].apply(lambda x: f"{x:,.2f}")
+display_data['市值($)'] = display_data['市值($)'].apply(lambda x: f"{x:,.0f}")
+
+# ✅ 使用专门的工具类（集成智能元数据加载、排名修复、格式化）
+from src.utils.display_utils import CryptoDataDisplayer
+displayer = CryptoDataDisplayer()
+
+# 数据清理：自动添加元数据、修复排名跳号、符号大写
+clean_data = displayer.clean_data(raw_data)
+
+# 格式化显示：一行完成专业格式化和表格展示
+displayer.show_table(clean_data, columns=['rank', 'symbol', 'name', 'price', 'market_cap'])
+```
+
 #### 并发处理
 
 ```python
@@ -102,6 +123,15 @@ results = processor.process_batch(func, items, desc="并发处理")
 - [ ] 长时间运行的函数有时间预期显示
 - [ ] 错误信息对用户友好，提供解决建议
 - [ ] 没有"黑箱"操作让用户焦虑等待
+
+#### 代码组织检查清单
+
+- [ ] 发现重复代码立即提取为工具类
+- [ ] 工具类放在合适的 `src/utils/` 子模块中
+- [ ] 新工具类有完整的测试覆盖
+- [ ] Notebook 代码块合理合并，避免过度碎片化
+- [ ] 显示逻辑使用专门的 Displayer 类而非手动格式化
+- [ ] CryptoDataDisplayer 的智能功能已充分利用（元数据加载、排名修复、格式化）
 
 #### 性能检查清单
 
