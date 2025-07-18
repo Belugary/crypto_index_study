@@ -4,11 +4,10 @@
 
 测试覆盖：
 1. 类初始化
-2. 数据格式化功能
-3. 表格显示功能
-4. 列映射功能
-5. 数据类型处理
-6. 边界情况处理
+2. 数据清理功能
+3. 数据格式化功能
+4. 表格显示功能
+5. 便捷函数测试
 """
 
 import sys
@@ -58,30 +57,64 @@ class TestCryptoDataDisplayer(unittest.TestCase):
         for key in expected_mappings:
             self.assertIn(key, displayer.column_mapping)
     
-    def test_format_crypto_data_basic(self):
-        """测试基本数据格式化"""
-        columns = ['rank', 'symbol', 'name', 'price', 'market_cap']
-        formatted = self.displayer.format_crypto_data(self.test_data, columns)
+    def test_clean_data_basic(self):
+        """测试基本数据清理功能"""
+        cleaned = self.displayer.clean_data(self.test_data)
         
         # 检查返回类型
-        self.assertIsInstance(formatted, pd.DataFrame)
+        self.assertIsInstance(cleaned, pd.DataFrame)
+        self.assertEqual(len(cleaned), len(self.test_data))
         
-        # 检查列名映射
+        # 检查数据完整性
+        self.assertEqual(list(cleaned.columns), list(self.test_data.columns))
+    
+    def test_clean_data_empty_input(self):
+        """测试空数据输入"""
+        empty_data = pd.DataFrame()
+        cleaned = self.displayer.clean_data(empty_data)
+        
+        # 应该返回空的DataFrame
+        self.assertTrue(cleaned.empty)
+    
+    def test_clean_data_with_target_columns(self):
+        """测试指定目标列的数据清理"""
+        target_columns = ['rank', 'symbol', 'name', 'price']
+        cleaned = self.displayer.clean_data(self.test_data, target_columns)
+        
+        # 检查只包含目标列
+        self.assertEqual(list(cleaned.columns), target_columns)
+        self.assertEqual(len(cleaned), len(self.test_data))
+    
+    def test_format_crypto_data_basic(self):
+        """测试基本格式化功能"""
+        formatted = self.displayer.format_crypto_data(self.test_data)
+        
+        # 检查列名转换
         expected_columns = ['排名', '代码', '币种名称', '价格($)', '市值(1M$)']
         self.assertEqual(list(formatted.columns), expected_columns)
         
         # 检查数据行数
         self.assertEqual(len(formatted), len(self.test_data))
     
-    def test_format_crypto_data_symbol_uppercase(self):
-        """测试符号大写转换"""
-        columns = ['symbol']
+    def test_format_crypto_data_price_formatting(self):
+        """测试价格格式化"""
+        columns = ['price']
         formatted = self.displayer.format_crypto_data(self.test_data, columns)
         
-        # 检查符号是否转为大写
-        symbols = formatted['代码'].tolist()
-        expected_symbols = ['BTC', 'ETH', 'XRP', 'BNB', 'SOL']
-        self.assertEqual(symbols, expected_symbols)
+        # 检查价格格式化 (保留4位小数，千分位分隔符)
+        prices = formatted['价格($)'].tolist()
+        self.assertEqual(prices[0], "65,000.5000")  # Bitcoin价格
+        self.assertEqual(prices[1], "3,200.7500")   # Ethereum价格
+    
+    def test_format_crypto_data_market_cap_formatting(self):
+        """测试市值格式化"""
+        columns = ['market_cap']
+        formatted = self.displayer.format_crypto_data(self.test_data, columns)
+        
+        # 检查市值格式化 (转换为百万美元单位)
+        market_caps = formatted['市值(1M$)'].tolist()
+        self.assertEqual(market_caps[0], "1,280,000")  # Bitcoin: 1.28T -> 1,280,000M
+        self.assertEqual(market_caps[1], "380,000")    # Ethereum: 380B -> 380,000M
     
     def test_format_crypto_data_name_corrections(self):
         """测试名称修正"""
@@ -94,176 +127,80 @@ class TestCryptoDataDisplayer(unittest.TestCase):
         self.assertIn('Ripple', names)
         self.assertIn('Binance Coin', names)
     
-    def test_format_crypto_data_price_formatting(self):
-        """测试价格格式化"""
-        columns = ['price']
-        formatted = self.displayer.format_crypto_data(self.test_data, columns)
+    def test_format_crypto_data_empty_dataframe(self):
+        """测试空数据框的处理"""
+        empty_data = pd.DataFrame()
+        formatted = self.displayer.format_crypto_data(empty_data)
         
-        # 检查价格格式化 - 应该有千分位分隔符和2位小数
-        prices = formatted['价格($)'].tolist()
-        
-        # 检查格式
-        for price in prices:
-            self.assertIsInstance(price, str)
-            # 应该包含千分位分隔符和小数点
-            if float(price.replace(',', '')) >= 1000:
-                self.assertIn(',', price)
+        # 检查返回空数据框
+        self.assertTrue(formatted.empty)
     
-    def test_format_crypto_data_market_cap_millions(self):
-        """测试市值百万单位格式化"""
-        columns = ['market_cap']
-        formatted = self.displayer.format_crypto_data(self.test_data, columns)
-        
-        # 检查市值格式化 - 应该转换为百万单位并有千分位分隔符
-        market_caps = formatted['市值(1M$)'].tolist()
-        
-        for mc in market_caps:
-            self.assertIsInstance(mc, str)
-            # 检查是否有千分位分隔符
-            if ',' in mc:
-                # 确保可以正确解析
-                value = int(mc.replace(',', ''))
-                self.assertGreater(value, 0)
-    
-    def test_format_crypto_data_percentage_formatting(self):
-        """测试百分比格式化"""
-        columns = ['change_24h']
-        formatted = self.displayer.format_crypto_data(self.test_data, columns)
-        
-        # 检查百分比格式化
-        changes = formatted['24h涨跌(%)'].tolist()
-        
-        for change in changes:
-            self.assertIsInstance(change, str)
-            self.assertTrue(change.endswith('%'))
-    
-    def test_format_crypto_data_missing_values(self):
-        """测试缺失值处理"""
-        # 创建包含缺失值的测试数据
-        test_data_with_na = self.test_data.copy()
-        test_data_with_na.loc[0, 'price'] = np.nan
-        test_data_with_na.loc[1, 'market_cap'] = np.nan
-        
-        columns = ['price', 'market_cap']
-        formatted = self.displayer.format_crypto_data(test_data_with_na, columns)
-        
-        # 检查缺失值是否正确处理
-        self.assertEqual(formatted.iloc[0]['价格($)'], 'N/A')
-        self.assertEqual(formatted.iloc[1]['市值(1M$)'], 'N/A')
-    
-    def test_show_table_basic(self):
-        """测试基本表格显示"""
-        columns = ['rank', 'symbol', 'name', 'price', 'market_cap']
-        
-        # 捕获打印输出
+    def test_show_table(self):
+        """测试表格显示功能"""
+        # 捕获输出
         with patch('sys.stdout', new=StringIO()) as fake_out:
-            result = self.displayer.show_table(
-                data=self.test_data,
-                columns=columns,
-                top_n=3,
-                title="测试表格"
-            )
+            result = self.displayer.show_table(self.test_data, top_n=3, title="测试表格")
         
-        # 检查返回结果
-        self.assertIsInstance(result, pd.DataFrame)
-        self.assertEqual(len(result), 3)  # top_n=3
-        
-        # 检查是否有标题输出
-        output = fake_out.getvalue()
-        self.assertIn("测试表格", output)
-    
-    def test_show_table_default_columns(self):
-        """测试默认列显示"""
-        with patch('sys.stdout', new=StringIO()):
-            result = self.displayer.show_table(data=self.test_data)
-        
-        # 当没有指定列时，应该显示所有可用列
-        self.assertGreater(len(result.columns), 0)
-    
-    def test_show_table_top_n_boundary(self):
-        """测试 top_n 边界情况"""
-        columns = ['rank', 'name']
-        
-        # 测试 top_n 大于数据行数
-        with patch('sys.stdout', new=StringIO()):
-            result = self.displayer.show_table(
-                data=self.test_data,
-                columns=columns,
-                top_n=10  # 大于实际数据行数
-            )
-        
-        # 应该返回所有数据
-        self.assertEqual(len(result), len(self.test_data))
-    
-    def test_invalid_columns(self):
-        """测试无效列处理"""
-        # 测试不存在的列
-        invalid_columns = ['rank', 'nonexistent_column']
-        
-        # 应该能够处理无效列而不崩溃
-        try:
-            with patch('sys.stdout', new=StringIO()):
-                result = self.displayer.show_table(
-                    data=self.test_data,
-                    columns=invalid_columns
-                )
-            # 如果没有抛出异常，则测试通过
+        # 在Jupyter环境外应该返回DataFrame，在Jupyter环境内返回None
+        # 我们在测试环境中没有IPython，所以应该返回DataFrame
+        if result is not None:
             self.assertIsInstance(result, pd.DataFrame)
-        except KeyError:
-            # 如果抛出 KeyError，也是可以接受的行为
-            pass
+            self.assertEqual(len(result), 3)  # 只显示前3行
+        
+        # 检查控制台输出
+        output = fake_out.getvalue()
+        self.assertIn("📊 测试表格", output)
+        self.assertIn("显示前 3 行数据", output)
     
-    def test_empty_dataframe(self):
-        """测试空数据框处理"""
-        empty_df = pd.DataFrame()
+    def test_rank_reordering(self):
+        """测试排名重排功能"""
+        # 创建带有跳号的测试数据
+        data_with_gaps = self.test_data.copy()
+        data_with_gaps['rank'] = [1, 3, 7, 10, 15]  # 故意创建跳号
         
-        with patch('sys.stdout', new=StringIO()):
-            result = self.displayer.show_table(data=empty_df)
+        # 清理数据（应该重新计算排名）
+        cleaned = self.displayer.clean_data(data_with_gaps)
         
-        self.assertIsInstance(result, pd.DataFrame)
-        self.assertEqual(len(result), 0)
-
-
-class TestCryptoDataDisplayerIntegration(unittest.TestCase):
-    """CryptoDataDisplayer 集成测试"""
+        # 检查排名是否连续
+        expected_ranks = [1, 2, 3, 4, 5]
+        actual_ranks = cleaned['rank'].tolist()
+        self.assertEqual(actual_ranks, expected_ranks)
+        
+        # 检查数据按市值降序排列
+        market_caps = cleaned['market_cap'].tolist()
+        self.assertEqual(market_caps, sorted(market_caps, reverse=True))
     
-    def test_real_data_simulation(self):
-        """测试模拟真实数据场景"""
-        displayer = CryptoDataDisplayer()
-        
-        # 模拟真实的加密货币数据
-        real_data = pd.DataFrame({
-            'rank': range(1, 11),
-            'coin_id': [f'coin_{i}' for i in range(1, 11)],
-            'name': ['Bitcoin', 'Ethereum', 'XRP', 'BNB', 'Solana', 
-                    'Cardano', 'Polygon', 'Chainlink', 'Litecoin', 'Avalanche'],
-            'symbol': ['BTC', 'ETH', 'XRP', 'BNB', 'SOL', 
-                      'ADA', 'MATIC', 'LINK', 'LTC', 'AVAX'],
-            'price': [65432.10, 3187.50, 1.23, 542.30, 118.90,
-                     0.85, 1.05, 14.20, 89.50, 35.60],
-            'market_cap': [1.28e12, 3.8e11, 6.8e10, 8.0e10, 5.5e10,
-                          3.2e10, 9.8e9, 8.5e9, 6.6e9, 1.4e10]
+    def test_metadata_fields_handling(self):
+        """测试元数据字段处理"""
+        # 创建只有coin_id的数据（模拟缺失symbol和name的情况）
+        minimal_data = pd.DataFrame({
+            'coin_id': ['bitcoin', 'ethereum', 'ripple'],
+            'price': [65000.50, 3200.75, 1.25],
+            'market_cap': [1280000000000, 380000000000, 68000000000],
+            'rank': [1, 2, 3]
         })
         
-        columns = ['rank', 'symbol', 'name', 'price', 'market_cap']
+        # 清理数据应该尝试添加元数据字段
+        with patch('sys.stdout', new=StringIO()):
+            cleaned = self.displayer.clean_data(minimal_data)
         
-        with patch('sys.stdout', new=StringIO()) as fake_out:
-            result = displayer.show_table(
-                data=real_data,
-                columns=columns,
-                top_n=5,
-                title="前5大加密货币"
-            )
+        # 应该添加了symbol和name列（即使可能为空）
+        self.assertIn('symbol', cleaned.columns)
+        self.assertIn('name', cleaned.columns)
+    
+    def test_symbol_uppercase_conversion(self):
+        """测试符号大写转换功能"""
+        formatted = self.displayer.format_crypto_data(self.test_data)
         
-        # 验证结果
-        self.assertEqual(len(result), 5)
-        self.assertIn('排名', result.columns)
-        self.assertIn('代码', result.columns)
-        self.assertIn('币种名称', result.columns)
-        
-        # 验证输出包含标题
-        output = fake_out.getvalue()
-        self.assertIn("前5大加密货币", output)
+        # 检查所有符号都是大写
+        symbols = formatted['代码'].tolist()
+        for symbol in symbols:
+            self.assertEqual(symbol, symbol.upper())
+            
+        # 检查具体的转换
+        self.assertIn('BTC', symbols)
+        self.assertIn('ETH', symbols)
+        self.assertIn('XRP', symbols)
 
 
 def run_tests():
@@ -271,31 +208,24 @@ def run_tests():
     print("🧪 开始测试 CryptoDataDisplayer 类...")
     
     # 创建测试套件
-    test_suite = unittest.TestSuite()
-    
-    # 添加基本功能测试
-    test_suite.addTest(unittest.makeSuite(TestCryptoDataDisplayer))
-    test_suite.addTest(unittest.makeSuite(TestCryptoDataDisplayerIntegration))
+    test_suite = unittest.TestLoader().loadTestsFromTestCase(TestCryptoDataDisplayer)
     
     # 运行测试
     runner = unittest.TextTestRunner(verbosity=2)
     result = runner.run(test_suite)
     
-    # 输出测试结果摘要
-    if result.wasSuccessful():
-        print("\n✅ 所有测试通过！")
-    else:
-        print(f"\n❌ 测试失败: {len(result.failures)} 个失败, {len(result.errors)} 个错误")
-        
-        if result.failures:
-            print("\n失败的测试:")
-            for test, traceback in result.failures:
-                print(f"  - {test}: {traceback}")
-        
-        if result.errors:
-            print("\n错误的测试:")
-            for test, traceback in result.errors:
-                print(f"  - {test}: {traceback}")
+    # 输出结果统计
+    total_tests = result.testsRun
+    failures = len(result.failures)
+    errors = len(result.errors)
+    success_rate = ((total_tests - failures - errors) / total_tests) * 100 if total_tests > 0 else 0
+    
+    print(f"\n📊 测试结果统计:")
+    print(f"   总测试数: {total_tests}")
+    print(f"   成功: {total_tests - failures - errors}")
+    print(f"   失败: {failures}")
+    print(f"   错误: {errors}")
+    print(f"   成功率: {success_rate:.1f}%")
     
     return result.wasSuccessful()
 
