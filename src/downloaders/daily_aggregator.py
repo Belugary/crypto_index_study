@@ -244,7 +244,8 @@ class DailyDataAggregator:
         # 检查内存缓存
         if not force_refresh and target_date_str in self.daily_cache:
             logger.info(f"从内存缓存加载 {target_date_str} 的数据")
-            return self.daily_cache[target_date_str]
+            cached_df = self.daily_cache[target_date_str]
+            return self._apply_result_filter(cached_df, result_include_all)
 
         # 检查是否有缓存文件
         daily_file_path = self._get_daily_file_path(target_date_dt.date())
@@ -257,7 +258,7 @@ class DailyDataAggregator:
                 if "date" in df.columns:
                     df["date"] = pd.to_datetime(df["date"]).dt.date
                 self.daily_cache[target_date_str] = df  # 更新缓存
-                return df
+                return self._apply_result_filter(df, result_include_all)
             except Exception as e:
                 logger.warning(f"读取缓存文件 {daily_file_path} 失败，将重新计算: {e}")
 
@@ -277,24 +278,39 @@ class DailyDataAggregator:
             logger.info(f"已将 {target_date_str} 的数据保存到 {daily_file_path}")
             self.daily_cache[target_date_str] = daily_df
 
-        # 如果需要，过滤出原生币种
-        if not result_include_all:
-            from src.classification.unified_classifier import UnifiedClassifier
-            
-            classifier = UnifiedClassifier(data_dir=str(self.data_dir.parent))
-            coin_ids = daily_df['coin_id'].unique().tolist()
-            
-            native_coin_ids = classifier.filter_coins(
-                coin_ids=coin_ids,
-                exclude_stablecoins=True,
-                exclude_wrapped_coins=True,
-                use_cache=True
-            )
-            
-            daily_df = daily_df[daily_df['coin_id'].isin(native_coin_ids)].copy()
-            logger.info(f"过滤后保留 {len(native_coin_ids)} 个原生币种")
+        # 应用过滤逻辑
+        return self._apply_result_filter(daily_df, result_include_all)
 
-        return daily_df
+    def _apply_result_filter(self, df: pd.DataFrame, result_include_all: bool) -> pd.DataFrame:
+        """
+        根据 result_include_all 参数应用过滤逻辑
+        
+        Args:
+            df: 待过滤的 DataFrame
+            result_include_all: 是否包含所有币种（稳定币和包装币）
+            
+        Returns:
+            过滤后的 DataFrame
+        """
+        if result_include_all or df.empty:
+            return df
+            
+        from src.classification.unified_classifier import UnifiedClassifier
+        
+        classifier = UnifiedClassifier(data_dir=str(self.data_dir.parent))
+        coin_ids = df['coin_id'].unique().tolist()
+        
+        native_coin_ids = classifier.filter_coins(
+            coin_ids=coin_ids,
+            exclude_stablecoins=True,
+            exclude_wrapped_coins=True,
+            use_cache=True
+        )
+        
+        filtered_df = df[df['coin_id'].isin(native_coin_ids)].copy()
+        logger.info(f"过滤后保留 {len(native_coin_ids)} 个原生币种")
+        
+        return filtered_df
 
     def build_daily_tables(self, force_recalculate: bool = False) -> None:
         """构建每日数据表集合
