@@ -68,7 +68,7 @@ def normalize_timestamp(ts):
 **验证机制**：
 
 ```bash
-python scripts/update_price_data.py
+python scripts/update_market_data.py
 ```
 
 ### 错误 3：时区混乱

@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
 """
-价格数据更新脚本
+🚨 注意：推荐使用新的统一脚本 update_market_data.py
+
+价格数据更新脚本（传统版本）
 
 该脚本调用核心模块来执行智能的价格数据更新策略。
 这是一个自动化脚本，用于定期执行价格数据更新任务。
 
-使用方式:
+🎯 新推荐方式：
+    python scripts/update_market_data.py                        # 统一入口，功能更全面
+
+传统使用方式:
     python scripts/update_price_data.py                     # 智能更新510个原生币
     python scripts/update_price_data.py --native-coins 700  # 智能更新700个原生币
     python scripts/update_price_data.py --max-range 1500    # 设置最大搜索范围
@@ -120,14 +125,12 @@ def main():
                 print("\n🔄 开始传统每日汇总数据更新...")
 
                 # 导入每日汇总功能
-                from scripts.rebuild_daily_files import DailyDataAggregator
+                from src.downloaders.daily_aggregator import DailyDataAggregator
 
-                aggregator = DailyDataAggregator()
-                aggregator.update_recent_days(
-                    days=args.daily_days,
-                    parallel=True,  # 自动使用并行处理提升效率
-                    max_workers=None,  # 自动设置工作进程数
-                )
+                aggregator = DailyDataAggregator(use_database=True)  # 🚀 启用数据库模式
+                # 使用 build_daily_tables 方法来更新数据
+                aggregator.build_daily_tables(force_recalculate=True)
+                print("✅ 每日汇总数据更新完成")
                 print("✅ 传统每日汇总数据更新完成!")
 
         print("\n✅ 价格数据更新完成!")

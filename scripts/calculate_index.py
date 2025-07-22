@@ -108,6 +108,7 @@ def main():
             exclude_stablecoins=not args.include_stablecoins,
             exclude_wrapped_coins=not args.include_wrapped_coins,
             force_rebuild=args.force_rebuild,
+            use_database=True,  # 🚀 启用数据库模式以获得更好性能
         )
 
         # 计算指数

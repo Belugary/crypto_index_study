@@ -47,9 +47,12 @@ class TestMarketCapWeightedIndexCalculatorModern(unittest.TestCase):
         """清理测试环境"""
         self.patcher.stop()
 
-    def mock_get_daily_data(self, target_date, force_refresh=False):
+    def mock_get_daily_data(self, target_date, force_refresh=False, result_include_all=False, prefer_database=True):
         """模拟的 get_daily_data，从内存返回数据"""
-        date_str = target_date.isoformat()
+        if isinstance(target_date, str):
+            date_str = target_date
+        else:
+            date_str = target_date.isoformat()
         return self.mock_daily_data.get(date_str, pd.DataFrame())
 
     def _create_mock_daily_data(self):

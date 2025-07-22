@@ -32,6 +32,7 @@ from tqdm import tqdm
 from ..api.coingecko import CoinGeckoAPI
 from ..classification.unified_classifier import UnifiedClassifier
 from ..downloaders.batch_downloader import create_batch_downloader
+from ..utils.path_utils import find_project_root, resolve_data_path
 
 # API限流配置
 RATE_LIMIT_CONFIG = {
@@ -123,9 +124,10 @@ class PriceDataUpdater:
         self.classifier = UnifiedClassifier()  # 直接使用统一分类器
         self.market_fetcher = MarketDataFetcher(self.api)
 
-        # 目录设置
-        self.coins_dir = Path("data/coins")
-        self.metadata_dir = Path("data/metadata")
+        # 使用新的路径工具
+        self.project_root = find_project_root()
+        self.coins_dir = resolve_data_path("data/coins", self.project_root)
+        self.metadata_dir = resolve_data_path("data/metadata", self.project_root)
 
         # 统计信息
         self.stats = {

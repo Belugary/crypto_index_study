@@ -1,0 +1,57 @@
+{
+  "id": "lorenzo-protocol",
+  "symbol": "bank",
+  "name": "Lorenzo Protocol",
+  "categories": [
+    "BNB Chain Ecosystem",
+    "YZi Labs (Prev. Binance Labs) Portfolio",
+    "Liquid Staking",
+    "BTCfi Protocol"
+  ],
+  "asset_platform_id": "binance-smart-chain",
+  "platforms": {
+    "binance-smart-chain": "0x3aee7602b612de36088f3ffed8c8f10e86ebf2bf"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [
+      "https://lorenzo-protocol.xyz/"
+    ],
+    "whitepaper": "https://docs.lorenzo-protocol.xyz/",
+    "blockchain_site": [
+      "https://bscscan.com/token/0x3AeE7602b612de36088F3ffEd8c8f10E86EbF2bF",
+      "https://binplorer.com/address/0x3AeE7602b612de36088F3ffEd8c8f10E86EbF2bF"
+    ],
+    "official_forum_url": [
+      "https://discord.com/invite/lorenzoprotocol",
+      "https://medium.com/@lorenzoprotocol",
+      "https://www.linkedin.com/company/lorenzoprotocolxyz/"
+    ],
+    "chat_url": [
+      "https://www.youtube.com/@LorenzoProtocol"
+    ],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "LorenzoProtocol",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "LorenzoProtocol",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55250/thumb/lorenzo.jpg?1744963693",
+    "small": "https://coin-images.coingecko.com/coins/images/55250/small/lorenzo.jpg?1744963693",
+    "large": "https://coin-images.coingecko.com/coins/images/55250/large/lorenzo.jpg?1744963693"
+  },
+  "last_updated": "2025-07-18T11:48:41.174758+00:00"
+}

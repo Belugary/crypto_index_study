@@ -19,6 +19,7 @@ from tqdm import tqdm
 
 from ..classification.unified_classifier import UnifiedClassifier
 from ..downloaders.batch_downloader import create_batch_downloader
+from ..utils.path_utils import find_project_root, resolve_data_path
 
 logger = logging.getLogger(__name__)
 
@@ -33,14 +34,9 @@ class MetadataUpdater:
         Args:
             project_root: 项目根目录，如果为None则自动推导
         """
-        if project_root is None:
-            # 从模块位置推导项目根目录 (src/updaters -> project_root)
-            self.project_root = Path(__file__).parent.parent.parent
-        else:
-            self.project_root = project_root
-
-        self.coins_dir = self.project_root / "data" / "coins"
-        self.metadata_dir = self.project_root / "data" / "metadata"
+        self.project_root = project_root or find_project_root()
+        self.coins_dir = resolve_data_path("coins", project_root=self.project_root)
+        self.metadata_dir = resolve_data_path("metadata", project_root=self.project_root)
 
         # 初始化统一分类器和下载器
         self.classifier = UnifiedClassifier()

@@ -17,7 +17,13 @@
 ```bash
 cd crypto_index_study
 python -m venv .venv
-source .venv/bin/activate  # Linux/Mac
+
+# 激活虚拟环境
+source .venv/bin/activate      # Linux/Mac
+# 或者在Windows上使用：
+.venv\Scripts\activate.bat     # Windows CMD
+.venv\Scripts\Activate.ps1     # Windows PowerShell
+
 pip install -r requirements.txt
 ```
 
@@ -31,11 +37,8 @@ COINGECKO_API_KEY=你的API_KEY
 ### 3. 基础操作
 
 ```bash
-# 下载元数据
-python scripts/update_all_metadata.py
-
-# 更新价格数据（默认 510 个原生币）
-python scripts/update_price_data.py
+# 更新市场数据（推荐：统一入口，包含价格和元数据）
+python scripts/update_market_data.py
 
 # 每日维护（推荐）
 python scripts/quick_maintenance.py

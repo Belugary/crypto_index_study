@@ -9,6 +9,7 @@ DailyDataAggregator 测试模块
 4. 数据覆盖分析
 5. 文件重排序
 6. 错误处理
+7. 缓存机制和参数过滤 (result_include_all 修复测试)
 """
 
 import os
@@ -105,8 +106,38 @@ class TestDailyDataAggregator(unittest.TestCase):
         self.assertEqual(aggregator.output_dir, self.output_dir)
         self.assertEqual(len(aggregator.coin_data), 0)  # 初始化时为空
         self.assertEqual(len(aggregator.daily_cache), 0)
+        
+        # 测试新增属性
+        self.assertTrue(hasattr(aggregator, 'result_include_all'))
+        self.assertEqual(aggregator.result_include_all, False)  # 默认值
+        self.assertTrue(hasattr(aggregator, 'project_root'))
+        self.assertTrue(hasattr(aggregator, 'log_folder'))
 
         print("✅ 初始化测试通过")
+
+    def test_01b_result_include_all_parameter(self):
+        """测试 result_include_all 参数功能"""
+        print("\n--- 测试 1b: result_include_all 参数 ---")
+
+        # 测试默认值
+        aggregator_default = DailyDataAggregator(
+            data_dir=str(self.data_dir), output_dir=str(self.output_dir)
+        )
+        self.assertEqual(aggregator_default.result_include_all, False)
+        
+        # 测试显式设置为 True
+        aggregator_true = DailyDataAggregator(
+            data_dir=str(self.data_dir), output_dir=str(self.output_dir), result_include_all=True
+        )
+        self.assertEqual(aggregator_true.result_include_all, True)
+        
+        # 测试显式设置为 False
+        aggregator_false = DailyDataAggregator(
+            data_dir=str(self.data_dir), output_dir=str(self.output_dir), result_include_all=False
+        )
+        self.assertEqual(aggregator_false.result_include_all, False)
+        
+        print("✅ result_include_all 参数测试通过")
 
     def test_02_load_coin_data(self):
         """测试币种数据加载"""
@@ -437,6 +468,77 @@ def run_tests():
     print("=" * 60)
 
     return result.wasSuccessful()
+
+
+class TestDailyDataAggregatorCacheFix(unittest.TestCase):
+    """测试 result_include_all 参数缓存修复"""
+    
+    def setUp(self):
+        """测试准备"""
+        self.aggregator = DailyDataAggregator()
+        self.test_date = '2023-10-01'
+        
+        # 测试用的稳定币和包装币列表
+        self.stablecoins = ['tether', 'usd-coin', 'binance-usd', 'dai']
+        self.wrapped_coins = ['wrapped-bitcoin', 'weth']
+    
+    def test_cache_behavior_comprehensive(self):
+        """全面测试缓存行为和参数过滤"""
+        print('\n🧪 测试缓存修复后的 result_include_all 参数行为')
+        
+        # 清空缓存
+        self.aggregator.daily_cache.clear()
+        
+        # 1. 获取全部数据（建立缓存）
+        data_all = self.aggregator.get_daily_data(
+            target_date=self.test_date, 
+            result_include_all=True, 
+            force_refresh=True
+        )
+        
+        # 2. 从缓存获取原生数据
+        data_native = self.aggregator.get_daily_data(
+            target_date=self.test_date, 
+            result_include_all=False, 
+            force_refresh=False
+        )
+        
+        # 3. 验证过滤效果
+        self.assertGreater(len(data_all), len(data_native), 
+                          "全部数据应该比原生数据多")
+        
+        # 4. 验证稳定币被过滤
+        found_stables = [s for s in self.stablecoins if s in data_native['coin_id'].values]
+        self.assertEqual(len(found_stables), 0, 
+                        f"原生数据中不应包含稳定币，但发现: {found_stables}")
+        
+        # 5. 验证包装币被过滤  
+        found_wrapped = [w for w in self.wrapped_coins if w in data_native['coin_id'].values]
+        self.assertEqual(len(found_wrapped), 0,
+                        f"原生数据中不应包含包装币，但发现: {found_wrapped}")
+        
+        print(f'✅ 缓存测试通过: 全部({len(data_all)}) vs 原生({len(data_native)})')
+    
+    def test_file_cache_behavior(self):
+        """测试文件缓存行为"""
+        print('\n🧪 测试文件缓存的参数过滤行为')
+        
+        # 清空内存缓存，保留文件缓存
+        self.aggregator.daily_cache.clear()
+        
+        # 从文件缓存获取原生数据
+        data_native_file = self.aggregator.get_daily_data(
+            target_date=self.test_date,
+            result_include_all=False,
+            force_refresh=False
+        )
+        
+        # 验证文件缓存也正确过滤
+        found_stables = [s for s in self.stablecoins if s in data_native_file['coin_id'].values]
+        self.assertEqual(len(found_stables), 0,
+                        f"文件缓存的原生数据不应包含稳定币，但发现: {found_stables}")
+        
+        print(f'✅ 文件缓存测试通过: 原生数据({len(data_native_file)})正确过滤')
 
 
 if __name__ == "__main__":

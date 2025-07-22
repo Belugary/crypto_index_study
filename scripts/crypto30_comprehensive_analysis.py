@@ -29,6 +29,8 @@ from tqdm import tqdm
 # 添加项目根目录到Python路径
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+from src.utils.path_utils import find_project_root
+
 from src.index.market_cap_weighted import MarketCapWeightedIndexCalculator
 from src.downloaders.daily_aggregator import DailyDataAggregator
 from src.classification.unified_classifier import UnifiedClassifier
@@ -44,18 +46,30 @@ class Crypto30ComprehensiveAnalyzer:
         Args:
             output_dir: 输出目录
         """
-        self.output_dir = Path(output_dir)
+        self.project_root = self._find_project_root()
+        # 解析输出目录路径
+        if Path(output_dir).is_absolute():
+            self.output_dir = Path(output_dir)
+        else:
+            self.output_dir = self.project_root / output_dir
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
-        # 初始化组件
+        # 初始化组件 - 启用数据库模式以获得更好性能
         self.calculator = MarketCapWeightedIndexCalculator(
-            exclude_stablecoins=True, exclude_wrapped_coins=True
+            exclude_stablecoins=True, 
+            exclude_wrapped_coins=True,
+            use_database=True  # 🚀 启用数据库模式
         )
-        self.daily_aggregator = DailyDataAggregator()
+        self.daily_aggregator = DailyDataAggregator(use_database=True)  # 🚀 启用数据库模式
         self.classifier = UnifiedClassifier()
 
         # 设置日志
         self.logger = logging.getLogger(__name__)
+
+    @staticmethod
+    def _find_project_root() -> Path:
+        """查找项目根目录 - 使用统一的路径工具"""
+        return find_project_root()
 
     def get_daily_constituents_and_weights(
         self, target_date: date, top_n: int = 30
@@ -410,12 +424,21 @@ class Crypto30ComprehensiveAnalyzer:
 
 def setup_logging():
     """设置日志配置"""
+    project_root = Path(__file__).parent.parent
+    while project_root != project_root.parent:
+        if (project_root / ".git").exists() or (
+            (project_root / "src").exists() and (project_root / "requirements.txt").exists()
+        ):
+            break
+        project_root = project_root.parent
+    
+    log_file = project_root / "logs/crypto30_analysis.log"
     logging.basicConfig(
         level=logging.INFO,
         format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
         handlers=[
             logging.StreamHandler(),
-            logging.FileHandler("logs/crypto30_analysis.log"),
+            logging.FileHandler(log_file),
         ],
     )
 

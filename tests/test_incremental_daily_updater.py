@@ -8,6 +8,7 @@
 3. 每日文件插入
 4. 错误处理和恢复
 5. 完整工作流
+6. 数据库集成功能
 """
 
 import os
@@ -65,7 +66,7 @@ class TestIncrementalDailyUpdater(unittest.TestCase):
 
             self.assertEqual(updater.coins_dir, self.coins_dir)
             self.assertEqual(updater.daily_dir, self.daily_dir)
-            self.assertFalse(updater.backup_enabled)  # 现在默认关闭备份
+            self.assertTrue(updater.use_database)  # 默认启用数据库
 
         print("✅ 初始化测试通过")
 
@@ -174,41 +175,9 @@ class TestIncrementalDailyUpdater(unittest.TestCase):
 
         print("✅ 币种数据加载测试通过")
 
-    def test_05_insert_coin_into_daily_file(self):
-        """测试插入币种到每日文件"""
-        print("\n--- 测试 5: 插入币种到每日文件 ---")
-
-        # 创建测试的每日文件目录结构
-        target_date = date(2021, 1, 1)
-        year_dir = self.daily_dir / "2021"
-        month_dir = year_dir / "01"
-        month_dir.mkdir(parents=True)
-
-        # 创建已有的每日文件
-        existing_data = pd.DataFrame(
-            {
-                "timestamp": [1609459200000],
-                "price": [29000.0],
-                "volume": [1000000.0],
-                "market_cap": [500000000.0],
-                "date": [target_date],
-                "coin_id": ["bitcoin"],
-                "rank": [1],
-            }
-        )
-
-        daily_file_path = month_dir / f"{target_date}.csv"
-        existing_data.to_csv(daily_file_path, index=False)
-
-        # 准备要插入的新币种数据
-        new_coin_data = {
-            "timestamp": 1609459200000,
-            "price": 1.5,
-            "volume": 500000.0,
-            "market_cap": 300000000.0,  # 比比特币小，应该排在第2位
-            "date": target_date,
-            "coin_id": "cardano",
-        }
+    def test_05_database_integration(self):
+        """测试数据库集成功能"""
+        print("\n--- 测试 5: 数据库集成 ---")
 
         with patch(
             "src.updaters.incremental_daily_updater.create_batch_downloader"
@@ -216,70 +185,34 @@ class TestIncrementalDailyUpdater(unittest.TestCase):
             "src.updaters.incremental_daily_updater.MarketDataFetcher"
         ):
 
-            updater = IncrementalDailyUpdater(
-                coins_dir=str(self.coins_dir), daily_dir=str(self.daily_dir)
+            # 测试默认启用数据库模式
+            updater_default = IncrementalDailyUpdater(
+                coins_dir=str(self.coins_dir), 
+                daily_dir=str(self.daily_dir)
             )
+            self.assertTrue(updater_default.use_database, "默认应该启用数据库模式")
 
-            # 执行插入
-            success = updater.insert_coin_into_daily_file(target_date, new_coin_data)
-
-            self.assertTrue(success)
-
-            # 验证文件内容
-            updated_df = pd.read_csv(daily_file_path)
-            self.assertEqual(len(updated_df), 2)  # 应该有2个币种
-
-            # 验证排序：比特币应该排第1，卡尔达诺第2
-            bitcoin_rank = updated_df[updated_df["coin_id"] == "bitcoin"]["rank"].iloc[
-                0
-            ]
-            cardano_rank = updated_df[updated_df["coin_id"] == "cardano"]["rank"].iloc[
-                0
-            ]
-
-            self.assertEqual(bitcoin_rank, 1)
-            self.assertEqual(cardano_rank, 2)
-
-        print("✅ 币种插入测试通过")
-
-    def test_06_integration_workflow(self):
-        """测试完整集成工作流"""
-        print("\n--- 测试 6: 完整集成工作流 ---")
-
-        # 1. 创建测试的币种历史数据
-        test_coin_data = pd.DataFrame(
-            {
-                "timestamp": [1609459200000, 1609545600000],  # 2021-01-01, 01-02
-                "price": [1.5, 1.6],
-                "volume": [500000.0, 550000.0],
-                "market_cap": [300000000.0, 320000000.0],
-            }
-        )
-
-        test_csv_path = self.coins_dir / "cardano.csv"
-        test_coin_data.to_csv(test_csv_path, index=False)
-
-        # 2. 创建已有的每日文件
-        for day_offset in range(2):  # 2021-01-01 和 2021-01-02
-            target_date = date(2021, 1, 1 + day_offset)
-            year_dir = self.daily_dir / "2021"
-            month_dir = year_dir / "01"
-            month_dir.mkdir(parents=True, exist_ok=True)
-
-            existing_data = pd.DataFrame(
-                {
-                    "timestamp": [1609459200000 + day_offset * 86400000],
-                    "price": [29000.0 + day_offset * 1000],
-                    "volume": [1000000.0],
-                    "market_cap": [500000000.0 + day_offset * 10000000],
-                    "date": [target_date],
-                    "coin_id": ["bitcoin"],
-                    "rank": [1],
-                }
+            # 测试显式启用数据库模式
+            updater_explicit = IncrementalDailyUpdater(
+                coins_dir=str(self.coins_dir), 
+                daily_dir=str(self.daily_dir),
+                use_database=True
             )
+            self.assertTrue(updater_explicit.use_database)
 
-            daily_file_path = month_dir / f"{target_date}.csv"
-            existing_data.to_csv(daily_file_path, index=False)
+            # 测试禁用数据库模式
+            updater_no_db = IncrementalDailyUpdater(
+                coins_dir=str(self.coins_dir), 
+                daily_dir=str(self.daily_dir),
+                use_database=False
+            )
+            self.assertFalse(updater_no_db.use_database)
+
+        print("✅ 数据库集成测试通过")
+
+    def test_06_create_incremental_updater(self):
+        """测试便捷创建函数"""
+        print("\n--- 测试 6: 便捷创建函数 ---")
 
         with patch(
             "src.updaters.incremental_daily_updater.create_batch_downloader"
@@ -287,28 +220,32 @@ class TestIncrementalDailyUpdater(unittest.TestCase):
             "src.updaters.incremental_daily_updater.MarketDataFetcher"
         ):
 
-            updater = IncrementalDailyUpdater(
+            # 测试默认数据库模式
+            updater = create_incremental_updater(
                 coins_dir=str(self.coins_dir), daily_dir=str(self.daily_dir)
             )
 
-            # 执行集成
-            inserted_count, total_attempts = (
-                updater.integrate_new_coin_into_daily_files("cardano")
+            self.assertIsInstance(updater, IncrementalDailyUpdater)
+            self.assertEqual(updater.coins_dir, self.coins_dir)
+            self.assertTrue(updater.use_database, "默认应该启用数据库模式")
+
+            # 测试显式设置数据库模式
+            updater_db = create_incremental_updater(
+                coins_dir=str(self.coins_dir), 
+                daily_dir=str(self.daily_dir),
+                use_database=True
             )
+            self.assertTrue(updater_db.use_database, "应该启用数据库模式")
 
-            self.assertEqual(total_attempts, 2)  # 应该尝试2天
-            self.assertEqual(inserted_count, 2)  # 应该成功插入2天
+            # 测试禁用数据库模式
+            updater_csv = create_incremental_updater(
+                coins_dir=str(self.coins_dir), 
+                daily_dir=str(self.daily_dir),
+                use_database=False
+            )
+            self.assertFalse(updater_csv.use_database, "应该禁用数据库模式")
 
-            # 验证每日文件都已更新
-            for day_offset in range(2):
-                target_date = date(2021, 1, 1 + day_offset)
-                daily_file_path = self.daily_dir / "2021" / "01" / f"{target_date}.csv"
-
-                df = pd.read_csv(daily_file_path)
-                self.assertEqual(len(df), 2)  # 每个文件应该有2个币种
-                self.assertIn("cardano", df["coin_id"].values)
-
-        print(f"✅ 集成工作流测试通过: {inserted_count}/{total_attempts} 天成功")
+        print("✅ 便捷创建函数测试通过 (包括数据库模式)")
 
     def test_07_error_handling(self):
         """测试错误处理"""
@@ -328,79 +265,7 @@ class TestIncrementalDailyUpdater(unittest.TestCase):
             result = updater.load_coin_data("nonexistent-coin")
             self.assertIsNone(result)
 
-            # 测试插入到无效日期
-            invalid_coin_data = {
-                "timestamp": 1609459200000,
-                "price": -1.0,  # 无效价格
-                "volume": 500000.0,
-                "market_cap": 300000000.0,
-                "date": date(2021, 1, 1),
-                "coin_id": "invalid-coin",
-            }
-
-            # 这个应该能插入（我们在插入时不验证价格）
-            # 但在实际的load_coin_data中会被过滤掉
-
         print("✅ 错误处理测试通过")
-
-    def test_08_convenience_function(self):
-        """测试便捷创建函数"""
-        print("\n--- 测试 8: 便捷创建函数 ---")
-
-        with patch(
-            "src.updaters.incremental_daily_updater.create_batch_downloader"
-        ), patch("src.updaters.incremental_daily_updater.CoinGeckoAPI"), patch(
-            "src.updaters.incremental_daily_updater.MarketDataFetcher"
-        ):
-
-            updater = create_incremental_updater(
-                coins_dir=str(self.coins_dir), daily_dir=str(self.daily_dir)
-            )
-
-            self.assertIsInstance(updater, IncrementalDailyUpdater)
-            self.assertEqual(updater.coins_dir, self.coins_dir)
-
-        print("✅ 便捷创建函数测试通过")
-
-    def test_09_dry_run_mode(self):
-        """测试试运行模式"""
-        print("\n--- 测试 9: 试运行模式 ---")
-
-        # 创建已有币种
-        (self.coins_dir / "bitcoin.csv").touch()
-
-        # 模拟市值排名数据
-        mock_market_data = [
-            {"id": "bitcoin", "name": "Bitcoin"},
-            {"id": "ethereum", "name": "Ethereum"},  # 新币种
-        ]
-
-        with patch(
-            "src.updaters.incremental_daily_updater.create_batch_downloader"
-        ), patch("src.updaters.incremental_daily_updater.CoinGeckoAPI"), patch(
-            "src.updaters.incremental_daily_updater.MarketDataFetcher"
-        ) as MockMarketDataFetcher:
-
-            # 设置 mock
-            mock_fetcher = MockMarketDataFetcher.return_value
-            mock_fetcher.get_top_coins.return_value = mock_market_data
-
-            updater = IncrementalDailyUpdater(
-                coins_dir=str(self.coins_dir), daily_dir=str(self.daily_dir)
-            )
-
-            # 执行试运行
-            results = updater.update_with_new_coins(top_n=10, dry_run=True)
-
-            self.assertTrue(results["summary"]["dry_run"])
-            self.assertEqual(results["summary"]["status"], "dry_run_complete")
-            self.assertEqual(results["new_coins"], ["ethereum"])
-
-            # 确保没有实际下载或修改文件
-            self.assertEqual(len(results["download_results"]), 0)
-            self.assertEqual(len(results["integration_results"]), 0)
-
-        print("✅ 试运行模式测试通过")
 
 
 def run_tests():

@@ -1,0 +1,48 @@
+{
+  "id": "sui-bridged-wbtc-sui",
+  "symbol": "wbtc",
+  "name": "Sui Bridged WBTC (Sui)",
+  "categories": [
+    "Sui Ecosystem",
+    "Bridged WBTC",
+    "Bridged-Tokens"
+  ],
+  "asset_platform_id": "sui",
+  "platforms": {
+    "sui": "0xaafb102dd0902f5055cadecd687fb5b71ca82ef0e0285d90afde828ec58ca96b::btc::BTC"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": ""
+  },
+  "links": {
+    "homepage": [],
+    "whitepaper": "",
+    "blockchain_site": [
+      "https://suiscan.xyz/mainnet/coin/0xaafb102dd0902f5055cadecd687fb5b71ca82ef0e0285d90afde828ec58ca96b::btc::BTC/txs",
+      "https://suivision.xyz/coin/0xaafb102dd0902f5055cadecd687fb5b71ca82ef0e0285d90afde828ec58ca96b::btc::BTC"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/67277/thumb/wbtc.jpg?1752291237",
+    "small": "https://coin-images.coingecko.com/coins/images/67277/small/wbtc.jpg?1752291237",
+    "large": "https://coin-images.coingecko.com/coins/images/67277/large/wbtc.jpg?1752291237"
+  },
+  "last_updated": "2025-07-18T11:48:43.730995+00:00"
+}

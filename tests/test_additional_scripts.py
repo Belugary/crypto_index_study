@@ -52,28 +52,6 @@ class TestCalculateIndex(unittest.TestCase):
             self.fail(f"无法导入指数计算脚本: {e}")
 
 
-class TestBuildDailySummary(unittest.TestCase):
-    """测试每日汇总构建器"""
-
-    @patch("pathlib.Path.exists")
-    @patch("pathlib.Path.glob")
-    def test_daily_summary_basic(self, mock_glob, mock_exists):
-        """测试每日汇总基本功能"""
-        print("\n--- 测试每日汇总构建器 ---")
-
-        # 模拟文件系统
-        mock_exists.return_value = True
-        mock_glob.return_value = [Path("bitcoin.csv"), Path("ethereum.csv")]
-
-        try:
-            from scripts import build_daily_summary
-
-            # 基本导入测试
-            self.assertTrue(hasattr(build_daily_summary, "__file__"))
-            print("✅ 每日汇总构建器基本功能测试通过")
-        except ImportError as e:
-            self.fail(f"无法导入每日汇总构建器: {e}")
-
 
 if __name__ == "__main__":
     unittest.main()

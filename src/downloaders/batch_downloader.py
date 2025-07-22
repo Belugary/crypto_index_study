@@ -21,6 +21,8 @@ import pandas as pd
 from tqdm import tqdm
 
 from ..api.coingecko import CoinGeckoAPI
+from ..utils.database_utils import DatabaseManager
+from ..utils.path_utils import find_project_root, resolve_data_path
 
 
 class BatchDownloader:
@@ -31,30 +33,43 @@ class BatchDownloader:
     遵循 "优雅胜于丑陋" 的设计原则。
     """
 
-    def __init__(self, api: CoinGeckoAPI, data_dir: str = "data"):
+    def __init__(self, api: CoinGeckoAPI, data_dir: str = "data", enable_database: bool = True):
         """
         初始化批量下载器
 
         Args:
             api: CoinGecko API 客户端实例
             data_dir: 数据存储根目录
+            enable_database: 是否启用数据库写入功能
         """
         self.api = api
-        self.data_dir = Path(data_dir)
-        # 项目根目录，用于存放日志文件
-        self.base_dir = (
-            self.data_dir.parent if self.data_dir.name == "data" else Path(".")
-        )
+        self.enable_database = enable_database
+        
+        # 使用新的路径工具
+        self.project_root = find_project_root()
+        self.data_dir = resolve_data_path(data_dir, self.project_root)
+            
         self.coins_dir = self.data_dir / "coins"
         self.metadata_dir = self.data_dir / "metadata"
         # 日志文件统一放在项目根目录的 logs/ 下
-        self.logs_dir = self.base_dir / "logs"
+        self.logs_dir = self.project_root / "logs"
 
         # 创建必要的目录结构
         self._ensure_directories()
 
         # 设置日志
         self.logger = self._setup_logger()
+
+        # 初始化数据库管理器（如果启用）
+        self.db_manager = None
+        if self.enable_database:
+            try:
+                db_path = self.data_dir / "crypto_market.db"
+                self.db_manager = DatabaseManager(str(db_path))
+                self.logger.info("数据库功能已启用")
+            except Exception as e:
+                self.logger.warning(f"数据库初始化失败，将仅使用CSV: {e}")
+                self.enable_database = False
 
         self.logger.info("批量下载器初始化完成")
 
@@ -268,8 +283,8 @@ class BatchDownloader:
                     coin_id=coin_id, vs_currency=vs_currency, days=days
                 )
 
-                # 保存数据到 CSV
-                if self._save_to_csv(coin_id, data):
+                # 保存数据到 CSV 和数据库
+                if self._save_data(coin_id, data):
                     # 更新元数据
                     self._update_metadata(coin_id, days)
                     self.logger.info(f"{coin_id}: 下载成功")
@@ -287,9 +302,9 @@ class BatchDownloader:
 
         return False
 
-    def _save_to_csv(self, coin_id: str, data: Dict[str, Any]) -> bool:
+    def _save_data(self, coin_id: str, data: Dict[str, Any]) -> bool:
         """
-        将市场数据保存为 CSV 文件
+        将市场数据保存到 CSV 文件和数据库
 
         保存的字段说明:
         - timestamp: Unix时间戳 (毫秒)
@@ -312,8 +327,8 @@ class BatchDownloader:
                 self.logger.warning(f"{coin_id}: 没有价格数据")
                 return False
 
-            # 创建 DataFrame
-            df_data = []
+            # 创建统一的数据结构
+            processed_data = []
             for i, (timestamp, price) in enumerate(prices):
                 # 安全处理 None 值
                 volume = None
@@ -332,9 +347,44 @@ class BatchDownloader:
                     "volume": volume,
                     "market_cap": market_cap,  # 流通市值，用于指数计算和排名
                 }
-                df_data.append(row)
+                processed_data.append(row)
 
-            df = pd.DataFrame(df_data)
+            # 保存到 CSV
+            csv_success = self._save_to_csv(coin_id, processed_data)
+            
+            # 保存到数据库（如果启用）
+            db_success = True
+            if self.enable_database and self.db_manager:
+                try:
+                    db_success = self.db_manager.insert_coin_price_data(coin_id, processed_data)
+                    if db_success:
+                        self.logger.debug(f"{coin_id}: 数据已同步到数据库")
+                    else:
+                        self.logger.warning(f"{coin_id}: 数据库写入失败，但CSV保存成功")
+                except Exception as e:
+                    self.logger.warning(f"{coin_id}: 数据库写入异常: {e}")
+                    db_success = False
+
+            # 只要CSV保存成功就返回True（数据库是可选的）
+            return csv_success
+
+        except Exception as e:
+            self.logger.error(f"{coin_id}: 保存数据失败: {e}")
+            return False
+
+    def _save_to_csv(self, coin_id: str, processed_data: List[Dict]) -> bool:
+        """
+        将处理好的数据保存为 CSV 文件
+        
+        Args:
+            coin_id: 币种ID
+            processed_data: 已处理的数据列表
+            
+        Returns:
+            是否保存成功
+        """
+        try:
+            df = pd.DataFrame(processed_data)
 
             # 保存到 CSV
             csv_file = self.coins_dir / f"{coin_id}.csv"
@@ -796,7 +846,7 @@ class BatchDownloader:
 
 
 def create_batch_downloader(
-    api_key: Optional[str] = None, data_dir: str = "data"
+    api_key: Optional[str] = None, data_dir: str = "data", enable_database: bool = True
 ) -> BatchDownloader:
     """
     创建批量下载器的便捷函数
@@ -806,13 +856,17 @@ def create_batch_downloader(
     Args:
         api_key: CoinGecko Pro API 密钥
         data_dir: 数据存储目录
+        enable_database: 是否启用数据库写入功能
 
     Returns:
         BatchDownloader: 配置好的批量下载器实例
 
     Example:
-        >>> # 创建下载器
+        >>> # 创建下载器（默认启用数据库）
         >>> downloader = create_batch_downloader()
+        >>>
+        >>> # 创建仅CSV模式的下载器
+        >>> downloader = create_batch_downloader(enable_database=False)
         >>>
         >>> # 下载前30名币种的最近30天数据
         >>> results = downloader.download_batch(top_n=30, days="30")
@@ -823,4 +877,4 @@ def create_batch_downloader(
     from ..api.coingecko import create_api_client
 
     api = create_api_client(api_key)
-    return BatchDownloader(api, data_dir)
+    return BatchDownloader(api, data_dir, enable_database)

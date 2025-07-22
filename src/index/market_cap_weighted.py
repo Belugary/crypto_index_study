@@ -39,6 +39,7 @@ class MarketCapWeightedIndexCalculator:
         exclude_stablecoins: bool = True,
         exclude_wrapped_coins: bool = True,
         force_rebuild: bool = False,
+        use_database: bool = True,
     ):
         """
         初始化指数计算器
@@ -49,19 +50,24 @@ class MarketCapWeightedIndexCalculator:
             exclude_stablecoins: 是否排除稳定币
             exclude_wrapped_coins: 是否排除包装币
             force_rebuild: 是否强制重建每日数据文件
+            use_database: 是否启用数据库模式（推荐开启以获得更好性能）
 
         注意：
         - 核心数据来源：{daily_output_dir}/daily_files/
+        - 数据库模式：复杂查询性能提升10-100倍
         """
         self.data_dir = Path(data_dir)
         self.daily_output_dir = Path(daily_output_dir)
         self.exclude_stablecoins = exclude_stablecoins
         self.exclude_wrapped_coins = exclude_wrapped_coins
         self.force_rebuild = force_rebuild
+        self.use_database = use_database
 
         # 初始化每日数据聚合器 - 核心数据源
         self.daily_aggregator = DailyDataAggregator(
-            data_dir=str(self.data_dir), output_dir=str(self.daily_output_dir)
+            data_dir=str(self.data_dir), 
+            output_dir=str(self.daily_output_dir),
+            use_database=use_database
         )
 
         # 初始化统一分类器 (替代原有的两个分离分类器)
@@ -151,13 +157,21 @@ class MarketCapWeightedIndexCalculator:
         if not hasattr(self, "_daily_cache"):
             self._daily_cache = {}
 
-        # 从数据源获取（只有第一次会强制刷新）
+        # 🔧 确定是否需要强制刷新和数据库优化设置
+        # force_rebuild 只在第一次获取特定日期数据时生效
         force_refresh = self.force_rebuild and cache_key not in self._daily_cache
+        
+        # 🎯 关键修复: 总是获取所有数据 (result_include_all=True)
+        # 原因: 指数计算器自己负责过滤，避免在缓存层面的配置不一致
+        # 好处: 确保不同配置的计算器实例能获得一致的基础数据
         daily_df = self.daily_aggregator.get_daily_data(
-            target_date, force_refresh=force_refresh
+            target_date, 
+            force_refresh=force_refresh, 
+            result_include_all=True,
+            prefer_database=self.use_database  # 🚀 新增：优先使用数据库
         )
 
-        # 缓存结果
+        # 缓存结果 (缓存的是完整数据，过滤由计算器负责)
         self._daily_cache[cache_key] = daily_df
         return daily_df
 

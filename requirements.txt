@@ -1,0 +1,14 @@
+# 核心依赖 - 项目运行必需
+requests>=2.31.0          # API 请求
+python-dotenv>=1.0.0      # 环境变量管理
+pandas>=2.0.0             # 数据处理
+tqdm>=4.65.0              # 进度条和用户体验
+
+# 可选依赖 - 特定功能
+matplotlib>=3.5.0         # 图表绘制 (仅 case_studies 使用)
+
+# 开发依赖 - 仅开发环境需要
+jupyter>=1.0.0            # Notebook 支持
+ipykernel>=6.0.0          # Jupyter 内核
+jupyter>=1.0.0            # Jupyter notebook 支持
+ipykernel>=6.0.0          # Jupyter 内核

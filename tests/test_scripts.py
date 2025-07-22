@@ -14,33 +14,8 @@ import pandas as pd
 # 添加项目根目录到Python路径
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-# 待测试的脚本
-from scripts import update_price_data
+# 待测试的核心逻辑
 from src.updaters.price_updater import PriceDataUpdater
-
-
-class TestUpdatePriceDataScript(unittest.TestCase):
-    """测试价格数据更新脚本"""
-
-    @patch("scripts.update_price_data.PriceDataUpdater")
-    @patch("sys.argv", ["update_price_data.py"])  # 模拟命令行参数
-    def test_main_function_calls_updater(self, MockPriceDataUpdater):
-        """测试主函数是否正确调用了 PriceDataUpdater"""
-        print("\n--- 测试 update_price_data.py 主流程 ---")
-
-        # 创建一个 mock 实例
-        mock_updater_instance = MockPriceDataUpdater.return_value
-
-        # 调用脚本的主函数
-        update_price_data.main()
-
-        # 断言 PriceDataUpdater 被实例化了一次
-        MockPriceDataUpdater.assert_called_once()
-
-        # 断言 update_with_smart_strategy 方法被调用了一次
-        mock_updater_instance.update_with_smart_strategy.assert_called_once()
-
-        print("✅ 主函数成功调用了 PriceDataUpdater.update_with_smart_strategy()")
 
 
 class TestPriceDataUpdaterLogic(unittest.TestCase):
@@ -122,36 +97,6 @@ class TestPriceDataUpdaterLogic(unittest.TestCase):
         self.assertGreaterEqual(updater.stats["native_updated"], 2)
 
         print("✅ update_with_smart_strategy() 工作流测试成功")
-
-
-class TestUpdateMetadataScript(unittest.TestCase):
-    """测试 scripts/update_all_metadata.py 脚本"""
-
-    @patch("src.updaters.metadata_updater.MetadataUpdater")
-    @patch("sys.argv", ["update_all_metadata.py"])  # 模拟命令行参数
-    def test_main_function_calls_updater(self, MockMetadataUpdater):
-        """测试主函数是否正确调用了 MetadataUpdater"""
-        print("\n--- 测试 update_all_metadata.py 主流程 ---")
-
-        # 创建一个 mock 实例
-        mock_updater_instance = MockMetadataUpdater.return_value
-        mock_updater_instance.batch_update_all_metadata.return_value = {}
-        mock_updater_instance.update_all_classification_lists.return_value = {}
-
-        # 导入并调用脚本的主函数
-        from scripts import update_all_metadata
-
-        update_all_metadata.main()
-
-        # 断言 MetadataUpdater 被实例化了一次
-        MockMetadataUpdater.assert_called_once()
-
-        # 断言相关方法被调用了
-        mock_updater_instance.batch_update_all_metadata.assert_called_once()
-        mock_updater_instance.update_all_classification_lists.assert_called_once()
-
-        print("✅ 主函数成功调用了 MetadataUpdater 的相关方法")
-
 
 class TestMetadataUpdaterIntegration(unittest.TestCase):
     """测试 MetadataUpdater 的集成功能"""

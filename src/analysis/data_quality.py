@@ -8,9 +8,12 @@ scripts/data_quality_checker.py 是此模块的用户接口封装。
 import logging
 import os
 from datetime import datetime, timedelta
+from pathlib import Path
 from typing import Dict, List, Tuple, Optional
 
 import pandas as pd
+
+from ..utils.path_utils import find_project_root
 
 logger = logging.getLogger(__name__)
 
@@ -18,11 +21,42 @@ logger = logging.getLogger(__name__)
 class DataQualityAnalyzer:
     """数据质量分析器核心类"""
 
-    def __init__(self, data_dir: str = "data/coins"):
-        self.data_dir = data_dir
+    def __init__(self, data_dir: str = "data/coins", use_database: bool = True):
+        """
+        初始化数据质量分析器
+        
+        Args:
+            data_dir: 数据目录路径
+            use_database: 是否启用数据库模式（推荐开启以获得更好性能）
+        """
+        self.project_root = self._find_project_root()
+        # 解析数据目录路径
+        if Path(data_dir).is_absolute():
+            self.data_dir = Path(data_dir)
+        else:
+            self.data_dir = self.project_root / data_dir
         self.min_rows = 100
         self.max_days_old = 2
         self.min_data_span_days = 30
+        self.use_database = use_database
+        
+        # 🚀 初始化数据库支持的数据聚合器
+        if use_database:
+            try:
+                from ..downloaders.daily_aggregator import DailyDataAggregator
+                self.daily_aggregator = DailyDataAggregator(
+                    data_dir=str(self.data_dir),
+                    output_dir=str(self.project_root / "data" / "daily"),
+                    use_database=True
+                )
+            except ImportError:
+                logger.warning("数据库模块不可用，将使用文件模式")
+                self.use_database = False
+
+    @staticmethod
+    def _find_project_root() -> Path:
+        """查找项目根目录 - 使用统一的路径工具"""
+        return find_project_root()
 
     def _is_data_recent(self, data_span_days: int, days_since_latest: int) -> bool:
         """判断数据是否"最新"

@@ -2,7 +2,7 @@
 """
 数据质量检查和修复工具
 
-用户友好的数据质量检查脚本，提供命令行接口。
+用户友好的数据质量检查接口。
 核心功能由 src.analysis.data_quality 模块实现。
 """
 
@@ -21,31 +21,31 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s:%(name)s:%(message
 
 def print_scan_results(good_files, problematic_files):
     """打印扫描结果"""
-    print(f"🔍 扫描 {len(good_files) + len(problematic_files)} 个币种文件...")
+    print(f"[扫描] 扫描 {len(good_files) + len(problematic_files)} 个币种文件...")
     print("=" * 80)
 
     # 显示问题文件
     for coin_name, quality, issue_type in problematic_files:
         if issue_type == "READ_ERROR":
-            print(f"❌ {coin_name}: 读取错误 - {quality.get('error', '未知')}")
+            print(f"[错误] {coin_name}: 读取错误 - {quality.get('error', '未知')}")
         elif issue_type == "INSUFFICIENT_DATA":
-            print(f"⚠️  {coin_name}: 数据不足 - {quality['rows']}行")
+            print(f"[警告] {coin_name}: 数据不足 - {quality['rows']}行")
         elif issue_type == "INTERVAL_ISSUE":
-            print(f"⚠️  {coin_name}: 时间间隔异常 - {quality['interval_msg']}")
+            print(f"[警告] {coin_name}: 时间间隔异常 - {quality['interval_msg']}")
         elif issue_type == "OUTDATED_DATA":
-            print(f"⚠️  {coin_name}: 数据过期 - 最新:{quality['latest_date']} ({quality['days_since_latest']}天前)")
+            print(f"[警告] {coin_name}: 数据过期 - 最新:{quality['latest_date']} ({quality['days_since_latest']}天前)")
 
     # 显示正常文件（采样显示）
     if good_files:
         sample_size = min(5, len(good_files))
-        print(f"\n✅ 正常文件示例 (显示{sample_size}/{len(good_files)}个):")
+        print(f"\n[正常] 正常文件示例 (显示{sample_size}/{len(good_files)}个):")
         for coin_name, quality in good_files[:sample_size]:
             print(f"   {coin_name}: {quality['rows']}行, 最新:{quality['latest_date']}")
 
     print("\n" + "=" * 80)
-    print(f"📊 扫描结果:")
-    print(f"   ✅ 正常文件: {len(good_files)}")
-    print(f"   ⚠️  问题文件: {len(problematic_files)}")
+    print(f"[结果] 扫描结果:")
+    print(f"   正常文件: {len(good_files)}")
+    print(f"   问题文件: {len(problematic_files)}")
 
 
 def print_repair_results(results):
@@ -65,12 +65,12 @@ def print_repair_results(results):
 
 def main():
     """主函数"""
-    print("🔍 数据质量检查工具")
+    print("[数据质量检查工具]")
     print("=" * 50)
 
     try:
-        # 创建分析器
-        analyzer = DataQualityAnalyzer()
+        # 创建分析器 - 启用数据库模式以获得更好性能
+        analyzer = DataQualityAnalyzer(use_database=True)
 
         # 扫描所有文件
         good_files, problematic_files = analyzer.scan_all_files()
@@ -79,34 +79,34 @@ def main():
         print_scan_results(good_files, problematic_files)
 
         if problematic_files:
-            print(f"\n⚠️  发现 {len(problematic_files)} 个问题文件:")
+            print(f"\n[警告] 发现 {len(problematic_files)} 个问题文件:")
             for coin_name, quality, issue_type in problematic_files[:10]:  # 只显示前10个
                 if issue_type == "INSUFFICIENT_DATA":
-                    print(f"   📉 {coin_name}: 仅{quality['rows']}行数据")
+                    print(f"   [数据不足] {coin_name}: 仅{quality['rows']}行数据")
                 elif issue_type == "OUTDATED_DATA":
-                    print(f"   📅 {coin_name}: {quality['days_since_latest']}天未更新")
+                    print(f"   [数据过期] {coin_name}: {quality['days_since_latest']}天未更新")
                 elif issue_type == "READ_ERROR":
-                    print(f"   💥 {coin_name}: 文件读取错误")
+                    print(f"   [读取错误] {coin_name}: 文件读取错误")
 
             # 询问是否修复
-            response = input(f"\n🔧 是否修复这些问题文件? (y/N): ").strip().lower()
+            response = input(f"\n[询问] 是否修复这些问题文件? (y/N): ").strip().lower()
 
             if response == "y":
-                print(f"\n🔧 开始修复 {len(problematic_files)} 个问题文件...")
+                print(f"\n[修复] 开始修复 {len(problematic_files)} 个问题文件...")
                 repairer = DataQualityRepairer(analyzer)
                 results = repairer.repair_files(problematic_files, dry_run=False)
                 print_repair_results(results)
             else:
-                print("📋 跳过修复，您可以稍后运行此工具进行修复")
+                print("[跳过] 跳过修复，您可以稍后运行此工具进行修复")
         else:
-            print("🎉 所有文件数据质量良好！")
+            print("[完成] 所有文件数据质量良好！")
 
     except FileNotFoundError as e:
-        print(f"❌ {e}")
+        print(f"[错误] {e}")
     except KeyboardInterrupt:
-        print("\n⚠️  用户中断操作")
+        print("\n[中断] 用户中断操作")
     except Exception as e:
-        print(f"❌ 执行失败: {e}")
+        print(f"[错误] 执行失败: {e}")
         import traceback
         traceback.print_exc()
 

@@ -17,6 +17,7 @@ sys.path.insert(
 )
 
 from src.downloaders.batch_downloader import create_batch_downloader
+from src.utils.path_utils import find_project_root, resolve_data_path
 
 
 @dataclass
@@ -67,8 +68,12 @@ class UnifiedClassifier:
         Args:
             data_dir: 数据目录路径
         """
-        self.metadata_dir = Path(data_dir) / "metadata" / "coin_metadata"
-        self.downloader = create_batch_downloader(data_dir=data_dir)
+        # 使用新的路径工具
+        self.project_root = find_project_root()
+        self.data_dir = resolve_data_path(data_dir, self.project_root)
+            
+        self.metadata_dir = self.data_dir / "metadata" / "coin_metadata"
+        self.downloader = create_batch_downloader(data_dir=str(self.data_dir))
         self._cache: Dict[str, ClassificationResult] = {}
 
     def classify_coin(

@@ -45,7 +45,7 @@ venv/
 ENV/
 env/
 
-# IDE
+# IDE - 选择性忽略
 .vscode/
 .idea/
 *.swp
@@ -66,6 +66,7 @@ logs/
 
 # 数据文件是项目核心价值，所有数据都需要同步到 GitHub
 # ✅ 保留所有数据文件：data/coins/*.csv, data/daily/, data/metadata/
+# ✅ 大文件（*.db）通过Git LFS管理
 
 # 只忽略临时和缓存的数据文件
 data/temp/

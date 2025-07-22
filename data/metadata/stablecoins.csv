@@ -1,81 +1,75 @@
-coin_id,symbol,name
-,ausd,AUSD
-,yusd,Aegis YUSD
-,usdz,Anzen USDz
-,usdf,Aster USDF
-,avusd,Avant USD
-,busd,BUSD
-,bsc-usd,Binance Bridged USDT (BNB Smart Chain)
-,busd,Binance-Peg BUSD
-,buck,Bucket Protocol BUCK Stablecoin
-,cusd,Celo Dollar
-,dola,DOLA
-,dai,Dai
-,eurcv,EUR CoinVertible
-,eurc,EURC
-,eusd,Electronic USD
-,deusd,Elixir deUSD
-,usde,Ethena USDe
-,usdf,Falcon USD
-,feusd,Felix feUSD
-,fdusd,First Digital USD
-,frxusd,Frax USD
-,gho,GHO
-,gusd,Gemini Dollar
-,usdg,Global Dollar
-,gyd,Gyroscope GYD
-,hbd,Hive Dollar
-,honey,Honey
-,kau,Kinesis Gold
-,kag,Kinesis Silver
-,frax,Legacy Frax Dollar
-,lvlusd,Level USD
-,usdl,Lift Dollar
-,bold,Liquity BOLD
-,lusd,Liquity USD
-,lisusd,Lista USD
-,mimatic,MAI
-,mnee,MNEE USD Stablecoin
-,mim,Magic Internet Money (Ethereum)
-,eure,Monerium EUR emoney
-,usdm,Mountain Protocol USD
-,usdn,Noble Dollar (USDN)
-,usn,Noon USN
-,onyc,Onchain Yield Coin
-,usdo,OpenEden OpenDollar
-,usd+,Overnight.fi USD+
-,paxg,PAX Gold
-,usdp,Pax Dollar
-,pyusd,PayPal USD
-,pusd,Plume USD
-,rusd,Reservoir rUSD
-,usr,Resolv USR
-,reusd,Resupply USD
-,rlusd,Ripple USD
-,eurs,STASIS EURO
-,satusd,Satoshi Stablecoin
-,scrvusd,Savings crvUSD
-,usdx,Stables Labs USDX
-,dusd,StandX DUSD
-,xusd,StraitsX XUSD
-,ustc,TerraClassicUSD
-,usdt,Tether
-,xaut,Tether Gold
-,tusd,TrueUSD
-,usd1,USD1
-,usdb,USDB
-,usdc,USDC
-,usdd,USDD
-,usds,USDS
-,usdx,USDX
-,usda,USDa
-,usdtb,USDtb
-,uty,Unity
-,usd0,Usual USD
-,usd3,Web 3 Dollar
-,xtusd,XT Stablecoin XTUSD
-,yu,YU
-,crvusd,crvUSD
-,fxusd,f(x) Protocol fxUSD
-,susd,sUSD
-,susda,sUSDa
+﻿coin_id,name,symbol,is_stablecoin,is_wrapped_coin,confidence,stablecoin_categories,wrapped_categories,all_categories,last_updated
+agora-dollar,AUSD,ausd,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;BNB Chain Ecosystem;Solana Ecosystem;Avalanche Ecosystem;Polygon Ecosystem;Ethereum Ecosystem;Sui Ecosystem;Immutable zkEVM Ecosystem;Injective Ecosystem;Core Ecosystem;Fraxtal Ecosystem;Fiat-backed Stablecoin,2025-07-11T04:56:43.694305+00:00
+anzen-usdz,Anzen USDz,usdz,True,False,high,Stablecoins,,Stablecoins;Ethereum Ecosystem;Base Ecosystem;Blast Ecosystem;Fiat-backed Stablecoin,2025-07-11T04:56:52.745652+00:00
+astherus-usdf,Aster USDF,usdf,True,False,high,Stablecoins,,Stablecoins;BNB Chain Ecosystem,2025-07-11T09:51:48.207425+00:00
+avant-usd,Avant USD,avusd,True,False,high,Stablecoins,,Stablecoins;Avalanche Ecosystem,2025-07-11T04:57:01.302448+00:00
+binance-usd,BUSD,busd,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;Ethereum Ecosystem;Fiat-backed Stablecoin,2025-07-11T09:51:50.715442+00:00
+binance-bridged-usdt-bnb-smart-chain,Binance Bridged USDT (BNB Smart Chain),bsc-usd,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;BNB Chain Ecosystem;Bridged USDT;Bridged-Tokens;Bridged Stablecoin,2025-07-11T04:57:15.340336+00:00
+binance-peg-busd,Binance-Peg BUSD,busd,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;BNB Chain Ecosystem;Avalanche Ecosystem;Polygon Ecosystem;Optimism Ecosystem;Fiat-backed Stablecoin;Binance-Peg Tokens,2025-07-11T04:57:15.896902+00:00
+bucket-protocol-buck-stablecoin,Bucket Protocol BUCK Stablecoin,buck,True,False,high,Stablecoins,,Stablecoins;Sui Ecosystem,2025-07-11T09:51:17.434522+00:00
+celo-dollar,Celo Dollar,cusd,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;Near Protocol Ecosystem;Celo Ecosystem;Algorithmic Stablecoin;Fiat-backed Stablecoin,2025-07-11T09:53:59.104623+00:00
+dola-usd,DOLA,dola,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;BNB Chain Ecosystem;Fantom Ecosystem;Arbitrum Ecosystem;Ethereum Ecosystem;Optimism Ecosystem;Base Ecosystem;Crypto-backed Stablecoin;Fiat-backed Stablecoin,2025-07-11T04:58:07.969457+00:00
+dai,Dai,dai,True,False,high,Stablecoins,,Stablecoins;Decentralized Finance (DeFi);USD Stablecoin;Ethereum Ecosystem;Crypto-backed Stablecoin;Fiat-backed Stablecoin,2025-07-11T04:57:59.876865+00:00
+societe-generale-forge-eurcv,EUR CoinVertible,eurcv,True,False,high,Stablecoins,,Stablecoins;EUR Stablecoin;Solana Ecosystem;Ethereum Ecosystem;Fiat-backed Stablecoin,2025-07-11T09:52:31.511765+00:00
+euro-coin,EURC,eurc,True,False,high,Stablecoins,,Stablecoins;EUR Stablecoin;Solana Ecosystem;Avalanche Ecosystem;Ethereum Ecosystem;Base Ecosystem;Stellar Ecosystem,2025-07-11T04:58:20.886489+00:00
+elixir-deusd,Elixir deUSD,deusd,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;Avalanche Ecosystem;Ethereum Ecosystem;Synthetic Dollar;Plume Network Ecosystem,2025-07-11T04:58:12.170867+00:00
+ethena-usde,Ethena USDe,usde,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;Solana Ecosystem;Ethereum Ecosystem;Aptos Ecosystem;ZkSync Ecosystem;TON Ecosystem;Fiat-backed Stablecoin;Zircuit Ecosystem;Synthetic Dollar,2025-07-11T04:58:16.190109+00:00
+falcon-finance,Falcon USD,usdf,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;Crypto-backed Stablecoin;Yield-Bearing Stablecoin;Synthetic Dollar,2025-07-11T04:58:22.509071+00:00
+felix-feusd,Felix feUSD,feusd,True,False,high,Stablecoins,,Stablecoins;Synthetic Asset;Hyperliquid Ecosystem;Crypto-backed Stablecoin;HyperEVM Ecosystem,2025-07-11T09:50:58.474702+00:00
+first-digital-usd,First Digital USD,fdusd,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;BNB Chain Ecosystem;Arbitrum Ecosystem;Ethereum Ecosystem;Sui Ecosystem;Fiat-backed Stablecoin,2025-07-11T04:58:25.327642+00:00
+frax-usd,Frax USD,frxusd,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;Ethereum Ecosystem;Sonic Ecosystem;Fiat-backed Stablecoin,2025-07-11T09:53:07.389734+00:00
+gho,GHO,gho,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;Arbitrum Ecosystem;Ethereum Ecosystem;Base Ecosystem;Crypto-backed Stablecoin;Fiat-backed Stablecoin,2025-07-11T04:58:32.984269+00:00
+gemini-dollar,Gemini Dollar,gusd,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;Near Protocol Ecosystem;Ethereum Ecosystem;Pantera Capital Portfolio;Fiat-backed Stablecoin,2025-07-11T04:58:32.446715+00:00
+global-dollar,Global Dollar,usdg,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;Solana Ecosystem;Fiat-backed Stablecoin;Ink Ecosystem,2025-07-11T04:58:34.100969+00:00
+hive_dollar,Hive Dollar,hbd,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;Algorithmic Stablecoin,2025-07-11T09:53:59.605278+00:00
+honey-3,Honey,honey,True,False,high,Stablecoins,,Stablecoins;Berachain Ecosystem,2025-07-11T09:52:47.018404+00:00
+kinesis-gold,Kinesis Gold,kau,True,False,high,Stablecoins,,Stablecoins;Tokenized Assets;Tokenized Gold;Real World Assets (RWA);Tokenized Commodities,2025-07-11T04:59:05.985872+00:00
+kinesis-silver,Kinesis Silver,kag,True,False,high,Stablecoins,,Stablecoins;Tokenized Assets;Real World Assets (RWA);Tokenized Silver;Tokenized Commodities,2025-07-11T04:59:06.646586+00:00
+frax,Legacy Frax Dollar,frax,True,False,high,Stablecoins,,Stablecoins;Decentralized Finance (DeFi);USD Stablecoin;BNB Chain Ecosystem;Seigniorage;Avalanche Ecosystem;Polygon Ecosystem;Fantom Ecosystem;Harmony Ecosystem;Arbitrum Ecosystem;Moonriver Ecosystem;Moonbeam Ecosystem;Ethereum Ecosystem;Optimism Ecosystem;Aurora Ecosystem;Polygon zkEVM Ecosystem;Evmos Ecosystem;Boba Network Ecosystem;Fiat-backed Stablecoin,2025-07-11T04:58:28.058283+00:00
+level-usd,Level USD,lvlusd,True,False,high,Stablecoins,,Stablecoins;Ethereum Ecosystem,2025-07-11T04:59:12.613769+00:00
+lift-dollar,Lift Dollar,usdl,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;Ethereum Ecosystem;Fiat-backed Stablecoin,2025-07-11T04:59:14.299571+00:00
+liquity-bold-2,Liquity BOLD,bold,True,False,high,Stablecoins,,Stablecoins;Decentralized Finance (DeFi);USD Stablecoin;Stablecoin Protocol;Crypto-backed Stablecoin,2025-07-11T09:53:01.198933+00:00
+liquity-usd,Liquity USD,lusd,True,False,high,Stablecoins,,Stablecoins;Decentralized Finance (DeFi);USD Stablecoin;Polygon Ecosystem;Arbitrum Ecosystem;Ethereum Ecosystem;Optimism Ecosystem;ZkSync Ecosystem;Base Ecosystem;Crypto-backed Stablecoin;Fiat-backed Stablecoin,2025-07-11T09:53:19.095987+00:00
+helio-protocol-hay,Lista USD,lisusd,True,False,high,Stablecoins,,Stablecoins;Decentralized Finance (DeFi);BNB Chain Ecosystem;YZi Labs (Prev. Binance Labs) Portfolio;Crypto-backed Stablecoin,2025-07-11T09:53:45.898533+00:00
+mnee-usd-stablecoin,MNEE USD Stablecoin,mnee,True,False,high,Stablecoins,,Stablecoins;Ethereum Ecosystem,2025-07-11T09:54:05.645954+00:00
+magic-internet-money,Magic Internet Money (Ethereum),mim,True,False,high,Stablecoins,,Stablecoins;Decentralized Finance (DeFi);USD Stablecoin;Ethereum Ecosystem;Crypto-backed Stablecoin;Fiat-backed Stablecoin,2025-07-11T09:52:00.290246+00:00
+mountain-protocol-usdm,Mountain Protocol USD,usdm,True,False,high,Stablecoins,,Stablecoins;Polygon Ecosystem;Arbitrum Ecosystem;Ethereum Ecosystem;Optimism Ecosystem;ZkSync Ecosystem;Base Ecosystem;Fiat-backed Stablecoin,2025-07-11T09:52:40.771695+00:00
+noble-dollar-usdn,Noble Dollar (USDN),usdn,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;Real World Assets (RWA);Bridged-Tokens;Bridged Stablecoin;Yield-Bearing Stablecoin;US Treasury-backed Stablecoin,2025-07-11T04:59:43.403424+00:00
+onyc,Onchain Yield Coin,onyc,True,False,high,Stablecoins,,Stablecoins;Solana Ecosystem;Yield-Bearing Stablecoin,2025-07-11T04:59:51.010435+00:00
+openeden-open-dollar,OpenEden OpenDollar,usdo,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;Ethereum Ecosystem;Real World Assets (RWA);Base Ecosystem;Yield-Bearing Stablecoin;US Treasury-backed Stablecoin,2025-07-11T04:59:51.775294+00:00
+usd,Overnight.fi USD+,usd+,True,False,high,Stablecoins,,Stablecoins;BNB Chain Ecosystem;Polygon Ecosystem;ZkSync Ecosystem;Crypto-backed Stablecoin,2025-07-11T09:52:40.234746+00:00
+pax-gold,PAX Gold,paxg,True,False,high,Stablecoins,,Stablecoins;Tokenized Assets;Tokenized Gold;Ethereum Ecosystem;Real World Assets (RWA);Tokenized Commodities,2025-07-11T04:59:59.328686+00:00
+paxos-standard,Pax Dollar,usdp,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;Solana Ecosystem;Ethereum Ecosystem;Multicoin Capital Portfolio;Fiat-backed Stablecoin,2025-07-11T09:51:13.362133+00:00
+paypal-usd,PayPal USD,pyusd,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;Solana Ecosystem;Ethereum Ecosystem;Fiat-backed Stablecoin;Made in USA,2025-07-11T05:00:00.495657+00:00
+plume-usd,Plume USD,pusd,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;Ethereum Ecosystem;Plume Network Ecosystem,2025-07-11T09:54:54.662599+00:00
+reservoir-rusd,Reservoir rUSD,rusd,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;Ethereum Ecosystem;Berachain Ecosystem;Fiat-backed Stablecoin,2025-07-11T09:51:16.862417+00:00
+resolv-usr,Resolv USR,usr,True,False,high,Stablecoins,,Stablecoins;BNB Chain Ecosystem;Ethereum Ecosystem;Base Ecosystem,2025-07-11T05:00:27.641118+00:00
+resupply-usd,Resupply USD,reusd,True,False,high,Stablecoins,,Stablecoins;Ethereum Ecosystem,2025-07-11T09:51:07.349089+00:00
+ripple-usd,Ripple USD,rlusd,True,False,high,Stablecoins,,Stablecoins;Ethereum Ecosystem;XRP Ledger Ecosystem;Fiat-backed Stablecoin;Made in USA,2025-07-11T05:00:29.837110+00:00
+stasis-eurs,STASIS EURO,eurs,True,False,high,Stablecoins,,Stablecoins;EUR Stablecoin;Polygon Ecosystem;Ethereum Ecosystem;Real World Assets (RWA);Fiat-backed Stablecoin,2025-07-11T05:00:54.670379+00:00
+satoshi-stablecoin,Satoshi Stablecoin,satusd,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;BNB Chain Ecosystem;Base Ecosystem;Bitlayer Ecosystem;BEVM Ecosystem;Crypto-backed Stablecoin;BSquared Network Ecosystem;Hemi Ecosystem,2025-07-11T09:51:03.755356+00:00
+savings-crvusd,Savings crvUSD,scrvusd,True,False,high,Stablecoins,,Stablecoins;Decentralized Finance (DeFi);Ethereum Ecosystem;Curve Ecosystem,2025-07-11T09:52:29.965420+00:00
+usdx-money-usdx,Stables Labs USDX,usdx,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;BNB Chain Ecosystem;Arbitrum Ecosystem;Ethereum Ecosystem;Fiat-backed Stablecoin,2025-07-11T05:01:38.402091+00:00
+standx-dusd,StandX DUSD,dusd,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;BNB Chain Ecosystem;Solana Ecosystem;Yield-Bearing Stablecoin,2025-07-11T09:54:27.932671+00:00
+straitsx-xusd,StraitsX XUSD,xusd,True,False,high,Stablecoins,,Stablecoins;Ethereum Ecosystem,2025-07-11T09:52:04.648730+00:00
+terrausd,TerraClassicUSD,ustc,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;Seigniorage;Alleged SEC Securities;Osmosis Ecosystem;Stablecoin Protocol;DeFiance Capital Portfolio;Terra Classic Ecosystem;YZi Labs (Prev. Binance Labs) Portfolio;Delphi Ventures Portfolio;Galaxy Digital Portfolio;Fiat-backed Stablecoin,2025-07-11T09:50:52.334816+00:00
+tether,Tether,usdt,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;Solana Ecosystem;Avalanche Ecosystem;Near Protocol Ecosystem;Celo Ecosystem;Ethereum Ecosystem;Kaia Ecosystem;Aptos Ecosystem;FTX Holdings;TON Ecosystem;Tron Ecosystem;Kava Ecosystem;Fiat-backed Stablecoin;World Liberty Financial Portfolio,2025-07-11T04:27:45.747625+00:00
+tether-gold,Tether Gold,xaut,True,False,high,Stablecoins,,Stablecoins;Tokenized Assets;Tokenized Gold;Ethereum Ecosystem;Real World Assets (RWA);Tokenized Commodities,2025-07-11T05:01:16.407896+00:00
+true-usd,TrueUSD,tusd,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;BNB Chain Ecosystem;Avalanche Ecosystem;Ethereum Ecosystem;Tron Ecosystem;Andreessen Horowitz (a16z) Portfolio;Fiat-backed Stablecoin,2025-07-11T05:01:27.038746+00:00
+usd1-wlfi,USD1,usd1,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;Ethereum Ecosystem;World Liberty Financial Portfolio,2025-07-11T05:01:33.147230+00:00
+usdb,USDB,usdb,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;Blast Ecosystem;Crypto-backed Stablecoin;Fiat-backed Stablecoin,2025-07-11T05:01:34.322135+00:00
+usd-coin,USDC,usdc,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;Solana Ecosystem;Avalanche Ecosystem;Polygon Ecosystem;Near Protocol Ecosystem;Arbitrum Ecosystem;Celo Ecosystem;Ethereum Ecosystem;Algorand Ecosystem;Optimism Ecosystem;Aptos Ecosystem;ZkSync Ecosystem;Sui Ecosystem;Base Ecosystem;Tron Ecosystem;Hedera Ecosystem;Stellar Ecosystem;XRP Ledger Ecosystem;Sonic Ecosystem;Fiat-backed Stablecoin;World Chain Ecosystem;World Liberty Financial Portfolio;Made in USA;Unichain Ecosystem,2025-07-11T04:47:16.926895+00:00
+usdd,USDD,usdd,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;BNB Chain Ecosystem;Avalanche Ecosystem;Near Protocol Ecosystem;Arbitrum Ecosystem;Ethereum Ecosystem;Tron Ecosystem;BitTorrent Ecosystem;Algorithmic Stablecoin;Fiat-backed Stablecoin,2025-07-11T05:01:34.891492+00:00
+usds,USDS,usds,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;Solana Ecosystem;Arbitrum Ecosystem;Ethereum Ecosystem;Fiat-backed Stablecoin,2025-07-11T05:01:36.032168+00:00
+usdx,USDX,usdx,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;Osmosis Ecosystem;Fiat-backed Stablecoin,2025-07-11T09:50:36.056505+00:00
+usda-2,USDa,usda,True,False,high,Stablecoins,,Stablecoins;Ethereum Ecosystem,2025-07-11T05:01:33.766880+00:00
+usdtb,USDtb,usdtb,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;Ethereum Ecosystem;Fiat-backed Stablecoin,2025-07-11T05:01:37.682882+00:00
+unity-2,Unity,uty,True,False,high,Stablecoins,,Stablecoins;Decentralized Finance (DeFi);Avalanche Ecosystem;Synthetic Dollar,2025-07-11T09:53:43.229298+00:00
+usual-usd,Usual USD,usd0,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;BNB Chain Ecosystem;Arbitrum Ecosystem;Ethereum Ecosystem;Base Ecosystem;Fiat-backed Stablecoin,2025-07-11T05:01:39.645277+00:00
+web-3-dollar,Web 3 Dollar,usd3,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;Ethereum Ecosystem;Base Ecosystem;Crypto-backed Stablecoin;Fiat-backed Stablecoin,2025-07-11T09:52:37.241947+00:00
+xtusd,XT Stablecoin XTUSD,xtusd,True,False,high,Stablecoins,,Stablecoins,2025-07-11T09:54:19.116236+00:00
+yu,YU,yu,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;Solana Ecosystem;Ethereum Ecosystem,2025-07-11T06:21:38.501519+00:00
+crvusd,crvUSD,crvusd,True,False,high,Stablecoins,,Stablecoins;Decentralized Finance (DeFi);USD Stablecoin;BNB Chain Ecosystem;Polygon Ecosystem;Gnosis Chain Ecosystem;Arbitrum Ecosystem;Ethereum Ecosystem;Optimism Ecosystem;Base Ecosystem;Crypto-backed Stablecoin;Fiat-backed Stablecoin,2025-07-11T04:57:57.627306+00:00
+f-x-protocol-fxusd,f(x) Protocol fxUSD,fxusd,True,False,high,Stablecoins,,Stablecoins;USD Stablecoin;Ethereum Ecosystem;Crypto-backed Stablecoin;Fiat-backed Stablecoin,2025-07-11T09:50:55.805900+00:00
+nusd,sUSD,susd,True,True,high,Stablecoins,Crypto-Backed Tokens,Crypto-Backed Tokens;Stablecoins;Decentralized Finance (DeFi);USD Stablecoin;Synthetic Asset;Derivatives;Fantom Ecosystem;Arbitrum Ecosystem;Ethereum Ecosystem;Crypto-backed Stablecoin;Fiat-backed Stablecoin;Synthetic,2025-07-11T09:53:48.621389+00:00
+susda,sUSDa,susda,True,False,high,Stablecoins,,Stablecoins;Ethereum Ecosystem,2025-07-11T09:50:51.282578+00:00

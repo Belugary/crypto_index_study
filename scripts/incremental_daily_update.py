@@ -1,22 +1,29 @@
 #!/usr/bin/env python3
 """
-增量每日数据更新脚本
+🚨 注意：这个脚本专门用于【新币种检测】，不更新现有币种价格！
 
-专门用于新币种检测和历史数据集成的独立脚本。
-这是增量更新功能的入口点，提供灵活的配置选项。
+如果您想更新最新的价格和交易量数据，请使用：
+    python scripts/update_market_data.py
+
+本脚本功能：
+- 检测市值排名中新出现的币种
+- 下载新币种的历史数据  
+- 将新币种数据集成到每日汇总中
+- 不会更新现有币种的最新价格
 
 使用方式:
     python scripts/incremental_daily_update.py                    # 默认监控前1000名
     python scripts/incremental_daily_update.py --top-n 800       # 监控前800名
     python scripts/incremental_daily_update.py --dry-run         # 试运行模式
     python scripts/incremental_daily_update.py --max-workers 5   # 设置并发数
+
+🎯 推荐：使用统一的 update_market_data.py 脚本来避免混淆
 """
 
 import argparse
 import logging
 import os
 import sys
-from pathlib import Path
 
 # 添加项目根目录到Python路径
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -162,11 +169,12 @@ def main():
     print()
 
     try:
-        # 创建增量更新器
+        # 创建增量更新器（启用数据库模式以获得更好性能）
         updater = create_incremental_updater(
             coins_dir=args.coins_dir,
             daily_dir=args.daily_dir,
             backup_enabled=backup_enabled,
+            use_database=True,  # 🚀 启用数据库模式
         )
 
         # 执行增量更新

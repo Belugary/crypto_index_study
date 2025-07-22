@@ -1,0 +1,53 @@
+{
+  "id": "mamo",
+  "symbol": "mamo",
+  "name": "Mamo",
+  "categories": [
+    "Artificial Intelligence (AI)",
+    "Base Ecosystem",
+    "AI Agents",
+    "DeFAI"
+  ],
+  "asset_platform_id": "base",
+  "platforms": {
+    "base": "0x7300b37dfdfab110d83290a29dfb31b1740219fe"
+  },
+  "block_time_in_minutes": 0,
+  "hashing_algorithm": null,
+  "genesis_date": null,
+  "country_origin": "",
+  "description": {
+    "en": "Mamo turns what used to be complex into easy, human-first routines.\r\n\r\nIt works quietly in the background, finding smart opportunities for your money while you focus on what matters in your life. Think of Mamo as your knowledgeable friend who understands how to help your money grow and explain everything in plain language.\r\n\r\nBehind the scenes, Mamo applies proven strategies and real-time data to optimize your portfolio, reinvest earnings when conditions are right, and adapt to market shifts — all with your approval and full transparency.\r\n\r\nNo noise. No confusion. Just calm, steady growth."
+  },
+  "links": {
+    "homepage": [
+      "https://mamo.bot"
+    ],
+    "whitepaper": "https://mirror.xyz/mamoagent.eth/w-Dp8U0aGzGUgM9ZjVxr69KrRXtp_ApjBSXFQ_1cYpE",
+    "blockchain_site": [
+      "https://basescan.org/address/0x7300B37DfdfAb110d83290A29DfB31B1740219fE",
+      "https://basescan.org/token/0x7300B37DfdfAb110d83290A29DfB31B1740219fE"
+    ],
+    "official_forum_url": [],
+    "chat_url": [],
+    "announcement_url": [],
+    "snapshot_url": null,
+    "twitter_screen_name": "Mamo_agent",
+    "facebook_username": "",
+    "bitcointalk_thread_identifier": null,
+    "telegram_channel_identifier": "MamoAIbot",
+    "subreddit_url": "https://www.reddit.com",
+    "repos_url": {
+      "github": [
+        "https://github.com/moonwell-fi/mamo-contracts"
+      ],
+      "bitbucket": []
+    }
+  },
+  "image": {
+    "thumb": "https://coin-images.coingecko.com/coins/images/55958/thumb/Mamo_Circle_200x200_TransBG.png?1748974093",
+    "small": "https://coin-images.coingecko.com/coins/images/55958/small/Mamo_Circle_200x200_TransBG.png?1748974093",
+    "large": "https://coin-images.coingecko.com/coins/images/55958/large/Mamo_Circle_200x200_TransBG.png?1748974093"
+  },
+  "last_updated": "2025-07-18T11:48:42.000801+00:00"
+}

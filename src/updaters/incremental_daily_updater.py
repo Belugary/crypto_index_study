@@ -20,6 +20,7 @@ from tqdm import tqdm
 from ..api.coingecko import CoinGeckoAPI
 from ..downloaders.batch_downloader import create_batch_downloader
 from ..updaters.price_updater import MarketDataFetcher
+from ..utils.path_utils import find_project_root, resolve_data_path, ensure_directory
 
 logger = logging.getLogger(__name__)
 
@@ -32,25 +33,47 @@ class IncrementalDailyUpdater:
         coins_dir: str = "data/coins",
         daily_dir: str = "data/daily/daily_files",
         backup_enabled: bool = False,  # 默认禁用备份，避免产生大量文件
+        use_database: bool = True,  # 🚀 新增：启用数据库模式以获得更好性能
     ):
         """
         初始化增量更新器
+        
+        Args:
+            coins_dir: 币种数据目录
+            daily_dir: 每日数据目录
+            backup_enabled: 是否启用备份功能
+            use_database: 是否启用数据库模式（推荐开启以获得更好性能）
         """
-        self.coins_dir = Path(coins_dir)
-        self.daily_dir = Path(daily_dir)
+        # 使用新的路径工具
+        self.project_root = find_project_root()
+        
+        # 解析路径：使用新的路径工具
+        self.coins_dir = resolve_data_path(coins_dir, self.project_root)
+        self.daily_dir = resolve_data_path(daily_dir, self.project_root)
         self.backup_enabled = backup_enabled
+        self.use_database = use_database
 
         # 初始化依赖组件
         self.downloader = create_batch_downloader()
         api = CoinGeckoAPI()
         self.market_fetcher = MarketDataFetcher(api)
 
+        # 🚀 初始化数据库支持的数据聚合器
+        if use_database:
+            from ..downloaders.daily_aggregator import DailyDataAggregator
+            self.daily_aggregator = DailyDataAggregator(
+                data_dir=str(self.coins_dir.parent / "coins"),
+                output_dir=str(self.daily_dir.parent),
+                use_database=True
+            )
+
         # 确保目录存在
-        self.daily_dir.mkdir(parents=True, exist_ok=True)
+        ensure_directory(self.daily_dir)
 
         # 操作日志文件
-        self.operation_log = Path("logs/incremental_daily_operations.jsonl")
-        self.operation_log.parent.mkdir(exist_ok=True)
+        operation_log_path = "logs/incremental_daily_operations.jsonl"
+        self.operation_log = resolve_data_path(operation_log_path, self.project_root)
+        ensure_directory(self.operation_log.parent)
 
         logger.info("增量更新器初始化完成")
 
@@ -668,6 +691,7 @@ def create_incremental_updater(
     coins_dir: str = "data/coins",
     daily_dir: str = "data/daily/daily_files",
     backup_enabled: bool = False,  # 默认禁用备份
+    use_database: bool = True,  # 🚀 新增：默认启用数据库模式
 ) -> IncrementalDailyUpdater:
     """创建增量每日数据更新器实例
 
@@ -675,8 +699,9 @@ def create_incremental_updater(
         coins_dir: 币种数据目录
         daily_dir: 每日数据目录
         backup_enabled: 是否启用备份
+        use_database: 是否启用数据库模式（推荐开启以获得更好性能）
 
     Returns:
         IncrementalDailyUpdater 实例
     """
-    return IncrementalDailyUpdater(coins_dir, daily_dir, backup_enabled)
+    return IncrementalDailyUpdater(coins_dir, daily_dir, backup_enabled, use_database)
