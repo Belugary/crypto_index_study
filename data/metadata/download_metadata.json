@@ -30,8 +30,8 @@
     "version": "1.0"
   },
   "binance-bridged-usdt-bnb-smart-chain": {
-    "last_update": "2025-07-21T07:23:30.525899+00:00",
-    "days": "7",
+    "last_update": "2025-07-24T11:40:45.272312+00:00",
+    "days": "max",
     "version": "1.0"
   },
   "ripple": {
@@ -135,13 +135,13 @@
     "version": "1.0"
   },
   "arbitrum-bridged-weth-arbitrum-one": {
-    "last_update": "2025-07-21T06:56:50.607730+00:00",
+    "last_update": "2025-07-24T11:40:33.958938+00:00",
     "days": "max",
     "version": "1.0"
   },
   "avalanche-2": {
-    "last_update": "2025-07-21T07:23:16.744599+00:00",
-    "days": "7",
+    "last_update": "2025-07-24T11:40:37.881295+00:00",
+    "days": "max",
     "version": "1.0"
   },
   "usd1-wlfi": {
@@ -235,7 +235,7 @@
     "version": "1.0"
   },
   "bedrock-token": {
-    "last_update": "2025-07-19T16:33:56.160782+00:00",
+    "last_update": "2025-07-24T11:40:43.170247+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -265,7 +265,7 @@
     "version": "1.0"
   },
   "banana-for-scale-2": {
-    "last_update": "2025-07-19T16:13:03.507047+00:00",
+    "last_update": "2025-07-24T11:40:40.923177+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -320,7 +320,7 @@
     "version": "1.0"
   },
   "arbitrum-bridged-wbtc-arbitrum-one": {
-    "last_update": "2025-07-21T06:56:09.605045+00:00",
+    "last_update": "2025-07-24T11:40:33.746564+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -370,7 +370,7 @@
     "version": "1.0"
   },
   "aixbt": {
-    "last_update": "2025-07-19T16:05:52.861859+00:00",
+    "last_update": "2025-07-24T11:40:28.224854+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -405,7 +405,7 @@
     "version": "1.0"
   },
   "agora-dollar": {
-    "last_update": "2025-07-19T16:05:45.766960+00:00",
+    "last_update": "2025-07-24T11:40:26.304574+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -820,7 +820,7 @@
     "version": "1.0"
   },
   "aerodrome-finance": {
-    "last_update": "2025-07-21T06:04:41.034014+00:00",
+    "last_update": "2025-07-24T11:40:25.371060+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -930,7 +930,7 @@
     "version": "1.0"
   },
   "apecoin": {
-    "last_update": "2025-07-21T06:56:48.038088+00:00",
+    "last_update": "2025-07-24T11:40:32.565694+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -986,7 +986,7 @@
   },
   "dexe": {
     "last_update": "2025-07-19T16:01:36.586045+00:00",
-    "days": "max",
+  "days": "max",
     "version": "1.0"
   },
   "starknet": {
@@ -1005,7 +1005,7 @@
     "version": "1.0"
   },
   "apenft": {
-    "last_update": "2025-07-19T16:01:16.118565+00:00",
+    "last_update": "2025-07-24T11:40:32.630880+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1020,7 +1020,7 @@
     "version": "1.0"
   },
   "beldex": {
-    "last_update": "2025-07-19T16:00:42.315444+00:00",
+    "last_update": "2025-07-24T11:40:43.667034+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1080,12 +1080,12 @@
     "version": "1.0"
   },
   "aioz-network": {
-    "last_update": "2025-07-19T16:01:17.535240+00:00",
+    "last_update": "2025-07-24T11:40:27.789295+00:00",
     "days": "max",
     "version": "1.0"
   },
   "axie-infinity": {
-    "last_update": "2025-07-19T16:01:28.956627+00:00",
+    "last_update": "2025-07-24T11:40:38.875136+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1115,7 +1115,7 @@
     "version": "1.0"
   },
   "arweave": {
-    "last_update": "2025-07-21T06:56:50.077932+00:00",
+    "last_update": "2025-07-24T11:40:35.140693+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1165,12 +1165,12 @@
     "version": "1.0"
   },
   "axelar": {
-    "last_update": "2025-07-19T16:02:11.718061+00:00",
+    "last_update": "2025-07-24T11:40:38.803311+00:00",
     "days": "max",
     "version": "1.0"
   },
   "beam-2": {
-    "last_update": "2025-07-19T16:02:07.313809+00:00",
+    "last_update": "2025-07-24T11:40:43.065704+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1245,7 +1245,7 @@
     "version": "1.0"
   },
   "akash-network": {
-    "last_update": "2025-07-19T16:02:14.564145+00:00",
+    "last_update": "2025-07-24T11:40:28.363566+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1305,7 +1305,7 @@
     "version": "1.0"
   },
   "amp-token": {
-    "last_update": "2025-07-19T16:02:39.954250+00:00",
+    "last_update": "2025-07-24T11:40:31.507860+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1345,7 +1345,7 @@
     "version": "1.0"
   },
   "benqi-liquid-staked-avax": {
-    "last_update": "2025-07-19T16:02:16.643667+00:00",
+    "last_update": "2025-07-24T11:40:44.066366+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1485,7 +1485,7 @@
     "version": "1.0"
   },
   "berachain-bera": {
-    "last_update": "2025-07-19T16:03:31.382162+00:00",
+    "last_update": "2025-07-24T11:40:44.135595+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1500,7 +1500,7 @@
     "version": "1.0"
   },
   "arkham": {
-    "last_update": "2025-07-19T16:03:36.241360+00:00",
+    "last_update": "2025-07-24T11:40:34.630481+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1510,7 +1510,7 @@
     "version": "1.0"
   },
   "baby-doge-coin": {
-    "last_update": "2025-07-19T16:03:42.832403+00:00",
+    "last_update": "2025-07-24T11:40:39.671517+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1555,7 +1555,7 @@
     "version": "1.0"
   },
   "basic-attention-token": {
-    "last_update": "2025-07-19T16:03:49.992942+00:00",
+    "last_update": "2025-07-24T11:40:42.701017+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1565,7 +1565,7 @@
     "version": "1.0"
   },
   "0x": {
-    "last_update": "2025-07-19T16:03:51.569351+00:00",
+    "last_update": "2025-07-24T11:40:22.149799+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1595,7 +1595,7 @@
     "version": "1.0"
   },
   "astherus-staked-bnb": {
-    "last_update": "2025-07-19T16:03:56.919298+00:00",
+    "last_update": "2025-07-24T11:40:35.596377+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1680,7 +1680,7 @@
     "version": "1.0"
   },
   "agentfun-ai": {
-    "last_update": "2025-07-19T16:04:19.393569+00:00",
+    "last_update": "2025-07-24T11:40:26.491096+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1840,7 +1840,7 @@
     "version": "1.0"
   },
   "ai-companions": {
-    "last_update": "2025-07-19T16:08:23.377232+00:00",
+    "last_update": "2025-07-24T11:40:26.815725+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -1900,7 +1900,7 @@
     "version": "1.0"
   },
   "ben-pasternak": {
-    "last_update": "2025-07-19T16:08:40.007683+00:00",
+    "last_update": "2025-07-24T11:40:43.951625+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2025,7 +2025,7 @@
     "version": "1.0"
   },
   "alchemist-ai": {
-    "last_update": "2025-07-19T16:07:46.729205+00:00",
+    "last_update": "2025-07-24T11:40:28.682896+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2040,7 +2040,7 @@
     "version": "1.0"
   },
   "anzen-usdz": {
-    "last_update": "2025-07-19T16:07:32.812592+00:00",
+    "last_update": "2025-07-24T11:40:32.267438+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2050,7 +2050,7 @@
     "version": "1.0"
   },
   "aura-on-sol": {
-    "last_update": "2025-07-19T16:04:48.075577+00:00",
+    "last_update": "2025-07-24T11:40:37.550323+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2130,7 +2130,7 @@
     "version": "1.0"
   },
   "amnis-aptos": {
-    "last_update": "2025-07-19T16:06:52.497533+00:00",
+    "last_update": "2025-07-24T11:40:31.213187+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2190,7 +2190,7 @@
     "version": "1.0"
   },
   "altlayer": {
-    "last_update": "2025-07-19T16:06:51.146348+00:00",
+    "last_update": "2025-07-24T11:40:30.788382+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2200,7 +2200,7 @@
     "version": "1.0"
   },
   "apollo-diversified-credit-securitize-fund": {
-    "last_update": "2025-07-19T16:08:24.820945+00:00",
+    "last_update": "2025-07-24T11:40:33.142461+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2225,7 +2225,7 @@
     "version": "1.0"
   },
   "acet-token": {
-    "last_update": "2025-07-19T16:07:21.235733+00:00",
+    "last_update": "2025-07-24T11:40:23.473582+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2270,7 +2270,7 @@
     "version": "1.0"
   },
   "big-time": {
-    "last_update": "2025-07-19T16:08:02.363756+00:00",
+    "last_update": "2025-07-24T11:40:44.859934+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2370,7 +2370,7 @@
     "version": "1.0"
   },
   "alchemy-pay": {
-    "last_update": "2025-07-19T16:08:26.213405+00:00",
+    "last_update": "2025-07-24T11:40:28.829835+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2405,7 +2405,7 @@
     "version": "1.0"
   },
   "biconomy": {
-    "last_update": "2025-07-19T16:08:42.712673+00:00",
+    "last_update": "2025-07-24T11:40:44.541629+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2475,7 +2475,7 @@
     "version": "1.0"
   },
   "anime": {
-    "last_update": "2025-07-19T16:08:51.619955+00:00",
+    "last_update": "2025-07-24T11:40:31.925534+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2565,7 +2565,7 @@
     "version": "1.0"
   },
   "aevo-exchange": {
-    "last_update": "2025-07-19T16:08:55.862564+00:00",
+    "last_update": "2025-07-24T11:40:25.015733+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2635,7 +2635,7 @@
     "version": "1.0"
   },
   "beets-staked-sonic": {
-    "last_update": "2025-07-19T16:09:18.826624+00:00",
+    "last_update": "2025-07-24T11:40:43.568385+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2685,12 +2685,12 @@
     "version": "1.0"
   },
   "across-protocol": {
-    "last_update": "2025-07-19T16:10:29.087639+00:00",
+    "last_update": "2025-07-24T11:40:23.700668+00:00",
     "days": "max",
     "version": "1.0"
   },
   "api3": {
-    "last_update": "2025-07-19T16:10:20.225785+00:00",
+    "last_update": "2025-07-24T11:40:33.027447+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2735,7 +2735,7 @@
     "version": "1.0"
   },
   "0x0-ai-ai-smart-contract": {
-    "last_update": "2025-07-19T16:11:37.115542+00:00",
+    "last_update": "2025-07-24T11:40:21.990500+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2775,7 +2775,7 @@
     "version": "1.0"
   },
   "audius": {
-    "last_update": "2025-07-19T16:10:27.672393+00:00",
+    "last_update": "2025-07-24T11:40:36.646038+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2855,7 +2855,7 @@
     "version": "1.0"
   },
   "b3": {
-    "last_update": "2025-07-19T16:12:10.420900+00:00",
+    "last_update": "2025-07-24T11:40:39.195337+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2875,7 +2875,7 @@
     "version": "1.0"
   },
   "ardor": {
-    "last_update": "2025-07-19T16:09:57.895429+00:00",
+    "last_update": "2025-07-24T11:40:34.279883+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -2900,7 +2900,7 @@
     "version": "1.0"
   },
   "banana-gun": {
-    "last_update": "2025-07-19T16:10:31.866091+00:00",
+    "last_update": "2025-07-24T11:40:40.992243+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3045,7 +3045,7 @@
     "version": "1.0"
   },
   "balancer": {
-    "last_update": "2025-07-19T16:11:35.739412+00:00",
+    "last_update": "2025-07-24T11:40:40.581686+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3075,7 +3075,7 @@
     "version": "1.0"
   },
   "apu-s-club": {
-    "last_update": "2025-07-19T16:11:49.183804+00:00",
+    "last_update": "2025-07-24T11:40:33.329518+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3200,7 +3200,7 @@
     "version": "1.0"
   },
   "adventure-gold": {
-    "last_update": "2025-07-19T16:13:07.731815+00:00",
+    "last_update": "2025-07-24T11:40:24.592044+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3295,7 +3295,7 @@
     "version": "1.0"
   },
   "ao-computer": {
-    "last_update": "2025-07-19T16:11:58.871257+00:00",
+    "last_update": "2025-07-24T11:40:32.915695+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3335,7 +3335,7 @@
     "version": "1.0"
   },
   "bifrost": {
-    "last_update": "2025-07-19T16:13:28.175255+00:00",
+    "last_update": "2025-07-24T11:40:44.746209+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3475,12 +3475,12 @@
     "version": "1.0"
   },
   "aergo": {
-    "last_update": "2025-07-19T16:14:17.271509+00:00",
+    "last_update": "2025-07-24T11:40:27.732843+00:00",
     "days": "max",
     "version": "1.0"
   },
   "anvil": {
-    "last_update": "2025-07-19T16:14:57.621237+00:00",
+    "last_update": "2025-07-24T11:40:32.202532+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3595,7 +3595,7 @@
     "version": "1.0"
   },
   "access-protocol": {
-    "last_update": "2025-07-19T16:15:18.837182+00:00",
+    "last_update": "2025-07-24T11:40:23.100129+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3660,7 +3660,7 @@
     "version": "1.0"
   },
   "alethea-artificial-liquid-intelligence-token": {
-    "last_update": "2025-07-19T16:12:28.691188+00:00",
+    "last_update": "2025-07-24T11:40:29.918280+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3680,7 +3680,7 @@
     "version": "1.0"
   },
   "avail": {
-    "last_update": "2025-07-19T16:16:14.275323+00:00",
+    "last_update": "2025-07-24T11:40:37.792341+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3705,7 +3705,7 @@
     "version": "1.0"
   },
   "avalanche-old-bridged-wbtc-avalanche": {
-    "last_update": "2025-07-19T16:15:50.546423+00:00",
+    "last_update": "2025-07-24T11:40:38.157600+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3770,7 +3770,7 @@
     "version": "1.0"
   },
   "astherus-usdf": {
-    "last_update": "2025-07-19T16:15:23.247865+00:00",
+    "last_update": "2025-07-24T11:40:35.872606+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3890,12 +3890,12 @@
     "version": "1.0"
   },
   "big-dog-fink": {
-    "last_update": "2025-07-19T16:18:55.443406+00:00",
+    "last_update": "2025-07-24T11:40:44.910861+00:00",
     "days": "max",
     "version": "1.0"
   },
   "aurora-near": {
-    "last_update": "2025-07-19T16:15:43.631061+00:00",
+    "last_update": "2025-07-24T11:40:37.198481+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3950,7 +3950,7 @@
     "version": "1.0"
   },
   "acala": {
-    "last_update": "2025-07-19T16:20:07.728032+00:00",
+    "last_update": "2025-07-24T11:40:23.150104+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3975,7 +3975,7 @@
     "version": "1.0"
   },
   "ancient8": {
-    "last_update": "2025-07-19T16:21:38.280790+00:00",
+    "last_update": "2025-07-24T11:40:31.857930+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -3995,7 +3995,7 @@
     "version": "1.0"
   },
   "agi-alpha-agent": {
-    "last_update": "2025-07-19T16:27:29.092513+00:00",
+    "last_update": "2025-07-24T11:40:26.182113+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -4085,7 +4085,7 @@
     "version": "1.0"
   },
   "alpha-quark-token": {
-    "last_update": "2025-07-19T16:22:33.507471+00:00",
+    "last_update": "2025-07-24T11:40:30.338716+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -4135,7 +4135,7 @@
     "version": "1.0"
   },
   "alien-worlds": {
-    "last_update": "2025-07-19T16:20:48.479027+00:00",
+    "last_update": "2025-07-24T11:40:30.173574+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -4165,7 +4165,7 @@
     "version": "1.0"
   },
   "astherus-staked-usdf": {
-    "last_update": "2025-07-19T16:22:47.914169+00:00",
+    "last_update": "2025-07-24T11:40:35.847251+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -4230,7 +4230,7 @@
     "version": "1.0"
   },
   "ai-rig-complex": {
-    "last_update": "2025-07-19T16:22:55.139966+00:00",
+    "last_update": "2025-07-24T11:40:27.209984+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -4290,7 +4290,7 @@
     "version": "1.0"
   },
   "act-i-the-ai-prophecy": {
-    "last_update": "2025-07-19T16:18:01.210580+00:00",
+    "last_update": "2025-07-24T11:40:23.561501+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -4315,7 +4315,7 @@
     "version": "1.0"
   },
   "autonolas": {
-    "last_update": "2025-07-19T16:17:03.972857+00:00",
+    "last_update": "2025-07-24T11:40:37.650081+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -4425,7 +4425,7 @@
     "version": "1.0"
   },
   "automata": {
-    "last_update": "2025-07-19T16:21:41.234738+00:00",
+    "last_update": "2025-07-24T11:40:38.373933+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -4550,7 +4550,7 @@
     "version": "1.0"
   },
   "alephium": {
-    "last_update": "2025-07-19T16:18:21.279770+00:00",
+    "last_update": "2025-07-24T11:40:29.143363+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -4565,7 +4565,7 @@
     "version": "1.0"
   },
   "bertram-the-pomeranian": {
-    "last_update": "2025-07-19T16:15:28.825742+00:00",
+    "last_update": "2025-07-24T11:40:44.252540+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -4625,7 +4625,7 @@
     "version": "1.0"
   },
   "advertise-coin": {
-    "last_update": "2025-07-19T16:20:00.560304+00:00",
+    "last_update": "2025-07-24T11:40:25.477255+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -4660,7 +4660,7 @@
     "version": "1.0"
   },
   "ava-ai": {
-    "last_update": "2025-07-19T16:17:48.302905+00:00",
+    "last_update": "2025-07-24T11:40:37.699409+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -4735,12 +4735,12 @@
     "version": "1.0"
   },
   "ankreth": {
-    "last_update": "2025-07-19T16:19:27.992059+00:00",
+    "last_update": "2025-07-24T11:40:32.104548+00:00",
     "days": "max",
     "version": "1.0"
   },
   "babyboomtoken": {
-    "last_update": "2025-07-19T16:17:11.053885+00:00",
+    "last_update": "2025-07-24T11:40:39.993074+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -4755,12 +4755,12 @@
     "version": "1.0"
   },
   "based-fartcoin": {
-    "last_update": "2025-07-19T16:17:31.533638+00:00",
+    "last_update": "2025-07-24T11:40:42.629769+00:00",
     "days": "max",
     "version": "1.0"
   },
   "apollox-2": {
-    "last_update": "2025-07-19T16:19:23.649031+00:00",
+    "last_update": "2025-07-24T11:40:33.291198+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -4770,7 +4770,7 @@
     "version": "1.0"
   },
   "auki-labs": {
-    "last_update": "2025-07-19T16:22:45.156720+00:00",
+    "last_update": "2025-07-24T11:40:36.750854+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -4875,7 +4875,7 @@
     "version": "1.0"
   },
   "a-hunters-dream": {
-    "last_update": "2025-07-19T16:20:03.562807+00:00",
+    "last_update": "2025-07-24T11:40:23.177379+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -4895,12 +4895,12 @@
     "version": "1.0"
   },
   "aintivirus": {
-    "last_update": "2025-07-19T16:20:36.590696+00:00",
+    "last_update": "2025-07-24T11:40:27.561988+00:00",
     "days": "max",
     "version": "1.0"
   },
   "aquarius": {
-    "last_update": "2025-07-19T16:19:40.780792+00:00",
+    "last_update": "2025-07-24T11:40:33.532678+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -4920,7 +4920,7 @@
     "version": "1.0"
   },
   "ai-analysis-token": {
-    "last_update": "2025-07-19T16:18:52.757462+00:00",
+    "last_update": "2025-07-24T11:40:27.181198+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -5025,7 +5025,7 @@
     "version": "1.0"
   },
   "bankercoin-2": {
-    "last_update": "2025-07-19T16:18:40.593467+00:00",
+    "last_update": "2025-07-24T11:40:41.383550+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -5130,7 +5130,7 @@
     "version": "1.0"
   },
   "assemble-protocol": {
-    "last_update": "2025-07-19T16:17:57.064211+00:00",
+    "last_update": "2025-07-24T11:40:35.982964+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -5210,7 +5210,7 @@
     "version": "1.0"
   },
   "abster": {
-    "last_update": "2025-07-19T16:20:19.577952+00:00",
+    "last_update": "2025-07-24T11:40:22.968220+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -5325,7 +5325,7 @@
     "version": "1.0"
   },
   "beincom": {
-    "last_update": "2025-07-19T16:22:29.785759+00:00",
+    "last_update": "2025-07-24T11:40:43.604779+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -5350,7 +5350,7 @@
     "version": "1.0"
   },
   "apex-token-2": {
-    "last_update": "2025-07-19T16:22:46.577792+00:00",
+    "last_update": "2025-07-24T11:40:33.598829+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -5505,7 +5505,7 @@
     "version": "1.0"
   },
   "aegis-yusd": {
-    "last_update": "2025-07-19T16:23:47.462318+00:00",
+    "last_update": "2025-07-24T11:40:24.159314+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -5520,7 +5520,7 @@
     "version": "1.0"
   },
   "ahatoken": {
-    "last_update": "2025-07-19T16:23:55.617226+00:00",
+    "last_update": "2025-07-24T11:40:27.920136+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -5530,7 +5530,7 @@
     "version": "1.0"
   },
   "alpha-trader-exchange-atx": {
-    "last_update": "2025-07-19T16:23:59.303076+00:00",
+    "last_update": "2025-07-24T11:40:30.443853+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -5605,7 +5605,7 @@
     "version": "1.0"
   },
   "agora-ausd-katana": {
-    "last_update": "2025-07-19T16:24:25.284403+00:00",
+    "last_update": "2025-07-24T11:40:26.361022+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -5620,22 +5620,22 @@
     "version": "1.0"
   },
   "bakerytoken": {
-    "last_update": "2025-07-19T16:24:30.015849+00:00",
+    "last_update": "2025-07-24T11:40:40.542071+00:00",
     "days": "max",
     "version": "1.0"
   },
   "army-3": {
-    "last_update": "2025-07-19T16:24:31.632965+00:00",
+    "last_update": "2025-07-24T11:40:35.350835+00:00",
     "days": "max",
     "version": "1.0"
   },
   "arbdoge-ai": {
-    "last_update": "2025-07-19T16:24:33.587982+00:00",
+    "last_update": "2025-07-24T11:40:34.133851+00:00",
     "days": "max",
     "version": "1.0"
   },
   "avalon-2": {
-    "last_update": "2025-07-19T16:24:34.909701+00:00",
+    "last_update": "2025-07-24T11:40:38.300458+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -5650,7 +5650,7 @@
     "version": "1.0"
   },
   "bbachain": {
-    "last_update": "2025-07-19T16:24:39.113086+00:00",
+    "last_update": "2025-07-24T11:40:42.760164+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -5685,7 +5685,7 @@
     "version": "1.0"
   },
   "artrade": {
-    "last_update": "2025-07-19T16:24:49.256892+00:00",
+    "last_update": "2025-07-24T11:40:35.093147+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -5725,7 +5725,7 @@
     "version": "1.0"
   },
   "aavegotchi": {
-    "last_update": "2025-07-19T16:25:07.493306+00:00",
+    "last_update": "2025-07-24T11:40:22.676392+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -5845,7 +5845,7 @@
     "version": "1.0"
   },
   "badger-dao": {
-    "last_update": "2025-07-19T16:25:53.471136+00:00",
+    "last_update": "2025-07-24T11:40:40.144098+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -5975,12 +5975,12 @@
     "version": "1.0"
   },
   "based-pepe": {
-    "last_update": "2025-07-19T16:26:39.505947+00:00",
+    "last_update": "2025-07-24T11:40:42.168946+00:00",
     "days": "max",
     "version": "1.0"
   },
   "bella-protocol": {
-    "last_update": "2025-07-19T16:26:41.001915+00:00",
+    "last_update": "2025-07-24T11:40:45.229427+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -6000,7 +6000,7 @@
     "version": "1.0"
   },
   "alchemix": {
-    "last_update": "2025-07-19T16:26:47.025015+00:00",
+    "last_update": "2025-07-24T11:40:28.777967+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -6030,7 +6030,7 @@
     "version": "1.0"
   },
   "arpa": {
-    "last_update": "2025-07-19T16:26:57.094561+00:00",
+    "last_update": "2025-07-24T11:40:34.783633+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -6115,7 +6115,7 @@
     "version": "1.0"
   },
   "agentcoin-tv": {
-    "last_update": "2025-07-19T16:27:23.165678+00:00",
+    "last_update": "2025-07-24T11:40:26.018806+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -6130,7 +6130,7 @@
     "version": "1.0"
   },
   "ageur": {
-    "last_update": "2025-07-19T16:27:30.649238+00:00",
+    "last_update": "2025-07-24T11:40:27.021910+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -6150,7 +6150,7 @@
     "version": "1.0"
   },
   "amaterasu-omikami": {
-    "last_update": "2025-07-19T16:27:36.369925+00:00",
+    "last_update": "2025-07-24T11:40:31.032768+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -6245,7 +6245,7 @@
     "version": "1.0"
   },
   "alkimi": {
-    "last_update": "2025-07-19T16:28:13.168734+00:00",
+    "last_update": "2025-07-24T11:40:29.384293+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -6310,7 +6310,7 @@
     "version": "1.0"
   },
   "agenda-47": {
-    "last_update": "2025-07-19T16:28:33.918487+00:00",
+    "last_update": "2025-07-24T11:40:25.403417+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -6515,7 +6515,7 @@
     "version": "1.0"
   },
   "aura-bal": {
-    "last_update": "2025-07-19T16:29:45.189468+00:00",
+    "last_update": "2025-07-24T11:40:37.063735+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -6530,7 +6530,7 @@
     "version": "1.0"
   },
   "aurora-dao": {
-    "last_update": "2025-07-19T16:29:49.808919+00:00",
+    "last_update": "2025-07-24T11:40:38.454583+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -6545,7 +6545,7 @@
     "version": "1.0"
   },
   "aventus": {
-    "last_update": "2025-07-19T16:29:55.619508+00:00",
+    "last_update": "2025-07-24T11:40:38.666643+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -6600,7 +6600,7 @@
     "version": "1.0"
   },
   "axelrod-by-virtuals": {
-    "last_update": "2025-07-19T16:30:14.998341+00:00",
+    "last_update": "2025-07-24T11:40:39.787329+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -6685,7 +6685,7 @@
     "version": "1.0"
   },
   "based-eth": {
-    "last_update": "2025-07-19T16:30:42.327286+00:00",
+    "last_update": "2025-07-24T11:40:42.269352+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -6745,7 +6745,7 @@
     "version": "1.0"
   },
   "agoras-currency-of-tau": {
-    "last_update": "2025-07-19T16:31:01.712788+00:00",
+    "last_update": "2025-07-24T11:40:29.327720+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -6805,7 +6805,7 @@
     "version": "1.0"
   },
   "as-roma-fan-token": {
-    "last_update": "2025-07-19T16:31:22.695015+00:00",
+    "last_update": "2025-07-24T11:40:35.723714+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -6890,7 +6890,7 @@
     "version": "1.0"
   },
   "aleph": {
-    "last_update": "2025-07-19T16:31:51.073170+00:00",
+    "last_update": "2025-07-24T11:40:29.030838+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -6940,7 +6940,7 @@
     "version": "1.0"
   },
   "adshares": {
-    "last_update": "2025-07-19T16:32:15.462413+00:00",
+    "last_update": "2025-07-24T11:40:24.058727+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -7095,7 +7095,7 @@
     "version": "1.0"
   },
   "asd": {
-    "last_update": "2025-07-19T16:33:08.698765+00:00",
+    "last_update": "2025-07-24T11:40:35.216212+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -7170,7 +7170,7 @@
     "version": "1.0"
   },
   "basedai": {
-    "last_update": "2025-07-19T16:33:35.381559+00:00",
+    "last_update": "2025-07-24T11:40:42.225830+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -7190,7 +7190,7 @@
     "version": "1.0"
   },
   "aladdin-dao": {
-    "last_update": "2025-07-19T16:33:42.733707+00:00",
+    "last_update": "2025-07-24T11:40:28.716509+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -7210,12 +7210,12 @@
     "version": "1.0"
   },
   "alpha-finance": {
-    "last_update": "2025-07-19T16:33:51.173433+00:00",
+    "last_update": "2025-07-24T11:40:30.207150+00:00",
     "days": "max",
     "version": "1.0"
   },
   "alienbase": {
-    "last_update": "2025-07-19T16:33:53.102736+00:00",
+    "last_update": "2025-07-24T11:40:29.247540+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -7230,7 +7230,7 @@
     "version": "1.0"
   },
   "agent-virtual-machine": {
-    "last_update": "2025-07-19T16:34:01.808901+00:00",
+    "last_update": "2025-07-24T11:40:26.251590+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -7250,7 +7250,7 @@
     "version": "1.0"
   },
   "adex": {
-    "last_update": "2025-07-19T16:34:11.474119+00:00",
+    "last_update": "2025-07-24T11:40:25.827729+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -7280,7 +7280,7 @@
     "version": "1.0"
   },
   "apex-5": {
-    "last_update": "2025-07-19T16:34:22.188925+00:00",
+    "last_update": "2025-07-24T11:40:33.105128+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -7455,7 +7455,7 @@
     "version": "1.0"
   },
   "bellscoin": {
-    "last_update": "2025-07-19T16:35:26.388952+00:00",
+    "last_update": "2025-07-24T11:40:43.783284+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -7475,7 +7475,7 @@
     "version": "1.0"
   },
   "ambire-wallet": {
-    "last_update": "2025-07-19T16:35:35.138782+00:00",
+    "last_update": "2025-07-24T11:40:31.071793+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -7595,7 +7595,7 @@
     "version": "1.0"
   },
   "american-coin": {
-    "last_update": "2025-07-19T16:36:20.173933+00:00",
+    "last_update": "2025-07-24T11:40:31.005181+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -7655,7 +7655,7 @@
     "version": "1.0"
   },
   "apertum": {
-    "last_update": "2025-07-19T16:36:41.564370+00:00",
+    "last_update": "2025-07-24T11:40:32.591467+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -7670,7 +7670,7 @@
     "version": "1.0"
   },
   "bfg-token": {
-    "last_update": "2025-07-19T16:36:49.530306+00:00",
+    "last_update": "2025-07-24T11:40:44.388158+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -7730,7 +7730,7 @@
     "version": "1.0"
   },
   "asymmetry-finance": {
-    "last_update": "2025-07-19T16:37:08.502460+00:00",
+    "last_update": "2025-07-24T11:40:36.334968+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -7845,12 +7845,12 @@
     "version": "1.0"
   },
   "0xgasless-2": {
-    "last_update": "2025-07-19T16:37:51.595084+00:00",
+    "last_update": "2025-07-24T11:40:21.963495+00:00",
     "days": "max",
     "version": "1.0"
   },
   "amnis-staked-aptos-coin": {
-    "last_update": "2025-07-19T16:37:53.301121+00:00",
+    "last_update": "2025-07-24T11:40:31.257084+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -7915,7 +7915,7 @@
     "version": "1.0"
   },
   "allianceblock-nexera": {
-    "last_update": "2025-07-19T16:38:16.941064+00:00",
+    "last_update": "2025-07-24T11:40:29.595001+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -8010,7 +8010,7 @@
     "version": "1.0"
   },
   "avalanche-bridged-dai-avalanche": {
-    "last_update": "2025-07-19T16:38:53.850011+00:00",
+    "last_update": "2025-07-24T11:40:38.066652+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -8070,12 +8070,12 @@
     "version": "1.0"
   },
   "aki-protocol": {
-    "last_update": "2025-07-19T16:39:15.809804+00:00",
+    "last_update": "2025-07-24T11:40:28.542016+00:00",
     "days": "max",
     "version": "1.0"
   },
   "ami": {
-    "last_update": "2025-07-19T16:39:17.304881+00:00",
+    "last_update": "2025-07-24T11:40:31.097430+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -8100,7 +8100,7 @@
     "version": "1.0"
   },
   "altered-state-token": {
-    "last_update": "2025-07-19T16:39:26.753464+00:00",
+    "last_update": "2025-07-24T11:40:31.286360+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -8120,7 +8120,7 @@
     "version": "1.0"
   },
   "akio": {
-    "last_update": "2025-07-19T16:39:34.968814+00:00",
+    "last_update": "2025-07-24T11:40:28.640959+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -8170,7 +8170,7 @@
     "version": "1.0"
   },
   "baanx": {
-    "last_update": "2025-07-19T16:39:53.463824+00:00",
+    "last_update": "2025-07-24T11:40:39.315380+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -8230,7 +8230,7 @@
     "version": "1.0"
   },
   "360noscope420blazeit": {
-    "last_update": "2025-07-19T16:40:23.434731+00:00",
+    "last_update": "2025-07-24T11:40:22.038105+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -8300,7 +8300,7 @@
     "version": "1.0"
   },
   "alpha-fi": {
-    "last_update": "2025-07-19T16:40:51.770240+00:00",
+    "last_update": "2025-07-24T11:40:30.093606+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -8365,7 +8365,7 @@
     "version": "1.0"
   },
   "alexgo": {
-    "last_update": "2025-07-19T16:41:12.928858+00:00",
+    "last_update": "2025-07-24T11:40:30.001258+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -8380,7 +8380,7 @@
     "version": "1.0"
   },
   "altura": {
-    "last_update": "2025-07-19T16:41:17.307439+00:00",
+    "last_update": "2025-07-24T11:40:30.900288+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -8395,7 +8395,7 @@
     "version": "1.0"
   },
   "balance": {
-    "last_update": "2025-07-19T16:41:23.124081+00:00",
+    "last_update": "2025-07-24T11:40:40.501716+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -8500,7 +8500,7 @@
     "version": "1.0"
   },
   "anzens-usda": {
-    "last_update": "2025-07-19T16:42:01.241578+00:00",
+    "last_update": "2025-07-24T11:40:33.056987+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -8520,7 +8520,7 @@
     "version": "1.0"
   },
   "allindoge": {
-    "last_update": "2025-07-19T16:42:09.741617+00:00",
+    "last_update": "2025-07-24T11:40:29.768574+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -8535,7 +8535,7 @@
     "version": "1.0"
   },
   "aura-finance": {
-    "last_update": "2025-07-19T16:42:16.386754+00:00",
+    "last_update": "2025-07-24T11:40:37.576601+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -8580,7 +8580,7 @@
     "version": "1.0"
   },
   "aria-premier-launch": {
-    "last_update": "2025-07-19T16:42:31.490126+00:00",
+    "last_update": "2025-07-24T11:40:34.719255+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -8605,7 +8605,7 @@
     "version": "1.0"
   },
   "alpine-f1-team-fan-token": {
-    "last_update": "2025-07-19T16:42:39.743282+00:00",
+    "last_update": "2025-07-24T11:40:31.421998+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -8715,7 +8715,7 @@
     "version": "1.0"
   },
   "antitoken": {
-    "last_update": "2025-07-19T16:43:22.037937+00:00",
+    "last_update": "2025-07-24T11:40:32.825680+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -8730,7 +8730,7 @@
     "version": "1.0"
   },
   "agridex-governance-token": {
-    "last_update": "2025-07-19T16:43:28.283263+00:00",
+    "last_update": "2025-07-24T11:40:26.720598+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -8815,7 +8815,7 @@
     "version": "1.0"
   },
   "beethoven-x": {
-    "last_update": "2025-07-19T16:43:56.457560+00:00",
+    "last_update": "2025-07-24T11:40:44.455083+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -8840,7 +8840,7 @@
     "version": "1.0"
   },
   "abelian": {
-    "last_update": "2025-07-19T16:44:09.556917+00:00",
+    "last_update": "2025-07-24T11:40:23.302006+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -9050,7 +9050,7 @@
     "version": "1.0"
   },
   "base-god": {
-    "last_update": "2025-07-19T16:45:35.915325+00:00",
+    "last_update": "2025-07-24T11:40:41.736374+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -9100,7 +9100,7 @@
     "version": "1.0"
   },
   "alpha-city": {
-    "last_update": "2025-07-19T16:45:54.201458+00:00",
+    "last_update": "2025-07-24T11:40:30.053556+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -9135,7 +9135,7 @@
     "version": "1.0"
   },
   "aura-2": {
-    "last_update": "2025-07-19T16:46:07.411907+00:00",
+    "last_update": "2025-07-24T11:40:36.968437+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -9290,7 +9290,7 @@
     "version": "1.0"
   },
   "aiville-governance-token": {
-    "last_update": "2025-07-19T16:47:12.178125+00:00",
+    "last_update": "2025-07-24T11:40:28.938378+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -9545,7 +9545,7 @@
     "version": "1.0"
   },
   "allo": {
-    "last_update": "2025-07-19T16:48:46.867358+00:00",
+    "last_update": "2025-07-24T11:40:30.606869+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -9605,7 +9605,7 @@
     "version": "1.0"
   },
   "b14g-dualcore": {
-    "last_update": "2025-07-19T16:49:10.046665+00:00",
+    "last_update": "2025-07-24T11:40:40.685119+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -9635,7 +9635,7 @@
     "version": "1.0"
   },
   "1guy": {
-    "last_update": "2025-07-19T16:49:19.246835+00:00",
+    "last_update": "2025-07-24T11:40:22.561999+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -9710,7 +9710,7 @@
     "version": "1.0"
   },
   "atletico-madrid": {
-    "last_update": "2025-07-19T16:49:52.386758+00:00",
+    "last_update": "2025-07-24T11:40:37.387319+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -9730,7 +9730,7 @@
     "version": "1.0"
   },
   "avax-has-no-chill": {
-    "last_update": "2025-07-19T16:50:00.892390+00:00",
+    "last_update": "2025-07-24T11:40:38.729056+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -9765,7 +9765,7 @@
     "version": "1.0"
   },
   "bad-idea-ai": {
-    "last_update": "2025-07-19T16:50:15.435211+00:00",
+    "last_update": "2025-07-24T11:40:40.053096+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -9780,7 +9780,7 @@
     "version": "1.0"
   },
   "adappter-token": {
-    "last_update": "2025-07-19T16:50:21.694900+00:00",
+    "last_update": "2025-07-24T11:40:25.219625+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -9985,7 +9985,7 @@
     "version": "1.0"
   },
   "alpaca-finance": {
-    "last_update": "2025-07-19T16:51:42.370913+00:00",
+    "last_update": "2025-07-24T11:40:29.863356+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -10045,7 +10045,7 @@
     "version": "1.0"
   },
   "adrena": {
-    "last_update": "2025-07-19T16:52:02.321296+00:00",
+    "last_update": "2025-07-24T11:40:23.987475+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -10150,7 +10150,7 @@
     "version": "1.0"
   },
   "argentine-football-association-fan-token": {
-    "last_update": "2025-07-19T16:52:42.904292+00:00",
+    "last_update": "2025-07-24T11:40:34.309741+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -10235,7 +10235,7 @@
     "version": "1.0"
   },
   "beam": {
-    "last_update": "2025-07-19T16:53:17.785097+00:00",
+    "last_update": "2025-07-24T11:40:43.019858+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -10275,7 +10275,7 @@
     "version": "1.0"
   },
   "balanced-dollars": {
-    "last_update": "2025-07-19T16:53:32.581920+00:00",
+    "last_update": "2025-07-24T11:40:42.547090+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -10300,7 +10300,7 @@
     "version": "1.0"
   },
   "atlas-navi": {
-    "last_update": "2025-07-19T16:53:42.184161+00:00",
+    "last_update": "2025-07-24T11:40:36.895350+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -10360,7 +10360,7 @@
     "version": "1.0"
   },
   "arianee": {
-    "last_update": "2025-07-19T16:54:09.695066+00:00",
+    "last_update": "2025-07-24T11:40:36.200014+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -10370,7 +10370,7 @@
     "version": "1.0"
   },
   "anzen-staked-usdz": {
-    "last_update": "2025-07-19T16:54:13.613368+00:00",
+    "last_update": "2025-07-24T11:40:32.484744+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -10470,7 +10470,7 @@
     "version": "1.0"
   },
   "agent-ted": {
-    "last_update": "2025-07-19T16:54:52.555633+00:00",
+    "last_update": "2025-07-24T11:40:25.633372+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -10515,7 +10515,7 @@
     "version": "1.0"
   },
   "bifrost-native-coin": {
-    "last_update": "2025-07-19T16:55:12.198664+00:00",
+    "last_update": "2025-07-24T11:40:44.798557+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -10570,7 +10570,7 @@
     "version": "1.0"
   },
   "balsa-mm-fund": {
-    "last_update": "2025-07-19T16:55:31.846140+00:00",
+    "last_update": "2025-07-24T11:40:41.039647+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -10825,12 +10825,12 @@
     "version": "1.0"
   },
   "billy": {
-    "last_update": "2025-07-19T16:57:03.679110+00:00",
+    "last_update": "2025-07-24T11:40:45.144288+00:00",
     "days": "max",
     "version": "1.0"
   },
   "avalanche-bridged-wbtc-avalanche": {
-    "last_update": "2025-07-19T16:57:05.033903+00:00",
+    "last_update": "2025-07-24T11:40:38.020081+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -10855,12 +10855,12 @@
     "version": "1.0"
   },
   "astroport-fi": {
-    "last_update": "2025-07-19T16:57:14.378702+00:00",
+    "last_update": "2025-07-24T11:40:36.160797+00:00",
     "days": "max",
     "version": "1.0"
   },
   "apf-coin": {
-    "last_update": "2025-07-19T16:57:16.427542+00:00",
+    "last_update": "2025-07-24T11:40:33.565288+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -11030,7 +11030,7 @@
     "version": "1.0"
   },
   "ait-protocol": {
-    "last_update": "2025-07-19T16:58:16.621599+00:00",
+    "last_update": "2025-07-24T11:40:28.145716+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -11050,7 +11050,7 @@
     "version": "1.0"
   },
   "bamboo-on-base": {
-    "last_update": "2025-07-19T16:58:22.565588+00:00",
+    "last_update": "2025-07-24T11:40:40.872597+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -11155,7 +11155,7 @@
     "version": "1.0"
   },
   "aura-network": {
-    "last_update": "2025-07-19T16:59:02.823207+00:00",
+    "last_update": "2025-07-24T11:40:37.166824+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -11230,7 +11230,7 @@
     "version": "1.0"
   },
   "base-is-for-everyone": {
-    "last_update": "2025-07-19T16:59:34.843199+00:00",
+    "last_update": "2025-07-24T11:40:41.911234+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -11260,7 +11260,7 @@
     "version": "1.0"
   },
   "africarare": {
-    "last_update": "2025-07-19T16:59:46.317487+00:00",
+    "last_update": "2025-07-24T11:40:25.575307+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -11315,7 +11315,7 @@
     "version": "1.0"
   },
   "arc": {
-    "last_update": "2025-07-19T17:00:12.883685+00:00",
+    "last_update": "2025-07-24T11:40:34.940429+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -11360,7 +11360,7 @@
     "version": "1.0"
   },
   "alphakek-ai": {
-    "last_update": "2025-07-19T17:00:36.720285+00:00",
+    "last_update": "2025-07-24T11:40:30.854649+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -11465,7 +11465,7 @@
     "version": "1.0"
   },
   "angle-staked-agusd": {
-    "last_update": "2025-07-19T17:01:20.314795+00:00",
+    "last_update": "2025-07-24T11:40:31.803599+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -11790,7 +11790,7 @@
     "version": "1.0"
   },
   "apwine": {
-    "last_update": "2025-07-19T17:03:26.186945+00:00",
+    "last_update": "2025-07-24T11:40:34.662575+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -12125,7 +12125,7 @@
     "version": "1.0"
   },
   "acolyte-by-virtuals": {
-    "last_update": "2025-07-19T17:05:26.388285+00:00",
+    "last_update": "2025-07-24T11:40:23.425485+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -12225,7 +12225,7 @@
     "version": "1.0"
   },
   "be-for-fwx": {
-    "last_update": "2025-07-19T17:06:06.324909+00:00",
+    "last_update": "2025-07-24T11:40:43.128813+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -12340,7 +12340,7 @@
     "version": "1.0"
   },
   "aintivirus-2": {
-    "last_update": "2025-07-19T17:06:50.660583+00:00",
+    "last_update": "2025-07-24T11:40:27.693430+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -12350,7 +12350,7 @@
     "version": "1.0"
   },
   "argocoin-2": {
-    "last_update": "2025-07-19T17:06:54.040930+00:00",
+    "last_update": "2025-07-24T11:40:34.430600+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -12395,7 +12395,7 @@
     "version": "1.0"
   },
   "artyfact": {
-    "last_update": "2025-07-19T17:07:08.690248+00:00",
+    "last_update": "2025-07-24T11:40:35.423607+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -12470,7 +12470,7 @@
     "version": "1.0"
   },
   "all-the-money": {
-    "last_update": "2025-07-19T17:07:38.486273+00:00",
+    "last_update": "2025-07-24T11:40:29.554282+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -12540,7 +12540,7 @@
     "version": "1.0"
   },
   "battle-of-three-kingdoms": {
-    "last_update": "2025-07-19T17:08:01.126523+00:00",
+    "last_update": "2025-07-24T11:40:42.820018+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -12590,7 +12590,7 @@
     "version": "1.0"
   },
   "athenadao-token": {
-    "last_update": "2025-07-19T17:08:19.553923+00:00",
+    "last_update": "2025-07-24T11:40:36.686468+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -12750,7 +12750,7 @@
     "version": "1.0"
   },
   "archway": {
-    "last_update": "2025-07-19T17:09:23.450735+00:00",
+    "last_update": "2025-07-24T11:40:34.189133+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -12885,7 +12885,7 @@
     "version": "1.0"
   },
   "banana": {
-    "last_update": "2025-07-19T17:10:09.439978+00:00",
+    "last_update": "2025-07-24T11:40:41.836162+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -13240,7 +13240,7 @@
     "version": "1.0"
   },
   "arsenal-fan-token": {
-    "last_update": "2025-07-19T17:12:21.435410+00:00",
+    "last_update": "2025-07-24T11:40:36.088144+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -13395,7 +13395,7 @@
     "version": "1.0"
   },
   "beercoin-2": {
-    "last_update": "2025-07-19T17:13:23.888008+00:00",
+    "last_update": "2025-07-24T11:40:43.417371+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -13415,7 +13415,7 @@
     "version": "1.0"
   },
   "andy-on-base": {
-    "last_update": "2025-07-19T17:13:31.261094+00:00",
+    "last_update": "2025-07-24T11:40:31.686332+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -13430,7 +13430,7 @@
     "version": "1.0"
   },
   "_": {
-    "last_update": "2025-07-19T17:13:36.687568+00:00",
+    "last_update": "2025-07-24T11:40:22.638749+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -13520,7 +13520,7 @@
     "version": "1.0"
   },
   "alltoscan": {
-    "last_update": "2025-07-19T17:14:08.023527+00:00",
+    "last_update": "2025-07-24T11:40:30.116513+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -13530,7 +13530,7 @@
     "version": "1.0"
   },
   "baby-bft": {
-    "last_update": "2025-07-19T17:14:11.316410+00:00",
+    "last_update": "2025-07-24T11:40:39.625183+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -13670,7 +13670,7 @@
     "version": "1.0"
   },
   "aeternity": {
-    "last_update": "2025-07-19T17:15:07.696825+00:00",
+    "last_update": "2025-07-24T11:40:24.761518+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -13710,7 +13710,7 @@
     "version": "1.0"
   },
   "aviator": {
-    "last_update": "2025-07-19T17:15:22.377391+00:00",
+    "last_update": "2025-07-24T11:40:39.145814+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -13725,7 +13725,7 @@
     "version": "1.0"
   },
   "baasid": {
-    "last_update": "2025-07-19T17:15:29.771624+00:00",
+    "last_update": "2025-07-24T11:40:39.594795+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -13755,7 +13755,7 @@
     "version": "1.0"
   },
   "4chan": {
-    "last_update": "2025-07-19T17:15:41.969827+00:00",
+    "last_update": "2025-07-24T11:40:22.467667+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -13805,7 +13805,7 @@
     "version": "1.0"
   },
   "astrafer": {
-    "last_update": "2025-07-19T17:16:01.696633+00:00",
+    "last_update": "2025-07-24T11:40:36.928443+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -13830,7 +13830,7 @@
     "version": "1.0"
   },
   "assdaq": {
-    "last_update": "2025-07-19T17:16:11.206443+00:00",
+    "last_update": "2025-07-24T11:40:35.469727+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -13980,7 +13980,7 @@
     "version": "1.0"
   },
   "axol": {
-    "last_update": "2025-07-19T17:17:06.606396+00:00",
+    "last_update": "2025-07-24T11:40:38.941080+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -14055,7 +14055,7 @@
     "version": "1.0"
   },
   "asia-coin": {
-    "last_update": "2025-07-19T17:17:37.072079+00:00",
+    "last_update": "2025-07-24T11:40:36.570225+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -14085,7 +14085,7 @@
     "version": "1.0"
   },
   "aimonica-brands": {
-    "last_update": "2025-07-19T17:17:49.038125+00:00",
+    "last_update": "2025-07-24T11:40:27.260153+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -14115,7 +14115,7 @@
     "version": "1.0"
   },
   "angle-protocol": {
-    "last_update": "2025-07-19T17:17:58.745072+00:00",
+    "last_update": "2025-07-24T11:40:31.759307+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -14190,7 +14190,7 @@
     "version": "1.0"
   },
   "ansem-s-minutes": {
-    "last_update": "2025-07-19T17:18:25.263792+00:00",
+    "last_update": "2025-07-24T11:40:32.879895+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -14225,7 +14225,7 @@
     "version": "1.0"
   },
   "alphbanx": {
-    "last_update": "2025-07-19T17:18:36.817513+00:00",
+    "last_update": "2025-07-24T11:40:30.542032+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -14380,7 +14380,7 @@
     "version": "1.0"
   },
   "based-chad": {
-    "last_update": "2025-07-19T17:19:39.718132+00:00",
+    "last_update": "2025-07-24T11:40:42.129550+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -14395,7 +14395,7 @@
     "version": "1.0"
   },
   "analog": {
-    "last_update": "2025-07-19T17:19:48.187097+00:00",
+    "last_update": "2025-07-24T11:40:31.598715+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -14415,7 +14415,7 @@
     "version": "1.0"
   },
   "aiveronica": {
-    "last_update": "2025-07-19T17:19:54.643022+00:00",
+    "last_update": "2025-07-24T11:40:28.262375+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -14575,12 +14575,12 @@
     "version": "1.0"
   },
   "balance-tokens": {
-    "last_update": "2025-07-19T17:20:51.996854+00:00",
+    "last_update": "2025-07-24T11:40:41.559330+00:00",
     "days": "max",
     "version": "1.0"
   },
   "bestcoin": {
-    "last_update": "2025-07-19T17:20:53.528434+00:00",
+    "last_update": "2025-07-24T11:40:44.419230+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -14730,7 +14730,7 @@
     "version": "1.0"
   },
   "agentaigo": {
-    "last_update": "2025-07-19T17:21:49.642089+00:00",
+    "last_update": "2025-07-24T11:40:25.905547+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -14750,7 +14750,7 @@
     "version": "1.0"
   },
   "beeper-coin": {
-    "last_update": "2025-07-19T17:21:56.193929+00:00",
+    "last_update": "2025-07-24T11:40:43.348147+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -14800,7 +14800,7 @@
     "version": "1.0"
   },
   "ai-network": {
-    "last_update": "2025-07-19T17:22:18.343267+00:00",
+    "last_update": "2025-07-24T11:40:28.300266+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -14815,7 +14815,7 @@
     "version": "1.0"
   },
   "banano": {
-    "last_update": "2025-07-19T17:22:26.023136+00:00",
+    "last_update": "2025-07-24T11:40:43.873630+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -14915,7 +14915,7 @@
     "version": "1.0"
   },
   "1000x-by-virtuals": {
-    "last_update": "2025-07-19T17:23:08.696393+00:00",
+    "last_update": "2025-07-24T11:40:22.101639+00:00",
     "days": "max",
     "version": "1.0"
   },
@@ -14980,7 +14980,7 @@
     "version": "1.0"
   },
   "basedd-house": {
-    "last_update": "2025-07-19T17:23:34.781711+00:00",
+    "last_update": "2025-07-24T11:40:42.515328+00:00",
     "days": "max",
     "version": "1.0"
   },
