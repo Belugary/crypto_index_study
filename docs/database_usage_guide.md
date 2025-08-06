@@ -287,7 +287,7 @@ checker.run_full_check()
 
 ## 文件位置
 
-- **数据库文件**: `data/crypto_market.db`
+- **数据库文件**: `data/market.db`
 - **数据库工具**: `src/utils/database_utils.py` ✅ **已完成**
 - **测试套件**: `tests/test_daily_aggregator_database.py` ✅ **已完成**
 - **验证工具**: `src/utils/data_validation.py` (待创建)

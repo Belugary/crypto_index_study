@@ -29,7 +29,7 @@ class DatabaseManager:
     - 简化的接口设计，易于集成
     """
     
-    def __init__(self, db_path: str = "data/crypto_market.db"):
+    def __init__(self, db_path: str = "data/market.db"):
         """
         初始化数据库管理器
         
@@ -461,7 +461,7 @@ class DatabaseHealthChecker:
     数据库健康检查工具
     """
     
-    def __init__(self, db_path: str = "data/crypto_market.db"):
+    def __init__(self, db_path: str = "data/market.db"):
         self.db_manager = DatabaseManager(db_path)
     
     def run_full_check(self) -> bool:
@@ -505,7 +505,7 @@ class DatabaseHealthChecker:
         return validation['total_validation']
 
 
-def create_database_manager(db_path: str = "data/crypto_market.db") -> DatabaseManager:
+def create_database_manager(db_path: str = "data/market.db") -> DatabaseManager:
     """
     创建数据库管理器实例的便捷函数
     

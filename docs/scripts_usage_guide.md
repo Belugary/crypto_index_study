@@ -84,7 +84,7 @@ python scripts/crypto30_comprehensive_analysis.py
 
 ### 当前存储方式
 
-- **主存储**: SQLite数据库 (`data/crypto_market.db`) - 高性能查询
+- **主存储**: SQLite数据库 (`data/market.db`) - 高性能查询
 - **备份存储**: CSV文件 (`data/coins/*.csv`) - 兼容性和可读性
 
 ### 数据更新流程

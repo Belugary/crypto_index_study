@@ -123,7 +123,7 @@ class DailyDataAggregator:
             result_include_all: [已废弃] 此参数在构造函数中无效，请在调用 get_daily_data() 时指定
                               保留此参数仅为向后兼容，建议使用方法级别的参数控制
             use_database: 是否启用数据库模式（需要已完成数据库迁移）
-            db_path: 数据库文件路径（可选，默认为 data/crypto_market.db）
+            db_path: 数据库文件路径（可选，默认为 data/market.db）
         """
         # 使用新的路径工具
         self.project_root = find_project_root()
@@ -168,7 +168,7 @@ class DailyDataAggregator:
             try:
                 # 默认数据库路径
                 if db_path is None:
-                    db_path = str(self.project_root / "data" / "crypto_market.db")
+                    db_path = str(self.project_root / "data" / "market.db")
                 
                 self.db_manager = DatabaseManager(db_path)
                 self.logger.info(f"数据库模式已启用: {db_path}")
@@ -335,7 +335,7 @@ class DailyDataAggregator:
         
         try:
             if db_path is None:
-                db_path = str(self.project_root / "data" / "crypto_market.db")
+                db_path = str(self.project_root / "data" / "market.db")
             
             self.db_manager = DatabaseManager(db_path)
             self.use_database = True

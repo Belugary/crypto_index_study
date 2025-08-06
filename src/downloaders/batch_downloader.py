@@ -64,7 +64,7 @@ class BatchDownloader:
         self.db_manager = None
         if self.enable_database:
             try:
-                db_path = self.data_dir / "crypto_market.db"
+                db_path = self.data_dir / "market.db"
                 self.db_manager = DatabaseManager(str(db_path))
                 self.logger.info("数据库功能已启用")
             except Exception as e:
