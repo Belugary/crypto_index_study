@@ -19,6 +19,58 @@ import logging
 logger = logging.getLogger(__name__)
 
 
+class MetadataLoader:
+    """
+    加载币种元数据的工具类
+    """
+    
+    def __init__(self, project_root: Optional[Path] = None):
+        self.project_root = project_root or Path(__file__).parent.parent.parent
+        self._metadata_cache = None
+    
+    def _load_metadata(self) -> Dict[str, Dict[str, str]]:
+        """加载所有元数据文件并合并"""
+        if self._metadata_cache is not None:
+            return self._metadata_cache
+        
+        metadata = {}
+        metadata_dir = self.project_root / "data" / "metadata"
+        
+        # 加载各种元数据文件
+        for csv_file in ["native_coins.csv", "stablecoins.csv", "wrapped_coins.csv"]:
+            file_path = metadata_dir / csv_file
+            if file_path.exists():
+                try:
+                    df = pd.read_csv(file_path)
+                    for _, row in df.iterrows():
+                        coin_id = row['coin_id']
+                        metadata[coin_id] = {
+                            'symbol': row.get('symbol', coin_id.upper()),
+                            'name': row.get('name', coin_id.title())
+                        }
+                except Exception as e:
+                    logger.warning(f"加载元数据文件失败 {csv_file}: {e}")
+        
+        self._metadata_cache = metadata
+        return metadata
+    
+    def get_coin_info(self, coin_id: str) -> Tuple[str, str]:
+        """
+        获取币种的 symbol 和 name
+        
+        Returns:
+            tuple: (symbol, name)
+        """
+        metadata = self._load_metadata()
+        if coin_id in metadata:
+            info = metadata[coin_id]
+            return info['symbol'], info['name']
+        else:
+            # 回退到基于coin_id的默认值
+            logger.warning(f"未找到币种 {coin_id} 的元数据，使用默认值")
+            return coin_id.upper(), coin_id.title()
+
+
 class DatabaseManager:
     """
     数据库管理器 - 统一的数据库访问接口
@@ -37,6 +89,7 @@ class DatabaseManager:
             db_path: 数据库文件路径
         """
         self.db_path = Path(db_path)
+        self._metadata_loader = MetadataLoader()
         
         if not self.db_path.exists():
             raise FileNotFoundError(f"数据库文件不存在: {db_path}")
@@ -87,7 +140,7 @@ class DatabaseManager:
             price,
             volume,
             market_cap,
-            market_cap_rank as rank
+            rank
         FROM daily_market_data
         WHERE date = ?
           AND market_cap > 0
@@ -144,7 +197,7 @@ class DatabaseManager:
             d.price,
             d.volume,
             d.market_cap,
-            d.market_cap_rank as rank
+            d.rank
         FROM daily_market_data d
         WHERE d.coin_id = ?
           AND d.date >= ?
@@ -180,7 +233,7 @@ class DatabaseManager:
             c.symbol,
             c.name,
             d.market_cap,
-            d.market_cap_rank as rank
+            d.rank
         FROM daily_market_data d
         JOIN coins c ON d.coin_id = c.id
         WHERE d.date = ?
@@ -441,17 +494,69 @@ class DatabaseManager:
                 if cursor.fetchone():
                     return  # 币种已存在
                 
-                # 插入基础币种信息 (symbol 和 name 暂时使用 coin_id)
+                # 从元数据获取真实的 symbol 和 name
+                symbol, name = self._metadata_loader.get_coin_info(coin_id)
+                
+                # 插入币种信息，使用真实的元数据
                 cursor.execute("""
                     INSERT OR IGNORE INTO coins (id, symbol, name, last_updated)
                     VALUES (?, ?, ?, ?)
-                """, [coin_id, coin_id.upper(), coin_id.title(), datetime.now().isoformat()])
+                """, [coin_id, symbol, name, datetime.now().isoformat()])
                 
                 conn.commit()
-                logger.debug(f"新增币种: {coin_id}")
+                logger.debug(f"新增币种: {coin_id} (symbol: {symbol}, name: {name})")
                 
         except Exception as e:
             logger.error(f"确保币种存在失败 {coin_id}: {e}")
+
+    def update_coin_metadata(self, force_update: bool = False) -> int:
+        """
+        更新所有币种的元数据（symbol 和 name）
+        
+        Args:
+            force_update: 是否强制更新所有币种（包括已有正确数据的）
+            
+        Returns:
+            int: 更新的币种数量
+        """
+        updated_count = 0
+        
+        try:
+            with sqlite3.connect(self.db_path) as conn:
+                cursor = conn.cursor()
+                
+                # 获取所有需要更新的币种
+                if force_update:
+                    cursor.execute("SELECT id FROM coins")
+                else:
+                    # 只更新那些 symbol 为空或等于大写 coin_id 的记录
+                    cursor.execute("""
+                        SELECT id FROM coins 
+                        WHERE symbol = '' OR symbol = UPPER(id) OR name = id OR name LIKE '%' || UPPER(SUBSTR(id, 1, 1)) || LOWER(SUBSTR(id, 2)) || '%'
+                    """)
+                
+                coin_ids = [row[0] for row in cursor.fetchall()]
+                
+                for coin_id in coin_ids:
+                    symbol, name = self._metadata_loader.get_coin_info(coin_id)
+                    
+                    cursor.execute("""
+                        UPDATE coins 
+                        SET symbol = ?, name = ?, last_updated = ?
+                        WHERE id = ?
+                    """, [symbol, name, datetime.now().isoformat(), coin_id])
+                    
+                    updated_count += 1
+                    if updated_count % 100 == 0:
+                        logger.info(f"已更新 {updated_count} 个币种的元数据...")
+                
+                conn.commit()
+                logger.info(f"币种元数据更新完成，共更新 {updated_count} 个币种")
+                
+        except Exception as e:
+            logger.error(f"更新币种元数据失败: {e}")
+        
+        return updated_count
 
 
 
