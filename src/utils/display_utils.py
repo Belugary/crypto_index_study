@@ -64,8 +64,10 @@ class CryptoDataDisplayer:
             'symbol': '代码',
             'name': '币种名称', 
             'price': '价格($)',
-            'market_cap': '市值(1M$)',
+            # 市值改为按十亿美元(1B$)为单位显示
+            'market_cap': '市值(1B$)',
             'volume': '成交量($)',
+            # 权重列表头已包含(%)，单元格内部不再附加百分号
             'weight': '权重(%)',
             'change_24h': '24h涨跌(%)',
             'change_7d': '7d涨跌(%)'
@@ -339,9 +341,9 @@ class CryptoDataDisplayer:
             display_data['price'] = display_data['price'].apply(lambda x: f"{x:,.4f}" if pd.notna(x) else "N/A")
         
         if 'market_cap' in display_data.columns:
-            # 市值以百万美元为单位显示
+            # 市值以十亿美元为单位显示 (1B$)，保持整数与千分位
             display_data['market_cap'] = display_data['market_cap'].apply(
-                lambda x: f"{x/1_000_000:,.0f}" if pd.notna(x) and x > 0 else "N/A"
+                lambda x: f"{x/1_000_000_000:,.0f}" if pd.notna(x) and x > 0 else "N/A"
             )
         
         if 'volume' in display_data.columns:
@@ -350,9 +352,13 @@ class CryptoDataDisplayer:
             )
         
         # 格式化百分比列
-        percentage_columns = [col for col in ['change_24h', 'change_7d', 'weight'] if col in display_data.columns]
-        for col in percentage_columns:
-            display_data[col] = display_data[col].apply(
+        # 百分比列格式化：权重不加百分号，其它涨跌幅保留百分号
+        if 'weight' in display_data.columns:
+            display_data['weight'] = display_data['weight'].apply(
+                lambda x: f"{x:.2f}" if pd.notna(x) else "N/A"
+            )
+        for pct_col in [c for c in ['change_24h', 'change_7d'] if c in display_data.columns]:
+            display_data[pct_col] = display_data[pct_col].apply(
                 lambda x: f"{x:.2f}%" if pd.notna(x) else "N/A"
             )
         
@@ -361,10 +367,12 @@ class CryptoDataDisplayer:
         
         return display_data
     
-    def show_table(self, data: pd.DataFrame, 
+    def show_table(self, data: pd.DataFrame,
                    columns: Optional[List[str]] = None,
                    top_n: Optional[int] = None,
-                   title: Optional[str] = None) -> Optional[pd.DataFrame]:
+                   title: Optional[str] = None,
+                   page_size: int = 50,
+                   show_info: bool = False) -> Optional[pd.DataFrame]:
         """展示格式化的数据表格
         
         整合数据格式化和表格显示功能，提供完整的展示流程：
@@ -376,8 +384,10 @@ class CryptoDataDisplayer:
         Args:
             data: 要展示的数据DataFrame
             columns: 要显示的列名列表
-            top_n: 显示前N行数据，None表示显示全部
+            top_n: 显示前N行（在分页之前裁剪）；None 表示不裁剪
             title: 表格标题
+            page_size: 分页大小（仅 Jupyter 显示时生效）；若数据行数 > page_size，则分页
+            show_info: 是否显示行数提示（默认关闭，保持输出极简）
         
         Returns:
             pd.DataFrame: 格式化后的展示数据
@@ -393,22 +403,31 @@ class CryptoDataDisplayer:
         # 格式化数据
         formatted_data = self.format_crypto_data(data, columns)
         
-        # 筛选前N行
+        # 筛选前N行（如果指定）
         if top_n is not None:
             display_subset = formatted_data.head(top_n)
-            print(f"📋 显示前 {min(top_n, len(formatted_data))} 行数据")
         else:
             display_subset = formatted_data
-            print(f"📋 显示全部 {len(formatted_data)} 行数据")
-        
-        # 显示标题
+
+        total_rows = len(display_subset)
+
+        # 标题
         if title:
             print(f"\n📊 {title}")
-            print("=" * 50)
+        if show_info:
+            print(f"(rows={total_rows})")
         
         # 在Jupyter环境中优化显示
         if IPYTHON_AVAILABLE:
-            display(display_subset)
+            # 分页显示：若行数超过 page_size，分块展示
+            if total_rows > page_size and page_size > 0:
+                for start in range(0, total_rows, page_size):
+                    end = min(start + page_size, total_rows)
+                    if show_info:
+                        print(f"第 {start+1}-{end} 行 / 共 {total_rows} 行")
+                    display(display_subset.iloc[start:end])
+            else:
+                display(display_subset)
             # 返回None避免Jupyter自动显示返回值
             return None
         else:

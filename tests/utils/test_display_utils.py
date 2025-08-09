@@ -88,12 +88,8 @@ class TestCryptoDataDisplayer(unittest.TestCase):
     def test_format_crypto_data_basic(self):
         """测试基本格式化功能"""
         formatted = self.displayer.format_crypto_data(self.test_data)
-        
-        # 检查列名转换
-        expected_columns = ['排名', '代码', '币种名称', '价格($)', '市值(1M$)']
+        expected_columns = ['排名', '代码', '币种名称', '价格($)', '市值(1B$)']
         self.assertEqual(list(formatted.columns), expected_columns)
-        
-        # 检查数据行数
         self.assertEqual(len(formatted), len(self.test_data))
     
     def test_format_crypto_data_price_formatting(self):
@@ -110,11 +106,9 @@ class TestCryptoDataDisplayer(unittest.TestCase):
         """测试市值格式化"""
         columns = ['market_cap']
         formatted = self.displayer.format_crypto_data(self.test_data, columns)
-        
-        # 检查市值格式化 (转换为百万美元单位)
-        market_caps = formatted['市值(1M$)'].tolist()
-        self.assertEqual(market_caps[0], "1,280,000")  # Bitcoin: 1.28T -> 1,280,000M
-        self.assertEqual(market_caps[1], "380,000")    # Ethereum: 380B -> 380,000M
+        market_caps = formatted['市值(1B$)'].tolist()
+        self.assertEqual(market_caps[0], "1,280")
+        self.assertEqual(market_caps[1], "380")
     
     def test_format_crypto_data_name_corrections(self):
         """测试名称修正"""
@@ -136,21 +130,20 @@ class TestCryptoDataDisplayer(unittest.TestCase):
         self.assertTrue(formatted.empty)
     
     def test_show_table(self):
-        """测试表格显示功能"""
+        """测试表格显示功能 (更新: 新版不再显示 '显示前 N 行数据' 提示)"""
         # 捕获输出
         with patch('sys.stdout', new=StringIO()) as fake_out:
-            result = self.displayer.show_table(self.test_data, top_n=3, title="测试表格")
-        
+            result = self.displayer.show_table(self.test_data, top_n=3, title="测试表格", show_info=True)
+
         # 在Jupyter环境外应该返回DataFrame，在Jupyter环境内返回None
-        # 我们在测试环境中没有IPython，所以应该返回DataFrame
         if result is not None:
             self.assertIsInstance(result, pd.DataFrame)
-            self.assertEqual(len(result), 3)  # 只显示前3行
-        
-        # 检查控制台输出
+            self.assertEqual(len(result), 3)
+
+        # 检查控制台输出（新版应包含标题与行数信息）
         output = fake_out.getvalue()
         self.assertIn("📊 测试表格", output)
-        self.assertIn("显示前 3 行数据", output)
+        self.assertIn("(rows=3)", output)
     
     def test_rank_reordering(self):
         """测试排名重排功能"""
@@ -201,6 +194,17 @@ class TestCryptoDataDisplayer(unittest.TestCase):
         self.assertIn('BTC', symbols)
         self.assertIn('ETH', symbols)
         self.assertIn('XRP', symbols)
+
+    def test_weight_without_percent_symbol(self):
+        """测试权重列不含百分号 (表头含(%) 但单元格纯数字)"""
+        data = self.test_data.copy()
+        data['weight'] = [50.0, 25.0, 10.0, 8.0, 7.0]
+        formatted = self.displayer.format_crypto_data(data, ['weight'])
+        col_name = '权重(%)'
+        self.assertIn(col_name, formatted.columns)
+        # 所有单元格不应包含 '%'
+        for v in formatted[col_name].tolist():
+            self.assertFalse('%' in v)
 
 
 def run_tests():
