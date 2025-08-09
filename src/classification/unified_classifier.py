@@ -7,6 +7,7 @@
 
 import os
 import sys
+import re
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Set
 from dataclasses import dataclass
@@ -51,7 +52,17 @@ class UnifiedClassifier:
     """
 
     # 分类关键词定义
-    STABLECOIN_KEYWORDS = {"Stablecoins"}
+    # 之前只匹配精确 "Stablecoins"，如果元数据只含有 "USD Stablecoin"、"Fiat-backed Stablecoin" 等将被漏判
+    # 扩展策略：
+    # 1) 维护一个显式已知集合（便于以后补充）
+    # 2) 任何包含 stablecoin(不区分大小写) 的分类也视为稳定币
+    STABLECOIN_KEYWORDS = {
+        "Stablecoins",
+        "USD Stablecoin",
+        "Fiat-backed Stablecoin",
+        "Algorithmic Stablecoin",
+        "Euro Stablecoin",
+    }
 
     WRAPPED_COIN_KEYWORDS = {
         "Wrapped-Tokens",
@@ -105,10 +116,15 @@ class UnifiedClassifier:
         categories = metadata.get("categories", [])
         categories_set = set(categories)
 
-        # 检查稳定币
+        # 检查稳定币（支持模糊包含 stablecoin 的分类）
         stablecoin_categories = []
+        stablecoin_pattern = re.compile(r"\bstablecoin(s)?\b", re.IGNORECASE)
         for category in categories:
-            if category in self.STABLECOIN_KEYWORDS:
+            lower = category.lower()
+            if (
+                category in self.STABLECOIN_KEYWORDS
+                or stablecoin_pattern.search(lower)  # 单词边界匹配，避免 'unstablecoin' 误判
+            ):
                 stablecoin_categories.append(category)
 
         # 检查包装币
